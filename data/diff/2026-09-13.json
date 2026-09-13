@@ -1,0 +1,882 @@
+{
+  "date": "2026-09-13",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 15,
+          "name": "打下毛线",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "躺平发育",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊娱乐文化有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 15,
+          "name": "打下毛线",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "王者征途",
+          "category": "角色",
+          "category_rank": 4,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "腾讯欢乐斗地主",
+          "category": "棋牌",
+          "category_rank": 1,
+          "subcategory": "牌类棋牌传统棋牌",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "- 稳定",
+          "change_direction": "flat"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 12,
+          "name": "全能大闯关",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款休闲小游戏！",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "梦回甄嬛传",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "梦回甄嬛传，合成物品推进剧情，收集角色卡牌、装扮家园与皮肤。",
+          "publisher": "广州擎迅网络科技有限公司",
+          "change": "15",
+          "change_direction": "down"
+        },
+        {
+          "rank": 14,
+          "name": "蛋仔派对",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "《蛋仔派对》是一款欢乐世界休闲竞技游戏",
+          "publisher": "杭州网易雷火科技有限公司",
+          "change": "11",
+          "change_direction": "down"
+        },
+        {
+          "rank": 15,
+          "name": "贪吃蛇大作战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "这是一款有毒的游戏～！",
+          "publisher": "武汉微派网络科技有限公司",
+          "change": "15",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "猛鬼宿舍",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "门不倒，人不跑，看看你能撑几秒！",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "7",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "三国杀",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "三分钟一局，快节奏对战",
+          "publisher": "杭州游卡网络技术有限公司",
+          "change": "1",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 12,
+          "name": "全能大闯关",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "一款休闲小游戏！",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "保卫向日葵",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "《保卫向日葵》是融合背包合成、Roguelike、塔防元素的休闲游戏",
+          "publisher": "深圳市一起梦游科技有限公司",
+          "change": "36",
+          "change_direction": "down"
+        },
+        {
+          "rank": 11,
+          "name": "遗弃之地",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "鬼怪题材横版策略塔防游戏，通过释放符咒、搭配天书技能获得胜利",
+          "publisher": "北京智诚互娱科技有限公司",
+          "change": "43",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "赵云与阿斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "不是阿斗扶不起，赵云更有性价比！",
+          "publisher": "北京蜜獾兄弟科技有限公司",
+          "change": "7",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 13,
+          "name": "欢乐少年酷跑",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "在空中平台飞行跑酷，避开熔岩，失足坠落即挑战失败。",
+          "publisher": "厦门大橙互娱科技有限公司",
+          "change": "27",
+          "change_direction": "down"
+        },
+        {
+          "rank": 15,
+          "name": "消个瓶子",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "倒水易上手，通关无难度",
+          "publisher": "深圳奇象互动网络有限公司",
+          "change": "27",
+          "change_direction": "down"
+        },
+        {
+          "rank": 16,
+          "name": "蜘蛛纸牌合集",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "经典蜘蛛纸牌合集一网打尽！",
+          "publisher": "上海星屿闲游科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "快逃离岩浆",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "滚烫岩浆步步紧逼，奋力爬塔躲避，开启惊险逃生之旅！",
+          "publisher": "厦门霄赞贸易有限公司",
+          "change": "7",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "浪漫花都",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "栽下满城春，开出一店香~",
+          "publisher": "深圳天苻科技有限公司",
+          "change": "28",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "吃鸡训练营3D",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "是一款射击生存游戏，开启一场扣人心弦的生存竞技之旅。",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "咕嘎咕嘎",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "合成角色挖掘方块，开启宝箱，收集金币并挑战关卡。",
+          "publisher": "合肥金蛋互动科技有限公司",
+          "change": "26",
+          "change_direction": "down"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 13,
+          "name": "欢乐少年酷跑",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "在空中平台飞行跑酷，避开熔岩，失足坠落即挑战失败。",
+          "publisher": "厦门大橙互娱科技有限公司",
+          "change": "27",
+          "change_direction": "down"
+        },
+        {
+          "rank": 15,
+          "name": "消个瓶子",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "倒水易上手，通关无难度",
+          "publisher": "深圳奇象互动网络有限公司",
+          "change": "27",
+          "change_direction": "down"
+        },
+        {
+          "rank": 16,
+          "name": "蜘蛛纸牌合集",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "经典蜘蛛纸牌合集一网打尽！",
+          "publisher": "上海星屿闲游科技有限公司",
+          "change": "新进榜",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "快逃离岩浆",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "滚烫岩浆步步紧逼，奋力爬塔躲避，开启惊险逃生之旅！",
+          "publisher": "厦门霄赞贸易有限公司",
+          "change": "7",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "浪漫花都",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "栽下满城春，开出一店香~",
+          "publisher": "深圳天苻科技有限公司",
+          "change": "28",
+          "change_direction": "down"
+        },
+        {
+          "rank": 20,
+          "name": "吃鸡训练营3D",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "是一款射击生存游戏，开启一场扣人心弦的生存竞技之旅。",
+          "publisher": "个人开发者",
+          "change": "新进榜",
+          "change_direction": "flat"
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "对峙：交锋时刻",
+          "publisher": "梧桐",
+          "category": "射击",
+          "subcategory": "FPS、竞技、动作"
+        },
+        {
+          "rank": 9,
+          "name": "龙岛异兽起源",
+          "publisher": "微乐游戏",
+          "category": "生存",
+          "subcategory": "开放世界、冒险、恐龙"
+        },
+        {
+          "rank": 10,
+          "name": "粒粒的小人国",
+          "publisher": "腾讯",
+          "category": "模拟经营",
+          "subcategory": "建造、治愈、休闲、3D、社交、种田、换装、多人联机、角色扮演"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 83,
+          "name": "ReBet: Social Sports & Casino",
+          "publisher": "Rebet, Inc.",
+          "category": "Games",
+          "app_id": "6468762763",
+          "url": "https://apps.apple.com/us/app/rebet-social-sports-casino/id6468762763?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/2b/e4/492be446-12b9-01ad-f471-16865417ef5e/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+          "slogan": "Think you can call the next big play? ReBet is a social sportsbook and social ca"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 69,
+          "name": "Hole.io",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1389111413",
+          "url": "https://apps.apple.com/us/app/hole-io/id1389111413?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/d6/87/56d6878f-b34f-d416-0a3f-92bed2367740/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Hole.io, the wildly satisfying eat-the-world game played by millions!"
+        },
+        {
+          "rank": 72,
+          "name": "Geometry Dash Lite",
+          "publisher": "RobTop Games AB",
+          "category": "Games",
+          "app_id": "698255242",
+          "url": "https://apps.apple.com/us/app/geometry-dash-lite/id698255242?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/08/7f/2a087f71-90d8-b8a0-7f4d-97a0c35e2194/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "Jump and fly your way through danger in this rhythm-based action platformer!\n\n\"F"
+        },
+        {
+          "rank": 75,
+          "name": "Imposter Game - Party Edition",
+          "publisher": "Sven Vucak",
+          "category": "Games",
+          "app_id": "6745120053",
+          "url": "https://apps.apple.com/us/app/imposter-game-party-edition/id6745120053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/69/e0/1069e0bd-1564-9f77-7ea4-a8072e6e90ff/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "Are you the imposter - or will you expose them?\n\nImposter is the perfect game fo"
+        },
+        {
+          "rank": 79,
+          "name": "Rap Star:Idle Clicker",
+          "publisher": "聪 马",
+          "category": "Games",
+          "app_id": "6761469046",
+          "url": "https://apps.apple.com/us/app/rap-star-idle-clicker/id6761469046?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/3c/74/533c741b-d78d-9221-28de-230b0aa89f1a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "From streets to stardom — tap, rap, earn, date, collect. Rap Star: Idle Clicker "
+        },
+        {
+          "rank": 84,
+          "name": "Cookingo: Perfect Meal",
+          "publisher": "Higame Global Limited",
+          "category": "Games",
+          "app_id": "6756288168",
+          "url": "https://apps.apple.com/us/app/cookingo-perfect-meal/id6756288168?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/f4/65/5ff465ab-c04b-fff5-79e3-5fc19a770fb3/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to Cookingo, your peaceful little escape from the hustle and bustle of e"
+        },
+        {
+          "rank": 87,
+          "name": "Block Craft 3D: Building Games",
+          "publisher": "Wildlife Studios",
+          "category": "Games",
+          "app_id": "981633844",
+          "url": "https://apps.apple.com/us/app/block-craft-3d-building-games/id981633844?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/da/80/e6da80a1-ccf2-a7cc-e301-7049467d42bd/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Craft and grow your own village or build freely in an unlimited open world!\n\n+ C"
+        },
+        {
+          "rank": 92,
+          "name": "Dark War:Survival",
+          "publisher": "Omnilojo Pte Ltd",
+          "category": "Games",
+          "app_id": "6670441558",
+          "url": "https://apps.apple.com/us/app/dark-war-survival/id6670441558?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/1f/4b/541f4bf5-3dfd-b581-1823-d2835495b9cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Gear up and brace yourself for the ultimate test of zombie apocalypse survival! "
+        },
+        {
+          "rank": 94,
+          "name": "EA SPORTS FC Soccer Mobile 26",
+          "publisher": "Electronic Arts",
+          "category": "Games",
+          "app_id": "1094930513",
+          "url": "https://apps.apple.com/us/app/ea-sports-fc-soccer-mobile-26/id1094930513?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/53/62/115362dd-6195-b5d4-e42a-b73ef93e28f5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "This game includes optional in-game purchases of virtual currency that can be us"
+        },
+        {
+          "rank": 95,
+          "name": "Idle Cat Gunner: Shooter RPG",
+          "publisher": "Neptune Company",
+          "category": "Games",
+          "app_id": "6764201639",
+          "url": "https://apps.apple.com/us/app/idle-cat-gunner-shooter-rpg/id6764201639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/01/23/b9012383-58c8-db4f-7543-c675801e9a47/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Smash through obstacles, push forward, and grow without limits!\nSimple controls."
+        },
+        {
+          "rank": 100,
+          "name": "Glow Fashion Idol",
+          "publisher": "Crazy Labs",
+          "category": "Games",
+          "app_id": "6446197181",
+          "url": "https://apps.apple.com/us/app/glow-fashion-idol/id6446197181?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/a0/24/a0a02457-e0e2-0620-54c7-debad4987131/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to Glow Fashion Idol — a fashion makeover and dress-up game where every "
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 83,
+          "name": "ReBet: Social Sports & Casino",
+          "publisher": "Rebet, Inc.",
+          "category": "Games",
+          "app_id": "6468762763",
+          "url": "https://apps.apple.com/us/app/rebet-social-sports-casino/id6468762763?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/2b/e4/492be446-12b9-01ad-f471-16865417ef5e/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+          "slogan": "Think you can call the next big play? ReBet is a social sportsbook and social ca"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 10,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 83,
+          "name": "ReBet: Social Sports & Casino",
+          "publisher": "Rebet, Inc.",
+          "category": "Games",
+          "app_id": "6468762763",
+          "url": "https://apps.apple.com/us/app/rebet-social-sports-casino/id6468762763?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/2b/e4/492be446-12b9-01ad-f471-16865417ef5e/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+          "slogan": "Think you can call the next big play? ReBet is a social sportsbook and social ca"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 87,
+          "name": "罗斯方块—快乐方块单机格子游戏怀旧经典版",
+          "publisher": "Wuhan Dobest Information Technology Co, Ltd.",
+          "category": "游戏",
+          "app_id": "1094636977",
+          "url": "https://apps.apple.com/cn/app/%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97-%E5%BF%AB%E4%B9%90%E6%96%B9%E5%9D%97%E5%8D%95%E6%9C%BA%E6%A0%BC%E5%AD%90%E6%B8%B8%E6%88%8F%E6%80%80%E6%97%A7%E7%BB%8F%E5%85%B8%E7%89%88/id1094636977?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/31/19/6a311907-0ed3-6460-5cff-52c2fd64a7c2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "罗斯方块是众多玩家早期接触的一款经典方块。如今它改头换面，以全新的面貌出现在你的面前。这款方块产品，会再度刮起一股狂潮，让方块爱好者欲罢不能。别再观望啦，下载体"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 91,
+          "name": "元梦之星",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1632344522",
+          "url": "https://apps.apple.com/cn/app/%E5%85%83%E6%A2%A6%E4%B9%8B%E6%98%9F/id1632344522?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/71/46/58714613-f8ea-6cc6-9299-ff297c63a514/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《元梦之星》是一款轻松社交派对游戏，玩家们可以化身星宝，体验纯粹的游玩乐趣，收获简单的快乐。无论i人e人，都能轻松找到属于自己的社交方式。\n\n《元梦之星》的快乐"
+        },
+        {
+          "rank": 97,
+          "name": "迷你枪战精英",
+          "publisher": "Hainan Mengxing Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "1551614000",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E6%9E%AA%E6%88%98%E7%B2%BE%E8%8B%B1/id1551614000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/09/fa/6909fa5f-78f2-3533-7b9a-d30e72759c2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《迷你枪战精英》是迷你世界IP矩阵下全新推出的一款射击手游。明亮清新的Q版画风，紧张刺激的团队对抗，提供不同以往的 游戏体验。游戏内小艾、幻音、幻-零式、华乐等"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 81,
+          "name": "再玩亿关",
+          "publisher": "无锡地鼠洞网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6475002539",
+          "url": "https://apps.apple.com/cn/app/%E5%86%8D%E7%8E%A9%E4%BA%BF%E5%85%B3/id6475002539?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/1a/37/cd1a3792-b674-b2c1-d06d-e6f9e9238831/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《再玩亿关》是一款风靡全球的休闲解压类小游戏，深受各年龄段玩家喜爱。\n无论是家人、朋友还是孩子，都可以一起畅玩，分享轻松愉快的游戏时光。\n全球已有超过2000万"
+        },
+        {
+          "rank": 92,
+          "name": "模拟城市：我是市长",
+          "publisher": "Beijing Bewinner Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "1174766830",
+          "url": "https://apps.apple.com/cn/app/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%82-%E6%88%91%E6%98%AF%E5%B8%82%E9%95%BF/id1174766830?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/3f/6f/743f6fc0-4932-bd9c-ed03-dc71252f56da/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "享誉全球的经典3D模拟经营手游，倾情打造全新“开元古都”国风资料片！\n\n由EA开发、蜂巢游戏独家国内发行的《模拟城市：我是市长》，即将迎来市民入驻啦！一起建设高"
+        },
+        {
+          "rank": 93,
+          "name": "香肠派对",
+          "publisher": "X.D. Network Inc.",
+          "category": "游戏",
+          "app_id": "1326730621",
+          "url": "https://apps.apple.com/cn/app/%E9%A6%99%E8%82%A0%E6%B4%BE%E5%AF%B9/id1326730621?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/ec/c9/75ecc9ca-39bb-e290-0fec-6e7804befdd6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "SS26新赛季：集结！梦幻肠岛。四岛合一，时空相聚，九年青春，拥抱回忆\n\n「摸金派对」专属大厅中选择战备物资，进入地图探索搜集，与怪物、对手对抗，撤离即可把宝物"
+        },
+        {
+          "rank": 96,
+          "name": "极品飞车：集结",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1598249037",
+          "url": "https://apps.apple.com/cn/app/%E6%9E%81%E5%93%81%E9%A3%9E%E8%BD%A6-%E9%9B%86%E7%BB%93/id1598249037?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/a7/c8/9ea7c81b-d9d8-f4b2-4661-59cc520d165e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【开放世界 自由探索】\n欢迎来到一亿平米热湾大世界，在这里，12种风貌各异的区域，20个地标以及500个玩法点等你来探索。高自由度地图搭配上丰富的单人以及多人玩"
+        },
+        {
+          "rank": 98,
+          "name": "猛鬼宿舍",
+          "publisher": "Beijing Mihuan Games Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "1609347000",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%9B%E9%AC%BC%E5%AE%BF%E8%88%8D/id1609347000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/b6/cc/d2b6cc90-ab64-1605-8bb3-2d84064029e9/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "《猛鬼宿舍》是一款2D塔防小游戏。游戏中玩家需躲避猎梦者的追捕，寻找适合自己的宿舍躲避，并发展经济建造炮台，抵御猎梦者。游戏中玩家只可以在房间中的空地板上进行建"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 87,
+          "name": "罗斯方块—快乐方块单机格子游戏怀旧经典版",
+          "publisher": "Wuhan Dobest Information Technology Co, Ltd.",
+          "category": "游戏",
+          "app_id": "1094636977",
+          "url": "https://apps.apple.com/cn/app/%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97-%E5%BF%AB%E4%B9%90%E6%96%B9%E5%9D%97%E5%8D%95%E6%9C%BA%E6%A0%BC%E5%AD%90%E6%B8%B8%E6%88%8F%E6%80%80%E6%97%A7%E7%BB%8F%E5%85%B8%E7%89%88/id1094636977?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/31/19/6a311907-0ed3-6460-5cff-52c2fd64a7c2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "罗斯方块是众多玩家早期接触的一款经典方块。如今它改头换面，以全新的面貌出现在你的面前。这款方块产品，会再度刮起一股狂潮，让方块爱好者欲罢不能。别再观望啦，下载体"
+        },
+        {
+          "rank": 91,
+          "name": "元梦之星",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1632344522",
+          "url": "https://apps.apple.com/cn/app/%E5%85%83%E6%A2%A6%E4%B9%8B%E6%98%9F/id1632344522?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/71/46/58714613-f8ea-6cc6-9299-ff297c63a514/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "《元梦之星》是一款轻松社交派对游戏，玩家们可以化身星宝，体验纯粹的游玩乐趣，收获简单的快乐。无论i人e人，都能轻松找到属于自己的社交方式。\n\n《元梦之星》的快乐"
+        },
+        {
+          "rank": 97,
+          "name": "迷你枪战精英",
+          "publisher": "Hainan Mengxing Technology Co.,Ltd",
+          "category": "游戏",
+          "app_id": "1551614000",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E6%9E%AA%E6%88%98%E7%B2%BE%E8%8B%B1/id1551614000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/09/fa/6909fa5f-78f2-3533-7b9a-d30e72759c2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《迷你枪战精英》是迷你世界IP矩阵下全新推出的一款射击手游。明亮清新的Q版画风，紧张刺激的团队对抗，提供不同以往的 游戏体验。游戏内小艾、幻音、幻-零式、华乐等"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 62,
+          "name": "Water Sort Puzzle : Challenge",
+          "publisher": "贺翔 段",
+          "category": "ゲーム",
+          "app_id": "6787414784",
+          "url": "https://apps.apple.com/jp/app/water-sort-puzzle-challenge/id6787414784?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/77/91/5f779194-85ef-b50e-293d-383f34be36a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Water Sort Puzzle : Challenge is a relaxing color sorting game with simple rules"
+        },
+        {
+          "rank": 99,
+          "name": "Red Flag Sim",
+          "publisher": "畅 刘",
+          "category": "ゲーム",
+          "app_id": "6740720825",
+          "url": "https://apps.apple.com/jp/app/red-flag-sim/id6740720825?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/9f/09/9b9f0945-97be-d287-3213-82615c11010e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Red Flag Simは、モバイルデバイス向けに開発された、本格的な現代軍用航空シミュレーターです。\n\nこれまでモバイルには、十分な奥深さを備えた空戦フライト"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 83,
+          "name": "魔法のタイルズ 3™: 音ゲー ピアノタイル",
+          "publisher": "Amanotes Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "1443446174",
+          "url": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%BA-3-%E9%9F%B3%E3%82%B2%E3%83%BC-%E3%83%94%E3%82%A2%E3%83%8E%E3%82%BF%E3%82%A4%E3%83%AB/id1443446174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/90/31/0f90312b-db0e-a139-4610-f0b283f7dd10/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一年で一番大切な瞬間を、リズムにのって楽しみましょう！ヒット曲のビートで、魂ごとを音楽にのせていきましょう。\n\n\nMagic Tiles 3では、ポップス、ラッ"
+        },
+        {
+          "rank": 94,
+          "name": "Castle Busters",
+          "publisher": "Voodoo",
+          "category": "ゲーム",
+          "app_id": "6746328263",
+          "url": "https://apps.apple.com/jp/app/castle-busters/id6746328263?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/3b/a8/9b3ba859-bf69-2d54-0c8e-01590b965091/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "SMASH EVERY CASTLE. RULE EVERY ARENA.\nCastle Busters is fast, loud, and unfair i"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 62,
+          "name": "Water Sort Puzzle : Challenge",
+          "publisher": "贺翔 段",
+          "category": "ゲーム",
+          "app_id": "6787414784",
+          "url": "https://apps.apple.com/jp/app/water-sort-puzzle-challenge/id6787414784?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/77/91/5f779194-85ef-b50e-293d-383f34be36a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Water Sort Puzzle : Challenge is a relaxing color sorting game with simple rules"
+        },
+        {
+          "rank": 99,
+          "name": "Red Flag Sim",
+          "publisher": "畅 刘",
+          "category": "ゲーム",
+          "app_id": "6740720825",
+          "url": "https://apps.apple.com/jp/app/red-flag-sim/id6740720825?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/9f/09/9b9f0945-97be-d287-3213-82615c11010e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Red Flag Simは、モバイルデバイス向けに開発された、本格的な現代軍用航空シミュレーターです。\n\nこれまでモバイルには、十分な奥深さを備えた空戦フライト"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 2,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 62,
+          "name": "Water Sort Puzzle : Challenge",
+          "publisher": "贺翔 段",
+          "category": "ゲーム",
+          "app_id": "6787414784",
+          "url": "https://apps.apple.com/jp/app/water-sort-puzzle-challenge/id6787414784?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/77/91/5f779194-85ef-b50e-293d-383f34be36a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Water Sort Puzzle : Challenge is a relaxing color sorting game with simple rules"
+        },
+        {
+          "rank": 99,
+          "name": "Red Flag Sim",
+          "publisher": "畅 刘",
+          "category": "ゲーム",
+          "app_id": "6740720825",
+          "url": "https://apps.apple.com/jp/app/red-flag-sim/id6740720825?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/9f/09/9b9f0945-97be-d287-3213-82615c11010e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Red Flag Simは、モバイルデバイス向けに開発された、本格的な現代軍用航空シミュレーターです。\n\nこれまでモバイルには、十分な奥深さを備えた空戦フライト"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 92,
+          "name": "Color Block Run - Puzzle Game",
+          "publisher": "Play2Ever Games",
+          "category": "Games",
+          "package": "com.griffin.colorblock.games.free.android"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 95,
+          "name": "Clash of Clans",
+          "publisher": "Supercell",
+          "category": "Games",
+          "package": "com.supercell.clashofclans"
+        },
+        {
+          "rank": 99,
+          "name": "Foodstars: Merge & Cook",
+          "publisher": "Happibits Game",
+          "category": "Games",
+          "package": "com.merge.game.foodstars"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 92,
+          "name": "Color Block Run - Puzzle Game",
+          "publisher": "Play2Ever Games",
+          "category": "Games",
+          "package": "com.griffin.colorblock.games.free.android"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 92,
+          "name": "Color Block Run - Puzzle Game",
+          "publisher": "Play2Ever Games",
+          "category": "Games",
+          "package": "com.griffin.colorblock.games.free.android"
+        }
+      ]
+    }
+  }
+}
