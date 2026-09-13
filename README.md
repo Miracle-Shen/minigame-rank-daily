@@ -254,7 +254,61 @@ cron 是 UTC，加 8 小时是北京时间。常用：
 
 ---
 
-## 六、常见问题
+## 六、周报邮件推送（企业微信邮箱 / 腾讯企业邮）
+
+周一 9:00 的 `weekly.yml` 生成报告后，会自动把周报以 HTML 正文邮件发给成员。
+
+**服务器参数**（企业微信邮箱 = 腾讯企业邮）
+
+| 项 | 值 |
+| --- | --- |
+| SMTP | `smtp.exmail.qq.com` · 端口 `465` · SSL（失败自动回落 `587` STARTTLS） |
+| 备用 SMTP | `hwsmtp.exmail.qq.com` |
+| 密码 | **16 位客户端专用密码**，不是邮箱登录密码 |
+
+**三步开通 SMTP（缺一不可）**
+
+1. **管理员**：企业微信管理后台 →【协作】→【安全管理】→【客户端访问限制】→
+   修改 Exchange/IMAP/SMTP 服务范围 → 勾选发信账号；
+2. **用户**：网页版邮箱 `exmail.qq.com/login`（扫码登录）→【设置】→【收发信设置】→
+   勾选「开启 IMAP/SMTP 服务」→ 保存；
+3. **用户**：【设置】→【邮箱绑定】→ 开启「安全登录」→【生成新密码】→ 复制 16 位专用密码。
+
+**配置 Secrets**（仓库 Settings → Secrets and variables → Actions）
+
+| Secret | 必填 | 说明 |
+| --- | --- | --- |
+| `MAIL_USER` | ✅ | 发件邮箱，如 `miracleshen@tencent.com` |
+| `MAIL_PASS` | ✅ | 16 位客户端专用密码 |
+| `MAIL_TO` | ✅ | 收件人，逗号分隔 |
+| `MAIL_CC` | — | 抄送，逗号分隔 |
+| `MAIL_HOST` | — | 默认 `smtp.exmail.qq.com` |
+| `MAIL_PORT` | — | 默认 `465` |
+| `MAIL_FROM_NAME` | — | 发件人显示名，默认「微信小游戏周报」 |
+| `WECOM_WEBHOOK` | — | 企业微信群机器人 Webhook，配了会额外推一条摘要 |
+
+**先自检再等周一**：手动触发 `Mail Channel Test` 工作流（Actions → 左侧选它 → Run workflow），
+它会执行 `--check`（连接 + 登录）并按需发一封测试信。**注意**：GitHub 托管 runner 是动态
+公网 IP，若公司邮箱后台配了 IP 白名单，会出现登录失败 —— 这种情况改用群机器人 Webhook，
+或把 `MAIL_HOST` 换成内网可达的自建 SMTP。
+
+**本地调试**
+
+```bash
+export MAIL_USER=... MAIL_PASS=... MAIL_TO=...
+python scripts/monitor/send_mail.py --check --send-test   # 测通道
+python scripts/monitor/send_mail.py --dry-run             # 落 _mail_preview/mail-<日期>.eml，不发信
+python scripts/monitor/send_mail.py --latest              # 发最新一期
+python scripts/monitor/send_mail.py --latest --to a@x.com # 临时改收件人
+```
+
+邮件为 `multipart/mixed`：正文是 `text/plain`（周报 Markdown）+ `text/html`（全内联样式，
+手机上直接可读），并附上 `.md` / `.html` 两个文件便于转发。未配置邮件 Secrets 时
+`weekly.yml` 会跳过发信并给出 warning，不影响报告生成与提交。
+
+---
+
+## 七、常见问题
 
 **Q：Actions 跑失败说找不到登录态？**
 A：检查 Secret `GRAVITY_AUTH` 是否填了完整 JSON，注意复制时不要丢了首尾的 `{` `}`。失败也不阻塞 —— Action 会回落到匿名模式，只是 Top 数变少。
@@ -267,3 +321,9 @@ A：刷新一下（CDN 可能没即时刷新）。如果持续，看浏览器 Co
 
 **Q：能不能多平台抓 Apple Store / TapTap？**
 A：已支持。TapTap 预约榜 + iOS 美/国/日区游戏免费榜 + Android 美区免费游戏榜每天随主快照一起抓取（`scrape_taptap.py` / `scrape_ios.py` / `scrape_googleplay.py`）。iOS 榜单来自 Apple 官方 iTunes RSS（`itunes.apple.com/{cc}/rss/topfreeapplications/genre=6014/limit=100/json`），免登录免密钥；Android 来自 AppBrain（`appbrain.com/stats/google-play-rankings/top_free/game/us`，SSR 免登录，注意免费限流）。两者都不含排名涨跌箭头、只提供当前榜单。扩展更多国家/榜单：改对应 `scrape_*.py` 的配置 + `site/app.js` 的 `BOARD_LABELS`。引力引擎微信/抖音的选择器逻辑见 `scrape_rank.py`。
+
+**Q：周报邮件没收到？**
+A：打开 Actions 里那次 run，看 `Send weekly report email` 步骤日志。三种情况：① 日志出现
+`未配置邮件 Secrets` 的 warning —— Secrets 没填全；② `登录失败` —— 回到第六节的三步开通流程
+（专用密码 / IMAP-SMTP 开关 / 管理员客户端访问范围）；③ 日志显示已发送 —— 查收件方垃圾箱，
+或公司邮件网关拦截。想单独验证通道，手动跑 `Mail Channel Test` 工作流。

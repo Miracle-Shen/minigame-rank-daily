@@ -1,0 +1,44 @@
+name: Mail Channel Test
+
+# 只做一件事：验证 GitHub Actions → 企业微信邮箱 的 SMTP 通道是否可用。
+# 配置完 Secrets 后手动跑一次，确认能登录、能收信，再等周一的正式周报。
+on:
+  workflow_dispatch:
+    inputs:
+      send_test:
+        description: "登录成功后给自己发一封测试信"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check SMTP connectivity & login
+        env:
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_CC: ${{ secrets.MAIL_CC }}
+          MAIL_HOST: ${{ secrets.MAIL_HOST }}
+          MAIL_PORT: ${{ secrets.MAIL_PORT }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          MAIL_FROM_NAME: ${{ secrets.MAIL_FROM_NAME }}
+        run: |
+          if [ "${{ inputs.send_test }}" = "true" ]; then
+            python scripts/monitor/send_mail.py --check --send-test
+          else
+            python scripts/monitor/send_mail.py --check
+          fi
