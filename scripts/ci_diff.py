@@ -65,7 +65,10 @@ def main():
     # base/games.json if it's already in sync. Rebuild is cheap (linear
     # scan) and avoids drift, so we just always rebuild from history.
     base_before = basemod._empty()
-    history_files = files[:-1]
+    # 注意：这里不能再写 history_files = files[:-1]。
+    # 历史重拉分支已把 history_files 限定为「严格早于目标日」的文件；
+    # 若无条件覆盖成 files[:-1]，目标日之后的快照会被折进 base，
+    # 导致那天的「新进」判定被污染（游戏被误判成早已存在）。
     print(f"[diff] 重建 base 用 {len(history_files)} 份历史快照。")
     for p in history_files:
         snap = json.loads(p.read_text(encoding="utf-8"))

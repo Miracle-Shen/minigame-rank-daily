@@ -47,9 +47,11 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
+        # pycryptodome 供 scripts/scrape_gravity_http.py 解密接口响应（主抓取路径）。
+        # playwright 保留作为兜底：接口签名若变更，浏览器渲染路径可能仍可用。
         run: |
           python -m pip install --upgrade pip
-          pip install playwright openpyxl
+          pip install playwright openpyxl pycryptodome
           python -m playwright install --with-deps chromium
 
       - name: Scrape daily snapshot
@@ -69,9 +71,12 @@ jobs:
 
       - name: Sync snapshot to Supabase
         # Runs before the git commit so a DB-only failure doesn't leave
-        # the repo out of sync with the DB. If Supabase secrets aren't
-        # configured yet, the script will fail loudly — expected while
-        # setting up.
+        # the repo out of sync with the DB.
+        #
+        # 未配置 Supabase 时自动跳过（不阻塞抓取与提交）。仓库暂时不需要
+        # 数据库也能完整运行：分析层直接读 data/daily/*.json。
+        # 要启用同步：Settings → Secrets 里加 SUPABASE_URL / SUPABASE_SERVICE_KEY。
+        #
         # BACKFILL (backfill input = true) replays every existing
         # data/daily/*.json into Supabase without scraping; GRAVITY_DATE
         # makes it sync just that re-pulled day instead of latest.json.
@@ -80,7 +85,12 @@ jobs:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
           GRAVITY_DATE: ${{ github.event.inputs.date }}
           BACKFILL: ${{ github.event.inputs.backfill }}
-        run: python scripts/ci_sync_supabase.py
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "未配置 SUPABASE_URL，跳过 Supabase 同步（不影响数据落库到仓库）。"
+            exit 0
+          fi
+          python scripts/ci_sync_supabase.py
 
       - name: Commit & push data
         run: |

@@ -102,26 +102,49 @@ def main():
     # with stdlib-only modules and may still succeed while gravity-engine
     # times out — e.g. a transient outage or a slow day). Degrade to a
     # partial snapshot so iOS/TapTap data still lands in the daily file.
-    try:
-        data = core.do_scrape(
-            top_n=top_n,
-            force_anon=auth is None,
-            out_dir=daily_dir,           # core writes its own xlsx/json there
-            auth_file=auth or core.DEFAULT_AUTH_FILE,
-            log=log,
-            historical_date=hist_date,
-        )
-    except Exception as e:
-        log(f"[引力引擎] 抓取失败，降级为仅独立源快照（taptap/ios）: {e}")
-        data = {
-            "scraped_at": datetime.now().isoformat(timespec="seconds"),
-            "period": "日榜",
-            "logged_in": auth is not None,
-            "top_n_target": top_n,
-            "source": core.URL,
-            "platforms": {},
-            "gravity_error": str(e),
-        }
+    # --- 引力引擎（微信 / 抖音小游戏）：优先纯 HTTP 公开接口 ---------------
+    # scrape_gravity_http 直接调用站点自身使用的公开接口，不启动浏览器、
+    # 不依赖登录态，匿名稳定拿每榜 TOP20。比 Playwright 渲染稳定得多：
+    # 后者依赖 SPA 加载与 DOM 结构，实测会出现
+    # `Page.goto: net::ERR_CONNECTION_CLOSED`，一次失败全天数据就整块缺失。
+    #
+    # 回落顺序：HTTP → Playwright（接口签名若变更，浏览器路径可能仍可用）
+    #          → 仅独立源快照（taptap/ios），保证当天数据总能落地。
+    #
+    # 历史重拉（GRAVITY_DATE）走不了 HTTP：匿名接口只暴露"今天"，因此该
+    # 场景仍交给 Playwright + 站点日期选择器。
+    data = None
+    if not hist_date:
+        try:
+            import scrape_gravity_http as ghttp
+            data = ghttp.do_scrape(top_n=top_n, log=log)
+            data["source_mode"] = "gravity_http"
+            log("[引力引擎] HTTP 接口抓取成功（匿名 TOP20）")
+        except Exception as e:
+            log(f"[引力引擎-HTTP] 失败，回落 Playwright: {e}")
+
+    if data is None:
+        try:
+            data = core.do_scrape(
+                top_n=top_n,
+                force_anon=auth is None,
+                out_dir=daily_dir,       # core writes its own xlsx/json there
+                auth_file=auth or core.DEFAULT_AUTH_FILE,
+                log=log,
+                historical_date=hist_date,
+            )
+            data["source_mode"] = "playwright"
+        except Exception as e:
+            log(f"[引力引擎] 两条路径均失败，降级为仅独立源快照（taptap/ios）: {e}")
+            data = {
+                "scraped_at": datetime.now().isoformat(timespec="seconds"),
+                "period": "日榜",
+                "logged_in": auth is not None,
+                "top_n_target": top_n,
+                "source": core.URL,
+                "platforms": {},
+                "gravity_error": str(e),
+            }
 
     # Tag with absolute and Beijing timestamps for the UI.
     data["scraped_at_utc"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
