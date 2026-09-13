@@ -254,9 +254,12 @@ cron 是 UTC，加 8 小时是北京时间。常用：
 
 ---
 
-## 六、周报邮件推送（企业微信邮箱 / 腾讯企业邮）
+## 六、周报推送（邮件 / 企业微信群机器人）
 
-周一 9:00 的 `weekly.yml` 生成报告后，会自动把周报以 HTML 正文邮件发给成员。
+周一 9:00 的 `weekly.yml` 生成报告后自动推送周报。**两个通道任配其一即可生效，也可以都开**：
+只配 `WECOM_WEBHOOK` 就只推群，只配 `MAIL_*` 就只发邮件，都没配则跳过（只打 warning，不报错）。
+
+### 方式 A：邮箱（企业微信邮箱 / 腾讯企业邮）
 
 **服务器参数**（企业微信邮箱 = 腾讯企业邮）
 
@@ -274,37 +277,74 @@ cron 是 UTC，加 8 小时是北京时间。常用：
    勾选「开启 IMAP/SMTP 服务」→ 保存；
 3. **用户**：【设置】→【邮箱绑定】→ 开启「安全登录」→【生成新密码】→ 复制 16 位专用密码。
 
+**注意**：GitHub 托管 runner 是动态公网 IP。若公司邮箱后台配了 IP 白名单，登录会失败——
+这种情况改用方式 B，或把 `MAIL_HOST` 换成内网可达的自建 SMTP。
+
+### 方式 B：企业微信群机器人（推荐先跑通这个）
+
+**不需要任何密码**，一个 Webhook URL 即可，5 分钟能验完。
+
+**取 Webhook 地址**
+
+1. 手机/桌面端企业微信，进入要收周报的**内部群**（群机器人不能发到外部群、微信用户群）；
+2. 点右上角 `···` →【群机器人】→【添加机器人】→ 起个名字（如「榜单周报」）→ 添加；
+3. 复制形如 `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx` 的地址；
+4. 存到仓库 Secret `WECOM_WEBHOOK`。
+
+**群消息长什么样**：标题 + 本周要点（引用块）+ 品类结构 + 头部格局 + 口径说明，
+末尾可附 `[查看图文周报](链接)`。**刻意不用表格和列表**——机器人的 markdown(v1) 不支持
+这两者，用了会原样吐出一堆竖线和短横线；正文按 **4096 字节**上限自动截断并保住尾注。
+
+**已知限制（来自官方文档）**
+
+| 限制 | 说明 |
+| --- | --- |
+| 内容上限 | markdown 4096 字节（脚本已自动截断保护） |
+| 频率上限 | 每个机器人 **20 条/分钟**（周报每周 1 条，无压力） |
+| 不支持表格/列表/分割线 | 因此摘要改用空行分段 + 引用块 + `<font color>` 三色 |
+| 不支持 @所有人 | markdown 类型只能 `@` 单个成员且需 userid；要 @全体得改用文本消息的 `mentioned_list` |
+| key 即凭据 | Webhook 泄露 = 任何人可往群里发消息，只放 GitHub Secret，别写进代码或日志 |
+| 换了 key 会 93000 | 机器人被移除或 key 重置时，返回 `errcode=93000`，需重取地址 |
+
+需要表格/分割线可以切到 `WECOM_MSG_TYPE=markdown_v2`，但它**不支持字体颜色**，且要求客户端
+版本 ≥ 4.1.36（安卓 ≥ 4.1.38），低版本会整条退化成纯文本——面向多人时慎用。
+
 **配置 Secrets**（仓库 Settings → Secrets and variables → Actions）
 
-| Secret | 必填 | 说明 |
-| --- | --- | --- |
-| `MAIL_USER` | ✅ | 发件邮箱，如 `miracleshen@tencent.com` |
-| `MAIL_PASS` | ✅ | 16 位客户端专用密码 |
-| `MAIL_TO` | ✅ | 收件人，逗号分隔 |
-| `MAIL_CC` | — | 抄送，逗号分隔 |
-| `MAIL_HOST` | — | 默认 `smtp.exmail.qq.com` |
-| `MAIL_PORT` | — | 默认 `465` |
-| `MAIL_FROM_NAME` | — | 发件人显示名，默认「微信小游戏周报」 |
-| `WECOM_WEBHOOK` | — | 企业微信群机器人 Webhook，配了会额外推一条摘要 |
+| Secret | 通道 | 必填 | 说明 |
+| --- | --- | --- | --- |
+| `WECOM_WEBHOOK` | B | 二选一 | 群机器人 Webhook 地址 |
+| `MAIL_USER` | A | 二选一 | 发件邮箱，如 `miracleshen@tencent.com` |
+| `MAIL_PASS` | A | 同上 | 16 位客户端专用密码 |
+| `MAIL_TO` | A | 同上 | 收件人，逗号分隔 |
+| `MAIL_CC` | A | — | 抄送，逗号分隔 |
+| `MAIL_HOST` | A | — | 默认 `smtp.exmail.qq.com` |
+| `MAIL_PORT` | A | — | 默认 `465` |
+| `MAIL_FROM_NAME` | A | — | 发件人显示名，默认「微信小游戏周报」 |
+| `WECOM_MSG_TYPE` | B | — | 默认 `markdown`，可改 `markdown_v2` |
+| `WECOM_REPORT_URL` | B | — | 群消息末尾附「查看图文周报」链接 |
 
 **先自检再等周一**：手动触发 `Mail Channel Test` 工作流（Actions → 左侧选它 → Run workflow），
-它会执行 `--check`（连接 + 登录）并按需发一封测试信。**注意**：GitHub 托管 runner 是动态
-公网 IP，若公司邮箱后台配了 IP 白名单，会出现登录失败 —— 这种情况改用群机器人 Webhook，
-或把 `MAIL_HOST` 换成内网可达的自建 SMTP。
+它会 `--check` 所有**已配置**的通道：SMTP 连接 + 登录，以及往群里发一条自检消息。
 
 **本地调试**
 
 ```bash
+# 邮箱通道
 export MAIL_USER=... MAIL_PASS=... MAIL_TO=...
-python scripts/monitor/send_mail.py --check --send-test   # 测通道
+# 群机器人通道（不需要邮箱凭据）
+export WECOM_WEBHOOK=https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxx
+
+python scripts/monitor/send_mail.py --check --send-test   # 自检所有已配置通道
+python scripts/monitor/send_mail.py --webhook-only        # 只推群，不发邮件
 python scripts/monitor/send_mail.py --dry-run             # 落 _mail_preview/mail-<日期>.eml，不发信
 python scripts/monitor/send_mail.py --latest              # 发最新一期
 python scripts/monitor/send_mail.py --latest --to a@x.com # 临时改收件人
 ```
 
 邮件为 `multipart/mixed`：正文是 `text/plain`（周报 Markdown）+ `text/html`（全内联样式，
-手机上直接可读），并附上 `.md` / `.html` 两个文件便于转发。未配置邮件 Secrets 时
-`weekly.yml` 会跳过发信并给出 warning，不影响报告生成与提交。
+手机上直接可读），并附上 `.md` / `.html` 两个文件便于转发。两个通道都没配时
+`weekly.yml` 会跳过推送并给出 warning，不影响报告生成与提交。
 
 ---
 
@@ -322,8 +362,10 @@ A：刷新一下（CDN 可能没即时刷新）。如果持续，看浏览器 Co
 **Q：能不能多平台抓 Apple Store / TapTap？**
 A：已支持。TapTap 预约榜 + iOS 美/国/日区游戏免费榜 + Android 美区免费游戏榜每天随主快照一起抓取（`scrape_taptap.py` / `scrape_ios.py` / `scrape_googleplay.py`）。iOS 榜单来自 Apple 官方 iTunes RSS（`itunes.apple.com/{cc}/rss/topfreeapplications/genre=6014/limit=100/json`），免登录免密钥；Android 来自 AppBrain（`appbrain.com/stats/google-play-rankings/top_free/game/us`，SSR 免登录，注意免费限流）。两者都不含排名涨跌箭头、只提供当前榜单。扩展更多国家/榜单：改对应 `scrape_*.py` 的配置 + `site/app.js` 的 `BOARD_LABELS`。引力引擎微信/抖音的选择器逻辑见 `scrape_rank.py`。
 
-**Q：周报邮件没收到？**
-A：打开 Actions 里那次 run，看 `Send weekly report email` 步骤日志。三种情况：① 日志出现
-`未配置邮件 Secrets` 的 warning —— Secrets 没填全；② `登录失败` —— 回到第六节的三步开通流程
-（专用密码 / IMAP-SMTP 开关 / 管理员客户端访问范围）；③ 日志显示已发送 —— 查收件方垃圾箱，
-或公司邮件网关拦截。想单独验证通道，手动跑 `Mail Channel Test` 工作流。
+**Q：周报没收到 / 群里没消息？**
+A：打开 Actions 里那次 run，看 `Send weekly report` 步骤日志。四种情况：① 日志出现
+`未配置任何投递通道` 的 warning —— Secrets 没填全；② `SMTP 登录失败` —— 回到第六节
+方式 A 的三步开通流程（专用密码 / IMAP-SMTP 开关 / 管理员客户端访问范围）；
+③ `errcode=93000` —— 群机器人 Webhook 失效或 key 被重置，重取地址；
+④ 日志显示已发送 —— 邮件查收件方垃圾箱或公司邮件网关。想单独验证通道，
+手动跑 `Mail Channel Test` 工作流。

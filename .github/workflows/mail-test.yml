@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Check SMTP connectivity & login
+      - name: Check delivery channels
         env:
           MAIL_USER: ${{ secrets.MAIL_USER }}
           MAIL_PASS: ${{ secrets.MAIL_PASS }}
@@ -36,6 +36,8 @@ jobs:
           MAIL_PORT: ${{ secrets.MAIL_PORT }}
           MAIL_FROM: ${{ secrets.MAIL_FROM }}
           MAIL_FROM_NAME: ${{ secrets.MAIL_FROM_NAME }}
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+          WECOM_MSG_TYPE: ${{ secrets.WECOM_MSG_TYPE }}
         run: |
           if [ "${{ inputs.send_test }}" = "true" ]; then
             python scripts/monitor/send_mail.py --check --send-test

@@ -64,9 +64,9 @@ jobs:
           path: reports/
           retention-days: 30
 
-      - name: Send weekly report email
-        # 走企业微信邮箱 / 腾讯企业邮 SMTP（smtp.exmail.qq.com:465 SSL）。
-        # 未配置 MAIL_USER 时自动跳过，不影响报告生成与提交。
+      - name: Send weekly report
+        # 两个通道任配其一即可：企业微信邮箱 SMTP（smtp.exmail.qq.com:465 SSL）
+        # 或 企业微信群机器人 Webhook（WECOM_WEBHOOK）。都没配则跳过。
         env:
           MAIL_USER: ${{ secrets.MAIL_USER }}
           MAIL_PASS: ${{ secrets.MAIL_PASS }}
@@ -77,9 +77,11 @@ jobs:
           MAIL_FROM: ${{ secrets.MAIL_FROM }}
           MAIL_FROM_NAME: ${{ secrets.MAIL_FROM_NAME }}
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+          WECOM_MSG_TYPE: ${{ secrets.WECOM_MSG_TYPE }}
+          WECOM_REPORT_URL: ${{ secrets.WECOM_REPORT_URL }}
         run: |
-          if [ -z "$MAIL_USER" ] || [ -z "$MAIL_PASS" ] || [ -z "$MAIL_TO" ]; then
-            echo "::warning::未配置邮件 Secrets（MAIL_USER / MAIL_PASS / MAIL_TO），跳过发送。"
+          if [ -z "$WECOM_WEBHOOK" ] && { [ -z "$MAIL_USER" ] || [ -z "$MAIL_PASS" ] || [ -z "$MAIL_TO" ]; }; then
+            echo "::warning::未配置任何投递通道（MAIL_* 或 WECOM_WEBHOOK），跳过发送。"
             exit 0
           fi
           python scripts/monitor/send_mail.py --latest
