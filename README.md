@@ -2,6 +2,13 @@
 
 每日抓取 [引力引擎](https://rank.gravity-engine.com/) 的小游戏榜单（微信小游戏 + 抖音小游戏，共 6 个榜的日榜），叠加 TapTap 预约榜、**iOS App Store 美/国/日区游戏免费榜**（Apple 官方 iTunes RSS）与 **Android Google Play 美区免费游戏榜**（AppBrain），把数据 commit 进仓库，并通过 GitHub Pages 展示一个仪表盘，重点突出**每日新进游戏 / 新进发行商**。
 
+在此基础上，仓库每周还会基于历史数据生成一份 **微信小游戏周报**（品类结构 / 头部集中度 / 新晋者 / 上升态势 / 头部稳定性 / 腰部持续性），输出 Markdown + HTML + JSON，落在 `reports/`。详见下方[「周报」](#周报game-market-monitor)。
+
+> **抓取方式**：引力引擎两个平台的数据走的是站点公开接口（`scripts/scrape_gravity_http.py`，
+> 纯 HTTP，不需要浏览器和登录态）。此前用 Playwright 渲染页面，实测会因 SPA 加载失败
+> （`ERR_CONNECTION_CLOSED`）导致当天微信/抖音数据整块缺失，因此改为接口直连作为主路径，
+> 浏览器渲染保留为兜底。
+
 - 抓取：GitHub Actions 每日北京时间 10:30 触发（榜单 10:00 更新，留 30 分钟让后端稳定）
 - 存储：每天一份 JSON 进 `data/daily/`，diff 进 `data/diff/`，cumulative base 进 `data/base/`，趋势进 `data/history.jsonl`
 - 展示：纯静态页（`site/`）通过 GitHub Pages 发布
@@ -10,13 +17,15 @@
 仓库结构
 .
 ├── scripts/
-│   ├── scrape_rank.py   核心抓取/解析（与桌面端共用）
+│   ├── scrape_gravity_http.py 引力引擎公开接口抓取（纯 HTTP，主抓取路径）
+│   ├── scrape_rank.py   浏览器渲染抓取/解析（兜底路径，与桌面端共用）
 │   ├── scrape_taptap.py TapTap 预约榜（SSR JSON-LD，纯 stdlib）
 │   ├── scrape_ios.py    iOS 美/国/日区游戏免费榜（Apple iTunes RSS，纯 stdlib）
 │   ├── scrape_googleplay.py  Android 美区免费游戏榜（AppBrain SSR，纯 stdlib）
 │   ├── ci_scrape.py     CI 抓取入口，写 daily/<日期>.json 等
 │   ├── base.py          累积 base 库（历史所有游戏 / 发行商）
-│   └── ci_diff.py       基于 base 分类今日新进
+│   ├── ci_diff.py       基于 base 分类今日新进
+│   └── monitor/         周报分析层（classify 品类归一化 / analyze 指标 / report 渲染）
 ├── data/
 │   ├── daily/           历史快照（每天一份）
 │   ├── diff/            每天的「新进」分类
@@ -24,12 +33,14 @@
 │   ├── latest.json      最新快照（前端默认加载）
 │   ├── history.jsonl    每日条数趋势
 │   └── index.json       由 Pages workflow 生成的可用日期列表
+├── reports/             周报产出：weekly-<日期>.md / .html / .json
 ├── site/                Pages 站点
 │   ├── index.html
 │   ├── style.css
 │   └── app.js
 ├── .github/workflows/
 │   ├── daily.yml        定时抓取 + 写数据
+│   ├── weekly.yml       每周一 09:00 出周报
 │   └── pages.yml        发布站点
 └── README.md
 ```
@@ -70,17 +81,20 @@ git push -u origin main
 
 仓库设为 **Public**（公开），否则 Pages 免费额度会受限、Actions 配额也会减半。
 
-### 2. 准备登录态（可选但推荐 —— 否则只能 Top 20）
+### 2. 准备登录态（可选，默认不需要）
 
-引力引擎站点要登录才能看 Top 100。我们的做法：
+**当前配置走匿名公开接口，不需要配置任何 Secret。** 引力引擎的公开接口在未登录
+状态下稳定返回每榜 TOP20，且不依赖会过期的凭证 —— 对长期无人值守的定时任务是
+最稳的路径。
 
-1. 在本机用桌面版（`引力榜抓取.exe`）走一次「登录…」流程
-2. 流程结束后会生成 `rank_auth.json`（exe 同目录）
-3. 用编辑器打开它，把整个 JSON 文本**复制**
-4. 到 GitHub 仓库 → Settings → Secrets and variables → Actions → New repository secret
-5. Name 填 `GRAVITY_AUTH`，Value 粘贴第 3 步的 JSON 内容，保存
+如果将来确实需要 TOP100（例如要做全量腰部分析），再配置登录态：
 
-> **登录态有效期**：通常几天到几周。失效后 Action 会回落到匿名模式（Top 20）。重新走一次桌面版登录 → 更新 Secret 即可。
+1. 在本机登录 `rank.gravity-engine.com`，导出 Playwright 的 storage_state 存为 `rank_auth.json`
+2. 到 GitHub 仓库 → Settings → Secrets and variables → Actions → New repository secret
+3. Name 填 `GRAVITY_AUTH`，Value 粘贴上一步 JSON 的全文
+
+> **登录态有效期**：通常几天到几周，失效后 Action 自动回落到匿名 TOP20。
+> 这份维护成本对无人值守任务来说往往不划算，因此默认不启用。
 
 ### 3. 启用 GitHub Pages
 
@@ -125,18 +139,74 @@ https://<你的用户名>.github.io/minigame-rank-daily/
 
 ---
 
+---
+
+## 周报（game-market-monitor）
+
+每周一北京时间 09:00，`weekly.yml` 基于仓库里的历史快照生成一份微信小游戏周报。
+
+**六个板块**，对应三类立项参考价值：
+
+| 板块 | 说明 | 立项价值 |
+| --- | --- | --- |
+| 品类结构 | L1/L2 占比 + 代表产品 | 大盘在做什么品类 —— 立项方向 |
+| 头部集中度 | 发行商在榜产品数 / 占比 | 榜被谁占据，新进者有没有空间 |
+| 新晋者 | 本期在榜、基准期不在榜 | 新变量、正在冒头的产品 |
+| 上升态势 | 两周都在榜内、名次前进 ≥3 位 | 正在起量的题材 / 玩法 |
+| 头部稳定性 | TOP10 留存率 / 换血率 | 大盘是否固化，还挤不挤得进去 |
+| 腰部持续性 | 11-20 名连续在榜天数 | 区分长线产品与买量冲榜 |
+
+产出落在 `reports/weekly-<日期>.{md,html,json}`。HTML 用全内联样式，可直接作为
+邮件正文粘贴发送。
+
+### 品类口径为什么需要归一化
+
+引力引擎自带的 `category` / `subcategory` 不能直接用于统计：
+
+- L2 是拼接串（`牌类棋牌传统棋牌`、`消除消除休闲`、`卡牌卡牌卡牌竞技`），
+  同一品类被拆成十几个变体，占比会被稀释成噪音；
+- 抖音榜 `category` 返回占位值 `1`；
+- 同一游戏 L1 跨期漂移（历史数据里 175 个游戏出现过多个 L1）。
+
+`scripts/monitor/classify.py` 按「人工词典 → L2 清洗 → 跨榜学习 → 游戏名兜底 → L1 直映」
+逐层归一，并把 L1 统一由 L2 反推以保证自洽。规则与词典都在
+`scripts/monitor/category_map.json`，新增游戏时优先补 `by_game_name`。
+
+### 数据口径限制（重要）
+
+匿名接口每榜只有 TOP20，因此：
+
+- 一个游戏从第 25 名升到第 15 名，在数据上表现为「新进 TOP20」而非「上升 10 位」；
+- 「腰部」指榜内 11-20 名，不是全榜的 30-100 名；
+- 对比时两端都截断到 TOP20，避免与历史 TOP100 快照混比算出虚高涨幅。
+
+以上三条会写进每份周报末尾的「数据说明与口径」。
+
+### 手动跑一份周报
+
+```bash
+python scripts/monitor/report.py --format both
+python scripts/monitor/report.py --baseline 2026-09-01   # 指定基准日期
+python scripts/monitor/analyze.py                        # 只出指标摘要
+```
+
+---
+
 ## 三、本地开发
 
 ```bash
-# 装依赖
-pip install playwright openpyxl
-python -m playwright install chromium
+# 装依赖：pycryptodome 供 HTTP 抓取解密响应；playwright 仅在浏览器兜底时需要
+pip install pycryptodome
+pip install playwright openpyxl && python -m playwright install chromium
 
-# 跑一次抓取（匿名 Top 20）
+# 跑一次抓取（匿名 Top 20，走公开接口）
 python scripts/ci_scrape.py
 
 # 计算 diff（需要至少两天数据）
 python scripts/ci_diff.py
+
+# 生成周报
+python scripts/monitor/report.py --format both
 
 # 起一个本地静态服务器看页面
 python -m http.server 8000 --directory _pages_preview
