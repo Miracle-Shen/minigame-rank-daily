@@ -1,0 +1,228 @@
+{
+ "schema_version": 1,
+ "name": "无尽冬日",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "点点互动（北京）科技有限公司",
+  "category_l1": "竞技",
+  "category_l2": "对战",
+  "boards": [
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 13
+  },
+  "platform_app_ids": {
+   "wx": "wxada4175c8b2a9864"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity 3D（团结引擎）",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "冰雪末日卡通 3D，雪国小镇",
+  "dims": {
+   "engine": 5,
+   "art": 5,
+   "anim": 4,
+   "physics": 2,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 4
+  },
+  "dim_notes": {
+   "engine": "中重度 SLG 需在 Unity 上自研庞大框架并配套强服务端",
+   "art": "包体 947MB，3D 雪国场景 / 英雄 / 建筑资源海量",
+   "logic": "SLG + 模拟经营 + 放置 + 联盟战 + 赛季，系统极复杂",
+   "data": "英雄 / 建筑 / 科技 / 装备多线养成 + 经济循环 + 赛季内容",
+   "server": "联盟 / 跨服实时对抗 / 强联网社交",
+   "audio": "定制环境 BGM + 音效 + 语音"
+  },
+  "asset_notes": "947MB 包体以 3D 场景 / 英雄 / 建筑为主，长线内容资产持续膨胀，素材与服务器双重重资产",
+  "notes": "世纪华通 / 点点互动出品，全球现象级 SLG+X；小游戏版用团结引擎优化，先海外后国内",
+  "cost_score": 4.38,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "作为镇长升级熔炉对抗严寒，分配幸存者工作（工人 / 猎人 / 厨师），颁布法典，出征争夺物资、与盟友建联盟夺城，英雄招募 + 科技重建，长线循环。",
+  "highlights": [
+   "城建 + 资源积累的可见成长感",
+   "联盟协作与跨服争霸的社交爽",
+   "英雄阵容搭配的策略深度",
+   "赛季活动与限定英雄的持续目标"
+  ],
+  "innovations": [
+   "「SLG + X」融合（策略 + 模拟经营轻量化外壳），用休闲化降低 SLG 门槛，相对纯 SLG 是结构创新"
+  ],
+  "target_user": "中重度策略用户，含 20%+ 女性",
+  "monetization": "IAP 重度（英雄 / 礼包 / 赛季）+ 轻 IAA",
+  "lifecycle": "长线运营（生命周期目标 8–10 年）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "重资产 SLG + 强联网 + IP / 先发壁垒，头部（点点 / 世纪华通）已锁死，非小团队可复刻。",
+  "suggestions": [
+   "若做，降维度为纯放置城建轻量版，避开强联网",
+   "换末日题材（如「废土农场」）规避直接撞车"
+  ],
+  "risks": [
+   "重资本投入与长周期",
+   "强联网服务器成本",
+   "头部已锁死 + 买量极贵"
+  ],
+  "effort": "200+ 人日（团队级，非小游戏基建可覆盖）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/96/a5/9c96a5a5-a92a-9405-d252-b2aa7b9aa8ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/0d/cd/df0dcd6c-4dd3-d21d-19c5-cb9a5b79158a/d50d05fc-09f1-4e3b-aac3-5e6dfc59e04f_1-_U9996_U56fe-_U96ea_U5730_U8fc1_U5f99.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/21/1c/3c211c33-60a3-3a7d-db73-0e52bbe14185/2caa22c8-0907-4da9-8f92-5b9832f1fce2_2-_U91c7_U96c6_U7269_U8d442.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/c6/5f/eac65f48-5f08-ceb1-99a7-7a83256d41f2/ad45254e-f92a-46b6-8c33-7a75f9d1de9b_3-_U8f7b_U5ea6_U57ce_U5efa.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/d3/ac/08d3ac34-f266-c12a-3692-a7e4b934b55e/cb9fbde7-cc96-4336-982d-d745b3f6b601_4-_U4eba_U529b_U5206_U914d.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/cd/4d/9ccd4d0a-5530-0de3-4843-27f86d1cf0f9/833b354b-a240-4f8e-8e0e-07d3e0983a2a_5-_U6218_U6597.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/d6/59/24d6598f-528e-6d90-c50c-f404a72a6154/9507b3ad-1744-43af-a995-2c39c20e4dbe_6-_U79d1_U6280_U5236_U80dc.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/03/3b/64/033b64fe-55f9-8e5e-73bc-00ec64df6e82/ff7f5778-046d-48bf-a7d6-5449fd0a6c8d_1-_U9996_U56fe-_U96ea_U5730_U8fc1_U5f99.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/9c/df/279cdfe2-c984-4d28-b206-4ed30dcd9a8c/94a62d25-9440-42d9-a0e5-e8682e0962c1_2-_U91c7_U96c6_U7269_U8d442.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/a8/66/c2a8664b-d101-5595-af36-d0411971ca4a/e8ecb2e7-f400-4341-a6ca-01fb8de8266e_3-_U8f7b_U5ea6_U57ce_U5efa.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/18/9e/3e189e14-35dc-898c-ad31-7a9d06da1d04/5faf0de8-2036-4c92-a2e3-164f716aa820_4-_U4eba_U529b_U5206_U914d.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/be/ad/afbead9c-d8fc-e676-284d-403810349a89/3cbc1f9c-a530-497e-9100-9fe330c7c4c1_5-_U6218_U6597.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/fb/64/69fb6458-457a-b3f6-2cd7-217b1659b232/1a10e619-f9e7-4c6a-8b82-797e2cc095f9_6-_U79d1_U6280_U5236_U80dc.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "以 Unity 3D 打造（世纪华通展讯确认），小游戏版用团结引擎",
+   "level": "confirmed"
+  },
+  {
+   "claim": "iOS 包体 947MB，SLG + 模拟经营融合",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%97%A0%E5%B0%BD%E5%86%AC%E6%97%A5/id6478492012",
+  "https://www.stcn.com/article/detail/4038420.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "无尽冬日",
+  "country": "cn",
+  "track_id": 6478492012,
+  "seller": "Shanghai Qingdi Technology Company Limited",
+  "genres": [
+   "游戏",
+   "模拟",
+   "策略"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/96/a5/9c96a5a5-a92a-9405-d252-b2aa7b9aa8ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/0d/cd/df0dcd6c-4dd3-d21d-19c5-cb9a5b79158a/d50d05fc-09f1-4e3b-aac3-5e6dfc59e04f_1-_U9996_U56fe-_U96ea_U5730_U8fc1_U5f99.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/21/1c/3c211c33-60a3-3a7d-db73-0e52bbe14185/2caa22c8-0907-4da9-8f92-5b9832f1fce2_2-_U91c7_U96c6_U7269_U8d442.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/c6/5f/eac65f48-5f08-ceb1-99a7-7a83256d41f2/ad45254e-f92a-46b6-8c33-7a75f9d1de9b_3-_U8f7b_U5ea6_U57ce_U5efa.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/d3/ac/08d3ac34-f266-c12a-3692-a7e4b934b55e/cb9fbde7-cc96-4336-982d-d745b3f6b601_4-_U4eba_U529b_U5206_U914d.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/cd/4d/9ccd4d0a-5530-0de3-4843-27f86d1cf0f9/833b354b-a240-4f8e-8e0e-07d3e0983a2a_5-_U6218_U6597.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/d6/59/24d6598f-528e-6d90-c50c-f404a72a6154/9507b3ad-1744-43af-a995-2c39c20e4dbe_6-_U79d1_U6280_U5236_U80dc.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/03/3b/64/033b64fe-55f9-8e5e-73bc-00ec64df6e82/ff7f5778-046d-48bf-a7d6-5449fd0a6c8d_1-_U9996_U56fe-_U96ea_U5730_U8fc1_U5f99.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/9c/df/279cdfe2-c984-4d28-b206-4ed30dcd9a8c/94a62d25-9440-42d9-a0e5-e8682e0962c1_2-_U91c7_U96c6_U7269_U8d442.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/a8/66/c2a8664b-d101-5595-af36-d0411971ca4a/e8ecb2e7-f400-4341-a6ca-01fb8de8266e_3-_U8f7b_U5ea6_U57ce_U5efa.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/18/9e/3e189e14-35dc-898c-ad31-7a9d06da1d04/5faf0de8-2036-4c92-a2e3-164f716aa820_4-_U4eba_U529b_U5206_U914d.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/be/ad/afbead9c-d8fc-e676-284d-403810349a89/3cbc1f9c-a530-497e-9100-9fe330c7c4c1_5-_U6218_U6597.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/fb/64/69fb6458-457a-b3f6-2cd7-217b1659b232/1a10e619-f9e7-4c6a-8b82-797e2cc095f9_6-_U79d1_U6280_U5236_U80dc.jpg/626x1112bb.jpg"
+  ],
+  "description": "《无尽冬日》是一款将策略和放置结合的冰雪末日生存游戏，玩法独特，细节丰富，等你探索。\n\n一场突如其来的全球性气温骤降彻底地摧毁了人类文明，人类失去了赖以生存的家园，面对严寒的天气，无情的暴风雪，盘踞在冰原的凶猛野兽，以及那些对遗留物资虎视眈眈的暴徒。仅存的几名幸存者能否顺利地生存下来，保护并延续人类文明的火种，只有您能帮助他们！在这个被冰雪覆盖的极寒世界里，您作为镇长，将引领幸存者们克服恶劣的环境，制定不同的生存策略，重建文明家园。 \n\n【核心特色】\n\n升级熔炉\n熔炉是这个极寒末日里唯一能够对抗寒冷并取暖的工具。需要不断的收集相应的资源升级熔炉，并随时准备好面对寒冷的永夜与突如其来的暴风雪；只有做好这一切，才能保证幸存者们不受寒冷和死亡的威胁。\n\n人力分配\n享受独特的幸存者工作分配玩法，例如工人，猎人，厨师等等。记得监测幸存者们的健康状况和幸福指数，确保他们能够高效地工作，如果他们生病了，不要担心，请及时治疗他们。 \n\n颁布法典\n法典是重置并延续社会文明的重要手段，也是发展并壮大营地的关键因素之一。\n\n【策略玩法】\n\n争夺物资\n灾难来临的太突然，冰原上仍遗留着无数可用的生存物资，那些暴怒的冰原野兽，其他有能力的镇长都在虎视眈眈...既然战斗无法避免，那只能用尽一切手段跨越阻碍，争夺物资！ \n\n逐鹿冰原\n与所有玩家共同去争夺最强营地的殊荣，在这个伟大的策略游戏中夺取王座并统治一切吧！\n\n建立同盟\n不要再一个人孤独地对抗冰雪和入侵者，创建或加入联盟，与盟友一起主宰战场，称霸冻土！\n\n招募帮手\n特色英雄，等你招募，只有招募更多不同天赋技能的英雄，才能在这场灾难中拥有更多的主动权，并更安全的生存下去。\n\n和其他的镇长同台竞技\n掌握英雄技能，合理搭配战斗小队，与其他镇长一决高下！胜利不仅会带来丰厚的积分，还可以兑换稀有的道具。带领你的小镇勇登竞技排行榜，所有人都会看到一个伟大的小镇是如何诞生的。 \n\n发展科技\n这场冰雪灾难摧毁了所有的科技文明，立即开始重建科技体系，重拾文明碎片。谁能更快的掌握前沿的技术，谁就能主宰这个世界！\n\n【关注我们】\n《无尽冬日》官网：http://wjdr.centurygames.cn/\n微信公众号：微信搜索“无尽冬日”",
+  "release_notes": "【新增内容】\n1、新增活动：全新【凛风攻城战】即将开启！领主将与盟友共同参与联盟据点攻防战，通过布置驻防部队、进攻敌方据点，为联盟赢取胜利与丰厚奖励。快来集结盟友，迎接全新的策略挑战吧！\n2、新增【礼物】功能：大熔炉达到13级后，领主可向其他领主赠送礼物，并附上专属寄语，让领主间的心意传递更加特别。礼物主要用于社交互动与个性展示，不提供战斗属性，且不可二次转送；领主可通过日常活跃、任务或活动获得礼物，部分稀有礼物在满足指定条件后也可购买获得。赠送礼物可获得送礼积分，提升送礼等级并解锁专属奖励；收到的礼物可收藏并展示在领主主页与礼物展柜中。\n3、新增【人气值系统】：领主可在其他领主主页及部分活动、排行榜等场景中为其他领主点赞；获得的点赞将累计为人气值，并展示于领主主页。同时，领主主页展示将同步优化，让领主的活跃表现与高光时刻被更多领主看见。\n\n【优化与调整】\n1、梦境寻忆优化：\n（1）新增【快速通关】。当领主所在王国梦境寻忆活动开启期数达到第5期，且【追忆足迹】达到10级及以上后，领主可在章节未开启时切换至快速模式，消耗【寻梦小鱼干】与【梦幻铃铛】直接完成当前章节挑战，并领取章节奖励；通过快速通关完成章节时，也会正常获得【寻梦漫游记】积分。\n（2）新增道具兑换入口。【快速通关】解锁后，领主可在活动主界面进入兑换界面，将【寻梦小鱼干】兑换为【梦幻铃铛】。\n2、领主装备与宝石开放上限提升：当王国进程解锁6代英雄后，领主装备神话六阶（3星）将正式开放上限；当王国进程解锁8代英雄后，领主宝石将新增17级与18级，每级包含9个子阶段。领主可进一步提升装备与宝石品质，打造更强大的战斗实力。\n3、英雄装备优化：装备专精等级达到等级4及以上后，专精提升将由整级提升调整为子阶段提升，原有专精锻造总消耗保持不变。领主在进行专精锻造时，可通过进度条更清晰地查看当前等级内的提升进度。\n4、行军功能优化：\n（1）缩短了攻击野外怪物时的行军时间，适用目标包括野兽、【佣兵荣耀】活动中的法厄同士兵与法厄同头目。\n（2）缩短了发起或参与野外怪物集结时的行军时间，适用目标包括冰原巨兽、失控的雪怪、收割者，以及【佣兵荣耀】活动中的法厄同士兵。\n（3）当领主的部队在世界地图或战场中受到其他领主部队攻击时，即使当前处于其他界面，左侧行军队列栏中被攻击部队对应的行军队列也将显示红框提醒。\n（4）优化了行军加速界面的信息展示。更新后，当领主参与集结时，行军加速界面将显示集结准备倒计时，帮助领主更清晰地掌握队伍行军与集结进度。\n5、专家功能优化：\n（1）当已入驻专家数量超过8个时，曙光学院将新增专家列表入口。领主可在列表中查看已解锁专家，并快速切换至对应专家界面；新解锁的专家将显示在列表末尾。\n（2）当有新专家登场时，内城专家建筑将显示图标气泡提示；领主进入曙光学院后还将看到新专家登场提示界面，方便领主及时了解新专家解锁情况。\n（3）优化了【取消学习】按钮的展示位置。专家技能学习中时，取消学习按钮将在学习进度旁显示，使领主更容易查看并操作。\n（4）补充了罗妮专家天赋【商路掌控者】的效果描述，实际效果不变。\n6、联盟争霸赛优化：\n（1）优化了战力评分计算方式，使评分结果更接近领主的实际战斗表现。\n（2）宠物技能将在派遣出战时自动生效，无需领主手动激活，系统将根据出征时的宠物技能等级计算对应增益。\n（3）每一路中的每场战斗，攻守方将以相同概率独立随机决定。\n7、联盟战争优化：当军医所容量超过90%时，将无法开启自动加入集结；若自动加入集结已开启，则会自动中止并通过邮件提醒领主，帮助领主及时关注伤兵情况。\n8、执政官功能优化：\n（1）执政官技能优化：已预约的执政官或至高执政官技能将支持取消，执政官或至高执政官可在技能预约弹窗中取消已预约的技能，方便根据王国战局变化灵活安排技能使用。\n（2）官职预约优化：优化了【自动同意】设置界面，信息展示更直观。\n9、兵工厂争夺战及雪域兵器联赛优化：\n（1）新增奖励结算信息展示：领主可在兵工厂争夺战中查看本周已获得的联盟奖励与个人奖励，在雪域兵器联赛中查看本轮比赛已获得的军团奖励与个人奖励。\n（2）兵工厂争夺战优化：报名阶段选择战斗时段后，将新增预计战斗时间预览，方便提前安排参战计划。\n（3）雪域兵器联赛优化：补充了赛程界面的淘汰赛与争霸赛的活动说明文本，帮助领主更清晰地了解对应阶段的赛程安排。\n10、霜龙霸主优化：正在进行的比赛将实时展示当前观战领主人数。\n11、晨曦岛优化：\n（1）优化建造界面记忆功能。登录期间，关闭建造界面后，系统将记录当前查看的分类与列表位置；再次打开时将自动回到上次浏览位置，方便领主继续布置晨曦岛。\n（2）优化装饰物与场景装扮图纸的【获得更多】界面，新增当前数量与升级所需数量的进度展示；当通过装饰物自选箱或通用碎片补足升级数量后，将更便捷地返回升级界面。\n（3）新增晨曦岛相关通知。当生命之树、伐木小屋、木材加工厂或晨曦回礼达到存储上限时，系统将提醒领主及时领取资源；领主可前往游戏设置开启或关闭相关通知。\n（4）在拜访其他领主的晨曦岛时，您可以点击查看对方除基础装饰物、生命之树、伐木小屋、木材加工厂外其他装饰物的详细信息。\n（5）增益总览优化：可便捷操作全部展开、全部收起增益详情列表，方便领主查看。\n12、移民活动优化：王国列表将新增本期可移民王国范围展示，并对暂不可移民的王国增加提示，方便领主更清晰地查看可迁入的王国。\n13、背包统计优化：【资源与加速统计】中新增钻石数量统计，领主可更清晰地查看当前拥有的钻石总量。\n14、统帅功能优化：\n（1）统帅界面中的登录奖励入口将由宝箱调整为日历形式，领主可在日历中查看连续登录天数与每日统帅点数奖励。连续登录达到14天后，将解锁【连续登录冻结】功能；若连续登录中断，次日将自动触发冻结，领主可在冻结期间消耗钻石恢复并延续连续登录天数。\n（2）统帅经验道具将在获得后自动使用。\n15、地心探险优化：\n（1）修复了【英雄之地】【大地之心】中部分关卡对手英雄技能未正常生效的问题。\n（2）优化了关卡难度曲线，使关卡的难度衔接更加平滑。\n（3）【大地之心】将新增50层挑战内容。\n（4）地心探险排行榜同一页签内的各排行榜现支持左右切换查看。\n16、漫游剧场优化：\n（1）系统初始赠送的【寒冰护符】数量提升至12个。\n（2）活动结束后，未使用的【奇境星币】将调整为自动转化成道具【钻石*1】，请领主及时兑换。\n17、联盟总动员优化：将根据王国进程新增宠物、专家及火晶积分相关任务。\n18、联盟资源兑换优化：更新后领主可直接输入希望获得的资源数量，系统将自动计算所需兑换资源，方便快速完成兑换。\n19、堡垒争夺优化：联盟管理成员取消堡垒争夺报名时，将在联盟日志中新增对应记录。\n20、邮件功能优化：优化了冻土之王、联盟大作战、最强领主、清理野兽、全军参战等活动的个人排名奖励邮件展示效果。\n21、英雄招募功能优化：高级、史诗招募的十连结算界面中，原“全部使用”功能调整为“招募多次”，领主可自主选择消耗的招募钥匙数量进行招募。\n22、幻艺展馆优化：新增饰章展示范围设置，领主可在【全部显示】【显示饰章】【全部隐藏】之间切换，灵活控制其他领主查看自己饰章及收藏内容的范围。\n23、吉娜的反击及英雄的使命集结任务规则优化：仅当领主发起集结并成功击败雪怪或收割者后，才会计入集结任务进度。\n24、宠物功能优化：洗炼分页新增宠物列表入口，领主拥有5只及以上宠物时，可通过该入口快速切换宠物。\n25、防护罩提示优化：\n（1）优化了防护罩解除确认提示。防护罩持续期间，领主进行攻击、侦查、发起集结或参与集结等会解除防护罩的操作时，确认界面将显示当前防护罩剩余时间，方便领主确认后再行动。\n（2）优化了防护罩道具使用提示。防护罩持续期间，领主再次使用防护罩道具时，确认界面将显示当前防护罩剩余时间；若新使用的防护罩持续时间短于当前剩余时间，系统将额外提醒，避免误操作导致防护时间变短。\n26、领主档案优化：更新后，在使馆援军页面，点击其他领主头像即可直接查看对方的领主档案。\n27、排行榜功能优化：本王国、邻邦及所有王国分页内的个人、联盟排行榜，均支持左右切换查看已解锁的榜单；同时缩短了排行榜页面的打开动画时间。\n28、军医所及募兵所功能优化：优化遣散伤兵相关弹窗及界面展示效果。",
+  "file_size_bytes": 947036160,
+  "min_os": "13.0",
+  "version": "1.16.11",
+  "release_date": "2024-05-30",
+  "rating": 4.76668,
+  "rating_count": 614585,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E6%97%A0%E5%B0%BD%E5%86%AC%E6%97%A5/id6478492012?uo=4",
+  "fetched_at": "2026-09-15T00:35:55+08:00"
+ },
+ "slug": "无尽冬日_41b1c1"
+}

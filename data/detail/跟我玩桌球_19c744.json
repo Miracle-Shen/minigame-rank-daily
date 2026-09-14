@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "name": "跟我玩桌球",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "武汉爆鸣互娱科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 6
+  },
+  "platform_app_ids": {
+   "douyin": "ttfc748ac96211f20007"
+  },
+  "first_seen": "2026-09-12",
+  "appearances": 3,
+  "best_rank": 6,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "写实/简约台球桌与球杆，物理模拟",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 4,
+   "logic": 3,
+   "data": 3,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "真实台球物理（库边反弹/摩擦衰减/旋转偏移/高杆低杆加塞）需物理引擎精调",
+   "data": "球杆养成+段位+赛事，多线成长",
+   "server": "真人实时匹配/好友私房，强联网"
+  },
+  "asset_notes": "球桌/球杆/球体为2D写实贴图，量中等；物理用成熟2D引擎复用",
+  "notes": "写实台球物理模拟，机制无版权壁垒，物理与联机是成本",
+  "cost_score": 2.75,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "滑动调击球角度、拉力度条设出杆轻重，点击白球点位切换高杆低杆加塞，把目标球打进袋，单机闯关或真人对战清台。",
+  "highlights": [
+   "瞄准虚线+真实碰撞的'进袋'反馈，台球手感还原",
+   "高杆低杆加塞走位，硬核玩家有操作深度",
+   "球杆养成+段位赛，长线目标"
+  ],
+  "innovations": [
+   "无实质创新，属于写实台球物理模拟成熟执行"
+  ],
+  "target_user": "台球爱好者、体育竞技用户",
+  "monetization": "IAA+IAP混合（球杆/皮肤内购+广告）",
+  "lifecycle": "长线，靠赛事/段位维持"
+ },
+ "clone": {
+  "verdict": "微创新",
+  "rationale": "台球机制无版权壁垒、物理引擎可复用，但真实物理精调+实时联机成本高；建议做轻量单机闯关版先验证，再补联机。",
+  "suggestions": [
+   "先做2D单机闯关版（无联机）快速验证",
+   "加'辅助线开关'兼顾新手与硬核",
+   "题材换'街头台球'差异化美术"
+  ],
+  "risks": [
+   "真实物理精调耗时",
+   "实时对战联机成本高且易被头部锁死",
+   "体育竞技买量偏贵"
+  ],
+  "effort": "40–60人日（1前端+0.5美术+0.5后端，单机版可压到25人日）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "跟我玩桌球为台球物理模拟类抖音小游戏（基于同类检索推断，未获一手资料）",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎为 Cocos Creator/Unity（物理模拟常见，未确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://baike.baidu.com/item/%E6%8A%96%E9%9F%B3%E5%B0%8F%E6%B8%B8%E6%88%8F/68584728"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:38:06+08:00"
+ },
+ "slug": "跟我玩桌球_19c744"
+}

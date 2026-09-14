@@ -1,0 +1,230 @@
+{
+ "schema_version": 1,
+ "name": "向末日开炮",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "海南易多量科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "模拟经营",
+  "boards": [
+   "wx/人气榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 2,
+   "wx/畅销榜": 3
+  },
+  "platform_app_ids": {
+   "wx": "wx6d939b5e0a7dd630"
+  },
+  "first_seen": "2026-07-30",
+  "appearances": 41,
+  "best_rank": 1,
+  "profile_value": "low",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "数字门,SLG",
+   "tags": [
+    "数字门",
+    "SLG"
+   ],
+   "notes": "",
+   "developer": "海南易多量科技有限公司"
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "末世废土卡通+3D渲染混合，英雄/僵尸/载具",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 3,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体552MB(重)，含末世场景/英雄立绘/僵尸/载具/大世界地图与序列帧",
+   "logic": "数字门关卡+卡牌养成+大世界SLG+赛季+爬塔+竞技场+内置射击，系统极复杂",
+   "data": "多线养成（英雄/装备/幸存者）+经济循环+赛季内容，深度高",
+   "server": "实时SLG+军团(同盟)+GvG+跨服赛季，强联网"
+  },
+  "asset_notes": "2D+轻3D渲染，末世美术需持续产出英雄/僵尸/场景；大世界SLG与实时联机是主要成本，素材量次之",
+  "notes": "大梦龙途出品，'数字门+SLG'成熟框架，靠末世题材+买量差异化",
+  "cost_score": 3.88,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "开局数字门跑酷射击（左右移动选门吃加成），通关推进主线解锁地块/建筑，逐步解锁模拟经营与赛季SLG大地图，中期转入SLG掠夺。",
+  "highlights": [
+   "数字门'一关一个样'（移动门/载具门/攻击门），每关机制变化避免疲劳",
+   "射击获取强化道具的即时反馈+尸潮清场的连锁爽感",
+   "'数字门战斗→建家园→解锁SLG'的渐进节奏，轻量用户也不劝退"
+  ],
+  "innovations": [
+   "把'数字门'做进主线关卡而非内置小游戏，且每关形式不同，承担核心循环而非副玩法"
+  ],
+  "target_user": "泛休闲+SLG用户，偏爱轻度策略与题材爽感",
+  "monetization": "IAA+IAP混合（首充/月卡/英雄招募/加速），SLG长线付费",
+  "lifecycle": "长线运营（冲过畅销TOP6），靠赛季+新英雄维系"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "数字门+SLG框架已被Last War/向僵尸开炮验证，整体成熟、创新有限；照抄会撞车且SLG后端极重。建议换题材+改一处结构（如把射击换塔防）。",
+  "suggestions": [
+   "换题材为'西游降妖'或'末日修仙'，复用数字门+SLG框架",
+   "把数字门射击改成一键塔防放置，降低操作门槛拉新泛用户",
+   "SLG部分做轻量化（每日限宣战时段），避免通宵打架劝退"
+  ],
+  "risks": [
+   "SLG赛道已饱和、买量贵",
+   "实时大世界联机后端成本高",
+   "数字门素材同质化易被判抄"
+  ],
+  "effort": "80–120 人日（2 前端 + 1 后端 + 1 策划 + 1 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/66/32/ab663220-0d2a-7e55-b95f-12a88477410f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/46/93/0946935d-753a-d0be-d1a6-267c1f90af38/1-_U9996_U56fe-1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/91/e0/0091e004-1263-cc73-793e-f53e7d7e4646/2-_U672b_U65e5_U91cd_U5efa-1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/e6/0d/9be60d43-7a0c-1c14-cf18-b9fba42c7535/3-_U9009_U5bf9_U8def_U7ebf-1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/07/dc/1f07dcfe-f9f0-42a4-a6aa-a79777ad052b/4-_U4e89_U593a_U9886_U5730-1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/75/20/ff75203e-1a81-4185-bfa6-497605d63ba5/5-_U8f66_U961f_U730e_U8352-1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/29/ee/3729eeed-ad06-d352-cae6-c4e0cde15427/6-_U5730_U56fe_U63a2_U7d22-1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/e0/bf/4ee0bffb-35f3-8570-4125-b9baa4118b79/1-_U9996_U56fe-2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/34/a7/1734a73d-bce5-f399-68d1-73ffa5714f7d/2-_U672b_U65e5_U91cd_U5efa-2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/13/80/9113806d-2cfa-c926-e334-15ea39553e44/3-_U9009_U5bf9_U8def_U7ebf-2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/fe/26/d1fe26f0-faa3-b1b5-10ba-8e8fd7a77764/4-_U4e89_U593a_U9886_U5730-2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/63/ad/fb63adaa-a452-f337-3b5c-ecc053ed92f0/5-_U8f66_U961f_U730e_U8352-2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/73/7e/a3737e1a-ffae-a09b-0568-e23243b72c54/6-_U5730_U56fe_U63a2_U7d22-2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体552MB，数字门+SLG，大梦龙途出品",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Cocos Creator/LayaAir（小游戏SLG常见，未确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E5%90%91%E6%9C%AB%E6%97%A5%E5%BC%80%E7%82%AE/id6748045272?uo=4",
+  "https://www.toutiao.com/article/7681112727665820200/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "向末日开炮",
+  "country": "cn",
+  "track_id": 6748045272,
+  "seller": "Dod Joy Co., Ltd.",
+  "genres": [
+   "游戏",
+   "策略"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/66/32/ab663220-0d2a-7e55-b95f-12a88477410f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/46/93/0946935d-753a-d0be-d1a6-267c1f90af38/1-_U9996_U56fe-1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/91/e0/0091e004-1263-cc73-793e-f53e7d7e4646/2-_U672b_U65e5_U91cd_U5efa-1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/e6/0d/9be60d43-7a0c-1c14-cf18-b9fba42c7535/3-_U9009_U5bf9_U8def_U7ebf-1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/07/dc/1f07dcfe-f9f0-42a4-a6aa-a79777ad052b/4-_U4e89_U593a_U9886_U5730-1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/75/20/ff75203e-1a81-4185-bfa6-497605d63ba5/5-_U8f66_U961f_U730e_U8352-1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/29/ee/3729eeed-ad06-d352-cae6-c4e0cde15427/6-_U5730_U56fe_U63a2_U7d22-1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/e0/bf/4ee0bffb-35f3-8570-4125-b9baa4118b79/1-_U9996_U56fe-2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/34/a7/1734a73d-bce5-f399-68d1-73ffa5714f7d/2-_U672b_U65e5_U91cd_U5efa-2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/13/80/9113806d-2cfa-c926-e334-15ea39553e44/3-_U9009_U5bf9_U8def_U7ebf-2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/fe/26/d1fe26f0-faa3-b1b5-10ba-8e8fd7a77764/4-_U4e89_U593a_U9886_U5730-2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/63/ad/fb63adaa-a452-f337-3b5c-ecc053ed92f0/5-_U8f66_U961f_U730e_U8352-2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/73/7e/a3737e1a-ffae-a09b-0568-e23243b72c54/6-_U5730_U56fe_U63a2_U7d22-2048x2732.jpg/626x1112bb.jpg"
+  ],
+  "description": "“末日降临，英雄崛起”！在《向末日开炮》玩家们将化身“指挥官”，手持高爆武器，穿梭于末日废墟与移动迷宫，破解人类文明面临着崩溃边缘的难题，在最后一丝防线中，用艰苦卓绝的战斗击退了感染者，地球迎来了新的希望！\n游戏特色：\n1、家园建设：寻找新的根据地，重新建设人类文明据点\n2、兵营系统：建设和升级各类兵种兵营，强化战斗能力，保卫家园\n3、大世界SLG：广袤地图，招揽结盟，扩张领地，掠夺资源\n4、尸潮来袭：一波尸潮涌来，玩家需要指挥佣兵进行家园防御",
+  "release_notes": "【调整优化】\n1、优化调整「设计蓝图」掉落规则：下调大世界16-35级感染体的设计蓝图掉落奖励\n2、优化调整部分 S 级「幸存者」形象资源\n3、优化场景资源，提升游戏流畅度\n\n【问题修复】\n1、修复「寻宝」玩法无法正常领取奖励的异常问题\n2、修复「竞技场」战斗过程中，载具技能入口未正常显示的异常问题\n3、修复「军团语音」入口偶现消失的异常问题\n4、修复「海拉大冒险」抵达探险宝箱格时顶部播报显示异常的问题",
+  "file_size_bytes": 552223744,
+  "min_os": "13.0",
+  "version": "1.0.2",
+  "release_date": "2026-08-02",
+  "rating": 4.2874,
+  "rating_count": 508,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E5%90%91%E6%9C%AB%E6%97%A5%E5%BC%80%E7%82%AE/id6748045272?uo=4",
+  "fetched_at": "2026-09-15T00:34:45+08:00"
+ },
+ "slug": "向末日开炮_83f57c"
+}

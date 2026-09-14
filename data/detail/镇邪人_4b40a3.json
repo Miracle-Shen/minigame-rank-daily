@@ -1,0 +1,214 @@
+{
+ "schema_version": 1,
+ "name": "镇邪人",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "安徽雷虎网络科技有限公司",
+  "category_l1": "1",
+  "category_l2": "ARPG",
+  "boards": [
+   "douyin/畅销榜"
+  ],
+  "ranks": {
+   "douyin/畅销榜": 12
+  },
+  "platform_app_ids": {
+   "douyin": "tt076071dd9904ae7202",
+   "wx": "wxd53170210eef737f"
+  },
+  "first_seen": "2026-07-08",
+  "appearances": 47,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / Cocos（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2.5D（中式微恐）",
+  "art_style": "中式微恐地宫，Q 萌道士 / 妖怪 + 暗黄氛围",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 5,
+   "server": 4,
+   "audio": 3
+  },
+  "dim_notes": {
+   "logic": "搜 - 打 - 撤三层循环 + 小队 RPG + 密室解谜 + 多系统嵌套",
+   "data": "五条资源线 + 抽卡升星 + 神兵 + 皮肤 + 挂机经济循环",
+   "server": "多人小队 + 联盟 / 排行榜，强联网"
+  },
+  "asset_notes": "中式微恐角色 / 地宫美术成体系（包体 249MB 属「中」），素材可控；AI 漫剧素材用于买量",
+  "notes": "三七互娱（雷虎网络）出品，轰隆隆 like 框架 + 中式微恐搜打撤，畅销榜 TOP3",
+  "cost_score": 3.38,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "扮演镇邪天师闯地宫，循环「搜物资→打邪祟→撤退回安全区」，小队自动战斗，五条资源线养成角色，密室解谜推进剧情，失败掉一半物资但不删档。",
+  "highlights": [
+   "搜打撤的紧张 - 释放节奏（贪心滞留掉物资的赌性）",
+   "即时抽卡反馈（打怪得资源直接主界面抽，三步变一步）",
+   "中式微恐 + AI 漫剧素材的氛围沉浸"
+  ],
+  "innovations": [
+   "无实质机制创新，「轰隆隆」小队 RPG 框架 + 中式微恐题材 + 搜打撤包装是主要差异；即时抽卡链路优化是体验亮点"
+  ],
+  "target_user": "男性向 RPG / 微恐用户",
+  "monetization": "IAP 重度（抽卡 / 神兵 / 皮肤 / 月卡）+ 挂机，付费前置明显",
+  "lifecycle": "长线（赛季、合作玩法、英雄更新）"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "搜打撤 + RPG 框架有可取，但需改题材 / 结构规避微恐审核风险；三七已有同类矩阵，照抄撞车。",
+  "suggestions": [
+   "换题材规避「微恐」版号 / 审核风险（如「非遗寻踪」「古镇探秘」）",
+   "弱化付费前置，减少首屏红点密度",
+   "保留「即时抽卡链路」体验优化作为差异"
+  ],
+  "risks": [
+   "微恐题材版号 / 审核风险",
+   "三七已有矩阵、同类竞争",
+   "付费前置易引发差评"
+  ],
+  "effort": "50–70 人日（2 前端 + 1 美术 + 1 策划 + 后端）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/25/65/6f25658c-fcc3-de71-f3a4-241dfa06e569/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/ff/51/cfff51e3-cd37-d547-ec3b-7ca68d059656/_U7ad6_U7248_U9996_U56fe0707-1242x2688_U91d1_U94dc_U7248.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/78/93/6b78931a-f12c-ced4-ca8c-20211079b99d/_U5356_U70b91-1242x2688-_U91d1_U94dc.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/84/57/758457a8-42f5-197b-0119-047f316d9f5d/_U5356_U70b92-1242x2688-_U91d1_U94dc.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/40/ac/ed40ac06-a165-3aea-55ff-bb7127d78c8b/_U5356_U70b93-1242x2688-_U91d1_U94dc.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/44/ea/6f44eae6-287b-452e-f7c1-27ed8ac35870/_U5356_U70b94-1242x2688-_U91d1_U94dc.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/90/2a/c7902afd-c8db-af23-12c0-e52dfebda69d/_U7ad6_U7248_U9996_U56fe0707-2048x2732_U91d1_U94dc_U7248.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/80/11/958011dd-dd5c-0a52-4b8d-4ba939a58d39/_U5356_U70b91-2048x2732-_U91d1_U94dc.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/cf/1b/61cf1bef-3af1-040d-ccf3-1b4f503b23b5/_U5356_U70b92-2048x2732-_U91d1_U94dc.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/83/e5/f483e5c1-073e-68a6-37ce-698a83a2e1c1/_U5356_U70b93-2048x2732-_U91d1_U94dc.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/57/32/3457321d-3d37-5c41-feec-8256c4568030/_U5356_U70b94-2048x2732-_U91d1_U94dc.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "iOS 包体 249MB，中式微恐搜打撤小队 RPG，轰隆隆 like 框架",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity/Cocos 推断，无官方确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E9%95%87%E9%82%AA%E4%BA%BA/id6771697396",
+  "https://so.html5.qq.com/page/real/search_news?docid=70000021_4966a62ad1806652"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2.5D（中式微恐）"
+ ],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "镇邪人",
+  "country": "cn",
+  "track_id": 6771697396,
+  "seller": "Anhui Leihu Network Technology Co., Ltd",
+  "genres": [
+   "游戏",
+   "卡牌",
+   "角色扮演"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/25/65/6f25658c-fcc3-de71-f3a4-241dfa06e569/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/ff/51/cfff51e3-cd37-d547-ec3b-7ca68d059656/_U7ad6_U7248_U9996_U56fe0707-1242x2688_U91d1_U94dc_U7248.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/78/93/6b78931a-f12c-ced4-ca8c-20211079b99d/_U5356_U70b91-1242x2688-_U91d1_U94dc.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/84/57/758457a8-42f5-197b-0119-047f316d9f5d/_U5356_U70b92-1242x2688-_U91d1_U94dc.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/40/ac/ed40ac06-a165-3aea-55ff-bb7127d78c8b/_U5356_U70b93-1242x2688-_U91d1_U94dc.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/44/ea/6f44eae6-287b-452e-f7c1-27ed8ac35870/_U5356_U70b94-1242x2688-_U91d1_U94dc.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/90/2a/c7902afd-c8db-af23-12c0-e52dfebda69d/_U7ad6_U7248_U9996_U56fe0707-2048x2732_U91d1_U94dc_U7248.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/80/11/958011dd-dd5c-0a52-4b8d-4ba939a58d39/_U5356_U70b91-2048x2732-_U91d1_U94dc.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/cf/1b/61cf1bef-3af1-040d-ccf3-1b4f503b23b5/_U5356_U70b92-2048x2732-_U91d1_U94dc.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/83/e5/f483e5c1-073e-68a6-37ce-698a83a2e1c1/_U5356_U70b93-2048x2732-_U91d1_U94dc.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/57/32/3457321d-3d37-5c41-feec-8256c4568030/_U5356_U70b94-2048x2732-_U91d1_U94dc.png/626x1112bb.jpg"
+  ],
+  "description": "天灵灵、地灵灵，一把木剑镇邪灵；莫问前程凶与吉，镇邪天师且慢行。诚邀各位镇邪天师加入镇邪司，一同探索地宫秘境，搜集稀世珍宝，打败千年邪崇！\n\n——签到得传说破盾“白蛇”及神话输出“怜无常”，首发助力镇邪除妖！\n——登录完成初始任务即领神话输出“贝儿”，共同对抗邪崇力量！\n——登录上线结缘符、元宝等资源送不停，更有随机神话灵宠礼盒！\n\n《镇邪人》是一款中式微恐地宫探险“搜打撤”游戏，在这里你将扮演身怀绝技的镇邪天师，勘察千年地宫、破解重重机关、收集稀世法宝，组建镇邪队伍，对抗诡异力量，书写属于你的镇邪传奇！\n\n【探索地宫 步步惊心】\n踏入千年地宫禁地，解读壁画密文、破解重重机关，在地宫深处寻找失落的宝藏与惊天秘密！每一次全新的挑战，危机与机遇并存！\n\n【邪祟来袭 智勇应对】\n地宫深处暗藏不死邪崇，识破其弱点、部署策略，凭借智慧与走位将其一一镇压！每一场对决都需要冷静判断，稍有不慎便会满盘皆输！\n\n【结盟同行 共闯禁地】\n招募志同道合的镇邪伙伴，组建专属镇邪小队！互通情报、共享资源，携手应对黑暗深处的重重危机，在生死考验中缔结过命之交！\n\n【烧脑解谜 步步为营】\n每一关都是全新的智力考验，机关重重、陷阱密布，唯有冷静推理、步步为营才能全身而退！挑战你的极限，感受烧脑解谜的极致快感！\n\n开发者的话：\n镇邪天师，欢迎加入镇邪司！我们励志打造更具沉浸式的地宫探险体验，让每一次探索都是全新的挑战，每一次探险归来都收货满满！\n\n游戏仍在不断打磨优化中，如果您在体验过程中有任何建议，欢迎随时告诉我们，一起共筑镇邪司荣光，您的反馈将是我们最大的动力！每一次更新与优化，只为让你玩的更爽。守卫镇邪司，一起战斗吧！\n\n《镇邪人》订阅说明\n\n--订阅价格及周期：\n您可以在游戏中订阅“周卡”订阅服务周期为7天，“月卡”订阅服务周期为30天，开放商城功能后可购买。\n\n--关于订阅内容：\n订阅后可以在订阅期间享受所有的增益特权：\n月卡自动订阅：订阅月卡后可以立即获得300元宝，订阅期间每日可领取100元宝和100结缘符，并享受月卡特权。\n价格：30元/30天\n\n周卡自动订阅：订阅周卡后可以立即获得80元宝和12小时挂机功德道具，订阅期间每日可领取150元宝，并享受周卡特权。\n价格：8元/7天\n\n--关于自动续订：\n苹果App Store官方订阅功能为自动续费订阅。\n由iTunes Account进行确认支付，用户需手动在iTunes/Apple ID设置管理中关闭自动续订功能，订阅自动续费将于每个订阅周期结束前的24小时之内进行扣费，并由iTunesAccount进行确认支付，如果需要取消订阅功能，您需要于订阅结束前至少24小时关闭自动续费功能。如果在此时间之前未能取消自动续费，则订阅周期会自动延续。\n\n--用户协议：https://37.com.cn/user-agreement/content/?policies_content_id=4\n\n--隐私政策及申明：https://37.com.cn/user-agreement/content/?AID=32588\n\n--取消订阅流程：\n如果您想取消订阅，请在您的iOS设备上手动打开“设置”→点击“AppleID”→点击“订阅”→“管理”并选择“镇邪人”对应的订阅，便可取消订阅。\n\n--更换设备后订阅服务的说明：更换设备后，原苹果账号下购买了订阅服务的角色，在订阅未过期期间，将可继续享受订阅服务，无需其他操作。",
+  "release_notes": "修复已知bug，优化游戏体验。",
+  "file_size_bytes": 248790016,
+  "min_os": "13.0",
+  "version": "1.0.8",
+  "release_date": "2026-07-16",
+  "rating": 4.79537,
+  "rating_count": 27235,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E9%95%87%E9%82%AA%E4%BA%BA/id6771697396?uo=4",
+  "fetched_at": "2026-09-15T00:36:05+08:00"
+ },
+ "slug": "镇邪人_4b40a3"
+}

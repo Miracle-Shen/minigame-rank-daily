@@ -1,0 +1,223 @@
+{
+ "schema_version": 1,
+ "name": "多乐升级",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "北京蓝色创想网络科技有限责任公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/热门榜"
+  ],
+  "ranks": {
+   "douyin/热门榜": 13
+  },
+  "platform_app_ids": {
+   "douyin": "tt4b0d3db0d43bd50002"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 7,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator（推测）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "2D 扑克牌 + 角色立绘 + 出牌特效",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "升级/拖拉机规则复杂（叫主/抠底/甩牌罚分/多副牌），AI 与判定需专门实现",
+   "server": "联网对战 + 排行榜，需强联网"
+  },
+  "asset_notes": "2D 扑克牌 + 角色立绘 + 特效，素材中等，牌库可复用",
+  "notes": "媒体匹配（国区），包体 233MB；引擎未确认，按棋牌类常见选型推断",
+  "cost_score": 2.12,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "4 人扑克牌（升级/拖拉机/80分），叫主、出牌、扣底，按级别升级；单机练牌或联网对战冲榜。",
+  "highlights": [
+   "拖拉机连炸 + 特效炫酷的连炸爽感",
+   "「七星高照」创新玩法胡牌不停、连炸爽翻天",
+   "智能选牌一指操作降低门槛"
+  ],
+  "innovations": [
+   "在经典升级基础上加入「七星高照」连炸玩法，属成熟品类的执行优化，无颠覆性创新"
+  ],
+  "target_user": "中年男性牌友，社交",
+  "monetization": "IAA（广告）+ IAP（去广告/道具），免费（inferred）",
+  "lifecycle": "长线（牌类长青）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "扑克框架成熟、技术低；瓶颈在规则还原与地域玩法选择，换地方扑克即差异化。",
+  "suggestions": [
+   "换为「掼蛋 / 跑胡子」地域玩法",
+   "加 AI 陪练降低新手挫败",
+   "社交房卡模式提升付费"
+  ],
+  "risks": [
+   "扑克类同质化",
+   "地方规则多难统一"
+  ],
+  "effort": "30–45 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/64/a3/fc64a354-4942-2113-6a72-5e5e026f4038/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8b/6f/3b/8b6f3b5f-b6c2-abec-8405-3591e44036c6/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/39/87/a439876c-e499-d5fd-2f27-2df93435faf7/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/7b/d5/f77bd539-880c-4f5f-de88-9bc45e2c261b/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/d0/df/4ad0df7f-33e9-9990-74dd-8bec462c1518/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/80/7b/69807b8a-a032-24c7-baf1-6825ac240ab0/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/72/54/61725402-f353-18df-73b4-fe7d111553d0/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/48/b9/a448b97b-f67a-d058-72ab-126599dd322a/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/23/00/73/2300730e-7ea0-d713-857d-9c74b218f92e/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/bd/71/95bd7108-d3d0-cd6f-de2a-e59d265ffbc6/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/2c/92/ec2c92d1-5e08-6835-7a5b-84027767b430/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/41/a9/2e/41a92ecc-e1be-533b-2f72-a22504dfdc55/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/bb/06/4dbb0687-abd2-5f1f-fd95-8e47321198d4/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 233MB（官方商店数据）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Cocos Creator 属推断，无官方确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E5%A4%9A%E4%B9%90%E5%8D%87%E7%BA%A7/id1061581971?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "多乐升级",
+  "country": "cn",
+  "track_id": 1061581971,
+  "seller": "Beijing Pengqu Technology Co.,Ltd.",
+  "genres": [
+   "游戏",
+   "卡牌",
+   "休闲",
+   "娱乐"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/64/a3/fc64a354-4942-2113-6a72-5e5e026f4038/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8b/6f/3b/8b6f3b5f-b6c2-abec-8405-3591e44036c6/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/39/87/a439876c-e499-d5fd-2f27-2df93435faf7/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/7b/d5/f77bd539-880c-4f5f-de88-9bc45e2c261b/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/d0/df/4ad0df7f-33e9-9990-74dd-8bec462c1518/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/80/7b/69807b8a-a032-24c7-baf1-6825ac240ab0/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/72/54/61725402-f353-18df-73b4-fe7d111553d0/6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/48/b9/a448b97b-f67a-d058-72ab-126599dd322a/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/23/00/73/2300730e-7ea0-d713-857d-9c74b218f92e/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/bd/71/95bd7108-d3d0-cd6f-de2a-e59d265ffbc6/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/2c/92/ec2c92d1-5e08-6835-7a5b-84027767b430/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/41/a9/2e/41a92ecc-e1be-533b-2f72-a22504dfdc55/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/bb/06/4dbb0687-abd2-5f1f-fd95-8e47321198d4/6.jpg/626x1112bb.jpg"
+  ],
+  "description": "升级又名双升、拖拉机、80分、炒地皮、摔小二、五十k。多乐升级是多乐够级、多乐保皇团队精品续作。\n升级是国内非常盛行的一种 4 人扑克牌游戏，可以选择两副牌、三副牌、四副牌进行对局。打两副牌时，也称为\"80分\"，还有的地方也有叫 \"摔小二\" 、\"拖拉机\"、\"炒地皮\"、\"五十k\"等。\n多乐升级包含三副牌升级、四副牌升级、两副牌双升、三打哈玩法、三打一升级玩法等。在两副牌双升中，包括经典玩法、炒底玩法、五主过河玩法、连打玩法等。\n创新玩法七星高照刺激来袭，胡牌不停，特效炫酷，连炸爽翻天。\n\n--------多乐升级特色--------\n【界面清新】\n多乐团队专门打造的升级拖拉机游戏，为手机、平板特意适配，带给您优质的视觉体验。拖拉机特效展示，80分具体牌展示，一目了然！\n\n【轻松简单】\n升级拖拉机游戏智能选牌，一指选牌，简单便捷，玩升级拖拉机打双升，完成80分就是这么轻松。\n\n【单机战绩】\n谁说一个人打升级无聊？打完双升一轮战绩记录，胜负局数挑战不断，拖拉机出到手软，80分拿到眼烦，双升甩牌打到嗨翻，乐趣媲美升级真人版。超级省流量，没网也能玩。\n\n【玩法丰富】\n经典玩法，炒底玩法，五主过河玩法，连打玩法，三副牌，四副牌，三打哈等。手握拖拉机，双升打到80分，就能翻身做庄家！\n\n【经典重现】\n经典双升八十分叫主翻倍、抠底翻倍、甩牌罚分，一系列技术流双升体验，为您打造经典玩法。\n\n打升级拖拉机，双升80分，玩炒地皮双升就来多乐升级嗨翻天！堪称移动端升级拖拉机游戏的经典力作。\n\n--------升级无处不在 快乐随时随地--------\n多乐升级是由多乐团队重磅推出的一款针对大众休闲牌类游戏。游戏画面精美，内容丰富，挑战有记录，回放有录像。让你随时随地畅快双升。",
+  "release_notes": "1.优化对局体验\n2.修复已知问题",
+  "file_size_bytes": 233344000,
+  "min_os": "13.0",
+  "version": "2.21.5",
+  "release_date": "2015-12-28",
+  "rating": 4.58188,
+  "rating_count": 16352,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E5%A4%9A%E4%B9%90%E5%8D%87%E7%BA%A7/id1061581971?uo=4",
+  "fetched_at": "2026-09-15T00:38:20+08:00"
+ },
+ "slug": "多乐升级_f43140"
+}

@@ -1,0 +1,101 @@
+{
+ "schema_version": 1,
+ "name": "暴走闯关者",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "长沙四五互娱网络科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/人气榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 8
+  },
+  "platform_app_ids": {
+   "wx": "wx4e5802fc1b078117"
+  },
+  "first_seen": "2026-09-04",
+  "appearances": 2,
+  "best_rank": 8,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos / Unity（推测）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "鲜艳卡通 2D 关卡",
+  "dims": {
+   "engine": 1,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 2,
+   "data": 1,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "关卡挑战 + 道具收集，规则简单",
+   "data": "无明显成长线，纯关卡闯关"
+  },
+  "asset_notes": "2D 关卡 + 角色，素材轻",
+  "notes": "媒体未匹配，依据微信小游戏平台同类+应用宝入口推断为休闲闯关",
+  "cost_score": 1.62,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "在限时光卡中操作角色躲避陷阱/敌人，突破障碍到达终点通关；收集道具辅助。",
+  "highlights": [
+   "限时通关的紧张节奏",
+   "丰富关卡逐步解锁的新鲜感",
+   "简单易上手的操作"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（闯关类成熟）"
+  ],
+  "target_user": "休闲闯关用户",
+  "monetization": "IAA（广告），具体未确认（inferred）",
+  "lifecycle": "短平快"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "闯关框架极轻，换题材即差异化，成本低。",
+  "suggestions": [
+   "换题材为「厨房逃生 / 办公室突围」",
+   "加关卡编辑器 UGC 延长寿命",
+   "限时竞赛接好友排行榜"
+  ],
+  "risks": [
+   "闯关品类饱和"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "具体玩法未找到官方确认，依据平台同类推断",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.17yoo.cn/detail/60585"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:38:32+08:00"
+ },
+ "slug": "暴走闯关者_cdfe61"
+}

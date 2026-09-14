@@ -1,0 +1,271 @@
+{
+ "schema_version": 1,
+ "name": "Vita Mahjong",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Vita Studio",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 7
+  },
+  "platform_app_ids": {
+   "ios": "6468921495"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "精美麻将牌面+大字号+多主题背景（适老）",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "牌面贴图+20+主题背景+大字号UI，量级中等（包体215MB）",
+   "logic": "麻将接龙配对需保证每局可解，关卡生成/校验是主要逻辑"
+  },
+  "asset_notes": "2D牌面与背景贴图，素材体系化但非海量；牌面可程序化/采购",
+  "notes": "适老麻将接龙，Unity确认；输入名Vita Mahjong与本作Vigor Mahjong存在名称差异（media匹配度0.78）",
+  "cost_score": 2.0,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "在牌堆里点选两张相同且'自由未被压'的麻将牌配对消除，清空全盘即过关；连击解锁combo，提示/洗牌辅助，无计时无压力。",
+  "highlights": [
+   "消除两张自由牌的'咔哒'配对反馈+连击combo加成",
+   "大字号+简洁界面，适老无障碍，降低认知负担",
+   "20000+关卡+每日挑战，长线不缺内容"
+  ],
+  "innovations": [
+   "无实质创新，属于经典麻将接龙的适老化执行优化（大牌面/无计时）"
+  ],
+  "target_user": "45+中老年/休闲解压用户",
+  "monetization": "IAA为主（看广告复活/提示/加倍），无IAP",
+  "lifecycle": "长线，靠关卡量与每日挑战维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "麻将接龙机制零版权壁垒、极度成熟，换一套牌面主题（国风/动漫IP需授权）即成立；引擎已确认Unity，技术风险低。",
+  "suggestions": [
+   "牌面换'诗词/成语'主题，消除即学词，接教育场景",
+   "做'非遗剪纸'牌面，差异化美术+文化向",
+   "保留适老大字号，加轻度计时挑战扩展年轻用户"
+  ],
+  "risks": [
+   "输入名Vita Mahjong与底层Vigor Mahjong名称不一致，关联需核对",
+   "麻将牌面若用知名IP需授权",
+   "适老赛道买量CPI低但LTV也低"
+  ],
+  "effort": "20–35人日（1前端+1美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/49/1d/ca491d05-f372-f902-d3d6-e2f98fccd379/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/a8/2a/fba82a5d-f32e-f8ea-920e-5bb3d595b2e0/1.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/84/eb/ef84eb9f-2664-9f93-a9a8-ce611ca125bb/2.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/96/04/3996047f-66e0-c491-2c94-2e552e7cb87e/3.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/be/93/01be93fc-50cb-191c-1a67-704249661c32/4.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/79/3c/31793cdc-6736-3c21-23a1-2e28f84cc513/5.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/06/11/c20611b5-9d40-d096-d1f5-c2e589b97920/6.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/06/ce/ee06ce95-2177-23d2-578c-e85e49bf08cf/7.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/16/aa/c516aafd-61a9-0150-34f2-255db56aebd5/8.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/9b/b5/759bb5f8-5811-a864-27f1-c5d6a52b4e96/1.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/f2/41/38f24179-a742-b896-533c-3d7b918cb572/2.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/c7/c9/c0c7c9c7-6c6d-782f-53a6-d4bb44247ebc/6.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/96/69/0a96690b-4e6b-b1bc-58a7-69a8cd66c22a/4.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/a7/8f/2ca78fc7-96a2-5e39-a39d-921ced59b4b0/5.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/86/8b/cf868b72-9226-bcfd-842d-a60128ff4325/3.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/6f/41/f46f4185-f241-c7fe-51ed-5d683291f584/10.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/d4/4b/ecd44bb0-e488-67d6-66f9-8d9a2eed577c/7.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 16"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/94/57/fe/9457fe6a-3fa3-aef1-197f-87facf1b52bb/8.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 17"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/8f/92/df8f92a8-e675-2d35-bc41-40c894661d65/9.JPG/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 18"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "Vigor Mahjong 使用 Unity 引擎（AppGoblin SDK 检测确认）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "输入名 Vita Mahjong 与媒体匹配名 Vigor Mahjong 不一致（匹配分0.78）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体215MB，含20000+关卡与多主题背景",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://appgoblin.info/apps/6478847787/",
+  "https://apps.apple.com/cn/app/vigor-mahjong/id6478847787?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 0.783,
+  "match_name": "Vigor Mahjong",
+  "country": "cn",
+  "track_id": 6478847787,
+  "seller": "Doodle Mobile Limited",
+  "genres": [
+   "游戏",
+   "卡牌",
+   "桌面",
+   "娱乐"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/49/1d/ca491d05-f372-f902-d3d6-e2f98fccd379/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/a8/2a/fba82a5d-f32e-f8ea-920e-5bb3d595b2e0/1.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/84/eb/ef84eb9f-2664-9f93-a9a8-ce611ca125bb/2.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/96/04/3996047f-66e0-c491-2c94-2e552e7cb87e/3.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/be/93/01be93fc-50cb-191c-1a67-704249661c32/4.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/79/3c/31793cdc-6736-3c21-23a1-2e28f84cc513/5.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/06/11/c20611b5-9d40-d096-d1f5-c2e589b97920/6.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/06/ce/ee06ce95-2177-23d2-578c-e85e49bf08cf/7.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/16/aa/c516aafd-61a9-0150-34f2-255db56aebd5/8.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/9b/b5/759bb5f8-5811-a864-27f1-c5d6a52b4e96/1.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/f2/41/38f24179-a742-b896-533c-3d7b918cb572/2.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/c7/c9/c0c7c9c7-6c6d-782f-53a6-d4bb44247ebc/6.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/96/69/0a96690b-4e6b-b1bc-58a7-69a8cd66c22a/4.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/a7/8f/2ca78fc7-96a2-5e39-a39d-921ced59b4b0/5.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/86/8b/cf868b72-9226-bcfd-842d-a60128ff4325/3.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/6f/41/f46f4185-f241-c7fe-51ed-5d683291f584/10.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/d4/4b/ecd44bb0-e488-67d6-66f9-8d9a2eed577c/7.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/94/57/fe/9457fe6a-3fa3-aef1-197f-87facf1b52bb/8.JPG/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/8f/92/df8f92a8-e675-2d35-bc41-40c894661d65/9.JPG/626x1112bb.jpg"
+  ],
+  "description": "Get ready for an exclusive and original Mahjong Solitaire game! Vigor Mahjong combines innovation with classic gameplay of Tile Matching, meticulously crafted for the senior audience. It offers large tiles and a user-friendly interface compatible with pads and phones.\n\nEscape in the tranquil beauty of Vigor Mahjong where hundreds of tile matching puzzles are ready to solve in this popular game of strategy, memory, and skill. Our goal is to provide a relaxing yet mentally engaging gaming experience, particularly focused on older adults.\n\nHow to Play:\nThe goal of the game Mahjong Solitaire is to remove all the Mahjong tiles on the board by matching pairs of Mahjong tiles. Tap or slide two matching tiles, and they will disappear from the puzzle board. You can only remove majong tiles that are free and not covered. When all tiles are removed from the board, it signifies successful completion of a mahjong game!\n\nVigor Mahjong Features:\n- Immerse yourself in breathtaking graphics and beautifully crafted tile designs that staying true to the original gameplay.\n- Large, easily readable font sizes to alleviate the strain caused by small texts.\n- From classic layouts to unique puzzles, Vigor Mahjong offers over 20,000 levels to keep you entertained for hours.\n- Choose your own score system: no timer, no pressure.\n- When you consecutively match mahjong tiles during the game, you will unlock special combos.\n- Use HINTS or SHUFFLE tiles for ease of play. Earn extra points when you solve puzzles without help.\n- Special daily challenges available for you to complete each day.\n- No Wifi, no problem! Play offline if you wish.\n\nPlay among gorgeous backgrounds, relaxing sounds, and unique themes to match any mood in Vigor Mahjong now!",
+  "release_notes": "Bug fixes and performance improvements.",
+  "file_size_bytes": 215098368,
+  "min_os": "13.0",
+  "version": "4.7",
+  "release_date": "2025-02-27",
+  "rating": 4.67982,
+  "rating_count": 228,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/vigor-mahjong/id6478847787?uo=4",
+  "fetched_at": "2026-09-15T00:37:39+08:00"
+ },
+ "slug": "Vita_Mahjong_265882"
+}

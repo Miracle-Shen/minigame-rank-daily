@@ -1,0 +1,215 @@
+{
+ "schema_version": 1,
+ "name": "部落冲突(Clash of Clans)",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 16
+  },
+  "platform_app_ids": {
+   "ios": "1595603316"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 15,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Supercell 自研 Titan 引擎 (C++)",
+  "engine_evidence": "confirmed",
+  "dimension": "2.5D 等距",
+  "art_style": "2.5D 等距卡通，村庄/战斗",
+  "dims": {
+   "engine": 5,
+   "art": 4,
+   "anim": 4,
+   "physics": 3,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "Titan 为 Supercell 专有引擎，外界不可得，复刻需自研等价物",
+   "art": "包体约 1.43GB（很重），等距村庄/兵种/特效资产海量",
+   "anim": "兵种动画 + 战斗特效 + 墙破表现，动作密度高",
+   "logic": "村庄建造 + 配兵 + 实时战斗模拟 + 部落战 + 赛季，系统极复杂",
+   "data": "建筑/科技/战宠/英雄多线养成 + 全局经济，数值体系极重",
+   "server": "实时战斗确定性同步 + 部落社交 + 全球并发，强联网"
+  },
+  "asset_notes": "等距 2.5D 卡通 + 1.43GB 重包体，Titan 引擎使确定性战斗回放成为可能，复刻需等价自研。",
+  "notes": "Supercell 出品，Titan 引擎（C++ + Lua 脚本），腾讯天游国区代理。",
+  "cost_score": 4.25,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "建村庄→训练兵种/配阵→进攻其他玩家或部落战→掠夺资源升级建筑，单局战斗数分钟，靠养成与部落社交续玩。",
+  "highlights": [
+   "进攻布局「以少胜多」的策略爽感",
+   "部落战协作与排行榜社交",
+   "建筑/科技长线养成的目标感"
+  ],
+  "innovations": [
+   "开创 COC 品类（建造+实时战斗模拟+部落社交），品类定义级但已被锁死"
+  ],
+  "target_user": "12-35 岁策略与社交用户",
+  "monetization": "IAP 内购（宝石/加速/资源）为主",
+  "lifecycle": "长线运营，十年级产品"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "Clash of Clans IP + 自研 Titan 引擎不可得 + 1.43GB 重包体 + 实时战斗确定性模拟，复刻在引擎与版权上均不可行。",
+  "suggestions": [
+   "可用 COC 玩法框架做无 IP「星球/部落建造」原型练手"
+  ],
+  "risks": [
+   "COC/Supercell IP",
+   "Titan 引擎不可得",
+   "实时战斗同步 + 重资本"
+  ],
+  "effort": "极高 / 不适用"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/52/5c/0c525cde-c876-3371-ea4b-64ea438d6dec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/da/7e/2cda7e64-88f0-9d44-a0dd-4b4a5e0476dc/ios2688_U00d71242-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/7b/19/f27b19d8-9211-3820-7252-1c7949f2ea45/ios2688_U00d71242-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/3d/df/723ddfcf-89cc-2622-28c1-6ca8a6cc89ff/ios2688_U00d71242-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/5d/ee/3e5dee9a-83cc-c242-c70e-f755b7b4359d/ios2688_U00d71242-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/55/dc/cc55dcb7-53ab-e52b-b42c-14d2efea32d2/ios2688_U00d71242-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/28/f3/dc28f3df-9d1b-9fce-51d8-14401993028a/20250730195537-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-3bc91010a8823521bf0186d531b50e82d10e544a-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/b2/a4/0eb2a4c4-c9fd-0bf2-fb1a-20089680d1a0/20250730195544-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-9084f8a4e4197c94fc723fce74f422e9fcb825b6-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/d2/29/bed22994-a8e7-f27b-d989-ed0857838be3/20250730195550-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-48301b0b8c79ffd6e7edab753fcf31c474b2cf98-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/9a/11/d49a11a3-8c00-147b-2ba2-577af62d4b97/20250730195557-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-f92ec3f4042fefaac4516b793d8ec1a01cdbf0d6-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/ef/c1/70efc14e-acc2-ac1a-5e1f-b24194ee6f04/20250730195603-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-e46386d54fea022b19c1cdbd0b70310c0ed21f1c-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体约 1.43GB（1534901248 字节），属「很重」量级",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Supercell 自研 Titan 引擎（C++/Lua，多来源确认）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81-clash-of-clans/id1595603316?uo=4",
+  "https://macsources.com/the-technology-behind-clash-of-clans/"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2.5D 等距"
+ ],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "部落冲突（Clash of Clans）",
+  "country": "cn",
+  "track_id": 1595603316,
+  "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+  "genres": [
+   "游戏",
+   "娱乐",
+   "动作",
+   "策略"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/52/5c/0c525cde-c876-3371-ea4b-64ea438d6dec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/da/7e/2cda7e64-88f0-9d44-a0dd-4b4a5e0476dc/ios2688_U00d71242-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/7b/19/f27b19d8-9211-3820-7252-1c7949f2ea45/ios2688_U00d71242-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/3d/df/723ddfcf-89cc-2622-28c1-6ca8a6cc89ff/ios2688_U00d71242-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/5d/ee/3e5dee9a-83cc-c242-c70e-f755b7b4359d/ios2688_U00d71242-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/55/dc/cc55dcb7-53ab-e52b-b42c-14d2efea32d2/ios2688_U00d71242-5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/28/f3/dc28f3df-9d1b-9fce-51d8-14401993028a/20250730195537-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-3bc91010a8823521bf0186d531b50e82d10e544a-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/b2/a4/0eb2a4c4-c9fd-0bf2-fb1a-20089680d1a0/20250730195544-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-9084f8a4e4197c94fc723fce74f422e9fcb825b6-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/d2/29/bed22994-a8e7-f27b-d989-ed0857838be3/20250730195550-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-48301b0b8c79ffd6e7edab753fcf31c474b2cf98-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/9a/11/d49a11a3-8c00-147b-2ba2-577af62d4b97/20250730195557-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-f92ec3f4042fefaac4516b793d8ec1a01cdbf0d6-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/ef/c1/70efc14e-acc2-ac1a-5e1f-b24194ee6f04/20250730195603-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-e46386d54fea022b19c1cdbd0b70310c0ed21f1c-1.jpg/626x1112bb.jpg"
+  ],
+  "description": "Supercell公司作为原创手游的领航者，旗下有多款风靡全球的独创手游。《部落冲突》是Supercell旗下的一款风靡全球的休闲策略养成引领手游，开创了全新COC游戏品类。在游戏中，你不仅可以使用野蛮人、弓箭手、野猪骑士皮卡、龙和其他强大的军队战士，还可以和其他玩家一起建立强大的部落进行史诗级的部落战争。《部落冲突》已成为时下超火爆的休闲策略手游，得到无数玩家好评，并保持超高人气。如果你也喜欢模拟经营，喜欢策略对战，就赶快加入我们，体验超丰富的游戏活动，与好友共聚，一起畅享策略盛宴吧！",
+  "release_notes": "【可选更新】 解决了首领用建筑工人升级精制台时出现的闪退问题\n【全新联动】WWE联动来袭，六位WWE超级巨星将与英雄们一同踏入擂台，带来全新英雄和场景皮肤！\n【全新活动】WWE挑战活动、战斗选项和合约公文包部落大作战等超多活动来袭，专属雕像和海量奖励等你来拿！\n【委托升级】报告首领委托全面升级，委托难度优化，新增夜世界等委托任务，更有飞龙委托加入，快来领取时间、矿石等专属奖励吧！\n【全新主题季】青云仙域二期活动开启，仙域初开，解锁仙侠限定外观吧！\n【全新活动】太虚炼器活动同步开启，带来4大超强神器装备，让你爽玩对局！\n【全新等级】全新18本等级上线增加，新增战宠和超级充能全新等级上限。\n【全新页面】战斗结算界面全面重做，采用全新布局和获胜横幅，并更清晰地展示战利品及额外奖励明细。\n【游戏性优化】英雄征程提供替代任务等游戏性能优化。\n【问题修复】修复了图腾法术召唤的图腾计算为20空间而非1空间等问题。",
+  "file_size_bytes": 1534901248,
+  "min_os": "15.0",
+  "version": "18.114.2",
+  "release_date": "2022-02-15",
+  "rating": 4.51023,
+  "rating_count": 1000604,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81-clash-of-clans/id1595603316?uo=4",
+  "fetched_at": "2026-09-15T00:40:16+08:00"
+ },
+ "slug": "部落冲突_Clash_of_Clans_263527"
+}

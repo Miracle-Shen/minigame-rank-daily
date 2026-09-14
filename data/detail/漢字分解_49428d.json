@@ -1,0 +1,103 @@
+{
+ "schema_version": 1,
+ "name": "漢字分解パズル",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "SUNNY HK",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 12
+  },
+  "platform_app_ids": {
+   "ios": "6771681142"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / Cocos（inferred）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "汉字部首色块拼贴，简约文字风",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 1,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 1
+  },
+  "dim_notes": {
+   "art": "以汉字/部首色块为主，无复杂美术，体量轻",
+   "logic": "需构建汉字部首拆分规则库与组合校验，逻辑中等但依赖语言数据"
+  },
+  "asset_notes": "纯文字/部首图形，美术成本极低，核心资产是汉字拆分数据库。",
+  "notes": "无官方媒体材料，按日区免费榜解谜品类与名称推断为汉字部首拆解玩法。",
+  "cost_score": 1.62,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "将汉字按部首/部件拆分并重新组合，完成拼字或拆解挑战，逐关解锁更多汉字。",
+  "highlights": [
+   "部首拼合即‘造字’的认知爽点，兼具学习趣味",
+   "关卡递进从简单字到复杂结构，解谜成就感清晰",
+   "无时间压力的纯逻辑休闲，适合碎片时间"
+  ],
+  "innovations": [
+   "无实质创新，属汉字/部首拆解类教育解谜的成熟执行"
+  ],
+  "target_user": "日语/汉字学习者、文字解谜轻度用户",
+  "monetization": "IAA广告为主（推测），可能含去广告内购",
+  "lifecycle": "短平快，靠关卡包更新维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "部首拆解机制轻量可复刻，瓶颈在汉字数据库与题材；换语言（中文/日文）或换主题即差异化。",
+  "suggestions": [
+   "做‘中文部件拼字’或‘成语拆字’本土化版本",
+   "加入每日一字挑战与分享图提升传播",
+   "用AI生成拆分关系降低语言数据构建成本"
+  ],
+  "risks": [
+   "无官方材料，玩法推断存在偏差",
+   "解谜品类留存偏弱，需强关卡设计",
+   "教育向易与工具类App混同"
+  ],
+  "effort": "20–35 人日（1 前端 + 0.5 策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "日区免费榜汉字拆解类解谜，SUNNY HK发行",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.kanshudo.com/howto/kanjibuilder"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:37:03+08:00"
+ },
+ "slug": "漢字分解パズル_49428d"
+}

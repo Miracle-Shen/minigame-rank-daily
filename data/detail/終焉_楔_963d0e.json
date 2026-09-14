@@ -1,0 +1,109 @@
+{
+ "schema_version": 1,
+ "name": "終焉の楔：アポカリプス・ノヴァ",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Tianjin Lintu Technology Co., Ltd",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 16
+  },
+  "platform_app_ids": {
+   "ios": "6775121055"
+  },
+  "first_seen": "2026-09-12",
+  "appearances": 3,
+  "best_rank": 16,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断，未见官方确认）",
+  "engine_evidence": "inferred",
+  "dimension": "2D（推断，日系二次元立绘）",
+  "art_style": "日系二次元立绘（推断）",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "推断为二次元立绘 + CV + 动画，美术与配音投入中等偏重",
+   "logic": "推断含角色养成/推图/技能系统，玩法逻辑中等复杂",
+   "data": "推断含抽卡与养成经济，数值体系中等"
+  },
+  "asset_notes": "无官方包体；日区二次元产品通常需立绘 + 动画 + 日语 CV，素材成本不低（推断）",
+  "notes": "无官方材料，以下均为基于标题与发行方的推断，置信度低",
+  "cost_score": 3.25,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "（推断）基于「终焉/Apocalypse」标题，疑为末日题材二次元 RPG/塔防或卡牌，玩家收集角色、推图养成；无官方描述，纯推断。",
+  "highlights": [
+   "（推断）末日 apocalypse 题材的沉浸叙事与世界观包装",
+   "（推断）角色收集/养成驱动的长线目标"
+  ],
+  "innovations": [
+   "无可靠信息，推测为成熟二次元品类的执行优化"
+  ],
+  "target_user": "日本二次元手游用户（推断）",
+  "monetization": "IAP 卡牌抽卡（推断）",
+  "lifecycle": "长线运营（推断）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "无官方材料且日区二次元品类高度饱和，需日语本地化与 CV/立绘重投入，缺乏差异化一手信息，复刻风险高、ROI 低。",
+  "suggestions": [
+   "若要切入，换非末日题材、降低抽卡浓度做轻量二次元",
+   "用 AI 立绘 + 程序化动画压美术成本",
+   "优先验证国区而非直接打日区"
+  ],
+  "risks": [
+   "题材与玩法饱和，无差异化抓手",
+   "日语本地化 + CV 成本高",
+   "无一手资料，判断可能偏差大"
+  ],
+  "effort": "信息不足，估算 80–120 人日（含本地化，1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "发行方为 Tianjin Lintu Technology，日区免费榜在榜",
+   "level": "confirmed"
+  },
+  {
+   "claim": "玩法/引擎/美术均为推断，检索未命中该作官方资料",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/jp/charts/iphone/top-free/36"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2D（推断，日系二次元立绘）"
+ ],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:40:25+08:00"
+ },
+ "slug": "終焉_楔_963d0e"
+}

@@ -1,0 +1,201 @@
+{
+ "schema_version": 1,
+ "name": "三国杀",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "杭州游卡网络技术有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/热门榜"
+  ],
+  "ranks": {
+   "douyin/热门榜": 20
+  },
+  "platform_app_ids": {
+   "douyin": "tt29365f8bb61c7481"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 61,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos 2D",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "国风精致卡牌，武将形象鲜明",
+  "dims": {
+   "engine": 3,
+   "art": 5,
+   "anim": 4,
+   "physics": 1,
+   "logic": 4,
+   "data": 5,
+   "server": 5,
+   "audio": 4
+  },
+  "dim_notes": {
+   "art": "包体 2.3GB，数百武将卡牌原画 / 特效 / 音频视频资源海量",
+   "anim": "武将技能特效 + 逐帧 / 骨骼动画 + 动态皮肤",
+   "logic": "身份 / 国战 / 斗地主多模式 + 武将技能组合规则",
+   "data": "武将抽卡升星 + 皮肤 + 战令 + 赛季经济",
+   "server": "实时匹配 + 排位 + 公会强联网",
+   "audio": "武将台词语音 + 定制配乐",
+   "physics": "无物理，纯卡牌"
+  },
+  "asset_notes": "2.3GB 以卡牌原画 / 技能动画 / 语音视频为主，重资产；武将 IP 美术是核心壁垒",
+  "notes": "游卡出品，3.0 版本采用全新 Cocos 引擎；国民级身份局卡牌，强 IP 版权",
+  "cost_score": 3.88,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "选武将与身份，摸牌、出牌、判定循环攻防，用杀 / 闪 / 桃 / 锦囊与装备组合，达成身份胜利条件，三分钟一局。",
+  "highlights": [
+   "身份推理的心理博弈爽感",
+   "武将技能 combo 与配合",
+   "国战 / 排位 / 斗地主多模式竞技"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（国民级 IP 卡牌，身份局开创者）"
+  ],
+  "target_user": "全年龄策略卡牌用户",
+  "monetization": "IAP 重度（武将 / 皮肤 / 战令）+ 轻 IAA",
+  "lifecycle": "长线（持续新武将 / 皮肤 / 模式）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "强 IP 版权壁垒（游卡独占三国杀）+ 2.3GB 重资产卡牌 + 强联网，无授权复刻即侵权。",
+  "suggestions": [
+   "做无 IP 原创身份推理卡牌（如「江湖令」「门派恩仇」）规避版权",
+   "用 AI 生成武将立绘降低美术成本"
+  ],
+  "risks": [
+   "三国 IP 版权（游卡独占）",
+   "2.3GB 重资产",
+   "买量贵 + 头部已锁死"
+  ],
+  "effort": "150+ 人日（团队级）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/6c/d6/de6cd653-25bb-3df0-bc6c-087ca468247f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/a7/9c/79a79c6c-b254-cc6c-8d72-c59b77b5dd66/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/ea/3a/50ea3a59-d9cf-42e5-5e78-8623deba81dd/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/10/f6/0110f688-3fa5-cdfc-8b96-bd5641aa63c4/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/ce/8a/0fce8aac-25fa-195f-b65c-5d34a9ee7c87/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/c2/32/aac232be-adb9-f4f9-38a4-ad4102e3af1e/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/3a/75/3e3a753d-99d1-5aaf-084c-95d27b4dc2d2/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2f/e5/bf/2fe5bf8d-e3c1-e3dd-b72b-4c9b66e058f2/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/ff/d5/e7ffd52f-959c-1663-729b-63a867a9ce90/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "3.0 版本采用全新 Cocos 引擎（官方博客确认）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "iOS 包体 2.3GB，身份 / 国战 / 斗地主多模式",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E4%B8%89%E5%9B%BD%E6%9D%80/id407413403",
+  "https://www.idc.net/help/376478"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "三国杀",
+  "country": "cn",
+  "track_id": 407413403,
+  "seller": "Hangzhou Yoka Network Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "策略",
+   "卡牌",
+   "娱乐"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/6c/d6/de6cd653-25bb-3df0-bc6c-087ca468247f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/a7/9c/79a79c6c-b254-cc6c-8d72-c59b77b5dd66/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/ea/3a/50ea3a59-d9cf-42e5-5e78-8623deba81dd/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/10/f6/0110f688-3fa5-cdfc-8b96-bd5641aa63c4/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/ce/8a/0fce8aac-25fa-195f-b65c-5d34a9ee7c87/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/c2/32/aac232be-adb9-f4f9-38a4-ad4102e3af1e/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/3a/75/3e3a753d-99d1-5aaf-084c-95d27b4dc2d2/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2f/e5/bf/2fe5bf8d-e3c1-e3dd-b72b-4c9b66e058f2/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/ff/d5/e7ffd52f-959c-1663-729b-63a867a9ce90/5.jpg/626x1112bb.jpg"
+  ],
+  "description": "【官方正版， 经典续作】3亿玩家的策略首选！集历史、美术、卡牌与智谋博弈于一体的国民级游戏。\n \n【玩法丰富， 随时开局】 经典身份局、排位赛、国战、斗地主，三分钟一局，随时随地与好友组队！ \n\n【立即下载， 领新手壕礼】新人登录即送武将和招募令，助你征战三国沙场！\n\n【上手轻松，深研有料】规则简单易懂，新手快速入门；深度策略拉满，老手乐在钻研。全年龄覆盖，男女玩家都热爱，既是休闲消遣，也是脑力盛宴！\n\n【画风经典，武将鲜活】国风美术精致大气，武将形象个性鲜明，技能台词热血有魂，沉浸式感受三国风云，一秒梦回金戈铁马！\n\n【游戏玩法】选取武将与身份，摸牌、出牌、判定循环攻防，用杀、闪、桃、锦囊与装备组合操作，达成身份胜利条件即可通关！\n\n【用户协议】: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "release_notes": "【欢乐斗地主】\n欢乐斗地主·开学季限定地主：吕蒙（好学）、曹冲（博学）、刘禅（想学）限时上线。\n\n【克隆大作战】\n克隆出击，镜像对决！新增2v2模式与斗地主模式。\n斗地主模式规则：三名玩家共享3名公共备选武将，地主额外拥有2个选将框；叫分结束后，两名农民投票选择相同的出战武将。\n\n【新武将】\n势·贺齐、界王基即将上线~\n\n【新皮肤】\n佛魔一如*笮融首款动态皮肤首发！节钺令长翎贯宇*贺齐即将上线\n\n【征战天下】\n第二十六章力挽狂澜开启！“白帝托孤哀千古，安居运筹平五路。辩士蹈鼎联江东，疑城铁壁拒虬龙。\n\n【其它】\n优化部分称号的称号名文本位置\n优化部分技能发动时的提示文本\n屯田寻访界面新增“推荐拜访”玩家列表\n屯田驿站新增求助与帮助功能",
+  "file_size_bytes": 2323144704,
+  "min_os": "11.0",
+  "version": "4.5.9",
+  "release_date": "2010-12-13",
+  "rating": 1.93619,
+  "rating_count": 238365,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E4%B8%89%E5%9B%BD%E6%9D%80/id407413403?uo=4",
+  "fetched_at": "2026-09-15T00:35:57+08:00"
+ },
+ "slug": "三国杀_03a3b3"
+}

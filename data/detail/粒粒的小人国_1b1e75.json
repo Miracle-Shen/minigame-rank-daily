@@ -1,0 +1,106 @@
+{
+ "schema_version": 1,
+ "name": "粒粒的小人国",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "腾讯",
+  "category_l1": "模拟经营",
+  "category_l2": "建造、治愈、休闲、3D、社交、种田、换装、多人联机、角色扮演",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 10
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-07-06",
+  "appearances": 55,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "可爱low-poly，暖色调治愈",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 2,
+   "logic": 3,
+   "data": 3,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "logic": "建造/种植/烹饪/舞蹈/演奏多生活系统，但都做得很轻、不强制，框架中等",
+   "server": "轻社交，限时多人活动，非强制联机"
+  },
+  "asset_notes": "可爱low-poly+身边小物家具，可用AI+手工产出，素材中等非瓶颈",
+  "notes": "腾讯首款自研生活模拟治愈作，变小视角，社交克制",
+  "cost_score": 2.62,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "变小后在书桌一角建家园，用闹钟/牛奶盒等日常小物造家具，种田烹饪演奏，和100+粒粒NPC互动陪伴，无强制目标。",
+  "highlights": [
+   "把日常小物（闹钟当摇椅、牛奶盒盖房）变家具的脑洞建造乐趣",
+   "100+个性粒粒NPC有‘活人感’，陪伴治愈",
+   "无强制任务/进度，随心的慢生活节奏",
+   "弹弓打露珠、装阳光进瓶子等随处可玩的小交互"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（生活模拟+治愈+轻社交，组合出‘不像腾讯’的调性）"
+  ],
+  "target_user": "泛用户/女性/治愈向，碎片时间解压",
+  "monetization": "IAP（外观/家具/通行证）为主",
+  "lifecycle": "长线（家园/季节内容）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "建造+种植+烹饪是成熟生活模拟模块，无技术壁垒；腾讯靠‘变小视角+治愈调性’差异化，复刻需换题材美术与NPC人设。",
+  "suggestions": [
+   "换为‘蚂蚁视角微观世界’或‘海底小人国’，家具改由贝壳/珊瑚搭建",
+   "NPC换成海洋生物，强化治愈陪伴",
+   "建造奖励接‘微观摄影’分享裂变"
+  ],
+  "risks": [
+   "生活模拟赛道已有《桃源深处有人家》等",
+   "治愈向买量靠调性，复刻难出圈"
+  ],
+  "effort": "25–40 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "腾讯首款自研生活模拟治愈作，变小视角+建造核心",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎未公开，推断Unity",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://life.qq.com/",
+  "https://view.inews.qq.com/a/20260319A0892J00"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:36:24+08:00"
+ },
+ "slug": "粒粒的小人国_1b1e75"
+}

@@ -1,0 +1,107 @@
+{
+ "schema_version": 1,
+ "name": "极限破译",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "杭州祈游网络科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 18
+  },
+  "platform_app_ids": {
+   "douyin": "ttc3d1b56c5db41c8602"
+  },
+  "first_seen": "2026-09-05",
+  "appearances": 6,
+  "best_rank": 6,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / Cocos（推测）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "扁平数字黑客风、场景插画",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 3,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "纯逻辑推理无物理，仅规则判定",
+   "logic": "密码规律识别 + 快速/排名双模式 + 工具升级，规则中等",
+   "data": "经验等级解锁工具、金币升级、角色装扮养成线"
+  },
+  "asset_notes": "2D UI + 数字场景插画，素材量中等，无 3D 资产，素材层不是瓶颈",
+  "notes": "媒体未匹配，玩法依据九游预约介绍推断；黑客解谜+养成+竞技的融合框架",
+  "cost_score": 2.25,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "在机房、企业数据库等数字场景中观察字符规律、拆解密码破译，成功获经验金币与道具；快速模式沉浸式解谜，排名模式限时冲榜争夺全球黑客席位。",
+  "highlights": [
+   "破解瞬间字符归位与解锁背后小故事，带来强解谜成就感",
+   "排名模式限时冲榜 + 全球黑客榜，制造竞技紧张感",
+   "连续破译加成与工具临时强化，策略性使用道具提效"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（黑客破译题材是主要差异化，核心为成熟解谜）"
+  ],
+  "target_user": "喜爱烧脑解谜的年轻男性，碎片时间",
+  "monetization": "IAA + IAP（工具/装扮去广告），具体未确认（inferred）",
+  "lifecycle": "长线运营（养成 + 排行）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "解谜+养成+排名是成熟框架、技术成本低；差异化全在题材与密码设计，换题材即可快速上线验证。",
+  "suggestions": [
+   "换题材为「古籍修复 / 古文字破译」，天然带文化感",
+   "把密码规律做成可关卡编辑器，让 UGC 产出内容",
+   "排名模式加好友 PK 与每周主题赛提升留存"
+  ],
+  "risks": [
+   "解谜难度曲线难调、易劝退",
+   "密码设计靠人工、内容产出成本高"
+  ],
+  "effort": "20–30 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "引擎与具体玩法未找到官方确认，依据九游预约介绍推断",
+   "level": "inferred"
+  },
+  {
+   "claim": "黑客解谜+双模式+角色养成的玩法框架",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.9game.cn/news/11326449.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:38:09+08:00"
+ },
+ "slug": "极限破译_169227"
+}

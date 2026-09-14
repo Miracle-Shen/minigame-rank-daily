@@ -1,0 +1,106 @@
+{
+ "schema_version": 1,
+ "name": "俄罗斯方块拼图",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州京游网络科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "消除",
+  "boards": [
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/畅玩榜": 18
+  },
+  "platform_app_ids": {
+   "wx": "wx45e02fc734c7b568"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 70,
+  "best_rank": 10,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator (推断)",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "简约清新 方块",
+  "dims": {
+   "engine": 1,
+   "art": 1,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "经典俄罗斯方块+消除有现成模板，改配置即可"
+  },
+  "asset_notes": "几何方块可程序化生成，几乎无美术成本",
+  "notes": "广州京游发行，俄罗斯方块与消除拼图的经典融合",
+  "cost_score": 1.75,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "方块从顶部掉落，滑动调整位置、点击旋转，在区域内拼成完整横/纵行列即消除，经典/关卡/无限/限时多模式，连消得高分。",
+  "highlights": [
+   "多行同消 + 连击加成，分数反馈即时",
+   "特殊方块（爆炸/固定）增加关卡策略",
+   "进度自动保存 + 微信分享比拼，轻社交"
+  ],
+  "innovations": [
+   "无实质创新，是俄罗斯方块与消除拼图的经典融合，机制属公共领域"
+  ],
+  "target_user": "全年龄碎片时间用户，偏爱经典怀旧",
+  "monetization": "IAA 广告（红包版含激励），本体轻内购",
+  "lifecycle": "长线但低留存，靠经典玩法自然流量"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "核心机制属公共领域、模板成熟、素材可程序化；瓶颈在题材包装与模式组合，换皮即成立。",
+  "suggestions": [
+   "加入'红包赛道'或'国风皮肤'做买量差异化",
+   "用'消除+三消'混合增加深度，区别于纯俄罗斯方块",
+   "首发的限时冲刺模式做短视频素材传播"
+  ],
+  "risks": [
+   "经典玩法同质化严重、买量素材雷同",
+   "留存天然偏低"
+  ],
+  "effort": "15–25 人日（1 前端+0.5 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "广州京游网络科技有限公司发行，微信畅玩榜历史最高第 5",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎未确认，按休闲小游戏惯例推断 Cocos Creator",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://m.18183.com/ku/eluosifangkuaipintu1.html",
+  "https://www.17xy.cn/soft/7098.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:39:15+08:00"
+ },
+ "slug": "俄罗斯方块拼图_e82b51"
+}

@@ -1,0 +1,124 @@
+{
+ "schema_version": 1,
+ "name": "浪漫餐厅",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "北京柠檬微趣科技股份有限公司",
+  "category_l1": "1",
+  "category_l2": "益智",
+  "boards": [
+   "douyin/热门榜",
+   "douyin/畅销榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 10,
+   "douyin/热门榜": 6,
+   "douyin/畅销榜": 13
+  },
+  "platform_app_ids": {
+   "wx": "wx087d98a0884bbe3b",
+   "douyin": "tt7eb3080ee181ebf007"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "欧美手绘/日系治愈，2D温馨画风",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 4,
+   "server": 2,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "推断Unity：柠檬微趣海外发行、188MB中等包体、成熟merge框架；未见官方确认，故标inferred",
+   "art": "包体约188MB(安卓)属中等，欧美手绘角色/场景/家具成体系，需定制美术",
+   "logic": "合成树+订单系统+餐厅布局+剧情解谜，需关卡编辑器与数十章内容",
+   "data": "多线养成：厨房升级/菜单研发/装修/情缘/每周剧情/赛季，养成线深"
+  },
+  "asset_notes": "2D手绘角色与场景，188MB级素材需稳定美术产能，可AI生图+修图，但欧美画风一致性要求高。",
+  "notes": "柠檬微趣验证过的merge+经营框架，机制成熟；差异在女性向叙事与美术，技术风险低。",
+  "cost_score": 3.0,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "在棋盘上两两合并相同食材/道具，逐级合成高级美食；完成顾客订单赚金币，金币解锁装修素材升级厨房/研发菜品，逐步重建海边餐厅；每周解锁剧情章节推进主线。",
+  "highlights": [
+   "二合一合成的连锁升级满足感(原料→美食→招牌菜)，比三消更简化的操作爽点",
+   "订单完成→金币→餐厅装修的成长闭环可见，每一步都有回报反馈",
+   "每周固定解锁剧情+章末留悬念的『追更』爽感，驱动日活",
+   "自由装修餐厅布局(墙/地/家具)的个性化表达与收集欲"
+  ],
+  "innovations": [
+   "将合成玩法与『独立女性创业』女性向叙事深度绑定，并采用『卖剧情而非卖道具』的商业模式(周更章节+悬念)，用竖版二合一降低操作门槛"
+  ],
+  "target_user": "25-45岁女性向用户，偏爱装修/剧情/收集",
+  "monetization": "混合(IAA+IAP)：体力/道具看广告，厨房升级/剧情解锁/装饰内购；『卖剧情』周更付费点",
+  "lifecycle": "长线运营，靠每周剧情+赛季活动+多款同机制矩阵互相导量"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "二合一合成+模拟经营是柠檬微趣验证过的成熟品类，机制可照搬；差异化在题材叙事(独立女性创业)与美术(欧美手绘)。换主题/换故事即成立，但需自有美术产能。",
+  "suggestions": [
+   "换主题为『美容院/花店/书店』等女性向经营，照搬合成+装修+周更剧情闭环",
+   "强化『卖剧情』模式：每周解锁章节并在结尾留悬念，提升追更与付费",
+   "用竖版二合一(比三消更简化)降低操作门槛，承接通勤碎片用户"
+  ],
+  "risks": [
+   "柠檬微趣已用同机制矩阵(Gossip Harbor等)占住女性向赛道，正面竞争难",
+   "188MB级欧美手绘素材需稳定产能，美术外包成本不低",
+   "周更剧情对文案产能要求高，长线运营压力大"
+  ],
+  "effort": "35–55 人日（1 前端 + 1 美术 + 0.5 策划），美术与剧情文案为瓶颈"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "柠檬微趣出品的merge(二合一合成)+餐厅经营+周更剧情",
+   "level": "confirmed"
+  },
+  {
+   "claim": "与Gossip Harbor为同一产品(海外名)",
+   "level": "confirmed"
+  },
+  {
+   "claim": "柠檬微趣拥有多款同玩法矩阵(Gossip Harbor/Seaside Escape/Merge County/Merge Fables)",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断Unity（未确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://m.18183.com/zhxz/9020228.html",
+  "http://www.gamelook.com.cn/2024/03/539258/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-14T23:51:09+08:00"
+ },
+ "slug": "浪漫餐厅_fcb514"
+}

@@ -1,0 +1,210 @@
+{
+ "schema_version": 1,
+ "name": "地铁跑酷 - 寻灵山海古都归来",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "iDreamSky Technology Limited",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 11
+  },
+  "platform_app_ids": {
+   "ios": "995122577"
+  },
+  "first_seen": "2026-09-11",
+  "appearances": 4,
+  "best_rank": 11,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "3D 卡通，山海神话题材",
+  "dims": {
+   "engine": 3,
+   "art": 5,
+   "anim": 4,
+   "physics": 3,
+   "logic": 3,
+   "data": 4,
+   "server": 3,
+   "audio": 4
+  },
+  "dim_notes": {
+   "art": "包体约 1.46GB（很重），含全球城市赛道 + 山海神兽角色 + 海量皮肤 3D 资产",
+   "anim": "角色骨骼动画 + 滑板/技能/奥义特效，动作表现密度高",
+   "data": "角色/滑板/皮肤/盲盒收集体系 + 赛季秘典 + 累计消费，养成线长",
+   "audio": "场景 BGM + 角色语音 + 大量音效，音频资产重"
+  },
+  "asset_notes": "3D 资产与城市主题包体极重（1.46GB），小游戏化必须做大幅资源降级。",
+  "notes": "Unity 成熟跑酷框架，但 IP 与重资产使复刻不现实。",
+  "cost_score": 3.62,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "左右滑动/上滑跳跃/下滑翻滚躲避障碍物与列车，沿途吃金币、用加速与道具，一局 1-3 分钟冲距离与任务。",
+  "highlights": [
+   "高速 3D 跑酷的流畅手感与微操作躲避反馈",
+   "城市场景每版本轮换（洛阳/山海）带来新鲜感",
+   "盲盒/赛季秘典驱动收集与付费"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（Subway Surfers 全球模板 + 国区本地化主题换皮）"
+  ],
+  "target_user": "6-18 岁及泛年轻休闲用户，通勤碎片时间",
+  "monetization": "IAA 广告 + IAP（炫跑卡订阅去广告、钥匙、盲盒、累计消费）混合",
+  "lifecycle": "长线运营，靠城市版本与赛季活动续命"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "强 IP（Subway Surfers / SYBO + 乐逗代理）+ 1.46GB 重包体 + 跑酷赛道头部固化，复刻无差异化空间且版权风险极高。",
+  "suggestions": [
+   "仅作技术练手可复刻「无尽跑酷」核心循环，但不得套用山海/城市 IP"
+  ],
+  "risks": [
+   "Subway Surfers 全球 IP 授权",
+   "重包体小游戏化困难",
+   "跑酷赛道买量极贵"
+  ],
+  "effort": "150–220 人日（含 3D 资源，不现实）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/56/2a/fc562ac2-2a7d-5d99-cb62-4136cc398a01/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/d5/83/31d583c3-b8bf-6fcc-e88a-08bb6f4ef10b/01.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/cd/ae/65cdae59-4f0f-be56-63c6-9a83295b3a21/04.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/4b/74/474b7475-81c2-e894-c9e6-b82ed0a6300c/03.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/5d/2d/d85d2d0a-057b-328d-9c80-ba00005c9e07/05.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/74/a2/f7/74a2f76d-c557-185b-cf73-5f26760b5578/02.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/0c/9d/e50c9d83-a40e-5289-0058-2da53a9c36a5/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1e/39/f4/1e39f495-5520-c55a-dfe0-6e0c58453253/05.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/3b/f1/1f3bf181-b756-b988-83da-49ac51e0a2b7/04.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/09/d6/ee09d6a2-0aa6-1158-12cb-ded28ac01e4a/03.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/7f/b8/7a7fb867-a90f-9186-adf4-7a9cadf174c9/02.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体约 1.46GB（1535279104 字节），属「很重」量级",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（Kiloo + SYBO 开发，公开资料确认）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E5%9C%B0%E9%93%81%E8%B7%91%E9%85%B7-%E5%AF%BB%E7%81%B5%E5%B1%B1%E6%B5%B7%E5%8F%A4%E9%83%BD%E5%BD%92%E6%9D%A5/id995122577?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "地铁跑酷 - 寻灵山海古都归来",
+  "country": "cn",
+  "track_id": 995122577,
+  "seller": "iDreamSky Technology Limited",
+  "genres": [
+   "游戏",
+   "冒险",
+   "动作",
+   "娱乐"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/56/2a/fc562ac2-2a7d-5d99-cb62-4136cc398a01/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/d5/83/31d583c3-b8bf-6fcc-e88a-08bb6f4ef10b/01.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/cd/ae/65cdae59-4f0f-be56-63c6-9a83295b3a21/04.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/4b/74/474b7475-81c2-e894-c9e6-b82ed0a6300c/03.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/5d/2d/d85d2d0a-057b-328d-9c80-ba00005c9e07/05.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/74/a2/f7/74a2f76d-c557-185b-cf73-5f26760b5578/02.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/0c/9d/e50c9d83-a40e-5289-0058-2da53a9c36a5/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1e/39/f4/1e39f495-5520-c55a-dfe0-6e0c58453253/05.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/3b/f1/1f3bf181-b756-b988-83da-49ac51e0a2b7/04.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/09/d6/ee09d6a2-0aa6-1158-12cb-ded28ac01e4a/03.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/7f/b8/7a7fb867-a90f-9186-adf4-7a9cadf174c9/02.jpg/626x1112bb.jpg"
+  ],
+  "description": "【游戏特色】\n《地铁跑酷》洛阳神游版本开启！重返千年神都洛阳，穿行古朴城楼、恢弘宫阙与传统街巷，在古都风光与山海奇境交织的赛道中，开启一场跨越千年的东方奇幻之旅。烛龙、绾璃、白泽、精卫四位全新角色登场，携专属装备带你探寻山海神话。版本活动同步开启，参与烛映神都、山河同庆签到，领取限定奖励；爱玛电动车集字抽奖二期回归，快影联动角色惊喜登场。赛季秘典、山海绘卷、累计消费、主题盲盒等丰富玩法同步上线，经典角色盲盒限时返场。来到洛阳，穿越古今山海，邂逅神话传说，开启属于你的神都奇旅！\n\n\n--3D酷跑、环游世界\n地铁跑酷每一个版本都会带你观赏一个城市的风采，全世界所有城市，在游戏中都有可能遇见，特色的地铁、特色的城市美景，在你眼中大方光彩，以绚烂美丽的一面刻印在你的脑海中!\n--风靡全球、广受好评\n大家都在玩！聚会、下课、坐公交、坐地铁、休闲在家，随时随地来一局，轻松挑战历史纪录，体验突破自我的快感。\n\n【游戏介绍】\n游戏的背景设定在地铁铁轨上，玩家要帮助杰克和淘气的小伙伴们逃离警察的追捕，闪避前方障碍物与往来的地铁。\n简单的上手操作，丰富的游戏画面，众多的城市场景，让你爱不释手！\n《地铁跑酷》作为一款全球知名的精品手游，已多次登上各大排行榜。\n小伙伴，还等什么，让熊孩子杰克带你环游全世界吧！\n\n【联系我们】\n如果你喜欢我们的游戏，欢迎随时给我们评价、留言。\n\n地铁跑酷官方公众号：ditiepaoku2015\n地铁跑酷官方网站：http://pao.uu.cc\n地铁跑酷官方群：819098101\n地铁跑酷官方微博：地铁跑酷官方\n\n\n【注意事项】\n《地铁跑酷》订阅说明与 Apple官方订阅功能\n1．订阅价格与周期\n您可在游戏內订阅炫跑卡特权礼包（订阅价格为6元订阅周期为30天）\n2．关于订阅内容\n订阅特权礼包的用户，可以在订阅期內立即获得免除游戏内插页广告展示的特权，特权在游戏中立即生效；\n3．订阅价格与周期\n您可在游戏内订阅炫跑卡会员（订阅价格为6元订阅周期为30天）\n4．关于订阅内容\n订阅炫跑卡会员的用户，可以在订阅期內每天领取钥匙，特权在游戏中立即生效；\n5．关于自动续订\n苹果 App Store官方订阅功能为自动续费订阅。用户需手动在 iTunes／ Apple ID设置管理中关闭自动续订功能，如果订阅期结束前的一天内未关闭自动续订功能，订阅周期会自动延续；\n6．隐私政策及声明\n隐私声明：https://www.idreamsky.com/3472.html?type=privacy\n服务条款：https://www.idreamsky.com/3472.html?type=agreement\n\n微博：地铁跑酷官方\n微信公众号：地铁跑酷  (ditiepaoku2015)",
+  "release_notes": "《地铁跑酷》洛阳神游版本开启！于千年神都，追寻山海传说的奇幻踪迹！\n【洛阳神游地图返场】\n穿越千年时光，再临古都洛阳！疾驰于古朴城楼、恢弘宫阙与传统街巷之间，山海异兽与神话意象点缀赛道，在历史风韵与东方幻想交织的奇境中，开启一场跨越千年的神都奇旅！\n【一念山海角色登场】\n太古神祇烛龙长眠大荒极北，睁眼为昼、闭眼为夜，执掌山海时序。青丘九尾绾璃与他相伴万古，却因永生执念走向情缘终局。上古异灵精卫冲破归墟封印，山海司白泽奉命引渡，在因果交错中展开宿命羁绊。烛龙、绾璃、白泽、精卫四位全新角色登场，带你见证一场爱与宿命交织的山海传说！\n【爱玛联动，集字赢豪礼】\n地铁跑酷携手爱玛电动车再度开启限时集字抽奖活动！通过跑酷开箱集字，集齐即可兑换开奖券，参与每周抽奖，更有机会赢取爱玛电动车等丰厚好礼！\n【快影联动，潮流角色登场】\n全新联动伙伴快影杰克惊喜登场！经典角色融入潮流剪辑元素，焕新打造独特视觉形象，为洛阳神游之旅注入全新活力。\n【赛季焕新，山海宝藏等你探索】\n全新赛季进度系统上线，赛季秘典、赛季任务与赛季商城一站式整合。主题秘典「山海寻踪」开启，完成任务获取赛季币，解锁丰富奖励；「山海绘卷」同步上线，收集角色解锁专属卡片，集齐指定数量即可兑换限定滑板「灯笼」。同时开启限定签到、付费打卡册、累计消费、主题盲盒等丰富活动；不仅如此，经典金钥匙盲盒角色还会限时返场，更多神都珍藏等你探索！",
+  "file_size_bytes": 1535279104,
+  "min_os": "11.0",
+  "version": "7.06.0",
+  "release_date": "2017-01-23",
+  "rating": 4.65365,
+  "rating_count": 5365129,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E9%93%81%E8%B7%91%E9%85%B7-%E5%AF%BB%E7%81%B5%E5%B1%B1%E6%B5%B7%E5%8F%A4%E9%83%BD%E5%BD%92%E6%9D%A5/id995122577?uo=4",
+  "fetched_at": "2026-09-15T00:39:36+08:00"
+ },
+ "slug": "地铁跑酷_寻灵山海古都归来_21b1c4"
+}

@@ -1,0 +1,228 @@
+{
+ "schema_version": 1,
+ "name": "保卫向日葵",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "深圳市一起梦游科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/畅销榜"
+  ],
+  "ranks": {
+   "douyin/畅销榜": 7
+  },
+  "platform_app_ids": {
+   "douyin": "tt15ee63538adbf53507"
+  },
+  "first_seen": "2026-06-30",
+  "appearances": 57,
+  "best_rank": 7,
+  "profile_value": "mid",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推测）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "Low-poly 明快卡通 3D 植物/怪物",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 4,
+   "physics": 2,
+   "logic": 5,
+   "data": 5,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体 1.75GB 含海量 3D 植物/怪物模型、技能特效与长线赛季资产",
+   "logic": "塔防+背包like+LDlike 三重融合，杂交配方 200+ 与肉鸽随机技能，系统极复杂",
+   "data": "双线养成 + 符文 + 共鸣 + 公会 + 赛季经济循环"
+  },
+  "asset_notes": "Low-poly 3D，但资产量级极大（植物/怪物/皮肤/赛季），素材层是主要成本",
+  "notes": "媒体匹配（国区），包体 1.75GB；研发为大梦龙途/灵象工作室，引擎未确认按 3D 休闲选型推断",
+  "cost_score": 3.62,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "收集阳光种植物布防，抵御怪物波次；局内用「背包like」放地皮/种植物/升级，击杀特殊怪抽卡得高星植物（LDlike），杂交合成更强阵容。",
+  "highlights": [
+   "杂交配方 200+，同植满级杂交双属性，阵容搭配自由",
+   "肉鸽随机技能每局质变，攻速 buff 叠到每秒 10 发",
+   "保底抽卡 + 自由调站位，避免抽卡挫败且战斗不闲"
+  ],
+  "innovations": [
+   "把经典塔防与「背包like」「LDlike」融合，用杂交系统+肉鸽抽卡把策略维度与局内反馈同时拉满——品类融合即核心创新"
+  ],
+  "target_user": "休闲策略用户，碎片时间",
+  "monetization": "IAP（植物/皮肤/月卡/赛季）+ IAA 混合",
+  "lifecycle": "长线运营（赛季/公会/钓鱼等持续更新）"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "塔防+背包+LD 融合已验证畅销，但 1.75GB 资产与复杂系统意味着高成本；直接照搬撞车且资产门槛高，应学其融合思路换题材。",
+  "suggestions": [
+   "换题材为「保卫萝卜/海鲜摊位」降低美术成本",
+   "学融合但把 LDlike 换成更轻的「塔防+肉鸽」",
+   "先做核心三系统 MVP 验证留存再扩"
+  ],
+  "risks": [
+   "资产量级极高、系统复杂研发周期长",
+   "腾讯/大梦龙途已占榜、买量贵"
+  ],
+  "effort": "120–180 人日（2 前端 + 2 美术 + 1 策划 + 1 服务端）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/1d/f9/391df98a-70dd-96c2-76bc-52ae33b48904/AppIcon-1x_U007epad-0-11-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/eb/e3/cbebe3a2-fcb5-36df-00a1-617eb2e7c03f/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/18/ec/6518ec35-8308-c963-59b4-e88be73e22b7/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/9a/77/e29a7738-fed9-96f1-f5e7-468099ec5f24/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d0/51/c3/d051c35e-4c4a-3234-f4d2-381c2cce8889/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/52/85/4b5285f9-39cb-3d38-ccd5-bb2f1678c942/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/82/16/f78216ed-c4fb-b035-8f13-e7356d90b169/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/a9/22/eea9224e-557b-5b6b-177f-6501cbbe318f/01.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/69/6b/9d696bd6-2d3c-c715-15ff-1759fb3c8297/02.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bf/db/17/bfdb17f2-05bf-1f48-860c-04e9ee510079/03.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/5d/3f/305d3f50-310a-1fe1-bc7b-ff28b168f1ad/04.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b5/e4/53/b5e45361-a0a3-8d0f-8fc9-81170e9a32b3/05.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fe/4c/38/fe4c38ee-360b-e6ac-3638-de7c39da341a/06.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 1.75GB（官方商店数据）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "玩法为塔防+背包like+LDlike 融合（多家媒体报道）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity 属推断",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E4%BF%9D%E5%8D%AB%E5%90%91%E6%97%A5%E8%91%B5/id6737974680?uo=4",
+  "https://new.qq.com/rain/a/20250102A02EZS00"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "保卫向日葵",
+  "country": "cn",
+  "track_id": 6737974680,
+  "seller": "Hainan Youye Technology Co., Ltd",
+  "genres": [
+   "游戏",
+   "策略",
+   "休闲"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/1d/f9/391df98a-70dd-96c2-76bc-52ae33b48904/AppIcon-1x_U007epad-0-11-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/eb/e3/cbebe3a2-fcb5-36df-00a1-617eb2e7c03f/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/18/ec/6518ec35-8308-c963-59b4-e88be73e22b7/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/9a/77/e29a7738-fed9-96f1-f5e7-468099ec5f24/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d0/51/c3/d051c35e-4c4a-3234-f4d2-381c2cce8889/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/52/85/4b5285f9-39cb-3d38-ccd5-bb2f1678c942/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/82/16/f78216ed-c4fb-b035-8f13-e7356d90b169/6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/a9/22/eea9224e-557b-5b6b-177f-6501cbbe318f/01.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/69/6b/9d696bd6-2d3c-c715-15ff-1759fb3c8297/02.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bf/db/17/bfdb17f2-05bf-1f48-860c-04e9ee510079/03.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/5d/3f/305d3f50-310a-1fe1-bc7b-ff28b168f1ad/04.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b5/e4/53/b5e45361-a0a3-8d0f-8fc9-81170e9a32b3/05.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fe/4c/38/fe4c38ee-360b-e6ac-3638-de7c39da341a/06.jpg/626x1112bb.jpg"
+  ],
+  "description": "《保卫向日葵》：休闲塔防合成养成\n\n《保卫向日葵》是一款结合了塔防玩法、轻度策略性与养成元素的休闲游戏。在这个面临挑战、危机四伏的农场里，玩家们将化身英勇的农场主，与技能、性格迥异的植物战士们并肩作战，保卫珍贵的向日葵女王——她是我们阳光与希望的源泉。面对不断侵袭的怪物，玩家需要巧妙地分配植物阵地，以应对危机、保卫家园的和平与安宁。\n除了惊险刺激的主线玩法，独特的局内局外养成机制也是一大亮点！植物战士们不仅可以单兵作战，还可以根据自身属性相互组合，丰富阵容、释放出更强大的威力！双线养成机制——不止植物战士，玩家也可以轻松养成超高战力！\n保卫向日葵，不仅是一场保卫战，更是一次勇气与策略的考验。加入我们，一起守护充满阳光的家园！\n\n【植物合成】同属性植物局内合成，轻松打怪无压力！\n【策略塔防】亲自布阵，策略塔防乐趣无极限！\n【随机技能】随机技能任你选，高自由度高战力！",
+  "release_notes": "1、新增钓鱼玩法\n2、竞技对决开启全新S1赛季\n3、竞技对决将根据防守波次追加竞技币奖励\n4、小助手新增深渊领主、虚空之境扫荡功能\n5、新增符文品质羁绊效果\n6、扩充共鸣系统植物镶嵌槽位\n7、优化玩法商店，集中展示入口\n8、战斗内快捷屏蔽特效新增中间精简档位\n9、豪华月卡新增特权：随机技能「全都要」次数+1\n10、主角在被控制时无法释放化身\n11、快速游历新增消耗体力模式下的每日广告免费次数\n12、开放后续主线章节关卡\n13、公会养猪增加小猪升阶倒计时展示\n14、提升铃兰座斗士、香瓜座斗士、神圣天鹅座、怪盗鸢尾、逆鳞清渊、混天龙炎部分技能强度\n15、优化副化身界面的操作与展示效果\n16、修复极限挑战结算与排行榜通关时间精度不一致的问题\n17、修复战斗内角色面板部分属性未实时刷新的问题\n18、修复断线重连进入战斗后部分技能失效的问题\n19、修复部分武器在战斗中出现的异常问题\n20、修复公会审批部分功能异常问题\n21、修复竞技对决存在的异常问题\n22、修复个别情况下奥术伤害过低的问题\n23、修复时装「宫廷画师」特效显示异常的问题",
+  "file_size_bytes": 1751499776,
+  "min_os": "12.0",
+  "version": "1.3.4",
+  "release_date": "2024-12-05",
+  "rating": 4.36204,
+  "rating_count": 145000,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E4%BF%9D%E5%8D%AB%E5%90%91%E6%97%A5%E8%91%B5/id6737974680?uo=4",
+  "fetched_at": "2026-09-15T00:38:22+08:00"
+ },
+ "slug": "保卫向日葵_3fb55f"
+}

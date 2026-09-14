@@ -1,0 +1,684 @@
+[
+  {
+    "name": "闪耀吧！噜咪",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推断）",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "手绘卡通治愈风，清新明亮童话世界",
+      "dims": {"engine": 2, "art": 4, "anim": 3, "physics": 2, "logic": 4, "data": 4, "server": 3, "audio": 3},
+      "dim_notes": {
+        "art": "包体约257MB，数百只噜咪形态各异+家园/技能/场景动画，卡通贴图与序列帧资产量不小",
+        "logic": "集捕捉收集/轻策略对战/家园建造/离线自动生产多系统，需关卡与数值支撑"
+      },
+      "asset_notes": "2D手绘卡通，可用AI生图+人工修图批量产出；骨朵量大但风格统一，素材层非瓶颈",
+      "notes": "捉宠+家园+轻策略的成熟模块缝合，技术风险低，瓶颈在美术调性与首充节奏"
+    },
+    "play": {
+      "core_loop": "轻点屏幕在森林/沙漠/火山间漫步捕捉噜咪，孵化彩色蛋养成进化，组队打属性克制轻策略对战，空闲时家园噜咪自动产出资源，单局几分钟到挂机收菜。",
+      "highlights": [
+        "轻点即捕的零门槛收集+图鉴填满的正反馈，天然驱动每日登录",
+        "属性克制与技能搭配的轻策略对战，无复杂连招，靠阵容脑洞取胜",
+        "家园噜咪自动打工产材料、离线也成长的‘收菜’满足感",
+        "孵化彩色噜咪蛋的随机惊喜（类扭蛋）"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（捉宠+家园+轻策略的治愈向缝合）"],
+      "target_user": "泛二次元/女性向治愈用户，碎片化时间",
+      "monetization": "以内购（外观/孵化加速/体力）为主，广告位弱",
+      "lifecycle": "长线运营（图鉴/养成/家园内容更新）"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "捉宠+家园+轻策略均为成熟模块、无技术壁垒；B站靠治愈手绘风与IP预约吸量，复刻瓶颈在题材美术差异化与首充节奏，成本集中在美术。",
+      "suggestions": [
+        "换为‘故宫文物修复’题材，捕捉=文物修复收集，家园换成小型博物馆经营",
+        "首充把彩色蛋换成限定文物盲盒，强化收藏叙事",
+        "把家园自动生产改造成‘文创工坊’产出周边，接内容电商"
+      ],
+      "risks": ["治愈风已被多款占据（如《桃源深处有人家》）", "B站预约量级大，复刻买量成本高"],
+      "effort": "20–35 人日（1 前端 + 1 美术 + 0.5 策划）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "包体约257MB，含较多序列帧/音效与数百只角色资产", "level": "confirmed"},
+      {"claim": "引擎疑为Unity（B站移动RPG常见选择，未找到官方确认）", "level": "inferred"}
+    ],
+    "sources": ["https://apps.apple.com/cn/app/%E9%97%AA%E8%80%80%E5%90%A7-%E5%99%9C%E5%92%AA/id6754912970?uo=4", "https://sj.qq.com/appdetail/com.tencent.tmgp.bilibili.lumi"]
+  },
+  {
+    "name": "未眠野",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推断）",
+      "engine_evidence": "inferred",
+      "dimension": "3D",
+      "art_style": "二次元开放世界，写实自然+幻想生物",
+      "dims": {"engine": 4, "art": 5, "anim": 4, "physics": 5, "logic": 4, "data": 3, "server": 4, "audio": 4},
+      "dim_notes": {
+        "physics": "实时物理+化学双引擎，万物可交互（燃烧/冻结/溶解/催化），需自研模拟系统，是最大技术难点",
+        "art": "开放世界地表+地底双场景，写实自然与幻想生物资产量极大",
+        "server": "2-3人联机+分屏协作，需多端状态同步"
+      },
+      "asset_notes": "3D写实自然+幻想生物资产极重，需大团队长周期产出，素材是核心成本",
+      "notes": "研发阶段开放世界RPG，核心卖点是自研物理化学模拟，研发门槛极高"
+    },
+    "play": {
+      "core_loop": "扮演溯行者深潜哈扎珥物质之海，用物理化学法则与环境交互（点燃/冻结/催化）解谜与战斗，联机协作破局，弱数值靠操作与配合。",
+      "highlights": [
+        "箭矢点燃木建筑、冰箭冻湖面再融化的实时因果反馈，探索像玩物理沙盒",
+        "三种基础异能（控金属/时停/升石柱）既能解谜也能战斗，复用降低学习成本",
+        "多人联机搭‘空中火车’扔炸药桶等协作玩法，变量趣味强",
+        "活宝箱会逃跑、敌人会灭火，世界非静态"
+      ],
+      "innovations": ["把‘物理+化学双引擎实时交互’作为开放世界核心驱动而非脚本演出；弱数值/无抽卡的玩法型开放世界定位"],
+      "target_user": "二次元开放世界玩家、塞尔达粉丝、硬核探索党",
+      "monetization": "内购（外观/季票）为主，无数值付费，轻养成无抽卡",
+      "lifecycle": "长线运营（UGC派对玩法+内容更新）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "核心卖点是自研物理化学模拟与开放世界资产，研发成本以千万/亿计；玩法致敬塞尔达，复刻既无技术积累也无版权/差异化空间，纯抄会被秒杀。",
+      "suggestions": ["若只取‘环境交互解谜’亮点，可先做轻量2D物理解谜小游戏（如《站着别动》风格），把化学反应当成关卡机关而非开放世界"],
+      "risks": ["自研物理化学系统技术风险高", "塞尔达式玩法已有强IP", "移动端分屏体验存疑"],
+      "effort": "不建议（若强做需200+人日顶级团队）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "物理×化学双引擎为官方宣传的核心玩法，非技术引擎名", "level": "confirmed"},
+      {"claim": "引擎具体未公开，推断为Unity/Unreal，未确认", "level": "inferred"}
+    ],
+    "sources": ["https://baike.baidu.com/item/%E6%9C%AA%E7%9C%A0%E9%87%8E/68951090", "https://news.18183.com/yxxw/202609/9028559.html", "https://www.taptap.com/moment/847016307814563963?group_id=162660"]
+  },
+  {
+    "name": "对峙：交锋时刻",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unreal Engine",
+      "engine_evidence": "confirmed",
+      "dimension": "3D",
+      "art_style": "写实FPS，枪械/地图精细建模",
+      "dims": {"engine": 3, "art": 4, "anim": 3, "physics": 3, "logic": 3, "data": 2, "server": 4, "audio": 3},
+      "dim_notes": {
+        "server": "实时FPS对战，国服单独搭建网络加速通道压低伤害判定延迟，对网络同步要求高",
+        "art": "写实枪械建模+多张精细地图+120fps，移动端画质投入大"
+      },
+      "asset_notes": "写实枪械/地图3D资产中等，皮肤为外观无属性；素材非最大瓶颈，网络与反外挂才是",
+      "notes": "《对峙2》（Standoff 2）国服，Axlebolt俄罗斯原作，已获版号"
+    },
+    "play": {
+      "core_loop": "5v5爆破，买枪/安拆C4的回合制攻防，胜负全凭枪法、地图理解与团队配合，单局约15分钟。",
+      "highlights": [
+        "每把枪独立调校的后坐力与弹道偏移，急停压枪的硬核手感",
+        "皮肤无属性加成，纯外观收藏与交易所经济",
+        "残局1v3先清点还是拆包的两难抉择，心跳拉满",
+        "实时标记点位无需开麦即可传达战术，野排顺畅"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（CS式移动端化+本地化+反外挂+网络优化）"],
+      "target_user": "硬核FPS/CS玩家，追求公平竞技",
+      "monetization": "IAP外观（皮肤/贴纸/挂饰），无数值付费",
+      "lifecycle": "长线运营（赛季地图轮换+排位）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "5v5爆破FPS已是红海，头部由CS/无畏契约及内部产品占据；实时对战需自建低延迟网络+强反外挂，研发与运维门槛高，复刻无差异空间。",
+      "suggestions": ["若想切入移动射击，建议做‘非对称/轻量’变体（如2v2+道具），避开与CS正面对抗"],
+      "risks": ["反外挂成本高", "版号与合规", "FPS买量极贵", "与既有产品撞车"],
+      "effort": "不建议（强做需60+人日+网络/反外挂专项）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "基于虚幻引擎开发（多来源确认，原作Standoff 2即UE）", "level": "confirmed"}
+    ],
+    "sources": ["https://m.9k9k.com/dzjfsk", "https://www.kunduo.com/youxi/dzjfsk.html", "https://www.xlhs.com/azgame/136846.html"]
+  },
+  {
+    "name": "无限大",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（深度定制）",
+      "engine_evidence": "confirmed",
+      "dimension": "3D",
+      "art_style": "二次元+都市写实，高画质",
+      "dims": {"engine": 4, "art": 5, "anim": 4, "physics": 4, "logic": 4, "data": 4, "server": 4, "audio": 4},
+      "dim_notes": {
+        "engine": "深度定制Unity+自研渲染管线/物理/PCG城市引擎三大模块",
+        "art": "包体约1.29GB，都市无缝大世界写实+二次元角色，资产极重",
+        "physics": "机车漂移/飞檐走壁/无缝室内外，物理手感需精调"
+      },
+      "asset_notes": "1.3GB包体，都市大世界写实+二次元角色资产极重，需大团队长期产出",
+      "notes": "网易雷火都市开放世界RPG，二次元GTA定位，自研PCG程序化城市"
+    },
+    "play": {
+      "core_loop": "在都市新启市自由探索，骑车飙车/翼装飞行/功夫战斗，结识伙伴组队，靠选择与声望推进剧情，单局体验碎片化。",
+      "highlights": [
+        "机车都市狂飙+飞檐走壁的移动爽感，开放世界穿梭像功夫片",
+        "推门即进店的PCG无缝城市，无黑屏加载",
+        "道德抉择影响际遇的叙事自由度",
+        "网红/直播式日常集锦，强社交传播"
+      ],
+      "innovations": ["用‘深度定制Unity+PCG程序化城市’在移动端复现都市开放世界而非UE5；二次元+都市GTA定位差异化"],
+      "target_user": "二次元+开放世界玩家，都市题材爱好者",
+      "monetization": "内购（外观/通行证）为主",
+      "lifecycle": "长线运营（大世界内容更新）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "大世界开放世界研发以亿计，需自研引擎改造与海量资产；赛道已被原神/鸣潮等头部锁死，无差异复刻风险极高。",
+      "suggestions": ["取其‘都市动作+PCG城市’亮点，做轻量3D都市跑酷demo验证移动手感，而非完整开放世界"],
+      "risks": ["自研引擎改造技术风险", "资产量巨大", "与头部开放世界直接竞争"],
+      "effort": "不建议（强做需300+人日顶级团队）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "非虚幻5，采用深度定制的Unity引擎（多技术文章确认）", "level": "confirmed"},
+      {"claim": "包体约1.29GB，属很重量级", "level": "confirmed"}
+    ],
+    "sources": ["https://wuxiandagame.com/news/project-mugen-engine-unity-ue5", "https://wap.pp.cn/news/970927.html", "https://apps.apple.com/cn/app/%E6%97%A0%E9%99%90%E5%A4%A7/id6761252217?uo=4"]
+  },
+  {
+    "name": "白银之城",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unreal Engine 5",
+      "engine_evidence": "confirmed",
+      "dimension": "3D",
+      "art_style": "维多利亚风写实都市+二次元角色，NPR+PBR",
+      "dims": {"engine": 4, "art": 5, "anim": 5, "physics": 3, "logic": 4, "data": 4, "server": 3, "audio": 4},
+      "dim_notes": {
+        "art": "包体约1.39GB，维多利亚写实都市+二次元角色，NPR+PBR双路线，资产极重",
+        "anim": "处决技QTE单套平均17关键骨骼帧，镜头运镜+音效节奏强化打击，动作产出成本高"
+      },
+      "asset_notes": "UE5大世界二游资产极重，写实都市+角色动捕/动作产出是核心成本",
+      "notes": "乐元素上海团队二次元大世界ARPG，侦探解谜+格挡弹反动作"
+    },
+    "play": {
+      "core_loop": "扮演侦探在白银城探索，观察推理找线索+格挡弹反打动作战斗，四人切队，QTE处决，主线揭开城市阴谋。",
+      "highlights": [
+        "黄光攻击精准弹反无伤接招、红光需闪避的攻防博弈，操作反馈强",
+        "反击/弹反积攒爆发条打高伤，策略+手感兼具",
+        "QTE处决全程无跳帧的暴力美学演出",
+        "侦探观察+NPC行为扫描的解谜与战斗穿插"
+      ],
+      "innovations": ["把‘侦探推理+格挡弹反动作’缝合进二次元大世界ARPG；UE5 NPR+PBR混合渲染塑造独特画风"],
+      "target_user": "二次元ARPG玩家，动作/侦探爱好者",
+      "monetization": "IAP（外观/通行证）为主",
+      "lifecycle": "长线（二游内容更新）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "UE5大世界二游研发以亿计，资产与动作产出成本极高；赛道已被原神/鸣潮/异环等头部锁死，复刻无差异空间。",
+      "suggestions": ["取其‘弹反+侦探解谜’核心，做一款2.5D横版动作解谜小游戏，用弹反机制+线索推理，规避3D大世界成本"],
+      "risks": ["UE5移动端性能优化", "3D动作资产极贵", "二游买量贵"],
+      "effort": "不建议（强做需250+人日）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "采用虚幻引擎5（UE5）开发，多来源确认", "level": "confirmed"},
+      {"claim": "包体约1.39GB，属很重量级", "level": "confirmed"}
+    ],
+    "sources": ["https://news.17173.com/content/08192026/145752656.shtml", "https://news.17173.com/content/07112026/163118703.shtml", "https://apps.apple.com/cn/app/%E7%99%BD%E9%93%B6%E4%B9%8B%E5%9F%8E/id6758292180?uo=4"]
+  },
+  {
+    "name": "龙岛异兽起源",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推断）",
+      "engine_evidence": "inferred",
+      "dimension": "3D",
+      "art_style": "写实史前恐龙世界，3D",
+      "dims": {"engine": 3, "art": 4, "anim": 4, "physics": 3, "logic": 4, "data": 4, "server": 4, "audio": 3},
+      "dim_notes": {
+        "logic": "食肉/食草双路线+多阶段进化树+部落领地+跨服竞技，系统庞杂",
+        "server": "多人联机混战+部落+跨服排位，需联网同步"
+      },
+      "asset_notes": "写实恐龙+生态场景3D资产偏重；无官方素材，依研报推断",
+      "notes": "微乐游戏恐龙生存开放世界沙盒，第一视角恐龙，三端互通"
+    },
+    "play": {
+      "core_loop": "化身幼龙在史前岛屿觅食成长，躲避天敌/捕猎进化，建部落占地盘，联机混战，生存压力贯穿全程。",
+      "highlights": [
+        "纯异兽第一视角弱肉强食，幼龙到顶级掠食者的成长爽感",
+        "多阶段分支进化解锁技能与形态",
+        "部落共建工事+跨服竞技的社交对抗",
+        "动态生态AI（野怪自主捕猎/迁徙）"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（方舟/野生恐龙生存的手游化+第一视角）"],
+      "target_user": "生存/恐龙题材玩家，沙盒爱好者",
+      "monetization": "外观/功能道具内购，无强制数值氪金",
+      "lifecycle": "长线（生态/版本更新）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "开放世界生存+生态AI+三端互通研发重，方舟/野生恐龙类已有成熟产品，复刻无差异。",
+      "suggestions": ["取其‘扮演恐龙第一视角’差异化，做2D俯视生存小游戏，降低3D成本，聚焦进化收集"],
+      "risks": ["3D生态资产重", "与方舟类撞车", "长线留存难"],
+      "effort": "不建议（强做需120+人日）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "微乐游戏研发恐龙生存开放世界，三端互通，无官方素材", "level": "confirmed"},
+        {"claim": "引擎推断Unity/Unreal，未确认", "level": "inferred"}
+    ],
+    "sources": ["https://down.ali213.net/olgame/ldysqy.html", "https://www.3839.com/a/185408.htm", "https://www.gamedog.cn/game/4002557.html"]
+  },
+  {
+    "name": "粒粒的小人国",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推断）",
+      "engine_evidence": "inferred",
+      "dimension": "3D",
+      "art_style": "可爱low-poly，暖色调治愈",
+      "dims": {"engine": 2, "art": 3, "anim": 2, "physics": 2, "logic": 3, "data": 3, "server": 3, "audio": 3},
+      "dim_notes": {
+        "logic": "建造/种植/烹饪/舞蹈/演奏多生活系统，但都做得很轻、不强制，框架中等",
+        "server": "轻社交，限时多人活动，非强制联机"
+      },
+      "asset_notes": "可爱low-poly+身边小物家具，可用AI+手工产出，素材中等非瓶颈",
+      "notes": "腾讯首款自研生活模拟治愈作，变小视角，社交克制"
+    },
+    "play": {
+      "core_loop": "变小后在书桌一角建家园，用闹钟/牛奶盒等日常小物造家具，种田烹饪演奏，和100+粒粒NPC互动陪伴，无强制目标。",
+      "highlights": [
+        "把日常小物（闹钟当摇椅、牛奶盒盖房）变家具的脑洞建造乐趣",
+        "100+个性粒粒NPC有‘活人感’，陪伴治愈",
+        "无强制任务/进度，随心的慢生活节奏",
+        "弹弓打露珠、装阳光进瓶子等随处可玩的小交互"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（生活模拟+治愈+轻社交，组合出‘不像腾讯’的调性）"],
+      "target_user": "泛用户/女性/治愈向，碎片时间解压",
+      "monetization": "IAP（外观/家具/通行证）为主",
+      "lifecycle": "长线（家园/季节内容）"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "建造+种植+烹饪是成熟生活模拟模块，无技术壁垒；腾讯靠‘变小视角+治愈调性’差异化，复刻需换题材美术与NPC人设。",
+      "suggestions": [
+        "换为‘蚂蚁视角微观世界’或‘海底小人国’，家具改由贝壳/珊瑚搭建",
+        "NPC换成海洋生物，强化治愈陪伴",
+        "建造奖励接‘微观摄影’分享裂变"
+      ],
+      "risks": ["生活模拟赛道已有《桃源深处有人家》等", "治愈向买量靠调性，复刻难出圈"],
+      "effort": "25–40 人日（1 前端 + 1 美术 + 0.5 策划）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "腾讯首款自研生活模拟治愈作，变小视角+建造核心", "level": "confirmed"},
+      {"claim": "引擎未公开，推断Unity", "level": "inferred"}
+    ],
+    "sources": ["https://life.qq.com/", "https://view.inews.qq.com/a/20260319A0892J00"]
+  },
+  {
+    "name": "Roblox",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Roblox 自研引擎（Roblox Studio / Luau）",
+      "engine_evidence": "confirmed",
+      "dimension": "3D",
+      "art_style": "UGC blocky风，素材质量参差",
+      "dims": {"engine": 5, "art": 2, "anim": 2, "physics": 3, "logic": 5, "data": 5, "server": 5, "audio": 2},
+      "dim_notes": {
+        "engine": "专有自研引擎+Luau+UGC创作分发一体化，无法用第三方引擎复刻",
+        "logic": "平台级：数百万用户创作体验+市场交易+跨端联机，非单一游戏",
+        "server": "默认多人，全球百万并发，自研网络复制"
+      },
+      "asset_notes": "UGC素材由社区产出，质量参差、基础blocky；平台方不需自产美术",
+      "notes": "平台型UGC范式，非单款游戏；Roblox Corporation"
+    },
+    "play": {
+      "core_loop": "玩家在平台内玩数百万社区创作的游戏（竞速/射击/RPG/模拟），或用Roblox Studio自己搭游戏发布赚钱，核心是UGC生态。",
+      "highlights": [
+        "一个客户端玩遍全品类UGC游戏，零门槛",
+        "自带Roblox Studio让玩家变创作者，发布即变现（Robux）",
+        "跨端（手机/PC/主机/VR）同服联机",
+        "头像/服饰市场海量3D物品自定义"
+      ],
+      "innovations": ["平台型UGC范式本身即最大创新；‘社交网络式创意平台’而非游戏"],
+      "target_user": "全球青少年+创作者，全年龄",
+      "monetization": "IAP（游戏内购买/lootbox）+ Robux创作者分成 + 平台抽成",
+      "lifecycle": "长线平台（持续进化）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "这是平台而非单游戏，自研引擎+UGC生态+全球并发是核心壁垒，复刻既无技术能力也无网络效应，纯抄无意义。",
+      "suggestions": ["若只取‘UGC创作+轻量小游戏平台’思路，可做一个垂直品类国内版UGC编辑器（如仅做3D跑酷模板），但需自研引擎与社区冷启动"],
+      "risks": ["自研引擎与平台架构门槛极高", "UGC内容审核与合规", "无法复制Roblox创作者基数"],
+      "effort": "不建议（平台级，单团队无法复刻）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "使用自研专有引擎（Roblox Studio）+ Luau脚本，非Unity/Unreal", "level": "confirmed"}
+    ],
+    "sources": ["https://create.roblox.com/docs/unity", "https://apps.apple.com/us/app/roblox/id431946152?uo=4"]
+  },
+  {
+    "name": "Magic Sort!",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推断）",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "色彩鲜艳卡通，魔法药剂主题",
+      "dims": {"engine": 1, "art": 2, "anim": 2, "physics": 1, "logic": 2, "data": 1, "server": 1, "audio": 2},
+      "dim_notes": {
+        "engine": "超休闲排序玩法，成熟模板改配置即可上线",
+        "physics": "无物理，纯颜色/容器匹配逻辑"
+      },
+      "asset_notes": "约87MB包体，色彩鲜艳但素材轻，可程序化+通用素材，素材非瓶颈",
+      "notes": "Grand Games超休闲排序解谜，全球免费榜常客"
+    },
+    "play": {
+      "core_loop": "把彩色液体在两个容器间倒来倒去，按颜色归类合成魔法药剂，过渐进难度关卡，用道具破卡关，单局几十秒。",
+      "highlights": [
+        "倒瓶归类的‘咔哒’归位音效+颜色对齐的视觉满足",
+        "渐进难度+道具（特殊瓶）制造卡点爽感",
+        "一局极短，碎片时间高频重试"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（水/球排序玩法的魔法换皮）"],
+      "target_user": "全球休闲/解压用户，通勤碎片",
+      "monetization": "IAA（激励视频/插屏）为主，超休闲标准",
+      "lifecycle": "短平快爆款，靠持续关卡+买量"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "排序玩法极轻、代码量小、素材轻；全球已有大量同款（水排序/饮料排序），差异化全在题材美术与首关留存曲线。",
+      "suggestions": [
+        "换为‘中药抓药’题材，颜色瓶换成药材抽屉，归类合成一副方子",
+        "或‘调鸡尾酒’题材提升格调",
+        "首关把层数压到2、把‘差一瓶就满’做强悬念驱动看广告"
+      ],
+      "risks": ["品类极度饱和（Water Sort/Order Crazy已霸榜）", "买量CPI高", "无品牌壁垒"],
+      "effort": "8–15 人日（1 前端 + 0.5 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "包体约87MB，属轻-中量级", "level": "confirmed"},
+      {"claim": "引擎推断Unity（超休闲常见，未检测SDK）", "level": "inferred"}
+    ],
+    "sources": ["https://apps.apple.com/cn/app/magical-sort/id6737153672?uo=4"]
+  },
+  {
+    "name": "Royal Smash! - Physics Puzzle",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity",
+      "engine_evidence": "confirmed",
+      "dimension": "3D",
+      "art_style": "卡通3D节庆场景，明亮干净",
+      "dims": {"engine": 2, "art": 3, "anim": 3, "physics": 4, "logic": 3, "data": 1, "server": 1, "audio": 3},
+      "dim_notes": {
+        "physics": "真实3D破坏+刚体+连锁倒塌，物理手感与链反应是核心，需调校",
+        "art": "包体约395MB，3D节庆场景+物体建模，资产中等"
+      },
+      "asset_notes": "约395MB，3D场景/物体建模中等，物理材质可复用，素材非最大瓶颈",
+      "notes": "Cypher Games 3D物理解谜，SDK检测含Unity"
+    },
+    "play": {
+      "core_loop": "架炮调角度蓄力开火，砸碎罐子/推倒石塔/触发连锁反应清空整张桌，无计时无压力，单关几分钟解压。",
+      "highlights": [
+        "一发完美炮弹引发全桌连锁倒塌的‘oddly satisfying’破坏爽感",
+        "真实3D物理，物体按重力/碰撞自然崩塌，可多角度预测",
+        "一指瞄准的极简操作，零学习成本",
+        "无计时压力，纯解压"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（3D物理解谜+火炮玩法的包装）"],
+      "target_user": "全球休闲解压用户",
+      "monetization": "IAA（广告）+ IAP（去广告/道具）混合",
+      "lifecycle": "短平快，靠持续关卡更新+买量"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "基于Unity物理引擎，3D破坏玩法代码量可控；全球同类（Smash Fest!/Knock Out）已验证，差异化靠题材与关卡曲线。",
+      "suggestions": [
+        "换为‘拆迁队/工程爆破’或‘推倒贪吃蛇方块塔’题材",
+        "加入‘连锁反应计分榜’社交分享",
+        "首关用单塔一炮全倒做强正反馈"
+      ],
+      "risks": ["3D物理手感调校需经验", "品类已有竞品", "买量CPI"],
+      "effort": "15–25 人日（1 前端 + 0.5 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "SDK检测含Unity开发工具，引擎确认为Unity", "level": "confirmed"},
+      {"claim": "包体约395MB，属重量级", "level": "confirmed"}
+    ],
+    "sources": ["https://appgoblin.info/apps/com.cyphergames.royalsmash", "https://apps.apple.com/us/app/royal-smash-physics-puzzle/id6780891673?uo=4"]
+  },
+  {
+    "name": "王者万象棋",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity",
+      "engine_evidence": "confirmed",
+      "dimension": "3D",
+      "art_style": "王者荣耀IP高质感，英雄3D建模",
+      "dims": {"engine": 3, "art": 5, "anim": 4, "physics": 2, "logic": 5, "data": 5, "server": 4, "audio": 4},
+      "dim_notes": {
+        "logic": "自走棋底+拍卖/天赋/效果牌随机事件，经济与平衡极复杂，需持续调平衡",
+        "art": "包体约3.6GB，王者英雄3D建模+全屏特效+专属棋盘，资产极重",
+        "data": "王牌英雄百级养成+棋手天赋+赛季内容，长线数值体系"
+      },
+      "asset_notes": "3.6GB包体，王者英雄3D建模+全屏特效+棋盘，资产极重，核心成本在IP美术",
+      "notes": "天美王者荣耀原班人马IP自走棋，三端互通"
+    },
+    "play": {
+      "core_loop": "6人选棋手进万象大赛，刷英雄养王牌、用拍卖/天赋/效果牌做随机决策，自走棋自动对战，越玩越上头，单局10-20分钟。",
+      "highlights": [
+        "‘刷-养-炸’口诀：王牌英雄百级解锁全屏大招，战力滚雪球爽感强",
+        "拍卖/天赋/效果牌贯穿全局，每手选择逆转战局",
+        "英雄关键词连锁反应（登场/整备/牺牲）的策略深度",
+        "组队共享排位分、队友Carry不掉分，社交友好"
+      ],
+      "innovations": ["在云顶/酒馆战棋框架上缝合‘王者IP+拍卖/天赋随机事件’，轻量化快节奏适配移动碎片化"],
+      "target_user": "王者IP玩家+自走棋玩家，碎片化",
+      "monetization": "IAP（外观/棋盘装饰）为主，不影响平衡；+王者联动福利",
+      "lifecycle": "长线（平衡调整+娱乐模式+创作者生态）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "核心资产是王者荣耀IP与英雄池，复刻即侵权；自走棋品类由金铲铲/云顶占据，无IP则无用户基础，纯机制复刻无价值。",
+      "suggestions": ["若做无IP自走棋，可保留本作‘拍卖系统’等差异化机制并自建英雄/IP，但需规避王者元素"],
+      "risks": ["王者IP版权/商标风险极高", "自走棋头部垄断", "3.6GB重包体买量成本高"],
+      "effort": "不建议（强做需80+人日+IP授权）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "Unity引擎带来优秀移动端表现（媒体明确提及）", "level": "confirmed"},
+      {"claim": "包体约3.6GB，属很重量级", "level": "confirmed"}
+    ],
+    "sources": ["https://3g.china.com/act/ent/11005281/20260121/49182501.html", "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E4%B8%87%E8%B1%A1%E6%A3%8B/id1614798032?uo=4"]
+  },
+  {
+    "name": "三角洲行动",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unreal Engine 4（主体）+ UE5（黑鹰坠落模式）",
+      "engine_evidence": "confirmed",
+      "dimension": "3D",
+      "art_style": "写实战术射击，战场/枪械/载具",
+      "dims": {"engine": 5, "art": 5, "anim": 5, "physics": 4, "logic": 5, "data": 5, "server": 5, "audio": 4},
+      "dim_notes": {
+        "engine": "UE4深度定制+自研地形VT/生态渲染+跨端，GDC有专题，移动端画质与性能极难",
+        "logic": "搜打撤+大战场+干员技能+千种改枪组合，系统极复杂",
+        "server": "几十人实时大战场+跨端同服，网络同步门槛高"
+      },
+      "asset_notes": "3GB包体，写实战场/枪械/载具/干员动捕资产极重，核心成本在军武与场景",
+      "notes": "腾讯天美琳琅天上战术射击FPS，多模式PVE/PVP/PVPVE"
+    },
+    "play": {
+      "core_loop": "扮GTI干员在阿萨拉大陆战术作战，中远距离狙击/潜入/载具火力/大战场对决，搜打撤夺金，单局数分钟到半小时。",
+      "highlights": [
+        "干员特殊技能+战术道具的战术组合（军犬协同/气雾针剂）",
+        "千种枪械改装组合，每把超10改装部位，硬核军武爽感",
+        "烽火地带‘搜-打-撤’的搜刮与撤离紧张感",
+        "近10款载具驰骋大战场的火力全开"
+      ],
+      "innovations": ["把‘搜打撤撤离（塔科夫式）’与‘大战场载具对决’融合进战术射击，多模式覆盖PVE/PVP/PVPVE"],
+      "target_user": "军武/FPS硬核玩家，战术射击爱好者",
+      "monetization": "IAP（外观/皮肤/通行证/曼德尔砖），无数值付费（公平性）",
+      "lifecycle": "长线（赛季/地图/干员更新）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "UE4深度定制+自研地形生态渲染+跨端同步+反外挂，研发以亿计；战术射击已被头部锁死，复刻无差异与性价比。",
+      "suggestions": ["取其‘搜打撤’撤离玩法做轻量2D俯视撤离demo，验证循环后再考虑3D"],
+      "risks": ["UE移动端性能与自研渲染技术风险", "反外挂", "FPS买量极贵", "与既有产品撞车"],
+      "effort": "不建议（强做需300+人日顶级团队）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "主体使用虚幻引擎4，黑鹰坠落模式使用UE5（多来源确认）", "level": "confirmed"},
+      {"claim": "包体约3.0GB，属很重量级", "level": "confirmed"}
+    ],
+    "sources": ["https://www.163.com/dy/article/JT3MT5OA0526DPBA.html", "https://www.wikiwand.com/zh-sg/articles/%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8", "https://apps.apple.com/cn/app/%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8/id1642894547?uo=4"]
+  },
+  {
+    "name": "王者荣耀",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（自研帧同步）",
+      "engine_evidence": "confirmed",
+      "dimension": "3D",
+      "art_style": "英雄3D建模，多皮肤风格",
+      "dims": {"engine": 4, "art": 5, "anim": 4, "physics": 2, "logic": 4, "data": 4, "server": 5, "audio": 4},
+      "dim_notes": {
+        "server": "实时5v5帧同步+跨区匹配+千万DAU，网络同步与反外挂门槛极高",
+        "art": "包体约3.2GB，百英雄3D建模+海量皮肤+全屏特效，资产极重",
+        "engine": "Unity+自研帧同步方案，移动端MOBA需自研网络与渲染优化"
+      },
+      "asset_notes": "3.2GB包体，百英雄3D建模+海量皮肤特效，资产极重，核心成本在英雄与皮肤产出",
+      "notes": "腾讯天美国民级5v5 MOBA，帧同步网络方案"
+    },
+    "play": {
+      "core_loop": "5v5三路推塔，选英雄用技能补刀团战，拆水晶获胜，10分钟一局，靠操作与配合。",
+      "highlights": [
+        "微操改变战局（风骚走位/连招超神）的竞技爽感",
+        "英雄技能+装备组合的多样build",
+        "10秒跨区匹配+开黑上分的社交粘性",
+        "五杀/超神的正反馈"
+      ],
+      "innovations": ["无实质创新（开创移动MOBA品类，机制是LOL移动化）；帧同步方案是技术亮点"],
+      "target_user": "全民MOBA，全年龄竞技",
+      "monetization": "IAP（英雄/皮肤/战令），公平竞技无数值付费",
+      "lifecycle": "长线（英雄/赛季/赛事）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "国民级MOBA已有绝对用户壁垒，帧同步网络+反外挂+百英雄资产研发极重，同类复刻无差异与生存空间。",
+      "suggestions": ["若切入，只做‘轻量3v3或自走棋化MOBA’降低资产与网络成本，但仍难撼动头部"],
+      "risks": ["头部垄断", "帧同步技术难", "英雄资产极贵", "买量贵"],
+      "effort": "不建议（强做需200+人日）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "使用Unity引擎并自研帧同步方案（技术分享确认）", "level": "confirmed"},
+      {"claim": "包体约3.2GB，属很重量级", "level": "confirmed"}
+    ],
+    "sources": ["https://cloud.tencent.com/developer/article/1006102", "https://blog.51cto.com/unitysky/1926609", "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/id989673964?uo=4"]
+  },
+  {
+    "name": "塔塔冒险队",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推断）",
+      "engine_evidence": "inferred",
+      "dimension": "3D",
+      "art_style": "卡通萌宠，色彩鲜明",
+      "dims": {"engine": 2, "art": 4, "anim": 3, "physics": 2, "logic": 4, "data": 4, "server": 3, "audio": 3},
+      "dim_notes": {
+        "art": "包体约387MB，100+萌宠+四阶进化形态+家园场景，卡通资产量不小",
+        "logic": "塔防布阵+五属性克制+弹珠台经济枢纽+家园，多系统耦合"
+      },
+      "asset_notes": "约387MB，100+萌宠+进化形态+家园，卡通资产中等偏重，可用AI辅助产出",
+      "notes": "莉莉丝萌宠收集策略塔防RPG，弹珠台抓宠，五属性克制"
+    },
+    "play": {
+      "core_loop": "收集100+塔塔布阵抵御臭臭大军，用弹珠台获取糖果/彩球养成升星进化，建家园互动，单局塔防自动战斗。",
+      "highlights": [
+        "弹珠台‘摇一摇中大奖’的随机爽感，且是整局经济通用桥梁",
+        "五属性克制+阵型部署的策略塔防，布阵影响胜负",
+        "四阶进化+闪光形态的收集养成满足",
+        "把猫冰放泳池等家园互动彩蛋"
+      ],
+      "innovations": ["把‘弹珠机CM-like抓宠’作为经济枢纽串联所有系统，是玩法缝合的巧思；但整体仍属成熟品类组合"],
+      "target_user": "休闲+策略收集玩家，泛二次元",
+      "monetization": "IAP（内购/月卡）为主，可能含广告",
+      "lifecycle": "长线（弹珠活动/新塔塔/家园更新）"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "塔防+属性克制+收集为成熟模块，弹珠台经济是已有思路；复刻瓶颈在美术风格差异化与首月收集节奏设计。",
+      "suggestions": [
+        "换为‘昆虫图鉴’或‘海底生物’题材，弹珠台改‘捞鱼机’",
+        "把臭臭大军换成‘杂草入侵’贴合治愈",
+        "首月把100+收集压缩到30+降低门槛"
+      ],
+      "risks": ["莉莉丝已占先发与买量", "收集塔防赛道拥挤", "萌宠美术需强辨识度"],
+      "effort": "25–40 人日（1 前端 + 1 美术 + 0.5 策划）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "莉莉丝出品，弹珠台经济+五属性塔防，已验证留存", "level": "confirmed"},
+      {"claim": "引擎推断Unity（莉莉丝过往产品多用Unity，未找到本作官方确认）", "level": "inferred"}
+    ],
+    "sources": ["https://m.danji100.com/game/344738.html", "https://m.linuxidc.com/game/384189.html", "https://apps.apple.com/cn/app/%E5%A1%94%E5%A1%94%E5%86%92%E9%99%A9%E9%98%9F/id6759896881?uo=4"]
+  },
+  {
+    "name": "トップロード",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推断）",
+      "engine_evidence": "inferred",
+      "dimension": "3D",
+      "art_style": "SLG写实城池+英雄，轻量化入口",
+      "dims": {"engine": 3, "art": 4, "anim": 3, "physics": 2, "logic": 4, "data": 5, "server": 4, "audio": 3},
+      "dim_notes": {
+        "logic": "SLG领地经营+英雄养成+联盟国战+王国扩张，系统深",
+        "data": "数百英雄收集养成+城主任命+科技树，长线数值体系"
+      },
+      "asset_notes": "SLG城池/英雄/战斗3D资产中等偏重；无官方素材依研报推断",
+      "notes": "《Top Lords》日文版，江娱互动（River Game/Top War团队），GAME SPARK PTE. LTD.发行"
+    },
+    "play": {
+      "core_loop": "首屏用‘左右滑动增兵推敌’的轻量小游戏给正反馈，再接入SLG：经营领地、任命城主、养成英雄、联盟国战扩张，长线。",
+      "highlights": [
+        "第一屏‘划一下’三秒看懂的滑动闯关，降低SLG理解门槛",
+        "广告素材承诺→前几分钟兑现→SLG系统接住的‘桥’设计",
+        "英雄收集+城主任命+王国扩张的长线目标"
+      ],
+      "innovations": ["把重度SLG第一口做‘轻’——用滑动小游戏作入口桥接，而非套小游戏皮；是SLG买量转化优化思路"],
+      "target_user": "SLG用户+被轻量入口吸引的新用户",
+      "monetization": "IAP（SLG内购/月卡/通行证）为主",
+      "lifecycle": "长线（赛季/联盟战）"
+    },
+    "clone": {
+      "verdict": "变种创意",
+      "rationale": "SLG本身红海且需长线运营资本，直接复刻无空间；但其‘轻量滑动入口桥接重度系统’的获客结构是可复用的差异化思路，照抄会撞车。",
+      "suggestions": ["对任何重度系统游戏（如放置RPG/SLG），首屏都用‘3秒看懂的滑动/合成小游戏’作入口，先给正反馈再接主系统"],
+      "risks": ["SLG买量极贵", "长线运营资本重", "与Top War系列内部竞争"],
+      "effort": "不建议作为整体复刻标的（若只取其入口思路，入口小游戏仅 10–15 人日）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "《トップロード》=《Top Lords》日版，江娱互动（Top War团队）", "level": "confirmed"},
+      {"claim": "引擎推断Unity（Top War系列多用Unity，未确认）", "level": "inferred"}
+    ],
+    "sources": ["https://www.toutiao.com/a7679364927882232339", "https://program.download/%ed%83%91-%eb%a1%9c%eb%93%9c-%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c-%ec%84%a4%ec%b9%98"]
+  }
+]

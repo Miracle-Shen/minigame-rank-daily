@@ -1,0 +1,72 @@
+[
+ {
+  "name": "ワクワク電車ライフ - 街を発展!車掌ゲーム",
+  "updated_at": "2026-09-15",
+  "generated_by": "agent",
+  "tech": {
+   "engine": "Cocos / Unity (推断)",
+   "engine_evidence": "inferred",
+   "dimension": "2D",
+   "art_style": "可爱卡通 电车/城市",
+   "dims": {
+    "engine": 2,
+    "art": 3,
+    "anim": 2,
+    "physics": 1,
+    "logic": 3,
+    "data": 3,
+    "server": 2,
+    "audio": 3
+   },
+   "dim_notes": {
+    "art": "电车/城市插画与列车收集为主要素材成本（公开信息有限，部分推断）"
+   },
+   "asset_notes": "卡通电车与城市插画可用 AI 生图辅助，素材量中等",
+   "notes": "ONIGIRI GAMES 出品（日区），电车经营+城市发展类放置，公开资料有限，部分推断"
+  },
+  "play": {
+   "core_loop": "作为车长经营电车线路，规划轨道连接城市与景点，升级车站/列车，放置收益扩张为交通商业帝国，并在街区发展中解锁新场景。",
+   "highlights": [
+    "布局轨道+车站调度，轻松策略满足规划欲",
+    "列车收集与场景解锁提供中长期目标",
+    "放置收益，离线也成长，碎片友好"
+   ],
+   "innovations": [
+    "无实质创新，属电车经营+城市发展的成熟放置品类，执行优化为主（公开信息有限，部分推断）"
+   ],
+   "target_user": "日本地区偏爱铁道/经营放置的休闲用户",
+   "monetization": "IAA+IAP 混合（推测，公开信息有限）",
+   "lifecycle": "长线运营（推断）"
+  },
+  "clone": {
+   "verdict": "换肤",
+   "rationale": "电车经营+城市发展为成熟放置品类，机制壁垒低；换地区/题材（如'公交经营''地铁线路'）即可本土化。",
+   "suggestions": [
+    "换成本地交通题材（如'地铁线路长'）做国区适配",
+    "加入'城市事件'随机任务提升日活",
+    "用列车收集+图鉴替代纯数值养成"
+   ],
+   "risks": [
+    "日区产品本地化成本高",
+    "公开信息有限，玩法细节需实测验证"
+   ],
+   "effort": "30–50 人日（1 前端+1 美术+0.5 策划）"
+  },
+  "shots": [],
+  "evidence": [
+   {
+    "claim": "ONIGIRI GAMES 出品，日区免费榜，电车/车长/街发展题材",
+    "level": "inferred"
+   },
+   {
+    "claim": "引擎与具体玩法公开资料有限，按同类放置小游戏推断",
+    "level": "inferred"
+   }
+  ],
+  "sources": [
+   "https://www.centurygames.com/",
+   "https://forum.gamer.com.tw/C.php?bsn=27991&snA=2307"
+  ],
+  "notes": "\n[流水线] 原调研使用短名「ワクワク電車ライフ」，已归一到榜单规范名。"
+ }
+]

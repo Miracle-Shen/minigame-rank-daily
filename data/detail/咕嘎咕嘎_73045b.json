@@ -1,0 +1,105 @@
+{
+ "schema_version": 1,
+ "name": "咕嘎咕嘎",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "合肥金蛋互动科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 12
+  },
+  "platform_app_ids": {
+   "douyin": "ttb76ac1d7290e508e02"
+  },
+  "first_seen": "2026-09-11",
+  "appearances": 3,
+  "best_rank": 12,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "2D 童话手绘，萌系企鹅（据同类推断）",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 3,
+   "physics": 1,
+   "logic": 2,
+   "data": 3,
+   "server": 1,
+   "audio": 3
+  },
+  "dim_notes": {
+   "physics": "虚拟宠物无物理",
+   "server": "以单机养成为主，无强联网"
+  },
+  "asset_notes": "无官方素材，按同类「会说话的咕咕嘎嘎」（约 80MB）推断为轻量 2D 手绘 + 大量语音包，音频是主要资产。",
+  "notes": "无官方媒体材料，玩法据名称与同类「咕咕嘎嘎/会说话的咕咕嘎嘎」（萌系企鹅语音模仿互动养成）推断，置信度中。",
+  "cost_score": 2.25,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "照料企鹅（喂食/清洁）→语音录音它模仿回应→换装与房屋装饰→解锁剧情碎片，一局数分钟，靠日常互动与收集续玩（据同类推断）。",
+  "highlights": [
+   "语音模仿的「它学我说话」互动惊喜感",
+   "萌宠养成日常照料带来陪伴与治愈",
+   "装扮收集与迷你小游戏产出资源"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（会说话的汤姆猫式虚拟宠物 + 企鹅形象）"
+  ],
+  "target_user": "低龄与女性休闲用户",
+  "monetization": "IAA 广告 + IAP（装扮/去广告）混合",
+  "lifecycle": "长线养成，靠装扮与剧情更新"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "虚拟宠物 + 语音互动是成熟品类，成本中低，瓶颈在角色形象与语音内容授权，换形象即差异化。",
+  "suggestions": [
+   "换为「会说话的猫咪/修勾」等自有 IP 形象",
+   "语音包改用原创或已授权素材规避版权"
+  ],
+  "risks": [
+   "语音包/角色形象版权",
+   "同类产品（汤姆猫系）已饱和"
+  ],
+  "effort": "20–30 人日（1 前端 + 1 美术 + 音频）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法据同类「会说话的咕咕嘎嘎」推断为萌系企鹅语音互动养成，非本作确证",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎疑为 Cocos Creator（虚拟宠物小游戏常见选型）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.lhdown.com/shouji/223089.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:39:46+08:00"
+ },
+ "slug": "咕嘎咕嘎_73045b"
+}

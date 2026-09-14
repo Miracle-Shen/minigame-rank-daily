@@ -1,0 +1,228 @@
+{
+ "schema_version": 1,
+ "name": "三国：冰河时代",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "欢游互动（北京）科技有限公司",
+  "category_l1": "1",
+  "category_l2": "其他",
+  "boards": [
+   "douyin/畅销榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 2,
+   "douyin/畅销榜": 4
+  },
+  "platform_app_ids": {
+   "wx": "wx209b8a6bc1c08b85",
+   "douyin": "tt672d1190f818c4dd02"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推测）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "Q版卡通 + Low Poly 3D，冷色调冰雪三国",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 4,
+   "physics": 2,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "3D Low Poly SLG，需在成熟引擎上自建大世界行军/联盟/赛季框架，技术栈重",
+   "art": "包体 2.81GB，含海量 3D Low Poly 模型、冰雪场景、角色与技能特效资产",
+   "anim": "3D 角色/战斗动画 + 天气与技能粒子特效，量大且依赖骨骼动画",
+   "logic": "武将/兵种/科技树/联盟/赛季剧本多系统耦合，数值与经济循环复杂",
+   "data": "多线养成（装备/坐骑/武将）+ 联盟经济 + 赛季内容，长线运营",
+   "server": "强联网：联盟/州府实时争夺、跨服社交与云存档，服务端重"
+  },
+  "asset_notes": "素材为 3D Low Poly 建模，冰雪场景与角色资产量级极大（包体 2.81GB），美术与动画是主要成本瓶颈，非程序化可替代",
+  "notes": "整体为成熟 SLG 框架 + 冰河生存题材的执行优化，技术与资产门槛极高，不适合中小团队复刻",
+  "cost_score": 4.12,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "以一座边陲小城起步，搭火炉/兵营/仓库发展内政、屯田抗寒、管理民心；对外招募三国武将按阵营克制组阵容，加入联盟参与州府争夺与赛季剧本；放置收菜 + 自动战斗验证战力，以天/赛季为单位的经营循环持续推进。",
+  "highlights": [
+   "民心系统：高民心解锁城主技能，把『居民满意度』做成可感知的发展加速器",
+   "武将阵营克制（魏蜀吴群）+ 专属冰河天赋，组阵容有明确策略深度",
+   "动态天气（雪暴/冰裂）实时改变战场，把生存压力做成策略变量而非纯数值碾压",
+   "赛季剧本（赤壁/官渡）持续注入新目标，长线有新鲜感与回流钩子"
+  ],
+  "innovations": [
+   "『三国 + 冰河生存』双题材融合（冰糖葫芦箭塔、臭豆腐防御塔、天气技能），降低传统 SLG 硬核门槛、向泛用户倾斜——属题材/包装层创新",
+   "核心经营-战争循环为成熟 SLG 框架，无玩法机制层面的实质创新"
+  ],
+  "target_user": "25-45 岁泛策略用户，兼顾通勤碎片与长线 SLG 玩家",
+  "monetization": "IAP 内购为主（抽卡/加速/养成），辅以联盟与赛季付费；小游戏端跨端付费（PC 端付费能力约为手机端 5 倍）",
+  "lifecycle": "长线运营（赛季制 + 每日/每周活动 + 跨端互通）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "3D Low Poly SLG，包体 2.81GB、技术与服务端极重；三国 SLG 赛道已被头部产品锁死，需重资本投入 + 高频买量才能起量，复刻 ROI 风险极高。",
+  "suggestions": [
+   "若坚持做三国 SLG，先以轻量 2D/H5 验证核心循环，别一上来堆 3D 资产",
+   "换非三国历史题材（如 西游/封神）规避审美疲劳，但赛道逻辑不变",
+   "聚焦单点差异化（如 冰河天气系统）而非全量复刻"
+  ],
+  "risks": [
+   "重资本投入（3D 资产 + 服务端 + 买量），回收周期长",
+   "三国 SLG 品类高度饱和，头部产品已锁用户心智",
+   "美术同质化严重，买量 CPM 高、起量难"
+  ],
+  "effort": "300+ 人日（大型团队：客户端+服务端+美术+数值），不建议作为复刻立项"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/02/f6/0902f698-a8db-6a24-b696-971e185983f6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/56/37/ab56379c-080e-63c5-971c-fa12c95aa95b/1320-2868-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/01/3a/f5013ad3-0b74-ce9f-c957-20f60d5eb859/1320-2868-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/91/00/c3910015-2056-f1cf-a670-0cc5702b7baf/1320-2868-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/7b/19/ef7b1913-ec48-34f5-f45d-fdba5c9840b8/1320-2868-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/04/72/e00472c5-a6c4-9307-b4e1-bbdd4fd1d7f4/1320-2868-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/0c/17/2a0c17c6-9150-2b3d-dde2-2284c57b83a5/2048-2732-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/d3/64/a8d3640f-6208-18e0-19a7-9f380b952235/2048-2732-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/4b/80/d64b8041-456d-ff16-bfe3-d5a647494af6/2048-2732-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2d/48/f1/2d48f182-213b-c091-eb36-99e842213de9/2048-2732-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/45/32/c045325b-29f2-0895-b7fe-b1722940de39/2048-2732-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 2.81GB（App Store 官方），属『很重』档，含大量 3D 资产",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推测为 Unity（Low Poly 3D + 2.8GB 资产体量，国内 SLG 主流；未找到官方确认/招聘 JD 佐证）",
+   "level": "inferred"
+  },
+  {
+   "claim": "Q 版卡通 + Low Poly 3D 美术，冷色调冰雪三国",
+   "level": "confirmed"
+  },
+  {
+   "claim": "开发商 欢游互动（北京）科技，途游发行；另有 EVISTA PTE. LTD./北京雪境科技参与；海外版《Ice War》",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E4%B8%89%E5%9B%BD-%E5%86%B0%E6%B2%B3%E6%97%B6%E4%BB%A3/id6503432459?uo=4",
+  "https://baike.baidu.com/item/%E4%B8%89%E5%9B%BD%E5%86%B0%E6%B2%B3%E6%97%B6%E4%BB%A3/68441396",
+  "https://www.taptap.cn/app/748248"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "三国：冰河时代",
+  "country": "cn",
+  "track_id": 6503432459,
+  "seller": "EVISTA PTE. LTD.",
+  "genres": [
+   "游戏",
+   "策略",
+   "模拟"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/02/f6/0902f698-a8db-6a24-b696-971e185983f6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/56/37/ab56379c-080e-63c5-971c-fa12c95aa95b/1320-2868-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/01/3a/f5013ad3-0b74-ce9f-c957-20f60d5eb859/1320-2868-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/91/00/c3910015-2056-f1cf-a670-0cc5702b7baf/1320-2868-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/7b/19/ef7b1913-ec48-34f5-f45d-fdba5c9840b8/1320-2868-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/04/72/e00472c5-a6c4-9307-b4e1-bbdd4fd1d7f4/1320-2868-5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/0c/17/2a0c17c6-9150-2b3d-dde2-2284c57b83a5/2048-2732-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/d3/64/a8d3640f-6208-18e0-19a7-9f380b952235/2048-2732-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/4b/80/d64b8041-456d-ff16-bfe3-d5a647494af6/2048-2732-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2d/48/f1/2d48f182-213b-c091-eb36-99e842213de9/2048-2732-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/45/32/c045325b-29f2-0895-b7fe-b1722940de39/2048-2732-5.jpg/626x1112bb.jpg"
+  ],
+  "description": "三国时期，群雄并起，战乱不断，人们生活在被冰雪覆盖的时代。在这个世界中，玩家作为城主，抵抗寒冬，平息战乱，在寒冬条件生存下去。\n\n[建立城市：玩转民心系统]\n\n民心即城主的满意度，通过妥善处理居民事件增加民心。高民心可使用民心技能，城池发展先人一步！\n\n[守卫城市：征兵买马]\n\n建立兵营，招兵马买。 繁荣的城镇需要更强大的队伍来护卫，保卫城镇安全！\n\n[武将助阵：阵容组合]\n\n招募三国武将，诸葛亮，赵云，吕布听您调遣，使用不同武将组合守卫城市。\n\n[城市扩张：州府占领]\n\n与其他志同道合的主公占领更多州府，成为最强城主。\n\n你的城市是否能在寒冬战乱中生存下来？ 来《三国：冰河时代》，体验前所未有的城主挑战！",
+  "release_notes": "【新增内容】\n1. 钓鱼大师限时活动上线 \n2. 救救丞相限时活动上线 \n3. 赛季末成员便捷换盟全量开放\n\n【优化调整】\n1. 三国躲猫猫玩法优化\n2. 汉中之战剧本优化 \n3. 同盟宴会优化\n4. 部分场景显示优化",
+  "file_size_bytes": 2810081280,
+  "min_os": "13.0",
+  "version": "3.1.5.0",
+  "release_date": "2024-11-27",
+  "rating": 4.52273,
+  "rating_count": 24422,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E4%B8%89%E5%9B%BD-%E5%86%B0%E6%B2%B3%E6%97%B6%E4%BB%A3/id6503432459?uo=4",
+  "fetched_at": "2026-09-15T00:34:49+08:00"
+ },
+ "slug": "三国_冰河时代_fd3e1a"
+}

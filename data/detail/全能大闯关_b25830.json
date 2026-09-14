@@ -1,0 +1,105 @@
+{
+ "schema_version": 1,
+ "name": "全能大闯关",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "重庆苍玄科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/热门榜"
+  ],
+  "ranks": {
+   "douyin/热门榜": 12
+  },
+  "platform_app_ids": {
+   "douyin": "tt13df65628dba8a9307"
+  },
+  "first_seen": "2026-09-13",
+  "appearances": 2,
+  "best_rank": 12,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "2D 卡通，关卡场景（据同类推断）",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "纯解谜/找茬无物理",
+   "server": "以单机闯关为主，无强联网"
+  },
+  "asset_notes": "无官方素材，按同类休闲解谜推断为轻量 2D 贴图，素材成本极低。",
+  "notes": "无官方媒体材料，玩法据名称与同类「全民大闯关/闯关我全能」（找茬+解谜+综合闯关）推断，未找到本作确切资料，置信度低。",
+  "cost_score": 1.88,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "进入关卡→观察场景/找差异/解谜→完成目标进入下一关，一局数十秒到数分钟，靠多关卡与提示道具续玩（据同类推断）。",
+  "highlights": [
+   "找茬/解谜的「发现差异」瞬时反馈",
+   "多类型关卡（知识/解谜）混合带来变化",
+   "提示道具降低卡关挫败"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（找茬/综合闯关的通用套路）"
+  ],
+  "target_user": "全龄休闲用户，碎片时间",
+  "monetization": "IAA 广告为主（看广告得提示/复活）",
+  "lifecycle": "短平快爆款或长线关卡更新"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "找茬/综合闯关玩法机制通用、成本极低，瓶颈在题材与关卡设计，换皮即差异化，适合作为填充位。",
+  "suggestions": [
+   "题材换为「国学常识/职场」综合闯关，贴合抖音用户",
+   "加入 UGC 关卡投稿延长生命周期"
+  ],
+  "risks": [
+   "通关解谜赛道饱和、买量成本偏高",
+   "本作玩法为推断，可能与实际有出入"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法据同类「全民大闯关」推断为找茬/解谜综合闯关，非本作确证资料",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎疑为 Cocos Creator（休闲解谜小游戏常见选型）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.155.cn/game/1468068.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:39:42+08:00"
+ },
+ "slug": "全能大闯关_b25830"
+}

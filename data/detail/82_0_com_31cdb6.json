@@ -1,0 +1,236 @@
+{
+ "schema_version": 1,
+ "name": "82-0.com",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Vaulty Studios Inc.",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 18
+  },
+  "platform_app_ids": {
+   "ios": "6780195090"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 7,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Web / HTML5（React/Next 推测）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "极简 UI + NBA 球员头像",
+  "dims": {
+   "engine": 2,
+   "art": 1,
+   "anim": 1,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 3,
+   "audio": 1
+  },
+  "dim_notes": {
+   "art": "纯 UI + 球员头像，包体 104MB，素材极轻",
+   "logic": "五轮随机抽卡 + 年代多样性约束 + 基于 5 项数据的非线性模拟评分"
+  },
+  "asset_notes": "2D 头像 + UI，几乎无定制美术，素材层零瓶颈",
+  "notes": "媒体匹配（国区商店但开发者为 Vaulty Studios），包体 104MB；核心为网页游戏，引擎按 Web 技术推断",
+  "cost_score": 1.75,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "每轮随机一个 NBA 球队+年代，选一名该时期球员填入五个位置之一；五轮后模拟引擎按 PPG/RPG/APG/STL/BPG 算出 82 场战绩，追求 82-0。",
+  "highlights": [
+   "「差一名就 82-0」的强悬念驱动反复重开",
+   "年代/球队 reroll 制造运气与策略博弈",
+   "结果卡易分享，引发球迷争论传播"
+  ],
+  "innovations": [
+   "把 NBA 历史球星做成「抽卡+模拟战绩」的轻量辩论游戏，核心是非线性数据模拟引擎，属品类微创新"
+  ],
+  "target_user": "NBA 球迷 / 篮球知识党，社媒传播",
+  "monetization": "IAA（应用内广告）+ 可选去广告，免费（inferred）",
+  "lifecycle": "病毒式短爆 + 赛季更新球员池"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "技术极轻（web 原型），核心是数据模拟+分享；NBA 球员姓名/数据涉及授权风险，换运动最稳。",
+  "suggestions": [
+   "换为「足球 82-0」（梅西/贝利跨年代）",
+   "模拟引擎改用开源球员数据降低风险",
+   "加好友挑战码分享增强传播"
+  ],
+  "risks": [
+   "使用 NBA 真实球员姓名与历史数据存在授权/肖像风险",
+   "玩法浅、留存靠话题"
+  ],
+  "effort": "15–25 人日（1 前端 + 0 后端轻量）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/21/d3/5321d312-e22f-b6d6-dcfd-6ec69789b1db/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/91/58/cf9158c1-cd6f-4e6b-8c9c-238a9cd00dfb/iPhone_01.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/f4/e1/28f4e15e-af87-85e1-2409-8f3302ada848/iPhone_02.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/f7/3b/02f73b8d-914c-d6e8-4bc9-4c4ef713582c/iPhone_03.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/8a/6a/c18a6a19-be8c-8164-0855-ea190d30a5aa/iPhone_07.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/0e/27/690e2751-9b64-2a3f-a8d9-ace9d9edbf97/iPhone_06.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/8a/c4/128ac455-0259-1043-efd4-a83e006a6b3a/iPhone_05.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/72/50/cf72501a-322c-a179-aa29-a62071a9fa5d/iPhone_04.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/1a/28/d11a2865-603b-97ee-2cc3-041ae23d73e9/IPAD_1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/28/8c/65288cff-2e25-f2c3-70b9-e400e5b38880/IPAD_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/74/42/d7/7442d7ca-81cb-644b-ed4b-ac11928a69ea/IPAD_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/0f/27/f70f27f5-fced-e66e-7095-70f17352275c/IPAD_7.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/f3/08/c1f30846-d5cf-718e-aba4-f814c4a47ccc/IPAD_6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/cb/88/15cb883f-a82a-449f-739d-dcdb6ca1567b/IPAD_5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/9e/cc/ee9ecc6c-461f-05a5-3feb-72eb8c838261/IPAD_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 104MB（官方商店数据）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Web/HTML5 属推断（核心为 82-0.com 网页游戏）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/82-0-com/id6780195090?uo=4",
+  "https://www.aol.com/lifestyle/discover-addicting-82-0-basketball-040936792.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "82-0.com",
+  "country": "cn",
+  "track_id": 6780195090,
+  "seller": "Vaulty Studios Inc.",
+  "genres": [
+   "游戏",
+   "体育"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/21/d3/5321d312-e22f-b6d6-dcfd-6ec69789b1db/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/91/58/cf9158c1-cd6f-4e6b-8c9c-238a9cd00dfb/iPhone_01.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/f4/e1/28f4e15e-af87-85e1-2409-8f3302ada848/iPhone_02.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/f7/3b/02f73b8d-914c-d6e8-4bc9-4c4ef713582c/iPhone_03.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/8a/6a/c18a6a19-be8c-8164-0855-ea190d30a5aa/iPhone_07.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/0e/27/690e2751-9b64-2a3f-a8d9-ace9d9edbf97/iPhone_06.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/8a/c4/128ac455-0259-1043-efd4-a83e006a6b3a/iPhone_05.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/72/50/cf72501a-322c-a179-aa29-a62071a9fa5d/iPhone_04.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/1a/28/d11a2865-603b-97ee-2cc3-041ae23d73e9/IPAD_1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/28/8c/65288cff-2e25-f2c3-70b9-e400e5b38880/IPAD_2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/74/42/d7/7442d7ca-81cb-644b-ed4b-ac11928a69ea/IPAD_3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/0f/27/f70f27f5-fced-e66e-7095-70f17352275c/IPAD_7.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/f3/08/c1f30846-d5cf-718e-aba4-f814c4a47ccc/IPAD_6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/cb/88/15cb883f-a82a-449f-739d-dcdb6ca1567b/IPAD_5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/9e/cc/ee9ecc6c-461f-05a5-3feb-72eb8c838261/IPAD_4.jpg/626x1112bb.jpg"
+  ],
+  "description": "Can you build the perfect lineup and go 82-0?\n\n82-0 is the viral basketball roster-building game where every pick matters. Spin for a random team and decade, draft the best player available, build your ultimate five-man lineup, and see if your squad has what it takes to finish the season undefeated.\n\nChoose legends, compare eras, test your hoops knowledge, and chase the perfect record.\n\nBuild your dream lineup\nSpin teams and decades\nPlay with strategy, luck, and basketball IQ\nSimulate your season record\nTry to go 82-0\nShare your results with friends\n\nWhether you’re a casual fan, basketball history nerd, fantasy hoops addict, or just love debating all-time teams, 82-0 is built for you.\n\nDraft smart. Trust your instincts. Build greatness.\n\nCan your team go 82-0?",
+  "release_notes": "Improvements & bug fixes",
+  "file_size_bytes": 104275968,
+  "min_os": "15.0",
+  "version": "1.9.0",
+  "release_date": "2026-06-24",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/82-0-com/id6780195090?uo=4",
+  "fetched_at": "2026-09-15T00:38:24+08:00"
+ },
+ "slug": "82_0_com_31cdb6"
+}

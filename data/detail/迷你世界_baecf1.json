@@ -1,0 +1,212 @@
+{
+ "schema_version": 1,
+ "name": "迷你世界",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Miniwan Tech",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 15
+  },
+  "platform_app_ids": {
+   "ios": "1170455562"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 10,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "自研 Rainbow 引擎（彩虹引擎）",
+  "engine_evidence": "confirmed",
+  "dimension": "3D 体素",
+  "art_style": "方块卡通 3D 体素",
+  "dims": {
+   "engine": 5,
+   "art": 4,
+   "anim": 3,
+   "physics": 2,
+   "logic": 5,
+   "data": 4,
+   "server": 4,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "自研 3D 体素引擎，需大量改造，是核心壁垒",
+   "logic": "沙盒创造/物理/生物 AI/UGC 编辑器逻辑极复杂",
+   "server": "一键开房联机 + 创作分享，联网与内容分发架构重"
+  },
+  "asset_notes": "2.1GB 含海量方块/模组/生物，但方块美术可程序化生成，素材层非最大瓶颈",
+  "notes": "迷你创想（迷你玩）出品，注册用户超 10 亿的国民级 3D 沙盒平台",
+  "cost_score": 3.75,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "在 3D 体素沙盒中自由破坏/创造、生存冒险，搭建筑养生物，一键开房联机与好友共建世界，并通过 MOD 工坊创作分享内容。",
+  "highlights": [
+   "方块破坏/创造零规则限制，UGC 自由度极高",
+   "自研彩虹引擎支持水墨/青绿等国风版本，视觉差异强",
+   "一键开黑联机 + 内容分享，社交与创作闭环"
+  ],
+  "innovations": [
+   "自研 3D 体素引擎 + UGC MOD 生态，是平台级创新而非单玩法"
+  ],
+  "target_user": "6-18 岁青少年及全家创作/冒险用户",
+  "monetization": "IAP 内购（装扮/皮肤/道具）+ 创作生态",
+  "lifecycle": "超长线国民级平台，注册用户超 10 亿"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "自研引擎+2.1GB 内容+UGC 生态，复刻需重资本与长期运营，且品类由迷你/我的世界锁死，后来者难突围。",
+  "suggestions": [
+   "仅可借鉴'低门槛 UGC 编辑器+分享'做垂直小游戏（如积木解谜）",
+   "用轻量 2D 沙盒降低引擎与内容成本"
+  ],
+  "risks": [
+   "自研引擎研发不可承受",
+   "UGC 生态冷启动极难",
+   "与巨头直接竞争"
+  ],
+  "effort": "不适用（重资本/UGC，不建议）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/f4/6f/83f46f94-95f8-fc5d-b423-b785d1a2f6e0/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/95/86/ad958632-d189-99fd-d8e4-2458fe2e73d5/2688-1242_U9996_U56fe.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/69/64/026964fc-1de8-96ff-19a9-d44d3fd6ae35/2688-124201.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/d9/53/4cd953a5-ffb1-9895-edfe-464839918a16/2688-124202.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f6/9a/69/f69a69ed-2341-ec51-9cd2-26297930a470/2688-124203.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/f5/1d/f5f51de9-3efe-44d6-051c-572a5229e640/2688-124204.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/4e/3a/774e3ae9-0d7e-4be3-f518-0dc65e4c10cb/2732-2048_U9996_U56fe.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/ba/a2/39baa213-df02-bdcf-e115-58ef42887655/2732-204801.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/c0/e7/f8c0e707-a936-d2d5-cf95-4032f6f7c576/2732-204802.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/74/fe/02/74fe02fa-0981-320f-1cf9-b680fd844fa9/2732-204803.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/54/0f/65540fc7-eb98-ad5f-bd5a-6f78d7e04ac7/2732-204804.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "自研'彩虹(Rainbow)引擎'，非 Unity/UE",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体 2.1GB（>600MB，很重，含大量 3D 资源）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://news.mydrivers.com/1/979/979217.htm",
+  "https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C/id1170455562"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：3D 体素"
+ ],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "迷你世界",
+  "country": "cn",
+  "track_id": 1170455562,
+  "seller": "SHENZHEN MINIWAN TECHNOLOGY CO. LTD.",
+  "genres": [
+   "游戏",
+   "冒险",
+   "模拟"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/f4/6f/83f46f94-95f8-fc5d-b423-b785d1a2f6e0/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/95/86/ad958632-d189-99fd-d8e4-2458fe2e73d5/2688-1242_U9996_U56fe.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/69/64/026964fc-1de8-96ff-19a9-d44d3fd6ae35/2688-124201.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/d9/53/4cd953a5-ffb1-9895-edfe-464839918a16/2688-124202.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f6/9a/69/f69a69ed-2341-ec51-9cd2-26297930a470/2688-124203.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/f5/1d/f5f51de9-3efe-44d6-051c-572a5229e640/2688-124204.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/4e/3a/774e3ae9-0d7e-4be3-f518-0dc65e4c10cb/2732-2048_U9996_U56fe.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/ba/a2/39baa213-df02-bdcf-e115-58ef42887655/2732-204801.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/c0/e7/f8c0e707-a936-d2d5-cf95-4032f6f7c576/2732-204802.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/74/fe/02/74fe02fa-0981-320f-1cf9-b680fd844fa9/2732-204803.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/54/0f/65540fc7-eb98-ad5f-bd5a-6f78d7e04ac7/2732-204804.jpg/626x1112bb.jpg"
+  ],
+  "description": "【游戏介绍】\n《迷你世界》是一款高自由的精美3D沙盒游戏。\n这里没有规则限制，也没有特定的玩法，只有破坏和创造、生存与冒险的乐趣。\n可以通过双手和智慧完成一座城市或你理想的建筑，也可以化勇气为力量挑战荒野生存。\n可以体验躺在一望无际的草原感受天空与卷云舒的那份自在，也可以感受小动物围在身边的轻松惬意。\n当然你也可以做一位邪恶的破坏者、熊孩子，徒手破坏森林、草木，甚至可以建造火山与洪水来改变世界！最后可以把你构建的世界分享给小伙伴，邀请伙伴一起冒险，一起欢乐，一起创造属于你的世界！\n\n【游戏特色】\n画面精致，风格独特；\n自由创造，玩法丰富；\n一键开房联机 随时随地开黑互动；\n一键轻松分享 海量内容随时共享；\n精品国产沙盒  不只是游戏那么简单！",
+  "release_notes": "【星尘之境】\n传送门自由搭建、支持拆卸重组；星尘之境天空永夜，含荧菇平原、星落湖等十余种地形，极光、浓雾、流星雨特殊天气。\n【学院城堡】\n城堡暗藏奖励宝箱和怪物宝箱，还需要破坏蚀化召唤阵阻止怪物继续出现；击败蚀化蘑菇国王与其召唤的蚀化蘑菇人获得关键奖励。\n【新生物】\n独角兽、荧羽夜枭可驯服为坐骑，还有特殊外观可解锁；更新野外生物：呆呆菇、奇幻蛙、游侠猫等；更新怪物：食人花、晶石小怪、晶石巨像等。\n【新村庄】\n蘑菇人村庄和四叶草村庄的居民十分欢迎冒险家的拜访，部分村民拥有制作材料、兑换物品的能力。\n【双Boss】\n首位人型女Boss极夜星洛大法师登场；虚空魔眼在击败极夜星洛后出现；极光星洛在击败虚空魔眼后出现，传授法术。\n【虚空法术与装备】\n新增12种虚空法术；新增蘑菇法棒、蘑菇拳套等武器；新增国王皇冠、夜光菇笠等装备。\n【建造与图鉴】\n更新七大系列建筑方块；上新蘑菇与星辉系列家具；探索可解锁星尘之境图鉴。\n【创作工具】\n模型支持更多材质，ui文本增加属性、自定义上传动画，环境增加银河、极光，新增游戏记录。\n【活动】\n星尘之境送定制头像框、魔法邀请函拍照寄好友\n【装扮】\n极光 星洛、极夜 星洛、糖壳儿、幻梦蝶、夜萤、拉莱耶、冰露等新装扮、新动作",
+  "file_size_bytes": 2139396096,
+  "min_os": "12.0",
+  "version": "1.58.4",
+  "release_date": "2016-12-20",
+  "rating": 4.14681,
+  "rating_count": 4080477,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C/id1170455562?uo=4",
+  "fetched_at": "2026-09-15T00:39:21+08:00"
+ },
+ "slug": "迷你世界_baecf1"
+}

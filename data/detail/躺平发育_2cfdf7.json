@@ -1,0 +1,124 @@
+{
+ "schema_version": 1,
+ "name": "躺平发育",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "北京蜜獾工坊娱乐文化有限公司",
+  "category_l1": "1",
+  "category_l2": "塔防",
+  "boards": [
+   "douyin/热门榜",
+   "wx/人气榜",
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 12,
+   "wx/畅玩榜": 8,
+   "douyin/热门榜": 7
+  },
+  "platform_app_ids": {
+   "wx": "wx8f54d0cf1faf013f",
+   "douyin": "tt3a9d4c20a5a4387002"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "像素风，暗黑搞怪宿舍场景",
+  "dims": {
+   "engine": 3,
+   "art": 2,
+   "anim": 2,
+   "physics": 2,
+   "logic": 3,
+   "data": 3,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "推断Cocos Creator：像素轻包体、小游戏起家、蜜獾工坊小游戏常见选型；未见官方确认，故标inferred",
+   "art": "像素风包体约63MB(安卓渠道)，素材轻量，可程序化/通用素材快速产出",
+   "logic": "塔防建造+经济滚雪球(床/门/炮台升级)+猎梦者AI，多建筑升级树与布局策略",
+   "data": "建筑升级体系+蜜獾币+猎梦者碎片解锁+多模式(经典/七夜怪谈/反客为主)"
+  },
+  "asset_notes": "像素风素材极轻，可用通用素材库+程序化生成快速量产，素材层不是瓶颈。",
+  "notes": "继承自同工作室『猛鬼宿舍』开创的宿舍生存塔防子品类，机制轻量、技术风险低。",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "开局躲进房间上床，床自动产金；用金币升级门(血量)与床(产金)，并在空地建炮台/维修台/游戏机(产电)抵御猎梦者破门；撑到天亮或击败鬼即胜。死亡也获蜜獾币，集碎片可当猎梦者反抓人。",
+  "highlights": [
+   "上床→产金→升级的滚雪球，前3分钟发育节奏紧凑",
+   "猎梦者破门瞬间的紧张感与维修台/能量罩救场的反转刺激",
+   "『多>高』布局策略：炮台数量优于单点升级，决策有深度",
+   "猎梦者模式反客为主(鬼抓人)的角色反转爽感"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（宿舍生存塔防由同工作室『猛鬼宿舍』开创并已被广泛换皮）"
+  ],
+  "target_user": "全年龄泛休闲/学生党，偏爱轻松策略与搞怪恐怖",
+  "monetization": "以IAA为主(复活/加速/双倍)，辅以皮肤/去广告内购；蜜獾币与碎片为软通货",
+  "lifecycle": "短平快爆款+持续换皮运营，靠新模式(七夜怪谈/猎梦者)拉回流"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "宿舍塔防(躲床发育+抵御猛鬼)机制已成熟且被广泛换皮，核心循环轻量、像素素材成本低；差异化完全在题材与美术包装。照抄原题材会撞车。",
+  "suggestions": [
+   "换题材为『末日地堡/露营帐篷』，抵御野兽或外星人替代猛鬼，机制不变",
+   "加入可破坏地形或更多猎梦者(AI)种类，提升策略深度作为微差异",
+   "保留蜜獾币/碎片解锁的猎梦者反客为主模式，这是高留存设计"
+  ],
+  "risks": [
+   "猛鬼宿舍/躺平发育类换皮已极度饱和，买量素材高度同质、CTR衰减快",
+   "多人匹配模式对服务端有要求，需额外联网成本",
+   "原作品牌认知强，同题材直接撞车"
+  ],
+  "effort": "20–35 人日（1 前端 + 1 美术 + 0.5 策划），像素素材轻、塔防逻辑中等"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "像素风宿舍塔防，玩法为躲床发育+抵御猎梦者",
+   "level": "confirmed"
+  },
+  {
+   "claim": "开发商北京蜜獾工坊(猛鬼宿舍同工作室)",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体约63MB(安卓渠道，轻量)",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断Cocos Creator（小游戏常见，未确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://game.xiaomi.com/game/62394065",
+  "https://baike.sogou.com/v217095312.htm"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-14T23:51:06+08:00"
+ },
+ "slug": "躺平发育_2cfdf7"
+}

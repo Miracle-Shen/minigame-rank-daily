@@ -1,0 +1,231 @@
+{
+ "schema_version": 1,
+ "name": "植物大战僵尸2-13周年庆",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "PopCap",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 18
+  },
+  "platform_app_ids": {
+   "ios": "639516529"
+  },
+  "first_seen": "2026-08-28",
+  "appearances": 18,
+  "best_rank": 15,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "PopCap Framework（自研 C++ 引擎）",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "卡通立绘 + 关卡贴图，2.5D 塔防",
+  "dims": {
+   "engine": 5,
+   "art": 5,
+   "anim": 4,
+   "physics": 2,
+   "logic": 5,
+   "data": 5,
+   "server": 3,
+   "audio": 4
+  },
+  "dim_notes": {
+   "engine": "自研 PopCap Framework（C++），无现成小游戏模板，塔防运行时需从零理解",
+   "art": "包体 3.89GB，含数百种植物/僵尸序列帧、多世界主题关卡美术与音效，素材量极大",
+   "logic": "多世界关卡 + 植物/僵尸克制矩阵 + 能量豆系统 + 手势触屏道具，规则系统复杂",
+   "data": "植物升级/星图/内购经济 + 13 周年长线内容资产，养成与数值体系庞大",
+   "anim": "大量骨骼/序列帧动画与技能特效，动作表现密集",
+   "audio": "全定制 BGM 与角色语音，音频资产重"
+  },
+  "asset_notes": "3.89GB 包体为最硬素材指标，含海量 2D 序列帧、关卡美术与音效，复刻素材成本极高，非小游戏团队可承担",
+  "notes": "成熟塔防 + 时空主题 + 手势交互的组合，技术风险集中在自研引擎与素材体量",
+  "cost_score": 4.12,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "在 5 行草坪上种植物抵御从右向左推进的僵尸，点阳光部署攻击/防御植物，用能量豆激发大招；一局数分钟，靠布阵策略与道具续命。",
+  "highlights": [
+   "能量豆一键激发植物大招，瞬时清场，反馈爽快",
+   "植物/僵尸克制关系形成「研究配队」的策略正反馈，停不下来",
+   "手势金手指（捏/弹/划）直接操控僵尸，移动端特有交互新鲜",
+   "世界主题 + 关卡三星评价驱动长线收集"
+  ],
+  "innovations": [
+   "把经典塔防嫁接到「时空穿越」多世界主题，并加入植物能量豆系统",
+   "手势触屏道具（金手指）是移动端特有交互创新，区别于 PC 原版"
+  ],
+  "target_user": "全年龄泛休闲塔防玩家，通勤碎片时间",
+  "monetization": "IAA + IAP 混合（内购植物/加速/去广告，广告复活与礼包）",
+  "lifecycle": "长线运营（13 周年持续大版本更新）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "自有 IP（植物大战僵尸）强版权壁垒；3.89GB 海量 2D 美术 + 自研引擎，复刻成本极高；塔防玩法已高度饱和，独立立项无性价比。",
+  "suggestions": [
+   "只抽「手势触屏道具」交互思路做轻量塔防换皮，避开 IP",
+   "用通用塔防框架 + 程序化/AI 美术把包体压到 80MB 内",
+   "题材换为国风/神话（如『镇墓兽守卫』）降低版权风险"
+  ],
+  "risks": [
+   "IP 侵权与商标风险",
+   "3.89GB 素材量导致买量与加载成本失控",
+   "塔防品类买量竞争激烈"
+  ],
+  "effort": "不建议独立立项；若只做轻量换皮需 60–90 人日（1 前端 + 1 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/61/2d/39612dd4-06c7-230b-b2a2-eda054cab692/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/97/56/a7975685-5d70-09cf-388d-335ff361ac7d/2796-1290-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/b4/9e/40b49e3c-66e8-4c77-e0b3-e5f93c618c03/2796-1290-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/01/7a/28017a86-9de3-a1d5-3890-49847200a82b/2796-1290-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bf/94/2d/bf942db4-70f1-afbe-ec99-1574863e3218/2796-1290-6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/22/41/9c2241a2-365e-cb9b-54c9-4575af78e263/2796-1290-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/4f/d5/834fd500-4e7e-875a-a654-de3694b5ecae/2796-1290-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/a7/bf/83a7bf00-a26b-1136-af13-997c6080bb38/2732-2048-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/83/90/e28390e4-1e88-71c3-99c3-1177db603681/2732-2048-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/b8/a8/64b8a850-5af2-e9a2-d5e4-906c953ed801/2732-2048-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/48/f3/2d/48f32ded-0090-63a0-7d77-0ee4be04bcf6/2732-2048-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/db/da/60dbda07-ad43-e53e-7c21-2ae90551b022/2732-2048-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1d/dc/78/1ddc7864-ce37-c317-a532-e19de740ce81/2732-2048-6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 3.89GB，含大量序列帧与音效资产",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为自研 PopCap Framework（C++），非商业引擎",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%B0%B82-13%E5%91%A8%E5%B9%B4%E5%BA%86/id639516529?uo=4",
+  "https://everything.explained.today/Plants_vs_Zombies_2"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "植物大战僵尸2-13周年庆",
+  "country": "cn",
+  "track_id": 639516529,
+  "seller": "PopCap",
+  "genres": [
+   "游戏",
+   "娱乐",
+   "策略",
+   "益智解谜"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/61/2d/39612dd4-06c7-230b-b2a2-eda054cab692/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/97/56/a7975685-5d70-09cf-388d-335ff361ac7d/2796-1290-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/b4/9e/40b49e3c-66e8-4c77-e0b3-e5f93c618c03/2796-1290-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/01/7a/28017a86-9de3-a1d5-3890-49847200a82b/2796-1290-5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bf/94/2d/bf942db4-70f1-afbe-ec99-1574863e3218/2796-1290-6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/22/41/9c2241a2-365e-cb9b-54c9-4575af78e263/2796-1290-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/4f/d5/834fd500-4e7e-875a-a654-de3694b5ecae/2796-1290-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/a7/bf/83a7bf00-a26b-1136-af13-997c6080bb38/2732-2048-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/83/90/e28390e4-1e88-71c3-99c3-1177db603681/2732-2048-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/b8/a8/64b8a850-5af2-e9a2-d5e4-906c953ed801/2732-2048-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/48/f3/2d/48f32ded-0090-63a0-7d77-0ee4be04bcf6/2732-2048-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/db/da/60dbda07-ad43-e53e-7c21-2ae90551b022/2732-2048-5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1d/dc/78/1ddc7864-ce37-c317-a532-e19de740ce81/2732-2048-6.jpg/626x1112bb.jpg"
+  ],
+  "description": "是时候了！《植物大战僵尸2——奇妙时空之旅》登陆中国，植物们与僵尸们史诗般的斗争，将在不同的时空维度中进行续写！新的植物，新的僵尸，新的玩法，结合最先进的触摸屏技术，玩家可以打破传统意义上的塔防，直接加入僵尸抵抗战。伴随植物大战僵尸2回归的还有疯狂的戴夫，新的触屏超级道具，新的神奇植物能量，用新的方法保护你的大脑，快来加入疯狂戴夫穿越时空的疯狂冒险！《植物大战僵尸2》前作是累积获得超过30个年度最佳游戏奖项的《植物大战僵尸》，在全球拥有亿万粉丝。\n\n【游戏特色】\n--新植物！新僵尸！\n菜问、火龙草、闪电芦苇等强大的新植物，将加入你的草坪护卫队。这些新奇僵尸将随着地图的推进而逐一亮相：神秘埃及法老僵尸，海盗港湾海盗僵尸，狂野西部淘金僵尸……在新的世界中，各种身怀绝技又绝顶聪明的僵尸们将不断挑战你的眼力与智力。\n\n--新技能保护你的脑子！\n全新概念的植物能量和手势道具将时空挑战带入一个新的纪元。使用植物能量豆来激发你植物的潜能，用金手指捏、轻弹、划动僵尸，保护草坪，保护脑子。\n\n--令人兴奋的关卡玩法！\n古老的埃及陆地，狭窄的海上甲板，晃动的西部铁轨？不同的世界有着不同的挑战。更有关卡三星评价带来无尽的挑战乐趣！\n\n--乐趣无限的迷你游戏！\n除了经典的迷你游戏：传送带、坚不可摧、植物危机。\n更有全新的迷你游戏让你爱不释手：种子保卫战、木乃伊记忆、加农炮之战、围栏之战。\n\n--加入游戏中心成就排行榜！\n看看你在排行榜中是第几名。\n\n更多新奇冒险等你来挑战！\n友情提示：小心疯鸡！（我是认真的）",
+  "release_notes": "《植物大战僵尸2》全新版本重磅开启，太空新世界+周年庆，史无前例大更新！\n\n【主线更新 月球基地开启】\n《植物大战僵尸2》第十八个主线世界——月球基地开启！\n这里是 2069 年，不那么遥远的未来。植物和僵尸们即将登陆月球，新植物、新僵尸、新机制……一场史诗级的太空大战一触即发！你准备好了吗？\n\n【宇宙植物 全新体系登场】\n全新「宇宙」体系植物登场，酷炫又强力！\n「暗物质火龙果」：月球上的绝对王者，释放暗物质能量弹，为僵尸们施加量子状态，配合队友轻松打出组合技。大招更能召唤巨龙发动强烈攻击，颤抖吧！\n「宇宙豌豆&蘑菇&坚果」：输出防御各显神通，移形换位，变幻莫测！宇宙植物们的攻击将积攒星印触发百分比伤害，其独有的湮灭机制可以有效克制亡语！处于月球时，还可以生成同系列植物卡包，呼唤队友紧急上阵助战哦~\n「重力树」：不要在乎月球上种苹果树科不科学了，掌控重力真的很厉害不是么？\n「宇宙苔藓」：月面生存有一套！植物们进驻月球基地的好帮手！\n\n【全新玩法 月面生存专家】 \n潘妮情报：月球环境险恶，在登月前请详细了解以下事项！\n「采集终端」：在月球上种植需消耗基地的维生系统电力。当电力过载时，将会触发节能协议，影响场上植物的战斗表现，请注意及时派遣采集小队扩充容量！\n「月能火箭」：植物和僵尸们的必争之地，将宇宙植物种在火箭内，触发奇妙的战斗效果，另外请记住潘妮的忠告，千万别让僵尸靠近火箭！\n「辐射陨石」：远离月面上的辐射陨石！如果不尽快处理，陨石将会持续污染周围的地块，呼叫采集终端清除污染！\n「专家难度」：更猛烈的僵尸攻势，更险峻的考验，你能成功通关专家难度吗？\n\n【ZASA科技 僵尸也玩科幻】\n僵尸们组建了“ZASA”小队，在月球上努力探索新鲜的脑子。\n「失重漫步者」：旋转跳跃闭着眼，迈着六亲不认的步伐，这个狠角色可以躲避大部分平射攻击。潘妮提示：重力树对TA有奇效哦！\n「正向&反向传送僵尸」：无论是正是反，都不好对付，不要小看传送僵尸的羁绊啊！\n「超新星巨人」：每次击杀植物将会秒杀场上所有同名单位，「复制松果」吓哭了！\n「机械战斗巡洋舰5000型」：召唤小鬼！召唤护盾！攻防一体！名字越长！技能越强！\n「宇宙小鬼」：僵尸COSER界最高的山！百变小鬼，非TA莫属！\n一大波「宇航员僵尸」入侵，部分狡猾的僵尸背着「传送信标」，随时准备“金蝉脱壳”，伺机卷土重来。使用宇宙属性伤害对僵尸施加湮灭效果，让TA们无处可逃！\n\n【周年庆典 金手指限时回归】\n周年庆秘境限时开启，选定不同任务目标，挑战不同的关卡难度，突破自我极限！\n重温时空旅途，挑战 20 个风格各异的关卡，与不同时代的僵尸们再来一场“世纪对决”，拾取记忆中的快乐！最后一关大家将会来到庆典的主会场，颇具生日氛围的僵尸们早已等候多时，集中火力将他们全部击败吧！\n妙趣横生的“金手指”限时回归，「剪刀手」、「浮空指」、「电击指」，熟悉的手势系统回来了，等你来体验！\n\n【十三周年 派对好礼不断】\n「植物培育」、「幸运宝藏」、「挑战僵博」……全新版本就等你来！\n《植物大战僵尸2》今年13岁了，感谢每一位玩家的一路陪伴，展望未来，我们满心期待可以与大家携手并肩，向着更好的未来坚定地共同前行，继续创造更多美好的回忆与精彩的瞬间~生日快乐！",
+  "file_size_bytes": 3895059456,
+  "min_os": "11.0",
+  "version": "4.2.2.394",
+  "release_date": "2013-08-01",
+  "rating": 3.73734,
+  "rating_count": 580030,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B82-13%E5%91%A8%E5%B9%B4%E5%BA%86/id639516529?uo=4",
+  "fetched_at": "2026-09-15T00:40:18+08:00"
+ },
+ "slug": "植物大战僵尸2_13周年庆_c0c7bc"
+}

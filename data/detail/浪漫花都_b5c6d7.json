@@ -1,0 +1,105 @@
+{
+ "schema_version": 1,
+ "name": "浪漫花都",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "深圳天苻科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 19
+  },
+  "platform_app_ids": {
+   "douyin": "tt9493e22e0ae97bb207"
+  },
+  "first_seen": "2026-09-13",
+  "appearances": 2,
+  "best_rank": 19,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator（推断，休闲小游戏常见选择）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "花卉/换装/合成类 2D 卡通（推断）",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 3,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "休闲小游戏，Cocos Creator 现成模板即可，改题材上线",
+   "art": "推断为花卉/换装/合成类 2D 卡通，素材量中等"
+  },
+  "asset_notes": "无官方包体；名称与榜单位置推断为轻量 2D 休闲，素材中等（推断）",
+  "notes": "无官方材料，仅据标题与发行方推断为花卉主题休闲合成/换装类",
+  "cost_score": 2.25,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "（推断）围绕「花都/浪漫」主题，疑为合成经营或换装休闲，玩家收集花卉/装扮城市，完成目标领奖励；无官方描述，纯推断。",
+  "highlights": [
+   "（推断）花卉收集 + 装扮正反馈",
+   "（推断）轻量合成/放置的碎片爽感"
+  ],
+  "innovations": [
+   "无可靠信息，推测为成熟休闲品类的执行优化"
+  ],
+  "target_user": "女性向休闲用户（推断）",
+  "monetization": "IAA + IAP 混合（推断）",
+  "lifecycle": "长线运营（推断）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "推断为花卉主题轻量休闲，机制成熟、瓶颈在题材与美术包装，复刻成本可控；但一手信息缺失，立项前需补调研。",
+  "suggestions": [
+   "题材换为「古风花朝节」「赛博花园」做差异化",
+   "叠加合成 + 剧情收集双线提升留存",
+   "先抓包体/录屏确认玩法再立项"
+  ],
+  "risks": [
+   "一手资料缺失导致误判",
+   "女性向休闲赛道买量贵"
+  ],
+  "effort": "20–30 人日（1 前端 + 1 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "发行方为深圳天苻科技，抖音新游榜在榜",
+   "level": "confirmed"
+  },
+  {
+   "claim": "玩法/引擎为推断，检索仅命中无关同名版号条目",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://m.sohu.com/a/1044212490_114984"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:40:38+08:00"
+ },
+ "slug": "浪漫花都_b5c6d7"
+}

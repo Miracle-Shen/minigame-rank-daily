@@ -1,0 +1,112 @@
+{
+ "schema_version": 1,
+ "name": "找个儿不同",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "厦门市指丰科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "消除",
+  "boards": [
+   "wx/人气榜",
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 16,
+   "wx/畅玩榜": 19
+  },
+  "platform_app_ids": {
+   "wx": "wx3b074a5ad3884b31"
+  },
+  "first_seen": "2026-08-26",
+  "appearances": 13,
+  "best_rank": 14,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator / Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "卡通温馨成对图片",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 1,
+   "logic": 1,
+   "data": 1,
+   "server": 2,
+   "audio": 1,
+   "physics": 1
+  },
+  "dim_notes": {
+   "anim": "几乎无动画，仅点击标记反馈",
+   "logic": "单规则找茬，无系统",
+   "data": "无成长线，仅关卡解锁 / 图集",
+   "audio": "通用音效，无定制",
+   "physics": "纯点击标记，无物理"
+  },
+  "asset_notes": "核心瓶颈是成对图片素材，可用 AI 生图 / 摄影批量产出，需注意图库版权",
+  "notes": "经典找茬品类，机制零门槛，瓶颈完全在素材与题材",
+  "cost_score": 1.38,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "在两幅相似图片中找出指定数量（通常 5 / 12 处）的不同，点击标记，限时或无尽模式下找全即过关。",
+  "highlights": [
+   "「发现了！」的眼力确认爽感",
+   "限时模式的时间压力驱动",
+   "图集 / 主题收集"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化"
+  ],
+  "target_user": "全年龄观察向用户，亲子互动",
+  "monetization": "IAA（看广告获提示 / 放大镜）",
+  "lifecycle": "长线（持续更新图集）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "找茬机制零门槛、代码量极小；瓶颈在成对图片素材与题材，换题材 + AI 出图即可差异化。",
+  "suggestions": [
+   "换题材为「国风古画找茬」「品牌联名图」「职场梗图」",
+   "用 AI 批量产出成对图，降低素材成本",
+   "加「放大镜 / 提示」付费道具提升变现"
+  ],
+  "risks": [
+   "影视 / IP 图片涉及素材版权",
+   "品类老旧但换皮仍多"
+  ],
+  "effort": "10–18 人日（1 前端 + 0.5 美术）+ 素材"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法为经典找不同 / 找茬",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎为 Cocos/Unity 推断",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://baike.baidu.com/item/%E6%89%BE%E4%B8%8D%E5%90%8C/2465039",
+  "https://www.17yoo.cn/detail/47038"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:35:52+08:00"
+ },
+ "slug": "找个儿不同_79cdf1"
+}

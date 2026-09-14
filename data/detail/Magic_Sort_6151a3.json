@@ -1,0 +1,223 @@
+{
+ "schema_version": 1,
+ "name": "Magic Sort!",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Grand Games A.Ş.",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 6
+  },
+  "platform_app_ids": {
+   "ios": "6499209744"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "色彩鲜艳卡通，魔法药剂主题",
+  "dims": {
+   "engine": 1,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 2,
+   "data": 1,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "超休闲排序玩法，成熟模板改配置即可上线",
+   "physics": "无物理，纯颜色/容器匹配逻辑"
+  },
+  "asset_notes": "约87MB包体，色彩鲜艳但素材轻，可程序化+通用素材，素材非瓶颈",
+  "notes": "Grand Games超休闲排序解谜，全球免费榜常客",
+  "cost_score": 1.5,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "把彩色液体在两个容器间倒来倒去，按颜色归类合成魔法药剂，过渐进难度关卡，用道具破卡关，单局几十秒。",
+  "highlights": [
+   "倒瓶归类的‘咔哒’归位音效+颜色对齐的视觉满足",
+   "渐进难度+道具（特殊瓶）制造卡点爽感",
+   "一局极短，碎片时间高频重试"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（水/球排序玩法的魔法换皮）"
+  ],
+  "target_user": "全球休闲/解压用户，通勤碎片",
+  "monetization": "IAA（激励视频/插屏）为主，超休闲标准",
+  "lifecycle": "短平快爆款，靠持续关卡+买量"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "排序玩法极轻、代码量小、素材轻；全球已有大量同款（水排序/饮料排序），差异化全在题材美术与首关留存曲线。",
+  "suggestions": [
+   "换为‘中药抓药’题材，颜色瓶换成药材抽屉，归类合成一副方子",
+   "或‘调鸡尾酒’题材提升格调",
+   "首关把层数压到2、把‘差一瓶就满’做强悬念驱动看广告"
+  ],
+  "risks": [
+   "品类极度饱和（Water Sort/Order Crazy已霸榜）",
+   "买量CPI高",
+   "无品牌壁垒"
+  ],
+  "effort": "8–15 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/40/1d/89401d6c-7d2d-4317-25a8-01fb7c0612bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/64/e3/c764e387-0285-e640-a34d-110bccde548a/iphone1.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/a6/ec/aba6ecc9-7f11-adab-3dc8-6fa4e825bb3a/iphone2.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/92/6c/ba926c5d-fa0c-364d-9cbb-c3dd8ed4b65d/iphone3.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/3b/de/9a3bdefa-0e49-f5fa-a0d3-5b619f050bfa/iphone4.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/90/0b/59900b1a-a738-3529-587b-233bf202de59/iphone5.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/99/c5/4699c5bd-356b-221a-929d-a7f988bec4e2/iphone6.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/ac/2f/afac2fb6-2984-e005-9689-9731143e88c3/ipad1.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/46/a6/1546a6bd-938a-ff41-5977-d7664aa470b4/ipad2.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/da/0b/66da0b33-35db-b0c8-7dfa-1f0841b07fe9/ipad3.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a9/13/eb/a913eba3-40a8-f529-9818-02e5f2a5c8d9/ipad4.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/d8/50/99d8507d-5619-c1ac-4a2a-75b719ad6dd6/ipad5.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/8f/fc/be8ffcb3-f0cb-6fae-88fc-c349d1668243/ipad6.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体约87MB，属轻-中量级",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断Unity（超休闲常见，未检测SDK）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/magical-sort/id6737153672?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 0.9,
+  "match_name": "Magical Sort",
+  "country": "cn",
+  "track_id": 6737153672,
+  "seller": "Yavuz OZSOY",
+  "genres": [
+   "游戏",
+   "益智解谜",
+   "休闲"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/40/1d/89401d6c-7d2d-4317-25a8-01fb7c0612bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/64/e3/c764e387-0285-e640-a34d-110bccde548a/iphone1.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/a6/ec/aba6ecc9-7f11-adab-3dc8-6fa4e825bb3a/iphone2.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/92/6c/ba926c5d-fa0c-364d-9cbb-c3dd8ed4b65d/iphone3.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/3b/de/9a3bdefa-0e49-f5fa-a0d3-5b619f050bfa/iphone4.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/90/0b/59900b1a-a738-3529-587b-233bf202de59/iphone5.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/99/c5/4699c5bd-356b-221a-929d-a7f988bec4e2/iphone6.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/ac/2f/afac2fb6-2984-e005-9689-9731143e88c3/ipad1.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/46/a6/1546a6bd-938a-ff41-5977-d7664aa470b4/ipad2.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/da/0b/66da0b33-35db-b0c8-7dfa-1f0841b07fe9/ipad3.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a9/13/eb/a913eba3-40a8-f529-9818-02e5f2a5c8d9/ipad4.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/d8/50/99d8507d-5619-c1ac-4a2a-75b719ad6dd6/ipad5.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/8f/fc/be8ffcb3-f0cb-6fae-88fc-c349d1668243/ipad6.jpeg/626x1112bb.jpg"
+  ],
+  "description": "Magical Sort takes you on an enchanting journey where you sort colorful flasks to create magical potions. Strategically place and organize flasks to clear challenging puzzles and unlock new levels. Use unique power-ups to overcome tricky stages and boost your potion-making skills!\n\nWith intuitive gameplay, vibrant visuals, and progressively challenging puzzles, Magical Sort offers hours of fun. Whether you’re a casual player or a puzzle master, this magical adventure will keep you coming back for more!\n\nAre you ready to sort, solve, and master the magic? Download Magical Sort now and dive into a world of sorting fun!",
+  "release_notes": "",
+  "file_size_bytes": 91179008,
+  "min_os": "13.0",
+  "version": "1.0",
+  "release_date": "2024-10-23",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/magical-sort/id6737153672?uo=4",
+  "fetched_at": "2026-09-15T00:36:29+08:00"
+ },
+ "slug": "Magic_Sort_6151a3"
+}

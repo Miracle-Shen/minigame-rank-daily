@@ -1,0 +1,192 @@
+{
+ "schema_version": 1,
+ "name": "救救我鸭",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "北京起跃文化有限公司",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/畅玩榜": 13
+  },
+  "platform_app_ids": {
+   "wx": "wx244b1cb66c8ac4b4"
+  },
+  "first_seen": "2026-06-30",
+  "appearances": 60,
+  "best_rank": 11,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator (推断)",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "可爱卡通 鸭子/螺丝",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 2,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "螺丝遮挡/层级拆解顺序与道具组合是核心难度，需保证可解"
+  },
+  "asset_notes": "约 99MB 卡通素材轻量，鸭子与螺丝贴图可 AI 批量产出",
+  "notes": "北京起跃文化（Tuyue）出品，'拧螺丝消除'爆款品类",
+  "cost_score": 2.0,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "关卡中鸭子被层层木板压住，点击木板上的彩色螺丝放入底部槽，凑满 2 个同色螺丝即消除，移除木板救出鸭子；摇晃手机可重组木板，道具变换螺丝位置。",
+  "highlights": [
+   "螺丝遮挡+层级拆解的顺序博弈，解谜爽感强",
+   "消除瞬间木板塌落露出鸭子，正反馈直接",
+   "鸭子图鉴收集 + 萌宠外观，提供长线小目标"
+  ],
+  "innovations": [
+   "无实质创新，属'拧螺丝消除'成熟爆款品类的执行优化"
+  ],
+  "target_user": "全年龄泛休闲/解压用户，偏爱萌系画风",
+  "monetization": "IAA 广告为主（道具/提示看广告），轻内购",
+  "lifecycle": "短平快爆款，靠持续换题材/图鉴维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "拧螺丝消除为验证充分的爆款品类，机制公开、包体轻、无壁垒，换题材/IP 即差异化，成本最低。",
+  "suggestions": [
+   "把鸭子换成'被困小动物/文物修复'，换皮即新题材",
+   "加入'摇晃手机重组'的物理趣味作为招牌动作",
+   "图鉴收集线接长线留存，降低纯广告疲劳"
+  ],
+  "risks": [
+   "拧螺丝消除赛道已拥挤、买量素材雷同",
+   "纯单机难做社交留存"
+  ],
+  "effort": "15–25 人日（1 前端+0.5 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/03/d1/c903d137-7ab5-c612-20e3-31bd41e48b6c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/7e/ca/337eca45-feba-7598-448c-8bfaf2a362d6/01_U9996_U9875-_U5e26_U5f00_U59cb_U6e38_U620f.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/39/1b/ee391b28-6230-76de-feec-0a60b58edb52/03_U6bcf_U65e5_U4e00_U5173.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/1d/89/cf1d890e-a368-4d02-8c45-30330f9a19c3/04_U6551_U6551_U5927_U516c_U9e21.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/84/ca/6384ca11-5d0f-561d-ac05-48f1fc7f8e7c/06_U6551_U6551_U65b9_U5757_U9e45.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/52/90/d95290d1-5016-a10f-e825-9713793f9768/07_U6c34_U679c_U5927_U80c3_U738b.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/18/d8/f218d832-cd7d-ecb6-5881-7286f9d6cc48/08_U6551_U6551_U6c34_U679c_U9e2d.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a0/fd/b5/a0fdb52c-9082-a4d6-1c70-97df1a4c2ae8/10_U7ed3_U7b97_U9875.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体约 99MB（App Store 元数据），属轻量级",
+   "level": "confirmed"
+  },
+  {
+   "claim": "北京起跃文化有限公司出品，拧螺丝消除玩法",
+   "level": "inferred"
+  },
+  {
+   "claim": "第三方站点显示 3.62MB 与 App Store 99MB 不一致，以官方商店为准",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%95%91%E6%95%91%E6%88%91%E9%B8%AD/id6800532091",
+  "https://xin.52pk.com/game/216699.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "救救我鸭",
+  "country": "cn",
+  "track_id": 6800532091,
+  "seller": "Beijing Tuyue Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "益智解谜",
+   "娱乐",
+   "休闲"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/03/d1/c903d137-7ab5-c612-20e3-31bd41e48b6c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/7e/ca/337eca45-feba-7598-448c-8bfaf2a362d6/01_U9996_U9875-_U5e26_U5f00_U59cb_U6e38_U620f.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/39/1b/ee391b28-6230-76de-feec-0a60b58edb52/03_U6bcf_U65e5_U4e00_U5173.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/1d/89/cf1d890e-a368-4d02-8c45-30330f9a19c3/04_U6551_U6551_U5927_U516c_U9e21.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/84/ca/6384ca11-5d0f-561d-ac05-48f1fc7f8e7c/06_U6551_U6551_U65b9_U5757_U9e45.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/52/90/d95290d1-5016-a10f-e825-9713793f9768/07_U6c34_U679c_U5927_U80c3_U738b.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/18/d8/f218d832-cd7d-ecb6-5881-7286f9d6cc48/08_U6551_U6551_U6c34_U679c_U9e2d.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a0/fd/b5/a0fdb52c-9082-a4d6-1c70-97df1a4c2ae8/10_U7ed3_U7b97_U9875.png/626x1112bb.jpg"
+  ],
+  "description": "爆款小游戏登陆 App Store！好玩魔性又上头！\n《救救我鸭》——等你来拯救。\n烤鸭：\"我们很熟嘛？\"\n唐僧鸭：\"悟空！快来救我！！\"\n发财鸭：\"恭喜发财，红包拿来~\"\n\n【简单好玩，魔性上头】\n轻点屏幕，拆下螺丝，救出被困在栅栏里的可爱鸭子。匹配同色螺丝，哐哐消除，爽感拉满。一声声消除里，收获无限解压快乐。\n\n【 百变关卡，秀出智商】\n每一关都有全新元素解锁——冰冻螺丝、随机逻辑、异形布局……更多精彩玩法，等你来探索。\n\n【收集萌宠，解锁可爱】\n挑战关卡，赢取独一无二的萌宠鸭鸭——\n菜菜鸭、蛋蛋鸭、彩虹鸭、企鹅鸭……\n只有你想不到的，没有TA变不成的。\n经营你的专属农场，集齐你的专属可爱。\n\n【100% 免费，安心畅玩】\n源自爆款小游戏，不花一分钱，畅玩全部关卡。\n每天几分钟，轻松好入睡。\n每天一只鸭，精神顶呱呱。\n\n感谢各位玩家对《救救我鸭》的关注与支持。\n我们将持续优化游戏内容，推出更多玩法，只为在您放松之时，带来真正的开心与快乐。\n如有任何问题，随时联系我们：kefu@tooyue.com",
+  "release_notes": "",
+  "file_size_bytes": 103881728,
+  "min_os": "15.0",
+  "version": "1.1.1",
+  "release_date": "2026-08-22",
+  "rating": 3,
+  "rating_count": 1,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E6%95%91%E6%95%91%E6%88%91%E9%B8%AD/id6800532091?uo=4",
+  "fetched_at": "2026-09-15T00:39:26+08:00"
+ },
+ "slug": "救救我鸭_f41331"
+}

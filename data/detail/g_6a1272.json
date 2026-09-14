@@ -1,0 +1,112 @@
+{
+ "schema_version": 1,
+ "name": "ホワイトアウト・サバイバル",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Century Games Pte. Ltd.",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 17
+  },
+  "platform_app_ids": {
+   "ios": "6443575749"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 9,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity (推断)",
+  "engine_evidence": "inferred",
+  "dimension": "3D（2.5D 渲染）",
+  "art_style": "冰雪末日 写实卡通",
+  "dims": {
+   "engine": 5,
+   "art": 5,
+   "anim": 3,
+   "physics": 2,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "重度 SLG 需在成熟引擎上搭建造/资源/英雄/联盟/实时战斗整套框架",
+   "art": "包体 800MB+，含大量雪原场景与单位模型，素材量很重",
+   "logic": "SLG 建造/资源/英雄/联盟/实时战斗逻辑极复杂",
+   "data": "重度养成+经济+赛季，数值与运营循环极重",
+   "server": "实时多人/联盟/全球同服，联网架构成本最高"
+  },
+  "asset_notes": "800MB+ 3D 场景与单位资产，素材与服务器双高成本",
+  "notes": "即 Century Games 全球爆款《Whiteout Survival》（冰封时代 SLG）",
+  "cost_score": 4.12,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "在冰封末世经营定居点，采集食物/木材/煤/铁并维持中央熔炉供暖，训练部队、升级建筑与科技，抵御严寒与野外威胁，并与其他玩家联盟争夺资源。",
+  "highlights": [
+   "熔炉为核心的中枢升级带来清晰成长锚点，滚雪球反馈强",
+   "严寒主题贯穿资源/战斗/探索，差异化身份而非纯美术",
+   "联盟协作 + 大型事件，强社交留存"
+  ],
+  "innovations": [
+   "将'保暖/热量'作为核心生存变量重构 SLG 节奏，是主题化执行创新"
+  ],
+  "target_user": "25-45 岁 SLG 重度/中重度策略玩家，全球发行",
+  "monetization": "IAP 重度内购（加速/资源/英雄），长线赛季制",
+  "lifecycle": "长线运营，全球下载破 3 亿的头部 SLG"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "重度 SLG，包体 800MB+、买量成本极高，头部（世纪华通）已锁死，复刻性价比极低且需重资本。",
+  "suggestions": [
+   "若做策略向，可聚焦'轻量保暖生存'做中小包体 SLG 验证",
+   "换非冰雪题材规避直接对比"
+  ],
+  "risks": [
+   "重资本/长周期",
+   "买量 CAC 极高 ROI 难正",
+   "头部垄断"
+  ],
+  "effort": "300+ 人日（重资本，不建议）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "即 Century Games《Whiteout Survival》，包体约 815–949MB",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎未官方确认，按世纪华通系 SLG 惯例推断 Unity",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.ppigame.com/game/whiteout_survival.html",
+  "https://playgameslink.com/games/whiteout-survival/"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：3D（2.5D 渲染）"
+ ],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:39:03+08:00"
+ },
+ "slug": "ホワイトアウト_サバイバル_6a1272"
+}

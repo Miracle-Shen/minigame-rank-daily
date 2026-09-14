@@ -1,0 +1,218 @@
+{
+ "schema_version": 1,
+ "name": "伯吉的温馨厨房",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "萝卜游戏工作室",
+  "category_l1": "放置",
+  "category_l2": "模拟经营、休闲",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 3
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-07-12",
+  "appearances": 56,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "3D软萌动物+明快卡通厨房",
+  "dims": {
+   "engine": 2,
+   "art": 4,
+   "anim": 3,
+   "physics": 4,
+   "logic": 2,
+   "data": 2,
+   "server": 1,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "SteamDB检测到Unity Engine/URP/Burst，已确认",
+   "physics": "开发自述强调真实物理反馈（肉饼煎制、配料堆叠的小混乱），需物理引擎调校，高于普通2D",
+   "art": "包体544MB属重度，3D软萌动物+多场景厨房资产量大",
+   "server": "纯单机可挂机/最小化，几乎无联网需求"
+  },
+  "asset_notes": "3D卡通素材为主，动物顾客与厨房道具建模量较大；物理互动是差异化关键，需物理美术配合。",
+  "notes": "Steam移植治愈系烹饪，物理混乱+无惩罚是其记忆点，技术风险低。",
+  "cost_score": 2.62,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "在汉堡小店按订单逐层处理食材（洗切煎装），无时间惩罚地做汉堡满足动物顾客，赚金币升级店铺与解锁新食材。",
+  "highlights": [
+   "配料堆叠的真实物理反馈与偶尔‘小混乱’，制造意外欢乐",
+   "无倒计时/无扣分的零压力，治愈解压",
+   "番茄钟/放松/极速多模式，适配通勤、摸鱼、专注不同场景"
+  ],
+  "innovations": [
+   "把‘真实物理混乱’作为核心爽点而非障碍，与多数有序烹饪模拟形成差异",
+   "番茄钟模式把游戏变成专注工具，拓展使用场景"
+  ],
+  "target_user": "治愈向休闲玩家、学生/白领碎片化时间用户",
+  "monetization": "IAP去广告/解锁内容为主，无强数值逼氪",
+  "lifecycle": "长线，靠隐藏配方与店铺装饰更新维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "烹饪模拟机制易复刻，瓶颈在美术题材与物理互动手感；无惩罚+多模式设计已被验证，换菜系/场景即差异化。",
+  "suggestions": [
+   "换成奶茶店/寿司店/烘焙坊等本土化题材",
+   "强化物理互动（堆叠/倾倒）作为记忆点而非堆美术",
+   "保留番茄钟/挂机模式作为差异化卖点"
+  ],
+  "risks": [
+   "3D美术与物理调校需一定投入",
+   "治愈品类买量成本偏高、留存靠口碑",
+   "Steam原作已有认知，需避免‘抄袭’观感"
+  ],
+  "effort": "40–70 人日（1 前端 + 1 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/32/5f/cd325fd6-4009-06da-225e-878629d6061c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c8/fc/62/c8fc62ce-fda4-b116-9c0f-a48ca05a9fe1/01.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/34/2b/45342be2-be57-2cfb-ca03-e5f2fe93d868/07.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/41/fc/1f41fc32-7e8e-cc79-338d-e82ea6ba4aad/02.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/37/df/db37dfb2-8c58-e1c8-3bc0-3ac747181d55/04.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/b1/54/81b15455-3ae2-901c-7f91-2d4e11dec8b3/08.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/49/90/184990aa-e55d-5d4f-d249-4077305ef5a1/06.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2b/01/1b/2b011baa-f2e9-7f04-af22-3797abf2c9f4/01.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/1f/62/ed1f62ab-cb93-d380-3beb-bee30650287f/06.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/72/5e/18/725e18e1-ecd5-6b6d-1660-cd6c400074c8/03.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/73/46/23734693-4345-abf5-bf8e-4c8c53f61e4c/07.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/85/d3/8385d334-d9cd-f6d3-6601-a9ddf844e1c9/05.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "引擎为Unity，SteamDB检测到Unity Engine/URP/Burst",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体544MB，3D治愈烹饪模拟，Steam移植",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E4%BC%AF%E5%90%89%E7%9A%84%E6%B8%A9%E9%A6%A8%E5%8E%A8%E6%88%BF/id6795387415?uo=4",
+  "https://steamdb.info/app/3314340/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "伯吉的温馨厨房",
+  "country": "cn",
+  "track_id": 6795387415,
+  "seller": "Emay Network Technology Development Co., Ltd",
+  "genres": [
+   "游戏",
+   "模拟",
+   "休闲"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/32/5f/cd325fd6-4009-06da-225e-878629d6061c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c8/fc/62/c8fc62ce-fda4-b116-9c0f-a48ca05a9fe1/01.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/34/2b/45342be2-be57-2cfb-ca03-e5f2fe93d868/07.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/41/fc/1f41fc32-7e8e-cc79-338d-e82ea6ba4aad/02.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/37/df/db37dfb2-8c58-e1c8-3bc0-3ac747181d55/04.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/b1/54/81b15455-3ae2-901c-7f91-2d4e11dec8b3/08.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/49/90/184990aa-e55d-5d4f-d249-4077305ef5a1/06.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2b/01/1b/2b011baa-f2e9-7f04-af22-3797abf2c9f4/01.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/1f/62/ed1f62ab-cb93-d380-3beb-bee30650287f/06.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/72/5e/18/725e18e1-ecd5-6b6d-1660-cd6c400074c8/03.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/73/46/23734693-4345-abf5-bf8e-4c8c53f61e4c/07.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/85/d3/8385d334-d9cd-f6d3-6601-a9ddf844e1c9/05.png/626x1112bb.jpg"
+  ],
+  "description": "《伯吉的温馨厨房》是一款从Steam平台移植的治愈系模拟经营游戏，主打轻松真实'无压力'的烹饪体验与可爱又混乱的物理互动效果，让你随时随地都能打理属于自己的温馨小店！\n\n核心玩法\n1.完整汉堡制作流程：从清洗食材、切配蔬菜、煎制肉饼到组合配料，每一步都还原真实厨房操作，亲手打造顾客们喜爱的美味汉堡\n\n2.多模式自由切换：\n。放松模式：每 5-15 分钟服务一次顾客，适合碎片化时间，可后台挂机，订单响铃提醒，摸鱼必备\n。番茄钟模式：游戏化专注工具，设置计时器，休息时间自动提醒，工作娱乐两不误\n。极速模式：挑战手速极限，体验忙中有序的烹饪乐趣\n\n3.店铺升级系统：用赚取的金币解锁新食材、厨具和店铺装饰，打造独属于自己的小店\n\n4.订单管理：通过平板订购食材，满足动物顾客们千奇百怪的汉堡需求，获得好评与奖励\n\n 游戏特色\n。Steam移植：保留 PC 版核心内容，针对手机端优化操作界面，可轻松游玩，随时随地享受烹饪乐趣\n。治愈系卡通画风：3D 软萌动物形象与色彩明快的场景，搭配轻松背景音乐，瞬间治愈疲惫心情\n。真实游戏体验：全程无限时压榨、无扣分惩罚机制，按自己节奏慢慢备料制作，享受沉浸式经营乐趣\n。趣味物理系统：肉饼煎制的特殊音效，配料堆叠的真实物理反馈，偶尔的小混乱更添欢乐\n。隐藏的秘密机制：随着经营推进，解锁多种彩蛋玩法与隐藏配方，探索更多游戏乐趣",
+  "release_notes": "伯吉的温馨厨房正式上线啦~",
+  "file_size_bytes": 544916480,
+  "min_os": "15.0",
+  "version": "1.0.1",
+  "release_date": "2026-09-26",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/%E4%BC%AF%E5%90%89%E7%9A%84%E6%B8%A9%E9%A6%A8%E5%8E%A8%E6%88%BF/id6795387415?uo=4",
+  "fetched_at": "2026-09-15T00:36:52+08:00"
+ },
+ "slug": "伯吉的温馨厨房_80742b"
+}

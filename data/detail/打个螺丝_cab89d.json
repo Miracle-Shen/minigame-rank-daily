@@ -1,0 +1,114 @@
+{
+ "schema_version": 1,
+ "name": "打个螺丝",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州尊悦文化发展有限公司",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/畅玩榜": 9
+  },
+  "platform_app_ids": {
+   "wx": "wx2e170762929d239d"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 5,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "卡通螺丝/木板/工具箱，颜色区分",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 1,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "板子叠加遮挡(按螺丝粒度)+4工具箱配色+5格备选区自动回流+随机关卡生成，策略核心在此",
+   "physics": "遮挡判定与入场重力滑落，需手感精调",
+   "art": "螺丝/木板/工具箱为轻量卡通，包体仅19MB"
+  },
+  "asset_notes": "19MB包体，全程序化/轻量卡通素材，无3D无重资产；素材层不是瓶颈",
+  "notes": "拧螺丝消除，本作营销出圈（广告日耗高），同厂已有折螺丝/疯狂玩螺丝矩阵",
+  "cost_score": 2.12,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "点选与顶部工具箱同色的螺丝，集满3颗同色消除；板子互相压住下层螺丝需先拆上层，备选区满5格再塞即失败，一局数十秒到数分钟。",
+  "highlights": [
+   "螺丝飞入工具箱孔洞+消除白光的即时反馈",
+   "板子叠加遮挡(按螺丝粒度判定)制造'先拆哪块'的空间规划",
+   "备选区自动回流链式触发，避免死局，手感顺滑"
+  ],
+  "innovations": [
+   "无实质创新，属于拧螺丝消除成熟品类的执行优化（二代玩法）"
+  ],
+  "target_user": "全龄解压用户，通勤碎片时间",
+  "monetization": "IAA为主（道具/复活看广告）+IAP去广告",
+  "lifecycle": "短平快爆款，靠关卡量与换皮矩阵维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "拧螺丝消除机制成熟、包体仅19MB、技术极轻，照搬即成立；瓶颈在题材与首关难度曲线，换题材即差异化。同厂已有矩阵说明可快速铺量。",
+  "suggestions": [
+   "把螺丝换成'拔罐/印章'国风题材，拧下即解除",
+   "题材换'修车拧螺栓'，接男性向",
+   "首关把颜色数压到3、备选区放宽，降低前5关流失"
+  ],
+  "risks": [
+   "拧螺丝赛道已饱和（同厂3款+大量竞品）",
+   "广告素材依赖买量，自然量有限",
+   "二代玩法已有进化版(3D旋转螺丝)抢先机"
+  ],
+  "effort": "15–25人日（1前端+0.5美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "打个螺丝为拧螺丝消除微信小游戏，广州尊悦，包体19MB",
+   "level": "confirmed"
+  },
+  {
+   "claim": "核心机制：板子叠加遮挡+4工具箱配色+5格备选区回流",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Cocos Creator（未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://game.xiaomi.com/game/62424850",
+  "https://juejin.cn/post/7642137954122924072",
+  "https://m.bengku.com/yxgl/2912.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:37:46+08:00"
+ },
+ "slug": "打个螺丝_cab89d"
+}

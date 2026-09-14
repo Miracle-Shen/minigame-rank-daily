@@ -1,0 +1,101 @@
+{
+ "schema_version": 1,
+ "name": "打下毛线",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/人气榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 7
+  },
+  "platform_app_ids": {
+   "wx": "wxf28cef521695cd2a"
+  },
+  "first_seen": "2026-09-13",
+  "appearances": 2,
+  "best_rank": 7,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos / Unity（推测）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "治愈系卡通毛线、低饱和配色",
+  "dims": {
+   "engine": 1,
+   "art": 2,
+   "anim": 2,
+   "physics": 3,
+   "logic": 2,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "解压类强调毛线搓揉/缠绕的物理触感模拟",
+   "logic": "线轴/颜色匹配关卡，规则简单"
+  },
+  "asset_notes": "2D 毛线球与场景、治愈系配色，素材轻",
+  "notes": "媒体未匹配，依据微信人气榜同类『解压打毛线/打个毛线』推断为毛线解压消除类",
+  "cost_score": 2.0,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "滑动搓揉/拉扯毛线球，整理乱麻成标准毛线球，连击攒解压点；关卡限时整理或双人对战比拼连击。",
+  "highlights": [
+   "毛线摩擦沙沙声 + 震动反馈的触觉解压",
+   "连击进入心流模式、白噪音强化放松",
+   "毛线图鉴收集满足成就感"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（解压+消除为成熟玩法）"
+  ],
+  "target_user": "女性 / 解压向用户，碎片时间",
+  "monetization": "IAA + 红包/提现（解压类常见，inferred）",
+  "lifecycle": "短平快爆款 + 图鉴长留"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "玩法极轻、技术门槛低；竞争激烈靠题材与美术，换材质即差异化。",
+  "suggestions": [
+   "换材质为「史莱姆 / 黏土」解压",
+   "加 ASMR 音效库强化治愈",
+   "图鉴接 IP 联动提升收集动力"
+  ],
+  "risks": [
+   "解压品类买量贵、同质化严重"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "具体玩法未找到官方确认，依据同类解压毛线游戏推断",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.18183.com/zhxz/9014934.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:38:17+08:00"
+ },
+ "slug": "打下毛线_8d8b95"
+}

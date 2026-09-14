@@ -1,0 +1,229 @@
+{
+ "schema_version": 1,
+ "name": "俱乐大玩家",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "海南临游科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/热门榜",
+   "douyin/畅销榜",
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "douyin/热门榜": 16,
+   "douyin/畅销榜": 19,
+   "ios/国区免费榜": 20
+  },
+  "platform_app_ids": {
+   "douyin": "tt5a362c8bc45262eb07",
+   "ios": "6784163008"
+  },
+  "first_seen": "2026-07-24",
+  "appearances": 31,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "美漫风+写实拍卖厅场景，多人联机策略",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 3,
+   "server": 5,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "包体325MB，含多角色立绘、数十种藏品图标与多套拍卖场景，属成体系UI+关卡美术",
+   "logic": "核心是四人实时暗拍博弈+情报技能+道具+角色技能+盲拍/迷雾等多种模式，规则系统复杂",
+   "server": "四人同台实时暗标竞价、全程出价保密并即时开价，强联网+匹配，服务端成本最高"
+  },
+  "asset_notes": "2D卡通/写实混合美术，角色与藏品图标可AI生图+人工修图；无3D资产，素材层非瓶颈，瓶颈在实时服务端",
+  "notes": "玩法核心（多人暗拍心理博弈）稀缺且依赖实时联机，技术风险集中在服务端而非前端",
+  "cost_score": 2.75,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "匹配4人进入拍卖厅，每轮匿名暗标出价争夺藏品，开价瞬间揭晓彼此报价；靠情报技能/道具窥探对手意图，用最低价捡漏、最高价转手，一局数分钟。",
+  "highlights": [
+   "开价瞬间揭晓对手报价的心理落差与惊喜感，构成核心爽点",
+   "情报技能/道具可撕开暗拍迷雾一角，资源有限逼迫玩家算准使用时机",
+   "每局可用资金与情报资源有限，收放节奏的精算带来策略爽感"
+  ],
+  "innovations": [
+   "把'多人暗拍博弈'做成核心循环：信息不透明+心理战，区别于常规明牌竞价"
+  ],
+  "target_user": "25-45岁喜爱心理博弈与策略对抗的休闲用户，碎片化时间",
+  "monetization": "IAP为主（角色/情报技能/道具内购），含抽奖箱，偏中重度付费",
+  "lifecycle": "长线运营，靠排位赛+周限时模式（盲拍/迷雾）+藏品图鉴维持复访"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "实时多人暗拍是稀缺机制且验证可行，但强联网+匹配推高成本，且纯博弈赛道窄、买量贵；照抄会撞车头部。建议抽象成更轻量的异步/单机变体。",
+  "suggestions": [
+   "把暗拍改成'异步出价+定时开奖'，去掉实时匹配，单机也能跑通心理博弈",
+   "换题材为'古董地摊捡漏'或'海鲜拍卖'，用价值线索替代藏品图鉴降低美术量",
+   "首关把角色技能砍到1个，把情报系统后置到第5关，降低新手理解门槛"
+  ],
+  "risks": [
+   "实时多人联机服务端成本高、买量贵",
+   "玩法偏小众，纯复刻难起量",
+   "角色/技能数值需长线平衡"
+  ],
+  "effort": "60–90 人日（1 前端 + 1 后端 + 0.5 策划 + 0.5 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/9d/6c/8d9d6cb0-f739-73f5-b907-fc0ad3b9740e/AppIcon-1x_U007epad-0-11-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/05/70/9a057046-b1fe-4f35-2d75-f8567c3f061b/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/e5/d7/d3e5d757-186d-744d-46f0-1954ee66a031/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/47/b4/d647b49a-d1e1-6ef6-bee3-31cb9a3e3629/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/b5/9b/c3b59be0-9fd5-beaa-3f13-352609c70f3f/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/85/d7/1685d773-d75d-dfac-2f05-be6716394b80/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/de/ab/70deabd4-1e36-4b0a-c951-0311ff816e21/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/3e/b2/773eb2a9-1867-ce71-4e0b-78a0748443c1/01.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/3a/39/053a3984-819f-f841-025f-9c8a8da17e21/02.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/06/f9/ad06f9a8-eacc-2996-98c4-e7bfd6a9d24c/03.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/26/ec/3426ec71-e758-b506-cc05-9e576ac8628d/04.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/ed/9e/d6ed9e67-a7d1-4fe9-693e-7259ed66f557/05.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/92/e3/ba92e3fe-536b-1857-af98-746cc062deb6/06.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体325MB，含多场景与角色美术",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Cocos Creator（休闲小游戏常见选择，未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E4%BF%B1%E4%B9%90%E5%A4%A7%E7%8E%A9%E5%AE%B6/id6784163008?uo=4",
+  "https://www.16p.com/1952381.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "俱乐大玩家",
+  "country": "cn",
+  "track_id": 6784163008,
+  "seller": "Hainan Dragon Egg Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "休闲"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/9d/6c/8d9d6cb0-f739-73f5-b907-fc0ad3b9740e/AppIcon-1x_U007epad-0-11-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/05/70/9a057046-b1fe-4f35-2d75-f8567c3f061b/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/e5/d7/d3e5d757-186d-744d-46f0-1954ee66a031/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/47/b4/d647b49a-d1e1-6ef6-bee3-31cb9a3e3629/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/b5/9b/c3b59be0-9fd5-beaa-3f13-352609c70f3f/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/85/d7/1685d773-d75d-dfac-2f05-be6716394b80/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/de/ab/70deabd4-1e36-4b0a-c951-0311ff816e21/6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/3e/b2/773eb2a9-1867-ce71-4e0b-78a0748443c1/01.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/3a/39/053a3984-819f-f841-025f-9c8a8da17e21/02.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/06/f9/ad06f9a8-eacc-2996-98c4-e7bfd6a9d24c/03.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/26/ec/3426ec71-e758-b506-cc05-9e576ac8628d/04.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/ed/9e/d6ed9e67-a7d1-4fe9-693e-7259ed66f557/05.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/92/e3/ba92e3fe-536b-1857-af98-746cc062deb6/06.jpg/626x1112bb.jpg"
+  ],
+  "description": "《俱乐大玩家》是一款超有趣的多人策略竞拍休闲手游！沉浸式拍卖玩法全新上线，多人同场实时暗标竞价，全程出价保密，考验你的眼力与心理博弈。\n挑选专属角色解锁特色技能，抢夺藏品线索、迷惑对手布局套路。盲盒仓库随机刷新珍稀藏品，价值高低全凭预判，精打细算低价捡漏，高价转手轻松逆袭。\n玩法轻松易上手，节奏紧凑不拖沓。收集海量珍稀藏品，解锁专属藏馆成就，玩转竞拍套路，争做全场最强竞拍之王！",
+  "release_notes": "【角色调整】\n1、安可\n-技能调整前：出价排名第一时，下一轮随机显示3件藏品信息。\n-技能调整后：首轮显示1件最高品质藏品的品质和轮廓，后续轮次若上轮出价第一，则本轮显示2件最高品质藏品的品质和轮廓。\n\n【全新内容】\n1、周玩法[盲拍模式]\n-更新后，排位赛[盲拍模式]将调整为每周限时玩法。本次新增独立入口展示与对局专属情报显示，选择带有盲拍模式标识的对局地图，即可概率触发该特殊竞拍玩法。出价信息全程隐藏，仅展示排行，上演高策略心理博弈！\n2、周玩法[迷雾模式]\n-排位赛新增每周限时玩法「迷雾模式」，该玩法将在[盲拍模式]结束后轮换上线。选取带有迷雾模式标识的地图，即可概率触发该特殊竞拍玩法。奖池中将出现被浓雾遮蔽的神秘区域，常规情报无法探查雾中藏品，仅可借助专属情报获取线索，逐步破除迷雾、揭晓藏品。\n3、臻品厅-[寻锦记]\n-更新后将开启[寻锦记]抽取活动，参与活动可获取：全新宠物[好运锦鲤]、匹配卡皮肤[祥鲤贺禧]、工牌皮肤[鲤跃鸿途]、头像[好运锦鲤]，聚福生财，竞拍万事顺遂~\n*活动开启条件：账号创角时长≥3天\n\n【优化与调整】\n1、优化了部分界面UI，提升操作交互体验；\n2、优化了俱乐部搜索功能，支持通过编号精准搜索目标俱乐部；\n3、优化了部分文本内容，使描述更准确；\n4、调整了折扣商店商品内容；\n5、优化了新角色登场活动任务规则，成功领取角色后，无需再完成剩余活动任务；\n6、下调了部分工具在交易行的兑换价格和兑换配方；\n7、优化了不同机型的画面显示适配；\n8、对局、排行榜点击玩家头像，新增功能弹窗选项。\n\n【问题修复】\n1、修复了战绩界面点击玩家头像偶现无反应的问题；\n2、修复了藏品快捷出售界面，显示的交易行税后价与预计收益数值不一致的问题；\n3、修复了排位赛进入地图阶段，快速点击会导致画面显示异常的问题；\n4、修复了私聊界面部分展示异常的问题；\n5、修复了装配键盘皮肤后，局内出价金额上方未显示数字单位的问题；\n6、修复了局内聊天、表情包图标点击无反应的问题；\n7、修复了排行榜前三名角色皮肤未正常显示的问题；\n8、修复了藏品收录藏品界面关联套装处显示异常的问题；\n9、修复了巡回模式藏品揭示处有异常遮罩的问题。",
+  "file_size_bytes": 325426176,
+  "min_os": "12.0",
+  "version": "1.0.4",
+  "release_date": "2026-07-24",
+  "rating": 3.98266,
+  "rating_count": 7959,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E4%BF%B1%E4%B9%90%E5%A4%A7%E7%8E%A9%E5%AE%B6/id6784163008?uo=4",
+  "fetched_at": "2026-09-14T23:50:57+08:00"
+ },
+ "slug": "俱乐大玩家_6a07c3"
+}

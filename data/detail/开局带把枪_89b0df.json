@@ -1,0 +1,217 @@
+{
+ "schema_version": 1,
+ "name": "开局带把枪",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "邯郸小空科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/人气榜",
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 20,
+   "wx/畅玩榜": 17
+  },
+  "platform_app_ids": {
+   "wx": "wx97389648b73dfeca"
+  },
+  "first_seen": "2026-07-01",
+  "appearances": 39,
+  "best_rank": 14,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "写实 / 半写实 3D 战区场景与枪械",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 4,
+   "physics": 4,
+   "logic": 4,
+   "data": 4,
+   "server": 2,
+   "audio": 5
+  },
+  "dim_notes": {
+   "engine": "3D 射击需自研弹道 / 命中 / 敌人 AI 框架，改造量大",
+   "art": "包体 1.45GB，3D 场景 / 枪械 / 角色资源海量",
+   "anim": "枪械开火 / 换弹 / 弹道特效与命中反馈",
+   "physics": "弹道、风速、命中物理反馈需精调",
+   "logic": "任务模式 + 敌人 AI + 武器改造树 + 技能系统",
+   "data": "武器升级 + 技能 + 装备收集多线养成",
+   "audio": "强调沉浸式环境音 + 动态配乐 + 语音"
+  },
+  "asset_notes": "1.45GB 包体以 3D 场景 / 枪械 / 角色为主，重资产；评分仅 1.6 提示完成度差、疑似素材拼凑，素材风险高",
+  "notes": "3D 狙击 RPG，技术门槛与资产成本双高，App Store 评分 1.6 提示产品完成度问题",
+  "cost_score": 4.0,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "用望远镜观察规划路线，超远距离精确清除目标，升级武器库与技能，迎战 BOSS 与战争机器，模块化改造枪械，一局为单关狙杀任务。",
+  "highlights": [
+   "一击必杀的精准爽感",
+   "模块化枪械改造的自由度",
+   "BOSS 决战与多任务模式的挑战",
+   "沉浸式音效（官方强调戴耳机）"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（狙击射击 RPG）；评分 1.6 提示完成度差"
+  ],
+  "target_user": "男性向射击 / 硬核玩家",
+  "monetization": "IAA + IAP（武器 / 皮肤内购）",
+  "lifecycle": "短平快爆款或快衰（评分低、疑似换皮）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "3D 射击重资产 + 弹道 / AI 技术门槛高 + 评分极低提示完成度差 + 射击品类买量贵，小团队复刻风险大。",
+  "suggestions": [
+   "若坚持做，降为 2.5D 简化弹道，弱化 3D 资产",
+   "做「固定点位狙击」极小切片验证，不铺大世界观"
+  ],
+  "risks": [
+   "3D 重资产开发成本与周期长",
+   "评分差说明玩法 / 完成度问题",
+   "射击品类买量极贵"
+  ],
+  "effort": "80–120 人日（3–4 人：前端 + 3D 美术 + 策划 + 后端）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/12/45/0e124599-a2c9-fcfa-0cbb-f373f8830fb5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/0c/22/010c223f-8a89-de32-0707-ae195cf7f1ab/_U624b_U673a__U00284_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/40/c8/1a40c851-81cc-aafa-fafd-849f4cad3cf6/_U624b_U673a__U00285_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/c1/c8/a8c1c83a-bf37-3195-4bb3-809f008b0943/_U624b_U673a__U00283_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/e5/70/68e5702d-663c-2fbd-c4be-d50714788330/_U624b_U673a__U00281_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/c4/d8/ebc4d894-7a13-a2c9-af9c-ab174d4bddf8/_U624b_U673a__U00282_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/41/79/a7417963-52b8-761d-3f5c-26bce1ca2223/_U5e73_U677f3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/2c/e2/0a2ce28c-e56c-1356-a09f-3cd61b10b94a/_U5e73_U677f4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/93/7a/37937a52-9d0d-0e57-6268-92a59b767d37/_U5e73_U677f.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/31/8f/ad318f86-e255-e0b4-ba1b-a97b8925f6f0/_U5e73_U677f2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/87/40/fd8740cb-d0ea-e195-5750-e7faf90ef387/_U5e73_U677f5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "iOS 包体 1.45GB，3D 狙击 RPG，评分 1.6",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity 推断，无官方确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E5%BC%80%E5%B1%80%E5%B8%A6%E6%8A%8A%E6%9E%AA/id6758076984"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "开局带把枪",
+  "country": "cn",
+  "track_id": 6758076984,
+  "seller": "SkyIsland Co., Ltd.",
+  "genres": [
+   "游戏",
+   "动作",
+   "冒险",
+   "娱乐"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/12/45/0e124599-a2c9-fcfa-0cbb-f373f8830fb5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/0c/22/010c223f-8a89-de32-0707-ae195cf7f1ab/_U624b_U673a__U00284_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/40/c8/1a40c851-81cc-aafa-fafd-849f4cad3cf6/_U624b_U673a__U00285_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/c1/c8/a8c1c83a-bf37-3195-4bb3-809f008b0943/_U624b_U673a__U00283_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/e5/70/68e5702d-663c-2fbd-c4be-d50714788330/_U624b_U673a__U00281_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/c4/d8/ebc4d894-7a13-a2c9-af9c-ab174d4bddf8/_U624b_U673a__U00282_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/41/79/a7417963-52b8-761d-3f5c-26bce1ca2223/_U5e73_U677f3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/2c/e2/0a2ce28c-e56c-1356-a09f-3cd61b10b94a/_U5e73_U677f4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/93/7a/37937a52-9d0d-0e57-6268-92a59b767d37/_U5e73_U677f.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/31/8f/ad318f86-e255-e0b4-ba1b-a97b8925f6f0/_U5e73_U677f2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/87/40/fd8740cb-d0ea-e195-5750-e7faf90ef387/_U5e73_U677f5.jpg/626x1112bb.jpg"
+  ],
+  "description": "► 一款考验心跳与准度的狙击史诗\n\n整个世界都陷入了混乱与纷争，是时候让你手中的狙击枪发出宣言，让敌人聆听死神的耳语！这款直观而硬核的狙击手RPG将让你在枪林弹雨中磨练技艺，清除盘踞在各个战区中的致命威胁。游戏里，你将执行高风险的刺杀任务、迎战庞大的战争机器、坚守最后的阵地！这款射击模拟器充满了战术抉择与瞬间的生死考验，顶级的弹道特效与物理反馈，将让你每一枪都沉浸其中。\n\n► 稳如磐石，一击必杀\n\n开始游戏时，利用你的望远镜观察、规划路线，从超远距离精确清除目标——完成任务，解锁更强大的装备，看着你的狙击传奇就此展开！你需要不断升级你的武器库与技能，才能在越来越残酷的关卡中存活。但游戏里不仅仅是冰冷的狙杀，这款充满战场硝烟氛围的模拟器还包括模块化枪械改造和战术装备收集，这将助你打造独一无二的杀戮艺术，达成终极的“战神”进化。\n\n◾ 沉浸式的战地感官——游戏拥有逼真的环境音效与动态配乐，请务必戴上耳机，调高音量，聆听风吹过草丛的细微声响、子弹破空的尖啸、以及目标被命中时那令人满足的反馈。每一次扣动扳机，都是一次震撼体验。\n\n◾ 无穷的挑战与战场——你永远不会缺少扣动扳机的理由！多样的任务模式（潜行渗透、BOSS决战、阵地防守）与智能的敌人AI，为你提供了海量升级和解锁稀有配件的机会。随着你声望的增长，你将走出训练场，踏入城市废墟、热带雨林、雪山之巅等更广阔、更危险的战区。\n\n◾ 全套收藏与自定义——完成高难度挑战会为你赢得专属蓝图与勋章，你可以用它们打造传说级的武器。收集各种迷彩涂装、枪口装置、光学瞄具乃至呼吸调节器，自由组合这些部件，创造出专属于你的“完美一枪”。\n\n► 即刻进入狙击阵地！\n\n《绝命扳机：狙击精英》等待着你，今天就下载并开始你的统治吧！这个游戏以你为核心，冷静的狙击大师。你需要用子弹告诉所有敌人，战场上传说的“幽灵射手”确实存在。当你穿越重重关卡时，计算风速、调整心跳、锁定目标，但要时刻小心那些试图反制你的精英小队和重型装甲！无与伦比的射击手感与肾上腺素飙升的关卡体验，你绝对不容错过！",
+  "release_notes": "",
+  "file_size_bytes": 1452668928,
+  "min_os": "14.0",
+  "version": "1.0",
+  "release_date": "2026-02-23",
+  "rating": 1.61905,
+  "rating_count": 21,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E5%BC%80%E5%B1%80%E5%B8%A6%E6%8A%8A%E6%9E%AA/id6758076984?uo=4",
+  "fetched_at": "2026-09-15T00:35:53+08:00"
+ },
+ "slug": "开局带把枪_89b0df"
+}

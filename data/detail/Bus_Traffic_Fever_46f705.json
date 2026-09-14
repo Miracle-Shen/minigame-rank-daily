@@ -1,0 +1,211 @@
+{
+ "schema_version": 1,
+ "name": "Bus Traffic Fever!",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "GOODROID,Inc.",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜",
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 8,
+   "ios/日区免费榜": 5
+  },
+  "platform_app_ids": {
+   "ios": "6759763476"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "明亮卡通公交+乘客+停车场",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 2,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "包体379MB(重)，公交/乘客/传送带场景+多关卡美术"
+  },
+  "asset_notes": "2D极简美术，公交/乘客可程序化+少量贴图；包体偏重来自关卡量，素材层非瓶颈",
+  "notes": "GOODROID(日本)出品，混合变现(偏广告)，借鉴 Bus Out+Beads Out",
+  "cost_score": 2.12,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "在拥挤停车场按正确顺序移动公交出库，同色乘客上车；结合传送带循环与颜色分类，清掉拥堵即过关，短局。",
+  "highlights": [
+   "公交顺序出库+乘客匹配的空间规划，'想一步'的解谜爽感",
+   "传送带循环让节奏可控，触屏加速微操",
+   "颜色分类+链条反应清场，确定性解谜不劝退"
+  ],
+  "innovations": [
+   "把传送带循环(Beads Out)+公交装载(Bus Out)组合，形成可长可短的关卡节奏"
+  ],
+  "target_user": "全球泛休闲解谜用户，偏好停车/分类",
+  "monetization": "混合（偏广告：解锁车位/续命看RV，IAP去广告/礼包）",
+  "lifecycle": "中长线，靠LiveOps/新关卡/活动维系"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "停车+颜色分类机制成熟且单机、素材轻；组合框架已验证。换载具（如火车/飞船）或题材即可成立，成本最低。",
+  "suggestions": [
+   "换载具为'救护车出入院'或'快递分拣车'，保留排序+传送带",
+   "新增'红绿灯'障碍做微差异",
+   "把广告频次压低，用'无广告体验'做口碑"
+  ],
+  "risks": [
+   "海外已跑出头部(Bus Out等)，国内买量贵",
+   "玩法易抄",
+   "包体379MB偏重需瘦身"
+  ],
+  "effort": "20–35 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/08/c3/1b08c380-77f7-cb9e-a7ab-c815348d09d8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/ef/df/1befdfa2-e1b9-e6a1-49bd-8115f93410f5/6.5inch__U00285_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/16/15/051615ff-ec40-97f6-b02b-8efbfa621673/6.5inch__U00284_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/ca/c8/d9cac849-ee4b-2f50-a932-23a75dda2aeb/6.5inch__U00282_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/66/5b/50665b5f-06c1-0cfd-62f8-6d58be1e7c43/6.5inch__U00286_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4a/69/72/4a697201-151c-6265-f38b-3fd3c707a9a4/6.5inch__U00287_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/db/4c/88db4c52-9c7d-9346-190a-12532d2f4d79/13inch__U00285_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/28/07/bb280782-536a-3fb8-33d4-d257655cdcb2/13inch__U00284_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/5b/f3/fc5bf3e1-d059-16a0-de80-9d223d52f765/13inch__U00283_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cd/1b/72/cd1b720a-1466-22b0-6c42-b95d71dd0517/13inch__U00287_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/96/cc/0f96ccc0-c61c-047d-f315-14671310d367/13inch__U00286_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体379MB，公交停车+颜色分类解谜",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Unity/Cocos（混合休闲常见，未确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/bus-traffic-fever/id6759763476?uo=4",
+  "https://friendlygamedev.com/game-reviews/bus-traffic-fever"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Bus Traffic Fever!",
+  "country": "us",
+  "track_id": 6759763476,
+  "seller": "GOODROID,Inc.",
+  "genres": [
+   "Games",
+   "Casual",
+   "Puzzle"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/08/c3/1b08c380-77f7-cb9e-a7ab-c815348d09d8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/ef/df/1befdfa2-e1b9-e6a1-49bd-8115f93410f5/6.5inch__U00285_U0029.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/16/15/051615ff-ec40-97f6-b02b-8efbfa621673/6.5inch__U00284_U0029.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/ca/c8/d9cac849-ee4b-2f50-a932-23a75dda2aeb/6.5inch__U00282_U0029.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/66/5b/50665b5f-06c1-0cfd-62f8-6d58be1e7c43/6.5inch__U00286_U0029.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4a/69/72/4a697201-151c-6265-f38b-3fd3c707a9a4/6.5inch__U00287_U0029.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/db/4c/88db4c52-9c7d-9346-190a-12532d2f4d79/13inch__U00285_U0029.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/28/07/bb280782-536a-3fb8-33d4-d257655cdcb2/13inch__U00284_U0029.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/5b/f3/fc5bf3e1-d059-16a0-de80-9d223d52f765/13inch__U00283_U0029.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cd/1b/72/cd1b720a-1466-22b0-6c42-b95d71dd0517/13inch__U00287_U0029.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/96/cc/0f96ccc0-c61c-047d-f315-14671310d367/13inch__U00286_U0029.png/626x1112bb.jpg"
+  ],
+  "description": "Do you love solving challenging yet satisfying puzzles?\nStep into the world of Bus Traffic Fever!\n\nBus Traffic Fever! combines the excitement of parking games, the challenge of color-sorting games, and the satisfying people. Plan your moves to clear the parking lot congestion and make way for smooth traffic.\n\nMove, park, and collect—every decision matters in this parking jam puzzle.\n\nWhether you love car parking games, color-sorting games, or just brain teasers, this addictive puzzle game will keep you hooked.\n\nDownload “Bus Traffic Fever!” now and become a master!",
+  "release_notes": "Bug Fix",
+  "file_size_bytes": 379152384,
+  "min_os": "15.0",
+  "version": "1.7.0",
+  "release_date": "2026-03-13",
+  "rating": 4.68386,
+  "rating_count": 61722,
+  "price": "Free",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/us/app/bus-traffic-fever/id6759763476?uo=4",
+  "fetched_at": "2026-09-15T00:35:13+08:00"
+ },
+ "slug": "Bus_Traffic_Fever_46f705"
+}

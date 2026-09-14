@@ -1,0 +1,239 @@
+{
+ "schema_version": 1,
+ "name": "Colony Flow!",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "ABI GLOBAL LTD.",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜",
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 11,
+   "ios/日区免费榜": 18
+  },
+  "platform_app_ids": {
+   "ios": "6779167923"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 21,
+  "best_rank": 10,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "像素风，蚂蚁搬运彩色方块",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体 451MB，含动物 / 食物 / 节日等数百主题像素画",
+   "physics": "无物理，纯点击排序"
+  },
+  "asset_notes": "像素画主题美术量大但可程序化 / 模板化产出，素材层可控",
+  "notes": "AppGoblin SDK 检测确认集成 Unity 开发工具；蚂蚁 color-sorting 解谜，机制成熟",
+  "cost_score": 2.62,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "点击方块堆放出对应颜色蚂蚁，把场上同色方块搬回巢穴，5 个开放槽位管理顺序，开错颜色或槽位塞满就卡死，清空全部方块解锁底层像素画，无计时压力。",
+  "highlights": [
+   "规划出箱顺序的脑爽（别让槽位 clog）",
+   "蚂蚁成队列流动的视觉满足",
+   "解锁完整像素画的收集成就感",
+   "无计时无体力，纯放松"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（color / block sorting 像素画包装）"
+  ],
+  "target_user": "海外解压 / 收集向用户",
+  "monetization": "混合（免费 + 广告 IAA + IAP 提示 / 去广告）",
+  "lifecycle": "长线（数百关像素画主题）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "color sorting 机制成熟、代码量小；瓶颈在像素画主题与关卡量，换主题即可差异化。",
+  "suggestions": [
+   "换主题为「海洋清理」「花园种植」「文物修复」",
+   "加一点障碍 / 物理变体提升策略深度",
+   "用 AI 像素画生成批量产出图集降本"
+  ],
+  "risks": [
+   "排序解谜全球饱和",
+   "出海买量竞争"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/f3/b2/f5f3b2df-fe85-cd62-53da-9ca8546b56d6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/46/be/9d46be17-ffb6-332b-6a4f-b67277739520/7.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/e4/d0/1be4d051-00c8-8a4a-8b22-77bd904c6b95/9.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/ca/20/58ca2060-ff6e-8c65-70ba-b14859533e6d/ss1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/ad/3b/a5ad3b15-84ec-e560-2561-4195bf7abb47/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/08/4b/c1084b3d-d287-6f55-de3f-394c12e6bac7/ss5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a8/ad/35/a8ad35ab-d410-49d5-4db7-9cd7f6ca4067/8.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/3e/14/aa3e1457-ce12-1caa-1145-9e048bfa112b/ss3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/2b/3f/972b3fa2-4f95-ce98-3a83-5bfe689ec8ff/7.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/c3/92/f4c39236-66b8-7788-e3f8-4f26c914fe43/9.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/a7/e6/1fa7e613-d9ec-af95-c40f-7a7a6f52b1dd/ss1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/c3/9a/bdc39acd-6f32-5408-02e6-d41e32120fd8/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/03/42/300342cc-eef3-8e93-b65d-947913879865/ss5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/7e/5d/317e5deb-2f23-2058-6c1a-53a6ee22c0f8/8.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/79/1a/23791aa1-deff-591b-272c-1564b439fd41/ss3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 14"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "集成 Unity 开发工具（AppGoblin SDK 检测）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "iOS 包体 451MB，含数百关像素画",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/colony-flow/id6779167923",
+  "https://appgoblin.info/apps/6779167923"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Colony Flow!",
+  "country": "us",
+  "track_id": 6779167923,
+  "seller": "ABI GLOBAL LTD.",
+  "genres": [
+   "Games",
+   "Puzzle"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/f3/b2/f5f3b2df-fe85-cd62-53da-9ca8546b56d6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/46/be/9d46be17-ffb6-332b-6a4f-b67277739520/7.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/e4/d0/1be4d051-00c8-8a4a-8b22-77bd904c6b95/9.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/ca/20/58ca2060-ff6e-8c65-70ba-b14859533e6d/ss1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/ad/3b/a5ad3b15-84ec-e560-2561-4195bf7abb47/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/08/4b/c1084b3d-d287-6f55-de3f-394c12e6bac7/ss5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a8/ad/35/a8ad35ab-d410-49d5-4db7-9cd7f6ca4067/8.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/3e/14/aa3e1457-ce12-1caa-1145-9e048bfa112b/ss3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/2b/3f/972b3fa2-4f95-ce98-3a83-5bfe689ec8ff/7.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/c3/92/f4c39236-66b8-7788-e3f8-4f26c914fe43/9.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/a7/e6/1fa7e613-d9ec-af95-c40f-7a7a6f52b1dd/ss1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/c3/9a/bdc39acd-6f32-5408-02e6-d41e32120fd8/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/03/42/300342cc-eef3-8e93-b65d-947913879865/ss5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/7e/5d/317e5deb-2f23-2058-6c1a-53a6ee22c0f8/8.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/79/1a/23791aa1-deff-591b-272c-1564b439fd41/ss3.jpg/626x1112bb.jpg"
+  ],
+  "description": "Welcome to Colony Flow — a relaxing ant colony puzzle where every tiny ant has a job to do! Tap a box, watch the workers pour out, and send them marching up to the pixel picture to carry colorful blocks back to the nest, one busy trip at a time.\n\nEach level gives you a stack of ant boxes and just five open slots. Tap a box and it slides into a slot, releasing a swarm of ants in that color — they'll haul away every matching block in the picture. Clear a box and the slot frees up for the next one.\n\nThat's where the thinking starts. Open a color that has nothing left to carry and that slot stays clogged. Fill all five and your colony grinds to a halt. Read the picture, count what's left, and choose your boxes in the right order to keep the ants flowing.\n\nCOMMAND YOUR COLONY\n\n- Tap a box to send its ants marching\n- Watch workers haul matching blocks back to the nest\n- Manage your five slots — don't let them clog\n- Unlock the boxes buried further down the stack\n- Clear every block to finish the puzzle\n\nEASY TO LEARN, SATISFYING TO SOLVE\n\n- One-tap controls — start playing in seconds\n- Puzzles that grow from cozy to genuinely clever\n- No timers, no lives, no pressure — take as long as you like\n- Watch trails of ants stream across the board as your plan pays off\n- Every solved board reveals the picture hiding underneath\n\nDISCOVER PIXEL ART\nComplete hundreds of colorful levels with themes like animals, fruit, food, flowers, nature, festivals, toys, rockets, castles, and plenty more surprises. Every puzzle you finish adds another piece of pixel art to your collection, so there's always one more picture waiting to be uncovered.\n\nWith adorable ants, satisfying animations, soothing music, and no time pressure, Colony Flow is easy to pick up and gentle to play — the kind of game that fits into a coffee break, a commute, or a quiet evening on the couch. But clearing every level will take some clever planning.\n\nTap the right boxes, guide your ants, clear the blocks, and uncover beautiful pixel art. Your colony is waiting!",
+  "release_notes": "- New Features & Bundles: Introduced the Halloween Treat Collection, along with the new Labor Day Pack.\n- Performance Enhancements: Optimized frame rates and loading times for a significantly smoother experience.\n- Bug Fixes: Resolved reported issues and strengthened overall build stability.",
+  "file_size_bytes": 451383296,
+  "min_os": "15.0",
+  "version": "1.1.45",
+  "release_date": "2026-06-13",
+  "rating": 4.66946,
+  "rating_count": 17662,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/colony-flow/id6779167923?uo=4",
+  "fetched_at": "2026-09-15T00:35:47+08:00"
+ },
+ "slug": "Colony_Flow_0265b2"
+}

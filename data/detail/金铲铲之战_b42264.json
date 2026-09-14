@@ -1,0 +1,224 @@
+{
+ "schema_version": 1,
+ "name": "金铲铲之战",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 9
+  },
+  "platform_app_ids": {
+   "ios": "1478101301"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 7,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "3D 卡通 + 欧美奇幻（英雄联盟 IP）",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 4,
+   "physics": 2,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 4
+  },
+  "dim_notes": {
+   "art": "包体 3.3GB 含 200+ 自然仙灵 3D 模型、皮肤与赛季资产",
+   "logic": "自走棋经济利息/连胜连败 + 羁绊 + 装备合成 + 双赛季并行",
+   "server": "8 人实时对战，强联网同步",
+   "engine": "Unity + 自走棋战斗引擎高并发，需专门优化"
+  },
+  "asset_notes": "英雄联盟 IP 3D 资产量级极大，几乎不可复刻",
+  "notes": "媒体匹配（国区），包体 3.3GB；腾讯光子天玑智趣研发，Unity 引擎多源确认",
+  "cost_score": 4.25,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "每回合攒金币（利息/连胜），买棋子升人口，凑羁绊合装备，八人回合制对战，存活到最后吃鸡。",
+  "highlights": [
+   "利息经济 + 连胜连败的博弈深度",
+   "三星合成与羁绊触发的视觉爆发",
+   "双赛季并行，老玩家有情怀新玩家有新鲜"
+  ],
+  "innovations": [
+   "云顶之弈正版授权移动化 + 双赛季并行，非原创机制但本地化运营强"
+  ],
+  "target_user": "策略 / 自走棋玩家，全龄",
+  "monetization": "IAP（小小英雄/皮肤/通行证）+ 混合",
+  "lifecycle": "长线（赛季制）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "英雄联盟 IP 授权 + 腾讯渠道与 3.3GB 3D 资产，外部团队无法复刻且无授权。",
+  "suggestions": [
+   "做无 IP 自走棋（原创题材）规避授权，但需自研平衡与美术"
+  ],
+  "risks": [
+   "IP 侵权",
+   "资产量级",
+   "腾讯垄断"
+  ],
+  "effort": "300+ 人日（大型团队，不建议立项）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/21/c4/1121c48f-c261-da92-7c73-e0ac22fe3396/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/ed/04/27ed0422-2050-7bf3-ef54-fb09759872ea/_U56fe1-_U81ea_U7136_U4e4b_U529b.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/46/58/844658ec-b58f-8351-0bb8-0a3e6d11c611/_U56fe2-_U5168_U65b0_U673a_U5236.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/89/a9/5989a906-b922-c68a-a2d7-6713ff5ab87a/_U56fe3-_U5c01_U795e_U65f6_U523b.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/54/10/46/54104626-f8e8-f8a5-8a7e-8049477f839a/_U56fe4-_U7279_U8272_U7f81_U7eca.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/77/9d/55779df2-e909-1fca-6b0c-ebf01ed6de3c/_U56fe5-_U9b54_U5178_U7115_U65b0.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/53/fc/0153fc4f-286d-f677-5547-99a0255e92ed/_U56fe6-_U4e94_U5468_U5e74_U5e86.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/72/bb/2772bbc5-09dd-83ed-3f82-2a87ad35434d/_U56fe1-_U81ea_U7136_U4e4b_U529b_U00281_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/41/58/60415877-ec88-0712-f9a5-6a97825b9421/_U56fe2-_U5168_U65b0_U673a_U5236_U00281_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/35/5c/74355cee-0d94-d541-ce03-b4981668aeb6/_U56fe3-_U5c01_U795e_U65f6_U523b.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/f5/2e/d6f52eb7-7241-2bda-e0ac-110c9e902c33/_U56fe4-_U7279_U8272_U7f81_U7eca.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/b6/ed/c0b6eda9-9f4b-072b-c43c-027ebde32a6b/_U56fe5-_U9b54_U5178_U7115_U65b0.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/4f/7a/e34f7a91-6336-4bf5-727a-2d29c8bfa730/_U56fe6-_U4e94_U5468_U5e74_U5e86.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 3.3GB（官方商店数据）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（多家资料站与百科确认）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E9%87%91%E9%93%B2%E9%93%B2%E4%B9%8B%E6%88%98/id1478101301?uo=4",
+  "https://baike.baidu.com/item/%E9%87%91%E9%93%B2%E9%93%B2%E4%B9%8B%E6%88%98/57970031"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "金铲铲之战",
+  "country": "cn",
+  "track_id": 1478101301,
+  "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+  "genres": [
+   "游戏",
+   "卡牌",
+   "策略"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/21/c4/1121c48f-c261-da92-7c73-e0ac22fe3396/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/ed/04/27ed0422-2050-7bf3-ef54-fb09759872ea/_U56fe1-_U81ea_U7136_U4e4b_U529b.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/46/58/844658ec-b58f-8351-0bb8-0a3e6d11c611/_U56fe2-_U5168_U65b0_U673a_U5236.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/89/a9/5989a906-b922-c68a-a2d7-6713ff5ab87a/_U56fe3-_U5c01_U795e_U65f6_U523b.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/54/10/46/54104626-f8e8-f8a5-8a7e-8049477f839a/_U56fe4-_U7279_U8272_U7f81_U7eca.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/77/9d/55779df2-e909-1fca-6b0c-ebf01ed6de3c/_U56fe5-_U9b54_U5178_U7115_U65b0.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/53/fc/0153fc4f-286d-f677-5547-99a0255e92ed/_U56fe6-_U4e94_U5468_U5e74_U5e86.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/72/bb/2772bbc5-09dd-83ed-3f82-2a87ad35434d/_U56fe1-_U81ea_U7136_U4e4b_U529b_U00281_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/41/58/60415877-ec88-0712-f9a5-6a97825b9421/_U56fe2-_U5168_U65b0_U673a_U5236_U00281_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/35/5c/74355cee-0d94-d541-ce03-b4981668aeb6/_U56fe3-_U5c01_U795e_U65f6_U523b.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/f5/2e/d6f52eb7-7241-2bda-e0ac-110c9e902c33/_U56fe4-_U7279_U8272_U7f81_U7eca.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/b6/ed/c0b6eda9-9f4b-072b-c43c-027ebde32a6b/_U56fe5-_U9b54_U5178_U7115_U65b0.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/4f/7a/e34f7a91-6336-4bf5-727a-2d29c8bfa730/_U56fe6-_U4e94_U5468_U5e74_U5e86.jpg/626x1112bb.jpg"
+  ],
+  "description": "【前往古老的魔法森林，维系一切的平衡】\n欢迎来到自然之力赛季！这片神秘的魔法森林中，阳光透过层层叠叠的树冠洒落，月光在静谧的湖面泛起涟漪。弈士们将扮演森林的守护者，在光明与黑暗的交织中，利用自然的力量维系平衡，对抗失序。\n【200多种迥异的自然仙灵，为对局带来无限惊喜】\n200多种自然仙灵跃动于竞技场之上，为您提供各种类型的增益。每一次选择都是一次全新冒险，总有一种自然仙灵适合你的风格。\n【多种特色羁绊、全新弈子来袭，沉浸式体验魔幻森林历险】\n十余种特色羁绊正在苏醒，峡谷野怪降临峡谷，日月双蚀遮天蔽日、黑荆棘在仪式中复苏……古老而强大的力量相互交织，弈子与羁绊深度联动，带你领略前所未有的森林历险。",
+  "release_notes": "【光暗交织 森林狂想】\n古老魔法森林敞开大门，光明与黑暗在此交融。弈士们将踏入这片生机与危机并存的神秘森林，感受日月交替、万物生长的自然规律。平衡，是这片土地唯一的法则。\n【自然仙灵 变化无穷】\n在探索森林的过程中，弈士们会获得【自然仙灵】的协助——它们会为你提供各种加成。200多种截然不同的自然仙灵将为对局带来意想不到的惊喜！在灵魂莲华羁绊升至顶级时，自然仙灵会提升至棱彩级别，释放强大的力量！\n【特色羁绊 森林之子】\n峡谷野怪、日月之力……十余种全新羁绊构筑森林生态。远古巨龙君临峡谷，拉克丝化身元素之光，塔里克缔结翡翠契约——弈子与羁绊深度联动，谱写属于你的森林传说。",
+  "file_size_bytes": 3291356160,
+  "min_os": "10.0",
+  "version": "1.14.34（1178）",
+  "release_date": "2021-08-25",
+  "rating": 4.63171,
+  "rating_count": 8559239,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E9%87%91%E9%93%B2%E9%93%B2%E4%B9%8B%E6%88%98/id1478101301?uo=4",
+  "fetched_at": "2026-09-15T00:38:26+08:00"
+ },
+ "slug": "金铲铲之战_b42264"
+}

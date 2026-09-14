@@ -1,0 +1,214 @@
+{
+ "schema_version": 1,
+ "name": "开心消消乐",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "乐元素科技(北京)股份有限公司",
+  "category_l1": "休闲",
+  "category_l2": "消除",
+  "boards": [
+   "ios/国区免费榜",
+   "wx/人气榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 10,
+   "ios/国区免费榜": 8
+  },
+  "platform_app_ids": {
+   "wx": "wx0647ea28e8169ef5",
+   "ios": "791532221"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 70,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "清新卡通动物方块，藤蔓场景",
+  "dims": {
+   "engine": 2,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 3,
+   "server": 2,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体538MB(重)，海量动物方块+10000+关+12类障碍+特效美术",
+   "logic": "万关卡设计+12大关卡类型+100余种障碍+特殊棋子，内容工程极重"
+  },
+  "asset_notes": "2D卡通美术量较大（538MB），动物方块/障碍可程序化+模板化；真正瓶颈在万关卡内容生产与数值平衡，而非素材",
+  "notes": "乐元素出品，8亿玩家，三消国民级；引擎业内普遍记为Cocos系列（未找到官方确认）",
+  "cost_score": 2.75,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "滑动让3个及以上同色动物横竖相连消除，完成每关指定目标（步数/分数）过关；连锁反应+特殊棋子放大爽感。",
+  "highlights": [
+   "三连消除+连锁反应的连续爆破，高频正反馈",
+   "特殊棋子(直线/爆炸/魔力鸟)组合的大范围清屏爽感",
+   "万关卡渐进难度+限时活动，长线有目标"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟三消品类的顶级内容执行（万关卡+障碍体系+IP化）"
+  ],
+  "target_user": "全年龄（超半数女性）休闲用户，碎片时间",
+  "monetization": "IAA+IAP混合（步数/复活看广告，去广告/礼包），国民级",
+  "lifecycle": "长线运营国民级，靠赛季活动+新关卡维系"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "三消机制成熟、框架清晰；瓶颈在'开心消消乐'商标与海量关卡内容。换题材/动物形象即可成立，但需自产关卡。",
+  "suggestions": [
+   "换题材为'萌宠餐厅'或'果园丰收'，复用三消+特殊棋子",
+   "首期做300-500关而非万关，用关卡生成器提效",
+   "把包体压到300MB内，美术用AI生图+模板方块"
+  ],
+  "risks": [
+   "'开心消消乐'商标与乐元素版权",
+   "万关卡内容产能要求高",
+   "三消赛道极度饱和"
+  ],
+  "effort": "35–55 人日（1 前端 + 1 策划(关卡) + 1 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/62/e6/6e62e66b-6301-5f61-8ac0-64a10352a2f1/AppIcon-1x_U007epad-0-1-0-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/d4/60/96d4600e-12a1-e0c0-b391-5580d0b80f34/273cf32e-6191-4565-b98d-c88c2b1b0d26_1242x2208.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/46/7e/56467e3f-4f27-208e-13f7-c455c5e5b34e/5e803d05-4728-40a4-8763-f3b4cd905071_1242x2208.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/93/99/75939922-0a15-ad32-359c-79650d5e17a0/edbdc108-f965-4e69-b164-8b9632d57e29_1242x2208.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/08/3d/3e083dcd-ae4f-4e7c-9f1c-f45b3b726ed1/cb25ef1b-09d8-457d-b3de-624b9e70000c_1242x2208.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/b4/4f/0cb44f9d-b7d6-8308-c05f-e897ef930282/dd86ff12-1b3b-4cb0-a64a-c50adad4437c_1242x2208.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/90/8a/9f908aa4-1c8d-a532-c3b3-8b7d4b0da3a7/9cc6ea55-45d0-4227-863f-0ee0201c8874_2048x2732.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/6a/46/096a4651-da7c-91fb-4ad3-e15ccae40608/c0965e4a-ed45-49eb-a64c-3f89c5bfbcb5_2048x2732.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/11/dc/9011dc06-a833-215f-c971-8e2f926b3d59/2070a54b-4818-4c73-bb6e-940ca0033402_2048x2732.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/f6/07/61f60719-842e-2634-ef50-5807fa316b49/ba64a12b-929f-4ac1-96c7-b87938fbca0f_2048x2732.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/cb/67/9bcb6799-070c-055a-541c-d185a244b085/318e1210-d124-4a2c-acc9-10439adb866b_2048x2732.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体538MB，三消万关卡",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Cocos Creator（业内普遍记为Cocos系列，未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E5%BC%80%E5%BF%83%E6%B6%88%E6%B6%88%E4%B9%90/id791532221?uo=4",
+  "https://deepwiki.com/isghost/kaixinxiaoxiaole/1-overview"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "开心消消乐",
+  "country": "cn",
+  "track_id": 791532221,
+  "seller": "Happy Elements Technology (Beijing) Limited",
+  "genres": [
+   "游戏",
+   "休闲",
+   "娱乐",
+   "益智解谜"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/62/e6/6e62e66b-6301-5f61-8ac0-64a10352a2f1/AppIcon-1x_U007epad-0-1-0-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/d4/60/96d4600e-12a1-e0c0-b391-5580d0b80f34/273cf32e-6191-4565-b98d-c88c2b1b0d26_1242x2208.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/46/7e/56467e3f-4f27-208e-13f7-c455c5e5b34e/5e803d05-4728-40a4-8763-f3b4cd905071_1242x2208.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/93/99/75939922-0a15-ad32-359c-79650d5e17a0/edbdc108-f965-4e69-b164-8b9632d57e29_1242x2208.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/08/3d/3e083dcd-ae4f-4e7c-9f1c-f45b3b726ed1/cb25ef1b-09d8-457d-b3de-624b9e70000c_1242x2208.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/b4/4f/0cb44f9d-b7d6-8308-c05f-e897ef930282/dd86ff12-1b3b-4cb0-a64a-c50adad4437c_1242x2208.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/90/8a/9f908aa4-1c8d-a532-c3b3-8b7d4b0da3a7/9cc6ea55-45d0-4227-863f-0ee0201c8874_2048x2732.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/6a/46/096a4651-da7c-91fb-4ad3-e15ccae40608/c0965e4a-ed45-49eb-a64c-3f89c5bfbcb5_2048x2732.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/11/dc/9011dc06-a833-215f-c971-8e2f926b3d59/2070a54b-4818-4c73-bb6e-940ca0033402_2048x2732.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/f6/07/61f60719-842e-2634-ef50-5807fa316b49/ba64a12b-929f-4ac1-96c7-b87938fbca0f_2048x2732.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/cb/67/9bcb6799-070c-055a-541c-d185a244b085/318e1210-d124-4a2c-acc9-10439adb866b_2048x2732.png/626x1112bb.jpg"
+  ],
+  "description": "《开心消消乐》，以三消游戏的方式，让国民连接在一起！2025年，8亿玩家的共同选择！\n\n【App Store下载量名列前茅，多次精选推荐】\n全民级三消游戏《开心消消乐》于2014年2月推出iOS版本，不仅是中国区App Store下载量名列前茅的游戏，还曾多次被 App Store精选推荐！8亿小伙伴都在玩哦~\n\n【玩法丰富，创意无限】\n12大关卡类型、100余种障碍设计、10000多个精心设计的关卡（持续更新中），每一关都竭力给您带来超爽的消除体验。乐在其中，其乐无穷！\n\n【随时随地都能玩】\n不用流量也能玩：开启手机，轻点图标，快乐一触即发！消除无聊、消除烦恼、消除距离，就在消消乐！  \n\n【上手简单，有趣休闲】\n休闲三消玩法，轻移指尖，即享畅快！消消乐的粉丝全年龄覆盖；玩家中还有超过一半的女性玩家，是一款超级受女性玩家欢迎的游戏。\n\n【场景清新，特效华丽】\n清新的藤蔓场景，明晰的面板设计，华丽爽快的特效效果，还有萌动有趣的小动物们，定会陪您度过欢乐休闲时光~\n\n【游戏玩法】\n滑动手指让三个及以上的同色小动物横竖相连即可消除，完成每关的指定消除目标即可过关！ \n\n【知识产权声明】\n消消乐®是乐元素的注册商标，未经许可不得擅自使用。\n开心消消乐的著作权由乐元素享有，未经许可不得擅自使用。",
+  "release_notes": "【原文】喵！喵喵！喵喵喵喵喵喵喵！喵喵喵喵喵喵喵（汪汪汪汪），喵喵喵喵喵喵喵喵喵喵喵！\n喵喵喵喵喵喵喵喵喵喵，喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵（汪汪汪汪汪汪汪汪汪）——\n（此处省略N个喵喵喵汪汪汪，上翻译！）\n【翻译】人！你好！咪是新来的小村民！咪和咪的小伙伴（还有本汪），终于能和你们一起闯关啦！\n为了成为开心村的一员，咪们可都经过了程序员的反复测试（本汪也是高分通过哦）——消除基本功要过关，搬运特效的体能也要够强！（你忘记说啦！还有最最最最最重要的一点，那就是我们全都经过了严格的外貌测试，只有长得可爱，才够格做小村民的伙伴~）\n哦哦对啦，程序员说了，我们的正式名字，就叫小小萌伴啦~快来开心消消乐1.161版本接我们回村吧，以后的闯关日子，我们一起相伴！（汪也等不及啦！）\n\n1.【农场丰收季】9月7日~10月17日，农场秋意正浓，丰收庆典正式开启！快来集齐限定卡片，一起体验热热闹闹的农场生活吧！\n2.【开心农家乐】9月7日~9月13日，开心农家乐正式上线！闯关就能获得入场券，动动手指解锁农场新挑战，看看你能闯到第几关！\n3.【拾光成歌】9月28日~10月7日，网易云音乐联动活动开启！一起在熟悉的旋律中，重拾美好时光吧~\n4.【美味合合】9月14日~10月5日，你最爱的“美味合合”来啦！恰逢中秋佳节，还有限定月饼棋子和中秋NPC惊喜登场哦~快来动动手指，一起合出大大大大大大大大大大大的开心来！\n5.【小小萌伴】村里又来新朋友啦！9月20日起，小小萌伴暖心上线，还会有新角色和新装扮哦~快带上TA一起闯关冒险，解锁你们的专属陪伴时光~\n6.【全新关卡】老板说：“这次关卡尤其要用心用心再用心，新关卡不仅要简单的同时不失巧妙，巧妙的同时又有惊喜，还要在惊喜之余还要有点那个，那个你懂吗？”我说：你放心，我一定会让你开心，我开心，大家都开心的。”经过我先这样再那样然后这样那样一顿操作，终于编出了现在这些令人看见就变开心的关卡!\n7.【发帖送好礼】打开微博、抖音或小红书，带话题#今天也开心消消乐了#晒本期更新文案截图并@开心消消乐（抖音官方账号为@开心消消乐官号），各平台随机抽10位天选之子送出无限精力大礼包！",
+  "file_size_bytes": 538324992,
+  "min_os": "12.0",
+  "version": "1.161.5",
+  "release_date": "2014-02-27",
+  "rating": 4.60796,
+  "rating_count": 1634150,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/%E5%BC%80%E5%BF%83%E6%B6%88%E6%B6%88%E4%B9%90/id791532221?uo=4",
+  "fetched_at": "2026-09-15T00:35:22+08:00"
+ },
+ "slug": "开心消消乐_6952b2"
+}

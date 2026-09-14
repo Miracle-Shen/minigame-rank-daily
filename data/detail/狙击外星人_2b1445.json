@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "name": "狙击外星人",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "厦门营火科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/热门榜"
+  ],
+  "ranks": {
+   "douyin/热门榜": 11
+  },
+  "platform_app_ids": {
+   "douyin": "tta638d085390d9a7302"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 71,
+  "best_rank": 10,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator / Unity (推断)",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "卡通 场景找物",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "多场景插画 + 外星人伪装造型，素材量中等",
+   "server": "'你狙我躲'实时联机房间，需联网架构"
+  },
+  "asset_notes": "场景插画与外星人造型为主要素材成本，可用 AI 生图辅助",
+  "notes": "厦门营火科技，'找物射击'+社交 PK 爆款",
+  "cost_score": 2.25,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "在限定时间内用狙击镜在复杂场景（居民楼/夜市/农场）找出伪装成路人或物体的外星人并精准击毙，误伤平民失败；解锁武器与更高伪装关卡。",
+  "highlights": [
+   "锁定目标一枪爆头的慢镜头+金币喷涌+音效炸裂，多巴胺拉满",
+   "'你狙我躲'实时联机：3 发子弹博弈 + 魔性躲藏姿势，强对抗",
+   "'一元之争/请奶茶'等小额赌注把线上 PK 引到线下社交裂变"
+  ],
+  "innovations": [
+   "把'找物射击'与实时回合制社交 PK（你狙我躲）+ 小额赌注裂变结合，是玩法+社交结构的创新"
+  ],
+  "target_user": "18-35 岁偏爱观察解谜与强社交对抗的休闲用户",
+  "monetization": "IAA 广告（放大镜/雷达看广告）+ 轻内购",
+  "lifecycle": "短平快爆款，靠社交裂变与关卡更新维持"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "核心'找物射击'易复刻，但爆火靠'你狙我躲'社交 PK+一元之争裂变；照抄会撞车，须改社交结构或换题材。",
+  "suggestions": [
+   "把'狙击外星人'换成'找茬捉妖/捉迷藏'，保留观察+对抗内核",
+   "社交 PK 改为'组队捉鬼'降低对抗烈度、扩大受众",
+   "裂变从'小额赌注'换成'组队积分榜'规避合规风险"
+  ],
+  "risks": [
+   "原品已占先发与话题热度",
+   "'一元之争'涉小额赌注有合规风险",
+   "关卡生成需保证可解性"
+  ],
+  "effort": "30–50 人日（1 前端+0.5 后端+1 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "厦门营火科技研发，微信/抖音爆火，含'你狙我躲'联机",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎未确认，按 2D 小游戏惯例推断 Cocos/Unity",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.bufan.com/games/17743.html",
+  "https://baike.baidu.com/item/%E7%8B%99%E5%87%BB%E5%A4%96%E6%98%9F%E4%BA%BA/8663395"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:39:19+08:00"
+ },
+ "slug": "狙击外星人_2b1445"
+}

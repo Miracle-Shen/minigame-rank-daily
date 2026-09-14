@@ -1,0 +1,103 @@
+{
+ "schema_version": 1,
+ "name": "对峙:交锋时刻",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "梧桐",
+  "category_l1": "射击",
+  "category_l2": "FPS、竞技、动作",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 5
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-07-19",
+  "appearances": 30,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unreal Engine",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "写实FPS，枪械/地图精细建模",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 3,
+   "logic": 3,
+   "data": 2,
+   "server": 4,
+   "audio": 3
+  },
+  "dim_notes": {
+   "server": "实时FPS对战，国服单独搭建网络加速通道压低伤害判定延迟，对网络同步要求高",
+   "art": "写实枪械建模+多张精细地图+120fps，移动端画质投入大"
+  },
+  "asset_notes": "写实枪械/地图3D资产中等，皮肤为外观无属性；素材非最大瓶颈，网络与反外挂才是",
+  "notes": "《对峙2》（Standoff 2）国服，Axlebolt俄罗斯原作，已获版号",
+  "cost_score": 3.12,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "5v5爆破，买枪/安拆C4的回合制攻防，胜负全凭枪法、地图理解与团队配合，单局约15分钟。",
+  "highlights": [
+   "每把枪独立调校的后坐力与弹道偏移，急停压枪的硬核手感",
+   "皮肤无属性加成，纯外观收藏与交易所经济",
+   "残局1v3先清点还是拆包的两难抉择，心跳拉满",
+   "实时标记点位无需开麦即可传达战术，野排顺畅"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（CS式移动端化+本地化+反外挂+网络优化）"
+  ],
+  "target_user": "硬核FPS/CS玩家，追求公平竞技",
+  "monetization": "IAP外观（皮肤/贴纸/挂饰），无数值付费",
+  "lifecycle": "长线运营（赛季地图轮换+排位）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "5v5爆破FPS已是红海，头部由CS/无畏契约及内部产品占据；实时对战需自建低延迟网络+强反外挂，研发与运维门槛高，复刻无差异空间。",
+  "suggestions": [
+   "若想切入移动射击，建议做‘非对称/轻量’变体（如2v2+道具），避开与CS正面对抗"
+  ],
+  "risks": [
+   "反外挂成本高",
+   "版号与合规",
+   "FPS买量极贵",
+   "与既有产品撞车"
+  ],
+  "effort": "不建议（强做需60+人日+网络/反外挂专项）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "基于虚幻引擎开发（多来源确认，原作Standoff 2即UE）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://m.9k9k.com/dzjfsk",
+  "https://www.kunduo.com/youxi/dzjfsk.html",
+  "https://www.xlhs.com/azgame/136846.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:36:13+08:00"
+ },
+ "slug": "对峙_交锋时刻_c41efd"
+}

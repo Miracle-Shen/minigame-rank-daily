@@ -18,6 +18,7 @@
     boardMap: {},        // name -> board_history
     latestRankMap: {},   // name -> {"wx/人气榜": 11} 当前榜单排名
     page: 0,             // 列表当前页
+    detailIndex: {},      // 游戏名 -> 详情页索引（成本档位/复刻结论/引擎）
     filter: "",           // 价值/放弃筛选
     platformFilter: "wx", // wx | douyin | ios | android | taptap
     boardFilter: "畅销榜", // specific board under platformFilter
@@ -68,14 +69,17 @@
   }
 
   async function loadAll() {
-    const [games, profiles, shots, base, latest] = await Promise.all([
+    const [games, profiles, shots, base, latest, detail] = await Promise.all([
       window.sb.select("games", { select: "name,first_seen_at,category,publisher_name", order: "first_seen_at.desc", limit: 5000 }),
       window.sb.select("game_profiles", { limit: 5000 }),
       window.sb.select("game_screenshots", { select: "id,game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 5000 }),
       // ?t= 时间戳强制绕过浏览器/代理缓存（本地 http.server 与 Pages 都可能缓存 JSON）
       fetch("data/base/games.json?t=" + Date.now()).then((r) => r.ok ? r.json() : null).catch(() => null),
       fetch("data/latest.json?t=" + Date.now()).then((r) => r.ok ? r.json() : null).catch(() => null),
+      // 游戏详情页索引（技术实现/玩法爽点/截图/复刻建议），由 scripts/detail 生成
+      fetch("data/detail/index.json?t=" + Date.now()).then((r) => r.ok ? r.json() : null).catch(() => null),
     ]);
+    state.detailIndex = (detail && detail.games) || {};
     if (base && base.games) {
       for (const [name, entry] of Object.entries(base.games)) {
         if (entry && entry.board_history) state.boardMap[name] = entry.board_history;
@@ -115,6 +119,10 @@
       const p = state.profiles[g.name];
       const sh = state.shots[g.name] || [];
       const bh = state.boardMap[g.name] || {};
+      // 详情索引的键做了名称归一化（全角冒号/不换行空格），查表要走同一套规则
+      const d = state.detailIndex[
+        (window.GameDetail && window.GameDetail.normName)
+          ? window.GameDetail.normName(g.name) : g.name] || null;
       const boardKeys = sortBoardKeys(Object.keys(bh));
       const sourceBoards = boardKeys.map((k) => ({ key: k, text: fmtBoard(k, g.name) }));
       rows.push({
@@ -136,6 +144,12 @@
         platformKeys: boardKeys,
         firstShot: sh.length ? sh[0].url : "",
         shotCount: sh.length,
+        // 详情页（第 1/2/3/4 分区）相关
+        hasDetail: !!(d && d.collected),
+        detailCost: (d && d.cost_level) || "",
+        detailVerdict: (d && d.verdict) || "",
+        detailEngine: (d && d.engine) || "",
+        detailIcon: (d && d.icon) || "",
       });
     }
     // 按新加入顺序(first_seen_at 降序),无时间戳的排最后
@@ -281,8 +295,9 @@
       const effVal = r.value || "abandoned";
       const tr = document.createElement("tr");
       tr.className = "gp-tr v-" + esc(effVal);
-      const thumb = r.firstShot
-        ? `<img class="gp-thumb" src="${esc(r.firstShot)}" loading="lazy" alt="" />`
+      const thumbSrc = r.firstShot || r.detailIcon;
+      const thumb = thumbSrc
+        ? `<img class="gp-thumb" src="${esc(thumbSrc)}" loading="lazy" alt="" referrerpolicy="no-referrer" />`
         : `<span class="gp-thumb empty">无图</span>`;
       // 榜单来源只显示当前筛选榜单（如微信·畅销榜），不带其他榜单
       const srcBoards = (r.sourceBoards || [])
@@ -291,8 +306,12 @@
       const actBtns = `
             <button class="gp-card-fav${r.favorite ? " on" : ""}" data-name="${esc(r.name)}" title="收藏">❤</button>
             <button class="gp-card-val ${esc(effVal)}" data-name="${esc(r.name)}" title="设置玩法状态">${effVal === "high" ? "高价值" : effVal === "mid" ? "中价值" : effVal === "low" ? "低价值" : "放弃"}</button>`;
+      // 详情徽章：有档案的显示「成本档位 + 复刻结论」，一眼可筛
+      const detailBadge = r.hasDetail
+        ? `<span class="badge-detail" title="已有详情页">详情${r.detailCost ? "·成本" + esc(r.detailCost) : ""}${r.detailVerdict ? "·" + esc(r.detailVerdict) : ""}</span>`
+        : "";
       tr.innerHTML = `
-        <td class="gp-td-name">${thumb}<span class="gp-name">${esc(r.name)}</span>${r.has ? '<span class="badge-has">已建档</span>' : '<span class="badge-no">未建档</span>'}
+        <td class="gp-td-name">${thumb}<span class="gp-name">${esc(r.name)}</span>${r.has ? '<span class="badge-has">已建档</span>' : '<span class="badge-no">未建档</span>'}${detailBadge}
           ${r.abandonReason ? `<div class="gp-card-abandon-reason">放弃理由：${esc(r.abandonReason)}</div>` : ""}</td>
         <td class="gp-td-dev">${esc(r.developer)}</td>
         <td class="gp-td-src">${srcBoards}</td>
@@ -527,6 +546,7 @@
       const dd = document.createElement("dd"); dd.textContent = "未建档 · 需要编辑者账号登录后才能编辑";
       dl.appendChild(dt); dl.appendChild(dd);
       renderViewShots(name);
+      renderDetail(name);
       document.getElementById("gp-edit-mode").style.display = "none";
     }
     $("gp-status").textContent = "";
@@ -574,6 +594,7 @@
       dl.appendChild(dd);
     }
     renderViewShots(p.game_name);
+    renderDetail(p.game_name);
     document.getElementById("gp-edit-mode").style.display = "none";
     const editBtn = document.getElementById("gp-edit-btn");
     if (editBtn) editBtn.style.display = "";
@@ -686,6 +707,16 @@
       ta.style.display = "";
       pv.style.display = "none";
     }
+  }
+
+  // 渲染详情页四大分区（技术实现 / 玩法爽点创新点 / 官方截图 / 复刻建议）。
+  // 数据来自 data/detail/，由 scripts/detail/ 生成；无档案时容器自动隐藏。
+  function renderDetail(name) {
+    const box = document.getElementById("gp-detail");
+    if (!box) return;
+    if (window.GameDetail) { window.GameDetail.render(name, box); return; }
+    box.innerHTML = "";
+    box.style.display = "none";
   }
 
   function renderViewShots(name) {

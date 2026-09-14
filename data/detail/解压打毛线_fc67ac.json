@@ -1,0 +1,112 @@
+{
+ "schema_version": 1,
+ "name": "解压打毛线",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州池骋网络科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/人气榜",
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 18,
+   "wx/畅玩榜": 5
+  },
+  "platform_app_ids": {
+   "wx": "wxcdc333d63f70cf06"
+  },
+  "first_seen": "2026-08-10",
+  "appearances": 27,
+  "best_rank": 5,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator / Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D（含 3D 物理表现）",
+  "art_style": "奶油系毛线球 / 线轴，柔和治愈",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 3,
+   "physics": 3,
+   "logic": 2,
+   "data": 1,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "线头拖拽需模拟缠绕 / 交叉阻挡，误序会卡死",
+   "data": "纯解谜，无成长线",
+   "server": "基本单机，无联网需求"
+  },
+  "asset_notes": "毛线球 / 线轴素材简单，可用 3D 轻量模型或 2D 序列帧，素材层轻松",
+  "notes": "理线 / 排序类解压玩法，拖拽物理手感是核心，机制成熟",
+  "cost_score": 2.0,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "点住线头拖动，把同色毛线卷进对应线轴收纳，外层先理、内层后处理，误序会卡死，全部理顺即通关，无时间压力。",
+  "highlights": [
+   "理顺缠绕毛线的解压释放感",
+   "ASMR 沙沙声 + 柔光视觉的沉浸放松",
+   "3D 物理拖拽手感（拉动 / 反弹）"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（理线 / 排序变形）"
+  ],
+  "target_user": "解压 / 治愈向用户，睡前碎片时间",
+  "monetization": "IAA（看广告获剪刀 / 提示 / 重置道具）",
+  "lifecycle": "长线（海量递进关卡）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "理线解压机制零门槛、素材轻；瓶颈在题材与物理手感调校，换题材即可差异化。",
+  "suggestions": [
+   "换题材为「解压整理衣柜」「疏通水管」「理耳机线」",
+   "强化 ASMR 音效与触感反馈作为卖点",
+   "加「一键理线」付费道具降低卡关流失"
+  ],
+  "risks": [
+   "解压排序品类饱和",
+   "易因关卡卡死引发差评"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法为毛线球颜色匹配 / 拖拽理线收纳，含 3D 物理表现",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎为 Cocos/Unity 推断",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.18183.com/zhxz/9028288.html",
+  "https://www.7724.com/syzx/news/238019.html"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2D（含 3D 物理表现）"
+ ],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:35:40+08:00"
+ },
+ "slug": "解压打毛线_fc67ac"
+}

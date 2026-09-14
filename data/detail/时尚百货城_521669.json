@@ -1,0 +1,213 @@
+{
+ "schema_version": 1,
+ "name": "时尚百货城",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "深圳市爱的番茄科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/热门榜",
+   "douyin/畅销榜"
+  ],
+  "ranks": {
+   "douyin/热门榜": 8,
+   "douyin/畅销榜": 10
+  },
+  "platform_app_ids": {
+   "douyin": "tt165560e88957e0f502"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "二次元/Q版卡通手绘，时装+店铺+家装",
+  "dims": {
+   "engine": 3,
+   "art": 5,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体1537MB(很重)，二次元时装+数百店铺/家具/家装+海量角色美术量极大",
+   "logic": "店铺经营+伙伴养成+换装+消除+艺人签约+收购商场，多系统融合复杂",
+   "data": "多线数值（时尚指数/业态/伙伴）+经济循环，深度高"
+  },
+  "asset_notes": "2D二次元美术量极大（1537MB），时装/店铺/家装需长线产出；多系统融合是主要技术与内容成本",
+  "notes": "爱的番茄科技出品，女强人逆袭题材，放置+数值模拟经营",
+  "cost_score": 3.25,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "从快餐店起步，手动制作餐品完成订单赚第一桶金，招募伙伴委派驻店，逐步解锁业态(超市/服装/潮玩)并收购整座商场，放置产出。",
+  "highlights": [
+   "'时尚指数'系统按装修/布局给顾客评分，影响停留与购买，经营有反馈",
+   "收银台'叮咚'到账+顾客排长队，成就可视化爽感",
+   "换装+家装自由搭配，女性向装扮爽点"
+  ],
+  "innovations": [
+   "把'顾客情绪/时尚指数'动态评分系统做进经营，区别于纯数值放置"
+  ],
+  "target_user": "女性向用户，偏爱经营逆袭+换装装扮",
+  "monetization": "IAA+IAP混合（去广告/伙伴/地产/时装），重度数值付费",
+  "lifecycle": "长线运营，靠新店铺/联动(甄嬛传)维系"
+ },
+ "clone": {
+  "verdict": "微创新",
+  "rationale": "模拟经营+换装+消除融合品类成熟、包体极重(1.5GB)，纯复刻内容与美术成本极高；建议在成熟框架上换题材做轻量差异。",
+  "suggestions": [
+   "换题材为'美食街主理人'，保留店铺经营+伙伴+换装",
+   "把包体压到600MB内，美术用AI生图+模板化店铺",
+   "前期只做快餐店单线，业态解锁后置降低新手门槛"
+  ],
+  "risks": [
+   "包体1.5GB极重、美术长线产能要求高",
+   "女性向买量贵",
+   "多系统融合易臃肿"
+  ],
+  "effort": "70–100 人日（2 前端 + 1 策划 + 1 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/3d/da/df3dda6a-0014-5405-b314-0e29d5bf39f4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/73/9f/07739ff1-59ba-06ab-c0da-d7129012f802/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/f0/ce/c1f0ce8d-767a-aa5b-0fd5-02ca869326db/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/b8/7c/4ab87ca0-3cf8-e011-42f5-8908e44a1273/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/3e/40/0b3e406e-4043-b958-a6fd-83d6db8dc918/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/44/4f/84444faf-34a3-28dc-abc2-9793d1335463/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/c0/d9/e7c0d90d-7302-c947-b9e8-96b9793e1979/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/ee/69/52ee698e-1c55-b06d-919b-5ba59e85b4dc/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/60/42/0560420c-07e7-f706-2f82-5be09dedd824/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/46/3d/5f463d30-535c-5e2f-e831-a3eee3efd8c8/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/7e/d9/237ed94f-8759-2833-4ef3-43ad2758c485/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体1537MB，模拟经营+换装+消除",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Cocos Creator/Unity（未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%97%B6%E5%B0%9A%E7%99%BE%E8%B4%A7%E5%9F%8E/id6752632961?uo=4",
+  "https://www.gameyj.com/down/42102.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "时尚百货城",
+  "country": "cn",
+  "track_id": 6752632961,
+  "seller": "Shenzhen Tomato of Love Technology Co., Ltd",
+  "genres": [
+   "游戏",
+   "模拟",
+   "休闲"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/3d/da/df3dda6a-0014-5405-b314-0e29d5bf39f4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/73/9f/07739ff1-59ba-06ab-c0da-d7129012f802/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/f0/ce/c1f0ce8d-767a-aa5b-0fd5-02ca869326db/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/b8/7c/4ab87ca0-3cf8-e011-42f5-8908e44a1273/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/3e/40/0b3e406e-4043-b958-a6fd-83d6db8dc918/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/44/4f/84444faf-34a3-28dc-abc2-9793d1335463/5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/c0/d9/e7c0d90d-7302-c947-b9e8-96b9793e1979/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/ee/69/52ee698e-1c55-b06d-919b-5ba59e85b4dc/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/60/42/0560420c-07e7-f706-2f82-5be09dedd824/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/46/3d/5f463d30-535c-5e2f-e831-a3eee3efd8c8/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/7e/d9/237ed94f-8759-2833-4ef3-43ad2758c485/5.png/626x1112bb.jpg"
+  ],
+  "description": "《时尚百货城》是一款超休闲百货经营手游。每次逛街看到百货商场里琳琅满目的店铺，是不是也幻想过自己当老板的样子？是不是经常和闺蜜手挽手逛街，却发现每家店铺都大同小异，怎么也找不到让人眼前一亮的心动店铺？在这里，你将有机会成为老板，打造属于自己的时尚百货城！从一家小小的快餐店开始，用你独到的经营技巧，把商场里那些经营不善的店铺一个个爆改盘活——让冷清的服装店变身网红打卡地，把积灰的玩具店改造成潮玩集合地！游戏融合了店铺经营、伙伴养成、时尚换装、精美家装等丰富玩法，让你在轻松愉快的氛围中体验扩张经营的激情与成为富婆的乐趣！\n\n【自由经营，打造商业传奇】\n从一家小小的快餐店开始，你的每一点努力都将让你离成为富婆的梦想更近一步！开设连锁超市、高奢服装店、盲盒手办城……每种店铺都有独特的经营玩法，考验你的经营技巧！随着资金和经验的积累，你还能收购整座商场，将每一个店面都打造成爆款店铺，成为真正的商业大亨！\n【百变时尚，定义专属风格】\n在时尚之都，你的形象就是你的品牌！自由搭配超多套潮流时装，从休闲运动风到奢华晚礼服，从街头潮酷到甜美森系，随心切换你的风格！更有自定义家装玩法，装扮自己的同时还能打造属于自己的超绝豪宅！\n【伙伴助手，助力经营扩张】\n一个人的力量有限，但一支强大的团队能让你无往不利！招募并培养各行业精英——金牌销售、天才设计师、营销专家……他们将成为你有力的帮手！还有机会签约唱跳全能偶像成为明星代言人，让你的品牌影响力席卷全城！\n【休闲放松，享受富婆生活】\n在忙碌的商业经营之余，别忘了享受生活！可以自由逛街上货，或在你的私人豪宅里放松休憩。游戏采用轻松放置玩法，碎片时间也能轻松管理你的时尚百货城！\n看着顾客们在你改造的店铺前排起长队，收银台不断传来\"叮咚\"到账的声音，这种成就感简直让人上瘾！快来打造一座让所有女生都向往的时尚百货城，体验从零开始到百货女王的完美逆袭吧～",
+  "release_notes": "【伙伴&艺人上新】甄嬛传联动|凤仪将临,携甄嬛入局紫禁",
+  "file_size_bytes": 1537157120,
+  "min_os": "10.0",
+  "version": "1.2.7",
+  "release_date": "2026-01-28",
+  "rating": 4.60635,
+  "rating_count": 62654,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E6%97%B6%E5%B0%9A%E7%99%BE%E8%B4%A7%E5%9F%8E/id6752632961?uo=4",
+  "fetched_at": "2026-09-15T00:35:10+08:00"
+ },
+ "slug": "时尚百货城_521669"
+}

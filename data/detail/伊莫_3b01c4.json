@@ -1,0 +1,239 @@
+{
+ "schema_version": 1,
+ "name": "伊莫",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "爪印工作室",
+  "category_l1": "抓宠",
+  "category_l2": "冒险、开放世界、高画质、宠物、角色扮演",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 7
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-07-06",
+  "appearances": 59,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（存在UE5报道冲突，inferred）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "软萌治愈+轻写实3D，生物拟真材质",
+  "dims": {
+   "engine": 5,
+   "art": 5,
+   "anim": 5,
+   "physics": 3,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 4
+  },
+  "dim_notes": {
+   "engine": "引擎来源冲突：竞核/什么值得买称Unity（FunPlus爪印、约600人），多个聚合站称UE5，均未见官方一手确认，标inferred",
+   "art": "包体3.7GB属极重，数百种生物建模+无缝大世界+移动/PC/主机多端",
+   "logic": "大世界捉宠+联结变身+抢蛋+家园+赛季，系统极复杂",
+   "server": "多人在线大世界MMO，实时同步与社交压力极高"
+  },
+  "asset_notes": "3.7GB包体，生物生态、大世界地形、动作演出资产海量，素材层是最大成本。",
+  "notes": "FunPlus/爪印600人级项目，技术壁垒与资金壁垒都极高，复刻不现实。",
+  "cost_score": 4.62,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "在艾德尔大陆探索捕捉伊莫，通过‘联结’化身伊莫亲自战斗/解谜，组队抢蛋、经营房车家园，长期填满图鉴与赛季内容。",
+  "highlights": [
+   "‘联结变身’用伊莫能力跑图/战斗，视角的身份切换爽感独特",
+   "生物随昼夜/天气/区域产生多形态分支，收集惊喜密度高",
+   "抢蛋大作战的即时PVP博弈，运气+策略的抢夺刺激"
+  ],
+  "innovations": [
+   "以‘联结共生’替代传统回合制捕捉，战斗从站桩变为ARPG即时操作",
+   "生物习性驱动的动态捕捉（驱赶撞晕/泡泡围捕）而非单纯丢球"
+  ],
+  "target_user": "捉宠/开放世界/二游核心向，14–30岁",
+  "monetization": "IAP（推测皮肤/通行证/抽卡），未明确",
+  "lifecycle": "长线MMO，靠赛季/新伊莫/家园内容维持"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "600人团队、3.7GB多端大世界MMO，重资本+自研技术壁垒，品类已被头部（含洛克王国世界）锁定，中小团队无法复制。",
+  "suggestions": [
+   "若做捉宠可只取其‘联结变身’单一机制做轻量2D原型验证",
+   "用现成引擎+低模美术做横版捉宠降维打击",
+   "放弃MMO，做单机/弱联网捉宠叙事"
+  ],
+  "risks": [
+   "重资本与团队规模门槛",
+   "大世界+实时多人技术风险",
+   "捉宠赛道已被多个大厂产品挤占"
+  ],
+  "effort": "800+ 人日（不在中小团队可行范围）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/49/cf/1749cfdf-2346-4cb1-bed7-c6c437a9943d/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/52/8f/27528f4f-d3ba-dcb6-5938-b43a36bae36d/00-_U9996_U56fe.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/c9/ec/20c9ec13-2dd1-bbc3-1987-fa6e2a741a20/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/9c/fe/be9cfe76-eb9d-6a8a-7f4a-60ffc8957798/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/ac/27/39ac277e-e3af-80bc-dc8a-57fd75f01825/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/5e/26/c35e264e-3a0b-b633-7d56-808949c401b5/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/99/41/269941e9-1161-6d46-c87a-4837832b0bbf/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/56/9b/6f569b7b-2f7f-4a07-aeb9-6c4145441694/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/31/30/2e313044-5fae-b5cf-20b6-d5769903b9ac/00-_U9996_U56fe__U00281_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/71/0c/5c/710c5c52-212c-06de-270d-8b2f65e152c1/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/bb/c9/f4bbc96a-94c2-0ad7-0d96-89390b7d5960/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/56/af/4756afd9-d77e-a5e9-7b10-08cb11da7e99/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/95/07/e895075b-a2b9-28ed-c9c3-db23c82ba55e/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/44/5c/fb445cfe-5ec4-7b78-407c-1ea6287c802d/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/b6/23/67b623ff-6e20-2e55-4f66-572bdc5649cf/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体3.7GB，多人在线大世界捉宠ARPG，爪印工作室/FunPlus",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎Unity或UE5（来源冲突）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E4%BC%8A%E8%8E%AB/id6768584375?uo=4",
+  "https://post.smzdm.com/p/a825wqkl"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "伊莫",
+  "country": "cn",
+  "track_id": 6768584375,
+  "seller": "Shanghai Quletang Network Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "冒险",
+   "角色扮演"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/49/cf/1749cfdf-2346-4cb1-bed7-c6c437a9943d/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/52/8f/27528f4f-d3ba-dcb6-5938-b43a36bae36d/00-_U9996_U56fe.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/c9/ec/20c9ec13-2dd1-bbc3-1987-fa6e2a741a20/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/9c/fe/be9cfe76-eb9d-6a8a-7f4a-60ffc8957798/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/ac/27/39ac277e-e3af-80bc-dc8a-57fd75f01825/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/5e/26/c35e264e-3a0b-b633-7d56-808949c401b5/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/99/41/269941e9-1161-6d46-c87a-4837832b0bbf/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/56/9b/6f569b7b-2f7f-4a07-aeb9-6c4145441694/6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/31/30/2e313044-5fae-b5cf-20b6-d5769903b9ac/00-_U9996_U56fe__U00281_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/71/0c/5c/710c5c52-212c-06de-270d-8b2f65e152c1/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/bb/c9/f4bbc96a-94c2-0ad7-0d96-89390b7d5960/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/56/af/4756afd9-d77e-a5e9-7b10-08cb11da7e99/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/95/07/e895075b-a2b9-28ed-c9c3-db23c82ba55e/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/44/5c/fb445cfe-5ec4-7b78-407c-1ea6287c802d/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/b6/23/67b623ff-6e20-2e55-4f66-572bdc5649cf/6.jpg/626x1112bb.jpg"
+  ],
+  "description": "《伊莫》是一款多人在线大世界捉宠RPG。你将在广袤的艾德尔大陆上邂逅各种神奇生物——伊莫。和他们联结合体，还能以全新的视角和能力感受这个世界的美好。你也可以来到浮空天际的近未来都市，邂逅其他冒险家，交流旅途心得或是感受竞技的魅力。快带上你的伊莫，开启一场超越想象的大世界冒险之旅吧！\n\n这莫变！联结变身冒险，探索世界奇妙\n在冒险的旅途中，你将与伊莫联结合体，并利用伊莫的各种能力：完成世界上的谜题，赢得每场战斗的胜利，解决遇到的一切问题！不再局限于人类的速度、视野和能力，亲自体验理性与野性共存的蓬勃。你能清晰听见风掠过草叶时的细语，感受到褪去爆裂的火焰在血液里温柔流动。与伊莫“联结”合体，用全新的身份感受世界！\n\n这莫多！形态分支进化，填满你的图鉴\n小小伊莫，面孔多多！生活区域、天气状态、进化分支...都会有不同的伊莫！沙滩地区的花芽蟹会用椰子壳保护自己，滩涂形态的它们身上装饰着多彩的宝石，海湾形态的他们则沉迷于晒太阳，身体变成了熟红色...走调草长大后，到底会变成唱着扭曲音波的女巫草？还是巨型“家里蹲”的埋埋呢？邂逅、培养出不同形态的伊莫，一步步填充图鉴，成为行走的莫百科吧！这次又会有许多新的伊莫会与大家相见！\n\n这莫灵！材质表情动作，生动触手可及\n或是蓬松的绒毛，或是坚硬的铠甲......各种拟真的材质、丰富的动作表现，让你的视线穿透屏幕，抚摸生命的灵动。温顺的羞羞獭会拎着贝壳铲猛冲，拥有厚钳的花芽蟹实际上是胆小鬼，勇猛的焚火狼也会享受夜晚篝火的宁静。不经意间展现的小动作和反差感正是他们迷人又可爱的地方！当它们敲敲屏幕，那就是向你撒娇的信号！\n\n这莫妙！聆听族群故事，细数伊情冷暖\n各种神奇生物——伊莫，在艾德尔大陆上共生共舞，每一个种族都各自延续着独特的种族生态与群落故事。鲸落浅滩的羞羞獭最爱调皮捣蛋，从高处把同伴推到水里；口哨鸥家族爱凑热闹，中高低音合奏出偶尔搞怪的乐曲。海陆空多种生物交叠的生态系统，每一个角落，都是自然精妙的构思；每一道声音，都记录着生命的回响。更多新的故事会在挥爪一刻与大家相见！有人的地方就有冷暖，有伊莫的地方就有故事！\n\n这莫爽！即时战斗捕捉，抢蛋其乐无穷\n全新“抢蛋大作战”来袭。和朋友一起获得稀有宠物，与其他玩家争夺稀有伊莫蛋...谁能抢到最珍贵的那颗伊莫蛋？孤身前往或组队夺宝，一起参与这场关于运气、策略、博弈的冒险！体验真正的即时制自由捉宠战斗的爽快！背袭、连击、布下陷阱、出其不意...当捕捉的方式不再单一，每一次丢出谜立方的瞬间都充满了惊喜；当战斗无需等待，流畅移动、精准击打，或伺机而动，或游走周旋，每一刻都充满刺激！\n\n这莫暖！房车家园旅行，总有伊莫相伴\n每位冒险家在广阔的艾德尔大陆上都拥有一辆专属房车，停驻于大世界营地，与其他玩家相遇、交流、展示个性布置。它既是冒险者在大世界中的移动据点，也是通往私人家园的小天地入口。\n当你回到家园，你能与伊莫一起种植作物、建造装饰、自由布置空间，打造独属于你们的生活场景。更有趣的是可以将生产设施与游玩体验深度结合：旋转木马磨坊、微型摩天轮纺车等装置让你与伊莫边玩边生产；好友协力、伊莫助力，让整个家园成为一个温馨、有趣、互动满满的沉浸式乐园！",
+  "release_notes": "《伊莫》是一款多人在线大世界捉宠RPG。你将在广袤的艾德尔大陆上邂逅各种神奇生物——伊莫。和他们联结合体，还能以全新的视角和能力感受这个世界的美好。你也可以来到浮空天际的近未来都市，邂逅其他冒险家，交流旅途心得或是感受竞技的魅力。快带上你的伊莫，开启一场超越想象的大世界冒险之旅吧！",
+  "file_size_bytes": 3740763136,
+  "min_os": "15.0",
+  "version": "1.0.2",
+  "release_date": "2026-09-23",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E4%BC%8A%E8%8E%AB/id6768584375?uo=4",
+  "fetched_at": "2026-09-15T00:36:53+08:00"
+ },
+ "slug": "伊莫_3b01c4"
+}

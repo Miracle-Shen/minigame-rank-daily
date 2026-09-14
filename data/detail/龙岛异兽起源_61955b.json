@@ -1,0 +1,106 @@
+{
+ "schema_version": 1,
+ "name": "龙岛异兽起源",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "微乐游戏",
+  "category_l1": "生存",
+  "category_l2": "开放世界、冒险、恐龙",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 9
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-07-06",
+  "appearances": 61,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "写实史前恐龙世界，3D",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 4,
+   "physics": 3,
+   "logic": 4,
+   "data": 4,
+   "server": 4,
+   "audio": 3
+  },
+  "dim_notes": {
+   "logic": "食肉/食草双路线+多阶段进化树+部落领地+跨服竞技，系统庞杂",
+   "server": "多人联机混战+部落+跨服排位，需联网同步"
+  },
+  "asset_notes": "写实恐龙+生态场景3D资产偏重；无官方素材，依研报推断",
+  "notes": "微乐游戏恐龙生存开放世界沙盒，第一视角恐龙，三端互通",
+  "cost_score": 3.62,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "化身幼龙在史前岛屿觅食成长，躲避天敌/捕猎进化，建部落占地盘，联机混战，生存压力贯穿全程。",
+  "highlights": [
+   "纯异兽第一视角弱肉强食，幼龙到顶级掠食者的成长爽感",
+   "多阶段分支进化解锁技能与形态",
+   "部落共建工事+跨服竞技的社交对抗",
+   "动态生态AI（野怪自主捕猎/迁徙）"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（方舟/野生恐龙生存的手游化+第一视角）"
+  ],
+  "target_user": "生存/恐龙题材玩家，沙盒爱好者",
+  "monetization": "外观/功能道具内购，无强制数值氪金",
+  "lifecycle": "长线（生态/版本更新）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "开放世界生存+生态AI+三端互通研发重，方舟/野生恐龙类已有成熟产品，复刻无差异。",
+  "suggestions": [
+   "取其‘扮演恐龙第一视角’差异化，做2D俯视生存小游戏，降低3D成本，聚焦进化收集"
+  ],
+  "risks": [
+   "3D生态资产重",
+   "与方舟类撞车",
+   "长线留存难"
+  ],
+  "effort": "不建议（强做需120+人日）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "微乐游戏研发恐龙生存开放世界，三端互通，无官方素材",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断Unity/Unreal，未确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://down.ali213.net/olgame/ldysqy.html",
+  "https://www.3839.com/a/185408.htm",
+  "https://www.gamedog.cn/game/4002557.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:36:21+08:00"
+ },
+ "slug": "龙岛异兽起源_61955b"
+}

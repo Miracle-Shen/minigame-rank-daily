@@ -1,0 +1,107 @@
+{
+ "schema_version": 1,
+ "name": "一找一个准",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "长沙指米网络科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/畅玩榜": 14
+  },
+  "platform_app_ids": {
+   "wx": "wx3986ff94accd31a9"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "实景/插画找茬图，清新",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 1,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "核心资产是海量成对找茬图与隐藏差异点，需持续产出图库",
+   "logic": "图片比对+点击命中判定轻，但海量关卡图库与差异点设计是工作量"
+  },
+  "asset_notes": "找茬图多为实景/插画，可用AI生图成对生成+人工标差异；图库是持续成本",
+  "notes": "经典找不同换皮，技术极轻",
+  "cost_score": 2.0,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "两幅几乎一样的图找出所有不同处，点错累计5次重开，每关限时5分钟，后期加拖动交互（掀地毯/擦玻璃）。",
+  "highlights": [
+   "差异点从颜色/部件缺失到像素级，难度梯度制造'差一点'的执念",
+   "每过3关弹激励视频复活/提示，广告位天然嵌在卡点",
+   "拖动交互（擦玻璃/掀地毯）打破纯点点点，增加动脑"
+  ],
+  "innovations": [
+   "无实质创新，属于经典找不同的执行优化（加拖动交互）"
+  ],
+  "target_user": "全龄找茬/解压用户，通勤睡前碎片时间",
+  "monetization": "IAA为主（每3关激励视频复活/提示）",
+  "lifecycle": "短平快，靠图库更新维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "找不同机制零门槛、技术极轻，照搬即成立，瓶颈在图库产出与题材；换题材+AI生图是最优解。",
+  "suggestions": [
+   "题材换'故宫文物找茬'：两幅古画找不同，接文化传播",
+   "加UGC：用户上传照片生成找不同关卡",
+   "把差异点做成'大家来找茬'综艺联动"
+  ],
+  "risks": [
+   "图库需持续产出，纯靠买量难长期",
+   "找不同赛道已有头部（本作即头部之一）"
+  ],
+  "effort": "15–25人日（1前端+0.5美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "一找一个准为经典找不同微信小游戏，长沙指米开发",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Cocos Creator/LayaAir（微信小游戏常见，未确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://shouyou.3dmgame.com/zt/231053_gl",
+  "https://sj.qq.com/appdetail/wx3986ff94accd31a9"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:37:33+08:00"
+ },
+ "slug": "一找一个准_31ea54"
+}

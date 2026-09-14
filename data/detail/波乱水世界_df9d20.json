@@ -1,0 +1,110 @@
+{
+ "schema_version": 1,
+ "name": "波乱水世界",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Hong Kong Just Game Technology Limited",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 3
+  },
+  "platform_app_ids": {
+   "ios": "6780387121"
+  },
+  "first_seen": "2026-09-02",
+  "appearances": 13,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / 自研（inferred）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "末日海洋写实卡通，软萌动物化幸存者",
+  "dims": {
+   "engine": 4,
+   "art": 4,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 4,
+   "server": 4,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "未找到官方引擎确认，按3D策略/生存品类推断为Unity或自研，需处理大世界流式加载与多人同步",
+   "art": "末日海洋3D世界含鲨鱼/海盗/浮筏基地等大量建模与特效，体量偏重（无官方包体数据，按品类推断）",
+   "logic": "4X策略：资源采集、浮筏扩建、基地防御、多人远征，系统较多",
+   "server": "支持多人组队远征搜救与基地防御，需联网与轻量同步"
+  },
+  "asset_notes": "3D生存策略，素材以建模与场景为主，无一手包体数据，按品类估算偏重；美术层是主要成本之一。",
+  "notes": "海上生存4X，题材在日区有IYAGAMES/Just Game矩阵打法，玩法成熟但3D+多人成本高。",
+  "cost_score": 3.5,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "从简陋竹筏起步，在洪水后的海洋中采集漂浮资源、扩建并加固浮筏基地，抵御鲨鱼与海盗袭击，逐步收复海域、重建文明。",
+  "highlights": [
+   "浮筏扩建的即时空间反馈：每放一块板材基地轮廓就长大一圈",
+   "潮汐/水位波动改变战术与基地布局，带来环境不确定性爽点",
+   "击退鲨鱼与海盗的占领感，海域制霸驱动长期目标"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟4X/raft-survival品类的执行优化（日区本地化+SSR船员抽卡）"
+  ],
+  "target_user": "日区及泛亚太休闲策略玩家、末日生存题材爱好者",
+  "monetization": "IAP道具付费（基础免费+抽卡），SSR船员与装备礼包",
+  "lifecycle": "长线运营，靠赛季内容、活动与抽卡维持"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "raft-survival/4X玩法成熟且可照搬，但3D大世界+多人同步成本高，且赛道已有Rise of Arks、High Seas Hero等同类；直接复刻风险在买量与差异化。",
+  "suggestions": [
+   "换题材为其他灾变场景（火山/废土/太空），保留浮筏扩建+防御核心",
+   "先做单机/弱联网版本验证留存，再补多人远征降低初期成本",
+   "把SSR抽卡改为更轻的赛季通行证，控制合规与成本"
+  ],
+  "risks": [
+   "3D生存策略美术与性能成本高",
+   "品类已拥挤，日区买量CPM偏高",
+   "多人在线涉及服务器与同步投入"
+  ],
+  "effort": "120–200 人日（2–3 人小组 + 外包美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "海上生存4X，从浮筏起步扩建基地、抵御鲨鱼海盗",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为Unity或自研，3D大世界",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://thisisgamesea.com/game/mobile-game/wild-water-world-ios-android-launch",
+  "https://bestcalendar.jp/press/147162"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:36:45+08:00"
+ },
+ "slug": "波乱水世界_df9d20"
+}

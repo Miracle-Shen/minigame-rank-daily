@@ -1,0 +1,223 @@
+{
+ "schema_version": 1,
+ "name": "猛鬼宿舍",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "北京蜜獾工坊科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/热门榜"
+  ],
+  "ranks": {
+   "douyin/热门榜": 19
+  },
+  "platform_app_ids": {
+   "douyin": "tt00e576589fdceaa202"
+  },
+  "first_seen": "2026-06-30",
+  "appearances": 66,
+  "best_rank": 11,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator / LayaAir (推断, H5)",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "卡通轻恐怖 宿舍",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 3,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "215MB 含宿舍场景与多种猛鬼动画，素材量中等",
+   "logic": "床→门→炮台升级链与猛鬼 AI 路径记忆，策略深度中等偏上"
+  },
+  "asset_notes": "卡通宿舍场景与猛鬼造型为主要成本，可用 AI 生图+骨骼动画产出",
+  "notes": "北京蜜獾工坊（Mihuan）出品，2D 塔防+放置经济爆款，H5 即点即玩",
+  "cost_score": 2.75,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "猛鬼来袭时躲进宿舍，点击空地板建床睡觉赚金币，用金币升级床/门/炮台抵御猛鬼；坚持到天亮或反杀即胜，失败看广告强化续命。",
+  "highlights": [
+   "'躺平赚钱→升级布防'把社会梗转为核心循环，魔性",
+   "5 个虚拟室友制造竞争与躺赢快感，降低挫败",
+   "猛鬼破门/炮台连击的密集反馈 + 轻恐怖氛围"
+  ],
+  "innovations": [
+   "无实质创新，是 2D 塔防+放置经济的成熟品类执行优化"
+  ],
+  "target_user": "在校大学生与职场新人的 Z 世代用户",
+  "monetization": "IAA 广告为主（结算页强引导激励视频），少量商店内购",
+  "lifecycle": "短平快爆款，靠关卡难度梯度与皮肤维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "2D 塔防+躺平经济成熟品类，机制公开；瓶颈在题材与数值曲线，换皮成立。",
+  "suggestions": [
+   "把'宿舍/猛鬼'换成'公司/甲方''末日避难所'等职场梗题材",
+   "用真实好友联机替代虚拟室友，强化社交",
+   "首关把经济曲线放缓，降低前期劝退"
+  ],
+  "risks": [
+   "2D 塔防换皮众多、买量素材雷同",
+   "数值曲线难调，易过早劝退或太肝"
+  ],
+  "effort": "30–50 人日（1 前端+1 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/b6/cc/d2b6cc90-ab64-1605-8bb3-2d84064029e9/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/9e/38/30/9e383054-7c24-6830-375f-d34e476a53a6/85f545a1-73c0-4677-9678-505492c92902_Screen_Shot_2022-04-14_at_16.36.25.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/62/17/c5/6217c57e-a2bc-71e9-a3b5-0c357739c21a/163955c6-9ec2-48d1-aef7-5dbb61dffcdc_Screen_Shot_2022-04-14_at_16.45.12.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/b8/b6/92/b8b6928b-38fe-5b51-757e-4d50aaffc8f0/e8878066-29ed-401d-8d53-da9249e52028_Screen_Shot_2022-04-14_at_17.06.11.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/79/db/19/79db1995-a0c3-8861-cf54-610877645330/1394b106-1630-48ec-a32c-7ebb9313551d_Screen_Shot_2022-04-14_at_16.34.28.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/ce/bc/d9/cebcd945-29c3-09dd-fb71-82852b647a1f/5aa7ef9b-d4a4-46b9-981c-a196b8fc3496_Screen_Shot_2022-04-14_at_17.01.25.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/68/8e/d0/688ed02b-f24b-2dcd-6f98-59a5b0229cb1/182ec9cc-ce32-47d3-9f2c-aad355183a44_Screen_Shot_2022-04-14_at_16.37.58.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/5e/2d/f4/5e2df4c5-af46-a252-4100-b222dcfd27f3/9403aa16-51da-4d46-b336-6096d82e18a6_Screen_Shot_2022-04-14_at_16.41.58.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/37/33/d4/3733d4fb-0dbb-8a7a-4142-1919e2571aab/c53126e7-8e10-4c7d-b0eb-45302a5a195b_Screen_Shot_2022-04-14_at_17.13.58.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/36/36/09/36360981-cb93-32c4-fa15-9ff46821a77b/d3c70b7e-7433-4402-9b14-c4ecb1889063_Screen_Shot_2022-04-14_at_17.29.26.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/60/ae/39/60ae3934-cca4-65bf-17f5-5521aa9fa6a3/cf987517-e921-4bfd-b952-d3d4de4ad6d1_Screen_Shot_2022-04-14_at_17.39.51.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/ad/98/fd/ad98fd1b-bea9-ccd4-ca3a-bcd734bc229d/3ba8c6ba-ca0b-4f3e-b362-279bdb32f330_Screen_Shot_2022-04-14_at_17.21.14.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/5b/70/46/5b7046e7-9798-1172-7c8b-ac8378f779a3/65e165f7-b460-4868-9cb9-7856493fe7f9_Screen_Shot_2022-04-14_at_17.14.19.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 215MB（80–250MB 区间，素材量中等）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎未官方确认，按 H5 小游戏惯例推断 Cocos/LayaAir",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E7%8C%9B%E9%AC%BC%E5%AE%BF%E8%88%8D/id1609347000",
+  "https://m.php.cn/faq/2714508.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "猛鬼宿舍",
+  "country": "cn",
+  "track_id": 1609347000,
+  "seller": "Beijing Mihuan Games Technology Co., Ltd",
+  "genres": [
+   "游戏",
+   "策略",
+   "休闲"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/b6/cc/d2b6cc90-ab64-1605-8bb3-2d84064029e9/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/9e/38/30/9e383054-7c24-6830-375f-d34e476a53a6/85f545a1-73c0-4677-9678-505492c92902_Screen_Shot_2022-04-14_at_16.36.25.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/62/17/c5/6217c57e-a2bc-71e9-a3b5-0c357739c21a/163955c6-9ec2-48d1-aef7-5dbb61dffcdc_Screen_Shot_2022-04-14_at_16.45.12.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/b8/b6/92/b8b6928b-38fe-5b51-757e-4d50aaffc8f0/e8878066-29ed-401d-8d53-da9249e52028_Screen_Shot_2022-04-14_at_17.06.11.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/79/db/19/79db1995-a0c3-8861-cf54-610877645330/1394b106-1630-48ec-a32c-7ebb9313551d_Screen_Shot_2022-04-14_at_16.34.28.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/ce/bc/d9/cebcd945-29c3-09dd-fb71-82852b647a1f/5aa7ef9b-d4a4-46b9-981c-a196b8fc3496_Screen_Shot_2022-04-14_at_17.01.25.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/68/8e/d0/688ed02b-f24b-2dcd-6f98-59a5b0229cb1/182ec9cc-ce32-47d3-9f2c-aad355183a44_Screen_Shot_2022-04-14_at_16.37.58.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/5e/2d/f4/5e2df4c5-af46-a252-4100-b222dcfd27f3/9403aa16-51da-4d46-b336-6096d82e18a6_Screen_Shot_2022-04-14_at_16.41.58.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/37/33/d4/3733d4fb-0dbb-8a7a-4142-1919e2571aab/c53126e7-8e10-4c7d-b0eb-45302a5a195b_Screen_Shot_2022-04-14_at_17.13.58.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/36/36/09/36360981-cb93-32c4-fa15-9ff46821a77b/d3c70b7e-7433-4402-9b14-c4ecb1889063_Screen_Shot_2022-04-14_at_17.29.26.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/60/ae/39/60ae3934-cca4-65bf-17f5-5521aa9fa6a3/cf987517-e921-4bfd-b952-d3d4de4ad6d1_Screen_Shot_2022-04-14_at_17.39.51.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/ad/98/fd/ad98fd1b-bea9-ccd4-ca3a-bcd734bc229d/3ba8c6ba-ca0b-4f3e-b362-279bdb32f330_Screen_Shot_2022-04-14_at_17.21.14.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/5b/70/46/5b7046e7-9798-1172-7c8b-ac8378f779a3/65e165f7-b460-4868-9cb9-7856493fe7f9_Screen_Shot_2022-04-14_at_17.14.19.png/626x1112bb.jpg"
+  ],
+  "description": "《猛鬼宿舍》是一款2D塔防小游戏。游戏中玩家需躲避猎梦者的追捕，寻找适合自己的宿舍躲避，并发展经济建造炮台，抵御猎梦者。游戏中玩家只可以在房间中的空地板上进行建造，玩家点击空地板后，出现建筑菜单。游戏中玩家需要根据自己当前的经济选择性建造建筑，发现一条符合自己发展的道路。玩家需要将猎梦者猎梦者击败或者抵御至天亮方可获胜，反之猎梦者抓到玩家则玩家失败。  欢迎大家下载~如果有什么好的想法和建议还有期待，也欢迎大家在评论区留言哦！  \n后续可能的计划：  启用昼夜模式/开发自走棋类淘汰玩法/开发多人合作闯关玩法/推出猛鬼视角/推出非对称对抗玩法等等~",
+  "release_notes": "优化游戏体验",
+  "file_size_bytes": 215336960,
+  "min_os": "12.0",
+  "version": "2.5.6",
+  "release_date": "2022-03-16",
+  "rating": 4.09772,
+  "rating_count": 18124,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E7%8C%9B%E9%AC%BC%E5%AE%BF%E8%88%8D/id1609347000?uo=4",
+  "fetched_at": "2026-09-15T00:39:29+08:00"
+ },
+ "slug": "猛鬼宿舍_e8f7e7"
+}

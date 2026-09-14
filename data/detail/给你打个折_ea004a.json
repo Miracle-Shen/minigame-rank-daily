@@ -1,0 +1,101 @@
+{
+ "schema_version": 1,
+ "name": "给你打个折",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州天柚科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 4
+  },
+  "platform_app_ids": {
+   "douyin": "tta339d5843d5dbfbf02"
+  },
+  "first_seen": "2026-09-03",
+  "appearances": 12,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "未知（按轻量休闲卡通推断）",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 2,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "玩法未检索到一手资料，美术量级按轻量休闲推断",
+   "logic": "玩法未确认，按休闲解压小游戏推断为单规则轻逻辑"
+  },
+  "asset_notes": "未能确认玩法与美术，素材量级无法判断，需实机测试",
+  "notes": "本次检索未获可靠一手资料，以下为基于名称与新游榜的推断，置信度低",
+  "cost_score": 1.88,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "（推断）围绕'折扣/购物'主题的休闲解压小游戏，具体核心循环未能从公开资料确认，疑似一键操作+关卡推进。",
+  "highlights": [
+   "（推断）以'打折/省钱'为情绪钩子的休闲反馈",
+   "（推断）单局短、操作轻，适配碎片时间"
+  ],
+  "innovations": [
+   "（推断）玩法未确认，无法判断创新点"
+  ],
+  "target_user": "推断泛休闲用户",
+  "monetization": "推断 IAA（休闲小游戏常见）",
+  "lifecycle": "推断 短平快"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "玩法未从公开资料确认，但位列抖音新游榜说明有买量验证；按休闲解压换皮逻辑，确认机制后换题材即可成立。需先实测确认核心循环。",
+  "suggestions": [
+   "先实机试玩确认核心机制再立项",
+   "若为一键解压类，换'砍价/凑单'题材复用同一操作",
+   "若含模拟经营元素，参考同类做轻量合成"
+  ],
+  "risks": [
+   "玩法与美术均未确认，复刻范围不明",
+   "抖音新游榜产品常依赖买量，自然留存待验证"
+  ],
+  "effort": "待确认（预估 15–30 人日）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "给你打个折为广州天柚抖音小游戏，玩法未能从公开资料确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://baike.baidu.com/item/%E6%8A%96%E9%9F%B3%E5%B0%8F%E6%B8%B8%E6%88%8F/68584728"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:37:36+08:00"
+ },
+ "slug": "给你打个折_ea004a"
+}

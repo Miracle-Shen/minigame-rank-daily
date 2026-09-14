@@ -1,0 +1,211 @@
+{
+ "schema_version": 1,
+ "name": "Smash Fest!",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Flow Games Bilisim Yazilim ve Pazarlama Anonim Sirketi",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜",
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 3,
+   "ios/日区免费榜": 7
+  },
+  "platform_app_ids": {
+   "ios": "6748084174"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "明亮3D节庆竞技场，罐/石/材质",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 4,
+   "physics": 4,
+   "logic": 2,
+   "data": 2,
+   "server": 1,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体266MB(重)，3D场景+多材质罐石+节庆环境，需成体系3D资产",
+   "anim": "刚体破碎/链条反应/粒子，物理动画是核心反馈",
+   "physics": "Unity PhysX刚体+材质质量/冲量+能量阈值结算检测，自研调参"
+  },
+  "asset_notes": "3D物理游戏，瓶颈在物理系统（材质库+关卡可解性验证器）与破碎特效，而非单纯美术量；一旦物理库建成，关卡可由策划周产数十个",
+  "notes": "Flow Games(土耳其)，SDK检测确认Unity；AppGoblin显示IAP 71%/广告29%",
+  "cost_score": 2.75,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "拖动设定角度/力度发射炮弹，击碎台上罐子与石头，让所有物体掉出平台即过关；单机制aim-shoot-smash，短局。",
+  "highlights": [
+   "不同材质(铝罐/木砖/玻璃)不同碰撞声与碎裂特效，ASMR式解压",
+   "一发清半座塔的链条反应，强正反馈",
+   "技能向射击(角度/时机)奖励精准，高手有追求"
+  ],
+  "innovations": [
+   "把'破坏快感'与材质音效做ASMR化极致反馈，轻策略+强反馈的砸罐"
+  ],
+  "target_user": "全球解压向休闲用户，偏爱物理破坏",
+  "monetization": "混合（IAP 71%/广告 29%，关卡pass/皮肤/去广告）",
+  "lifecycle": "中长线，靠新障碍(Connected Blocks/Duration Blocks)+赛季维系"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "核心循环极简（aim-shoot-smash），机制照搬即成立；瓶颈在3D物理调参与材质反馈。换题材（如拆迁/打年兽）即可差异化。",
+  "suggestions": [
+   "换题材为'年兽大作战'或'拆迁队'，复用炮弹+刚体破碎",
+   "把材质反馈做差异化（冰/西瓜/灯笼），强化解压音效",
+   "加'成就/赛季'长线钩子弥补原作留存短板"
+  ],
+  "risks": [
+   "3D物理调参门槛（材质/冲量/结算）",
+   "海外已有Royal Smash等竞品",
+   "包体266MB需控制"
+  ],
+  "effort": "30–45 人日（1 前端(Unity) + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/3e/2e/933e2ed1-8b86-d507-1fc1-184f7255e81c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/4b/3a/0b4b3afb-a682-f192-5db8-c5e4b9724421/KnockemAll.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/63/ee/d363ee7b-c5cf-a350-d2f4-b847318cbc20/Smash.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/57/24/2d572428-149a-a0ae-8f1a-311b7bad870f/EnjoyNewLevels.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/28/18/98281811-5778-bc33-8a03-fbbe3c26bd24/ChallangeYourself.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/00/a6/db00a685-4bf9-939b-0dc7-8d90aa683099/ClearTheTable.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/d3/a3/52d3a34c-04ab-0aae-e471-3522510e89c9/KnockemAll.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/33/a8/4733a87b-6260-84e4-1428-bc80fcb6186c/Smash.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/22/a8/bc22a869-f565-9cb5-0832-68e3b4d966a0/EnjoyNewLevels.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/c7/77/efc777fd-ac9e-2f2d-7c38-f18d97b9a239/ChallangeYourself.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/85/07/48850789-fa6b-8c97-7288-b440e900e480/ClearTheTable.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "引擎为 Unity（AppGoblin SDK检测确认）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体266MB，3D物理破坏",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/smash-fest/id6748084174?uo=4",
+  "https://appgoblin.info/apps/6748084174"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Smash Fest!",
+  "country": "us",
+  "track_id": 6748084174,
+  "seller": "Flow Games Bilisim Yazilim ve Pazarlama Anonim Sirketi",
+  "genres": [
+   "Games"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/3e/2e/933e2ed1-8b86-d507-1fc1-184f7255e81c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/4b/3a/0b4b3afb-a682-f192-5db8-c5e4b9724421/KnockemAll.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/63/ee/d363ee7b-c5cf-a350-d2f4-b847318cbc20/Smash.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/57/24/2d572428-149a-a0ae-8f1a-311b7bad870f/EnjoyNewLevels.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/28/18/98281811-5778-bc33-8a03-fbbe3c26bd24/ChallangeYourself.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/00/a6/db00a685-4bf9-939b-0dc7-8d90aa683099/ClearTheTable.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/d3/a3/52d3a34c-04ab-0aae-e471-3522510e89c9/KnockemAll.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/33/a8/4733a87b-6260-84e4-1428-bc80fcb6186c/Smash.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/22/a8/bc22a869-f565-9cb5-0832-68e3b4d966a0/EnjoyNewLevels.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/c7/77/efc777fd-ac9e-2f2d-7c38-f18d97b9a239/ChallangeYourself.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/85/07/48850789-fa6b-8c97-7288-b440e900e480/ClearTheTable.png/626x1112bb.jpg"
+  ],
+  "description": "Welcome to Smash Fest!\nGet ready for the most explosive festival in town! Step into a colorful arena where every shot counts — fire your cannon, smash through fragile jars, break apart heavy stones, and watch the chaos unfold in the most satisfying way.\nEach level is a brand-new challenge. Adjust your angle, power, and timing to create the perfect launch. One clean shot can trigger a chain of destruction that feels like pure magic. Easy to play from the first minute, but full of skill and precision for players who love mastering mechanics.\nFrom lively festival scenes to dynamic destruction effects, Smash Fest brings the ultimate aim – shoot – smash experience!\nKey Features\n- Stunning high-quality 3D visuals\n- Satisfying destruction: shattering jars & crumbling stones\n- Skill-based shot mechanics that reward perfect accuracy\n- Colorful festival environments with animated scenes\n- Simple controls, endlessly fun progression\nThe festival is ready!\nFire the cannon and let the show begin!",
+  "release_notes": "Bug fixes and improvements",
+  "file_size_bytes": 266422272,
+  "min_os": "15.0",
+  "version": "575",
+  "release_date": "2025-12-16",
+  "rating": 4.72006,
+  "rating_count": 444555,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/smash-fest/id6748084174?uo=4",
+  "fetched_at": "2026-09-15T00:35:08+08:00"
+ },
+ "slug": "Smash_Fest_adf4bd"
+}

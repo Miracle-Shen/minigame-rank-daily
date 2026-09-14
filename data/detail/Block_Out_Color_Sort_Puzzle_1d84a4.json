@@ -1,0 +1,225 @@
+{
+ "schema_version": 1,
+ "name": "Block Out! - Color Sort Puzzle",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Grand Games A.Ş.",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜",
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 2,
+   "ios/日区免费榜": 10
+  },
+  "platform_app_ids": {
+   "ios": "6752672568"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "明亮卡通方块+传送门/电梯，极简色彩",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 2,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "包体539MB(重)，明亮方块+多样障碍(电梯/生成器/连接块)+大量关卡美术"
+  },
+  "asset_notes": "2D极简美术，方块/门/障碍可用程序化+少量贴图；包体偏重主要来自关卡量与活动资源，素材层非瓶颈",
+  "notes": "Grand Games(土耳其)出品，混合变现(广告32-36%+IAP)，底层借鉴 Color Block Jam",
+  "cost_score": 2.12,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "滑动彩色方块到同色门完成消除，棋盘含移动电梯/方块生成器等动态障碍；规划路径做perfect clear，离线单机短局。",
+  "highlights": [
+   "确定性排序解谜（无RNG），'零空格逐区解锁'降低认知门槛的爽感",
+   "移动电梯/生成器让每关布局不同，常变常新不疲劳",
+   "perfect clear的节奏感（规划→执行→恢复）解压"
+  ],
+  "innovations": [
+   "把 Color Block Jam 框架做减法：确定性排序+零空格逐区解锁，主动降低门槛拉宽泛用户池"
+  ],
+  "target_user": "全球泛休闲解谜用户，偏好低门槛短局",
+  "monetization": "混合（广告32-36%插屏+IAP去广告/关卡pass），对外主打'无广告'",
+  "lifecycle": "长线运营，靠周更关卡+活动(Block Pass/赛事)维系"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "确定性排序解谜机制成熟且单机、素材轻；'零空格逐区解锁'是其差异化但易复制。换障碍类型/题材即可成立，成本最低。",
+  "suggestions": [
+   "换题材为'水管疏通'或'快递分拣'，保留滑动匹配+动态障碍",
+   "新增1-2个自有障碍（如旋转门/传送带）做微差异",
+   "把广告占比压到30%内，用'真无广告'做口碑差异化"
+  ],
+  "risks": [
+   "海外已跑出头部，国内买量贵",
+   "玩法易被更快团队抄",
+   "包体539MB偏重需瘦身"
+  ],
+  "effort": "20–35 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/b0/2d/1fb02d35-d751-2a0e-dd59-0e9b3580924d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/38/e5/7038e5dc-5fcf-26ab-6b29-69547f7a46aa/CLEARTHEBOARD.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/cd/b4/a1cdb409-726b-09db-fb67-e9131c9e5c46/CHALLENGEYOURSELF.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/fc/e7/acfce70d-5909-4a58-5f92-76493de32eb5/ACTIVATEBOOSTERS.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/0f/17/b10f173c-189c-6537-af3a-9c046b5e18d5/UNIQUEOBSTACLES.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/75/3f/ab753fb5-1f38-d272-47af-39ba16669e53/BEATTHECLOCK.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/bc/3d/2abc3d21-70eb-a742-db78-acbe5aa93b31/Splash_Store_03.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/3d/1b/8e3d1bbb-6f0e-1ec5-6d06-3e4277c9e1e2/CLEARTHEBOARD.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/4a/24/624a24a7-d4fa-c350-68ad-91a20afc54f9/CHALLENGEYOURSELF.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/45/4f/65454fc3-3ce2-97af-b0c7-64b387c86ab8/ACTIVATEBOOSTERS.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/0f/5c/d10f5c17-302f-9f24-a589-4b9924a5b504/UNIQUEOBSTACLES.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/14/95/f31495be-ff7f-cd2e-18b1-38f6aa3c6bf5/BEATTHECLOCK.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/4f/f2/164ff2b2-5dea-5d86-c24b-fa73d2fa8ef6/Splash_Store_02.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体539MB，确定性排序解谜+动态障碍",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Unity（混合休闲常见，未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/block-out-color-sort-puzzle/id6752672568?uo=4",
+  "https://mwm.ai/apps/block-out-color-sort-puzzle/6752672568"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Block Out! - Color Sort Puzzle",
+  "country": "us",
+  "track_id": 6752672568,
+  "seller": "GRAND GAMES OYUN VE YAZILIM ANONIM SIRKETI",
+  "genres": [
+   "Games",
+   "Puzzle",
+   "Casual"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/b0/2d/1fb02d35-d751-2a0e-dd59-0e9b3580924d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/38/e5/7038e5dc-5fcf-26ab-6b29-69547f7a46aa/CLEARTHEBOARD.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/cd/b4/a1cdb409-726b-09db-fb67-e9131c9e5c46/CHALLENGEYOURSELF.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/fc/e7/acfce70d-5909-4a58-5f92-76493de32eb5/ACTIVATEBOOSTERS.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/0f/17/b10f173c-189c-6537-af3a-9c046b5e18d5/UNIQUEOBSTACLES.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/75/3f/ab753fb5-1f38-d272-47af-39ba16669e53/BEATTHECLOCK.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/bc/3d/2abc3d21-70eb-a742-db78-acbe5aa93b31/Splash_Store_03.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/3d/1b/8e3d1bbb-6f0e-1ec5-6d06-3e4277c9e1e2/CLEARTHEBOARD.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/4a/24/624a24a7-d4fa-c350-68ad-91a20afc54f9/CHALLENGEYOURSELF.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/45/4f/65454fc3-3ce2-97af-b0c7-64b387c86ab8/ACTIVATEBOOSTERS.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/0f/5c/d10f5c17-302f-9f24-a589-4b9924a5b504/UNIQUEOBSTACLES.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/14/95/f31495be-ff7f-cd2e-18b1-38f6aa3c6bf5/BEATTHECLOCK.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/4f/f2/164ff2b2-5dea-5d86-c24b-fa73d2fa8ef6/Splash_Store_02.png/626x1112bb.jpg"
+  ],
+  "description": "Get ready for Block Out!, a block puzzle game where every level feels alive. Slide colorful blocks, match them with their targets while experiencing the unique twist of moving elevators and block generators. Each puzzle feels fresh with ever-changing layouts. Plan your moves, think quickly, and enjoy the satisfaction of perfect clears as you progress through a colorful and evolving puzzle adventure. Block Out! offers a puzzle experience that keeps you coming back for more. Accept the challenge and start your journey! \n\nQuick Play Guide\n- Start Simple: Slide the blocks to the matching doors and create satisfying clears.\n- Plan Ahead: Position blocks carefully, manage space, and keep up with dynamic challenges. \n- Think Fast: Move faster to complete levels and unlock new challenges.\n\nCool Features\n- Offline Play: Enjoy anywhere, anytime—no wi-fi required.\n- Strategic Gameplay: Start simple, think twice. Plan your moves and experience the satisfaction of clearing each puzzle.\n- Dynamic Obstacles:  Block generators, moving elevators, and other elements bring variety and spice to every level.\n- Colorful Visuals: Bright and gorgeous design makes every puzzle a joy to solve.\n\nBlock Out! is designed for puzzle lovers who enjoy both strategy and action. Download Block Out! now and explore the dynamic world of colorful puzzles.",
+  "release_notes": "Are you ready for an update?\n\n- New Area: Jurassic Adventure! Join our friends as they uncover the amazing world of dinosaurs!\n- Brand-new levels are waiting for you!\n- Bug fixes for a smoother gameplay experience!\n- UX improvements to make your adventure even better!",
+  "file_size_bytes": 538812416,
+  "min_os": "13.0",
+  "version": "1004",
+  "release_date": "2025-10-31",
+  "rating": 4.72764,
+  "rating_count": 238581,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/block-out-color-sort-puzzle/id6752672568?uo=4",
+  "fetched_at": "2026-09-15T00:35:05+08:00"
+ },
+ "slug": "Block_Out_Color_Sort_Puzzle_1d84a4"
+}

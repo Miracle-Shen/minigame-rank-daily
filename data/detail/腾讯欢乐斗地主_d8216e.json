@@ -1,0 +1,253 @@
+{
+ "schema_version": 1,
+ "name": "腾讯欢乐斗地主",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "深圳市腾讯计算机系统有限公司",
+  "category_l1": "棋牌",
+  "category_l2": "牌类",
+  "boards": [
+   "ios/国区免费榜",
+   "wx/人气榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 3,
+   "wx/畅销榜": 20,
+   "ios/国区免费榜": 12
+  },
+  "platform_app_ids": {
+   "wx": "wxd0e404d795ea6f80",
+   "ios": "446324234"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 2,
+  "profile_value": "abandoned",
+  "profile_abandoned": true,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": "深圳市腾讯计算机系统有限公司"
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "Q版卡通棋牌+时装+牌桌特效",
+  "dims": {
+   "engine": 2,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体683MB(>600MB)极重，含海量角色/时装/牌桌特效/多棋牌玩法美术资产",
+   "logic": "集合斗地主/510K/掼蛋/八雀牌等多玩法+排位+英雄技能+赛季，系统庞杂",
+   "data": "多线养成：英雄卡收集+时装+农场家园+典藏，经济循环深",
+   "server": "实时联机棋牌+好友开黑+实时语音+农场社交，强联网"
+  },
+  "asset_notes": "2D卡通美术量极大（683MB），时装/牌桌特效/角色需持续产出；纯靠复刻素材不可行，且涉腾讯品牌授权",
+  "notes": "微信小游戏版采用 Cocos Play 技术（Cocos 官方客户案例确认），美术资源与终端版共用",
+  "cost_score": 3.25,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "选棋牌玩法入局，出牌/抢地主/用英雄技能博弈，赢豆升级；排位赛免豆畅玩，赢荣誉与典藏英雄卡，一局几分钟。",
+  "highlights": [
+   "英雄技能带来深度策略博弈，出牌得分加成改变对局走向",
+   "牌桌特效+酷炫牌面框瞬间拉满对局氛围",
+   "农场家园在竞技间隙提供慢节奏解压，形成'打牌+经营'双循环"
+  ],
+  "innovations": [
+   "把棋牌平台化并叠加英雄技能/时装/农场家园，延长单一棋牌的生命周期"
+  ],
+  "target_user": "全年龄棋牌用户，偏好竞技与社交",
+  "monetization": "IAA+IAP混合（欢乐豆内购、去广告、时装/英雄卡），17+分级",
+  "lifecycle": "长线运营国民级平台，靠赛事/新玩法/时装持续迭代"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "'欢乐斗地主'为腾讯注册商标与国民级IP，品牌与玩法已被头部锁死；683MB极重美术+实时联机棋牌后端，复刻成本与版权风险双高。",
+  "suggestions": [
+   "若做棋牌，避开'斗地主'商标，用原创地方棋牌（如掼蛋/跑得快）换皮",
+   "把美术量压到200MB内，聚焦1-2个核心玩法而非全平台堆砌",
+   "用成熟棋牌SDK替代自研联机，降低后端成本"
+  ],
+  "risks": [
+   "'欢乐斗地主'商标与腾讯版权风险",
+   "棋牌版号与合规审核严格",
+   "头部已锁死，买量成本极高"
+  ],
+  "effort": "不适用（版权/商标壁垒，不建议立项）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/7b/e3/6e7be309-33bb-949f-ebdc-ef8966dde329/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8f/35/3c/8f353c54-ee2f-c646-f34d-8ccbc1831ecd/2688x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/a8/74/ffa8741d-b8ad-befd-ade2-5efe7fc372d8/2688x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/92/f2/5c92f2eb-340a-7bec-1f0e-cd80dadc5264/2688x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/7a/4e/e87a4e4b-6e35-b563-abc6-89a6e68ac8c2/2688x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/21/94/16/219416f3-d62f-5889-f6f6-5b8171822ffe/2688x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/78/d6/c678d69e-8392-587f-5de7-041f5d1cbd2a/2688x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/43/27/5e4327c7-ba6b-3a65-3f1c-5840e3f35d5b/2688x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/79/2f/d2792f39-e378-bb39-5af4-c6c58eafe0c7/2688x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/78/e2/e378e2d0-f4e9-509b-7da1-3b7897fe801e/2732x2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/5b/f3/5a5bf3a2-a34b-34f1-aa45-e26d41ef22ab/2732x2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/08/7f/ee087f65-fb86-c614-5b5f-f1613b5b264c/13-2732.2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/e8/f1/42e8f156-2ab9-8709-fab9-e81358bc0d84/20250620174952-f1faaecb-ef02-4cd9-9777-0247f14c9fc5-dd88bbe8779d5b852b9c8107cfe2028cf1e6c1ca-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/73/c3/3473c379-fca7-8d98-3390-799686820162/20250620174946-f1faaecb-ef02-4cd9-9777-0247f14c9fc5-1c1702ceb12d585b4bd57e30ce64c82d0cf251ab-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/6c/08/406c0894-c270-8221-0148-0376c1e530b1/2732x2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/fb/65/83fb65cd-aaa1-2681-8018-5c264364bf8a/20250620174958-f1faaecb-ef02-4cd9-9777-0247f14c9fc5-ba8677696298179d8170c77950e9fc66f07c331c-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 15"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "微信小游戏/H5版采用 Cocos Play 技术（Cocos 官方客户案例）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体683MB，含大量时装与玩法美术",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E6%AC%A2%E4%B9%90%E6%96%97%E5%9C%B0%E4%B8%BB/id446324234?uo=4",
+  "https://www.hoyeehd.com/article-1327.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "腾讯欢乐斗地主",
+  "country": "cn",
+  "track_id": 446324234,
+  "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+  "genres": [
+   "游戏",
+   "娱乐",
+   "桌面",
+   "卡牌"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/7b/e3/6e7be309-33bb-949f-ebdc-ef8966dde329/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8f/35/3c/8f353c54-ee2f-c646-f34d-8ccbc1831ecd/2688x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/a8/74/ffa8741d-b8ad-befd-ade2-5efe7fc372d8/2688x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/92/f2/5c92f2eb-340a-7bec-1f0e-cd80dadc5264/2688x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/7a/4e/e87a4e4b-6e35-b563-abc6-89a6e68ac8c2/2688x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/21/94/16/219416f3-d62f-5889-f6f6-5b8171822ffe/2688x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/78/d6/c678d69e-8392-587f-5de7-041f5d1cbd2a/2688x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/43/27/5e4327c7-ba6b-3a65-3f1c-5840e3f35d5b/2688x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/79/2f/d2792f39-e378-bb39-5af4-c6c58eafe0c7/2688x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/78/e2/e378e2d0-f4e9-509b-7da1-3b7897fe801e/2732x2048.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/5b/f3/5a5bf3a2-a34b-34f1-aa45-e26d41ef22ab/2732x2048.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/08/7f/ee087f65-fb86-c614-5b5f-f1613b5b264c/13-2732.2048.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/e8/f1/42e8f156-2ab9-8709-fab9-e81358bc0d84/20250620174952-f1faaecb-ef02-4cd9-9777-0247f14c9fc5-dd88bbe8779d5b852b9c8107cfe2028cf1e6c1ca-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/73/c3/3473c379-fca7-8d98-3390-799686820162/20250620174946-f1faaecb-ef02-4cd9-9777-0247f14c9fc5-1c1702ceb12d585b4bd57e30ce64c82d0cf251ab-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/6c/08/406c0894-c270-8221-0148-0376c1e530b1/2732x2048.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/fb/65/83fb65cd-aaa1-2681-8018-5c264364bf8a/20250620174958-f1faaecb-ef02-4cd9-9777-0247f14c9fc5-ba8677696298179d8170c77950e9fc66f07c331c-1.jpg/626x1112bb.jpg"
+  ],
+  "description": "一站式休闲游戏平台，想玩的都在这里！\n不论是经典棋牌、排位竞技还是好友开黑，这里都能满足你的竞技与社交愿望。对局之余，更有休闲小游戏与解压农场家园等你体验。一键开启多重乐趣，让欢乐随时随地。\n\n【游戏特色】\n1.  多样棋牌玩法，满足不同人群需求\n集结斗地主、510K、掼蛋等经典棋牌，还原纯粹竞技；推出八雀牌、三国牌等创新玩法，融入趣味机制，带来新鲜博弈体验；汇聚跑得快、升级、锄大地等地方特色棋牌，足不出户感受家乡竞技魅力。\n2.  赛季排位竞技，免豆对局畅享不停\n打造公平竞技体系，海量对局免豆畅玩。在这里，你可以感受英雄技能带来的深度策略博弈，凭借过人牌技在赛季中赢取至高荣誉，更有典藏英雄卡助你冲击巅峰。\n3.  好友联机开黑，社交氛围即刻点燃\n主打好友专属玩法，大话牌、胡闹牌等聚会热游一键解锁。支持实时语音互动，无论相隔多远都能快速组局，用对决增进情谊，是朋友聚会、异地互动的社交神器。\n4.趣味合集玩法，海量小游随心切换\n汇集飞机大战、谁是菜王等休闲玩法，海量休闲小游点开即玩。无需额外下载，让你在对局之余随时随地开启轻松一刻，尽享多样化的平台乐趣。\n5.  特色时装随心搭，对局质感再升级\n拒绝千篇一律！内置丰富时装系统，自由搭配专属形象。更有酷炫牌桌特效与精致牌面框，瞬间拉满对局氛围，为你带来沉浸式的娱乐新体验。\n6.专属农场家园，棋牌间隙轻松解压\n坐拥一方田园天地，告别竞技的紧张感。打牌间隙开垦土地、种植作物、好友互访偷菜，用慢节奏的田园生活舒缓压力，找回久违的惬意。\n\n【特别声明】\n本款《欢乐斗地主》完全独立,与PC端及其他任何平台的数据无法互通。本款游戏内的道具\"欢乐豆\"不能用于其他任何应用。同样的, 其他应用内的道具或收益也无法用于本款游戏。腾讯平台上的虚拟货币, 比如Q币,Q点都无法在游戏内使用，特此说明。",
+  "release_notes": "8.056版本更新：双新玩法燃情来袭，霓裳藏馆惊艳升级！\n一、【新玩法】\n1.经典麻将玩法「红中血流」即将上线，超爽番型，等你解锁！\n2.全新原创玩法「楚汉争霸」火热上线，刺激开杠，抢先称霸！\n二、【时装】\n1.霓裳藏馆华丽升级！7月27日首次上新至臻典藏时装「蛮荒游戏」。\n2.7月27日10点，「星辰咏叹」将会下架，请及时兑换。\n三、【英雄卡】\n1.8月10日，上线莲首个SR皮肤「荆棘玫瑰」，出牌得分加成，对局体验华丽升级。\n2.英雄卡升级操作优化，升级流程更清晰。\n四、【互动社交】\n语音包快捷语自由搭配功能即将上线，混搭不同语音包快捷语，自由组合专属对局语音，打造独一无二的对局表达。\n五、【优化与修复】\n1.发送付费互动表情增加二次确认。\n2.修复其他已知Bug，提升游戏体验。",
+  "file_size_bytes": 682620928,
+  "min_os": "13.0",
+  "version": "8.056.016",
+  "release_date": "2013-08-08",
+  "rating": 4.68572,
+  "rating_count": 2873390,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E6%AC%A2%E4%B9%90%E6%96%97%E5%9C%B0%E4%B8%BB/id446324234?uo=4",
+  "fetched_at": "2026-09-14T23:50:59+08:00"
+ },
+ "slug": "腾讯欢乐斗地主_d8216e"
+}

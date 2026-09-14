@@ -1,0 +1,451 @@
+[
+  {
+    "name": "植物大战僵尸2-13周年庆",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "PopCap Framework（自研 C++ 引擎）",
+      "engine_evidence": "confirmed",
+      "dimension": "2D",
+      "art_style": "卡通立绘 + 关卡贴图，2.5D 塔防",
+      "dims": {"engine": 5, "art": 5, "anim": 4, "physics": 2, "logic": 5, "data": 5, "server": 3, "audio": 4},
+      "dim_notes": {
+        "engine": "自研 PopCap Framework（C++），无现成小游戏模板，塔防运行时需从零理解",
+        "art": "包体 3.89GB，含数百种植物/僵尸序列帧、多世界主题关卡美术与音效，素材量极大",
+        "logic": "多世界关卡 + 植物/僵尸克制矩阵 + 能量豆系统 + 手势触屏道具，规则系统复杂",
+        "data": "植物升级/星图/内购经济 + 13 周年长线内容资产，养成与数值体系庞大",
+        "anim": "大量骨骼/序列帧动画与技能特效，动作表现密集",
+        "audio": "全定制 BGM 与角色语音，音频资产重"
+      },
+      "asset_notes": "3.89GB 包体为最硬素材指标，含海量 2D 序列帧、关卡美术与音效，复刻素材成本极高，非小游戏团队可承担",
+      "notes": "成熟塔防 + 时空主题 + 手势交互的组合，技术风险集中在自研引擎与素材体量"
+    },
+    "play": {
+      "core_loop": "在 5 行草坪上种植物抵御从右向左推进的僵尸，点阳光部署攻击/防御植物，用能量豆激发大招；一局数分钟，靠布阵策略与道具续命。",
+      "highlights": [
+        "能量豆一键激发植物大招，瞬时清场，反馈爽快",
+        "植物/僵尸克制关系形成「研究配队」的策略正反馈，停不下来",
+        "手势金手指（捏/弹/划）直接操控僵尸，移动端特有交互新鲜",
+        "世界主题 + 关卡三星评价驱动长线收集"
+      ],
+      "innovations": [
+        "把经典塔防嫁接到「时空穿越」多世界主题，并加入植物能量豆系统",
+        "手势触屏道具（金手指）是移动端特有交互创新，区别于 PC 原版"
+      ],
+      "target_user": "全年龄泛休闲塔防玩家，通勤碎片时间",
+      "monetization": "IAA + IAP 混合（内购植物/加速/去广告，广告复活与礼包）",
+      "lifecycle": "长线运营（13 周年持续大版本更新）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "自有 IP（植物大战僵尸）强版权壁垒；3.89GB 海量 2D 美术 + 自研引擎，复刻成本极高；塔防玩法已高度饱和，独立立项无性价比。",
+      "suggestions": [
+        "只抽「手势触屏道具」交互思路做轻量塔防换皮，避开 IP",
+        "用通用塔防框架 + 程序化/AI 美术把包体压到 80MB 内",
+        "题材换为国风/神话（如『镇墓兽守卫』）降低版权风险"
+      ],
+      "risks": ["IP 侵权与商标风险", "3.89GB 素材量导致买量与加载成本失控", "塔防品类买量竞争激烈"],
+      "effort": "不建议独立立项；若只做轻量换皮需 60–90 人日（1 前端 + 1 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "包体 3.89GB，含大量序列帧与音效资产", "level": "confirmed"},
+      {"claim": "引擎为自研 PopCap Framework（C++），非商业引擎", "level": "confirmed"}
+    ],
+    "sources": [
+      "https://apps.apple.com/cn/app/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%B0%B82-13%E5%91%A8%E5%B9%B4%E5%BA%86/id639516529?uo=4",
+      "https://everything.explained.today/Plants_vs_Zombies_2"
+    ]
+  },
+  {
+    "name": "蜘蛛纸牌合集",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Cocos Creator / Unity（推断，未见官方确认）",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "平面卡牌贴图 + 简洁 UI",
+      "dims": {"engine": 2, "art": 1, "anim": 1, "physics": 1, "logic": 2, "data": 2, "server": 1, "audio": 1},
+      "dim_notes": {
+        "engine": "纸牌逻辑简单，Cocos/Unity 现成模板改配置即可上线",
+        "art": "纯卡牌贴图 + 平面 UI，可程序化/通用素材生成，几乎无定制美术"
+      },
+      "asset_notes": "无官方包体数据；同类页游客户端仅 1MB，素材极轻，可全程序化生成",
+      "notes": "经典蜘蛛纸牌玩法，无任何技术壁垒，瓶颈仅在美术与题材"
+    },
+    "play": {
+      "core_loop": "按花色把十列牌从 K 到 A 降序排列，完成一组即消除；可单/双/四花色调难度，拖拽移动牌、空列作中转，一局几分钟到十几分钟。",
+      "highlights": [
+        "空列中转 + 撤销/提示形成「差一步就通」的轻度策略爽感",
+        "四花色模式同时管理多花色，烧脑正反馈强",
+        "纯单机无网，碎片时间随时开一局"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化"],
+      "target_user": "办公室一族与老年玩家，休闲解压",
+      "monetization": "IAA 广告为主（激励视频续局/去广告），轻内购",
+      "lifecycle": "长线常青，靠难度档位维持复访"
+    },
+    "clone": {
+      "verdict": "原样复刻",
+      "rationale": "蜘蛛纸牌为公共域玩法，无版权与品牌壁垒，代码量极小、素材极轻，适合作为内部练手或填充位。",
+      "suggestions": [
+        "直接复刻经典规则，补「每日挑战 + 全球计时排行」做差异化",
+        "题材换为「中药抓药台」「麻将接龙」降低同质化",
+        "加入撤销次数限制 + 广告复活，提升广告变现"
+      ],
+      "risks": ["纸牌品类极饱和，买量成本高", "无题材记忆点难破圈"],
+      "effort": "8–12 人日（1 前端）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "为微信蜘蛛纸牌接龙合集，玩法经典公共域", "level": "inferred"},
+      {"claim": "引擎为常见小游戏框架，未见官方确认", "level": "inferred"}
+    ],
+    "sources": ["https://www.17yoo.cn/detail/52656"]
+  },
+  {
+    "name": "終焉の楔：アポカリプス・ノヴァ",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推断，未见官方确认）",
+      "engine_evidence": "inferred",
+      "dimension": "2D（推断，日系二次元立绘）",
+      "art_style": "日系二次元立绘（推断）",
+      "dims": {"engine": 3, "art": 4, "anim": 3, "physics": 2, "logic": 4, "data": 4, "server": 3, "audio": 3},
+      "dim_notes": {
+        "art": "推断为二次元立绘 + CV + 动画，美术与配音投入中等偏重",
+        "logic": "推断含角色养成/推图/技能系统，玩法逻辑中等复杂",
+        "data": "推断含抽卡与养成经济，数值体系中等"
+      },
+      "asset_notes": "无官方包体；日区二次元产品通常需立绘 + 动画 + 日语 CV，素材成本不低（推断）",
+      "notes": "无官方材料，以下均为基于标题与发行方的推断，置信度低"
+    },
+    "play": {
+      "core_loop": "（推断）基于「终焉/Apocalypse」标题，疑为末日题材二次元 RPG/塔防或卡牌，玩家收集角色、推图养成；无官方描述，纯推断。",
+      "highlights": [
+        "（推断）末日 apocalypse 题材的沉浸叙事与世界观包装",
+        "（推断）角色收集/养成驱动的长线目标"
+      ],
+      "innovations": ["无可靠信息，推测为成熟二次元品类的执行优化"],
+      "target_user": "日本二次元手游用户（推断）",
+      "monetization": "IAP 卡牌抽卡（推断）",
+      "lifecycle": "长线运营（推断）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "无官方材料且日区二次元品类高度饱和，需日语本地化与 CV/立绘重投入，缺乏差异化一手信息，复刻风险高、ROI 低。",
+      "suggestions": [
+        "若要切入，换非末日题材、降低抽卡浓度做轻量二次元",
+        "用 AI 立绘 + 程序化动画压美术成本",
+        "优先验证国区而非直接打日区"
+      ],
+      "risks": ["题材与玩法饱和，无差异化抓手", "日语本地化 + CV 成本高", "无一手资料，判断可能偏差大"],
+      "effort": "信息不足，估算 80–120 人日（含本地化，1 前端 + 1 美术 + 0.5 策划）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "发行方为 Tianjin Lintu Technology，日区免费榜在榜", "level": "confirmed"},
+      {"claim": "玩法/引擎/美术均为推断，检索未命中该作官方资料", "level": "inferred"}
+    ],
+    "sources": ["https://apps.apple.com/jp/charts/iphone/top-free/36"]
+  },
+  {
+    "name": "快逃离岩浆",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推断，3D 小游戏常见选择）",
+      "engine_evidence": "inferred",
+      "dimension": "3D",
+      "art_style": "休闲卡通 3D，低面数",
+      "dims": {"engine": 3, "art": 3, "anim": 3, "physics": 3, "logic": 3, "data": 4, "server": 3, "audio": 2},
+      "dim_notes": {
+        "data": "挂机攀爬 + 宠物/翅膀/装扮收集 + 世界排行，养成与数值线不少"
+      },
+      "asset_notes": "包体 49MB（第三方数据），为轻量 3D 低面数卡通，素材量级中等偏轻",
+      "notes": "3D 休闲挂机攀爬，核心为「岩浆上升前爬高」的撤离爽点 + 放置成长"
+    },
+    "play": {
+      "core_loop": "岩浆不断上升，玩家点击锻炼提升力量、自动/手动攀爬高楼躲避岩浆，收集萌宠加金币、解锁翅膀提速；挂机也成长，比谁爬得高。",
+      "highlights": [
+        "岩浆步步紧逼的压迫感 + 爬高实时反馈，紧张刺激",
+        "挂机自动锻炼/攀爬，离线也成长，放置正反馈强",
+        "宠物/翅膀/装扮收集线驱动外观与数值追求"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（攀爬撤离 + 放置养成组合）"],
+      "target_user": "泛休闲挂机玩家，碎片时间",
+      "monetization": "IAA + IAP 混合（看广告加速/双倍奖励，内购翅膀装扮）",
+      "lifecycle": "长线运营，靠宠物/翅膀/赛季维持"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "3D 挂机攀爬 + 放置养成已成熟，机制照搬即成立，瓶颈在题材与美术包装；49MB 轻量 3D，复刻成本可控。",
+      "suggestions": [
+        "题材换为「逃离洪水/雪崩/陨石」，同机制换皮即差异化",
+        "加入「双人竞速爬塔」轻社交提升留存",
+        "用 AI 生图做低面数卡通素材，压美术成本"
+      ],
+      "risks": ["3D 挂机攀爬赛道已拥挤", "低面数 3D 美术仍需建模产能"],
+      "effort": "25–35 人日（1 前端 + 1 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "为 3D 休闲挂机攀爬游戏，包体约 49MB", "level": "inferred"},
+      {"claim": "含宠物/翅膀/装扮/世界排行等玩法", "level": "inferred"}
+    ],
+    "sources": ["https://game.xiaomi.com/game/62440691"]
+  },
+  {
+    "name": "超自然行动组-登录送高泰明",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（QFramework 架构，自研）",
+      "engine_evidence": "confirmed",
+      "dimension": "3D",
+      "art_style": "3D 卡通渲染，国风遗迹/怪谈",
+      "dims": {"engine": 4, "art": 5, "anim": 4, "physics": 3, "logic": 5, "data": 5, "server": 5, "audio": 4},
+      "dim_notes": {
+        "engine": "Unity + 自研 QFramework，但实时多人同步与寻路需大量定制",
+        "art": "包体 860MB+，3D 角色/怪物/遗迹场景模型与骨骼动画，素材重",
+        "logic": "搜打撤 + 怪物 AI + 多人状态同步 + 撤离判定，逻辑系统最复杂",
+        "data": "角色/皮肤/灵契抽卡 + 赛季 + 图鉴，长线养成经济深",
+        "server": "1–4 人实时联机协同 + 跨端，服务端成本最高",
+        "anim": "怪物种类繁多，骨骼动画与受击特效密集",
+        "audio": "沉浸式音效 + 100+ 语音彩蛋，音频资产重"
+      },
+      "asset_notes": "860MB+ 包体（媒体）/765MB（百科）的 3D 角色、怪物与场景模型，素材体量重，非小游戏团队可承担",
+      "notes": "国内「摸金搜打撤」开创者，DAU 破千万；技术核心在实时多人协同与 3D 内容量"
+    },
+    "play": {
+      "core_loop": "1–4 人组队进入遗迹，搜刮宝物、解谜机关、躲避/对抗怪物，带战利品安全撤离；被抓即出局，强调合作与撤离博弈，一局数分钟到十几分钟。",
+      "highlights": [
+        "「搜打撤」撤离博弈：带宝物活着出去才有收益，强紧张感",
+        "中式怪谈怪物（鬼新娘/精绝女王）视听惊吓 + 国风遗迹沉浸",
+        "多人配合破机关/互相救援的社交爽点",
+        "100+ 语音彩蛋道具（如转轮手枪皮肤）提升收集欲"
+      ],
+      "innovations": [
+        "把「非对称恐怖」改为 4 人合作欢乐摸金，降低恐怖门槛扩大受众",
+        "2026 引入 AI 大模型 NPC 实时驱动对手，参与核心玩法"
+      ],
+      "target_user": "18–30 社交/恐怖/搜打撤爱好者",
+      "monetization": "IAP 为主（角色/皮肤/灵契内购）+ 混合广告，重 DAU 社交",
+      "lifecycle": "长线运营（DAU 破千万，赛季/AI 玩法持续迭代）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "实时 4 人联网协同 + 860MB+ 3D 资产 + 自有 IP，复刻需重资本与强联网技术，远超小游戏团队能力；且存在未成年人合规风险。",
+      "suggestions": [
+        "抽「合作搜打撤 + 撤离收益」核心做轻量 2D 单机版",
+        "做国风恐怖但换题材避 IP",
+        "先验证单机合作再上联网"
+      ],
+      "risks": ["实时联网成本与反作弊", "3D 资产量", "IP 与未成年人合规（已被投诉退费难）"],
+      "effort": "不建议；轻量单机版亦需 120–180 人日（2 前端 + 2 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "引擎为 Unity + 自研 QFramework（CSDN 技术文确认）", "level": "confirmed"},
+      {"claim": "包体 860MB+，3D 素材重", "level": "confirmed"}
+    ],
+    "sources": [
+      "https://apps.apple.com/cn/app/%E8%B6%85%E8%87%AA%E7%84%B6%E8%A1%8C%E5%8A%A8%E7%BB%84-%E7%99%BB%E5%BD%95%E9%80%81%E9%AB%98%E6%B3%B0%E6%98%8E/id6544797261?uo=4",
+      "https://baike.baidu.com/item/%E8%B6%85%E8%87%AA%E7%84%B6%E8%A1%8C%E5%8A%A8%E7%BB%84/53531852",
+      "https://wenku.csdn.net/answer/440b0xzeg0co"
+    ]
+  },
+  {
+    "name": "Roblox (ロブロックス)",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Roblox 自研引擎（Roblox Studio）",
+      "engine_evidence": "confirmed",
+      "dimension": "3D（UGC 用户生成）",
+      "art_style": "用户生成，乐高式方块卡通",
+      "dims": {"engine": 5, "art": 5, "anim": 4, "physics": 4, "logic": 5, "data": 5, "server": 5, "audio": 4},
+      "dim_notes": {
+        "engine": "自研 Roblox 引擎 + Studio 编辑器，平台级技术，无法用现成框架",
+        "art": "UGC 无限内容，美术体量不可估量",
+        "logic": "平台运行时 + 脚本沙箱 + 物理 + 创作者工具，系统最复杂",
+        "data": "玩家资产/交易/排名/创作者分成，数据体系庞大",
+        "server": "全球实时联机 + UGC 托管，服务端成本极高"
+      },
+      "asset_notes": "平台型产品，内容由 UGC 无限产生，包体 232MB 仅为客户端，素材无法用包体衡量",
+      "notes": "它是 UGC 游戏平台而非单一游戏，复刻本质是要自建引擎 + 编辑器 + 创作者生态"
+    },
+    "play": {
+      "core_loop": "玩家在平台内进入海量社区自制游戏（竞速/射击/RPG/角色扮演），跨平台实时联机，也可自己用 Roblox Studio 做游戏并发布获利。",
+      "highlights": [
+        "UGC 无限内容：每天上新，永远有得玩",
+        "跨平台（手机/PC/主机/VR）实时联机社交",
+        "Avatar 深度自定义 + 创作者经济闭环"
+      ],
+      "innovations": [
+        "把「玩游戏」变成「创作 + 游玩平台」，Robux 创作者分成形成生态闭环"
+      ],
+      "target_user": "全年龄（12+）全球 UGC 玩家/创作者",
+      "monetization": "IAP（Robux 虚拟币，抽卡/外观/lootbox）",
+      "lifecycle": "长线平台"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "它是 UGC 平台而非单一游戏，复刻需自建引擎 + 编辑器 + 创作者生态 + 全球实时联机，资本与技术门槛极高，小游戏团队无法复制。",
+      "suggestions": [
+        "做「轻量 UGC 小游戏容器」（模板化小游戏编辑器）切入单一品类",
+        "聚焦一个品类社区而非全平台，降低冷启动难度"
+      ],
+      "risks": ["平台级工程量", "创作者生态冷启动", "UGC 内容合规与未成年人保护"],
+      "effort": "不建议；即便轻量 UGC 容器亦需数百人日"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "为 Roblox 自研引擎驱动的 UGC 平台，非单一游戏", "level": "confirmed"}
+    ],
+    "sources": ["https://apps.apple.com/us/app/roblox/id431946152?uo=4"]
+  },
+  {
+    "name": "浪漫花都",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Cocos Creator（推断，休闲小游戏常见选择）",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "花卉/换装/合成类 2D 卡通（推断）",
+      "dims": {"engine": 2, "art": 3, "anim": 2, "physics": 1, "logic": 3, "data": 3, "server": 2, "audio": 2},
+      "dim_notes": {
+        "engine": "休闲小游戏，Cocos Creator 现成模板即可，改题材上线",
+        "art": "推断为花卉/换装/合成类 2D 卡通，素材量中等"
+      },
+      "asset_notes": "无官方包体；名称与榜单位置推断为轻量 2D 休闲，素材中等（推断）",
+      "notes": "无官方材料，仅据标题与发行方推断为花卉主题休闲合成/换装类"
+    },
+    "play": {
+      "core_loop": "（推断）围绕「花都/浪漫」主题，疑为合成经营或换装休闲，玩家收集花卉/装扮城市，完成目标领奖励；无官方描述，纯推断。",
+      "highlights": [
+        "（推断）花卉收集 + 装扮正反馈",
+        "（推断）轻量合成/放置的碎片爽感"
+      ],
+      "innovations": ["无可靠信息，推测为成熟休闲品类的执行优化"],
+      "target_user": "女性向休闲用户（推断）",
+      "monetization": "IAA + IAP 混合（推断）",
+      "lifecycle": "长线运营（推断）"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "推断为花卉主题轻量休闲，机制成熟、瓶颈在题材与美术包装，复刻成本可控；但一手信息缺失，立项前需补调研。",
+      "suggestions": [
+        "题材换为「古风花朝节」「赛博花园」做差异化",
+        "叠加合成 + 剧情收集双线提升留存",
+        "先抓包体/录屏确认玩法再立项"
+      ],
+      "risks": ["一手资料缺失导致误判", "女性向休闲赛道买量贵"],
+      "effort": "20–30 人日（1 前端 + 1 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "发行方为深圳天苻科技，抖音新游榜在榜", "level": "confirmed"},
+      {"claim": "玩法/引擎为推断，检索仅命中无关同名版号条目", "level": "inferred"}
+    ],
+    "sources": ["https://m.sohu.com/a/1044212490_114984"]
+  },
+  {
+    "name": "吃鸡训练营3D",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推断，3D 像素射击常见选择）",
+      "engine_evidence": "inferred",
+      "dimension": "3D（像素风）",
+      "art_style": "低面数像素 3D",
+      "dims": {"engine": 3, "art": 2, "anim": 3, "physics": 3, "logic": 3, "data": 2, "server": 2, "audio": 2},
+      "dim_notes": {
+        "engine": "3D 像素射击，需 Unity 搭建场景/射击/AI，比 2D 模板重"
+      },
+      "asset_notes": "包体 101MB（第三方数据），像素 3D 素材轻量，可程序化/通用模型",
+      "notes": "个人开发者的轻量 3D 射击训练，核心为组队打机器人/丧尸 + 可破坏建筑解压"
+    },
+    "play": {
+      "core_loop": "组队进入地图，用棍棒/热武器切换攻击机器人、丧尸等怪物，部分地图可摧毁建筑解压；完成突击目标即胜，偏 PVE 训练射击。",
+      "highlights": [
+        "近战/远程武器随时切换，应对不同怪物，操作爽快",
+        "可破坏建筑 + 射击解压，发泄感强",
+        "组队协同消灭敌人，配合乐趣"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（训练射击 + 破坏解压组合）"],
+      "target_user": "轻度射击/解压玩家",
+      "monetization": "IAA 广告为主（推断），轻内购",
+      "lifecycle": "短平快，靠地图/武器更新维持"
+    },
+    "clone": {
+      "verdict": "微创新",
+      "rationale": "3D 像素射击训练品类已成熟，仅值得在细节做体验升级（如破坏手感/怪物 AI），不建议独立重投入立项。",
+      "suggestions": [
+        "把「破坏建筑解压」做成核心卖点，强化物理碎裂反馈",
+        "加入 Boss 波次 + Roguelike 词条提升重复可玩",
+        "用 AI 生成像素模型压美术成本"
+      ],
+      "risks": ["3D 射击赛道拥挤", "像素 3D 仍需建模与射击手感调校"],
+      "effort": "30–45 人日（1 前端 + 1 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "为 3D 像素生存射击，包体约 101MB，个人开发者", "level": "inferred"},
+      {"claim": "含组队/可破坏建筑/多武器切换", "level": "inferred"}
+    ],
+    "sources": ["http://m.yx12345.com/game/22329.html"]
+  },
+  {
+    "name": "Fish Sort Puzzle - Bubble Jam",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity / Cocos（推断，休闲排序游戏常见选择）",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "卡通水族 2D 贴图",
+      "dims": {"engine": 2, "art": 2, "anim": 2, "physics": 2, "logic": 3, "data": 2, "server": 1, "audio": 2},
+      "dim_notes": {
+        "logic": "排序 + 收集双目标 + 暂存区溢出失败判定 + 数百关卡设计，需关卡策划"
+      },
+      "asset_notes": "包体 292MB（媒体），为 2D 卡通水族贴图，素材量级轻，可 AI 生图批量产",
+      "notes": "美区免费榜在榜（#20）的已验证排序解谜，背后疑为武汉多比特（Wool Crush 同厂），机制轻、ROI 高"
+    },
+    "play": {
+      "core_loop": "点小鱼将其送入对应鱼缸，集齐 3 只同色鱼即消除；清空下方气泡放出新鱼，暂存区满则失败，消除全部鱼过关，一局几十秒。",
+      "highlights": [
+        "点鱼入缸 + 三同色消除的即时反馈，爽快解压",
+        "暂存区溢出失败制造「差一点」的紧张，天然驱动看广告续命",
+        "鱼缸目标数可视化，进度感清晰"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（排序 + 收集双目标包装）"],
+      "target_user": "全年龄泛休闲解压用户",
+      "monetization": "IAA 为主（续命/提示看广告），暂未见内购流水（推断）",
+      "lifecycle": "长线，靠关卡与限定活动更新"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "经典 sort 解谜机制已验证（美区免费榜 #20），代码量小、素材轻，瓶颈在题材与首关留存；换题材即差异化，ROI 最高。",
+      "suggestions": [
+        "题材换为「整理冰箱/垃圾分类」，同规则换皮即上线",
+        "首关降难度、把失败点后移到第 5 关之后保留存",
+        "加「图鉴收集」把单局爽感接长线目标"
+      ],
+      "risks": ["排序解谜品类拥挤", "美区买量成本偏高"],
+      "effort": "15–25 人日（1 前端 + 0.5 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "包体 292MB，2D 卡通水族素材轻量", "level": "confirmed"},
+      {"claim": "美区免费榜 #20，背后疑为武汉多比特", "level": "inferred"}
+    ],
+    "sources": [
+      "https://apps.apple.com/us/app/fish-sort-puzzle-bubble-jam/id6771681639?uo=4",
+      "https://m.10jqka.com.cn/20260910/c679789201.shtml"
+    ]
+  }
+]

@@ -1,0 +1,552 @@
+{
+ "batch": 5,
+ "total_batches": 9,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_5.json",
+ "games": [
+  {
+   "name": "奇幻果园",
+   "boards": [
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 12
+   },
+   "category_l1": "休闲",
+   "category_l2": "模拟经营",
+   "publisher": "杭州锦泽文化创意有限公司",
+   "first_seen": "2026-08-23",
+   "appearances": 16,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:37:23+08:00"
+   }
+  },
+  {
+   "name": "神器传说",
+   "boards": [
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 19
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "深圳全民互动科技有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 72,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:37:26+08:00"
+   }
+  },
+  {
+   "name": "这关可真行",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 10
+   },
+   "category_l1": "休闲",
+   "category_l2": "塔防",
+   "publisher": "",
+   "first_seen": "2026-09-07",
+   "appearances": 7,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:37:30+08:00"
+   }
+  },
+  {
+   "name": "一找一个准",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 14
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "长沙指米网络科技有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 72,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:37:33+08:00"
+   }
+  },
+  {
+   "name": "给你打个折",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 4
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "广州天柚科技有限公司",
+   "first_seen": "2026-09-03",
+   "appearances": 12,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:37:36+08:00"
+   }
+  },
+  {
+   "name": "MiniMuses",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 4
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Studio Sirenia",
+   "first_seen": "2026-09-09",
+   "appearances": 6,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "MiniMuses",
+    "country": "cn",
+    "track_id": 6798905825,
+    "seller": "STUDIO SIRENIA LTD",
+    "genres": [
+     "游戏"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/00/93/0c009394-ae9e-91c1-c4d7-86471def78a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/ce/a3/f1cea3c1-89e7-26ea-940b-6410ffef46f7/01art.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/d0/c3/b0d0c36b-f70d-afa7-7f05-273e43da112a/02_customise_2778x1284.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/f9/07/99f907e2-23c1-2220-aaa9-6d38ec03a2f1/01_studio_2778x1284.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/f7/7f/5af77fdc-89a8-03c3-684f-7b5e651d40bd/customise_ipad_2752x2064.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/10/37/d310374c-5bb0-bebd-450e-fe11271e87f2/studio_ipad_2752x2064.png/626x1112bb.jpg"
+    ],
+    "description": "Your Muse, Your Story.\n\nMiniMuse is a character creator where every detail is yours to design. Build your characters, style them from a wardrobe of over 1,500 assets, and bring them to life in Studio Mode.\n\nCREATE YOUR MUSE\n- Customise everything tied to your muse: hair, eyes, limbs, accessories and more\n- Colour every layer with custom palettes, patterns, and saved colours\n- Add as many assets as you'd like, and reorder layers to create looks unique to your tastes\n- Import your own assets to use in your designs\n\nDIRECT YOUR STORY\n- Set the scene with backgrounds and props, add chat bubbles and text\n- Save your scenes and build your stories\n\nNo account needed. Your characters are saved on your device.",
+    "release_notes": "Bug fixes, and unlocked export character sheets feature.",
+    "file_size_bytes": 419776512,
+    "min_os": "15.0",
+    "version": "1.0.1",
+    "release_date": "2026-09-07",
+    "rating": 4.61538,
+    "rating_count": 26,
+    "price": "免费",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/cn/app/minimuses/id6798905825?uo=4",
+    "fetched_at": "2026-09-15T00:37:37+08:00"
+   }
+  },
+  {
+   "name": "Vita Mahjong",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 7
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Vita Studio",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 0.783,
+    "match_name": "Vigor Mahjong",
+    "country": "cn",
+    "track_id": 6478847787,
+    "seller": "Doodle Mobile Limited",
+    "genres": [
+     "游戏",
+     "卡牌",
+     "桌面",
+     "娱乐"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/49/1d/ca491d05-f372-f902-d3d6-e2f98fccd379/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/a8/2a/fba82a5d-f32e-f8ea-920e-5bb3d595b2e0/1.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/84/eb/ef84eb9f-2664-9f93-a9a8-ce611ca125bb/2.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/96/04/3996047f-66e0-c491-2c94-2e552e7cb87e/3.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/be/93/01be93fc-50cb-191c-1a67-704249661c32/4.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/79/3c/31793cdc-6736-3c21-23a1-2e28f84cc513/5.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/06/11/c20611b5-9d40-d096-d1f5-c2e589b97920/6.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/06/ce/ee06ce95-2177-23d2-578c-e85e49bf08cf/7.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/16/aa/c516aafd-61a9-0150-34f2-255db56aebd5/8.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/9b/b5/759bb5f8-5811-a864-27f1-c5d6a52b4e96/1.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/f2/41/38f24179-a742-b896-533c-3d7b918cb572/2.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/c7/c9/c0c7c9c7-6c6d-782f-53a6-d4bb44247ebc/6.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/96/69/0a96690b-4e6b-b1bc-58a7-69a8cd66c22a/4.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/a7/8f/2ca78fc7-96a2-5e39-a39d-921ced59b4b0/5.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/86/8b/cf868b72-9226-bcfd-842d-a60128ff4325/3.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/6f/41/f46f4185-f241-c7fe-51ed-5d683291f584/10.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/d4/4b/ecd44bb0-e488-67d6-66f9-8d9a2eed577c/7.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/94/57/fe/9457fe6a-3fa3-aef1-197f-87facf1b52bb/8.JPG/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/8f/92/df8f92a8-e675-2d35-bc41-40c894661d65/9.JPG/626x1112bb.jpg"
+    ],
+    "description": "Get ready for an exclusive and original Mahjong Solitaire game! Vigor Mahjong combines innovation with classic gameplay of Tile Matching, meticulously crafted for the senior audience. It offers large tiles and a user-friendly interface compatible with pads and phones.\n\nEscape in the tranquil beauty of Vigor Mahjong where hundreds of tile matching puzzles are ready to solve in this popular game of strategy, memory, and skill. Our goal is to provide a relaxing yet mentally engaging gaming experience, particularly focused on older adults.\n\nHow to Play:\nThe goal of the game Mahjong Solitaire is to remove all the Mahjong tiles on the board by matching pairs of Mahjong tiles. Tap or slide two matching tiles, and they will disappear from the puzzle board. You can only remove majong tiles that are free and not covered. When all tiles are removed from the board, it signifies successful completion of a mahjong game!\n\nVigor Mahjong Features:\n- Immerse yourself in breathtaking graphics and beautifully crafted tile designs that staying true to the original gameplay.\n- Large, easily readable font sizes to alleviate the strain caused by small texts.\n- From classic layouts to unique puzzles, Vigor Mahjong offers over 20,000 levels to keep you entertained for hours.\n- Choose your own score system: no timer, no pressure.\n- When you consecutively match mahjong tiles during the game, you will unlock special combos.\n- Use HINTS or SHUFFLE tiles for ease of play. Earn extra points when you solve puzzles without help.\n- Special daily challenges available for you to complete each day.\n- No Wifi, no problem! Play offline if you wish.\n\nPlay among gorgeous backgrounds, relaxing sounds, and unique themes to match any mood in Vigor Mahjong now!",
+    "release_notes": "Bug fixes and performance improvements.",
+    "file_size_bytes": 215098368,
+    "min_os": "13.0",
+    "version": "4.7",
+    "release_date": "2025-02-27",
+    "rating": 4.67982,
+    "rating_count": 228,
+    "price": "免费",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/cn/app/vigor-mahjong/id6478847787?uo=4",
+    "fetched_at": "2026-09-15T00:37:39+08:00"
+   }
+  },
+  {
+   "name": "ちいかわぽけっと",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 9
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Applibot Inc.",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:37:42+08:00"
+   }
+  },
+  {
+   "name": "打个螺丝",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 9
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "广州尊悦文化发展有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 72,
+   "best_rank": 5,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:37:46+08:00"
+   }
+  },
+  {
+   "name": "遗弃之地",
+   "boards": [
+    "douyin/畅销榜"
+   ],
+   "ranks": {
+    "douyin/畅销榜": 11
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "北京智诚互娱科技有限公司",
+   "first_seen": "2026-06-30",
+   "appearances": 58,
+   "best_rank": 5,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "遗弃之地",
+    "country": "cn",
+    "track_id": 6752552410,
+    "seller": "Beijing Haotengchuangxiang Technology Co., Ltd.",
+    "genres": [
+     "游戏",
+     "策略"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/38/85/0e3885c7-9f22-3c39-6c96-72386db53d1a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/4c/b6/044cb658-0b37-2d07-63a0-a07caf7d431d/ios_U9884_U7ea6_U4e3bKV_U00282688X1242_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/28/03/8d2803e2-9f9a-ff3d-2fd2-1a8184dce0b7/_U5356_U70b95-2778x1284.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/82/7a/3c827acb-07e8-3822-d46b-0fc38e92fe31/_U5356_U70b93-2778x1284.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/5a/cd/125acd17-2daa-1bd1-854f-ec50c6211345/_U5356_U70b91-2778x1284..png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/7e/f4/bd7ef449-9d4f-b275-2f64-de0ff91450f4/_U5356_U70b92-2778x1284.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/ad/24/ebad24ad-41a3-ac8a-39eb-53b7fff1f540/_U5356_U70b94-2778x1284.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/82/e5/2682e5a2-0d74-3cdc-b866-28f62fe4f48a/1-2778x1284.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2b/a5/c1/2ba5c1a3-0589-fd7f-f2ba-6c87b18f74c6/2-2778x1284.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/78/21/33782101-5a8d-c7f7-b57c-e49c34ac6f7d/3-2778x1284.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/d9/a5/abd9a58c-ed5c-da20-ef60-acae35683bc8/4-2778x1284.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/cd/1a/a3cd1a66-9d83-868f-3568-0f6d9c2ebed2/_U5356_U70b93-2732x2048.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/19/3b/06193bcb-40ba-370c-240b-f5a13c6495c4/_U5356_U70b91-2732x2048.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/0d/16/8a0d1680-081e-b2ea-d6f2-e05522f91e3a/_U5356_U70b92-2732x2048.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/d6/c5/2cd6c5a1-4c83-0eb1-5fd0-a1a658d8ae87/_U5356_U70b94-2732x2048.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/28/60/a62860e0-dd21-9ce6-8147-7629724e2d06/_U5356_U70b95-2732x2048.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/d0/bc/aad0bcde-cea0-c1df-798e-eb0607ae9d93/3-2732x2048-2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/24/f7/86/24f786a9-8e5a-3b69-f358-1aae761acdc8/1-2732x2048.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/19/da/bb19dadb-0b73-811d-8c54-d7fe6d145144/5-2732x2048.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/e4/3b/c1e43b91-a2da-b7d7-6641-6e13b8bc1d7b/2-2732x2048-2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/d9/29/65d92927-e982-44ea-8266-1c4f60b25723/4-2732x2048.jpg/626x1112bb.jpg"
+    ],
+    "description": "《遗弃之地》是一款中式民俗恐怖题材的横版策略塔防游戏，玩家扮演遗弃之地的修法者在重重困难中提升实力，钻研策略，最终得悟天道，破除禁锢\n我们的特色：\n--【民俗轻恐怖题材】\n这是一款中式恐怖为基调的游戏，玩家通过修习符咒天书、并且在阴阳两界中收集天材地宝，提升自身实力\n我们采用了黑白剪影+中式皮影作为核心概念，只为更好的表现中国传统民俗的美学观感。主角和首领怪物皆为提线皮影，寓意皆为傀儡。\n--【随机性的战斗】\n在关卡内会随机获得不同类型、不同品质的法术。通过合理的释放和手牌管理获得战斗胜利\n--【丰富的策略】\n局外的天书技能搭配+局内的随机符咒管理构成了我们的核心战斗策略\n通过合理的管理随机获得的符咒资源，在应对敌人的同时积攒元素能量，释放携带的各类天书，完善战斗策略\n同时局外可以通过鬼店消耗战斗获得的铜钱购买各种天材地宝提高自身的属性和特殊能力\n--【后续计划】\n我们将会制作更多策略技能、更多具有特色的恐怖怪物。并且除了常规的单人主线关卡外，后续会推出更丰富的玩法，以及多人塔防关卡\n总之，我们希望通过迭代，一步一步将我们脑海中的中式民俗恐怖故事呈现给大家。",
+    "release_notes": "新增冥河战场",
+    "file_size_bytes": 99602432,
+    "min_os": "12.0",
+    "version": "1.0.15",
+    "release_date": "2025-11-26",
+    "rating": 4.61387,
+    "rating_count": 22891,
+    "price": "免费",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/cn/app/%E9%81%97%E5%BC%83%E4%B9%8B%E5%9C%B0/id6752552410?uo=4",
+    "fetched_at": "2026-09-15T00:37:48+08:00"
+   }
+  },
+  {
+   "name": "指尖欢乐坊",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 5
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "广州粤良科技有限公司",
+   "first_seen": "2026-09-11",
+   "appearances": 4,
+   "best_rank": 5,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:37:52+08:00"
+   }
+  },
+  {
+   "name": "Amaze GO!",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 15
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Oakever Games",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 5,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Amaze GO!",
+    "country": "us",
+    "track_id": 6758326278,
+    "seller": "OAKEVER GAMES PTE. LTD.",
+    "genres": [
+     "Games",
+     "Entertainment",
+     "Casual",
+     "Puzzle"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/44/99/cd44999c-426a-8f72-c34d-5bba07cc3be5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/ac/e7/ceace7c6-81cb-cea6-fb49-ee8160754ae8/P1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/23/5e/99235ea1-00f7-6846-f768-75010b5dbc13/20260507-150724.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/23/e5/2823e548-e948-fb51-91ef-ea962479d824/Game_U98751242_2688.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/64/b8/8d/64b88d02-8280-2734-40c9-3c5603148ce2/Group_36__U00281_U0029.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/5b/f8/a25bf852-3c0e-51de-9353-b2552ccdca89/Group_37.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d5/55/ca/d555ca2a-d5c5-8596-c496-64221b812e03/Home_U98751242_2688.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/91/4e/a6914e91-2bf1-165a-865f-dfe7f6672635/Group_6.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/af/7d/c7af7dd9-dca4-82e5-8cf9-86a0c1bdd7aa/Group_7.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/b3/e0/e7b3e033-39f5-8b76-c8ad-b937fc8c55e5/Home_U98752048_2732.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/af/42/79af4241-052a-07f3-3a24-97a2133efe1e/Group_99.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/7d/9e/137d9e52-5a6c-24c1-ae4e-fb0e206a0c62/Group_10.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9e/b0/04/9eb004bb-431f-976b-3e6e-60810142b97c/Game_U98752048_2732.png/626x1112bb.jpg"
+    ],
+    "description": "Welcome to Amaze GO! A clean arrow puzzle game built to calm a busy mind. Every arrow points the way — what you need to do is to choose the right order. The design cuts visual noise, reduces chaos, and helps you organize thoughts as you play. Pick up an arrow. Find its lane. Repeat until the grid is yours. Enjoy the quiet flow offline anywhere and anytime. \n\nWhat makes Amaze GO! great\n1. Simple arrow mechanics, zero visual noise\n2. Works offline with a clean interface that keeps attention on the board\n3. Calm play loop for smart brains: think clearly, move each arrow with strategy\n4. Smooth tap controls, clear path feedback, and satisfying release moments like ASMR\n  \nHow to Play\n- Find an arrow with a free path to the edge\n- Tap to slide that arrow off the grid and open a lane for the next move\n- Plan the order to secure a safe route and a clean board\n- Long-Press to use Guidance to highlight directions when your path is unclear\n- A wrong tap costs a heart for the level\n- Clear the board to finish the level and aim for a perfect run\n- Hints help focus when the grid feels tight\n  \nWhy love this arrow puzzle\n· Simple rules, profound strategy, and a meditative arrow puzzle\n· Short breaks ease stress and sharpen focus\n· The last arrow leaves the board with a satisfying mental reset\n· Cognitive workout for sequencing and brain teasers\n· Quiet visuals, plus a satisfying whoosh as each arrow flies off the grid — feedback that soothes instead of nags\n\nMade for the in-between moments\n- The ten minutes before a meeting starts \n- The metro ride too short for a podcast \n- The flight where your signal drops\n- The wind-down after a noisy workday \n  \nAmaze GO! - Puzzle Games is a calm arrow puzzle made for sharp minds and calm moments. Learn fast, then master timing and order. Send every arrow off the board, untangle the grid, and feel disorder turn into clarity. Amaze GO! is the puzzle you reach for when the rest of the day was too loud — one good move, then another, then a quiet board. Download now, plan smart paths, keep hearts safe, and enjoy pure focus anytime, anywhere!\n\nPrivacy Policy: https://oakevergames.com/pp.html\nTerms of Service: https://oakevergames.com/tos.html\nEULA: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "release_notes": "Optimized user experience and performance!",
+    "file_size_bytes": 395043840,
+    "min_os": "15.0",
+    "version": "1.30.0",
+    "release_date": "2026-02-13",
+    "rating": 4.65062,
+    "rating_count": 196886,
+    "price": "Free",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/us/app/amaze-go/id6758326278?uo=4",
+    "fetched_at": "2026-09-15T00:37:55+08:00"
+   }
+  },
+  {
+   "name": "造个大英雄",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 6
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "厦门凯斌信息科技有限公司",
+   "first_seen": "2026-08-24",
+   "appearances": 3,
+   "best_rank": 6,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:37:59+08:00"
+   }
+  },
+  {
+   "name": "开车我贼6",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 20
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "陇川县章凤龙凤移动通讯店",
+   "first_seen": "2026-08-31",
+   "appearances": 10,
+   "best_rank": 6,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:38:02+08:00"
+   }
+  },
+  {
+   "name": "跟我玩桌球",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 6
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "武汉爆鸣互娱科技有限公司",
+   "first_seen": "2026-09-12",
+   "appearances": 3,
+   "best_rank": 6,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:38:06+08:00"
+   }
+  }
+ ]
+}

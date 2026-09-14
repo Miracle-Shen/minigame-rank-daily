@@ -1,0 +1,254 @@
+{
+ "schema_version": 1,
+ "name": "Township",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Playrix",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 19
+  },
+  "platform_app_ids": {
+   "ios": "638689075"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 11,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Playrix 自研 VSO 引擎 (C++)",
+  "engine_evidence": "confirmed",
+  "dimension": "2.5D 等距",
+  "art_style": "卡通 3D 渲染的等距农场/城镇",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体约 268MB（重），含大量建筑/作物/角色 3D 资产与序列帧，素材量级大",
+   "logic": "融合经营农场 + 合成订单 + 城镇建造 + 剧情 + 赛季活动，系统耦合复杂",
+   "data": "多线进度：作物、工厂、卡牌收藏、航海/赛季通行证、货币体系并行"
+  },
+  "asset_notes": "3D 等距资产为主，包体 268MB 偏重，素材产能是主要成本；小游戏化需大幅删减内容。",
+  "notes": "Playrix 自研引擎，复刻需用 Unity/Cocos 搭一套等距经营+合成框架，长线内容运营门槛高。",
+  "cost_score": 3.25,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "种田收作物→工厂加工→完成居民订单/合成道具→扩张并装饰城镇→推进剧情与赛季通行证，一局数分钟但靠每日任务拉回。",
+  "highlights": [
+   "订单完成即时反馈 + 城镇逐步成形的建造爽感",
+   "赛季通行证/限定建筑驱动每日登录与付费",
+   "内嵌三消小玩法（青蛙等）作为额外留存与变现钩子"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（经营模拟 + 合成 + 叙事的组合已被 Playrix 矩阵验证）"
+  ],
+  "target_user": "25-45 岁泛休闲/经营爱好者，女性占比偏高",
+  "monetization": "IAP 内购为主（建筑加速、资源、通行证），混合轻度广告",
+  "lifecycle": "长线运营，靠赛季与剧情持续更新"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "重资产休闲模拟，需持续产出剧情/赛季内容，且品类被 Playrix 矩阵锁死；复刻无差异化空间、长线内容成本极高。",
+  "suggestions": [
+   "若坚持，只取「合成订单 + 城镇装饰」轻量循环，砍掉剧情做短平快换皮",
+   "题材换为「餐厅/海岛经营」降低 IP 联想"
+  ],
+  "risks": [
+   "包体重（268MB）小游戏化困难",
+   "长线剧情内容产能要求高",
+   "Playrix 品牌与买量壁垒"
+  ],
+  "effort": "120–180 人日（3–5 人团队，含内容策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/72/26/e572260a-112c-d034-e328-319ea515b152/AppIconChina-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/ff/47/e0ff47c9-03fe-582f-7e62-7ff8310943cc/1284x2778_ts_aso_screenshot138_CN_v01_p1_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/ff/db/27ffdb62-d464-bf08-e61a-ee75166eba9b/1284x2778_ts_aso_screenshot138_CN_v01_p2_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8b/60/ef/8b60efbe-99c4-8d80-a55c-f8cd4a6009ff/1284x2778_ts_aso_screenshot138_CN_v01_p3_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ff/fc/29fffceb-c8cf-2cf7-3085-7b7c2c9ee764/1284x2778_ts_aso_screenshot138_CN_v01_p4_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/4e/8b/694e8b4c-9b08-ed31-e57a-5006fb260bec/1284x2778_ts_aso_screenshot138_CN_v01_p5_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/55/44/e95544ce-1bc2-a445-e3ae-f5b08b9402f1/1284x2778_ts_aso_screenshot138_CN_v01_p6_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/66/db/6966dbb1-1803-2707-afb1-62d01971c469/1284x2778_ts_aso_screenshot138_CN_v01_p7_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/09/c2/f409c213-fed5-0653-0a05-f13a1319d61c/1284x2778_ts_aso_screenshot138_CN_v01_p8_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/e9/8b/3fe98b86-c9e6-505d-5c24-fac75f6c3182/2048x2732_ts_aso_screenshot138_CN_v01_p1_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/f6/a7/70f6a794-771b-4426-741e-86f40f71ecc1/2048x2732_ts_aso_screenshot138_CN_v01_p2_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/fb/04/c2fb04a3-4e10-2656-f72c-e4d88be0be38/2048x2732_ts_aso_screenshot138_CN_v01_p3_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/f7/60/d4f7603a-bbde-dcf4-aca8-78f927ab90c8/2048x2732_ts_aso_screenshot138_CN_v01_p4_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/28/f4/3228f48d-887b-0a38-6358-c9f24ba0ae7c/2048x2732_ts_aso_screenshot138_CN_v01_p5_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/8f/5e/ea8f5ed3-6cfc-fa88-6536-044b14f1c43d/2048x2732_ts_aso_screenshot138_CN_v01_p6_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f0/4d/1b/f04d1b98-7bee-fbe1-f57d-e37613ec91e1/2048x2732_ts_aso_screenshot138_CN_v01_p7_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/c0/b8/13c0b8fd-5484-2ad9-169c-7a0ecff19cc3/2048x2732_ts_aso_screenshot138_CN_v01_p8_as.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 16"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体约 268MB（281321472 字节），属「重」量级",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Playrix 自研 VSO/C++ 引擎（LinkedIn 技术文章披露）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%A2%A6%E6%83%B3%E5%9F%8E%E9%95%87-township/id1612426573?uo=4"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2.5D 等距"
+ ],
+ "media": {
+  "matched": true,
+  "match_score": 0.92,
+  "match_name": "梦想城镇 - Township",
+  "country": "cn",
+  "track_id": 1612426573,
+  "seller": "Beijing Wei Wo Le Yuan Information and Technology Co., Ltd",
+  "genres": [
+   "游戏",
+   "娱乐",
+   "休闲",
+   "益智解谜"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/72/26/e572260a-112c-d034-e328-319ea515b152/AppIconChina-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/ff/47/e0ff47c9-03fe-582f-7e62-7ff8310943cc/1284x2778_ts_aso_screenshot138_CN_v01_p1_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/ff/db/27ffdb62-d464-bf08-e61a-ee75166eba9b/1284x2778_ts_aso_screenshot138_CN_v01_p2_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8b/60/ef/8b60efbe-99c4-8d80-a55c-f8cd4a6009ff/1284x2778_ts_aso_screenshot138_CN_v01_p3_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ff/fc/29fffceb-c8cf-2cf7-3085-7b7c2c9ee764/1284x2778_ts_aso_screenshot138_CN_v01_p4_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/4e/8b/694e8b4c-9b08-ed31-e57a-5006fb260bec/1284x2778_ts_aso_screenshot138_CN_v01_p5_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/55/44/e95544ce-1bc2-a445-e3ae-f5b08b9402f1/1284x2778_ts_aso_screenshot138_CN_v01_p6_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/66/db/6966dbb1-1803-2707-afb1-62d01971c469/1284x2778_ts_aso_screenshot138_CN_v01_p7_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/09/c2/f409c213-fed5-0653-0a05-f13a1319d61c/1284x2778_ts_aso_screenshot138_CN_v01_p8_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/e9/8b/3fe98b86-c9e6-505d-5c24-fac75f6c3182/2048x2732_ts_aso_screenshot138_CN_v01_p1_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/f6/a7/70f6a794-771b-4426-741e-86f40f71ecc1/2048x2732_ts_aso_screenshot138_CN_v01_p2_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/fb/04/c2fb04a3-4e10-2656-f72c-e4d88be0be38/2048x2732_ts_aso_screenshot138_CN_v01_p3_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/f7/60/d4f7603a-bbde-dcf4-aca8-78f927ab90c8/2048x2732_ts_aso_screenshot138_CN_v01_p4_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/28/f4/3228f48d-887b-0a38-6358-c9f24ba0ae7c/2048x2732_ts_aso_screenshot138_CN_v01_p5_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/8f/5e/ea8f5ed3-6cfc-fa88-6536-044b14f1c43d/2048x2732_ts_aso_screenshot138_CN_v01_p6_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f0/4d/1b/f04d1b98-7bee-fbe1-f57d-e37613ec91e1/2048x2732_ts_aso_screenshot138_CN_v01_p7_as.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/c0/b8/13c0b8fd-5484-2ad9-169c-7a0ecff19cc3/2048x2732_ts_aso_screenshot138_CN_v01_p8_as.png/626x1112bb.jpg"
+  ],
+  "description": "新版本即将上线！\n《梦想城镇》上新啦！\n\n全新卡牌收藏\n* 全新“海滩收藏”为你带来夏日风情！集齐所有卡牌即可获得专属徽章和其他奖品！\n\n赛季冒险\n* 在欢乐的浪潮中享受阳光！开通航海通行证和夏日通行证，赢取资源来发展和装饰你的小镇！\n\n惊险刺激的新冒险\n* 瑞秋必须在希腊腹地追寻失落文明的足迹，抢在危险的寻宝猎人之前找到传说中的蓝宝石——“雅典娜之泪”！\n* 李察德和朋友们出发寻找麦克劳特的家族宝藏，解开古老庄园的谜团，智取狡猾的罪犯，并揭开古老机关的秘密！\n\n其他亮点\n* 在全新的赛舟会赛季中前往希腊和夏威夷！\n* 全新三消元素：青蛙！\n* 全新小镇建筑：陶艺工作室",
+  "release_notes": "新版本即将上线！\n《梦想城镇》全新内容！\n\n全新卡牌收藏\n* 收集全新的“丰收”卡牌集，沉浸在丰收和秋日庆典的氛围中！集齐所有卡牌即可获得专属徽章和其他奖品！\n\n赛季冒险：\n* 探索海洋深处，庆祝丰收季！“海底通行证”和“丰收通行证”将为你带来丰厚奖励，助你发展和装饰城镇！\n\n惊险新冒险：\n* 瑞秋必须揭开一个可疑岛屿定居点的秘密，解救被囚禁的朋友，并找回被走私者偷走的宝藏！\n* 与理查德组队，解开神秘UFO的谜团，阻止一场宇宙灾难！\n\n其他亮点：\n*法国蔚蓝海岸的全新赛舟会赛季！\n*全新三消元素：鱼饵盒！\n*全新城镇建筑：射箭场！",
+  "file_size_bytes": 281321472,
+  "min_os": "13.0",
+  "version": "38.1.1",
+  "release_date": "2022-04-18",
+  "rating": 4.84011,
+  "rating_count": 809555,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E6%A2%A6%E6%83%B3%E5%9F%8E%E9%95%87-township/id1612426573?uo=4",
+  "fetched_at": "2026-09-15T00:39:34+08:00"
+ },
+ "slug": "Township_2ac521"
+}

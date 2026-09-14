@@ -1,0 +1,107 @@
+{
+ "schema_version": 1,
+ "name": "开车我贼6",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "陇川县章凤龙凤移动通讯店",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/畅玩榜": 20
+  },
+  "platform_app_ids": {
+   "wx": "wx99e8f1831f64f9bb"
+  },
+  "first_seen": "2026-08-31",
+  "appearances": 10,
+  "best_rank": 6,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "卡通简约赛道/小车",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 3,
+   "physics": 3,
+   "logic": 2,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "车辆撞击障碍变形/散架/漂移，需简单刚体碰撞与手感精调",
+   "art": "卡通小车与赛道为轻量素材，包体轻"
+  },
+  "asset_notes": "卡通2D轻量素材，无3D；物理用轻量2D引擎即可",
+  "notes": "驾驶闯关障碍小游戏，同类名字变体多（我驾驶贼6等），疑似换皮矩阵",
+  "cost_score": 2.12,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "操控小车在横版赛道穿越铁锤/鳄鱼等障碍，碰撞会变形散架但仍可冲，靠走位与时机通关赚金币解锁车型。",
+  "highlights": [
+   "车头撞烂仍要冲到终点的'越烂越冲'恶趣味反馈",
+   "铁锤/鳄鱼张合瞬间的踩点刺激，强悬念",
+   "车型解锁+皮肤收集的成长正反馈"
+  ],
+  "innovations": [
+   "无实质创新，属于驾驶闯关障碍成熟品类的执行优化"
+  ],
+  "target_user": "全龄驾驶/解压用户",
+  "monetization": "IAA为主（复活/车型看广告）+IAP",
+  "lifecycle": "短平快"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "驾驶闯关障碍机制成熟、美术轻量、技术低，照搬即成立；瓶颈在关卡设计与物理手感，换题材即差异化。",
+  "suggestions": [
+   "题材换'送货 trucks'接物流梗",
+   "把障碍换'红绿灯/收费站'城市题材",
+   "加简单漂移计分扩展操作深度"
+  ],
+  "risks": [
+   "同名变体极多(我驾驶贼6等)，品牌混淆",
+   "驾驶手感需调，否则无爽点"
+  ],
+  "effort": "20–30人日（1前端+0.5美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "开车我贼6为驾驶闯关障碍微信小游戏，含物理碰撞",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Cocos Creator（未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.17yoo.cn/detail/58775",
+  "https://www.17yoo.cn/detail/37875"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:38:02+08:00"
+ },
+ "slug": "开车我贼6_f37c70"
+}

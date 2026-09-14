@@ -1,0 +1,268 @@
+{
+ "schema_version": 1,
+ "name": "梦幻消除战",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州喜势网络科技有限公司",
+  "category_l1": "1",
+  "category_l2": "模拟经营",
+  "boards": [
+   "douyin/热门榜",
+   "douyin/畅销榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 6,
+   "douyin/热门榜": 5,
+   "douyin/畅销榜": 8
+  },
+  "platform_app_ids": {
+   "wx": "wxc721a6dc3366ec1f",
+   "douyin": "tt8e13f8ae111a218b07"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "古风立绘+唐宋场景，2D卡通/手绘",
+  "dims": {
+   "engine": 3,
+   "art": 5,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 4,
+   "server": 2,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "推断Unity：古风2D但包体1.69GB、系统繁多，大厂常用Unity；未见官方确认，故标inferred",
+   "art": "包体1.69GB远超600MB，含海量古风立绘/CG/唐宋家具/场景素材，美术资产极重",
+   "logic": "合成树(三叶→龙井、五料→茶点)+自动生成棋子充能系统+茶楼经营/情缘/谜案多系统耦合，关卡与配方设计量大",
+   "data": "多线养成：装修/情缘好感/图鉴/红宝石付费加速/兑换码/赛季主题家具，经济循环长线"
+  },
+  "asset_notes": "2D古风贴图为主，素材量巨大(1.69GB)但均为2D，可用AI生图+人工修图批量产出；真正瓶颈是美术产能而非技术。",
+  "notes": "成熟『合成+经营』框架叠加古风大女主复仇叙事，技术风险低，主要成本是美术与文案。",
+  "cost_score": 3.25,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "在网格上点击或自动生成棋子，将三片同物(嫩叶)合成高级产物(龙井)、五份原料调配茶点，产物用于完成顾客订单赚铜钱/元宝，再投入茶楼装修与主线；体力限制操作频率，红宝石加速充能。一局数分钟，靠长线经营与剧情推进。",
+  "highlights": [
+   "合成时的茶香飘散粒子特效与讲究音效，反馈密度高、治愈感强",
+   "『三叶→龙井』的连锁合成层级可见，越合越高级的滚雪球爽感",
+   "大女主复仇逆袭叙事驱动——每章『打脸渣男/破案』的剧情爽点承接经营目标",
+   "百款唐宋家具自由摆放，装修党有长期折腾目标"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（机制仍为合成消除+经营，靠古风叙事与美术包装差异化）"
+  ],
+  "target_user": "25-45岁女性向泛休闲用户，偏爱古风/剧情/装修",
+  "monetization": "混合(IAA+IAP)：体力/红宝石看广告或内购，装修加速、去广告、月卡；兑换码福利拉新",
+  "lifecycle": "长线运营，靠每周主题家具/剧情章节/赛季活动维持复访"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "合成消除+茶楼经营机制成熟可照搬；真正壁垒在古风大女主叙事与1.69GB级美术素材。换题材/换叙事即可差异化，但美术产能是主要成本，不算重资本。",
+  "suggestions": [
+   "换题材为『中药铺/非遗手作』，合成药材/漆器替代茶叶茶点，借文化感降买量成本",
+   "保留『复仇逆袭大女主』叙事框架但换成现代职场或仙侠背景，规避古风赛道拥挤",
+   "体力/红宝石加速等付费点与首章卡点设计照搬，重点缩短第一章挫败感"
+  ],
+  "risks": [
+   "1.69GB包体意味着海量美术素材，复刻需长期美术产能，成本不在技术而在素材",
+   "古风合成经营赛道已有梦幻家园/浪漫餐厅等头部，买量竞争激烈",
+   "剧情文案若高度相似存在洗稿/版权风险"
+  ],
+  "effort": "40–70 人日（1 前端 + 1.5 美术 + 0.5 策划），美术素材量产为瓶颈"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/7b/18/557b18b6-f0c3-537a-55cd-985a2e021a69/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/07/15/aa071511-e5d8-95c0-7419-5dfa4b468912/1290x2796-_U002b.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/1d/72/871d726f-f801-7b2f-3ac2-a62371ad2d98/00_U5de7_U97f5_U88c5_U4fee.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/a1/4f/e1a14f6a-e8ec-66fd-d6ca-92c9b0fad823/01_U5408_U6210_U4e07_U8c61.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/fe/f2/6bfef269-1b8e-97ea-a9a1-37b500884707/02_U7ecf_U8425_U8336_U697c.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/22/ae/4d22ae1d-69ad-7621-d2c8-90f749264e8e/03_U9082_U9005_U60c5_U7f18.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/cd/b3/e9cdb384-e534-8223-0b60-fd107cb2362e/04_U5947_U6848_U7384_U673a.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/5b/93/785b935a-1513-5726-65bd-7aa08faa5fd8/05_U58a8_U67d3_U5343_U79cb.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/00/48/1e004858-af9b-4227-a646-40d25cce27cd/06_U6d85_U69c3_U91cd_U751f.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/dc/fe/46dcfe73-85fc-b8a4-69e1-0b9720ffdaa6/2048x2732_U002b0.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/42/d3/5142d393-d9fa-7868-4ffb-d411ec80dea1/00_U5de7_U97f5_U88c5_U4fee.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/b9/59/48b95978-177c-5218-9302-cb3a2809d846/01_U5408_U6210_U4e07_U8c61.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/03/c3/9c03c35f-3519-8722-d308-970dd8eb4454/02_U7ecf_U8425_U8336_U697c.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/2c/92/9c2c9272-0beb-bccc-8507-bfbfd02676e6/03_U9082_U9005_U60c5_U7f18.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/4b/5c/f24b5c3c-1fcb-9b7b-cdc0-6d8ff06f5790/04_U5947_U6848_U7384_U673a.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/bf/52/18bf52c9-1d06-1355-0fea-c23f1f2edf77/05_U58a8_U67d3_U5343_U79cb.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/2e/58/2d2e58ee-1e07-bb18-9f33-2473f81e13ec/06_U6d85_U69c3_U91cd_U751f.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 16"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体1.69GB(官方App Store iOS)，美术/音频素材量级极重",
+   "level": "confirmed"
+  },
+  {
+   "claim": "开发商为广州喜势网络科技有限公司",
+   "level": "confirmed"
+  },
+  {
+   "claim": "古风合成经营+大女主复仇叙事为主打（来自官方商店描述）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断为Unity（依据包体与系统规模，未见官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%A2%A6%E5%B9%BB%E6%B6%88%E9%99%A4%E6%88%98/id6748513887?uo=4",
+  "https://www.jz5u.com/game/62184.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "梦幻消除战",
+  "country": "cn",
+  "track_id": 6748513887,
+  "seller": "GuangZhou Xishi Network Technology Company Limited",
+  "genres": [
+   "游戏",
+   "休闲",
+   "益智解谜"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/7b/18/557b18b6-f0c3-537a-55cd-985a2e021a69/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/07/15/aa071511-e5d8-95c0-7419-5dfa4b468912/1290x2796-_U002b.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/1d/72/871d726f-f801-7b2f-3ac2-a62371ad2d98/00_U5de7_U97f5_U88c5_U4fee.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/a1/4f/e1a14f6a-e8ec-66fd-d6ca-92c9b0fad823/01_U5408_U6210_U4e07_U8c61.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/fe/f2/6bfef269-1b8e-97ea-a9a1-37b500884707/02_U7ecf_U8425_U8336_U697c.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/22/ae/4d22ae1d-69ad-7621-d2c8-90f749264e8e/03_U9082_U9005_U60c5_U7f18.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/cd/b3/e9cdb384-e534-8223-0b60-fd107cb2362e/04_U5947_U6848_U7384_U673a.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/5b/93/785b935a-1513-5726-65bd-7aa08faa5fd8/05_U58a8_U67d3_U5343_U79cb.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/00/48/1e004858-af9b-4227-a646-40d25cce27cd/06_U6d85_U69c3_U91cd_U751f.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/dc/fe/46dcfe73-85fc-b8a4-69e1-0b9720ffdaa6/2048x2732_U002b0.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/42/d3/5142d393-d9fa-7868-4ffb-d411ec80dea1/00_U5de7_U97f5_U88c5_U4fee.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/b9/59/48b95978-177c-5218-9302-cb3a2809d846/01_U5408_U6210_U4e07_U8c61.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/03/c3/9c03c35f-3519-8722-d308-970dd8eb4454/02_U7ecf_U8425_U8336_U697c.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/2c/92/9c2c9272-0beb-bccc-8507-bfbfd02676e6/03_U9082_U9005_U60c5_U7f18.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/4b/5c/f24b5c3c-1fcb-9b7b-cdc0-6d8ff06f5790/04_U5947_U6848_U7384_U673a.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/bf/52/18bf52c9-1d06-1355-0fea-c23f1f2edf77/05_U58a8_U67d3_U5343_U79cb.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/2e/58/2d2e58ee-1e07-bb18-9f33-2473f81e13ec/06_U6d85_U69c3_U91cd_U751f.jpg/626x1112bb.jpg"
+  ],
+  "description": "合成装修，指尖筑华庭\n经营茶楼，商海竞千帆\n邂逅情缘，执手共赴约\n奇案玄机，拨雾现真形\n墨染千秋，唯美古风韵\n\n《梦幻消除战》——古风合成经营手游** \n \n**浴火重生逆天改命，素手重振百年茶坊**  \n\n真心错付，商贾豪强之女一朝沦落，家破人亡\n结局已定？当然不！重来一世，打脸渣男渣女！\n复仇逆袭，运筹帷幄，杯盏间成就天下第一茶楼\n案子，破！元宝，赚！踏上属于你的大女主之路\n\n**【核心玩法】**  \n\n**合成经营**——重振天下第一茶楼  \n- 三片嫩叶合成特级龙井，五份原料调配御用茶点  \n- 百款唐宋风格家具自由搭配，打造传奇茶楼盛景  \n\n**绮遇情缘**——邂逅命定良人  \n- 温润茶道大师、潇洒江湖剑客、神秘异域商人  \n- 每段缘分暗藏机遇，助力商业版图扩张  \n\n**谜案追踪**——揭开灭门真相  \n- 从落魄千金到商界女杰，步步为营扭转命运  \n- 抽丝剥茧探查灭门惨案，让真凶血债血偿  \n\n**古韵风华**——沉浸式体验古代生活\n- 精致古风场景，真实还原古代盛景    \n---  \n\n**【游戏特色】**  \n轻松治愈的合成建造玩法  \n高自由度的古风经营系统  \n多线发展的甜蜜情缘故事  \n持续更新的主题家具服装  \n\n**立即下载，开启你的古风逆袭人生！**",
+  "release_notes": "修复版本已知BUG，优化功能调用",
+  "file_size_bytes": 1692333056,
+  "min_os": "12.0",
+  "version": "1.5.57",
+  "release_date": "2025-12-10",
+  "rating": 4.64651,
+  "rating_count": 5010,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E6%A2%A6%E5%B9%BB%E6%B6%88%E9%99%A4%E6%88%98/id6748513887?uo=4",
+  "fetched_at": "2026-09-14T23:51:03+08:00"
+ },
+ "slug": "梦幻消除战_79869b"
+}

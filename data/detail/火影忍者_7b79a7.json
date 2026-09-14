@@ -1,0 +1,215 @@
+{
+ "schema_version": 1,
+ "name": "火影忍者",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 13
+  },
+  "platform_app_ids": {
+   "ios": "955396648"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 13,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "2.5D（3D 渲染格斗）",
+  "art_style": "3D 动漫渲染，火影 IP 美术",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 5,
+   "physics": 3,
+   "logic": 4,
+   "data": 5,
+   "server": 4,
+   "audio": 4
+  },
+  "dim_notes": {
+   "engine": "Unity 但需自建横版格斗框架与决斗场同步，框架成本高",
+   "art": "包体约 3.08GB（很重），海量忍者 3D 模型 + 忍术特效 + 场景",
+   "anim": "骨骼动画 + 全屏奥义大招特效，动作表现顶级",
+   "logic": "忍者收集/养成 + 3V3 实时 PK + 组织战 + 秘卷，系统复杂",
+   "data": "海量忍者养成/装备/通灵/组织多线，数值体系极重",
+   "server": "3V3 实时真人对决 + 组织战，强联网",
+   "audio": "日语 CV + 忍术音效 + 主题曲，音频资产重"
+  },
+  "asset_notes": "3D 动漫渲染 + 3.08GB 重包体，素材与动作资源是主要成本。",
+  "notes": "腾讯魔方（Morefun）出品，Unity 开发，火影 IP 独占。",
+  "cost_score": 4.25,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "选忍者→闯关/3V3 决斗→搓招连打与全屏奥义→赢取资源养成忍者，一局数分钟，靠收集与 PK 续玩。",
+  "highlights": [
+   "螺旋丸/千鸟等忍术全屏特效的打击爽感",
+   "3V3 实时 PK 的操作对抗",
+   "百忍收集 + 组织羁绊的养成目标"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（横版格斗 + 动漫 IP 授权）"
+  ],
+  "target_user": "15-30 岁火影粉丝与格斗用户",
+  "monetization": "IAP 内购（忍者/金币/月卡）为主",
+  "lifecycle": "长线运营，靠新忍者/平衡性更新"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "强动漫 IP（火影忍者）独占 + 3.08GB 重包体 + 成熟格斗框架，复刻版权与成本双高，且赛道已被本作锁死。",
+  "suggestions": [
+   "可用自研 IP 做「横版连打格斗」原型练手，但不得套用火影"
+  ],
+  "risks": [
+   "火影忍者 IP 授权",
+   "重包体小游戏化困难",
+   "格斗手感与平衡调校门槛高"
+  ],
+  "effort": "极高 / 200+ 人日"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/48/e6/2848e651-522a-cef2-2fac-1bcb0752d0de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/c8/eb/dfc8eb68-c6d7-990a-c9d3-6fd6891475aa/6.5_X_2688-1242_1__U00283_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/1d/4c/971d4c51-26fe-9994-1947-7f1bbfca3cea/6.5_X_2688-1242_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/c8/eb/edc8eb45-533e-ed93-ef01-47bde0a457fe/6.5_X_2688-1242_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/f3/9d/50f39dd9-05a9-e3ea-ec84-88bcd8490906/6.5_X_2688-1242_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/7f/78/997f78c6-3e8c-9cc5-5bdf-a568eca78240/6.5_X_2688-1242_5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/3b/d5/143bd5d3-298c-4d06-8d4e-98576c5d34ff/13.0_iPad_2732-2048_1__U00283_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/60/f7/d660f71e-93a1-8baa-4d2b-115254b7221c/13.0_iPad_2732-2048_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4f/7e/6c/4f7e6c61-44d0-1f92-bf45-989157b95308/13.0_iPad_2732-2048_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/ec/b3/63ecb3d0-2cd9-6742-deab-6a5c11a382ed/13.0_iPad_2732-2048_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/5a/d4/d05ad4cf-6873-5779-7ccb-e5be60f07476/13.0_iPad_2732-2048_5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体约 3.08GB（3310259200 字节），属「很重」量级",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（腾讯魔方开发，公开资料确认）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85/id955396648?uo=4"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2.5D（3D 渲染格斗）"
+ ],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "火影忍者",
+  "country": "cn",
+  "track_id": 955396648,
+  "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+  "genres": [
+   "游戏",
+   "娱乐",
+   "动作",
+   "角色扮演"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/48/e6/2848e651-522a-cef2-2fac-1bcb0752d0de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/c8/eb/dfc8eb68-c6d7-990a-c9d3-6fd6891475aa/6.5_X_2688-1242_1__U00283_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/1d/4c/971d4c51-26fe-9994-1947-7f1bbfca3cea/6.5_X_2688-1242_2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/c8/eb/edc8eb45-533e-ed93-ef01-47bde0a457fe/6.5_X_2688-1242_3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/f3/9d/50f39dd9-05a9-e3ea-ec84-88bcd8490906/6.5_X_2688-1242_4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/7f/78/997f78c6-3e8c-9cc5-5bdf-a568eca78240/6.5_X_2688-1242_5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/3b/d5/143bd5d3-298c-4d06-8d4e-98576c5d34ff/13.0_iPad_2732-2048_1__U00283_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/60/f7/d660f71e-93a1-8baa-4d2b-115254b7221c/13.0_iPad_2732-2048_2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4f/7e/6c/4f7e6c61-44d0-1f92-bf45-989157b95308/13.0_iPad_2732-2048_3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/ec/b3/63ecb3d0-2cd9-6742-deab-6a5c11a382ed/13.0_iPad_2732-2048_4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/5a/d4/d05ad4cf-6873-5779-7ccb-e5be60f07476/13.0_iPad_2732-2048_5.jpg/626x1112bb.jpg"
+  ],
+  "description": "火影忍者-疾风传登场，百忍集结，强力降临\n【游戏介绍】\n《火影忍者》手游100%正统还原原著剧情，全新疾风传篇章登场，十年百忍强力降临，玩家可以任意扮演鸣人、佐助、宇智波鼬等高级忍者，体验酣畅淋漓的忍术格斗连打和全屏奥义大招。\n\n【游戏福利】\n登录领忍者，完成新手任务，提升战力，领取数千金币豪礼！\n\n【游戏特色】\n——正统还原，原汁原味的动漫再现\n真实木叶场景一览无余，中忍考试、三忍对决、佐助夺回、终结谷之战……经典剧情逐一重温，热血凭格斗重燃！\n——忍术格斗，酣畅淋漓的无限连打\n超强打击，拳拳到肉！螺旋丸、影分身、千鸟、木叶旋风、飞雷神……经典忍术任性施放，极致特效，炫放全屏！ \n——忍者收集，随心所欲的忍者出战\n传说忍者任你驱遣操作，木叶十二小强、指导上忍、传说三忍、砂之国忍者……告别单一角色体验，任意切换，肆意挥洒！\n——组队闯关，一键邀请的好友助阵\n与好友一同挑战经典boss，赢取传说密卷。数十种密卷技能随意选择，各种策略搭配助你称霸忍界！\n——生存挑战，纵横忍界的全服制霸\n挑选最强忍者阵容，挑战各路高手，赢取通关丰厚奖励！\n——实时PK，热血刺激的真人对决\n3V3实时真人对决，靠操作冲击忍界巅峰！通过iOS9的replaykit功能，提供战斗录像回放分享，保留经典战斗记录，分享荣誉瞬间！\n——通灵兽召唤，震撼全屏的超强召唤术\n忍犬、蛤蟆、蓝蛇、忍龟、猿魔……通灵兽小伙伴儿震撼全场，秒杀全屏！\n——忍者组织，开启全新的三次元羁绊\n独创迎击叛忍玩法。参与大型公会战，保卫家园，争夺资源，让“晓”也要臣服在你脚下！\n——支持Replaykit，3D Touch新特性\n游戏支持replaykit录屏特性，iOS9以上玩家可将决斗场战斗过程录像并分享给好友，展示自己的超强操作；支持3Dtouch新特性，iPhone 6s和iPhone 6s Plus等机型玩家用力点击icon可选择进入决斗场、组织、活动中心等场景。\n\n【特别说明】\n在游戏《火影忍者》中，用户登录时可以选择“与QQ好友玩/与微信好友玩”，两种登录方式在iOS设备上的游戏数据不互通（包括等级、金币、铜币等）。用户在游戏中购买的游戏代币“金币”仅限在本应用中使用。腾讯的虚拟货币，比如Q币、Q点无法在本应用中使用。",
+  "release_notes": "《火影忍者》手游新版本来袭。新忍者登场，登录动画、加载界面和决斗场背景更换为宇智波鼬[晓·朱]主题，忍者平衡性调整。\n\n全新内容\n>>>新忍者\n宇智波鼬[晓·朱]、大蛇丸[传说中的三忍]、角都[晓·北]、白[中秋限定]、迪鲁达、风祭萌黄[古堡奇遇]。\n\n>>>新界面\n登录动画、加载界面和决斗场背景替换为宇智波鼬[晓·朱]主题。\n\n>>>平衡性调整\n本次忍者：宇智波带土[十尾人柱力]、无[二代目土影]、大筒木浦式[异星钓者]、勘九郎[指导上忍]、纲手[妖怪奇谭]、宇智波鼬[红夜之刃]等。详细调整内容请参考游戏内公告。",
+  "file_size_bytes": 3310259200,
+  "min_os": "12.0",
+  "version": "1.79.79.9",
+  "release_date": "2016-01-07",
+  "rating": 4.61897,
+  "rating_count": 3933990,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85/id955396648?uo=4",
+  "fetched_at": "2026-09-15T00:39:55+08:00"
+ },
+ "slug": "火影忍者_7b79a7"
+}

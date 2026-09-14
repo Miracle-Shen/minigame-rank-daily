@@ -1,0 +1,237 @@
+{
+ "schema_version": 1,
+ "name": "四季合合",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "青岛蓝飞互娱科技股份有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/畅销榜"
+  ],
+  "ranks": {
+   "douyin/畅销榜": 18
+  },
+  "platform_app_ids": {
+   "douyin": "tt210457b9be35faff07"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 65,
+  "best_rank": 9,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator / Unity (推断)",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "温暖插画风 2D 室内外场景",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 2,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "381MB 包体含大量插画场景与 300+ 物品图标、序列帧动画，素材量重",
+   "logic": "7×9 棋盘合成、300+ 物品合成树、建造与双线剧情，内容量大"
+  },
+  "asset_notes": "插画场景与 300+ 物品图标是主要素材成本，可用 AI 生图+人工修图批量产出",
+  "notes": "《旅行串串》续作，合成+装饰成熟品类，机制无壁垒",
+  "cost_score": 2.88,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "在 7×9 棋盘上拖动两个相同物品合成更高阶物品，完成订单赚金币，用金币装饰小屋/解锁四季岛新区域，现实老宅与异世界双线剧情随等级推进。",
+  "highlights": [
+   "合成瞬间新物品弹出的惊喜感 + 订单完成的连贯正反馈",
+   "双线叙事（烟火老宅 vs 奇幻四季岛）让合成有目标感而非无脑堆叠",
+   "小屋自由 DIY + 声灵 NPC 好感，把单局爽感接到长线收集"
+  ],
+  "innovations": [
+   "无实质创新，是《旅行串串》式合成+装饰成熟品类的续作，执行优化为主"
+  ],
+  "target_user": "20-35 岁女性，偏爱治愈/装饰/叙事的休闲用户",
+  "monetization": "IAA+IAP 混合（体力/广告复活 + 装扮/去广告内购）",
+  "lifecycle": "长线运营，靠每月主题活动中与 minigame 维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "合成+装饰是成熟品类，机制与数值无壁垒，瓶颈在美术题材与内容量；换题材（如中式古建/宠物店）最划算。",
+  "suggestions": [
+   "把题材换成'中药铺/旧物修复'，合成药材或老物件更具知识感",
+   "首关把合成链缩短到 3 阶，降低新手挫败",
+   "用 UGC 小屋分享替代纯装饰，增强社交留存"
+  ],
+  "risks": [
+   "原品已长线运营、内容量深，后来者需追内容",
+   "合成品类买量竞争中等"
+  ],
+  "effort": "40–70 人日（1 前端+1 美术+0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/64/14/ae641476-cb91-5fc0-a4ac-b79c640e8531/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/be/62/32/be623284-8635-3b08-6fb6-05d7b7459684/bfe94e73-152a-4037-b215-4c5b68171eae_1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/3e/48/ee3e4872-73e3-8ad8-3a0c-4c40c4ce14e9/6a7d438e-5d0f-4328-a842-a81f5510d1bb_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/7a/76/397a7663-94b7-87ea-8438-b52cf1c95f85/93c1c4c7-f08c-4e65-92b8-92b492a69d07_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/5a/83/6f5a8349-b22c-0b21-4948-f279a08f48d1/fda82eed-48f7-46ee-9702-ccae9903e3b0_20231011-155855.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/14/0d/ed/140ded74-a225-f94d-6de4-8827091ecc5e/ccae7a41-3597-4f10-b56f-207d85b29046_20240125-134857.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/20/d4/8a20d4e7-964a-f227-8741-eb93379d5342/16257a54-b407-4614-9cff-321853159e0b_20231011-155850.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/23/ea/5323ea44-4037-3a13-baf3-3e4a6779bee5/35500fc0-542b-4c0f-8d14-9d60dc8e973a_1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/bd/45/b1bd45f9-e857-4156-5ece-1e3205a78063/71ba0217-812a-45a5-bf09-230ee4353f03_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/52/b0/0652b07e-e888-08c3-c87b-6015a32bfd1b/780b6c47-1354-48c5-85e7-0a00d43532a6_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/30/cb/7e30cb4c-b534-ecd0-1b35-5f19e58b3c2a/9ed4390c-3b0a-4331-adc8-0f6f992813cc_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3a/d3/b5/3ad3b515-e652-f4ca-730c-294fde69cd83/c6874be6-6419-4116-ae8d-6e3782fccd64_5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/53/6c/46536c16-76ae-dfde-201b-22edb4d1eab5/0bc64ba6-d5cf-4e32-9bc6-d911e166a9c4_20231012-112127.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/49/f6/0449f631-60e4-ad7f-a4c7-2b1a2fb4a735/f942572a-d834-4a94-85f7-ac64e973ed77_20231012-112134.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4a/60/9d/4a609d4a-4d60-4660-550a-977cf9e5a3f6/df3e4828-2932-43f9-976e-ec38c264c1d3_20231012-112152.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 381MB（250–600MB 区间，素材量重）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎未找到官方确认，按同类合成小游戏推断 Cocos/Unity",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E5%9B%9B%E5%AD%A3%E5%90%88%E5%90%88/id6468249909",
+  "https://kunpo.cc/games/sijihehe.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "四季合合",
+  "country": "cn",
+  "track_id": 6468249909,
+  "seller": "Chengdu Lanfei Huyu Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "休闲",
+   "生活"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/64/14/ae641476-cb91-5fc0-a4ac-b79c640e8531/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/be/62/32/be623284-8635-3b08-6fb6-05d7b7459684/bfe94e73-152a-4037-b215-4c5b68171eae_1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/3e/48/ee3e4872-73e3-8ad8-3a0c-4c40c4ce14e9/6a7d438e-5d0f-4328-a842-a81f5510d1bb_2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/7a/76/397a7663-94b7-87ea-8438-b52cf1c95f85/93c1c4c7-f08c-4e65-92b8-92b492a69d07_3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/5a/83/6f5a8349-b22c-0b21-4948-f279a08f48d1/fda82eed-48f7-46ee-9702-ccae9903e3b0_20231011-155855.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/14/0d/ed/140ded74-a225-f94d-6de4-8827091ecc5e/ccae7a41-3597-4f10-b56f-207d85b29046_20240125-134857.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/20/d4/8a20d4e7-964a-f227-8741-eb93379d5342/16257a54-b407-4614-9cff-321853159e0b_20231011-155850.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/23/ea/5323ea44-4037-3a13-baf3-3e4a6779bee5/35500fc0-542b-4c0f-8d14-9d60dc8e973a_1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/bd/45/b1bd45f9-e857-4156-5ece-1e3205a78063/71ba0217-812a-45a5-bf09-230ee4353f03_2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/52/b0/0652b07e-e888-08c3-c87b-6015a32bfd1b/780b6c47-1354-48c5-85e7-0a00d43532a6_3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/30/cb/7e30cb4c-b534-ecd0-1b35-5f19e58b3c2a/9ed4390c-3b0a-4331-adc8-0f6f992813cc_4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3a/d3/b5/3ad3b515-e652-f4ca-730c-294fde69cd83/c6874be6-6419-4116-ae8d-6e3782fccd64_5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/53/6c/46536c16-76ae-dfde-201b-22edb4d1eab5/0bc64ba6-d5cf-4e32-9bc6-d911e166a9c4_20231012-112127.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/49/f6/0449f631-60e4-ad7f-a4c7-2b1a2fb4a735/f942572a-d834-4a94-85f7-ac64e973ed77_20231012-112134.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4a/60/9d/4a609d4a-4d60-4660-550a-977cf9e5a3f6/df3e4828-2932-43f9-976e-ec38c264c1d3_20231012-112152.jpg/626x1112bb.jpg"
+  ],
+  "description": "久违的四季岛，我来啦！\n\n在全新的《四季合合》中，我们将带给你带来全新的故事，也准备了大量充满惊喜的全新内容~~\n\n1.全新的地图，插画风室内室外设计。\n《四季合合》采用场景大地图+室内解锁的模式为你呈现主线故事情节，你将通过不断解锁“现实世界”——老宅与“异世界”——四季岛两个平行时空的线索，探寻四季岛的秘密。\n\n2.大量NPC登场，女主的真实身份成谜\n《四季合合》采用无限流的剧情，女主晨宛将不断在现实与异世界中穿梭。清扫老宅发现神奇的莫比乌斯环项链，打开尘封的仓库大门只身闯入异世界；在异世界中，结识大量NPC，他们的诉求似乎又与现实世界相互关联……\n现实中与她有着微妙关系的青梅竹马、顶头上司、当红小鲜肉以及青年警官，在四季岛也有着完全不一样的身份。\n\n3.爽快的棋盘玩法，多种多样的mini游戏\n《四季合合》采用7×9的棋盘布局，主线任务有上百个待解锁物品，游戏中还隐藏了大量隐藏合成路线和任务。别忘了阅读每一件物品的小故事哦~\n除此之外，《四季合合》还为你精心准备了大量minigame以及诸多奖励活动！每天都有新鲜的东西可以玩啦~",
+  "release_notes": "~《四季合合》1.5.26版本更新内容 ~\n\n1.麦香暖心，秋意入怀~全新织梦岛【暖秋麦语】即将限时开启！海量装扮等你收集，建设独一无二的专属小岛~\n2.全新活动【海滩砰砰砰】来袭！发射炮弹，击败捣蛋的海怪，赢丰富奖励！\n3.推开那扇，通往青春的教室门~全新活动【校园间奏】即将开启！可获得限定装扮等超多惊喜奖励~\n4.主线更新！本次我们将动身前往新区域【仙踪汤泉】、【巅峰雪场】、【暮雪钟楼镇】。赚取金币，向新区域进发吧！",
+  "file_size_bytes": 381053952,
+  "min_os": "14.0",
+  "version": "1.5.26",
+  "release_date": "2024-01-03",
+  "rating": 4.15182,
+  "rating_count": 1897,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E5%9B%9B%E5%AD%A3%E5%90%88%E5%90%88/id6468249909?uo=4",
+  "fetched_at": "2026-09-15T00:38:53+08:00"
+ },
+ "slug": "四季合合_9823ff"
+}

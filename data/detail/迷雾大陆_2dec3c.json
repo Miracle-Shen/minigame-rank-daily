@@ -1,0 +1,107 @@
+{
+ "schema_version": 1,
+ "name": "迷雾大陆",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "北京豪腾创想科技有限公司",
+  "category_l1": "角色",
+  "category_l2": "ARPG",
+  "boards": [
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 15
+  },
+  "platform_app_ids": {
+   "wx": "wxfd4afe02d65b4972"
+  },
+  "first_seen": "2026-07-12",
+  "appearances": 18,
+  "best_rank": 14,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2.5D",
+  "art_style": "2.5D 暗黑卡通，竖屏（据检索）",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 5,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "随机拼接秘境 + 装备词条 + 技能树 + 流派构筑 + 赛季，系统耦合深",
+   "data": "装备萃取/职业套装/赛季传承/宠物多线养成 + 经济循环，数值体系极重"
+  },
+  "asset_notes": "微信小游戏版轻量化（几十 MB），暗黑卡通精灵 + 装备图标为主，素材量级中等；重在做深数值与流派。",
+  "notes": "北京豪腾创想（咸鱼之王系）出品，微信小游戏畅销榜常青树；引擎按豪腾系常见选型推断 Cocos Creator，未确认。",
+  "cost_score": 3.12,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "单指拖动移动→角色自动释放技能刷秘境→掉装备/学技能→构筑流派（暴击流/召唤流等）→冲更高难度与赛季爬层，单局 3-10 分钟。",
+  "highlights": [
+   "自动战斗 + 随机词条的「割草」爽感与开荒成正反馈",
+   "技能树 + 装备套装衍生上万种 Build，硬核探索欲",
+   "赛季传承机制兼顾新鲜感与养成延续"
+  ],
+  "innovations": [
+   "把端游「暗黑like 刷宝」浓缩进轻量微信小游戏，竖屏单指 + 自动战斗降低门槛（品类打法创新，非机制原创）"
+  ],
+  "target_user": "20-40 岁暗黑/刷子爱好者，碎片时间",
+  "monetization": "IAP 内购（赛季手册/皮肤/抽装备）为主，微氪友好",
+  "lifecycle": "长线运营，靠赛季与新职业/地图更新"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "微信小游戏畅销榜常青树，暗黑like 刷宝循环已被验证且轻量化（几十 MB），无强 IP 壁垒，机制可整体照搬，换题材（修仙/西游）即差异化，成本可控、ROI 高。",
+  "suggestions": [
+   "题材换为「修仙/西游 暗黑like」，保留 刷秘境-掉装-流派构筑-赛季 四段循环",
+   "强化单指自动战斗 + 随机词条，维持低门槛",
+   "照搬赛季传承机制保留长线留存"
+  ],
+  "risks": [
+   "暗黑like 赛道已有迷雾大陆头部，需买量突围",
+   "装备数值平衡需专人调"
+  ],
+  "effort": "50–80 人日（2–3 人 + 数值策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法为暗黑like 刷宝 ARPG 微信小游戏（多来源检索确认）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Cocos Creator（豪腾系小游戏常见选型，未确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://mumu.163.com/widget/detail/?app_id=25061",
+  "https://m.18183.com/zhxz/8841769.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:40:01+08:00"
+ },
+ "slug": "迷雾大陆_2dec3c"
+}

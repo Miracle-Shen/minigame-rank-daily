@@ -1,0 +1,107 @@
+{
+ "schema_version": 1,
+ "name": "掼蛋",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "杭州边锋网络技术有限公司",
+  "category_l1": "棋牌",
+  "category_l2": "牌类",
+  "boards": [
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/畅玩榜": 15
+  },
+  "platform_app_ids": {
+   "wx": "wxb7d9498283885fb2"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 10,
+  "profile_value": "abandoned",
+  "profile_abandoned": true,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": "杭州边锋网络技术有限公司"
+  }
+ },
+ "tech": {
+  "engine": "Native / H5 (推断)",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "棋牌 UI 写实卡牌",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 4,
+   "audio": 2
+  },
+  "dim_notes": {
+   "server": "实时联机匹配/好友房间/全服排行，联网架构是主要成本"
+  },
+  "asset_notes": "卡牌 UI 与牌面贴图素材极轻，无 3D 资产",
+  "notes": "杭州边锋出品，公开规则掼蛋的标准数字版",
+  "cost_score": 2.25,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "四人结对、两副牌对抗，遵循苏皖正宗掼蛋规则（逢人配/进贡回贡），单局约 5 分钟，靠牌技与队友配合取胜；含 AI 陪练与赛事模式。",
+  "highlights": [
+   "还原地道规则 + 智能理牌/一键托管，新手 3 分钟上手",
+   "微信好友组队/私人房间 + 全服排行，强社交开黑",
+   "内置教学营降低门槛，高阶技巧靠实战"
+  ],
+  "innovations": [
+   "无实质创新，属公开规则的掼蛋品类标准化数字版，执行优化为主"
+  ],
+  "target_user": "30-55 岁江浙沪及全国棋牌用户，社交导向",
+  "monetization": "IAA 为主（广告福利/记牌器），轻内购（特效牌背）",
+  "lifecycle": "长线运营，DAU 破百万的国民级棋牌"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "掼蛋规则公开无版权壁垒，机制易复刻；瓶颈在品牌与社交关系链，换皮+本地赛事即可差异化。",
+  "suggestions": [
+   "接入本地棋牌社群运营（如'粤语掼蛋'）做区域差异化",
+   "增加'残局挑战'单机关卡降低纯联网依赖",
+   "用 AI 陪练替代部分真人匹配，早期冷启动更稳"
+  ],
+  "risks": [
+   "边锋已占头部、DAU 破百万",
+   "棋牌类涉及合规与版号",
+   "社交关系链难迁移"
+  ],
+  "effort": "30–45 人日（1 前端+1 后端+0.5 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "杭州边锋网络技术有限公司出品，日活破百万",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎未确认，按棋牌小游戏惯例推断 Native/H5",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://news.qq.com/rain/a/20240131A085IO00",
+  "https://gameabc.com"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:39:11+08:00"
+ },
+ "slug": "掼蛋_83b2c6"
+}

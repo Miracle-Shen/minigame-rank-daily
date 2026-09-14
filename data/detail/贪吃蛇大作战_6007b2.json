@@ -1,0 +1,213 @@
+{
+ "schema_version": 1,
+ "name": "贪吃蛇大作战®",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Wuhan Weipai Network Technology Co., Ltd.",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 14
+  },
+  "platform_app_ids": {
+   "ios": "1120536875"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 13,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "confirmed",
+  "dimension": "2D / 2.5D",
+  "art_style": "2D 卡通 Q 萌蛇身与皮肤",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 3,
+   "logic": 4,
+   "data": 4,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体约 1.24GB（很重），海量蛇皮肤/活动 3D 贴图与特效",
+   "logic": "实时多人 .io 竞争 + 团战 + 皮肤经济，规则虽简但系统多",
+   "data": "皮肤/SSS/通行证/养成多线，数值与收集体系重",
+   "server": "实时多人 .io 联网，需低延迟状态同步，服务端成本最高"
+  },
+  "asset_notes": "2D 卡通蛇身 + 1.24GB 重皮肤资产，素材靠皮肤量产；核心瓶颈在实时联网服务端。",
+  "notes": "武汉微派出品，Cocos Creator 开发（技术负责人访谈确认）。",
+  "cost_score": 3.62,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "摇杆控制小蛇吃光点变长→用走位让别人撞自己蛇身→吃尸体迅速变长，无尽/限时/团战，一局 1-3 分钟。",
+  "highlights": [
+   "「以小搏大」逆袭：小蛇灵活绕杀大蛇的爽感",
+   "加速拦截/急停甩头等操作博弈",
+   "皮肤/段位/团战提供收集与社交目标"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（Agar.io 式 .io 蛇战 + 移动端操作优化）"
+  ],
+  "target_user": "全龄休闲竞技用户",
+  "monetization": "IAA 广告 + IAP（皮肤/会员/通行证）混合",
+  "lifecycle": "长线运营，靠皮肤与活动更新"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "核心 .io 机制已被验证但实时多人联机（服务端 5）门槛高，且蛇蛇/球球类头部固化；照抄撞车，需改一处结构（换题材/玩法变体）才成立。",
+  "suggestions": [
+   "换题材为「贪吃虫/太空吞噬」降低撞车",
+   "加入 PVE Boss 战降低纯实时联机压力"
+  ],
+  "risks": [
+   "实时联机服务端成本高",
+   ".io 赛道被头部产品锁死",
+   "买量成本偏高"
+  ],
+  "effort": "60–90 人日（含实时服务端）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/13/26/9c132636-f737-40dd-9c87-fef41d1888b2/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/ff/7d/abff7db5-38d5-0a7b-00ee-15dee568b60b/_U753b_U677f_1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/c2/e1/00c2e1d1-40af-737f-338f-ac730787b166/02.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/5e/db/ee5edb10-d732-eb97-26f0-fbb4c83d076f/20251027-170730.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/a0/8e/a7a08e88-bf11-40de-a23f-01660d6761b6/04.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/f7/be/e7f7be79-5d20-6be7-fa0b-27d41b9fd5b7/05.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/fb/d1/99fbd145-101b-9c82-c403-676d60a1a28b/1_2752x2064.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/95/5d/38955db8-e982-68b7-cabe-8678622915f2/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/76/a4/bc76a4d6-5d87-be89-f4fb-ee91207e992b/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/e8/a5/3be8a574-6d3f-9874-486b-3904f233df3f/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2f/95/5d/2f955d4e-67ac-93bb-05d4-6cd87b42bb94/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体约 1.24GB（1302130688 字节），属「很重」量级",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Cocos Creator（微派技术负责人访谈确认）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E8%B4%AA%E5%90%83%E8%9B%87%E5%A4%A7%E4%BD%9C%E6%88%98/id1120536875?uo=4"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2D / 2.5D"
+ ],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "贪吃蛇大作战®",
+  "country": "cn",
+  "track_id": 1120536875,
+  "seller": "Wuhan Weipai Network Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "冒险",
+   "体育",
+   "动作"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/13/26/9c132636-f737-40dd-9c87-fef41d1888b2/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/ff/7d/abff7db5-38d5-0a7b-00ee-15dee568b60b/_U753b_U677f_1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/c2/e1/00c2e1d1-40af-737f-338f-ac730787b166/02.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/5e/db/ee5edb10-d732-eb97-26f0-fbb4c83d076f/20251027-170730.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/a0/8e/a7a08e88-bf11-40de-a23f-01660d6761b6/04.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/f7/be/e7f7be79-5d20-6be7-fa0b-27d41b9fd5b7/05.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/fb/d1/99fbd145-101b-9c82-c403-676d60a1a28b/1_2752x2064.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/95/5d/38955db8-e982-68b7-cabe-8678622915f2/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/76/a4/bc76a4d6-5d87-be89-f4fb-ee91207e992b/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/e8/a5/3be8a574-6d3f-9874-486b-3904f233df3f/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2f/95/5d/2f955d4e-67ac-93bb-05d4-6cd87b42bb94/5.jpg/626x1112bb.jpg"
+  ],
+  "description": "这是一款超好玩的休闲竞技游戏，不仅比拼手速，更考验你的策略！在贪吃蛇大作战的世界中，每个人在初始都化身为一条小蛇，通过不断努力变得越来越长，最终制霸一方！\n\n游戏玩法\n1.控制摇杆走位你的小蛇，吃掉地图上彩色的小圆点，就会变长。\n2.小心！蛇头碰到其他贪吃蛇就会死亡，并且产生大量小圆点。\n3.长按加速键，用巧妙的走位让蛇身被别人撞上，就可以吃掉尸体迅速变长。\n4.无尽模式or限时模式or团战模式，和小伙伴们比比谁更长吧！\n\n游戏特色\n【以小搏大，战局随时都会逆袭】\n你长你厉害，我短我灵活！大蛇不再有统治性的地位，小蛇们更灵活，战局随时都有可能逆转！\n\n【简单有趣，老少皆宜的全民游戏】\n不管是什么年龄、什么性别、什么职业，只要简单的在屏幕上戳戳戳，就能在贪吃蛇大作战找到满满的乐趣！\n\n【战斗技巧，老司机教你几招】\n急速超车拦截蛇头、急停甩头抢道、180度华丽飘逸、画个圈圈诅咒你…这些都是战斗技巧！\n谁说贪吃蛇大作战只靠手速？策略也很重要，当然如果你恰好单身又练过手速 —— 完美！\n\n【这个游戏有毒，根本停不下来】\n超Q超萌画风，一局一局像中毒了一样，根本停不下来，哈哈哈哈哈！\n\n如果你喜欢贪吃蛇大作战，欢迎随时给我们留下宝贵的意见，推荐给好友一起来玩哦~\n\n贪吃蛇大作战官方QQ群：\n贪吃蛇大作战快乐基地1：818547971\n贪吃蛇大作战快乐基地2：527092013\n\n\n更多资讯，请关注微信公众号【贪吃蛇大作战】，获取免费金币、贪吃攻略！\n\n贪吃蛇大作战会员连续包月服务说明：\n1、贪吃蛇大作战会员连续包月服务有以下俩种订购类型：\n13元/连续包月小礼包\n35元/连续包月超值礼包\n2、订购贪吃蛇大作战会员服务会通过iTunes 账户直接支付\n3、在订购服务到期前 24小时，系统将按订购类型\n进行自动续订和扣除相应费用。\n4、如需要关闭连续包月服务，请至少提前 24小时\n在“账号设置”中进行操作。\n5、隐私政策及用户使用条款：\n隐私协议：http://www.tcsdzz.com/policies_detail_official.html\n用户服务协议：https://www.tcsdzz.com/user_agreement/official.html",
+  "release_notes": "本周活动更新\n亲爱的蛇宝们～本周活动预告准时送达！快来和蛇蛇一起看看吧～\n功能优化\n新增聊天频道消息被误拦可「点此反馈」功能；\n长按本人发送的聊天消息可一键复制，口令码分享更方便；\n优化了恭喜获得弹窗的奖励数字展示\n\n活动更新\n【9月3日】蛇蛇地区榜\n  蛇蛇地区榜震撼来袭！玩无尽，皮肤等超值好礼等你赢~\n【9月3日】咪咪喵喵\n  超值通行证来袭！仅需12元即可解锁进阶奖励线，专属B级皮肤「尖尖角猫」、大量苹果通通带走！性价比超高，千万别错过哦～\n【9月3日】充值1.7倍\n  苹果充返福利来啦！活动期间充值苹果即享1.7倍返利，超值返利机会不容错过！快来囤苹果吧～\n【9月3日】累充赢SS\n活动期间，完成指定的累计充值，即可解锁SS级限定礼物、更有全新S级限定礼物、限定头像框等丰厚奖励等你获取！快来充值赢取你的专属豪礼吧~\n【9月3日】蛇宝存钱罐\n消耗苹果拿返利~花的越多，存的越多，送的越多\n【9月3日】泼墨游影\n  金鳞之主·墨染皮肤降临~参与抽奖仅需1元，即可有机会赢取SS级皮肤「金鳞之主·墨染」及多重稀有奖励！快来试试你的好运吧！\n【9月3日】一起来跳科目三\n  超强升星福利来袭，完成任务即领升星加速卡，一起轻松升星到王者！蛇宝们冲呀~\n【9月3日】极速对决+完美邂逅\n极速对决&完美邂逅一起来啦！参与PK获胜17场即可领取S级限定礼物，送出指定礼物还可累计“走步数”活动进度哦！\n【9月3日】处女座之愿\n星座主题“处女座之愿”通行证来啦~全新SSS皮肤惊艳登场！豪华版加赠专属S头像框、S主页挂件，一起聆听星座的召唤吧~\n【9月3日】【锻造工坊】\n“锻造工坊”重磅回归！蛇宝们可以通过放入两枚戒指进行锻造，还有大量神秘奖励等你来拿哦！",
+  "file_size_bytes": 1302130688,
+  "min_os": "13.0",
+  "version": "5.44.5",
+  "release_date": "2016-06-08",
+  "rating": 4.51231,
+  "rating_count": 2049195,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E8%B4%AA%E5%90%83%E8%9B%87%E5%A4%A7%E4%BD%9C%E6%88%98/id1120536875?uo=4",
+  "fetched_at": "2026-09-15T00:39:57+08:00"
+ },
+ "slug": "贪吃蛇大作战_6007b2"
+}

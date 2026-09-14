@@ -1,0 +1,226 @@
+{
+ "schema_version": 1,
+ "name": "赘婿",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "安徽盈趣网络科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 10
+  },
+  "platform_app_ids": {
+   "douyin": "tteb179daa7577318907"
+  },
+  "first_seen": "2026-07-06",
+  "appearances": 36,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / Cocos（inferred）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "手绘国风，宋代街市烟火气",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "logic": 4,
+   "anim": 2,
+   "physics": 1,
+   "data": 4,
+   "server": 2,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体436MB属重度，手绘国风街市/人物/产业资产量大",
+   "logic": "模拟经营含多产业扩张+动态议价+门客红颜+公会+小游戏，系统较多",
+   "data": "多线养成+经济循环+公会社交"
+  },
+  "asset_notes": "手绘国风立绘与场景资产量大（436MB），美术是主要成本之一。",
+  "notes": "广州/安徽盈趣，愤怒的香蕉小说正版授权，商战经营+爽文叙事。",
+  "cost_score": 2.88,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "穿越成苏家赘婿，从摆摊起步经营布庄/酒楼/药铺等产业，用‘拼刀刀砍价/会员制/直播带货/外卖’等现代商战思维扩张商业版图。",
+  "highlights": [
+   "现代商业思维碾压古代商局的‘反差爽’，砍价/直播等梗密集",
+   "门客+红颜羁绊增益，养成的正反馈清晰",
+   "咸鱼翻身为首富的爽文叙事节奏"
+  ],
+  "innovations": [
+   "把‘现代电商话术’（砍价/会员/直播/外卖）套进古代经营，形成反差幽默",
+   "无实质机制创新，属模拟经营成熟框架的IP化执行"
+  ],
+  "target_user": "男性向爽文/模拟经营用户，20–40岁",
+  "monetization": "IAA+IAP混合（基金/抽卡/去广告，推测）",
+  "lifecycle": "长线，靠产业线/节日活动维持"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "改编自愤怒的香蕉小说正版授权，克隆有IP风险；商战经营机制虽可复刻，但需另立原创剧本才能规避版权。",
+  "suggestions": [
+   "用原创‘穿越经商’剧本替代IP，保留现代商战反差玩法",
+   "聚焦‘动态议价+产业链经营’做轻量原型",
+   "换为其他爽文IP需先获授权"
+  ],
+  "risks": [
+   "小说IP版权（愤怒的香蕉授权盈趣）",
+   "手绘国风美术体量大、成本高",
+   "模拟经营数值与留存调优难"
+  ],
+  "effort": "80–140 人日（仅技术侧，不含IP授权）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/05/36/9005365f-03a2-53a2-3bc8-84a89256bde1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/93/c6/ff93c647-c12e-36f2-2f31-78b34dfc53f4/1-1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/06/4f/f2064f43-688f-8050-150e-16cf3d9532c9/2-1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/1b/89/051b8951-b2bc-0cbf-e0f4-2f2c9fe182d8/3-1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/67/84/f467849e-6df4-9ded-fe76-e9f745f9401d/4-1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/c2/c0/02c2c00f-0466-690a-45ab-7c22a4c7662b/5-1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/4e/4a/794e4a21-de1a-8036-0def-2c0af4df8515/6-1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/0a/85/640a8590-b7a1-5433-1de7-edc249860c71/1-2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/d2/51/b0d25125-5b6e-c4df-7494-f42dda007bc9/2-2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9b/68/5d/9b685d1d-fe98-3d3d-2be2-6d3c3fd205ce/3-2048x2732.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/45/0e/4f450e98-2c63-c9b2-a14d-5c3fb54c07d3/4-2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/df/da/bcdfdaaa-adc7-1e75-74a3-28a7b7d72c0d/5-2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/7e/33/467e337f-f5d8-ae6a-1e72-fc782904b848/6-2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体436MB，古风模拟经营，愤怒的香蕉小说正版授权，广州盈趣",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为Unity/Cocos",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E8%B5%98%E5%A9%BF/id6759699808?uo=4",
+  "https://m.vqs.com/down/274231.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "赘婿",
+  "country": "cn",
+  "track_id": 6759699808,
+  "seller": "Guangzhou Yingxin Network Technology Company Ltd.",
+  "genres": [
+   "游戏",
+   "休闲",
+   "模拟"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/05/36/9005365f-03a2-53a2-3bc8-84a89256bde1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/93/c6/ff93c647-c12e-36f2-2f31-78b34dfc53f4/1-1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/06/4f/f2064f43-688f-8050-150e-16cf3d9532c9/2-1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/1b/89/051b8951-b2bc-0cbf-e0f4-2f2c9fe182d8/3-1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/67/84/f467849e-6df4-9ded-fe76-e9f745f9401d/4-1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/c2/c0/02c2c00f-0466-690a-45ab-7c22a4c7662b/5-1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/4e/4a/794e4a21-de1a-8036-0def-2c0af4df8515/6-1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/0a/85/640a8590-b7a1-5433-1de7-edc249860c71/1-2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/d2/51/b0d25125-5b6e-c4df-7494-f42dda007bc9/2-2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9b/68/5d/9b685d1d-fe98-3d3d-2be2-6d3c3fd205ce/3-2048x2732.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/45/0e/4f450e98-2c63-c9b2-a14d-5c3fb54c07d3/4-2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/df/da/bcdfdaaa-adc7-1e75-74a3-28a7b7d72c0d/5-2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/7e/33/467e337f-f5d8-ae6a-1e72-fc782904b848/6-2048x2732.jpg/626x1112bb.jpg"
+  ],
+  "description": "「哪怕是赘婿，我也能东山再起。」\n《赘婿》是由正版ip授权，改编自愤怒的香蕉同名小说的模拟经营手游。\n\n一朝穿越成赘婿，本想轻松吃软饭，奈何实力不允许！\n这一次，你将化身小小“赘婿”，从苏家小透明到江宁首富，以现代智慧搅动玩转古代商场，把赘婿生活过成爽文！\n\n—— 爆笑剧情，还原经典，名场面全收录\n红盖头、新郎服，欢送姑爷上花轿！\n从大婚日子到苏家掌印争夺，再到江宁诗会，经典名场面将由你亲身演绎！\n\n—— 现代智慧，玩转古代，轻松就能赚大钱\n虽说商场如战场，但拥有现代商业思维的你，小小对手不在话下！\n拼了么砍价、会员积分制、直播带货、外卖配送......小小\"骚\"操作，让古代大亨们目瞪口呆去吧！\n\n—— 咸鱼翻身，首富人生，爽文剧情我日常\n曾被苏家狠嫌弃，现今已成顶梁柱；你曾笑我\"吃软饭\"，现在都随我打杂！\n开局一咸鱼？不，我直接翻身当金主！\n\n—— 红颜知己，伴你左右，穿越古代不孤单\n与苏檀儿共掌商途，陪小婵斗嘴日常，助刘西瓜整顿霸刀营。\n红颜知己与你相伴，或甜宠或虐心。谁说赘婿不能醒掌天下权，醉卧美人膝？",
+  "release_notes": "【夜市摊王】\n华灯初上，百摊争旺！姑爷小姐派遣门客驻守摊位、挑战对手抢占旺铺，就能持续积累营业额与夜市资金，向夜市头号摊主发起冲击！\n【武林大会】\n武林大会就要开始了~小婵觉得，下一任武林萌主非姑爷小姐莫属啦！快和公会成员合力打出更高伤害吧~\n【带货达人】\n听说姑爷小姐要勇闯直播业，还要携红颜登台带货？那不得炸翻全江宁呀，小婵这就先去下单啦！晚了说不定就排不上了~\n【鸭王争霸】\n是斗鸭大乱斗！哼哼，小婵我就不信，整个江宁城还有谁家斗鸭能比我们姑爷小姐多，这场大赛冠军非我们莫属啦！\n【时尚中心】\n哇！好多漂亮衣服啊！！时尚中心营业之后可以去逛逛门客和红颜的服装了，还可使用霞光锦、流云纱兑换心仪装扮呢——姑爷小姐，小婵也想要~\n【新增服装】\n新增了好多新衣服呀！【乔三·自得其乐】【宋团·天降美食】【康贤·鸭王争霸】【夏冰·秉烛问案】【小璞·鬼市交易】【十三娘·孤注一掷】华服各展风姿，闲趣与美味一同登场！\n【其他优化内容】\n1. 优化书院招生、上课表现及学徒合作排序，学徒信息更加清晰，查看与选择更加方便。\n2. 优化公会快捷转会提示、转会申请通过后新增邮件通知。\n8. 优化斗鸭技能洗练表现，修复技能洗练卡顿等问题。\n3. 新增【高帧率】选项、城建一键升级、梁山平寇自动出战功能等。",
+  "file_size_bytes": 436648960,
+  "min_os": "13.0",
+  "version": "1.6.2",
+  "release_date": "2026-08-11",
+  "rating": 4.84067,
+  "rating_count": 6314,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E8%B5%98%E5%A9%BF/id6759699808?uo=4",
+  "fetched_at": "2026-09-15T00:37:13+08:00"
+ },
+ "slug": "赘婿_8ae84a"
+}

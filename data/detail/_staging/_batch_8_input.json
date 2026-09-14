@@ -1,0 +1,768 @@
+{
+ "batch": 8,
+ "total_batches": 9,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_8.json",
+ "games": [
+  {
+   "name": "Township",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 19
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Playrix",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 11,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 0.92,
+    "match_name": "梦想城镇 - Township",
+    "country": "cn",
+    "track_id": 1612426573,
+    "seller": "Beijing Wei Wo Le Yuan Information and Technology Co., Ltd",
+    "genres": [
+     "游戏",
+     "娱乐",
+     "休闲",
+     "益智解谜"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/72/26/e572260a-112c-d034-e328-319ea515b152/AppIconChina-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/ff/47/e0ff47c9-03fe-582f-7e62-7ff8310943cc/1284x2778_ts_aso_screenshot138_CN_v01_p1_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/ff/db/27ffdb62-d464-bf08-e61a-ee75166eba9b/1284x2778_ts_aso_screenshot138_CN_v01_p2_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8b/60/ef/8b60efbe-99c4-8d80-a55c-f8cd4a6009ff/1284x2778_ts_aso_screenshot138_CN_v01_p3_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ff/fc/29fffceb-c8cf-2cf7-3085-7b7c2c9ee764/1284x2778_ts_aso_screenshot138_CN_v01_p4_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/4e/8b/694e8b4c-9b08-ed31-e57a-5006fb260bec/1284x2778_ts_aso_screenshot138_CN_v01_p5_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/55/44/e95544ce-1bc2-a445-e3ae-f5b08b9402f1/1284x2778_ts_aso_screenshot138_CN_v01_p6_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/66/db/6966dbb1-1803-2707-afb1-62d01971c469/1284x2778_ts_aso_screenshot138_CN_v01_p7_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/09/c2/f409c213-fed5-0653-0a05-f13a1319d61c/1284x2778_ts_aso_screenshot138_CN_v01_p8_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/e9/8b/3fe98b86-c9e6-505d-5c24-fac75f6c3182/2048x2732_ts_aso_screenshot138_CN_v01_p1_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/f6/a7/70f6a794-771b-4426-741e-86f40f71ecc1/2048x2732_ts_aso_screenshot138_CN_v01_p2_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/fb/04/c2fb04a3-4e10-2656-f72c-e4d88be0be38/2048x2732_ts_aso_screenshot138_CN_v01_p3_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/f7/60/d4f7603a-bbde-dcf4-aca8-78f927ab90c8/2048x2732_ts_aso_screenshot138_CN_v01_p4_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/28/f4/3228f48d-887b-0a38-6358-c9f24ba0ae7c/2048x2732_ts_aso_screenshot138_CN_v01_p5_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/8f/5e/ea8f5ed3-6cfc-fa88-6536-044b14f1c43d/2048x2732_ts_aso_screenshot138_CN_v01_p6_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f0/4d/1b/f04d1b98-7bee-fbe1-f57d-e37613ec91e1/2048x2732_ts_aso_screenshot138_CN_v01_p7_as.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/c0/b8/13c0b8fd-5484-2ad9-169c-7a0ecff19cc3/2048x2732_ts_aso_screenshot138_CN_v01_p8_as.png/626x1112bb.jpg"
+    ],
+    "description": "新版本即将上线！\n《梦想城镇》上新啦！\n\n全新卡牌收藏\n* 全新“海滩收藏”为你带来夏日风情！集齐所有卡牌即可获得专属徽章和其他奖品！\n\n赛季冒险\n* 在欢乐的浪潮中享受阳光！开通航海通行证和夏日通行证，赢取资源来发展和装饰你的小镇！\n\n惊险刺激的新冒险\n* 瑞秋必须在希腊腹地追寻失落文明的足迹，抢在危险的寻宝猎人之前找到传说中的蓝宝石——“雅典娜之泪”！\n* 李察德和朋友们出发寻找麦克劳特的家族宝藏，解开古老庄园的谜团，智取狡猾的罪犯，并揭开古老机关的秘密！\n\n其他亮点\n* 在全新的赛舟会赛季中前往希腊和夏威夷！\n* 全新三消元素：青蛙！\n* 全新小镇建筑：陶艺工作室",
+    "release_notes": "新版本即将上线！\n《梦想城镇》全新内容！\n\n全新卡牌收藏\n* 收集全新的“丰收”卡牌集，沉浸在丰收和秋日庆典的氛围中！集齐所有卡牌即可获得专属徽章和其他奖品！\n\n赛季冒险：\n* 探索海洋深处，庆祝丰收季！“海底通行证”和“丰收通行证”将为你带来丰厚奖励，助你发展和装饰城镇！\n\n惊险新冒险：\n* 瑞秋必须揭开一个可疑岛屿定居点的秘密，解救被囚禁的朋友，并找回被走私者偷走的宝藏！\n* 与理查德组队，解开神秘UFO的谜团，阻止一场宇宙灾难！\n\n其他亮点：\n*法国蔚蓝海岸的全新赛舟会赛季！\n*全新三消元素：鱼饵盒！\n*全新城镇建筑：射箭场！",
+    "file_size_bytes": 281321472,
+    "min_os": "13.0",
+    "version": "38.1.1",
+    "release_date": "2022-04-18",
+    "rating": 4.84011,
+    "rating_count": 809555,
+    "price": "免费",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/cn/app/%E6%A2%A6%E6%83%B3%E5%9F%8E%E9%95%87-township/id1612426573?uo=4",
+    "fetched_at": "2026-09-15T00:39:34+08:00"
+   }
+  },
+  {
+   "name": "地铁跑酷 - 寻灵山海古都归来",
+   "boards": [
+    "ios/国区免费榜"
+   ],
+   "ranks": {
+    "ios/国区免费榜": 11
+   },
+   "category_l1": "游戏",
+   "category_l2": "",
+   "publisher": "iDreamSky Technology Limited",
+   "first_seen": "2026-09-11",
+   "appearances": 4,
+   "best_rank": 11,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "地铁跑酷 - 寻灵山海古都归来",
+    "country": "cn",
+    "track_id": 995122577,
+    "seller": "iDreamSky Technology Limited",
+    "genres": [
+     "游戏",
+     "冒险",
+     "动作",
+     "娱乐"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/56/2a/fc562ac2-2a7d-5d99-cb62-4136cc398a01/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/d5/83/31d583c3-b8bf-6fcc-e88a-08bb6f4ef10b/01.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/cd/ae/65cdae59-4f0f-be56-63c6-9a83295b3a21/04.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/4b/74/474b7475-81c2-e894-c9e6-b82ed0a6300c/03.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/5d/2d/d85d2d0a-057b-328d-9c80-ba00005c9e07/05.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/74/a2/f7/74a2f76d-c557-185b-cf73-5f26760b5578/02.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/0c/9d/e50c9d83-a40e-5289-0058-2da53a9c36a5/1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1e/39/f4/1e39f495-5520-c55a-dfe0-6e0c58453253/05.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/3b/f1/1f3bf181-b756-b988-83da-49ac51e0a2b7/04.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/09/d6/ee09d6a2-0aa6-1158-12cb-ded28ac01e4a/03.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/7f/b8/7a7fb867-a90f-9186-adf4-7a9cadf174c9/02.jpg/626x1112bb.jpg"
+    ],
+    "description": "【游戏特色】\n《地铁跑酷》洛阳神游版本开启！重返千年神都洛阳，穿行古朴城楼、恢弘宫阙与传统街巷，在古都风光与山海奇境交织的赛道中，开启一场跨越千年的东方奇幻之旅。烛龙、绾璃、白泽、精卫四位全新角色登场，携专属装备带你探寻山海神话。版本活动同步开启，参与烛映神都、山河同庆签到，领取限定奖励；爱玛电动车集字抽奖二期回归，快影联动角色惊喜登场。赛季秘典、山海绘卷、累计消费、主题盲盒等丰富玩法同步上线，经典角色盲盒限时返场。来到洛阳，穿越古今山海，邂逅神话传说，开启属于你的神都奇旅！\n\n\n--3D酷跑、环游世界\n地铁跑酷每一个版本都会带你观赏一个城市的风采，全世界所有城市，在游戏中都有可能遇见，特色的地铁、特色的城市美景，在你眼中大方光彩，以绚烂美丽的一面刻印在你的脑海中!\n--风靡全球、广受好评\n大家都在玩！聚会、下课、坐公交、坐地铁、休闲在家，随时随地来一局，轻松挑战历史纪录，体验突破自我的快感。\n\n【游戏介绍】\n游戏的背景设定在地铁铁轨上，玩家要帮助杰克和淘气的小伙伴们逃离警察的追捕，闪避前方障碍物与往来的地铁。\n简单的上手操作，丰富的游戏画面，众多的城市场景，让你爱不释手！\n《地铁跑酷》作为一款全球知名的精品手游，已多次登上各大排行榜。\n小伙伴，还等什么，让熊孩子杰克带你环游全世界吧！\n\n【联系我们】\n如果你喜欢我们的游戏，欢迎随时给我们评价、留言。\n\n地铁跑酷官方公众号：ditiepaoku2015\n地铁跑酷官方网站：http://pao.uu.cc\n地铁跑酷官方群：819098101\n地铁跑酷官方微博：地铁跑酷官方\n\n\n【注意事项】\n《地铁跑酷》订阅说明与 Apple官方订阅功能\n1．订阅价格与周期\n您可在游戏內订阅炫跑卡特权礼包（订阅价格为6元订阅周期为30天）\n2．关于订阅内容\n订阅特权礼包的用户，可以在订阅期內立即获得免除游戏内插页广告展示的特权，特权在游戏中立即生效；\n3．订阅价格与周期\n您可在游戏内订阅炫跑卡会员（订阅价格为6元订阅周期为30天）\n4．关于订阅内容\n订阅炫跑卡会员的用户，可以在订阅期內每天领取钥匙，特权在游戏中立即生效；\n5．关于自动续订\n苹果 App Store官方订阅功能为自动续费订阅。用户需手动在 iTunes／ Apple ID设置管理中关闭自动续订功能，如果订阅期结束前的一天内未关闭自动续订功能，订阅周期会自动延续；\n6．隐私政策及声明\n隐私声明：https://www.idreamsky.com/3472.html?type=privacy\n服务条款：https://www.idreamsky.com/3472.html?type=agreement\n\n微博：地铁跑酷官方\n微信公众号：地铁跑酷  (ditiepaoku2015)",
+    "release_notes": "《地铁跑酷》洛阳神游版本开启！于千年神都，追寻山海传说的奇幻踪迹！\n【洛阳神游地图返场】\n穿越千年时光，再临古都洛阳！疾驰于古朴城楼、恢弘宫阙与传统街巷之间，山海异兽与神话意象点缀赛道，在历史风韵与东方幻想交织的奇境中，开启一场跨越千年的神都奇旅！\n【一念山海角色登场】\n太古神祇烛龙长眠大荒极北，睁眼为昼、闭眼为夜，执掌山海时序。青丘九尾绾璃与他相伴万古，却因永生执念走向情缘终局。上古异灵精卫冲破归墟封印，山海司白泽奉命引渡，在因果交错中展开宿命羁绊。烛龙、绾璃、白泽、精卫四位全新角色登场，带你见证一场爱与宿命交织的山海传说！\n【爱玛联动，集字赢豪礼】\n地铁跑酷携手爱玛电动车再度开启限时集字抽奖活动！通过跑酷开箱集字，集齐即可兑换开奖券，参与每周抽奖，更有机会赢取爱玛电动车等丰厚好礼！\n【快影联动，潮流角色登场】\n全新联动伙伴快影杰克惊喜登场！经典角色融入潮流剪辑元素，焕新打造独特视觉形象，为洛阳神游之旅注入全新活力。\n【赛季焕新，山海宝藏等你探索】\n全新赛季进度系统上线，赛季秘典、赛季任务与赛季商城一站式整合。主题秘典「山海寻踪」开启，完成任务获取赛季币，解锁丰富奖励；「山海绘卷」同步上线，收集角色解锁专属卡片，集齐指定数量即可兑换限定滑板「灯笼」。同时开启限定签到、付费打卡册、累计消费、主题盲盒等丰富活动；不仅如此，经典金钥匙盲盒角色还会限时返场，更多神都珍藏等你探索！",
+    "file_size_bytes": 1535279104,
+    "min_os": "11.0",
+    "version": "7.06.0",
+    "release_date": "2017-01-23",
+    "rating": 4.65365,
+    "rating_count": 5365129,
+    "price": "免费",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E9%93%81%E8%B7%91%E9%85%B7-%E5%AF%BB%E7%81%B5%E5%B1%B1%E6%B5%B7%E5%8F%A4%E9%83%BD%E5%BD%92%E6%9D%A5/id995122577?uo=4",
+    "fetched_at": "2026-09-15T00:39:36+08:00"
+   }
+  },
+  {
+   "name": "天天斗地主真人版",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 19
+   },
+   "category_l1": "棋牌",
+   "category_l2": "牌类",
+   "publisher": "深圳市禅游科技股份有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 68,
+   "best_rank": 12,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "天天斗地主（真人版）-官方",
+    "country": "cn",
+    "track_id": 1624651835,
+    "seller": "Shenzhen Shi Jiu You Network Technology Co., Ltd.",
+    "genres": [
+     "游戏",
+     "卡牌",
+     "桌面"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/55/a9/4055a915-b06c-8c0a-e161-4ddc68fb7fd6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cd/f3/25/cdf32561-ae92-d542-6449-b2a0dfab55af/1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/ad/5e/30ad5ebb-8ee7-7457-8e4d-9b22b1c85f7f/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/1f/a3/de1fa3a5-6059-7409-54e5-35af94282b03/4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/e2/5c/67e25c65-cf38-2648-22b7-589f2ddb61e8/5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/2f/58/f82f5847-3196-aec6-2c49-f936a66f20d9/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/7a/a3/c77aa373-dfc6-3a6b-67d2-b9bd7ae1f56f/1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/09/bb/ff09bb1c-f29e-194f-4b0e-f5092888566c/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/5b/f9/955bf9b0-c10e-419e-ff32-40cd9d1a837e/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/39/c6/7f39c6dd-991c-cbf6-5556-7dd7a79d0630/4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/01/c0/0101c010-8499-959b-0b2a-9f13b55a309a/5.jpg/626x1112bb.jpg"
+    ],
+    "description": "超过1亿次安装的斗地主游戏！\n千万用户好评如潮，倾情推荐。\n三人、四人都能玩的斗地主。\n\n游戏特色\n\n 超多玩法：经典+癞子+欢乐+比赛，想怎么玩就怎么玩。\n\n 火爆活动：热辣活动，精彩不停！赢就赢个痛快！\n\n 精美画面：精致场景+经典人物，一起决战到天亮！\n\n VIP服务：每天福利游戏豆、看谁不爽就踢走，让你尽享主宰乐趣！",
+    "release_notes": "游戏bug修复及性能优化",
+    "file_size_bytes": 229877760,
+    "min_os": "10.0",
+    "version": "1.1.3",
+    "release_date": "2022-07-14",
+    "rating": 4.73288,
+    "rating_count": 33266,
+    "price": "免费",
+    "advisory": "17+",
+    "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E6%96%97%E5%9C%B0%E4%B8%BB-%E7%9C%9F%E4%BA%BA%E7%89%88-%E5%AE%98%E6%96%B9/id1624651835?uo=4",
+    "fetched_at": "2026-09-15T00:39:38+08:00"
+   }
+  },
+  {
+   "name": "全能大闯关",
+   "boards": [
+    "douyin/热门榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 12
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "重庆苍玄科技有限公司",
+   "first_seen": "2026-09-13",
+   "appearances": 2,
+   "best_rank": 12,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:39:42+08:00"
+   }
+  },
+  {
+   "name": "咕嘎咕嘎",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 12
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "合肥金蛋互动科技有限公司",
+   "first_seen": "2026-09-11",
+   "appearances": 3,
+   "best_rank": 12,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:39:46+08:00"
+   }
+  },
+  {
+   "name": "EA College Football Mobile 27",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 17
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Electronic Arts",
+   "first_seen": "2026-08-22",
+   "appearances": 24,
+   "best_rank": 12,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "EA College Football Mobile 27",
+    "country": "us",
+    "track_id": 6759412341,
+    "seller": "EA Swiss Sarl",
+    "genres": [
+     "Games",
+     "Simulation",
+     "Sports",
+     "Sports"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/2e/a5/632ea5a5-33e3-d96b-49da-9b733c81a90b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/50/17/2b501730-2d6b-4830-3ea2-fffa9baacf4b/CFBM27_SS1_Gameplay_2688x1242.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/47/bb/8b47bbca-3462-3aad-d8d7-e60248b534db/CFBM27_SS2_Mascot_2688x1242.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/a5/a7/37a5a778-ca7a-8109-7dc0-662e696e7b8e/CFBM27_SS3_SelectTeam_2688x1242.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/55/ad/4b55ad84-9d97-2eac-d7bf-f13c6c96e91b/CFBM27_SS4_MyTeam_2688x1242.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/d5/26/77d526ea-522d-57ea-35da-bb6e2d53a2d0/CFBM27_SS5_MainMenu_2688x1242.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/7f/36/887f367b-5cd0-cba4-3ef4-1882fba30210/CFBM27_SS6_Portal_2868x1242.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/33/8f/9e338f08-b50b-7169-febd-163972ce9c8f/CFBM27_SS1_Gameplay_2732x2048.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/47/78/3747785e-872f-8712-8fbc-c9dfe1480d83/CFBM27_SS2_Mascot_2732x2048.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/d1/8e/0bd18eb8-fbeb-9f99-1b72-cb23107d9492/CFBM27_SS3_SelectTeam_2732x2048.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/6c/56/316c56b4-69ea-38bc-44a1-49b3cd4546e3/CFBM27_SS4_MyTeam_2732x2048.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/37/dc/5b37dc3b-4de1-dfc1-4c35-c7281a5a2f91/CFBM27_SS5_MainMenu_2732x2048.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/4d/bf/f94dbfce-348c-dab9-2436-5810df70cf7a/CFBM27_SS6_Portal_2732x2048.jpg/626x1112bb.jpg"
+    ],
+    "description": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items. .\n\nCreate and play your college football Ultimate Team™ in EA SPORTS™ College Football Mobile 27.\n\nBuild your dream program as you recruit future stars, develop your roster, and lead your school through unforgettable college football seasons. Experience authentic college football traditions, fierce rivalries, real-world gameplay moments, and strategic team-building designed specifically for mobile.\n\nWhether you're building a National Championship contender, managing your recruiting class, or taking on your fiercest rival, every decision shapes the future of your program.\n\nDownload EA SPORTS™ College Football Mobile 27 and start building your team today.\n\nNOTICE: College Football 27 Mobile is best enjoyed on iPhone 13 Pro, iPhone 13 Pro Max, and all iPhone 14, 15, 16, and 17 models, iPad Pro (M1 or newer), iPad Air (5th generation or newer), and iPad mini (A17 Pro)\n\nEA SPORTS™ COLLEGE FOOTBALL MOBILE 27 FEATURES\n\nAUTHENTIC COLLEGE FOOTBALL EXPERIENCE\n\n* Experience the traditions, rivalries, and excitement of college football\n* Compete in authentic gameplay inspired by real-world college football programs and teams\n* Manage your favorite programs\n* Play through seasonal events inspired by the biggest moments in college football\n* Feel the passion of game day from your mobile device\n\nREAL-WORLD GAMEPLAY\n\n* Experience live events connected to the college football season\n* Re-live major matchups and memorable moments\n* Take on new challenges throughout the season\n* Earn rewards and strengthen your program\n\nBUILD YOUR PROGRAM with DYNASTY RUSH MODE (Coming Soon)\n\n* Manage real-world college football programs over multiple seasons\n* Recruit top prospects and build your program from the ground up\n* Manage recruiting classes and navigate the transfer portal\n* Build your team of college stars through long-term progression systems\n* Experience dynamic storylines and season-defining decisions\n* Create a legacy across multiple college football seasons\n\nBUILD YOUR ULTIMATE TEAM™ \n\n* Collect and upgrade players\n* Build a team tailored to your playstyle\n* Improve team chemistry and performance\n* Complete challenges and earn rewards throughout the season\n* Create your dream college football lineup\n* Use strategy throughout each season to build a team that’s leagues better than the rest\n* Enjoy a fresh and fun twist on college football competition with your favorite mascots\n* Celebrate school traditions in exciting new ways\n\nFOOTBALL MANAGER GAMEPLAY\n\n* Manage your roster and guide your team to victory\n* Make strategic decisions on and off the field\n* Develop players and strengthen your program\n* Showcase your coaching skills and football knowledge \n* Manage a championship-winning culture with your team\n\nNEXT-LEVEL COLLEGE FOOTBALL VISUALS\n\n* Experience immersive stadium environments\n* Enjoy enhanced graphics and authentic game-day presentation\n* Feel the atmosphere of college football rivalries and traditions\n* Watch your program come to life with dynamic visuals and gameplay\n\nRequires acceptance of EA’s Privacy & Cookie Policy and User Agreement. Requires an Internet connection (network fees may apply). Contains direct links to the Internet. EA may retire online features after 30 days’ notice posted on ea.com/service-updates.\n\nUser Agreement: terms.ea.com \nPrivacy and Cookie Policy: privacy.ea.com \n\nNotice at Collection\nhttps://www.ea.com/legal/privacy-and-cookie-policy#information-for-california-residents\n\nYour Privacy Choices\nhttps://www.ea.com/legal/privacy-portal?modal-id=targetedAdvertisingProvidedByThirdParties",
+    "release_notes": "Game-day performance just got a massive upgrade right in time for kickoff week!\n\nWe’ve expanded device compatibility, bringing College Football Mobile to even more hardware, including iPhone 13 Pro and iPhone 14 models.  \n\nWe’ve also cut our overall app size down to less than 9GB. That means faster downloads, seamless updates, and more free space on your device. This update also delivers stability enhancements to keep your game running smooth.  \n\nLoad up and dominate the gridiron!",
+    "file_size_bytes": 1254866944,
+    "min_os": "26.0",
+    "version": "1.3.0",
+    "release_date": "2026-07-09",
+    "rating": 4.43858,
+    "rating_count": 14508,
+    "price": "Free",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/us/app/ea-college-football-mobile-27/id6759412341?uo=4",
+    "fetched_at": "2026-09-15T00:39:49+08:00"
+   }
+  },
+  {
+   "name": "欢乐少年酷跑",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 13
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "厦门大橙互娱科技有限公司",
+   "first_seen": "2026-09-13",
+   "appearances": 2,
+   "best_rank": 13,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:39:53+08:00"
+   }
+  },
+  {
+   "name": "火影忍者",
+   "boards": [
+    "ios/国区免费榜"
+   ],
+   "ranks": {
+    "ios/国区免费榜": 13
+   },
+   "category_l1": "游戏",
+   "category_l2": "",
+   "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 13,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "火影忍者",
+    "country": "cn",
+    "track_id": 955396648,
+    "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+    "genres": [
+     "游戏",
+     "娱乐",
+     "动作",
+     "角色扮演"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/48/e6/2848e651-522a-cef2-2fac-1bcb0752d0de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/c8/eb/dfc8eb68-c6d7-990a-c9d3-6fd6891475aa/6.5_X_2688-1242_1__U00283_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/1d/4c/971d4c51-26fe-9994-1947-7f1bbfca3cea/6.5_X_2688-1242_2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/c8/eb/edc8eb45-533e-ed93-ef01-47bde0a457fe/6.5_X_2688-1242_3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/f3/9d/50f39dd9-05a9-e3ea-ec84-88bcd8490906/6.5_X_2688-1242_4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/7f/78/997f78c6-3e8c-9cc5-5bdf-a568eca78240/6.5_X_2688-1242_5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/3b/d5/143bd5d3-298c-4d06-8d4e-98576c5d34ff/13.0_iPad_2732-2048_1__U00283_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/60/f7/d660f71e-93a1-8baa-4d2b-115254b7221c/13.0_iPad_2732-2048_2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4f/7e/6c/4f7e6c61-44d0-1f92-bf45-989157b95308/13.0_iPad_2732-2048_3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/ec/b3/63ecb3d0-2cd9-6742-deab-6a5c11a382ed/13.0_iPad_2732-2048_4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/5a/d4/d05ad4cf-6873-5779-7ccb-e5be60f07476/13.0_iPad_2732-2048_5.jpg/626x1112bb.jpg"
+    ],
+    "description": "火影忍者-疾风传登场，百忍集结，强力降临\n【游戏介绍】\n《火影忍者》手游100%正统还原原著剧情，全新疾风传篇章登场，十年百忍强力降临，玩家可以任意扮演鸣人、佐助、宇智波鼬等高级忍者，体验酣畅淋漓的忍术格斗连打和全屏奥义大招。\n\n【游戏福利】\n登录领忍者，完成新手任务，提升战力，领取数千金币豪礼！\n\n【游戏特色】\n——正统还原，原汁原味的动漫再现\n真实木叶场景一览无余，中忍考试、三忍对决、佐助夺回、终结谷之战……经典剧情逐一重温，热血凭格斗重燃！\n——忍术格斗，酣畅淋漓的无限连打\n超强打击，拳拳到肉！螺旋丸、影分身、千鸟、木叶旋风、飞雷神……经典忍术任性施放，极致特效，炫放全屏！ \n——忍者收集，随心所欲的忍者出战\n传说忍者任你驱遣操作，木叶十二小强、指导上忍、传说三忍、砂之国忍者……告别单一角色体验，任意切换，肆意挥洒！\n——组队闯关，一键邀请的好友助阵\n与好友一同挑战经典boss，赢取传说密卷。数十种密卷技能随意选择，各种策略搭配助你称霸忍界！\n——生存挑战，纵横忍界的全服制霸\n挑选最强忍者阵容，挑战各路高手，赢取通关丰厚奖励！\n——实时PK，热血刺激的真人对决\n3V3实时真人对决，靠操作冲击忍界巅峰！通过iOS9的replaykit功能，提供战斗录像回放分享，保留经典战斗记录，分享荣誉瞬间！\n——通灵兽召唤，震撼全屏的超强召唤术\n忍犬、蛤蟆、蓝蛇、忍龟、猿魔……通灵兽小伙伴儿震撼全场，秒杀全屏！\n——忍者组织，开启全新的三次元羁绊\n独创迎击叛忍玩法。参与大型公会战，保卫家园，争夺资源，让“晓”也要臣服在你脚下！\n——支持Replaykit，3D Touch新特性\n游戏支持replaykit录屏特性，iOS9以上玩家可将决斗场战斗过程录像并分享给好友，展示自己的超强操作；支持3Dtouch新特性，iPhone 6s和iPhone 6s Plus等机型玩家用力点击icon可选择进入决斗场、组织、活动中心等场景。\n\n【特别说明】\n在游戏《火影忍者》中，用户登录时可以选择“与QQ好友玩/与微信好友玩”，两种登录方式在iOS设备上的游戏数据不互通（包括等级、金币、铜币等）。用户在游戏中购买的游戏代币“金币”仅限在本应用中使用。腾讯的虚拟货币，比如Q币、Q点无法在本应用中使用。",
+    "release_notes": "《火影忍者》手游新版本来袭。新忍者登场，登录动画、加载界面和决斗场背景更换为宇智波鼬[晓·朱]主题，忍者平衡性调整。\n\n全新内容\n>>>新忍者\n宇智波鼬[晓·朱]、大蛇丸[传说中的三忍]、角都[晓·北]、白[中秋限定]、迪鲁达、风祭萌黄[古堡奇遇]。\n\n>>>新界面\n登录动画、加载界面和决斗场背景替换为宇智波鼬[晓·朱]主题。\n\n>>>平衡性调整\n本次忍者：宇智波带土[十尾人柱力]、无[二代目土影]、大筒木浦式[异星钓者]、勘九郎[指导上忍]、纲手[妖怪奇谭]、宇智波鼬[红夜之刃]等。详细调整内容请参考游戏内公告。",
+    "file_size_bytes": 3310259200,
+    "min_os": "12.0",
+    "version": "1.79.79.9",
+    "release_date": "2016-01-07",
+    "rating": 4.61897,
+    "rating_count": 3933990,
+    "price": "免费",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/cn/app/%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85/id955396648?uo=4",
+    "fetched_at": "2026-09-15T00:39:55+08:00"
+   }
+  },
+  {
+   "name": "贪吃蛇大作战®",
+   "boards": [
+    "ios/国区免费榜"
+   ],
+   "ranks": {
+    "ios/国区免费榜": 14
+   },
+   "category_l1": "游戏",
+   "category_l2": "",
+   "publisher": "Wuhan Weipai Network Technology Co., Ltd.",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 13,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "贪吃蛇大作战®",
+    "country": "cn",
+    "track_id": 1120536875,
+    "seller": "Wuhan Weipai Network Technology Co., Ltd.",
+    "genres": [
+     "游戏",
+     "冒险",
+     "体育",
+     "动作"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/13/26/9c132636-f737-40dd-9c87-fef41d1888b2/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/ff/7d/abff7db5-38d5-0a7b-00ee-15dee568b60b/_U753b_U677f_1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/c2/e1/00c2e1d1-40af-737f-338f-ac730787b166/02.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/5e/db/ee5edb10-d732-eb97-26f0-fbb4c83d076f/20251027-170730.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/a0/8e/a7a08e88-bf11-40de-a23f-01660d6761b6/04.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/f7/be/e7f7be79-5d20-6be7-fa0b-27d41b9fd5b7/05.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/fb/d1/99fbd145-101b-9c82-c403-676d60a1a28b/1_2752x2064.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/95/5d/38955db8-e982-68b7-cabe-8678622915f2/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/76/a4/bc76a4d6-5d87-be89-f4fb-ee91207e992b/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/e8/a5/3be8a574-6d3f-9874-486b-3904f233df3f/4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2f/95/5d/2f955d4e-67ac-93bb-05d4-6cd87b42bb94/5.jpg/626x1112bb.jpg"
+    ],
+    "description": "这是一款超好玩的休闲竞技游戏，不仅比拼手速，更考验你的策略！在贪吃蛇大作战的世界中，每个人在初始都化身为一条小蛇，通过不断努力变得越来越长，最终制霸一方！\n\n游戏玩法\n1.控制摇杆走位你的小蛇，吃掉地图上彩色的小圆点，就会变长。\n2.小心！蛇头碰到其他贪吃蛇就会死亡，并且产生大量小圆点。\n3.长按加速键，用巧妙的走位让蛇身被别人撞上，就可以吃掉尸体迅速变长。\n4.无尽模式or限时模式or团战模式，和小伙伴们比比谁更长吧！\n\n游戏特色\n【以小搏大，战局随时都会逆袭】\n你长你厉害，我短我灵活！大蛇不再有统治性的地位，小蛇们更灵活，战局随时都有可能逆转！\n\n【简单有趣，老少皆宜的全民游戏】\n不管是什么年龄、什么性别、什么职业，只要简单的在屏幕上戳戳戳，就能在贪吃蛇大作战找到满满的乐趣！\n\n【战斗技巧，老司机教你几招】\n急速超车拦截蛇头、急停甩头抢道、180度华丽飘逸、画个圈圈诅咒你…这些都是战斗技巧！\n谁说贪吃蛇大作战只靠手速？策略也很重要，当然如果你恰好单身又练过手速 —— 完美！\n\n【这个游戏有毒，根本停不下来】\n超Q超萌画风，一局一局像中毒了一样，根本停不下来，哈哈哈哈哈！\n\n如果你喜欢贪吃蛇大作战，欢迎随时给我们留下宝贵的意见，推荐给好友一起来玩哦~\n\n贪吃蛇大作战官方QQ群：\n贪吃蛇大作战快乐基地1：818547971\n贪吃蛇大作战快乐基地2：527092013\n\n\n更多资讯，请关注微信公众号【贪吃蛇大作战】，获取免费金币、贪吃攻略！\n\n贪吃蛇大作战会员连续包月服务说明：\n1、贪吃蛇大作战会员连续包月服务有以下俩种订购类型：\n13元/连续包月小礼包\n35元/连续包月超值礼包\n2、订购贪吃蛇大作战会员服务会通过iTunes 账户直接支付\n3、在订购服务到期前 24小时，系统将按订购类型\n进行自动续订和扣除相应费用。\n4、如需要关闭连续包月服务，请至少提前 24小时\n在“账号设置”中进行操作。\n5、隐私政策及用户使用条款：\n隐私协议：http://www.tcsdzz.com/policies_detail_official.html\n用户服务协议：https://www.tcsdzz.com/user_agreement/official.html",
+    "release_notes": "本周活动更新\n亲爱的蛇宝们～本周活动预告准时送达！快来和蛇蛇一起看看吧～\n功能优化\n新增聊天频道消息被误拦可「点此反馈」功能；\n长按本人发送的聊天消息可一键复制，口令码分享更方便；\n优化了恭喜获得弹窗的奖励数字展示\n\n活动更新\n【9月3日】蛇蛇地区榜\n  蛇蛇地区榜震撼来袭！玩无尽，皮肤等超值好礼等你赢~\n【9月3日】咪咪喵喵\n  超值通行证来袭！仅需12元即可解锁进阶奖励线，专属B级皮肤「尖尖角猫」、大量苹果通通带走！性价比超高，千万别错过哦～\n【9月3日】充值1.7倍\n  苹果充返福利来啦！活动期间充值苹果即享1.7倍返利，超值返利机会不容错过！快来囤苹果吧～\n【9月3日】累充赢SS\n活动期间，完成指定的累计充值，即可解锁SS级限定礼物、更有全新S级限定礼物、限定头像框等丰厚奖励等你获取！快来充值赢取你的专属豪礼吧~\n【9月3日】蛇宝存钱罐\n消耗苹果拿返利~花的越多，存的越多，送的越多\n【9月3日】泼墨游影\n  金鳞之主·墨染皮肤降临~参与抽奖仅需1元，即可有机会赢取SS级皮肤「金鳞之主·墨染」及多重稀有奖励！快来试试你的好运吧！\n【9月3日】一起来跳科目三\n  超强升星福利来袭，完成任务即领升星加速卡，一起轻松升星到王者！蛇宝们冲呀~\n【9月3日】极速对决+完美邂逅\n极速对决&完美邂逅一起来啦！参与PK获胜17场即可领取S级限定礼物，送出指定礼物还可累计“走步数”活动进度哦！\n【9月3日】处女座之愿\n星座主题“处女座之愿”通行证来啦~全新SSS皮肤惊艳登场！豪华版加赠专属S头像框、S主页挂件，一起聆听星座的召唤吧~\n【9月3日】【锻造工坊】\n“锻造工坊”重磅回归！蛇宝们可以通过放入两枚戒指进行锻造，还有大量神秘奖励等你来拿哦！",
+    "file_size_bytes": 1302130688,
+    "min_os": "13.0",
+    "version": "5.44.5",
+    "release_date": "2016-06-08",
+    "rating": 4.51231,
+    "rating_count": 2049195,
+    "price": "免费",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/cn/app/%E8%B4%AA%E5%90%83%E8%9B%87%E5%A4%A7%E4%BD%9C%E6%88%98/id1120536875?uo=4",
+    "fetched_at": "2026-09-15T00:39:57+08:00"
+   }
+  },
+  {
+   "name": "迷雾大陆",
+   "boards": [
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 15
+   },
+   "category_l1": "角色",
+   "category_l2": "ARPG",
+   "publisher": "北京豪腾创想科技有限公司",
+   "first_seen": "2026-07-12",
+   "appearances": 18,
+   "best_rank": 14,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:40:01+08:00"
+   }
+  },
+  {
+   "name": "三国：天命再临",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 14
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "广州星辉娱乐有限公司",
+   "first_seen": "2026-06-30",
+   "appearances": 10,
+   "best_rank": 14,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "三国：天命再临",
+    "country": "cn",
+    "track_id": 6751947334,
+    "seller": "Shantou Xinghui Network Technology Co.,Ltd.",
+    "genres": [
+     "游戏",
+     "角色扮演",
+     "娱乐",
+     "卡牌"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/96/69/08966993-2cd6-2ce4-f4fb-669217877574/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/e3/be/9be3be30-344f-1a27-7d58-c657819758b4/1-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-1242x2208-_U5934_U56fe.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/17/09/5a1709bc-e063-b081-747b-5dfd9da785c5/2-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U6697_U9ed1_U56fd_U98ce-1242x2208.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/a3/be/e7a3be17-181e-6739-ba6c-aebefb652ac5/3-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U79d8_U5883_U95ef_U5173-1242x2208.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/78/d9/df78d92d-d996-66b6-133f-58b2c2f645ef/4-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U7b56_U7565_U5bf9_U51b3-1242x2208.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/d6/01/0fd60158-042f-2337-465a-b932b30b52d8/5-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U4e71_U4e16_U96c6_U7ed3-1242x2208.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/6f/22/b86f223a-4a79-d8f2-4fa2-b48d7ecc4bd6/3-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U9650_U65f6_U5178_U85cf-1242x2208.jpg/626x1112bb.jpg"
+    ],
+    "description": "《三国：天命再临》是一款独具反差美学的暗黑国风策略卡牌手游，创新性将热血三国乱世与奇幻东方神魔世界观完美融合，打破传统卡牌游戏的刻板印象。玩家将踏入神魔交织的诡谲乱世，收纳魔化三国名将、上古神魔，自由组建专属战队，通过灵活的阵容搭配、深度的角色养成，解锁多元对战玩法，沉浸式体验兼具休闲养成与烧脑策略的卡牌乐趣，开启一场颠覆经典的玄幻征程。\n【极致反差，国风暗黑美学】\n游戏打造独树一帜的萌酷暗黑视觉风格，形成强烈的审美反差。全员Q萌精致的人物建模，同时融入大量暗黑玄幻细节，魔化战甲、幽冥鬼火、妖异纹路点缀角色造型。场景以中式古风建筑为基底，搭配暗红、玄黑、幽紫的高级暗调色系，辅以迷雾、闪电、深渊特效，颠覆传统国风的清雅质感，营造出神秘诡谲的玄幻氛围。\n【多元玩法，自由策略博弈】\n游戏拥有丰富饱满的核心玩法体系，兼顾休闲与策略双重体验。独创的阵营羁绊系统极具深度，不同神魔、三国武将自由搭配，解锁专属战力增益，百变阵容没有固定套路。同时搭建多维养成体系，让玩家随心打造核心主力。通天塔闯关、秘境探索、军团协作等海量玩法轮番上线，单人闯关解压、多人组队竞技，适配不同玩家的游戏节奏。\n【跨界融合，颠覆经典题材】\n本作突破传统三国游戏的题材局限，大胆融合三国史诗与上古神魔双IP设定。摒弃千篇一律的三国争霸剧情，对经典历史武将、神话人物进行魔化重塑，让乱世枭雄与神魔仙妖同框对决、跨界乱斗。全新的玄幻乱世世界观，将热血征战与神魔玄幻元素深度结合，经典IP创新改编，剧情张力十足，为玩家带来新鲜感满满的沉浸式游戏体验。",
+    "release_notes": "优化游戏内容。",
+    "file_size_bytes": 486464512,
+    "min_os": "12.0",
+    "version": "3.0.0",
+    "release_date": "2026-06-11",
+    "rating": 4.76173,
+    "rating_count": 2493,
+    "price": "免费",
+    "advisory": "17+",
+    "url": "https://apps.apple.com/cn/app/%E4%B8%89%E5%9B%BD-%E5%A4%A9%E5%91%BD%E5%86%8D%E4%B8%B4/id6751947334?uo=4",
+    "fetched_at": "2026-09-15T00:40:03+08:00"
+   }
+  },
+  {
+   "name": "Pokémon GO",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 20
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Scopely Explore, Inc.",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 14,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Pokémon GO",
+    "country": "us",
+    "track_id": 1094591345,
+    "seller": "Scopely Explore, Inc.",
+    "genres": [
+     "Games",
+     "Strategy",
+     "Roleplaying",
+     "Health & Fitness"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/4a/21/de4a21a0-dfd8-1198-ae05-d7b8a85e6abc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/ac/07/46ac07d4-6c41-6206-edf7-cbc64a55d8ec/PGO_ASO-Screenshots-EG-01-S23_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/60/aa/1160aa7c-0da2-0666-2844-2a46aa21af18/PGO_ASO-Screenshots-EG-02-WIN_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/57/66/5257660d-f470-720e-9b0f-2f0bb67b6e0a/PGO_ASO-Screenshots-EG-03-RAID_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/44/af/f744af54-b468-9342-77da-6f3c65387c8f/PGO_ASO-Screenshots-EG-04-CATCH_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/46/17/4b461733-657b-4899-1409-036015b26a9c/PGO_ASO-Screenshots-EG-05-EVOLVE_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/4b/5d/7a4b5d18-725d-467f-7435-4af16867006c/PGO_ASO-Screenshots-EG-06-DEFEAT_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/5b/5d/ef5b5d96-3dab-dd84-43af-e36bcd9929ff/PGO_ASO-Screenshots-EG-07-COLLECT_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/50/4e/72504e4c-e772-962a-cae1-f25c2e6c3d1a/604116b7-6adb-4fd7-853b-884ff64142ce_1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/77/f8/6c77f823-ae3b-703f-e740-a422e6ef860d/f3c93675-0753-4ada-a8d0-fa4a0cf20046_2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/74/ba/2874ba3a-2e0c-5796-9ff7-aeedc87f350f/805da620-acfd-46bb-81d7-1e0aa5a2ecd9_3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/77/5d/f7775d25-25ed-5984-c816-0e72d336533a/57f399a8-b02e-4dbe-b468-3165138dcef2_4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/43/de/94/43de94cd-9c43-1706-2a8e-06cbb554cef8/ac8e0d73-5036-40a2-829f-0877b2c905bb_5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/f7/a6/75f7a685-d26b-5080-b4b8-69b308210a2f/4190aa45-d911-425e-bdb3-30a59794393d_6.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/e2/bf/31e2bf27-0dc4-5305-3c6d-311271ce75cf/905157ab-52f5-4333-8a22-3f0a6cda7e0e_7.jpg/626x1112bb.jpg"
+    ],
+    "description": "Join Trainers across the globe who are discovering Pokémon as they explore the world around them. Pokémon GO is the global gaming sensation that has been downloaded over 1 billion times and named “Best Mobile Game” by the Game Developers Choice Awards and “Best App of the Year” by TechCrunch.\n_______________\n\nUNCOVER THE WORLD OF POKÉMON: Explore and discover Pokémon wherever you are!\n \nCATCH more Pokémon to complete your Pokédex!\n \nJOURNEY alongside your Buddy Pokémon to help make your Pokémon stronger and earn rewards!\n\nCOMPETE in epic Gym battles and...\n\nTEAM UP and UNITE with other Trainers to catch powerful Pokémon during Raid Battles!\n \nIt’s time to get moving—your real-life adventures await! Let’s GO!\n_______________\n\nWith the player’s permission, Adventure Sync uses the Health app to enable the player to earn walking distance when the app is closed.\n\nNotes:\n- This app is free-to-play and offers in-game purchases. It is optimized for smartphones, not tablets.\n- It is recommended to play while connected to a network in order to obtain accurate location information.\n- Compatibility is not guaranteed for devices without GPS capabilities or devices that are connected only to Wi-Fi networks.\n- Compatibility information may be changed at any time.\n- Information current as of July 11, 2019.\n- Compatible with iPhone® 5s / SE / 6 / 6s / 6 Plus / 6s Plus / 7 / 7 Plus / 8 / 8 Plus / X devices with iOS Version 9 or later installed.\n- Not compatible with 5th generation iPod Touch devices or iPhone 5c or earlier iPhone devices.\n- Please visit PokemonGO.com for additional compatibility information.\n- Compatibility is not guaranteed for all devices.\n- Continued use of GPS running in the background can dramatically reduce battery life.",
+    "release_notes": "Trainers, we hope you’re enjoying your adventure in Pokémon GO! We update the app regularly with new events and features, so make sure to check the in-game News to stay up to date.",
+    "file_size_bytes": 443269120,
+    "min_os": "15.0",
+    "version": "0.427.0",
+    "release_date": "2016-07-07",
+    "rating": 4.00403,
+    "rating_count": 653139,
+    "price": "Free",
+    "advisory": "9+",
+    "url": "https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345?uo=4",
+    "fetched_at": "2026-09-15T00:40:07+08:00"
+   }
+  },
+  {
+   "name": "消个瓶子",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 15
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "深圳奇象互动网络有限公司",
+   "first_seen": "2026-09-13",
+   "appearances": 2,
+   "best_rank": 15,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:40:11+08:00"
+   }
+  },
+  {
+   "name": "Gossip Harbor®: Merge & Story",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 16
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Microfun Limited",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 15,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Gossip Harbor®: Merge & Story",
+    "country": "us",
+    "track_id": 1623318294,
+    "seller": "Microfun Limited",
+    "genres": [
+     "Games",
+     "Puzzle",
+     "Casual"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/c3/15/b7c31546-603c-f813-0af5-71978cd76570/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/d0/40/76d040ad-56c7-8c64-58fb-0c4ca20f3801/help-them-iPx-_U82f1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f0/5f/e6/f05fe60f-ebe0-1aac-c69d-d4d52b66ff24/story-iPx-_U82f1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/4b/7c/ed4b7ca5-cf7a-9903-5c83-1663cfbd51b1/New-Life-iPx-26-_U82f1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/be/d1/6f/bed16fa5-c2d3-2284-47fe-fecc0b8373d7/Renvoate-2-ipx.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/a3/65/02a365b6-5ef1-ca1a-5311-78193edd7964/ipx-Design-en.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/74/c4/3874c47e-fe8b-6af6-bfe5-58c50c29abcd/ipx-merge-en.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/99/0f/ab990fc7-f8dc-71e9-cba4-1935cf7d52eb/ipx-loading-en.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/1d/c9/a51dc986-994b-b1dd-4f2c-d52e9fbfc829/help-them-iPad-_U82f1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/11/1b/3f111b64-ff69-5dd5-9101-015001dad94f/story-iPad-_U82f1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/0f/72/ea0f7294-5590-0f9e-fa38-9b026a6a274c/New-Life-iPad-26-_U82f1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fa/d9/8f/fad98f0e-5555-5b68-2656-d848071cc197/Renvoate-2-ipad.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/22/d4/6722d4bc-773e-3b6a-fdfc-8a6858575bed/ipad-Design-en.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b4/86/5c/b4865cbf-a8f9-bdac-f6cb-94f6393efba5/ipad-merge-en.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/97/7e/b5977e65-3f9d-5535-de9e-04eab4fd9118/ipad-loading-en.jpg/626x1112bb.jpg"
+    ],
+    "description": "Welcome to Gossip Harbor \nFollow Quinn Castillo as her picture perfect life on Brimwave Island crumbles around her. Divorce, sabotage and secrets. Help answer the question everyone's thinking: Who's trying to ruin her life? \nMerge flavorful dishes, restore and decorate Quinn's restaurant and watch the mystery unfold. \nBut who can you trust in Brimwave? \n\nWhip Up Tasty Dishes\nServe coffee, sandwiches, seafood, and a range of other dishes, to your customers. The more you play, the more dishes you’ll find to add to your menu!\n\nRestore the Restaurant\nRebuild and design the best beach restaurant around! Choose the flooring, wallpaper and furniture to restore restaurant to its former glory! \n\nBuild Relationships\nConverse with customers and hang out with old friends. Or explore the possibility of a new budding romance. \n\nCatch up on the Gossip\nYou'll renovate and merged to reveal clues, and uncover hidden secrets of the residents on Brimwave Island. And perhaps even unveil the Castillo's hidden secrets…\n\nEnjoying Gossip Harbor? Learn more about the game on our Facebook Fan Page!\nhttps://www.facebook.com/GossipHarbor\n\nNeed help? Contact us by sending an email to gossipharbor-service@microfun.com\nWe're here to help you! \n\nPrivacy Policy: https://www.microfun.com/privacy_EN.html\nTerms of Service: https://www.microfun.com/userAgreementEN.html",
+    "release_notes": "NEW EPISODE EVERY FRIDAY!\n- NEW EPISODE: With new chapter updates every Friday; follow Quinn as she exposes secrets and solves puzzles.\n- NEW EVENT:Quinn's investigating a celestial mystery that takes her to the realm of talking rabbits, toads, and mooncakes galore!",
+    "file_size_bytes": 306719744,
+    "min_os": "13.0",
+    "version": "3.98.0",
+    "release_date": "2022-07-07",
+    "rating": 4.62199,
+    "rating_count": 202134,
+    "price": "Free",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/us/app/gossip-harbor-merge-story/id1623318294?uo=4",
+    "fetched_at": "2026-09-15T00:40:14+08:00"
+   }
+  },
+  {
+   "name": "部落冲突（Clash of Clans）",
+   "boards": [
+    "ios/国区免费榜"
+   ],
+   "ranks": {
+    "ios/国区免费榜": 16
+   },
+   "category_l1": "游戏",
+   "category_l2": "",
+   "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 15,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "部落冲突（Clash of Clans）",
+    "country": "cn",
+    "track_id": 1595603316,
+    "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+    "genres": [
+     "游戏",
+     "娱乐",
+     "动作",
+     "策略"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/52/5c/0c525cde-c876-3371-ea4b-64ea438d6dec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/da/7e/2cda7e64-88f0-9d44-a0dd-4b4a5e0476dc/ios2688_U00d71242-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/7b/19/f27b19d8-9211-3820-7252-1c7949f2ea45/ios2688_U00d71242-2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/3d/df/723ddfcf-89cc-2622-28c1-6ca8a6cc89ff/ios2688_U00d71242-3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/5d/ee/3e5dee9a-83cc-c242-c70e-f755b7b4359d/ios2688_U00d71242-4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/55/dc/cc55dcb7-53ab-e52b-b42c-14d2efea32d2/ios2688_U00d71242-5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/28/f3/dc28f3df-9d1b-9fce-51d8-14401993028a/20250730195537-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-3bc91010a8823521bf0186d531b50e82d10e544a-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/b2/a4/0eb2a4c4-c9fd-0bf2-fb1a-20089680d1a0/20250730195544-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-9084f8a4e4197c94fc723fce74f422e9fcb825b6-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/d2/29/bed22994-a8e7-f27b-d989-ed0857838be3/20250730195550-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-48301b0b8c79ffd6e7edab753fcf31c474b2cf98-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/9a/11/d49a11a3-8c00-147b-2ba2-577af62d4b97/20250730195557-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-f92ec3f4042fefaac4516b793d8ec1a01cdbf0d6-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/ef/c1/70efc14e-acc2-ac1a-5e1f-b24194ee6f04/20250730195603-27feafab-dbb0-4c89-bda8-9c8ba352bf6a-e46386d54fea022b19c1cdbd0b70310c0ed21f1c-1.jpg/626x1112bb.jpg"
+    ],
+    "description": "Supercell公司作为原创手游的领航者，旗下有多款风靡全球的独创手游。《部落冲突》是Supercell旗下的一款风靡全球的休闲策略养成引领手游，开创了全新COC游戏品类。在游戏中，你不仅可以使用野蛮人、弓箭手、野猪骑士皮卡、龙和其他强大的军队战士，还可以和其他玩家一起建立强大的部落进行史诗级的部落战争。《部落冲突》已成为时下超火爆的休闲策略手游，得到无数玩家好评，并保持超高人气。如果你也喜欢模拟经营，喜欢策略对战，就赶快加入我们，体验超丰富的游戏活动，与好友共聚，一起畅享策略盛宴吧！",
+    "release_notes": "【可选更新】 解决了首领用建筑工人升级精制台时出现的闪退问题\n【全新联动】WWE联动来袭，六位WWE超级巨星将与英雄们一同踏入擂台，带来全新英雄和场景皮肤！\n【全新活动】WWE挑战活动、战斗选项和合约公文包部落大作战等超多活动来袭，专属雕像和海量奖励等你来拿！\n【委托升级】报告首领委托全面升级，委托难度优化，新增夜世界等委托任务，更有飞龙委托加入，快来领取时间、矿石等专属奖励吧！\n【全新主题季】青云仙域二期活动开启，仙域初开，解锁仙侠限定外观吧！\n【全新活动】太虚炼器活动同步开启，带来4大超强神器装备，让你爽玩对局！\n【全新等级】全新18本等级上线增加，新增战宠和超级充能全新等级上限。\n【全新页面】战斗结算界面全面重做，采用全新布局和获胜横幅，并更清晰地展示战利品及额外奖励明细。\n【游戏性优化】英雄征程提供替代任务等游戏性能优化。\n【问题修复】修复了图腾法术召唤的图腾计算为20空间而非1空间等问题。",
+    "file_size_bytes": 1534901248,
+    "min_os": "15.0",
+    "version": "18.114.2",
+    "release_date": "2022-02-15",
+    "rating": 4.51023,
+    "rating_count": 1000604,
+    "price": "免费",
+    "advisory": "9+",
+    "url": "https://apps.apple.com/cn/app/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81-clash-of-clans/id1595603316?uo=4",
+    "fetched_at": "2026-09-15T00:40:16+08:00"
+   }
+  }
+ ]
+}

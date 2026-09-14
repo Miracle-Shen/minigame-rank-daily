@@ -1,0 +1,124 @@
+{
+ "schema_version": 1,
+ "name": "向僵尸开炮",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "海南盛昌网络科技有限公司",
+  "category_l1": "1",
+  "category_l2": "益智",
+  "boards": [
+   "douyin/畅销榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 1,
+   "douyin/畅销榜": 1
+  },
+  "platform_app_ids": {
+   "wx": "wx31a9c726536cdacc",
+   "douyin": "tt704406f9ef7450b207"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "2D俯视末世废土，诙谐卡通+密集技能特效",
+  "dims": {
+   "engine": 3,
+   "art": 5,
+   "anim": 4,
+   "physics": 3,
+   "logic": 4,
+   "data": 5,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "推断Unity：2D俯视动作割草、2.1GB海量素材、跨端发行；未见官方确认，故标inferred",
+   "art": "包体2.1GB远超600MB，海量怪物/场景/时装/技能特效素材，极重",
+   "anim": "大量技能特效/粒子/时装释放动画，屏幕表现密集，动画量高",
+   "logic": "肉鸽三选一技能树+300+主线关+无尽+多模式，关卡与build组合复杂",
+   "data": "极深养成：宝石词条/枪械皮肤/时装/雇佣兵/赛季/城池争夺，经济循环复杂",
+   "server": "跨服军团/赛季城池战/排行榜，强联网社交与实时对抗"
+  },
+  "asset_notes": "2D俯视但素材量极大(2.1GB)，怪物/时装/技能特效需长期美术与特效产能；技术难点在肉鸽build叠加与弹幕手感。",
+  "notes": "俯视割草+肉鸽三选一已被验证，但本作靠极深养成与2.1GB素材做重资本长线，复刻门槛高。",
+  "cost_score": 3.75,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "2D俯视角下先锋官镇守防线，僵尸如潮涌来；玩家点选技能、升级枪械，把怪『一炮倒一片』清掉；每波结束三选一随机技能卡叠加build，关卡/无尽推进，局外靠宝石/时装/雇佣兵深养成。",
+  "highlights": [
+   "『一炮倒一片』的割草清屏视觉爽感，数值膨胀可见",
+   "每波结束三选一随机技能卡，肉鸽build构筑的每局成长与重开欲",
+   "枪械/宝石/时装多维养成的层叠特效，『变强』被做成可视化反馈",
+   "赛季城池争夺/跨服军团的社交竞技目标，长线追求"
+  ],
+  "innovations": [
+   "将『幸存者式割草』与『塔防镇守防线』融合，并叠加极深的宝石/时装养成线支撑IAP(而非纯IAA)，用『卖数值养成』做混合变现"
+  ],
+  "target_user": "18-40岁男性向轻中度用户，偏爱割草爽感与养成",
+  "monetization": "混合(IAP为主+广告为辅)：宝石词条/枪械皮肤/时装/雇佣兵/赛季深内购，看广告补体力",
+  "lifecycle": "长线运营存量盘，靠赛季/联动(变形金刚等)/城池战持续LiveOps"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "俯视割草+肉鸽三选一机制已被弹壳特攻队/吸血鬼幸存者验证且本作(wx畅销第1)头部锁死；直接复刻会撞车，且2.1GB素材+极深养成的重资本投入不划算。应取其核心循环换题材/改数值模型。",
+  "suggestions": [
+   "保留『俯视割草+局内三选一build』核心，换为『机甲/西游妖怪』等非僵尸题材降撞车",
+   "简化局外养成(宝石词条/时装)深度，避免重资本，改用赛季轻养成控制成本",
+   "用『卖数值爽感』替代纯IAA，靠枪械/技能皮肤做IAP，复刻其混合变现结构"
+  ],
+  "risks": [
+   "2.1GB素材与极深养成(宝石/时装/城池战)复刻成本极高，小型团队难承受",
+   "wx畅销榜第1已头部锁死，同题材买量难突围",
+   "塔防割草赛道素材同质化严重，CTR衰减快"
+  ],
+  "effort": "80–120 人日（2 前端 + 2 美术 + 1 策划），含海量素材与深养成系统，重资本"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "2D俯视角塔防割草+Roguelike三选一，包体约2.1GB",
+   "level": "confirmed"
+  },
+  {
+   "claim": "发行海南盛昌网络科技，开发畅梦工作室",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断Unity（未确认）",
+   "level": "inferred"
+  },
+  {
+   "claim": "未发现同玩法产品矩阵公开信息",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://games.apple.com/cn/game/6474293468",
+  "https://www.3839.com/a/174183.htm"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:34:48+08:00"
+ },
+ "slug": "向僵尸开炮_3c34cb"
+}

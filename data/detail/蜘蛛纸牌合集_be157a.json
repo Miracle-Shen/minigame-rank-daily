@@ -1,0 +1,106 @@
+{
+ "schema_version": 1,
+ "name": "蜘蛛纸牌合集",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "上海星屿闲游科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 16
+  },
+  "platform_app_ids": {
+   "douyin": "tta6bed00338da847402"
+  },
+  "first_seen": "2026-09-13",
+  "appearances": 2,
+  "best_rank": 16,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator / Unity（推断，未见官方确认）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "平面卡牌贴图 + 简洁 UI",
+  "dims": {
+   "engine": 2,
+   "art": 1,
+   "anim": 1,
+   "physics": 1,
+   "logic": 2,
+   "data": 2,
+   "server": 1,
+   "audio": 1
+  },
+  "dim_notes": {
+   "engine": "纸牌逻辑简单，Cocos/Unity 现成模板改配置即可上线",
+   "art": "纯卡牌贴图 + 平面 UI，可程序化/通用素材生成，几乎无定制美术"
+  },
+  "asset_notes": "无官方包体数据；同类页游客户端仅 1MB，素材极轻，可全程序化生成",
+  "notes": "经典蜘蛛纸牌玩法，无任何技术壁垒，瓶颈仅在美术与题材",
+  "cost_score": 1.38,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "按花色把十列牌从 K 到 A 降序排列，完成一组即消除；可单/双/四花色调难度，拖拽移动牌、空列作中转，一局几分钟到十几分钟。",
+  "highlights": [
+   "空列中转 + 撤销/提示形成「差一步就通」的轻度策略爽感",
+   "四花色模式同时管理多花色，烧脑正反馈强",
+   "纯单机无网，碎片时间随时开一局"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化"
+  ],
+  "target_user": "办公室一族与老年玩家，休闲解压",
+  "monetization": "IAA 广告为主（激励视频续局/去广告），轻内购",
+  "lifecycle": "长线常青，靠难度档位维持复访"
+ },
+ "clone": {
+  "verdict": "原样复刻",
+  "rationale": "蜘蛛纸牌为公共域玩法，无版权与品牌壁垒，代码量极小、素材极轻，适合作为内部练手或填充位。",
+  "suggestions": [
+   "直接复刻经典规则，补「每日挑战 + 全球计时排行」做差异化",
+   "题材换为「中药抓药台」「麻将接龙」降低同质化",
+   "加入撤销次数限制 + 广告复活，提升广告变现"
+  ],
+  "risks": [
+   "纸牌品类极饱和，买量成本高",
+   "无题材记忆点难破圈"
+  ],
+  "effort": "8–12 人日（1 前端）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "为微信蜘蛛纸牌接龙合集，玩法经典公共域",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎为常见小游戏框架，未见官方确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.17yoo.cn/detail/52656"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:40:22+08:00"
+ },
+ "slug": "蜘蛛纸牌合集_be157a"
+}

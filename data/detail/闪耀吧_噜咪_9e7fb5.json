@@ -1,0 +1,221 @@
+{
+ "schema_version": 1,
+ "name": "闪耀吧!噜咪",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "哔哩哔哩游戏",
+  "category_l1": "抓宠",
+  "category_l2": "卡牌、放置、冒险、角色扮演、养成、模拟经营、休闲",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 1
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-07-06",
+  "appearances": 55,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "手绘卡通治愈风，清新明亮童话世界",
+  "dims": {
+   "engine": 2,
+   "art": 4,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体约257MB，数百只噜咪形态各异+家园/技能/场景动画，卡通贴图与序列帧资产量不小",
+   "logic": "集捕捉收集/轻策略对战/家园建造/离线自动生产多系统，需关卡与数值支撑"
+  },
+  "asset_notes": "2D手绘卡通，可用AI生图+人工修图批量产出；骨朵量大但风格统一，素材层非瓶颈",
+  "notes": "捉宠+家园+轻策略的成熟模块缝合，技术风险低，瓶颈在美术调性与首充节奏",
+  "cost_score": 3.12,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "轻点屏幕在森林/沙漠/火山间漫步捕捉噜咪，孵化彩色蛋养成进化，组队打属性克制轻策略对战，空闲时家园噜咪自动产出资源，单局几分钟到挂机收菜。",
+  "highlights": [
+   "轻点即捕的零门槛收集+图鉴填满的正反馈，天然驱动每日登录",
+   "属性克制与技能搭配的轻策略对战，无复杂连招，靠阵容脑洞取胜",
+   "家园噜咪自动打工产材料、离线也成长的‘收菜’满足感",
+   "孵化彩色噜咪蛋的随机惊喜（类扭蛋）"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（捉宠+家园+轻策略的治愈向缝合）"
+  ],
+  "target_user": "泛二次元/女性向治愈用户，碎片化时间",
+  "monetization": "以内购（外观/孵化加速/体力）为主，广告位弱",
+  "lifecycle": "长线运营（图鉴/养成/家园内容更新）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "捉宠+家园+轻策略均为成熟模块、无技术壁垒；B站靠治愈手绘风与IP预约吸量，复刻瓶颈在题材美术差异化与首充节奏，成本集中在美术。",
+  "suggestions": [
+   "换为‘故宫文物修复’题材，捕捉=文物修复收集，家园换成小型博物馆经营",
+   "首充把彩色蛋换成限定文物盲盒，强化收藏叙事",
+   "把家园自动生产改造成‘文创工坊’产出周边，接内容电商"
+  ],
+  "risks": [
+   "治愈风已被多款占据（如《桃源深处有人家》）",
+   "B站预约量级大，复刻买量成本高"
+  ],
+  "effort": "20–35 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/1e/3a/711e3a2b-8b41-25fc-0f5d-686560ed1bb6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/eb/6a/d5eb6afd-881c-028d-444e-cedfa10032a2/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/37/b2/8737b2a5-eed4-8fcc-8a97-d3ef1159b9b2/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/f1/d8/0ef1d86c-8673-aab3-c48b-717c905662d3/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/fe/48/75fe483c-4e80-1c2b-6a01-4cff210b6639/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/e4/86/0be48624-e525-8f3c-c27c-43b8211d49ed/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/bc/26/b0bc2681-e6de-f300-b12b-7f6ce0e3d40d/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/94/18/1c941885-5f76-0808-287c-9b6ff892d6af/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/68/d9/a468d97c-ee71-6ef0-19fb-1ee46c9b9e86/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/34/ea/3034eafe-ebc0-5f64-2413-21198d1c1b28/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/c6/cf/32c6cf34-074f-bf14-e636-c47e53f38400/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/94/ce/4e94ce34-a783-2dbb-4e16-305e4e122f56/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d5/17/be/d517bef6-151e-6051-27eb-f0f16bb7d1b0/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体约257MB，含较多序列帧/音效与数百只角色资产",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为Unity（B站移动RPG常见选择，未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E9%97%AA%E8%80%80%E5%90%A7-%E5%99%9C%E5%92%AA/id6754912970?uo=4",
+  "https://sj.qq.com/appdetail/com.tencent.tmgp.bilibili.lumi"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "闪耀吧！噜咪",
+  "country": "cn",
+  "track_id": 6754912970,
+  "seller": "Shanghai Hode Information Technology Co.,Ltd.",
+  "genres": [
+   "游戏",
+   "角色扮演"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/1e/3a/711e3a2b-8b41-25fc-0f5d-686560ed1bb6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/eb/6a/d5eb6afd-881c-028d-444e-cedfa10032a2/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/37/b2/8737b2a5-eed4-8fcc-8a97-d3ef1159b9b2/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/f1/d8/0ef1d86c-8673-aab3-c48b-717c905662d3/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/fe/48/75fe483c-4e80-1c2b-6a01-4cff210b6639/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/e4/86/0be48624-e525-8f3c-c27c-43b8211d49ed/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/bc/26/b0bc2681-e6de-f300-b12b-7f6ce0e3d40d/6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/94/18/1c941885-5f76-0808-287c-9b6ff892d6af/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/68/d9/a468d97c-ee71-6ef0-19fb-1ee46c9b9e86/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/34/ea/3034eafe-ebc0-5f64-2413-21198d1c1b28/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/c6/cf/32c6cf34-074f-bf14-e636-c47e53f38400/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/94/ce/4e94ce34-a783-2dbb-4e16-305e4e122f56/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d5/17/be/d517bef6-151e-6051-27eb-f0f16bb7d1b0/6.jpg/626x1112bb.jpg"
+  ],
+  "description": "--每日登录领取免费体力好礼！\n--领取彩色噜咪蛋，孵化超强噜咪，助力冒险启程！\n--立即预约，游戏上线后尊享海量体力！\n\n《闪耀吧！噜咪》是一款轻松异世界捉宠冒险RPG手游。在清新明亮的童话世界里，邂逅数百只不同形态的噜咪，开启一场没有压力的冒险之旅。\n\n【随心捕捉噜咪】\n指尖轻点，冒险启程！\n只需轻点屏幕，即可在森林、沙漠、火山间自由漫步，捕捉数百只形态各异的噜咪。简单的收集机制搭配丰富的图鉴系统，让每一次相遇都充满惊喜。\n\n【轻量策略对战】\n搭配阵容，策略取胜！\n没有复杂的连招，也没有数值碾压。深度挖掘属性克制与技能搭配的乐趣，组建你的最强战队，在轻松愉快的对局中体验用头脑获胜的纯粹快乐。\n\n【养成专属伙伴】\n噜咪陪伴，共同成长！\n每一只噜咪都能通过培养不断进化，解锁全新形态与能力。在陪伴与养成中，见证它们从可爱伙伴蜕变为独一无二的战斗搭档。\n\n【装扮专属家园】\n自由规划，随心布局！\n自由摆放建筑，规划布局都随心而定，打造一个真正属于自己的童话家园。\n\n【家园自动生产】\n噜咪打工，我收材料！\n噜咪们会成为你的得力助手，自动照料家园生产。离线也能稳步成长，收获满满的安心与满足。\n\n【好友互动同游】\n结交搭子，共享欢乐！\n前往好友的家园串门互动，欣赏彼此的装扮布局，感受更多温暖与陪伴。\n\n【关注我们】\n游戏官网：https://game.bilibili.com/lumi/ \n官方B站：闪耀吧噜咪\n官方微信公众号：闪耀吧噜咪\n官方抖音：闪耀吧！噜咪",
+  "release_notes": "捉宠全自动，轻松满图鉴！立即预约游戏，上线尊享海量体力与彩色噜咪蛋！",
+  "file_size_bytes": 269919232,
+  "min_os": "12",
+  "version": "1.3.0",
+  "release_date": "2026-09-17",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E9%97%AA%E8%80%80%E5%90%A7-%E5%99%9C%E5%92%AA/id6754912970?uo=4",
+  "fetched_at": "2026-09-15T00:36:07+08:00"
+ },
+ "slug": "闪耀吧_噜咪_d3822b"
+}

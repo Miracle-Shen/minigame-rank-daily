@@ -1,0 +1,116 @@
+{
+ "schema_version": 1,
+ "name": "一箭又一箭",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "海南掌趣网络科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/人气榜",
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 14,
+   "wx/畅玩榜": 3
+  },
+  "platform_app_ids": {
+   "wx": "wx69949b45b793b612"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "极简几何线段+方向箭头，纯代码绘制",
+  "dims": {
+   "engine": 1,
+   "art": 1,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 1,
+   "server": 1,
+   "audio": 1
+  },
+  "dim_notes": {
+   "engine": "纯点击消除+线段动画，微信小游戏模板即可快速搭建，无需自研框架",
+   "art": "几何线段+箭头，可程序化生成，无需外部美术",
+   "data": "无成长线，仅关卡进度/排行",
+   "audio": "通用音效即可，无定制"
+  },
+  "asset_notes": "纯检索推断（无官方媒体材料）；2D极简、无美术资产，全代码绘制，素材层不是瓶颈",
+  "notes": "海南掌趣出品微信小游戏，箭头路径消除，与Arrow Fest同赛道",
+  "cost_score": 1.38,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "点阵网格上点击箭头线段，使其像贪吃蛇向箭头方向前进，无遮挡则移出边界消除，消除全部箭头即胜；有生命/限时。",
+  "highlights": [
+   "线段'贪吃蛇式'逐格滑出屏幕的流畅动画，解压",
+   "撞到其他线段变红退回的即时失败反馈，促思考",
+   "全消除通关的清爽爽感，关卡通勤碎片时间"
+  ],
+  "innovations": [
+   "微创新：把箭头方向消除做'贪吃蛇式逐格移动+可解谜题生成'，属于箭头品类的执行优化"
+  ],
+  "target_user": "泛休闲解谜用户，偏爱轻量益脑",
+  "monetization": "IAA为主（提示/续命看广告），轻量",
+  "lifecycle": "短平快爆款，靠关卡量+排行维系"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "机制极简、无美术无物理，代码量极小；箭头消除赛道成熟。换皮肤/题材（如'光线迷宫'）即成立，成本最低。",
+  "suggestions": [
+   "换题材为'光线折射'或'管道连通'，复用线段移动+可解生成",
+   "加'关卡编辑器'让玩家UGC，做轻度社交",
+   "首关把网格缩到5x7降低难度，后期再加大"
+  ],
+  "risks": [
+   "玩法极轻易被抄、留存短",
+   "无官方材料，玩法以检索推断为主",
+   "箭头品类已有Arrow Fest等头部"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "箭头路径消除微信小游戏，海南掌趣，极轻量",
+   "level": "inferred"
+  },
+  {
+   "claim": "无官方App Store媒体材料，纯检索+推断",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎未确认，推断 Cocos Creator/LayaAir",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://sj.qq.com/appdetail/wx69949b45b793b612",
+  "https://ku.18183.com/yjyyj/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:35:19+08:00"
+ },
+ "slug": "一箭又一箭_0f018b"
+}

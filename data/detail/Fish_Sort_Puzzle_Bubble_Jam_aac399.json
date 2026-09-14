@@ -1,0 +1,222 @@
+{
+ "schema_version": 1,
+ "name": "Fish Sort Puzzle - Bubble Jam",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Shycheese",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 20
+  },
+  "platform_app_ids": {
+   "ios": "6771681639"
+  },
+  "first_seen": "2026-09-09",
+  "appearances": 6,
+  "best_rank": 20,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / Cocos（推断，休闲排序游戏常见选择）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "卡通水族 2D 贴图",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 2,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "排序 + 收集双目标 + 暂存区溢出失败判定 + 数百关卡设计，需关卡策划"
+  },
+  "asset_notes": "包体 292MB（媒体），为 2D 卡通水族贴图，素材量级轻，可 AI 生图批量产",
+  "notes": "美区免费榜在榜（#20）的已验证排序解谜，背后疑为武汉多比特（Wool Crush 同厂），机制轻、ROI 高",
+  "cost_score": 2.0,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "点小鱼将其送入对应鱼缸，集齐 3 只同色鱼即消除；清空下方气泡放出新鱼，暂存区满则失败，消除全部鱼过关，一局几十秒。",
+  "highlights": [
+   "点鱼入缸 + 三同色消除的即时反馈，爽快解压",
+   "暂存区溢出失败制造「差一点」的紧张，天然驱动看广告续命",
+   "鱼缸目标数可视化，进度感清晰"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（排序 + 收集双目标包装）"
+  ],
+  "target_user": "全年龄泛休闲解压用户",
+  "monetization": "IAA 为主（续命/提示看广告），暂未见内购流水（推断）",
+  "lifecycle": "长线，靠关卡与限定活动更新"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "经典 sort 解谜机制已验证（美区免费榜 #20），代码量小、素材轻，瓶颈在题材与首关留存；换题材即差异化，ROI 最高。",
+  "suggestions": [
+   "题材换为「整理冰箱/垃圾分类」，同规则换皮即上线",
+   "首关降难度、把失败点后移到第 5 关之后保留存",
+   "加「图鉴收集」把单局爽感接长线目标"
+  ],
+  "risks": [
+   "排序解谜品类拥挤",
+   "美区买量成本偏高"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/86/39/5986391c-4a07-7794-f2a0-016fbca50e38/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/55/fc/5955fcd9-c6a0-634b-b495-6434ca71e782/6.9_1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/43/45/2b4345fe-2f42-0b5b-98ed-c4c5a0ba9478/6.9_2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/70/f5/3070f548-8924-2902-82e0-69e8cafc1a78/6.9_3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/b7/c0/2db7c0c0-12af-b5f2-ed31-b00489f4201e/6.9_4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/34/7a/d1347acf-6d20-99e9-6d89-60b6bba682b5/6.9_5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/7b/31/c67b315a-f67b-a6ab-f901-f852d86f3504/0x0ss.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/0c/82/200c82c9-0634-e0d8-b87a-693867f6f03e/ipad_1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/84/ce/1784ce92-2ce1-3fb8-b87d-0585eee0d444/ipad_2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/bd/ab/38bdab55-ebd5-5f78-aa91-8e4f3d7be3df/ipad_3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/08/57/c708572f-43fd-9f7d-fc20-ae49a548eb34/ipad_4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/6a/43/1b6a43cb-099f-6063-f7d0-cf338154e602/ipad_5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/c5/f0/2cc5f0c8-0a14-dcea-7df4-8968a3b552e9/0x0ss.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 292MB，2D 卡通水族素材轻量",
+   "level": "confirmed"
+  },
+  {
+   "claim": "美区免费榜 #20，背后疑为武汉多比特",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/fish-sort-puzzle-bubble-jam/id6771681639?uo=4",
+  "https://m.10jqka.com.cn/20260910/c679789201.shtml"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Fish Sort Puzzle - Bubble Jam",
+  "country": "us",
+  "track_id": 6771681639,
+  "seller": "SUPLIFE PTE. LTD.",
+  "genres": [
+   "Games",
+   "Puzzle",
+   "Casual"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/86/39/5986391c-4a07-7794-f2a0-016fbca50e38/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/55/fc/5955fcd9-c6a0-634b-b495-6434ca71e782/6.9_1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/43/45/2b4345fe-2f42-0b5b-98ed-c4c5a0ba9478/6.9_2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/70/f5/3070f548-8924-2902-82e0-69e8cafc1a78/6.9_3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/b7/c0/2db7c0c0-12af-b5f2-ed31-b00489f4201e/6.9_4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/34/7a/d1347acf-6d20-99e9-6d89-60b6bba682b5/6.9_5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/7b/31/c67b315a-f67b-a6ab-f901-f852d86f3504/0x0ss.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/0c/82/200c82c9-0634-e0d8-b87a-693867f6f03e/ipad_1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/84/ce/1784ce92-2ce1-3fb8-b87d-0585eee0d444/ipad_2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/bd/ab/38bdab55-ebd5-5f78-aa91-8e4f3d7be3df/ipad_3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/08/57/c708572f-43fd-9f7d-fc20-ae49a548eb34/ipad_4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/6a/43/1b6a43cb-099f-6063-f7d0-cf338154e602/ipad_5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/c5/f0/2cc5f0c8-0a14-dcea-7df4-8968a3b552e9/0x0ss.png/626x1112bb.jpg"
+  ],
+  "description": "Dive into an underwater adventure!\nTap the fish and watch them swim into their new homes. Each aquarium displays the number of fish it needs. Collect the required amount of each type to complete the collection!\nClear the bubbles below to make way for new ones from above. Eliminate all the bubbles to advance to the next level.\nKeep an eye on the temporary holding area! Any fish that don’t match the target types will go there. But beware, if it fills up, it’s all over!\nReady to test your skills and sort all the aquatic creatures? Join the fun and see how far you can go!",
+  "release_notes": "Added new levels. Come take on the challenge.\nA new limited-time event has begun. Join to win exclusive rewards.",
+  "file_size_bytes": 292459520,
+  "min_os": "13.0",
+  "version": "1.7",
+  "release_date": "2026-05-27",
+  "rating": 4.85327,
+  "rating_count": 1329,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/fish-sort-puzzle-bubble-jam/id6771681639?uo=4",
+  "fetched_at": "2026-09-15T00:40:46+08:00"
+ },
+ "slug": "Fish_Sort_Puzzle_Bubble_Jam_aac399"
+}

@@ -1,0 +1,239 @@
+{
+ "schema_version": 1,
+ "name": "Gossip Harbor®: Merge & Story",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Microfun Limited",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 16
+  },
+  "platform_app_ids": {
+   "ios": "1623318294"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 15,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "2D 卡通，海滨餐厅/剧情",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 2,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体约 292MB（重），海量合并物件/餐厅场景/剧情美术",
+   "physics": "网格合并无物理",
+   "logic": "合成树 + 订单 + 餐厅装修 + 剧情解锁，四段循环系统耦合",
+   "data": "菜单/材料/货币/赛季剧情多线，长线内容数据重"
+  },
+  "asset_notes": "2D 合并物件 + 292MB 重包体，素材靠物件与场景量产；瓶颈在长线剧情内容产能。",
+  "notes": "Microfun 出品，Unity 开发（IGDB 确认），合成+叙事强留存结构。",
+  "cost_score": 3.0,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "在棋盘合并相同物品→产出高阶物完成顾客订单→赚资源修复餐厅并解锁剧情线索，单局数分钟，靠新章节（每周五）续玩。",
+  "highlights": [
+   "合并即时产出 + 订单完成的双重反馈",
+   "「谁烧了餐厅」悬疑剧情驱动每日回归",
+   "餐厅装修自定义带来 ownership 感"
+  ],
+  "innovations": [
+   "把合成玩法嵌入连续剧情（合成+叙事，Microfun 公式级结构创新）"
+  ],
+  "target_user": "25-45 岁女性合成/叙事休闲用户",
+  "monetization": "IAA 广告 + IAP（加速/去广告/能量）混合",
+  "lifecycle": "长线运营，靠每周新章节"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "合成+叙事是已被验证的强留存结构，但品类头部由 Microfun 系（Merge Mansion/本作）占据，照抄撞车且需长线剧情内容；必须以新题材/新叙事结构做变体。",
+  "suggestions": [
+   "保留「合成-订单-装修-剧情」四段循环，题材换为「古宅探秘/宫廷修复」",
+   "用 AI 辅助生成剧情分支降低内容产能"
+  ],
+  "risks": [
+   "merge 赛道买量极贵",
+   "长线剧情内容产能要求高",
+   "Microfun 品牌壁垒"
+  ],
+  "effort": "60–90 人日（含剧情内容）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/c3/15/b7c31546-603c-f813-0af5-71978cd76570/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/d0/40/76d040ad-56c7-8c64-58fb-0c4ca20f3801/help-them-iPx-_U82f1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f0/5f/e6/f05fe60f-ebe0-1aac-c69d-d4d52b66ff24/story-iPx-_U82f1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/4b/7c/ed4b7ca5-cf7a-9903-5c83-1663cfbd51b1/New-Life-iPx-26-_U82f1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/be/d1/6f/bed16fa5-c2d3-2284-47fe-fecc0b8373d7/Renvoate-2-ipx.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/a3/65/02a365b6-5ef1-ca1a-5311-78193edd7964/ipx-Design-en.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/74/c4/3874c47e-fe8b-6af6-bfe5-58c50c29abcd/ipx-merge-en.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/99/0f/ab990fc7-f8dc-71e9-cba4-1935cf7d52eb/ipx-loading-en.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/1d/c9/a51dc986-994b-b1dd-4f2c-d52e9fbfc829/help-them-iPad-_U82f1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/11/1b/3f111b64-ff69-5dd5-9101-015001dad94f/story-iPad-_U82f1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/0f/72/ea0f7294-5590-0f9e-fa38-9b026a6a274c/New-Life-iPad-26-_U82f1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fa/d9/8f/fad98f0e-5555-5b68-2656-d848071cc197/Renvoate-2-ipad.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/22/d4/6722d4bc-773e-3b6a-fdfc-8a6858575bed/ipad-Design-en.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b4/86/5c/b4865cbf-a8f9-bdac-f6cb-94f6393efba5/ipad-merge-en.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/97/7e/b5977e65-3f9d-5535-de9e-04eab4fd9118/ipad-loading-en.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 14"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体约 292MB（306719744 字节），属「重」量级",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（IGDB 数据库确认）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/gossip-harbor-merge-story/id1623318294?uo=4",
+  "https://gamekeepr.net/zh/game/gossip-harbor-merge-game"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Gossip Harbor®: Merge & Story",
+  "country": "us",
+  "track_id": 1623318294,
+  "seller": "Microfun Limited",
+  "genres": [
+   "Games",
+   "Puzzle",
+   "Casual"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/c3/15/b7c31546-603c-f813-0af5-71978cd76570/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/d0/40/76d040ad-56c7-8c64-58fb-0c4ca20f3801/help-them-iPx-_U82f1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f0/5f/e6/f05fe60f-ebe0-1aac-c69d-d4d52b66ff24/story-iPx-_U82f1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/4b/7c/ed4b7ca5-cf7a-9903-5c83-1663cfbd51b1/New-Life-iPx-26-_U82f1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/be/d1/6f/bed16fa5-c2d3-2284-47fe-fecc0b8373d7/Renvoate-2-ipx.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/a3/65/02a365b6-5ef1-ca1a-5311-78193edd7964/ipx-Design-en.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/74/c4/3874c47e-fe8b-6af6-bfe5-58c50c29abcd/ipx-merge-en.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/99/0f/ab990fc7-f8dc-71e9-cba4-1935cf7d52eb/ipx-loading-en.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/1d/c9/a51dc986-994b-b1dd-4f2c-d52e9fbfc829/help-them-iPad-_U82f1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/11/1b/3f111b64-ff69-5dd5-9101-015001dad94f/story-iPad-_U82f1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/0f/72/ea0f7294-5590-0f9e-fa38-9b026a6a274c/New-Life-iPad-26-_U82f1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fa/d9/8f/fad98f0e-5555-5b68-2656-d848071cc197/Renvoate-2-ipad.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/22/d4/6722d4bc-773e-3b6a-fdfc-8a6858575bed/ipad-Design-en.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b4/86/5c/b4865cbf-a8f9-bdac-f6cb-94f6393efba5/ipad-merge-en.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/97/7e/b5977e65-3f9d-5535-de9e-04eab4fd9118/ipad-loading-en.jpg/626x1112bb.jpg"
+  ],
+  "description": "Welcome to Gossip Harbor \nFollow Quinn Castillo as her picture perfect life on Brimwave Island crumbles around her. Divorce, sabotage and secrets. Help answer the question everyone's thinking: Who's trying to ruin her life? \nMerge flavorful dishes, restore and decorate Quinn's restaurant and watch the mystery unfold. \nBut who can you trust in Brimwave? \n\nWhip Up Tasty Dishes\nServe coffee, sandwiches, seafood, and a range of other dishes, to your customers. The more you play, the more dishes you’ll find to add to your menu!\n\nRestore the Restaurant\nRebuild and design the best beach restaurant around! Choose the flooring, wallpaper and furniture to restore restaurant to its former glory! \n\nBuild Relationships\nConverse with customers and hang out with old friends. Or explore the possibility of a new budding romance. \n\nCatch up on the Gossip\nYou'll renovate and merged to reveal clues, and uncover hidden secrets of the residents on Brimwave Island. And perhaps even unveil the Castillo's hidden secrets…\n\nEnjoying Gossip Harbor? Learn more about the game on our Facebook Fan Page!\nhttps://www.facebook.com/GossipHarbor\n\nNeed help? Contact us by sending an email to gossipharbor-service@microfun.com\nWe're here to help you! \n\nPrivacy Policy: https://www.microfun.com/privacy_EN.html\nTerms of Service: https://www.microfun.com/userAgreementEN.html",
+  "release_notes": "NEW EPISODE EVERY FRIDAY!\n- NEW EPISODE: With new chapter updates every Friday; follow Quinn as she exposes secrets and solves puzzles.\n- NEW EVENT:Quinn's investigating a celestial mystery that takes her to the realm of talking rabbits, toads, and mooncakes galore!",
+  "file_size_bytes": 306719744,
+  "min_os": "13.0",
+  "version": "3.98.0",
+  "release_date": "2022-07-07",
+  "rating": 4.62199,
+  "rating_count": 202134,
+  "price": "Free",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/us/app/gossip-harbor-merge-story/id1623318294?uo=4",
+  "fetched_at": "2026-09-15T00:40:14+08:00"
+ },
+ "slug": "Gossip_Harbor_Merge_Story_3b303f"
+}

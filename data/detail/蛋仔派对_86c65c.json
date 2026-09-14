@@ -1,0 +1,218 @@
+{
+ "schema_version": 1,
+ "name": "蛋仔派对",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "杭州网易雷火科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/热门榜",
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "douyin/热门榜": 14,
+   "ios/国区免费榜": 6
+  },
+  "platform_app_ids": {
+   "douyin": "ttca44bcf9554d63f002",
+   "ios": "1544884479"
+  },
+  "first_seen": "2026-06-30",
+  "appearances": 66,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "Q萌蛋仔3D+盲盒外观+乐园地图",
+  "dims": {
+   "engine": 5,
+   "art": 5,
+   "anim": 4,
+   "physics": 5,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "Unity DOTS深度改造+自研物理子系统+蛋仔工坊UGC编辑器，需重度引擎改造",
+   "art": "包体2674MB(很重)，海量皮肤/地图/3D资产+玩家UGC内容",
+   "anim": "骨骼动画+物理碰撞+弹簧关节，蛋仔'橡皮体质'特殊shader",
+   "physics": "自研C++物理子系统（球体碰撞/空间哈希/弹性），百人同屏实时",
+   "logic": "UGC编辑器(蛋码可视化编程)+关卡+赛季+社交+商业化，系统极复杂",
+   "data": "账号+皮肤+经济+UGC生态+跨端，数据深",
+   "server": "实时状态同步+万人匹配+UGC发布，强联网"
+  },
+  "asset_notes": "3D物理+UGC生态是核心壁垒，美术量极大(2.6GB)但靠皮肤组合/动态加载摊薄；复刻需自研物理与编辑器，资本门槛极高",
+  "notes": "网易雷火出品，5亿玩家，坚持Unity而非Unreal，DOTS深度改造",
+  "cost_score": 4.62,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "化身蛋仔在盲盒岛闯关（滚动/碰撞/冲撞），竞速/团队/生存多模式；用蛋仔工坊零门槛做图发布，和好友打卡玩家原创乐园。",
+  "highlights": [
+   "圆滚滚蛋仔超Q弹物理碰撞，'duang'到停不下来的手感爽点",
+   "蛋仔工坊UGC+蛋码可视化编程，玩家自制地图形成内容飞轮",
+   "盲盒抽稀有外观的收集爽感+DIY服饰搭配"
+  ],
+  "innovations": [
+   "蛋仔工坊UGC编辑器+蛋码可视化编程，把'玩家造图'做成内容生态飞轮"
+  ],
+  "target_user": "全年龄（偏低龄）社交派对用户，爱UGC与联机",
+  "monetization": "IAA+IAP混合（盲盒/皮肤/赛季pass/去广告），UGC激励收益",
+  "lifecycle": "长线运营国民级，靠派对季+UGC+联动维系"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "UGC生态+品牌+3D物理自研构成三重壁垒，已被网易头部锁死；重资本投入且玩法生态难复制，独立复刻风险极高。",
+  "suggestions": [
+   "若做轻量版，聚焦'物理派对小游戏'去掉UGC，做10-20个精造关卡",
+   "换题材为'动物运动会'，复用圆滚滚物理碰撞手感",
+   "用成熟物理引擎(Unity PhysX)替代自研，压低后端成本"
+  ],
+  "risks": [
+   "网易头部+UGC生态壁垒，难撼动",
+   "3D物理+编辑器自研资本门槛极高",
+   "蛋仔派对品牌与玩法饱和"
+  ],
+  "effort": "不适用（UGC生态+重资本壁垒，不建议独立立项）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/d8/30/07d8305e-0c78-756d-09a9-61735eebc648/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/7e/82/e87e822d-e78f-3221-fa8c-a4e48178974c/2208x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/2a/0f/792a0fac-29fe-3f9e-33f3-cece41210d6f/01.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8c/16/a1/8c16a1c7-4ffc-790a-a27c-cd951b0c964d/02.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/25/ec/f725ecce-6a45-de52-2a94-2436f64e6ba1/03.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/a8/ba/9fa8babe-3317-f278-5736-d417b2212fd7/04.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/a9/05/25a905e9-d8c2-e6ac-a954-dd4176a5ff12/2732x2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/35/77/033577f3-5a63-970b-625f-751ebab2b048/01.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/b8/be/22b8be29-ab49-f8b9-bff0-b32285a80885/02.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/b4/82/76b48230-a2ae-82e9-c369-924441010506/03.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/85/75/a585751d-35eb-0770-89c7-13c9804e21d8/04.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "引擎为 Unity（网易技术架构解析确认，DOTS深度改造）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体2674MB，3D物理+UGC乐园",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/id1544884479?uo=4",
+  "https://blog.csdn.net/weixin_33675507/article/details/86176547"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "蛋仔派对",
+  "country": "cn",
+  "track_id": 1544884479,
+  "seller": "Hangzhou NetEase Leihuo Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "家庭聚会",
+   "动作"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/d8/30/07d8305e-0c78-756d-09a9-61735eebc648/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/7e/82/e87e822d-e78f-3221-fa8c-a4e48178974c/2208x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/2a/0f/792a0fac-29fe-3f9e-33f3-cece41210d6f/01.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8c/16/a1/8c16a1c7-4ffc-790a-a27c-cd951b0c964d/02.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/25/ec/f725ecce-6a45-de52-2a94-2436f64e6ba1/03.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/a8/ba/9fa8babe-3317-f278-5736-d417b2212fd7/04.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/a9/05/25a905e9-d8c2-e6ac-a954-dd4176a5ff12/2732x2048.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/35/77/033577f3-5a63-970b-625f-751ebab2b048/01.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/b8/be/22b8be29-ab49-f8b9-bff0-b32285a80885/02.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/b4/82/76b48230-a2ae-82e9-c369-924441010506/03.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/85/75/a585751d-35eb-0770-89c7-13c9804e21d8/04.jpg/626x1112bb.jpg"
+  ],
+  "description": "欢迎光临蛋仔岛！《蛋仔派对》是一款拥有5亿玩家的国民原创乐园游戏。在这里，你将化身Q萌的蛋仔，在盲盒机背后的神秘世界——蛋仔岛，展开一段奇妙的闯关之旅。游戏内含上百张风格各异的地图关卡、数十种休闲娱乐玩法，不怕手残，趣味无穷~海量高萌盲盒外观，来邂逅你的心动款！自由度极高的乐园编辑器，助你打造独一无二的乐园地图！更有充满脑洞与想象的蛋仔乐园，集结上亿张玩家原创乐园地图，等你和蛋搭子一同游玩打卡！\n\n【神秘盲盒机背后，有个奇趣蛋仔岛】\n你有没有好奇过，盲盒机内部有着怎么样的故事呢？盲盒机背后的蛋仔岛上，生活着无数可爱的蛋仔。它们的梦想是从一场场派对中胜出，争夺象征胜利的金币，而胜出的蛋仔将被传送到人类世界！\n\n【萌蛋智勇大冲关，海量关卡任你玩】\n滚动、碰撞、火花四射！数十个新奇关卡，超百变陷阱机关，争先恐后往前冲！不但有竞速、团队、生存关卡，更有捉迷藏、一线牵等特殊玩法，保证派对新鲜有趣不无聊！\n\n【创意编辑器乐园，个性地图随心造】\n在蛋仔工坊发挥创意和脑洞，创作你的专属关卡吧！零门槛上手，上百种组件道具自由摆放，一键发布原创地图，让更多玩家体验你的杰作！叫上蛋搭子前往乐园打卡美妙的玩家自制地图，解锁新鲜有趣的经历！\n\n【圆滚滚百变外观，解锁你的心动款】\n进入巨型盲盒机，感受拆盲盒的快乐！我们准备了海量精致酷炫的盲盒，潮流、萌趣的可爱蛋仔，等你收入囊中！更有可供你DIY的服饰配件，穿搭出你独一无二的style！\n\n【超Q弹物理碰撞，duang到停不下来】\n闯关开趴，撞到开花！圆滚滚的蛋仔不但奔跑速度惊人，冲撞起来威力同样巨大，为闯关带来意想不到的效果！和队友撞个满怀，将对手怼出赛道，蛋仔法则就是duang~\n\n【联系我们】\n-  蛋仔派对官网：https://party.163.com\n-  官方公众号：蛋仔派对\n-  官方微博：蛋仔派对\n-  官方抖音：蛋仔派对\n-  官方快手：蛋仔派对",
+  "release_notes": "各位蛋仔大家好，这里是你们最好的朋友皮蛋！最近蛋仔岛张灯结彩，惊魂明星盛典马上开幕！海瑟、贝琳达和斯黛拉三位追捕者，也要第一次以全新蛋仔形象来到舞台，和大家一起狂欢！\n\n皮蛋我早早准备好礼物和应援牌：海瑟会不会找回她最珍贵的记忆？贝琳达会不会画出会动的星星？斯黛拉会不会跳上精心准备好的舞？结果倒计时结束，舞台上居然一个蛋影都没有……三位追捕者，竟然全失踪了！\n\n绿雾从舞台后翻涌而出，留下一句神秘低语：“想要以蛋仔之名赴约，必先弥补生前未完成的遗憾——否则，将永远迷失在绿雾之中！”\n\n原来，只有获得幸福的追捕者才能来到蛋仔岛。为了赶上盛典，海瑟、贝琳达和斯黛拉回到过去，想要改写人生；可故事书突然错页！斯黛拉被困海妖号、海瑟迷失温斯洛古堡、贝琳达站在即将驶来的马戏团花车前……等一下，这故事怎么串台啦？！\n\n7月31日《蛋仔派对》全新派对季“惊魂盛典季”正式开启，全新篇章、趣味闯关，等你来玩！\n\n【故事由你书写 改写追捕者故事IF线】\n全新派对季“惊魂盛典季”，谁在游乐园？谁去温斯洛古堡？谁能拿到威亚绳、残缺日记与关键照片？把人物、地点、道具放进故事书，每一次组合，都可能让故事走向新的结局！\n怎么拼都能讲通故事，怎么改都有新的可能。能否让她们逃离悲剧、弥补遗憾、重回盛典，就看你了！\n\n【全新关卡 解锁惊魂盛典的奇趣闯关】\n惊魂夜的故事舞台全面开启！在“惊魂连环”中逃出危机四伏的惊魂夜；跨越沉船与断裂码头，从“惊魂码头”冲向生路；走进“画中回忆”，在颜料与旧梦交织的画框里寻找爱人的身影……还有“惊魂夜舞会”——抢夺假面，化身追捕者，开启身份逆转的惊喜对决！快和蛋搭子一起挑战吧！\n\n【派对季盲盒全新来袭】\n追捕者和蛋仔都可佩戴的至臻品质背饰“天鹅之梦”登场！戴上这双闪耀翅膀，奔向惊魂盛典的舞台吧！\n找回关于海妖家人的记忆、终于不再独自追赶遗忘速度的丧心护士海瑟；拯救挚爱之人的画中女郎贝琳达；不再重复坠下花车命运的哑女斯黛拉......全新蛋仔形象的三位追捕者，将带着改写命运后的幸福新篇章来到蛋仔岛！\nEGGY PRETTY的化妆师也来为盛典妆造助阵啦！挥动刷毛、点亮舞台妆容的化妆刷染染；抹上缤纷色彩、闪耀指尖的指甲油闪闪；带来水润亮泽肌肤的面霜滑滑。各位准备好和它们一起惊艳亮相了吗？\n\n【全新派对季福利多多】\n1、参与全新派对季活跃任务，即可解锁闪耀舞台的“合唱团套装”外观；\n2、派对季段位重置，挑战段位任务获得“惊魂马戏套装”外观；\n3、完成本派对季派对手册任务，即可获得“兔子小姐”外观；\n\n播报完毕！皮蛋要赶紧去帮她们改写命运啦！蛋仔们，快来和皮蛋一起把遗憾改写成幸福，让三位追捕者顺利赶上惊魂明星盛典吧！",
+  "file_size_bytes": 2674198528,
+  "min_os": "13.0",
+  "version": "1.0.257",
+  "release_date": "2022-05-25",
+  "rating": 4.2939,
+  "rating_count": 2462008,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/id1544884479?uo=4",
+  "fetched_at": "2026-09-15T00:35:21+08:00"
+ },
+ "slug": "蛋仔派对_86c65c"
+}

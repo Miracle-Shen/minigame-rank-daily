@@ -1,0 +1,285 @@
+{
+ "schema_version": 1,
+ "name": "遗弃之地",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "北京智诚互娱科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/畅销榜"
+  ],
+  "ranks": {
+   "douyin/畅销榜": 11
+  },
+  "platform_app_ids": {
+   "douyin": "tt310e47b3ae06acc002"
+  },
+  "first_seen": "2026-06-30",
+  "appearances": 58,
+  "best_rank": 5,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "中式皮影/黑白剪影，提线傀儡",
+  "dims": {
+   "engine": 2,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "黑白剪影+中式皮影为核心概念，提线傀儡主角与首领怪物需定制皮影美术",
+   "logic": "局外天书搭配+局内随机符咒管理+三合升阶+塔防波次，策略系统复杂",
+   "data": "修炼/鬼店/傀儡妆多线养成+卦纸抽卡(120保底天书)"
+  },
+  "asset_notes": "皮影剪影为2D定制美术，风格独特但非海量，100MB包体量级中等；核心在皮影美术产能",
+  "notes": "中式民俗恐怖皮影塔防，5人小团队(鼠玩工作室)，TD+卡牌roguelike成熟公式+差异化美术",
+  "cost_score": 2.88,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "在横版路径上拖动随机掉落的符咒到怪物区域释放，三张同符咒自动升阶积攒五行点释放天书，守护道法水晶撑过波次，通关铜钱在鬼店买天材地宝升级。",
+  "highlights": [
+   "皮影傀儡受击/符咒释放的剪影演出，恐怖美学辨识度强",
+   "随机符咒手牌管理+三合升阶，每局build不同有roguelike感",
+   "天书释放的五行点积累，把局内操作接到局外养成"
+  ],
+  "innovations": [
+   "把中式皮影/黑白剪影美术与塔防+卡牌roguelike结合，民俗恐怖题材差异化明显"
+  ],
+  "target_user": "国风/恐怖爱好者、塔防策略玩家",
+  "monetization": "IAP内购（元宝/卦纸抽卡/属性）+广告",
+  "lifecycle": "长线运营，靠技能/怪物/多人塔防更新"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "塔防+卡牌roguelike公式成熟，机制照搬即成立；真正的壁垒与差异化在皮影民俗美术，换一套强风格题材即可成立且避开饱和赛道。",
+  "suggestions": [
+   "美术换'敦煌壁画/剪纸'非遗风，复用TD+符咒roguelike",
+   "题材换'聊斋'妖怪，符咒改'符箓道术'更贴国风",
+   "把皮影摆动做成骨骼动画，强化演出差异化"
+  ],
+  "risks": [
+   "皮影定制美术产能是核心成本",
+   "TD+卡牌赛道已有头部，需美术差异化破局",
+   "随机符咒数值平衡需调优避免死局/无敌"
+  ],
+  "effort": "40–70人日（1前端+1.5美术+0.5数值）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/38/85/0e3885c7-9f22-3c39-6c96-72386db53d1a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/4c/b6/044cb658-0b37-2d07-63a0-a07caf7d431d/ios_U9884_U7ea6_U4e3bKV_U00282688X1242_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/28/03/8d2803e2-9f9a-ff3d-2fd2-1a8184dce0b7/_U5356_U70b95-2778x1284.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/82/7a/3c827acb-07e8-3822-d46b-0fc38e92fe31/_U5356_U70b93-2778x1284.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/5a/cd/125acd17-2daa-1bd1-854f-ec50c6211345/_U5356_U70b91-2778x1284..png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/7e/f4/bd7ef449-9d4f-b275-2f64-de0ff91450f4/_U5356_U70b92-2778x1284.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/ad/24/ebad24ad-41a3-ac8a-39eb-53b7fff1f540/_U5356_U70b94-2778x1284.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/82/e5/2682e5a2-0d74-3cdc-b866-28f62fe4f48a/1-2778x1284.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2b/a5/c1/2ba5c1a3-0589-fd7f-f2ba-6c87b18f74c6/2-2778x1284.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/78/21/33782101-5a8d-c7f7-b57c-e49c34ac6f7d/3-2778x1284.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/d9/a5/abd9a58c-ed5c-da20-ef60-acae35683bc8/4-2778x1284.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/cd/1a/a3cd1a66-9d83-868f-3568-0f6d9c2ebed2/_U5356_U70b93-2732x2048.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/19/3b/06193bcb-40ba-370c-240b-f5a13c6495c4/_U5356_U70b91-2732x2048.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/0d/16/8a0d1680-081e-b2ea-d6f2-e05522f91e3a/_U5356_U70b92-2732x2048.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/d6/c5/2cd6c5a1-4c83-0eb1-5fd0-a1a658d8ae87/_U5356_U70b94-2732x2048.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/28/60/a62860e0-dd21-9ce6-8147-7629724e2d06/_U5356_U70b95-2732x2048.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/d0/bc/aad0bcde-cea0-c1df-798e-eb0607ae9d93/3-2732x2048-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 16"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/24/f7/86/24f786a9-8e5a-3b69-f358-1aae761acdc8/1-2732x2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 17"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/19/da/bb19dadb-0b73-811d-8c54-d7fe6d145144/5-2732x2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 18"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/e4/3b/c1e43b91-a2da-b7d7-6641-6e13b8bc1d7b/2-2732x2048-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 19"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/d9/29/65d92927-e982-44ea-8266-1c4f60b25723/4-2732x2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 20"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "遗弃之地为中式皮影横版策略塔防，北京智诚互娱/鼠玩工作室",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体约100MB，含局外养成+局内随机符咒管理",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Cocos Creator/Unity（未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.3839.com/a/183018.htm",
+  "https://7xz.com/games/29732.html",
+  "https://apps.apple.com/cn/app/%E9%81%97%E5%BC%83%E4%B9%8B%E5%9C%B0/id6752552410?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "遗弃之地",
+  "country": "cn",
+  "track_id": 6752552410,
+  "seller": "Beijing Haotengchuangxiang Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "策略"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/38/85/0e3885c7-9f22-3c39-6c96-72386db53d1a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/4c/b6/044cb658-0b37-2d07-63a0-a07caf7d431d/ios_U9884_U7ea6_U4e3bKV_U00282688X1242_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/28/03/8d2803e2-9f9a-ff3d-2fd2-1a8184dce0b7/_U5356_U70b95-2778x1284.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/82/7a/3c827acb-07e8-3822-d46b-0fc38e92fe31/_U5356_U70b93-2778x1284.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/5a/cd/125acd17-2daa-1bd1-854f-ec50c6211345/_U5356_U70b91-2778x1284..png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/7e/f4/bd7ef449-9d4f-b275-2f64-de0ff91450f4/_U5356_U70b92-2778x1284.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/ad/24/ebad24ad-41a3-ac8a-39eb-53b7fff1f540/_U5356_U70b94-2778x1284.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/82/e5/2682e5a2-0d74-3cdc-b866-28f62fe4f48a/1-2778x1284.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2b/a5/c1/2ba5c1a3-0589-fd7f-f2ba-6c87b18f74c6/2-2778x1284.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/78/21/33782101-5a8d-c7f7-b57c-e49c34ac6f7d/3-2778x1284.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/d9/a5/abd9a58c-ed5c-da20-ef60-acae35683bc8/4-2778x1284.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/cd/1a/a3cd1a66-9d83-868f-3568-0f6d9c2ebed2/_U5356_U70b93-2732x2048.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/19/3b/06193bcb-40ba-370c-240b-f5a13c6495c4/_U5356_U70b91-2732x2048.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/0d/16/8a0d1680-081e-b2ea-d6f2-e05522f91e3a/_U5356_U70b92-2732x2048.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/d6/c5/2cd6c5a1-4c83-0eb1-5fd0-a1a658d8ae87/_U5356_U70b94-2732x2048.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/28/60/a62860e0-dd21-9ce6-8147-7629724e2d06/_U5356_U70b95-2732x2048.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/d0/bc/aad0bcde-cea0-c1df-798e-eb0607ae9d93/3-2732x2048-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/24/f7/86/24f786a9-8e5a-3b69-f358-1aae761acdc8/1-2732x2048.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/19/da/bb19dadb-0b73-811d-8c54-d7fe6d145144/5-2732x2048.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/e4/3b/c1e43b91-a2da-b7d7-6641-6e13b8bc1d7b/2-2732x2048-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/d9/29/65d92927-e982-44ea-8266-1c4f60b25723/4-2732x2048.jpg/626x1112bb.jpg"
+  ],
+  "description": "《遗弃之地》是一款中式民俗恐怖题材的横版策略塔防游戏，玩家扮演遗弃之地的修法者在重重困难中提升实力，钻研策略，最终得悟天道，破除禁锢\n我们的特色：\n--【民俗轻恐怖题材】\n这是一款中式恐怖为基调的游戏，玩家通过修习符咒天书、并且在阴阳两界中收集天材地宝，提升自身实力\n我们采用了黑白剪影+中式皮影作为核心概念，只为更好的表现中国传统民俗的美学观感。主角和首领怪物皆为提线皮影，寓意皆为傀儡。\n--【随机性的战斗】\n在关卡内会随机获得不同类型、不同品质的法术。通过合理的释放和手牌管理获得战斗胜利\n--【丰富的策略】\n局外的天书技能搭配+局内的随机符咒管理构成了我们的核心战斗策略\n通过合理的管理随机获得的符咒资源，在应对敌人的同时积攒元素能量，释放携带的各类天书，完善战斗策略\n同时局外可以通过鬼店消耗战斗获得的铜钱购买各种天材地宝提高自身的属性和特殊能力\n--【后续计划】\n我们将会制作更多策略技能、更多具有特色的恐怖怪物。并且除了常规的单人主线关卡外，后续会推出更丰富的玩法，以及多人塔防关卡\n总之，我们希望通过迭代，一步一步将我们脑海中的中式民俗恐怖故事呈现给大家。",
+  "release_notes": "新增冥河战场",
+  "file_size_bytes": 99602432,
+  "min_os": "12.0",
+  "version": "1.0.15",
+  "release_date": "2025-11-26",
+  "rating": 4.61387,
+  "rating_count": 22891,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E9%81%97%E5%BC%83%E4%B9%8B%E5%9C%B0/id6752552410?uo=4",
+  "fetched_at": "2026-09-15T00:37:48+08:00"
+ },
+ "slug": "遗弃之地_302878"
+}

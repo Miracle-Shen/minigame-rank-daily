@@ -1,0 +1,698 @@
+[
+  {
+    "name": "极限破译",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity / Cocos（推测）",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "扁平数字黑客风、场景插画",
+      "dims": {"engine": 2, "art": 2, "anim": 2, "physics": 1, "logic": 3, "data": 3, "server": 3, "audio": 2},
+      "dim_notes": {
+        "physics": "纯逻辑推理无物理，仅规则判定",
+        "logic": "密码规律识别 + 快速/排名双模式 + 工具升级，规则中等",
+        "data": "经验等级解锁工具、金币升级、角色装扮养成线"
+      },
+      "asset_notes": "2D UI + 数字场景插画，素材量中等，无 3D 资产，素材层不是瓶颈",
+      "notes": "媒体未匹配，玩法依据九游预约介绍推断；黑客解谜+养成+竞技的融合框架"
+    },
+    "play": {
+      "core_loop": "在机房、企业数据库等数字场景中观察字符规律、拆解密码破译，成功获经验金币与道具；快速模式沉浸式解谜，排名模式限时冲榜争夺全球黑客席位。",
+      "highlights": [
+        "破解瞬间字符归位与解锁背后小故事，带来强解谜成就感",
+        "排名模式限时冲榜 + 全球黑客榜，制造竞技紧张感",
+        "连续破译加成与工具临时强化，策略性使用道具提效"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（黑客破译题材是主要差异化，核心为成熟解谜）"],
+      "target_user": "喜爱烧脑解谜的年轻男性，碎片时间",
+      "monetization": "IAA + IAP（工具/装扮去广告），具体未确认（inferred）",
+      "lifecycle": "长线运营（养成 + 排行）"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "解谜+养成+排名是成熟框架、技术成本低；差异化全在题材与密码设计，换题材即可快速上线验证。",
+      "suggestions": [
+        "换题材为「古籍修复 / 古文字破译」，天然带文化感",
+        "把密码规律做成可关卡编辑器，让 UGC 产出内容",
+        "排名模式加好友 PK 与每周主题赛提升留存"
+      ],
+      "risks": ["解谜难度曲线难调、易劝退", "密码设计靠人工、内容产出成本高"],
+      "effort": "20–30 人日（1 前端 + 1 美术 + 0.5 策划）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "引擎与具体玩法未找到官方确认，依据九游预约介绍推断", "level": "inferred"},
+      {"claim": "黑客解谜+双模式+角色养成的玩法框架", "level": "inferred"}
+    ],
+    "sources": ["https://www.9game.cn/news/11326449.html"]
+  },
+  {
+    "name": "Car Evolve",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推测）",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "简洁卡通 2D 侧视车辆与道路",
+      "dims": {"engine": 2, "art": 2, "anim": 2, "physics": 2, "logic": 3, "data": 3, "server": 2, "audio": 2},
+      "dim_notes": {
+        "art": "包体约 170MB，含车辆/道路/环境美术，量级轻-中",
+        "logic": "零件升级树 + 多宇宙重置循环 + 距离记录，中等复杂",
+        "server": "需联网（在线单人），推测含排行榜"
+      },
+      "asset_notes": "2D 车辆与场景，素材量中等，地形可部分程序化生成",
+      "notes": "媒体匹配（美区），包体 169.8MB；SDK 未明确检出引擎特征，引擎为推断"
+    },
+    "play": {
+      "core_loop": "驾驶车辆赚金币，升级零件（引擎/轮胎等），用弹弓加速冲更远；达成距离记录后进入新宇宙（重置部分进度），循环刷分。",
+      "highlights": [
+        "每次升级后明显的距离/速度提升，正反馈强",
+        "弹弓加速机制带来瞬时爽感与地形突破",
+        "多宇宙重置制造「重开即新目标」的收集欲"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（放置+车辆升级为成熟框架）"],
+      "target_user": "欧美休闲 / 放置玩家，通勤碎片",
+      "monetization": "IAP（去广告/零件包 $2.99–29.99）+ IAA 混合",
+      "lifecycle": "长线运营（赛季宇宙更新）"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "放置+车辆升级框架极成熟、技术低；瓶颈在题材与买量，换皮可快速验证。",
+      "suggestions": [
+        "换题材为「飞船 / 赛博摩托升级」降低撞车",
+        "加赛季排行榜与好友挑战增强社交",
+        "把重置做成「基因突变」叙事提升代入"
+      ],
+      "risks": ["放置类买量成本高、留存靠数值", "广告过多已遭玩家差评"],
+      "effort": "25–35 人日（1 前端 + 1 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "包体 169.8MB（官方商店数据）", "level": "confirmed"},
+      {"claim": "引擎为 Unity 属推断，SDK 未检出明确引擎特征", "level": "inferred"}
+    ],
+    "sources": ["https://apps.apple.com/us/app/car-evolve/id6754464806?uo=4", "https://www.searchmobilegames.com/game/car-evolve"]
+  },
+  {
+    "name": "打下毛线",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Cocos / Unity（推测）",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "治愈系卡通毛线、低饱和配色",
+      "dims": {"engine": 1, "art": 2, "anim": 2, "physics": 3, "logic": 2, "data": 2, "server": 2, "audio": 2},
+      "dim_notes": {
+        "physics": "解压类强调毛线搓揉/缠绕的物理触感模拟",
+        "logic": "线轴/颜色匹配关卡，规则简单"
+      },
+      "asset_notes": "2D 毛线球与场景、治愈系配色，素材轻",
+      "notes": "媒体未匹配，依据微信人气榜同类『解压打毛线/打个毛线』推断为毛线解压消除类"
+    },
+    "play": {
+      "core_loop": "滑动搓揉/拉扯毛线球，整理乱麻成标准毛线球，连击攒解压点；关卡限时整理或双人对战比拼连击。",
+      "highlights": [
+        "毛线摩擦沙沙声 + 震动反馈的触觉解压",
+        "连击进入心流模式、白噪音强化放松",
+        "毛线图鉴收集满足成就感"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（解压+消除为成熟玩法）"],
+      "target_user": "女性 / 解压向用户，碎片时间",
+      "monetization": "IAA + 红包/提现（解压类常见，inferred）",
+      "lifecycle": "短平快爆款 + 图鉴长留"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "玩法极轻、技术门槛低；竞争激烈靠题材与美术，换材质即差异化。",
+      "suggestions": [
+        "换材质为「史莱姆 / 黏土」解压",
+        "加 ASMR 音效库强化治愈",
+        "图鉴接 IP 联动提升收集动力"
+      ],
+      "risks": ["解压品类买量贵、同质化严重"],
+      "effort": "15–25 人日（1 前端 + 0.5 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "具体玩法未找到官方确认，依据同类解压毛线游戏推断", "level": "inferred"}
+    ],
+    "sources": ["https://www.18183.com/zhxz/9014934.html"]
+  },
+  {
+    "name": "多乐升级",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Cocos Creator（推测）",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "2D 扑克牌 + 角色立绘 + 出牌特效",
+      "dims": {"engine": 2, "art": 2, "anim": 2, "physics": 1, "logic": 3, "data": 2, "server": 3, "audio": 2},
+      "dim_notes": {
+        "logic": "升级/拖拉机规则复杂（叫主/抠底/甩牌罚分/多副牌），AI 与判定需专门实现",
+        "server": "联网对战 + 排行榜，需强联网"
+      },
+      "asset_notes": "2D 扑克牌 + 角色立绘 + 特效，素材中等，牌库可复用",
+      "notes": "媒体匹配（国区），包体 233MB；引擎未确认，按棋牌类常见选型推断"
+    },
+    "play": {
+      "core_loop": "4 人扑克牌（升级/拖拉机/80分），叫主、出牌、扣底，按级别升级；单机练牌或联网对战冲榜。",
+      "highlights": [
+        "拖拉机连炸 + 特效炫酷的连炸爽感",
+        "「七星高照」创新玩法胡牌不停、连炸爽翻天",
+        "智能选牌一指操作降低门槛"
+      ],
+      "innovations": ["在经典升级基础上加入「七星高照」连炸玩法，属成熟品类的执行优化，无颠覆性创新"],
+      "target_user": "中年男性牌友，社交",
+      "monetization": "IAA（广告）+ IAP（去广告/道具），免费（inferred）",
+      "lifecycle": "长线（牌类长青）"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "扑克框架成熟、技术低；瓶颈在规则还原与地域玩法选择，换地方扑克即差异化。",
+      "suggestions": [
+        "换为「掼蛋 / 跑胡子」地域玩法",
+        "加 AI 陪练降低新手挫败",
+        "社交房卡模式提升付费"
+      ],
+      "risks": ["扑克类同质化", "地方规则多难统一"],
+      "effort": "30–45 人日（1 前端 + 1 美术 + 0.5 策划）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "包体 233MB（官方商店数据）", "level": "confirmed"},
+      {"claim": "引擎为 Cocos Creator 属推断，无官方确认", "level": "inferred"}
+    ],
+    "sources": ["https://apps.apple.com/cn/app/%E5%A4%9A%E4%B9%90%E5%8D%87%E7%BA%A7/id1061581971?uo=4"]
+  },
+  {
+    "name": "保卫向日葵",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推测）",
+      "engine_evidence": "inferred",
+      "dimension": "3D",
+      "art_style": "Low-poly 明快卡通 3D 植物/怪物",
+      "dims": {"engine": 3, "art": 4, "anim": 4, "physics": 2, "logic": 5, "data": 5, "server": 3, "audio": 3},
+      "dim_notes": {
+        "art": "包体 1.75GB 含海量 3D 植物/怪物模型、技能特效与长线赛季资产",
+        "logic": "塔防+背包like+LDlike 三重融合，杂交配方 200+ 与肉鸽随机技能，系统极复杂",
+        "data": "双线养成 + 符文 + 共鸣 + 公会 + 赛季经济循环"
+      },
+      "asset_notes": "Low-poly 3D，但资产量级极大（植物/怪物/皮肤/赛季），素材层是主要成本",
+      "notes": "媒体匹配（国区），包体 1.75GB；研发为大梦龙途/灵象工作室，引擎未确认按 3D 休闲选型推断"
+    },
+    "play": {
+      "core_loop": "收集阳光种植物布防，抵御怪物波次；局内用「背包like」放地皮/种植物/升级，击杀特殊怪抽卡得高星植物（LDlike），杂交合成更强阵容。",
+      "highlights": [
+        "杂交配方 200+，同植满级杂交双属性，阵容搭配自由",
+        "肉鸽随机技能每局质变，攻速 buff 叠到每秒 10 发",
+        "保底抽卡 + 自由调站位，避免抽卡挫败且战斗不闲"
+      ],
+      "innovations": ["把经典塔防与「背包like」「LDlike」融合，用杂交系统+肉鸽抽卡把策略维度与局内反馈同时拉满——品类融合即核心创新"],
+      "target_user": "休闲策略用户，碎片时间",
+      "monetization": "IAP（植物/皮肤/月卡/赛季）+ IAA 混合",
+      "lifecycle": "长线运营（赛季/公会/钓鱼等持续更新）"
+    },
+    "clone": {
+      "verdict": "变种创意",
+      "rationale": "塔防+背包+LD 融合已验证畅销，但 1.75GB 资产与复杂系统意味着高成本；直接照搬撞车且资产门槛高，应学其融合思路换题材。",
+      "suggestions": [
+        "换题材为「保卫萝卜/海鲜摊位」降低美术成本",
+        "学融合但把 LDlike 换成更轻的「塔防+肉鸽」",
+        "先做核心三系统 MVP 验证留存再扩"
+      ],
+      "risks": ["资产量级极高、系统复杂研发周期长", "腾讯/大梦龙途已占榜、买量贵"],
+      "effort": "120–180 人日（2 前端 + 2 美术 + 1 策划 + 1 服务端）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "包体 1.75GB（官方商店数据）", "level": "confirmed"},
+      {"claim": "玩法为塔防+背包like+LDlike 融合（多家媒体报道）", "level": "confirmed"},
+      {"claim": "引擎为 Unity 属推断", "level": "inferred"}
+    ],
+    "sources": ["https://apps.apple.com/cn/app/%E4%BF%9D%E5%8D%AB%E5%90%91%E6%97%A5%E8%91%B5/id6737974680?uo=4", "https://new.qq.com/rain/a/20250102A02EZS00"]
+  },
+  {
+    "name": "82-0.com",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Web / HTML5（React/Next 推测）",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "极简 UI + NBA 球员头像",
+      "dims": {"engine": 2, "art": 1, "anim": 1, "physics": 1, "logic": 3, "data": 2, "server": 3, "audio": 1},
+      "dim_notes": {
+        "art": "纯 UI + 球员头像，包体 104MB，素材极轻",
+        "logic": "五轮随机抽卡 + 年代多样性约束 + 基于 5 项数据的非线性模拟评分"
+      },
+      "asset_notes": "2D 头像 + UI，几乎无定制美术，素材层零瓶颈",
+      "notes": "媒体匹配（国区商店但开发者为 Vaulty Studios），包体 104MB；核心为网页游戏，引擎按 Web 技术推断"
+    },
+    "play": {
+      "core_loop": "每轮随机一个 NBA 球队+年代，选一名该时期球员填入五个位置之一；五轮后模拟引擎按 PPG/RPG/APG/STL/BPG 算出 82 场战绩，追求 82-0。",
+      "highlights": [
+        "「差一名就 82-0」的强悬念驱动反复重开",
+        "年代/球队 reroll 制造运气与策略博弈",
+        "结果卡易分享，引发球迷争论传播"
+      ],
+      "innovations": ["把 NBA 历史球星做成「抽卡+模拟战绩」的轻量辩论游戏，核心是非线性数据模拟引擎，属品类微创新"],
+      "target_user": "NBA 球迷 / 篮球知识党，社媒传播",
+      "monetization": "IAA（应用内广告）+ 可选去广告，免费（inferred）",
+      "lifecycle": "病毒式短爆 + 赛季更新球员池"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "技术极轻（web 原型），核心是数据模拟+分享；NBA 球员姓名/数据涉及授权风险，换运动最稳。",
+      "suggestions": [
+        "换为「足球 82-0」（梅西/贝利跨年代）",
+        "模拟引擎改用开源球员数据降低风险",
+        "加好友挑战码分享增强传播"
+      ],
+      "risks": ["使用 NBA 真实球员姓名与历史数据存在授权/肖像风险", "玩法浅、留存靠话题"],
+      "effort": "15–25 人日（1 前端 + 0 后端轻量）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "包体 104MB（官方商店数据）", "level": "confirmed"},
+      {"claim": "引擎为 Web/HTML5 属推断（核心为 82-0.com 网页游戏）", "level": "inferred"}
+    ],
+    "sources": ["https://apps.apple.com/cn/app/82-0-com/id6780195090?uo=4", "https://www.aol.com/lifestyle/discover-addicting-82-0-basketball-040936792.html"]
+  },
+  {
+    "name": "金铲铲之战",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity",
+      "engine_evidence": "confirmed",
+      "dimension": "3D",
+      "art_style": "3D 卡通 + 欧美奇幻（英雄联盟 IP）",
+      "dims": {"engine": 4, "art": 5, "anim": 4, "physics": 2, "logic": 5, "data": 5, "server": 5, "audio": 4},
+      "dim_notes": {
+        "art": "包体 3.3GB 含 200+ 自然仙灵 3D 模型、皮肤与赛季资产",
+        "logic": "自走棋经济利息/连胜连败 + 羁绊 + 装备合成 + 双赛季并行",
+        "server": "8 人实时对战，强联网同步",
+        "engine": "Unity + 自走棋战斗引擎高并发，需专门优化"
+      },
+      "asset_notes": "英雄联盟 IP 3D 资产量级极大，几乎不可复刻",
+      "notes": "媒体匹配（国区），包体 3.3GB；腾讯光子天玑智趣研发，Unity 引擎多源确认"
+    },
+    "play": {
+      "core_loop": "每回合攒金币（利息/连胜），买棋子升人口，凑羁绊合装备，八人回合制对战，存活到最后吃鸡。",
+      "highlights": [
+        "利息经济 + 连胜连败的博弈深度",
+        "三星合成与羁绊触发的视觉爆发",
+        "双赛季并行，老玩家有情怀新玩家有新鲜"
+      ],
+      "innovations": ["云顶之弈正版授权移动化 + 双赛季并行，非原创机制但本地化运营强"],
+      "target_user": "策略 / 自走棋玩家，全龄",
+      "monetization": "IAP（小小英雄/皮肤/通行证）+ 混合",
+      "lifecycle": "长线（赛季制）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "英雄联盟 IP 授权 + 腾讯渠道与 3.3GB 3D 资产，外部团队无法复刻且无授权。",
+      "suggestions": ["做无 IP 自走棋（原创题材）规避授权，但需自研平衡与美术"],
+      "risks": ["IP 侵权", "资产量级", "腾讯垄断"],
+      "effort": "300+ 人日（大型团队，不建议立项）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "包体 3.3GB（官方商店数据）", "level": "confirmed"},
+      {"claim": "引擎为 Unity（多家资料站与百科确认）", "level": "confirmed"}
+    ],
+    "sources": ["https://apps.apple.com/cn/app/%E9%87%91%E9%93%B2%E9%93%B2%E4%B9%8B%E6%88%98/id1478101301?uo=4", "https://baike.baidu.com/item/%E9%87%91%E9%93%B2%E9%93%B2%E4%B9%8B%E6%88%98/57970031"]
+  },
+  {
+    "name": "我的世界：移动版",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "基岩引擎 C++（网易定制分叉）",
+      "engine_evidence": "confirmed",
+      "dimension": "3D",
+      "art_style": "方块像素风 3D（ sandbox）",
+      "dims": {"engine": 5, "art": 4, "anim": 2, "physics": 3, "logic": 5, "data": 4, "server": 4, "audio": 3},
+      "dim_notes": {
+        "engine": "基于 C++ 基岩引擎的网易定制分叉，含 Apollo 核心与自研网络协议，需自研",
+        "logic": "合成/烧炼/附魔/酿造/红石/命令方块等近无限机制",
+        "server": "租赁服 + 联机 + 我的山头 40 人在线"
+      },
+      "asset_notes": "方块像素风美术成本低，但 UGC 模组/组件生态资产海量",
+      "notes": "媒体匹配（国区），包体 4.2GB；网易基于 Bedrock C++ 引擎定制分叉，技术架构多源确认"
+    },
+    "play": {
+      "core_loop": "随机生成开放世界，砍树挖矿搜集资源，建建筑/打怪/红石电路，单机或联机创造。",
+      "highlights": [
+        "自由建造（方块无限组合）的核心创造力",
+        "红石电路 / 命令方块的硬核系统深度",
+        "UGC 组件生态带来持续新玩法"
+      ],
+      "innovations": ["非原创（Mojang IP），网易本地化 + UGC 创造者计划 + AI 伙伴为运营侧创新"],
+      "target_user": "全龄创造 / 生存玩家",
+      "monetization": "IAP（组件/皮肤/绿宝石）+ 广告（部分服务器看广告得币）",
+      "lifecycle": "超长线（UGC 驱动）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "强 IP 与自研 C++ 引擎壁垒，沙盒品类极重，无法低成本的复刻。",
+      "suggestions": ["做像素风沙盒但需原创 IP 与自研引擎，成本极高"],
+      "risks": ["IP 侵权", "引擎自研", "资产/内容生态"],
+      "effort": "500+ 人日（大型团队，不建议立项）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "包体 4.2GB（官方商店数据）", "level": "confirmed"},
+      {"claim": "网易基于 C++ 基岩引擎定制分叉（技术解析与百科确认）", "level": "confirmed"}
+    ],
+    "sources": ["https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C-%E7%A7%BB%E5%8A%A8%E7%89%88/id1243986797?uo=4", "https://minecraft.fandom.com/zh/wiki/%E4%B8%AD%E5%9B%BD%E7%89%88?variant=zh-cn"]
+  },
+  {
+    "name": "暴走闯关者",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Cocos / Unity（推测）",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "鲜艳卡通 2D 关卡",
+      "dims": {"engine": 1, "art": 2, "anim": 2, "physics": 1, "logic": 2, "data": 1, "server": 2, "audio": 2},
+      "dim_notes": {
+        "logic": "关卡挑战 + 道具收集，规则简单",
+        "data": "无明显成长线，纯关卡闯关"
+      },
+      "asset_notes": "2D 关卡 + 角色，素材轻",
+      "notes": "媒体未匹配，依据微信小游戏平台同类+应用宝入口推断为休闲闯关"
+    },
+    "play": {
+      "core_loop": "在限时光卡中操作角色躲避陷阱/敌人，突破障碍到达终点通关；收集道具辅助。",
+      "highlights": [
+        "限时通关的紧张节奏",
+        "丰富关卡逐步解锁的新鲜感",
+        "简单易上手的操作"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（闯关类成熟）"],
+      "target_user": "休闲闯关用户",
+      "monetization": "IAA（广告），具体未确认（inferred）",
+      "lifecycle": "短平快"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "闯关框架极轻，换题材即差异化，成本低。",
+      "suggestions": [
+        "换题材为「厨房逃生 / 办公室突围」",
+        "加关卡编辑器 UGC 延长寿命",
+        "限时竞赛接好友排行榜"
+      ],
+      "risks": ["闯关品类饱和"],
+      "effort": "15–25 人日（1 前端 + 0.5 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "具体玩法未找到官方确认，依据平台同类推断", "level": "inferred"}
+    ],
+    "sources": ["https://www.17yoo.cn/detail/60585"]
+  },
+  {
+    "name": "大王请上阵",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推测）",
+      "engine_evidence": "inferred",
+      "dimension": "3D",
+      "art_style": "3D-Q 版跨文明武将",
+      "dims": {"engine": 3, "art": 3, "anim": 3, "physics": 1, "logic": 4, "data": 4, "server": 3, "audio": 3},
+      "dim_notes": {
+        "logic": "四大体系 + 兵种循环克制 + 八格站位布阵 + 出手顺序，策略维度多",
+        "data": "升阶/羁绊/命格/神兵/战魂多线养成 + 抽卡经济"
+      },
+      "asset_notes": "3D-Q 版武将模型 + 场景，素材中等偏上，需角色资产管线",
+      "notes": "媒体未匹配，但畅销榜在榜且多家渠道站有详细资料；3D-Q 版放置卡牌，引擎按选型推断"
+    },
+    "play": {
+      "core_loop": "跨时空名将大乱斗，挂机产出资源，招募抽卡养成武将，搭配阵容（体系/兵种/站位）推图与竞技。",
+      "highlights": [
+        "兵种循环克制（盾弓枪骑）低战力靠布阵越战",
+        "八格站位 + 出手顺序 + 技能时机的高策略",
+        "开局千抽快速组核心阵容的爽感"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（放置卡牌成熟，中西名将混搭为题材执行）"],
+      "target_user": "卡牌 / 历史用户，男性",
+      "monetization": "IAP（抽卡/养成）+ 混合",
+      "lifecycle": "长线（卡牌运营）"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "放置卡牌框架成熟、技术中；瓶颈在题材美术与数值，换皮快速。",
+      "suggestions": [
+        "换为「神话 / 职场」题材",
+        "保留兵种克制做差异化数值",
+        "做轻量 H5 版降成本"
+      ],
+      "risks": ["卡牌买量极贵", "数值平衡难", "头部垄断"],
+      "effort": "60–90 人日（1.5 前端 + 1 美术 + 1 策划）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "玩法/题材依据多家渠道站资料，引擎为推断", "level": "inferred"}
+    ],
+    "sources": ["https://www.jz5u.com/game/69130.html", "https://www.1912yx.com/rmyx/3310.html"]
+  },
+  {
+    "name": "猪了个猪",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（团结引擎）",
+      "engine_evidence": "confirmed",
+      "dimension": "2D",
+      "art_style": "2D 卡通猪猪、治愈配色",
+      "dims": {"engine": 2, "art": 3, "anim": 3, "physics": 1, "logic": 3, "data": 2, "server": 2, "audio": 2},
+      "dim_notes": {
+        "art": "包体 546MB 含猪猪角色、皮肤、关卡与序列帧/音效资产",
+        "logic": "四向消除 + 死局规避 + 炸弹猪倒计时，关卡可解性需专门调"
+      },
+      "asset_notes": "2D 卡通猪猪素材，可用 AI 生图批量；无 3D",
+      "notes": "媒体匹配（国区），包体 546MB；同趣科技 CEO 在 Unity Unite 分享其基于团结引擎的小游戏优化，引擎确认"
+    },
+    "play": {
+      "core_loop": "化身牧猪人，点击前方无阻挡的猪猪四向消除，引导猪猪逃离农场；避免形成死局，小心炸弹猪，清空农场通关并收集装饰。",
+      "highlights": [
+        "四向消除时成片猪猪消失的连锁爽感",
+        "「差一只就清场」的强悬念驱动看广告续命",
+        "农场收集装饰带来长线目标"
+      ],
+      "innovations": ["在堆叠三消之外改用「四向消除+死局规避」，并把炸弹猪倒计时做成风险点，属成熟品类的微创新"],
+      "target_user": "全龄休闲 / 解压用户",
+      "monetization": "IAA 为主（提示/跳关/奖励看广告）+ 皮肤内购（inferred，同趣为 IAA 模式）",
+      "lifecycle": "长线运营（皮肤周更/收集）"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "机制已被验证且用户过亿，2D 素材轻；瓶颈在题材与首关留存，换皮最优。",
+      "suggestions": [
+        "换为「猫了个猫 / 鹅了个鹅」",
+        "首关降层数、后移失败点",
+        "加 AI 生图批量出皮肤"
+      ],
+      "risks": ["同趣已占榜、买量贵", "四向消除已有换皮"],
+      "effort": "25–40 人日（1 前端 + 1 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "包体 546MB（官方商店数据）", "level": "confirmed"},
+      {"claim": "引擎为 Unity/团结引擎（同趣 CEO Unity Unite 分享确认）", "level": "confirmed"}
+    ],
+    "sources": ["https://apps.apple.com/cn/app/%E7%8C%AA%E4%BA%86%E4%B8%AA%E7%8C%AA/id6749613498?uo=4", "https://unity.cn/projects/691a880aedbc2a8f6abd160f"]
+  },
+  {
+    "name": "我真能通关",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Cocos / Unity（推测）",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "2D 场景 + 物件（解压/闯关向）",
+      "dims": {"engine": 1, "art": 2, "anim": 2, "physics": 2, "logic": 2, "data": 1, "server": 2, "audio": 2},
+      "dim_notes": {
+        "data": "无明显成长线，纯解压 / 闯关",
+        "logic": "关卡目标明确，规则简单"
+      },
+      "asset_notes": "2D 场景 + 物件，素材轻",
+      "notes": "媒体未匹配；发行商广州池骋同榜还有「解压闯一关」，推断为同类解压/闯关小游戏，具体玩法以推断"
+    },
+    "play": {
+      "core_loop": "在关卡中（推测砸物解压或跑酷闯关）完成目标通关，释放压力或竞速。",
+      "highlights": [
+        "砸物 / 过关的即时宣泄反馈",
+        "关卡渐进带来目标感",
+        "简单易上手、碎片可玩"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化"],
+      "target_user": "解压 / 碎片用户",
+      "monetization": "IAA + 红包（解压类常见，inferred）",
+      "lifecycle": "短平快"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "解压/闯关极轻，换题材即差异化，成本低。",
+      "suggestions": [
+        "换为「砸烂前任 / 办公室」宣泄题材",
+        "加 ASMR 音效强化解压",
+        "接红包提现提升留存"
+      ],
+      "risks": ["解压品类同质化买量贵"],
+      "effort": "15–25 人日（1 前端 + 0.5 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "具体玩法未确认，依据同发行商池骋的同类解压/闯关游戏推断", "level": "inferred"}
+    ],
+    "sources": ["https://www.17yoo.cn/detail/56274"]
+  },
+  {
+    "name": "CubeAway - 3DPuzzle",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（SDK 推断）",
+      "engine_evidence": "inferred",
+      "dimension": "3D",
+      "art_style": "极简 3D 几何体（立方体/箭头）",
+      "dims": {"engine": 3, "art": 3, "anim": 2, "physics": 1, "logic": 4, "data": 2, "server": 2, "audio": 2},
+      "dim_notes": {
+        "logic": "六面立方体箭头相互阻挡，需计算移除顺序与连锁反应，空间逻辑复杂",
+        "art": "包体 338MB 含 3D 立方体/箭头/多模式场景资产"
+      },
+      "asset_notes": "极简 3D 几何体，素材量中等，主要靠逻辑与设计",
+      "notes": "媒体匹配（美区），包体 338MB；SDK 检测含 Unity 开发工具，引擎推断"
+    },
+    "play": {
+      "core_loop": "旋转观察六面立方体上的箭头，找出当前可移除的箭头依次清除，避免误操作阻断序列，清空全部箭头过关。",
+      "highlights": [
+        "旋转观察 + 预判移除顺序的空间烧脑爽感",
+        "一次移除引发连锁暴露的连锁反应",
+        "静谧治愈氛围 + 提示看广告的低挫败"
+      ],
+      "innovations": ["把「方向箭头依赖解除」做成 3D 立方体解谜，机制新颖，非成熟品类直接套用"],
+      "target_user": "解谜 / 空间思维用户，全球",
+      "monetization": "IAA + IAP（去广告/提示）混合（AppGoblin：约 67% IAP / 33% 广告）",
+      "lifecycle": "长线（模式更新 CubeStreak 等）"
+    },
+    "clone": {
+      "verdict": "变种创意",
+      "rationale": "机制新颖且 3D 逻辑有壁垒，但素材轻；直接抄撞车，应换主题（其它 3D 物件依赖解除）。",
+      "suggestions": [
+        "换为「拆除积木塔 / 解绳结」3D 依赖解除",
+        "做 2D 简化版降门槛",
+        "加每日谜题社交分享"
+      ],
+      "risks": ["3D 空间逻辑实现难", "小众受众"],
+      "effort": "40–60 人日（1 前端(3D) + 1 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "包体 338MB（官方商店数据）", "level": "confirmed"},
+      {"claim": "引擎为 Unity 依据 SDK 检测推断", "level": "inferred"}
+    ],
+    "sources": ["https://apps.apple.com/us/app/cubeaway-3dpuzzle/id6760325543?uo=4", "https://appgoblin.info/apps/jp.co.goodroid.hyper.puzzle.arrows3dcubepuzzle"]
+  },
+  {
+    "name": "Block Blast！",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity",
+      "engine_evidence": "confirmed",
+      "dimension": "2D",
+      "art_style": "极简方块 + 网格（扁平）",
+      "dims": {"engine": 2, "art": 1, "anim": 2, "physics": 1, "logic": 2, "data": 1, "server": 2, "audio": 2},
+      "dim_notes": {
+        "art": "匹配到的商店包仅 5.4MB（极简版），完整版约 215MB 仍属轻量",
+        "logic": "8x8 网格 + 三块放置 + 横竖双向消除，规则简单"
+      },
+      "asset_notes": "方块 + 网格极简美术，几乎零素材成本；注意匹配包为极简版",
+      "notes": "媒体匹配（国区商店但开发者 Hungry Studio/北京迦游），包体 5.4MB 为极简版；多源确认 Unity 引擎，动效方向有用 Cocos"
+    },
+    "play": {
+      "core_loop": "每回合给三个方块拖到 8x8 网格，填满整行或整列即消除，无时间压力，追求长连击与高分。",
+      "highlights": [
+        "横竖双向消除的规划爽感",
+        "无计时低压，适合碎片",
+        "「Perfect/Unbelievable」夸赞 + 震动的正反馈"
+      ],
+      "innovations": ["把俄罗斯方块下落改为「不限时静态放置+横竖双向消除」，是成熟品类的执行优化"],
+      "target_user": "全球休闲 / 下沉用户",
+      "monetization": "纯 IAA（横幅/激励/插屏），无内购",
+      "lifecycle": "长线（模式/副玩法更新）"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "机制极简技术零门槛，纯广告变现；瓶颈在题材与买量，Hungry Studio 已占榜。",
+      "suggestions": [
+        "换主题为「宝石 / 动物方块」",
+        "加一笔画 / 数独副玩法（如原作）",
+        "做极简离线版覆盖低配设备"
+      ],
+      "risks": ["品类被 Hungry Studio 以万次 A/B 测试霸榜、买量极贵", "易被认为抄袭"],
+      "effort": "15–25 人日（1 前端 + 0 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "匹配商店包 5.4MB（极简版，官方数据）", "level": "confirmed"},
+      {"claim": "引擎为 Unity（开发文章与招聘信息确认）", "level": "confirmed"}
+    ],
+    "sources": ["https://apps.apple.com/cn/app/block-blast/id6742787556?uo=4", "http://www.nadianshi.com/2026/02/405664"]
+  },
+  {
+    "name": "喧嘩道-全國不良番付-",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推测）",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "2D 日系 anime 立绘 / 头像 / 摩托",
+      "dims": {"engine": 3, "art": 3, "anim": 3, "physics": 1, "logic": 4, "data": 4, "server": 4, "audio": 3},
+      "dim_notes": {
+        "logic": "自动战斗 + 舍弟训练 + 传说角色 + 多系统，养成维度多",
+        "server": "SNS 聊天 + 联盟 + 实时对抗，强社交联网"
+      },
+      "asset_notes": "2D 日系立绘 + 头像 + 摩托，素材中等，需日系画师",
+      "notes": "媒体匹配（美区商店），包体 75.9MB；日本 EX Co. 出品，引擎按日系 RPG 选型推断"
+    },
+    "play": {
+      "core_loop": "自动战斗推进，训练舍弟/强化 avatar 自定义角色，抽卡获传说不良，联盟 SNS 聊天，争夺全国不良番付排名。",
+      "highlights": [
+        "自动战斗 + 放置，离线也能推图",
+        "丰富的 SNS / 联盟社交与聊天羁绊",
+        "传说不良角色 + 摩托收集的养成爽感"
+      ],
+      "innovations": ["无实质创新，属于成熟品类的执行优化（日系不良 RPG 成熟）"],
+      "target_user": "日本男性不良 / 极道题材受众",
+      "monetization": "IAP（gacha/养成）+ 混合",
+      "lifecycle": "长线（9 周年运营）"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "题材强绑定日本ヤンキー文化，受众局限；gacha RPG 运营重，国内团队难复制且无市场。",
+      "suggestions": ["若做国内版需换为本土街头/校园题材并重建数值"],
+      "risks": ["文化特定", "gacha 合规", "日本市场买量"],
+      "effort": "150+ 人日（不建议立项）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "包体 75.9MB（官方商店数据）", "level": "confirmed"},
+      {"claim": "引擎为 Unity 属推断，无官方确认", "level": "inferred"}
+    ],
+    "sources": ["https://apps.apple.com/us/app/%E5%96%A7%E5%98%A9%E9%81%93-%E5%85%A8%E5%9C%8B%E4%B8%8D%E8%89%AF%E7%95%AA%E4%BB%98/id1216025858?uo=4", "https://gouhuo.qq.com/games/detail/794641"]
+  }
+]

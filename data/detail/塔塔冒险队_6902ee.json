@@ -1,0 +1,226 @@
+{
+ "schema_version": 1,
+ "name": "塔塔冒险队",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "上海莉莉丝计算机",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 7
+  },
+  "platform_app_ids": {
+   "ios": "6759896881"
+  },
+  "first_seen": "2026-07-16",
+  "appearances": 10,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "卡通萌宠，色彩鲜明",
+  "dims": {
+   "engine": 2,
+   "art": 4,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体约387MB，100+萌宠+四阶进化形态+家园场景，卡通资产量不小",
+   "logic": "塔防布阵+五属性克制+弹珠台经济枢纽+家园，多系统耦合"
+  },
+  "asset_notes": "约387MB，100+萌宠+进化形态+家园，卡通资产中等偏重，可用AI辅助产出",
+  "notes": "莉莉丝萌宠收集策略塔防RPG，弹珠台抓宠，五属性克制",
+  "cost_score": 3.12,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "收集100+塔塔布阵抵御臭臭大军，用弹珠台获取糖果/彩球养成升星进化，建家园互动，单局塔防自动战斗。",
+  "highlights": [
+   "弹珠台‘摇一摇中大奖’的随机爽感，且是整局经济通用桥梁",
+   "五属性克制+阵型部署的策略塔防，布阵影响胜负",
+   "四阶进化+闪光形态的收集养成满足",
+   "把猫冰放泳池等家园互动彩蛋"
+  ],
+  "innovations": [
+   "把‘弹珠机CM-like抓宠’作为经济枢纽串联所有系统，是玩法缝合的巧思；但整体仍属成熟品类组合"
+  ],
+  "target_user": "休闲+策略收集玩家，泛二次元",
+  "monetization": "IAP（内购/月卡）为主，可能含广告",
+  "lifecycle": "长线（弹珠活动/新塔塔/家园更新）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "塔防+属性克制+收集为成熟模块，弹珠台经济是已有思路；复刻瓶颈在美术风格差异化与首月收集节奏设计。",
+  "suggestions": [
+   "换为‘昆虫图鉴’或‘海底生物’题材，弹珠台改‘捞鱼机’",
+   "把臭臭大军换成‘杂草入侵’贴合治愈",
+   "首月把100+收集压缩到30+降低门槛"
+  ],
+  "risks": [
+   "莉莉丝已占先发与买量",
+   "收集塔防赛道拥挤",
+   "萌宠美术需强辨识度"
+  ],
+  "effort": "25–40 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/ce/74/bece7424-8b0c-4ff1-ff0c-8d4c3e114966/AppIcon-Mainland-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/a2/09/6da209de-dd2a-a72b-ddc6-459f9d89bcf0/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/40/7f/fc407fe5-f776-eafd-9a04-8c7ced7044ce/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/98/dd/98/98dd9855-2b02-fc26-dc19-a3cb595dff24/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/72/a8/11/72a81199-a63d-6114-1e4d-59267b70ae84/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8b/b9/e9/8bb9e9e0-1141-b266-f5e0-10d38329cf2f/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/97/cc/b697cccd-c8af-1629-ea9a-643b2cf8f843/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/ca/3e/12ca3eb0-151c-b3d0-7dff-40cef579b3c2/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/11/2d/07112d83-1668-6cee-fb45-1b5f524fceee/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/4e/f0/254ef073-ed8c-6b5f-8ddb-234fc7ed19aa/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/18/eb/7018ebc0-ed72-d6cd-0d34-5344a6de2738/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/04/19/fd041944-3ec2-09e7-92de-28f7e50ed1b9/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/a9/13/c6a9138e-5aef-92e6-aaef-96f3c7f30cf2/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "莉莉丝出品，弹珠台经济+五属性塔防，已验证留存",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断Unity（莉莉丝过往产品多用Unity，未找到本作官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://m.danji100.com/game/344738.html",
+  "https://m.linuxidc.com/game/384189.html",
+  "https://apps.apple.com/cn/app/%E5%A1%94%E5%A1%94%E5%86%92%E9%99%A9%E9%98%9F/id6759896881?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "塔塔冒险队",
+  "country": "cn",
+  "track_id": 6759896881,
+  "seller": "Shanghai Lilith Computer Technology Company Limited",
+  "genres": [
+   "游戏",
+   "卡牌",
+   "角色扮演"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/ce/74/bece7424-8b0c-4ff1-ff0c-8d4c3e114966/AppIcon-Mainland-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/a2/09/6da209de-dd2a-a72b-ddc6-459f9d89bcf0/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/40/7f/fc407fe5-f776-eafd-9a04-8c7ced7044ce/6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/98/dd/98/98dd9855-2b02-fc26-dc19-a3cb595dff24/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/72/a8/11/72a81199-a63d-6114-1e4d-59267b70ae84/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8b/b9/e9/8bb9e9e0-1141-b266-f5e0-10d38329cf2f/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/97/cc/b697cccd-c8af-1629-ea9a-643b2cf8f843/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/ca/3e/12ca3eb0-151c-b3d0-7dff-40cef579b3c2/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/11/2d/07112d83-1668-6cee-fb45-1b5f524fceee/6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/4e/f0/254ef073-ed8c-6b5f-8ddb-234fc7ed19aa/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/18/eb/7018ebc0-ed72-d6cd-0d34-5344a6de2738/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/04/19/fd041944-3ec2-09e7-92de-28f7e50ed1b9/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/a9/13/c6a9138e-5aef-92e6-aaef-96f3c7f30cf2/5.jpg/626x1112bb.jpg"
+  ],
+  "description": "【收集！100+塔塔轻松拿下！】\n拒绝千篇一律的设计——流口水的火果蛙、委屈脸的鸭梨……个个萌度爆表。新玩家首月就有机会收集所有塔塔！\n\n【进化！萌度爆表但实力超标！】\n喂食，进化，实力增强！一路到霸气四阶状态！还能随机触发闪光形态，看看你能解锁多少？\n\n【对战！部署阵营，和臭臭一较高下！】\n属性相克、阵型部署、流派组合任你玩转，碾压蜂拥而至的臭臭大军！\n\n【建造！为塔塔打造专属小家】\n一砖一瓦，帮塔塔们打造一座暖意融融的小家！对了，尝试下和它们互动，比如把猫冰放进泳池里看看？",
+  "release_notes": "新增内容\n1. 新增岩元素塔塔：干脆面，拥有专属臭潮来袭技能。\n2. 新增四阶进化：潋滟水蝶（水）、一塌糊驼（草）。\n3. 营地新增昼夜交替效果及\"青竹街巷\"建筑主题。\n4. 新增活动：狂欢盛典、长跑派对\"漂流大赛\"。\n5. 钓鱼大赛、海岛夺金新增循环奖励。\n6. 首领挑战饼干奖励提升，好友上限提升至80。\n另有卡片画册筛选优化、臭潮来袭特效升级等问题修复。",
+  "file_size_bytes": 406107136,
+  "min_os": "13.0",
+  "version": "0.47.1",
+  "release_date": "2026-09-04",
+  "rating": 4.86428,
+  "rating_count": 11509,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E5%A1%94%E5%A1%94%E5%86%92%E9%99%A9%E9%98%9F/id6759896881?uo=4",
+  "fetched_at": "2026-09-15T00:36:38+08:00"
+ },
+ "slug": "塔塔冒险队_6902ee"
+}

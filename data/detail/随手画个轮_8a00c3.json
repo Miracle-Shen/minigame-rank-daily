@@ -1,0 +1,106 @@
+{
+ "schema_version": 1,
+ "name": "随手画个轮",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州易游互玩科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 11
+  },
+  "platform_app_ids": {
+   "douyin": "ttc09ab6275eff17ec07"
+  },
+  "first_seen": "2026-08-31",
+  "appearances": 6,
+  "best_rank": 11,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator / Unity (推断)",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "简约 小车/涂鸦",
+  "dims": {
+   "engine": 2,
+   "art": 1,
+   "anim": 2,
+   "physics": 3,
+   "logic": 2,
+   "data": 1,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "轮子形状自定义后需实时计算滚动/摩擦，物理手感是核心难点"
+  },
+  "asset_notes": "几何小车与赛道可程序化生成，几乎无美术成本",
+  "notes": "广州易游互玩发行，'画线成轮'竞速涂鸦小游戏",
+  "cost_score": 1.88,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "赛车没有轮子，玩家用手指在赛道上画出轮子形状，不同地形需不同轮廓的轮子才能顺畅通过，与对手竞速冲线。",
+  "highlights": [
+   "自由涂鸦画轮，创意释放 + 一笔画对的惊喜",
+   "地形决定最优轮子形状，思考+操作结合",
+   "好友排行比拼，轻社交竞技"
+  ],
+  "innovations": [
+   "'画线生成轮子'的核心交互是轻量创意，但属可复刻的简单机制"
+  ],
+  "target_user": "全年龄偏爱涂鸦/竞速的休闲用户",
+  "monetization": "IAA 广告 + 轻内购（道具/皮肤）",
+  "lifecycle": "短平快，靠关卡与赛道更新维持"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "画线成轮核心创意简单可复刻，但差异化在赛道设计与物理手感；照抄易雷同，须改主题/玩法结构。",
+  "suggestions": [
+   "换主题如'画翅膀飞行''画桨划船'扩展物理维度",
+   "用'物理手感评分'做短视频传播点",
+   "加入 UGC 赛道编辑器提升留存"
+  ],
+  "risks": [
+   "核心机制易被大厂快速复制",
+   "物理手感调校门槛不低"
+  ],
+  "effort": "20–35 人日（1 前端+0.5 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "广州易游互玩科技有限公司发行，抖音新游榜",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎未确认，按休闲小游戏惯例推断 Cocos/Unity",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.99haoju.com/yxjc/75485.html",
+  "https://m.qqtf.com/azyx/50405.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:39:33+08:00"
+ },
+ "slug": "随手画个轮_8a00c3"
+}

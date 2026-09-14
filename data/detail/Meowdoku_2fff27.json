@@ -1,0 +1,266 @@
+{
+ "schema_version": 1,
+ "name": "Meowdoku!",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Oakever Games",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜",
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 1,
+   "ios/日区免费榜": 2
+  },
+  "platform_app_ids": {
+   "ios": "6761760135"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推测）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "柔和色块 + 手绘 Q 版猫咪，UI 扁平治愈",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 1,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "纯网格点击，无物理",
+   "data": "无养成线，仅关卡进度 + 每日连胜 + Game Center 成就/排行"
+  },
+  "asset_notes": "素材为色块 UI + 手绘猫咪序列帧（包体 159MB 但资产偏轻，无 3D）；色块可程序化生成，猫咪动画为少量定制美术，素材层不是瓶颈",
+  "notes": "2D 网格解谜，机制轻、资产轻；核心壁垒在『猫咪包装 + 纯 IAA 精细化运营 + 买量』而非技术",
+  "cost_score": 1.88,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "在彩色区块棋盘上给每个颜色区放一只猫，且满足同一行/列不重复、猫之间（含斜对角）不相邻；单击格画 X 标记禁区、双击放猫，错 3 次本局结束；一关即一次纯推理，过关接下一关，失败看广告复活。",
+  "highlights": [
+   "『视觉排除』交互：单击 X / 双击放猫，把数独+扫雷的推理外化到屏幕，30 秒讲清规则、零算术门槛",
+   "3 条命 + 放错猫扣命 + 看广告复活的闭环，把『卡关』直接变成广告刚需",
+   "猫咪失败时变红/抖动/喵呜、胜利时欢呼雀跃，强情绪反馈替代硬核挫败",
+   "动态广告冷却：越连续失败系统越缩短插屏间隔，把『不服输』状态商品化"
+  ],
+  "innovations": [
+   "将『N皇后 + 彩色区域 + 对角不相邻』的 Queens 规则用猫咪 + 色块视觉化，去掉算术门槛，打开非硬核/女性用户群——包装层创新，机制非原创（公开 Queens Puzzle 变体）"
+  ],
+  "target_user": "全年龄休闲/女性向（美国市场女性占比 >70%），碎片时间解谜",
+  "monetization": "纯 IAA（插屏 + 激励视频 + 横幅），3 命复活为激励视频核心入口，动态冷却提 eCPM；无 IAP",
+  "lifecycle": "短平快爆款 + 每日连胜/每日谜题做轻量长线留存"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "核心机制（彩色区域各放一只 + 行列排他 + 对角不相邻）即公开 Queens 谜题，无版权/品牌壁垒；价值在猫咪包装 + 纯 IAA 精细化运营。换 mascot（狗/食物/卡皮巴拉）即差异化，成本极低。",
+  "suggestions": [
+   "把猫咪换成 狗/寿司/奶茶/卡皮巴拉 等萌系 mascot，规则不变即可上架",
+   "照搬『3 命 + 看广告复活 + 动态广告冷却』的 IAA 闭环，这是收入核心",
+   "做『视觉排除』交互（单击 X / 双击放）并把推理外化到屏幕，去掉算术门槛",
+   "加每日连胜 + Game Center 排行做轻量留存"
+  ],
+  "risks": [
+   "猫咪主题已被 Oakever 先发占领，直接同题材会撞品牌",
+   "纯 IAA 依赖 iOS ATT 后 eCPM 波动，高频广告易引发商店投诉/评分下滑",
+   "Queens 类机制技术门槛低，同质化会快速出现（参考 2024 网页版 Queens Puzzle）"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术），含关卡生成器 + 唯一解验证"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/f9/34/97f9349a-5fe0-b5c2-7c73-168557cbdec6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/b9/96/32b99622-a265-2c65-1c93-39c22014d381/GameView_screen_2732x2048_2026-06-09_17-19-36.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/9e/43/4d9e430b-acb8-eed2-191a-880beb1cc880/GameView_screen_2732x2048_2026-06-09_16-59-52.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/11/12/4e1112d6-a8c3-1d45-9136-7f52ba48c170/GameView_screen_2732x2048_2026-06-09_16-58-50.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/21/d9/8e21d971-48cd-d6d4-4a9b-2259be5b89a5/GameView_screen_2732x2048_2026-06-09_16-58-58.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/d5/8b/f9d58bd5-e0b0-8125-bab2-73c28667bfef/GameView_screen_2732x2048_2026-06-09_17-14-46.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/72/c7/6172c7eb-f824-bb3f-bbf3-409be4912de0/GameView_screen_2732x2048_2026-06-09_17-17-44.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/d9/35/dbd93540-225c-d18f-c01d-f03a39af020a/GameView_screen_2732x2048_2026-06-09_17-27-02.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/0b/aa/2d0baadc-4e1a-b314-73c8-2ce27e8f69fc/GameView_screen_2732x2048_2026-06-09_17-27-24.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0e/02/f0/0e02f032-2e4c-db00-1b35-3eeb4f46d6e7/GameView_screen_2732x2048_2026-06-09_17-17-30.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/78/03/77/780377a8-29e0-45e8-12cf-d1e6af6e081b/GameView_screen_2732x2048_2026-06-09_16-59-45.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/71/44/f271444c-fc0b-8dd2-c4bb-b4af87761207/GameView_screen_2732x2048_2026-06-09_17-26-20.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/1b/d3/ce1bd328-35c1-71f5-1265-e3f91f96abe2/GameView_screen_2732x2048_2026-06-09_17-26-31.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/56/19/32561902-9d37-545a-1f60-6e1f6d9cb6f4/GameView_screen_2732x2048_2026-06-09_17-17-32.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/72/6d/b8/726db8f3-c091-ce21-e6ec-54bc8ec7ec9d/GameView_screen_2732x2048_2026-06-09_17-15-01.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/05/b7/5005b7b3-cc94-3d30-4d9f-5073ec12ba4c/GameView_screen_2732x2048_2026-06-09_17-23-34.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/0a/80/f50a8070-2017-8ed8-bff9-82a4e09335d2/GameView_screen_2732x2048_2026-06-09_16-56-34.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 16"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 159MB（App Store 官方），属『中』档但资产偏轻（色块 UI + 手绘猫咪）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推测为 Unity（2D 网格解谜 + 手绘动画 + iOS/Android 双端；官方未确认，市面克隆模板多为 Unity 不代表本作）",
+   "level": "inferred"
+  },
+  {
+   "claim": "纯 IAA 变现，日广告收入约 20 万美元（游戏陀螺/Sensor Tower 报道）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "开发商 Oakever Games = 北京乐信圣文（Learnings），海外休闲成熟厂商，另有《Arrows GO!》",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/meowdoku-%E7%8C%AB%E5%92%AA%E6%95%B0%E7%8B%AD/id6763880105?uo=4",
+  "https://www.cityparkgames.com/games/meowdoku",
+  "https://iphoneappsarena.com/meowdoku/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 0.92,
+  "match_name": "Meowdoku：猫咪数独",
+  "country": "cn",
+  "track_id": 6763880105,
+  "seller": "Muhammad Umar Shafaqat",
+  "genres": [
+   "游戏",
+   "娱乐",
+   "桌面",
+   "益智解谜"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/f9/34/97f9349a-5fe0-b5c2-7c73-168557cbdec6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/b9/96/32b99622-a265-2c65-1c93-39c22014d381/GameView_screen_2732x2048_2026-06-09_17-19-36.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/9e/43/4d9e430b-acb8-eed2-191a-880beb1cc880/GameView_screen_2732x2048_2026-06-09_16-59-52.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/11/12/4e1112d6-a8c3-1d45-9136-7f52ba48c170/GameView_screen_2732x2048_2026-06-09_16-58-50.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/21/d9/8e21d971-48cd-d6d4-4a9b-2259be5b89a5/GameView_screen_2732x2048_2026-06-09_16-58-58.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/d5/8b/f9d58bd5-e0b0-8125-bab2-73c28667bfef/GameView_screen_2732x2048_2026-06-09_17-14-46.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/72/c7/6172c7eb-f824-bb3f-bbf3-409be4912de0/GameView_screen_2732x2048_2026-06-09_17-17-44.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/d9/35/dbd93540-225c-d18f-c01d-f03a39af020a/GameView_screen_2732x2048_2026-06-09_17-27-02.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/0b/aa/2d0baadc-4e1a-b314-73c8-2ce27e8f69fc/GameView_screen_2732x2048_2026-06-09_17-27-24.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0e/02/f0/0e02f032-2e4c-db00-1b35-3eeb4f46d6e7/GameView_screen_2732x2048_2026-06-09_17-17-30.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/78/03/77/780377a8-29e0-45e8-12cf-d1e6af6e081b/GameView_screen_2732x2048_2026-06-09_16-59-45.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/71/44/f271444c-fc0b-8dd2-c4bb-b4af87761207/GameView_screen_2732x2048_2026-06-09_17-26-20.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/1b/d3/ce1bd328-35c1-71f5-1265-e3f91f96abe2/GameView_screen_2732x2048_2026-06-09_17-26-31.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/56/19/32561902-9d37-545a-1f60-6e1f6d9cb6f4/GameView_screen_2732x2048_2026-06-09_17-17-32.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/72/6d/b8/726db8f3-c091-ce21-e6ec-54bc8ec7ec9d/GameView_screen_2732x2048_2026-06-09_17-15-01.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/05/b7/5005b7b3-cc94-3d30-4d9f-5073ec12ba4c/GameView_screen_2732x2048_2026-06-09_17-23-34.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/0a/80/f50a8070-2017-8ed8-bff9-82a4e09335d2/GameView_screen_2732x2048_2026-06-09_16-56-34.png/626x1112bb.jpg"
+  ],
+  "description": "解决数独，尽享 App Store 上最可爱的猫咪！\n\nMeowdoku 是一款轻松的经典数独益智游戏，由可爱的猫咪伙伴为你加油助威——非常适合脑力训练、缓解压力和每日逻辑挑战。无论你是每天都玩数独的老手，还是正在学习规则的新手，Meowdoku 都能陪伴你一起进步。\n\n为什么你会爱上 MEOWDOKU\n• 每一屏都有迷人的手绘猫咪动画\n• 经典 9x9 数独，支持简单、中等和困难难度\n• 禅意模式——无限畅玩，无计时、无生命，只管放松\n• 每日连胜——让你的爪印日历不断增长\n• 智能笔记与提示，边玩边学\n• 铅笔标记、擦除和数字高亮，满足硬核玩家\n• Game Center 成就与排行榜\n• 精美、无干扰的设计\n\n适合谁玩\n爱猫人士和益智爱好者——这就是为你准备的。非常适合学习逻辑的孩子、下班放松的大人，以及保持大脑敏锐的长者。\n\n功能一览\n• 随时随地离线畅玩\n• 自动保存——再也不会丢失进度\n• 错误次数限制，还有超可爱的失败反应\n• 内置新手教程\n• 点按即可高亮数字和冲突\n• 不会让你抓狂的音效设计\n• 专为 iPhone 和 iPad 优化\n\n写给数独爱好者的情书\n我们为那些已经爱上数独、又想要一份温暖、手工感、还带一点小可爱的每日谜题的人打造了 Meowdoku。猫咪会在你休息时打盹，在你思考时眨眼，失败时摇头晃脑，胜利时欢呼雀跃。这是你玩过最治愈的数独。\n\n立即下载 Meowdoku，开启你完美的喵谜题连胜吧！\n\n——需要帮助或想反馈？请在应用内点按「设置」，或访问我们的网站。我们会阅读每一条留言。",
+  "release_notes": "• 有趣的动画\n• 问题修复",
+  "file_size_bytes": 166619136,
+  "min_os": "15.0",
+  "version": "1,2,6",
+  "release_date": "2026-05-01",
+  "rating": 4.5,
+  "rating_count": 6,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/meowdoku-%E7%8C%AB%E5%92%AA%E6%95%B0%E7%8B%AC/id6763880105?uo=4",
+  "fetched_at": "2026-09-15T00:35:02+08:00"
+ },
+ "slug": "Meowdoku_2fff27"
+}

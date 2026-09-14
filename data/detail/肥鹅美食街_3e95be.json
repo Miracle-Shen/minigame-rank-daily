@@ -1,0 +1,228 @@
+{
+ "schema_version": 1,
+ "name": "肥鹅美食街",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "北京豪腾创想科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/热门榜",
+   "douyin/畅销榜"
+  ],
+  "ranks": {
+   "douyin/热门榜": 10,
+   "douyin/畅销榜": 15
+  },
+  "platform_app_ids": {
+   "douyin": "ttab7fddc2347af2a002"
+  },
+  "first_seen": "2026-06-30",
+  "appearances": 71,
+  "best_rank": 6,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / Cocos（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "Q 萌软糖风，圆滚滚低多边形肥鹅，高饱和暖色食物",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 2,
+   "audio": 3
+  },
+  "dim_notes": {
+   "physics": "无物理，纯拖拽合成",
+   "logic": "二合合成树 + 厨具冷却出餐双抉择 + 并行订单与棋盘空间管理",
+   "data": "金币经营扩建 + 菜谱解锁 + 离线挂机经济循环"
+  },
+  "asset_notes": "Q 萌角色 / 食物 / 店铺美术成体系但可控（包体 229MB 属「中」），素材层不是瓶颈",
+  "notes": "豪腾创想「肥鹅 IP」续作，合成 + 经营融合，已完成度高",
+  "cost_score": 2.88,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "在棋盘点击闪电资源产出食材，拖拽两个相同物品二合升级，高阶菜需投入烤架 / 汤锅 / 烤箱等厨具冷却出餐，完成肥鹅客人订单赚金币，扩建美食街，一局数次点击、离线自动产收。",
+  "highlights": [
+   "合成出餐的连击满足与「合出硬菜」的爽点",
+   "从路边摊养成网红美食城的成长感",
+   "肥鹅客人剧情 + 隐藏菜谱的治愈收集",
+   "离线挂机收菜，碎片时间一键领取"
+  ],
+  "innovations": [
+   "合成 + 烹饪双抉择机制（高阶菜不能直接合、需投厨具等冷却），打破无脑二合惯性，相对纯合成是细节创新"
+  ],
+  "target_user": "女性向 / 治愈休闲用户，全年龄",
+  "monetization": "混合（IAA + IAP 去广告 / 扩建）",
+  "lifecycle": "长线（菜谱、店铺、客人剧情持续更新）"
+ },
+ "clone": {
+  "verdict": "微创新",
+  "rationale": "合成经营赛道已极度成熟（豪腾自身就有矩阵），只值得在「合成 + 制作双抉择」上做细节升级，不建议独立立项。",
+  "suggestions": [
+   "换 IP 题材为「萌宠咖啡馆」「中药铺」",
+   "强化「合成 + 制作」双抉择作为核心差异，弱化纯二合",
+   "用 AI 生图批量产出食材图标降本"
+  ],
+  "risks": [
+   "合成经营赛道极饱和",
+   "与豪腾自家矩阵及大量同类正面竞争",
+   "美术同质化"
+  ],
+  "effort": "30–45 人日（1–2 前端 + 1 美术 + 1 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/c2/a5/e1c2a525-1446-2715-7c52-bf7675cb9e3e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/21/2b/fd212b9b-6aea-33dc-ce82-02f36a46fd4c/1284x2778-0__U62f7_U8d1d.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/d1/b0/4bd1b0d3-09bb-37ad-3eda-df58ddf2efff/1284x2778-1__U62f7_U8d1d.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/d1/4f/74d14fbd-5728-3745-3a7d-7a48cae2ece4/1284x2778-2__U62f7_U8d1d.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d5/fa/4e/d5fa4efd-d823-c6ad-ba89-36810d4cb83a/1284x2778-4__U62f7_U8d1d.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/3c/c1/103cc1a9-0b20-2cfd-1fbd-41ea9e05b93e/1284x2778-3__U62f7_U8d1d.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/ea/cd/69eacd26-a522-95c9-63f9-ccf4e4ae3141/1284x2778-5_Uff08_U7b80_U4f53_Uff09.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/23/a0/35/23a035df-80dd-0370-cf62-c7e6b0ea1ac9/2064x2752-0__U62f7_U8d1d.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/af/bf/4d/afbf4de4-fee0-15ed-f713-4a66d2e23ad8/2064x2752-1__U62f7_U8d1d.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/a4/0c/3ca40cc4-1d6e-26be-a9c5-1f1328faa1b9/2064x2752-2__U62f7_U8d1d.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/6a/f0/7b6af007-e703-e166-2f39-7f23d13e5cf8/2064x2752-4__U62f7_U8d1d.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/5e/8d/d95e8d10-81e2-bfc2-353d-3b88f8b77927/2064x2752-3__U62f7_U8d1d.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/31/4b/df314b4f-cb9e-0a4e-1b0f-2fa559c8735c/2064x2752-5_Uff08_U7b80_U4f53_Uff09.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "iOS 包体 229MB，Q 萌软糖风合成经营",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity/Cocos 推断，无官方确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E8%82%A5%E9%B9%85%E7%BE%8E%E9%A3%9F%E8%A1%97/id6758614459",
+  "https://game.xiaomi.com/viewpoint/1674478871_1787725960792_100"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "肥鹅美食街",
+  "country": "cn",
+  "track_id": 6758614459,
+  "seller": "Beijing Haotengchuangxiang Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "模拟",
+   "休闲"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/c2/a5/e1c2a525-1446-2715-7c52-bf7675cb9e3e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/21/2b/fd212b9b-6aea-33dc-ce82-02f36a46fd4c/1284x2778-0__U62f7_U8d1d.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/d1/b0/4bd1b0d3-09bb-37ad-3eda-df58ddf2efff/1284x2778-1__U62f7_U8d1d.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/d1/4f/74d14fbd-5728-3745-3a7d-7a48cae2ece4/1284x2778-2__U62f7_U8d1d.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d5/fa/4e/d5fa4efd-d823-c6ad-ba89-36810d4cb83a/1284x2778-4__U62f7_U8d1d.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/3c/c1/103cc1a9-0b20-2cfd-1fbd-41ea9e05b93e/1284x2778-3__U62f7_U8d1d.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/ea/cd/69eacd26-a522-95c9-63f9-ccf4e4ae3141/1284x2778-5_Uff08_U7b80_U4f53_Uff09.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/23/a0/35/23a035df-80dd-0370-cf62-c7e6b0ea1ac9/2064x2752-0__U62f7_U8d1d.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/af/bf/4d/afbf4de4-fee0-15ed-f713-4a66d2e23ad8/2064x2752-1__U62f7_U8d1d.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/a4/0c/3ca40cc4-1d6e-26be-a9c5-1f1328faa1b9/2064x2752-2__U62f7_U8d1d.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/6a/f0/7b6af007-e703-e166-2f39-7f23d13e5cf8/2064x2752-4__U62f7_U8d1d.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/5e/8d/d95e8d10-81e2-bfc2-353d-3b88f8b77927/2064x2752-3__U62f7_U8d1d.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/31/4b/df314b4f-cb9e-0a4e-1b0f-2fa559c8735c/2064x2752-5_Uff08_U7b80_U4f53_Uff09.jpg/626x1112bb.jpg"
+  ],
+  "description": "解谜合成，合成高级食材，提高烹饪技巧，探索缤纷菜谱；\n经营小店，邂逅各种Q萌可爱的肥鹅客人，聆听它们的故事；\n治愈画风，沉浸式烹饪体验，鹅来鹅往，打造热闹的市井氛围！\n\n探索解谜合成：\n这是一次刺激味蕾、解压治愈、具有探索性的合成体验！\n食材与食材之间的搭配多种多样，改变食材与厨具的组合，合成探索高级食材，将会产生不同的菜肴！\n按照你的心意，烹饪出热气腾腾、让人食指大动的美味吧！\n\n深度烹饪机制：\n构建了层次丰富的料理生态系统，通过不同食材和厨具的结合，探索，赋予烹饪更多可能性！\nQ弹爽滑的虾饺？鲜香四溢的海鲜浓汤？还是刚出炉的酥脆面包？无数缤纷食谱等你来解锁哦！\n\n经营特色小店：\n这不仅仅是一条普通的美食街，更是微观的肥鹅小天地！\n服务客人，获得金币，建造你的美食街。各种各样的美食小店，将会吸引更多的肥鹅客人。\n\n浓郁的市井人情氛围：\n在炊烟萦绕中，熙熙攘攘的食客中，聆听客人的往事与烦恼。\n工作烦恼？升学忧虑？和朋友闹别扭？还是一个隐藏许久的秘密……\n你用美食治愈肥鹅，而肥鹅用可爱抚慰你的心。",
+  "release_notes": "1.修复一些问题\n2.优化游戏体验",
+  "file_size_bytes": 228818944,
+  "min_os": "10.0",
+  "version": "1.5.7",
+  "release_date": "2026-06-01",
+  "rating": 4.4953,
+  "rating_count": 24688,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E8%82%A5%E9%B9%85%E7%BE%8E%E9%A3%9F%E8%A1%97/id6758614459?uo=4",
+  "fetched_at": "2026-09-15T00:35:44+08:00"
+ },
+ "slug": "肥鹅美食街_3e95be"
+}

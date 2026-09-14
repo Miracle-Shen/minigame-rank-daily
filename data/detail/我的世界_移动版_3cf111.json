@@ -1,0 +1,209 @@
+{
+ "schema_version": 1,
+ "name": "我的世界:移动版",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "网易移动游戏(MC)",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 10
+  },
+  "platform_app_ids": {
+   "ios": "1243986797"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 7,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "基岩引擎 C++（网易定制分叉）",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "方块像素风 3D（ sandbox）",
+  "dims": {
+   "engine": 5,
+   "art": 4,
+   "anim": 2,
+   "physics": 3,
+   "logic": 5,
+   "data": 4,
+   "server": 4,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "基于 C++ 基岩引擎的网易定制分叉，含 Apollo 核心与自研网络协议，需自研",
+   "logic": "合成/烧炼/附魔/酿造/红石/命令方块等近无限机制",
+   "server": "租赁服 + 联机 + 我的山头 40 人在线"
+  },
+  "asset_notes": "方块像素风美术成本低，但 UGC 模组/组件生态资产海量",
+  "notes": "媒体匹配（国区），包体 4.2GB；网易基于 Bedrock C++ 引擎定制分叉，技术架构多源确认",
+  "cost_score": 3.75,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "随机生成开放世界，砍树挖矿搜集资源，建建筑/打怪/红石电路，单机或联机创造。",
+  "highlights": [
+   "自由建造（方块无限组合）的核心创造力",
+   "红石电路 / 命令方块的硬核系统深度",
+   "UGC 组件生态带来持续新玩法"
+  ],
+  "innovations": [
+   "非原创（Mojang IP），网易本地化 + UGC 创造者计划 + AI 伙伴为运营侧创新"
+  ],
+  "target_user": "全龄创造 / 生存玩家",
+  "monetization": "IAP（组件/皮肤/绿宝石）+ 广告（部分服务器看广告得币）",
+  "lifecycle": "超长线（UGC 驱动）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "强 IP 与自研 C++ 引擎壁垒，沙盒品类极重，无法低成本的复刻。",
+  "suggestions": [
+   "做像素风沙盒但需原创 IP 与自研引擎，成本极高"
+  ],
+  "risks": [
+   "IP 侵权",
+   "引擎自研",
+   "资产/内容生态"
+  ],
+  "effort": "500+ 人日（大型团队，不建议立项）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/8e/fc/678efcee-6542-9afc-6fed-a4b44ce75d27/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/b6/02/d6b6028a-f68e-f949-77a4-673c86162143/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5d/06/3a/5d063ab9-4331-942e-dcdd-c6cab1d2369e/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/03/e3/84/03e384b2-f576-b2f0-5c93-45ee538e00d1/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/64/a1/8464a1ee-82ae-fa24-5af4-91f9a8f1317d/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/bb/79/53bb7949-f22e-12de-6824-b5fc8173cd6e/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/79/fc/ac79fc59-c6e4-e4b0-597b-5033e6f7600f/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/a9/c2/b7a9c2d9-1a23-3363-abc7-ec9e24cacfef/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/c0/9e/c5c09e08-3f2e-eb16-bd11-a9843f6253f4/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/63/fd/4763fd53-5aaf-776e-8c61-ada09ec4bbf2/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/b9/c9/40b9c92c-6997-fbd8-03f9-eafc58f189e3/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 4.2GB（官方商店数据）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "网易基于 C++ 基岩引擎定制分叉（技术解析与百科确认）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C-%E7%A7%BB%E5%8A%A8%E7%89%88/id1243986797?uo=4",
+  "https://minecraft.fandom.com/zh/wiki/%E4%B8%AD%E5%9B%BD%E7%89%88?variant=zh-cn"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "我的世界：移动版",
+  "country": "cn",
+  "track_id": 1243986797,
+  "seller": "Shanghai NetEase MineWorld Network Technology Co.,Ltd.",
+  "genres": [
+   "游戏",
+   "角色扮演",
+   "冒险"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/8e/fc/678efcee-6542-9afc-6fed-a4b44ce75d27/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/b6/02/d6b6028a-f68e-f949-77a4-673c86162143/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5d/06/3a/5d063ab9-4331-942e-dcdd-c6cab1d2369e/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/03/e3/84/03e384b2-f576-b2f0-5c93-45ee538e00d1/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/64/a1/8464a1ee-82ae-fa24-5af4-91f9a8f1317d/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/bb/79/53bb7949-f22e-12de-6824-b5fc8173cd6e/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/79/fc/ac79fc59-c6e4-e4b0-597b-5033e6f7600f/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/a9/c2/b7a9c2d9-1a23-3363-abc7-ec9e24cacfef/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/c0/9e/c5c09e08-3f2e-eb16-bd11-a9843f6253f4/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/63/fd/4763fd53-5aaf-776e-8c61-ada09ec4bbf2/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/b9/c9/40b9c92c-6997-fbd8-03f9-eafc58f189e3/5.jpg/626x1112bb.jpg"
+  ],
+  "description": "《我的世界》– 铜器时代\n\n【游戏介绍】 \n《我的世界》（Minecraft）是一款风靡全球的3D沙盒游戏，由网易游戏代理运营的中国版手游，现在已开放官方正版的免费下载。\n凭借自由无限的开放世界、超乎想象的游戏玩法，《我的世界》深受上亿玩家的喜爱。玩家可以独自探索、或与朋友并肩冒险，探索随机生成的世界，创造令人惊叹的奇迹。更有丰富的组件资源，帮助玩家开启多种创意玩法。你想玩的，这里都有。快拉上小伙伴一同加入冒险家大家庭，随时随地享受创造乐趣！\n\n【游戏特色】\n《我的世界》中国版由网易游戏经微软Mojang工作室官方授权代理，采用免费下载的模式，游戏内容与国际版保持一致，致力于为玩家提供原汁原味的游戏体验。\n\n【铜器时代盛大开启，铜色光辉点亮世界】\n《我的世界》中国版正式步入铜器时代！这用途多样的金属，可被打造成称手的工具、锃亮的盔甲、明亮的光源与氧化的装饰。全新加入的铜箱子带来更好的存储体验，铜傀儡则化身活泼灵动的机械伙伴陪伴左右，还有铜傀儡像、铜粒、展示架等丰富内容等待冒险家探索。以每一抹铜色装点你的方块世界，尽情展现独属于你的风采！\n\n【“我的山头”邀请功能上线，好友同行畅玩无阻】\n “我的山头”现已支持成员邀请好友！“我的山头”服务器成员只需一键，即可邀请好友加入所在山头，服主审核通过后便能一同畅玩。好友关系无缝带入，邀请更便捷，同玩更轻松。无需繁琐操作，喊上你的好友，一起来“我的山头”共赴方块奇遇吧！\n\n【“我的伙伴”接入AI智能升级，你的伙伴会“说话”啦】\n“我的伙伴”迎来重磅AI升级！召唤更便捷、避让更智能，更能与伙伴进行AI实时对话——游戏中遇到任何问题，只需开口一问，伙伴便秒速为你解答。从此冒险路上不再孤单，一位聪明又贴心的智能伙伴时刻伴你左右。在游戏中装载“我的伙伴”模组，即刻体验这份全新的智能陪伴！\n\n【桌面小组件焕新上线，好运搭子一键装进桌面】 \n全新桌面小组件重磅登场！「冒险搭子小组件」让你在手机桌面随时查看好友在线状态、接收好友消息，好友动态尽在掌握；「冒险运势小组件」每日送上专属运势，宜挖矿、宜探索、宜建造，一键指引最佳冒险方向。现在前往“设置—小组件”添加任一组件，即可领取 100 紫水晶好礼，把好运与伙伴一起装进桌面吧！\n\n【日月双辉临世，全新神话皮肤闪耀登场】\n百鸟翔集，日月同辉！神话品质皮肤「曜灵东君·羲和」「皓魄月冥·望舒」双双降临「百鸟学院」。羲和主日，烈火金光加身，尽显皇权厚重之威；望舒司月，星辰极光相随，轻盈仙灵之姿动人心弦。二者皆自带飞行与鞘翅特效，攻击更有升级光效加持。潜心修炼、羽化升阶，即可蜕变为更为璀璨的「溯雪神迹·羲和」与「刹那昭华·望舒」，于烈日皓月之间，谱写属于你的神话篇章！\n\n【铜器寻踪活动开启，还原铜傀儡领丰厚奖励】\n配合铜器时代同步上线“铜器寻踪”限时活动！冒险家只需挖满指定数量的铜矿，并成功还原氧化的铜傀儡，即可领取丰厚奖励。在探索铜器时代全新内容的同时收获满满惊喜，还等什么？即刻踏上寻铜之旅，让铜傀儡成为你冒险路上的忠实伙伴！\n\n【热门模组精彩上新，海量玩法自由体验】 \n全新模组火热上架，海量精品持续更新，无论是生存挑战、创意建造，还是趣味玩法，总有一款新鲜好玩的模组适合你！快来体验最新模组，自由搭配专属你的方块世界，解锁无限可能的冒险新体验！\n\n【自由去冒险，探索随机生成的世界】\n畅游没有边界的游戏地图，在未知的生态环境与随机出现的生物互动，从零开始模拟最真实的野外生存。从砍树、挖矿、搜集资源开始，点燃火把度过第一个夜晚，开启一段完全不同的旅途。建造建筑、经营农场、屠龙打怪……每名冒险家总能找到专属于自己的乐趣。\n\n【创造无限可能，用方块搭建奇思妙想】\n自由建造与拆除方块，免疫伤害自在飞行，轻松搭建风格各异的建筑作品。无论是别具一格的温馨小家，还是大气磅礴的紫禁城、精妙绝伦的空中花园，自由发挥想象力，从建造家园开始，迎接世界的未知挑战。\n\n【近乎无限的游戏机制，拓展无穷乐趣】\n合成、烧炼、附魔、酿造，神奇的拓展系统解锁生存的独特玩法，布置陷阱防卫怪物进攻，制作便利设施获取无限资源。红石类组件、命令方块，烧脑黑科技等你探索更多可能；复杂的电路系统、超乎想象的衍生玩法由你创造。\n\n【汇聚全球顶尖创造者，共同打造游戏大世界】\n《我的世界》汇聚全球优秀创造者，提供海量原创玩法等你体验，为青少年打造功能游戏世界，用《我的世界》助力青少年健康成长！无论是充满脑洞的物品添加，还是畅爽PVE玩法，抑或紧张刺激的PVP竞技，只有你想不到，没有你玩不到。如果有好的想法，你也可以成为一名游戏开发者，创造好玩的内容与其他玩家分享！\n\n【服务器租赁，随时多人联机打造专属世界】\n服务器租赁给予你和你的小伙伴们一个持久稳定的玩乐场所，从此可以随时随地进入服务器共同打造你们的专属世界。有多个不同规格的服务器可供选择，最高可以容纳多达40个人，再也不用担心自己人缘太好啦。\n\n【好友联机加倍欢乐，“世界”内外自由穿梭】\n添加好友与小伙伴实时聊天互动，约个时间一同游戏吧。进入联机大厅，各个游戏类型一目了然，选择你喜欢的游戏和小伙伴一起欢乐联机吧！点击本地地图的任意房间或者扫描房间的二维码，瞬间传送至别人的世界，不仅能方便地联机游戏，更能结识志同道合的新朋友。另外，联机大厅竞技版可以让玩家在联机大厅跟其他玩家比拼，在段位榜留下自己的姓名，一起来迎接一个更方便、更公平、更竞技的联机大厅吧！\n\n【记录每一个特别时刻，新鲜事分享你的世界】\n无论是难忘的冒险经历，还是自豪的创造作品，新鲜事功能帮你通过文字与图片记录所有的游戏成就。与好友分享发现你收获第一块钻石的喜悦、建成第一座小屋的感动。@好朋友一同加入，把你的故事分享给整个世界。另外，也可以分享新鲜事、好友、游戏至外部APP，让更多人看到你的精彩！\n\n【联系我们】\n官方网站：https://mc.163.com/\n官方微信：我的世界Minecraft\n官方微博：我的世界Minecraft\n官方论坛：https://mc.netease.com/\n开发者反馈邮箱：minecraftstarter@163.com\n连续扣款服务协议：http://mc.163.com/20200109/31456_859351.html",
+  "release_notes": "【我的世界】全新更新内容：\n- 《我的世界》中国版正式步入铜器时代！这用途多样的金属，可被打造成称手的工具、锃亮的盔甲、明亮的光源与氧化的装饰。全新加入的铜箱子带来更好的存储体验，铜傀儡则化身活泼灵动的机械伙伴陪伴左右，还有铜傀儡像、铜粒、展示架等丰富内容等待冒险家探索。以每一抹铜色装点你的方块世界，尽情展现独属于你的风采！\n-   “我的山头”现已支持成员邀请好友！“我的山头”服务器成员只需一键，即可邀请好友加入所在山头，服主审核通过后便能一同畅玩。好友关系无缝带入，邀请更便捷，同玩更轻松。无需繁琐操作，喊上你的好友，一起来“我的山头”共赴方块奇遇吧！\n- “我的伙伴”迎来重磅AI升级！召唤更便捷、避让更智能，更能与伙伴进行AI实时对话——游戏中遇到任何问题，只需开口一问，伙伴便秒速为你解答。从此冒险路上不再孤单，一位聪明又贴心的智能伙伴时刻伴你左右。在游戏中装载“我的伙伴”模组，即刻体验这份全新的智能陪伴！\n- 全新桌面小组件重磅登场！「冒险搭子小组件」让你在手机桌面随时查看好友在线状态、接收好友消息，好友动态尽在掌握；「冒险运势小组件」每日送上专属运势，宜挖矿、宜探索、宜建造，一键指引最佳冒险方向。现在前往“设置—小组件”添加任一组件，即可领取 100 紫水晶好礼，把好运与伙伴一起装进桌面吧！\n- 百鸟翔集，日月同辉！神话品质皮肤「曜灵东君·羲和」「皓魄月冥·望舒」双双降临「百鸟学院」。羲和主日，烈火金光加身，尽显皇权厚重之威；望舒司月，星辰极光相随，轻盈仙灵之姿动人心弦。二者皆自带飞行与鞘翅特效，攻击更有升级光效加持。潜心修炼、羽化升阶，即可蜕变为更为璀璨的「溯雪神迹·羲和」与「刹那昭华·望舒」，于烈日皓月之间，谱写属于你的神话篇章！\n- 配合铜器时代同步上线“铜器寻踪”限时活动！冒险家只需挖满指定数量的铜矿，并成功还原氧化的铜傀儡，即可领取丰厚奖励。在探索铜器时代全新内容的同时收获满满惊喜，还等什么？即刻踏上寻铜之旅，让铜傀儡成为你冒险路上的忠实伙伴！\n- 全新模组火热上架，海量精品持续更新，无论是生存挑战、创意建造，还是趣味玩法，总有一款新鲜好玩的模组适合你！快来体验最新模组，自由搭配专属你的方块世界，解锁无限可能的冒险新体验！",
+  "file_size_bytes": 4218677248,
+  "min_os": "12.0",
+  "version": "3.9.20",
+  "release_date": "2017-09-14",
+  "rating": 4.11503,
+  "rating_count": 2202363,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C-%E7%A7%BB%E5%8A%A8%E7%89%88/id1243986797?uo=4",
+  "fetched_at": "2026-09-15T00:38:28+08:00"
+ },
+ "slug": "我的世界_移动版_bd25c7"
+}

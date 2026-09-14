@@ -1,0 +1,113 @@
+{
+ "schema_version": 1,
+ "name": "ちいかわぽけっと",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Applibot Inc.",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 9
+  },
+  "platform_app_ids": {
+   "ios": "6596745408"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "ちいかわ原作Q版动物，柔和水彩",
+  "dims": {
+   "engine": 2,
+   "art": 5,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体约900MB，海量角色立绘/季节服装/家具/场景，素材量级极重",
+   "logic": "采集+烹饪+讨伐+家园装饰+抽卡多系统串联，需经济与养成循环",
+   "data": "角色/装备/家园多线养成+抽卡保底（如120抽天书）"
+  },
+  "asset_notes": "2D立绘+场景，素材极重（900MB）；原作美术风格强识别，复刻需等同产能",
+  "notes": "吉伊卡哇(Chiikawa)正版IP手游，IP壁垒极高",
+  "cost_score": 3.12,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "在森林采集原料→按食谱烹饪→组队讨伐Abunaiyatsu→用金币/钻石升级厨房与角色，回家除草/装饰小天地触发角色互动演出，每日签到与活动循环。",
+  "highlights": [
+   "除草/讨伐的轻操作+角色反应演出（喂饭/洗澡）提供陪伴感",
+   "服装收集与家园装饰触发隐藏互动动画，养成正反馈强",
+   "抽卡保底（如120抽天书）降低付费焦虑"
+  ],
+  "innovations": [
+   "无实质创新，属于吉伊卡哇IP的休闲生活模拟+轻讨伐成熟执行"
+  ],
+  "target_user": "吉伊卡哇粉丝、二次元女性、治愈系用户",
+  "monetization": "IAP内购（钻石抽卡/服装/家具），含活动付费",
+  "lifecycle": "长线，靠季节服装/活动/剧情维持"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "强IP（吉伊卡哇 by Nagano）授权壁垒，无授权复刻即侵权；900MB素材量级与多系统养成成本高，独立立项风险极大。",
+  "suggestions": [
+   "如有正版IP授权可做国漫IP版生活模拟",
+   "无授权则仅参考'轻讨伐+家园装饰+角色互动'循环，自创IP",
+   "把除草/烹饪做成独立轻量小游戏试水"
+  ],
+  "risks": [
+   "Chiikawa 为日本角色大奖IP，版权风险极高",
+   "900MB素材+多系统，复刻成本重",
+   "粉丝向产品依赖IP热度，长线需持续内容"
+  ],
+  "effort": "不建议立项（若获授权另计 120–200人日）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "ちいかわぽけっと=Chiikawa Pocket，Applibot开发的吉伊卡哇正版IP手游",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体约900MB（Android），素材量级很重",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（同类生活模拟常见，未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://baike.baidu.com/item/%E5%8F%A3%E8%A2%8B%E5%90%89%E4%BC%8A%E5%8D%A1%E5%93%87/65490997",
+  "https://mi9.com/package/jp.co.applibot.chiikawapocketgl"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:37:42+08:00"
+ },
+ "slug": "ちいかわぽけっと_e13c33"
+}

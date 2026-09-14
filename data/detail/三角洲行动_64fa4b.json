@@ -1,0 +1,267 @@
+{
+ "schema_version": 1,
+ "name": "三角洲行动",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 2
+  },
+  "platform_app_ids": {
+   "ios": "1642894547"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unreal Engine 4（主体）+ UE5（黑鹰坠落模式）",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "写实战术射击，战场/枪械/载具",
+  "dims": {
+   "engine": 5,
+   "art": 5,
+   "anim": 5,
+   "physics": 4,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 4
+  },
+  "dim_notes": {
+   "engine": "UE4深度定制+自研地形VT/生态渲染+跨端，GDC有专题，移动端画质与性能极难",
+   "logic": "搜打撤+大战场+干员技能+千种改枪组合，系统极复杂",
+   "server": "几十人实时大战场+跨端同服，网络同步门槛高"
+  },
+  "asset_notes": "3GB包体，写实战场/枪械/载具/干员动捕资产极重，核心成本在军武与场景",
+  "notes": "腾讯天美琳琅天上战术射击FPS，多模式PVE/PVP/PVPVE",
+  "cost_score": 4.75,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "扮GTI干员在阿萨拉大陆战术作战，中远距离狙击/潜入/载具火力/大战场对决，搜打撤夺金，单局数分钟到半小时。",
+  "highlights": [
+   "干员特殊技能+战术道具的战术组合（军犬协同/气雾针剂）",
+   "千种枪械改装组合，每把超10改装部位，硬核军武爽感",
+   "烽火地带‘搜-打-撤’的搜刮与撤离紧张感",
+   "近10款载具驰骋大战场的火力全开"
+  ],
+  "innovations": [
+   "把‘搜打撤撤离（塔科夫式）’与‘大战场载具对决’融合进战术射击，多模式覆盖PVE/PVP/PVPVE"
+  ],
+  "target_user": "军武/FPS硬核玩家，战术射击爱好者",
+  "monetization": "IAP（外观/皮肤/通行证/曼德尔砖），无数值付费（公平性）",
+  "lifecycle": "长线（赛季/地图/干员更新）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "UE4深度定制+自研地形生态渲染+跨端同步+反外挂，研发以亿计；战术射击已被头部锁死，复刻无差异与性价比。",
+  "suggestions": [
+   "取其‘搜打撤’撤离玩法做轻量2D俯视撤离demo，验证循环后再考虑3D"
+  ],
+  "risks": [
+   "UE移动端性能与自研渲染技术风险",
+   "反外挂",
+   "FPS买量极贵",
+   "与既有产品撞车"
+  ],
+  "effort": "不建议（强做需300+人日顶级团队）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/34/0e/10340e62-72a3-4a99-0b4a-3199680f248c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/29/91/bd/2991bdbb-0d18-771b-4a15-8e7102cfb25d/_U8d5b_U5b63kv-2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/f1/eb/39f1eb78-bfc4-1444-9b94-dd6347932dd2/_U5356_U70b92__U5168_U65b0_U5e72_U5458.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/a4/0a/04a40ac8-8faa-f13f-bf28-be13dd47ca0e/_U5356_U70b93-_U5730_U56fe_U5347_U7ea7.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/3c/6b/1c3c6b7e-e41c-3278-98ce-28b47ed1091e/_U5356_U70b94-_U5168_U65b0_U73a9_U6cd5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/58/57/88585738-102d-1b6c-07e0-f5b99eff8064/_U5356_U70b95-_U5168_U65b0_U73a9_U6cd5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/75/78/ec75785e-de3f-3c38-4d92-64528dfef211/_U5356_U70b96-_U5168_U65b0_U6a21_U5f0f.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/fb/cd/6efbcd90-f6ad-5c56-7250-f73aa22aa6cc/_U5356_U70b97-_U5168_U65b0_U5730_U56fe.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/d7/07/a2d707c1-35fd-e47d-8770-b2a0ecf6adb0/_U5356_U70b98-_U5168_U65b0_U8f7d_U5177.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/69/88/c76988b8-7b4d-26dd-9e4b-b0fc7ad16da4/_U5356_U70b99-_U5168_U65b0_U6b66_U5668.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/55/e5/7655e58b-ddfa-16d0-98a2-7c0f8f54c209/_U8d5b_U5b63kv-2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/cd/ec/6fcdecd8-ad36-4280-ff24-7542f32fb818/_U5356_U70b92__U5168_U65b0_U5e72_U5458.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/f1/78/fff17851-8715-711a-be6a-1c774738b019/_U5356_U70b93-_U5730_U56fe_U5347_U7ea7.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/fb/c8/a3fbc855-aa61-627e-da63-797a061a28b8/_U5356_U70b94-_U5168_U65b0_U73a9_U6cd5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/f4/e7/edf4e77d-5341-8937-8333-cf6b17f8ab99/_U5356_U70b95-_U5168_U65b0_U73a9_U6cd5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/bd/bf/4ebdbf3d-8cbb-0385-3511-42649e5d87cb/_U5356_U70b96-_U5168_U65b0_U6a21_U5f0f.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/41/21/4c/41214cb1-eb21-c7c8-a91d-0daba3f6a864/_U5356_U70b97-_U5168_U65b0_U5730_U56fe.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 16"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/64/a8/de64a8d3-40b3-f640-97b9-cbc663c36eb9/_U5356_U70b98-_U5168_U65b0_U8f7d_U5177.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 17"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/dc/77/17dc77eb-d2cf-2368-54c9-a8b04993fff2/_U5356_U70b99-_U5168_U65b0_U6b66_U5668.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 18"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "主体使用虚幻引擎4，黑鹰坠落模式使用UE5（多来源确认）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体约3.0GB，属很重量级",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://www.163.com/dy/article/JT3MT5OA0526DPBA.html",
+  "https://www.wikiwand.com/zh-sg/articles/%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8",
+  "https://apps.apple.com/cn/app/%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8/id1642894547?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "三角洲行动",
+  "country": "cn",
+  "track_id": 1642894547,
+  "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+  "genres": [
+   "游戏",
+   "动作"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/34/0e/10340e62-72a3-4a99-0b4a-3199680f248c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/29/91/bd/2991bdbb-0d18-771b-4a15-8e7102cfb25d/_U8d5b_U5b63kv-2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/f1/eb/39f1eb78-bfc4-1444-9b94-dd6347932dd2/_U5356_U70b92__U5168_U65b0_U5e72_U5458.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/a4/0a/04a40ac8-8faa-f13f-bf28-be13dd47ca0e/_U5356_U70b93-_U5730_U56fe_U5347_U7ea7.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/3c/6b/1c3c6b7e-e41c-3278-98ce-28b47ed1091e/_U5356_U70b94-_U5168_U65b0_U73a9_U6cd5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/58/57/88585738-102d-1b6c-07e0-f5b99eff8064/_U5356_U70b95-_U5168_U65b0_U73a9_U6cd5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/75/78/ec75785e-de3f-3c38-4d92-64528dfef211/_U5356_U70b96-_U5168_U65b0_U6a21_U5f0f.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/fb/cd/6efbcd90-f6ad-5c56-7250-f73aa22aa6cc/_U5356_U70b97-_U5168_U65b0_U5730_U56fe.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/d7/07/a2d707c1-35fd-e47d-8770-b2a0ecf6adb0/_U5356_U70b98-_U5168_U65b0_U8f7d_U5177.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/69/88/c76988b8-7b4d-26dd-9e4b-b0fc7ad16da4/_U5356_U70b99-_U5168_U65b0_U6b66_U5668.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/55/e5/7655e58b-ddfa-16d0-98a2-7c0f8f54c209/_U8d5b_U5b63kv-2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/cd/ec/6fcdecd8-ad36-4280-ff24-7542f32fb818/_U5356_U70b92__U5168_U65b0_U5e72_U5458.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/f1/78/fff17851-8715-711a-be6a-1c774738b019/_U5356_U70b93-_U5730_U56fe_U5347_U7ea7.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/fb/c8/a3fbc855-aa61-627e-da63-797a061a28b8/_U5356_U70b94-_U5168_U65b0_U73a9_U6cd5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/f4/e7/edf4e77d-5341-8937-8333-cf6b17f8ab99/_U5356_U70b95-_U5168_U65b0_U73a9_U6cd5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/bd/bf/4ebdbf3d-8cbb-0385-3511-42649e5d87cb/_U5356_U70b96-_U5168_U65b0_U6a21_U5f0f.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/41/21/4c/41214cb1-eb21-c7c8-a91d-0daba3f6a864/_U5356_U70b97-_U5168_U65b0_U5730_U56fe.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/64/a8/de64a8d3-40b3-f640-97b9-cbc663c36eb9/_U5356_U70b98-_U5168_U65b0_U8f7d_U5177.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/dc/77/17dc77eb-d2cf-2368-54c9-a8b04993fff2/_U5356_U70b99-_U5168_U65b0_U6b66_U5668.jpg/626x1112bb.jpg"
+  ],
+  "description": "《三角洲行动》是一款由琳琅天上团队研发运营的新一代战术射击品质标杆游戏。PC及移动端版本在9月正式上线！未来将继续登录主机平台。拥有25年历史的经典射击鼻祖再次回归，这一次行动难度升级。\n\n作为全球反恐特勤组G.T.I.的精英特战干员，你将前往神秘的阿萨拉大陆，调查哈夫克公司的非法活动。在这个充满危机的战场中，运用别具特色的战斗道具与装备，与队友紧密协作，灵活制定战术，完成各种看似不可能完成的极限行动。\n\n中远距离战术战斗、秘密潜入解决目标、驾驶重型载具火力输出、海量随机事件、几十人的大战场对决……在这里，你将获得丰富又刺激的作战体验。\n\n”无所畏惧，绝不言退。”\n\n游戏特色\n\n【鼻祖回归，全新兵种战术射击！】\n在这里你能体验到最经典的特战干员作战风格。\n作为全球精锐小队一员，在各系列的经典地图中，体验中远距离的观测与狙击、充满策略性的战斗方式，让你领略到为何三角洲得到全球如此多玩家的喜爱。\n\n【迎难而上，挑战不可能的任务！】\n延续三角洲历代作品强调的战术性，打造了一个震撼的无缝动态世界——阿萨拉。每片区域都蕴含了不同的危机。选择你自己的作战方式、行动任务，完成挑战。但请记住，随时保持警惕，灵活使用你的战术道具和战术技能，动用脑力战胜对手！\n\n【活用战术，成为全球最佳干员！】\n在这里，你可以自由选择干员，而每一个干员都是绝对的精英。\n精通各干员的特殊技能和战斗方式，你将成为精英中的精英。\n面对看似不可能的任务，拉上同样强大的队友，组建无所不能的小队，让不可能成为可能。\n\n【冷静应对，完成烽火地带撤离！】\n这里的一切危险都是未知。闻声而来的黑潮、随机空降的哈夫克雇佣兵、以及不知在哪里埋伏的真人小队……找到目标，击败对手，完成任务！\n只有最强的干员才能全身而退，看你的了。\n\n【改装搭配，打造顶级枪械作战！】\n在资深军事顾问的协助下，突击步枪、冲锋枪、狙击枪、霰弹枪、轻机枪，数十把枪械、每把武器超10种改装部位，都像真家伙一样呈现在你面前。\n在超千种组合搭配中，挑出你最喜欢的那一个，出发！\n\n【驾驶载具，驰骋拟真全面战场！】\n在广大的地图战场上来一场多人团战！你可以驾驶冲锋艇、主战坦克、武装直升机、装甲车、全地形车等近10款载具驰骋大战场，火力全开！\n是时候放下冷静，放肆一把了！",
+  "release_notes": "一. 新赛季玩法更新\n1.\t烽火地带长弓溪谷地图更新：\na.\t新增世外桃源、岩石洞穴、雷达站隧道等区域。\nb.\t地图河道整体优化。\nc.\t全新标杆行动，在烽火地带中带来全新的载具体验。\nd.\t新增了部分物资容器和物资刷新点。\ne.\t由于地图场景升级，优化调整了部分物资的分布位置。\n2.\t全面战场新增地图：摩格旧城区\n3.\t新支援干员：罗温·沃尔什，代号旅人\na.\t干员特长-求生专家（烽火地带）：被自身战术道具命中的敌人将更易被军犬追踪。干员的倒地持续时间延长；成功救援友方后，可清除其多层部位破坏效果。\nb.\t干员特长-紧急勤务（全面战场）：被自身战术道具命中的敌人将更易被军犬追踪。成功救援友方后，可为其补充弹药。\nc.\t战术装备-军犬协同：持续期间内，军犬将主动追击范围内最近的敌方目标，接近后造成伤害并施加标记；未发现敌人时，将跟随干员并保持警戒。\nd.\t战术道具-气雾针剂枪：装备随身针剂发射器，向准星方向发射针剂。针剂爆开后将释放持续生效的气雾，持续修复友方的部位破坏效果，降低范围内敌方的血量上限并造成持续伤害。\ne.\t战术道具-刺激性烟雾：投掷刺激性烟雾弹，烟雾区域内的敌人将咳嗽。\n4.\t烽火地带新玩法：钓鱼\n5.\t烽火地带新玩法：咱俩练练\n6.\t烽火地带新玩法：极星守望。完成前置任务同队友扮演德穆兰和首领卫队，获取专属限定奖励与首款可组装收藏品。\n7.\t新武器：汤姆逊冲锋枪，使用.45口径弹药；MDR突击步枪，使用7.62*51mm口径弹药\n8.\t新载具：LSV两栖全地形车\n\n二. 新赛季通行证\n1. 赛季通行证开启时间：9月4日更新完成后\n2. 主要奖励包含：新干员-旅人（免费线解锁）、骇爪-骇客少女；骇客少女-K416突击步枪；星座纵横-AKM突击步枪、M700狙击步枪、M249轻机枪；少女判客-SMG-45冲锋枪、Mini-14射手步枪、ASh-12战斗步枪；骇客少女-防空车；骇客-反坦克地雷；赛季安全箱(2*2/2*3)、图灵砖、大量三角券、物流凭证及海量战备物资、武器经验卡等\n3.奖励调整：【通行证】4级子弹自选包、【通行证】5级子弹自选包、【通行证】高级子弹自选包中将新增当前赛季可制造的赛季限定子弹；【通行证】医疗物资自选包、【通行证】物资自选包中新增“特别补给包”可供选择，“特别补给包”开启后有概率获得“扫拖一体机器人”\n\n三.新赛季活动更新 \n1. S10赛季任务线进度重置：将重置并清空所有S10赛季任务线进度；过往赛季获取的【顶级安全箱赛季权限】，以及【安全箱体验卡】（不论是否使用）将全部失效无法再使用。\n2.S11赛季任务线更新：S11赛季全新赛季任务线开启，等待干员们挑战。\n3.S11任务减负(短赛季限定)：\na. 第二阶段主线任务星数要求减少；\nb. 第二阶段战斗型任务减少；\nc. 第二阶段支线任务更早解锁，丰富可选任务；\nd. 第三阶段移除潮汐监狱任务，支线任务更早解锁；\ne. 收集者需提交次数降低：获取顶级安全箱需提交1次，获取顶级安全箱典藏外观需提交5次。\n\n四.曼德尔砖-疾光魅影\n1. 曼德尔砖-疾光魅影系列上线，对局即有机会获得曼德尔砖！\n2. 产物包含：疾光魅影-MK4冲锋枪、黑银先锋-AS VAL突击步枪、AUG突击步枪，P90冲锋枪；管弦乐队-CAR-15突击步枪、UZI冲锋枪、R93狙击步枪、AS VAL突击步枪；征服者-M16A4突击步枪、G18、S12K霰弹枪、M7战斗步枪；夜穹-M16A4突击步枪、FS-12霰弹枪、腾龙突击步枪、AS VAL突击步枪、SMG-45冲锋枪；龙焱-SKS射手步枪、R93狙击步枪、Vector冲锋枪、PKM通用机枪、S12K霰弹枪。\n3. 往期曼德尔砖不会下架，仍会以较低的概率在新赛季掉落；但超过5个赛季的曼德尔砖将以极低概率产出，进入稀有掉落，本赛季更新后棱镜攻势S2将进入稀有掉落。\n4. 不同系列曼德尔砖保底进度独立计算。\n5. 量子密钥可开启所有系列曼德尔砖。\n6. 市场仍然可以交易过往系列曼德尔砖及外观。\n7. 典藏外观重组可使用不同系列外观当做材料，但合成外观根据合成材料随机生成，同系列外观越多合成该系列外观概率更高。全部材料均为同系列外观，必定合成该系列更高品质外观。\n\n五. 局内战斗&关卡优化\n【全模式】\n1.角色视角&操控相关优化:\na.新增拖拽救援：救援队友时可拖拽移动被救援者。烽火地带模式中，仅德穆兰小队默认开放拖拽救援能力；在全面战场模式中，所有干员都可以使用拖拽救援，默认交互按键为H，并可自定义修改按键；\nb.移动端新增声纹支持透明度调整，可前往自定义操作界面设置；\nc.移动端新增“背包/地图界面维持移动状态”设置，开启后可在背包或地图界面时保持移动状态。\n【烽火地带】\n1.AZ3优化：优化了老科学院植被对交战的影响。\n2.航天基地优化：\na.黑室或浮力室随机新增拉闸点，与原蓝室，离心机室闸点合计共三个拉闸点，拉下其中两个闸点即可开启直升机撤离点；\nb.调整了蓝室拉闸点的位置；\nc.调整了浮力室注水后的水位；\nd.新增德穆兰小队专属撤离点。G.T.I.阵营击败玩家德穆兰后，可于其夹层获取其特殊权限卡，从而使用其专属撤离点。\n3.局内地图信号屏蔽区优化：\t\na.长弓溪谷雷达站屏蔽区开放；\nb.航天基地拉闸点与撤离点屏蔽范围缩减；德穆兰小队不受屏蔽区影响。\n【全面战场】\n1.自由修建：\na.新增可修建工事-火神炮；\nb.自由修建工事中岸防炮、防空炮、火神炮的底座现在可被破坏。\n2.固定武器调整：\na.修复了火神炮在特定情况下出现旋转卡顿的问题；\nb.修复了可全向旋转的岸防炮在特定情况下出现旋转卡顿的问题；\nc.优化了岸防炮的俯角，俯角调整为-15°；\nd.攀升攻防:区域B防守方新增火神炮。\n3.胜者为王模式新增王牌标记：对局内具有突出贡献的玩家可获得对应的局内标记。\n4.余震：降低了中小地震带来的镜头晃动效果。\n5.克劳狄斗兽场-攻防：\na.调整了据点A的占领范围；\nb.修复了防守方从A区域撤离至B区域时倒计时过短的问题；\nc.调整了区域B,C,D据点的重新部署位置；\nd.调整了区域C边界线；\ne.调整了区域D进攻方载具的部署位置。\n6.断轨-占领：优化了区域B，区域C的重新部署位置。\n7.烬区-攻防演练：修复了部署至队友身旁时提示空间不足的问题；\n8.攻防&胜者为王载具投放调整：\na.摩格旧城区：进攻方区域B和区域C投放低兵力值刷新的LSV两栖全地形车；\nb.暴风眼：移除区域A低兵力值刷新的战斗快艇，移除区域B低兵力值刷新的AAV两栖装甲车，移除区域E兵力值刷新的AAV两栖装甲车；新增区域A，区域B，区域E低兵力值时刷新的LSV两栖全地形车；\nc.断层：移除区域A刷新的ORV突击车和Losv越野车，新增LSV两栖全地形车；\nd.攀升：区域A的LAV-AA防空车的部署位置改为动态部署。\n\n六. 系统优化（烽火地带&全面战场）\n【烽火地带】\n1. 新增常驻收集品：\na.红色品质：阿尤尔咖啡机、鱼月徽权杖首；\nb.金色品质：起舞的女郎挂饰；\nc.蓝色品质：医用吻合器、无名氏诗集、证物光碟。\n2.新增高价值物品检视：印象派名画、浮力补偿设备。\n3.制式装备券更新：为丰富装备搭配策略，提升玩法多样性，我们将对游戏内各类装备券的可兑换方案进行调整更新。\n4.EDC工具包：行动等级到达17级，且获得至少一个【随身工具】类型道具，可解锁【EDC】工具包功能。可在局外将指定收藏品放入“EDC工具包”，并在对局中随身携带和使用。\n5.配装界面赛季子弹优化：当季限定弹药下架后，配装界面将隐藏未拥有弹药；如仓库仍存有该弹药则不会隐藏，并可以继续添加剩余子弹。\n6.钓鱼：行动等级到达17级，且完成钓鱼任务获得鱼竿后，可解锁【钓鱼】功能。\n【全面战场】\n1.全面战场对局内计分板增加“举报/加好友”按钮。\n2.胜者为王预选指挥官：可在胜者为王玩法大厅勾选竞选指挥官，勾选的玩家在指挥官竞选阶段会自动竞选；匹配时会优先保证攻守双方同时存在预选指挥官，可能会略微增加匹配时长。\n3.新玩法:自由战场：允许玩家在胜者为王规则下自由建立房间。\n4.胜者为王模式载具部署请求：部署载具时需要向指挥官审批，同意后方可部署。指挥官本人、历史赛季载具KPM全阵营前八、载具能力评级为金可以直接部署载具，不受此限制；若审批时间内指挥官未响应，则申请将自动批准。\n5.胜者为王模式解锁条件调整：晋升之路达到校官后即永久解锁胜者为王模式。\n6.【胜者集结】将在群星赛季上线：可创建或检索加入心仪的胜者为王队伍；预览或编辑队伍的基本信息与所属人员；查看基于【自由战场】的历史战绩；或向其他队伍发起约战邀请。\n\n\n\n其他更新内容详见游戏内公告",
+  "file_size_bytes": 3235106816,
+  "min_os": "11",
+  "version": "1.201.37117",
+  "release_date": "2024-09-25",
+  "rating": 4.57642,
+  "rating_count": 3600475,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8/id1642894547?uo=4",
+  "fetched_at": "2026-09-15T00:36:35+08:00"
+ },
+ "slug": "三角洲行动_64fa4b"
+}

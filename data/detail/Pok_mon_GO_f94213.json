@@ -1,0 +1,242 @@
+{
+ "schema_version": 1,
+ "name": "Pokémon GO",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Scopely Explore, Inc.",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 20
+  },
+  "platform_app_ids": {
+   "ios": "1094591345"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 14,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "AR / 3D",
+  "art_style": "3D 卡通宝可梦 + 真实世界地图",
+  "dims": {
+   "engine": 4,
+   "art": 4,
+   "anim": 4,
+   "physics": 2,
+   "logic": 4,
+   "data": 5,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "Unity 但需集成 AR/地理定位与地图 SDK，框架集成成本高",
+   "art": "包体约 423MB（重），宝可梦 3D 模型库 + 地图资产",
+   "anim": "捕捉/进化/战斗动画表现密度高",
+   "logic": "捕捉 + 道馆 + Raid + 养成 + 真实地图联动，系统复杂",
+   "data": "宝可梦图鉴/养成/赛季多线，数值体系重",
+   "server": "实时 Raid 联机 + 全球同步，强联网"
+  },
+  "asset_notes": "3D 宝可梦模型 + 423MB 重包体，叠加真实地图/GPS 基础设施需求，复刻依赖外部地理数据。",
+  "notes": "Niantic（现 Scopely）出品，Unity 开发，依赖真实世界 LBS。",
+  "cost_score": 3.88,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "出门走步→GPS 定位遇宝可梦→丢球捕捉→道馆/Raid 对战→养成与图鉴收集，单局数分钟，靠现实移动续玩。",
+  "highlights": [
+   "「在现实世界抓宝可梦」的 AR/LBS 新奇感",
+   "图鉴收集 + 好友 Raid 的社交驱动",
+   "走路孵化/Adventure Sync 的健康正向反馈"
+  ],
+  "innovations": [
+   "把 LBS + AR 与收集养成结合（品类定义级创新，但强依赖真实地理数据）"
+  ],
+  "target_user": "全龄宝可梦粉丝与户外轻运动用户",
+  "monetization": "IAP 内购（道具/货币）为主",
+  "lifecycle": "长线运营，跟现实活动/赛季"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "Pokémon IP 独占 + 依赖真实世界地图与 GPS 基础设施 + 423MB 重资产，复刻在版权与地理数据上均不可行。",
+  "suggestions": [
+   "可用 LBS 框架做「城市寻宝」原型练手，但不得使用宝可梦 IP"
+  ],
+  "risks": [
+   "Pokémon IP 授权",
+   "真实地图/GPS 数据与 LBS 合规",
+   "重资产"
+  ],
+  "effort": "极高 / 不适用"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/4a/21/de4a21a0-dfd8-1198-ae05-d7b8a85e6abc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/ac/07/46ac07d4-6c41-6206-edf7-cbc64a55d8ec/PGO_ASO-Screenshots-EG-01-S23_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/60/aa/1160aa7c-0da2-0666-2844-2a46aa21af18/PGO_ASO-Screenshots-EG-02-WIN_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/57/66/5257660d-f470-720e-9b0f-2f0bb67b6e0a/PGO_ASO-Screenshots-EG-03-RAID_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/44/af/f744af54-b468-9342-77da-6f3c65387c8f/PGO_ASO-Screenshots-EG-04-CATCH_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/46/17/4b461733-657b-4899-1409-036015b26a9c/PGO_ASO-Screenshots-EG-05-EVOLVE_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/4b/5d/7a4b5d18-725d-467f-7435-4af16867006c/PGO_ASO-Screenshots-EG-06-DEFEAT_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/5b/5d/ef5b5d96-3dab-dd84-43af-e36bcd9929ff/PGO_ASO-Screenshots-EG-07-COLLECT_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/50/4e/72504e4c-e772-962a-cae1-f25c2e6c3d1a/604116b7-6adb-4fd7-853b-884ff64142ce_1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/77/f8/6c77f823-ae3b-703f-e740-a422e6ef860d/f3c93675-0753-4ada-a8d0-fa4a0cf20046_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/74/ba/2874ba3a-2e0c-5796-9ff7-aeedc87f350f/805da620-acfd-46bb-81d7-1e0aa5a2ecd9_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/77/5d/f7775d25-25ed-5984-c816-0e72d336533a/57f399a8-b02e-4dbe-b468-3165138dcef2_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/43/de/94/43de94cd-9c43-1706-2a8e-06cbb554cef8/ac8e0d73-5036-40a2-829f-0877b2c905bb_5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/f7/a6/75f7a685-d26b-5080-b4b8-69b308210a2f/4190aa45-d911-425e-bdb3-30a59794393d_6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/e2/bf/31e2bf27-0dc4-5305-3c6d-311271ce75cf/905157ab-52f5-4333-8a22-3f0a6cda7e0e_7.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 14"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体约 423MB（443269120 字节），属「重」量级",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（Niantic 开发，多来源确认）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345?uo=4"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：AR / 3D"
+ ],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Pokémon GO",
+  "country": "us",
+  "track_id": 1094591345,
+  "seller": "Scopely Explore, Inc.",
+  "genres": [
+   "Games",
+   "Strategy",
+   "Roleplaying",
+   "Health & Fitness"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/4a/21/de4a21a0-dfd8-1198-ae05-d7b8a85e6abc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/ac/07/46ac07d4-6c41-6206-edf7-cbc64a55d8ec/PGO_ASO-Screenshots-EG-01-S23_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/60/aa/1160aa7c-0da2-0666-2844-2a46aa21af18/PGO_ASO-Screenshots-EG-02-WIN_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/57/66/5257660d-f470-720e-9b0f-2f0bb67b6e0a/PGO_ASO-Screenshots-EG-03-RAID_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/44/af/f744af54-b468-9342-77da-6f3c65387c8f/PGO_ASO-Screenshots-EG-04-CATCH_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/46/17/4b461733-657b-4899-1409-036015b26a9c/PGO_ASO-Screenshots-EG-05-EVOLVE_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/4b/5d/7a4b5d18-725d-467f-7435-4af16867006c/PGO_ASO-Screenshots-EG-06-DEFEAT_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/5b/5d/ef5b5d96-3dab-dd84-43af-e36bcd9929ff/PGO_ASO-Screenshots-EG-07-COLLECT_1242x2208__static_UA_EN_NV.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/50/4e/72504e4c-e772-962a-cae1-f25c2e6c3d1a/604116b7-6adb-4fd7-853b-884ff64142ce_1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/77/f8/6c77f823-ae3b-703f-e740-a422e6ef860d/f3c93675-0753-4ada-a8d0-fa4a0cf20046_2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/74/ba/2874ba3a-2e0c-5796-9ff7-aeedc87f350f/805da620-acfd-46bb-81d7-1e0aa5a2ecd9_3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/77/5d/f7775d25-25ed-5984-c816-0e72d336533a/57f399a8-b02e-4dbe-b468-3165138dcef2_4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/43/de/94/43de94cd-9c43-1706-2a8e-06cbb554cef8/ac8e0d73-5036-40a2-829f-0877b2c905bb_5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/f7/a6/75f7a685-d26b-5080-b4b8-69b308210a2f/4190aa45-d911-425e-bdb3-30a59794393d_6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/e2/bf/31e2bf27-0dc4-5305-3c6d-311271ce75cf/905157ab-52f5-4333-8a22-3f0a6cda7e0e_7.jpg/626x1112bb.jpg"
+  ],
+  "description": "Join Trainers across the globe who are discovering Pokémon as they explore the world around them. Pokémon GO is the global gaming sensation that has been downloaded over 1 billion times and named “Best Mobile Game” by the Game Developers Choice Awards and “Best App of the Year” by TechCrunch.\n_______________\n\nUNCOVER THE WORLD OF POKÉMON: Explore and discover Pokémon wherever you are!\n \nCATCH more Pokémon to complete your Pokédex!\n \nJOURNEY alongside your Buddy Pokémon to help make your Pokémon stronger and earn rewards!\n\nCOMPETE in epic Gym battles and...\n\nTEAM UP and UNITE with other Trainers to catch powerful Pokémon during Raid Battles!\n \nIt’s time to get moving—your real-life adventures await! Let’s GO!\n_______________\n\nWith the player’s permission, Adventure Sync uses the Health app to enable the player to earn walking distance when the app is closed.\n\nNotes:\n- This app is free-to-play and offers in-game purchases. It is optimized for smartphones, not tablets.\n- It is recommended to play while connected to a network in order to obtain accurate location information.\n- Compatibility is not guaranteed for devices without GPS capabilities or devices that are connected only to Wi-Fi networks.\n- Compatibility information may be changed at any time.\n- Information current as of July 11, 2019.\n- Compatible with iPhone® 5s / SE / 6 / 6s / 6 Plus / 6s Plus / 7 / 7 Plus / 8 / 8 Plus / X devices with iOS Version 9 or later installed.\n- Not compatible with 5th generation iPod Touch devices or iPhone 5c or earlier iPhone devices.\n- Please visit PokemonGO.com for additional compatibility information.\n- Compatibility is not guaranteed for all devices.\n- Continued use of GPS running in the background can dramatically reduce battery life.",
+  "release_notes": "Trainers, we hope you’re enjoying your adventure in Pokémon GO! We update the app regularly with new events and features, so make sure to check the in-game News to stay up to date.",
+  "file_size_bytes": 443269120,
+  "min_os": "15.0",
+  "version": "0.427.0",
+  "release_date": "2016-07-07",
+  "rating": 4.00403,
+  "rating_count": 653139,
+  "price": "Free",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345?uo=4",
+  "fetched_at": "2026-09-15T00:40:07+08:00"
+ },
+ "slug": "Pokémon_GO_f94213"
+}

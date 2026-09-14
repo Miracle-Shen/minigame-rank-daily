@@ -1,0 +1,114 @@
+{
+ "schema_version": 1,
+ "name": "超能下蛋鸭",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "世熠网络科技（上海）有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/畅销榜"
+  ],
+  "ranks": {
+   "douyin/畅销榜": 6
+  },
+  "platform_app_ids": {
+   "douyin": "tt96fde04009f58bfe07"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / Cocos（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D（含物理）",
+  "art_style": "魔性萌系禽类（鸡鸭鹅），搞怪卡通",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 4,
+   "physics": 4,
+   "logic": 4,
+   "data": 4,
+   "server": 4,
+   "audio": 3
+  },
+  "dim_notes": {
+   "anim": "弹射轨迹 + 连锁爆蛋特效 + 角色动画密集",
+   "physics": "重力弹射 + 反弹 / 分裂物理手感需精调，是核心乐趣",
+   "logic": "肉鸽随机关卡 + 卡牌流派构筑 + 阵容搭配",
+   "data": "禽类英雄抽卡升星 + 阵容养成",
+   "server": "实时组队副本 + PVP 对决，强联网"
+  },
+  "asset_notes": "禽类角色 / 蛋液特效美术可控（微信版约 435MB 属「中-重」），物理手感调校是技术重点",
+  "notes": "世熠网络（波克旗下）出品，弹射 + 卡牌肉鸽 + 物理融合，畅销榜长居前列",
+  "cost_score": 3.62,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "单指滑动瞄准、长按蓄力发射蛋液，借助真实物理反弹 / 分裂触发连锁爆蛋，局内随机收集卡牌打造流派（分裂爆弹流 / 地形反弹流），闯关打怪解锁禽类英雄养成。",
+  "highlights": [
+   "弹射连锁爆蛋的清屏爽感",
+   "物理反弹 / 45° 贴墙二次加速的策略",
+   "肉鸽随机关卡 + 卡牌流派构筑的每局不同",
+   "禽类萌系造型与实时组队"
+  ],
+  "innovations": [
+   "弹射 + 卡牌肉鸽 + 物理的融合，把弹珠弹射与卡牌构筑揉在一起，相对纯消除 / 弹射是结构创新"
+  ],
+  "target_user": "休闲 + 策略两栖用户，碎片时间",
+  "monetization": "混合（IAA + IAP 抽卡 / 月卡，微氪可玩）",
+  "lifecycle": "长线（英雄 / 副本 / 赛季持续更新）"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "弹射 + 肉鸽融合有可取，但波克已占头部、弹射品类大量产品；需改一处结构 / 题材并弱化实时组队降成本。",
+  "suggestions": [
+   "换题材为「弹珠英雄」「史莱姆大作战」，把禽类换通用萌物",
+   "弱化实时组队改异步排行，降服务器成本",
+   "保留「物理反弹 + 肉鸽流派」核心，换数值模型"
+  ],
+  "risks": [
+   "弹射品类（泡泡龙 like）已有大量产品",
+   "波克已占头部",
+   "实时组队增成本"
+  ],
+  "effort": "40–60 人日（2 前端 + 1 美术 + 1 策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法为重力弹射 + 卡牌肉鸽 + 物理，微信版约 435MB",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎为 Unity/Cocos 推断，无官方确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.sohu.com/a/978565857_122001004",
+  "http://www.17xy.cn/soft/7162.html"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2D（含物理）"
+ ],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:36:03+08:00"
+ },
+ "slug": "超能下蛋鸭_abd62a"
+}

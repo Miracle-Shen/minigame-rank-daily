@@ -1222,3 +1222,250 @@ footer {
   color: var(--brand-2);
   background: var(--panel-tint);
 }
+
+/* ==========================================================================
+   游戏详情页（data/detail/*.json 驱动）
+   分区：技术实现 / 玩法·爽点·创新点 / 截图 / 复刻建议 / 数据来源
+   成本口径：分数越低 = 复刻越便宜，配色随之（低=绿 中=琥珀 高=红）
+   ========================================================================== */
+
+.gp-detail { margin: 8px 0 4px; }
+
+/* ---------- 摘要条 ---------- */
+.gd-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  padding: 12px 14px;
+  background: var(--panel-tint);
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius-tight);
+  margin-bottom: 18px;
+}
+.gd-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 11px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--stroke-strong);
+  background: var(--panel);
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+.gd-chip b { color: var(--ink); font-weight: 600; }
+.gd-chip .gd-k { color: var(--muted); font-weight: 500; }
+/* 引擎「推断」角标：调研产物里引擎多为推断，必须一眼看出证据强度 */
+.gd-inf {
+  font-style: normal;
+  font-size: 10px;
+  line-height: 1.5;
+  padding: 0 4px;
+  border-radius: 4px;
+  background: #fef3c7;
+  color: #b45309;
+  font-weight: 600;
+}
+.gd-eng-raw { display: block; margin-top: 2px; font-size: 11px; font-weight: 500; color: var(--muted); }
+
+/* ---------- 分区 ---------- */
+.gd-sec { margin: 22px 0 0; }
+.gd-sec-h {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--stroke);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.gd-sec-h .gd-sec-n {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px; height: 18px;
+  border-radius: 5px;
+  background: var(--brand-soft);
+  color: var(--brand-2);
+  font-size: 11px;
+  font-weight: 700;
+  flex: none;
+}
+.gd-sec-h .gd-sec-x { font-size: 12px; font-weight: 500; color: var(--muted); }
+
+/* ---------- 技术实现 ---------- */
+.gd-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.gd-fact {
+  padding: 9px 11px;
+  border: 1px solid var(--stroke);
+  border-radius: 10px;
+  background: var(--panel-alt);
+}
+.gd-fact .gd-fk { font-size: 11px; color: var(--muted); margin-bottom: 2px; }
+.gd-fact .gd-fv { font-size: 13.5px; font-weight: 600; color: var(--ink); }
+.gd-fact .gd-fv small { font-weight: 500; font-size: 11px; color: var(--muted); }
+
+.gd-dims { display: flex; flex-direction: column; gap: 6px; }
+.gd-dim { display: grid; grid-template-columns: 104px 1fr 32px; gap: 9px; align-items: center; }
+.gd-dim-l { font-size: 12px; color: var(--ink-2); }
+.gd-dim-t {
+  height: 7px; border-radius: 4px; background: #edf0ee; overflow: hidden;
+}
+/* 必须显式 block：<i> 默认行内，行内元素的 width/height 会被忽略，
+   结果是只剩灰色底槽、彩色填充整条不见 */
+.gd-dim-b { display: block; height: 100%; border-radius: 4px; }
+.gd-dim-v { font-size: 11.5px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.gd-dim-note { font-size: 11.5px; color: var(--muted); margin: 1px 0 5px 113px; }
+
+.gd-cost-total {
+  display: flex; align-items: center; gap: 10px;
+  margin-top: 14px; padding: 11px 13px;
+  border: 1px solid var(--stroke);
+  border-radius: 10px;
+  background: var(--panel-alt);
+}
+.gd-cost-total .gd-ct-n {
+  font-size: 22px; font-weight: 700; line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.gd-cost-total .gd-ct-l { font-size: 12px; color: var(--muted); }
+.gd-lv {
+  display: inline-block; padding: 2px 9px; border-radius: var(--radius-pill);
+  font-size: 11.5px; font-weight: 600;
+}
+/* 成本档位：越低越绿 */
+.gd-lv.lv0 { background: #d1fae5; color: #047857; }
+.gd-lv.lv1 { background: #d1fae5; color: #047857; }
+.gd-lv.lv2 { background: #fef3c7; color: #b45309; }
+.gd-lv.lv3 { background: #ffe4e6; color: #be123c; }
+.gd-lv.lv4 { background: #fee2e2; color: #b91c1c; }
+.gd-bar-low  { background: #10b981; }
+.gd-bar-mid  { background: #f59e0b; }
+.gd-bar-high { background: #ef4444; }
+
+.gd-note {
+  margin-top: 10px; font-size: 12.5px; color: var(--ink-2);
+  padding: 10px 12px; background: var(--panel-tint);
+  border-left: 3px solid var(--brand); border-radius: 0 8px 8px 0;
+  white-space: pre-wrap;
+}
+.gd-flag {
+  display: inline-block; margin-left: 6px; padding: 1px 7px;
+  border-radius: var(--radius-pill); font-size: 10.5px; font-weight: 600;
+  background: #f1f5f9; color: #64748b; vertical-align: 1px;
+}
+.gd-flag.warn { background: #fef3c7; color: #b45309; }
+.gd-flag.ok { background: #d1fae5; color: #047857; }
+
+/* ---------- 玩法 ---------- */
+.gd-loop {
+  font-size: 13.5px; color: var(--ink); line-height: 1.7;
+  padding: 12px 14px; border: 1px solid var(--stroke);
+  border-radius: 10px; background: var(--panel-alt);
+  white-space: pre-wrap;
+}
+.gd-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 12px; }
+@media (max-width: 640px) { .gd-cols { grid-template-columns: 1fr; } }
+.gd-list-h {
+  font-size: 12px; font-weight: 600; color: var(--ink-2);
+  margin: 0 0 6px; display: flex; align-items: center; gap: 6px;
+}
+.gd-list-h::before { content: ""; width: 3px; height: 12px; border-radius: 2px; background: var(--brand); }
+.gd-list-h.hl::before { background: #ef4444; }
+.gd-list-h.iv::before { background: var(--sky); }
+.gd-ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 5px; }
+.gd-ul li {
+  position: relative; padding-left: 15px;
+  font-size: 13px; color: var(--ink); line-height: 1.6;
+}
+.gd-ul li::before {
+  content: ""; position: absolute; left: 4px; top: 8px;
+  width: 4px; height: 4px; border-radius: 50%; background: var(--stroke-strong);
+}
+.gd-meta-row {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 8px; margin-top: 12px;
+}
+
+/* ---------- 截图 ---------- */
+.gd-shots {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
+  gap: 9px;
+}
+.gd-shot {
+  position: relative; border: 1px solid var(--stroke); border-radius: 10px;
+  overflow: hidden; background: var(--panel-alt); aspect-ratio: 9 / 16;
+  cursor: zoom-in;
+}
+.gd-shot.is-icon { aspect-ratio: 1 / 1; }
+.gd-shot img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.gd-shot .gd-shot-tag {
+  position: absolute; left: 5px; bottom: 5px;
+  padding: 1px 6px; border-radius: 5px;
+  background: rgba(15, 23, 42, .72); color: #fff;
+  font-size: 10px; font-weight: 500; backdrop-filter: blur(2px);
+}
+.gd-hint { font-size: 12.5px; color: var(--muted); }
+.gd-verify {
+  margin-top: 9px; font-size: 12px; color: var(--ink-2);
+  padding: 8px 11px; background: #fffbeb; border: 1px solid #fde68a;
+  border-radius: 8px;
+}
+
+/* ---------- 复刻建议 ---------- */
+.gd-verdict {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+  padding: 13px 15px; border-radius: var(--radius-tight);
+  border: 1px solid var(--stroke); background: var(--panel-alt); margin-bottom: 12px;
+}
+.gd-vd-badge {
+  padding: 4px 13px; border-radius: var(--radius-pill);
+  font-size: 13px; font-weight: 700; letter-spacing: .02em;
+}
+.gd-vd-r { font-size: 12.5px; color: var(--ink-2); flex: 1; min-width: 180px; }
+.gd-vd-换肤     { background: #d1fae5; color: #047857; }
+.gd-vd-变种创意 { background: #dbeafe; color: #1d4ed8; }
+.gd-vd-微创新   { background: #fef3c7; color: #b45309; }
+.gd-vd-原样复刻 { background: #e2e8f0; color: #475569; }
+.gd-vd-不建议   { background: #fee2e2; color: #b91c1c; }
+
+/* ---------- 来源 ---------- */
+.gd-src-wrap { margin-top: 22px; border-top: 1px solid var(--stroke); padding-top: 12px; }
+.gd-src-wrap summary {
+  cursor: pointer; font-size: 12.5px; color: var(--ink-2); font-weight: 500;
+  list-style: none;
+}
+.gd-src-wrap summary::-webkit-details-marker { display: none; }
+.gd-src-wrap summary::before { content: "▸ "; color: var(--muted); }
+.gd-src-wrap[open] summary::before { content: "▾ "; }
+.gd-ev { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; }
+.gd-ev-i { font-size: 12.5px; color: var(--ink-2); line-height: 1.6; }
+.gd-ev-i .gd-ev-s { color: var(--muted); }
+.gd-ev-i a { color: var(--brand-2); text-decoration: none; word-break: break-all; }
+.gd-ev-i a:hover { text-decoration: underline; }
+
+/* ---------- 灯箱 ---------- */
+.gd-lb {
+  position: fixed; inset: 0; z-index: 9999; display: none;
+  align-items: center; justify-content: center;
+  background: rgba(15, 23, 42, .82); padding: 24px;
+}
+.gd-lb.on { display: flex; }
+.gd-lb img { max-width: 100%; max-height: 100%; border-radius: 10px; }
+.gd-lb-x {
+  position: absolute; top: 16px; right: 20px; cursor: pointer;
+  color: #fff; font-size: 26px; line-height: 1; opacity: .8;
+}
+.gd-lb-x:hover { opacity: 1; }
+
+.gd-loading { font-size: 12.5px; color: var(--muted); padding: 10px 0; }

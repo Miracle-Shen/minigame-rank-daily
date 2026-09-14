@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "name": "神器传说",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "深圳全民互动科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 19
+  },
+  "platform_app_ids": {
+   "wx": "wxf6f9346dd7545588"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "Q版仙侠卡通",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "放置挂机+开箱炼器+神器合成+斗法+宗门多系统，需数值与掉落体系",
+   "data": "神器/法相/灵兽/斗法多线养成+经济循环，长线内容重",
+   "server": "斗法跨服/宗门/联盟，强联网社交"
+  },
+  "asset_notes": "Q版仙侠2D卡通，神器/坐骑/怪物可程序化或批量采购；包体55MB量级轻",
+  "notes": "成熟放置修仙开箱框架，技术风险低",
+  "cost_score": 2.62,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "角色自动挂机战斗获取经验与资源，开宝箱掉落神器碎片合成神器，离线也积累资源，回归一键领取，逐步解锁修仙地图。",
+  "highlights": [
+   "无限开箱的随机掉落实时反馈，'下一发必出'的赌性驱动留存",
+   "离线资源累积+一键领取，零操作也有成长，契合碎片时间",
+   "神器合成与地图解锁的分层目标，成长反馈清晰"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟放置开箱修仙品类的执行优化"
+  ],
+  "target_user": "男性修仙爱好者，时间紧张想轻松挂机的用户",
+  "monetization": "IAP内购为主（神器/资源/去广告），含宗门等社交付费",
+  "lifecycle": "长线运营，靠地图/神器/赛季内容维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "放置开箱修仙框架极度成熟，机制照搬即成立，瓶颈在题材与数值平衡；同类产品众多，换题材+调数值是最优解。",
+  "suggestions": [
+   "把修仙换成'西游取经'：开箱得法宝→合成神通→挂机降妖",
+   "用'打工摸鱼'职场题材做放置开箱，降低年龄门槛",
+   "把斗法跨服做成轻量周赛，控制服务器成本"
+  ],
+  "risks": [
+   "放置修仙赛道极度饱和，买量成本高",
+   "开箱概率易触发合规与平台审核风险"
+  ],
+  "effort": "30–45人日（1前端+1美术+0.5数值）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "神器传说为放置挂机开箱修仙RPG微信小游戏",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Cocos Creator（微信小游戏常见，未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://m.9k9k.com/game/334078.html",
+  "https://m.18183.com/zhxz/8807218.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:37:26+08:00"
+ },
+ "slug": "神器传说_9f5640"
+}

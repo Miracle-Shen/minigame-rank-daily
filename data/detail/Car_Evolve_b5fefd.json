@@ -1,0 +1,224 @@
+{
+ "schema_version": 1,
+ "name": "Car Evolve",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Heseri Games Inc",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 13
+  },
+  "platform_app_ids": {
+   "ios": "6754464806"
+  },
+  "first_seen": "2026-08-27",
+  "appearances": 19,
+  "best_rank": 6,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推测）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "简洁卡通 2D 侧视车辆与道路",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 2,
+   "logic": 3,
+   "data": 3,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "包体约 170MB，含车辆/道路/环境美术，量级轻-中",
+   "logic": "零件升级树 + 多宇宙重置循环 + 距离记录，中等复杂",
+   "server": "需联网（在线单人），推测含排行榜"
+  },
+  "asset_notes": "2D 车辆与场景，素材量中等，地形可部分程序化生成",
+  "notes": "媒体匹配（美区），包体 169.8MB；SDK 未明确检出引擎特征，引擎为推断",
+  "cost_score": 2.25,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "驾驶车辆赚金币，升级零件（引擎/轮胎等），用弹弓加速冲更远；达成距离记录后进入新宇宙（重置部分进度），循环刷分。",
+  "highlights": [
+   "每次升级后明显的距离/速度提升，正反馈强",
+   "弹弓加速机制带来瞬时爽感与地形突破",
+   "多宇宙重置制造「重开即新目标」的收集欲"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（放置+车辆升级为成熟框架）"
+  ],
+  "target_user": "欧美休闲 / 放置玩家，通勤碎片",
+  "monetization": "IAP（去广告/零件包 $2.99–29.99）+ IAA 混合",
+  "lifecycle": "长线运营（赛季宇宙更新）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "放置+车辆升级框架极成熟、技术低；瓶颈在题材与买量，换皮可快速验证。",
+  "suggestions": [
+   "换题材为「飞船 / 赛博摩托升级」降低撞车",
+   "加赛季排行榜与好友挑战增强社交",
+   "把重置做成「基因突变」叙事提升代入"
+  ],
+  "risks": [
+   "放置类买量成本高、留存靠数值",
+   "广告过多已遭玩家差评"
+  ],
+  "effort": "25–35 人日（1 前端 + 1 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/fd/2a/f1fd2a75-d77c-2e0a-18d5-f56f2d0633f8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/5b/48/bc5b48f8-617d-55ce-660d-ea3bd221a694/screen_1242x2688_2026-05-29_11-33-42.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/f4/c6/a9f4c6ab-d24d-e13f-4d22-26b69feb85da/west_coast_final_narrow.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/40/ae/0440aea0-4073-8483-2a37-d34864a8fcc0/screen_1320x2868_2026-02-23_16-17-47.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/50/16/6750167c-e397-d467-0db1-53183721d01b/screen_1320x2868_2026-02-23_16-51-03.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/47/ef/ce47ef96-9a5e-66cc-2574-62c97b570671/city_final_narrow.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/49/a7/1449a7d9-52ed-759f-56da-d61c66154e41/screen_1320x2868_2026-02-23_17-02-10.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c4/53/f3/c453f3d3-0992-5b1d-f625-ccb4afd9e23a/screen_2064x2752_2026-05-29_11-33-42.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/04/41/96044163-1850-5bd0-c287-0ab52c2a2985/west_coast_final.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/0a/69/310a6939-6de8-40e0-868a-94cb035b0a03/screen_2064x2752_2026-02-23_16-17-47.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/e8/22/cfe82222-e394-b934-7c93-4cd8e1c6e580/screen_2064x2752_2026-02-23_16-51-03.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/dd/1e/90dd1ebd-7f55-1bba-4b2e-757c77de7852/city_final.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/44/b6/b144b658-bd5d-79b4-f7f8-690c4334376f/screen_2064x2752_2026-02-23_17-02-10.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 169.8MB（官方商店数据）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity 属推断，SDK 未检出明确引擎特征",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/car-evolve/id6754464806?uo=4",
+  "https://www.searchmobilegames.com/game/car-evolve"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Car Evolve",
+  "country": "us",
+  "track_id": 6754464806,
+  "seller": "Heseri Games Inc",
+  "genres": [
+   "Games",
+   "Casual",
+   "Simulation"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/fd/2a/f1fd2a75-d77c-2e0a-18d5-f56f2d0633f8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/5b/48/bc5b48f8-617d-55ce-660d-ea3bd221a694/screen_1242x2688_2026-05-29_11-33-42.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/f4/c6/a9f4c6ab-d24d-e13f-4d22-26b69feb85da/west_coast_final_narrow.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/40/ae/0440aea0-4073-8483-2a37-d34864a8fcc0/screen_1320x2868_2026-02-23_16-17-47.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/50/16/6750167c-e397-d467-0db1-53183721d01b/screen_1320x2868_2026-02-23_16-51-03.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/47/ef/ce47ef96-9a5e-66cc-2574-62c97b570671/city_final_narrow.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/49/a7/1449a7d9-52ed-759f-56da-d61c66154e41/screen_1320x2868_2026-02-23_17-02-10.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c4/53/f3/c453f3d3-0992-5b1d-f625-ccb4afd9e23a/screen_2064x2752_2026-05-29_11-33-42.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/04/41/96044163-1850-5bd0-c287-0ab52c2a2985/west_coast_final.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/0a/69/310a6939-6de8-40e0-868a-94cb035b0a03/screen_2064x2752_2026-02-23_16-17-47.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/e8/22/cfe82222-e394-b934-7c93-4cd8e1c6e580/screen_2064x2752_2026-02-23_16-51-03.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/dd/1e/90dd1ebd-7f55-1bba-4b2e-757c77de7852/city_final.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/44/b6/b144b658-bd5d-79b4-f7f8-690c4334376f/screen_2064x2752_2026-02-23_17-02-10.png/626x1112bb.jpg"
+  ],
+  "description": "Build a better car with every run. Earn cash, upgrade parts, and push your distance record with satisfying, simple gameplay and strategic upgrading decisions.",
+  "release_notes": "Bug fixes",
+  "file_size_bytes": 169848832,
+  "min_os": "15.0",
+  "version": "1.5.4",
+  "release_date": "2025-11-10",
+  "rating": 4.59827,
+  "rating_count": 6345,
+  "price": "Free",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/us/app/car-evolve/id6754464806?uo=4",
+  "fetched_at": "2026-09-15T00:38:13+08:00"
+ },
+ "slug": "Car_Evolve_b5fefd"
+}

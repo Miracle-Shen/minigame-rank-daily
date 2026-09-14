@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "name": "这关可真行",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "",
+  "category_l1": "休闲",
+  "category_l2": "塔防",
+  "boards": [
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/畅玩榜": 10
+  },
+  "platform_app_ids": {
+   "wx": "wx78c206be195a1173"
+  },
+  "first_seen": "2026-09-07",
+  "appearances": 7,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "水墨国风+汉字拟人+书法字体",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 3,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "6格部署槽排兵+相同汉字合成升阶+敌我3000血对战，需合成与战斗判定",
+   "art": "水墨山石背景+朱砂/黛黑汉字着色+武将拟人立绘，需定制化美术",
+   "data": "军衔晋升+实时排行榜养成，单线偏轻"
+  },
+  "asset_notes": "水墨国风为2D矢量/手绘贴图，汉字兵种可用字体+简单造型批量产出；武将立绘需定制但量可控",
+  "notes": "汉字合成塔防，与《汉字攻防战》等同脉，机制成熟",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "在6格部署槽消耗资源招出'盾刃弓刺'等汉字兵种，相同汉字合成升阶，排兵布阵攻破敌方3000血大本营，一局数分钟。",
+  "highlights": [
+   "汉字即兵种，合成升阶的'合体'瞬间有字体跃动反馈",
+   "前抗后打阵型站位决定胜负，轻策略有思考量",
+   "军衔晋升+实时排行榜给单局外养成与攀比动力"
+  ],
+  "innovations": [
+   "把汉字拟人化为可合成兵种，赋予每个字战术定位，辨识度高",
+   "关羽/刘备/张飞等三国武将以汉字形象登场，文化梗降低理解成本"
+  ],
+  "target_user": "汉字/国风爱好者、轻策略塔防玩家",
+  "monetization": "IAA为主（复活/提示看广告）+IAP（去广告/资源）",
+  "lifecycle": "短平快爆款，靠排行榜与军衔维持复访"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "汉字合成塔防机制成熟（与汉字攻防战等同脉），换一套汉字主题/题材即差异化；瓶颈在美术与题材创意，技术成本低。",
+  "suggestions": [
+   "把汉字换成'成语/诗词'兵种：相同成语合成升阶，接语文教育场景",
+   "题材换'职场部门'：相同岗位合成升阶攻破KPI大本营",
+   "保留合成升阶，把敌我血量改为'舆论值'做社会梗"
+  ],
+  "risks": [
+   "同类汉字塔防已有多款，买量竞争激烈",
+   "水墨国风美术需定制，批量产出有门槛"
+  ],
+  "effort": "25–40人日（1前端+1美术+0.5策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "这关可真行为水墨国风汉字合成塔防微信小游戏",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Cocos Creator（未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "http://www.gamelook.com.cn/2026/09/601375"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:37:30+08:00"
+ },
+ "slug": "这关可真行_bfd9a1"
+}

@@ -1,0 +1,118 @@
+{
+ "schema_version": 1,
+ "name": "跃动小子",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "波克科技集团有限公司",
+  "category_l1": "1",
+  "category_l2": "益智",
+  "boards": [
+   "douyin/畅销榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 16,
+   "douyin/畅销榜": 16
+  },
+  "platform_app_ids": {
+   "wx": "wx6cce8ac2ea74103e",
+   "douyin": "tt526924d4cd552d9602"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "Q版休闲卡通，横版闯关贴图",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 2,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "装备/魔兽/神器/魂卡/战魂/群雄CCG/自走棋塔防等多系统耦合，属性克制关卡设计",
+   "data": "多线养成 + 抽卡 + 赛季活动，长线"
+  },
+  "asset_notes": "素材为 Q 版轻量贴图与跑酷动画（第三方商店包体约 17–70MB，微信小游戏主包更小），美术层偏轻；成本主要在多养成系统的数值与关卡设计",
+  "notes": "波克科技 Cocos Creator 成熟 2D 框架下的开箱like + 横版动作，表现层轻、系统层重",
+  "cost_score": 2.62,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "单指滑动操控骑士横版跳跃闯关，躲避尖刺/激光/移动平台等机关；通关掉落宝箱，开箱随机产出分品质装备，强化/三件合成高阶套装提升战力；战力够了解锁副本、世界 BOSS 与角斗场，靠『开箱—变强—推图验证—开箱』循环驱动。",
+  "highlights": [
+   "开箱光效分级（白→红）随品质变化 + 自动/多倍开箱，把『抽品质』做成明确即时反馈",
+   "属性克制关卡：堆闪避可『必定闪避』破抗闪关，给非数值碾压的破局路径",
+   "魔兽概率合成（同阶两合升阶，成功率 90%→10% 递减）制造『跑区博红』的赌性爽点",
+   "群雄逐鹿 CCG：九宫格布阵 + 阵营克制，提供非数值的深度博弈"
+  ],
+  "innovations": [
+   "把『开箱like 养成』与『横版跑酷跳跃闯关』缝合，用动作操作替代纯挂机推图——表现层创新",
+   "核心开箱/养成循环无机制创新，属成熟品类的执行优化"
+  ],
+  "target_user": "喜好轻操作+深度养成的泛休闲用户，通勤碎片时间",
+  "monetization": "IAP 内购为主（开箱/养成/礼包），辅以广告；零氪可通过日常/活动集齐基础毕业装",
+  "lifecycle": "长线运营（赛季 + 持续新增关卡/限时活动）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "『开箱like + 横版跑酷跳跃』核心框架成熟，开箱/养成部分可照搬；横版动作是表现层差异，换题材/美术即成立，瓶颈在包装与买量。",
+  "suggestions": [
+   "换题材为 末日/美食/西游 跑酷开箱，把『骑士闯关』换成对应角色",
+   "保留『开箱光效分级 + 自动/多倍开箱』的爽感设计，这是留存关键",
+   "属性克制关卡（闪避/击晕/连击）做成可配置表，降低数值设计成本"
+  ],
+  "risks": [
+   "开箱like 品类饱和，头部（如 向僵尸开炮 系）已锁量",
+   "多系统深度（魂卡/CCG/自走棋）虽可照搬但实现成本高",
+   "买量成本高，纯换皮难突围"
+  ],
+  "effort": "35–55 人日（1 前端 + 1 美术 + 0.5 策划），含多养成系统则上探"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "引擎为 Cocos Creator——波克科技 Cocos Creator 招聘 JD 将《跃动小子》列为 cocos creator 主力营收项目",
+   "level": "confirmed"
+  },
+  {
+   "claim": "第三方商店显示包体约 17–70MB（微信小游戏主包小），非官方一手",
+   "level": "inferred"
+  },
+  {
+   "claim": "开箱like + 横版跑酷跳跃 放置 RPG，波克『放置 RPG 矩阵』成员（灵画师/跃动小子/口袋幻兽）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://forum.cocos.org/t/topic/177261",
+  "https://www.163.com/dy/article/JV1EFKHO0526DPBA.html",
+  "https://m.18183.com/zhxz/xyx/8812008"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:34:59+08:00"
+ },
+ "slug": "跃动小子_3ce254"
+}

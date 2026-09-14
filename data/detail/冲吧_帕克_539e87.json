@@ -1,0 +1,225 @@
+{
+ "schema_version": 1,
+ "name": "冲吧!帕克",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "厦门烛月网络科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 2
+  },
+  "platform_app_ids": {
+   "douyin": "tt4ae03c5dd48115e307"
+  },
+  "first_seen": "2026-09-09",
+  "appearances": 6,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / Cocos（inferred）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "像素风，暗黑like刷宝美术",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 4,
+   "server": 2,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体258MB，含上千张地图+数十战宠+技能符文，体量偏重但像素美术本身不复杂",
+   "logic": "暗黑like刷宝框架+符文技能组合+挂机经营+上千张地图，系统较多",
+   "data": "装备/符文/宠物/技能多线养成与掉落经济"
+  },
+  "asset_notes": "像素美术，AI生图+人工修图可批量产出；体量主要来自地图与战宠数量而非单张美术复杂度。",
+  "notes": "厦门烛月（吉比特系）出品，割草刷宝RPG成熟框架，差异化靠美术与刷宝节奏。",
+  "cost_score": 3.0,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "单手操控像素角色在随机地牢中自动割草刷怪、击杀累积进度召唤传送门，回营地用掉落强化装备/符文/宠物，无限刷宝。",
+  "highlights": [
+   "单手瞬时清屏的‘核爆输出’爽感，配合掉宝kuku音效反馈",
+   "符文×技能组合（火球+分裂符文=漫天火雨）带来构筑探索爽点",
+   "挂机经营（食堂/农场/博物馆）让离线也产资源，降低焦虑"
+  ],
+  "innovations": [
+   "无实质创新，属于暗黑like割草刷宝的成熟品类执行优化（强调单手+挂机减负）"
+  ],
+  "target_user": "偏好刷宝/放置的泛休闲RPG玩家，15–35岁",
+  "monetization": "IAA+IAP混合，广告复活/加倍，内购皮肤与战令",
+  "lifecycle": "长线，靠赛季/新地图与装备线维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "割草刷宝RPG机制成熟可照搬，瓶颈在美术题材与首关刷宝节奏；但上千张地图的内容量是主要隐性成本。",
+  "suggestions": [
+   "换为其他题材（修仙/西游/末日）即可差异化",
+   "首关掉宝曲线前置‘紫装惊喜’，缩短爽感延迟",
+   "用程序化地图生成替代纯手工千张地图以降本"
+  ],
+  "risks": [
+   "刷宝RPG赛道拥挤，买量成本高",
+   "千张地图内容量巨大，纯复刻美术工期长",
+   "挂机+数值若失衡易被质疑‘逼氪’"
+  ],
+  "effort": "60–100 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/c7/b0/72c7b033-0911-15aa-287b-6939a73f9710/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/c4/e5/51c4e581-d253-5e74-cdfa-ecdbed2ff778/1242-2688-01.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/16/f7/0916f7c9-7691-0079-5224-cc68a10754f5/1242-2688-02.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e4/18/19/e4181987-f6ec-becb-5d6c-97440dcf7c73/1242-2688-03.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/e1/27/56e1270f-c1f3-2d79-e2aa-54bbef71dbd7/1242-2688-04.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/61/de/f561de62-ac06-b286-4061-38846f52a846/1242-2688-05.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/c9/62/12c9621b-7529-6766-8e84-696522398414/1242-2688-06.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/43/59/43/435943dc-1031-033c-89ab-955add0c46be/01.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/37/42/3c3742a9-4329-ffea-e20a-da0de4e63aea/02.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dc/7b/94/dc7b94e1-0d13-e363-ab84-6e64d73c146c/03.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/a0/92/17a09261-80fb-64f1-eebb-5fc30f3332b6/04.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/b3/9d/57b39d2e-e31b-8e5f-4cfe-cb4a14944ce1/05.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/fb/77/4ffb776f-d929-908b-1b4e-2aec3e8ce973/06.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体258MB，像素割草刷宝RPG，厦门烛月网络科技",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为Unity/Cocos",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E5%86%B2%E5%90%A7-%E5%B8%95%E5%85%8B/id6749657124?uo=4",
+  "https://m.taptap.cn/app/722349"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "冲吧！帕克",
+  "country": "cn",
+  "track_id": 6749657124,
+  "seller": "Xiamen Zhuyue Network Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "角色扮演",
+   "冒险"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/c7/b0/72c7b033-0911-15aa-287b-6939a73f9710/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/c4/e5/51c4e581-d253-5e74-cdfa-ecdbed2ff778/1242-2688-01.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/16/f7/0916f7c9-7691-0079-5224-cc68a10754f5/1242-2688-02.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e4/18/19/e4181987-f6ec-becb-5d6c-97440dcf7c73/1242-2688-03.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/e1/27/56e1270f-c1f3-2d79-e2aa-54bbef71dbd7/1242-2688-04.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/61/de/f561de62-ac06-b286-4061-38846f52a846/1242-2688-05.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/c9/62/12c9621b-7529-6766-8e84-696522398414/1242-2688-06.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/43/59/43/435943dc-1031-033c-89ab-955add0c46be/01.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/37/42/3c3742a9-4329-ffea-e20a-da0de4e63aea/02.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dc/7b/94/dc7b94e1-0d13-e363-ab84-6e64d73c146c/03.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/a0/92/17a09261-80fb-64f1-eebb-5fc30f3332b6/04.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/b3/9d/57b39d2e-e31b-8e5f-4cfe-cb4a14944ce1/05.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/fb/77/4ffb776f-d929-908b-1b4e-2aec3e8ce973/06.jpg/626x1112bb.jpg"
+  ],
+  "description": "欢迎来到帕克镇，请务必遵守以下准则：\n1、不要轻易打开游戏，请做好沉迷两三个小时的准备；\n2、随时随地都可以爽快割草，如果实在没空，我们也有挂机系统；\n3、游戏第一要务就是爽！不要迷信其他游戏宣传的快乐途径，来这里，爽就完事了！\n\n▶我的像素萌宠，好看！能打！\n少年，你掉的是这个喵系学妹，还是这个冰山御姐呢？呃，我这里还有病娇公主、辣妹女神......几十款风格各异的像素战宠，总有一款是你喜欢的吧！更别说还各个身怀绝技，治疗、输出、护盾、增伤样样皆有，可不是其他游戏的那种花瓶哦！\n\n▶我一刀一个亿，刷到！爽到！\n是兄弟，就来...（不好意思走错台了）！割草常有，这核爆输出的体验可不常有！单手就能瞬间清屏，一边刷还一边kuku掉宝，分分钟集齐一身神装，轻松达成一个小目标！\n\n▶我的无尽冒险，开荒！寻宝！\n厌倦了重复的刷宝体验？别担心，这里有上千张地图不同的地图随你自由探索！各具特色的场景，千奇百怪的魔物，丰厚随机的宝藏，只等你来开启这场充满乐趣的冒险！\n\n▶我的流派百变，构筑！搭配！\n套装、技能、符文、宠物，构筑可以说是相当丰富了，绝对可以满足你对刷宝游戏的幻想！但我们也针对性做了些优化，掉落虽然比较随机，但没有人上人的流派，只要你发挥策略进行搭配，都可以有非常畅快的体验！\n\n▶我有挂机福利，资源！管够！\n万万没想到，我也可以躺赢当老板！经营食堂、农场偷菜、开设博物馆，现实世界我替老板搬砖，游戏世界全都给我打工！金币、体力、材料，一觉醒来全都有，变强不要太简单！\n\n▶我不做赛季制，不卷！保值！\n每个赛季都要重新玩？我不要！这里只有随时随地、不断“刷刷刷”的纯粹快乐，拒绝内卷，拒绝焦虑，摸鱼也能开心畅玩！毕竟是你玩游戏，不要让游戏掌控了你！",
+  "release_notes": "功能优化和Bug修复",
+  "file_size_bytes": 258479104,
+  "min_os": "12.0",
+  "version": "1.0.4",
+  "release_date": "2026-04-15",
+  "rating": 4.7884,
+  "rating_count": 293,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E5%86%B2%E5%90%A7-%E5%B8%95%E5%85%8B/id6749657124?uo=4",
+  "fetched_at": "2026-09-15T00:36:50+08:00"
+ },
+ "slug": "冲吧_帕克_c0c2ab"
+}

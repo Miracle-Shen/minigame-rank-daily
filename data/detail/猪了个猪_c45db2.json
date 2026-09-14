@@ -1,0 +1,273 @@
+{
+ "schema_version": 1,
+ "name": "猪了个猪",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "杭州同趣科技有限公司",
+  "category_l1": "动作",
+  "category_l2": "益智",
+  "boards": [
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/畅玩榜": 11
+  },
+  "platform_app_ids": {
+   "wx": "wx2bd39bc6b432744f"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 8,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（团结引擎）",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "2D 卡通猪猪、治愈配色",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 3,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "包体 546MB 含猪猪角色、皮肤、关卡与序列帧/音效资产",
+   "logic": "四向消除 + 死局规避 + 炸弹猪倒计时，关卡可解性需专门调"
+  },
+  "asset_notes": "2D 卡通猪猪素材，可用 AI 生图批量；无 3D",
+  "notes": "媒体匹配（国区），包体 546MB；同趣科技 CEO 在 Unity Unite 分享其基于团结引擎的小游戏优化，引擎确认",
+  "cost_score": 2.25,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "化身牧猪人，点击前方无阻挡的猪猪四向消除，引导猪猪逃离农场；避免形成死局，小心炸弹猪，清空农场通关并收集装饰。",
+  "highlights": [
+   "四向消除时成片猪猪消失的连锁爽感",
+   "「差一只就清场」的强悬念驱动看广告续命",
+   "农场收集装饰带来长线目标"
+  ],
+  "innovations": [
+   "在堆叠三消之外改用「四向消除+死局规避」，并把炸弹猪倒计时做成风险点，属成熟品类的微创新"
+  ],
+  "target_user": "全龄休闲 / 解压用户",
+  "monetization": "IAA 为主（提示/跳关/奖励看广告）+ 皮肤内购（inferred，同趣为 IAA 模式）",
+  "lifecycle": "长线运营（皮肤周更/收集）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "机制已被验证且用户过亿，2D 素材轻；瓶颈在题材与首关留存，换皮最优。",
+  "suggestions": [
+   "换为「猫了个猫 / 鹅了个鹅」",
+   "首关降层数、后移失败点",
+   "加 AI 生图批量出皮肤"
+  ],
+  "risks": [
+   "同趣已占榜、买量贵",
+   "四向消除已有换皮"
+  ],
+  "effort": "25–40 人日（1 前端 + 1 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/2f/db/6a2fdb44-05ad-6a20-878d-3601dfab5a99/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/94/66/8b9466dd-891d-e00f-2333-21292cb7c4d5/1290x2796_6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/41/9d/38/419d3842-ff77-9144-46cb-5c590e27b46f/1290x2796_7.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/8e/f0/ed8ef0a1-32ae-a62a-4f69-f03352a86fa5/1290x2796_10.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/13/4d/08134daa-2f69-face-ccc2-8c3f60852a51/1290x2796_1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/ff/78/9bff7817-4cde-f5ae-b5be-06697ab8aa98/1290x2796_9.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/c2/40/0ac240ef-a64c-86e7-49c3-a41b6ba23cd7/1290X2796_1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/e8/ad/5be8ad57-4320-9c18-16ea-e79ce958da18/1290X2796_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/71/38/73/71387348-6b40-ad68-14ab-871c8fc1a6f6/1290X2796_5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d5/2e/c2/d52ec286-483a-5f47-6985-a79ffab54739/1290X2796_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/a4/e1/2da4e119-0e01-bddf-590e-0fab64fd27c9/1290X2796_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/53/aa/1c53aa0c-5f99-0ea5-6db5-bf74c9140684/2048x2732_6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/84/ea/8284ea2d-76f0-2f89-31f8-59e143294d13/2048x2732_7.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/ef/cc/a2efccdb-3b2a-8469-9f5d-7c1ba511dc8e/2048x2732_10.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/8d/ee/c18deea7-96ce-bf71-6ced-cd027bc32a8d/2048x2732_9.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/18/eb/c918eb64-8eef-152f-b7c8-d872030e1261/2048X2732_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/3c/03/a23c031c-5cea-96fe-afe0-43c96d50f9fb/2048X2732_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 16"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/d4/ce/4ed4cec5-4785-2fcf-ae95-0c743a47ee70/2048X2732_5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 17"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/a4/d8/c2a4d815-7458-3504-14f6-17cc1e8da6ef/2048X2732_1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 18"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/90/cc/3f90cc4b-4816-6f4f-0c36-1f462a11d81c/2048X2732_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 19"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 546MB（官方商店数据）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity/团结引擎（同趣 CEO Unity Unite 分享确认）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E7%8C%AA%E4%BA%86%E4%B8%AA%E7%8C%AA/id6749613498?uo=4",
+  "https://unity.cn/projects/691a880aedbc2a8f6abd160f"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "猪了个猪",
+  "country": "cn",
+  "track_id": 6749613498,
+  "seller": "Hangzhou Feiyang Technology Co., Ltd",
+  "genres": [
+   "游戏",
+   "娱乐",
+   "休闲",
+   "益智解谜"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/2f/db/6a2fdb44-05ad-6a20-878d-3601dfab5a99/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/94/66/8b9466dd-891d-e00f-2333-21292cb7c4d5/1290x2796_6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/41/9d/38/419d3842-ff77-9144-46cb-5c590e27b46f/1290x2796_7.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/8e/f0/ed8ef0a1-32ae-a62a-4f69-f03352a86fa5/1290x2796_10.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/13/4d/08134daa-2f69-face-ccc2-8c3f60852a51/1290x2796_1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/ff/78/9bff7817-4cde-f5ae-b5be-06697ab8aa98/1290x2796_9.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/c2/40/0ac240ef-a64c-86e7-49c3-a41b6ba23cd7/1290X2796_1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/e8/ad/5be8ad57-4320-9c18-16ea-e79ce958da18/1290X2796_2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/71/38/73/71387348-6b40-ad68-14ab-871c8fc1a6f6/1290X2796_5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d5/2e/c2/d52ec286-483a-5f47-6985-a79ffab54739/1290X2796_4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/a4/e1/2da4e119-0e01-bddf-590e-0fab64fd27c9/1290X2796_3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/53/aa/1c53aa0c-5f99-0ea5-6db5-bf74c9140684/2048x2732_6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/84/ea/8284ea2d-76f0-2f89-31f8-59e143294d13/2048x2732_7.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/ef/cc/a2efccdb-3b2a-8469-9f5d-7c1ba511dc8e/2048x2732_10.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/8d/ee/c18deea7-96ce-bf71-6ced-cd027bc32a8d/2048x2732_9.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/18/eb/c918eb64-8eef-152f-b7c8-d872030e1261/2048X2732_2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/3c/03/a23c031c-5cea-96fe-afe0-43c96d50f9fb/2048X2732_4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/d4/ce/4ed4cec5-4785-2fcf-ae95-0c743a47ee70/2048X2732_5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/a4/d8/c2a4d815-7458-3504-14f6-17cc1e8da6ef/2048X2732_1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/90/cc/3f90cc4b-4816-6f4f-0c36-1f462a11d81c/2048X2732_3.jpg/626x1112bb.jpg"
+  ],
+  "description": "农场中的猪猪们被困在一起了！你需要化身牧猪人，四向消除，引导猪猪逃离农场，找到回家的路。面对错综复杂排列的小猪，你需要开动脑筋，合理规划每一步的操作，避免形成死局。点击那些前方没有阻挡的猪猪，使它们有序离开农场。每种动物都有其特性，要小心移动，避免发生碰撞。尤其要小心炸弹猪，多次移动或者倒计时结束都会引发农场爆炸。清空农场即可成功通关，通关后还有丰富的奖励可领取。收集猪猪来装饰你的农场吧！\n\n区别于既有的融合三消类游戏，猪了个猪关卡设计巧妙，益智但不费脑，破解谜题的同时也能放松身心。游戏规则简单，操作易上手，越简单越容易上瘾，轻松填满你的碎片化时间。游戏还有更多有趣的模式等待你来探索，不同的玩法带来极致的体验。\n\n快来开启你的解压之旅，享受成功通关带来的成就感吧！叫上朋友一起比试比试，看谁是最强猪猪指挥官！",
+  "release_notes": "1.关卡更新\n2.新增建造\n3.新增皮肤\n4.集市内容更新",
+  "file_size_bytes": 546243584,
+  "min_os": "13.0",
+  "version": "1.9",
+  "release_date": "2025-08-11",
+  "rating": 4.60172,
+  "rating_count": 4763,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/%E7%8C%AA%E4%BA%86%E4%B8%AA%E7%8C%AA/id6749613498?uo=4",
+  "fetched_at": "2026-09-15T00:38:37+08:00"
+ },
+ "slug": "猪了个猪_c45db2"
+}

@@ -1,0 +1,225 @@
+{
+ "schema_version": 1,
+ "name": "Amaze GO!",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Oakever Games",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 15
+  },
+  "platform_app_ids": {
+   "ios": "6758326278"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 5,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "极简几何，箭头/网格，低饱和",
+  "dims": {
+   "engine": 2,
+   "art": 1,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 1,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "纯几何箭头与网格，可程序化生成，素材几乎零成本",
+   "logic": "箭头滑出顺序求解+关卡可解性校验+海量关卡生成是主要工作量（包体395MB主要来自关卡/动画资源）"
+  },
+  "asset_notes": "极简几何美术，零素材成本；包体395MB疑因大量关卡预置与动画资源，非美术重",
+  "notes": "极简箭头解谜，Oakever爆款，机制轻、美术零成本",
+  "cost_score": 1.75,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "在网格里找一条通向边缘的空闲路径的箭头，点选滑出清出车道，规划顺序把全部箭头送出棋盘；点错扣一颗心，长按高亮引导，清盘过关。",
+  "highlights": [
+   "箭头'嗖'地飞出网格的ASMR式释放反馈，解压感强",
+   "错点扣心+提示引导，难度靠关卡布局而非操作",
+   "无计时无干扰，纯顺序规划，适配通勤放空"
+  ],
+  "innovations": [
+   "无实质创新，属于滑出/解锁类解谜（Unblock变体）的极简执行优化"
+  ],
+  "target_user": "解压/益智用户，通勤碎片时间",
+  "monetization": "IAA为主（提示/复活看广告），无IAP",
+  "lifecycle": "长线，靠关卡量维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "箭头滑出解谜机制成熟(Unblock变体)、美术零成本、技术极轻，照搬即成立；瓶颈在关卡可解性设计与题材，换视觉即可差异化。",
+  "suggestions": [
+   "把箭头换'车辆/小动物'滑出停车场，接挪车题材",
+   "视觉换'水墨笔触'滑出，差异化国风",
+   "加'最少步数'星级挑战扩展硬核用户"
+  ],
+  "risks": [
+   "箭头/挪车解谜赛道已多款竞品(一箭又一箭/小小箭头等)",
+   "关卡可解性生成需算法保障不出现死局"
+  ],
+  "effort": "15–25人日（1前端，美术可程序化）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/44/99/cd44999c-426a-8f72-c34d-5bba07cc3be5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/ac/e7/ceace7c6-81cb-cea6-fb49-ee8160754ae8/P1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/23/5e/99235ea1-00f7-6846-f768-75010b5dbc13/20260507-150724.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/23/e5/2823e548-e948-fb51-91ef-ea962479d824/Game_U98751242_2688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/64/b8/8d/64b88d02-8280-2734-40c9-3c5603148ce2/Group_36__U00281_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/5b/f8/a25bf852-3c0e-51de-9353-b2552ccdca89/Group_37.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d5/55/ca/d555ca2a-d5c5-8596-c496-64221b812e03/Home_U98751242_2688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/91/4e/a6914e91-2bf1-165a-865f-dfe7f6672635/Group_6.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/af/7d/c7af7dd9-dca4-82e5-8cf9-86a0c1bdd7aa/Group_7.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/b3/e0/e7b3e033-39f5-8b76-c8ad-b937fc8c55e5/Home_U98752048_2732.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/af/42/79af4241-052a-07f3-3a24-97a2133efe1e/Group_99.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/7d/9e/137d9e52-5a6c-24c1-ae4e-fb0e206a0c62/Group_10.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9e/b0/04/9eb004bb-431f-976b-3e6e-60810142b97c/Game_U98752048_2732.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "Amaze GO!为极简箭头滑出解谜，Oakever Games，包体395MB",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（Oakever常见，未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/amaze-go/id6758326278?uo=4",
+  "https://arrows-go.en.uptodown.com/android",
+  "https://foxdata.com/en/app-marketing-analytics/6758326278/as/US/arrows-go-arrow-puzzles"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Amaze GO!",
+  "country": "us",
+  "track_id": 6758326278,
+  "seller": "OAKEVER GAMES PTE. LTD.",
+  "genres": [
+   "Games",
+   "Entertainment",
+   "Casual",
+   "Puzzle"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/44/99/cd44999c-426a-8f72-c34d-5bba07cc3be5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/ac/e7/ceace7c6-81cb-cea6-fb49-ee8160754ae8/P1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/23/5e/99235ea1-00f7-6846-f768-75010b5dbc13/20260507-150724.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/23/e5/2823e548-e948-fb51-91ef-ea962479d824/Game_U98751242_2688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/64/b8/8d/64b88d02-8280-2734-40c9-3c5603148ce2/Group_36__U00281_U0029.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/5b/f8/a25bf852-3c0e-51de-9353-b2552ccdca89/Group_37.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d5/55/ca/d555ca2a-d5c5-8596-c496-64221b812e03/Home_U98751242_2688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/91/4e/a6914e91-2bf1-165a-865f-dfe7f6672635/Group_6.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/af/7d/c7af7dd9-dca4-82e5-8cf9-86a0c1bdd7aa/Group_7.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/b3/e0/e7b3e033-39f5-8b76-c8ad-b937fc8c55e5/Home_U98752048_2732.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/af/42/79af4241-052a-07f3-3a24-97a2133efe1e/Group_99.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/7d/9e/137d9e52-5a6c-24c1-ae4e-fb0e206a0c62/Group_10.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9e/b0/04/9eb004bb-431f-976b-3e6e-60810142b97c/Game_U98752048_2732.png/626x1112bb.jpg"
+  ],
+  "description": "Welcome to Amaze GO! A clean arrow puzzle game built to calm a busy mind. Every arrow points the way — what you need to do is to choose the right order. The design cuts visual noise, reduces chaos, and helps you organize thoughts as you play. Pick up an arrow. Find its lane. Repeat until the grid is yours. Enjoy the quiet flow offline anywhere and anytime. \n\nWhat makes Amaze GO! great\n1. Simple arrow mechanics, zero visual noise\n2. Works offline with a clean interface that keeps attention on the board\n3. Calm play loop for smart brains: think clearly, move each arrow with strategy\n4. Smooth tap controls, clear path feedback, and satisfying release moments like ASMR\n  \nHow to Play\n- Find an arrow with a free path to the edge\n- Tap to slide that arrow off the grid and open a lane for the next move\n- Plan the order to secure a safe route and a clean board\n- Long-Press to use Guidance to highlight directions when your path is unclear\n- A wrong tap costs a heart for the level\n- Clear the board to finish the level and aim for a perfect run\n- Hints help focus when the grid feels tight\n  \nWhy love this arrow puzzle\n· Simple rules, profound strategy, and a meditative arrow puzzle\n· Short breaks ease stress and sharpen focus\n· The last arrow leaves the board with a satisfying mental reset\n· Cognitive workout for sequencing and brain teasers\n· Quiet visuals, plus a satisfying whoosh as each arrow flies off the grid — feedback that soothes instead of nags\n\nMade for the in-between moments\n- The ten minutes before a meeting starts \n- The metro ride too short for a podcast \n- The flight where your signal drops\n- The wind-down after a noisy workday \n  \nAmaze GO! - Puzzle Games is a calm arrow puzzle made for sharp minds and calm moments. Learn fast, then master timing and order. Send every arrow off the board, untangle the grid, and feel disorder turn into clarity. Amaze GO! is the puzzle you reach for when the rest of the day was too loud — one good move, then another, then a quiet board. Download now, plan smart paths, keep hearts safe, and enjoy pure focus anytime, anywhere!\n\nPrivacy Policy: https://oakevergames.com/pp.html\nTerms of Service: https://oakevergames.com/tos.html\nEULA: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "release_notes": "Optimized user experience and performance!",
+  "file_size_bytes": 395043840,
+  "min_os": "15.0",
+  "version": "1.30.0",
+  "release_date": "2026-02-13",
+  "rating": 4.65062,
+  "rating_count": 196886,
+  "price": "Free",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/us/app/amaze-go/id6758326278?uo=4",
+  "fetched_at": "2026-09-15T00:37:55+08:00"
+ },
+ "slug": "Amaze_GO_fa4c36"
+}

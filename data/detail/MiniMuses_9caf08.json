@@ -1,0 +1,173 @@
+{
+ "schema_version": 1,
+ "name": "MiniMuses",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Studio Sirenia",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 4
+  },
+  "platform_app_ids": {
+   "ios": "6798905825"
+  },
+  "first_seen": "2026-09-09",
+  "appearances": 6,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "二次元卡通，分层部件（发型/五官/服装/翅膀/兽耳）+用户自绘",
+  "dims": {
+   "engine": 2,
+   "art": 5,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "1500+可独立调色/纹理/图层的部件+用户自绘导入+场景道具，素材量级极重（包体420MB）",
+   "server": "无账号，角色存本地设备，纯单机"
+  },
+  "asset_notes": "素材为分层2D部件，需成体系美术生产管线；420MB包体说明资产重，复刻最大瓶颈在美术产能",
+  "notes": "Gacha式同人OC创作工具，机制通用，美术是壁垒",
+  "cost_score": 2.25,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "从零或模板捏出二次元角色，逐项调头身/五官/服装并独立调色加纹理，进工作室模式搭场景、摆姿势、加对话框编排小剧场，一键导出高清图。",
+  "highlights": [
+   "每个部件可独立调色+纹理+图层顺序，换装自由度极高",
+   "用户自绘图片可当配饰/背景，突破内置素材限制",
+   "工作室分镜编排+多角色同屏，直接产出同人漫画/短视频素材"
+  ],
+  "innovations": [
+   "无实质创新，属于 Gacha 式 OC 创作工具的成熟执行（相对原版加查增加自绘导入）"
+  ],
+  "target_user": "二次元/同人创作爱好者，OC人设党",
+  "monetization": "IAP内购（高级素材/去广告），免费下载",
+  "lifecycle": "长线工具型，靠素材更新与社区维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "OC捏人+工作室分镜的创作框架已成熟（Gacha类），机制照搬即成立，瓶颈完全在美术素材产能与风格；换一套美术/IP即可差异化。",
+  "suggestions": [
+   "用国漫IP授权做正版捏人工具，规避自绘版权灰区",
+   "把分层部件改成'非遗手作'主题（泥人/皮影），差异化美术",
+   "工作室模式接短视频模板，降低同人产出门槛"
+  ],
+  "risks": [
+   "420MB素材量级，美术产能是核心成本",
+   "加查类同人存在原IP版权灰区",
+   "纯单机无留存钩子，需加社区/云存档"
+  ],
+  "effort": "60–100人日（1前端+2美术+0.5策划），美术占大头"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/00/93/0c009394-ae9e-91c1-c4d7-86471def78a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/ce/a3/f1cea3c1-89e7-26ea-940b-6410ffef46f7/01art.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/d0/c3/b0d0c36b-f70d-afa7-7f05-273e43da112a/02_customise_2778x1284.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/f9/07/99f907e2-23c1-2220-aaa9-6d38ec03a2f1/01_studio_2778x1284.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/f7/7f/5af77fdc-89a8-03c3-684f-7b5e651d40bd/customise_ipad_2752x2064.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/10/37/d310374c-5bb0-bebd-450e-fe11271e87f2/studio_ipad_2752x2064.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "MiniMuses为Gacha式同人换装OC创作工具，1500+部件，包体420MB",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（Gacha类常见，未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.32r.com/app/146481.html",
+  "https://apps.apple.com/cn/app/minimuses/id6798905825?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "MiniMuses",
+  "country": "cn",
+  "track_id": 6798905825,
+  "seller": "STUDIO SIRENIA LTD",
+  "genres": [
+   "游戏"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/00/93/0c009394-ae9e-91c1-c4d7-86471def78a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/ce/a3/f1cea3c1-89e7-26ea-940b-6410ffef46f7/01art.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/d0/c3/b0d0c36b-f70d-afa7-7f05-273e43da112a/02_customise_2778x1284.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/f9/07/99f907e2-23c1-2220-aaa9-6d38ec03a2f1/01_studio_2778x1284.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/f7/7f/5af77fdc-89a8-03c3-684f-7b5e651d40bd/customise_ipad_2752x2064.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/10/37/d310374c-5bb0-bebd-450e-fe11271e87f2/studio_ipad_2752x2064.png/626x1112bb.jpg"
+  ],
+  "description": "Your Muse, Your Story.\n\nMiniMuse is a character creator where every detail is yours to design. Build your characters, style them from a wardrobe of over 1,500 assets, and bring them to life in Studio Mode.\n\nCREATE YOUR MUSE\n- Customise everything tied to your muse: hair, eyes, limbs, accessories and more\n- Colour every layer with custom palettes, patterns, and saved colours\n- Add as many assets as you'd like, and reorder layers to create looks unique to your tastes\n- Import your own assets to use in your designs\n\nDIRECT YOUR STORY\n- Set the scene with backgrounds and props, add chat bubbles and text\n- Save your scenes and build your stories\n\nNo account needed. Your characters are saved on your device.",
+  "release_notes": "Bug fixes, and unlocked export character sheets feature.",
+  "file_size_bytes": 419776512,
+  "min_os": "15.0",
+  "version": "1.0.1",
+  "release_date": "2026-09-07",
+  "rating": 4.61538,
+  "rating_count": 26,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/minimuses/id6798905825?uo=4",
+  "fetched_at": "2026-09-15T00:37:37+08:00"
+ },
+ "slug": "MiniMuses_9caf08"
+}

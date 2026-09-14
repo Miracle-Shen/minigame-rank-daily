@@ -1,0 +1,228 @@
+{
+ "schema_version": 1,
+ "name": "EA College Football Mobile 27",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Electronic Arts",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 17
+  },
+  "platform_app_ids": {
+   "ios": "6759412341"
+  },
+  "first_seen": "2026-08-22",
+  "appearances": 24,
+  "best_rank": 12,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Frostbite",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "3D 写实体育，NCAA 球队/球员",
+  "dims": {
+   "engine": 5,
+   "art": 5,
+   "anim": 5,
+   "physics": 4,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 4
+  },
+  "dim_notes": {
+   "engine": "Frostbite 为 EA 专有引擎，外界不可得，复刻需自研等价物",
+   "art": "包体约 1.17GB（很重），写实球员模型/球场/球衣资产海量",
+   "anim": "动作捕捉球员动画 + 比赛特写，动画量级极高",
+   "physics": "球员碰撞/擒抱/传球轨迹需物理与手感精调",
+   "logic": "Ultimate Team 抽卡经济 + Dynasty 多赛季养成 + 实时比赛模拟，系统极复杂",
+   "data": "真实球员数据库 + 养成 + 赛季进程，数值与经济循环重",
+   "server": "实时联机对战 + 全球赛季同步，强联网"
+  },
+  "asset_notes": "写实 3D 体育资产 + Frostbite 引擎，包体 1.17GB，复刻所需资源与引擎均不可得。",
+  "notes": "EA 首款上 Frostbite 的手游，引擎与 IP 双重壁垒，技术上不可复刻。",
+  "cost_score": 4.75,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "组建大学橄榄球 Ultimate Team→招募新秀/养成阵容→打赛季与实时比赛→赢取奖励强化阵容，单局比赛数分钟。",
+  "highlights": [
+   "真实 NCAA 球队/德比氛围的代入感",
+   "Ultimate Team 抽卡养成的收集驱动",
+   "实时比赛操作 + 战术布置的双重参与"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（Madden/UT 体系移植到大学橄榄球）"
+  ],
+  "target_user": "北美男性体育手游用户",
+  "monetization": "IAP 内购（虚拟货币抽卡/物品）为主",
+  "lifecycle": "长线运营，跟 NCAA 赛季更新"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "NCAA 体育 IP 独占 + EA Frostbite 引擎不可得 + 1.17GB 重包体，技术与版权双重不可行。",
+  "suggestions": [
+   "仅作技术参考，勿尝试复刻"
+  ],
+  "risks": [
+   "NCAA/球队/球员肖像授权",
+   "Frostbite 引擎不可得",
+   "重资本体育手游"
+  ],
+  "effort": "不适用 / 极高"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/2e/a5/632ea5a5-33e3-d96b-49da-9b733c81a90b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/50/17/2b501730-2d6b-4830-3ea2-fffa9baacf4b/CFBM27_SS1_Gameplay_2688x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/47/bb/8b47bbca-3462-3aad-d8d7-e60248b534db/CFBM27_SS2_Mascot_2688x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/a5/a7/37a5a778-ca7a-8109-7dc0-662e696e7b8e/CFBM27_SS3_SelectTeam_2688x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/55/ad/4b55ad84-9d97-2eac-d7bf-f13c6c96e91b/CFBM27_SS4_MyTeam_2688x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/d5/26/77d526ea-522d-57ea-35da-bb6e2d53a2d0/CFBM27_SS5_MainMenu_2688x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/7f/36/887f367b-5cd0-cba4-3ef4-1882fba30210/CFBM27_SS6_Portal_2868x1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/33/8f/9e338f08-b50b-7169-febd-163972ce9c8f/CFBM27_SS1_Gameplay_2732x2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/47/78/3747785e-872f-8712-8fbc-c9dfe1480d83/CFBM27_SS2_Mascot_2732x2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/d1/8e/0bd18eb8-fbeb-9f99-1b72-cb23107d9492/CFBM27_SS3_SelectTeam_2732x2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/6c/56/316c56b4-69ea-38bc-44a1-49b3cd4546e3/CFBM27_SS4_MyTeam_2732x2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/37/dc/5b37dc3b-4de1-dfc1-4c35-c7281a5a2f91/CFBM27_SS5_MainMenu_2732x2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/4d/bf/f94dbfce-348c-dab9-2436-5810df70cf7a/CFBM27_SS6_Portal_2732x2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体约 1.17GB（1254866944 字节），属「很重」量级",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Frostbite（EA 首款上 Frostbite 的手游，公开资料确认）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/ea-college-football-mobile-27/id6759412341?uo=4",
+  "https://macsources.com/the-technology-behind-clash-of-clans/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "EA College Football Mobile 27",
+  "country": "us",
+  "track_id": 6759412341,
+  "seller": "EA Swiss Sarl",
+  "genres": [
+   "Games",
+   "Simulation",
+   "Sports",
+   "Sports"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/2e/a5/632ea5a5-33e3-d96b-49da-9b733c81a90b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/50/17/2b501730-2d6b-4830-3ea2-fffa9baacf4b/CFBM27_SS1_Gameplay_2688x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/47/bb/8b47bbca-3462-3aad-d8d7-e60248b534db/CFBM27_SS2_Mascot_2688x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/a5/a7/37a5a778-ca7a-8109-7dc0-662e696e7b8e/CFBM27_SS3_SelectTeam_2688x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/55/ad/4b55ad84-9d97-2eac-d7bf-f13c6c96e91b/CFBM27_SS4_MyTeam_2688x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/d5/26/77d526ea-522d-57ea-35da-bb6e2d53a2d0/CFBM27_SS5_MainMenu_2688x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/7f/36/887f367b-5cd0-cba4-3ef4-1882fba30210/CFBM27_SS6_Portal_2868x1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/33/8f/9e338f08-b50b-7169-febd-163972ce9c8f/CFBM27_SS1_Gameplay_2732x2048.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/47/78/3747785e-872f-8712-8fbc-c9dfe1480d83/CFBM27_SS2_Mascot_2732x2048.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/d1/8e/0bd18eb8-fbeb-9f99-1b72-cb23107d9492/CFBM27_SS3_SelectTeam_2732x2048.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/6c/56/316c56b4-69ea-38bc-44a1-49b3cd4546e3/CFBM27_SS4_MyTeam_2732x2048.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/37/dc/5b37dc3b-4de1-dfc1-4c35-c7281a5a2f91/CFBM27_SS5_MainMenu_2732x2048.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/4d/bf/f94dbfce-348c-dab9-2436-5810df70cf7a/CFBM27_SS6_Portal_2732x2048.jpg/626x1112bb.jpg"
+  ],
+  "description": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items. .\n\nCreate and play your college football Ultimate Team™ in EA SPORTS™ College Football Mobile 27.\n\nBuild your dream program as you recruit future stars, develop your roster, and lead your school through unforgettable college football seasons. Experience authentic college football traditions, fierce rivalries, real-world gameplay moments, and strategic team-building designed specifically for mobile.\n\nWhether you're building a National Championship contender, managing your recruiting class, or taking on your fiercest rival, every decision shapes the future of your program.\n\nDownload EA SPORTS™ College Football Mobile 27 and start building your team today.\n\nNOTICE: College Football 27 Mobile is best enjoyed on iPhone 13 Pro, iPhone 13 Pro Max, and all iPhone 14, 15, 16, and 17 models, iPad Pro (M1 or newer), iPad Air (5th generation or newer), and iPad mini (A17 Pro)\n\nEA SPORTS™ COLLEGE FOOTBALL MOBILE 27 FEATURES\n\nAUTHENTIC COLLEGE FOOTBALL EXPERIENCE\n\n* Experience the traditions, rivalries, and excitement of college football\n* Compete in authentic gameplay inspired by real-world college football programs and teams\n* Manage your favorite programs\n* Play through seasonal events inspired by the biggest moments in college football\n* Feel the passion of game day from your mobile device\n\nREAL-WORLD GAMEPLAY\n\n* Experience live events connected to the college football season\n* Re-live major matchups and memorable moments\n* Take on new challenges throughout the season\n* Earn rewards and strengthen your program\n\nBUILD YOUR PROGRAM with DYNASTY RUSH MODE (Coming Soon)\n\n* Manage real-world college football programs over multiple seasons\n* Recruit top prospects and build your program from the ground up\n* Manage recruiting classes and navigate the transfer portal\n* Build your team of college stars through long-term progression systems\n* Experience dynamic storylines and season-defining decisions\n* Create a legacy across multiple college football seasons\n\nBUILD YOUR ULTIMATE TEAM™ \n\n* Collect and upgrade players\n* Build a team tailored to your playstyle\n* Improve team chemistry and performance\n* Complete challenges and earn rewards throughout the season\n* Create your dream college football lineup\n* Use strategy throughout each season to build a team that’s leagues better than the rest\n* Enjoy a fresh and fun twist on college football competition with your favorite mascots\n* Celebrate school traditions in exciting new ways\n\nFOOTBALL MANAGER GAMEPLAY\n\n* Manage your roster and guide your team to victory\n* Make strategic decisions on and off the field\n* Develop players and strengthen your program\n* Showcase your coaching skills and football knowledge \n* Manage a championship-winning culture with your team\n\nNEXT-LEVEL COLLEGE FOOTBALL VISUALS\n\n* Experience immersive stadium environments\n* Enjoy enhanced graphics and authentic game-day presentation\n* Feel the atmosphere of college football rivalries and traditions\n* Watch your program come to life with dynamic visuals and gameplay\n\nRequires acceptance of EA’s Privacy & Cookie Policy and User Agreement. Requires an Internet connection (network fees may apply). Contains direct links to the Internet. EA may retire online features after 30 days’ notice posted on ea.com/service-updates.\n\nUser Agreement: terms.ea.com \nPrivacy and Cookie Policy: privacy.ea.com \n\nNotice at Collection\nhttps://www.ea.com/legal/privacy-and-cookie-policy#information-for-california-residents\n\nYour Privacy Choices\nhttps://www.ea.com/legal/privacy-portal?modal-id=targetedAdvertisingProvidedByThirdParties",
+  "release_notes": "Game-day performance just got a massive upgrade right in time for kickoff week!\n\nWe’ve expanded device compatibility, bringing College Football Mobile to even more hardware, including iPhone 13 Pro and iPhone 14 models.  \n\nWe’ve also cut our overall app size down to less than 9GB. That means faster downloads, seamless updates, and more free space on your device. This update also delivers stability enhancements to keep your game running smooth.  \n\nLoad up and dominate the gridiron!",
+  "file_size_bytes": 1254866944,
+  "min_os": "26.0",
+  "version": "1.3.0",
+  "release_date": "2026-07-09",
+  "rating": 4.43858,
+  "rating_count": 14508,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/ea-college-football-mobile-27/id6759412341?uo=4",
+  "fetched_at": "2026-09-15T00:39:49+08:00"
+ },
+ "slug": "EA_College_Football_Mobile_27_0712f1"
+}

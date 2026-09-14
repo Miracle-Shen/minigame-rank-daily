@@ -1,0 +1,242 @@
+{
+ "schema_version": 1,
+ "name": "抓大鹅",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "青岛蓝飞互娱科技股份有限公司",
+  "category_l1": "1",
+  "category_l2": "益智",
+  "boards": [
+   "douyin/热门榜",
+   "wx/人气榜",
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 9,
+   "wx/畅玩榜": 4,
+   "douyin/热门榜": 4
+  },
+  "platform_app_ids": {
+   "wx": "wxb98ac240fd74b0e3",
+   "douyin": "tta682d03f39b2471b07"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / 团结引擎（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "3D写实风格，食材/厨房/生活场景物品建模，大鹅角色表情动画",
+  "dims": {
+   "engine": 3,
+   "art": 5,
+   "anim": 4,
+   "physics": 4,
+   "logic": 4,
+   "data": 3,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "3D写实风格，包体2.55GB，海量3D物品模型与多主题场景资产",
+   "anim": "3D骨骼动画+颠锅水花/碰撞散落粒子+大鹅表情动画，表现密度高",
+   "physics": "陀螺仪颠锅摇晃、3D堆叠碰撞与物体滚落，物理手感是核心爽点之一",
+   "logic": "3D堆叠可解性判定+海量主题关卡+透视镜/磁铁道具组合+图鉴/排行"
+  },
+  "asset_notes": "3D写实资产是最大成本（包体2.55GB），非程序化；建议AI+程序化生成物品模型以降本，但骨骼/表情动画仍需人工",
+  "notes": "玩法框架（3D堆叠三消+颠锅）可复用，真正壁垒在3D美术量与物理手感调校",
+  "cost_score": 3.62,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "在3D杂乱『锅』中从大到小点击三个相同物品消除，清空全部物品即通关；表面无可消时摇晃手机『颠锅』翻出底层物品，限时内用有限道具完成关卡，通关收集限定大鹅。",
+  "highlights": [
+   "陀螺仪『颠锅』摇晃翻出底层物品的物理交互，比平面三消多一层空间判断爽感",
+   "消除时气泡水开罐『呲』声、玉米粒碰撞散落、水花溅起等3D写实音效与粒子反馈",
+   "大鹅搞怪表情（瞪眼/发抖/流口水）与图鉴收集，通关后『抓到X鹅』的成就炫耀",
+   "第二关极高难度+每日3次挑战上限，制造『差一点就成功』的强成瘾与广告观看"
+  ],
+  "innovations": [
+   "把三消从2D平面搬到3D堆叠场景，加入体感颠锅与空间遮挡，形成品类差异化",
+   "本土化食材/厨房题材（火锅料、调料）替代海外同类（Match 3D的杂物），强文化共鸣"
+  ],
+  "target_user": "全年龄休闲用户，通勤/摸鱼碎片场景，爱解压与社交炫耀",
+  "monetization": "IAA为主（复活/道具/挑战看广告），已获版号但克制内购，品牌联动（元气森林/歌手）补充收入",
+  "lifecycle": "长线运营，每月限定主题（新年聚宝盆/抓娃娃机）+ 品牌联动 + 图鉴持续供给"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "3D堆叠消除+颠锅体感的核心机制可照搬，换题材即差异化；但3D写实资产（包体2.55GB）与物理手感是真正壁垒，复刻成本集中在美术与物理调校而非玩法。",
+  "suggestions": [
+   "换题材为『整理超市/收纳衣柜』，3D堆叠+摇晃找物机制原样保留",
+   "用AI+程序化生成3D物品模型，把写实资产成本压到可控区间",
+   "保留『每日N次挑战+地区排行』的稀缺与社交钩子，迁移到新题材"
+  ],
+  "risks": [
+   "3D写实美术资产量极大（2.55GB包体），外包或自研成本都高",
+   "抓大鹅已占国内3D消除头部，同类买量内卷严重",
+   "陀螺仪颠锅依赖移动端硬件，PC/部分机型适配需额外处理"
+  ],
+  "effort": "60–100 人日（2 前端 + 2 3D美术 + 0.5 服务端）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/ba/38/92ba3810-7b0b-1ab7-2db5-c868cd74696c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/f0/e6/d9f0e6cd-ec9b-3fa5-f70b-5aeb765af953/4f0f69df-10d4-43b5-838e-3493805475a8__U753b_U677f_1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b6/28/bf/b628bfa7-f4d1-1daf-39f9-6765c4e8cd93/293d388f-fbe5-4edd-9e55-0c5448a100e5_20240819-103412.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/4c/b9/eb4cb9f4-e6ab-b6cd-9cd8-8f0439281e3c/0a682fe9-71cd-4513-a765-033209266694__U753b_U677f_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/4e/2d/bc4e2d13-8898-f667-c335-475a11868105/345b6e70-8871-4eaf-9657-556711a712fb__U753b_U677f_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/80/7b/b6/807bb638-e751-838a-96e8-e443cada38df/382701aa-3a62-4a7e-90fd-ae0707b4858f__U753b_U677f_5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/23/02/65230245-9b29-1e39-ea9d-7f43ce8f1c3e/4f86db1f-fb3a-496d-8e54-a06f925d4e21__U753b_U677f_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/8f/f2/dd8ff274-7597-72cc-6426-15a1d3786924/50fe7f15-bbe9-4d23-aabd-139e808d1f30__U753b_U677f_1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/6a/f0/b56af047-37f5-653d-c71e-02db93dc81db/ed0f212c-7b25-4ec2-8f74-ed007e3b80c2__U753b_U677f_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/6e/4c/796e4cbf-bd88-3e32-e1e5-a8202eebfba2/9d2c2203-7968-48c7-b908-253c0ba82353__U753b_U677f_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/2b/81/2d2b8122-d032-0622-d2d1-054a03be923b/8cda62bb-bada-4234-a82c-6117104954d6__U753b_U677f_6_x__U62f7_U8d1d.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/93/31/c9/9331c9df-0b2d-86b2-2f46-8d112c270d3c/58fbd632-77c0-4691-93d3-308527a27478__U753b_U677f_5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/9f/36/ff9f3698-fc7e-d75e-3a1f-e4da29def802/bbb7753d-5cf1-47f9-a4c2-d67dc1b3072c__U753b_U677f_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "3D写实堆叠消除，包体2.55GB（App Store），海量3D资产",
+   "level": "confirmed"
+  },
+  {
+   "claim": "青岛蓝飞互娱开发，峰值DAU破千万",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Unity / 团结引擎（Unity中国CEO在小游戏数据中以此为例，未见官方直接确认）",
+   "level": "inferred"
+  },
+  {
+   "claim": "蓝飞互娱是否拥有同玩法产品矩阵待核验",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%8A%93%E5%A4%A7%E9%B9%85/id6475341440?uo=4",
+  "http://www.gamelook.com.cn/2025/08/575356/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "抓大鹅",
+  "country": "cn",
+  "track_id": 6475341440,
+  "seller": "Qingdao Bluefir Interactive Entertainment Tech Co., Ltd.",
+  "genres": [
+   "游戏",
+   "休闲",
+   "益智解谜",
+   "工具"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/ba/38/92ba3810-7b0b-1ab7-2db5-c868cd74696c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/f0/e6/d9f0e6cd-ec9b-3fa5-f70b-5aeb765af953/4f0f69df-10d4-43b5-838e-3493805475a8__U753b_U677f_1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b6/28/bf/b628bfa7-f4d1-1daf-39f9-6765c4e8cd93/293d388f-fbe5-4edd-9e55-0c5448a100e5_20240819-103412.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/4c/b9/eb4cb9f4-e6ab-b6cd-9cd8-8f0439281e3c/0a682fe9-71cd-4513-a765-033209266694__U753b_U677f_4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/4e/2d/bc4e2d13-8898-f667-c335-475a11868105/345b6e70-8871-4eaf-9657-556711a712fb__U753b_U677f_2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/80/7b/b6/807bb638-e751-838a-96e8-e443cada38df/382701aa-3a62-4a7e-90fd-ae0707b4858f__U753b_U677f_5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/23/02/65230245-9b29-1e39-ea9d-7f43ce8f1c3e/4f86db1f-fb3a-496d-8e54-a06f925d4e21__U753b_U677f_3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/8f/f2/dd8ff274-7597-72cc-6426-15a1d3786924/50fe7f15-bbe9-4d23-aabd-139e808d1f30__U753b_U677f_1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/6a/f0/b56af047-37f5-653d-c71e-02db93dc81db/ed0f212c-7b25-4ec2-8f74-ed007e3b80c2__U753b_U677f_4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/6e/4c/796e4cbf-bd88-3e32-e1e5-a8202eebfba2/9d2c2203-7968-48c7-b908-253c0ba82353__U753b_U677f_2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/2b/81/2d2b8122-d032-0622-d2d1-054a03be923b/8cda62bb-bada-4234-a82c-6117104954d6__U753b_U677f_6_x__U62f7_U8d1d.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/93/31/c9/9331c9df-0b2d-86b2-2f46-8d112c270d3c/58fbd632-77c0-4691-93d3-308527a27478__U753b_U677f_5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/9f/36/ff9f3698-fc7e-d75e-3a1f-e4da29def802/bbb7753d-5cf1-47f9-a4c2-d67dc1b3072c__U753b_U677f_3.jpg/626x1112bb.jpg"
+  ],
+  "description": "官方正版抓大鹅来啦！\n巨好玩，巨上头的摸鱼神器！\n\n不了解鹅鹅的宝宝请看这里！\n\n\nQ1：抓大鹅是什么？\n抓大鹅是一款魔性的3D写实消除游戏！\n在限定时间消除场景中的全部物品就能通关！\n玩法简单易上手，男女老少消磨时间必备游戏。\n\nQ2：抓大鹅怎么玩？\n抓大鹅有8个不同的场景，每个场景中都有特色鹅。\n鹅友每完成一个特定的关卡，就能收集到1只限定鹅。\n进入游戏先通过第一关，第二关开始真正的挑战！\n在规定的时间内，利用有限的道具完成关卡，成为抓鹅达人！\n能抓到大鹅的人都强的可怕！\n\nQ3：抓大鹅有哪些玩法？\n除了普通关卡外，抓大鹅每个月还有限时玩法哦！\n每月的限定主题会推出多只限定鹅。\n已出的限定主题有：新年聚宝盆、缤纷水果节、三缺一、抓娃娃机等。\n除此之外，还有一些品牌限定活动、公益项目、联名活动！\n当然啦，游戏本身还有好友同屏对战、分屏对战，以及鹅村排名战！\n游戏玩法还在不断扩充中~~~\n\nQ4：从哪里可以了解抓大鹅的最新动态？\n除了游戏公告外，我们还开通了小红书、微博、抖音账号哦~\n都可以关注鹅鹅哒~\n小红书：抓大鹅\n微博：抓大鹅小游戏\n抖音：抓大鹅\n微信：抓大鹅游戏圈\n视频号：抓大鹅手机游戏",
+  "release_notes": "1.大鹅采秋集换卡牌活动来啦！和好友一起交换卡牌，领取山楂鹅、菌菇鹅和松果鹅吧！\n2.大鹅集市上新！150大鹅之星即可兑换秋秋鹅哦！\n3.其他游戏优化以及bug修复。",
+  "file_size_bytes": 2743554048,
+  "min_os": "15.0",
+  "version": "1.10.04",
+  "release_date": "2024-07-18",
+  "rating": 4.71912,
+  "rating_count": 43253,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/%E6%8A%93%E5%A4%A7%E9%B9%85/id6475341440?uo=4",
+  "fetched_at": "2026-09-14T23:51:01+08:00"
+ },
+ "slug": "抓大鹅_a83b42"
+}

@@ -1,0 +1,105 @@
+{
+ "schema_version": 1,
+ "name": "快逃离岩浆",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "厦门霄赞贸易有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 17
+  },
+  "platform_app_ids": {
+   "douyin": "tt0abd7c0094d87ddb07"
+  },
+  "first_seen": "2026-09-13",
+  "appearances": 2,
+  "best_rank": 17,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断，3D 小游戏常见选择）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "休闲卡通 3D，低面数",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 3,
+   "logic": 3,
+   "data": 4,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "data": "挂机攀爬 + 宠物/翅膀/装扮收集 + 世界排行，养成与数值线不少"
+  },
+  "asset_notes": "包体 49MB（第三方数据），为轻量 3D 低面数卡通，素材量级中等偏轻",
+  "notes": "3D 休闲挂机攀爬，核心为「岩浆上升前爬高」的撤离爽点 + 放置成长",
+  "cost_score": 3.0,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "岩浆不断上升，玩家点击锻炼提升力量、自动/手动攀爬高楼躲避岩浆，收集萌宠加金币、解锁翅膀提速；挂机也成长，比谁爬得高。",
+  "highlights": [
+   "岩浆步步紧逼的压迫感 + 爬高实时反馈，紧张刺激",
+   "挂机自动锻炼/攀爬，离线也成长，放置正反馈强",
+   "宠物/翅膀/装扮收集线驱动外观与数值追求"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（攀爬撤离 + 放置养成组合）"
+  ],
+  "target_user": "泛休闲挂机玩家，碎片时间",
+  "monetization": "IAA + IAP 混合（看广告加速/双倍奖励，内购翅膀装扮）",
+  "lifecycle": "长线运营，靠宠物/翅膀/赛季维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "3D 挂机攀爬 + 放置养成已成熟，机制照搬即成立，瓶颈在题材与美术包装；49MB 轻量 3D，复刻成本可控。",
+  "suggestions": [
+   "题材换为「逃离洪水/雪崩/陨石」，同机制换皮即差异化",
+   "加入「双人竞速爬塔」轻社交提升留存",
+   "用 AI 生图做低面数卡通素材，压美术成本"
+  ],
+  "risks": [
+   "3D 挂机攀爬赛道已拥挤",
+   "低面数 3D 美术仍需建模产能"
+  ],
+  "effort": "25–35 人日（1 前端 + 1 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "为 3D 休闲挂机攀爬游戏，包体约 49MB",
+   "level": "inferred"
+  },
+  {
+   "claim": "含宠物/翅膀/装扮/世界排行等玩法",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://game.xiaomi.com/game/62440691"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:40:28+08:00"
+ },
+ "slug": "快逃离岩浆_7951f2"
+}

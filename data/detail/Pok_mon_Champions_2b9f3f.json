@@ -1,0 +1,161 @@
+{
+ "schema_version": 1,
+ "name": "Pokémon Champions",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "The Pokemon Company",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 14
+  },
+  "platform_app_ids": {
+   "ios": "6741503079"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 9,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "宝可梦官方 3D 建模",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 4,
+   "physics": 1,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 4
+  },
+  "dim_notes": {
+   "art": "官方 3D 模型+动画+MEGA 演出，且受版权保护，资产极重不可挪用",
+   "logic": "宝可梦属性/技能/MEGA/回合制 AI 与规则引擎复杂度高",
+   "data": "图鉴/VP/赛季/排位等多线系统，数值与平衡重",
+   "server": "实时跨平台（Switch/移动）对战与 Pokémon HOME 互通，联网要求极高"
+  },
+  "asset_notes": "全部依赖任天堂/宝可梦正版 3D 资产，复刻方无法合法获取，素材层即死路",
+  "notes": "输入 media 误匹配为第三方工具 PokéBase Champions，真实游戏为 The Pokémon Works 开发、任天堂/宝可梦发行",
+  "cost_score": 4.12,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "在回合制对战中选派宝可梦队伍，利用属性/技能/MEGA 进化进行单打或双打，通过排位/友谊/私人对战获取 VP 培养队伍；无剧情，纯竞技。",
+  "highlights": [
+   "宝可梦 HOME 互通 + 跨平台（Switch/移动）对战，生态壁垒强",
+   "MEGA 进化（Omni Ring）与赛季规则轮换，保持 meta 新鲜",
+   "胜利点(VP)只能游玩获得不可购买，付费仅加速外观/便利"
+  ],
+  "innovations": [
+   "将官方 VGC 竞技从主线 RPG 中剥离为独立免费平台，是宝可梦对战形态的范式创新"
+  ],
+  "target_user": "宝可梦核心粉丝与竞技玩家（全年龄）",
+  "monetization": "F2P + IAP（战斗通行/年费会员/即时 MEGA 石，VP 不可购）",
+  "lifecycle": "长线运营，作为官方电竞平台持续更新"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "任天堂/宝可梦顶级 IP，引擎虽为 Unity 但复刻即侵权；战斗/网络/内容量级巨大，无授权绝对不可为。",
+  "suggestions": [
+   "仅可借鉴'独立竞技平台+赛季规则轮换'的产品结构做原创 IP 对战游戏",
+   "用原创怪物替代宝可梦以规避版权"
+  ],
+  "risks": [
+   "IP/版权侵权风险极高",
+   "3D 资产与联网对战研发成本不可承受",
+   "平台与任天堂政策冲突"
+  ],
+  "effort": "300+ 人日（需授权，否则不可做）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/bf/3c/3dbf3c07-2aa0-3c99-a870-e4f181f087f2/pokebasechampions-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/0a/6f/fd0a6f17-d1de-5fe4-89cd-99c17b93d67e/Slice_1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/af/80/00af80e3-1ab9-aedd-3499-726671bf5ad9/Slice_2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/ae/1a/38ae1a6b-3749-cade-9ad6-ba089298eac8/Slice_3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "输入 media 误匹配为第三方工具 PokéBase Champions，真实游戏为 The Pokémon Works 开发的 Pokémon Champions（Unity）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎 Unity、2026-06-17 上线 iOS/Android、回合制策略",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://handwiki.org/wiki/index.php?title=Software:Pok%C3%A9mon_Champions",
+  "https://www.alamoana.net/info/en/?search=Pok%C3%A9mon_Champions"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 0.774,
+  "match_name": "PokéBase Champions",
+  "country": "cn",
+  "track_id": 6785016163,
+  "seller": "Limu Labs, LLC",
+  "genres": [
+   "参考资料",
+   "工具"
+  ],
+  "genre": "Reference",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/bf/3c/3dbf3c07-2aa0-3c99-a870-e4f181f087f2/pokebasechampions-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/0a/6f/fd0a6f17-d1de-5fe4-89cd-99c17b93d67e/Slice_1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/af/80/00af80e3-1ab9-aedd-3499-726671bf5ad9/Slice_2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/ae/1a/38ae1a6b-3749-cade-9ad6-ba089298eac8/Slice_3.png/626x1112bb.jpg"
+  ],
+  "description": "Pokedex, Team Builder, Team discovery, Tools, and more for Pokémon Champions!",
+  "release_notes": "Bug fixes and performance improvements",
+  "file_size_bytes": 100960256,
+  "min_os": "26.0",
+  "version": "1.0.1",
+  "release_date": "2026-07-28",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/pok%C3%A9base-champions/id6785016163?uo=4",
+  "fetched_at": "2026-09-15T00:38:59+08:00"
+ },
+ "slug": "Pokémon_Champions_2b9f3f"
+}

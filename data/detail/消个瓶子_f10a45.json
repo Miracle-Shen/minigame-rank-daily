@@ -1,0 +1,107 @@
+{
+ "schema_version": 1,
+ "name": "消个瓶子",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "深圳奇象互动网络有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 15
+  },
+  "platform_app_ids": {
+   "douyin": "tt110b67b68f6e9ae502"
+  },
+  "first_seen": "2026-09-13",
+  "appearances": 2,
+  "best_rank": 15,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D / 2.5D",
+  "art_style": "2D/2.5D 饮料瓶消除（据同类推断）",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "连接/三消无物理",
+   "server": "以单机关卡为主，无强联网"
+  },
+  "asset_notes": "无官方素材，据同类「瓶子消除」（约 32MB）推断为轻量 2D 饮料瓶贴图，素材成本极低。",
+  "notes": "无官方媒体材料，玩法据名称与同类「瓶子消除/消饮料瓶」（连接消除）推断，置信度中。",
+  "cost_score": 1.88,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "滑动连接三个以上相同饮料瓶消除→触发连锁与特殊道具→完成关卡目标（清指定瓶/限步达分），一局数十秒，靠数百关续玩（据同类推断）。",
+  "highlights": [
+   "连接消除的连锁连击分数反馈",
+   "彩虹瓶/炸弹等特殊道具破局爽感",
+   "饮料瓶主题的日常解压感"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（三消/连接消除 + 饮料瓶题材）"
+  ],
+  "target_user": "全龄休闲消除用户",
+  "monetization": "IAA 广告为主（看广告得道具/续步）",
+  "lifecycle": "长线关卡更新"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "三消/连接消除机制通用、成本极低，瓶颈在题材（饮料瓶）与关卡曲线，换皮即成立，适合填充位。",
+  "suggestions": [
+   "题材换为「零食/奶茶」连接消除贴合抖音调性",
+   "加物理弹射变体（击碎瓶子）做差异化"
+  ],
+  "risks": [
+   "三消赛道极度饱和、买量成本极高",
+   "本作玩法为推断"
+  ],
+  "effort": "12–20 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法据同类「瓶子消除」推断为连接/三消饮料瓶，非本作确证",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎疑为 Cocos Creator（消除小游戏常见选型）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.cl0579.com/game/461951.html"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2D / 2.5D"
+ ],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:40:11+08:00"
+ },
+ "slug": "消个瓶子_f10a45"
+}

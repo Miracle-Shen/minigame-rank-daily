@@ -1,0 +1,123 @@
+{
+ "schema_version": 1,
+ "name": "灵画师",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州光游网络科技有限公司",
+  "category_l1": "1",
+  "category_l2": "ARPG",
+  "boards": [
+   "douyin/畅销榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 14,
+   "douyin/畅销榜": 3
+  },
+  "platform_app_ids": {
+   "wx": "wxcbc1fc07fb13d667",
+   "douyin": "ttfcdb8a6663ec187f02"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "国风水墨/修仙立绘，UI 与角色贴图为主",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "纯点击/自动战斗，无物理模拟",
+   "logic": "装备/魂卡/战宠/坐骑/法相/战魂/群雄CCG/自走棋等多养成系统耦合，深度高",
+   "data": "多线养成 + 抽卡经济 + 赛季内容，长线"
+  },
+  "asset_notes": "素材以国风立绘、UI 与修仙特效为主（第三方商店包体约 271MB，接近『重』阈值）；无 3D 资产，美术层可 AI 生图 + 人工修图批量产出，瓶颈在立绘量与养成系统量",
+  "notes": "波克科技 Cocos Creator 成熟 2D 框架下的放置 RPG，机制成熟、复刻门槛中低",
+  "cost_score": 2.62,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "点击消耗『包子』锻造装备，高品质装备一键换装、低品质售卖回收；靠『刷装—换装—推图』循环提升战力，逐步解锁多角色上阵、魂卡/战宠/坐骑等多维养成，从单人闯关过渡到竞技场与跨服玩法。",
+  "highlights": [
+   "『开箱即战力』的即时反馈：换一件高阶装备即可明显推过一关，成长可见",
+   "多养成线（魂卡/法相/战魂/灵兽）提供持续目标，避免单线数值膨胀疲劳",
+   "『灵画/点睛』把击败强敌绘入画卷化作灵物，给收集欲一个叙事出口",
+   "每日任务仅 10–15 分钟 + 自动挂机/离线修炼，适配碎片时间"
+  ],
+  "innovations": [
+   "将核心战斗与『手绘符咒』结合（实时笔触渲染，符咒轨迹影响威力）——相对纯点击开箱like 的差异化；不同渠道描述不一，标 inferred",
+   "整体沿用『寻道大千』式修仙放置开箱like 框架，核心循环无机制创新"
+  ],
+  "target_user": "国风/修仙向泛休闲用户，喜好放置养成的碎片化玩家",
+  "monetization": "IAP 内购为主（抽卡/养成/礼包），辅以广告；微信小游戏与独立客户端数据同步",
+  "lifecycle": "长线运营（赛季 + 多养成线持续开放）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "修仙放置 RPG（开箱like）已是高度成熟框架，机制照搬即成立；瓶颈在国风题材与美术包装。换题材/换皮即可差异化，复刻成本中低。",
+  "suggestions": [
+   "换题材为 西游/洪荒/聊斋/药修，把『包子锻造』换成对应世界观收集动作（如 炼丹/画符）",
+   "保留多养成主线但精简前期（寻道大千式前 30 分钟心流），降低数值膨胀",
+   "若采信『手绘符咒』机制，做成可交易符咒 UGC（玩家画符上传），形成社区壁垒"
+  ],
+  "risks": [
+   "修仙放置 RPG 赛道极度拥挤，买量成本高",
+   "纯换皮易被商店判定同质化、触发审核风险",
+   "核心成长曲线同质化，留存依赖美术与题材新鲜度"
+  ],
+  "effort": "35–50 人日（1 前端 + 1 美术 + 0.5 策划），基于 Cocos Creator 现成放置 RPG 脚手架"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "引擎为 Cocos Creator——波克科技 Cocos Creator 招聘 JD 明确将《灵画师》列为 cocos creator 主力营收项目",
+   "level": "confirmed"
+  },
+  {
+   "claim": "第三方商店显示 Android 包体约 271MB（接近『重』阈值），非官方一手数据",
+   "level": "inferred"
+  },
+  {
+   "claim": "国风修仙放置 RPG，沿用『寻道大千』式开箱like 框架",
+   "level": "confirmed"
+  },
+  {
+   "claim": "『手绘符咒释放技能』为部分渠道描述，疑似差异化机制，不同来源描述不一",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://forum.cocos.org/t/topic/177261",
+  "https://www.3839.com/a/196313.htm",
+  "https://www.ddooo.com/softdown/198149.htm"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:34:56+08:00"
+ },
+ "slug": "灵画师_9f3459"
+}

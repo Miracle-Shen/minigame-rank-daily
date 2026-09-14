@@ -1,0 +1,111 @@
+{
+ "schema_version": 1,
+ "name": "像素方块冒险世界",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "厦门大橙互娱科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 3
+  },
+  "platform_app_ids": {
+   "douyin": "tt434135fcdd24b51307"
+  },
+  "first_seen": "2026-09-11",
+  "appearances": 4,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / Cocos3D（inferred）",
+  "engine_evidence": "inferred",
+  "dimension": "3D（体素）",
+  "art_style": "像素/体素方块世界，第一人称",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 2,
+   "physics": 2,
+   "logic": 4,
+   "data": 3,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "未找到官方确认，体素沙盒多为Unity/Cocos3D，推断inferred",
+   "logic": "沙盒生存含采集/合成/建造/怪物/多人协作，系统较多但属成熟框架",
+   "server": "支持多人在线合作探索与战斗"
+  },
+  "asset_notes": "体素方块程序化生成，美术以方块贴图为主，素材成本低于写实3D但系统量大。",
+  "notes": "厦门大橙互娱，Minecraft-like沙盒生存+AI对话小球，赛道已极度拥挤。",
+  "cost_score": 2.75,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "在体素世界采集资源、合成工具武器、建造庇护所、应对夜晚怪物，多人协作探索开放地图。",
+  "highlights": [
+   "方块建造的自由创造爽感，从零搭出据点",
+   "维里蒂AI小球对话互动，新增陪伴感",
+   "夜晚怪物袭击带来的生存紧张与防御满足"
+  ],
+  "innovations": [
+   "无实质创新，属Minecraft-like沙盒生存的标准执行（含AI对话彩蛋）"
+  ],
+  "target_user": "沙盒/生存爱好者，低龄至青年",
+  "monetization": "IAA+IAP（皮肤/去广告，推测）",
+  "lifecycle": "长线，靠新地图/怪物/活动维持"
+ },
+ "clone": {
+  "verdict": "微创新",
+  "rationale": "体素沙盒生存已极度饱和，纯复刻无机会；仅值得在单一机制（如AI伙伴/特定题材）做轻量差异化，不建议独立立项重投入。",
+  "suggestions": [
+   "聚焦一个垂直机制（如AI NPC对话/宠物养成）做特色",
+   "换为特定题材（国风古镇/科幻废土）缩小竞争面",
+   "先做单机小体量验证再考虑多人"
+  ],
+  "risks": [
+   "沙盒生存赛道被MC及大量换皮占据",
+   "多人同步与内容更新成本高",
+   "留存与买量性价比偏低"
+  ],
+  "effort": "80–150 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "体素沙盒生存冒险，厦门大橙互娱，约60MB",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎与多人架构",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "http://m.1666.com/game/v730736.html",
+  "https://m.itmop.com/downinfo/650155.html"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：3D（体素）"
+ ],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:37:08+08:00"
+ },
+ "slug": "像素方块冒险世界_7d1519"
+}

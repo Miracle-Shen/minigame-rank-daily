@@ -1,0 +1,209 @@
+{
+ "schema_version": 1,
+ "name": "无限大",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "网易游戏",
+  "category_l1": "开放世界",
+  "category_l2": "角色扮演、高自由度、都市、二次元、动作、高画质、3D",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 6
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-07-06",
+  "appearances": 60,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（深度定制）",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "二次元+都市写实，高画质",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 4,
+   "physics": 4,
+   "logic": 4,
+   "data": 4,
+   "server": 4,
+   "audio": 4
+  },
+  "dim_notes": {
+   "engine": "深度定制Unity+自研渲染管线/物理/PCG城市引擎三大模块",
+   "art": "包体约1.29GB，都市无缝大世界写实+二次元角色，资产极重",
+   "physics": "机车漂移/飞檐走壁/无缝室内外，物理手感需精调"
+  },
+  "asset_notes": "1.3GB包体，都市大世界写实+二次元角色资产极重，需大团队长期产出",
+  "notes": "网易雷火都市开放世界RPG，二次元GTA定位，自研PCG程序化城市",
+  "cost_score": 4.12,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "在都市新启市自由探索，骑车飙车/翼装飞行/功夫战斗，结识伙伴组队，靠选择与声望推进剧情，单局体验碎片化。",
+  "highlights": [
+   "机车都市狂飙+飞檐走壁的移动爽感，开放世界穿梭像功夫片",
+   "推门即进店的PCG无缝城市，无黑屏加载",
+   "道德抉择影响际遇的叙事自由度",
+   "网红/直播式日常集锦，强社交传播"
+  ],
+  "innovations": [
+   "用‘深度定制Unity+PCG程序化城市’在移动端复现都市开放世界而非UE5；二次元+都市GTA定位差异化"
+  ],
+  "target_user": "二次元+开放世界玩家，都市题材爱好者",
+  "monetization": "内购（外观/通行证）为主",
+  "lifecycle": "长线运营（大世界内容更新）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "大世界开放世界研发以亿计，需自研引擎改造与海量资产；赛道已被原神/鸣潮等头部锁死，无差异复刻风险极高。",
+  "suggestions": [
+   "取其‘都市动作+PCG城市’亮点，做轻量3D都市跑酷demo验证移动手感，而非完整开放世界"
+  ],
+  "risks": [
+   "自研引擎改造技术风险",
+   "资产量巨大",
+   "与头部开放世界直接竞争"
+  ],
+  "effort": "不建议（强做需300+人日顶级团队）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/8e/6e/578e6e6a-fd7d-36a5-ed43-30fbfcc13d09/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/83/7c/7a837c3c-4cf2-badb-e71e-d443cc0c48a1/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/b8/a0/31b8a0e9-537e-2adb-36b6-e9975b331f79/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/7b/1e/667b1e15-74aa-e182-96cb-ebbb7ff93f28/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/e0/9c/a3e09c3d-4eeb-00a4-b7d4-3fad4f476373/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/42/c2/6742c2c4-9fa8-81d4-efd6-cbac57b19b18/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/7e/13/d97e134c-e3a8-c2e6-a340-7dbbd3a447e7/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/ed/7c/e3ed7cd6-5fa5-f704-248f-9b1974fc7ea5/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/fe/2f/c6fe2fa7-055c-2339-4d05-6ab332e85c3c/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/4b/ae/4c4baee7-ad9c-0fe5-0e65-da30ed119412/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/92/a3/ea92a3f6-a0c0-8a42-cad2-9a5a848d4287/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "非虚幻5，采用深度定制的Unity引擎（多技术文章确认）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体约1.29GB，属很重量级",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://wuxiandagame.com/news/project-mugen-engine-unity-ue5",
+  "https://wap.pp.cn/news/970927.html",
+  "https://apps.apple.com/cn/app/%E6%97%A0%E9%99%90%E5%A4%A7/id6761252217?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "无限大",
+  "country": "cn",
+  "track_id": 6761252217,
+  "seller": "Hangzhou NetEase Leihuo Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "动作",
+   "角色扮演"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/8e/6e/578e6e6a-fd7d-36a5-ed43-30fbfcc13d09/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/83/7c/7a837c3c-4cf2-badb-e71e-d443cc0c48a1/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/b8/a0/31b8a0e9-537e-2adb-36b6-e9975b331f79/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/7b/1e/667b1e15-74aa-e182-96cb-ebbb7ff93f28/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/e0/9c/a3e09c3d-4eeb-00a4-b7d4-3fad4f476373/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/42/c2/6742c2c4-9fa8-81d4-efd6-cbac57b19b18/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/7e/13/d97e134c-e3a8-c2e6-a340-7dbbd3a447e7/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/ed/7c/e3ed7cd6-5fa5-f704-248f-9b1974fc7ea5/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/fe/2f/c6fe2fa7-055c-2339-4d05-6ab332e85c3c/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/4b/ae/4c4baee7-ad9c-0fe5-0e65-da30ed119412/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/92/a3/ea92a3f6-a0c0-8a42-cad2-9a5a848d4287/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-5.jpg/626x1112bb.jpg"
+  ],
+  "description": "《无限大》是一款高自由度的都市题材开放世界RPG，在这里你将扮演身份各异的角色，在不同的城市间探索，结识各具魅力的伙伴，建立独属于你自己的团队。\n危机与日常总是交替到来，是携手对抗潜藏于城市阴影中的威胁，或是与伙伴们一起体验充满烟火气的都市生活，选择权永远在你手上。\n\n准备好踏入这个《无限大》的世界了吗？\n\n成为网红，拯救世界\n初来乍到，人生地不熟？\n没关系，从踏入新启的这一刻\n你的故事就已经开始口口相传\n积攒声望，顺便——拯救世界？\n\n两座城市，不一样的冒险\n出门久了，也别忘了常回家看看\n一张机票，就能回到你的主场——重霄\n不过即使在这个你再熟悉不过的地方\n也少不了意想不到的秘密\n\n功夫电影般的爽快战斗\n从你挥出第一拳的这一秒\n街头就是你的功夫片场\n飞檐走壁、闪转腾挪\n每一击都值得一个眼界热搜\n\n跃入7*24H的精彩日常\n无聊？在这里不存在\n啼笑皆非的闹剧、凌晨三点的飙车局\n你的日常永不重样\n24小时都有新鲜事，随时开播都是集锦\n\n体验各不相同的人生\n巡卫官，天才黑客还是街头领袖？\n扮演身份各异的角色\n体验这个世界的每一面\n说不定，还能和一些奇形怪状的家伙们交个朋友\n\n不受约束的自由探索\n选个喜欢的方式抵达你的目的地\n轰下油门，跨上机车，或是迎风破浪\n也可以翼装升空，伸手摆荡，穿梭楼宇之间\n下一站在哪？在目之所及的每一处。",
+  "release_notes": "",
+  "file_size_bytes": 1357754368,
+  "min_os": "12.0",
+  "version": "1.0.4125397",
+  "release_date": "2027-01-15",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E6%97%A0%E9%99%90%E5%A4%A7/id6761252217?uo=4",
+  "fetched_at": "2026-09-15T00:36:15+08:00"
+ },
+ "slug": "无限大_7ca968"
+}

@@ -1,0 +1,116 @@
+{
+ "schema_version": 1,
+ "name": "极限跳高冠军",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州易游互玩科技有限公司",
+  "category_l1": "1",
+  "category_l2": "益智",
+  "boards": [
+   "douyin/新游榜",
+   "wx/人气榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 11,
+   "douyin/新游榜": 9
+  },
+  "platform_app_ids": {
+   "wx": "wx50e579ae63f332a3",
+   "douyin": "tt1c406afd822499cf07"
+  },
+  "first_seen": "2026-09-05",
+  "appearances": 8,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "极简几何/卡通角色，向上跳板",
+  "dims": {
+   "engine": 1,
+   "art": 1,
+   "anim": 2,
+   "physics": 2,
+   "logic": 2,
+   "data": 1,
+   "server": 1,
+   "audio": 1
+  },
+  "dim_notes": {
+   "engine": "极简单机制，微信小游戏模板即可搭建，无需自研框架",
+   "art": "简单几何/角色，可程序化生成，无外部美术",
+   "data": "无成长线，仅高度/排行"
+  },
+  "asset_notes": "纯检索推断（无官方媒体材料）；2D极简、无美术资产，素材层不是瓶颈；瓶颈在跳跃手感调校",
+  "notes": "广州易游互玩出品微信小游戏，跳高/往上跳板类，与跳一跳同赛道",
+  "cost_score": 1.38,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "控制角色向上跳，踩中移动/出现的跳板越跳越高，落地失败则结束；追求最高点高度与排行。",
+  "highlights": [
+   "每次跳得更高的'直上云霄'递进爽感",
+   "踩板时机判断的精准反馈，简单但有追求",
+   "排行榜比高度，轻量竞技"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（往上跳板/跳一跳变体）"
+  ],
+  "target_user": "泛休闲用户，偏爱极简爽游",
+  "monetization": "IAA为主（复活/续命看广告），轻量",
+  "lifecycle": "短平快爆款，靠高度排行+新板型维系"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "机制极简、无美术无物理负担，代码量极小；往上跳板赛道成熟。换题材（如'爬塔''火箭升空'）即成立，成本最低。",
+  "suggestions": [
+   "换题材为'火箭升空'或'登塔'，复用向上跳板",
+   "加'连击板'加速做微差异",
+   "首关降低板速，后期提速做难度曲线"
+  ],
+  "risks": [
+   "玩法极轻易被抄、留存短",
+   "无官方材料，玩法以检索推断为主",
+   "跳板品类已有跳一跳等标杆"
+  ],
+  "effort": "10–20 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "跳高/往上跳板微信小游戏，广州易游互玩",
+   "level": "inferred"
+  },
+  {
+   "claim": "无官方App Store媒体材料，纯检索+推断",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎未确认，推断 Cocos Creator/LayaAir",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://sj.qq.com/appdetail/wx50e579ae63f332a3",
+  "https://www.ldmnq.com/minigames/31332"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:35:25+08:00"
+ },
+ "slug": "极限跳高冠军_937f09"
+}

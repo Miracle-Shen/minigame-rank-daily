@@ -1,0 +1,210 @@
+{
+ "schema_version": 1,
+ "name": "王者万象棋",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 1
+  },
+  "platform_app_ids": {
+   "ios": "1614798032"
+  },
+  "first_seen": "2026-07-15",
+  "appearances": 50,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "王者荣耀IP高质感，英雄3D建模",
+  "dims": {
+   "engine": 3,
+   "art": 5,
+   "anim": 4,
+   "physics": 2,
+   "logic": 5,
+   "data": 5,
+   "server": 4,
+   "audio": 4
+  },
+  "dim_notes": {
+   "logic": "自走棋底+拍卖/天赋/效果牌随机事件，经济与平衡极复杂，需持续调平衡",
+   "art": "包体约3.6GB，王者英雄3D建模+全屏特效+专属棋盘，资产极重",
+   "data": "王牌英雄百级养成+棋手天赋+赛季内容，长线数值体系"
+  },
+  "asset_notes": "3.6GB包体，王者英雄3D建模+全屏特效+棋盘，资产极重，核心成本在IP美术",
+  "notes": "天美王者荣耀原班人马IP自走棋，三端互通",
+  "cost_score": 4.0,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "6人选棋手进万象大赛，刷英雄养王牌、用拍卖/天赋/效果牌做随机决策，自走棋自动对战，越玩越上头，单局10-20分钟。",
+  "highlights": [
+   "‘刷-养-炸’口诀：王牌英雄百级解锁全屏大招，战力滚雪球爽感强",
+   "拍卖/天赋/效果牌贯穿全局，每手选择逆转战局",
+   "英雄关键词连锁反应（登场/整备/牺牲）的策略深度",
+   "组队共享排位分、队友Carry不掉分，社交友好"
+  ],
+  "innovations": [
+   "在云顶/酒馆战棋框架上缝合‘王者IP+拍卖/天赋随机事件’，轻量化快节奏适配移动碎片化"
+  ],
+  "target_user": "王者IP玩家+自走棋玩家，碎片化",
+  "monetization": "IAP（外观/棋盘装饰）为主，不影响平衡；+王者联动福利",
+  "lifecycle": "长线（平衡调整+娱乐模式+创作者生态）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "核心资产是王者荣耀IP与英雄池，复刻即侵权；自走棋品类由金铲铲/云顶占据，无IP则无用户基础，纯机制复刻无价值。",
+  "suggestions": [
+   "若做无IP自走棋，可保留本作‘拍卖系统’等差异化机制并自建英雄/IP，但需规避王者元素"
+  ],
+  "risks": [
+   "王者IP版权/商标风险极高",
+   "自走棋头部垄断",
+   "3.6GB重包体买量成本高"
+  ],
+  "effort": "不建议（强做需80+人日+IP授权）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/5c/7a/025c7a40-b125-5ab9-1237-7283fcbf089a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/d4/a9/3bd4a9ac-f600-1e78-7c45-1af68ca5657d/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/cd/77/53cd77da-d966-dc6f-b248-0b3463686884/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/dd/74/67dd74c5-9f4f-56a2-c860-6ba456ec918a/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/0a/b5/4c0ab5b9-8b4d-fbf7-07a2-36620661cb0d/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/1e/c4/a21ec422-f3d4-d564-10a9-e69abe73c29f/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/09/47/e2094745-dcda-9bb4-31e8-e402b323cc24/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/2b/d5/292bd582-c39c-c561-8a86-6d7394eea60a/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/69/9b/a7699b45-2f29-ecfa-0353-3b3e273f4f56/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/c4/c8/1bc4c8e0-cffc-43e8-2703-2f4948ae77be/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/fc/00/19fc00c2-b4ef-fc55-4514-fac990af1eba/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "Unity引擎带来优秀移动端表现（媒体明确提及）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体约3.6GB，属很重量级",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://3g.china.com/act/ent/11005281/20260121/49182501.html",
+  "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E4%B8%87%E8%B1%A1%E6%A3%8B/id1614798032?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "王者万象棋",
+  "country": "cn",
+  "track_id": 1614798032,
+  "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+  "genres": [
+   "游戏",
+   "策略",
+   "卡牌"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/5c/7a/025c7a40-b125-5ab9-1237-7283fcbf089a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/d4/a9/3bd4a9ac-f600-1e78-7c45-1af68ca5657d/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/cd/77/53cd77da-d966-dc6f-b248-0b3463686884/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/dd/74/67dd74c5-9f4f-56a2-c860-6ba456ec918a/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/0a/b5/4c0ab5b9-8b4d-fbf7-07a2-36620661cb0d/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/1e/c4/a21ec422-f3d4-d564-10a9-e69abe73c29f/5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/09/47/e2094745-dcda-9bb4-31e8-e402b323cc24/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/2b/d5/292bd582-c39c-c561-8a86-6d7394eea60a/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/69/9b/a7699b45-2f29-ecfa-0353-3b3e273f4f56/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/c4/c8/1bc4c8e0-cffc-43e8-2703-2f4948ae77be/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/fc/00/19fc00c2-b4ef-fc55-4514-fac990af1eba/5.png/626x1112bb.jpg"
+  ],
+  "description": "《王者万象棋》由王者荣耀项目原班人马开发，是一款《王者荣耀》英雄策略对战新游。王者万象棋全面创新突破了“王者模拟战”的玩法体验，延续了玩家最熟悉的英雄阵容，节奏更爽快，上手更简单，是最适合王者玩家的新一代英雄对战游戏。每局对战，6名玩家选择棋手进入万象大赛，养成自己的王牌英雄炸翻全场！更有拍卖、天赋、效果牌等随机事件贯穿全局，每一手选择都可能逆转战局，越玩越上头。",
+  "release_notes": "【农味拉满！原班人马，王者荣耀自研农家牌】\n集结来自峡谷最熟悉的英雄们，农友就玩农家牌！玩家可以自由构筑多样阵容，利用英雄自带的登场、整备、牺牲等关键词，让不同英雄间产生“连锁反应”，越战越强！三分英雄所在的三分登场流、长城守卫军所在的河洛牺牲流……除了经典阵容外，还有更多玩家们的自创流派。你的阵容，就是版本答案！\n\n【好玩上头！王牌英雄，一刷！二养！三炸场！】\n王者万象棋的玩法口诀“刷”、“养”、“炸”：刷到适合的英雄，一路升级养成“王牌英雄”，百级后解锁超级大招，一把炸翻全场！吕布全屏击飞，永不空大硬控全场；安琪拉三叉激光扫荡，草丛姐妹暴走开团；杨玉环满屏敦煌壁画，绝美飞天视效拉满……战力越滚越快，节奏不拖沓，爽感不中断，好玩又上头！\n\n【超高颜值！全新风格，各怀绝技上大分】\n棋手机制丰富，是每局策略的重要变量。每位棋手颜值与实力并存：万象都市的全新造型，新皮肤穿出新感受！更有独特的技能、秘技和专属天赋，再搭配适合的英雄阵容，在关键时刻打出奇效，逆转战局！首发18位棋手各怀出牌绝技，白歌、香香、小妲己、弈星、瑶妹、庄小鱼……总有一个适合你！更多棋手，蓄势登场。\n\n【轻松上手！农友开黑，组排共享最高分】\n组队共享排位分，万象开黑欢乐多——队友Carry，全队上分；队友翻车，不掉分。告别看队友状态的红温时刻，找对搭子，“老六”也能上王者！万象棋直接继承王者好友亲密度，打通与王者荣耀的在线游戏状态！还有灵宝全程陪伴，教你轻松上手。峡谷之外，下一局万象棋相聚！\n\n【丰富玩法！多模式玩法，王者之外新选择】\n多样的玩法模式欢乐登场，玩家可以从丰富的玩法模式中体验到不同的乐趣：经典排位六人对战，胜者为王；钻石狂潮竞拍争锋，钻石争夺；残局挑战步步解密，巧思破局。更多娱乐玩法，敬请期待～",
+  "file_size_bytes": 3849134080,
+  "min_os": "11.0",
+  "version": "1.1.1",
+  "release_date": "2026-09-10",
+  "rating": 4.78083,
+  "rating_count": 67281,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E4%B8%87%E8%B1%A1%E6%A3%8B/id1614798032?uo=4",
+  "fetched_at": "2026-09-15T00:36:33+08:00"
+ },
+ "slug": "王者万象棋_2016d4"
+}

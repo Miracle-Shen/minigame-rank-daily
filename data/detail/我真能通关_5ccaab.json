@@ -1,0 +1,101 @@
+{
+ "schema_version": 1,
+ "name": "我真能通关",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州池骋网络科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 8
+  },
+  "platform_app_ids": {
+   "douyin": "tta314d5a93d70133d07"
+  },
+  "first_seen": "2026-09-12",
+  "appearances": 3,
+  "best_rank": 8,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos / Unity（推测）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "2D 场景 + 物件（解压/闯关向）",
+  "dims": {
+   "engine": 1,
+   "art": 2,
+   "anim": 2,
+   "physics": 2,
+   "logic": 2,
+   "data": 1,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "data": "无明显成长线，纯解压 / 闯关",
+   "logic": "关卡目标明确，规则简单"
+  },
+  "asset_notes": "2D 场景 + 物件，素材轻",
+  "notes": "媒体未匹配；发行商广州池骋同榜还有「解压闯一关」，推断为同类解压/闯关小游戏，具体玩法以推断",
+  "cost_score": 1.75,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "在关卡中（推测砸物解压或跑酷闯关）完成目标通关，释放压力或竞速。",
+  "highlights": [
+   "砸物 / 过关的即时宣泄反馈",
+   "关卡渐进带来目标感",
+   "简单易上手、碎片可玩"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化"
+  ],
+  "target_user": "解压 / 碎片用户",
+  "monetization": "IAA + 红包（解压类常见，inferred）",
+  "lifecycle": "短平快"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "解压/闯关极轻，换题材即差异化，成本低。",
+  "suggestions": [
+   "换为「砸烂前任 / 办公室」宣泄题材",
+   "加 ASMR 音效强化解压",
+   "接红包提现提升留存"
+  ],
+  "risks": [
+   "解压品类同质化买量贵"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "具体玩法未确认，依据同发行商池骋的同类解压/闯关游戏推断",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.17yoo.cn/detail/56274"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:38:40+08:00"
+ },
+ "slug": "我真能通关_5ccaab"
+}

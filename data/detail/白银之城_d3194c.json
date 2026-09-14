@@ -1,0 +1,179 @@
+{
+ "schema_version": 1,
+ "name": "白银之城",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "乐元素",
+  "category_l1": "二次元",
+  "category_l2": "侦探、ARPG、开放世界、动作、角色扮演",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 8
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-07-06",
+  "appearances": 68,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unreal Engine 5",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "维多利亚风写实都市+二次元角色，NPR+PBR",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 5,
+   "physics": 3,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 4
+  },
+  "dim_notes": {
+   "art": "包体约1.39GB，维多利亚写实都市+二次元角色，NPR+PBR双路线，资产极重",
+   "anim": "处决技QTE单套平均17关键骨骼帧，镜头运镜+音效节奏强化打击，动作产出成本高"
+  },
+  "asset_notes": "UE5大世界二游资产极重，写实都市+角色动捕/动作产出是核心成本",
+  "notes": "乐元素上海团队二次元大世界ARPG，侦探解谜+格挡弹反动作",
+  "cost_score": 4.0,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "扮演侦探在白银城探索，观察推理找线索+格挡弹反打动作战斗，四人切队，QTE处决，主线揭开城市阴谋。",
+  "highlights": [
+   "黄光攻击精准弹反无伤接招、红光需闪避的攻防博弈，操作反馈强",
+   "反击/弹反积攒爆发条打高伤，策略+手感兼具",
+   "QTE处决全程无跳帧的暴力美学演出",
+   "侦探观察+NPC行为扫描的解谜与战斗穿插"
+  ],
+  "innovations": [
+   "把‘侦探推理+格挡弹反动作’缝合进二次元大世界ARPG；UE5 NPR+PBR混合渲染塑造独特画风"
+  ],
+  "target_user": "二次元ARPG玩家，动作/侦探爱好者",
+  "monetization": "IAP（外观/通行证）为主",
+  "lifecycle": "长线（二游内容更新）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "UE5大世界二游研发以亿计，资产与动作产出成本极高；赛道已被原神/鸣潮/异环等头部锁死，复刻无差异空间。",
+  "suggestions": [
+   "取其‘弹反+侦探解谜’核心，做一款2.5D横版动作解谜小游戏，用弹反机制+线索推理，规避3D大世界成本"
+  ],
+  "risks": [
+   "UE5移动端性能优化",
+   "3D动作资产极贵",
+   "二游买量贵"
+  ],
+  "effort": "不建议（强做需250+人日）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/73/1a/26731a47-fd13-c5e2-d10c-22bdd4fedc0d/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/b1/df/00b1df97-a16d-312c-aad1-b8623c4172d1/_U5f00_U573a_U573a_U666f2688_1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/3c/0a/823c0ab7-8064-bccb-f652-1b434c901387/_U5b9e_U673a_U622a_U56fe2688_1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9e/d4/cd/9ed4cd83-51e1-f910-33e0-639e01153feb/_U7ea2_U8537_U8587_U4e92_U52a8_U7279_U51992688_1242.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/07/c6/e707c605-4f7a-d152-dbd7-d4fe530fa4dc/_U5f00_U573a_U573a_U666f2752_2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/31/5b/7e315b71-f648-699d-8f16-ddde45cc1ee9/_U5b9e_U673a_U622a_U56fe2752_2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/42/29/aa42299e-b347-9a55-8f0b-ea5a7d0ffa81/_U7ea2_U8537_U8587_U4e92_U52a8_U7279_U51992752_2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "采用虚幻引擎5（UE5）开发，多来源确认",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体约1.39GB，属很重量级",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://news.17173.com/content/08192026/145752656.shtml",
+  "https://news.17173.com/content/07112026/163118703.shtml",
+  "https://apps.apple.com/cn/app/%E7%99%BD%E9%93%B6%E4%B9%8B%E5%9F%8E/id6758292180?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "白银之城",
+  "country": "cn",
+  "track_id": 6758292180,
+  "seller": "Shanghai Happy Element World Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "角色扮演"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/73/1a/26731a47-fd13-c5e2-d10c-22bdd4fedc0d/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/b1/df/00b1df97-a16d-312c-aad1-b8623c4172d1/_U5f00_U573a_U573a_U666f2688_1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/3c/0a/823c0ab7-8064-bccb-f652-1b434c901387/_U5b9e_U673a_U622a_U56fe2688_1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9e/d4/cd/9ed4cd83-51e1-f910-33e0-639e01153feb/_U7ea2_U8537_U8587_U4e92_U52a8_U7279_U51992688_1242.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/07/c6/e707c605-4f7a-d152-dbd7-d4fe530fa4dc/_U5f00_U573a_U573a_U666f2752_2064.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/31/5b/7e315b71-f648-699d-8f16-ddde45cc1ee9/_U5b9e_U673a_U622a_U56fe2752_2064.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/42/29/aa42299e-b347-9a55-8f0b-ea5a7d0ffa81/_U7ea2_U8537_U8587_U4e92_U52a8_U7279_U51992752_2064.jpg/626x1112bb.jpg"
+  ],
+  "description": "作为曾经名噪一时的侦探，你将重回光辉的白银城，再启尘封已久的事务所。故友等待重逢，新知企盼初会，与他们携手，一同穿行于童话与寓言之间，探寻凶案与阴谋之下的隐秘真相。\n\n欢迎回来，侦探。",
+  "release_notes": "",
+  "file_size_bytes": 1454422016,
+  "min_os": "15.0",
+  "version": "1.0.0",
+  "release_date": "2027-01-31",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E7%99%BD%E9%93%B6%E4%B9%8B%E5%9F%8E/id6758292180?uo=4",
+  "fetched_at": "2026-09-15T00:36:17+08:00"
+ },
+ "slug": "白银之城_d3194c"
+}

@@ -1,0 +1,107 @@
+{
+ "schema_version": 1,
+ "name": "未眠野",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "悦然互动",
+  "category_l1": "开放世界",
+  "category_l2": "高自由度、角色扮演、冒险、动作、高画质",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 2
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-09-10",
+  "appearances": 5,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "二次元开放世界，写实自然+幻想生物",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 4,
+   "physics": 5,
+   "logic": 4,
+   "data": 3,
+   "server": 4,
+   "audio": 4
+  },
+  "dim_notes": {
+   "physics": "实时物理+化学双引擎，万物可交互（燃烧/冻结/溶解/催化），需自研模拟系统，是最大技术难点",
+   "art": "开放世界地表+地底双场景，写实自然与幻想生物资产量极大",
+   "server": "2-3人联机+分屏协作，需多端状态同步"
+  },
+  "asset_notes": "3D写实自然+幻想生物资产极重，需大团队长周期产出，素材是核心成本",
+  "notes": "研发阶段开放世界RPG，核心卖点是自研物理化学模拟，研发门槛极高",
+  "cost_score": 4.12,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "扮演溯行者深潜哈扎珥物质之海，用物理化学法则与环境交互（点燃/冻结/催化）解谜与战斗，联机协作破局，弱数值靠操作与配合。",
+  "highlights": [
+   "箭矢点燃木建筑、冰箭冻湖面再融化的实时因果反馈，探索像玩物理沙盒",
+   "三种基础异能（控金属/时停/升石柱）既能解谜也能战斗，复用降低学习成本",
+   "多人联机搭‘空中火车’扔炸药桶等协作玩法，变量趣味强",
+   "活宝箱会逃跑、敌人会灭火，世界非静态"
+  ],
+  "innovations": [
+   "把‘物理+化学双引擎实时交互’作为开放世界核心驱动而非脚本演出；弱数值/无抽卡的玩法型开放世界定位"
+  ],
+  "target_user": "二次元开放世界玩家、塞尔达粉丝、硬核探索党",
+  "monetization": "内购（外观/季票）为主，无数值付费，轻养成无抽卡",
+  "lifecycle": "长线运营（UGC派对玩法+内容更新）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "核心卖点是自研物理化学模拟与开放世界资产，研发成本以千万/亿计；玩法致敬塞尔达，复刻既无技术积累也无版权/差异化空间，纯抄会被秒杀。",
+  "suggestions": [
+   "若只取‘环境交互解谜’亮点，可先做轻量2D物理解谜小游戏（如《站着别动》风格），把化学反应当成关卡机关而非开放世界"
+  ],
+  "risks": [
+   "自研物理化学系统技术风险高",
+   "塞尔达式玩法已有强IP",
+   "移动端分屏体验存疑"
+  ],
+  "effort": "不建议（若强做需200+人日顶级团队）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "物理×化学双引擎为官方宣传的核心玩法，非技术引擎名",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎具体未公开，推断为Unity/Unreal，未确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://baike.baidu.com/item/%E6%9C%AA%E7%9C%A0%E9%87%8E/68951090",
+  "https://news.18183.com/yxxw/202609/9028559.html",
+  "https://www.taptap.com/moment/847016307814563963?group_id=162660"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:36:10+08:00"
+ },
+ "slug": "未眠野_0ad69d"
+}

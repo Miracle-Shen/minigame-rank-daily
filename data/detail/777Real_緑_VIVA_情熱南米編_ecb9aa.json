@@ -1,0 +1,111 @@
+{
+ "schema_version": 1,
+ "name": "[777Real]緑ドン VIVA！情熱南米編",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Sammy Networks Co., Ltd.",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 11
+  },
+  "platform_app_ids": {
+   "ios": "6804965220"
+  },
+  "first_seen": "2026-09-11",
+  "appearances": 4,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / 原生（inferred）",
+  "engine_evidence": "inferred",
+  "dimension": "2D + 3D 转轮演出",
+  "art_style": "弹珠机/老虎机写实机台贴图，南美狂欢主题",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 3,
+   "physics": 1,
+   "logic": 2,
+   "data": 2,
+   "server": 2,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "未找到官方引擎确认，弹珠/老虎机模拟类多为Unity或原生实现，推断inferred",
+   "art": "机台贴图+转轮动画+Bonus演出，量级中等（无一手包体数据）",
+   "logic": "老虎机RNG与Bonus流程，逻辑轻"
+  },
+  "asset_notes": "数字弹珠机，核心为机台演出复刻与音效，美术以贴图与序列帧为主。",
+  "notes": "本质是把线下弹珠机1:1数字化，技术门槛低，但IP与合规是硬壁垒。",
+  "cost_score": 2.25,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "在手机上免费游玩绿ドン VIVA这台弹珠机，拉动转轮、触发Bonus（アマゾンゲーム/X-RUSH），赢取游戏内PG币用于奖品抽奖。",
+  "highlights": [
+   "转轮连击与Bonus突入的演出张力，复刻街机‘差一点就爆’的悬念",
+   "PG币累积可参与抽奖，形成每日登录奖赏循环",
+   "经典机台 nostalgia，老玩家认台即上手"
+  ],
+  "innovations": [
+   "无实质创新，属于线下弹珠机的纯数字化移植"
+  ],
+  "target_user": "日本弹珠机/老虎机老玩家、中年男性用户",
+  "monetization": "免费+内购（PG币/道具），PG币可兑换奖品抽奖（近似现金等价物，合规敏感）",
+  "lifecycle": "长线，靠新台上线与活动维持"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "緑ドン为Universal Entertainment/Sammy持有的弹珠机IP，且涉及奖票/奖品抽奖的合规灰区；克隆既有版权风险也有地区合规风险。",
+  "suggestions": [
+   "若做原创老虎机题材，需彻底替换IP与机台形象",
+   "放弃奖品兑换，改为纯娱乐积分避免合规风险",
+   "聚焦演出手感而非IP还原"
+  ],
+  "risks": [
+   "弹珠机IP版权（Universal/Sammy）",
+   "奖品抽奖涉嫌赌博合规，多地区禁限",
+   "日区弹珠用户已被头部App锁死"
+  ],
+  "effort": "40–60 人日（仅技术侧，不含IP授权成本）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "777Real为Sammy Networks运营、由Eleco（Universal系）提供的绿ドン数字弹珠机App",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎与包体量级",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://haveagood-holiday.com/en/articles/midori-don-viva-jonetsu-nanbeihen-777real-app-launch",
+  "https://www.universal-777.com/product/slot/midoridon_viva/"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2D + 3D 转轮演出"
+ ],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:36:48+08:00"
+ },
+ "slug": "777Real_緑_VIVA_情熱南米編_ecb9aa"
+}

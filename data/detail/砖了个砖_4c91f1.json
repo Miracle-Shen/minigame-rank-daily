@@ -1,0 +1,106 @@
+{
+ "schema_version": 1,
+ "name": "砖了个砖",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "北京简游科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "消除",
+  "boards": [
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/畅玩榜": 12
+  },
+  "platform_app_ids": {
+   "wx": "wx1650bdeedb17dfea"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 10,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator (推断)",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "卡通 方块贴图",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 2,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "牌序生成/洗牌算法与'卡关'难度曲线需要专门调，是核心难点"
+  },
+  "asset_notes": "卡通方块贴图素材极轻，AI 生图即可批量产出，素材层不是瓶颈",
+  "notes": "北京简游（《羊了个羊》同厂）堆叠三消换皮，机制成熟",
+  "cost_score": 2.12,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "点击堆叠的卡通砖块放入底部 7 个槽位，凑满 3 个相同图案自动消除，槽位填满即失败；层层堆叠需自上而下拆解，看广告/分享得道具续命。",
+  "highlights": [
+   "差一张就通的强悬念 + 砖块遮挡带来的可解性博弈，天然驱动看广告",
+   "省份排行榜的虚拟荣誉感引发社交裂变（建群互助）",
+   "消除瞬间反馈密集，魔性洗脑音乐强化上头"
+  ],
+  "innovations": [
+   "无实质创新，是《羊了个羊》堆叠三消机制的同厂换皮延续"
+  ],
+  "target_user": "全年龄泛休闲用户，通勤碎片时间",
+  "monetization": "IAA 广告为主（复活/移出/洗牌/撤回看广告），少量内购",
+  "lifecycle": "短平快爆款逻辑，靠持续换题材/活动维持留存"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "堆叠三消机制成熟、代码量小、素材轻；原题材已高度饱和，换题材/首关留存设计即成立。",
+  "suggestions": [
+   "把题材换成'中药抓药台'，三张同药材合成一副方子，天然带知识感",
+   "首关把堆叠层数降到 2 层，把失败点后移到第 5 关之后",
+   "加入'古方图鉴'收集线，把单局爽感接到长线目标"
+  ],
+  "risks": [
+   "堆叠三消已有大量换皮产品，买量成本偏高",
+   "原作品牌认知度极高，同题材直接撞车"
+  ],
+  "effort": "20–30 人日（1 前端+1 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "北京简游科技出品，堆叠三消类（同厂《羊了个羊》）",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎未确认，按微信小游戏三消惯例推断 Cocos Creator",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://wiki5.baike.com/wikiid/7144350874030085406",
+  "https://k.sina.cn/article_1905628462_7195952e01901fkyy.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:39:08+08:00"
+ },
+ "slug": "砖了个砖_4c91f1"
+}

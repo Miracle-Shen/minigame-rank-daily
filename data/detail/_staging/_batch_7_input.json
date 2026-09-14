@@ -1,0 +1,599 @@
+{
+ "batch": 7,
+ "total_batches": 9,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_7.json",
+ "games": [
+  {
+   "name": "天命行者",
+   "boards": [
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 18
+   },
+   "category_l1": "角色",
+   "category_l2": "卡牌",
+   "publisher": "广州大蓝网络科技有限公司",
+   "first_seen": "2026-08-09",
+   "appearances": 30,
+   "best_rank": 9,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:38:52+08:00"
+   }
+  },
+  {
+   "name": "四季合合",
+   "boards": [
+    "douyin/畅销榜"
+   ],
+   "ranks": {
+    "douyin/畅销榜": 18
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "青岛蓝飞互娱科技股份有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 65,
+   "best_rank": 9,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "四季合合",
+    "country": "cn",
+    "track_id": 6468249909,
+    "seller": "Chengdu Lanfei Huyu Technology Co., Ltd.",
+    "genres": [
+     "游戏",
+     "休闲",
+     "生活"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/64/14/ae641476-cb91-5fc0-a4ac-b79c640e8531/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/be/62/32/be623284-8635-3b08-6fb6-05d7b7459684/bfe94e73-152a-4037-b215-4c5b68171eae_1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/3e/48/ee3e4872-73e3-8ad8-3a0c-4c40c4ce14e9/6a7d438e-5d0f-4328-a842-a81f5510d1bb_2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/7a/76/397a7663-94b7-87ea-8438-b52cf1c95f85/93c1c4c7-f08c-4e65-92b8-92b492a69d07_3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/5a/83/6f5a8349-b22c-0b21-4948-f279a08f48d1/fda82eed-48f7-46ee-9702-ccae9903e3b0_20231011-155855.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/14/0d/ed/140ded74-a225-f94d-6de4-8827091ecc5e/ccae7a41-3597-4f10-b56f-207d85b29046_20240125-134857.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/20/d4/8a20d4e7-964a-f227-8741-eb93379d5342/16257a54-b407-4614-9cff-321853159e0b_20231011-155850.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/23/ea/5323ea44-4037-3a13-baf3-3e4a6779bee5/35500fc0-542b-4c0f-8d14-9d60dc8e973a_1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/bd/45/b1bd45f9-e857-4156-5ece-1e3205a78063/71ba0217-812a-45a5-bf09-230ee4353f03_2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/52/b0/0652b07e-e888-08c3-c87b-6015a32bfd1b/780b6c47-1354-48c5-85e7-0a00d43532a6_3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/30/cb/7e30cb4c-b534-ecd0-1b35-5f19e58b3c2a/9ed4390c-3b0a-4331-adc8-0f6f992813cc_4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3a/d3/b5/3ad3b515-e652-f4ca-730c-294fde69cd83/c6874be6-6419-4116-ae8d-6e3782fccd64_5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/53/6c/46536c16-76ae-dfde-201b-22edb4d1eab5/0bc64ba6-d5cf-4e32-9bc6-d911e166a9c4_20231012-112127.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/49/f6/0449f631-60e4-ad7f-a4c7-2b1a2fb4a735/f942572a-d834-4a94-85f7-ac64e973ed77_20231012-112134.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4a/60/9d/4a609d4a-4d60-4660-550a-977cf9e5a3f6/df3e4828-2932-43f9-976e-ec38c264c1d3_20231012-112152.jpg/626x1112bb.jpg"
+    ],
+    "description": "久违的四季岛，我来啦！\n\n在全新的《四季合合》中，我们将带给你带来全新的故事，也准备了大量充满惊喜的全新内容~~\n\n1.全新的地图，插画风室内室外设计。\n《四季合合》采用场景大地图+室内解锁的模式为你呈现主线故事情节，你将通过不断解锁“现实世界”——老宅与“异世界”——四季岛两个平行时空的线索，探寻四季岛的秘密。\n\n2.大量NPC登场，女主的真实身份成谜\n《四季合合》采用无限流的剧情，女主晨宛将不断在现实与异世界中穿梭。清扫老宅发现神奇的莫比乌斯环项链，打开尘封的仓库大门只身闯入异世界；在异世界中，结识大量NPC，他们的诉求似乎又与现实世界相互关联……\n现实中与她有着微妙关系的青梅竹马、顶头上司、当红小鲜肉以及青年警官，在四季岛也有着完全不一样的身份。\n\n3.爽快的棋盘玩法，多种多样的mini游戏\n《四季合合》采用7×9的棋盘布局，主线任务有上百个待解锁物品，游戏中还隐藏了大量隐藏合成路线和任务。别忘了阅读每一件物品的小故事哦~\n除此之外，《四季合合》还为你精心准备了大量minigame以及诸多奖励活动！每天都有新鲜的东西可以玩啦~",
+    "release_notes": "~《四季合合》1.5.26版本更新内容 ~\n\n1.麦香暖心，秋意入怀~全新织梦岛【暖秋麦语】即将限时开启！海量装扮等你收集，建设独一无二的专属小岛~\n2.全新活动【海滩砰砰砰】来袭！发射炮弹，击败捣蛋的海怪，赢丰富奖励！\n3.推开那扇，通往青春的教室门~全新活动【校园间奏】即将开启！可获得限定装扮等超多惊喜奖励~\n4.主线更新！本次我们将动身前往新区域【仙踪汤泉】、【巅峰雪场】、【暮雪钟楼镇】。赚取金币，向新区域进发吧！",
+    "file_size_bytes": 381053952,
+    "min_os": "14.0",
+    "version": "1.5.26",
+    "release_date": "2024-01-03",
+    "rating": 4.15182,
+    "rating_count": 1897,
+    "price": "免费",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/cn/app/%E5%9B%9B%E5%AD%A3%E5%90%88%E5%90%88/id6468249909?uo=4",
+    "fetched_at": "2026-09-15T00:38:53+08:00"
+   }
+  },
+  {
+   "name": "グルメ・ジャーニー",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 13
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Century Games Pte. Ltd.",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 9,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:38:57+08:00"
+   }
+  },
+  {
+   "name": "Pokémon Champions",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 14
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "The Pokemon Company",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 9,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 0.774,
+    "match_name": "PokéBase Champions",
+    "country": "cn",
+    "track_id": 6785016163,
+    "seller": "Limu Labs, LLC",
+    "genres": [
+     "参考资料",
+     "工具"
+    ],
+    "genre": "Reference",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/bf/3c/3dbf3c07-2aa0-3c99-a870-e4f181f087f2/pokebasechampions-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/0a/6f/fd0a6f17-d1de-5fe4-89cd-99c17b93d67e/Slice_1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/af/80/00af80e3-1ab9-aedd-3499-726671bf5ad9/Slice_2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/ae/1a/38ae1a6b-3749-cade-9ad6-ba089298eac8/Slice_3.png/626x1112bb.jpg"
+    ],
+    "description": "Pokedex, Team Builder, Team discovery, Tools, and more for Pokémon Champions!",
+    "release_notes": "Bug fixes and performance improvements",
+    "file_size_bytes": 100960256,
+    "min_os": "26.0",
+    "version": "1.0.1",
+    "release_date": "2026-07-28",
+    "rating": 0,
+    "rating_count": 0,
+    "price": "免费",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/cn/app/pok%C3%A9base-champions/id6785016163?uo=4",
+    "fetched_at": "2026-09-15T00:38:59+08:00"
+   }
+  },
+  {
+   "name": "ホワイトアウト・サバイバル",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 17
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Century Games Pte. Ltd.",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 9,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:39:03+08:00"
+   }
+  },
+  {
+   "name": "砖了个砖",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 12
+   },
+   "category_l1": "休闲",
+   "category_l2": "消除",
+   "publisher": "北京简游科技有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 72,
+   "best_rank": 10,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:39:08+08:00"
+   }
+  },
+  {
+   "name": "掼蛋",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 15
+   },
+   "category_l1": "棋牌",
+   "category_l2": "牌类",
+   "publisher": "杭州边锋网络技术有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 72,
+   "best_rank": 10,
+   "profile_value": "abandoned",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": "杭州边锋网络技术有限公司"
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:39:11+08:00"
+   }
+  },
+  {
+   "name": "俄罗斯方块拼图",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 18
+   },
+   "category_l1": "休闲",
+   "category_l2": "消除",
+   "publisher": "广州京游网络科技有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 70,
+   "best_rank": 10,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:39:15+08:00"
+   }
+  },
+  {
+   "name": "狙击外星人",
+   "boards": [
+    "douyin/热门榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 11
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "厦门营火科技有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 71,
+   "best_rank": 10,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:39:19+08:00"
+   }
+  },
+  {
+   "name": "迷你世界",
+   "boards": [
+    "ios/国区免费榜"
+   ],
+   "ranks": {
+    "ios/国区免费榜": 15
+   },
+   "category_l1": "游戏",
+   "category_l2": "",
+   "publisher": "Miniwan Tech",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 10,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "迷你世界",
+    "country": "cn",
+    "track_id": 1170455562,
+    "seller": "SHENZHEN MINIWAN TECHNOLOGY CO. LTD.",
+    "genres": [
+     "游戏",
+     "冒险",
+     "模拟"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/f4/6f/83f46f94-95f8-fc5d-b423-b785d1a2f6e0/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/95/86/ad958632-d189-99fd-d8e4-2458fe2e73d5/2688-1242_U9996_U56fe.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/69/64/026964fc-1de8-96ff-19a9-d44d3fd6ae35/2688-124201.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/d9/53/4cd953a5-ffb1-9895-edfe-464839918a16/2688-124202.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f6/9a/69/f69a69ed-2341-ec51-9cd2-26297930a470/2688-124203.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/f5/1d/f5f51de9-3efe-44d6-051c-572a5229e640/2688-124204.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/4e/3a/774e3ae9-0d7e-4be3-f518-0dc65e4c10cb/2732-2048_U9996_U56fe.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/ba/a2/39baa213-df02-bdcf-e115-58ef42887655/2732-204801.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/c0/e7/f8c0e707-a936-d2d5-cf95-4032f6f7c576/2732-204802.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/74/fe/02/74fe02fa-0981-320f-1cf9-b680fd844fa9/2732-204803.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/54/0f/65540fc7-eb98-ad5f-bd5a-6f78d7e04ac7/2732-204804.jpg/626x1112bb.jpg"
+    ],
+    "description": "【游戏介绍】\n《迷你世界》是一款高自由的精美3D沙盒游戏。\n这里没有规则限制，也没有特定的玩法，只有破坏和创造、生存与冒险的乐趣。\n可以通过双手和智慧完成一座城市或你理想的建筑，也可以化勇气为力量挑战荒野生存。\n可以体验躺在一望无际的草原感受天空与卷云舒的那份自在，也可以感受小动物围在身边的轻松惬意。\n当然你也可以做一位邪恶的破坏者、熊孩子，徒手破坏森林、草木，甚至可以建造火山与洪水来改变世界！最后可以把你构建的世界分享给小伙伴，邀请伙伴一起冒险，一起欢乐，一起创造属于你的世界！\n\n【游戏特色】\n画面精致，风格独特；\n自由创造，玩法丰富；\n一键开房联机 随时随地开黑互动；\n一键轻松分享 海量内容随时共享；\n精品国产沙盒  不只是游戏那么简单！",
+    "release_notes": "【星尘之境】\n传送门自由搭建、支持拆卸重组；星尘之境天空永夜，含荧菇平原、星落湖等十余种地形，极光、浓雾、流星雨特殊天气。\n【学院城堡】\n城堡暗藏奖励宝箱和怪物宝箱，还需要破坏蚀化召唤阵阻止怪物继续出现；击败蚀化蘑菇国王与其召唤的蚀化蘑菇人获得关键奖励。\n【新生物】\n独角兽、荧羽夜枭可驯服为坐骑，还有特殊外观可解锁；更新野外生物：呆呆菇、奇幻蛙、游侠猫等；更新怪物：食人花、晶石小怪、晶石巨像等。\n【新村庄】\n蘑菇人村庄和四叶草村庄的居民十分欢迎冒险家的拜访，部分村民拥有制作材料、兑换物品的能力。\n【双Boss】\n首位人型女Boss极夜星洛大法师登场；虚空魔眼在击败极夜星洛后出现；极光星洛在击败虚空魔眼后出现，传授法术。\n【虚空法术与装备】\n新增12种虚空法术；新增蘑菇法棒、蘑菇拳套等武器；新增国王皇冠、夜光菇笠等装备。\n【建造与图鉴】\n更新七大系列建筑方块；上新蘑菇与星辉系列家具；探索可解锁星尘之境图鉴。\n【创作工具】\n模型支持更多材质，ui文本增加属性、自定义上传动画，环境增加银河、极光，新增游戏记录。\n【活动】\n星尘之境送定制头像框、魔法邀请函拍照寄好友\n【装扮】\n极光 星洛、极夜 星洛、糖壳儿、幻梦蝶、夜萤、拉莱耶、冰露等新装扮、新动作",
+    "file_size_bytes": 2139396096,
+    "min_os": "12.0",
+    "version": "1.58.4",
+    "release_date": "2016-12-20",
+    "rating": 4.14681,
+    "rating_count": 4080477,
+    "price": "免费",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C/id1170455562?uo=4",
+    "fetched_at": "2026-09-15T00:39:21+08:00"
+   }
+  },
+  {
+   "name": "ワクワク電車ライフ - 街を発展！車掌ゲーム",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 15
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "ONIGIRI GAMES",
+   "first_seen": "2026-09-07",
+   "appearances": 8,
+   "best_rank": 10,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:39:24+08:00"
+   }
+  },
+  {
+   "name": "救救我鸭",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 13
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "北京起跃文化有限公司",
+   "first_seen": "2026-06-30",
+   "appearances": 60,
+   "best_rank": 11,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "救救我鸭",
+    "country": "cn",
+    "track_id": 6800532091,
+    "seller": "Beijing Tuyue Technology Co., Ltd.",
+    "genres": [
+     "游戏",
+     "益智解谜",
+     "娱乐",
+     "休闲"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/03/d1/c903d137-7ab5-c612-20e3-31bd41e48b6c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/7e/ca/337eca45-feba-7598-448c-8bfaf2a362d6/01_U9996_U9875-_U5e26_U5f00_U59cb_U6e38_U620f.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/39/1b/ee391b28-6230-76de-feec-0a60b58edb52/03_U6bcf_U65e5_U4e00_U5173.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/1d/89/cf1d890e-a368-4d02-8c45-30330f9a19c3/04_U6551_U6551_U5927_U516c_U9e21.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/84/ca/6384ca11-5d0f-561d-ac05-48f1fc7f8e7c/06_U6551_U6551_U65b9_U5757_U9e45.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/52/90/d95290d1-5016-a10f-e825-9713793f9768/07_U6c34_U679c_U5927_U80c3_U738b.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/18/d8/f218d832-cd7d-ecb6-5881-7286f9d6cc48/08_U6551_U6551_U6c34_U679c_U9e2d.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a0/fd/b5/a0fdb52c-9082-a4d6-1c70-97df1a4c2ae8/10_U7ed3_U7b97_U9875.png/626x1112bb.jpg"
+    ],
+    "description": "爆款小游戏登陆 App Store！好玩魔性又上头！\n《救救我鸭》——等你来拯救。\n烤鸭：\"我们很熟嘛？\"\n唐僧鸭：\"悟空！快来救我！！\"\n发财鸭：\"恭喜发财，红包拿来~\"\n\n【简单好玩，魔性上头】\n轻点屏幕，拆下螺丝，救出被困在栅栏里的可爱鸭子。匹配同色螺丝，哐哐消除，爽感拉满。一声声消除里，收获无限解压快乐。\n\n【 百变关卡，秀出智商】\n每一关都有全新元素解锁——冰冻螺丝、随机逻辑、异形布局……更多精彩玩法，等你来探索。\n\n【收集萌宠，解锁可爱】\n挑战关卡，赢取独一无二的萌宠鸭鸭——\n菜菜鸭、蛋蛋鸭、彩虹鸭、企鹅鸭……\n只有你想不到的，没有TA变不成的。\n经营你的专属农场，集齐你的专属可爱。\n\n【100% 免费，安心畅玩】\n源自爆款小游戏，不花一分钱，畅玩全部关卡。\n每天几分钟，轻松好入睡。\n每天一只鸭，精神顶呱呱。\n\n感谢各位玩家对《救救我鸭》的关注与支持。\n我们将持续优化游戏内容，推出更多玩法，只为在您放松之时，带来真正的开心与快乐。\n如有任何问题，随时联系我们：kefu@tooyue.com",
+    "release_notes": "",
+    "file_size_bytes": 103881728,
+    "min_os": "15.0",
+    "version": "1.1.1",
+    "release_date": "2026-08-22",
+    "rating": 3,
+    "rating_count": 1,
+    "price": "免费",
+    "advisory": "9+",
+    "url": "https://apps.apple.com/cn/app/%E6%95%91%E6%95%91%E6%88%91%E9%B8%AD/id6800532091?uo=4",
+    "fetched_at": "2026-09-15T00:39:26+08:00"
+   }
+  },
+  {
+   "name": "象棋达人",
+   "boards": [
+    "douyin/热门榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 18
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "深圳市一锋科技有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 64,
+   "best_rank": 11,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 0.75,
+    "match_name": "象棋達人",
+    "country": "cn",
+    "track_id": 1490919282,
+    "seller": "SUD Inc.",
+    "genres": [
+     "游戏",
+     "桌面",
+     "娱乐",
+     "策略"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/28/e3/b7/28e3b7eb-af90-aae2-848a-a8fd31f4eedf/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/18/ac/7a/18ac7a58-2bc9-277b-c40e-529c3c1a0116/pr_source.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/23/e5/87/23e58736-0bbd-5433-4db2-d8e67ef87085/pr_source.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/dd/43/cc/dd43cc04-65e5-160d-e42e-16c68489581a/pr_source.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b9/29/4e/b9294e80-0961-f3f3-4b73-0cc4ff55e7d3/pr_source.png/626x1112bb.jpg"
+    ],
+    "description": "象棋达人\n\n象棋是中国、台湾和越南流行的传统的2人对弈棋类游戏。其他类似的有朝鲜将棋及日本将棋。为与国际象棋等区别，又称中国象棋，主要流行于华人及越南人社区。是首届世界智力运动会的正式比赛项目之一。\n\nSUD Inc.",
+    "release_notes": "错误修复和稳定性改进",
+    "file_size_bytes": 22269952,
+    "min_os": "12.0",
+    "version": "1.18",
+    "release_date": "2019-12-12",
+    "rating": 4.5,
+    "rating_count": 10,
+    "price": "免费",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/cn/app/%E8%B1%A1%E6%A3%8B%E9%81%94%E4%BA%BA/id1490919282?uo=4",
+    "fetched_at": "2026-09-15T00:39:28+08:00"
+   }
+  },
+  {
+   "name": "猛鬼宿舍",
+   "boards": [
+    "douyin/热门榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 19
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "北京蜜獾工坊科技有限公司",
+   "first_seen": "2026-06-30",
+   "appearances": 66,
+   "best_rank": 11,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "猛鬼宿舍",
+    "country": "cn",
+    "track_id": 1609347000,
+    "seller": "Beijing Mihuan Games Technology Co., Ltd",
+    "genres": [
+     "游戏",
+     "策略",
+     "休闲"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/b6/cc/d2b6cc90-ab64-1605-8bb3-2d84064029e9/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/9e/38/30/9e383054-7c24-6830-375f-d34e476a53a6/85f545a1-73c0-4677-9678-505492c92902_Screen_Shot_2022-04-14_at_16.36.25.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/62/17/c5/6217c57e-a2bc-71e9-a3b5-0c357739c21a/163955c6-9ec2-48d1-aef7-5dbb61dffcdc_Screen_Shot_2022-04-14_at_16.45.12.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/b8/b6/92/b8b6928b-38fe-5b51-757e-4d50aaffc8f0/e8878066-29ed-401d-8d53-da9249e52028_Screen_Shot_2022-04-14_at_17.06.11.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/79/db/19/79db1995-a0c3-8861-cf54-610877645330/1394b106-1630-48ec-a32c-7ebb9313551d_Screen_Shot_2022-04-14_at_16.34.28.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/ce/bc/d9/cebcd945-29c3-09dd-fb71-82852b647a1f/5aa7ef9b-d4a4-46b9-981c-a196b8fc3496_Screen_Shot_2022-04-14_at_17.01.25.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/68/8e/d0/688ed02b-f24b-2dcd-6f98-59a5b0229cb1/182ec9cc-ce32-47d3-9f2c-aad355183a44_Screen_Shot_2022-04-14_at_16.37.58.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/5e/2d/f4/5e2df4c5-af46-a252-4100-b222dcfd27f3/9403aa16-51da-4d46-b336-6096d82e18a6_Screen_Shot_2022-04-14_at_16.41.58.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/37/33/d4/3733d4fb-0dbb-8a7a-4142-1919e2571aab/c53126e7-8e10-4c7d-b0eb-45302a5a195b_Screen_Shot_2022-04-14_at_17.13.58.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/36/36/09/36360981-cb93-32c4-fa15-9ff46821a77b/d3c70b7e-7433-4402-9b14-c4ecb1889063_Screen_Shot_2022-04-14_at_17.29.26.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/60/ae/39/60ae3934-cca4-65bf-17f5-5521aa9fa6a3/cf987517-e921-4bfd-b952-d3d4de4ad6d1_Screen_Shot_2022-04-14_at_17.39.51.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/ad/98/fd/ad98fd1b-bea9-ccd4-ca3a-bcd734bc229d/3ba8c6ba-ca0b-4f3e-b362-279bdb32f330_Screen_Shot_2022-04-14_at_17.21.14.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/5b/70/46/5b7046e7-9798-1172-7c8b-ac8378f779a3/65e165f7-b460-4868-9cb9-7856493fe7f9_Screen_Shot_2022-04-14_at_17.14.19.png/626x1112bb.jpg"
+    ],
+    "description": "《猛鬼宿舍》是一款2D塔防小游戏。游戏中玩家需躲避猎梦者的追捕，寻找适合自己的宿舍躲避，并发展经济建造炮台，抵御猎梦者。游戏中玩家只可以在房间中的空地板上进行建造，玩家点击空地板后，出现建筑菜单。游戏中玩家需要根据自己当前的经济选择性建造建筑，发现一条符合自己发展的道路。玩家需要将猎梦者猎梦者击败或者抵御至天亮方可获胜，反之猎梦者抓到玩家则玩家失败。  欢迎大家下载~如果有什么好的想法和建议还有期待，也欢迎大家在评论区留言哦！  \n后续可能的计划：  启用昼夜模式/开发自走棋类淘汰玩法/开发多人合作闯关玩法/推出猛鬼视角/推出非对称对抗玩法等等~",
+    "release_notes": "优化游戏体验",
+    "file_size_bytes": 215336960,
+    "min_os": "12.0",
+    "version": "2.5.6",
+    "release_date": "2022-03-16",
+    "rating": 4.09772,
+    "rating_count": 18124,
+    "price": "免费",
+    "advisory": "9+",
+    "url": "https://apps.apple.com/cn/app/%E7%8C%9B%E9%AC%BC%E5%AE%BF%E8%88%8D/id1609347000?uo=4",
+    "fetched_at": "2026-09-15T00:39:29+08:00"
+   }
+  },
+  {
+   "name": "随手画个轮",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 11
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "广州易游互玩科技有限公司",
+   "first_seen": "2026-08-31",
+   "appearances": 6,
+   "best_rank": 11,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T00:39:33+08:00"
+   }
+  }
+ ]
+}

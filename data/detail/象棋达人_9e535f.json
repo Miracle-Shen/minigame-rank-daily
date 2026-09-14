@@ -1,0 +1,172 @@
+{
+ "schema_version": 1,
+ "name": "象棋达人",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "深圳市一锋科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/热门榜"
+  ],
+  "ranks": {
+   "douyin/热门榜": 18
+  },
+  "platform_app_ids": {
+   "douyin": "tt8ae7fc5a15ddafbd"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 64,
+  "best_rank": 11,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Native 轻量引擎 (推断)",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "国风水墨 棋盘",
+  "dims": {
+   "engine": 1,
+   "art": 1,
+   "anim": 1,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 3,
+   "audio": 1
+  },
+  "dim_notes": {
+   "engine": "棋类有成熟开源框架，改配置即可，成本最低",
+   "art": "22MB 含几何棋盘+少量贴图，素材极轻"
+  },
+  "asset_notes": "国风棋盘与棋子贴图可程序化生成，几乎无美术成本",
+  "notes": "media 匹配为 SUD Inc. 的《象棋達人》(Dr. Xiangqi)，与输入 publisher 深圳市一锋科技不一致，疑为不同发行渠道；以媒体为准",
+  "cost_score": 1.62,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "完整复刻中国象棋规则，单人 vs 七档 AI、残局闯关、联网排位与好友开房，落子指引清晰，棋谱库支持复盘研习。",
+  "highlights": [
+   "点击棋子自动标注可行路线，新手误触率低",
+   "7000+ 古今残局 + 段位称号，兼顾练棋与竞技",
+   "离线开放全部人机/残局，无网也能玩"
+  ],
+  "innovations": [
+   "无实质创新，属公开规则中国象棋的标准数字实现"
+  ],
+  "target_user": "全年龄象棋爱好者，新手到资深皆宜",
+  "monetization": "IAA+IAP 轻量（棋盘皮肤/去广告），无强制广告",
+  "lifecycle": "长线工具型，靠残局库与赛事维持"
+ },
+ "clone": {
+  "verdict": "原样复刻",
+  "rationale": "中国象棋规则公开无版权壁垒，属工具型玩法原型；适合内部练手或填充位，不建议当主力。",
+  "suggestions": [
+   "加入'AI 解说'与'开局库教学'做差异化工具",
+   "用国风皮肤+段位系统提升留存",
+   "提供残局每日挑战做日活钩子"
+  ],
+  "risks": [
+   "棋类工具高度同质化，变现弱",
+   "联网对战涉合规与防作弊"
+  ],
+  "effort": "20–30 人日（1 前端+0.5 后端）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/28/e3/b7/28e3b7eb-af90-aae2-848a-a8fd31f4eedf/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/18/ac/7a/18ac7a58-2bc9-277b-c40e-529c3c1a0116/pr_source.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/23/e5/87/23e58736-0bbd-5433-4db2-d8e67ef87085/pr_source.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/dd/43/cc/dd43cc04-65e5-160d-e42e-16c68489581a/pr_source.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b9/29/4e/b9294e80-0961-f3f3-4b73-0cc4ff55e7d3/pr_source.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "media 匹配 SUD Inc. 的《象棋達人》(Dr. Xiangqi)，包体 22MB",
+   "level": "confirmed"
+  },
+  {
+   "claim": "输入 publisher 深圳市一锋科技与媒体 seller SUD Inc. 不一致，以媒体为准",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎未确认，按轻量棋牌惯例推断 Native 轻量引擎",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E8%B1%A1%E6%A3%8B%E9%81%94%E4%BA%BA/id1490919282",
+  "https://www.ldplayer.tw/games/com-ansangha-drxiangqi-on-pc.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 0.75,
+  "match_name": "象棋達人",
+  "country": "cn",
+  "track_id": 1490919282,
+  "seller": "SUD Inc.",
+  "genres": [
+   "游戏",
+   "桌面",
+   "娱乐",
+   "策略"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/28/e3/b7/28e3b7eb-af90-aae2-848a-a8fd31f4eedf/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/18/ac/7a/18ac7a58-2bc9-277b-c40e-529c3c1a0116/pr_source.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/23/e5/87/23e58736-0bbd-5433-4db2-d8e67ef87085/pr_source.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/dd/43/cc/dd43cc04-65e5-160d-e42e-16c68489581a/pr_source.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b9/29/4e/b9294e80-0961-f3f3-4b73-0cc4ff55e7d3/pr_source.png/626x1112bb.jpg"
+  ],
+  "description": "象棋达人\n\n象棋是中国、台湾和越南流行的传统的2人对弈棋类游戏。其他类似的有朝鲜将棋及日本将棋。为与国际象棋等区别，又称中国象棋，主要流行于华人及越南人社区。是首届世界智力运动会的正式比赛项目之一。\n\nSUD Inc.",
+  "release_notes": "错误修复和稳定性改进",
+  "file_size_bytes": 22269952,
+  "min_os": "12.0",
+  "version": "1.18",
+  "release_date": "2019-12-12",
+  "rating": 4.5,
+  "rating_count": 10,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/%E8%B1%A1%E6%A3%8B%E9%81%94%E4%BA%BA/id1490919282?uo=4",
+  "fetched_at": "2026-09-15T00:39:28+08:00"
+ },
+ "slug": "象棋达人_9e535f"
+}

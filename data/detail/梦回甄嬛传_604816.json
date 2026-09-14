@@ -1,0 +1,228 @@
+{
+ "schema_version": 1,
+ "name": "梦回甄嬛传",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州擎迅网络科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜",
+   "douyin/热门榜"
+  ],
+  "ranks": {
+   "douyin/热门榜": 9,
+   "douyin/新游榜": 1
+  },
+  "platform_app_ids": {
+   "douyin": "tt2f6959d4b113069b02"
+  },
+  "first_seen": "2026-09-05",
+  "appearances": 7,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "古风手绘卡通，角色立绘+宫廷场景",
+  "dims": {
+   "engine": 2,
+   "art": 5,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "iOS包体1474MB(很重)，古风手绘角色立绘+宫廷场景+番外卡牌美术量极大",
+   "logic": "合成+剧情分支选择+卡牌收集+好感养成+番外，系统较复杂",
+   "data": "角色养成+番外卡图鉴+社交借卡，多线收集"
+  },
+  "asset_notes": "2D古风手绘美术量极大（1474MB），角色立绘与宫廷场景需长期授权或原创替代；无3D资产",
+  "notes": "甄嬛传正版IP授权，擎迅/雷霆发行；合成经营框架成熟，瓶颈在IP",
+  "cost_score": 3.12,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "以贴身宫女视角穿越入宫，拖动合成食材/物品完成订单推进剧情；关键节点做抉择改写意难平结局，收集番外卡牌。",
+  "highlights": [
+   "剧情分支'改写意难平'（救眉庄/避淳儿结局），强情感拉扯",
+   "番外卡收集+好友借卡，图鉴癖好驱动长线",
+   "名场面高度还原（滴血认亲/惊鸿舞）唤醒追剧记忆"
+  ],
+  "innovations": [
+   "穿越者视角+剧情分支改写原作遗憾，把IP情怀转成可玩抉择",
+   "番外卡牌收集体系把追剧情感沉淀为收藏目标"
+  ],
+  "target_user": "甄嬛传粉丝/女性向用户，偏爱剧情与收集",
+  "monetization": "IAA+IAP混合（合成加速/卡牌/去广告），女性向付费",
+  "lifecycle": "长线运营，靠新番外/赛季内容维系"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "二合合成+经营机制成熟，代码与素材量适中；瓶颈在IP题材。甄嬛传正版授权是壁垒，换其他国民剧IP或原创宫斗可成立。",
+  "suggestions": [
+   "换IP为'红楼梦'或原创'深宫录'，复用合成+剧情分支框架",
+   "把'好友借卡'保留做轻社交裂变钩子",
+   "首关把剧情分支后置，前期纯合成降低理解门槛"
+  ],
+  "risks": [
+   "甄嬛传正版授权，直接套IP侵权",
+   "古风手绘美术成本高",
+   "同品类（宫斗合成）已有多个竞品"
+  ],
+  "effort": "30–45 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/73/d4/a073d4b4-02c6-f9b4-9eed-af30fdd5bf28/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/a6/df/a5a6df64-96c6-fe5c-7692-a9b386bf3ed8/0-_U7ad6_U7248_U9996_U56fe1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/07/69/7e0769d7-6939-db88-ef32-3183e55410c3/1-_U534e_U5983_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/ad/6c/12ad6ca6-4b96-41d5-ef52-d343340f4c05/2-_U7687_U540e_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/54/75/7b/54757b7c-cdaa-4a81-b060-8ff6f1f0828e/3-_U5b89_U9675_U5bb9_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/8a/cd/b28acdea-f25d-8f2c-9bb1-fac1d6f4151a/4-_U6c88_U7709_U5e84_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/0c/b8/df0cb80c-f24b-f1d7-105d-a30d97dfa236/5-_U66f9_U8d35_U4eba_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/8c/17/0a8c1712-e4d6-7a00-105e-ee48ee27ad25/0-_U7ad6_U7248_U9996_U56fe-2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/7b/2c/9a7b2c98-2dc3-2099-3919-0a4a6787fb40/1-_U6de1_U96c5_U56fd_U98ce_U7248-_U534e_U5983-2048_U00d72732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/bc/56/98bc56cd-5c61-959e-d911-8f66e7ef0d29/2-_U6de1_U96c5_U56fd_U98ce_U7248-_U7687_U540e-2048_U00d72732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/77/19/19771992-5661-6349-6bb1-3785830c1d77/3-_U6de1_U96c5_U56fd_U98ce_U7248-_U5b89_U9675_U5bb9-2048_U00d72732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/14/1d/1c141df7-a3df-4ee0-caf5-59241ab4e6bd/4-_U6de1_U96c5_U56fd_U98ce_U7248-_U6c88_U7709_U5e84-2048_U00d72732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/3a/c4/273ac413-cfb7-2e38-1c1f-d3816b9310cc/5-_U6de1_U96c5_U56fd_U98ce_U7248-_U66f9_U8d35_U4eba-2048_U00d72732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体1474MB，甄嬛传IP合成经营",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Cocos Creator/LayaAir（合成类小游戏常见，未确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E7%94%84%E5%AC%9B%E4%BC%A0/id6768190026?uo=4",
+  "https://www.yoyou.com/shouji/menghuizhenchuan_284440.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 0.908,
+  "match_name": "甄嬛传",
+  "country": "cn",
+  "track_id": 6768190026,
+  "seller": "Shenzhen Leiting Information Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "休闲",
+   "模拟"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/73/d4/a073d4b4-02c6-f9b4-9eed-af30fdd5bf28/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/a6/df/a5a6df64-96c6-fe5c-7692-a9b386bf3ed8/0-_U7ad6_U7248_U9996_U56fe1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/07/69/7e0769d7-6939-db88-ef32-3183e55410c3/1-_U534e_U5983_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/ad/6c/12ad6ca6-4b96-41d5-ef52-d343340f4c05/2-_U7687_U540e_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/54/75/7b/54757b7c-cdaa-4a81-b060-8ff6f1f0828e/3-_U5b89_U9675_U5bb9_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/8a/cd/b28acdea-f25d-8f2c-9bb1-fac1d6f4151a/4-_U6c88_U7709_U5e84_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/0c/b8/df0cb80c-f24b-f1d7-105d-a30d97dfa236/5-_U66f9_U8d35_U4eba_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/8c/17/0a8c1712-e4d6-7a00-105e-ee48ee27ad25/0-_U7ad6_U7248_U9996_U56fe-2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/7b/2c/9a7b2c98-2dc3-2099-3919-0a4a6787fb40/1-_U6de1_U96c5_U56fd_U98ce_U7248-_U534e_U5983-2048_U00d72732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/bc/56/98bc56cd-5c61-959e-d911-8f66e7ef0d29/2-_U6de1_U96c5_U56fd_U98ce_U7248-_U7687_U540e-2048_U00d72732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/77/19/19771992-5661-6349-6bb1-3785830c1d77/3-_U6de1_U96c5_U56fd_U98ce_U7248-_U5b89_U9675_U5bb9-2048_U00d72732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/14/1d/1c141df7-a3df-4ee0-caf5-59241ab4e6bd/4-_U6de1_U96c5_U56fd_U98ce_U7248-_U6c88_U7709_U5e84-2048_U00d72732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/3a/c4/273ac413-cfb7-2e38-1c1f-d3816b9310cc/5-_U6de1_U96c5_U56fd_U98ce_U7248-_U66f9_U8d35_U4eba-2048_U00d72732.jpg/626x1112bb.jpg"
+  ],
+  "description": "经典IP，正版还原，认准三字《甄嬛传》手游，执掌六宫模拟器，熹妃日常应有尽有！\n\n电视剧《甄嬛传》IP正版授权，高度还原剧版经典名场面，滴血认亲，你开口还是沉默？甘露寺，你走还是留？你的每个选择都通向不同结局，通过关键抉择书写新章。\n\n当当小主，正版甄嬛\n“那年杏花微雨，你说你是果郡王”——这次，杏花树下的人是你！电视剧《甄嬛传》IP正版授权，御前选秀、甘露寺回宫、滴血认亲……救不救、信不信、争不争，做出你的选择，亲手推动剧情，这一次换你来演！\n\n交交姐妹，无人敢欺\n“温太医，救救我！” “眉庄总是在这里陪我一起”——不仅温太医、眉姐姐、果郡王无条件帮你，连太后也会替你撑腰！在后宫，人脉是硬通货，结识并招揽剧中经典角色成为门客、挚友，培养门客提升宫斗力，增加与挚友的亲密度，组建你的\"\"后宫复仇者联盟\"\"。\n\n换换华裳，百变梳妆\n“粉色娇嫩，你如今几岁了？”——衣裳穿对了，想几岁就几岁！甄嬛经典穿搭，飒爽英装、异域服饰，万千风格各异的精致华服、装饰、妆容让你自由搭配，今日是清雅灵动小白兔，明日换霸气侧漏正红妆。记住，后宫穿搭拼的不只是好看，更是人心。\n\n做做御膳，执掌六宫\n“这御膳房啊，是皇上的胃，也是臣妾的心。”——御膳房提供各宫饮食，太医院可定人生死，内务府分配各宫资源份例……熟悉各宫各院的经营事务，笼络各方势力，才能在这深宫中如鱼得水！坐镇慎刑司，严厉治六宫；笼络御膳房，钻研宫廷食谱；深入太医院，调配秘制汤药......六宫事宜管累了？快来府邸喵居庭院，与各种可爱猫猫欢乐互动，纵享轻松经营的宫廷时光~\n\n斗斗心机，凤位可期\n“在这后宫中想要升，就必须猜得中皇上的心思”——初入宫闱的天真，甘露寺被人踩在脚底的狼狈，再到荣耀回宫化险为夷，在这深宫中步步为营才能活到大结局！不论是闲游拜访积攒好感，还是权贵之争笼络人心，日常的每一步安排都是位分晋升的关键。阅历、势力两手抓，才能在凤阙争锋中站上C位。\n\n选秀在即，各位小主，请即刻入宫，开启你的甄嬛重生剧本！",
+  "release_notes": "优化用户体验",
+  "file_size_bytes": 1474021376,
+  "min_os": "13.0",
+  "version": "1.2.51",
+  "release_date": "2026-12-30",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E7%94%84%E5%AC%9B%E4%BC%A0/id6768190026?uo=4",
+  "fetched_at": "2026-09-15T00:35:00+08:00"
+ },
+ "slug": "梦回甄嬛传_604816"
+}

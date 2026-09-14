@@ -1,0 +1,196 @@
+{
+ "schema_version": 1,
+ "name": "挪了下车",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州指望科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/畅玩榜": 7
+  },
+  "platform_app_ids": {
+   "wx": "wxcb8d7b6dfad21e95"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 3,
+  "profile_value": "mid",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "挪车，转盘",
+   "tags": [
+    "挪车，转盘"
+   ],
+   "notes": "",
+   "developer": "广州指望/福州超幻想"
+  }
+ },
+ "tech": {
+  "engine": "Cocos / Unity（inferred）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "简洁清爽2D停车场，高对比配色",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 1,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "包体58MB属轻量，简洁2D停车场，素材少",
+   "logic": "华容道式滑块求解+同色乘客匹配+盲盒车，关卡设计需保证可解"
+  },
+  "asset_notes": "极轻量2D，停车场与车辆用基础图形+配色即可，美术不是瓶颈。",
+  "notes": "广州指望科技（与福州超幻想协作），华容道滑块解谜，技术门槛低。",
+  "cost_score": 1.75,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "只能沿车头方向直进直退挪动停车场内的车，按颜色接上对应乘客并清空全场车辆即通关，无时间限制。",
+  "highlights": [
+   "‘差一步就通’的滑块规划张力，解开拥堵的爽感直接",
+   "同色乘客匹配+问号盲盒车的未知惊喜",
+   "无计时纯思考，解谜成就舒缓解压"
+  ],
+  "innovations": [
+   "无实质创新，属华容道滑块解谜的题材化执行（停车场+乘客匹配）"
+  ],
+  "target_user": "全年龄解谜轻度用户，通勤碎片时间",
+  "monetization": "IAA广告（复活/提示/去广告内购，推测）",
+  "lifecycle": "短平快，靠关卡量维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "滑块解谜机制经典可照搬，技术极轻，瓶颈仅在关卡设计与美术题材；换场景（车库/码头/商场）即差异化。",
+  "suggestions": [
+   "换为‘挪集装箱/挪快递’等本土生活题材",
+   "增加多色连锁与‘最少步数’星级挑战提升重玩",
+   "用程序化生成保证海量可解关卡"
+  ],
+  "risks": [
+   "滑块解谜同质化严重，买量竞争激烈",
+   "关卡可解性需算法保证，否则出现死局",
+   "留存依赖持续出新关"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/d7/a8/b7d7a802-c1cf-f68d-8636-006bf2b4ef40/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/09/7d/a5097dfb-836d-b020-3eda-2c208fdb4132/_U753b_U677f_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/a0/21/15a02189-b180-01d1-4c82-98df6a63943d/_U753b_U677f_1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/4c/af/c64caf59-79e5-9af6-56db-bad4e3087fad/_U753b_U677f_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/24/a3/dd24a3b2-dc00-b3c2-f1b0-803339dcb17a/_U753b_U677f_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/05/d5/3c05d514-72eb-1baa-53ee-5f1859938d55/_U753b_U677f_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/a6/18/7ba6181d-e47c-6828-256c-db6eb73ec2ef/_U753b_U677f_1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/54/6f/e2546f6c-6a9c-78cb-0edd-33614956fc02/_U753b_U677f_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/8e/41/fc8e4125-8624-6d94-15ee-5cd02e2b7b44/_U753b_U677f_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体58MB，华容道式停车场挪车解谜，广州指望科技",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为Cocos/Unity",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%8C%AA%E4%BA%86%E4%B8%8B%E8%BD%A6/id6754870989?uo=4",
+  "https://www.18183.com/zhxz/8973432.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "挪了下车",
+  "country": "cn",
+  "track_id": 6754870989,
+  "seller": "奇 王",
+  "genres": [
+   "游戏"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/d7/a8/b7d7a802-c1cf-f68d-8636-006bf2b4ef40/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/09/7d/a5097dfb-836d-b020-3eda-2c208fdb4132/_U753b_U677f_3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/a0/21/15a02189-b180-01d1-4c82-98df6a63943d/_U753b_U677f_1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/4c/af/c64caf59-79e5-9af6-56db-bad4e3087fad/_U753b_U677f_4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/24/a3/dd24a3b2-dc00-b3c2-f1b0-803339dcb17a/_U753b_U677f_2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/05/d5/3c05d514-72eb-1baa-53ee-5f1859938d55/_U753b_U677f_3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/a6/18/7ba6181d-e47c-6828-256c-db6eb73ec2ef/_U753b_U677f_1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/54/6f/e2546f6c-6a9c-78cb-0edd-33614956fc02/_U753b_U677f_4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/8e/41/fc8e4125-8624-6d94-15ee-5cd02e2b7b44/_U753b_U677f_2.jpg/626x1112bb.jpg"
+  ],
+  "description": "您的任务是通过巧妙移动车辆，让被困在停车场中的汽车顺利驶出。面对错综复杂的停车布局，您需要冷静思考、灵活规划每一步移动路径，找出最优解法。每一次成功疏通堵塞都能带来满满的成就感。这是一款融合逻辑与趣味的轻松解压游戏，非常适合在闲暇时放松思维、锻炼大脑。",
+  "release_notes": "优化部分场景加载异常的问题",
+  "file_size_bytes": 58121216,
+  "min_os": "13.0",
+  "version": "3.0.0",
+  "release_date": "2025-11-05",
+  "rating": 5,
+  "rating_count": 1,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/%E6%8C%AA%E4%BA%86%E4%B8%8B%E8%BD%A6/id6754870989?uo=4",
+  "fetched_at": "2026-09-15T00:37:05+08:00"
+ },
+ "slug": "挪了下车_75d156"
+}

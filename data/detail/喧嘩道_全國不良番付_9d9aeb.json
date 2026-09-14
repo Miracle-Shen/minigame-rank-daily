@@ -1,0 +1,174 @@
+{
+ "schema_version": 1,
+ "name": "喧嘩道-全國不良番付-",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "EX Co., Ltd.",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 8
+  },
+  "platform_app_ids": {
+   "ios": "1216025858"
+  },
+  "first_seen": "2026-09-12",
+  "appearances": 3,
+  "best_rank": 8,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推测）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "2D 日系 anime 立绘 / 头像 / 摩托",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 4,
+   "audio": 3
+  },
+  "dim_notes": {
+   "logic": "自动战斗 + 舍弟训练 + 传说角色 + 多系统，养成维度多",
+   "server": "SNS 聊天 + 联盟 + 实时对抗，强社交联网"
+  },
+  "asset_notes": "2D 日系立绘 + 头像 + 摩托，素材中等，需日系画师",
+  "notes": "媒体匹配（美区商店），包体 75.9MB；日本 EX Co. 出品，引擎按日系 RPG 选型推断",
+  "cost_score": 3.12,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "自动战斗推进，训练舍弟/强化 avatar 自定义角色，抽卡获传说不良，联盟 SNS 聊天，争夺全国不良番付排名。",
+  "highlights": [
+   "自动战斗 + 放置，离线也能推图",
+   "丰富的 SNS / 联盟社交与聊天羁绊",
+   "传说不良角色 + 摩托收集的养成爽感"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（日系不良 RPG 成熟）"
+  ],
+  "target_user": "日本男性不良 / 极道题材受众",
+  "monetization": "IAP（gacha/养成）+ 混合",
+  "lifecycle": "长线（9 周年运营）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "题材强绑定日本ヤンキー文化，受众局限；gacha RPG 运营重，国内团队难复制且无市场。",
+  "suggestions": [
+   "若做国内版需换为本土街头/校园题材并重建数值"
+  ],
+  "risks": [
+   "文化特定",
+   "gacha 合规",
+   "日本市场买量"
+  ],
+  "effort": "150+ 人日（不建议立项）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/b5/5e/27b55ed7-12c7-e7dc-9acc-4f63f15d374d/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/64/34/056434bf-c682-f965-1ff5-0faac5b3d204/1242x2208_1__U8868_U7d19.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/0d/6f/c10d6f5d-6f36-fc20-f056-1a8280fce11d/1242x2208_4__U30ad_U30e3_U30e9.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/06/fa/99/06fa99fe-2a17-47d6-509d-3ae1fae38e1e/1242x2208_5__U6297_U4e89.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/f3/9e/1df39e9d-d653-118a-b113-ca6c6dd8a69a/1242x2208_6__U5358_U8eca.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/7b/bc/317bbcf2-135f-5916-6929-b4ccf2f34539/1242x2208_7__U30c1_U30e3_U30c3_U30c8.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 75.9MB（官方商店数据）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity 属推断，无官方确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/%E5%96%A7%E5%98%A9%E9%81%93-%E5%85%A8%E5%9C%8B%E4%B8%8D%E8%89%AF%E7%95%AA%E4%BB%98/id1216025858?uo=4",
+  "https://gouhuo.qq.com/games/detail/794641"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "喧嘩道-全國不良番付-",
+  "country": "us",
+  "track_id": 1216025858,
+  "seller": "EX Co., Ltd.",
+  "genres": [
+   "Games",
+   "Social Networking",
+   "Adventure",
+   "Roleplaying"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/b5/5e/27b55ed7-12c7-e7dc-9acc-4f63f15d374d/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/64/34/056434bf-c682-f965-1ff5-0faac5b3d204/1242x2208_1__U8868_U7d19.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/0d/6f/c10d6f5d-6f36-fc20-f056-1a8280fce11d/1242x2208_4__U30ad_U30e3_U30e9.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/06/fa/99/06fa99fe-2a17-47d6-509d-3ae1fae38e1e/1242x2208_5__U6297_U4e89.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/f3/9e/1df39e9d-d653-118a-b113-ca6c6dd8a69a/1242x2208_6__U5358_U8eca.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/7b/bc/317bbcf2-135f-5916-6929-b4ccf2f34539/1242x2208_7__U30c1_U30e3_U30c3_U30c8.jpg/626x1112bb.jpg"
+  ],
+  "description": "漫画「BADBOYS」コラボ開催中！\nコラボ記念ガチャ最大30連無料！各種イベントでスタンプやアジトなどコラボ限定アイテムが多数登場！\n\n【祝】喧嘩道9周年！\n最新舎弟が狙えるガチャを毎日回せるキャンペーン開催中！\n\n11連ガチャを毎日まわせるキャンペーンを実施中!!\n制圧・抗争・仲間との出会い...簡単操作でトコトン遊び尽くせる!!\nヤンキーアプリの決定版『喧嘩道』を今すぐダウンロード!!\n\n▼誰でも簡単オートモード\n制圧はオートモードでサクサク進められる!!\n気の合うダチと連合を立ち上げて抗争を勝ち抜け!!\n超美麗キャラを仲間にし、最強パーティで頂点を目指せ!!\n\n▼今までのヤンキーアプリにはない新感覚RPG!!\n全國不良番付――\nそれは、とある組織が開催するアウトローのための喧嘩祭!!\n優勝者には最強の称号と、莫大な報酬が用意されているらしい――\n不良番付の頂点を目指し、今ここに全國のワル達が集結!!\nプレイヤーは最強を目指すヤンキーの1人として、全國不良番付の頂点を目指せ!!\n\n▼コミュニティ機能を活用してダチと絆を深めろ!!\nSNS機能が充実!! 連合結成でダチと出会い共同戦線を張ろう!!\nダチと一緒なら、どんな困難も乗り越えられる!! よりゲームを楽しめる!!\nここでしか出会えない最高のダチ達と絆を深め、ランキングTOPになって真のヤンキー道を極めろ!!\n\n▼超ド迫力の喧嘩バトル!!\n手に汗握る白熱した喧嘩バトルは超必見!!\n喧嘩バトルを勝ち抜き、最強ヤンキーの座を掴み取れ!!\n舎弟鍛錬とアバター強化で、自分の理想の不良へとカスタマイズ!!\n\n▼こんな人にオススメ!!\n・暇つぶしにはゲーム!! という方\n・無料でゲームを楽しみたい方\n・超美麗キャラクターやカードゲームが好きな方\n・不良、ヤンキー、暴走族、ギャング、極道、キャバ嬢、ギャル、単車など不良系ゲームが好きな方\n・コミュニケーションを楽しみたいという方\n・バイク好き、単車好き、車好きの方\n・複雑なゲームより気軽に簡単にゲームを楽しみたい方\n・不良、ヤンキー、喧嘩に憧れている方\n\n■伝説のヤンキーを仲間にしろ!!■\n仲間になる舎弟の中には、かつて「伝説」と呼ばれていた猛者がいるらしい…!!\n伝説のヤンキーを仲間にできれば必勝間違い無し!!\n限界突破で最強のチカラを引き出せ!!\n\n■連合仲間と絆を深めろ■\n抗争で勝利するには仲間との連携が重要!!\n抗争を有利に進める事が勝利へと繋がる!!\n掲示板機能を使って連合仲間と気軽にコミュニケーション!!\n今の気持を連合掲示板で伝えよう!!\n\n■武器や舎弟を強化■\n手に入れた武器や舎弟は強化や鍛錬で強くする事が出来るぞ\nレベルが上がるとどんどん強くなる!!\n中にはイベントを有利にする特殊な機能をもったものも\n最強の武器、最強の舎弟に強化しよう!!\n\n■喧嘩道公式X 最新情報はこちら■\nhttps://x.com/kenkadoinfo",
+  "release_notes": "・コラボ開催にあわせて、アプリアイコンと起動画面を変更しました。",
+  "file_size_bytes": 75900928,
+  "min_os": "13.0",
+  "version": "1.0.110",
+  "release_date": "2017-04-17",
+  "rating": 2.66667,
+  "rating_count": 3,
+  "price": "Free",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/us/app/%E5%96%A7%E5%98%A9%E9%81%93-%E5%85%A8%E5%9C%8B%E4%B8%8D%E8%89%AF%E7%95%AA%E4%BB%98/id1216025858?uo=4",
+  "fetched_at": "2026-09-15T00:38:48+08:00"
+ },
+ "slug": "喧嘩道_全國不良番付_9d9aeb"
+}

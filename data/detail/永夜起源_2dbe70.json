@@ -1,0 +1,109 @@
+{
+ "schema_version": 1,
+ "name": "永夜起源",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州招崭信息科技有限公司",
+  "category_l1": "角色",
+  "category_l2": "卡牌",
+  "boards": [
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 9
+  },
+  "platform_app_ids": {
+   "wx": "wx1ab0da97c26e5574"
+  },
+  "first_seen": "2026-08-16",
+  "appearances": 25,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / Cocos（inferred）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "暗黑写实国风，水墨+粒子特效",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体444MB属重度，暗黑写实国风场景+粒子特效资产量大",
+   "logic": "放置卡牌含阵营克制闭环+共鸣共享等级+动态永夜事件+天梯，系统设计中等偏上",
+   "data": "卡牌养成+觉醒+阵营+经济循环"
+  },
+  "asset_notes": "暗黑国风立绘与技能演出为主，包体444MB说明资产量不低但2D可控。",
+  "notes": "广州招崭，暗黑西游放置卡牌，护肝挂机+阵营克制，品类成熟。",
+  "cost_score": 3.12,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "收集西游神魔卡牌，按神/魔/妖/鬼/佛五大阵营克制编队，挂机自动战斗产出资源，推主线/爬塔/天梯。",
+  "highlights": [
+   "五大阵营闭环克制的配队策略爽感，低战力可越级",
+   "‘共鸣等级’共享经验池，抽卡即战无浪费的培养爽",
+   "每日‘永夜降临’动态事件刷新稀有资源，制造活跃锚点"
+  ],
+  "innovations": [
+   "无实质创新，属暗黑西游皮的放置卡牌成熟执行（共鸣共享等级为常见减负设计）"
+  ],
+  "target_user": "放置卡牌/西游题材玩家，20–40岁",
+  "monetization": "IAA+IAP混合（抽卡/基金/去广告，推测）",
+  "lifecycle": "长线，靠卡池/觉醒/赛季维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "放置卡牌机制成熟可照搬，瓶颈在题材与美术；暗黑西游皮已有辨识度，换其他神话体系（封神/聊斋）即差异化。",
+  "suggestions": [
+   "换为封神/山海经等本土神话皮降低撞脸",
+   "保留‘阵营克制+共鸣共享等级’减负设计",
+   "用‘动态时段事件’做每日活跃锚点"
+  ],
+  "risks": [
+   "放置卡牌赛道极度拥挤，买量CPM高",
+   "暗黑西游已有多款同类",
+   "数值与卡池平衡影响留存与口碑"
+  ],
+  "effort": "50–90 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "包体444MB，暗黑西游放置卡牌，广州招崭（招崭游戏）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为Unity/Cocos",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.biligame.com/detail?channelId=1&id=120195",
+  "https://wap.pp.cn/news/1410087.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:37:20+08:00"
+ },
+ "slug": "永夜起源_2dbe70"
+}

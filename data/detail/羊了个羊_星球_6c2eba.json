@@ -1,0 +1,223 @@
+{
+ "schema_version": 1,
+ "name": "羊了个羊：星球",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "北京简游科技有限公司",
+  "category_l1": "1",
+  "category_l2": "消除",
+  "boards": [
+   "douyin/热门榜",
+   "wx/人气榜",
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 1,
+   "wx/畅玩榜": 1,
+   "douyin/热门榜": 1
+  },
+  "platform_app_ids": {
+   "wx": "wx141bfb9b73c970a9",
+   "douyin": "tta196d72b3ea8917302"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "扁平卡通，羊主题贴图与100+皮肤，星球/飞船赛轻量3D表现元素",
+  "dims": {
+   "engine": 2,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "包体512MB，含100+皮肤贴图、大量序列帧与音效资产，素材量级偏重",
+   "physics": "无物理，纯点击拾取与卡槽匹配逻辑",
+   "logic": "三层堆叠消除+随机牌序+刻意卡关难度曲线+每日重置+省队排行，牌堆洗牌算法需精调"
+  },
+  "asset_notes": "核心美术为2D卡通贴图，可用AI生图+人工修图批量产出；包体膨胀主要来自皮肤与音效，素材层非瓶颈",
+  "notes": "成熟三消框架+原创堆叠规则的组合，技术风险低，瓶颈在关卡难度设计与题材",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "在多层堆叠的牌堆里点选可见牌移入下方7格槽位，集齐3个同图案即消除；牌堆越深越易卡死，靠道具与复活续命，一局1–3分钟，每日0点重置、省队排名驱动重复挑战。",
+  "highlights": [
+   "消除瞬间连锁爆破+屏幕轻微震动的密集反馈，比普通三消更『爽』",
+   "『0.1%通关』的强悬念与差一张就通的挫败感，天然驱动看广告复活",
+   "多层堆叠密度可视化，玩家能感知自己『快挖到底了』，制造进度幻觉",
+   "100+羊皮肤与『星球』飞船赛等轻收集线，把单局爽感接到长线目标"
+  ],
+  "innovations": [
+   "把经典三消从棋盘布局换成立体堆叠牌堆，改变可解性判断，形成独家难度体验",
+   "省队排行榜+每日重置的社交/稀缺机制，制造集体荣誉与日活钩子"
+  ],
+  "target_user": "25–45岁泛休闲用户，通勤碎片时间，易被社交裂变拉动",
+  "monetization": "IAA为主（复活/洗牌/道具看广告）+ 去广告内购，皮肤为装饰向内购",
+  "lifecycle": "长线运营，靠每日挑战、皮肤更新与省队活动维持复访"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "三层堆叠消除机制简单、已被验证，代码量小、素材轻；瓶颈在题材与首关留存设计。原题材（羊）已高度饱和，换题材是最优解。",
+  "suggestions": [
+   "把题材换成『中药抓药台』，三张同药材合成一副方子，天然带知识感",
+   "加入『古方图鉴』收集线，把单局爽感接到长线目标",
+   "首关把堆叠层数降到2层，把失败点后移到第5关之后，优化新手留存"
+  ],
+  "risks": [
+   "原作品牌认知度极高，同题材直接撞车",
+   "堆叠三消已有大量换皮产品，买量成本偏高",
+   "『0.1%通关』式刻意卡关易被平台判定为诱导广告，存在审核风险"
+  ],
+  "effort": "20–30 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/f8/2d/cff82daf-d527-24d5-0d18-47d703c68494/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/ac/9b/ceac9bf8-82a1-69dd-1f21-70df62c2e380/dcae26cb-2e1d-48a1-bc45-3266dbb1e894_5.5_U82f1_U5bf8_U663e_U793a_U5c4f03.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/de/46/6d/de466dda-5f4c-cc40-9ed5-b01c0b2e2820/f15652f9-e1cb-423b-9523-4e9fb22444ac_5.5_U82f1_U5bf8_U663e_U793a_U5c4f01.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/fe/5d/30fe5df9-b5f0-1011-0f23-9f400a324be4/8af3a5d4-03b0-444d-8e12-4ce7a2332e8a_5.5_U82f1_U5bf8_U663e_U793a_U5c4f02.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/9b/58/169b5891-0bf6-da6f-24b2-871dec731830/ff6f986f-9c38-45c4-8790-08a02511c686_5.5_U82f1_U5bf8_U663e_U793a_U5c4f04.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/56/50/23565074-f382-ace0-de28-bea9d957885d/8c47247b-5bea-4efd-91e1-7972eb0fe66a_5.5_U82f1_U5bf8_U663e_U793a_U5c4f05.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/16/b8/4e16b8e5-8098-57ad-126f-6b8174296046/37d39dfe-dfca-4bd6-8f97-f19c2c10af45_12.9_U82f1_U5bf8_U663e_U793a_U5c4f03.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/9e/fb/6f9efbdf-4665-247e-3512-3cc09f7de377/13fb6e9c-09f9-4a9b-830e-dfafac5d55ea_12.9_U82f1_U5bf8_U663e_U793a_U5c4f01.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/f6/b5/67f6b575-fc52-284c-7234-99fe905881d9/6d7a2c63-de8a-4ae2-bbd1-171b99af5153_12.9_U82f1_U5bf8_U663e_U793a_U5c4f02.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/a7/76/51a77641-4955-8ea0-27e8-f628f360f61c/c9770fd5-8135-4a46-96a4-dd1c85490576_12.9_U82f1_U5bf8_U663e_U793a_U5c4f04.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f0/d5/c2/f0d5c257-3341-0792-85be-2ff24b8db7c9/49fadc9e-7483-4dd8-bf76-9f9e6ade4131_12.9_U82f1_U5bf8_U663e_U793a_U5c4f05.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "引擎为 Cocos Creator（InfoQ/CSDN等多源确认，简游科技招聘CocosCreator岗位）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体512MB（App Store），含较多皮肤贴图、序列帧与音效资产",
+   "level": "confirmed"
+  },
+  {
+   "claim": "北京简游科技出品，为《羊了个羊》系列的星球续作",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E7%BE%8A%E4%BA%86%E4%B8%AA%E7%BE%8A-%E6%98%9F%E7%90%83/id1644374326?uo=4",
+  "https://www.infoq.cn/article/JMWaHRtAde7c6batjHxU",
+  "https://blog.csdn.net/weixin_44053279/article/details/129564968"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "羊了个羊：星球",
+  "country": "cn",
+  "track_id": 1644374326,
+  "seller": "Beijing Jianyou Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "益智解谜",
+   "休闲"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/f8/2d/cff82daf-d527-24d5-0d18-47d703c68494/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/ac/9b/ceac9bf8-82a1-69dd-1f21-70df62c2e380/dcae26cb-2e1d-48a1-bc45-3266dbb1e894_5.5_U82f1_U5bf8_U663e_U793a_U5c4f03.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/de/46/6d/de466dda-5f4c-cc40-9ed5-b01c0b2e2820/f15652f9-e1cb-423b-9523-4e9fb22444ac_5.5_U82f1_U5bf8_U663e_U793a_U5c4f01.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/fe/5d/30fe5df9-b5f0-1011-0f23-9f400a324be4/8af3a5d4-03b0-444d-8e12-4ce7a2332e8a_5.5_U82f1_U5bf8_U663e_U793a_U5c4f02.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/9b/58/169b5891-0bf6-da6f-24b2-871dec731830/ff6f986f-9c38-45c4-8790-08a02511c686_5.5_U82f1_U5bf8_U663e_U793a_U5c4f04.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/56/50/23565074-f382-ace0-de28-bea9d957885d/8c47247b-5bea-4efd-91e1-7972eb0fe66a_5.5_U82f1_U5bf8_U663e_U793a_U5c4f05.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/16/b8/4e16b8e5-8098-57ad-126f-6b8174296046/37d39dfe-dfca-4bd6-8f97-f19c2c10af45_12.9_U82f1_U5bf8_U663e_U793a_U5c4f03.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/9e/fb/6f9efbdf-4665-247e-3512-3cc09f7de377/13fb6e9c-09f9-4a9b-830e-dfafac5d55ea_12.9_U82f1_U5bf8_U663e_U793a_U5c4f01.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/f6/b5/67f6b575-fc52-284c-7234-99fe905881d9/6d7a2c63-de8a-4ae2-bbd1-171b99af5153_12.9_U82f1_U5bf8_U663e_U793a_U5c4f02.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/a7/76/51a77641-4955-8ea0-27e8-f628f360f61c/c9770fd5-8135-4a46-96a4-dd1c85490576_12.9_U82f1_U5bf8_U663e_U793a_U5c4f04.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f0/d5/c2/f0d5c257-3341-0792-85be-2ff24b8db7c9/49fadc9e-7483-4dd8-bf76-9f9e6ade4131_12.9_U82f1_U5bf8_U663e_U793a_U5c4f05.jpg/626x1112bb.jpg"
+  ],
+  "description": "新年“星”玩法！\\^o^/ 超火的正版消除游戏焕新登场啦！还记得被绵羊支配的恐惧吗？现在，全新玩法震撼来袭，带你开启不一样的羊羊之旅。\n\n认准这只羊，官方正版羊！游戏依旧是原班人马倾力打造，原汁原味的游戏体验，让你羊羊羊到停不下来！\n\n【新年 “星” 玩法，羊羊启航】\n“新年‘星’玩法” 为你陆续揭开新年神秘面纱，还有超酷炫的羊羊飞船赛，听那引擎轰鸣，羊羊们已经启航，快来加入这场星际冒险，感受风驰电掣的刺激！\n\n【超人气休闲游戏，新的一年你通关了吗？】\n重生之我要成为那只0.1%的羊，还是老配方，仅有 0.1% 的通关概率，你有没有体会过什么是第一关上幼儿园，第二关直接考研？仅 0.1% 的羊可以突出重围，如果通关了建议直接写进求职简历！它一定不能盲目玩，开动脑筋，走第一步的时候要提前想好第二步。成功 = 规划顺序 + 善用道具 + 999 次尝试……\n\n【你的省队需要你，竞争升级】\n其他省的羊群队伍越来越壮大，而你又又又又又一次加入省队失败了？！能不能超过前面的省，就看这一把了！你的一小步，省队的一大步！新的一年，和队友们携手冲击更高排名吧！\n\n【让人又爱又恨的规则，刺激依旧】\n危！每个道具仅有一次使用机会，错过就要重新开始！每关只有一条命，失败就要重新开始！每日 0 点重置，所有人都要重新开始！肉鸽式的消除游戏，是时候展现真正的技术了！\n\n【更多玩法，跟俺de小星球一起探索不止】\n通关了？别着急，还有更多新玩法等你挖掘！俺de小星球不止只有俺，听，羊羊在俺の小星球呼唤！快来这片神秘天地，开启别样的消除冒险，满足你无尽的探索欲。\n\n【不做孤独的美羊羊，要做”百变小羊“】\n羊圈里有什么羊？汉堡羊、白娘子羊、艾莎羊、练习生羊…… 奶奶说：一只狡猾的兔子要有 3 个洞窟，一只优雅的羊要拥有 100 个皮肤！快来装扮你的专属小羊，融入多彩的羊圈大家庭吧！",
+  "release_notes": "更新了新的活动和皮肤",
+  "file_size_bytes": 537141248,
+  "min_os": "12.0",
+  "version": "1.27.5",
+  "release_date": "2022-09-29",
+  "rating": 4.70565,
+  "rating_count": 34945,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E7%BE%8A%E4%BA%86%E4%B8%AA%E7%BE%8A-%E6%98%9F%E7%90%83/id1644374326?uo=4",
+  "fetched_at": "2026-09-14T23:50:56+08:00"
+ },
+ "slug": "羊了个羊_星球_6c2eba"
+}

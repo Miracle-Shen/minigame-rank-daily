@@ -1,0 +1,107 @@
+{
+ "schema_version": 1,
+ "name": "吃鸡训练营3D",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "个人开发者",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 20
+  },
+  "platform_app_ids": {
+   "douyin": "ttd63da080485a707a02"
+  },
+  "first_seen": "2026-09-13",
+  "appearances": 2,
+  "best_rank": 20,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断，3D 像素射击常见选择）",
+  "engine_evidence": "inferred",
+  "dimension": "3D（像素风）",
+  "art_style": "低面数像素 3D",
+  "dims": {
+   "engine": 3,
+   "art": 2,
+   "anim": 3,
+   "physics": 3,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "3D 像素射击，需 Unity 搭建场景/射击/AI，比 2D 模板重"
+  },
+  "asset_notes": "包体 101MB（第三方数据），像素 3D 素材轻量，可程序化/通用模型",
+  "notes": "个人开发者的轻量 3D 射击训练，核心为组队打机器人/丧尸 + 可破坏建筑解压",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "组队进入地图，用棍棒/热武器切换攻击机器人、丧尸等怪物，部分地图可摧毁建筑解压；完成突击目标即胜，偏 PVE 训练射击。",
+  "highlights": [
+   "近战/远程武器随时切换，应对不同怪物，操作爽快",
+   "可破坏建筑 + 射击解压，发泄感强",
+   "组队协同消灭敌人，配合乐趣"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（训练射击 + 破坏解压组合）"
+  ],
+  "target_user": "轻度射击/解压玩家",
+  "monetization": "IAA 广告为主（推断），轻内购",
+  "lifecycle": "短平快，靠地图/武器更新维持"
+ },
+ "clone": {
+  "verdict": "微创新",
+  "rationale": "3D 像素射击训练品类已成熟，仅值得在细节做体验升级（如破坏手感/怪物 AI），不建议独立重投入立项。",
+  "suggestions": [
+   "把「破坏建筑解压」做成核心卖点，强化物理碎裂反馈",
+   "加入 Boss 波次 + Roguelike 词条提升重复可玩",
+   "用 AI 生成像素模型压美术成本"
+  ],
+  "risks": [
+   "3D 射击赛道拥挤",
+   "像素 3D 仍需建模与射击手感调校"
+  ],
+  "effort": "30–45 人日（1 前端 + 1 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "为 3D 像素生存射击，包体约 101MB，个人开发者",
+   "level": "inferred"
+  },
+  {
+   "claim": "含组队/可破坏建筑/多武器切换",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "http://m.yx12345.com/game/22329.html"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：3D（像素风）"
+ ],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:40:43+08:00"
+ },
+ "slug": "吃鸡训练营3D_a6eec3"
+}

@@ -1,0 +1,213 @@
+{
+ "schema_version": 1,
+ "name": "王者荣耀",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 3
+  },
+  "platform_app_ids": {
+   "ios": "989673964"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（自研帧同步）",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "英雄3D建模，多皮肤风格",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 4,
+   "physics": 2,
+   "logic": 4,
+   "data": 4,
+   "server": 5,
+   "audio": 4
+  },
+  "dim_notes": {
+   "server": "实时5v5帧同步+跨区匹配+千万DAU，网络同步与反外挂门槛极高",
+   "art": "包体约3.2GB，百英雄3D建模+海量皮肤+全屏特效，资产极重",
+   "engine": "Unity+自研帧同步方案，移动端MOBA需自研网络与渲染优化"
+  },
+  "asset_notes": "3.2GB包体，百英雄3D建模+海量皮肤特效，资产极重，核心成本在英雄与皮肤产出",
+  "notes": "腾讯天美国民级5v5 MOBA，帧同步网络方案",
+  "cost_score": 4.0,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "5v5三路推塔，选英雄用技能补刀团战，拆水晶获胜，10分钟一局，靠操作与配合。",
+  "highlights": [
+   "微操改变战局（风骚走位/连招超神）的竞技爽感",
+   "英雄技能+装备组合的多样build",
+   "10秒跨区匹配+开黑上分的社交粘性",
+   "五杀/超神的正反馈"
+  ],
+  "innovations": [
+   "无实质创新（开创移动MOBA品类，机制是LOL移动化）；帧同步方案是技术亮点"
+  ],
+  "target_user": "全民MOBA，全年龄竞技",
+  "monetization": "IAP（英雄/皮肤/战令），公平竞技无数值付费",
+  "lifecycle": "长线（英雄/赛季/赛事）"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "国民级MOBA已有绝对用户壁垒，帧同步网络+反外挂+百英雄资产研发极重，同类复刻无差异与生存空间。",
+  "suggestions": [
+   "若切入，只做‘轻量3v3或自走棋化MOBA’降低资产与网络成本，但仍难撼动头部"
+  ],
+  "risks": [
+   "头部垄断",
+   "帧同步技术难",
+   "英雄资产极贵",
+   "买量贵"
+  ],
+  "effort": "不建议（强做需200+人日）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/cb/c3/f8cbc3ea-678d-e931-7020-59bd87625eb0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/c1/23/44c12367-356a-41ec-b7e1-fbd162d5821a/1_U5fc3_U9b54_U516d_U8033.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/c3/d5/a2c3d5f0-5c79-4b36-3270-049fb1ac2c86/2__U8d75_U6000_U771f_-__U9022_U6625_U5e8f.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/e1/e8/39e1e8d7-804f-b018-123f-900c0c587014/3_U6241_U9e4a.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/fa/d6/f1fad63c-3278-d7b6-1d4e-c10af04c3595/4__U827e_U7433-_U7e41_U590f_U7b3a.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/39/c7/5539c71d-b513-63e9-5ba1-e7206eefc656/5__U91d1_U8749-_U6d4e_U4e16_U7985_U5fc3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/4a/e9/ec4ae9ce-79d2-a28e-dd9c-343a1219a308/1__U5b59_U609f_U7a7a_U547d_U683c__U00b7__U5fc3_U9b54_U516d_U8033.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b3/9c/fd/b39cfd6c-2791-b460-27aa-5d6b0a8439c6/2__U8d75_U6000_U771f_-__U9022_U6625_U5e8f.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/e2/ef/11e2ef9f-87b5-180c-00c4-e7260c9a74bf/3__U6241_U9e4a.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/94/fd/3b94fdde-df4e-1a57-3d0b-3ebdb7fc386d/4__U827e_U7433-_U7e41_U590f_U7b3a.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/2a/8c/442a8c6e-b1f1-6de2-c643-9b544f2d8126/5__U91d1_U8749-_U6d4e_U4e16_U7985_U5fc3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "使用Unity引擎并自研帧同步方案（技术分享确认）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体约3.2GB，属很重量级",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://cloud.tencent.com/developer/article/1006102",
+  "https://blog.51cto.com/unitysky/1926609",
+  "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/id989673964?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "王者荣耀",
+  "country": "cn",
+  "track_id": 989673964,
+  "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+  "genres": [
+   "游戏",
+   "娱乐",
+   "动作",
+   "策略"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/cb/c3/f8cbc3ea-678d-e931-7020-59bd87625eb0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/c1/23/44c12367-356a-41ec-b7e1-fbd162d5821a/1_U5fc3_U9b54_U516d_U8033.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/c3/d5/a2c3d5f0-5c79-4b36-3270-049fb1ac2c86/2__U8d75_U6000_U771f_-__U9022_U6625_U5e8f.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/e1/e8/39e1e8d7-804f-b018-123f-900c0c587014/3_U6241_U9e4a.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/fa/d6/f1fad63c-3278-d7b6-1d4e-c10af04c3595/4__U827e_U7433-_U7e41_U590f_U7b3a.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/39/c7/5539c71d-b513-63e9-5ba1-e7206eefc656/5__U91d1_U8749-_U6d4e_U4e16_U7985_U5fc3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/4a/e9/ec4ae9ce-79d2-a28e-dd9c-343a1219a308/1__U5b59_U609f_U7a7a_U547d_U683c__U00b7__U5fc3_U9b54_U516d_U8033.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b3/9c/fd/b39cfd6c-2791-b460-27aa-5d6b0a8439c6/2__U8d75_U6000_U771f_-__U9022_U6625_U5e8f.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/e2/ef/11e2ef9f-87b5-180c-00c4-e7260c9a74bf/3__U6241_U9e4a.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/94/fd/3b94fdde-df4e-1a57-3d0b-3ebdb7fc386d/4__U827e_U7433-_U7e41_U590f_U7b3a.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/2a/8c/442a8c6e-b1f1-6de2-c643-9b544f2d8126/5__U91d1_U8749-_U6d4e_U4e16_U7985_U5fc3.jpg/626x1112bb.jpg"
+  ],
+  "description": "王者荣耀：5v5团队公平竞技游戏\n【游戏介绍】\n《王者荣耀》是腾讯第一5V5团队公平竞技手游，国民MOBA手游大作！5V5王者峡谷、公平对战，还原MOBA经典体验；契约之战、五军对决、边境突围、王者模拟战等，带来花式作战乐趣！10秒实时跨区匹配，与好友开黑上分，向最强王者进击！多款英雄任凭选择，一血、五杀、超神，实力碾压，收割全场！敌军即将到达战场，王者召唤师快来集结好友，准备团战，就在《王者荣耀》！\n【游戏特色】\n1、5V5越塔强杀！开团\n5V5经典地图，三路推塔，呈现最原汁原味的对战体验。英雄策略搭配，组建最强阵容，默契配合极限666！\n2、随时开团！10分钟爽一把！\n适合手机的MOBA游戏，10分钟享受极致竞技体验。迂回作战，手脑配合，一战到底！人多，速来！\n3、团队公平竞技！好玩不坑拼实力！\n凭实力carry全场，与团队共赴荣耀。不做英雄养成，不设体力，还你最初的游戏乐趣！\n4、指尖五杀！风骚走位秀操作！\n微操改变战局！手速流？意识流？看我风骚走位，力压群雄，打出高端操作！收割，连杀超神！\n\n【特别说明】\n在游戏《王者荣耀》中，用户登录时可以选择“与QQ好友玩/与微信好友玩/游客登录”，三种登录方式在iOS设备上的游戏数据不互通（包括等级、钻石、金币等）。用户在游戏中购买的游戏代币“点券”仅限在本应用中使用。腾讯的虚拟货币，比如Q币、Q点无法在本应用中使用。\n游戏隐私政策详情，可查阅https://rule.tencent.com/rule/d277ee20-2709-4cd5-882b-cbd485753346\n【联系我们】\n如果您喜欢我们的游戏，欢迎随时给我们评价、留言。\n官方网站：http://pvp.qq.com\n官方微信：heromoba",
+  "release_notes": "【版本更新内容】\n1.新赛季-不拘命格：S44新赛季现已开启。命格初启，英雄具有更多可能性——同源可异路，殊途亦重逢。当大圣被分化的神魂化为心魔六耳，命运便不再只有一种写法。不拘命格，自定归途。\n2.孙悟空命格-心魔六耳：全新英雄命格企划开启，孙悟空命格【心魔六耳】上线。昔年佛祖忌惮孙悟空之力，取其半数神魂化为心魔六耳，欲借此驯化孙悟空。知晓真相的心魔六耳不愿沦为傀儡，挣脱束缚，与孙悟空重新合二为一。\n作为打野位的他以连环棍法压制敌人、以分身化形进退自如，能量越满锋芒越盛。不自由，毋宁死，向不公挥棒，命途由自己书写。\n孙悟空与心魔六耳支持单独禁用、选取，可共存于同一对局。心魔六耳独立累积荣誉与排行，拥有单独皮肤体系，与孙悟空分开收集展示。\n3.新改动-扁鹊玩法升级：英雄形象与玩法同步升级，被动新增【起死回生】技能，可复活身边阵亡队友，生死之间，妙手回春。二技能重做为全新毒球，造成伤害与眩晕，毒球穿过一技能毒液区域可获得强化，飞行速度、距离、伤害、眩晕时间与爆炸范围全面提升；三技能新增斩杀机制，目标生命低于斩杀线时触发提示，大招可直接残血收割，对战体验升级。\n4.新赛季装备-无象神器：所有英雄、职业的自适应装备。购买该装备后自动适配自身主职业属性，释放大招触发专属技能效果，出装选择更丰富。\n5.新战令-岁景四时：S44赛季全新战令来袭，艾琳·繁夏笺、赵怀真·逢春序即将上线。\n艾琳·繁夏笺：S44赛季战令进阶版30级可领取；\n赵怀真·逢春序：S44赛季战令免费版5级可领取，40级可免费提升至史诗品级。\n6.新升级-巅峰赛体验升级\n①巅峰赛身份体系强化，以分数与排名为依据，巅峰之路被划分为1500、1800、2100、总榜前10000、总榜前100五个阶段，每个分段搭配专属视觉标识，每次实力进阶，都清晰可见；\n②定级赛上线，巅峰积分1200分及以下的玩家可参与定级赛，定级赛期间更注重单局表现，失败扣分减少、胜利额外加分，助力新老玩家平稳开启巅峰之路；\n③万强赛禁选流程升级，新增擅长分路英雄预设，禁选阶段同步展示队友擅长英雄信息，沟通更高效、策略更清晰。\n7.新优化-农场体验优化：农场等级上限提升至100级，新增20种作物（含4种全新英雄作物）。新增加速道具【流光沙漏】，向作物灌注加速能量，自由掌控作物成熟节奏，从容把握收获时段。\n8.基础体验优化：\n①局内聊天体验优化：新增组队聊天频道，文字消息仅组队队友可见，局内交流更私密。聊天框视觉升级，频道以颜色标签区分，表情支持框内直接显示，信息辨识更清晰；\n②赛前交流升级：选将阶段支持展示英雄战力、巅峰评分、近期高光战绩等数据，可随心切换；新增限时套系接龙表情，同队玩家依次发送系列表情可触发专属彩蛋，互动趣味更丰富；选将定制系统升级，“我的搭配”新增灵宝槽位，支持为每个皮肤配置专属灵宝并自由切换；天幕支持同时穿戴并释放最多5个，搭配自由度更高；\n③对局环境优化：排位赛违规玩家被踢出时额外扣除排位积分，同局无违规队友均可领取积分补偿；\n④信号与小地图优化：新增拖动信号预表现，防御塔与野怪图标升级，新增暗影之径效果，信息传达更明确；\n⑤装备描述升级：装备描述整体刷新，新增合成路径展示，支持折叠，信息查阅更便捷；\n⑥局内自定义设置功能优化，对局操作更省心、战场信息获取更及时。\n9.新升级-娱乐模式升级：原娱乐模式升级为玩法大厅，无限乱斗等经典娱乐玩法与此前分散在活动中心中的各类休闲玩法统一归入，一站式体验多元内容；新增推荐模块与分类页签，玩法类型与亮点信息一目了然，查找与开局更便捷；",
+  "file_size_bytes": 3434271744,
+  "min_os": "11.0",
+  "version": "11.4.1.1",
+  "release_date": "2015-10-28",
+  "rating": 3.25593,
+  "rating_count": 15008362,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/id989673964?uo=4",
+  "fetched_at": "2026-09-15T00:36:36+08:00"
+ },
+ "slug": "王者荣耀_ccb61d"
+}

@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "name": "グルメ・ジャーニー",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Century Games Pte. Ltd.",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 13
+  },
+  "platform_app_ids": {
+   "ios": "6471045672"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 9,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / Cocos (推断)",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "明亮卡通 美食旅行插画",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 2,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "全球版包体约 377–694MB，含数十城市插画与 500+ 食材图标，素材量重",
+   "logic": "500+ 食材合成链、旅客订单、城市解锁，内容深度大"
+  },
+  "asset_notes": "城市插画与 500+ 食材图标是主要成本，需本地化美术与本地料理 BGM",
+  "notes": "即 Century Games 全球爆款《Tasty Travels: Merge Game》的日区本地化（publisher 一致，推断）",
+  "cost_score": 2.88,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "在家庭厨房点击生成器消耗能量产出食材，拖拽两个相同食材合成新菜肴，完成旅客订单赚金币与卡包，金币解锁巴黎/东京等美食城市，沿合成链推进剧情。",
+  "highlights": [
+   "500+ 食材合成链 + 旅客订单，合成与探索节奏交替不易疲劳",
+   "城市解锁带来新 BGM 与本地料理（如日本用筝音），沉浸感强",
+   "卡册系统 + 限时活动提供中长期收集目标"
+  ],
+  "innovations": [
+   "无实质创新，系 Century Games 全球爆款《Tasty Travels: Merge Game》的日区本地化版本，属成熟 merge 品类执行"
+  ],
+  "target_user": "20-40 岁女性，偏爱治愈合成/旅行题材的休闲用户（日区）",
+  "monetization": "IAA+IAP 混合（能量恢复看广告 + 宝石/卡包内购）",
+  "lifecycle": "长线运营，全球收入榜 TOP10 级，靠赛季活动维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "merge 美食品类机制成熟无壁垒，但原品已是世纪华通旗下全球收入 TOP10，直接复制易成炮灰；换本土题材/地域美食才有机会。",
+  "suggestions": [
+   "换成本地美食题材（如'夜市小吃合成'），降低与正作的 IP 联想",
+   "把'旅行城市'换成'各省老字号'，强化国风认知",
+   "前期免费能量更宽，用短视频素材做差异化买量"
+  ],
+  "risks": [
+   "原品内容量与买量规模碾压后来者",
+   "美术/IP 资产不得擅自挪用",
+   "merge 赛道头部效应强"
+  ],
+  "effort": "60–100 人日（1 前端+1.5 美术+1 策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "publisher Century Games Pte. Ltd. 与《Tasty Travels: Merge Game》一致，推断为日区版",
+   "level": "inferred"
+  },
+  {
+   "claim": "全球版包体 377–694MB、500+ 食材合成链",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.centurygames.com/?p=2343",
+  "https://baike.baidu.com/item/Tasty%20Travels%3A%20Merge%20Game/67478881"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:38:57+08:00"
+ },
+ "slug": "グルメ_ジャーニー_89bd8a"
+}

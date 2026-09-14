@@ -1,0 +1,117 @@
+{
+ "schema_version": 1,
+ "name": "造化仙府",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "上海沛炫网络科技有限公司",
+  "category_l1": "1",
+  "category_l2": "模拟经营",
+  "boards": [
+   "douyin/畅销榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 8,
+   "douyin/畅销榜": 9
+  },
+  "platform_app_ids": {
+   "wx": "wxc5c6c4e6b4b0075f",
+   "douyin": "tt3a5d4ce0a5504afe02"
+  },
+  "first_seen": "2026-06-30",
+  "appearances": 71,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "清雅国风水墨，仙侠建筑/景观/角色",
+  "dims": {
+   "engine": 3,
+   "art": 5,
+   "anim": 3,
+   "physics": 1,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "安卓包体约1.1GB(很重)，国风水墨含海量建筑/景观/法宝/角色立绘，素材量极大",
+   "logic": "洞府建设+聚灵阵+炼丹炼器+弟子AI托管+兽潮+跨服SLG+阵营+天劫，系统极复杂",
+   "data": "多线养成（境界/装备/灵根/经济）+跨服+仙盟，深度高",
+   "server": "实时联机+跨服+仙盟争霸(太虚争锋)，强联网"
+  },
+  "asset_notes": "纯检索推断（无官方媒体材料）；2D国风美术量极大，修仙题材角色/法宝/场景需长线产出，素材层是主要瓶颈",
+  "notes": "无官方媒体材料，纯靠检索+画面推断；修仙放置+SLG融合，内容重度",
+  "cost_score": 3.75,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "从零规划仙府，升级聚灵阵/开辟灵田，收弟子自动产出资源；炼丹炼器突破境界，周期性兽潮检验防线，长线放置挂机。",
+  "highlights": [
+   "放置挂机灵石灵草'躺着进账'，离线也不断档的低压力爽感",
+   "弟子按灵根自动分配岗位，玩家只管规划不管操作",
+   "天劫突破+阵营选择带来养成的目标感与策略"
+  ],
+  "innovations": [
+   "把修仙放置与硬核炼丹炼器/跨服SLG结合，题材融合度高于普通放置"
+  ],
+  "target_user": "修仙/国风题材爱好者，偏好种田养老与策略",
+  "monetization": "IAA+IAP混合（首充/月卡/抽弟子/加速），重度付费",
+  "lifecycle": "长线运营，靠赛季/跨服/新弟子维系"
+ },
+ "clone": {
+  "verdict": "微创新",
+  "rationale": "修仙放置+SLG品类已成熟且内容极重（1.1GB），纯复刻成本与买量都高；建议在成熟框架上做题材/系统微差异，不建议独立重资本立项。",
+  "suggestions": [
+   "换题材为'妖修洞天'或'红楼别院'，复用放置+建设框架",
+   "把跨服SLG砍掉，聚焦单机放置+轻社交降低后端成本",
+   "首关把炼丹火候玩法后置，前期只做灵田种植降低门槛"
+  ],
+  "risks": [
+   "内容极重、长线产能要求高",
+   "修仙SLG赛道买量贵",
+   "无官方材料，玩法以推断为主"
+  ],
+  "effort": "90–130 人日（2 前端 + 1 后端 + 1 策划 + 1 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "修仙模拟经营放置+跨服SLG，安卓包约1.1GB",
+   "level": "inferred"
+  },
+  {
+   "claim": "开发商上海沛炫网络科技，无官方App Store媒体材料",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎未确认，推断 Cocos Creator/LayaAir",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.juxia.com/sjwy/youxi-691253.html",
+  "https://ku.18183.com/zhxf/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:34:52+08:00"
+ },
+ "slug": "造化仙府_d5903e"
+}

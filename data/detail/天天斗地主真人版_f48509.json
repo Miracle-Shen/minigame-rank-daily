@@ -1,0 +1,207 @@
+{
+ "schema_version": 1,
+ "name": "天天斗地主真人版",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "深圳市禅游科技股份有限公司",
+  "category_l1": "棋牌",
+  "category_l2": "牌类",
+  "boards": [
+   "wx/人气榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 19
+  },
+  "platform_app_ids": {
+   "wx": "wxb52b11c4dd14b6fc"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 68,
+  "best_rank": 12,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "2D 卡牌/桌面，卡通人物与场景",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 3,
+   "server": 4,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "纯卡牌无物理",
+   "server": "斗地主为实时多人联机对战，需房间匹配与牌局同步，服务端成本高"
+  },
+  "asset_notes": "2D 卡牌 UI 与角色立绘为主，包体约 219MB（中），素材不是瓶颈；瓶颈在合规与实时服务端。",
+  "notes": "引擎未找到官方确认，按棋牌类小游戏常见选型推断为 Cocos Creator。",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "三人/四人一副牌斗地主，叫地主→出牌→压牌，先出完者胜；一局数分钟，靠比赛/癞子/欢乐多种玩法续玩。",
+  "highlights": [
+   "经典斗地主规则认知零门槛，上手即玩",
+   "癞子/欢乐等变体增加变数与重开欲望",
+   "比赛模式与每日福利豆驱动留存"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（标准斗地主规则 + 多玩法聚合）"
+  ],
+  "target_user": "30-55 岁男性为主的棋牌用户",
+  "monetization": "IAA 广告 + IAP（豆子、VIP、去广告）混合",
+  "lifecycle": "长线运营，靠赛事与福利维持"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "棋牌类产品在国内需棋牌版号与合规资质，且斗地主赛道被禅游/腾讯系高度饱和，复刻合规与买量双高风险。",
+  "suggestions": [
+   "如有版号资质，可做「换皮斗地主」换美术题材降低成本"
+  ],
+  "risks": [
+   "棋牌网络游戏出版物号（版号）合规要求",
+   "赛道极度饱和、禅游/腾讯头部锁死",
+   "涉赌合规红线"
+  ],
+  "effort": "40–60 人日（含实时服务端，不含版号周期）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/55/a9/4055a915-b06c-8c0a-e161-4ddc68fb7fd6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cd/f3/25/cdf32561-ae92-d542-6449-b2a0dfab55af/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/ad/5e/30ad5ebb-8ee7-7457-8e4d-9b22b1c85f7f/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/1f/a3/de1fa3a5-6059-7409-54e5-35af94282b03/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/e2/5c/67e25c65-cf38-2648-22b7-589f2ddb61e8/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/2f/58/f82f5847-3196-aec6-2c49-f936a66f20d9/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/7a/a3/c77aa373-dfc6-3a6b-67d2-b9bd7ae1f56f/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/09/bb/ff09bb1c-f29e-194f-4b0e-f5092888566c/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/5b/f9/955bf9b0-c10e-419e-ff32-40cd9d1a837e/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/39/c6/7f39c6dd-991c-cbf6-5556-7dd7a79d0630/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/01/c0/0101c010-8499-959b-0b2a-9f13b55a309a/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "引擎疑为 Cocos Creator（棋牌小游戏常见选型，未找到官方确认）",
+   "level": "inferred"
+  },
+  {
+   "claim": "包体约 219MB（229877760 字节），属「中」量级",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E6%96%97%E5%9C%B0%E4%B8%BB-%E7%9C%9F%E4%BA%BA%E7%89%88-%E5%AE%98%E6%96%B9/id1624651835?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "天天斗地主（真人版）-官方",
+  "country": "cn",
+  "track_id": 1624651835,
+  "seller": "Shenzhen Shi Jiu You Network Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "卡牌",
+   "桌面"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/55/a9/4055a915-b06c-8c0a-e161-4ddc68fb7fd6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cd/f3/25/cdf32561-ae92-d542-6449-b2a0dfab55af/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/ad/5e/30ad5ebb-8ee7-7457-8e4d-9b22b1c85f7f/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/1f/a3/de1fa3a5-6059-7409-54e5-35af94282b03/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/e2/5c/67e25c65-cf38-2648-22b7-589f2ddb61e8/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/2f/58/f82f5847-3196-aec6-2c49-f936a66f20d9/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/7a/a3/c77aa373-dfc6-3a6b-67d2-b9bd7ae1f56f/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/09/bb/ff09bb1c-f29e-194f-4b0e-f5092888566c/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/5b/f9/955bf9b0-c10e-419e-ff32-40cd9d1a837e/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/39/c6/7f39c6dd-991c-cbf6-5556-7dd7a79d0630/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/01/c0/0101c010-8499-959b-0b2a-9f13b55a309a/5.jpg/626x1112bb.jpg"
+  ],
+  "description": "超过1亿次安装的斗地主游戏！\n千万用户好评如潮，倾情推荐。\n三人、四人都能玩的斗地主。\n\n游戏特色\n\n 超多玩法：经典+癞子+欢乐+比赛，想怎么玩就怎么玩。\n\n 火爆活动：热辣活动，精彩不停！赢就赢个痛快！\n\n 精美画面：精致场景+经典人物，一起决战到天亮！\n\n VIP服务：每天福利游戏豆、看谁不爽就踢走，让你尽享主宰乐趣！",
+  "release_notes": "游戏bug修复及性能优化",
+  "file_size_bytes": 229877760,
+  "min_os": "10.0",
+  "version": "1.1.3",
+  "release_date": "2022-07-14",
+  "rating": 4.73288,
+  "rating_count": 33266,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E6%96%97%E5%9C%B0%E4%B8%BB-%E7%9C%9F%E4%BA%BA%E7%89%88-%E5%AE%98%E6%96%B9/id1624651835?uo=4",
+  "fetched_at": "2026-09-15T00:39:38+08:00"
+ },
+ "slug": "天天斗地主真人版_f48509"
+}

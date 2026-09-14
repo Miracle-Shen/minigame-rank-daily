@@ -1,0 +1,109 @@
+{
+ "schema_version": 1,
+ "name": "奇幻果园",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "杭州锦泽文化创意有限公司",
+  "category_l1": "休闲",
+  "category_l2": "模拟经营",
+  "boards": [
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 12
+  },
+  "platform_app_ids": {
+   "wx": "wxb4a3c67915ab4d15"
+  },
+  "first_seen": "2026-08-23",
+  "appearances": 16,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "古风庭院+水果卡通贴图，精致成品展示",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "种植→订单→果艺加工→装修解锁多系统串联，需关卡/任务编辑器与数十种水果数值",
+   "data": "单线种植养成＋公会/好友社交与赛季内容，多线成长循环",
+   "server": "含好友/公会社交功能，需联网存档与排行榜",
+   "art": "古风庭院+水果贴图为2D卡通，需成体系UI与关卡美术"
+  },
+  "asset_notes": "古风庭院+水果贴图为2D卡通，可用AI生图+人工修图批量产出；无3D资产，素材层不是瓶颈",
+  "notes": "与《我的花园世界》高度相似的换皮，技术风险低",
+  "cost_score": 2.62,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "在庭院里拖动播种水果，收获后交居民订单或做成果艺出售，金币解锁土地/容器/装修，等级提升解锁公会好友。",
+  "highlights": [
+   "收获时水果数量与经验从地里冒出的即时反馈，动作与结果离得近",
+   "居民订单把收获物定向消耗，制造'还差几个'的目标牵引",
+   "容器/装修作解锁内容，首充与等级门槛自然引导付费"
+  ],
+  "innovations": [
+   "与《我的花园世界》几乎一致的'种花→插花'换成果树→果艺，属成熟品类的执行优化"
+  ],
+  "target_user": "25-45岁泛休闲女性用户，通勤碎片时间",
+  "monetization": "IAA+IAP混合（首充容器、等级解锁、看广告加速）",
+  "lifecycle": "长线运营，靠每日任务/公会/赛季维持复访"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "玩法与《我的花园世界》同构，机制照搬即成立，瓶颈在题材与首关留存；原题材已高度饱和，换题材是最优解。",
+  "suggestions": [
+   "把果园换成'中药铺'：播种药材→抓药订单→炮制加工，天然带知识感",
+   "把果艺容器改成'节气食补礼盒'，接传统文化节点做活动",
+   "首关把订单数量压到最低，把失败点后移降低前期流失"
+  ],
+  "risks": [
+   "《我的花园世界》已有强品牌认知，同题材直接撞车",
+   "种植经营买量CPI偏高且LTV依赖长线"
+  ],
+  "effort": "25–40人日（1前端+1美术+0.5策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "奇幻果园为《我的花园世界》式种植经营换皮，玩法同构",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Cocos Creator（微信小游戏常见选择，未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "http://www.gamelook.com.cn/2026/09/601375",
+  "https://www.toutiao.com/a7684686087637238326"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:37:23+08:00"
+ },
+ "slug": "奇幻果园_41d27c"
+}

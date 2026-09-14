@@ -1,0 +1,181 @@
+{
+ "schema_version": 1,
+ "name": "三国:天命再临",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州星辉娱乐有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 14
+  },
+  "platform_app_ids": {
+   "douyin": "tt7efa0847e09e2c9b02"
+  },
+  "first_seen": "2026-06-30",
+  "appearances": 10,
+  "best_rank": 14,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "3D Q 萌暗黑国风卡牌",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 5,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体约 464MB（重），Q 萌 3D 角色建模 + 暗黑场景 + 技能特效",
+   "logic": "阵营羁绊 + 多维养成 + 通天塔/秘境/军团，卡牌策略系统复杂",
+   "data": "神魔/三国武将多线养成 + 阵容搭配 + 赛季，数值体系极重"
+  },
+  "asset_notes": "3D Q 萌角色建模 + 464MB 重包体，暗黑国风素材是主要成本；三国为公有领域题材，无授权风险。",
+  "notes": "广州星辉娱乐出品，3D 卡牌；引擎未确认，按 3D 卡牌常见选型推断 Unity。",
+  "cost_score": 3.38,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "收纳魔化三国/神魔武将→搭配阵营羁绊阵容→养成与闯关（通天塔/秘境）→军团协作，一局数分钟，靠抽卡与养成续玩。",
+  "highlights": [
+   "「暗黑国风 + Q 萌」反差美术的视觉新鲜感",
+   "阵营羁绊自由搭配的阵容博弈",
+   "神魔魔化重塑三国 IP 的题材反差"
+  ],
+  "innovations": [
+   "把传统三国卡牌换为暗黑神魔反差美术（题材/美术差异化，机制仍标准卡牌）"
+  ],
+  "target_user": "18-35 岁卡牌与三国用户",
+  "monetization": "IAP 内购（抽卡/养成）为主",
+  "lifecycle": "长线运营，靠新武将与赛季"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "三国为公有领域题材无授权风险，卡牌机制照搬即成立，瓶颈在「暗黑国风」美术差异化与 3D 建模成本，换皮即成立。",
+  "suggestions": [
+   "换为「封神/西游暗黑」等同属公有领域的反差题材",
+   "保留阵营羁绊 + 通天塔玩法框架降低成本"
+  ],
+  "risks": [
+   "3D 建模与重包体（464MB）成本",
+   "卡牌赛道买量贵"
+  ],
+  "effort": "60–90 人日（含 3D 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/96/69/08966993-2cd6-2ce4-f4fb-669217877574/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/e3/be/9be3be30-344f-1a27-7d58-c657819758b4/1-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-1242x2208-_U5934_U56fe.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/17/09/5a1709bc-e063-b081-747b-5dfd9da785c5/2-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U6697_U9ed1_U56fd_U98ce-1242x2208.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/a3/be/e7a3be17-181e-6739-ba6c-aebefb652ac5/3-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U79d8_U5883_U95ef_U5173-1242x2208.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/78/d9/df78d92d-d996-66b6-133f-58b2c2f645ef/4-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U7b56_U7565_U5bf9_U51b3-1242x2208.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/d6/01/0fd60158-042f-2337-465a-b932b30b52d8/5-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U4e71_U4e16_U96c6_U7ed3-1242x2208.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/6f/22/b86f223a-4a79-d8f2-4fa2-b48d7ecc4bd6/3-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U9650_U65f6_U5178_U85cf-1242x2208.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体约 464MB（486464512 字节），属「重」量级",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Unity（3D 卡牌常见选型，未确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E4%B8%89%E5%9B%BD-%E5%A4%A9%E5%91%BD%E5%86%8D%E4%B8%B4/id6751947334?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "三国：天命再临",
+  "country": "cn",
+  "track_id": 6751947334,
+  "seller": "Shantou Xinghui Network Technology Co.,Ltd.",
+  "genres": [
+   "游戏",
+   "角色扮演",
+   "娱乐",
+   "卡牌"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/96/69/08966993-2cd6-2ce4-f4fb-669217877574/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/e3/be/9be3be30-344f-1a27-7d58-c657819758b4/1-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-1242x2208-_U5934_U56fe.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/17/09/5a1709bc-e063-b081-747b-5dfd9da785c5/2-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U6697_U9ed1_U56fd_U98ce-1242x2208.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/a3/be/e7a3be17-181e-6739-ba6c-aebefb652ac5/3-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U79d8_U5883_U95ef_U5173-1242x2208.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/78/d9/df78d92d-d996-66b6-133f-58b2c2f645ef/4-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U7b56_U7565_U5bf9_U51b3-1242x2208.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/d6/01/0fd60158-042f-2337-465a-b932b30b52d8/5-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U4e71_U4e16_U96c6_U7ed3-1242x2208.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/6f/22/b86f223a-4a79-d8f2-4fa2-b48d7ecc4bd6/3-_U4ee3_U53f7_U4e09_U56fd_U5546_U5e97_U56fe-_U9650_U65f6_U5178_U85cf-1242x2208.jpg/626x1112bb.jpg"
+  ],
+  "description": "《三国：天命再临》是一款独具反差美学的暗黑国风策略卡牌手游，创新性将热血三国乱世与奇幻东方神魔世界观完美融合，打破传统卡牌游戏的刻板印象。玩家将踏入神魔交织的诡谲乱世，收纳魔化三国名将、上古神魔，自由组建专属战队，通过灵活的阵容搭配、深度的角色养成，解锁多元对战玩法，沉浸式体验兼具休闲养成与烧脑策略的卡牌乐趣，开启一场颠覆经典的玄幻征程。\n【极致反差，国风暗黑美学】\n游戏打造独树一帜的萌酷暗黑视觉风格，形成强烈的审美反差。全员Q萌精致的人物建模，同时融入大量暗黑玄幻细节，魔化战甲、幽冥鬼火、妖异纹路点缀角色造型。场景以中式古风建筑为基底，搭配暗红、玄黑、幽紫的高级暗调色系，辅以迷雾、闪电、深渊特效，颠覆传统国风的清雅质感，营造出神秘诡谲的玄幻氛围。\n【多元玩法，自由策略博弈】\n游戏拥有丰富饱满的核心玩法体系，兼顾休闲与策略双重体验。独创的阵营羁绊系统极具深度，不同神魔、三国武将自由搭配，解锁专属战力增益，百变阵容没有固定套路。同时搭建多维养成体系，让玩家随心打造核心主力。通天塔闯关、秘境探索、军团协作等海量玩法轮番上线，单人闯关解压、多人组队竞技，适配不同玩家的游戏节奏。\n【跨界融合，颠覆经典题材】\n本作突破传统三国游戏的题材局限，大胆融合三国史诗与上古神魔双IP设定。摒弃千篇一律的三国争霸剧情，对经典历史武将、神话人物进行魔化重塑，让乱世枭雄与神魔仙妖同框对决、跨界乱斗。全新的玄幻乱世世界观，将热血征战与神魔玄幻元素深度结合，经典IP创新改编，剧情张力十足，为玩家带来新鲜感满满的沉浸式游戏体验。",
+  "release_notes": "优化游戏内容。",
+  "file_size_bytes": 486464512,
+  "min_os": "12.0",
+  "version": "3.0.0",
+  "release_date": "2026-06-11",
+  "rating": 4.76173,
+  "rating_count": 2493,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E4%B8%89%E5%9B%BD-%E5%A4%A9%E5%91%BD%E5%86%8D%E4%B8%B4/id6751947334?uo=4",
+  "fetched_at": "2026-09-15T00:40:03+08:00"
+ },
+ "slug": "三国_天命再临_367380"
+}

@@ -1,0 +1,114 @@
+{
+ "schema_version": 1,
+ "name": "永远的蔚蓝星球",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州颂悦信息技术有限公司",
+  "category_l1": "1",
+  "category_l2": "塔防",
+  "boards": [
+   "douyin/畅销榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 7,
+   "douyin/畅销榜": 17
+  },
+  "platform_app_ids": {
+   "wx": "wxd704b6fcc8ba8e9e",
+   "douyin": "ttda92ac2f459a5db307"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 71,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "Q 萌卡通，海洋守护主题",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 5,
+   "server": 4,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "包体约 492MB，成体系 Q 萌角色 / 怪物 / 场景美术",
+   "logic": "三重随机（召唤池 / 技能词条 / 合成进化）+ 英雄 2 合 1 + 羁绊，策略组合超百种",
+   "data": "英雄抽卡养成 + 国王养成 + 战令基金月卡 + 公会 + 赛季经济循环",
+   "server": "合作模式 + 联盟 + PVP 实时匹配，强联网"
+  },
+  "asset_notes": "Q 萌 2D 美术成体系但可控，素材层不是最大瓶颈；瓶颈在系统设计与数值平衡",
+  "notes": "团结引擎优化案例确认原使用 Unity；塔防 + 肉鸽 + 合成的融合（target-like × LDlike）是其结构亮点",
+  "cost_score": 3.5,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "竖屏对向塔防：上方出怪、下方防守，消耗银币召唤随机英雄，两同星合成升星，每 30 秒刷新召唤池并触发随机技能 / 进化，抵御波数即胜，一局约 3 分钟。",
+  "highlights": [
+   "随机召唤到主 C 的惊喜感（三重肉鸽变数）",
+   "二合一升星解锁技能 / 被动的即时成长爽",
+   "三分钟快局 + 单手点击，贴合碎片时间",
+   "合作 BOSS 分工控场 + 同步大招暴击"
+  ],
+  "innovations": [
+   "塔防 + 肉鸽 + 合成融合（target-like × LDlike），用局内随机打破传统塔防固定阵容，相对纯塔防是结构创新"
+  ],
+  "target_user": "休闲策略用户，全年龄",
+  "monetization": "混合（月卡 / 战令 / 抽卡，广告相对克制）",
+  "lifecycle": "长线（赛季活动、IP 联动、英雄持续更新）"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "融合机制有可取之处，但同发行矩阵（诗悦 / 9377）已有同类，照抄会撞车；需改一处结构或题材。",
+  "suggestions": [
+   "换题材为「太空废土守护」「森灵复苏」",
+   "把「英雄卡」改成「机甲模块」弱化抽卡强度，降合规风险",
+   "首屏把堆叠层数降到 2 层降低上手门槛"
+  ],
+  "risks": [
+   "同发行商已有融合塔防矩阵，题材饱和",
+   "融合玩法数值平衡门槛中等",
+   "SLG 向买量成本偏高"
+  ],
+  "effort": "40–60 人日（2 前端 + 1 美术 + 1 策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "原使用 Unity 开发（团结引擎优化案例提及）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "玩法为塔防 + 肉鸽 + 合成融合，包体约 492MB",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://baike.baidu.com/item/%E6%B0%B8%E8%BF%9C%E7%9A%84%E8%94%9A%E8%93%9D%E6%98%9F%E7%90%83/68197089",
+  "https://news.qq.com/rain/a/20260827A0A0SX00"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:35:33+08:00"
+ },
+ "slug": "永远的蔚蓝星球_f94380"
+}

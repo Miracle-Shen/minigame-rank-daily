@@ -1,0 +1,211 @@
+{
+ "schema_version": 1,
+ "name": "Royal Smash! - Physics Puzzle",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Cypher Games",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 14
+  },
+  "platform_app_ids": {
+   "ios": "6780891673"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "卡通3D节庆场景，明亮干净",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 3,
+   "physics": 4,
+   "logic": 3,
+   "data": 1,
+   "server": 1,
+   "audio": 3
+  },
+  "dim_notes": {
+   "physics": "真实3D破坏+刚体+连锁倒塌，物理手感与链反应是核心，需调校",
+   "art": "包体约395MB，3D节庆场景+物体建模，资产中等"
+  },
+  "asset_notes": "约395MB，3D场景/物体建模中等，物理材质可复用，素材非最大瓶颈",
+  "notes": "Cypher Games 3D物理解谜，SDK检测含Unity",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "架炮调角度蓄力开火，砸碎罐子/推倒石塔/触发连锁反应清空整张桌，无计时无压力，单关几分钟解压。",
+  "highlights": [
+   "一发完美炮弹引发全桌连锁倒塌的‘oddly satisfying’破坏爽感",
+   "真实3D物理，物体按重力/碰撞自然崩塌，可多角度预测",
+   "一指瞄准的极简操作，零学习成本",
+   "无计时压力，纯解压"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（3D物理解谜+火炮玩法的包装）"
+  ],
+  "target_user": "全球休闲解压用户",
+  "monetization": "IAA（广告）+ IAP（去广告/道具）混合",
+  "lifecycle": "短平快，靠持续关卡更新+买量"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "基于Unity物理引擎，3D破坏玩法代码量可控；全球同类（Smash Fest!/Knock Out）已验证，差异化靠题材与关卡曲线。",
+  "suggestions": [
+   "换为‘拆迁队/工程爆破’或‘推倒贪吃蛇方块塔’题材",
+   "加入‘连锁反应计分榜’社交分享",
+   "首关用单塔一炮全倒做强正反馈"
+  ],
+  "risks": [
+   "3D物理手感调校需经验",
+   "品类已有竞品",
+   "买量CPI"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/7b/ba/cf7bba17-4270-55ab-7d08-96ec164921cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/4b/e0/994be0ec-6389-95e4-247f-4b65e463d0b2/AIM_FIRE.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/4d/8d/5f4d8d64-81c1-33b4-144d-ba44dbc284c4/ONE_SHOT.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/36/80/60368004-1185-fdb3-ca3c-a1a4876ac52b/TOO_HARD.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fa/47/aa/fa47aa67-20be-9a93-26d8-74c9656e4c24/RELIEVE.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/5f/4a/505f4a12-464a-c824-79de-5a1c323b77df/EASY_TO_PLAY.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/f0/66/a6f066c3-a840-6516-91bf-d3e80458240c/AIM_U002c_FIRE.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/29/83/652983a8-f772-a96a-33c8-490aff12333f/ONE_SHOT.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/2f/2d/a62f2d74-34e5-4de2-0128-92e2f601d2ff/TOO_HARD.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/45/fe/71/45fe7195-ff4b-8f8d-744b-f57a50f9bc9d/RELIEVE.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/75/e3/5275e353-7612-1a8a-a2ee-e8856c98d41a/EASY_TO_PLAY.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "SDK检测含Unity开发工具，引擎确认为Unity",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体约395MB，属重量级",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://appgoblin.info/apps/com.cyphergames.royalsmash",
+  "https://apps.apple.com/us/app/royal-smash-physics-puzzle/id6780891673?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Royal Smash! - Physics Puzzle",
+  "country": "us",
+  "track_id": 6780891673,
+  "seller": "CYPHER GAMES YAZILIM PAZARLAMA ANONIM SIRKETI",
+  "genres": [
+   "Games",
+   "Puzzle",
+   "Casual"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/7b/ba/cf7bba17-4270-55ab-7d08-96ec164921cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/4b/e0/994be0ec-6389-95e4-247f-4b65e463d0b2/AIM_FIRE.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/4d/8d/5f4d8d64-81c1-33b4-144d-ba44dbc284c4/ONE_SHOT.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/36/80/60368004-1185-fdb3-ca3c-a1a4876ac52b/TOO_HARD.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fa/47/aa/fa47aa67-20be-9a93-26d8-74c9656e4c24/RELIEVE.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/5f/4a/505f4a12-464a-c824-79de-5a1c323b77df/EASY_TO_PLAY.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/f0/66/a6f066c3-a840-6516-91bf-d3e80458240c/AIM_U002c_FIRE.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/29/83/652983a8-f772-a96a-33c8-490aff12333f/ONE_SHOT.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/2f/2d/a62f2d74-34e5-4de2-0128-92e2f601d2ff/TOO_HARD.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/45/fe/71/45fe7195-ff4b-8f8d-744b-f57a50f9bc9d/RELIEVE.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/75/e3/5275e353-7612-1a8a-a2ee-e8856c98d41a/EASY_TO_PLAY.jpg/626x1112bb.jpg"
+  ],
+  "description": "Aim. Fire. SMASH! Load the royal cannon, line up your shot, and watch entire towers explode into pieces. The most oddly satisfying physics puzzle you'll play all year.\n\nOne perfect shot brings the whole thing down — but can you actually clear the table?\n\nEASY TO PLAY, HARD TO PUT DOWN\nSet your angle, charge the power, fire. Simple one-tap aiming — instantly fun, endlessly addictive.\n\nREAL 3D DESTRUCTION\nSmash jars, topple stone towers, and trigger chain reactions that crumble everything in sight. Every hit is powered by realistic physics.\n\nHUNDREDS OF LEVELS\nEach level is a fresh puzzle. Find the one perfect angle, knock it all down, and last your way up through the kingdom.\n\nPURE STRESS RELIEF\nNo timers, no pressure — just you, a cannon, and a whole world to demolish.\nSatisfying to watch, impossible to stop.\n\nThink you've got the aim? Only 1% clear every table. Download Royal Smash! and start the chaos.",
+  "release_notes": "Trouble Trap and Power Play is here!\nWe just gave a whole stretch of levels some extra love and the game feels noticeably smoother for it.\n\nCleaner, fairer levels. A batch of stages got reworked and retuned, so smashing feels crisp and every shot lands the way you'd expect.\n\nSame Royal Smash, now with a fresh coat of polish. Jump in and feel the difference!",
+  "file_size_bytes": 414178304,
+  "min_os": "15.0",
+  "version": "1.12",
+  "release_date": "2026-06-30",
+  "rating": 4.71211,
+  "rating_count": 73338,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/royal-smash-physics-puzzle/id6780891673?uo=4",
+  "fetched_at": "2026-09-15T00:36:32+08:00"
+ },
+ "slug": "Royal_Smash_Physics_Puzzle_efda3f"
+}

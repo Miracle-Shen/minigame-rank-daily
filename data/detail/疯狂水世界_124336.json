@@ -1,0 +1,246 @@
+{
+ "schema_version": 1,
+ "name": "疯狂水世界",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "益世界网络科技有限公司",
+  "category_l1": "1",
+  "category_l2": "模拟经营",
+  "boards": [
+   "douyin/热门榜",
+   "douyin/畅销榜",
+   "ios/国区免费榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 4,
+   "douyin/热门榜": 2,
+   "douyin/畅销榜": 2,
+   "ios/国区免费榜": 19
+  },
+  "platform_app_ids": {
+   "wx": "wx2ea52a972ea18e5e",
+   "douyin": "tt76340089e939a1bf02",
+   "ios": "6757172630"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / 团结引擎（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "卡通水上游乐园画风，3D海上末日生存题材，英雄/建筑/海兽建模",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 4,
+   "physics": 2,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "3D卡通海上末日题材，包体796MB含大量英雄/建筑/海兽3D模型、骨骼动画与音效",
+   "anim": "英雄技能特效、舰队行军/连胜特效、皮肤外显表现，需骨骼动画+粒子/后处理",
+   "logic": "模拟经营+SLG+英雄养成+阵容流派+联盟/GVG+赛季关卡，系统极度复杂",
+   "data": "英雄/装备/海兽/藏品/芯片多线养成+经济循环+赛季内容，长线运营深度极高",
+   "server": "联盟战/GVG/跨服积分赛/实时对战/世界BOSS强联网，服务端压力极大"
+  },
+  "asset_notes": "3D模型与骨骼动画是主要成本，包体796MB且持续赛季更新膨胀；非程序化资产，需成体系3D美术团队",
+  "notes": "重资产3D SLG，技术风险集中在长线内容生产节奏与服务端架构，非玩法创新",
+  "cost_score": 3.88,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "从一块木筏起步，打捞海上残骸转化为资源，建造生产链、招募英雄与居民，PVE推图获取挂机收益，后期接入联盟/赛季GVG争夺城战，目标是把海上避难所发展成繁荣城邦。",
+  "highlights": [
+   "『捡垃圾→建造→生产』的低门槛循环，配合挂机自动采集，摸鱼也能推进",
+   "英雄阵容流派（群伤/刺客/发育/闪避/后排杀手）提供Build搭配深度，不同站位不同效果",
+   "16级前几乎无强制PVP、30级后才GVG，前期纯单机爽感，降低劝退",
+   "联盟战每天仅晚8–9点开放、不耗兵力的轻社交设计，社恐也能佛系参与",
+   "赛季制+联动（广州海事博物馆/美人鱼）持续供给新英雄与玩法"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟『模拟经营+SLG』赛道的本土化执行优化（海上末日生存题材 + 卡通化包装，沿用无尽冬日-like公式）"
+  ],
+  "target_user": "25–45岁模拟经营/SLG用户，偏好挂机放置与轻度社交",
+  "monetization": "IAP内购为主（月卡/赛季特权/英雄抽卡/皮肤）+ 广告为辅，商城与战令体系完整",
+  "lifecycle": "长线运营，赛季制+联盟+联动持续供给内容"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "5个最高分维度（logic/data/server均为5）意味着需完整MMO/SLG团队与重资本投入；模拟经营+SLG赛道已被无尽冬日/益世界等头部锁死，且益世界凭《这城有良田》等矩阵占据用户心智，后发者买量成本极高。",
+  "suggestions": [
+   "若坚持入场，选更垂直题材（如『太空废土』『末日农场』）做差异化，避开海上生存红海",
+   "砍掉实时GVG，改为异步竞技降低服务端成本，聚焦PVE挂机体验",
+   "用AI辅助生成3D资产与场景，把美术成本压到可接受区间"
+  ],
+  "risks": [
+   "重资产：3D资源+长线内容+强联网服务端，研发与买量成本均极高",
+   "品类被头部锁死，同质化严重，用户已被益世界矩阵教育，突围难",
+   "版号/运营合规风险（已获批ISBN，但换皮需重新申报）"
+  ],
+  "effort": "300+ 人日（需完整 MMO/SLG 团队：5+ 程序 + 5+ 美术 + 3 服务端 + 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/a2/2a/2ca22a78-9214-ae06-fd6e-e7933fcc57b6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/d4/84/21d484a1-cb0a-0f55-5834-a098d10bc398/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/31/1d/4c311d80-ab6e-cb37-e6b1-d0c811920df4/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/07/75/75077554-20c8-99a3-01ea-a625409d1774/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/1c/ed/ee1ced62-a97a-467e-c11c-54dd21e175fa/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fa/7a/1e/fa7a1e0f-3093-1541-309a-22b69a2ba5dd/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/60/f1/0460f1e6-95d3-79d6-9f6c-7fc05649b46e/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/98/e3/b698e343-6a16-9f6d-5e88-7a1def9dc69e/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/13/15/d71315f8-bc34-3c03-39f7-c2f14ea020b4/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/36/a1/da/36a1dab1-3c8a-e925-9709-7943803be5a1/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/ec/29/0bec2950-339a-0001-7181-51e8003cf662/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/5b/2b/195b2bff-0795-5a81-e144-c664edc3aedf/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/6e/5c/096e5cf1-1434-69cd-7b72-37acbdad845a/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体796MB（App Store），属很重素材量级（>600MB），含大量3D资产",
+   "level": "confirmed"
+  },
+  {
+   "claim": "益世界（广州益玩）出品，2026-01-08全平台首发，模拟经营+SLG",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Unity / 团结引擎（3D SLG常见选择，未见官方确认）",
+   "level": "inferred"
+  },
+  {
+   "claim": "益世界有《这城有良田》《我是大东家》等模拟经营矩阵",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E7%96%AF%E7%8B%82%E6%B0%B4%E4%B8%96%E7%95%8C/id6757172630?uo=4",
+  "http://www.gamelook.com.cn/2026/01/585849/",
+  "https://baike.baidu.com/item/%E7%96%AF%E7%8B%82%E6%B0%B4%E4%B8%96%E7%95%8C/65814236"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "疯狂水世界",
+  "country": "cn",
+  "track_id": 6757172630,
+  "seller": "Eworld Network Technology Shanghai Co.,Ltd.",
+  "genres": [
+   "游戏",
+   "模拟",
+   "角色扮演"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/a2/2a/2ca22a78-9214-ae06-fd6e-e7933fcc57b6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/d4/84/21d484a1-cb0a-0f55-5834-a098d10bc398/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/31/1d/4c311d80-ab6e-cb37-e6b1-d0c811920df4/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/07/75/75077554-20c8-99a3-01ea-a625409d1774/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/1c/ed/ee1ced62-a97a-467e-c11c-54dd21e175fa/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fa/7a/1e/fa7a1e0f-3093-1541-309a-22b69a2ba5dd/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/60/f1/0460f1e6-95d3-79d6-9f6c-7fc05649b46e/6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/98/e3/b698e343-6a16-9f6d-5e88-7a1def9dc69e/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/13/15/d71315f8-bc34-3c03-39f7-c2f14ea020b4/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/36/a1/da/36a1dab1-3c8a-e925-9709-7943803be5a1/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/ec/29/0bec2950-339a-0001-7181-51e8003cf662/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/5b/2b/195b2bff-0795-5a81-e144-c664edc3aedf/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/6e/5c/096e5cf1-1434-69cd-7b72-37acbdad845a/6.jpg/626x1112bb.jpg"
+  ],
+  "description": "《疯狂水世界》是一款沉浸式海上末日模拟生存手游！在环境崩坏，陆地被淹没的未来，您将作为一位被命运选中的领袖，驾驶孤舟，探索海域，搜集残存物资，接纳四方的接纳者，并亲手在波涛之上建立起繁荣的避难所，带领人类文明在废墟中寻找失落的希望。",
+  "release_notes": "【新增】夏日狂浪节主题活动 “狂浪一夏 生存到底”（详情可留意官方活动预告）\n【新增】夏日狂浪节新超凡英雄——过江龙（兄弟会，战士，拥有特殊随赛季更新进阶技能机制）\n【新增】S7赛季新超凡英雄——典狱长赛斯（科技派，坦克）\n【新增】玩法：联盟商船（限时活动，每期持续3天，联盟成员共同参与，派出英雄应聘商船船长，完成商船订单即可获得丰厚奖励）\n【新增】玩法：巅峰擂台赛（第1期预计将于8月24日开启，开赛前一周跨服积分赛利维坦段位结算排名前128名玩家将获得参赛资格）\n【新增】核芯：登峰，造成或承受伤害时，获得一层【不屈】——使携带者的护甲和抗性提升，可叠加层数，持续到战斗结束；叠加至满层时，净化控制效果，并获得【登峰】——携带者造成的伤害提升，持续到战斗结束（可于巅峰擂台赛商店兑换获得）\n【新增】“重启征程”与“新服征程”老玩家回归活动（累计未登录游戏一定天数后再次回归游戏时相应触发活动）\n【新增】赛季目标-最强联盟排行奖励调整为联盟战利品分配机制，赛季结算后由盟主进行分配\n【新增】高级属性：控制抗性，令英雄受到控制效果的持续时间减少（控制效果包括：击飞、晕眩、冰冻、石化、御风的吹离战场）\n【新增】道具：洗刷锁，用于超凡装备和海兽洗炼时锁定词条，锁定后该词条在洗炼时不会变化，最多可锁定2条词条\n【新增】2套超凡藏品套装“天下布武”与“美式工具箱”，以及套装下对应超凡文物藏品（更新后加入到特定轮次的新一轮周活动累充有礼奖励，且当日首次登录需在更新后，新配置才生效）\n【新增】舰队皮肤外显管理系统\n【新增】舰队行军&连胜特效表现功能\n【新增】舰队特效 行军·赤溟焚焰、行军·沧溟萦焰\n【新增】舰队特效 连胜·谁这么臭、连胜·来打我噻\n【新增】舰队皮肤 红帆海妖\n【新增】建筑皮肤 海产厨房·山海食栈皮肤、指挥中心·准备起飞\n【新增】兰博皮肤·浪击狂徒、米娅皮肤·沧汐星姬\n【新增】PVP战斗超时机制（城战除外的PVP战斗进行到大于一定时间后，将为场上所有存活的英雄提供额外增益效果）\n【新增】联盟礼包可选隐藏购买信息功能\n【新增】聊天表情第三弹\n【新增】聊天违规言论举报功能\n【优化】超凡英雄-探案双子星强度调整\n——觉醒技能【憋笑大师】嘲讽范围4格>>5格\n——主技能【灵魂画手】每1阶进阶效果的生命、攻击、技能强度提升8%>>10%\n——主技能【灵魂画手】2、3阶效果新增获得10点初始能量，4阶效果新增降低10点能量上限\n【优化】传说海兽幸运礼包奖励里的鳌蟹基因改为海兽基因自选Ⅱ\n【优化】跨服积分赛战令奖励里的鳌蟹基因改为海兽基因自选Ⅱ\n【优化】军备竞赛海兽培养军备补给礼包里的鳌蟹基因改为海兽基因自选Ⅱ\n【优化】周活动勇士战令奖励里的随机传说英雄碎片改为传说英雄万能碎片\n【优化】机械蛞蝓世界BOSS增加加伤机制\n【优化】机械蛞蝓世界BOSS增加免控状态\n【优化】机械蛞蝓世界BOSS初始血量、血量变化幅度调整\n【优化】调整加工硅晶选择，默认第一个 ->改成默认选中\n【优化】硅矿采集，每天最多派遣舰队发起30次抢占，达到上限后当天无法再抢占他人采集位，仅可前往空位采集\n【优化】跨服积分赛分组规则，咸鱼-对虾-青蟹段位按照S1/2/3/其他赛季进行所处赛季内分组匹配\n【优化】联盟工事“干扰器”点击完成建造弹出二次确定框（提示内容：干扰器持续600秒，点击完成后立刻开始生效，建议城战期间点击完成）\n【优化】联盟城市列表排序修改为：推荐>工事建设中＞有工事＞城市等级\n【优化】联盟城市增加每日普通募兵次数受玩家等级限制\n【优化】新增日常任务类型：参与1次积分赛挑战（玩家≥25级且S1赛季开服≥8天）\n【优化】增加自由组盟期间战队踢人、解散邮件提醒\n【优化】增加盟主被弹劾、转让盟主邮件提醒\n【优化】人鱼奇缘活动专属道具新增可使用兑换为其他道具途径\n【优化】下调采集硅矿的舰队航行速度\n【优化】提高生产工事材料的基础资源消耗\n【优化】S6赛季起，联盟商店增加史诗人鱼基因\n【优化】钓鱼图鉴-野生胭脂鱼图鉴替换\n【优化】钓鱼图鉴-刀锋鳍士图鉴替换\n【BUG】修复修女瑟琳娜普攻打出物理伤害异常\n【BUG】修复水底之王限制能量恢复持续时长异常",
+  "file_size_bytes": 835149824,
+  "min_os": "13.0",
+  "version": "1.1.6",
+  "release_date": "2026-01-21",
+  "rating": 4.39313,
+  "rating_count": 4805,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E7%96%AF%E7%8B%82%E6%B0%B4%E4%B8%96%E7%95%8C/id6757172630?uo=4",
+  "fetched_at": "2026-09-14T23:50:54+08:00"
+ },
+ "slug": "疯狂水世界_124336"
+}

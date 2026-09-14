@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "name": "看谁先上车",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "长沙四五互娱网络科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/人气榜",
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 5,
+   "wx/畅玩榜": 16
+  },
+  "platform_app_ids": {
+   "wx": "wx641f825d5dce9ea9"
+  },
+  "first_seen": "2026-08-22",
+  "appearances": 16,
+  "best_rank": 5,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator / Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "简单卡通人物 + 公交车 / 小人图标",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 2,
+   "logic": 3,
+   "data": 1,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "data": "纯关卡解锁，无成长线"
+  },
+  "asset_notes": "素材为卡通小人 / 公交车 / 颜色块，可程序化生成，素材层零瓶颈",
+  "notes": "属于 Bus Jam / Parking Jam 品类的上车变体，机制成熟，瓶颈在题材与关卡布局",
+  "cost_score": 2.0,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "规划小人 / 公交移动路径，按颜色把乘客匹配到对应巴士并顺利上车，避免车辆互相堵塞，全员上车即过关，关卡从单色 2 车递进到多色十几车交叉。",
+  "highlights": [
+   "规划路线的策略爽感（前排优先、同向顺序）",
+   "疏通拥堵瞬间的释放感",
+   "颜色匹配 + 限时关卡的紧张驱动"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（Bus Jam 上车变体）"
+  ],
+  "target_user": "全年龄休闲解压用户",
+  "monetization": "IAA（看视频获提示 / 道具）+ 轻 IAP",
+  "lifecycle": "长线（关卡持续更新地图场景）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "Bus Jam 机制成熟、代码量小、素材轻；瓶颈在题材与关卡设计，换题材即可差异化。",
+  "suggestions": [
+   "换题材为「上班早高峰地铁」「动物大迁徙过桥」",
+   "加差异化道具（自动分流 / 时间暂停）并前置到高难关",
+   "把「全国地图」收集改成「城市打卡」增强留存"
+  ],
+  "risks": [
+   "Bus Jam / 停车 Jam 品类全球海量换皮",
+   "买量竞争激烈、CPI 偏高"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法为公交 / 小人上车路径规划 + 颜色匹配",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎为 Cocos/Unity 推断，无官方确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://sj.qq.com/appdetail/wx641f825d5dce9ea9",
+  "https://www.17yoo.cn/detail/50400"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:35:36+08:00"
+ },
+ "slug": "看谁先上车_7afca9"
+}

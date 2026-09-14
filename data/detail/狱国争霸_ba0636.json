@@ -1,0 +1,112 @@
+{
+ "schema_version": 1,
+ "name": "狱国争霸",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "北京智诚互娱科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/畅销榜"
+  ],
+  "ranks": {
+   "douyin/畅销榜": 5
+  },
+  "platform_app_ids": {
+   "douyin": "tt67df1162f8d65ba402"
+  },
+  "first_seen": "2026-06-30",
+  "appearances": 71,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator / Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D（地图策略，轻 3D 表现）",
+  "art_style": "卡通策略地图，城池 / 兵种图标",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 5,
+   "server": 4,
+   "audio": 3
+  },
+  "dim_notes": {
+   "logic": "地图拉线攻防 + 兵种克制 + 英雄技能 + 联盟",
+   "data": "资源 / 兵种 / 英雄升星 / 科技 / 宝物多线养成 + 经济循环",
+   "server": "实时匹配 + 跨服对战 + 联盟，强联网",
+   "physics": "无物理，格子地图"
+  },
+  "asset_notes": "地图 / 兵种 / 城池美术成体系，素材可控；瓶颈在数值与系统",
+  "notes": "监狱管理题材的轻量烧脑地图策略，战斗自动进行，偏标准 SLG 框架",
+  "cost_score": 3.25,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "在地图上拉线攻击相邻城池，敌城守兵归零即占领，兵种克制 + 英雄技能搭配，掠夺 / 结盟扩张势力，自动战斗、在线实时匹配排位。",
+  "highlights": [
+   "拉线攻城 + 兵力计算的策略爽",
+   "兵种克制与阵容搭配",
+   "联盟协作与跨服对抗"
+  ],
+  "innovations": [
+   "无实质机制创新，题材（监狱管理）包装是主要差异"
+  ],
+  "target_user": "轻度策略 / SLG 用户",
+  "monetization": "混合（月卡 / 高级月卡 + IAA 广告货币）",
+  "lifecycle": "长线（赛季、联盟、兵种更新）"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "SLG 机制有可取但需改题材 / 数值，照抄会撞车同类；建议弱化强联网降成本。",
+  "suggestions": [
+   "换题材为「星际殖民」「古城争霸」，去监狱敏感设定",
+   "弱化实时对抗改异步排行榜，降服务器成本",
+   "加「拉线」微操作的爽点作为差异记忆"
+  ],
+  "risks": [
+   "SLG 买量极贵",
+   "头部（三国类）已锁死",
+   "强联网服务器成本"
+  ],
+  "effort": "60–90 人日（2–3 人 + 后端）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法为地图策略拉线攻城 + 兵种养成 + 联盟",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎为 Cocos/Unity 推断",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.18183.com/zhxz/8948504.html",
+  "https://news.qq.com/rain/a/20260508A08VEJ00"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2D（地图策略，轻 3D 表现）"
+ ],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:35:59+08:00"
+ },
+ "slug": "狱国争霸_ba0636"
+}

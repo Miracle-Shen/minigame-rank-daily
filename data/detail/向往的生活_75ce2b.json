@@ -1,0 +1,214 @@
+{
+ "schema_version": 1,
+ "name": "向往的生活",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "深圳市必凡娱乐科技有限公司",
+  "category_l1": "1",
+  "category_l2": "模拟经营",
+  "boards": [
+   "douyin/热门榜",
+   "douyin/畅销榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 11,
+   "douyin/热门榜": 17,
+   "douyin/畅销榜": 14
+  },
+  "platform_app_ids": {
+   "wx": "wx961a01b2c8096028",
+   "douyin": "ttd54ea3f34a46f34a02"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "清新治愈国风田园，低饱和扁平卡通",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 3,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "包体224MB属中等，需成体系UI+合成物件+田园场景+IP角色还原美术"
+  },
+  "asset_notes": "2D合成类美术，物件图标可程序化/AI生图批量产出；IP角色还原（黄叔叔/何老师等）需授权素材或替代原创形象",
+  "notes": "必凡娱乐为Merge赛道头部，自研自发；玩法框架成熟，瓶颈在IP还原与情绪匹配",
+  "cost_score": 2.38,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "指尖轻触合成作物/物品（二合），完成订单收获资源，逐步重建田园家园；穿插NPC剧情反馈与社交换卡，一局碎片化。",
+  "highlights": [
+   "二合合成+'叮'的产出反馈，整理混乱变清晰的心流爽感",
+   "IP角色（何老师/小H等）主动给出生日祝福/悄悄话，强化陪伴感",
+   "微信换卡功能把单机玩法接进好友关系链，形成长期复访钩子"
+  ],
+  "innovations": [
+   "把综艺IP的'情绪资产'（慢生活/烟火气）转化为二合玩法的底层情绪，而非单纯换皮",
+   "微信游戏圈+换卡社群把弱社交沉淀为关系链，跨过IP热度周期"
+  ],
+  "target_user": "25-45岁女性向用户，偏爱治愈/慢生活",
+  "monetization": "IAA+IAP混合（建造加速/去广告/皮肤），以长线留存为主",
+  "lifecycle": "长线运营（上线6个月收入1.4亿，MAU 500-600万），靠赛季内容+社交"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "二合+建造机制成熟且已被验证，代码量与素材量适中；瓶颈在IP题材与情绪还原。芒果TV独家授权是壁垒，换非独家治愈题材可成立。",
+  "suggestions": [
+   "换题材为'小森林食堂'或'茶馆日常'，二合合成做饭/招待客人，复用同框架",
+   "把社交换卡保留但改成'邻里互助'，降低对微信关系链的强依赖",
+   "首关把合成层数降到2层，失败点后移到第5关之后"
+  ],
+  "risks": [
+   "芒果TV独家授权，直接套IP侵权",
+   "必凡已占赛道头部，同题材买量贵",
+   "女性向美术需稳定风格"
+  ],
+  "effort": "25–40 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/f8/b9/09f8b92a-7ba3-4cc4-5262-2d84f60445e2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/86/e1/d486e1be-b2b1-d586-ee7f-42d0ecbe8d01/1242_U00d72688-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/cb/fd/44cbfd21-5012-a197-28c8-59cac131e62c/1242_U00d72688-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/1a/b5/881ab510-9a8e-b5d4-b17e-24a9c64e4118/1242_U00d72688-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/fd/ae/e6fdaef5-ce6c-1487-1c54-6ef7b0a5154b/1242_U00d72688-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7f/27/cf/7f27cff1-d2eb-01fd-d096-99fe26646114/1242_U00d72688-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/75/d1/3175d1b5-09c5-b1f5-37d1-6ea7109ac3b2/2064_U00d72752-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/2a/7b/042a7b14-9adc-3ab5-67c0-3c02d5b641d1/2064_U00d72752-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/35/36/9c3536d8-2ad1-db74-4750-e32429fde192/2064_U00d72752-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/9e/b9/f99eb9d0-d8e5-63fe-1d86-441fff7e997c/2064_U00d72752-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/31/03/20310324-6c2e-00d8-d856-af87c1e73ab3/2064_U00d72752-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体224MB，二合+建造模拟经营",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Cocos Creator（微信小游戏Merge产品常见，未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E5%90%91%E5%BE%80%E7%9A%84%E7%94%9F%E6%B4%BB%E5%AE%98%E6%96%B9%E6%B8%B8%E6%88%8F/id6751826673?uo=4",
+  "https://youxichaguan.com/archives/179693"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 0.929,
+  "match_name": "向往的生活官方游戏",
+  "country": "cn",
+  "track_id": 6751826673,
+  "seller": "Shenzhen Bifan Entertainment Technology Ltd.",
+  "genres": [
+   "游戏",
+   "休闲"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/f8/b9/09f8b92a-7ba3-4cc4-5262-2d84f60445e2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/86/e1/d486e1be-b2b1-d586-ee7f-42d0ecbe8d01/1242_U00d72688-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/cb/fd/44cbfd21-5012-a197-28c8-59cac131e62c/1242_U00d72688-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/1a/b5/881ab510-9a8e-b5d4-b17e-24a9c64e4118/1242_U00d72688-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/fd/ae/e6fdaef5-ce6c-1487-1c54-6ef7b0a5154b/1242_U00d72688-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7f/27/cf/7f27cff1-d2eb-01fd-d096-99fe26646114/1242_U00d72688-5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/75/d1/3175d1b5-09c5-b1f5-37d1-6ea7109ac3b2/2064_U00d72752-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/2a/7b/042a7b14-9adc-3ab5-67c0-3c02d5b641d1/2064_U00d72752-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/35/36/9c3536d8-2ad1-db74-4750-e32429fde192/2064_U00d72752-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/9e/b9/f99eb9d0-d8e5-63fe-1d86-441fff7e997c/2064_U00d72752-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/31/03/20310324-6c2e-00d8-d856-af87c1e73ab3/2064_U00d72752-5.jpg/626x1112bb.jpg"
+  ],
+  "description": "芒果TV官方正版授权的合成经营手游《向往的生活》已温暖上线！现邀你一同回归田园，开启向往的日常。\n\n【还原剧情，重温感动】\n高度还原综艺经典剧情与名场面！沉浸式体验节目中的欢笑与温暖。与熟悉的“家人”重逢——黄叔叔在灶台边忙碌，何哥哥逗弄着小H，每一个场景都充满烟火气与回忆。\n\n【打造专属家园】\n从零开始经营，解锁节目中所有经典场景：田野、小院、客厅、厨房…自由装饰布置，用精心挑选的家具还原你最喜欢的蘑菇屋面貌，打造独一无二的心灵栖息地。\n\n【遇见家人，沉浸互动】\nNPC不仅是角色，更是你的“老朋友”。他们会根据你的行为给出专属反馈——生日祝福、回归问候，甚至悄悄话私语，让你真切感受到家的温度与陪伴。\n\n【经典二合，轻松治愈】\n轻松简单的合并玩法，指尖轻触即可合成作物与物品，完成订单收获资源，逐步重建你梦想中的田园家。在悠闲节奏中感受最纯粹的治愈。\n\n【精致视听，沉浸田园】\n清新治愈的美术风格高度延续综艺调性，细腻还原田园四季光影。搭配温馨原声音乐，仿佛置身真实的蘑菇屋，每一次进入都是一次心灵放松。\n\n《向往的生活》不仅仅是一款游戏，更是一份可触碰的田园梦想，与蘑菇屋的家人们一起，慢慢生活，好好相遇，共同谱写属于你们的故事。",
+  "release_notes": "优化用户体验",
+  "file_size_bytes": 224278528,
+  "min_os": "15.0",
+  "version": "1.1.7",
+  "release_date": "2025-10-02",
+  "rating": 3.37872,
+  "rating_count": 874,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E5%90%91%E5%BE%80%E7%9A%84%E7%94%9F%E6%B4%BB%E5%AE%98%E6%96%B9%E6%B8%B8%E6%88%8F/id6751826673?uo=4",
+  "fetched_at": "2026-09-14T23:51:11+08:00"
+ },
+ "slug": "向往的生活_75ce2b"
+}

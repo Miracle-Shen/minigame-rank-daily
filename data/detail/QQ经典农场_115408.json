@@ -1,0 +1,214 @@
+{
+ "schema_version": 1,
+ "name": "QQ经典农场",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "深圳市腾讯计算机系统有限公司",
+  "category_l1": "休闲",
+  "category_l2": "模拟经营",
+  "boards": [
+   "wx/人气榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 4,
+   "wx/畅销榜": 5
+  },
+  "platform_app_ids": {
+   "wx": "wx5306c5978fdb76e4"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "2.5D",
+  "art_style": "2.5D卡通农场，作物/动物/装饰",
+  "dims": {
+   "engine": 2,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 4,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "包体873MB(很重)，2.5D场景+大量作物/动物/装饰/节气美术",
+   "logic": "种植养殖+订单+家族+节气系统+时光农场+社交偷菜，系统复杂",
+   "data": "多线养成+经济+社交关系，深度高",
+   "server": "社交偷菜+云存档+家族+跨端互通，强联网"
+  },
+  "asset_notes": "2.5D卡通美术量极大（873MB），作物/动物/装饰需长线产出；社交偷菜服务端是主要成本，素材层次之",
+  "notes": "腾讯官方，3.0起用Unity重制（解决Flash弃用），手机新版Unity制作",
+  "cost_score": 3.0,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "种作物/养动物，收菜除草除虫，偷好友菜；完成订单/许愿树/节气任务赚资源，放置产出，长线农场经营。",
+  "highlights": [
+   "偷菜社交（好友互偷/互助）的经典关系链爽感",
+   "作物生长/收菜动画+摇一摇操作，低频反馈舒压",
+   "节气系统/时光农场等大型玩法持续给新目标"
+  ],
+  "innovations": [
+   "微创新：把经典偷菜做'时光农场/节气系统'等大型玩法扩展，延长生命周期"
+  ],
+  "target_user": "全年龄怀旧社交用户，偏爱慢经营",
+  "monetization": "IAA+IAP混合（星钻内购/去广告），社交驱动",
+  "lifecycle": "长线运营国民级，靠季节活动维系"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "偷菜模拟经营机制成熟、框架清晰；瓶颈在社交关系链与品牌。QQ农场为腾讯品牌，直接套名侵权，换原创农场+社交可成立。",
+  "suggestions": [
+   "换题材为'海洋牧场'或'开荒村'，复用种植+偷菜框架",
+   "把社交偷菜接微信关系链做裂变钩子",
+   "首关只做种植收菜，订单/家族后置降低门槛"
+  ],
+  "risks": [
+   "QQ农场为腾讯品牌，套名侵权",
+   "社交偷菜需关系链冷启动",
+   "包体873MB偏重"
+  ],
+  "effort": "40–60 人日（1 前端 + 1 后端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/c2/d2/c2c2d25b-b14c-bc5f-53ba-bcdf6bbe9f0b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/68/f6/6668f6a0-2532-b8ef-9b53-a84f6036138f/20250106103128-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690518-1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/19/9b/6d199bd2-aeda-6f74-cb65-873badf94001/20250106103135-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690517-1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/64/14/2064147d-1bd7-ed3b-9228-b22bf5bacf89/20250106103141-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690519-1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b6/46/f6/b646f6c0-ef37-aea7-f281-8ca85656dfad/20250106103148-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690520-1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/98/57/eb/9857eb85-fb51-084d-d451-4dac0eda219d/20250106103155-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690521-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/6a/53/b06a5394-7d1d-93e5-423d-91e9d61b3f17/20250106103128-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690534-1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/82/d1/3282d150-f63b-7465-d2c1-a46391c7da80/20250106103135-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690535-1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/35/2d/77352db7-5ca0-1d5b-f381-fc4de26057b6/20250106103142-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690536-1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/c1/d6/1ec1d6c9-10b6-8e70-2248-302613ca16f7/20250106103149-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690537-1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/11/e2/7f11e2db-6633-f9cd-26e2-97e015bce5c2/20250106103156-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690538-1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "手机新版/3.0采用 Unity 引擎重制（官方策划面对面确认）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体873MB，2.5D卡通",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/qq%E5%86%9C%E5%9C%BA/id506655146?uo=4",
+  "https://qqnc.qq.com/webplat/info/news_version3/6035/29059/61321/m22677/202312/944778.shtml"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 0.8,
+  "match_name": "QQ农场",
+  "country": "cn",
+  "track_id": 506655146,
+  "seller": "Shenzhen Tencent Computer Systems Company Limited",
+  "genres": [
+   "游戏",
+   "家庭聚会",
+   "模拟"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/c2/d2/c2c2d25b-b14c-bc5f-53ba-bcdf6bbe9f0b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/68/f6/6668f6a0-2532-b8ef-9b53-a84f6036138f/20250106103128-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690518-1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/19/9b/6d199bd2-aeda-6f74-cb65-873badf94001/20250106103135-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690517-1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/64/14/2064147d-1bd7-ed3b-9228-b22bf5bacf89/20250106103141-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690519-1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b6/46/f6/b646f6c0-ef37-aea7-f281-8ca85656dfad/20250106103148-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690520-1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/98/57/eb/9857eb85-fb51-084d-d451-4dac0eda219d/20250106103155-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690521-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/6a/53/b06a5394-7d1d-93e5-423d-91e9d61b3f17/20250106103128-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690534-1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/82/d1/3282d150-f63b-7465-d2c1-a46391c7da80/20250106103135-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690535-1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/35/2d/77352db7-5ca0-1d5b-f381-fc4de26057b6/20250106103142-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690536-1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/c1/d6/1ec1d6c9-10b6-8e70-2248-302613ca16f7/20250106103149-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690537-1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/11/e2/7f11e2db-6633-f9cd-26e2-97e015bce5c2/20250106103156-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690538-1.png/626x1112bb.jpg"
+  ],
+  "description": "官方微信：wx-qqfarm\n\n更多精彩访问官方下载页：nc.qq.com\n\n---特别说明---\n\n在游戏《QQ农场》中，用户使用QQ账号登录，能够同步游戏中部分数据，包括等级、好友等非通过购买累计的数值。用户在游戏中购买的游戏代币“星钻”仅限于在此应用中使用。腾讯平台上的虚拟货币, 比如Q币、Q点都无法在游戏内使用。\n\nThe game 《QQ farm》 is independent and separate from any other platform regarding acquisition of purchasable item/content. Users logged in with their Tencent's platform accounts QQ are able to sync non-purchasing related information/data in the game, such as friend list, score and level. Game currencies purchased/earned outside of the app. Similarly, any game currencies purchased/earned in 《QQ farm》 on any other platform cannot be used in this app either. The app doesn't use any QQ digital currency, such as QB.",
+  "release_notes": "修复部分bug\n切换账号时减少弹窗",
+  "file_size_bytes": 872921088,
+  "min_os": "12.0",
+  "version": "4.0.20",
+  "release_date": "2012-05-22",
+  "rating": 4.7444,
+  "rating_count": 27864,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/qq%E5%86%9C%E5%9C%BA/id506655146?uo=4",
+  "fetched_at": "2026-09-15T00:35:15+08:00"
+ },
+ "slug": "QQ经典农场_115408"
+}

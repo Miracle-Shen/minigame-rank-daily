@@ -1,0 +1,106 @@
+{
+ "schema_version": 1,
+ "name": "Block Blast!",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Hungry Studio",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 12
+  },
+  "platform_app_ids": {
+   "ios": "1617391485"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 24,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "极简方块 + 网格（扁平）",
+  "dims": {
+   "engine": 2,
+   "art": 1,
+   "anim": 2,
+   "physics": 1,
+   "logic": 2,
+   "data": 1,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "匹配到的商店包仅 5.4MB（极简版），完整版约 215MB 仍属轻量",
+   "logic": "8x8 网格 + 三块放置 + 横竖双向消除，规则简单"
+  },
+  "asset_notes": "方块 + 网格极简美术，几乎零素材成本；注意匹配包为极简版",
+  "notes": "媒体匹配（国区商店但开发者 Hungry Studio/北京迦游），包体 5.4MB 为极简版；多源确认 Unity 引擎，动效方向有用 Cocos",
+  "cost_score": 1.62,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "每回合给三个方块拖到 8x8 网格，填满整行或整列即消除，无时间压力，追求长连击与高分。",
+  "highlights": [
+   "横竖双向消除的规划爽感",
+   "无计时低压，适合碎片",
+   "「Perfect/Unbelievable」夸赞 + 震动的正反馈"
+  ],
+  "innovations": [
+   "把俄罗斯方块下落改为「不限时静态放置+横竖双向消除」，是成熟品类的执行优化"
+  ],
+  "target_user": "全球休闲 / 下沉用户",
+  "monetization": "纯 IAA（横幅/激励/插屏），无内购",
+  "lifecycle": "长线（模式/副玩法更新）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "机制极简技术零门槛，纯广告变现；瓶颈在题材与买量，Hungry Studio 已占榜。",
+  "suggestions": [
+   "换主题为「宝石 / 动物方块」",
+   "加一笔画 / 数独副玩法（如原作）",
+   "做极简离线版覆盖低配设备"
+  ],
+  "risks": [
+   "品类被 Hungry Studio 以万次 A/B 测试霸榜、买量极贵",
+   "易被认为抄袭"
+  ],
+  "effort": "15–25 人日（1 前端 + 0 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "匹配商店包 5.4MB（极简版，官方数据）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（开发文章与招聘信息确认）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/block-blast/id6742787556?uo=4",
+  "http://www.nadianshi.com/2026/02/405664"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false
+ },
+ "slug": "Block_Blast_df1a6e"
+}

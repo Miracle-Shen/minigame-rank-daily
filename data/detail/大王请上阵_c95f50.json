@@ -1,0 +1,104 @@
+{
+ "schema_version": 1,
+ "name": "大王请上阵",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "深圳市悦莱顺网络科技有限公司",
+  "category_l1": "角色",
+  "category_l2": "卡牌",
+  "boards": [
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 17
+  },
+  "platform_app_ids": {
+   "wx": "wx10fdc3aa2ebc5279"
+  },
+  "first_seen": "2026-08-08",
+  "appearances": 30,
+  "best_rank": 8,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推测）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "3D-Q 版跨文明武将",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "logic": "四大体系 + 兵种循环克制 + 八格站位布阵 + 出手顺序，策略维度多",
+   "data": "升阶/羁绊/命格/神兵/战魂多线养成 + 抽卡经济"
+  },
+  "asset_notes": "3D-Q 版武将模型 + 场景，素材中等偏上，需角色资产管线",
+  "notes": "媒体未匹配，但畅销榜在榜且多家渠道站有详细资料；3D-Q 版放置卡牌，引擎按选型推断",
+  "cost_score": 3.0,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "跨时空名将大乱斗，挂机产出资源，招募抽卡养成武将，搭配阵容（体系/兵种/站位）推图与竞技。",
+  "highlights": [
+   "兵种循环克制（盾弓枪骑）低战力靠布阵越战",
+   "八格站位 + 出手顺序 + 技能时机的高策略",
+   "开局千抽快速组核心阵容的爽感"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（放置卡牌成熟，中西名将混搭为题材执行）"
+  ],
+  "target_user": "卡牌 / 历史用户，男性",
+  "monetization": "IAP（抽卡/养成）+ 混合",
+  "lifecycle": "长线（卡牌运营）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "放置卡牌框架成熟、技术中；瓶颈在题材美术与数值，换皮快速。",
+  "suggestions": [
+   "换为「神话 / 职场」题材",
+   "保留兵种克制做差异化数值",
+   "做轻量 H5 版降成本"
+  ],
+  "risks": [
+   "卡牌买量极贵",
+   "数值平衡难",
+   "头部垄断"
+  ],
+  "effort": "60–90 人日（1.5 前端 + 1 美术 + 1 策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法/题材依据多家渠道站资料，引擎为推断",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.jz5u.com/game/69130.html",
+  "https://www.1912yx.com/rmyx/3310.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:38:35+08:00"
+ },
+ "slug": "大王请上阵_c95f50"
+}

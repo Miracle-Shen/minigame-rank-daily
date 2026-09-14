@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "name": "解压闯一关",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州探游网络科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/人气榜",
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 13,
+   "wx/畅玩榜": 6
+  },
+  "platform_app_ids": {
+   "wx": "wxd168d04b737f0579"
+  },
+  "first_seen": "2026-08-02",
+  "appearances": 37,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator / Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "明快卡通 + 像素填色，蚂蚁吉祥物搬运工",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 2,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "纯点击填色，无碰撞或物理模拟"
+  },
+  "asset_notes": "素材为像素块 + 图标 + 蚂蚁贴图，可程序化生成或 AI 生图批量产出，素材层不是瓶颈",
+  "notes": "数字填色（Color by Number）成熟品类，机制零门槛、代码量小，瓶颈在图鉴包装与题材",
+  "cost_score": 1.88,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "按数字提示把颜料一格格填进像素画，蚂蚁搬运工把颜料砖搬上画布，连击累积越填越顺，拼出完整图案即过关，一局数十秒到数分钟。",
+  "highlights": [
+   "连击数字滚动放大（如「连击×743」）的即时正反馈，越填越带劲",
+   "图鉴收集驱动（1101 关进度分页），像集邮一样解锁西瓜/猫咪等主题",
+   "蚂蚁抱砖上画布的填充动画，进度肉眼可见，过关彩纸庆祝点到即止"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（数字填色 + 蚂蚁搬运工包装）"
+  ],
+  "target_user": "全年龄解压用户，碎片时间填充",
+  "monetization": "IAA 为主（看视频解锁槽位、3 倍速加速），广告略多，无明确内购",
+  "lifecycle": "长线（1101 关图鉴，持续更新题材）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "填色玩法零门槛、素材轻、代码量小；瓶颈完全在题材与图鉴包装，换题材即可差异化，原题材已高度饱和。",
+  "suggestions": [
+   "换题材为「博物馆修复」「非遗扎染」，用 AI 生图批量产出图鉴降低美术成本",
+   "把蚂蚁搬运工换成「小精灵浇水」等更贴题材的吉祥物",
+   "首屏开放「连击加速」降低前几关等待，把广告位后移到第 10 关之后"
+  ],
+  "risks": [
+   "数字填色品类极度饱和、换皮产品海量",
+   "买量成本高，纯 IAA 变现 LTV 偏低"
+  ],
+  "effort": "12–20 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法为数字填色 + 蚂蚁搬运工 + 连击系统，图鉴 1101 关",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎为 Cocos/Unity 推断，无官方确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.17yoo.cn/detail/53495",
+  "https://sj.qq.com/appdetail/wxd168d04b737f0579"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:35:28+08:00"
+ },
+ "slug": "解压闯一关_b767f9"
+}

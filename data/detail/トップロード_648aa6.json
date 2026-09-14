@@ -1,0 +1,106 @@
+{
+ "schema_version": 1,
+ "name": "トップロード",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "GAME SPARK PTE. LTD.",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 1
+  },
+  "platform_app_ids": {
+   "ios": "6767834940"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "SLG写实城池+英雄，轻量化入口",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 5,
+   "server": 4,
+   "audio": 3
+  },
+  "dim_notes": {
+   "logic": "SLG领地经营+英雄养成+联盟国战+王国扩张，系统深",
+   "data": "数百英雄收集养成+城主任命+科技树，长线数值体系"
+  },
+  "asset_notes": "SLG城池/英雄/战斗3D资产中等偏重；无官方素材依研报推断",
+  "notes": "《Top Lords》日文版，江娱互动（River Game/Top War团队），GAME SPARK PTE. LTD.发行",
+  "cost_score": 3.5,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "首屏用‘左右滑动增兵推敌’的轻量小游戏给正反馈，再接入SLG：经营领地、任命城主、养成英雄、联盟国战扩张，长线。",
+  "highlights": [
+   "第一屏‘划一下’三秒看懂的滑动闯关，降低SLG理解门槛",
+   "广告素材承诺→前几分钟兑现→SLG系统接住的‘桥’设计",
+   "英雄收集+城主任命+王国扩张的长线目标"
+  ],
+  "innovations": [
+   "把重度SLG第一口做‘轻’——用滑动小游戏作入口桥接，而非套小游戏皮；是SLG买量转化优化思路"
+  ],
+  "target_user": "SLG用户+被轻量入口吸引的新用户",
+  "monetization": "IAP（SLG内购/月卡/通行证）为主",
+  "lifecycle": "长线（赛季/联盟战）"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "SLG本身红海且需长线运营资本，直接复刻无空间；但其‘轻量滑动入口桥接重度系统’的获客结构是可复用的差异化思路，照抄会撞车。",
+  "suggestions": [
+   "对任何重度系统游戏（如放置RPG/SLG），首屏都用‘3秒看懂的滑动/合成小游戏’作入口，先给正反馈再接主系统"
+  ],
+  "risks": [
+   "SLG买量极贵",
+   "长线运营资本重",
+   "与Top War系列内部竞争"
+  ],
+  "effort": "不建议作为整体复刻标的（若只取其入口思路，入口小游戏仅 10–15 人日）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "《トップロード》=《Top Lords》日版，江娱互动（Top War团队）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断Unity（Top War系列多用Unity，未确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.toutiao.com/a7679364927882232339",
+  "https://program.download/%ed%83%91-%eb%a1%9c%eb%93%9c-%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c-%ec%84%a4%ec%b9%98"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:36:41+08:00"
+ },
+ "slug": "トップロード_648aa6"
+}

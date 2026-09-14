@@ -1,0 +1,236 @@
+{
+ "schema_version": 1,
+ "name": "赵云与阿斗",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "北京蜜獾工坊科技有限公司",
+  "category_l1": "1",
+  "category_l2": "塔防",
+  "boards": [
+   "douyin/热门榜",
+   "douyin/畅销榜",
+   "wx/人气榜",
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 15,
+   "wx/畅玩榜": 2,
+   "douyin/热门榜": 3,
+   "douyin/畅销榜": 20
+  },
+  "platform_app_ids": {
+   "wx": "wxbef54be7c625286e",
+   "douyin": "ttf3e1855c6ce3e43b02"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator / LayaAir（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "极简汉字水墨国风，作战单位以汉字字牌呈现，无华丽特效",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 3,
+   "server": 4,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "无物理模拟，单位按固定格子布阵与自动攻击，纯逻辑判定",
+   "logic": "合成+拖拽布阵塔防+1V1对称实时竞技+每日随机地图+武将/装备/图鉴多系统，玩法耦合度高",
+   "server": "含1V1实时对称PVP与双人竞技对战，需实时对战服务端与每日重置/排行榜"
+  },
+  "asset_notes": "美术几乎全为汉字字牌+水墨色块，可程序化/极低成本产出；包体217MB主要来自音频与地图资产，素材层不是瓶颈",
+  "notes": "2D文字H5小游戏，引擎与框架成熟，最大技术变量在实时PVP服务端而非玩法本身",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "玩家消耗『馒头』征兵随机获得汉字兵种或武将碎片，拖拽两个相同字牌合成升级、拼出完整武将名（如『赵』+『云』）召唤武将，在对称分屏战场布阵自动攻击，守护己方『阿斗』直到击破对方。",
+  "highlights": [
+   "汉字字牌拼接召唤武将的机制（如凑齐『赵云』二字才激活），比普通合成更有目标感与仪式感",
+   "『献祭流』等玩家自创套路：故意放小兵攻击阿斗换经济，瞬间爆兵反推，策略深度超出普通塔防",
+   "每日地图轮新+道具仅当日有效，制造『今天不玩就亏』的日活钩子",
+   "1V1对称实时对战+省队排行，赢了能上本省排行榜，社交炫耀驱动复玩"
+  ],
+  "innovations": [
+   "把『汉字合成』与『塔防布阵』融合，用文字拼接作为武将召唤条件，形成独有辨识度",
+   "极简水墨文字美术替代传统美术，零美术负担却做出三国古战场氛围"
+  ],
+  "target_user": "泛休闲+轻度策略用户，爱三国/文字梗的年轻玩家，利用碎片时间",
+  "monetization": "纯IAA（看广告复活/抽道具/去广告），无内购商城，广告位埋在征兵加速、神秘商人、体力恢复",
+  "lifecycle": "长线运营，靠每日地图、图鉴收集、武将养成与赛季活动维持复访"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "核心机制（汉字合成+拖拽布阵塔防+1V1 PvP）代码量可控、框架可复用，差异化完全在题材与美术；但实时PVP抬高服务端成本，且蜜獾工坊已有猛鬼宿舍等塔防矩阵、赛道不空白。",
+  "suggestions": [
+   "把『汉字武将』换成『西游妖怪字牌』或『职场职位字牌』，合成召唤机制原样保留",
+   "首关降低阿斗命条与敌方波次，把『文字拼接』的教学前置，降低上手门槛",
+   "用AI生图替代水墨手绘，保留字牌玩法但把美术成本压到极低"
+  ],
+  "risks": [
+   "蜜獾工坊已有猛鬼宿舍/万炮互轰/墨战等塔防矩阵，同类玩法买量竞争激烈",
+   "实时PVP需服务端投入，小团队易被并发与反作弊拖垮",
+   "汉字合成若过度依赖三国IP，换皮需规避刘备/关羽等具体人物版权"
+  ],
+  "effort": "25–40 人日（1 前端 + 1 美术 + 0.5 服务端）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/ae/4a/26ae4a85-1440-7ae3-9389-420710851180/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/d7/5f/9cd75f5a-6412-bf5b-3edb-dd1173fb5076/_U622a_U56fe3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/3e/de/463edebb-631a-2825-332b-c1168b5149f4/_U622a_U56fe1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/fd/4c/62fd4c35-de1c-00c2-df2c-d7da925e6746/_U622a_U56fe2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/4d/b7/fb4db717-6078-f786-af50-a60e25dc5e0e/_U622a_U56fe4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/bb/46/83bb460c-c6b8-38e7-5a63-e1477d6cb2f2/_U622a_U56fe5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/b3/b6/e0b3b6f1-66c0-7793-790d-a577c6625482/home.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/ab/a7/d4aba734-9331-03b4-b662-f6073bb133ee/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/f6/c0/75f6c0c6-e011-8961-c44b-26352dea9fd1/rank.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/f1/27/5ff127ce-0b19-95d0-3fc1-3b76dcd282c3/fight2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/d1/d9/18d1d96f-4509-dea0-332d-07b386004721/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/e3/1b/e9e31b66-bbdc-8d1e-92d3-37782fe90c7c/QQ20260704-192324.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体217MB（App Store），属中等素材量级（80–250MB）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "北京蜜獾工坊开发，核心团队3–5人，H5小游戏，2026年6月上线",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Cocos Creator / LayaAir 等2D H5引擎（未见官方确认，据2D水墨H5形态推断）",
+   "level": "inferred"
+  },
+  {
+   "claim": "蜜獾工坊有猛鬼宿舍/万炮互轰/墨战等塔防策略矩阵",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E8%B5%B5%E4%BA%91%E4%B8%8E%E9%98%BF%E6%96%97/id6755426265?uo=4",
+  "https://www.mihuangame.com/index.html",
+  "https://baike.baidu.com/item/%E8%B5%B5%E4%BA%91%E4%B8%8E%E9%98%BF%E6%96%97/68314546"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "赵云与阿斗",
+  "country": "cn",
+  "track_id": 6755426265,
+  "seller": "Beijing Mihuan Games Technology Co., Ltd",
+  "genres": [
+   "游戏",
+   "策略",
+   "休闲"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/ae/4a/26ae4a85-1440-7ae3-9389-420710851180/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/d7/5f/9cd75f5a-6412-bf5b-3edb-dd1173fb5076/_U622a_U56fe3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/3e/de/463edebb-631a-2825-332b-c1168b5149f4/_U622a_U56fe1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/fd/4c/62fd4c35-de1c-00c2-df2c-d7da925e6746/_U622a_U56fe2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/4d/b7/fb4db717-6078-f786-af50-a60e25dc5e0e/_U622a_U56fe4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/bb/46/83bb460c-c6b8-38e7-5a63-e1477d6cb2f2/_U622a_U56fe5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/b3/b6/e0b3b6f1-66c0-7793-790d-a577c6625482/home.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/ab/a7/d4aba734-9331-03b4-b662-f6073bb133ee/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/f6/c0/75f6c0c6-e011-8961-c44b-26352dea9fd1/rank.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/f1/27/5ff127ce-0b19-95d0-3fc1-3b76dcd282c3/fight2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/d1/d9/18d1d96f-4509-dea0-332d-07b386004721/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/e3/1b/e9e31b66-bbdc-8d1e-92d3-37782fe90c7c/QQ20260704-192324.png/626x1112bb.jpg"
+  ],
+  "description": "游戏以多样化塔防设计、丰富技能组合、实时策略的排兵布阵、古代战争模拟、简洁水墨风格、快节奏玩法，让玩家体验从士兵到皇帝的军衔成长，是一款优秀的合成策略塔防游戏",
+  "release_notes": "优化游戏体验",
+  "file_size_bytes": 227968000,
+  "min_os": "12",
+  "version": "1.0.21",
+  "release_date": "2026-06-24",
+  "rating": 4.42073,
+  "rating_count": 6232,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E8%B5%B5%E4%BA%91%E4%B8%8E%E9%98%BF%E6%96%97/id6755426265?uo=4",
+  "fetched_at": "2026-09-14T23:50:52+08:00"
+ },
+ "slug": "赵云与阿斗_911d95"
+}

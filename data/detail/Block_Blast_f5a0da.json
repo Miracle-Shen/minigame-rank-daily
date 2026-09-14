@@ -1,0 +1,227 @@
+{
+ "schema_version": 1,
+ "name": "ブロックブラスト (Block Blast)",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Hungry Studio",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 4
+  },
+  "platform_app_ids": {
+   "ios": "1617391485"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（inferred，来源有Cocos2d-x矛盾）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "扁平简约色块，明快卡通",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "行业稿称Unity开发（同时提及Cocos2d-x框架，矛盾，标inferred）",
+   "art": "包体203MB属中等，扁平2D但含多种主题与冒险关卡图",
+   "logic": "8x8网格三块放置+行列消除+连击+动态难度AI，逻辑中等"
+  },
+  "asset_notes": "扁平2D色块，美术极轻；主要成本在关卡生成与DDA算法而非素材。",
+  "notes": "全球5亿+下载的俄罗斯方块变体，纯IAA验证了‘无失败设计+广告’模型，复刻性价比最高。",
+  "cost_score": 2.12,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "每回合给三块固定形状方块，拖到8x8网格任意位置，填满整行或整列即消除得分，棋盘无处可放则结束，追求更高分。",
+  "highlights": [
+   "取消下落计时与旋转，纯空间预判，‘零焦虑俄罗斯方块’上手即爽",
+   "连击/多线同清的倍率反馈与‘Perfect!’等夸赞音效+震动",
+   "动态难度AI在你卡关时喂契合方块、连败后开‘上帝模式’防流失"
+  ],
+  "innovations": [
+   "静态放置替代实时下落，把反应类变为策略预判类，是核心差异化",
+   "隐藏AI动态难度（DDA）把前30局失败率压到5%以下"
+  ],
+  "target_user": "全球泛休闲、下沉市场、全年龄段碎片时间",
+  "monetization": "纯IAA（横幅/插屏/激励视频），无内购，下沉市场适配",
+  "lifecycle": "长线，靠主题关卡与买量维持DAU"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "机制属俄罗斯方块公共领域变体，技术极轻、纯广告变现模型已被全球验证；瓶颈仅在美术题材与DDA调参，换皮即差异化。",
+  "suggestions": [
+   "换为国风/果蔬/汉字方块等本土题材即可差异化",
+   "复用其‘无失败设计+动态难度AI’降低新手流失",
+   "用激励视频做‘撤销/提示’而非单纯插屏，提升eCPM"
+  ],
+  "risks": [
+   "Block Blast已垄断全球买量，直接撞车CPM高",
+   "玩法无壁垒，易被更大买量碾压",
+   "纯IAA对留存与ARPU要求极致"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/2e/54/1c2e54e4-d594-21f8-892b-7de4754a0949/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/35/f0/7a35f016-fe53-b092-b5b4-793ba8bdbc35/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/f3/d1/6ff3d122-8081-a478-2bc0-c6bf4104dd9f/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/9e/4c/719e4cbb-a3a7-29ce-6fa9-b6b791a546eb/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/57/f9/0157f9e3-4748-e60b-8d4f-2fe3c21c058c/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/8a/e5/7d8ae54e-e908-e30f-40d4-2ebef8434974/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/76/ee/2a76ee57-90a6-9c88-7393-b77afd3b6508/4ac25f40-0f18-43c2-8be8-b3d2018fe240_2048X2732_1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/b3/98/acb39832-888e-a1cf-7f06-511f1b1dd114/94905e6c-232a-4e06-a5c0-8f2cd6c397c3_2048X2732_2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/85/20/59852083-ec6f-fa50-a7d2-dd2735b529cc/507e9e3b-5367-4913-95a6-635ea2e2f9e8_2048X2732_7.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/d4/ed/35d4ed02-7d3b-7203-61d1-47c52d8eab15/7849c258-c37e-49c2-801c-c873059a10f8_2048X2732_5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/13/6f/64136fb6-c5c8-d63a-6267-8651a4fb7e67/97923055-0214-4def-8de6-c901566f9556_2048X2732_6.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/32/65/3b3265c0-3baa-e2e4-aaa0-fa1f64d74666/e00cd291-a27f-439a-bafa-1b8115ab49d3_2048X2732_3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/67/0e/e5670e0c-1912-95f1-e492-99a1333db474/f2512c87-ed0b-4909-a8cd-266a5bd4d67c_2048X2732_4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体203MB，8x8三块放置消除，Hungry Studio（北京迦游）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎Unity（同时存在Cocos2d-x说法）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/block-blast/id1617391485?uo=4",
+  "https://www.sohu.com/a/956158045_122479556"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Block Blast！",
+  "country": "us",
+  "track_id": 1617391485,
+  "seller": "ARETIS LIMITED",
+  "genres": [
+   "Games",
+   "Puzzle",
+   "Casual",
+   "Entertainment"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/2e/54/1c2e54e4-d594-21f8-892b-7de4754a0949/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/35/f0/7a35f016-fe53-b092-b5b4-793ba8bdbc35/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/f3/d1/6ff3d122-8081-a478-2bc0-c6bf4104dd9f/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/9e/4c/719e4cbb-a3a7-29ce-6fa9-b6b791a546eb/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/57/f9/0157f9e3-4748-e60b-8d4f-2fe3c21c058c/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/8a/e5/7d8ae54e-e908-e30f-40d4-2ebef8434974/5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/76/ee/2a76ee57-90a6-9c88-7393-b77afd3b6508/4ac25f40-0f18-43c2-8be8-b3d2018fe240_2048X2732_1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/b3/98/acb39832-888e-a1cf-7f06-511f1b1dd114/94905e6c-232a-4e06-a5c0-8f2cd6c397c3_2048X2732_2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/85/20/59852083-ec6f-fa50-a7d2-dd2735b529cc/507e9e3b-5367-4913-95a6-635ea2e2f9e8_2048X2732_7.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/d4/ed/35d4ed02-7d3b-7203-61d1-47c52d8eab15/7849c258-c37e-49c2-801c-c873059a10f8_2048X2732_5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/13/6f/64136fb6-c5c8-d63a-6267-8651a4fb7e67/97923055-0214-4def-8de6-c901566f9556_2048X2732_6.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/32/65/3b3265c0-3baa-e2e4-aaa0-fa1f64d74666/e00cd291-a27f-439a-bafa-1b8115ab49d3_2048X2732_3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/67/0e/e5670e0c-1912-95f1-e492-99a1333db474/f2512c87-ed0b-4909-a8cd-266a5bd4d67c_2048X2732_4.png/626x1112bb.jpg"
+  ],
+  "description": "Enter the world of Block Blast, where every move is a test of your brain and strategy. Dive into the thrill of block crush gameplay—watch vibrant cubes explode in color as you solve each puzzle. With fresh daily puzzle challenges that keep your mind engaged and an endless high score system that rewards your best strategies, Block Blast delivers nonstop excitement for casual players and puzzle masters alike.\n\nWhy You'll Love Block Blast\n• Daily Puzzle Variety: Every day brings a new puzzle twist, ensuring there’s always something fresh to solve and new rewards to earn.\n• Block Puzzle Saga: Match colorful blocks on an 8x8 board and enjoy the satisfying cascade of each block crush.\n• Endless High Score Hunt: Push yourself further with each game—break your own records, and climb higher every time you play.\n• Casual Yet Challenging: Easy to pick up, but packed with logic-based challenges that sharpen your mind.\n• Offline Fun: Play anywhere, anytime—no WiFi required. Perfect for a subway ride or while waiting in the car.\n\nFeatures of Block Blast\n• Strategic Puzzle Gameplay: Drag, place, and match cube blocks on board to trigger chain reactions.\n• Adventure Mode: Experience progressive levels with unique jigsaw designs and colorful themes.\n• Daily Puzzle Rewards: Stay motivated with special challenges that refresh your brain every day.\n• Score Mastery: Compete against friends, share your results, and prove who dominates the endless high score.\n• Stunning Block Effects: Feel the rush of every block crush with dynamic visuals and relaxing music effects.\n\nHow to Play\n• Drag & Match: Place cube blocks on the 8x8 board with precision.\n• Crush & Score: Complete rows or columns of tiles and watch the block crush effects cascade.\n• Chase Combos: Plan your moves to unlock massive points and extend your endless high score run.\n• Stay Strategic: Keep your board clear to make room for bigger plays.\n\nJump into the Ultimate Block Puzzle Saga!\nReady for mind-sharpening fun? Take on fresh daily puzzles, master the art of the block crush, and see how far you can push your endless high score. Download Block Blast today and start your adventure!\n\nPrivacy policy: https://hungrystudio.com/privacyus.html\nTerms of Use: https://hungrystudio.com/serviceus.html",
+  "release_notes": "We're always improving Block Blast! Turn on auto-updates to get the latest features.\nSuggestions? Email us: blockblast-support@hungrystudio.com\nFollow us on TikTok for updates: @blockblastofficial",
+  "file_size_bytes": 203123712,
+  "min_os": "15.0",
+  "version": "7.4.4",
+  "release_date": "2022-04-03",
+  "rating": 4.87404,
+  "rating_count": 2704818,
+  "price": "Free",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/us/app/block-blast/id1617391485?uo=4",
+  "fetched_at": "2026-09-15T00:37:00+08:00"
+ },
+ "slug": "ブロックブラスト_Block_Blast_f5a0da"
+}

@@ -1,0 +1,677 @@
+{
+ "updated_at": "2026-09-14T23:50:02+08:00",
+ "games": {
+  "羊了个羊：星球": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b36708406e382cbe105bdccf2fca1da0",
+   "main_type": "1",
+   "sub_type": "消除",
+   "app_ids": {
+    "wx": "wx141bfb9b73c970a9",
+    "douyin": "tta196d72b3ea8917302"
+   }
+  },
+  "腾讯欢乐斗地主": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3346274bed9aabffae3b4fb958caa380",
+   "main_type": "棋牌",
+   "sub_type": "牌类",
+   "app_ids": {
+    "wx": "wxd0e404d795ea6f80"
+   }
+  },
+  "向末日开炮": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/07f3346ce3cd03764e6cbbbf1a9d7b52",
+   "main_type": "休闲",
+   "sub_type": "模拟经营",
+   "app_ids": {
+    "wx": "wx6d939b5e0a7dd630"
+   }
+  },
+  "造个大英雄": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7313135c3fae56104f40fd862176148a",
+   "main_type": "休闲",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wxc42b163df127de3c"
+   }
+  },
+  "QQ经典农场": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/45966eb06e92a14455ad134a095cebb7",
+   "main_type": "休闲",
+   "sub_type": "模拟经营",
+   "app_ids": {
+    "wx": "wx5306c5978fdb76e4"
+   }
+  },
+  "暴走闯关者": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8ea0cbef13a02a52c4e193a8ef91c3ae",
+   "main_type": "休闲",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wx4e5802fc1b078117"
+   }
+  },
+  "看谁先上车": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/887a15ac0f50bfa3831353fd8c29d543",
+   "main_type": "休闲",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wx641f825d5dce9ea9"
+   }
+  },
+  "躺平发育": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5fcd26c17fae8f98cc7324486dac864e",
+   "main_type": "1",
+   "sub_type": "塔防",
+   "app_ids": {
+    "wx": "wx8f54d0cf1faf013f",
+    "douyin": "tt3a9d4c20a5a4387002"
+   }
+  },
+  "抓大鹅": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d85af53c8b419374c68c23931d867133",
+   "main_type": "1",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wxb98ac240fd74b0e3",
+    "douyin": "tta682d03f39b2471b07"
+   }
+  },
+  "一箭又一箭": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2b80997e88fca1eed8b6a9147852d2e3",
+   "main_type": "休闲",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wx69949b45b793b612"
+   }
+  },
+  "赵云与阿斗": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c6f1ac8898cfd2673180a9e2e4a3d826",
+   "main_type": "1",
+   "sub_type": "塔防",
+   "app_ids": {
+    "wx": "wxbef54be7c625286e",
+    "douyin": "ttf3e1855c6ce3e43b02"
+   }
+  },
+  "贪吃蛇大作战": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4a56206194cf97be05b32771b213b3e2",
+   "main_type": "1",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wxf4ac0077b6ffb1e7",
+    "douyin": "ttb491c22c2bbb015a"
+   }
+  },
+  "渔力全开": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/930ddc8e9d96008f47af7d2084fc682f",
+   "main_type": "休闲",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wxabecbaacfc9ee31c"
+   }
+  },
+  "开心消消乐": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e47aa8105773efe9436e965eec0913ba",
+   "main_type": "休闲",
+   "sub_type": "消除",
+   "app_ids": {
+    "wx": "wx0647ea28e8169ef5"
+   }
+  },
+  "开局带把枪": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4fecf8a1a4df6b3beb51fa810c8f0fdf",
+   "main_type": "休闲",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wx97389648b73dfeca"
+   }
+  },
+  "打下毛线": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f414cc7577e0194a696616dba9ebe8af",
+   "main_type": "休闲",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wxf28cef521695cd2a"
+   }
+  },
+  "开车我贼6": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c86e61b9b0cf047939964f9074bd27e6",
+   "main_type": "休闲",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wx99e8f1831f64f9bb"
+   }
+  },
+  "疯狂水世界": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f96d902ca11e623ed393c5dc6f92c410",
+   "main_type": "1",
+   "sub_type": "模拟经营",
+   "app_ids": {
+    "wx": "wx2ea52a972ea18e5e",
+    "douyin": "tt76340089e939a1bf02"
+   }
+  },
+  "解压闯一关": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4093c5813c37f9c427965bbdc2ba8557",
+   "main_type": "休闲",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wxd168d04b737f0579"
+   }
+  },
+  "奇幻果园": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ddb3c5b1d0ccccfc970c604550c8e23a",
+   "main_type": "休闲",
+   "sub_type": "模拟经营",
+   "app_ids": {
+    "wx": "wxb4a3c67915ab4d15"
+   }
+  },
+  "向僵尸开炮": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/9a1954a09a6d510d044374a02726f412",
+   "main_type": "1",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wx31a9c726536cdacc",
+    "douyin": "tt704406f9ef7450b207"
+   }
+  },
+  "三国：冰河时代": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/34e0165bef975614fe83146a7d7be51a",
+   "main_type": "1",
+   "sub_type": "其他",
+   "app_ids": {
+    "wx": "wx209b8a6bc1c08b85",
+    "douyin": "tt672d1190f818c4dd02"
+   }
+  },
+  "永夜起源": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/670ada94c6d276720e82ff55807be3a8",
+   "main_type": "角色",
+   "sub_type": "卡牌",
+   "app_ids": {
+    "wx": "wx1ab0da97c26e5574"
+   }
+  },
+  "浪漫餐厅": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4e6117ad571bb3900200f3927f1b5592",
+   "main_type": "1",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wx087d98a0884bbe3b",
+    "douyin": "tt7eb3080ee181ebf007"
+   }
+  },
+  "造化仙府": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0107234bc21f91b8d57cfb07f6489014",
+   "main_type": "1",
+   "sub_type": "模拟经营",
+   "app_ids": {
+    "wx": "wxc5c6c4e6b4b0075f",
+    "douyin": "tt3a5d4ce0a5504afe02"
+   }
+  },
+  "梦幻消除战": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a5f26ba59138ee942befe8a3140e65c8",
+   "main_type": "1",
+   "sub_type": "模拟经营",
+   "app_ids": {
+    "wx": "wxc721a6dc3366ec1f",
+    "douyin": "tt8e13f8ae111a218b07"
+   }
+  },
+  "永远的蔚蓝星球": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c92ec68871fdf421697d62fddef79c4c",
+   "main_type": "1",
+   "sub_type": "塔防",
+   "app_ids": {
+    "wx": "wxd704b6fcc8ba8e9e",
+    "douyin": "ttda92ac2f459a5db307"
+   }
+  },
+  "向往的生活": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/6a81f2015080659e31f805f5b555ae2e",
+   "main_type": "1",
+   "sub_type": "模拟经营",
+   "app_ids": {
+    "wx": "wx961a01b2c8096028",
+    "douyin": "ttd54ea3f34a46f34a02"
+   }
+  },
+  "灵画师": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c8299e32203947609384a444b7f101b6",
+   "main_type": "1",
+   "sub_type": "ARPG",
+   "app_ids": {
+    "wx": "wxcbc1fc07fb13d667",
+    "douyin": "ttfcdb8a6663ec187f02"
+   }
+  },
+  "无尽冬日": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/23581fa35013fd5ff1c3319332df3482",
+   "main_type": "竞技",
+   "sub_type": "对战",
+   "app_ids": {
+    "wx": "wxada4175c8b2a9864"
+   }
+  },
+  "大王请上阵": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/abe33f1a1897cd61bc515c5a9c654915",
+   "main_type": "角色",
+   "sub_type": "卡牌",
+   "app_ids": {
+    "wx": "wx10fdc3aa2ebc5279"
+   }
+  },
+  "天命行者": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8ea737864bc7e1b400a117ecd4926418",
+   "main_type": "角色",
+   "sub_type": "卡牌",
+   "app_ids": {
+    "wx": "wxbdf25cb34ce9bf6e"
+   }
+  },
+  "镇邪人": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d0dd13467174a998efeed0bd1da08e19",
+   "main_type": "1",
+   "sub_type": "ARPG",
+   "app_ids": {
+    "wx": "wxd53170210eef737f",
+    "douyin": "tt076071dd9904ae7202"
+   }
+  },
+  "跃动小子": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4313ef6514b9c7eb2f6cb22be1628307",
+   "main_type": "1",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wx6cce8ac2ea74103e",
+    "douyin": "tt526924d4cd552d9602"
+   }
+  },
+  "迷雾大陆": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7de8c71dcf1204dfe58e628458d70da6",
+   "main_type": "角色",
+   "sub_type": "ARPG",
+   "app_ids": {
+    "wx": "wxfd4afe02d65b4972"
+   }
+  },
+  "解压打毛线": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/108ecdb9b855db5ab69177b2be7253a2",
+   "main_type": "休闲",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wxcdc333d63f70cf06"
+   }
+  },
+  "挪了下车": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/6548f25d155ad7cae169fd566cbafb73",
+   "main_type": "休闲",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wxcb8d7b6dfad21e95"
+   }
+  },
+  "打个螺丝": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/97ae2031d5d42970e0cf826293d0695c",
+   "main_type": "休闲",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wx2e170762929d239d"
+   }
+  },
+  "这关可真行": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/6a880555c3163e0b3f6330ccd63cb854",
+   "main_type": "休闲",
+   "sub_type": "塔防",
+   "app_ids": {
+    "wx": "wx78c206be195a1173"
+   }
+  },
+  "猪了个猪": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c38648dfe350b66e28185dc691134608",
+   "main_type": "动作",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wx2bd39bc6b432744f"
+   }
+  },
+  "砖了个砖": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c23699e145c0dc74d0a211136931b622",
+   "main_type": "休闲",
+   "sub_type": "消除",
+   "app_ids": {
+    "wx": "wx1650bdeedb17dfea"
+   }
+  },
+  "救救我鸭": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3ac2fb03ed996949152065c20c3e3e9a",
+   "main_type": "休闲",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wx244b1cb66c8ac4b4"
+   }
+  },
+  "一找一个准": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d6642889c973c97ef1dabb9b7959f20a",
+   "main_type": "休闲",
+   "sub_type": "益智",
+   "app_ids": {
+    "wx": "wx3986ff94accd31a9"
+   }
+  },
+  "掼蛋": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7a7b7f31466e9000a9459d579611ac5e",
+   "main_type": "棋牌",
+   "sub_type": "牌类",
+   "app_ids": {
+    "wx": "wxb7d9498283885fb2"
+   }
+  },
+  "俄罗斯方块拼图": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3ad801597f89719a949c7cd9b6f7c718",
+   "main_type": "休闲",
+   "sub_type": "消除",
+   "app_ids": {
+    "wx": "wx45e02fc734c7b568"
+   }
+  },
+  "找个儿不同": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/70436fa1cff86f5e7bc4cfed03b7af55",
+   "main_type": "休闲",
+   "sub_type": "消除",
+   "app_ids": {
+    "wx": "wx3b074a5ad3884b31"
+   }
+  },
+  "时尚百货城": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/63d9e4913f9ee9b341642f3fce3c0558",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt165560e88957e0f502"
+   }
+  },
+  "梦回甄嬛传": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e1e8a78c7123f2ddd1d46cdddc245bfe",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt2f6959d4b113069b02"
+   }
+  },
+  "肥鹅美食街": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/156e30bfc9c73035e67be87b0406b53f",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "ttab7fddc2347af2a002"
+   }
+  },
+  "多乐升级": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8a652b5801031dd1a143e8bdaa05763e",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt4b0d3db0d43bd50002"
+   }
+  },
+  "俱乐大玩家": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5a77af1cab6c34065b84dacf592499fe",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt5a362c8bc45262eb07"
+   }
+  },
+  "蛋仔派对": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/dcef8c367aa837542e5b59067c1cb609",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "ttca44bcf9554d63f002"
+   }
+  },
+  "狙击外星人": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e9f7ca47d69bc8cd978f5bcab0b1ea63",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tta638d085390d9a7302"
+   }
+  },
+  "象棋达人": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/6fc7decfc0cab2d55922fddbde109ca6",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt8ae7fc5a15ddafbd"
+   }
+  },
+  "兵器王者": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d1a93b41632f04da6f2a5d9250f83b29",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt29c85f75b6f97a5207"
+   }
+  },
+  "全能大闯关": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/89e1064b182d4ef583b1be8bd159f448",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt13df65628dba8a9307"
+   }
+  },
+  "猛鬼宿舍": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1c106dccb51bc458e7a1abd109dcf875",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt00e576589fdceaa202"
+   }
+  },
+  "狱国争霸": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f0daee657652604f784bc3b49bf48a4d",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt67df1162f8d65ba402"
+   }
+  },
+  "超能下蛋鸭": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/9e941aca939ee1d7bc6a482185704cc1",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt96fde04009f58bfe07"
+   }
+  },
+  "手机反恐特别行动": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/53eb0e35dc46376453a109f83fa20e04",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt1d496bf48278820a07"
+   }
+  },
+  "梦仙灵": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/13a8306b284d3acc8fee258b3e4aea68",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "ttfa9b8c2664f8f3e102"
+   }
+  },
+  "空格之境": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/add8add93a718e98dcb9f01db3e90a72",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt96a6e01b08c553f502"
+   }
+  },
+  "四季合合": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1de4248829d73a4cd9fbaf2858f28abc",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt210457b9be35faff07"
+   }
+  },
+  "像素方块冒险世界": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a0b47d9bca30f6498531f15c7226de94",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt434135fcdd24b51307"
+   }
+  },
+  "蜘蛛纸牌合集": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/44522213a22f332bde90f44cbe587b5b",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tta6bed00338da847402"
+   }
+  },
+  "卤蛋兄弟": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/9226cc215b2848538a539cab8d2f86db",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt18126eaf86772b8d02"
+   }
+  },
+  "给你打个折": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c7ed50c177a7f3e27f135e2489522e42",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tta339d5843d5dbfbf02"
+   }
+  },
+  "冲吧！帕克": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/761c60a713a1304235fef6f44acd7371",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt4ae03c5dd48115e307"
+   }
+  },
+  "指尖欢乐坊": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/605063107fb2646482d76ee995d69d40",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt53d3256ecdb74eba02"
+   }
+  },
+  "甄嬛传之浮生一梦": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/81e0b7c4b2f9f13e0f8a66d463d05aee",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt331945a4ad7d79c102"
+   }
+  },
+  "极限跳高冠军": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/dd6f2136047b61deb96ffaf58e3ba3d4",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt1c406afd822499cf07"
+   }
+  },
+  "随手画个轮": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a8dc707286832623010eddec2e8ab9d0",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "ttc09ab6275eff17ec07"
+   }
+  },
+  "钢铁机甲的碰撞": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/05c230a0c3057ad0b480bf3b7c455c96",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt0cef7a52928aa18d07"
+   }
+  },
+  "赘婿": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3d904d2ff21d849ded5c3a802bd4c6be",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tteb179daa7577318907"
+   }
+  },
+  "极限破译": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ea7123dae3ef36f82daacfeb1df0f0d6",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "ttc3d1b56c5db41c8602"
+   }
+  },
+  "羊了个羊：对对碰": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/75023ba83d1d37118cc6f1ed8f54b2b4",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "ttd861aedc46055c0207"
+   }
+  },
+  "我要消光光": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/6c2ad96af6b5684105a5efcaaeba25d1",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "ttb30ac5b72d6b226307"
+   }
+  },
+  "欢乐少年酷跑": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0001b9777f0f774141ff4a533bc061cd",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt8793f12e19f6316507"
+   }
+  },
+  "快逃离岩浆": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f377e43c06f5d75c8cf6c811a4ced9ce",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt0abd7c0094d87ddb07"
+   }
+  },
+  "谁是你爸": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/462e60381bb536669961ea38188bc8bf",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tt6cc91a74f2acc9f602"
+   }
+  },
+  "生肖挖挖乐": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/466a57c34461a4e8de1be0e7409b0e43",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "ttaaafdc1234cbfed202"
+   }
+  },
+  "我真能通关": {
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e4f6d66345e708f7f684e1e7dfd17a88",
+   "main_type": "1",
+   "sub_type": "",
+   "app_ids": {
+    "douyin": "tta314d5a93d70133d07"
+   }
+  }
+ }
+}

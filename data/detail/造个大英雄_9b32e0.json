@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "name": "造个大英雄",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "厦门凯斌信息科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/人气榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 6
+  },
+  "platform_app_ids": {
+   "wx": "wxc42b163df127de3c"
+  },
+  "first_seen": "2026-08-24",
+  "appearances": 3,
+  "best_rank": 6,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "三国文字武将卡通/Q版",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 3,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "文字武将/武器招募+相同字样合成升阶+防御区生成小兵，合成塔防逻辑",
+   "art": "三国武将文字拟人+武器立绘需定制"
+  },
+  "asset_notes": "文字武将+武器为2D卡通，可批量产出；与这关可真行同源可复用框架",
+  "notes": "与这关可真行同属文字合成塔防，疑似同厂(凯斌)矩阵",
+  "cost_score": 2.38,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "招募武将/武器名字摆入防御区生成对应小兵，相同字样合成升二级升战力，打退敌方救阿斗，过关得金币买道具。",
+  "highlights": [
+   "文字合成升阶的即时战力反馈",
+   "赵云/阿斗等三国梗降低理解成本",
+   "金币买道具+头像框，轻养成正反馈"
+  ],
+  "innovations": [
+   "无实质创新，与汉字合成塔防同脉的成熟执行"
+  ],
+  "target_user": "三国/国风轻度策略玩家",
+  "monetization": "IAA为主（复活/提示）+IAP",
+  "lifecycle": "短平快"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "文字合成塔防机制成熟，与这关可真行同源可复用框架；换题材/IP即差异化，技术成本低。",
+  "suggestions": [
+   "换'西游取经'文字武将合成塔防",
+   "把武将合成改'兵器谱'合成",
+   "共享这关可真行框架，做题材矩阵铺量"
+  ],
+  "risks": [
+   "与这关可真行高度同质，内部需差异化",
+   "文字塔防赛道已有多款"
+  ],
+  "effort": "20–35人日（1前端+1美术，可复用框架）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "造个大英雄为三国文字合成塔防微信小游戏，厦门凯斌",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Cocos Creator（未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.7k7k.com/wxgame/21122.htm",
+  "https://m.7724.com/syzx/news/236224.html",
+  "https://sj.qq.com/appdetail/wxa8e139285af4e49a"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:37:59+08:00"
+ },
+ "slug": "造个大英雄_9b32e0"
+}

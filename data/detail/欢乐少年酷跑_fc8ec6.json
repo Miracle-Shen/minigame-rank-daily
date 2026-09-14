@@ -1,0 +1,104 @@
+{
+ "schema_version": 1,
+ "name": "欢乐少年酷跑",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "厦门大橙互娱科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 13
+  },
+  "platform_app_ids": {
+   "douyin": "tt8793f12e19f6316507"
+  },
+  "first_seen": "2026-09-13",
+  "appearances": 2,
+  "best_rank": 13,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2.5D",
+  "art_style": "2.5D 卡通，城市警察抓小偷（据检索推断）",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 2,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "跑酷需在成熟引擎上搭一套跑道/障碍/角色框架，按抖音小游戏常见选型推断 Cocos Creator"
+  },
+  "asset_notes": "无官方素材，据检索包体约 85–128MB（轻-中），2.5D 卡通跑道与角色，素材量级中等。",
+  "notes": "无官方媒体材料，玩法据多渠道检索（警察抓小偷题材跑酷）确认，引擎按抖音小游戏常见选型推断。",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "扮演警察在赛道上追捕小偷，左右滑动躲避障碍、吃金币、用道具，闯关或无尽模式冲距离，一局 1-3 分钟。",
+  "highlights": [
+   "「小偷往哪跑你就往哪追」的追逐目标感",
+   "多赛道/障碍 + 道具组合带来变化",
+   "角色/皮肤解锁提供成长反馈"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化（Subway Surfers 式跑酷 + 警察抓小偷题材）"
+  ],
+  "target_user": "低龄与泛休闲跑酷用户",
+  "monetization": "IAA 广告 + IAP（皮肤/去广告）混合",
+  "lifecycle": "长线关卡更新"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "跑酷玩法通用、成本中低，瓶颈在题材（警察抓小偷）与美术差异化，换皮即成立，无 IP 壁垒。",
+  "suggestions": [
+   "题材换为「国潮/校园追逐」，保留跑酷核心",
+   "加入好友实时竞速提升社交裂变"
+  ],
+  "risks": [
+   "跑酷赛道被地铁跑酷头部占据、买量贵",
+   "题材差异化空间有限"
+  ],
+  "effort": "25–40 人日（1 前端 + 1 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法为警察抓小偷题材跑酷（多渠道检索确认）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Cocos Creator（抖音小游戏跑酷常见选型，未确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.25pp.com/xiazai/8345857/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:39:53+08:00"
+ },
+ "slug": "欢乐少年酷跑_fc8ec6"
+}
