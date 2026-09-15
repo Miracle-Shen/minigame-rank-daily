@@ -1271,7 +1271,13 @@ footer {
 .gd-eng-raw { display: block; margin-top: 2px; font-size: 11px; font-weight: 500; color: var(--muted); }
 
 /* ---------- 分区 ---------- */
-.gd-sec { margin: 22px 0 0; }
+.gd-sec {
+  margin: 22px 0 0;
+  /* Defer layout/paint for the lower detail sections until they approach
+     the viewport. This keeps long profile pages responsive on mobile. */
+  content-visibility: auto;
+  contain-intrinsic-size: 420px;
+}
 .gd-sec-h {
   display: flex;
   align-items: baseline;

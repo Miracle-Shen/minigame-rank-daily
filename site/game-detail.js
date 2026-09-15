@@ -300,7 +300,7 @@
       const isIcon = s.kind === "icon";
       const tag = s.caption || (isIcon ? "图标" : "实机截图");
       return '<div class="gd-shot' + (isIcon ? " is-icon" : "") + '" data-u="' +
-        esc(s.url) + '"><img loading="lazy" src="' + esc(s.url) + '" alt="' +
+        esc(s.url) + '"><img loading="lazy" decoding="async" src="' + esc(s.url) + '" alt="' +
         esc(tag) + '" referrerpolicy="no-referrer" /><span class="gd-shot-tag">' +
         esc(isIcon ? "图标" : "实机") + "</span></div>";
     }).join("") + "</div>";

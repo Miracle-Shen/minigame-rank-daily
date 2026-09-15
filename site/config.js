@@ -12,3 +12,14 @@ window.APP_CONFIG = {
   SUPABASE_KEY: "sb_publishable_Iv1KM4p6hceRR16rB61x1w_Wy7LMJsj",
   PROFILE_ADMIN_KEY: "pF25wrJOEzjL4lUcg3ZM7ThuVXb9IYfq",
 };
+
+// The profile page talks to Supabase before it can render its first record.
+// Open the connection while the parser is still processing the document so
+// DNS/TLS setup overlaps HTML and script loading.
+try {
+  const preconnect = document.createElement("link");
+  preconnect.rel = "preconnect";
+  preconnect.href = window.APP_CONFIG.SUPABASE_URL;
+  preconnect.crossOrigin = "";
+  document.head.appendChild(preconnect);
+} catch (e) {}

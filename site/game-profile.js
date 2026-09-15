@@ -80,15 +80,12 @@
       if (!state.shots[s.game_name]) state.shots[s.game_name] = [];
       state.shots[s.game_name].push(s);
     }
-    buildList();
-    state.fullListLoaded = true;
   }
 
   async function loadDetailIndex() {
     const detail = await fetch(assetUrl("data/detail/index.json"), { cache: "force-cache" })
       .then((r) => r.ok ? r.json() : null).catch(() => null);
     state.detailIndex = (detail && detail.games) || {};
-    buildList();
   }
 
   async function loadAll() {
@@ -129,30 +126,55 @@
     for (const p of profiles || []) state.profiles[p.game_name] = p;
     state.shots = {};
     buildList();
+    state.fullListLoaded = true;
     // Thumbnails and detail badges are enhancements; don't hold first paint
     // on either of these secondary requests.
-    Promise.allSettled([loadScreenshots(), loadDetailIndex()]);
+    Promise.allSettled([loadScreenshots(), loadDetailIndex()]).then(() => buildList());
   }
 
   async function loadFastGame(name) {
-    const encoded = encodeURIComponent(name);
-    const [games, profiles, shots] = await Promise.all([
-      window.sb.select("games", { raw: { name: `eq.${name}` }, select: "name,first_seen_at,category,publisher_name", limit: 1 }),
-      window.sb.select("game_profiles", { raw: { game_name: `eq.${name}` }, limit: 1 }),
-      window.sb.select("game_screenshots", { raw: { game_name: `eq.${name}` }, select: "id,game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 200 }),
-    ]);
-    state.games = games || [{ name }];
+    // Start the detail request immediately; it is independent of the profile
+    // queries below and will usually be cached on repeat visits.
+    const detailPromise = window.GameDetail ? window.GameDetail.get(name) : Promise.resolve(null);
+    // Screenshots are enhancement content. Fetch them in parallel, but don't
+    // make the profile shell wait for a potentially slow storage query.
+    const shotsPromise = window.sb.select("game_screenshots", {
+      raw: { game_name: `eq.${name}` },
+      select: "id,game_name,url,sort_order",
+      order: "sort_order.asc,id.asc",
+      limit: 200,
+    }).catch(() => []);
+    const gamePromise = window.sb.select("games", {
+      raw: { name: `eq.${name}` },
+      select: "name,first_seen_at,category,publisher_name",
+      limit: 1,
+    }).catch(() => []);
+    const profiles = await window.sb.select("game_profiles", {
+      raw: { game_name: `eq.${name}` },
+      select: "game_name,developer,gameplay_desc,tags,notes,value,favorite,abandon_reason,updated_at",
+      limit: 1,
+    });
+    // A profile can render without waiting for its optional game metadata.
+    state.games = [{ name }];
     state.profiles = {};
     for (const p of profiles || []) state.profiles[p.game_name] = p;
-    state.shots = { [name]: shots || [] };
+    state.shots = { [name]: [] };
     state.detailIndex = {};
     state.fullListLoaded = false;
     buildList();
     // Fetch the selected detail record only; the complete index can wait until
     // the user returns to the list.
-    if (window.GameDetail) {
-      window.GameDetail.get(name).then(() => renderDetail(name));
-    }
+    detailPromise.then(() => renderDetail(name));
+    shotsPromise.then((shots) => {
+      state.shots[name] = shots || [];
+      if (state.current === name) renderViewShots(name);
+    });
+    gamePromise.then((games) => {
+      if (games && games.length) {
+        state.games = games;
+        buildList();
+      }
+    });
   }
 
   function buildList() {
@@ -344,7 +366,7 @@
       tr.className = "gp-tr v-" + esc(effVal);
       const thumbSrc = r.firstShot || r.detailIcon;
       const thumb = thumbSrc
-        ? `<img class="gp-thumb" src="${esc(thumbSrc)}" loading="lazy" alt="" referrerpolicy="no-referrer" />`
+        ? `<img class="gp-thumb" src="${esc(thumbSrc)}" loading="lazy" decoding="async" width="72" height="72" alt="" referrerpolicy="no-referrer" />`
         : `<span class="gp-thumb empty">无图</span>`;
       // 榜单来源只显示当前筛选榜单（如微信·畅销榜），不带其他榜单
       const srcBoards = (r.sourceBoards || [])
@@ -774,7 +796,7 @@
     for (const s of sh) {
       const img = document.createElement("img");
       img.className = "gp-view-shot";
-      img.src = s.url; img.alt = ""; img.loading = "lazy";
+      img.src = s.url; img.alt = ""; img.loading = "lazy"; img.decoding = "async";
       img.addEventListener("click", () => openLightbox(s.url));
       box.appendChild(img);
     }
@@ -1035,13 +1057,22 @@
       // Direct links are common from the ranking table. Load just that record
       // first so the profile becomes interactive without waiting for the
       // complete archive payload.
-      await Promise.all([
-        restoreAuth(),
-        queryName ? loadFastGame(queryName) : loadAll(),
-      ]);
-      $("gp-loading").style.display = "none";
-      renderBoardFilter();  // initial board sub-filter for the default platform
-      if (queryName) showEdit(queryName);
+      const authPromise = restoreAuth();
+      if (queryName) {
+        // Authentication is only needed for editing. Let a viewer see the
+        // requested profile as soon as its own record arrives; if a saved
+        // editor session is restored, switch to edit mode afterward.
+        await loadFastGame(queryName);
+        $("gp-loading").style.display = "none";
+        renderBoardFilter();
+        showEdit(queryName);
+        await authPromise;
+        if (isEditor()) showEdit(queryName);
+      } else {
+        await Promise.all([authPromise, loadAll()]);
+        $("gp-loading").style.display = "none";
+        renderBoardFilter();  // initial board sub-filter for the default platform
+      }
     } catch (err) {
       $("gp-loading").textContent = "加载失败：" + err.message;
     }
