@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "name": "Meowdoku: Brain Puzzle Games",
- "updated_at": "2026-09-15",
+ "updated_at": "2026-09-16",
  "collected": true,
  "generated_by": "agent",
  "identity": {
@@ -182,5 +182,54 @@
   "url": "https://apps.apple.com/cn/app/meow-sudoku-cat-puzzle-games/id6781143433?uo=4",
   "fetched_at": "2026-09-15T21:48:09+08:00"
  },
- "slug": "Meowdoku_Brain_Puzzle_Games_17ee60"
+ "slug": "Meowdoku_Brain_Puzzle_Games_17ee60",
+ "biz": {
+  "internal": {
+   "fit": "可复用",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "把 2024 走红的 Queens 逻辑谜题用猫咪 + 扫雷式排除做情感包装，本作同样**登顶美区免费榜第 1、在榜 25 天**，说明情感包装而非机制成立"
+    },
+    {
+     "lens": "用户",
+     "text": "规则一句话讲清（每色区/行列仅 1 猫且互不相邻），但 Oakever 已用猫占榜，**换其它萌系 mascot** 才不会撞品牌"
+    },
+    {
+     "lens": "业务",
+     "text": "核心规则即公开免费 Queens 变体，换题材即差异化，82MB 轻包体 + 3 命容错广告闭环可整块复用，无授权成本"
+    },
+    {
+     "lens": "业务",
+     "text": "不做的话缺一个可日更的轻量逻辑活动位；现在买量 CPA 高，自有流量冷启这类低成本玩法正划算"
+    }
+   ],
+   "how": [
+    "搬「3 命 + 灯泡提示 + 看广告复活」容错广告闭环换水果/宝石 mascot，做轻量活动位，一周看次日留存",
+    "复用「视觉排除」交互并接「每日挑战 + 全球通关时长榜」轻社交，低成本拉留存"
+   ],
+   "gain": [
+    "沉淀「容错 + 提示 + 广告复活」解谜变现组件，可复用到其他逻辑谜题",
+    "拿到一份「轻包体 82MB、高频广告不掉分」的变现节奏参考",
+    "开发量小（1 前端 + 0.5 美术），不占主玩法排期，可并行验证",
+    "规避 Oakever 正面撞车，用自有渠道换皮冷启而非买量硬拼"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "Oakever Games 自研自发，美区免费榜已占榜，无代理或联运需求入口",
+    "Queens 机制公开免费，换皮无需授权，没有可谈的商务合作空间"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "品牌会员签到",
+     "how": "把「每日谜题」改成「每日答题得积分」，规则不变接入会员任务体系"
+    }
+   ]
+  },
+  "summary": "机制公开可换皮做解谜活动位；对外无合作空间。"
+ }
 }

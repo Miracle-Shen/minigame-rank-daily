@@ -33,6 +33,8 @@ def load(p: pathlib.Path):
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--sample", type=int, default=0)
+    ap.add_argument("--require-biz", action="store_true",
+                    help="把「结合业务的建议」分区也当硬性要求（回填完成后用）")
     args = ap.parse_args()
 
     problems: list[str] = []
@@ -74,7 +76,7 @@ def main() -> int:
             file_bad.append((key, f"{slug}: {exc}"))
             continue
 
-        ok, issues = schema.validate(rec, strict=False)
+        ok, issues = schema.validate(rec, strict=False, require_biz=args.require_biz)
         if not ok:
             hard = [i for i in issues if not i.startswith("[warn]")]
             soft = [i for i in issues if i.startswith("[warn]")]
@@ -107,8 +109,9 @@ def main() -> int:
     if media_bad:
         warns.append(f"{len(media_bad)} 条弱匹配仍带截图: {media_bad[:5]}")
 
-    # 3) 内容质量：四个板块是否有实质内容
+    # 3) 内容质量：各板块是否有实质内容
     empty_core, empty_hl, empty_clone = [], [], []
+    biz_missing, biz_thin, biz_legacy, biz_lens_bad = [], [], [], []
     for key, meta in games.items():
         path = DETAIL / f"{meta.get('slug','')}.json"
         if not path.exists():
@@ -122,13 +125,54 @@ def main() -> int:
             empty_hl.append(key)
         if not str(clone.get("verdict") or "").strip():
             empty_clone.append(key)
+
+        # 业务结合分区：缺失 / 写了但没写透（内部落地 424 不齐），分开统计
+        biz = rec.get("biz") or {}
+        internal = biz.get("internal") or {}
+        opp = biz.get("opportunity") or {}
+        ext = biz.get("extension") or {}
+        filled = bool(str(internal.get("fit") or "").strip()
+                      or str(opp.get("fit") or "").strip())
+        if not filled:
+            biz_missing.append(key)
+            continue
+        # 主体按 424 卡：why 4（用户 2 + 业务 2）/ how 2 / gain 4；旧结构单独识别为待升级
+        why_items = schema.biz_why(internal)
+        blocks = {k: [x for x in (internal.get(k) or []) if str(x).strip()]
+                  for k, _, _ in schema.BIZ_424}
+        blocks["why"] = why_items
+        legacy = [x for x in (internal.get(schema.BIZ_LEGACY_POINTS) or [])
+                  if str(x).strip()]
+        if not any(blocks.values()) and legacy:
+            biz_legacy.append(key)
+        elif any(len(blocks[k]) < target for k, _, target in schema.BIZ_424):
+            biz_thin.append(key)
+        # why 的双视角配比：只在已按 424 写的地方检查
+        elif [l for l, _ in why_items].count("用户") != schema.BIZ_WHY_PER_LENS \
+                or [l for l, _ in why_items].count("业务") != schema.BIZ_WHY_PER_LENS:
+            biz_lens_bad.append(key)
+
     if empty_core:
         problems.append(f"核心玩法为空 {len(empty_core)}: {empty_core[:5]}")
     if empty_hl:
         problems.append(f"爽点为空 {len(empty_hl)}: {empty_hl[:5]}")
     if empty_clone:
         problems.append(f"复刻结论为空 {len(empty_clone)}: {empty_clone[:5]}")
+    if biz_missing:
+        msg = f"业务结合分区未回填 {len(biz_missing)}/{len(games)}: {biz_missing[:5]}"
+        (problems if args.require_biz else warns).append(msg)
+    if biz_thin:
+        warns.append(f"业务结合分区 424 不齐 {len(biz_thin)}: {biz_thin[:5]}")
+    if biz_legacy:
+        warns.append(f"业务结合分区仍是旧结构（points，待升级 424）{len(biz_legacy)}: "
+                     f"{biz_legacy[:5]}")
+    if biz_lens_bad:
+        warns.append(f"业务结合 why 的用户/业务配比不是 2+2 {len(biz_lens_bad)}: "
+                     f"{biz_lens_bad[:5]}")
     print(f"[内容] 核心玩法空 {len(empty_core)} | 爽点空 {len(empty_hl)} | 复刻结论空 {len(empty_clone)}")
+    print(f"[内容] 业务结合 未回填 {len(biz_missing)} | 424 不齐 {len(biz_thin)}"
+          f" | 旧结构 {len(biz_legacy)} | why 视角失衡 {len(biz_lens_bad)}"
+          f" | 已回填 {len(games) - len(biz_missing)}/{len(games)}")
 
     # 4) 统计分布
     verdict = collections.Counter(str((load(DETAIL / f"{m.get('slug','')}.json").get("clone") or {}).get("verdict") or "-")
@@ -152,6 +196,21 @@ def main() -> int:
     print("[分布] 成本等级:", dict(level))
     print("[分布] 引擎:", engine.most_common())
     print(f"[分布] 有截图 {shots}/{len(games)} | 引擎证据确凿 {conf}/{len(games)}")
+
+    def _biz_fit(field: str) -> collections.Counter:
+        c: collections.Counter = collections.Counter()
+        for m in games.values():
+            p = DETAIL / f"{m.get('slug','')}.json"
+            if not p.exists():
+                continue
+            b = (load(p).get("biz") or {}).get(field) or {}
+            val = str(b.get("fit") or "").strip()
+            if val:
+                c[val] += 1
+        return c
+
+    print("[分布] 业务结合·内部落地:", dict(_biz_fit("internal")) or "（未回填）")
+    print("[分布] 业务结合·对外机会:", dict(_biz_fit("opportunity")) or "（未回填）")
 
     if args.sample:
         print("\n[样例]")

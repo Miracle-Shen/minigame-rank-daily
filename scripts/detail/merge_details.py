@@ -14,10 +14,15 @@
 **幂等**：目标文件已存在且 collected=true 的，默认跳过；要重跑用 --force
 或 --only 指定游戏名。这是「已收集过就复用」的落地位置。
 
+**补丁模式（回填 biz 用）**：暂存条目若**带 `biz` 但没有 tech/play/clone**，
+视为「只补这一节」的补丁 —— 读磁盘已有档案、只替换 biz 再写回，
+不动已经定稿的技术/玩法/复刻内容。回填「结合业务的建议」走这条路。
+
 用法：
     python scripts/detail/merge_details.py                    # 合并全部暂存
     python scripts/detail/merge_details.py --force            # 覆盖已有
     python scripts/detail/merge_details.py --only 羊了个羊：星球,抓大鹅
+    python scripts/detail/merge_details.py --biz-only         # 只回填 biz 补丁
     python scripts/detail/merge_details.py --rebuild-index    # 只重建索引
 """
 from __future__ import annotations
@@ -32,8 +37,8 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 sys.path.insert(0, str(HERE))
 
-from schema import (DIM_KEYS, SCHEMA_VERSION, canon_engine,  # noqa: E402
-                    fill_derived, norm_name, slug, validate)
+from schema import (DIM_KEYS, SCHEMA_VERSION, blank_biz, canon_engine,  # noqa: E402
+                    fill_derived, norm_name, polish_biz_text, slug, validate)
 
 DETAIL_DIR = ROOT / "data" / "detail"
 STAGING_DIR = DETAIL_DIR / "_staging"
@@ -96,6 +101,23 @@ def merge_media(rec: dict, media: dict) -> None:
     rec["shots"] = shots
 
 
+def is_biz_patch(s: dict) -> bool:
+    """判断暂存条目是不是「只补 biz 分区」的补丁。
+
+    回填「结合业务的建议」时，子智能体只该产出 name + biz —— 让它重抄一遍
+    tech/play/clone 既浪费又容易把已经定稿的内容改坏。所以约定：
+    **带 biz 但完全没有 tech/play/clone 的条目 = 补丁**，直接打到磁盘已有档案上。
+    """
+    if not isinstance(s.get("biz"), dict):
+        return False
+    return not any(k in s for k in ("tech", "play", "clone"))
+
+
+def find_record_file(name: str, disk: dict[str, dict]) -> dict | None:
+    """按归一化名在磁盘索引里找已有档案（返回带 `_file`/`_slug` 的记录）。"""
+    return disk.get(norm_name(name))
+
+
 def build_record(staged: dict, wl_entry: dict, media: dict,
                  today: str) -> dict:
     rec = {
@@ -122,6 +144,7 @@ def build_record(staged: dict, wl_entry: dict, media: dict,
         "tech": staged.get("tech") or {},
         "play": staged.get("play") or {},
         "clone": staged.get("clone") or {},
+        "biz": staged.get("biz") or blank_biz(),
         "shots": staged.get("shots") or [],
         "evidence": staged.get("evidence") or [],
         "sources": staged.get("sources") or [],
@@ -151,11 +174,15 @@ def write_index(records: dict[str, dict], wl_entries: dict[str, dict]) -> dict:
     for name, rec in records.items():
         tech = rec.get("tech") or {}
         clone = rec.get("clone") or {}
+        biz = rec.get("biz") or {}
         media = rec.get("media") or {}
         ident = rec.get("identity") or {}
         key = norm_name(name)
         entries = wl_by_norm.get(key) or {}
         eng = canon_engine(tech.get("engine") or "", tech.get("engine_evidence") or "")
+        # 业务结合的两条结论单独提进索引，列表页/筛选可直接用，不必加载单款详情
+        b_internal = str(((biz.get("internal") or {}).get("fit")) or "")
+        b_opp = str(((biz.get("opportunity") or {}).get("fit")) or "")
         games[key] = {
             "name": entries.get("name") or name,
             # slug 必须等于**磁盘上真实文件名**：历史文件的命名规则与当前
@@ -176,6 +203,10 @@ def write_index(records: dict[str, dict], wl_entries: dict[str, dict]) -> dict:
             "has_shots": bool(rec.get("shots")),
             "shot_count": len(rec.get("shots") or []),
             "play_brief": (rec.get("play") or {}).get("core_loop", "")[:120],
+            # 业务结合分区：两条枚举结论给列表用，has_biz 用于统计回填覆盖度
+            "biz_internal": b_internal,
+            "biz_opportunity": b_opp,
+            "has_biz": bool(b_internal or b_opp),
             "collected": True,
         }
     # 尚未建档的也进索引，标记未收集，方便站点显示覆盖率
@@ -191,11 +222,15 @@ def write_index(records: dict[str, dict], wl_entries: dict[str, dict]) -> dict:
             "engine": "", "engine_primary": "", "engine_inferred": False,
             "dimension": "", "verdict": "", "cost_level": "",
             "cost_score": 0, "has_shots": False, "shot_count": 0,
-            "play_brief": "",        }
+            "play_brief": "",
+            "biz_internal": "", "biz_opportunity": "", "has_biz": False,
+        }
     return {
         "updated_at": datetime.now(BEIJING).isoformat(timespec="seconds"),
         "total": len(games),
         "collected": sum(1 for g in games.values() if g["collected"]),
+        # 业务结合分区的回填覆盖度：老档案是「复刻建议」时代的产物，没有这一节
+        "with_biz": sum(1 for g in games.values() if g.get("has_biz")),
         "games": games,
     }
 
@@ -252,7 +287,12 @@ def main() -> int:
     ap.add_argument("--force", action="store_true", help="覆盖已收集的详情")
     ap.add_argument("--only", default="", help="逗号分隔的游戏名，只处理这些")
     ap.add_argument("--rebuild-index", action="store_true")
+    ap.add_argument("--biz-only", action="store_true",
+                    help="只处理 biz 补丁（回填「结合业务的建议」用），"
+                         "忽略 _staging 里的全量调研产物，避免覆盖已定稿内容")
     ap.add_argument("--strict", action="store_true", help="有 warning 也判不通过")
+    ap.add_argument("--polish-biz", action="store_true",
+                    help="对磁盘上所有档案的 biz 补跑标点统一（幂等），并重建索引")
     args = ap.parse_args()
 
     today = datetime.now(BEIJING).strftime("%Y-%m-%d")
@@ -279,19 +319,88 @@ def main() -> int:
         print(f"索引重建：{idx['collected']}/{idx['total']} 已收集")
         return 0
 
+    if args.polish_biz:
+        # 历史档案补跑标点统一（幂等）。回填期子智能体的产物在合并时已清洗过，
+        # 这里是给更早落盘的档案兜底，让 184 份的标点口径一致。
+        changed = 0
+        for path in sorted(DETAIL_DIR.glob("*.json")):
+            if path.name.startswith("_") or path == INDEX:
+                continue
+            rec = load_json(path, {}) or {}
+            if not isinstance(rec.get("biz"), dict):
+                continue
+            before = json.dumps(rec["biz"], ensure_ascii=False, sort_keys=True)
+            rec["biz"] = polish_biz_text(rec["biz"])
+            if json.dumps(rec["biz"], ensure_ascii=False, sort_keys=True) != before:
+                path.write_text(json.dumps(rec, ensure_ascii=False, indent=1),
+                                encoding="utf-8")
+                changed += 1
+        print(f"标点统一：改写了 {changed} 份档案")
+        prefer = {e["name"] for e in entries_wl}
+        records, _conf = load_all_records(prefer)
+        idx = write_index(records, wl_by_norm)
+        INDEX.write_text(json.dumps(idx, ensure_ascii=False, indent=1),
+                         encoding="utf-8")
+        return 0
+
     staged = load_staging()
     if not staged:
         print(f"没有暂存产物（{STAGING_DIR.relative_to(ROOT)}/*.json）")
         return 1
+    if args.biz_only:
+        # 回填场景：_staging 里既有历史批次产物又有 biz 补丁，只认后者。
+        # 否则 --only 会把同名游戏的全量记录也一起重写，可能覆盖已定稿内容。
+        staged = [s for s in staged if is_biz_patch(s)]
+        if not staged:
+            print("没有 biz 补丁（暂存条目需「带 biz 且无 tech/play/clone」）")
+            return 1
     if only:
-        staged = [s for s in staged if s["name"] in only]
+        # 名字按归一化匹配：清单里的规范名与子智能体写的名字常差一个全角冒号/NBSP
+        norm_only = {norm_name(x) for x in only}
+        staged = [s for s in staged
+                  if s["name"] in only or norm_name(s["name"]) in norm_only]
+
+    # 磁盘现状：biz 补丁模式要靠它定位已有档案；顺带避免每条补丁都重扫目录
+    prefer_names = {e["name"] for e in entries_wl}
+    disk, _conflicts = load_all_records(prefer_names)
 
     print(f"待合并 {len(staged)} 条")
-    ok = skipped = bad = 0
+    ok = skipped = bad = patched = patch_miss = 0
     problems: list[str] = []
 
     for s in staged:
         name = s["name"]
+
+        # ---- 补丁模式：只更新 biz，其余分区保持磁盘上的定稿内容 ----
+        if is_biz_patch(s):
+            old = find_record_file(name, disk)
+            if not old:
+                patch_miss += 1
+                problems.append(f"{name}: 磁盘上找不到已有档案，biz 补丁无法落盘")
+                print(f"  补丁落空（磁盘无档案）{name}")
+                continue
+            merged = {k: v for k, v in old.items() if not k.startswith("_")}
+            # 标点口径统一：中文语境里的半角单引号 -> 「」，184 份读起来才像一个人写的
+            merged["biz"] = polish_biz_text(s["biz"])
+            merged["updated_at"] = s.get("updated_at") or today
+            merged["collected"] = True
+            passed, msgs = validate(merged, strict=args.strict)
+            errs = [m for m in msgs if not m.startswith("[warn]")]
+            if not passed:
+                bad += 1
+                problems.append(f"{name}: {'; '.join(errs)}")
+                print(f"  补丁不合格 {name}: {'; '.join(errs)}")
+                continue
+            warns = [m[7:] for m in msgs if m.startswith("[warn]")]
+            if warns:
+                merged["issues"] = warns
+            target = DETAIL_DIR / old["_file"]
+            target.write_text(json.dumps(merged, ensure_ascii=False, indent=1),
+                              encoding="utf-8")
+            patched += 1
+            print(f"  补丁写入 {target.name}（biz 424 + 附属两层）")
+            continue
+
         # 文件名现算，不用清单里的 slug —— 清单可能由旧版 slug() 生成
         target = DETAIL_DIR / f"{slug(name)}.json"
         if target.exists() and not args.force and not only:
@@ -332,7 +441,9 @@ def main() -> int:
     INDEX.write_text(json.dumps(idx, ensure_ascii=False, indent=1),
                      encoding="utf-8")
 
-    print(f"\n写入 {ok}｜跳过 {skipped}｜不合格 {bad}")
+    print(f"\n写入 {ok}｜补丁 {patched}｜跳过 {skipped}｜不合格 {bad}")
+    if patch_miss:
+        print(f"补丁落空 {patch_miss} 条（磁盘上还没有这份档案，先跑全量建档）")
     print(f"索引：{idx['collected']}/{idx['total']} 已收集"
           f" -> {INDEX.relative_to(ROOT)}")
     if problems:

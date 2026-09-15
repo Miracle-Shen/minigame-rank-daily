@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "name": "EA College Football Mobile 27",
- "updated_at": "2026-09-15",
+ "updated_at": "2026-09-16",
  "collected": true,
  "generated_by": "agent",
  "identity": {
@@ -224,5 +224,54 @@
   "url": "https://apps.apple.com/us/app/ea-college-football-mobile-27/id6759412341?uo=4",
   "fetched_at": "2026-09-15T00:39:49+08:00"
  },
- "slug": "EA_College_Football_Mobile_27_0712f1"
+ "slug": "EA_College_Football_Mobile_27_0712f1",
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "用户被 NCAA 真实球队/球员肖像与 Ultimate Team 抽卡养成锁死，这套代入感离开 IP 与授权即不成立"
+    },
+    {
+     "lens": "用户",
+     "text": "我们的休闲产品用户要的是碎片时间解压，不缺体育模拟这类重操作、重授权的长线养成体验"
+    },
+    {
+     "lens": "业务",
+     "text": "NCAA 体育 IP 独占 + EA Frostbite 引擎不可得 + 1.17GB 重包体，技术版权双重壁垒，与常规休闲产品线冲突"
+    },
+    {
+     "lens": "业务",
+     "text": "不碰反而省掉重资本体育手游的授权与引擎投入，把资源留给可轻量复刻的休闲品类"
+    }
+   ],
+   "how": [
+    "仅取可迁移的「球队养成 + 赛季目标」外壳，用无 IP 的虚拟校队题材做轻量收集活动，不碰真实球队授权",
+    "把 Ultimate Team 抽卡节奏抽成通用「阵容收集」组件，接进现有收集线验证 LTV 提升"
+   ],
+   "gain": [
+    "规避 NCAA/球员肖像授权与 Frostbite 引擎的千万级投入",
+    "拿走「赛季目标 + 阵容养成」双循环设计作为可复用收集框架",
+    "省掉 1.17GB 重包体带来的下载转化与买量成本",
+    "明确不立项重资本体育手游，避免团队在不可行方向反复讨论"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "EA 自研自发且 IP 独占，NCAA 球队/球员肖像授权不放权，无代理或联运通道",
+    "体量远超常规休闲小游戏团队，无并购或合作可谈空间"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "体育赛事虚拟应援",
+     "how": "把「阵容收集 + 赛季目标」换成无 IP 的虚拟校队应援榜，做轻量赛事活动位"
+    }
+   ]
+  },
+  "summary": "体育 IP 与引擎不可搬；仅取养成框架做轻量活动"
+ }
 }

@@ -2,6 +2,9 @@
 __pycache__/
 *.pyc
 
+# macOS 元数据（曾把 data/detail/.DS_Store 带进待提交列表）
+.DS_Store
+
 # Local-only auth (use GitHub Secret in CI)
 rank_auth.json
 _auth_runtime.json

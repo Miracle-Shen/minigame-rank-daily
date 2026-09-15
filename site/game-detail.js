@@ -32,6 +32,14 @@
     ["audio", "音频"],
   ];
 
+  /* 转义后**再**把 `**粗体**` 换成 <b>。
+   * 顺序很关键：先 esc 再替换，注入的只有我们自己生成的 <b>，不会带来 XSS。
+   * 为什么不禁用 markdown 了事：这些文案由子智能体批量产出，拦不住偶尔出现的
+   * 强调写法，与其在页面上原样吐出星号，不如把成对的 ** 解析掉。 */
+  function rich(s) {
+    return esc(s).replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>");
+  }
+
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, (m) => ({
       "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
@@ -335,6 +343,113 @@
     return '<div class="gd-sec">' + h + "</div>";
   }
 
+  /* ---------- 5. 结合业务的建议 ----------
+   * 与「复刻建议」并行的第二个决策视角：不管抄不抄，这款产品的机制、生态位、
+   * 发行背景能和我们手里的业务发生什么关系。
+   *
+   * 内部落地是**主体**，按「424」法则写：4 条为什么 / 2 条怎么做 / 4 条收益。
+   * 页面就按这个节奏排版 —— 三层各成一组，带颜色标签与条数，读起来是 4-2-4。
+   * 对外机会与场景延展是**附属信息**（各封顶 2 条），刻意做小、并排放，
+   * 不抢主体；即使数据里有多余条目也只渲染前 2 条。
+   * 早期档案可能还是旧的 internal.points 结构，此处降级成一列渲染。
+   * 完全没有这一节的档案返回空串，页面自动只渲染 4 个分区。 */
+  const BIZ_424_LAYERS = [
+    ["why", "为什么", "为什么值得搬"],
+    ["how", "怎么做", "动作与验证方式"],
+    ["gain", "收益", "搬完能拿到什么"],
+  ];
+  const BIZ_SIDE_MAX = 2; // 附属层渲染上限，与 schema.BIZ_OPP_MAX_POINTS 对齐
+  /* 「为什么」的 4 条分两个视角（用户 / 业务各 2 条），与 schema.BIZ_WHY_LENSES 对齐。
+   * 视角存在数据里（{lens, text}），页面只负责标出来：读者要能一眼分清哪句在说用户、
+   * 哪句在说我们。历史档案的纯字符串条目不带视角，照旧渲染、不加标签 —— 不猜。 */
+  const BIZ_WHY_LENSES = ["用户", "业务"];
+  const BIZ_LENS_CLS = { "用户": "gd-lens-u", "业务": "gd-lens-b" };
+
+  function whyItems(arr) {
+    return (arr || []).map((x) => (x && typeof x === "object")
+      ? { lens: String(x.lens || "").trim(), text: String(x.text || "").trim() }
+      : { lens: "", text: String(x == null ? "" : x).trim() })
+      .filter((x) => x.text);
+  }
+
+  /* 左标签列的副文案：数据带了视角就报「用户 2 · 业务 2」，否则退回静态说明 */
+  function whyLensSummary(why) {
+    if (!why.some((x) => x.lens)) return "为什么值得搬";
+    return BIZ_WHY_LENSES.map((l) =>
+      l + " " + why.filter((x) => x.lens === l).length).join(" · ");
+  }
+
+  function bizSection(rec) {
+    const b = rec.biz || {};
+    const internal = b.internal || {}, opp = b.opportunity || {}, ext = b.extension || {};
+    const arr = (a) => (a || []).filter((x) => String(x || "").trim());
+    const why = whyItems(internal.why), how = arr(internal.how), gain = arr(internal.gain);
+    // 旧结构兼容：三层全空而 points 有内容时才降级，避免新数据被误判
+    const legacy = (why.length || how.length || gain.length) ? [] : arr(internal.points);
+    const oppPts = arr(opp.points).slice(0, BIZ_SIDE_MAX);
+    const scenes = (ext.scenes || [])
+      .filter((s) => s && String(s.scene || "").trim()).slice(0, BIZ_SIDE_MAX);
+    const fit = String(internal.fit || "").trim();
+    const oppFit = String(opp.fit || "").trim();
+    if (!fit && !oppFit && !legacy.length && !oppPts.length && !scenes.length) return "";
+
+    // 视角标签：只有数据里标了 lens 才出现（旧档案的纯字符串条目不标）
+    const lensTag = (x) => (x && typeof x === "object" && x.lens
+      ? '<i class="gd-lens ' + (BIZ_LENS_CLS[x.lens] || "gd-lens-x") + '">' +
+        esc(x.lens) + "</i>"
+      : "");
+    const ulOf = (items, cls) => '<ul class="gd-ul' + (cls ? " " + cls : "") + '">' +
+      items.map((x) => "<li>" + lensTag(x) +
+        rich(typeof x === "string" ? x : x.text) + "</li>").join("") + "</ul>";
+
+    let h = secHead("5", "结合业务的建议", "内部落地 424｜对外机会 · 场景延展");
+    if (b.summary) h += '<div class="gd-biz-sum">' + rich(b.summary) + "</div>";
+
+    /* ① 内部落地（主体）：三层各成一组 */
+    let body = "";
+    if (legacy.length) {
+      body = ulOf(legacy);
+    } else {
+      const byKey = { why, how, gain };
+      body = BIZ_424_LAYERS.map(([k, label, sub]) => {
+        const items = byKey[k];
+        if (!items.length) return "";
+        return '<div class="gd-b424-row"><div class="gd-b424-l gd-l-' + k + '">' +
+          "<b>" + esc(label) + '</b><span class="gd-b424-c">' + items.length + "</span>" +
+          '<span class="gd-b424-sub">' +
+          esc(k === "why" ? whyLensSummary(items) : sub) + "</span></div>" +
+          ulOf(items, k === "how" ? "gd-ul-act" : "") + "</div>";
+      }).join("");
+    }
+    if (body || fit) {
+      h += '<div class="gd-biz-blk is-main"><div class="gd-biz-h">' +
+        '<span class="gd-biz-n">①</span>内部落地' +
+        (fit ? '<span class="gd-vd-badge gd-bi-' + esc(fit) + '">' + esc(fit) + "</span>" : "") +
+        '<span class="gd-biz-sub">能不能拆出来挪进我们自己的产品</span></div>' +
+        (body ? '<div class="gd-b424">' + body + "</div>"
+              : '<div class="gd-hint">—</div>') + "</div>";
+    }
+
+    /* ②③ 附属（弱化）：并排小字，各封顶 2 条 */
+    let side = "";
+    if (oppFit || oppPts.length) {
+      side += '<div class="gd-biz-min"><div class="gd-biz-min-h">' +
+        '<span class="gd-biz-n sm">②</span>对外机会' +
+        (oppFit ? '<span class="gd-vd-badge gd-bo-' + esc(oppFit) + '">' + esc(oppFit) + "</span>" : "") +
+        "</div>" + (oppPts.length ? ulOf(oppPts, "gd-ul-sm") : '<div class="gd-hint">—</div>') + "</div>";
+    }
+    if (scenes.length) {
+      side += '<div class="gd-biz-min"><div class="gd-biz-min-h">' +
+        '<span class="gd-biz-n sm">③</span>场景延展' +
+        '<span class="gd-biz-sub">跨到非游戏业务</span></div>' +
+        '<div class="gd-scenes-sm">' + scenes.map((s) =>
+          '<div class="gd-scene-sm"><b>' + rich(s.scene) + "</b>" +
+          "<span>" + rich(s.how || "") + "</span></div>").join("") + "</div></div>";
+    }
+    if (side) h += '<div class="gd-biz-side">' + side + "</div>";
+    return '<div class="gd-sec">' + h + "</div>";
+  }
+
   function sourceSection(rec) {
     const ev = rec.evidence || [], src = rec.sources || [];
     if (!ev.length && !src.length) return "";
@@ -359,7 +474,7 @@
 
   function html(rec) {
     return summary(rec) + techSection(rec) + playSection(rec) +
-      shotSection(rec) + cloneSection(rec) + sourceSection(rec);
+      shotSection(rec) + cloneSection(rec) + bizSection(rec) + sourceSection(rec);
   }
 
   function render(name, box) {

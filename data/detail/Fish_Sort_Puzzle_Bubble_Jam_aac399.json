@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "name": "Fish Sort Puzzle - Bubble Jam",
- "updated_at": "2026-09-15",
+ "updated_at": "2026-09-16",
  "collected": true,
  "generated_by": "agent",
  "identity": {
@@ -218,5 +218,54 @@
   "url": "https://apps.apple.com/us/app/fish-sort-puzzle-bubble-jam/id6771681639?uo=4",
   "fetched_at": "2026-09-15T00:40:46+08:00"
  },
- "slug": "Fish_Sort_Puzzle_Bubble_Jam_aac399"
+ "slug": "Fish_Sort_Puzzle_Bubble_Jam_aac399",
+ "biz": {
+  "internal": {
+   "fit": "可复用",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "点鱼入缸三同色消除的即时反馈 + 暂存区溢出「差一点」的紧张感打中解压欲：本作美区免费榜最高第 20、4.85 分好评，钩子成立"
+    },
+    {
+     "lens": "用户",
+     "text": "规则一句话讲得清，但原作爽点部分来自水族题材梗，换掉题材后老玩家的图鉴收集欲会掉，要在美术上补回"
+    },
+    {
+     "lens": "业务",
+     "text": "排序 + 收集双目标包装不依赖 IP，可整块搬进活动位，ROI 最高、改动量极低"
+    },
+    {
+     "lens": "业务",
+     "text": "现成产品线缺一个轻量每日解谜钩子，不做则活动位只能靠外部买量素材填空"
+    }
+   ],
+   "how": [
+    "把「排序 + 收集双目标」抽成活动位模块，入口挂一号位，一周内看参与度",
+    "复刻暂存区溢出失败驱动的看广告续命节奏，跑 A/B 校准广告点位"
+   ],
+   "gain": [
+    "沉淀「排序 + 收集」通用活动框架，可换主题（整理冰箱/垃圾分类）快速上线",
+    "拿到续命广告位换算标尺，省掉广告频次实验",
+    "零排期风险，不占主玩法与主美术资源",
+    "279MB 轻量素材接入成本低，边际可复制"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "与 Fish Sort Puzzle 同厂（Shycheese/SUPLIFE），自研自发无对外通道，仅观察题材换皮空间",
+    "若自有产品线含解谜品类，取机制思路即可，无合作必要"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "品牌整理收纳挑战",
+     "how": "把「排序入缸」改成「整理收纳同品类物品」，暂存区当收纳格上限"
+    }
+   ]
+  },
+  "summary": "排序+收集可整块搬活动位；对外可观望取思路"
+ }
 }

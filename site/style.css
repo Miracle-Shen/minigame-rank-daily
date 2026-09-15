@@ -1445,6 +1445,97 @@ footer {
 .gd-vd-原样复刻 { background: #e2e8f0; color: #475569; }
 .gd-vd-不建议   { background: #fee2e2; color: #b91c1c; }
 
+/* ---------- 结合业务的建议（内部落地 424 为主体，另两层弱化） ---------- */
+.gd-biz-sum {
+  padding: 11px 14px; border-radius: var(--radius-tight);
+  background: var(--panel-alt); border: 1px solid var(--stroke);
+  border-left: 3px solid var(--brand);
+  font-size: 13px; font-weight: 500; color: var(--ink);
+}
+.gd-biz-blk { margin-top: 16px; }
+/* 主体块：给底色，和下面虚线框的附属区拉开层级 */
+.gd-biz-blk.is-main {
+  padding: 14px 16px 15px; border-radius: var(--radius-tight);
+  background: var(--panel-alt); border: 1px solid var(--stroke);
+}
+.gd-biz-h {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+  font-size: 13px; font-weight: 600; color: var(--ink); margin-bottom: 8px;
+}
+.gd-biz-n {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 19px; height: 19px; border-radius: 6px; flex: 0 0 auto;
+  background: var(--brand); color: #fff; font-size: 11px; font-weight: 700;
+}
+.gd-biz-n.sm { width: 16px; height: 16px; font-size: 10px; background: var(--muted); border-radius: 5px; }
+.gd-biz-sub { font-size: 12px; font-weight: 400; color: var(--muted); }
+.gd-biz-h .gd-vd-badge { padding: 2px 10px; font-size: 12px; }
+/* 内部落地：可搬=绿、要改=琥珀、别搬=灰 */
+.gd-bi-可复用   { background: #d1fae5; color: #047857; }
+.gd-bi-需改造   { background: #fef3c7; color: #b45309; }
+.gd-bi-不建议搬 { background: #e2e8f0; color: #475569; }
+/* 对外机会：可谈=绿、观望=蓝、不谈=红 */
+.gd-bo-推荐接触   { background: #d1fae5; color: #047857; }
+.gd-bo-可观望     { background: #dbeafe; color: #1d4ed8; }
+.gd-bo-不建议接触 { background: #fee2e2; color: #b91c1c; }
+
+/* 424 三层：左标签列（带颜色竖条 + 条数）+ 右要点列 */
+.gd-b424 { display: grid; gap: 13px; }
+.gd-b424-row {
+  display: grid; grid-template-columns: 106px 1fr; gap: 0 14px; align-items: start;
+}
+@media (max-width: 640px) { .gd-b424-row { grid-template-columns: 1fr; gap: 6px; } }
+.gd-b424-l {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 4px;
+  padding: 1px 0 1px 9px; border-left: 3px solid var(--stroke-strong);
+  border-radius: 1px;
+}
+.gd-b424-l b { font-size: 13px; font-weight: 700; color: var(--ink); letter-spacing: .02em; }
+.gd-b424-c {
+  font-size: 10px; font-weight: 700; color: #fff; border-radius: 5px;
+  padding: 0 4px; line-height: 14px; background: var(--muted);
+}
+.gd-b424-sub { flex: 1 0 100%; font-size: 10.5px; color: var(--muted); line-height: 1.35; }
+.gd-l-why  { border-left-color: var(--sky); }
+.gd-l-why .gd-b424-c { background: var(--sky); }
+.gd-l-how  { border-left-color: var(--brand); }
+.gd-l-how .gd-b424-c { background: var(--brand); }
+.gd-l-gain { border-left-color: var(--amber); }
+.gd-l-gain .gd-b424-c { background: var(--amber); }
+/* 「怎么做」是行动项，加重一档 */
+.gd-ul-act li { font-weight: 500; color: var(--ink); }
+.gd-ul-act li::before { background: var(--brand); }
+
+/* why 的视角标签：让「用户那边为什么成立」和「我们这边为什么做」在版面上分开。
+   用户=天蓝、业务=紫，都是浅底深字，和页面其他徽章同一套语汇。 */
+.gd-lens {
+  display: inline-block; margin-right: 6px; padding: 0 5px;
+  border-radius: 4px; font-size: 10px; font-weight: 700;
+  font-style: normal; line-height: 15px; vertical-align: 1px;
+}
+.gd-lens-u { background: #e0f2fe; color: #0369a1; }
+.gd-lens-b { background: #ede9fe; color: #6d28d9; }
+.gd-lens-x { background: var(--panel-alt); color: var(--muted); }
+
+/* 附属两层：并排、虚线框、小字，明确弱于主体 */
+.gd-biz-side { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+@media (max-width: 720px) { .gd-biz-side { grid-template-columns: 1fr; } }
+.gd-biz-min {
+  padding: 10px 12px; border-radius: var(--radius-tight);
+  border: 1px dashed var(--stroke-strong); background: transparent;
+}
+.gd-biz-min-h {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+  font-size: 12.5px; font-weight: 600; color: var(--ink-2); margin-bottom: 6px;
+}
+.gd-biz-min-h .gd-vd-badge { padding: 1px 8px; font-size: 11px; }
+.gd-ul-sm li { font-size: 11.5px; color: var(--ink-2); line-height: 1.6; padding-left: 13px; }
+.gd-ul-sm li::before { width: 3px; height: 3px; left: 3px; top: 7px; }
+.gd-scenes-sm { display: grid; gap: 7px; }
+.gd-scene-sm { font-size: 11.5px; line-height: 1.6; color: var(--ink-2); }
+.gd-scene-sm b { font-weight: 600; color: var(--ink); }
+.gd-scene-sm b::after { content: " · "; color: var(--muted); font-weight: 400; }
+
 /* ---------- 来源 ---------- */
 .gd-src-wrap { margin-top: 22px; border-top: 1px solid var(--stroke); padding-top: 12px; }
 .gd-src-wrap summary {

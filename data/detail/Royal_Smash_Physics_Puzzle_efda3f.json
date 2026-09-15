@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "name": "Royal Smash! - Physics Puzzle",
- "updated_at": "2026-09-15",
+ "updated_at": "2026-09-16",
  "collected": true,
  "generated_by": "agent",
  "identity": {
@@ -207,5 +207,54 @@
   "url": "https://apps.apple.com/us/app/royal-smash-physics-puzzle/id6780891673?uo=4",
   "fetched_at": "2026-09-15T00:36:32+08:00"
  },
- "slug": "Royal_Smash_Physics_Puzzle_efda3f"
+ "slug": "Royal_Smash_Physics_Puzzle_efda3f",
+ "biz": {
+  "internal": {
+   "fit": "可复用",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "一发清半座塔的连锁倒塌带来「oddly satisfying」破坏爽感：本作 25 天在榜、4.71 分 7.3 万条评价、美区免费榜第 1，纯解压需求成立"
+    },
+    {
+     "lens": "用户",
+     "text": "一指瞄准零学习成本，去掉原作题材后破坏反馈仍成立，搬进自有产品首日不会因操作门槛流失"
+    },
+    {
+     "lens": "业务",
+     "text": "3D 物理解谜基于 Unity 物理引擎，破坏玩法可整块搬进活动位，接广告位做解压向留存"
+    },
+    {
+     "lens": "业务",
+     "text": "不做的话解压向空白只能靠买量补——现成 Unity 物理基建正好缺一个低成本的破坏玩法钩子"
+    }
+   ],
+   "how": [
+    "搬「瞄准发射+刚体破碎」整块换题材（拆迁/工程爆破），接激励视频复活位，一周看广告渗透",
+    "把「连锁反应计分榜」接好友挑战做社交分享，A/B 校验裂变率"
+   ],
+   "gain": [
+    "拿到 3D 破坏反馈组件，可复用到其他物理玩法，省掉一轮物理调参实验",
+    "沉淀「一发清场」广告位节奏（复活/洗牌），校准自有解压向点位价值",
+    "零排期风险：不占主玩法资源，并行验证失败不影响主线",
+    "规避题材版权：换原创爆破题材避开 Cypher 品牌联想，省掉法务复核"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "Cypher Games 自研自发，3D 破坏玩法无 IP 壁垒无需授权，没有可谈的合作入口",
+    "只照搬 aim-shoot-smash 机制换题材即可，无需接触发行方"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "品牌爆破营销",
+     "how": "把「推倒石塔」改成「击碎品牌积木墙」，连锁反应接新品发布互动"
+    }
+   ]
+  },
+  "summary": "3D破坏玩法可整块换皮做解压广告位；对外无需接触"
+ }
 }

@@ -7,7 +7,7 @@
 window.APP_CONFIG = {
   // Bump when publishing a new static data snapshot. Stable URLs allow
   // browsers and GitHub Pages to reuse cached JSON between visits.
-  ASSET_VERSION: "20260915",
+  ASSET_VERSION: "20260915d",
   SUPABASE_URL: "https://pjwwwxanhtvzkscumedm.supabase.co",
   SUPABASE_KEY: "sb_publishable_Iv1KM4p6hceRR16rB61x1w_Wy7LMJsj",
   PROFILE_ADMIN_KEY: "pF25wrJOEzjL4lUcg3ZM7ThuVXb9IYfq",
