@@ -1,0 +1,218 @@
+{
+ "schema_version": 1,
+ "name": "Colorever: Gem Art Puzzle",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Oakever Games",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 17
+  },
+  "platform_app_ids": {
+   "ios": "6761757565"
+  },
+  "first_seen": "2026-09-01",
+  "appearances": 14,
+  "best_rank": 17,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断，Oakever 休闲解谜常见引擎）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "像素风宝石/拼豆，亮色纯色块 + 点击归位动画",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "physics": 1,
+   "anim": 2,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "2D 休闲解谜，成熟引擎框架即可，Oakever 系产品多为 Unity，给 3（inferred）",
+   "art": "包体 235MB 属‘中’，含数百幅像素画/宝石图库，给 3",
+   "physics": "无物理，纯点击/归位，给 1",
+   "server": "官方明示可离线、无需联网，纯单机，给 1",
+   "logic": "连通同色宝石整体拾取 + 托盘暂存 + 路径规划，轻逻辑，给 3",
+   "data": "画廊收集 + 关卡解锁，轻养成，给 2",
+   "anim": "宝石飞入归位 + 咔哒反馈，轻量，给 2",
+   "audio": "轻音效 + 柔和 BGM，给 2"
+  },
+  "asset_notes": "素材为数百幅像素画/宝石图（2D 纯色块），可用批量生图 + 人工修图产出；无 3D、无物理，美术层成本低但‘图库量’决定内容厚度。",
+  "notes": "Oakever Games（乐信圣文）出品的放松向‘色彩分类 + 像素拼图’：棋盘即画，点宝石整簇飞向标色空位拼成图。无计时无失败，主打治愈。同属‘Color Sort + 拼图’赛道，已被多厂复制。",
+  "cost_score": 2.12,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "看棋盘上每格标好的目标颜色→点一颗宝石，所有相连同色宝石被整体拾起飞向对应空位→用托盘暂存暂时无法放置的宝石→清空全部拼成一幅像素画收进画廊，单局 1-3 分钟。",
+  "highlights": [
+   "‘整簇同色一起飞、咔哒归位’的连锁反馈，解压感强",
+   "无计时、无失败、每关必可解，零压力适合放松",
+   "从一开始就能看到整幅画，规划路线的爽感而非猜谜",
+   "画廊收集数百幅图，给长线‘集齐’目标"
+  ],
+  "innovations": [
+   "把‘颜色分类’与‘像素拼图’合并：棋盘本身就是画，消除即作画，区别于传统填空上色",
+   "连通同色整体拾取 + 托盘机制，在分类玩法上加了一层空间规划"
+  ],
+  "target_user": "全龄休闲/解压用户，偏好无压力、治愈向",
+  "monetization": "IAA（激励视频/去广告）+ IAP（提示/额外托盘/去广告），混合",
+  "lifecycle": "长线运营，靠图库持续上新（动物/食物/街景等）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "机制为成熟‘颜色分类 + 拼图’组合，无技术壁垒；差异化完全在题材图库（换成不同 IP/风格像素画）与治愈包装，成本低。",
+  "suggestions": [
+   "换图库主题：如‘非遗纹样/中药图谱/城市地标’拼图，蹭文化感",
+   "加入轻度‘连击/关卡评分’增加目标感而不破坏治愈基调",
+   "用 AI 批量生成像素图库，压低内容供给成本"
+  ],
+  "risks": [
+   "Color Sort + 拼图赛道高度拥挤，买量 CPI 偏高",
+   "图库版权（若用第三方 IP 像素画）需注意授权",
+   "机制浅、易腻，需稳定图库更新维持留存"
+  ],
+  "effort": "25–40 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/f1/e3/2bf1e381-80b3-121c-8fa4-bb535555b615/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/69/79/466979da-bb73-c35b-a422-abf393bb3c39/01a.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/21/eb/9c21eb32-e540-fd66-194a-7bb54fe5910b/02a.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/83/d2/4683d219-1ea2-c2b2-406f-a16676c93e73/03a.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/38/6a/21386a11-3ac5-0970-3170-bc955fb8d6af/04a.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/60/2b/84602bce-ed25-1d9c-5a32-6f36bed280cf/05a.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/17/fd/3217fde3-af95-a913-db9d-36f57e1abb9f/01c.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/0c/2b/eb0c2b9b-7dad-0d85-5a59-155f06984a97/02c.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/19/d3/9a19d3c8-5995-687f-8ad5-3991c26d08ae/03c.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/4a/e6/614ae69d-17ac-6ca3-4380-40414909dae4/04c.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/24/64/cd246425-b041-0ff9-3b42-8b33b1f7ab37/05c.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "App Store 美区条目 Colorever: Gem Art Puzzle，发行商 Oakever Games，包体 235MB，可离线无联网",
+   "level": "confirmed"
+  },
+  {
+   "claim": "Oakever（乐信圣文）出品，引擎按同厂休闲解谜惯例推断 Unity",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/colorever-gem-art-puzzle/id6761757565?uo=4",
+  "https://foxdata.com/cn/app-marketing-analytics/6761757565/as/US/colorever-gem-art-puzzle"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Colorever: Gem Art Puzzle",
+  "country": "us",
+  "track_id": 6761757565,
+  "seller": "OAKEVER GAMES PTE. LTD.",
+  "genres": [
+   "Games",
+   "Puzzle",
+   "Casual"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/f1/e3/2bf1e381-80b3-121c-8fa4-bb535555b615/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/69/79/466979da-bb73-c35b-a422-abf393bb3c39/01a.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/21/eb/9c21eb32-e540-fd66-194a-7bb54fe5910b/02a.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/83/d2/4683d219-1ea2-c2b2-406f-a16676c93e73/03a.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/38/6a/21386a11-3ac5-0970-3170-bc955fb8d6af/04a.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/60/2b/84602bce-ed25-1d9c-5a32-6f36bed280cf/05a.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/17/fd/3217fde3-af95-a913-db9d-36f57e1abb9f/01c.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/0c/2b/eb0c2b9b-7dad-0d85-5a59-155f06984a97/02c.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/19/d3/9a19d3c8-5995-687f-8ad5-3991c26d08ae/03c.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/4a/e6/614ae69d-17ac-6ca3-4380-40414909dae4/04c.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/24/64/cd246425-b041-0ff9-3b42-8b33b1f7ab37/05c.png/626x1112bb.jpg"
+  ],
+  "description": "\"Colorever: relax with sparkling gems and beautiful coloring art.\n\nEvery gem belongs somewhere. Tap a gem and watch the whole cluster glide home, one by one, until a bright gem art picture is complete. Easy for everyone, fun for all ages. No timers. No fail screens. No game over. Just you, the gems, and a calm little puzzle you can always solve.\n\nWHY PLAYERS STAY\n\nSee the whole picture from the start. Nothing is hidden, nothing is guesswork. You always know where every gem is going, so the pleasure comes from planning the route, not from hunting for a secret. Colorever is a puzzle funny game you can play with your shoulders down.\n\nHOW TO PLAY\n\nTap a gem, move a cluster. Tap one gem and every connected gem of the same color is picked up together, then flies to its matching space one gem at a time.\nRead the board. Each space on the board already shows the color of the gem it is waiting for. Match gem to space and it locks into place with a satisfying click.\nUse the tray. The tray holds gems you are not ready to place yet. Park a few, open up the board, then bring them back in when the space is free.\nFinish the picture. Place the last gem and the full gem art scene lights up, ready for your gallery.\n\nA GROWING GEM GALLERY\n\nHundreds of pixel art pictures to complete, from animals and food to flowers, cities and cozy little scenes, with fresh sets added regularly. Every picture you finish is saved to your gallery, so your collection of gems and gem art keeps growing as you play.\n\nFEATURES\n\nRelaxing by design. No countdown, no losing streak, no pressure. Play one puzzle on a coffee break or twenty in a row.\nAlways solvable. Every level has a solution, so getting stuck is temporary, never fatal.\nGentle learning curve. The first gem puzzles teach themselves. Later boards are wide, layered and genuinely worth thinking about.\nHandy helpers. Add an extra tray space, undo a move, take a hint, or let a smart tap tidy up the easy gems for you.\nMade to feel good. Crisp gems, glowing diamonds, soft sound and light haptics on every placement.\nPlay offline, anywhere. No connection needed. Pause mid puzzle and pick it up hours later, exactly where you left it.\nFor everyone. Simple enough for a first ever puzzle game, deep enough for players who like to plan three moves ahead.\n\nFOR PLAYERS WHO LIKE\n\nRelaxing puzzle games. Gem art and coloring pixel pictures. Gem, jewel and diamond puzzles. Calm brain games and quiet logic. Satisfying, oddly soothing placement games.\n\nTake a breath. Tap a gem. Let the gem art shine.\"",
+  "release_notes": "◆ Feature Updates\n◆ Bug fixes and other optimizations",
+  "file_size_bytes": 235854848,
+  "min_os": "15.0",
+  "version": "1.19.0",
+  "release_date": "2026-04-20",
+  "rating": 4.8836,
+  "rating_count": 2586,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/colorever-gem-art-puzzle/id6761757565?uo=4",
+  "fetched_at": "2026-09-15T21:49:33+08:00"
+ },
+ "slug": "Colorever_Gem_Art_Puzzle_c939ea"
+}

@@ -1,0 +1,109 @@
+{
+ "schema_version": 1,
+ "name": "卤蛋兄弟",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "个人开发者",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 9
+  },
+  "platform_app_ids": {
+   "douyin": "tt18126eaf86772b8d02"
+  },
+  "first_seen": "2026-09-15",
+  "appearances": 1,
+  "best_rank": 9,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "Q 版卡通 2D 卤蛋角色 + 割草怪物",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 2,
+   "logic": 4,
+   "data": 3,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "割草类需设计海量怪物波次、武器/技能组合（流派 build）与多模式关卡，波次平衡与数值膨胀控制是主要逻辑成本",
+   "server": "纯单机休闲割草，无排行榜/云存档/联机，无需服务端",
+   "art": "Q 版 2D 卤蛋角色 + 怪物贴图，素材轻（按同类 2D 小游戏推断，无官方包体数据）",
+   "data": "角色/武器/技能多线养成 + 关卡进度，属轻到中养成"
+  },
+  "asset_notes": "2D 卡通贴图为主，可用 AI 生图 + 修图批量产出；无 3D 资产，素材层不是瓶颈。",
+  "notes": "典型抖音 2D 割草（吸血鬼幸存者类）小游戏，技术门槛低、靠数值与题材吸量。注意：输入标注为抖音新游榜/个人开发者且未命中媒体材料；公开检索到同名微信小游戏卤蛋兄弟（深圳市游顺科技）为休闲割草游戏，疑似同玩法，以下按品类与名称推断，引擎与包体均标 inferred。",
+  "cost_score": 2.25,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "玩家操控卤蛋角色在场景中移动并自动攻击涌来的怪物群，击败怪物掉经验升级并随机获得武器/技能，build 成型后清场，一局数分钟，靠割草爽感与流派搭配停不下来。",
+  "highlights": [
+   "海量怪物同屏 + 秒清的割草反馈，数值滚雪球式爽感强",
+   "每次升级三选一武器/技能，build 成型的随机乐趣高",
+   "多模式/多角色，重复可玩性靠流派搭配"
+  ],
+  "innovations": [
+   "无实质创新，属吸血鬼幸存者（Vampire Survivors）类 2D 割草的本土题材换皮（卤蛋 Q 版）"
+  ],
+  "target_user": "抖音泛休闲用户，偏好解压割草与 build 搭配，年轻用户为主",
+  "monetization": "IAA 为主（复活/双倍/体力看广告）+ 少量 IAP 皮肤/去广告，抖音小游戏典型混合变现",
+  "lifecycle": "短平快爆款逻辑，靠买量 + 题材迭代，长线依赖新角色/模式更新"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "2D 割草（幸存者类）机制成熟、代码与素材轻，照搬即成立；差异化完全在题材（卤蛋 Q 版）与角色/武器包装，属典型换皮赛道。",
+  "suggestions": [
+   "把卤蛋换成更梗的本土题材（如烤串大作战、奶茶消消乐战士），用短视频梗做传播",
+   "在割草外加 Boss 收集图鉴，把单局爽感接长线目标",
+   "加入双人本地合作降低买量依赖、强化社交裂变"
+  ],
+  "risks": [
+   "幸存者类 2D 割草已极度饱和，买量成本高、留存难",
+   "同名/同类产品多，题材撞车",
+   "个人开发者版无官方素材，需自行补齐美术"
+  ],
+  "effort": "20–35 人日（1 前端 + 1 美术 + 0.5 策划），瓶颈在数值平衡与买量素材"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "同名微信小游戏卤蛋兄弟（深圳市游顺科技）为休闲割草游戏（来源游戏观察）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "抖音新游榜条目开发者公开度低，按品类推断为 2D 幸存者类割草、引擎 Cocos Creator/LayaAir、无包体数据",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://m.youxiguancha.com/game/79432.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T21:48:59+08:00"
+ },
+ "slug": "卤蛋兄弟_b348d5"
+}

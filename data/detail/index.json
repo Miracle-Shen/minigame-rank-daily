@@ -1,7 +1,7 @@
 {
- "updated_at": "2026-09-15T02:05:50+08:00",
- "total": 142,
- "collected": 142,
+ "updated_at": "2026-09-15T22:38:53+08:00",
+ "total": 184,
+ "collected": 184,
  "games": {
   "[777Real]緑ドン VIVA!情熱南米編": {
    "name": "[777Real]緑ドン VIVA!情熱南米編",
@@ -66,6 +66,27 @@
    "play_brief": "在网格里找一条通向边缘的空闲路径的箭头，点选滑出清出车道，规划顺序把全部箭头送出棋盘；点错扣一颗心，长按高亮引导，清盘过关。",
    "collected": true
   },
+  "ArrowCube - 3DPuzzle": {
+   "name": "ArrowCube - 3DPuzzle",
+   "slug": "ArrowCube_3DPuzzle_d0c16e",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/36/b5/a936b56a-c7d9-5038-594d-88cae4ca768a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.5,
+   "engine": "Unity（推断，移动 3D 解谜常见；同家族其他版本检测到 Unity/Defold）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "换肤",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "best_rank": 15,
+   "has_shots": true,
+   "shot_count": 15,
+   "play_brief": "旋转 3D 立方体查看六面箭头指向→点击箭头，路径无阻挡即沿方向滑出→被挡则先清掉阻挡层；按正确顺序清空全部箭头即过关，单局 1-3 分钟。",
+   "collected": true
+  },
   "Block Blast!": {
    "name": "Block Blast!",
    "slug": "Block_Blast_df1a6e",
@@ -106,6 +127,48 @@
    "has_shots": true,
    "shot_count": 13,
    "play_brief": "每回合给三块固定形状方块，拖到8x8网格任意位置，填满整行或整列即消除得分，棋盘无处可放则结束，追求更高分。",
+   "collected": true
+  },
+  "Block Craft 3D:Building Game": {
+   "name": "Block Craft 3D:Building Game",
+   "slug": "Block_Craft_3D_Building_Game_fe5788",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/da/80/e6da80a1-ccf2-a7cc-e301-7049467d42bd/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.5,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": false,
+   "dimension": "3D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "best_rank": 6,
+   "has_shots": true,
+   "shot_count": 17,
+   "play_brief": "在开放体素世界里放置/移除彩色方块，按蓝图引导一步步盖出房屋、城堡、地标，完成任务赚金币解锁新建筑与装饰，还能养宠物、拜访好友村庄；无固定目标，自由创造为主。",
+   "collected": true
+  },
+  "Block Crush!": {
+   "name": "Block Crush!",
+   "slug": "Block_Crush_4cb855",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/6f/2b/b36f2b4a-21eb-6371-7124-d4e2b707b2ee/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.12,
+   "engine": "Unity（推测）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "best_rank": 30,
+   "has_shots": true,
+   "shot_count": 11,
+   "play_brief": "把随机形状木块拖到 10x10 网格上，填满整行或整列即消除；棋盘越满越需规划，连击清行得 combo 高分，单局数分钟，可离线。",
    "collected": true
   },
   "Block Out! - Color Sort Puzzle": {
@@ -174,6 +237,27 @@
    "play_brief": "在拥挤停车场按正确顺序移动公交出库，同色乘客上车；结合传送带循环与颜色分类，清掉拥堵即过关，短局。",
    "collected": true
   },
+  "Candy Crush Saga": {
+   "name": "Candy Crush Saga",
+   "slug": "Candy_Crush_Saga_d277fc",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/de/33/8fde33a2-a5d3-ee30-cc04-36ec1ed1ef91/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "高",
+   "cost_score": 3.5,
+   "engine": "King 自研引擎（Fiction）",
+   "engine_primary": "自研",
+   "engine_inferred": false,
+   "dimension": "2D",
+   "verdict": "不建议",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "best_rank": 9,
+   "has_shots": true,
+   "shot_count": 19,
+   "play_brief": "在棋盘上交换相邻糖果凑成三连消除，四连以上生成特殊糖果，用连锁与特殊糖果在限定步数内完成关卡目标；失败扣生命，靠好友赠送或内购续命。一局 1–3 分钟。",
+   "collected": true
+  },
   "Car Evolve": {
    "name": "Car Evolve",
    "slug": "Car_Evolve_b5fefd",
@@ -217,6 +301,27 @@
    "play_brief": "点击方块堆放出对应颜色蚂蚁，把场上同色方块搬回巢穴，5 个开放槽位管理顺序，开错颜色或槽位塞满就卡死，清空全部方块解锁底层像素画，无计时压力。",
    "collected": true
   },
+  "Colorever: Gem Art Puzzle": {
+   "name": "Colorever: Gem Art Puzzle",
+   "slug": "Colorever_Gem_Art_Puzzle_c939ea",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/f1/e3/2bf1e381-80b3-121c-8fa4-bb535555b615/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.12,
+   "engine": "Unity（推断，Oakever 休闲解谜常见引擎）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "best_rank": 17,
+   "has_shots": true,
+   "shot_count": 11,
+   "play_brief": "看棋盘上每格标好的目标颜色→点一颗宝石，所有相连同色宝石被整体拾起飞向对应空位→用托盘暂存暂时无法放置的宝石→清空全部拼成一幅像素画收进画廊，单局 1-3 分钟。",
+   "collected": true
+  },
   "CubeAway - 3DPuzzle": {
    "name": "CubeAway - 3DPuzzle",
    "slug": "CubeAway_3DPuzzle_58f094",
@@ -236,6 +341,27 @@
    "has_shots": true,
    "shot_count": 11,
    "play_brief": "旋转观察六面立方体上的箭头，找出当前可移除的箭头依次清除，避免误操作阻断序列，清空全部箭头过关。",
+   "collected": true
+  },
+  "Cube Land Puzzle Game": {
+   "name": "Cube Land Puzzle Game",
+   "slug": "Cube_Land_Puzzle_Game_5e0d11",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/47/f8/d847f8d8-9b32-27f1-54bd-2dca7100908f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "best_rank": 6,
+   "has_shots": true,
+   "shot_count": 14,
+   "play_brief": "屏幕下方数字弹匣对准由彩色体素堆成的 3D 模型，发射同色炮弹逐层爆破消除，模型自动缓慢旋转、无可消角度时手动旋转找缺口，清空全部色块即过关；暂存区占满且无法消除则失败，一局数十秒到数分钟。",
    "collected": true
   },
   "EA College Football Mobile 27": {
@@ -259,6 +385,27 @@
    "play_brief": "组建大学橄榄球 Ultimate Team→招募新秀/养成阵容→打赛季与实时比赛→赢取奖励强化阵容，单局比赛数分钟。",
    "collected": true
   },
+  "Fish Sort Puzzle": {
+   "name": "Fish Sort Puzzle",
+   "slug": "Fish_Sort_Puzzle_20dc64",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/86/39/5986391c-4a07-7794-f2a0-016fbca50e38/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "best_rank": 9,
+   "has_shots": true,
+   "shot_count": 13,
+   "play_brief": "屏幕下方是游动的各种颜色小鱼，玩家点击一条鱼把它送进对应鱼缸；同色集满 3 条即消除，同时需戳破下方气泡腾出空间，清空全场鱼即过关，单局 1–3 分钟。",
+   "collected": true
+  },
   "Fish Sort Puzzle - Bubble Jam": {
    "name": "Fish Sort Puzzle - Bubble Jam",
    "slug": "Fish_Sort_Puzzle_Bubble_Jam_aac399",
@@ -278,6 +425,69 @@
    "has_shots": true,
    "shot_count": 13,
    "play_brief": "点小鱼将其送入对应鱼缸，集齐 3 只同色鱼即消除；清空下方气泡放出新鱼，暂存区满则失败，消除全部鱼过关，一局几十秒。",
+   "collected": true
+  },
+  "Fish Sort Puzzle:フィッシュソート泡を消そう": {
+   "name": "Fish Sort Puzzle:フィッシュソート泡を消そう",
+   "slug": "Fish_Sort_Puzzle_フィッシュソート泡を消そう_caa61a",
+   "updated_at": "2026-09-15",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.5,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": false,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "best_rank": 19,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "海洋生物困在气泡里，点击把三个相同生物移入有限空间收集，完成订单扩张水族箱；空间满则卡住，需在棋盘填满前规划路径，单局 1–3 分钟。",
+   "collected": true
+  },
+  "Food Hunt: Pixel Puzzle": {
+   "name": "Food Hunt: Pixel Puzzle",
+   "slug": "Food_Hunt_Pixel_Puzzle_d95b64",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/69/81/e3698133-d61d-b655-7ddf-f6fac07e0bf5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "Unity（推断，FUNFINITY/EVERFUN 休闲解谜常见引擎）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "best_rank": 17,
+   "has_shots": true,
+   "shot_count": 17,
+   "play_brief": "看像素食物图上各色块→点对应颜色放出蚁群，蚂蚁爬去吃掉所有同色像素→有限暂存槽调度顺序，避免卡死→清空整幅图即过关，单局 1-3 分钟。",
+   "collected": true
+  },
+  "Gossip Harbor: Merge & Story": {
+   "name": "Gossip Harbor: Merge & Story",
+   "slug": "Gossip_Harbor_Merge_Story_1e790e",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/c3/15/b7c31546-603c-f813-0af5-71978cd76570/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "中",
+   "cost_score": 3.25,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": false,
+   "dimension": "2D",
+   "verdict": "微创新",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "best_rank": 9,
+   "has_shots": true,
+   "shot_count": 15,
+   "play_brief": "玩家在网格上拖拽合成低级物品（食材/工具）逐级 merge 出高级物，用来完成订单、修复装修 Quinn 的餐厅并解锁剧情章节；每日任务与限时活动驱动复访，单局碎片几分钟。",
    "collected": true
   },
   "Gossip Harbor®: Merge & Story": {
@@ -322,6 +532,28 @@
    "play_brief": "把彩色液体在两个容器间倒来倒去，按颜色归类合成魔法药剂，过渐进难度关卡，用道具破卡关，单局几十秒。",
    "collected": true
   },
+  "Mahjong Blast": {
+   "name": "Mahjong Blast",
+   "slug": "Mahjong_Blast_c873d0",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/0c/70/a20c7039-190b-ca71-2dcd-d65661149ed7/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.0,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜",
+    "ios/美区免费榜"
+   ],
+   "best_rank": 6,
+   "has_shots": true,
+   "shot_count": 13,
+   "play_brief": "在立体麻将牌堆里点选两张相同且未被压住的牌配对消除，清空整盘即过关，一局 1-3 分钟，纯离线、无计时压力。",
+   "collected": true
+  },
   "Meowdoku!": {
    "name": "Meowdoku!",
    "slug": "Meowdoku_2fff27",
@@ -342,6 +574,48 @@
    "has_shots": true,
    "shot_count": 17,
    "play_brief": "在彩色区块棋盘上给每个颜色区放一只猫，且满足同一行/列不重复、猫之间（含斜对角）不相邻；单击格画 X 标记禁区、双击放猫，错 3 次本局结束；一关即一次纯推理，过关接下一关，失败看广告复活。",
+   "collected": true
+  },
+  "Meowdoku: Brain Puzzle Games": {
+   "name": "Meowdoku: Brain Puzzle Games",
+   "slug": "Meowdoku_Brain_Puzzle_Games_17ee60",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/69/1d/4d691ded-2f9a-eac1-adf2-8ed9d6bfaa09/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.0,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "best_rank": 1,
+   "has_shots": true,
+   "shot_count": 7,
+   "play_brief": "在彩色分区棋盘里双击放猫，满足「每色区/每行/每列仅 1 猫且猫互不相邻」规则、用单击标 X 排除，3 次失误耗尽即失败，一局即一道逻辑推理谜题，1-3 分钟。",
+   "collected": true
+  },
+  "MiniMuse": {
+   "name": "MiniMuse",
+   "slug": "MiniMuse_87e1c5",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/00/93/0c009394-ae9e-91c1-c4d7-86471def78a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "best_rank": 1,
+   "has_shots": true,
+   "shot_count": 6,
+   "play_brief": "从发型/五官/体型/配饰逐层捏人→在衣柜里搭配服装→进 Studio 模式摆背景道具、加对话气泡编排小剧场→一键导出高清图分享，核心乐趣是创作与表达而非过关。",
    "collected": true
   },
   "MiniMuses": {
@@ -511,6 +785,27 @@
    "play_brief": "架炮调角度蓄力开火，砸碎罐子/推倒石塔/触发连锁反应清空整张桌，无计时无压力，单关几分钟解压。",
    "collected": true
   },
+  "Sled Surfers": {
+   "name": "Sled Surfers",
+   "slug": "Sled_Surfers_7065b7",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/92/93/c192939e-b4d9-084e-4f1b-1ff813fcb34c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "cost_level": "中",
+   "cost_score": 2.62,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": false,
+   "dimension": "3D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "best_rank": 4,
+   "has_shots": true,
+   "shot_count": 15,
+   "play_brief": "操控雪橇从雪坡高速俯冲，左右变道躲避树木、起跳越过冰面、拾取加速道具，一路滑向更远的里程；无限模式刷距离，关卡模式打挑战，一局 1-3 分钟。",
+   "collected": true
+  },
   "Smash Fest!": {
    "name": "Smash Fest!",
    "slug": "Smash_Fest_adf4bd",
@@ -531,6 +826,48 @@
    "has_shots": true,
    "shot_count": 11,
    "play_brief": "拖动设定角度/力度发射炮弹，击碎台上罐子与石头，让所有物体掉出平台即过关；单机制aim-shoot-smash，短局。",
+   "collected": true
+  },
+  "Smash Land!": {
+   "name": "Smash Land!",
+   "slug": "Smash_Land_965a85",
+   "updated_at": "2026-09-15",
+   "icon": "",
+   "cost_level": "中",
+   "cost_score": 2.62,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "best_rank": 8,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "玩家拖动瞄准大炮，松手发射弹球击打场景中的积木塔/障碍；利用质量、动量与反弹让结构倒塌，一次性清掉目标即可过关，单局几十秒到两分钟。",
+   "collected": true
+  },
+  "Tasty Travels: Merge Game": {
+   "name": "Tasty Travels: Merge Game",
+   "slug": "Tasty_Travels_Merge_Game_b5ab5a",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/45/bb/e045bb47-6e25-55e1-c687-8e64a7dea9d2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "高",
+   "cost_score": 3.62,
+   "engine": "Unity（推断，点点互动 merge 类产品常用；官方未公开）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "微创新",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "best_rank": 11,
+   "has_shots": true,
+   "shot_count": 17,
+   "play_brief": "点击生成器产出基础食材（耗能量），拖拽两个相同食材合成更高阶物品，完成游客订单换金币与 XP，攒币解锁新旅行目的地并推进故事。能量耗尽需等待或看广告。",
    "collected": true
   },
   "Township": {
@@ -573,6 +910,27 @@
    "has_shots": true,
    "shot_count": 19,
    "play_brief": "在牌堆里点选两张相同且'自由未被压'的麻将牌配对消除，清空全盘即过关；连击解锁combo，提示/洗牌辅助，无计时无压力。",
+   "collected": true
+  },
+  "Word Search Explorer": {
+   "name": "Word Search Explorer",
+   "slug": "Word_Search_Explorer_068342",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/a9/f8/eea9f8be-b15a-b968-7eea-16a7b5dfea83/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.0,
+   "engine": "Flutter (Dart)",
+   "engine_primary": "Flutter (Dart)",
+   "engine_inferred": false,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "best_rank": 17,
+   "has_shots": true,
+   "shot_count": 6,
+   "play_brief": "在字母网格里滑动手指连出隐藏的单词，每关一个主题词表；完成一关解锁新目的地，沿‘环球旅行’主线推进，单局 1–3 分钟，可离线游玩。",
    "collected": true
   },
   "トップロード": {
@@ -657,6 +1015,27 @@
    "has_shots": false,
    "shot_count": 0,
    "play_brief": "在森林采集原料→按食谱烹饪→组队讨伐Abunaiyatsu→用金币/钻石升级厨房与角色，回家除草/装饰小天地触发角色互动演出，每日签到与活动循环。",
+   "collected": true
+  },
+  "ゴシップハーバー:マージ & ストーリー": {
+   "name": "ゴシップハーバー:マージ & ストーリー",
+   "slug": "ゴシップハーバー_マージ_ストーリー_b2005e",
+   "updated_at": "2026-09-15",
+   "icon": "",
+   "cost_level": "高",
+   "cost_score": 3.5,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": false,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "best_rank": 18,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "在棋盘上点生成器消耗能量产出原料，拖拽两个相同物品合成更高阶道具，凑齐订单赚金币，金币用于修复/装修海边餐厅并推进悬疑剧情，单局依赖能量回复节奏。",
    "collected": true
   },
   "ワクワク電車ライフ - 街を発展!車掌ゲーム": {
@@ -854,7 +1233,7 @@
    "name": "俄罗斯方块拼图",
    "slug": "俄罗斯方块拼图_e82b51",
    "updated_at": "2026-09-15",
-   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3ad801597f89719a949c7cd9b6f7c718",
+   "icon": "",
    "cost_level": "极低",
    "cost_score": 1.75,
    "engine": "Cocos Creator (推断)",
@@ -936,11 +1315,32 @@
    "play_brief": "在体素世界采集资源、合成工具武器、建造庇护所、应对夜晚怪物，多人协作探索开放地图。",
    "collected": true
   },
+  "全民单挑篮球": {
+   "name": "全民单挑篮球",
+   "slug": "全民单挑篮球_82f2fe",
+   "updated_at": "2026-09-15",
+   "icon": "",
+   "cost_level": "高",
+   "cost_score": 4.12,
+   "engine": "Unity（推断，3D 实时竞技手游常用；官方未公开）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "微创新",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "best_rank": 12,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "在单挑球场用方向/投篮/跳跃三键走位卡位，时机盖帽、后撤跳投完成 11 分制斗牛；含 3v3、三分竞速、路人王闯关等模式，单局 3–5 分钟。",
+   "collected": true
+  },
   "全能大闯关": {
    "name": "全能大闯关",
    "slug": "全能大闯关_b25830",
    "updated_at": "2026-09-15",
-   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/89e1064b182d4ef583b1be8bd159f448",
+   "icon": "",
    "cost_level": "低",
    "cost_score": 1.88,
    "engine": "Cocos Creator",
@@ -955,6 +1355,27 @@
    "has_shots": false,
    "shot_count": 0,
    "play_brief": "进入关卡→观察场景/找差异/解谜→完成目标进入下一关，一局数十秒到数分钟，靠多关卡与提示道具续玩（据同类推断）。",
+   "collected": true
+  },
+  "兵器王者": {
+   "name": "兵器王者",
+   "slug": "兵器王者_e64dc6",
+   "updated_at": "2026-09-15",
+   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d1a93b41632f04da6f2a5d9250f83b29",
+   "cost_level": "中",
+   "cost_score": 2.62,
+   "engine": "Cocos Creator",
+   "engine_primary": "Cocos Creator",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "douyin/热门榜"
+   ],
+   "best_rank": 2,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "收集矿石与图纸→锻造/淬炼兵器→上阵阵容自动战斗+手动走位闯关→竞技对战与挂机收菜，一局数分钟到挂机数小时。",
    "collected": true
   },
   "冲吧!帕克": {
@@ -976,6 +1397,27 @@
    "has_shots": true,
    "shot_count": 13,
    "play_brief": "单手操控像素角色在随机地牢中自动割草刷怪、击杀累积进度召唤传送门，回营地用掉落强化装备/符文/宠物，无限刷宝。",
+   "collected": true
+  },
+  "卤蛋兄弟": {
+   "name": "卤蛋兄弟",
+   "slug": "卤蛋兄弟_b348d5",
+   "updated_at": "2026-09-15",
+   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/9226cc215b2848538a539cab8d2f86db",
+   "cost_level": "低",
+   "cost_score": 2.25,
+   "engine": "Cocos Creator",
+   "engine_primary": "Cocos Creator",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "best_rank": 9,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "玩家操控卤蛋角色在场景中移动并自动攻击涌来的怪物群，击败怪物掉经验升级并随机获得武器/技能，build 成型后清场，一局数分钟，靠割草爽感与流派搭配停不下来。",
    "collected": true
   },
   "吃鸡训练营3D": {
@@ -1217,7 +1659,7 @@
    "name": "大王请上阵",
    "slug": "大王请上阵_c95f50",
    "updated_at": "2026-09-15",
-   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/abe33f1a1897cd61bc515c5a9c654915",
+   "icon": "",
    "cost_level": "中",
    "cost_score": 3.0,
    "engine": "Unity（推测）",
@@ -1238,7 +1680,7 @@
    "name": "天命行者",
    "slug": "天命行者_7f7473",
    "updated_at": "2026-09-15",
-   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8ea737864bc7e1b400a117ecd4926418",
+   "icon": "",
    "cost_level": "高",
    "cost_score": 3.5,
    "engine": "Unity (推断)",
@@ -1253,6 +1695,27 @@
    "has_shots": false,
    "shot_count": 0,
    "play_brief": "扮演重生化身妖王，招募天/地/灵/妖四阵营角色组建 6 人队伍进行自动回合战斗推图；离线挂机（巡山）持续产出资源，资源用于升星突破与阵容搭配，目标打穿主线与各类副本。",
+   "collected": true
+  },
+  "天天台球": {
+   "name": "天天台球",
+   "slug": "天天台球_4bb74b",
+   "updated_at": "2026-09-15",
+   "icon": "",
+   "cost_level": "中",
+   "cost_score": 3.0,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "变种创意",
+   "boards": [
+    "douyin/热门榜"
+   ],
+   "best_rank": 9,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "玩家拖动调整球杆角度与力度，松手击打母球撞击目标球入袋；8 球需清完本组再打黑 8、斯诺克按红彩计分，对战/闯关单局 5–15 分钟，靠走位与规则获胜。",
    "collected": true
   },
   "天天斗地主真人版": {
@@ -1276,11 +1739,32 @@
    "play_brief": "三人/四人一副牌斗地主，叫地主→出牌→压牌，先出完者胜；一局数分钟，靠比赛/癞子/欢乐多种玩法续玩。",
    "collected": true
   },
+  "天天象棋": {
+   "name": "天天象棋",
+   "slug": "天天象棋_c99892",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/3b/8d/4f3b8d0f-55ed-2c1a-c684-7f370019cb3e/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+   "cost_level": "中",
+   "cost_score": 3.0,
+   "engine": "Unity / Cocos（推断，腾讯休闲棋牌常用；官方未公开引擎）",
+   "engine_primary": "Unity / Cocos Creator",
+   "engine_inferred": true,
+   "dimension": "2D（含 3D 棋子/古谱博物馆可选）",
+   "verdict": "不建议",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "best_rank": 10,
+   "has_shots": true,
+   "shot_count": 17,
+   "play_brief": "在棋盘上走子对弈，真人联网或人机（绝悟 AI）对战；通过棋力评测打段位、残局闯关、题库训练与大师课程提升棋力。一局数分钟到半小时。",
+   "collected": true
+  },
   "奇幻果园": {
    "name": "奇幻果园",
    "slug": "奇幻果园_41d27c",
    "updated_at": "2026-09-15",
-   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ddb3c5b1d0ccccfc970c604550c8e23a",
+   "icon": "",
    "cost_level": "中",
    "cost_score": 2.62,
    "engine": "Cocos Creator",
@@ -1295,6 +1779,48 @@
    "has_shots": false,
    "shot_count": 0,
    "play_brief": "在庭院里拖动播种水果，收获后交居民订单或做成果艺出售，金币解锁土地/容器/装修，等级提升解锁公会好友。",
+   "collected": true
+  },
+  "奔奔王国": {
+   "name": "奔奔王国",
+   "slug": "奔奔王国_eada6b",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/b0/2c/98b02c56-4555-6eaa-4daf-e2248f5b1126/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "高",
+   "cost_score": 3.75,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2.5D / 3D",
+   "verdict": "不建议",
+   "boards": [
+    "wx/畅销榜"
+   ],
+   "best_rank": 5,
+   "has_shots": true,
+   "shot_count": 13,
+   "play_brief": "作为领主在废墟上重建城镇、调配居民（工人/厨师/医生）、布防抵御叛军与野兽，同时参与联盟、科技研发与跨服国战；长线滚雪球，单局由无数小决策堆叠成王国成长。",
+   "collected": true
+  },
+  "完全没难度": {
+   "name": "完全没难度",
+   "slug": "完全没难度_c361b4",
+   "updated_at": "2026-09-15",
+   "icon": "",
+   "cost_level": "极低",
+   "cost_score": 1.25,
+   "engine": "抖音小游戏（推测 Cocos Creator / LayaAir / H5 自研）",
+   "engine_primary": "Cocos Creator / LayaAir",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "best_rank": 19,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "（推测）以极简的单指点击/滑动完成几乎无门槛的小任务，每步即时给正反馈，单局数秒到数十秒，主打‘零挫败’解压。",
    "collected": true
   },
   "对峙:交锋时刻": {
@@ -1387,7 +1913,7 @@
    "name": "快逃离岩浆",
    "slug": "快逃离岩浆_7951f2",
    "updated_at": "2026-09-15",
-   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f377e43c06f5d75c8cf6c811a4ced9ce",
+   "icon": "",
    "cost_level": "中",
    "cost_score": 3.0,
    "engine": "Unity（推断，3D 小游戏常见选择）",
@@ -1402,6 +1928,27 @@
    "has_shots": false,
    "shot_count": 0,
    "play_brief": "岩浆不断上升，玩家点击锻炼提升力量、自动/手动攀爬高楼躲避岩浆，收集萌宠加金币、解锁翅膀提速；挂机也成长，比谁爬得高。",
+   "collected": true
+  },
+  "意味怖ストーリー:バッドエンドを回避せよ!": {
+   "name": "意味怖ストーリー:バッドエンドを回避せよ!",
+   "slug": "意味怖ストーリー_バッドエンドを回避せよ_b60163",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/5f/d4/bf5fd431-4758-2e79-cd5c-eaeb46cdcd0f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "Unity / 国产化 visual novel 框架（推断；官方未公开）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "best_rank": 11,
+   "has_shots": true,
+   "shot_count": 15,
+   "play_brief": "阅读一段看似平常的对话，从对方回应/选项中察觉「违和感」，选择不刺激对方、回避危险的做法；选错即导向恐怖 BAD END，选对推进剧情。每章数分钟。",
    "collected": true
   },
   "我的世界:移动版": {
@@ -1425,11 +1972,34 @@
    "play_brief": "随机生成开放世界，砍树挖矿搜集资源，建建筑/打怪/红石电路，单机或联机创造。",
    "collected": true
   },
+  "我的花园世界": {
+   "name": "我的花园世界",
+   "slug": "我的花园世界_aab914",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/8c/ec/078cec06-9946-9fff-6856-73b7935a41d1/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+   "cost_level": "中",
+   "cost_score": 3.0,
+   "engine": "Cocos Creator",
+   "engine_primary": "Cocos Creator",
+   "engine_inferred": false,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "douyin/热门榜",
+    "douyin/畅销榜",
+    "wx/畅销榜"
+   ],
+   "best_rank": 1,
+   "has_shots": true,
+   "shot_count": 19,
+   "play_brief": "培育花种→种入花田浇水→等 CD 收获鲜花→完成顾客/居民/宫廷订单换资源→解锁新花种与地皮，一局即一次种植-收获-交付循环，靠体力与订单节奏驱动每日复访。",
+   "collected": true
+  },
   "我真能通关": {
    "name": "我真能通关",
    "slug": "我真能通关_5ccaab",
    "updated_at": "2026-09-15",
-   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e4f6d66345e708f7f684e1e7dfd17a88",
+   "icon": "",
    "cost_level": "极低",
    "cost_score": 1.75,
    "engine": "Cocos / Unity（推测）",
@@ -1446,11 +2016,53 @@
    "play_brief": "在关卡中（推测砸物解压或跑酷闯关）完成目标通关，释放压力或竞速。",
    "collected": true
   },
+  "我要消光光": {
+   "name": "我要消光光",
+   "slug": "我要消光光_953439",
+   "updated_at": "2026-09-15",
+   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/6c2ad96af6b5684105a5efcaaeba25d1",
+   "cost_level": "极低",
+   "cost_score": 1.5,
+   "engine": "Cocos Creator",
+   "engine_primary": "Cocos Creator",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "best_rank": 2,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "在棋盘/场景中点击或拖拽消除相同水果，清空或达成目标即过关；难度逐关陡增，一局数十秒到一两分钟。",
+   "collected": true
+  },
+  "手机反恐特别行动": {
+   "name": "手机反恐特别行动",
+   "slug": "手机反恐特别行动_81057c",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/5b/3f/ed5b3fc0-13ff-a9af-c730-3bd788e21d73/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "中",
+   "cost_score": 3.25,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "变种创意",
+   "boards": [
+    "douyin/畅销榜"
+   ],
+   "best_rank": 5,
+   "has_shots": true,
+   "shot_count": 17,
+   "play_brief": "在末日废土移动角色，武器自动朝最近敌人开火，击杀掉经验、升级后从随机刷新的技能池选强化（攻速/散射/冰霜/火焰等），凑出流派清屏割草，单局约 6 分钟，越往后 Boss 越强。",
+   "collected": true
+  },
   "打下毛线": {
    "name": "打下毛线",
    "slug": "打下毛线_8d8b95",
    "updated_at": "2026-09-15",
-   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f414cc7577e0194a696616dba9ebe8af",
+   "icon": "",
    "cost_level": "低",
    "cost_score": 2.0,
    "engine": "Cocos / Unity（推测）",
@@ -1492,7 +2104,7 @@
    "name": "找个儿不同",
    "slug": "找个儿不同_79cdf1",
    "updated_at": "2026-09-15",
-   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/70436fa1cff86f5e7bc4cfed03b7af55",
+   "icon": "",
    "cost_level": "极低",
    "cost_score": 1.38,
    "engine": "Cocos Creator / Unity（推断）",
@@ -1552,6 +2164,27 @@
    "has_shots": false,
    "shot_count": 0,
    "play_brief": "选拳皇角色，在3v3或单人对战中用精准出招/连招击败对手，公平竞技无数值加成，排位上分。",
+   "collected": true
+  },
+  "指尖幻影": {
+   "name": "指尖幻影",
+   "slug": "指尖幻影_b067d7",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/e8/93/e6e893da-d3de-54d8-4880-247e691e5d30/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "cost_level": "中",
+   "cost_score": 3.0,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "变种创意",
+   "boards": [
+    "douyin/畅销榜"
+   ],
+   "best_rank": 3,
+   "has_shots": true,
+   "shot_count": 11,
+   "play_brief": "拖动武器进背包格→相同武器合成升阶→自动射击抵御尸潮→局外芯片/科技养成反哺，一局约2分钟割草。",
    "collected": true
   },
   "指尖欢乐坊": {
@@ -1723,6 +2356,48 @@
    "play_brief": "从快餐店起步，手动制作餐品完成订单赚第一桶金，招募伙伴委派驻店，逐步解锁业态(超市/服装/潮玩)并收购整座商场，放置产出。",
    "collected": true
   },
+  "星布谷地": {
+   "name": "星布谷地",
+   "slug": "星布谷地_cd65c5",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/5b/0e/6b5b0e50-6f39-13b7-b73d-f64979f8e697/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "极高",
+   "cost_score": 4.5,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": false,
+   "dimension": "3D",
+   "verdict": "不建议",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "best_rank": 1,
+   "has_shots": true,
+   "shot_count": 15,
+   "play_brief": "在属于自己的星球上种植/钓鱼/赶海/烹饪→用「露卡活力」改造地貌、建造家园→与拟人动物友邻社交、探索星海，一局即一段生活化经营活动，无体力无战力压力。",
+   "collected": true
+  },
+  "星途天城": {
+   "name": "星途天城",
+   "slug": "星途天城_851b94",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/f4/89/eef48920-2e16-e497-2638-4bf5039cd0d9/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+   "cost_level": "中",
+   "cost_score": 3.25,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "微创新",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "best_rank": 4,
+   "has_shots": true,
+   "shot_count": 11,
+   "play_brief": "抽取/培养星灵(角色三阶觉醒)→搭配主角职业与元素弱点组阵容→回合制策略战斗→放置挂机收资源，长线卡牌循环。",
+   "collected": true
+  },
   "暴走闯关者": {
    "name": "暴走闯关者",
    "slug": "暴走闯关者_cdfe61",
@@ -1769,7 +2444,7 @@
    "name": "极限破译",
    "slug": "极限破译_169227",
    "updated_at": "2026-09-15",
-   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ea7123dae3ef36f82daacfeb1df0f0d6",
+   "icon": "",
    "cost_level": "低",
    "cost_score": 2.25,
    "engine": "Unity / Cocos（推测）",
@@ -1893,6 +2568,69 @@
    "has_shots": false,
    "shot_count": 0,
    "play_brief": "扮演警察在赛道上追捕小偷，左右滑动躲避障碍、吃金币、用道具，闯关或无尽模式冲距离，一局 1-3 分钟。",
+   "collected": true
+  },
+  "欢乐岛大冒险": {
+   "name": "欢乐岛大冒险",
+   "slug": "欢乐岛大冒险_9621b6",
+   "updated_at": "2026-09-15",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "Cocos Creator",
+   "engine_primary": "Cocos Creator",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "微创新",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "best_rank": 5,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "在奇幻岛屿上探索场景、收集宝藏、完成关卡与每日任务，组队挑战 Boss；节奏轻快、操作直观，单局碎片时间即可推进（基于第三方描述推断）。",
+   "collected": true
+  },
+  "欢乐麻将": {
+   "name": "欢乐麻将",
+   "slug": "欢乐麻将_70317d",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/e5/b4/17e5b478-5943-cdc8-78c7-a621af4c2fb8/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/512x512bb.jpg",
+   "cost_level": "高",
+   "cost_score": 4.0,
+   "engine": "Unity（推断，腾讯 3D 手游常见选择；官方未公开确认）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "不建议",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "best_rank": 10,
+   "has_shots": true,
+   "shot_count": 11,
+   "play_brief": "进入一桌麻将，按地方规则摸牌/出牌/碰杠胡，与真人实时对战；段位赛/好友约战/组队 2v2，一局数分钟到数十分钟。",
+   "collected": true
+  },
+  "毛线大师 - 毛线消除游戏 疯狂毛线消不停": {
+   "name": "毛线大师 - 毛线消除游戏 疯狂毛线消不停",
+   "slug": "毛线大师_毛线消除游戏_疯狂毛线消不停_1d7654",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/34/be/bb34be6b-a846-ae18-997e-af647d1f581d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "cost_level": "中",
+   "cost_score": 2.75,
+   "engine": "小游戏引擎（推断 Cocos Creator / Unity，含轻度物理）",
+   "engine_primary": "Unity / Cocos Creator",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "ios/国区免费榜"
+   ],
+   "best_rank": 17,
+   "has_shots": true,
+   "shot_count": 13,
+   "play_brief": "滑动连接相邻同色毛线团→按关卡目标把所有毛线分类归位/拼成图案→用角色技能加速消除；天气会改变毛线状态（雨天变重、晴天弹更高）影响策略，单局 1-3 分钟。",
    "collected": true
   },
   "永夜起源": {
@@ -2088,6 +2826,27 @@
    "play_brief": "点击消耗『包子』锻造装备，高品质装备一键换装、低品质售卖回收；靠『刷装—换装—推图』循环提升战力，逐步解锁多角色上阵、魂卡/战宠/坐骑等多维养成，从单人闯关过渡到竞技场与跨服玩法。",
    "collected": true
   },
+  "爽到飞起": {
+   "name": "爽到飞起",
+   "slug": "爽到飞起_dd3595",
+   "updated_at": "2026-09-15",
+   "icon": "",
+   "cost_level": "极低",
+   "cost_score": 1.62,
+   "engine": "小游戏引擎（推测 Cocos Creator / LayaAir）",
+   "engine_primary": "Cocos Creator / LayaAir",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "best_rank": 14,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "（推断）单指点击/反应的超休闲循环：控制角色在节奏中吃到目标、避开障碍，单局 1-3 分钟，关卡递增提速；具体机制因公开资料缺失未确认。",
+   "collected": true
+  },
   "狙击外星人": {
    "name": "狙击外星人",
    "slug": "狙击外星人_2b1445",
@@ -2193,6 +2952,48 @@
    "play_brief": "6人选棋手进万象大赛，刷英雄养王牌、用拍卖/天赋/效果牌做随机决策，自走棋自动对战，越玩越上头，单局10-20分钟。",
    "collected": true
   },
+  "王者征途": {
+   "name": "王者征途",
+   "slug": "王者征途_77346d",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/94/92/e19492ef-848c-28b0-8432-92c7ccb5946d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "cost_level": "高",
+   "cost_score": 4.0,
+   "engine": "H5 引擎（巨人自研小程序框架，多端互通）",
+   "engine_primary": "Web/H5",
+   "engine_inferred": false,
+   "dimension": "2.5D（竖版 MMO）",
+   "verdict": "不建议",
+   "boards": [
+    "wx/畅销榜"
+   ],
+   "best_rank": 14,
+   "has_shots": true,
+   "shot_count": 11,
+   "play_brief": "上线领离线挂机收益→推图/扫荡副本拿养成材料→培养五大职业与装备/兽魂/法宝→参与家族战、王城战、国战抢资源；一局推图数十秒到几分钟，长线靠 daily 任务与赛季维持。",
+   "collected": true
+  },
+  "王者舰队": {
+   "name": "王者舰队",
+   "slug": "王者舰队_b52a6e",
+   "updated_at": "2026-09-15",
+   "icon": "",
+   "cost_level": "高",
+   "cost_score": 3.75,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "不建议",
+   "boards": [
+    "wx/畅销榜"
+   ],
+   "best_rank": 9,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "玩家收集并养成数百艘历史战舰（升级/突破/配技能/配舰长），编成 5 艘舰队后进入 5V5 自动战斗，靠阵营羁绊与技能联动取胜，战斗结束产出资源继续养成，单局战斗 1–3 分钟。",
+   "collected": true
+  },
   "王者荣耀": {
    "name": "王者荣耀",
    "slug": "王者荣耀_ccb61d",
@@ -2233,6 +3034,27 @@
    "has_shots": false,
    "shot_count": 0,
    "play_brief": "随机生成身份从宫女起步，通过剧情选择、宫斗博弈、换装与红颜/蓝颜互动逐步提升位分，争夺后宫第一。",
+   "collected": true
+  },
+  "生肖挖挖乐": {
+   "name": "生肖挖挖乐",
+   "slug": "生肖挖挖乐_28add2",
+   "updated_at": "2026-09-15",
+   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/466a57c34461a4e8de1be0e7409b0e43",
+   "cost_level": "极低",
+   "cost_score": 1.75,
+   "engine": "抖音小游戏（推测 Cocos Creator / LayaAir / H5 自研）",
+   "engine_primary": "Cocos Creator / LayaAir",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "best_rank": 20,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "（推测）在场景里点击/滑动挖掘，逐层挖开土层寻找宝藏（钥匙、钻石等），触发振动与土层掉落反馈，单局数十秒到数分钟，主打解压挖掘。",
    "collected": true
   },
   "疯狂水世界": {
@@ -2342,6 +3164,29 @@
    "has_shots": false,
    "shot_count": 0,
    "play_brief": "角色自动挂机战斗获取经验与资源，开宝箱掉落神器碎片合成神器，离线也积累资源，回归一键领取，逐步解锁修仙地图。",
+   "collected": true
+  },
+  "空格之境": {
+   "name": "空格之境",
+   "slug": "空格之境_777ebc",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/14/3a/a5143a7a-02f7-faef-505e-ab91880ff777/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "Cocos Creator",
+   "engine_primary": "Cocos Creator",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "douyin/热门榜",
+    "douyin/畅销榜",
+    "wx/畅销榜"
+   ],
+   "best_rank": 5,
+   "has_shots": true,
+   "shot_count": 11,
+   "play_brief": "拖两个同类素材合成升级产物→双击交付订单换铜钱/锤子→用资源修复织坊建筑、推进探案剧情，一个棋盘格上的二合循环串起短线与长线双留存。",
    "collected": true
   },
   "粒粒的小人国": {
@@ -2473,6 +3318,27 @@
    "has_shots": true,
    "shot_count": 16,
    "play_brief": "选棋牌玩法入局，出牌/抢地主/用英雄技能博弈，赢豆升级；排位赛免豆畅玩，赢荣誉与典藏英雄卡，一局几分钟。",
+   "collected": true
+  },
+  "蓝色星原:旅谣": {
+   "name": "蓝色星原:旅谣",
+   "slug": "蓝色星原_旅谣_204790",
+   "updated_at": "2026-09-15",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/6f/71/8e6f710c-03f5-9a08-870d-ebb5f9ebc221/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "极高",
+   "cost_score": 4.5,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": false,
+   "dimension": "3D",
+   "verdict": "不建议",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "best_rank": 2,
+   "has_shots": true,
+   "shot_count": 11,
+   "play_brief": "在普罗米利亚大世界自由探索→邂逅少女/收集奇波伙伴→实时动作战斗(格挡/闪避/连携)→家园种植建造与社交，长线RPG循环。",
    "collected": true
   },
   "蛋仔派对": {
@@ -2825,7 +3691,7 @@
    "name": "迷雾大陆",
    "slug": "迷雾大陆_2dec3c",
    "updated_at": "2026-09-15",
-   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7de8c71dcf1204dfe58e628458d70da6",
+   "icon": "",
    "cost_level": "中",
    "cost_score": 3.12,
    "engine": "Cocos Creator",
@@ -3009,6 +3875,27 @@
    "has_shots": false,
    "shot_count": 0,
    "play_brief": "赛车没有轮子，玩家用手指在赛道上画出轮子形状，不同地形需不同轮廓的轮子才能顺畅通过，与对手竞速冲线。",
+   "collected": true
+  },
+  "飞行模拟大师": {
+   "name": "飞行模拟大师",
+   "slug": "飞行模拟大师_6b0737",
+   "updated_at": "2026-09-15",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.25,
+   "engine": "Cocos Creator",
+   "engine_primary": "Cocos Creator",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "换肤",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "best_rank": 4,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "操控角色/飞机在立体赛道中多段跳跃滑翔，躲避旋转风车/移动平台等动态障碍，收集金币与道具抵达终点，一局数十秒到一两分钟。",
    "collected": true
   },
   "龙岛异兽起源": {

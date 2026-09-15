@@ -1,0 +1,228 @@
+{
+ "schema_version": 1,
+ "name": "Fish Sort Puzzle",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Shycheese",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 11
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-09-12",
+  "appearances": 3,
+  "best_rank": 9,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "明亮卡通 2D 水族/气泡美术",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "同色三鱼入缸消除 + 暂存区溢出即失败的约束规则，叠加数百关的难度曲线与气泡布局，需要专门关卡设计与数值调校",
+   "server": "纯单机解谜，无联网/排行榜，无需服务端",
+   "art": "明亮水族卡通贴图 + 多鱼种/气泡主题，包体 292MB 含较多序列帧/音效资产",
+   "anim": "鱼游动、气泡上浮与消除演出，常规序列帧 + 粒子，无骨骼动画"
+  },
+  "asset_notes": "2D 卡通水族贴图为主，可用 AI 生图批量产出；292MB 体量说明含较多动画/音效资产，但无 3D，素材层可控。",
+  "notes": "物理消除 + 钓鱼/分类混合玩法的 2D 休闲解谜，技术门槛低。媒体 seller 为 SUPLIFE PTE. LTD.（商店），开发者 Shycheese；有媒体推测背后为武汉多比特（Wool Crush 厂商），未证实，按商店信息为准。引擎未见官方声明，由 2D 休闲推断为 Unity。",
+  "cost_score": 2.38,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "屏幕下方是游动的各种颜色小鱼，玩家点击一条鱼把它送进对应鱼缸；同色集满 3 条即消除，同时需戳破下方气泡腾出空间，清空全场鱼即过关，单局 1–3 分钟。",
+  "highlights": [
+   "点鱼入缸 + 三同色消除 + 气泡清理三重目标叠加，决策紧凑不无聊",
+   "暂存区溢出即失败的紧张感，天然驱动看广告续命",
+   "鱼群游动 + 气泡上浮的轻动态，视觉解压、反馈温和"
+  ],
+  "innovations": [
+   "把传统球类分类（ball sort）换成鱼类 + 气泡消除混合，加入暂存区溢出失败机制，相对纯分类玩法是轻量微创新"
+  ],
+  "target_user": "欧美休闲解谜用户（美区下载榜），偏好低压力、治愈系解谜，女性占比偏高",
+  "monetization": "IAA 为主（强制/激励广告，用户反馈广告偏多）+ 少量 IAP；靠关卡卡点推广告",
+  "lifecycle": "中长线关卡型，靠每周新增关卡与限时活动维持，属休闲长尾"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "分类/消除机制成熟无壁垒，照搬即成立；差异化在题材（鱼类/水族）与气泡玩法包装，属典型换皮赛道，成本低。",
+  "suggestions": [
+   "把鱼换成糖果/宝石/宠物，换主题即新包，复用同一套分类消除逻辑",
+   "把暂存区失败改为合体进化：同类三连进化成高阶生物，接收集线",
+   "加入每日限时解谜排行，把单机接轻社交传播"
+  ],
+  "risks": [
+   "分类消除赛道极度拥挤（Google Play 同类数百款），买量成本高",
+   "用户反馈广告过多易掉评，需平衡变现",
+   "无 IP，但题材撞车风险低"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术），瓶颈在关卡设计与广告位平衡"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/86/39/5986391c-4a07-7794-f2a0-016fbca50e38/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/55/fc/5955fcd9-c6a0-634b-b495-6434ca71e782/6.9_1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/43/45/2b4345fe-2f42-0b5b-98ed-c4c5a0ba9478/6.9_2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/70/f5/3070f548-8924-2902-82e0-69e8cafc1a78/6.9_3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/b7/c0/2db7c0c0-12af-b5f2-ed31-b00489f4201e/6.9_4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/34/7a/d1347acf-6d20-99e9-6d89-60b6bba682b5/6.9_5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/7b/31/c67b315a-f67b-a6ab-f901-f852d86f3504/0x0ss.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/0c/82/200c82c9-0634-e0d8-b87a-693867f6f03e/ipad_1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/84/ce/1784ce92-2ce1-3fb8-b87d-0585eee0d444/ipad_2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/bd/ab/38bdab55-ebd5-5f78-aa91-8e4f3d7be3df/ipad_3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/08/57/c708572f-43fd-9f7d-fc20-ae49a548eb34/ipad_4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/6a/43/1b6a43cb-099f-6063-f7d0-cf338154e602/ipad_5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/c5/f0/2cc5f0c8-0a14-dcea-7df4-8968a3b552e9/0x0ss.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 292MB、2D 水族分类+气泡消除玩法、商店 seller SUPLIFE PTE. LTD.、开发者 Shycheese（来源 iTunes 媒体材料）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Unity（2D 休闲常见选择，未见官方声明）",
+   "level": "inferred"
+  },
+  {
+   "claim": "有媒体推测背后为武汉多比特（Wool Crush 厂商），未证实",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/fish-sort-puzzle-bubble-jam/id6771681639",
+  "https://mwm.ai/apps/fish-sort-puzzle-bubble-jam/6771681639"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 0.91,
+  "match_name": "Fish Sort Puzzle - Bubble Jam",
+  "country": "us",
+  "track_id": 6771681639,
+  "seller": "SUPLIFE PTE. LTD.",
+  "genres": [
+   "Games",
+   "Puzzle",
+   "Casual"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/86/39/5986391c-4a07-7794-f2a0-016fbca50e38/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/55/fc/5955fcd9-c6a0-634b-b495-6434ca71e782/6.9_1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/43/45/2b4345fe-2f42-0b5b-98ed-c4c5a0ba9478/6.9_2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/70/f5/3070f548-8924-2902-82e0-69e8cafc1a78/6.9_3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/b7/c0/2db7c0c0-12af-b5f2-ed31-b00489f4201e/6.9_4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/34/7a/d1347acf-6d20-99e9-6d89-60b6bba682b5/6.9_5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/7b/31/c67b315a-f67b-a6ab-f901-f852d86f3504/0x0ss.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/0c/82/200c82c9-0634-e0d8-b87a-693867f6f03e/ipad_1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/84/ce/1784ce92-2ce1-3fb8-b87d-0585eee0d444/ipad_2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/bd/ab/38bdab55-ebd5-5f78-aa91-8e4f3d7be3df/ipad_3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/08/57/c708572f-43fd-9f7d-fc20-ae49a548eb34/ipad_4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/6a/43/1b6a43cb-099f-6063-f7d0-cf338154e602/ipad_5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/c5/f0/2cc5f0c8-0a14-dcea-7df4-8968a3b552e9/0x0ss.png/626x1112bb.jpg"
+  ],
+  "description": "Dive into an underwater adventure!\nTap the fish and watch them swim into their new homes. Each aquarium displays the number of fish it needs. Collect the required amount of each type to complete the collection!\nClear the bubbles below to make way for new ones from above. Eliminate all the bubbles to advance to the next level.\nKeep an eye on the temporary holding area! Any fish that don’t match the target types will go there. But beware, if it fills up, it’s all over!\nReady to test your skills and sort all the aquatic creatures? Join the fun and see how far you can go!",
+  "release_notes": "Added new levels. Come take on the challenge.\nA new limited-time event has begun. Join to win exclusive rewards.",
+  "file_size_bytes": 292459520,
+  "min_os": "13.0",
+  "version": "1.7",
+  "release_date": "2026-05-27",
+  "rating": 4.84478,
+  "rating_count": 1398,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/fish-sort-puzzle-bubble-jam/id6771681639?uo=4",
+  "fetched_at": "2026-09-15T21:49:02+08:00"
+ },
+ "slug": "Fish_Sort_Puzzle_20dc64"
+}

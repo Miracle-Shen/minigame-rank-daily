@@ -1,0 +1,112 @@
+{
+ "schema_version": 1,
+ "name": "Fish Sort Puzzle:フィッシュソート泡を消そう",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Shycheese",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 19
+  },
+  "platform_app_ids": {
+   "ios": "6771681639"
+  },
+  "first_seen": "2026-09-15",
+  "appearances": 1,
+  "best_rank": 19,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "2D 卡通鱼群 + 气泡 + 水族箱",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 3,
+   "physics": 2,
+   "logic": 3,
+   "data": 3,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "彩色卡通鱼/气泡/水族箱主题，包体约 160–264MB，需成体系关卡美术",
+   "logic": "三消收集 + 订单系统 + 有限空间规划 + 限时，关卡编排是主要工作量",
+   "physics": "气泡漂浮与入缸的轻量弹性/缓动反馈，非刚体物理",
+   "engine": "基于 Unity 成熟消除/排序模板，框架成本中等"
+  },
+  "asset_notes": "2D 卡通水族素材可程序化+AI 生图批量产出；无 3D 资产，素材层非瓶颈",
+  "notes": "与 Fish Sort Puzzle（美区/全球版，Shycheese）为同一产品的地区版本；技术栈按同一产品给，不臆造差异。本作是‘match-3 + 排序/收纳’的混合解压品类。",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "海洋生物困在气泡里，点击把三个相同生物移入有限空间收集，完成订单扩张水族箱；空间满则卡住，需在棋盘填满前规划路径，单局 1–3 分钟。",
+  "highlights": [
+   "三连收集的即时消除反馈 + 水族箱逐渐填满的‘收集欲’满足",
+   "有限空间 + 限时制造轻策略张力，比纯三消多一点规划爽感",
+   "新物种解锁驱动‘图鉴收集’长线目标"
+  ],
+  "innovations": [
+   "把经典三消与‘排序/收纳（sort）’结合，用‘收集进鱼缸’替代棋盘消除，包装出水族主题差异"
+  ],
+  "target_user": "全年龄解压/收集向休闲用户",
+  "monetization": "混合（IAP 去广告/道具 + 广告），约 73% IAP / 27% 广告",
+  "lifecycle": "长线运营，靠新物种与关卡更新维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "三消+排序机制通用、无壁垒，瓶颈在题材与美术；复刻成本中等偏低。但 sort/match 赛道饱和，需靠题材差异突围。",
+  "suggestions": [
+   "换主题为‘萌宠收容所’‘糖果罐收集’，保留三连+收纳核心",
+   "加入‘限时救援’关卡增强抖音传播点"
+  ],
+  "risks": [
+   "match/sort 品类极度饱和，买量成本高",
+   "日区本地化与合规门槛"
+  ],
+  "effort": "25–40 人日（1–2 前端 Unity + 1 美术 + 0.5 策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "引擎为 Unity（全球版 SDK 检测含 Unity/JetBrains）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体约 160–264MB，属中等 2D 素材量",
+   "level": "confirmed"
+  },
+  {
+   "claim": "日区名为全球版 Fish Sort Puzzle 的地区版本",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://appgoblin.info/apps/triple.sorting.bubble.fish.match",
+  "https://developers.appbrain.com/app/fish-sort-puzzle-fish-games/triple.sorting.bubble.fish.match"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T21:49:52+08:00"
+ },
+ "slug": "Fish_Sort_Puzzle_フィッシュソート泡を消そう_caa61a"
+}

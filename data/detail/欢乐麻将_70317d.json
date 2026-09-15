@@ -1,0 +1,217 @@
+{
+ "schema_version": 1,
+ "name": "欢乐麻将",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "深圳市腾讯计算机系统有限公司",
+  "category_l1": "棋牌",
+  "category_l2": "牌类",
+  "boards": [
+   "wx/人气榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 17
+  },
+  "platform_app_ids": {
+   "wx": "wx375c80123d32f83f"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 61,
+  "best_rank": 10,
+  "profile_value": "abandoned",
+  "profile_abandoned": true,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": "深圳市腾讯计算机系统有限公司"
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断，腾讯 3D 手游常见选择；官方未公开确认）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "3D 麻将牌/牌桌/场景 + 限定外观套装与雀境",
+  "dims": {
+   "engine": 3,
+   "art": 5,
+   "anim": 4,
+   "physics": 2,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "775MB 包体（>600MB 很重），含 136 张 3D 牌模、数十套场景与限定雀境套装、骨骼动画，美术资产量极大",
+   "logic": "需实现四川换三张/广东/武汉/长沙等十余种地方规则与番型判定，规则引擎复杂",
+   "physics": "3D 牌的摆放/翻牌为变换动画，无刚体物理，手感靠动画调校",
+   "server": "真人实时对战、组队 2v2、强联网社交，服务端与网络同步成本高"
+  },
+  "asset_notes": "3D 牌模与场景资源量极大（775MB），美术是主要成本；规则可用配置数据驱动降低重复开发",
+  "notes": "技术框架可用 Unity 搭，真正壁垒是地方规则完备度、实时联网与腾讯社交关系链",
+  "cost_score": 4.0,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "进入一桌麻将，按地方规则摸牌/出牌/碰杠胡，与真人实时对战；段位赛/好友约战/组队 2v2，一局数分钟到数十分钟。",
+  "highlights": [
+   "真人对战的不可预测性与心理博弈",
+   "组队 2v2 配合与好友约战的社交爽点",
+   "限定外观套装/雀境的收集与炫耀",
+   "段位赛季的上分目标驱动"
+  ],
+  "innovations": [
+   "无实质玩法创新，属成熟棋牌品类的执行与社交优化（百变斗牌/四龙麻将为微变体）"
+  ],
+  "target_user": "全年龄棋牌用户，三四线下沉市场占比高",
+  "monetization": "IAA（激励视频）+ IAP（钻石/外观套装/赛事），棋牌典型混合变现",
+  "lifecycle": "长线运营，依赖社交关系链与赛季内容"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "麻将规则属公共领域可复刻，但欢乐麻将背靠腾讯 QQ/微信社交关系链与 5 亿用户资产，且棋牌类版号审核极严、涉赌合规风险高；实时联网与多地方规则实现成本高，新入场者无社交与合规优势。",
+  "suggestions": [
+   "若坚持，先做单一地方规则（如仅广东推倒胡）降低规则与合规面",
+   "用 AI 生成牌局复盘替代社交关系链缺口",
+   "规避现金/币商，纯娱乐计分降低涉赌风险"
+  ],
+  "risks": [
+   "棋牌类版号极难获取、文化合规与涉赌审查风险",
+   "无社交关系链导致留存远低于腾讯系",
+   "腾讯 IP 与商标壁垒"
+  ],
+  "effort": "60–90 人日（2 前端 + 1 后端 + 1.5 美术）含实时联网，不含多规则与合规"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/e5/b4/17e5b478-5943-cdc8-78c7-a621af4c2fb8/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/74/b5/64/74b564b4-f5d8-0446-35b9-f9f9802b6565/20260907155036-e00fa380-3e04-4e3c-b1cd-aa496344f7be-b74571f02fae747432765138ed8bbf4aa5a062c1-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/f1/90/07f19057-6249-7bbf-3ace-70c5dac22840/20260907155042-e00fa380-3e04-4e3c-b1cd-aa496344f7be-31f57b5fbf515cfd4e589691f4a4a1fa98c8d917-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/b2/ca/95b2ca88-4386-99fb-4573-0f46778fed74/20260907155048-e00fa380-3e04-4e3c-b1cd-aa496344f7be-bddf6089a1389888fcc69733895ba6cb116faf9a-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/eb/b6/6debb673-3a9c-c6ed-fd06-bb3c006d970e/20260907155054-e00fa380-3e04-4e3c-b1cd-aa496344f7be-e3fa54b7d21bf6f3819b71f166d83800d1c2dac5-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/9c/c6/fd9cc657-c5cf-84c2-d2e7-0d4e78b320cc/20260907155100-e00fa380-3e04-4e3c-b1cd-aa496344f7be-049f4a69c5c941925a54c1b1b405244017a7ea40-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/7f/d4/597fd44e-536b-aec9-93ad-4901b3dd3eec/20260907155037-cd03f7de-2312-4365-9445-9eff1f812f72-b686e9ae18b73d168cbd769da6403f0cceb97437-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/ab/3a/ceab3af8-16ec-1dc0-3a26-4d1c42f26106/20260907155043-cd03f7de-2312-4365-9445-9eff1f812f72-fabfad57572185f7b50c6bf023d4e84c31983255-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/d4/fe/a7d4fe33-a93f-50c2-679b-2deab4595317/20260907155049-cd03f7de-2312-4365-9445-9eff1f812f72-9736bdf4efe9e106b256d190192ef0c27cb53e1f-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/50/30/a15030e2-1c29-bb30-736b-4175cec81198/20260907155055-cd03f7de-2312-4365-9445-9eff1f812f72-90be99c37ebaca76726520ffef75c4d1f8237e20-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/48/46/77484605-8e38-14e8-b44c-b00792fe67c6/20260907155102-cd03f7de-2312-4365-9445-9eff1f812f72-bacf6e6a3a81b4c1e1824115d640b371371c3c30-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "官方称「腾讯首款经典 3D 免费麻将游戏」，包体 775MB",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Unity（腾讯 3D 手游常用，无官方确认）",
+   "level": "inferred"
+  },
+  {
+   "claim": "含十余种地方麻将规则与番型判定",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%AC%A2%E4%B9%90%E9%BA%BB%E5%B0%86/id689180123?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "欢乐麻将",
+  "country": "cn",
+  "track_id": 689180123,
+  "seller": "Shenzhen Tencent Computer Systems Company Limited",
+  "genres": [
+   "游戏",
+   "桌面",
+   "卡牌",
+   "娱乐"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/e5/b4/17e5b478-5943-cdc8-78c7-a621af4c2fb8/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/74/b5/64/74b564b4-f5d8-0446-35b9-f9f9802b6565/20260907155036-e00fa380-3e04-4e3c-b1cd-aa496344f7be-b74571f02fae747432765138ed8bbf4aa5a062c1-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/f1/90/07f19057-6249-7bbf-3ace-70c5dac22840/20260907155042-e00fa380-3e04-4e3c-b1cd-aa496344f7be-31f57b5fbf515cfd4e589691f4a4a1fa98c8d917-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/b2/ca/95b2ca88-4386-99fb-4573-0f46778fed74/20260907155048-e00fa380-3e04-4e3c-b1cd-aa496344f7be-bddf6089a1389888fcc69733895ba6cb116faf9a-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/eb/b6/6debb673-3a9c-c6ed-fd06-bb3c006d970e/20260907155054-e00fa380-3e04-4e3c-b1cd-aa496344f7be-e3fa54b7d21bf6f3819b71f166d83800d1c2dac5-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/9c/c6/fd9cc657-c5cf-84c2-d2e7-0d4e78b320cc/20260907155100-e00fa380-3e04-4e3c-b1cd-aa496344f7be-049f4a69c5c941925a54c1b1b405244017a7ea40-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/7f/d4/597fd44e-536b-aec9-93ad-4901b3dd3eec/20260907155037-cd03f7de-2312-4365-9445-9eff1f812f72-b686e9ae18b73d168cbd769da6403f0cceb97437-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/ab/3a/ceab3af8-16ec-1dc0-3a26-4d1c42f26106/20260907155043-cd03f7de-2312-4365-9445-9eff1f812f72-fabfad57572185f7b50c6bf023d4e84c31983255-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/d4/fe/a7d4fe33-a93f-50c2-679b-2deab4595317/20260907155049-cd03f7de-2312-4365-9445-9eff1f812f72-9736bdf4efe9e106b256d190192ef0c27cb53e1f-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/50/30/a15030e2-1c29-bb30-736b-4175cec81198/20260907155055-cd03f7de-2312-4365-9445-9eff1f812f72-90be99c37ebaca76726520ffef75c4d1f8237e20-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/48/46/77484605-8e38-14e8-b44c-b00792fe67c6/20260907155102-cd03f7de-2312-4365-9445-9eff1f812f72-bacf6e6a3a81b4c1e1824115d640b371371c3c30-1.jpg/626x1112bb.jpg"
+  ],
+  "description": "《欢乐麻将全集》是腾讯首款经典3D免费麻将游戏！5亿用户都在玩的麻将全集游戏，真人实时对战，地方玩法应有尽有。\n\n【各地玩法 全民搓麻】\n覆盖全国所有地方麻将玩法，各地玩法一应俱全！\n刺激四川麻将换三张，地道广东麻将，休闲娱乐大众麻将，推倒胡、卡五星、武汉麻将、长沙麻将、贵阳捉鸡、杭州麻将等，各地玩法应有尽有！\n\n【组队PK  好友约战】\n和好友一起组队2v2，迅速邀约好友开局，好友助力配合搓麻，让你轻松躺赢！\n\n【甄稀外观 限量发售】\n极品套装、绝美雀境华丽上架，更有限时免费赠送活动，引领精美搓麻风潮，辅助排位上分做全场最闪耀雀神！\n\n【竞技段位争霸】\n麻将段位新赛季，与全球5亿玩家一起切磋牌技！\n至尊雀神，等你来战！\n\n【全新玩法 刺激翻倍】\n创新玩法百变斗牌、四龙麻将火热上线。番型更多样，成牌更轻松，助你畅爽搓麻，刺激翻倍！\n\n【特别声明】\n在本款《欢乐麻将全集》中，用户登录时可以选择“与QQ好友玩/与微信好友玩/游客登录”，三种登录方式在iOS设备上的数据不互通。用户在游戏中购买的游戏代币“钻石”仅限于在本应用中使用，腾讯的虚拟货币, 比如Q币，Q点都无法在游戏内使用，特此说明。",
+  "release_notes": "欢乐麻将节启动！\n本次更新内容：\n1、【麻将节】9月8日欢乐来袭，登录礼、主题站轻松参与，海量豆子、永久服饰等你来领！\n2、【角色上桌】红中血流、大众麻将、大众胡到底三大玩法新增角色上桌模式，沉浸视角带来全新体验！\n3、【百变斗牌】9月中旬更新，新增摸牌秘宝，内容更丰富，随心所欲做大牌。\n4、【红中血流】9月下旬更新，强化防作弊，更公平竞技；2v2模式带来更多配合空间。\n5、【至臻套装】绝世九尾套装登场，免费复活天赋和魅惑吸分技能，美美上分！\n6、【全新雀牌】赛博矩阵闪耀登场，首款牌面和牌背一体化麻将子，帅翻全场！",
+  "file_size_bytes": 812593152,
+  "min_os": "13.0",
+  "version": "8.19.112",
+  "release_date": "2013-10-25",
+  "rating": 4.76478,
+  "rating_count": 1934381,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E6%AC%A2%E4%B9%90%E9%BA%BB%E5%B0%86/id689180123?uo=4",
+  "fetched_at": "2026-09-15T21:49:10+08:00"
+ },
+ "slug": "欢乐麻将_70317d"
+}

@@ -1,548 +1,75 @@
 {
  "batch": 2,
- "total_batches": 9,
+ "total_batches": 7,
  "spec": "scripts/detail/RESEARCH_SPEC.md",
  "output": "data/detail/_staging/batch_2.json",
  "games": [
   {
-   "name": "解压闯一关",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 13,
-    "wx/畅玩榜": 6
-   },
-   "category_l1": "休闲",
-   "category_l2": "益智",
-   "publisher": "广州探游网络科技有限公司",
-   "first_seen": "2026-08-02",
-   "appearances": 37,
-   "best_rank": 4,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:35:28+08:00"
-   }
-  },
-  {
-   "name": "贪吃蛇大作战",
-   "boards": [
-    "douyin/热门榜",
-    "wx/人气榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 17,
-    "douyin/热门榜": 15
-   },
-   "category_l1": "1",
-   "category_l2": "益智",
-   "publisher": "武汉微派网络科技有限公司",
-   "first_seen": "2026-06-29",
-   "appearances": 67,
-   "best_rank": 4,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "贪吃蛇大作战®",
-    "country": "cn",
-    "track_id": 1120536875,
-    "seller": "Wuhan Weipai Network Technology Co., Ltd.",
-    "genres": [
-     "游戏",
-     "冒险",
-     "体育",
-     "动作"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/13/26/9c132636-f737-40dd-9c87-fef41d1888b2/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/ff/7d/abff7db5-38d5-0a7b-00ee-15dee568b60b/_U753b_U677f_1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/c2/e1/00c2e1d1-40af-737f-338f-ac730787b166/02.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/5e/db/ee5edb10-d732-eb97-26f0-fbb4c83d076f/20251027-170730.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/a0/8e/a7a08e88-bf11-40de-a23f-01660d6761b6/04.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/f7/be/e7f7be79-5d20-6be7-fa0b-27d41b9fd5b7/05.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/fb/d1/99fbd145-101b-9c82-c403-676d60a1a28b/1_2752x2064.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/95/5d/38955db8-e982-68b7-cabe-8678622915f2/2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/76/a4/bc76a4d6-5d87-be89-f4fb-ee91207e992b/3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/e8/a5/3be8a574-6d3f-9874-486b-3904f233df3f/4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2f/95/5d/2f955d4e-67ac-93bb-05d4-6cd87b42bb94/5.jpg/626x1112bb.jpg"
-    ],
-    "description": "这是一款超好玩的休闲竞技游戏，不仅比拼手速，更考验你的策略！在贪吃蛇大作战的世界中，每个人在初始都化身为一条小蛇，通过不断努力变得越来越长，最终制霸一方！\n\n游戏玩法\n1.控制摇杆走位你的小蛇，吃掉地图上彩色的小圆点，就会变长。\n2.小心！蛇头碰到其他贪吃蛇就会死亡，并且产生大量小圆点。\n3.长按加速键，用巧妙的走位让蛇身被别人撞上，就可以吃掉尸体迅速变长。\n4.无尽模式or限时模式or团战模式，和小伙伴们比比谁更长吧！\n\n游戏特色\n【以小搏大，战局随时都会逆袭】\n你长你厉害，我短我灵活！大蛇不再有统治性的地位，小蛇们更灵活，战局随时都有可能逆转！\n\n【简单有趣，老少皆宜的全民游戏】\n不管是什么年龄、什么性别、什么职业，只要简单的在屏幕上戳戳戳，就能在贪吃蛇大作战找到满满的乐趣！\n\n【战斗技巧，老司机教你几招】\n急速超车拦截蛇头、急停甩头抢道、180度华丽飘逸、画个圈圈诅咒你…这些都是战斗技巧！\n谁说贪吃蛇大作战只靠手速？策略也很重要，当然如果你恰好单身又练过手速 —— 完美！\n\n【这个游戏有毒，根本停不下来】\n超Q超萌画风，一局一局像中毒了一样，根本停不下来，哈哈哈哈哈！\n\n如果你喜欢贪吃蛇大作战，欢迎随时给我们留下宝贵的意见，推荐给好友一起来玩哦~\n\n贪吃蛇大作战官方QQ群：\n贪吃蛇大作战快乐基地1：818547971\n贪吃蛇大作战快乐基地2：527092013\n\n\n更多资讯，请关注微信公众号【贪吃蛇大作战】，获取免费金币、贪吃攻略！\n\n贪吃蛇大作战会员连续包月服务说明：\n1、贪吃蛇大作战会员连续包月服务有以下俩种订购类型：\n13元/连续包月小礼包\n35元/连续包月超值礼包\n2、订购贪吃蛇大作战会员服务会通过iTunes 账户直接支付\n3、在订购服务到期前 24小时，系统将按订购类型\n进行自动续订和扣除相应费用。\n4、如需要关闭连续包月服务，请至少提前 24小时\n在“账号设置”中进行操作。\n5、隐私政策及用户使用条款：\n隐私协议：http://www.tcsdzz.com/policies_detail_official.html\n用户服务协议：https://www.tcsdzz.com/user_agreement/official.html",
-    "release_notes": "本周活动更新\n亲爱的蛇宝们～本周活动预告准时送达！快来和蛇蛇一起看看吧～\n功能优化\n新增聊天频道消息被误拦可「点此反馈」功能；\n长按本人发送的聊天消息可一键复制，口令码分享更方便；\n优化了恭喜获得弹窗的奖励数字展示\n\n活动更新\n【9月3日】蛇蛇地区榜\n  蛇蛇地区榜震撼来袭！玩无尽，皮肤等超值好礼等你赢~\n【9月3日】咪咪喵喵\n  超值通行证来袭！仅需12元即可解锁进阶奖励线，专属B级皮肤「尖尖角猫」、大量苹果通通带走！性价比超高，千万别错过哦～\n【9月3日】充值1.7倍\n  苹果充返福利来啦！活动期间充值苹果即享1.7倍返利，超值返利机会不容错过！快来囤苹果吧～\n【9月3日】累充赢SS\n活动期间，完成指定的累计充值，即可解锁SS级限定礼物、更有全新S级限定礼物、限定头像框等丰厚奖励等你获取！快来充值赢取你的专属豪礼吧~\n【9月3日】蛇宝存钱罐\n消耗苹果拿返利~花的越多，存的越多，送的越多\n【9月3日】泼墨游影\n  金鳞之主·墨染皮肤降临~参与抽奖仅需1元，即可有机会赢取SS级皮肤「金鳞之主·墨染」及多重稀有奖励！快来试试你的好运吧！\n【9月3日】一起来跳科目三\n  超强升星福利来袭，完成任务即领升星加速卡，一起轻松升星到王者！蛇宝们冲呀~\n【9月3日】极速对决+完美邂逅\n极速对决&完美邂逅一起来啦！参与PK获胜17场即可领取S级限定礼物，送出指定礼物还可累计“走步数”活动进度哦！\n【9月3日】处女座之愿\n星座主题“处女座之愿”通行证来啦~全新SSS皮肤惊艳登场！豪华版加赠专属S头像框、S主页挂件，一起聆听星座的召唤吧~\n【9月3日】【锻造工坊】\n“锻造工坊”重磅回归！蛇宝们可以通过放入两枚戒指进行锻造，还有大量神秘奖励等你来拿哦！",
-    "file_size_bytes": 1302130688,
-    "min_os": "13.0",
-    "version": "5.44.5",
-    "release_date": "2016-06-08",
-    "rating": 4.51231,
-    "rating_count": 2049195,
-    "price": "免费",
-    "advisory": "12+",
-    "url": "https://apps.apple.com/cn/app/%E8%B4%AA%E5%90%83%E8%9B%87%E5%A4%A7%E4%BD%9C%E6%88%98/id1120536875?uo=4",
-    "fetched_at": "2026-09-15T00:35:30+08:00"
-   }
-  },
-  {
-   "name": "永远的蔚蓝星球",
-   "boards": [
-    "douyin/畅销榜",
-    "wx/畅销榜"
-   ],
-   "ranks": {
-    "wx/畅销榜": 7,
-    "douyin/畅销榜": 17
-   },
-   "category_l1": "1",
-   "category_l2": "塔防",
-   "publisher": "广州颂悦信息技术有限公司",
-   "first_seen": "2026-06-29",
-   "appearances": 71,
-   "best_rank": 4,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:35:33+08:00"
-   }
-  },
-  {
-   "name": "看谁先上车",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 5,
-    "wx/畅玩榜": 16
-   },
-   "category_l1": "休闲",
-   "category_l2": "益智",
-   "publisher": "长沙四五互娱网络科技有限公司",
-   "first_seen": "2026-08-22",
-   "appearances": 16,
-   "best_rank": 5,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:35:36+08:00"
-   }
-  },
-  {
-   "name": "解压打毛线",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 18,
-    "wx/畅玩榜": 5
-   },
-   "category_l1": "休闲",
-   "category_l2": "益智",
-   "publisher": "广州池骋网络科技有限公司",
-   "first_seen": "2026-08-10",
-   "appearances": 27,
-   "best_rank": 5,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:35:40+08:00"
-   }
-  },
-  {
-   "name": "Bus Fever Party!",
-   "boards": [
-    "ios/日区免费榜",
-    "ios/美区免费榜"
-   ],
-   "ranks": {
-    "ios/美区免费榜": 10,
-    "ios/日区免费榜": 6
-   },
-   "category_l1": "Games",
-   "category_l2": "",
-   "publisher": "Lumi Games",
-   "first_seen": "2026-09-04",
-   "appearances": 10,
-   "best_rank": 5,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "Bus Fever Party!",
-    "country": "us",
-    "track_id": 6746743297,
-    "seller": "Faith Mobile Limited",
-    "genres": [
-     "Games",
-     "Puzzle",
-     "Casual"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/20/4a/88204a17-8942-3a71-df34-96dfc698e48d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/b6/d4/22b6d48d-b982-a0fa-f5a6-a5e955d0549f/_U753b_U677f_1.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/b8/d6/eeb8d6d0-dee7-d87b-6690-c6ad1bfca908/_U753b_U677f_2.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/32/17/793217ec-ed36-39fd-b116-2907da00b432/_U753b_U677f_3.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/e5/84/71e584e3-6e90-7550-c87b-58e233916db9/_U753b_U677f_4.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0c/3f/d4/0c3fd4f8-7ba1-5e62-7e3b-74d003c6d66d/_U753b_U677f_5.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/63/02/aa6302ed-682c-0725-569a-3b091b51ec6d/_U753b_U677f_1.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/37/ca/1137cac9-ebbc-7797-41c8-96fe3c1e66a3/_U753b_U677f_2.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/d5/83/53d583e7-b752-1a70-8832-842c4b00027a/_U753b_U677f_3.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/f4/a3/59f4a3de-e905-cc80-74fe-7483e2faae42/_U753b_U677f_4.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/43/e6/44/43e6441b-d8b5-cab5-6e22-dc68a0ca89a4/_U753b_U677f_5.png/626x1112bb.jpg"
-    ],
-    "description": "Get ready for a thrilling bus escape game adventure!\nTackle the challenging traffic jams, escape tricky parking spots, and master every level in this addictive bus escape traffic jam puzzle. Can you sort, match, and park every bus to clear the road and become the city's bus fever driving master?\n\nHow to Play\n• Tap and move buses to open up space in your bus fever adventure.\n• Match passengers to the right buses by colors.\n• Efficiently park each bus, avoid obstacles, and keep traffic flowing.\n\nUse your brainpower to solve unique bus escape puzzles that combine logic, strategy, and fun!\n\nGame Features:\n• Fun and engaging bus game with loads of traffic jam puzzles.\n• Hundreds of bus fever puzzles to challenge your mind.\n• Addictive parking, sorting and matching gameplay—easy to play, tough to master.\n• Exciting boosters help you clear traffic jam and escape faster.\n• Bright visuals and satisfying bus fever mechanics.\n• Play offline anytime, anywhere—your exciting bus fever traffic jam puzzle adventure goes with you!\n\nWhether you're a fan of classic bus games, love solving traffic jams, or seek special bus escape challenges, this puzzle has it all. Sharpen your skills sorting, matching, and parking to become the ultimate traffic jam master!\n\nDownload now and see if you can solve every bus jam, escape every parking trap, and match your way to bus fever success!\n\nCustomer Service Contact Tel: +86-17812725345\nEmail: lumigamesteam@outlook.com\nPrivacy Policy: https://sites.google.com/view/ios-pp-lumigame/\nEnd User License Agreement: https://sites.google.com/view/eula-of-faithmobilelimited/",
-    "release_notes": "1.Bug fixes \n2.performance improvements",
-    "file_size_bytes": 466286592,
-    "min_os": "15.0",
-    "version": "1.2.6",
-    "release_date": "2025-06-13",
-    "rating": 4.69173,
-    "rating_count": 4003,
-    "price": "Free",
-    "advisory": "4+",
-    "url": "https://apps.apple.com/us/app/bus-fever-party/id6746743297?uo=4",
-    "fetched_at": "2026-09-15T00:35:42+08:00"
-   }
-  },
-  {
-   "name": "肥鹅美食街",
-   "boards": [
-    "douyin/热门榜",
-    "douyin/畅销榜"
-   ],
-   "ranks": {
-    "douyin/热门榜": 10,
-    "douyin/畅销榜": 15
-   },
-   "category_l1": "1",
-   "category_l2": "",
-   "publisher": "北京豪腾创想科技有限公司",
-   "first_seen": "2026-06-30",
-   "appearances": 71,
-   "best_rank": 6,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "肥鹅美食街",
-    "country": "cn",
-    "track_id": 6758614459,
-    "seller": "Beijing Haotengchuangxiang Technology Co., Ltd.",
-    "genres": [
-     "游戏",
-     "模拟",
-     "休闲"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/c2/a5/e1c2a525-1446-2715-7c52-bf7675cb9e3e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/21/2b/fd212b9b-6aea-33dc-ce82-02f36a46fd4c/1284x2778-0__U62f7_U8d1d.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/d1/b0/4bd1b0d3-09bb-37ad-3eda-df58ddf2efff/1284x2778-1__U62f7_U8d1d.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/d1/4f/74d14fbd-5728-3745-3a7d-7a48cae2ece4/1284x2778-2__U62f7_U8d1d.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d5/fa/4e/d5fa4efd-d823-c6ad-ba89-36810d4cb83a/1284x2778-4__U62f7_U8d1d.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/3c/c1/103cc1a9-0b20-2cfd-1fbd-41ea9e05b93e/1284x2778-3__U62f7_U8d1d.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/ea/cd/69eacd26-a522-95c9-63f9-ccf4e4ae3141/1284x2778-5_Uff08_U7b80_U4f53_Uff09.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/23/a0/35/23a035df-80dd-0370-cf62-c7e6b0ea1ac9/2064x2752-0__U62f7_U8d1d.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/af/bf/4d/afbf4de4-fee0-15ed-f713-4a66d2e23ad8/2064x2752-1__U62f7_U8d1d.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/a4/0c/3ca40cc4-1d6e-26be-a9c5-1f1328faa1b9/2064x2752-2__U62f7_U8d1d.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/6a/f0/7b6af007-e703-e166-2f39-7f23d13e5cf8/2064x2752-4__U62f7_U8d1d.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/5e/8d/d95e8d10-81e2-bfc2-353d-3b88f8b77927/2064x2752-3__U62f7_U8d1d.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/31/4b/df314b4f-cb9e-0a4e-1b0f-2fa559c8735c/2064x2752-5_Uff08_U7b80_U4f53_Uff09.jpg/626x1112bb.jpg"
-    ],
-    "description": "解谜合成，合成高级食材，提高烹饪技巧，探索缤纷菜谱；\n经营小店，邂逅各种Q萌可爱的肥鹅客人，聆听它们的故事；\n治愈画风，沉浸式烹饪体验，鹅来鹅往，打造热闹的市井氛围！\n\n探索解谜合成：\n这是一次刺激味蕾、解压治愈、具有探索性的合成体验！\n食材与食材之间的搭配多种多样，改变食材与厨具的组合，合成探索高级食材，将会产生不同的菜肴！\n按照你的心意，烹饪出热气腾腾、让人食指大动的美味吧！\n\n深度烹饪机制：\n构建了层次丰富的料理生态系统，通过不同食材和厨具的结合，探索，赋予烹饪更多可能性！\nQ弹爽滑的虾饺？鲜香四溢的海鲜浓汤？还是刚出炉的酥脆面包？无数缤纷食谱等你来解锁哦！\n\n经营特色小店：\n这不仅仅是一条普通的美食街，更是微观的肥鹅小天地！\n服务客人，获得金币，建造你的美食街。各种各样的美食小店，将会吸引更多的肥鹅客人。\n\n浓郁的市井人情氛围：\n在炊烟萦绕中，熙熙攘攘的食客中，聆听客人的往事与烦恼。\n工作烦恼？升学忧虑？和朋友闹别扭？还是一个隐藏许久的秘密……\n你用美食治愈肥鹅，而肥鹅用可爱抚慰你的心。",
-    "release_notes": "1.修复一些问题\n2.优化游戏体验",
-    "file_size_bytes": 228818944,
-    "min_os": "10.0",
-    "version": "1.5.7",
-    "release_date": "2026-06-01",
-    "rating": 4.4953,
-    "rating_count": 24688,
-    "price": "免费",
-    "advisory": "9+",
-    "url": "https://apps.apple.com/cn/app/%E8%82%A5%E9%B9%85%E7%BE%8E%E9%A3%9F%E8%A1%97/id6758614459?uo=4",
-    "fetched_at": "2026-09-15T00:35:44+08:00"
-   }
-  },
-  {
-   "name": "Colony Flow!",
-   "boards": [
-    "ios/日区免费榜",
-    "ios/美区免费榜"
-   ],
-   "ranks": {
-    "ios/美区免费榜": 11,
-    "ios/日区免费榜": 18
-   },
-   "category_l1": "Games",
-   "category_l2": "",
-   "publisher": "ABI GLOBAL LTD.",
-   "first_seen": "2026-08-21",
-   "appearances": 21,
-   "best_rank": 10,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "Colony Flow!",
-    "country": "us",
-    "track_id": 6779167923,
-    "seller": "ABI GLOBAL LTD.",
-    "genres": [
-     "Games",
-     "Puzzle"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/f3/b2/f5f3b2df-fe85-cd62-53da-9ca8546b56d6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/46/be/9d46be17-ffb6-332b-6a4f-b67277739520/7.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/e4/d0/1be4d051-00c8-8a4a-8b22-77bd904c6b95/9.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/ca/20/58ca2060-ff6e-8c65-70ba-b14859533e6d/ss1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/ad/3b/a5ad3b15-84ec-e560-2561-4195bf7abb47/2.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/08/4b/c1084b3d-d287-6f55-de3f-394c12e6bac7/ss5.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a8/ad/35/a8ad35ab-d410-49d5-4db7-9cd7f6ca4067/8.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/3e/14/aa3e1457-ce12-1caa-1145-9e048bfa112b/ss3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/2b/3f/972b3fa2-4f95-ce98-3a83-5bfe689ec8ff/7.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/c3/92/f4c39236-66b8-7788-e3f8-4f26c914fe43/9.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/a7/e6/1fa7e613-d9ec-af95-c40f-7a7a6f52b1dd/ss1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/c3/9a/bdc39acd-6f32-5408-02e6-d41e32120fd8/2.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/03/42/300342cc-eef3-8e93-b65d-947913879865/ss5.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/7e/5d/317e5deb-2f23-2058-6c1a-53a6ee22c0f8/8.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/79/1a/23791aa1-deff-591b-272c-1564b439fd41/ss3.jpg/626x1112bb.jpg"
-    ],
-    "description": "Welcome to Colony Flow — a relaxing ant colony puzzle where every tiny ant has a job to do! Tap a box, watch the workers pour out, and send them marching up to the pixel picture to carry colorful blocks back to the nest, one busy trip at a time.\n\nEach level gives you a stack of ant boxes and just five open slots. Tap a box and it slides into a slot, releasing a swarm of ants in that color — they'll haul away every matching block in the picture. Clear a box and the slot frees up for the next one.\n\nThat's where the thinking starts. Open a color that has nothing left to carry and that slot stays clogged. Fill all five and your colony grinds to a halt. Read the picture, count what's left, and choose your boxes in the right order to keep the ants flowing.\n\nCOMMAND YOUR COLONY\n\n- Tap a box to send its ants marching\n- Watch workers haul matching blocks back to the nest\n- Manage your five slots — don't let them clog\n- Unlock the boxes buried further down the stack\n- Clear every block to finish the puzzle\n\nEASY TO LEARN, SATISFYING TO SOLVE\n\n- One-tap controls — start playing in seconds\n- Puzzles that grow from cozy to genuinely clever\n- No timers, no lives, no pressure — take as long as you like\n- Watch trails of ants stream across the board as your plan pays off\n- Every solved board reveals the picture hiding underneath\n\nDISCOVER PIXEL ART\nComplete hundreds of colorful levels with themes like animals, fruit, food, flowers, nature, festivals, toys, rockets, castles, and plenty more surprises. Every puzzle you finish adds another piece of pixel art to your collection, so there's always one more picture waiting to be uncovered.\n\nWith adorable ants, satisfying animations, soothing music, and no time pressure, Colony Flow is easy to pick up and gentle to play — the kind of game that fits into a coffee break, a commute, or a quiet evening on the couch. But clearing every level will take some clever planning.\n\nTap the right boxes, guide your ants, clear the blocks, and uncover beautiful pixel art. Your colony is waiting!",
-    "release_notes": "- New Features & Bundles: Introduced the Halloween Treat Collection, along with the new Labor Day Pack.\n- Performance Enhancements: Optimized frame rates and loading times for a significantly smoother experience.\n- Bug Fixes: Resolved reported issues and strengthened overall build stability.",
-    "file_size_bytes": 451383296,
-    "min_os": "15.0",
-    "version": "1.1.45",
-    "release_date": "2026-06-13",
-    "rating": 4.66946,
-    "rating_count": 17662,
-    "price": "Free",
-    "advisory": "4+",
-    "url": "https://apps.apple.com/us/app/colony-flow/id6779167923?uo=4",
-    "fetched_at": "2026-09-15T00:35:47+08:00"
-   }
-  },
-  {
-   "name": "找个儿不同",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 16,
-    "wx/畅玩榜": 19
-   },
-   "category_l1": "休闲",
-   "category_l2": "消除",
-   "publisher": "厦门市指丰科技有限公司",
-   "first_seen": "2026-08-26",
-   "appearances": 13,
-   "best_rank": 14,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:35:52+08:00"
-   }
-  },
-  {
-   "name": "开局带把枪",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 20,
-    "wx/畅玩榜": 17
-   },
-   "category_l1": "休闲",
-   "category_l2": "益智",
-   "publisher": "邯郸小空科技有限公司",
-   "first_seen": "2026-07-01",
-   "appearances": 39,
-   "best_rank": 14,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "开局带把枪",
-    "country": "cn",
-    "track_id": 6758076984,
-    "seller": "SkyIsland Co., Ltd.",
-    "genres": [
-     "游戏",
-     "动作",
-     "冒险",
-     "娱乐"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/12/45/0e124599-a2c9-fcfa-0cbb-f373f8830fb5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/0c/22/010c223f-8a89-de32-0707-ae195cf7f1ab/_U624b_U673a__U00284_U0029.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/40/c8/1a40c851-81cc-aafa-fafd-849f4cad3cf6/_U624b_U673a__U00285_U0029.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/c1/c8/a8c1c83a-bf37-3195-4bb3-809f008b0943/_U624b_U673a__U00283_U0029.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/e5/70/68e5702d-663c-2fbd-c4be-d50714788330/_U624b_U673a__U00281_U0029.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/c4/d8/ebc4d894-7a13-a2c9-af9c-ab174d4bddf8/_U624b_U673a__U00282_U0029.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/41/79/a7417963-52b8-761d-3f5c-26bce1ca2223/_U5e73_U677f3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/2c/e2/0a2ce28c-e56c-1356-a09f-3cd61b10b94a/_U5e73_U677f4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/93/7a/37937a52-9d0d-0e57-6268-92a59b767d37/_U5e73_U677f.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/31/8f/ad318f86-e255-e0b4-ba1b-a97b8925f6f0/_U5e73_U677f2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/87/40/fd8740cb-d0ea-e195-5750-e7faf90ef387/_U5e73_U677f5.jpg/626x1112bb.jpg"
-    ],
-    "description": "► 一款考验心跳与准度的狙击史诗\n\n整个世界都陷入了混乱与纷争，是时候让你手中的狙击枪发出宣言，让敌人聆听死神的耳语！这款直观而硬核的狙击手RPG将让你在枪林弹雨中磨练技艺，清除盘踞在各个战区中的致命威胁。游戏里，你将执行高风险的刺杀任务、迎战庞大的战争机器、坚守最后的阵地！这款射击模拟器充满了战术抉择与瞬间的生死考验，顶级的弹道特效与物理反馈，将让你每一枪都沉浸其中。\n\n► 稳如磐石，一击必杀\n\n开始游戏时，利用你的望远镜观察、规划路线，从超远距离精确清除目标——完成任务，解锁更强大的装备，看着你的狙击传奇就此展开！你需要不断升级你的武器库与技能，才能在越来越残酷的关卡中存活。但游戏里不仅仅是冰冷的狙杀，这款充满战场硝烟氛围的模拟器还包括模块化枪械改造和战术装备收集，这将助你打造独一无二的杀戮艺术，达成终极的“战神”进化。\n\n◾ 沉浸式的战地感官——游戏拥有逼真的环境音效与动态配乐，请务必戴上耳机，调高音量，聆听风吹过草丛的细微声响、子弹破空的尖啸、以及目标被命中时那令人满足的反馈。每一次扣动扳机，都是一次震撼体验。\n\n◾ 无穷的挑战与战场——你永远不会缺少扣动扳机的理由！多样的任务模式（潜行渗透、BOSS决战、阵地防守）与智能的敌人AI，为你提供了海量升级和解锁稀有配件的机会。随着你声望的增长，你将走出训练场，踏入城市废墟、热带雨林、雪山之巅等更广阔、更危险的战区。\n\n◾ 全套收藏与自定义——完成高难度挑战会为你赢得专属蓝图与勋章，你可以用它们打造传说级的武器。收集各种迷彩涂装、枪口装置、光学瞄具乃至呼吸调节器，自由组合这些部件，创造出专属于你的“完美一枪”。\n\n► 即刻进入狙击阵地！\n\n《绝命扳机：狙击精英》等待着你，今天就下载并开始你的统治吧！这个游戏以你为核心，冷静的狙击大师。你需要用子弹告诉所有敌人，战场上传说的“幽灵射手”确实存在。当你穿越重重关卡时，计算风速、调整心跳、锁定目标，但要时刻小心那些试图反制你的精英小队和重型装甲！无与伦比的射击手感与肾上腺素飙升的关卡体验，你绝对不容错过！",
-    "release_notes": "",
-    "file_size_bytes": 1452668928,
-    "min_os": "14.0",
-    "version": "1.0",
-    "release_date": "2026-02-23",
-    "rating": 1.61905,
-    "rating_count": 21,
-    "price": "免费",
-    "advisory": "17+",
-    "url": "https://apps.apple.com/cn/app/%E5%BC%80%E5%B1%80%E5%B8%A6%E6%8A%8A%E6%9E%AA/id6758076984?uo=4",
-    "fetched_at": "2026-09-15T00:35:53+08:00"
-   }
-  },
-  {
-   "name": "无尽冬日",
-   "boards": [
-    "wx/畅销榜"
-   ],
-   "ranks": {
-    "wx/畅销榜": 13
-   },
-   "category_l1": "竞技",
-   "category_l2": "对战",
-   "publisher": "点点互动（北京）科技有限公司",
-   "first_seen": "2026-06-29",
-   "appearances": 72,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "无尽冬日",
-    "country": "cn",
-    "track_id": 6478492012,
-    "seller": "Shanghai Qingdi Technology Company Limited",
-    "genres": [
-     "游戏",
-     "模拟",
-     "策略"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/96/a5/9c96a5a5-a92a-9405-d252-b2aa7b9aa8ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/0d/cd/df0dcd6c-4dd3-d21d-19c5-cb9a5b79158a/d50d05fc-09f1-4e3b-aac3-5e6dfc59e04f_1-_U9996_U56fe-_U96ea_U5730_U8fc1_U5f99.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/21/1c/3c211c33-60a3-3a7d-db73-0e52bbe14185/2caa22c8-0907-4da9-8f92-5b9832f1fce2_2-_U91c7_U96c6_U7269_U8d442.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/c6/5f/eac65f48-5f08-ceb1-99a7-7a83256d41f2/ad45254e-f92a-46b6-8c33-7a75f9d1de9b_3-_U8f7b_U5ea6_U57ce_U5efa.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/d3/ac/08d3ac34-f266-c12a-3692-a7e4b934b55e/cb9fbde7-cc96-4336-982d-d745b3f6b601_4-_U4eba_U529b_U5206_U914d.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/cd/4d/9ccd4d0a-5530-0de3-4843-27f86d1cf0f9/833b354b-a240-4f8e-8e0e-07d3e0983a2a_5-_U6218_U6597.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/d6/59/24d6598f-528e-6d90-c50c-f404a72a6154/9507b3ad-1744-43af-a995-2c39c20e4dbe_6-_U79d1_U6280_U5236_U80dc.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/03/3b/64/033b64fe-55f9-8e5e-73bc-00ec64df6e82/ff7f5778-046d-48bf-a7d6-5449fd0a6c8d_1-_U9996_U56fe-_U96ea_U5730_U8fc1_U5f99.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/9c/df/279cdfe2-c984-4d28-b206-4ed30dcd9a8c/94a62d25-9440-42d9-a0e5-e8682e0962c1_2-_U91c7_U96c6_U7269_U8d442.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/a8/66/c2a8664b-d101-5595-af36-d0411971ca4a/e8ecb2e7-f400-4341-a6ca-01fb8de8266e_3-_U8f7b_U5ea6_U57ce_U5efa.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/18/9e/3e189e14-35dc-898c-ad31-7a9d06da1d04/5faf0de8-2036-4c92-a2e3-164f716aa820_4-_U4eba_U529b_U5206_U914d.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/be/ad/afbead9c-d8fc-e676-284d-403810349a89/3cbc1f9c-a530-497e-9100-9fe330c7c4c1_5-_U6218_U6597.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/fb/64/69fb6458-457a-b3f6-2cd7-217b1659b232/1a10e619-f9e7-4c6a-8b82-797e2cc095f9_6-_U79d1_U6280_U5236_U80dc.jpg/626x1112bb.jpg"
-    ],
-    "description": "《无尽冬日》是一款将策略和放置结合的冰雪末日生存游戏，玩法独特，细节丰富，等你探索。\n\n一场突如其来的全球性气温骤降彻底地摧毁了人类文明，人类失去了赖以生存的家园，面对严寒的天气，无情的暴风雪，盘踞在冰原的凶猛野兽，以及那些对遗留物资虎视眈眈的暴徒。仅存的几名幸存者能否顺利地生存下来，保护并延续人类文明的火种，只有您能帮助他们！在这个被冰雪覆盖的极寒世界里，您作为镇长，将引领幸存者们克服恶劣的环境，制定不同的生存策略，重建文明家园。 \n\n【核心特色】\n\n升级熔炉\n熔炉是这个极寒末日里唯一能够对抗寒冷并取暖的工具。需要不断的收集相应的资源升级熔炉，并随时准备好面对寒冷的永夜与突如其来的暴风雪；只有做好这一切，才能保证幸存者们不受寒冷和死亡的威胁。\n\n人力分配\n享受独特的幸存者工作分配玩法，例如工人，猎人，厨师等等。记得监测幸存者们的健康状况和幸福指数，确保他们能够高效地工作，如果他们生病了，不要担心，请及时治疗他们。 \n\n颁布法典\n法典是重置并延续社会文明的重要手段，也是发展并壮大营地的关键因素之一。\n\n【策略玩法】\n\n争夺物资\n灾难来临的太突然，冰原上仍遗留着无数可用的生存物资，那些暴怒的冰原野兽，其他有能力的镇长都在虎视眈眈...既然战斗无法避免，那只能用尽一切手段跨越阻碍，争夺物资！ \n\n逐鹿冰原\n与所有玩家共同去争夺最强营地的殊荣，在这个伟大的策略游戏中夺取王座并统治一切吧！\n\n建立同盟\n不要再一个人孤独地对抗冰雪和入侵者，创建或加入联盟，与盟友一起主宰战场，称霸冻土！\n\n招募帮手\n特色英雄，等你招募，只有招募更多不同天赋技能的英雄，才能在这场灾难中拥有更多的主动权，并更安全的生存下去。\n\n和其他的镇长同台竞技\n掌握英雄技能，合理搭配战斗小队，与其他镇长一决高下！胜利不仅会带来丰厚的积分，还可以兑换稀有的道具。带领你的小镇勇登竞技排行榜，所有人都会看到一个伟大的小镇是如何诞生的。 \n\n发展科技\n这场冰雪灾难摧毁了所有的科技文明，立即开始重建科技体系，重拾文明碎片。谁能更快的掌握前沿的技术，谁就能主宰这个世界！\n\n【关注我们】\n《无尽冬日》官网：http://wjdr.centurygames.cn/\n微信公众号：微信搜索“无尽冬日”",
-    "release_notes": "【新增内容】\n1、新增活动：全新【凛风攻城战】即将开启！领主将与盟友共同参与联盟据点攻防战，通过布置驻防部队、进攻敌方据点，为联盟赢取胜利与丰厚奖励。快来集结盟友，迎接全新的策略挑战吧！\n2、新增【礼物】功能：大熔炉达到13级后，领主可向其他领主赠送礼物，并附上专属寄语，让领主间的心意传递更加特别。礼物主要用于社交互动与个性展示，不提供战斗属性，且不可二次转送；领主可通过日常活跃、任务或活动获得礼物，部分稀有礼物在满足指定条件后也可购买获得。赠送礼物可获得送礼积分，提升送礼等级并解锁专属奖励；收到的礼物可收藏并展示在领主主页与礼物展柜中。\n3、新增【人气值系统】：领主可在其他领主主页及部分活动、排行榜等场景中为其他领主点赞；获得的点赞将累计为人气值，并展示于领主主页。同时，领主主页展示将同步优化，让领主的活跃表现与高光时刻被更多领主看见。\n\n【优化与调整】\n1、梦境寻忆优化：\n（1）新增【快速通关】。当领主所在王国梦境寻忆活动开启期数达到第5期，且【追忆足迹】达到10级及以上后，领主可在章节未开启时切换至快速模式，消耗【寻梦小鱼干】与【梦幻铃铛】直接完成当前章节挑战，并领取章节奖励；通过快速通关完成章节时，也会正常获得【寻梦漫游记】积分。\n（2）新增道具兑换入口。【快速通关】解锁后，领主可在活动主界面进入兑换界面，将【寻梦小鱼干】兑换为【梦幻铃铛】。\n2、领主装备与宝石开放上限提升：当王国进程解锁6代英雄后，领主装备神话六阶（3星）将正式开放上限；当王国进程解锁8代英雄后，领主宝石将新增17级与18级，每级包含9个子阶段。领主可进一步提升装备与宝石品质，打造更强大的战斗实力。\n3、英雄装备优化：装备专精等级达到等级4及以上后，专精提升将由整级提升调整为子阶段提升，原有专精锻造总消耗保持不变。领主在进行专精锻造时，可通过进度条更清晰地查看当前等级内的提升进度。\n4、行军功能优化：\n（1）缩短了攻击野外怪物时的行军时间，适用目标包括野兽、【佣兵荣耀】活动中的法厄同士兵与法厄同头目。\n（2）缩短了发起或参与野外怪物集结时的行军时间，适用目标包括冰原巨兽、失控的雪怪、收割者，以及【佣兵荣耀】活动中的法厄同士兵。\n（3）当领主的部队在世界地图或战场中受到其他领主部队攻击时，即使当前处于其他界面，左侧行军队列栏中被攻击部队对应的行军队列也将显示红框提醒。\n（4）优化了行军加速界面的信息展示。更新后，当领主参与集结时，行军加速界面将显示集结准备倒计时，帮助领主更清晰地掌握队伍行军与集结进度。\n5、专家功能优化：\n（1）当已入驻专家数量超过8个时，曙光学院将新增专家列表入口。领主可在列表中查看已解锁专家，并快速切换至对应专家界面；新解锁的专家将显示在列表末尾。\n（2）当有新专家登场时，内城专家建筑将显示图标气泡提示；领主进入曙光学院后还将看到新专家登场提示界面，方便领主及时了解新专家解锁情况。\n（3）优化了【取消学习】按钮的展示位置。专家技能学习中时，取消学习按钮将在学习进度旁显示，使领主更容易查看并操作。\n（4）补充了罗妮专家天赋【商路掌控者】的效果描述，实际效果不变。\n6、联盟争霸赛优化：\n（1）优化了战力评分计算方式，使评分结果更接近领主的实际战斗表现。\n（2）宠物技能将在派遣出战时自动生效，无需领主手动激活，系统将根据出征时的宠物技能等级计算对应增益。\n（3）每一路中的每场战斗，攻守方将以相同概率独立随机决定。\n7、联盟战争优化：当军医所容量超过90%时，将无法开启自动加入集结；若自动加入集结已开启，则会自动中止并通过邮件提醒领主，帮助领主及时关注伤兵情况。\n8、执政官功能优化：\n（1）执政官技能优化：已预约的执政官或至高执政官技能将支持取消，执政官或至高执政官可在技能预约弹窗中取消已预约的技能，方便根据王国战局变化灵活安排技能使用。\n（2）官职预约优化：优化了【自动同意】设置界面，信息展示更直观。\n9、兵工厂争夺战及雪域兵器联赛优化：\n（1）新增奖励结算信息展示：领主可在兵工厂争夺战中查看本周已获得的联盟奖励与个人奖励，在雪域兵器联赛中查看本轮比赛已获得的军团奖励与个人奖励。\n（2）兵工厂争夺战优化：报名阶段选择战斗时段后，将新增预计战斗时间预览，方便提前安排参战计划。\n（3）雪域兵器联赛优化：补充了赛程界面的淘汰赛与争霸赛的活动说明文本，帮助领主更清晰地了解对应阶段的赛程安排。\n10、霜龙霸主优化：正在进行的比赛将实时展示当前观战领主人数。\n11、晨曦岛优化：\n（1）优化建造界面记忆功能。登录期间，关闭建造界面后，系统将记录当前查看的分类与列表位置；再次打开时将自动回到上次浏览位置，方便领主继续布置晨曦岛。\n（2）优化装饰物与场景装扮图纸的【获得更多】界面，新增当前数量与升级所需数量的进度展示；当通过装饰物自选箱或通用碎片补足升级数量后，将更便捷地返回升级界面。\n（3）新增晨曦岛相关通知。当生命之树、伐木小屋、木材加工厂或晨曦回礼达到存储上限时，系统将提醒领主及时领取资源；领主可前往游戏设置开启或关闭相关通知。\n（4）在拜访其他领主的晨曦岛时，您可以点击查看对方除基础装饰物、生命之树、伐木小屋、木材加工厂外其他装饰物的详细信息。\n（5）增益总览优化：可便捷操作全部展开、全部收起增益详情列表，方便领主查看。\n12、移民活动优化：王国列表将新增本期可移民王国范围展示，并对暂不可移民的王国增加提示，方便领主更清晰地查看可迁入的王国。\n13、背包统计优化：【资源与加速统计】中新增钻石数量统计，领主可更清晰地查看当前拥有的钻石总量。\n14、统帅功能优化：\n（1）统帅界面中的登录奖励入口将由宝箱调整为日历形式，领主可在日历中查看连续登录天数与每日统帅点数奖励。连续登录达到14天后，将解锁【连续登录冻结】功能；若连续登录中断，次日将自动触发冻结，领主可在冻结期间消耗钻石恢复并延续连续登录天数。\n（2）统帅经验道具将在获得后自动使用。\n15、地心探险优化：\n（1）修复了【英雄之地】【大地之心】中部分关卡对手英雄技能未正常生效的问题。\n（2）优化了关卡难度曲线，使关卡的难度衔接更加平滑。\n（3）【大地之心】将新增50层挑战内容。\n（4）地心探险排行榜同一页签内的各排行榜现支持左右切换查看。\n16、漫游剧场优化：\n（1）系统初始赠送的【寒冰护符】数量提升至12个。\n（2）活动结束后，未使用的【奇境星币】将调整为自动转化成道具【钻石*1】，请领主及时兑换。\n17、联盟总动员优化：将根据王国进程新增宠物、专家及火晶积分相关任务。\n18、联盟资源兑换优化：更新后领主可直接输入希望获得的资源数量，系统将自动计算所需兑换资源，方便快速完成兑换。\n19、堡垒争夺优化：联盟管理成员取消堡垒争夺报名时，将在联盟日志中新增对应记录。\n20、邮件功能优化：优化了冻土之王、联盟大作战、最强领主、清理野兽、全军参战等活动的个人排名奖励邮件展示效果。\n21、英雄招募功能优化：高级、史诗招募的十连结算界面中，原“全部使用”功能调整为“招募多次”，领主可自主选择消耗的招募钥匙数量进行招募。\n22、幻艺展馆优化：新增饰章展示范围设置，领主可在【全部显示】【显示饰章】【全部隐藏】之间切换，灵活控制其他领主查看自己饰章及收藏内容的范围。\n23、吉娜的反击及英雄的使命集结任务规则优化：仅当领主发起集结并成功击败雪怪或收割者后，才会计入集结任务进度。\n24、宠物功能优化：洗炼分页新增宠物列表入口，领主拥有5只及以上宠物时，可通过该入口快速切换宠物。\n25、防护罩提示优化：\n（1）优化了防护罩解除确认提示。防护罩持续期间，领主进行攻击、侦查、发起集结或参与集结等会解除防护罩的操作时，确认界面将显示当前防护罩剩余时间，方便领主确认后再行动。\n（2）优化了防护罩道具使用提示。防护罩持续期间，领主再次使用防护罩道具时，确认界面将显示当前防护罩剩余时间；若新使用的防护罩持续时间短于当前剩余时间，系统将额外提醒，避免误操作导致防护时间变短。\n26、领主档案优化：更新后，在使馆援军页面，点击其他领主头像即可直接查看对方的领主档案。\n27、排行榜功能优化：本王国、邻邦及所有王国分页内的个人、联盟排行榜，均支持左右切换查看已解锁的榜单；同时缩短了排行榜页面的打开动画时间。\n28、军医所及募兵所功能优化：优化遣散伤兵相关弹窗及界面展示效果。",
-    "file_size_bytes": 947036160,
-    "min_os": "13.0",
-    "version": "1.16.11",
-    "release_date": "2024-05-30",
-    "rating": 4.76668,
-    "rating_count": 614585,
-    "price": "免费",
-    "advisory": "12+",
-    "url": "https://apps.apple.com/cn/app/%E6%97%A0%E5%B0%BD%E5%86%AC%E6%97%A5/id6478492012?uo=4",
-    "fetched_at": "2026-09-15T00:35:55+08:00"
-   }
-  },
-  {
-   "name": "三国杀",
+   "name": "兵器王者",
    "boards": [
     "douyin/热门榜"
    ],
    "ranks": {
-    "douyin/热门榜": 20
+    "douyin/热门榜": 19
    },
    "category_l1": "1",
    "category_l2": "",
-   "publisher": "杭州游卡网络技术有限公司",
-   "first_seen": "2026-06-29",
-   "appearances": 61,
-   "best_rank": 1,
+   "publisher": "青岛蓝飞互娱科技股份有限公司",
+   "first_seen": "2026-06-30",
+   "appearances": 64,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:48:13+08:00"
+   }
+  },
+  {
+   "name": "我要消光光",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 10
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "上海密幂科技有限公司",
+   "first_seen": "2026-09-03",
+   "appearances": 11,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:48:16+08:00"
+   }
+  },
+  {
+   "name": "蓝色星原:旅谣",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "ranks": {
+    "taptap/预约榜": 3
+   },
+   "category_l1": "角色扮演",
+   "category_l2": "二次元、开放世界、冒险、动作、养成、收集",
+   "publisher": "蛮奈网络",
+   "first_seen": "2026-07-06",
+   "appearances": 54,
+   "best_rank": 2,
    "profile_value": "",
    "seed": {
     "gameplay_desc": "",
@@ -553,153 +80,188 @@
    "media": {
     "matched": true,
     "match_score": 1.0,
-    "match_name": "三国杀",
+    "match_name": "蓝色星原：旅谣",
     "country": "cn",
-    "track_id": 407413403,
-    "seller": "Hangzhou Yoka Network Technology Co., Ltd.",
+    "track_id": 6754017631,
+    "seller": "Shanghai ManNai Network Technology Co., Ltd",
+    "genres": [
+     "游戏",
+     "角色扮演",
+     "冒险"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/6f/71/8e6f710c-03f5-9a08-870d-ebb5f9ebc221/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/e5/57/1ce557d1-4879-3966-df8b-c2ef1f10950c/_U3010_U624b_U673a_U301101__U6211_U5168_U90fd_U8981_0802.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/05/87/72058778-33b8-6f3e-3581-02047ffb6d5c/_U3010_U624b_U673a_U301102_BOSS_0802.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/1c/4d/631c4d47-e878-e80b-b46f-2dcbfe1cfd5e/_U3010_U624b_U673a_U301103__U5750_U9a91_0802.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/bd/7b/b1bd7b16-ddfd-3ad7-dbc3-70ef7d335ddf/_U3010_U624b_U673a_U301104__U5947_U6ce2_0802.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/b5/25/bdb5256d-b937-bd14-e71f-e892312d6a47/_U3010_U624b_U673a_U301105__U5bb6_U56ed_0802.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/db/b2/c4dbb2bc-6418-633c-4fd9-f520c7c2affd/_U3010iPad_U301101__U6211_U5168_U90fd_U8981_0802.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/ad/5a/07ad5abc-7f38-e6e6-db71-dfba985c052c/_U3010iPad_U301102_BOSS_0802.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0d/c5/34/0dc5344e-c934-7932-9b51-be5d560bf3bb/_U3010iPad_U301103__U5750_U9a91_0802.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7d/55/97/7d559763-9475-572c-e8fd-c3c18e9c93ef/_U3010iPad_U301104__U5947_U6ce2_0802.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/27/3f/e7273fe3-0ed7-631f-fdf0-3e8aec4a0b1d/_U3010iPad_U301105__U5bb6_U56ed_0802.jpg/626x1112bb.jpg"
+    ],
+    "description": "【顶级美术实力，多人社交幻想世界】\n老牌二游厂商的顶级审美和美术实力，追求卓越、比肩二游旗舰的品质。细腻的建模、材质与光影，让少女们的面部表现、服装设计和战斗姿态自然且鲜活；广阔的大陆、有趣的奇波生态，充满张力的剧情与演出，共同织就一幅可以自由探索的幻想画卷。你可以深入遗迹追寻古老传说，也可以在群星之下驻足远望，也可以叫上三五好友，在城市中合影聊天，一同分享美好时光。\n\n【与美少女邂逅，踏上心动冒险之旅】\n在这片名为普罗米利亚的大陆上，你会在不同的故事里邂逅众多性格各异的少女。她们拥有不同的身份性格与故事，也将在这段旅途中与你相识同行、并肩迎敌。你们会共同穿越森林、城邦与古老遗迹，最终在一次次冒险中逐渐了解彼此。每一次坚定同行、每一句珍贵约定，都将化作旅途中动人的回忆，谱写出只属于你的歌谣。\n \n【收集奇波伙伴，领略丰富星原生态】\n普罗米利亚各处都活跃着名为“奇波”的生物，它们拥有不同的成长阶段、独一无二的特点和习性，共同构成了这片大陆的生态。你可以观察到它们在原野、森林、水域甚至空中的生活，发现不同族群之间真实有趣的互动；也可以寻找可靠的伙伴，彼此认可进行星结。无论是探索未知还是与强敌交锋，奇波都会成为你不可或缺的伙伴，陪你领略这片大陆的奇幻旅程。\n \n【打造专属家园，置身其中享受治愈时光】\n在家园中，你可以亲手开垦土地、种植孵化和制作装备，也可以和少女们进行温馨互动。同时，奇波伙伴也可以入驻家园，它们可以帮助你进行种植、采集、制作与生产，陪你见证作物生长、资源积累和家园的日渐繁荣。暂别外界的喧嚣，在家园度过的悠闲时光里，感受每一次互动带来的满足，每一次耕耘带来的丰收吧。\n \n【超爽操作体验，行云流水的战斗节奏】\n与少女们和奇波伙伴们并肩作战，在快节奏的战斗中进行格挡、闪避、连携等爽快操作。不同职业定位、属性与奇波能力彼此呼应，让队伍搭配和临场决策都拥有更多可能。另外，还可以与朋友们组队挑战，获得不一样的战斗体验。相信所有反馈拉满的打击、富有张力的动作与爽快连贯的节奏，都能给你带来酣畅淋漓的战斗体验。\n\n\n【关注我们】\n《蓝色星原：旅谣》官方网站：https://azurpromilia.manjuu.com/\n《蓝色星原：旅谣》官方微信：蓝色星原旅谣\n《蓝色星原：旅谣》官方微博：@蓝色星原旅谣\n《蓝色星原：旅谣》B站动态：https://space.bilibili.com/3546569016085336/dynamic",
+    "release_notes": "美少女、奇波、大世界，我全都要！",
+    "file_size_bytes": 3330390016,
+    "min_os": "15.0",
+    "version": "0.0.2",
+    "release_date": "2026-12-31",
+    "rating": 0,
+    "rating_count": 0,
+    "price": "",
+    "advisory": "17+",
+    "url": "https://apps.apple.com/cn/app/%E8%93%9D%E8%89%B2%E6%98%9F%E5%8E%9F-%E6%97%85%E8%B0%A3/id6754017631?uo=4",
+    "fetched_at": "2026-09-15T21:48:18+08:00"
+   }
+  },
+  {
+   "name": "指尖幻影",
+   "boards": [
+    "douyin/畅销榜"
+   ],
+   "ranks": {
+    "douyin/畅销榜": 3
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "海南异界科技有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 64,
+   "best_rank": 3,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "指尖幻影",
+    "country": "cn",
+    "track_id": 6748455249,
+    "seller": "Wuhan Full Blossom Technology Co., Ltd.",
+    "genres": [
+     "游戏",
+     "策略"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/e8/93/e6e893da-d3de-54d8-4880-247e691e5d30/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/05/41/5d05410f-21d1-16ef-356d-bbeb13b89843/1242-_U5272_U8349_U65e0_U53cc.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d0/85/08/d0850804-676a-a4d7-bfab-fe93fcaada0d/1242-_U82f1_U96c4_U767b_U573a.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/f6/da/50f6da58-b899-9373-2a39-7625168f68f0/_U8089_U9e3d_U5bf9_U51b3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/66/de/3466def7-9612-6d6a-3240-69e47e0ce574/1242-_U8d85_U5f3a_U88c5_U5907.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/e7/91/b6e791e6-6e28-6488-ac6b-dbba383daa39/1242-_U6b27_U7687_U4e0a_U7ebf.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a0/22/9a/a0229aaf-0b8b-bf90-598c-bb6c5b38fa10/2064-_U5272_U8349_U65e0_U53cc.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/a5/5a/aaa55a0c-beb0-090f-3083-4c1ad3ef0eb3/2064-_U82f1_U96c4_U767b_U573a.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/c2/cc/46c2cc4e-ad62-2d60-23e4-1a94c6055a7e/2064-_U8089_U9e3d_U5bf9_U51b3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/d5/2b/27d52b46-f7dd-3e2c-7bad-d34bf2a01d3a/2064-_U8d85_U5f3a_U88c5_U5907.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/eb/92/0aeb9249-0abe-1b73-6066-a66c310929eb/2064-_U6b27_U7687_U4e0a_U7ebf.png/626x1112bb.jpg"
+    ],
+    "description": "游戏内有丰富的地图和各种各样极具特色的boss，以及完全随机武器与技能强化；战斗之余还可以前往武器库研发各种稀有武器，提高各项能力；在玩法上兼具养成趣味与Roguelike的爽感，血脉偾张爽感拉满\n\n\n爽快割草感「一棍倒一片」\n整理背包自定义武器\n科技与魔法是左膀右臂\n局内技能完全随机，自由搭配武器技能以弱胜强\n精美画面+诙谐风格，休闲解压\n作为先锋官的你将依靠背包里的武器组合，独守前线，横扫来袭的怪物和尸潮！",
+    "release_notes": "【优化与调整】\n1、荣耀联盟赛为提高公平性原则，防止个别联盟之间徇私舞弊，初赛第四场的防守雕像，强制采用第三场数据\n2、【时装】【载具】【宠物】【伙伴】界面中，提高/增加可解锁状态的排序\n3、体力扫荡界面增加当前体力信息展示\n【问题修复】\n1、修复联合作战入口红点异常问题\n2、修复武器强化界面消耗的道具数量过多导致数字显示不完全的问题",
+    "file_size_bytes": 1562663936,
+    "min_os": "15.6",
+    "version": "2.64.10",
+    "release_date": "2025-10-15",
+    "rating": 3.05556,
+    "rating_count": 54,
+    "price": "免费",
+    "advisory": "9+",
+    "url": "https://apps.apple.com/cn/app/%E6%8C%87%E5%B0%96%E5%B9%BB%E5%BD%B1/id6748455249?uo=4",
+    "fetched_at": "2026-09-15T21:48:20+08:00"
+   }
+  },
+  {
+   "name": "飞行模拟大师",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 4
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "广州易游互玩科技有限公司",
+   "first_seen": "2026-09-15",
+   "appearances": 1,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:48:24+08:00"
+   }
+  },
+  {
+   "name": "星途天城",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "ranks": {
+    "taptap/预约榜": 9
+   },
+   "category_l1": "卡牌",
+   "category_l2": "养成、神话、美少女",
+   "publisher": "广州春芒网络科技有限公司",
+   "first_seen": "2026-08-29",
+   "appearances": 13,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "星途天城",
+    "country": "cn",
+    "track_id": 6503579813,
+    "seller": "Guangzhou Mengqu Information Technology Co., Ltd.",
     "genres": [
      "游戏",
      "策略",
-     "卡牌",
-     "娱乐"
+     "卡牌"
     ],
     "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/6c/d6/de6cd653-25bb-3df0-bc6c-087ca468247f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/f4/89/eef48920-2e16-e497-2638-4bf5039cd0d9/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
     "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/a7/9c/79a79c6c-b254-cc6c-8d72-c59b77b5dd66/2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/ea/3a/50ea3a59-d9cf-42e5-5e78-8623deba81dd/3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/10/f6/0110f688-3fa5-cdfc-8b96-bd5641aa63c4/4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/ce/8a/0fce8aac-25fa-195f-b65c-5d34a9ee7c87/5.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/c2/32/aac232be-adb9-f4f9-38a4-ad4102e3af1e/2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/3a/75/3e3a753d-99d1-5aaf-084c-95d27b4dc2d2/3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2f/e5/bf/2fe5bf8d-e3c1-e3dd-b72b-4c9b66e058f2/4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/ff/d5/e7ffd52f-959c-1663-729b-63a867a9ce90/5.jpg/626x1112bb.jpg"
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/5d/1a/a25d1aaf-4ed2-9b5b-5b4e-42c13b07d753/_U9996_U9875-_U62f7_U8d1d.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/13/21/ae13212d-17f1-2e07-0907-548715e36753/_U6307_U5c16_U7b56_U7565-_U767e_U53d8_U642d_U914d.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/72/fa/f572fa44-9f56-a888-645e-5fb997886d22/_U65b0_U5361_U79d2_U4e0a.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/80/91/878091c0-22db-0d17-61c6-6f5414b84eec/_U795e_U683c_U89c9_U9192-_U5171_U62b5_U707e_U5384.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/70/62/c5706203-33f8-9fb8-0c10-894d85352de2/_U8f7b_U5ea6_U63a2_U7d22-_U5de1_U6e38_U5929_U57ce.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/60/6d/31606dc4-d4a9-eb54-0724-62aec1ad8b26/f_U003f_U0026MsgID_U003d3910050645186805125_U0026skey_U003d@crypt_59f012f4_d2823ad19f0653b6034d3cfc9b728086_U0026mmweb_appid_U003dwx_webfilehelper.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/fc/49/6afc499c-09f1-b2e1-4745-f02fa9d4b9dd/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/12/d4/8712d477-0283-601a-82a2-fe78d9271332/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/27/4d/6c274d03-8648-d7d6-3bea-32c1c6b593aa/4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/43/a9/04/43a904f6-5bae-9b44-bbc2-d0fdf400e814/5.jpg/626x1112bb.jpg"
     ],
-    "description": "【官方正版， 经典续作】3亿玩家的策略首选！集历史、美术、卡牌与智谋博弈于一体的国民级游戏。\n \n【玩法丰富， 随时开局】 经典身份局、排位赛、国战、斗地主，三分钟一局，随时随地与好友组队！ \n\n【立即下载， 领新手壕礼】新人登录即送武将和招募令，助你征战三国沙场！\n\n【上手轻松，深研有料】规则简单易懂，新手快速入门；深度策略拉满，老手乐在钻研。全年龄覆盖，男女玩家都热爱，既是休闲消遣，也是脑力盛宴！\n\n【画风经典，武将鲜活】国风美术精致大气，武将形象个性鲜明，技能台词热血有魂，沉浸式感受三国风云，一秒梦回金戈铁马！\n\n【游戏玩法】选取武将与身份，摸牌、出牌、判定循环攻防，用杀、闪、桃、锦囊与装备组合操作，达成身份胜利条件即可通关！\n\n【用户协议】: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
-    "release_notes": "【欢乐斗地主】\n欢乐斗地主·开学季限定地主：吕蒙（好学）、曹冲（博学）、刘禅（想学）限时上线。\n\n【克隆大作战】\n克隆出击，镜像对决！新增2v2模式与斗地主模式。\n斗地主模式规则：三名玩家共享3名公共备选武将，地主额外拥有2个选将框；叫分结束后，两名农民投票选择相同的出战武将。\n\n【新武将】\n势·贺齐、界王基即将上线~\n\n【新皮肤】\n佛魔一如*笮融首款动态皮肤首发！节钺令长翎贯宇*贺齐即将上线\n\n【征战天下】\n第二十六章力挽狂澜开启！“白帝托孤哀千古，安居运筹平五路。辩士蹈鼎联江东，疑城铁壁拒虬龙。\n\n【其它】\n优化部分称号的称号名文本位置\n优化部分技能发动时的提示文本\n屯田寻访界面新增“推荐拜访”玩家列表\n屯田驿站新增求助与帮助功能",
-    "file_size_bytes": 2323144704,
-    "min_os": "11.0",
-    "version": "4.5.9",
-    "release_date": "2010-12-13",
-    "rating": 1.93619,
-    "rating_count": 238365,
-    "price": "免费",
+    "description": "【游戏简介】\t\n\t\t\t\t\n《星途天城》是一款轻探索策略卡牌革新之作。\t\t\t\t\t\n游戏以19世纪工业幻想为背景，结合蒸汽朋克、神秘学、神话等题材，构建了一个多文明的幻想大陆。\t\t\t\t\t\n无法根治的感染病与名为不洁者的怪物遍布世界，预言中未知的神明和灾厄即将再度降临。\t\t\t\t\t\n而你，作为异世界的“神明”即将展开一场全新、未知、怪诞的旅途。\t\n\n\n【游戏特色】\n\n【降神觉醒，共抵灾厄】\n“你”是来自异世界的原初之神，在这个众神混灭的时代，唯有你能再度引发神迹。帮助众多星灵重塑神格觉醒三阶形态，与他们一起抵抗灾厄，守护天城！\n\n【蒸汽幻想，巡游天城】\n驾驶飞艇单手畅游埃努玛浮空世界，探索复古蒸汽天城。七大地区奇遇不断，在星河与不同风格的城市中探索未知。\n\n【指尖策略，百变搭配】\n打破传统卡牌的数值压制，创造丰富耐玩的回合制战斗体验。主角职业无损切换，技能百种组合搭配，巧用星灵进阶、元素弱点等战斗机制，持续产生新流派变化，实现回合制策略逆袭。\n\n【新卡秒上，豪华开局】\n全面减负养成压力，放置挂机轻松获取资源；角色等级、进阶进度全局同步，零养成置换成本，抽到新卡无需养成直接上战场。",
+    "release_notes": "星途闪耀，共赴天城。策略手游《星途天城》预约正式开启！",
+    "file_size_bytes": 589846528,
+    "min_os": "12.0",
+    "version": "1.0.1",
+    "release_date": "2026-10-22",
+    "rating": 0,
+    "rating_count": 0,
+    "price": "",
     "advisory": "12+",
-    "url": "https://apps.apple.com/cn/app/%E4%B8%89%E5%9B%BD%E6%9D%80/id407413403?uo=4",
-    "fetched_at": "2026-09-15T00:35:57+08:00"
-   }
-  },
-  {
-   "name": "狱国争霸",
-   "boards": [
-    "douyin/畅销榜"
-   ],
-   "ranks": {
-    "douyin/畅销榜": 5
-   },
-   "category_l1": "1",
-   "category_l2": "",
-   "publisher": "北京智诚互娱科技有限公司",
-   "first_seen": "2026-06-30",
-   "appearances": 71,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:35:59+08:00"
-   }
-  },
-  {
-   "name": "超能下蛋鸭",
-   "boards": [
-    "douyin/畅销榜"
-   ],
-   "ranks": {
-    "douyin/畅销榜": 6
-   },
-   "category_l1": "1",
-   "category_l2": "",
-   "publisher": "世熠网络科技（上海）有限公司",
-   "first_seen": "2026-06-29",
-   "appearances": 72,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:36:03+08:00"
-   }
-  },
-  {
-   "name": "镇邪人",
-   "boards": [
-    "douyin/畅销榜"
-   ],
-   "ranks": {
-    "douyin/畅销榜": 12
-   },
-   "category_l1": "1",
-   "category_l2": "ARPG",
-   "publisher": "安徽雷虎网络科技有限公司",
-   "first_seen": "2026-07-08",
-   "appearances": 47,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "镇邪人",
-    "country": "cn",
-    "track_id": 6771697396,
-    "seller": "Anhui Leihu Network Technology Co., Ltd",
-    "genres": [
-     "游戏",
-     "卡牌",
-     "角色扮演"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/25/65/6f25658c-fcc3-de71-f3a4-241dfa06e569/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/ff/51/cfff51e3-cd37-d547-ec3b-7ca68d059656/_U7ad6_U7248_U9996_U56fe0707-1242x2688_U91d1_U94dc_U7248.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/78/93/6b78931a-f12c-ced4-ca8c-20211079b99d/_U5356_U70b91-1242x2688-_U91d1_U94dc.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/84/57/758457a8-42f5-197b-0119-047f316d9f5d/_U5356_U70b92-1242x2688-_U91d1_U94dc.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/40/ac/ed40ac06-a165-3aea-55ff-bb7127d78c8b/_U5356_U70b93-1242x2688-_U91d1_U94dc.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/44/ea/6f44eae6-287b-452e-f7c1-27ed8ac35870/_U5356_U70b94-1242x2688-_U91d1_U94dc.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/90/2a/c7902afd-c8db-af23-12c0-e52dfebda69d/_U7ad6_U7248_U9996_U56fe0707-2048x2732_U91d1_U94dc_U7248.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/80/11/958011dd-dd5c-0a52-4b8d-4ba939a58d39/_U5356_U70b91-2048x2732-_U91d1_U94dc.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/cf/1b/61cf1bef-3af1-040d-ccf3-1b4f503b23b5/_U5356_U70b92-2048x2732-_U91d1_U94dc.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/83/e5/f483e5c1-073e-68a6-37ce-698a83a2e1c1/_U5356_U70b93-2048x2732-_U91d1_U94dc.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/57/32/3457321d-3d37-5c41-feec-8256c4568030/_U5356_U70b94-2048x2732-_U91d1_U94dc.png/626x1112bb.jpg"
-    ],
-    "description": "天灵灵、地灵灵，一把木剑镇邪灵；莫问前程凶与吉，镇邪天师且慢行。诚邀各位镇邪天师加入镇邪司，一同探索地宫秘境，搜集稀世珍宝，打败千年邪崇！\n\n——签到得传说破盾“白蛇”及神话输出“怜无常”，首发助力镇邪除妖！\n——登录完成初始任务即领神话输出“贝儿”，共同对抗邪崇力量！\n——登录上线结缘符、元宝等资源送不停，更有随机神话灵宠礼盒！\n\n《镇邪人》是一款中式微恐地宫探险“搜打撤”游戏，在这里你将扮演身怀绝技的镇邪天师，勘察千年地宫、破解重重机关、收集稀世法宝，组建镇邪队伍，对抗诡异力量，书写属于你的镇邪传奇！\n\n【探索地宫 步步惊心】\n踏入千年地宫禁地，解读壁画密文、破解重重机关，在地宫深处寻找失落的宝藏与惊天秘密！每一次全新的挑战，危机与机遇并存！\n\n【邪祟来袭 智勇应对】\n地宫深处暗藏不死邪崇，识破其弱点、部署策略，凭借智慧与走位将其一一镇压！每一场对决都需要冷静判断，稍有不慎便会满盘皆输！\n\n【结盟同行 共闯禁地】\n招募志同道合的镇邪伙伴，组建专属镇邪小队！互通情报、共享资源，携手应对黑暗深处的重重危机，在生死考验中缔结过命之交！\n\n【烧脑解谜 步步为营】\n每一关都是全新的智力考验，机关重重、陷阱密布，唯有冷静推理、步步为营才能全身而退！挑战你的极限，感受烧脑解谜的极致快感！\n\n开发者的话：\n镇邪天师，欢迎加入镇邪司！我们励志打造更具沉浸式的地宫探险体验，让每一次探索都是全新的挑战，每一次探险归来都收货满满！\n\n游戏仍在不断打磨优化中，如果您在体验过程中有任何建议，欢迎随时告诉我们，一起共筑镇邪司荣光，您的反馈将是我们最大的动力！每一次更新与优化，只为让你玩的更爽。守卫镇邪司，一起战斗吧！\n\n《镇邪人》订阅说明\n\n--订阅价格及周期：\n您可以在游戏中订阅“周卡”订阅服务周期为7天，“月卡”订阅服务周期为30天，开放商城功能后可购买。\n\n--关于订阅内容：\n订阅后可以在订阅期间享受所有的增益特权：\n月卡自动订阅：订阅月卡后可以立即获得300元宝，订阅期间每日可领取100元宝和100结缘符，并享受月卡特权。\n价格：30元/30天\n\n周卡自动订阅：订阅周卡后可以立即获得80元宝和12小时挂机功德道具，订阅期间每日可领取150元宝，并享受周卡特权。\n价格：8元/7天\n\n--关于自动续订：\n苹果App Store官方订阅功能为自动续费订阅。\n由iTunes Account进行确认支付，用户需手动在iTunes/Apple ID设置管理中关闭自动续订功能，订阅自动续费将于每个订阅周期结束前的24小时之内进行扣费，并由iTunesAccount进行确认支付，如果需要取消订阅功能，您需要于订阅结束前至少24小时关闭自动续费功能。如果在此时间之前未能取消自动续费，则订阅周期会自动延续。\n\n--用户协议：https://37.com.cn/user-agreement/content/?policies_content_id=4\n\n--隐私政策及申明：https://37.com.cn/user-agreement/content/?AID=32588\n\n--取消订阅流程：\n如果您想取消订阅，请在您的iOS设备上手动打开“设置”→点击“AppleID”→点击“订阅”→“管理”并选择“镇邪人”对应的订阅，便可取消订阅。\n\n--更换设备后订阅服务的说明：更换设备后，原苹果账号下购买了订阅服务的角色，在订阅未过期期间，将可继续享受订阅服务，无需其他操作。",
-    "release_notes": "修复已知bug，优化游戏体验。",
-    "file_size_bytes": 248790016,
-    "min_os": "13.0",
-    "version": "1.0.8",
-    "release_date": "2026-07-16",
-    "rating": 4.79537,
-    "rating_count": 27235,
-    "price": "免费",
-    "advisory": "17+",
-    "url": "https://apps.apple.com/cn/app/%E9%95%87%E9%82%AA%E4%BA%BA/id6771697396?uo=4",
-    "fetched_at": "2026-09-15T00:36:05+08:00"
+    "url": "https://apps.apple.com/cn/app/%E6%98%9F%E9%80%94%E5%A4%A9%E5%9F%8E/id6503579813?uo=4",
+    "fetched_at": "2026-09-15T21:48:26+08:00"
    }
   }
  ]

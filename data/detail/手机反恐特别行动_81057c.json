@@ -1,0 +1,254 @@
+{
+ "schema_version": 1,
+ "name": "手机反恐特别行动",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "成都疾风劲趣科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/畅销榜"
+  ],
+  "ranks": {
+   "douyin/畅销榜": 19
+  },
+  "platform_app_ids": {
+   "douyin": "tt1d496bf48278820a07"
+  },
+  "first_seen": "2026-06-30",
+  "appearances": 56,
+  "best_rank": 5,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "3D 卡通末日废土，海量怪物/Boss/武器（微信小游戏 3D 导出推断 Unity）",
+  "dims": {
+   "engine": 4,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "physics": "玩家仅移动、武器自动射击，敌人为群体涌动 + 重叠判定，无刚体/拖拽物理手感调校，物理成本最低",
+   "art": "iOS 包体 1.4GB 属很重量级，含大量 3D 怪物、Boss、武器与末日场景模型，美术资产量级偏重",
+   "logic": "Roguelite：随机技能池/流派搭配（攻速/散射/冰霜/火焰）、关卡、Boss、赛季、基因/异能/装甲多系统耦合，逻辑复杂度高"
+  },
+  "asset_notes": "1.4GB 包体意味着海量 3D 怪物/Boss/武器与技能特效，素材层是主要成本；微信小游戏 3D 需经 Unity→WebGL/团结引擎导出适配",
+  "notes": "属「吸血鬼幸存者」式 3D 俯视肉鸽射击，技术栈推断 Unity（国产 3D 微信小游戏主流）；自动射击降低操作门槛、放大割草爽感，难度在怪物同屏性能与技能特效",
+  "cost_score": 3.25,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "在末日废土移动角色，武器自动朝最近敌人开火，击杀掉经验、升级后从随机刷新的技能池选强化（攻速/散射/冰霜/火焰等），凑出流派清屏割草，单局约 6 分钟，越往后 Boss 越强。",
+  "highlights": [
+   "自动射击 + 移动的单手操作，配合同屏百怪清屏的「割草」爽感极强",
+   "随机技能池组合出攻速流/冰霜流/火焰流等百种流派，重开可玩性高",
+   "每关不同末日场景与专属 Boss（变异丧尸/机械改造/冰霜 Boss）制造阶段目标"
+  ],
+  "innovations": [
+   "无实质玩法原创，属「吸血鬼幸存者」3D 化的国产执行，差异在 3D 表现与反恐/末日题材包装"
+  ],
+  "target_user": "18-35 岁碎片化时间男性用户，追求爽感",
+  "monetization": "IAA+IAP 混合（激励视频复活/双倍、武器/英雄/月卡内购），公会增强粘性",
+  "lifecycle": "长线运营，靠赛季主线、新武器/Boss 与公会活动续命"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "肉鸽射击（幸存者 Like）赛道已被「向僵尸开炮」等头部锁死且高度拥挤，核心循环照搬会直接撞车；但 3D 表现与题材仍有差异化空间，需改一处结构（题材/数值模型/目标人群）才能立项。",
+  "suggestions": [
+   "换题材为「修仙渡劫」或「机甲清潮」，用差异化美术与世界观避开撞脸",
+   "把随机技能池改为「武器改装」数值模型，形成不同于纯流派的成长线",
+   "竖屏单手 + 自动射击保留，首关降低怪量、把第一个 Boss 后移到第 5 关提升留存"
+  ],
+  "risks": [
+   "赛道已拥挤、买量 CPI 高",
+   "与「向僵尸开炮」等直接竞品撞品类",
+   "3D 同屏性能在低端机与微信小游戏环境需专项优化"
+  ],
+  "effort": "60–90 人日（2 前端 + 1 美术 + 1 策划），3D 性能优化占相当比重"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/5b/3f/ed5b3fc0-13ff-a9af-c730-3bd788e21d73/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/25/63/94/256394a1-12d4-caad-cb77-faa732082f5b/0b63a73d-0904-438b-b882-9281e90587c4__U5272_U8349.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/dd/ad/11/ddad11f8-e092-6c67-fb42-3614c007a94b/36d0836b-a6fa-4453-94cb-afaa57142313__U6b66_U5668.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/6f/62/c0/6f62c087-04ca-5798-8743-1bc6adab258b/55ba0f6e-69ac-405f-8134-75e5aa94549c__U73a9_U6cd5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/85/d4/b9/85d4b999-ef0d-e29c-173b-4fee0af8f2d5/8f5cdf6f-2357-4db8-9c17-63c58d3a92d2__U673a_U5668_U4eba_1242_U00d72208.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/76/3e/6c/763e6c53-d47e-bcaa-1e97-87833659a18b/eb23dfaf-d83b-49c3-a04c-384f3509696e__U9996_U9886.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/44/ea/21/44ea2184-0724-0a31-5329-69ad4961742d/88011bd1-53c0-4b4c-a10a-a2e1915a6627__U8bcd_U6761.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/c2/dd/fd/c2ddfd0e-dece-045f-575c-d8f03dc29bef/e894c362-a840-4932-b06e-54c977090799__U7279_U6548.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/cf/0d/b2/cf0db2a5-c16e-898d-3716-2d92a61f9d68/b9f889fe-633f-4aed-9dfc-fdd852d5b3d2__U82f1_U96c4_1242_U00d72208.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/9f/de/52/9fde52fd-4e45-505e-74c1-6690945eb6cf/3b046351-31d2-41ca-b9be-3986c8fbdc4c__U5272_U8349.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/22/4d/d7/224dd770-69bc-b7fa-8c72-6900081c8062/07abf8d2-8241-469b-a78b-19f8cd3f0d5f__U6b66_U5668.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/c4/66/11/c46611ca-0cad-80e2-a57b-1e474d5e4bd8/4dcd4677-dcc5-4814-bcdb-be92703f3494__U73a9_U6cd5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/1a/5e/cd/1a5ecd0b-f695-2037-bd05-23f1cb2e0ce6/93f9c2a9-552f-4777-91c5-494e20dcad26__U673a_U5668_U4eba_2048_U00d72732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/ba/62/58/ba62581f-c602-f0e8-4657-62e8d72b6c48/8ab79dd7-af12-4d49-a081-371224d26b50__U7279_U6548.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/90/f3/4d/90f34d63-efab-3f35-3829-13825c801e6a/5e578da7-f49f-45fd-af6f-83f73422b711__U9996_U9886.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/50/25/04/5025048a-f465-08d8-1c1a-0299afe9f2b0/d4ac90e9-c8f8-452e-81af-7de34db93f6a__U8bcd_U6761.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/ec/4f/59/ec4f5962-1f5f-4511-5531-ce77ac49b3da/2af321df-0704-476e-ade3-25f836f46874__U82f1_U96c4_2048_U00d72732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 16"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "iOS 包体 1.4GB，属很重量级，含大量 3D 模型与特效",
+   "level": "confirmed"
+  },
+  {
+   "claim": "3D 俯视肉鸽射击，微信小游戏 3D 主流技术栈为 Unity 导出，故引擎推断 Unity",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%89%8B%E6%9C%BA%E5%8F%8D%E6%81%90%E7%89%B9%E5%88%AB%E8%A1%8C%E5%8A%A8/id6448353442",
+  "https://www.doyo.cn/game/482335.html",
+  "https://m.18183.com/newgames/8512132.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "手机反恐特别行动",
+  "country": "cn",
+  "track_id": 6448353442,
+  "seller": "TenBillion Games Co,. Ltd",
+  "genres": [
+   "游戏",
+   "冒险",
+   "动作"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/5b/3f/ed5b3fc0-13ff-a9af-c730-3bd788e21d73/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/25/63/94/256394a1-12d4-caad-cb77-faa732082f5b/0b63a73d-0904-438b-b882-9281e90587c4__U5272_U8349.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/dd/ad/11/ddad11f8-e092-6c67-fb42-3614c007a94b/36d0836b-a6fa-4453-94cb-afaa57142313__U6b66_U5668.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/6f/62/c0/6f62c087-04ca-5798-8743-1bc6adab258b/55ba0f6e-69ac-405f-8134-75e5aa94549c__U73a9_U6cd5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/85/d4/b9/85d4b999-ef0d-e29c-173b-4fee0af8f2d5/8f5cdf6f-2357-4db8-9c17-63c58d3a92d2__U673a_U5668_U4eba_1242_U00d72208.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/76/3e/6c/763e6c53-d47e-bcaa-1e97-87833659a18b/eb23dfaf-d83b-49c3-a04c-384f3509696e__U9996_U9886.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/44/ea/21/44ea2184-0724-0a31-5329-69ad4961742d/88011bd1-53c0-4b4c-a10a-a2e1915a6627__U8bcd_U6761.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/c2/dd/fd/c2ddfd0e-dece-045f-575c-d8f03dc29bef/e894c362-a840-4932-b06e-54c977090799__U7279_U6548.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/cf/0d/b2/cf0db2a5-c16e-898d-3716-2d92a61f9d68/b9f889fe-633f-4aed-9dfc-fdd852d5b3d2__U82f1_U96c4_1242_U00d72208.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/9f/de/52/9fde52fd-4e45-505e-74c1-6690945eb6cf/3b046351-31d2-41ca-b9be-3986c8fbdc4c__U5272_U8349.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/22/4d/d7/224dd770-69bc-b7fa-8c72-6900081c8062/07abf8d2-8241-469b-a78b-19f8cd3f0d5f__U6b66_U5668.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/c4/66/11/c46611ca-0cad-80e2-a57b-1e474d5e4bd8/4dcd4677-dcc5-4814-bcdb-be92703f3494__U73a9_U6cd5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/1a/5e/cd/1a5ecd0b-f695-2037-bd05-23f1cb2e0ce6/93f9c2a9-552f-4777-91c5-494e20dcad26__U673a_U5668_U4eba_2048_U00d72732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/ba/62/58/ba62581f-c602-f0e8-4657-62e8d72b6c48/8ab79dd7-af12-4d49-a081-371224d26b50__U7279_U6548.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/90/f3/4d/90f34d63-efab-3f35-3829-13825c801e6a/5e578da7-f49f-45fd-af6f-83f73422b711__U9996_U9886.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/50/25/04/5025048a-f465-08d8-1c1a-0299afe9f2b0/d4ac90e9-c8f8-452e-81af-7de34db93f6a__U8bcd_U6761.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/ec/4f/59/ec4f5962-1f5f-4511-5531-ce77ac49b3da/2af321df-0704-476e-ade3-25f836f46874__U82f1_U96c4_2048_U00d72732.jpg/626x1112bb.jpg"
+  ],
+  "description": "这个恐怖的世界充满了危机，小心些，恐怖的怪物在你踏入这个世界时就会开始攻击你。\n你身为一名英雄，在不断的探索并寻找真相的过程中，会有伙伴加入你的队伍。\n尝试在这个恐怖的世界存活下来吧，勇士！\n拿起你的武器，消灭阻挡你脚步的怪物，迈向远方的黎明！\n\n游戏特色：\n-单手操作，释放你的双手并消灭恐怖的怪物\n-上百种Roguelike技能搭配，并且拥有炫酷的终极技能\n-各种不同的场景，带来身临其境的体验\n-多种多样的强大BOSS，正妄想阻挡你前进的步伐",
+  "release_notes": "新内容&养成：\n1.赛季主线玩法\n2.基因系统\n3.异能重塑系统\n4.单兵装甲系统\n5.称号系统\n6.新武器-零度核心（S冰步枪）\n7.新副武器-钢铁风暴\n8.新增两名红色、两名橙色幸存者\n9.新增赛季收藏品、夏日收藏品（缤纷饮吧、冰爽货柜、惬意角落）\n10.新增红色战车技能",
+  "file_size_bytes": 1406353408,
+  "min_os": "13.0",
+  "version": "1.5.6",
+  "release_date": "2024-01-18",
+  "rating": 4.77836,
+  "rating_count": 59758,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E6%89%8B%E6%9C%BA%E5%8F%8D%E6%81%90%E7%89%B9%E5%88%AB%E8%A1%8C%E5%8A%A8/id6448353442?uo=4",
+  "fetched_at": "2026-09-15T21:48:37+08:00"
+ },
+ "slug": "手机反恐特别行动_81057c"
+}

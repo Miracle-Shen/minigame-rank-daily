@@ -1,794 +1,317 @@
 [
   {
-    "name": "解压闯一关",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Cocos Creator / Unity（推断）",
-      "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "明快卡通 + 像素填色，蚂蚁吉祥物搬运工",
-      "dims": {"engine": 2, "art": 2, "anim": 2, "physics": 1, "logic": 2, "data": 2, "server": 2, "audio": 2},
-      "dim_notes": {
-        "physics": "纯点击填色，无碰撞或物理模拟"
-      },
-      "asset_notes": "素材为像素块 + 图标 + 蚂蚁贴图，可程序化生成或 AI 生图批量产出，素材层不是瓶颈",
-      "notes": "数字填色（Color by Number）成熟品类，机制零门槛、代码量小，瓶颈在图鉴包装与题材"
-    },
-    "play": {
-      "core_loop": "按数字提示把颜料一格格填进像素画，蚂蚁搬运工把颜料砖搬上画布，连击累积越填越顺，拼出完整图案即过关，一局数十秒到数分钟。",
-      "highlights": [
-        "连击数字滚动放大（如「连击×743」）的即时正反馈，越填越带劲",
-        "图鉴收集驱动（1101 关进度分页），像集邮一样解锁西瓜/猫咪等主题",
-        "蚂蚁抱砖上画布的填充动画，进度肉眼可见，过关彩纸庆祝点到即止"
-      ],
-      "innovations": ["无实质创新，属于成熟品类的执行优化（数字填色 + 蚂蚁搬运工包装）"],
-      "target_user": "全年龄解压用户，碎片时间填充",
-      "monetization": "IAA 为主（看视频解锁槽位、3 倍速加速），广告略多，无明确内购",
-      "lifecycle": "长线（1101 关图鉴，持续更新题材）"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "填色玩法零门槛、素材轻、代码量小；瓶颈完全在题材与图鉴包装，换题材即可差异化，原题材已高度饱和。",
-      "suggestions": [
-        "换题材为「博物馆修复」「非遗扎染」，用 AI 生图批量产出图鉴降低美术成本",
-        "把蚂蚁搬运工换成「小精灵浇水」等更贴题材的吉祥物",
-        "首屏开放「连击加速」降低前几关等待，把广告位后移到第 10 关之后"
-      ],
-      "risks": ["数字填色品类极度饱和、换皮产品海量", "买量成本高，纯 IAA 变现 LTV 偏低"],
-      "effort": "12–20 人日（1 前端 + 0.5 美术）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "玩法为数字填色 + 蚂蚁搬运工 + 连击系统，图鉴 1101 关", "level": "inferred"},
-      {"claim": "引擎为 Cocos/Unity 推断，无官方确认", "level": "inferred"}
-    ],
-    "sources": [
-      "https://www.17yoo.cn/detail/53495",
-      "https://sj.qq.com/appdetail/wxd168d04b737f0579"
-    ]
-  },
-  {
-    "name": "贪吃蛇大作战",
+    "name": "兵器王者",
     "updated_at": "2026-09-15",
     "generated_by": "agent",
     "tech": {
       "engine": "Cocos Creator",
-      "engine_evidence": "confirmed",
-      "dimension": "2D（含 3D 玩法模式）",
-      "art_style": "Q 萌卡通蛇身贴图，3D 玩法模式为低面数 3D",
-      "dims": {"engine": 3, "art": 5, "anim": 4, "physics": 3, "logic": 3, "data": 4, "server": 5, "audio": 4},
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "二次元/Q版兵器与角色贴图，UI成体系",
+      "dims": {"engine": 2, "art": 3, "anim": 2, "physics": 2, "logic": 3, "data": 4, "server": 3, "audio": 2},
       "dim_notes": {
-        "art": "包体 1.24GB，远超 600MB 阈值，含海量皮肤、表情与 3D 玩法资源",
-        "anim": "蛇身逐段实时跟随 + 大量皮肤特效与粒子",
-        "data": "皮肤 / 会员 / 英雄多线养成 + 订阅",
-        "server": "支持千万人同时在线实时对战，依赖自建网络同步模块",
-        "audio": "定制 BGM + 音效 + 角色语音"
+        "data": "多线养成：兵器等级/淬炼/附魔/阵容/竞技场，资源经济循环偏重，是成本主项",
+        "art": "需成体系兵器图标+角色+场景美术，但素材量级中等（无公开包体，据品类推断）",
+        "physics": "放置自动战斗+手动走位，碰撞/吸附简单，无复杂物理"
       },
-      "asset_notes": "包体 1.24GB，3D 玩法模式与海量皮肤是资产大头；纯 2D 蛇身贴图可轻量，但整体复刻成本被社交资产拉高",
-      "notes": "Cocos 论坛招聘 JD 与开发者访谈确认基于 Cocos 开发；实时多人竞技是技术核心，品牌壁垒极高"
+      "asset_notes": "2D贴图为主，可用AI生图+人工修图批量产出；兵器/角色 Skin 是主要素材开销",
+      "notes": "蓝飞互娱在抖音小游戏赛道的放置RPG模板产品，底层复用度高，引擎与框架风险低；部分聚合站称战斗为3D建模画面（未证实，inferred）"
     },
     "play": {
-      "core_loop": "操控小蛇吃地图上的彩色圆点变长，蛇头撞到其他蛇身即死亡并爆出圆点，长按加速可绕后让对手撞自己，一局数分钟，无尽 / 限时 / 团战多模式。",
+      "core_loop": "收集矿石与图纸→锻造/淬炼兵器→上阵阵容自动战斗+手动走位闯关→竞技对战与挂机收菜，一局数分钟到挂机数小时。",
       "highlights": [
-        "撞击即死的紧张感 + 长蛇碾压的视觉爽感",
-        "加速反杀 / 围杀对手的策略博弈",
-        "团战红黄蓝分组配合，复活续命降低挫败",
-        "皮肤收集与会员特权带来的长期目标"
+        "锻刀/淬炼时的火花与升级反馈，强化‘打铁’爽感",
+        "兵器收集图鉴驱动长线，稀有传说兵器带来收集成就",
+        "自动战斗+手动走位，降低操作门槛同时保留策略空间"
       ],
-      "innovations": [
-        "把单机贪吃蛇改造成实时多人竞技 + 社交（团战 / 赛事），社交化与赛事化是相对单机版本的核心差异点"
-      ],
-      "target_user": "全年龄休闲竞技用户，通勤碎片时间",
-      "monetization": "混合（IAP 会员连续包月 13/35 元、皮肤 + IAA 广告激励）",
-      "lifecycle": "长线运营（2016 至今，自有电竞赛事 SOG）"
+      "innovations": ["无实质创新，属于成熟放置RPG+兵器锻造题材的执行优化"],
+      "target_user": "泛休闲+轻度RPG用户，抖音下沉流量为主",
+      "monetization": "IAP内购为主（兵器/资源/特权），辅以广告；RPG常见首充/月卡/活动礼包",
+      "lifecycle": "长线运营，靠新兵器/副本/活动维持"
     },
     "clone": {
-      "verdict": "不建议",
-      "rationale": "「贪吃蛇」机制本身无版权，但「贪吃蛇大作战」品牌心智极强、实时多人技术门槛与服务器成本高、买量极贵，小团队复刻难有空间。",
+      "verdict": "换肤",
+      "rationale": "核心循环是标准放置RPG模板+兵器锻造题材，引擎与框架成熟、复用度高；差异化完全在题材与首关留存，照抄机制即可成立。",
       "suggestions": [
-        "若坚持做，弱化实时对抗改异步排行榜，降服务器成本",
-        "差异化题材（如「蛞蝓大作战」「光带竞速」）避开品牌撞车"
+        "把兵器锻造换成‘仙器/神兵’或‘机甲组装’题材，保留淬炼/附魔数值结构",
+        "首关把难度与失败点后移，学习《羊了个羊》式难度曲线",
+        "加入‘兵器图鉴’收集线，把单局挂机接到长线目标"
       ],
-      "risks": ["品牌认知被微派占死", "实时对战服务器成本与同步难度高", "休闲竞技买量极贵"],
-      "effort": "60–90 人日（2–3 人：前端 + 后端 + 美术 + 策划），含服务端"
+      "risks": ["蓝飞互娱同赛道已有《四季合合》《抓大鹅》等矩阵，买量竞争激烈", "RPG放置赛道头部被《灵画师》等锁死，同质化严重"],
+      "effort": "40–60人日（1.5前端 + 1美术 + 0.5策划）"
     },
     "shots": [],
     "evidence": [
-      {"claim": "基于 Cocos Creator 开发（微派技术访谈与 Cocos 论坛 JD 确认）", "level": "confirmed"},
-      {"claim": "iOS 包体 1.24GB，含 3D 玩法模式", "level": "confirmed"}
+      {"claim": "抖音畅销榜RPG，蓝飞互娱发行，曾升至第2名（GameLook 2026-07榜单）", "level": "confirmed"},
+      {"claim": "玩法为兵器锻造收集+放置挂机+策略战斗（百度百科/多家聚合站）", "level": "confirmed"},
+      {"claim": "引擎疑为Cocos Creator（抖音RPG小游戏主流，未找到官方确认）", "level": "inferred"},
+      {"claim": "部分聚合站称战斗为3D建模画面（未证实）", "level": "inferred"}
     ],
     "sources": [
-      "https://apps.apple.com/cn/app/%E8%B4%AA%E5%90%83%E8%9B%87%E5%A4%A7%E4%BD%9C%E6%88%98/id1120536875",
-      "https://forum.cocos.org/t/topic/54100"
+      "https://baike.baidu.com/item/%E5%85%B5%E5%99%A8%20%E7%8E%8B%E8%80%85",
+      "https://m.18touch.com/game/202235.html"
     ]
   },
   {
-    "name": "永远的蔚蓝星球",
+    "name": "我要消光光",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Cocos Creator",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "扁平卡通水果图标，轻量贴图",
+      "dims": {"engine": 2, "art": 2, "anim": 1, "physics": 1, "logic": 3, "data": 1, "server": 1, "audio": 1},
+      "dim_notes": {
+        "logic": "关卡难度曲线陡峭（‘过不了第二关’），需专门设计关卡与特殊消除规则",
+        "art": "仅水果图标+背景，可程序化/通用素材库生成",
+        "physics": "纯消除无物理"
+      },
+      "asset_notes": "极轻，水果图标可程序化生成或通用素材库；素材层不是瓶颈",
+      "notes": "典型微信/抖音消除小游戏，技术栈成熟，引擎与框架风险极低"
+    },
+    "play": {
+      "core_loop": "在棋盘/场景中点击或拖拽消除相同水果，清空或达成目标即过关；难度逐关陡增，一局数十秒到一两分钟。",
+      "highlights": [
+        "消除瞬间的清屏反馈与音效，解压直接",
+        "‘差一点就过’的强悬念驱动重试与看广告续命"
+      ],
+      "innovations": ["无实质创新，属于成熟消除品类的执行优化；‘烧脑’定位靠关卡难度而非机制"],
+      "target_user": "泛休闲用户，朋友圈/抖音碎片化传播",
+      "monetization": "IAA为主（复活/提示/洗牌看广告），可能辅以去广告内购",
+      "lifecycle": "短平快爆款，靠关卡更新与买量维持"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "消除机制成熟且代码量极小、素材轻；瓶颈完全在题材与关卡难度设计，换题材即可差异化。",
+      "suggestions": [
+        "把水果换成‘中药抓药台’‘二十四节气’等文化题材，三消/消除匹配即成立",
+        "首关把难度降到极低、失败点后移到第5关之后，学习爆款留存曲线",
+        "加入图鉴/收集线把单局接到长线目标"
+      ],
+      "risks": ["消除赛道极度饱和，买量成本高", "原题材若直接复制会撞车"],
+      "effort": "10–15人日（1前端 + 0.5美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "微信小游戏，‘超级烧脑的消水果小游戏’（应用宝/7k7k）", "level": "confirmed"},
+      {"claim": "引擎疑为Cocos Creator或LayaAir（微信消除小游戏主流，未确认）", "level": "inferred"}
+    ],
+    "sources": [
+      "https://sj.qq.com/appdetail/wx6f9d68074f7c003f?supply_id=2100100027&source_id=yuanbao",
+      "https://www.7k7k.com/wxgame/21705.htm"
+    ]
+  },
+  {
+    "name": "蓝色星原:旅谣",
     "updated_at": "2026-09-15",
     "generated_by": "agent",
     "tech": {
       "engine": "Unity",
       "engine_evidence": "confirmed",
-      "dimension": "2D",
-      "art_style": "Q 萌卡通，海洋守护主题",
-      "dims": {"engine": 3, "art": 4, "anim": 3, "physics": 2, "logic": 4, "data": 5, "server": 4, "audio": 3},
+      "dimension": "3D",
+      "art_style": "二次元3D建模，顶级材质/光影/面部表现",
+      "dims": {"engine": 4, "art": 5, "anim": 5, "physics": 3, "logic": 5, "data": 5, "server": 4, "audio": 5},
       "dim_notes": {
-        "art": "包体约 492MB，成体系 Q 萌角色 / 怪物 / 场景美术",
-        "logic": "三重随机（召唤池 / 技能词条 / 合成进化）+ 英雄 2 合 1 + 羁绊，策略组合超百种",
-        "data": "英雄抽卡养成 + 国王养成 + 战令基金月卡 + 公会 + 赛季经济循环",
-        "server": "合作模式 + 联盟 + PVP 实时匹配，强联网"
+        "art": "包体约3.3GB、顶级二次元3D建模+材质+光影，海量角色/场景/奇波资产，成本最高项",
+        "anim": "骨骼动画+大量特效与剧情演出，面部微表情/服装/战斗姿态需高规格动捕与制作",
+        "logic": "开放世界探索+实时战斗+家园建造+奇波收集+剧情系统，系统极度复杂",
+        "data": "多线养成：角色/星宠(奇波)/装备/家园/赛季，长线经济循环",
+        "audio": "全定制配乐(川井宪次等)与角色语音"
       },
-      "asset_notes": "Q 萌 2D 美术成体系但可控，素材层不是最大瓶颈；瓶颈在系统设计与数值平衡",
-      "notes": "团结引擎优化案例确认原使用 Unity；塔防 + 肉鸽 + 合成的融合（target-like × LDlike）是其结构亮点"
+      "asset_notes": "3D资产为主，需专业建模/动画/动作捕捉团队，素材层是核心壁垒与成本中心",
+      "notes": "由积咪网络研发、蛮啾系（App Store卖方Shanghai ManNai/蛮奈）发行，星宠结伴×幻想大世界RPG；引擎Unity多来源确认。注意：输入publisher‘蛮奈网络’与外部资料‘蛮啾网络/积咪网络’存在差异，以App Store卖方为准标注inferred。"
     },
     "play": {
-      "core_loop": "竖屏对向塔防：上方出怪、下方防守，消耗银币召唤随机英雄，两同星合成升星，每 30 秒刷新召唤池并触发随机技能 / 进化，抵御波数即胜，一局约 3 分钟。",
+      "core_loop": "在普罗米利亚大世界自由探索→邂逅少女/收集奇波伙伴→实时动作战斗(格挡/闪避/连携)→家园种植建造与社交，长线RPG循环。",
       "highlights": [
-        "随机召唤到主 C 的惊喜感（三重肉鸽变数）",
-        "二合一升星解锁技能 / 被动的即时成长爽",
-        "三分钟快局 + 单手点击，贴合碎片时间",
-        "合作 BOSS 分工控场 + 同步大招暴击"
+        "开放世界自由探索+奇波生态观察，探索求知欲驱动长留",
+        "格挡/闪避/连携的爽快动作节奏与打击反馈",
+        "家园建造+奇波入驻的治愈养成，提供非战斗满足感",
+        "多人社交/组队/合影，社交留存强"
       ],
-      "innovations": [
-        "塔防 + 肉鸽 + 合成融合（target-like × LDlike），用局内随机打破传统塔防固定阵容，相对纯塔防是结构创新"
+      "innovations": ["星宠(奇波)结伴×开放世界RPG的题材组合；家园+战斗双循环；属二游旗舰品质定位"],
+      "target_user": "二次元核心玩家，追求画质与养成的重度用户",
+      "monetization": "IAP内购（角色/星宠抽取、皮肤、月卡/战令），二游标准变现",
+      "lifecycle": "长线运营，靠版本/活动/新角色维持"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "重资本二次元开放世界RPG，3.3GB包体、Unity+顶级3D资产+全定制音频，研发与买量成本极高；且‘蓝色星原’为蛮啾系自有IP，有版权与品牌壁垒，小团队无法复刻。",
+      "suggestions": [
+        "若仅借鉴：抽取‘星宠收集+家园建造’轻量子玩法做成2D卡牌，剥离开放世界",
+        "题材换成原创二次元但避开‘星宠’命名与美术风格，规避IP风险"
       ],
-      "target_user": "休闲策略用户，全年龄",
-      "monetization": "混合（月卡 / 战令 / 抽卡，广告相对克制）",
-      "lifecycle": "长线（赛季活动、IP 联动、英雄持续更新）"
+      "risks": ["蛮啾系自有IP，美术/命名直接复制构成侵权", "开放世界研发需千万级投入，远超小游戏复刻预算", "二游旗舰赛道已被《原神》等锁死，后来者获量难"],
+      "effort": "不适用（重资本，建议放弃独立复刻；子玩法借鉴约200+人日）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "引擎Unity（萌娘百科/Bangumi/切游网多来源确认）", "level": "confirmed"},
+      {"claim": "包体约3.3GB、二次元3D开放世界RPG（App Store媒体材料）", "level": "confirmed"},
+      {"claim": "开发积咪网络、发行蛮啾网络（萌娘百科）", "level": "confirmed"},
+      {"claim": "输入publisher‘蛮奈网络’与卖方Shanghai ManNai对应，外部亦称蛮啾，关系标注inferred", "level": "inferred"}
+    ],
+    "sources": [
+      "https://apps.apple.com/cn/app/%E8%93%9D%E8%89%B2%E6%98%9F%E5%8E%9F-%E6%97%85%E8%B0%A3/id6754017631?uo=4",
+      "https://zh.moegirl.org.cn/zh-tw/%E8%93%9D%E8%89%B2%E6%98%9F%E5%8E%9F%EF%BC%9A%E6%97%85%E8%B0%A3"
+    ]
+  },
+  {
+    "name": "指尖幻影",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "Q萌末日僵尸画风，角色/武器/场景贴图",
+      "dims": {"engine": 3, "art": 3, "anim": 3, "physics": 2, "logic": 4, "data": 4, "server": 3, "audio": 2},
+      "dim_notes": {
+        "logic": "背包格子空间规划(占格形状取舍)+武器合成树+肉鸽随机+BOSS，机制组合复杂是成本主项",
+        "data": "多线养成：芯片6类/科技线/皮肤/角色等级/联盟/赛季，局外养成反哺局内",
+        "art": "Q萌角色+僵尸+多场景，包体约1.5GB，素材量中等偏上"
+      },
+      "asset_notes": "2D贴图为主(Q萌)，可用AI生图+人工修图；武器/角色Skin是主要素材开销",
+      "notes": "背包Like整理+靶心Like自动射击+肉鸽的融合体(类似《弹壳特攻队》+背包机制)，海南异界科技自研；引擎据体量(1.5GB、30+角色100+武器)推断Unity，未确认。"
+    },
+    "play": {
+      "core_loop": "拖动武器进背包格→相同武器合成升阶→自动射击抵御尸潮→局外芯片/科技养成反哺，一局约2分钟割草。",
+      "highlights": [
+        "背包格空间规划即战力核心，‘占格形状取舍’带来策略爽感",
+        "同种武器合成进化+分支特效(寒冰/雷电/火焰)，构筑流派",
+        "尸潮割草+自动射击的密集反馈，解压直接"
+      ],
+      "innovations": ["背包格空间规划×靶心自动射击×肉鸽的三重融合，区别于纯割草肉鸽"],
+      "target_user": "泛休闲+轻度肉鸽用户，末日/割草题材受众",
+      "monetization": "混合(IAA广告+IAP内购：芯片/能源核晶/皮肤/月卡/战令)",
+      "lifecycle": "长线运营，靠新武器/芯片/联盟活动维持"
     },
     "clone": {
       "verdict": "变种创意",
-      "rationale": "融合机制有可取之处，但同发行矩阵（诗悦 / 9377）已有同类，照抄会撞车；需改一处结构或题材。",
+      "rationale": "背包格空间规划+靶心射击的融合是有效结构创新，但整体仍在割草肉鸽成熟框架内，照抄会与榜上产品直接撞车；需改一处结构(如换核心循环的一环/数值模型)才成立。",
       "suggestions": [
-        "换题材为「太空废土守护」「森灵复苏」",
-        "把「英雄卡」改成「机甲模块」弱化抽卡强度，降合规风险",
-        "首屏把堆叠层数降到 2 层降低上手门槛"
+        "把‘背包格武器’换成‘植物/塔防卡牌’占格，保留空间规划即战力核心",
+        "数值模型从‘合成升阶’改为‘元素反应’体系，拉开与《指尖幻影》差异",
+        "目标人群从末日僵尸换为修仙/西游，换皮即差异化"
       ],
-      "risks": ["同发行商已有融合塔防矩阵，题材饱和", "融合玩法数值平衡门槛中等", "SLG 向买量成本偏高"],
-      "effort": "40–60 人日（2 前端 + 1 美术 + 1 策划）"
+      "risks": ["割草肉鸽赛道已有《弹壳特攻队》等头部，买量成本高", "背包Like机制若照搬可能构成玩法撞车与美术侵权"],
+      "effort": "50–80人日（1.5前端 + 1美术 + 0.5策划）"
     },
     "shots": [],
     "evidence": [
-      {"claim": "原使用 Unity 开发（团结引擎优化案例提及）", "level": "confirmed"},
-      {"claim": "玩法为塔防 + 肉鸽 + 合成融合，包体约 492MB", "level": "inferred"}
+      {"claim": "玩法=背包管理+肉鸽+靶心射击，末日僵尸(百度百科/3DM/TapTap)", "level": "confirmed"},
+      {"claim": "海南异界科技自研，版号ISBN 978-7-498-12847-8(百度百科)", "level": "confirmed"},
+      {"claim": "引擎据包体约1.5GB与角色/武器量级推断Unity，未确认", "level": "inferred"}
     ],
     "sources": [
-      "https://baike.baidu.com/item/%E6%B0%B8%E8%BF%9C%E7%9A%84%E8%94%9A%E8%93%9D%E6%98%9F%E7%90%83/68197089",
-      "https://news.qq.com/rain/a/20260827A0A0SX00"
+      "https://apps.apple.com/cn/app/%E6%8C%87%E5%B0%96%E5%B9%BB%E5%BD%B1/id6748455249?uo=4",
+      "https://baike.baidu.com/item/%E6%8C%87%E5%B0%96%E5%B9%BB%E5%BD%B1/63802287"
     ]
   },
   {
-    "name": "看谁先上车",
+    "name": "飞行模拟大师",
     "updated_at": "2026-09-15",
     "generated_by": "agent",
     "tech": {
-      "engine": "Cocos Creator / Unity（推断）",
+      "engine": "Cocos Creator",
       "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "简单卡通人物 + 公交车 / 小人图标",
-      "dims": {"engine": 2, "art": 2, "anim": 2, "physics": 2, "logic": 3, "data": 1, "server": 2, "audio": 2},
+      "dimension": "3D",
+      "art_style": "3D卡通飞行场景，多主题地图",
+      "dims": {"engine": 2, "art": 3, "anim": 2, "physics": 3, "logic": 2, "data": 2, "server": 2, "audio": 2},
       "dim_notes": {
-        "data": "纯关卡解锁，无成长线"
+        "physics": "飞行手感/重力/多段跳跃/滑翔/碰撞与闪避，需轻度物理精调，是相对成本项",
+        "art": "3D场景+多种主题地图(未来都市/遗迹/云端)，素材量中等",
+        "logic": "关卡障碍+道具+轻度战斗，规则简单"
       },
-      "asset_notes": "素材为卡通小人 / 公交车 / 颜色块，可程序化生成，素材层零瓶颈",
-      "notes": "属于 Bus Jam / Parking Jam 品类的上车变体，机制成熟，瓶颈在题材与关卡布局"
+      "asset_notes": "3D场景贴图与飞机模型为主，可用通用3D素材库；体量中等",
+      "notes": "抖音新游榜飞行跑酷休闲产品(亦存在‘真实飞行模拟驾驶’同名版本，本批按榜单名取跑酷版)，技术栈成熟，引擎据品类推断Cocos/Laya，未确认。"
     },
     "play": {
-      "core_loop": "规划小人 / 公交移动路径，按颜色把乘客匹配到对应巴士并顺利上车，避免车辆互相堵塞，全员上车即过关，关卡从单色 2 车递进到多色十几车交叉。",
+      "core_loop": "操控角色/飞机在立体赛道中多段跳跃滑翔，躲避旋转风车/移动平台等动态障碍，收集金币与道具抵达终点，一局数十秒到一两分钟。",
       "highlights": [
-        "规划路线的策略爽感（前排优先、同向顺序）",
-        "疏通拥堵瞬间的释放感",
-        "颜色匹配 + 限时关卡的紧张驱动"
+        "多段跳跃+滑翔的空中变向，操作有技巧深度",
+        "动态障碍组合(旋转风车/陷阱)带来即时反应爽感",
+        "金币收集+装备升级(喷射背包/磁力鞋)的正反馈"
       ],
-      "innovations": ["无实质创新，属于成熟品类的执行优化（Bus Jam 上车变体）"],
-      "target_user": "全年龄休闲解压用户",
-      "monetization": "IAA（看视频获提示 / 道具）+ 轻 IAP",
-      "lifecycle": "长线（关卡持续更新地图场景）"
+      "innovations": ["无实质创新，属于成熟飞行跑酷品类的执行优化"],
+      "target_user": "泛休闲跑酷用户，抖音下沉流量",
+      "monetization": "IAA为主(复活/道具看广告)，可能辅以皮肤内购",
+      "lifecycle": "短平快爆款，靠关卡与皮肤更新维持"
     },
     "clone": {
       "verdict": "换肤",
-      "rationale": "Bus Jam 机制成熟、代码量小、素材轻；瓶颈在题材与关卡设计，换题材即可差异化。",
+      "rationale": "飞行跑酷机制成熟、代码量小、素材轻；瓶颈在题材与关卡设计，换题材即可差异化，最适合低成本换皮。",
       "suggestions": [
-        "换题材为「上班早高峰地铁」「动物大迁徙过桥」",
-        "加差异化道具（自动分流 / 时间暂停）并前置到高难关",
-        "把「全国地图」收集改成「城市打卡」增强留存"
+        "把飞机换成‘火箭/飞毯/神兽’，保留跳跃滑翔核心",
+        "加入国漫/IP联名皮肤，提升买量素材差异化",
+        "首关把障碍密度降到极低、失败点后移优化留存"
       ],
-      "risks": ["Bus Jam / 停车 Jam 品类全球海量换皮", "买量竞争激烈、CPI 偏高"],
-      "effort": "15–25 人日（1 前端 + 0.5 美术）"
+      "risks": ["飞行跑酷赛道饱和，买量成本高", "同名‘真实飞行模拟’版本可能造成搜索混淆"],
+      "effort": "15–25人日（1前端 + 0.5美术）"
     },
     "shots": [],
     "evidence": [
-      {"claim": "玩法为公交 / 小人上车路径规划 + 颜色匹配", "level": "inferred"},
-        {"claim": "引擎为 Cocos/Unity 推断，无官方确认", "level": "inferred"}
+      {"claim": "抖音新游榜飞行跑酷休闲游戏，广州易游互玩科技(榜单输入+聚合站)", "level": "confirmed"},
+      {"claim": "玩法含3D场景/多段跳跃/滑翔/动态障碍(聚合站描述)", "level": "inferred"},
+      {"claim": "引擎疑为Cocos Creator或LayaAir(抖音跑酷小游戏主流，未确认)", "level": "inferred"}
     ],
     "sources": [
-      "https://sj.qq.com/appdetail/wx641f825d5dce9ea9",
-      "https://www.17yoo.cn/detail/50400"
+      "https://www.picxiaobai.com/az/49834.html",
+      "https://www.niwanwan.com/down/224169.html"
     ]
   },
   {
-    "name": "解压打毛线",
+    "name": "星途天城",
     "updated_at": "2026-09-15",
     "generated_by": "agent",
     "tech": {
-      "engine": "Cocos Creator / Unity（推断）",
-      "engine_evidence": "inferred",
-      "dimension": "2D（含 3D 物理表现）",
-      "art_style": "奶油系毛线球 / 线轴，柔和治愈",
-      "dims": {"engine": 2, "art": 2, "anim": 3, "physics": 3, "logic": 2, "data": 1, "server": 1, "audio": 2},
-      "dim_notes": {
-        "physics": "线头拖拽需模拟缠绕 / 交叉阻挡，误序会卡死",
-        "data": "纯解谜，无成长线",
-        "server": "基本单机，无联网需求"
-      },
-      "asset_notes": "毛线球 / 线轴素材简单，可用 3D 轻量模型或 2D 序列帧，素材层轻松",
-      "notes": "理线 / 排序类解压玩法，拖拽物理手感是核心，机制成熟"
-    },
-    "play": {
-      "core_loop": "点住线头拖动，把同色毛线卷进对应线轴收纳，外层先理、内层后处理，误序会卡死，全部理顺即通关，无时间压力。",
-      "highlights": [
-        "理顺缠绕毛线的解压释放感",
-        "ASMR 沙沙声 + 柔光视觉的沉浸放松",
-        "3D 物理拖拽手感（拉动 / 反弹）"
-      ],
-      "innovations": ["无实质创新，属于成熟品类的执行优化（理线 / 排序变形）"],
-      "target_user": "解压 / 治愈向用户，睡前碎片时间",
-      "monetization": "IAA（看广告获剪刀 / 提示 / 重置道具）",
-      "lifecycle": "长线（海量递进关卡）"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "理线解压机制零门槛、素材轻；瓶颈在题材与物理手感调校，换题材即可差异化。",
-      "suggestions": [
-        "换题材为「解压整理衣柜」「疏通水管」「理耳机线」",
-        "强化 ASMR 音效与触感反馈作为卖点",
-        "加「一键理线」付费道具降低卡关流失"
-      ],
-      "risks": ["解压排序品类饱和", "易因关卡卡死引发差评"],
-      "effort": "15–25 人日（1 前端 + 0.5 美术）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "玩法为毛线球颜色匹配 / 拖拽理线收纳，含 3D 物理表现", "level": "inferred"},
-      {"claim": "引擎为 Cocos/Unity 推断", "level": "inferred"}
-    ],
-    "sources": [
-      "https://www.18183.com/zhxz/9028288.html",
-      "https://www.7724.com/syzx/news/238019.html"
-    ]
-  },
-  {
-    "name": "Bus Fever Party!",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Unity（推断）",
+      "engine": "Unity",
       "engine_evidence": "inferred",
       "dimension": "2D",
-      "art_style": "明亮卡通，多彩巴士与乘客",
-      "dims": {"engine": 3, "art": 4, "anim": 3, "physics": 2, "logic": 3, "data": 2, "server": 2, "audio": 3},
+      "art_style": "二次元卡牌+3D场景特效，蒸汽朋克/神话美术",
+      "dims": {"engine": 3, "art": 4, "anim": 3, "physics": 1, "logic": 4, "data": 5, "server": 3, "audio": 3},
       "dim_notes": {
-        "art": "iOS 包体 466MB，含数百关与多主题美术资源"
+        "data": "多线养成：角色三阶形象/星灵/装备/科技/赛季+放置资源，长线经济循环，成本主项",
+        "art": "二次元角色多套形象(三阶段美术)+3D场景+蒸汽朋克美术，包体约590MB，素材量偏高",
+        "logic": "回合制策略+星灵进阶+元素弱点+主角职业切换+阵容搭配，系统复杂",
+        "physics": "回合制无物理"
       },
-      "asset_notes": "巴士 / 乘客图标与多主题关卡美术成体系，包体偏大主要因关卡量，素材可模板化产出",
-      "notes": "Lumi Games（Faith Mobile）出品的 Bus Jam 出海变体，海外 BR/CH 表现强，机制成熟"
+      "asset_notes": "2D角色立绘+3D场景，角色多套形态Skin是主要素材开销；可用AI生图+人工修图",
+      "notes": "蒸汽神话策略RPG卡牌，广州春芒网络研发；二次元画风+3D场景，引擎据品类(卡牌RPG+3D)推断Unity，未确认。"
     },
     "play": {
-      "core_loop": "点击 / 拖拽巴士腾出空间并规划路径，把对应颜色乘客匹配到正确巴士，避开障碍，用 boosters 救场，清空道路即过关，可离线游玩。",
+      "core_loop": "抽取/培养星灵(角色三阶觉醒)→搭配主角职业与元素弱点组阵容→回合制策略战斗→放置挂机收资源，长线卡牌循环。",
       "highlights": [
-        "疏通拥堵的释放感",
-        "颜色匹配 + 多车交叉的空间规划",
-        "boosters 救场的策略爽",
-        "离线可玩、无时间压力"
+        "角色三阶段美术形象，养成突破有清晰成长印记",
+        "主角职业无损切换+星灵/元素弱点，策略深度高于纯数值卡牌",
+        "放置挂机减负+新卡秒上战场，降低养成压力"
       ],
-      "innovations": ["无实质创新，属于成熟品类的执行优化（Bus Jam 出海换皮）"],
-      "target_user": "海外休闲解压用户（拉美 / 中国区强势）",
-      "monetization": "混合（免费 + 广告 IAA + IAP 去广告 / 道具）",
-      "lifecycle": "长线（持续更新关卡与主题）"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "Bus Jam 机制成熟、素材轻；瓶颈在题材与美术主题，换题材即可差异化。",
-      "suggestions": [
-        "换题材为「飞机撤离」「救救小猫」「校车调度」",
-        "强化 boosters 组合作为差异化记忆点",
-        "本地化华语 / 日韩主题降低出海美术成本"
-      ],
-      "risks": ["Bus Jam / Car Jam 品类全球海量换皮", "出海买量竞争激烈"],
-      "effort": "15–25 人日（1 前端 + 0.5 美术）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "iOS 包体 466MB（App Store 官方），含数百关", "level": "confirmed"},
-      {"claim": "引擎为 Unity 推断，无官方确认", "level": "inferred"}
-    ],
-    "sources": [
-      "https://apps.apple.com/us/app/bus-fever-party/id6746743297",
-      "https://developers.appbrain.com/app/bus-fever-car-jam-escape/gridplus.busjam.carpuzzle"
-    ]
-  },
-  {
-    "name": "肥鹅美食街",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Unity / Cocos（推断）",
-      "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "Q 萌软糖风，圆滚滚低多边形肥鹅，高饱和暖色食物",
-      "dims": {"engine": 3, "art": 3, "anim": 3, "physics": 1, "logic": 4, "data": 4, "server": 2, "audio": 3},
-      "dim_notes": {
-        "physics": "无物理，纯拖拽合成",
-        "logic": "二合合成树 + 厨具冷却出餐双抉择 + 并行订单与棋盘空间管理",
-        "data": "金币经营扩建 + 菜谱解锁 + 离线挂机经济循环"
-      },
-      "asset_notes": "Q 萌角色 / 食物 / 店铺美术成体系但可控（包体 229MB 属「中」），素材层不是瓶颈",
-      "notes": "豪腾创想「肥鹅 IP」续作，合成 + 经营融合，已完成度高"
-    },
-    "play": {
-      "core_loop": "在棋盘点击闪电资源产出食材，拖拽两个相同物品二合升级，高阶菜需投入烤架 / 汤锅 / 烤箱等厨具冷却出餐，完成肥鹅客人订单赚金币，扩建美食街，一局数次点击、离线自动产收。",
-      "highlights": [
-        "合成出餐的连击满足与「合出硬菜」的爽点",
-        "从路边摊养成网红美食城的成长感",
-        "肥鹅客人剧情 + 隐藏菜谱的治愈收集",
-        "离线挂机收菜，碎片时间一键领取"
-      ],
-      "innovations": [
-        "合成 + 烹饪双抉择机制（高阶菜不能直接合、需投厨具等冷却），打破无脑二合惯性，相对纯合成是细节创新"
-      ],
-      "target_user": "女性向 / 治愈休闲用户，全年龄",
-      "monetization": "混合（IAA + IAP 去广告 / 扩建）",
-      "lifecycle": "长线（菜谱、店铺、客人剧情持续更新）"
+      "innovations": ["轻探索(埃努玛浮空世界巡游)+放置卡牌的组合；‘人即神’三阶觉醒叙事包装"],
+      "target_user": "二次元卡牌用户，偏好轻松长线养成",
+      "monetization": "IAP内购(抽卡/月卡/战令/皮肤)为主，控制广告与红点",
+      "lifecycle": "长线运营，靠新卡/赛季/活动维持"
     },
     "clone": {
       "verdict": "微创新",
-      "rationale": "合成经营赛道已极度成熟（豪腾自身就有矩阵），只值得在「合成 + 制作双抉择」上做细节升级，不建议独立立项。",
+      "rationale": "核心仍是成熟放置卡牌RPG模板，轻探索与大世界包装属细节升级而非结构创新；赛道已极度饱和，不建议独立立项，仅适合在细节做体验升级或作为填充位。",
       "suggestions": [
-        "换 IP 题材为「萌宠咖啡馆」「中药铺」",
-        "强化「合成 + 制作」双抉择作为核心差异，弱化纯二合",
-        "用 AI 生图批量产出食材图标降本"
+        "把‘蒸汽神话’换成‘国风仙侠/克苏鲁’题材，保留三阶觉醒与元素弱点",
+        "强化‘轻探索’为大世界挂机玩法，与纯卡牌拉开差异",
+        "主角职业切换做成可DIY build系统，提升策略深度"
       ],
-      "risks": ["合成经营赛道极饱和", "与豪腾自家矩阵及大量同类正面竞争", "美术同质化"],
-      "effort": "30–45 人日（1–2 前端 + 1 美术 + 1 策划）"
+      "risks": ["卡牌RPG赛道头部被同类及《明日方舟》等锁死，获量难", "美术若贴近二次元旗舰存在侵权与买量成本风险"],
+      "effort": "80–120人日（2前端 + 1.5美术 + 1策划）"
     },
     "shots": [],
     "evidence": [
-      {"claim": "iOS 包体 229MB，Q 萌软糖风合成经营", "level": "confirmed"},
-      {"claim": "引擎为 Unity/Cocos 推断，无官方确认", "level": "inferred"}
+      {"claim": "蒸汽神话策略RPG卡牌，广州春芒网络研发(好游快爆/TapTap/百度百科)", "level": "confirmed"},
+      {"claim": "二次元画风+3D场景、回合制策略+放置挂机(百度百科/TapTap)", "level": "confirmed"},
+      {"claim": "引擎据卡牌RPG+3D场景推断Unity，未确认", "level": "inferred"}
     ],
     "sources": [
-      "https://apps.apple.com/cn/app/%E8%82%A5%E9%B9%85%E7%BE%8E%E9%A3%9F%E8%A1%97/id6758614459",
-      "https://game.xiaomi.com/viewpoint/1674478871_1787725960792_100"
-    ]
-  },
-  {
-    "name": "Colony Flow!",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Unity",
-      "engine_evidence": "confirmed",
-      "dimension": "2D",
-      "art_style": "像素风，蚂蚁搬运彩色方块",
-      "dims": {"engine": 3, "art": 4, "anim": 3, "physics": 1, "logic": 3, "data": 2, "server": 2, "audio": 3},
-      "dim_notes": {
-        "art": "包体 451MB，含动物 / 食物 / 节日等数百主题像素画",
-        "physics": "无物理，纯点击排序"
-      },
-      "asset_notes": "像素画主题美术量大但可程序化 / 模板化产出，素材层可控",
-      "notes": "AppGoblin SDK 检测确认集成 Unity 开发工具；蚂蚁 color-sorting 解谜，机制成熟"
-    },
-    "play": {
-      "core_loop": "点击方块堆放出对应颜色蚂蚁，把场上同色方块搬回巢穴，5 个开放槽位管理顺序，开错颜色或槽位塞满就卡死，清空全部方块解锁底层像素画，无计时压力。",
-      "highlights": [
-        "规划出箱顺序的脑爽（别让槽位 clog）",
-        "蚂蚁成队列流动的视觉满足",
-        "解锁完整像素画的收集成就感",
-        "无计时无体力，纯放松"
-      ],
-      "innovations": ["无实质创新，属于成熟品类的执行优化（color / block sorting 像素画包装）"],
-      "target_user": "海外解压 / 收集向用户",
-      "monetization": "混合（免费 + 广告 IAA + IAP 提示 / 去广告）",
-      "lifecycle": "长线（数百关像素画主题）"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "color sorting 机制成熟、代码量小；瓶颈在像素画主题与关卡量，换主题即可差异化。",
-      "suggestions": [
-        "换主题为「海洋清理」「花园种植」「文物修复」",
-        "加一点障碍 / 物理变体提升策略深度",
-        "用 AI 像素画生成批量产出图集降本"
-      ],
-      "risks": ["排序解谜全球饱和", "出海买量竞争"],
-      "effort": "15–25 人日（1 前端 + 0.5 美术）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "集成 Unity 开发工具（AppGoblin SDK 检测）", "level": "confirmed"},
-      {"claim": "iOS 包体 451MB，含数百关像素画", "level": "confirmed"}
-    ],
-    "sources": [
-      "https://apps.apple.com/us/app/colony-flow/id6779167923",
-      "https://appgoblin.info/apps/6779167923"
-    ]
-  },
-  {
-    "name": "找个儿不同",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Cocos Creator / Unity（推断）",
-      "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "卡通温馨成对图片",
-      "dims": {"engine": 2, "art": 2, "anim": 1, "logic": 1, "data": 1, "server": 2, "audio": 1, "physics": 1},
-      "dim_notes": {
-        "anim": "几乎无动画，仅点击标记反馈",
-        "logic": "单规则找茬，无系统",
-        "data": "无成长线，仅关卡解锁 / 图集",
-        "audio": "通用音效，无定制",
-        "physics": "纯点击标记，无物理"
-      },
-      "asset_notes": "核心瓶颈是成对图片素材，可用 AI 生图 / 摄影批量产出，需注意图库版权",
-      "notes": "经典找茬品类，机制零门槛，瓶颈完全在素材与题材"
-    },
-    "play": {
-      "core_loop": "在两幅相似图片中找出指定数量（通常 5 / 12 处）的不同，点击标记，限时或无尽模式下找全即过关。",
-      "highlights": [
-        "「发现了！」的眼力确认爽感",
-        "限时模式的时间压力驱动",
-        "图集 / 主题收集"
-      ],
-      "innovations": ["无实质创新，属于成熟品类的执行优化"],
-      "target_user": "全年龄观察向用户，亲子互动",
-      "monetization": "IAA（看广告获提示 / 放大镜）",
-      "lifecycle": "长线（持续更新图集）"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "找茬机制零门槛、代码量极小；瓶颈在成对图片素材与题材，换题材 + AI 出图即可差异化。",
-      "suggestions": [
-        "换题材为「国风古画找茬」「品牌联名图」「职场梗图」",
-        "用 AI 批量产出成对图，降低素材成本",
-        "加「放大镜 / 提示」付费道具提升变现"
-      ],
-      "risks": ["影视 / IP 图片涉及素材版权", "品类老旧但换皮仍多"],
-      "effort": "10–18 人日（1 前端 + 0.5 美术）+ 素材"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "玩法为经典找不同 / 找茬", "level": "inferred"},
-      {"claim": "引擎为 Cocos/Unity 推断", "level": "inferred"}
-    ],
-    "sources": [
-      "https://baike.baidu.com/item/%E6%89%BE%E4%B8%8D%E5%90%8C/2465039",
-      "https://www.17yoo.cn/detail/47038"
-    ]
-  },
-  {
-    "name": "开局带把枪",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Unity（推断）",
-      "engine_evidence": "inferred",
-      "dimension": "3D",
-      "art_style": "写实 / 半写实 3D 战区场景与枪械",
-      "dims": {"engine": 4, "art": 5, "anim": 4, "physics": 4, "logic": 4, "data": 4, "server": 2, "audio": 5},
-      "dim_notes": {
-        "engine": "3D 射击需自研弹道 / 命中 / 敌人 AI 框架，改造量大",
-        "art": "包体 1.45GB，3D 场景 / 枪械 / 角色资源海量",
-        "anim": "枪械开火 / 换弹 / 弹道特效与命中反馈",
-        "physics": "弹道、风速、命中物理反馈需精调",
-        "logic": "任务模式 + 敌人 AI + 武器改造树 + 技能系统",
-        "data": "武器升级 + 技能 + 装备收集多线养成",
-        "audio": "强调沉浸式环境音 + 动态配乐 + 语音"
-      },
-      "asset_notes": "1.45GB 包体以 3D 场景 / 枪械 / 角色为主，重资产；评分仅 1.6 提示完成度差、疑似素材拼凑，素材风险高",
-      "notes": "3D 狙击 RPG，技术门槛与资产成本双高，App Store 评分 1.6 提示产品完成度问题"
-    },
-    "play": {
-      "core_loop": "用望远镜观察规划路线，超远距离精确清除目标，升级武器库与技能，迎战 BOSS 与战争机器，模块化改造枪械，一局为单关狙杀任务。",
-      "highlights": [
-        "一击必杀的精准爽感",
-        "模块化枪械改造的自由度",
-        "BOSS 决战与多任务模式的挑战",
-        "沉浸式音效（官方强调戴耳机）"
-      ],
-      "innovations": ["无实质创新，属于成熟品类的执行优化（狙击射击 RPG）；评分 1.6 提示完成度差"],
-      "target_user": "男性向射击 / 硬核玩家",
-      "monetization": "IAA + IAP（武器 / 皮肤内购）",
-      "lifecycle": "短平快爆款或快衰（评分低、疑似换皮）"
-    },
-    "clone": {
-      "verdict": "不建议",
-      "rationale": "3D 射击重资产 + 弹道 / AI 技术门槛高 + 评分极低提示完成度差 + 射击品类买量贵，小团队复刻风险大。",
-      "suggestions": [
-        "若坚持做，降为 2.5D 简化弹道，弱化 3D 资产",
-        "做「固定点位狙击」极小切片验证，不铺大世界观"
-      ],
-      "risks": ["3D 重资产开发成本与周期长", "评分差说明玩法 / 完成度问题", "射击品类买量极贵"],
-      "effort": "80–120 人日（3–4 人：前端 + 3D 美术 + 策划 + 后端）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "iOS 包体 1.45GB，3D 狙击 RPG，评分 1.6", "level": "confirmed"},
-      {"claim": "引擎为 Unity 推断，无官方确认", "level": "inferred"}
-    ],
-    "sources": [
-      "https://apps.apple.com/cn/app/%E5%BC%80%E5%B1%80%E5%B8%A6%E6%8A%8A%E6%9E%AA/id6758076984"
-    ]
-  },
-  {
-    "name": "无尽冬日",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Unity 3D（团结引擎）",
-      "engine_evidence": "confirmed",
-      "dimension": "3D",
-      "art_style": "冰雪末日卡通 3D，雪国小镇",
-      "dims": {"engine": 5, "art": 5, "anim": 4, "physics": 2, "logic": 5, "data": 5, "server": 5, "audio": 4},
-      "dim_notes": {
-        "engine": "中重度 SLG 需在 Unity 上自研庞大框架并配套强服务端",
-        "art": "包体 947MB，3D 雪国场景 / 英雄 / 建筑资源海量",
-        "logic": "SLG + 模拟经营 + 放置 + 联盟战 + 赛季，系统极复杂",
-        "data": "英雄 / 建筑 / 科技 / 装备多线养成 + 经济循环 + 赛季内容",
-        "server": "联盟 / 跨服实时对抗 / 强联网社交",
-        "audio": "定制环境 BGM + 音效 + 语音"
-      },
-      "asset_notes": "947MB 包体以 3D 场景 / 英雄 / 建筑为主，长线内容资产持续膨胀，素材与服务器双重重资产",
-      "notes": "世纪华通 / 点点互动出品，全球现象级 SLG+X；小游戏版用团结引擎优化，先海外后国内"
-    },
-    "play": {
-      "core_loop": "作为镇长升级熔炉对抗严寒，分配幸存者工作（工人 / 猎人 / 厨师），颁布法典，出征争夺物资、与盟友建联盟夺城，英雄招募 + 科技重建，长线循环。",
-      "highlights": [
-        "城建 + 资源积累的可见成长感",
-        "联盟协作与跨服争霸的社交爽",
-        "英雄阵容搭配的策略深度",
-        "赛季活动与限定英雄的持续目标"
-      ],
-      "innovations": [
-        "「SLG + X」融合（策略 + 模拟经营轻量化外壳），用休闲化降低 SLG 门槛，相对纯 SLG 是结构创新"
-      ],
-      "target_user": "中重度策略用户，含 20%+ 女性",
-      "monetization": "IAP 重度（英雄 / 礼包 / 赛季）+ 轻 IAA",
-      "lifecycle": "长线运营（生命周期目标 8–10 年）"
-    },
-    "clone": {
-      "verdict": "不建议",
-      "rationale": "重资产 SLG + 强联网 + IP / 先发壁垒，头部（点点 / 世纪华通）已锁死，非小团队可复刻。",
-      "suggestions": [
-        "若做，降维度为纯放置城建轻量版，避开强联网",
-        "换末日题材（如「废土农场」）规避直接撞车"
-      ],
-      "risks": ["重资本投入与长周期", "强联网服务器成本", "头部已锁死 + 买量极贵"],
-      "effort": "200+ 人日（团队级，非小游戏基建可覆盖）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "以 Unity 3D 打造（世纪华通展讯确认），小游戏版用团结引擎", "level": "confirmed"},
-      {"claim": "iOS 包体 947MB，SLG + 模拟经营融合", "level": "confirmed"}
-    ],
-    "sources": [
-      "https://apps.apple.com/cn/app/%E6%97%A0%E5%B0%BD%E5%86%AC%E6%97%A5/id6478492012",
-      "https://www.stcn.com/article/detail/4038420.html"
-    ]
-  },
-  {
-    "name": "三国杀",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Cocos 2D",
-      "engine_evidence": "confirmed",
-      "dimension": "2D",
-      "art_style": "国风精致卡牌，武将形象鲜明",
-      "dims": {"engine": 3, "art": 5, "anim": 4, "physics": 1, "logic": 4, "data": 5, "server": 5, "audio": 4},
-      "dim_notes": {
-        "art": "包体 2.3GB，数百武将卡牌原画 / 特效 / 音频视频资源海量",
-        "anim": "武将技能特效 + 逐帧 / 骨骼动画 + 动态皮肤",
-        "logic": "身份 / 国战 / 斗地主多模式 + 武将技能组合规则",
-        "data": "武将抽卡升星 + 皮肤 + 战令 + 赛季经济",
-        "server": "实时匹配 + 排位 + 公会强联网",
-        "audio": "武将台词语音 + 定制配乐",
-        "physics": "无物理，纯卡牌"
-      },
-      "asset_notes": "2.3GB 以卡牌原画 / 技能动画 / 语音视频为主，重资产；武将 IP 美术是核心壁垒",
-      "notes": "游卡出品，3.0 版本采用全新 Cocos 引擎；国民级身份局卡牌，强 IP 版权"
-    },
-    "play": {
-      "core_loop": "选武将与身份，摸牌、出牌、判定循环攻防，用杀 / 闪 / 桃 / 锦囊与装备组合，达成身份胜利条件，三分钟一局。",
-      "highlights": [
-        "身份推理的心理博弈爽感",
-        "武将技能 combo 与配合",
-        "国战 / 排位 / 斗地主多模式竞技"
-      ],
-      "innovations": ["无实质创新，属于成熟品类的执行优化（国民级 IP 卡牌，身份局开创者）"],
-      "target_user": "全年龄策略卡牌用户",
-      "monetization": "IAP 重度（武将 / 皮肤 / 战令）+ 轻 IAA",
-      "lifecycle": "长线（持续新武将 / 皮肤 / 模式）"
-    },
-    "clone": {
-      "verdict": "不建议",
-      "rationale": "强 IP 版权壁垒（游卡独占三国杀）+ 2.3GB 重资产卡牌 + 强联网，无授权复刻即侵权。",
-      "suggestions": [
-        "做无 IP 原创身份推理卡牌（如「江湖令」「门派恩仇」）规避版权",
-        "用 AI 生成武将立绘降低美术成本"
-      ],
-      "risks": ["三国 IP 版权（游卡独占）", "2.3GB 重资产", "买量贵 + 头部已锁死"],
-      "effort": "150+ 人日（团队级）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "3.0 版本采用全新 Cocos 引擎（官方博客确认）", "level": "confirmed"},
-      {"claim": "iOS 包体 2.3GB，身份 / 国战 / 斗地主多模式", "level": "confirmed"}
-    ],
-    "sources": [
-      "https://apps.apple.com/cn/app/%E4%B8%89%E5%9B%BD%E6%9D%80/id407413403",
-      "https://www.idc.net/help/376478"
-    ]
-  },
-  {
-    "name": "狱国争霸",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Cocos Creator / Unity（推断）",
-      "engine_evidence": "inferred",
-      "dimension": "2D（地图策略，轻 3D 表现）",
-      "art_style": "卡通策略地图，城池 / 兵种图标",
-      "dims": {"engine": 3, "art": 3, "anim": 3, "physics": 1, "logic": 4, "data": 5, "server": 4, "audio": 3},
-      "dim_notes": {
-        "logic": "地图拉线攻防 + 兵种克制 + 英雄技能 + 联盟",
-        "data": "资源 / 兵种 / 英雄升星 / 科技 / 宝物多线养成 + 经济循环",
-        "server": "实时匹配 + 跨服对战 + 联盟，强联网",
-        "physics": "无物理，格子地图"
-      },
-      "asset_notes": "地图 / 兵种 / 城池美术成体系，素材可控；瓶颈在数值与系统",
-      "notes": "监狱管理题材的轻量烧脑地图策略，战斗自动进行，偏标准 SLG 框架"
-    },
-    "play": {
-      "core_loop": "在地图上拉线攻击相邻城池，敌城守兵归零即占领，兵种克制 + 英雄技能搭配，掠夺 / 结盟扩张势力，自动战斗、在线实时匹配排位。",
-      "highlights": [
-        "拉线攻城 + 兵力计算的策略爽",
-        "兵种克制与阵容搭配",
-        "联盟协作与跨服对抗"
-      ],
-      "innovations": ["无实质机制创新，题材（监狱管理）包装是主要差异"],
-      "target_user": "轻度策略 / SLG 用户",
-      "monetization": "混合（月卡 / 高级月卡 + IAA 广告货币）",
-      "lifecycle": "长线（赛季、联盟、兵种更新）"
-    },
-    "clone": {
-      "verdict": "变种创意",
-      "rationale": "SLG 机制有可取但需改题材 / 数值，照抄会撞车同类；建议弱化强联网降成本。",
-      "suggestions": [
-        "换题材为「星际殖民」「古城争霸」，去监狱敏感设定",
-        "弱化实时对抗改异步排行榜，降服务器成本",
-        "加「拉线」微操作的爽点作为差异记忆"
-      ],
-      "risks": ["SLG 买量极贵", "头部（三国类）已锁死", "强联网服务器成本"],
-      "effort": "60–90 人日（2–3 人 + 后端）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "玩法为地图策略拉线攻城 + 兵种养成 + 联盟", "level": "inferred"},
-      {"claim": "引擎为 Cocos/Unity 推断", "level": "inferred"}
-    ],
-    "sources": [
-      "https://www.18183.com/zhxz/8948504.html",
-      "https://news.qq.com/rain/a/20260508A08VEJ00"
-    ]
-  },
-  {
-    "name": "超能下蛋鸭",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Unity / Cocos（推断）",
-      "engine_evidence": "inferred",
-      "dimension": "2D（含物理）",
-      "art_style": "魔性萌系禽类（鸡鸭鹅），搞怪卡通",
-      "dims": {"engine": 3, "art": 3, "anim": 4, "physics": 4, "logic": 4, "data": 4, "server": 4, "audio": 3},
-      "dim_notes": {
-        "anim": "弹射轨迹 + 连锁爆蛋特效 + 角色动画密集",
-        "physics": "重力弹射 + 反弹 / 分裂物理手感需精调，是核心乐趣",
-        "logic": "肉鸽随机关卡 + 卡牌流派构筑 + 阵容搭配",
-        "data": "禽类英雄抽卡升星 + 阵容养成",
-        "server": "实时组队副本 + PVP 对决，强联网"
-      },
-      "asset_notes": "禽类角色 / 蛋液特效美术可控（微信版约 435MB 属「中-重」），物理手感调校是技术重点",
-      "notes": "世熠网络（波克旗下）出品，弹射 + 卡牌肉鸽 + 物理融合，畅销榜长居前列"
-    },
-    "play": {
-      "core_loop": "单指滑动瞄准、长按蓄力发射蛋液，借助真实物理反弹 / 分裂触发连锁爆蛋，局内随机收集卡牌打造流派（分裂爆弹流 / 地形反弹流），闯关打怪解锁禽类英雄养成。",
-      "highlights": [
-        "弹射连锁爆蛋的清屏爽感",
-        "物理反弹 / 45° 贴墙二次加速的策略",
-        "肉鸽随机关卡 + 卡牌流派构筑的每局不同",
-        "禽类萌系造型与实时组队"
-      ],
-      "innovations": [
-        "弹射 + 卡牌肉鸽 + 物理的融合，把弹珠弹射与卡牌构筑揉在一起，相对纯消除 / 弹射是结构创新"
-      ],
-      "target_user": "休闲 + 策略两栖用户，碎片时间",
-      "monetization": "混合（IAA + IAP 抽卡 / 月卡，微氪可玩）",
-      "lifecycle": "长线（英雄 / 副本 / 赛季持续更新）"
-    },
-    "clone": {
-      "verdict": "变种创意",
-      "rationale": "弹射 + 肉鸽融合有可取，但波克已占头部、弹射品类大量产品；需改一处结构 / 题材并弱化实时组队降成本。",
-      "suggestions": [
-        "换题材为「弹珠英雄」「史莱姆大作战」，把禽类换通用萌物",
-        "弱化实时组队改异步排行，降服务器成本",
-        "保留「物理反弹 + 肉鸽流派」核心，换数值模型"
-      ],
-      "risks": ["弹射品类（泡泡龙 like）已有大量产品", "波克已占头部", "实时组队增成本"],
-      "effort": "40–60 人日（2 前端 + 1 美术 + 1 策划）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "玩法为重力弹射 + 卡牌肉鸽 + 物理，微信版约 435MB", "level": "inferred"},
-      {"claim": "引擎为 Unity/Cocos 推断，无官方确认", "level": "inferred"}
-    ],
-    "sources": [
-      "https://www.sohu.com/a/978565857_122001004",
-      "http://www.17xy.cn/soft/7162.html"
-    ]
-  },
-  {
-    "name": "镇邪人",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Unity / Cocos（推断）",
-      "engine_evidence": "inferred",
-      "dimension": "2.5D（中式微恐）",
-      "art_style": "中式微恐地宫，Q 萌道士 / 妖怪 + 暗黄氛围",
-      "dims": {"engine": 3, "art": 3, "anim": 3, "physics": 2, "logic": 4, "data": 5, "server": 4, "audio": 3},
-      "dim_notes": {
-        "logic": "搜 - 打 - 撤三层循环 + 小队 RPG + 密室解谜 + 多系统嵌套",
-        "data": "五条资源线 + 抽卡升星 + 神兵 + 皮肤 + 挂机经济循环",
-        "server": "多人小队 + 联盟 / 排行榜，强联网"
-      },
-      "asset_notes": "中式微恐角色 / 地宫美术成体系（包体 249MB 属「中」），素材可控；AI 漫剧素材用于买量",
-      "notes": "三七互娱（雷虎网络）出品，轰隆隆 like 框架 + 中式微恐搜打撤，畅销榜 TOP3"
-    },
-    "play": {
-      "core_loop": "扮演镇邪天师闯地宫，循环「搜物资→打邪祟→撤退回安全区」，小队自动战斗，五条资源线养成角色，密室解谜推进剧情，失败掉一半物资但不删档。",
-      "highlights": [
-        "搜打撤的紧张 - 释放节奏（贪心滞留掉物资的赌性）",
-        "即时抽卡反馈（打怪得资源直接主界面抽，三步变一步）",
-        "中式微恐 + AI 漫剧素材的氛围沉浸"
-      ],
-      "innovations": [
-        "无实质机制创新，「轰隆隆」小队 RPG 框架 + 中式微恐题材 + 搜打撤包装是主要差异；即时抽卡链路优化是体验亮点"
-      ],
-      "target_user": "男性向 RPG / 微恐用户",
-      "monetization": "IAP 重度（抽卡 / 神兵 / 皮肤 / 月卡）+ 挂机，付费前置明显",
-      "lifecycle": "长线（赛季、合作玩法、英雄更新）"
-    },
-    "clone": {
-      "verdict": "变种创意",
-      "rationale": "搜打撤 + RPG 框架有可取，但需改题材 / 结构规避微恐审核风险；三七已有同类矩阵，照抄撞车。",
-      "suggestions": [
-        "换题材规避「微恐」版号 / 审核风险（如「非遗寻踪」「古镇探秘」）",
-        "弱化付费前置，减少首屏红点密度",
-        "保留「即时抽卡链路」体验优化作为差异"
-      ],
-      "risks": ["微恐题材版号 / 审核风险", "三七已有矩阵、同类竞争", "付费前置易引发差评"],
-      "effort": "50–70 人日（2 前端 + 1 美术 + 1 策划 + 后端）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "iOS 包体 249MB，中式微恐搜打撤小队 RPG，轰隆隆 like 框架", "level": "confirmed"},
-      {"claim": "引擎为 Unity/Cocos 推断，无官方确认", "level": "inferred"}
-    ],
-    "sources": [
-      "https://apps.apple.com/cn/app/%E9%95%87%E9%82%AA%E4%BA%BA/id6771697396",
-      "https://so.html5.qq.com/page/real/search_news?docid=70000021_4966a62ad1806652"
+      "https://www.taptap.cn/app/893924",
+      "https://baike.baidu.com/item/%E6%98%9F%E9%80%94%E5%A4%A9%E5%9F%8E/63251571"
     ]
   }
 ]

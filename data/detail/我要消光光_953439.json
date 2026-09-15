@@ -1,0 +1,107 @@
+{
+ "schema_version": 1,
+ "name": "我要消光光",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "上海密幂科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 10
+  },
+  "platform_app_ids": {
+   "douyin": "ttb30ac5b72d6b226307"
+  },
+  "first_seen": "2026-09-03",
+  "appearances": 11,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "扁平卡通水果图标，轻量贴图",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 1,
+   "physics": 1,
+   "logic": 3,
+   "data": 1,
+   "server": 1,
+   "audio": 1
+  },
+  "dim_notes": {
+   "logic": "关卡难度曲线陡峭（‘过不了第二关’），需专门设计关卡与特殊消除规则",
+   "art": "仅水果图标+背景，可程序化/通用素材库生成",
+   "physics": "纯消除无物理"
+  },
+  "asset_notes": "极轻，水果图标可程序化生成或通用素材库；素材层不是瓶颈",
+  "notes": "典型微信/抖音消除小游戏，技术栈成熟，引擎与框架风险极低",
+  "cost_score": 1.5,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "在棋盘/场景中点击或拖拽消除相同水果，清空或达成目标即过关；难度逐关陡增，一局数十秒到一两分钟。",
+  "highlights": [
+   "消除瞬间的清屏反馈与音效，解压直接",
+   "‘差一点就过’的强悬念驱动重试与看广告续命"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟消除品类的执行优化；‘烧脑’定位靠关卡难度而非机制"
+  ],
+  "target_user": "泛休闲用户，朋友圈/抖音碎片化传播",
+  "monetization": "IAA为主（复活/提示/洗牌看广告），可能辅以去广告内购",
+  "lifecycle": "短平快爆款，靠关卡更新与买量维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "消除机制成熟且代码量极小、素材轻；瓶颈完全在题材与关卡难度设计，换题材即可差异化。",
+  "suggestions": [
+   "把水果换成‘中药抓药台’‘二十四节气’等文化题材，三消/消除匹配即成立",
+   "首关把难度降到极低、失败点后移到第5关之后，学习爆款留存曲线",
+   "加入图鉴/收集线把单局接到长线目标"
+  ],
+  "risks": [
+   "消除赛道极度饱和，买量成本高",
+   "原题材若直接复制会撞车"
+  ],
+  "effort": "10–15人日（1前端 + 0.5美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "微信小游戏，‘超级烧脑的消水果小游戏’（应用宝/7k7k）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为Cocos Creator或LayaAir（微信消除小游戏主流，未确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://sj.qq.com/appdetail/wx6f9d68074f7c003f?supply_id=2100100027&source_id=yuanbao",
+  "https://www.7k7k.com/wxgame/21705.htm"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T21:48:16+08:00"
+ },
+ "slug": "我要消光光_953439"
+}

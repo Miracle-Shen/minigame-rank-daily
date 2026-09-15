@@ -1,0 +1,116 @@
+{
+ "schema_version": 1,
+ "name": "爽到飞起",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "北京安思科技发展有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 14
+  },
+  "platform_app_ids": {
+   "douyin": "ttd926af9b4741fb8107"
+  },
+  "first_seen": "2026-09-15",
+  "appearances": 1,
+  "best_rank": 14,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "小游戏引擎（推测 Cocos Creator / LayaAir）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "轻量卡通（具体题材未知，推断清新明快）",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 2,
+   "data": 1,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "抖音新游榜超休闲，小游戏常见成熟引擎模板改配置即可，给 2（inferred）",
+   "art": "包体未命中且无公开素材，按超休闲轻量卡通推断，可程序化/通用素材，给 2（inferred）",
+   "physics": "无物理模拟，纯点击/反应判定，给 1",
+   "data": "无成长线，纯单局闯关，给 1",
+   "server": "超休闲通常纯单机或仅轻量广告归因，无联网玩法，给 1",
+   "logic": "单关卡单规则 + 关卡递增难度，逻辑轻，给 2",
+   "anim": "简单反馈动画/音效，给 2",
+   "audio": "通用音效 + BGM，给 2"
+  },
+  "asset_notes": "公开信息极少（media 未命中）。从‘抖音新游榜 + 名称’推断为轻量超休闲，素材量小，素材层不是瓶颈；具体题材与机制无法确认。",
+  "notes": "注意：输入名‘爽到飞起’与 2026 开年现象级小游戏‘玩到爽飞’（鸽子见缝插针玩法）名称近音，但发行商（北京安思科技发展有限公司）与该产品披露方不一致，无法确认是同一产品。本档案按‘未知超休闲小游戏’推断，未采纳其玩法细节。",
+  "cost_score": 1.62,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "（推断）单指点击/反应的超休闲循环：控制角色在节奏中吃到目标、避开障碍，单局 1-3 分钟，关卡递增提速；具体机制因公开资料缺失未确认。",
+  "highlights": [
+   "（推断）上手零门槛、单局极短，契合抖音碎片娱乐",
+   "（推断）关卡梯度从易到‘无法通过’，保留‘再来一局’钩子"
+  ],
+  "innovations": [
+   "无实质创新（推断）：属成熟超休闲品类执行，创新点需以实际玩法确认"
+  ],
+  "target_user": "（推断）泛休闲/下沉用户，抖音碎片时间",
+  "monetization": "（推断）IAA 为主（激励视频复活/体力/皮肤），内购轻",
+  "lifecycle": "（推断）短平快爆款，依赖买量与二创传播"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "超休闲小游戏机制本就轻量、无壁垒，瓶颈在题材与传播梗而非技术；成本极低，适合换题材快速试错。因具体玩法未确认，建议先确认原型再立项。",
+  "suggestions": [
+   "先确认其真实玩法原型（见缝插针/ io 类/解压类），再换一套高传播题材（萌宠/食物）做差异化",
+   "预留‘魔性角色动画 + 表情包’二创钩子，复制抖音裂变打法",
+   "广告位做轻：复活 + 体力，避免重商业化伤留存"
+  ],
+  "risks": [
+   "公开资料缺失，玩法判断为推断，可能与实际不符",
+   "超休闲赛道高度饱和、买量 CPI 走高，需强传播梗支撑",
+   "若与‘玩到爽飞’撞车，存在同类产品版权/美术近似风险"
+  ],
+  "effort": "10–20 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "‘爽到飞起’为抖音新游榜产品，发行商北京安思科技发展有限公司，media 未命中",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎/玩法/美术均为按‘抖音新游榜超休闲’推断，未找到官方资料",
+   "level": "inferred"
+  },
+  {
+   "claim": "与现象级‘玩到爽飞’（鸽子见缝插针）近音但发行商不同，未确认同一产品",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://news.17173.com/content/01302026/172928155.shtml"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T21:49:27+08:00"
+ },
+ "slug": "爽到飞起_dd3595"
+}

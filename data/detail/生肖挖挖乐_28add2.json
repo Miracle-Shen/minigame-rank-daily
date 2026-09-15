@@ -1,0 +1,107 @@
+{
+ "schema_version": 1,
+ "name": "生肖挖挖乐",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "庆阳趣玩网络科技有限责任公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 20
+  },
+  "platform_app_ids": {
+   "douyin": "ttaaafdc1234cbfed202"
+  },
+  "first_seen": "2026-09-15",
+  "appearances": 1,
+  "best_rank": 20,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "抖音小游戏（推测 Cocos Creator / LayaAir / H5 自研）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "2D 卡通挖掘 + 生肖元素（推测）",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 2,
+   "logic": 2,
+   "data": 2,
+   "server": 1,
+   "audio": 1
+  },
+  "dim_notes": {
+   "logic": "挖掘网格 + 土层/工具分层 + 宝藏类型，规则简单但需编排数十关",
+   "physics": "沙土滑落/震动等轻量特效，非刚体物理（推测）",
+   "data": "工具升级 + 层数进度等轻量成长，无深经济",
+   "anim": "挖掘震动/土层掉落等基础反馈动画"
+  },
+  "asset_notes": "2D 卡通挖掘场景 + 生肖角色，素材量级中低；可用通用素材+AI 生图，抖音小游戏分包压低体量",
+  "notes": "媒体未命中，公开信息极少。‘挖挖乐’为成熟解压挖掘品类（监狱挖洞/宝藏挖掘），据名称与发行方推断为生肖换皮版，如实标注未编造。",
+  "cost_score": 1.75,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "（推测）在场景里点击/滑动挖掘，逐层挖开土层寻找宝藏（钥匙、钻石等），触发振动与土层掉落反馈，单局数十秒到数分钟，主打解压挖掘。",
+  "highlights": [
+   "每次挖掘的振动 + 沙土滑落反馈制造强解压感",
+   "‘差一点挖到宝’的悬念驱动继续挖",
+   "生肖主题包装（十二生肖角色/道具）提供本土识别度"
+  ],
+  "innovations": [
+   "无实质创新，属成熟‘挖挖乐’解压品类的生肖题材换皮"
+  ],
+  "target_user": "泛下沉/解压向休闲用户，偏好本土生肖元素",
+  "monetization": "IAA 广告为主（激励视频挖宝/复活），超休闲典型",
+  "lifecycle": "短平快，依赖买量+抖音自然量"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "挖掘解压机制通用、无壁垒，瓶颈在题材与美术；复刻成本极低。‘挖挖乐’品类已成模板，靠生肖/节日主题换皮即可上线。",
+  "suggestions": [
+   "绑定节日/生肖年份做限定主题（如龙年、春节），蹭时令流量",
+   "加入‘挖到稀有生肖’的图鉴收集，提升轻留存"
+  ],
+  "risks": [
+   "解压挖掘赛道模板化严重、同质化",
+   "缺乏留存钩子，依赖持续买量"
+  ],
+  "effort": "8–15 人日（1 前端 + 0.5 美术），属轻量"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "媒体未命中，玩法与引擎据名称与发行方推断",
+   "level": "inferred"
+  },
+  {
+   "claim": "属成熟‘挖挖乐’挖掘解压品类的生肖换皮",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://m.11467.com/b2b/co/302309705.htm"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T21:49:55+08:00"
+ },
+ "slug": "生肖挖挖乐_28add2"
+}

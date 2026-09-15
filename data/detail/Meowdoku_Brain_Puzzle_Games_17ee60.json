@@ -1,0 +1,186 @@
+{
+ "schema_version": 1,
+ "name": "Meowdoku: Brain Puzzle Games",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Oakever Games",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 3
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "柔和色块 + 卡通猫，Q 版动态反馈，干净浅色布局",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "纯逻辑落子(放猫/标记 X)，无物理/碰撞，1 分",
+   "logic": "「Queens」谜题的合法布局随机生成与可解性校验 + 梯度难度曲线，需要算法支撑",
+   "art": "86MB 轻量包体，色块 + 猫贴图，素材量小"
+  },
+  "asset_notes": "2D 色块 + 猫贴图极轻量，可程序化生成；技术零门槛，瓶颈在关卡生成算法与买量",
+  "notes": "核心机制是公开「Queens」数独变体(每行/每列/每色区仅 1 猫且猫互不相邻)的猫咪换皮，Oakever Games(北京乐信圣文出海发行主体)凭此登顶美区免费榜。引擎未公开确认，依据乐信圣文休闲矩阵常见技术栈推断为 Unity",
+  "cost_score": 2.0,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "在彩色分区棋盘里双击放猫，满足「每色区/每行/每列仅 1 猫且猫互不相邻」规则、用单击标 X 排除，3 次失误耗尽即失败，一局即一道逻辑推理谜题，1-3 分钟。",
+  "highlights": [
+   "通关触发猫叫 + 吹号小猫动画，萌系反馈提供明确正激励",
+   "「3 颗心」容错替代倒计时，无焦虑、纯逻辑推导更轻松",
+   "灯泡/猫猫头两类提示道具降低卡关挫败"
+  ],
+  "innovations": [
+   "把 2024 年走红的「Queens」逻辑谜题用猫咪主题 + 扫雷式排除做情感包装，属成熟谜题的微创新换皮而非新机制"
+  ],
+  "target_user": "全年龄解压/脑训练用户，偏好短局逻辑挑战",
+  "monetization": "IAA 为主(过关后激励视频/插屏)，辅以轻 IAP，无强制广告",
+  "lifecycle": "长线运营，靠每日谜题、关卡梯度与买量维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "核心「Queens」机制是公开免费逻辑谜题(Oakever 自身即猫咪换皮)，照搬机制 + 换题材即成立，无技术或版权壁垒；瓶颈在题材美术与买量效率。",
+  "suggestions": [
+   "换题材到「水果 / 宝石 / emoji / 国风物件」，复用同一 Queens 规则内核",
+   "保留「3 命 + 灯泡提示」容错与广告变现节奏，照搬到新题材",
+   "加「每日挑战 + 全球通关时长榜」轻社交拉留存"
+  ],
+  "risks": [
+   "机制无壁垒，易被更快团队复制导致同质化",
+   "逻辑解谜品类拥挤、买量 CPA 高",
+   "Oakever 已占榜，正面撞车获量困难"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/69/1d/4d691ded-2f9a-eac1-adf2-8ed9d6bfaa09/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/74/f7/2e74f7b4-10dc-9e5d-77e1-0add0901708c/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/09/3b/6b/093b6bbc-1d34-4790-b94a-abe9edcce682/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/d2/12/ccd212e8-43f5-30ba-5cdf-f376e5ecc633/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/4d/b2/f64db270-6a91-3cdb-8429-6045856ccec1/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/29/2e/86/292e8696-bc20-c267-bc6e-f11455e7983f/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/d2/4a/efd24a62-335e-6545-73a6-a5e3f11527a0/6.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "开发商 Oakever Games，实为中国厂商北京乐信圣文(新加坡发行主体)出海产品",
+   "level": "confirmed"
+  },
+  {
+   "claim": "玩法为「Queens」数独变体(每色区/行列 1 猫、互不相邻)，猫咪主题换皮",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断为 Unity，未找到官方技术确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/meow-sudoku-cat-puzzle-games/id6781143433?uo=4",
+  "https://news.sohu.com/a/1037891522_122479556",
+  "https://www.baijing.cn/article/55664"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 0.833,
+  "match_name": "Meow Sudoku: Cat Puzzle Games",
+  "country": "cn",
+  "track_id": 6781143433,
+  "seller": "MINA SONANI",
+  "genres": [
+   "游戏",
+   "益智解谜",
+   "桌面"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/69/1d/4d691ded-2f9a-eac1-adf2-8ed9d6bfaa09/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/74/f7/2e74f7b4-10dc-9e5d-77e1-0add0901708c/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/09/3b/6b/093b6bbc-1d34-4790-b94a-abe9edcce682/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/d2/12/ccd212e8-43f5-30ba-5cdf-f376e5ecc633/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/4d/b2/f64db270-6a91-3cdb-8429-6045856ccec1/5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/29/2e/86/292e8696-bc20-c267-bc6e-f11455e7983f/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/d2/4a/efd24a62-335e-6545-73a6-a5e3f11527a0/6.png/626x1112bb.jpg"
+  ],
+  "description": "Relax. Solve. Collect.\n\nWelcome to Meow Sudoku: Cat Puzzle Games, a cozy and addictive Classic Sudoku adventure that combines relaxing gameplay, brain-training puzzles, adorable cats, beautiful themed worlds, and rewarding postcard collections.\n\nInspired by the timeless Classic Sudoku experience, Meow Sudoku offers carefully crafted puzzles that are easy to learn yet satisfying to master. Solve puzzles using pure logic, travel through charming worlds, unlock collectible cat postcards, and enjoy a peaceful puzzle experience designed for every player.\n\nWhether you're looking to relax after a busy day or challenge your brain with thoughtful Classic Sudoku puzzles, Meow Sudoku is the perfect companion for puzzle lovers and cat enthusiasts alike.\n\nHow to Play:\n\nEvery puzzle follows three simple rules:\n\n• One Cat Per Color\n\n• One Cat Per Row and Column\n\n• Cats Cannot Be Adjacent\n\n- Study the board, eliminate possibilities, and use logical thinking to discover the correct placement for every cat.\n\n- Simple rules create surprisingly deep and satisfying puzzles.\n\nExplore Your Journey\n\n- Progress through beautifully designed worlds as you complete more puzzles and unlock new adventures.\n\n- Travel through charming destinations including:\n\n• Milk & Cookies\n• Flower Shop\n• Candy Shop\n• Sunset Picnic\n• Magic Garden\n• Cloud Kingdom\n\nEach world features its own relaxing atmosphere and keeps your puzzle journey fresh and rewarding.\n\nKey Features:\n\nClassic Sudoku Gameplay\n\nEnjoy the timeless Classic Sudoku experience with intuitive controls, relaxing gameplay, and carefully balanced difficulty levels.\n\nHundreds of Logic Puzzles\n\nSolve beginner-friendly puzzles before progressing to more challenging brain teasers that reward observation, strategy, and logical thinking.\n\nBeautiful Journey Progression\n\nAdvance through themed worlds as you unlock charming new destinations and continue your relaxing adventure.\n\nCollect Cute Cat Postcards\n\nComplete puzzles to earn postcard pieces and build your adorable collection of charming cat-themed artwork.\n\nHelpful Hints\n\nNeed a little assistance? Use hints to learn new solving techniques and continue your journey with confidence.\n\nTrack Your Progress\n\nMonitor your score, level progression, and journey as you improve your Classic Sudoku skills.\n\nClean & Relaxing Design\n\nEnjoy a beautiful, colorful interface designed to provide a comfortable and stress-free puzzle experience.\n\nTrain Your Brain\n\nEvery puzzle helps strengthen your:\n\n• Logical Thinking\n• Focus & Concentration\n• Pattern Recognition\n• Memory\n• Critical Thinking\n• Problem-Solving Skills\n\nThe more puzzles you solve, the stronger your deduction and reasoning abilities become.\n\nPerfect For Fans Of\n\nWhether you enjoy Classic Sudoku, Sudoku puzzles, number games, logic puzzles, brain training games, mind games, strategy games, relaxing games, or casual puzzle adventures, Meow Sudoku has something for everyone.\n\nCat lovers will adore collecting charming postcards and exploring cozy themed worlds, while puzzle enthusiasts will enjoy the satisfying combination of strategy, deduction, and steadily increasing challenges.\n\nWhether you play for a few minutes or settle in for a longer session, every completed puzzle brings you one step closer to mastering your journey.\n\nDownload Meow Sudoku: Cat Puzzle Games today and enjoy the perfect blend of Classic Sudoku, relaxing gameplay, adorable cats, beautiful worlds, collectible postcards, and brain-teasing puzzles.",
+  "release_notes": "- Classic Sudoku module added\n- New worlds added in meow levels\n- Improved levels & difficulty\n- Minor bug fixes & performance improvements",
+  "file_size_bytes": 85995520,
+  "min_os": "16.0",
+  "version": "1.1.0",
+  "release_date": "2026-06-18",
+  "rating": 4.42856,
+  "rating_count": 7,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/meow-sudoku-cat-puzzle-games/id6781143433?uo=4",
+  "fetched_at": "2026-09-15T21:48:09+08:00"
+ },
+ "slug": "Meowdoku_Brain_Puzzle_Games_17ee60"
+}

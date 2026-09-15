@@ -1,0 +1,114 @@
+{
+ "schema_version": 1,
+ "name": "ゴシップハーバー:マージ & ストーリー",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Microfun Limited",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 20
+  },
+  "platform_app_ids": {
+   "ios": "1623318294"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 18,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "2D 卡通 + 写实风餐厅装修 + 角色立绘",
+  "dims": {
+   "engine": 3,
+   "art": 5,
+   "anim": 4,
+   "physics": 1,
+   "logic": 4,
+   "data": 5,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "海量 2D 美术：上百种合成链道具图标、餐厅装修部件、角色立绘与剧情 CG，包体约 492MB，属重资产",
+   "data": "能量经济 + 多层合成树 + 剧情进度 + 订单系统 + 赛季/活动，长线数值与内容循环极重",
+   "logic": "合成树、订单匹配、棋盘空间管理、剧情触发交织成复杂系统",
+   "physics": "纯点击/拖拽合成，无物理模拟，成本最低"
+  },
+  "asset_notes": "2D 卡通资产体量巨大（角色、装修、道具链），且需持续产出剧情与活动美术，素材层是最大成本与壁垒",
+  "notes": "与 Gossip Harbor: Merge & Story（美区/全球版，Microfun Limited）为同一产品的地区版本；技术栈按同一产品给，不臆造差异。Merge + 剧情叙事是 Microfun 成熟矩阵打法。",
+  "cost_score": 3.5,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "在棋盘上点生成器消耗能量产出原料，拖拽两个相同物品合成更高阶道具，凑齐订单赚金币，金币用于修复/装修海边餐厅并推进悬疑剧情，单局依赖能量回复节奏。",
+  "highlights": [
+   "‘合成→订单→装修→解锁剧情’四段循环把解压合成接到肥皂剧叙事，停不下来",
+   "能量耗尽的自然卡点天然驱动等待/广告复活/内购补给",
+   "棋盘空间管理（物品占格、合成腾位）制造轻策略张力"
+  ],
+  "innovations": [
+   "在成熟 merge 品类上叠加强叙事（谁是纵火真凶的悬疑主线），用剧情拉动复访，而非纯合成刷量"
+  ],
+  "target_user": "25–45 岁女性向休闲/剧情用户",
+  "monetization": "混合（IAP 内购能量/道具/去广告 + 广告），约 75% IAP / 25% 广告",
+  "lifecycle": "长线运营，靠周五剧集更新与季节活动维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "merge 核心机制完全通用、无壁垒，瓶颈在题材与美术；但 Gossip Harbor 的体量（492MB 资产 + 长线剧情 + 活动运营）意味着完整复刻资本极重，且 Microfun 已是头部、品类饱和。",
+  "suggestions": [
+   "换叙事题材（如‘古镇客栈复兴’‘校园重建’），保留‘合成+装修+剧情’三件套",
+   "把悬疑主线改成更本土的‘家族秘辛/职场逆袭’，贴合国内女性向",
+   "先做 30–50 关轻量版验证留存，再按需扩充合成树与活动"
+  ],
+  "risks": [
+   "merge+叙事赛道被 Microfun 等头部锁死，买量与留存双高成本",
+   "完整内容资产（剧情 CG、装修部件）产出周期长、成本高",
+   "日区分发需本地化剧情与合规，难度高于换皮本身"
+  ],
+  "effort": "120–200 人日（2–3 前端 Unity + 2 美术 + 1 策划 + 1 剧情），属重内容项目"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "引擎为 Unity（SDK 检测含 Unity）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体约 492MB（iOS），含大量 2D 美术与剧情资产",
+   "level": "confirmed"
+  },
+  {
+   "claim": "日区名为全球版 Gossip Harbor: Merge & Story 的地区版本",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://appgoblin.info/apps/com.mergegames.gossipharbor",
+  "https://games.gg/gossip-harbor-merge-game/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T21:49:44+08:00"
+ },
+ "slug": "ゴシップハーバー_マージ_ストーリー_b2005e"
+}

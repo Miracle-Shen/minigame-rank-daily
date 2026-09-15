@@ -1,512 +1,164 @@
 {
  "batch": 1,
- "total_batches": 9,
+ "total_batches": 7,
  "spec": "scripts/detail/RESEARCH_SPEC.md",
  "output": "data/detail/_staging/batch_1.json",
  "games": [
   {
-   "name": "俱乐大玩家",
-   "boards": [
-    "douyin/热门榜",
-    "douyin/畅销榜",
-    "ios/国区免费榜"
-   ],
-   "ranks": {
-    "douyin/热门榜": 16,
-    "douyin/畅销榜": 19,
-    "ios/国区免费榜": 20
-   },
-   "category_l1": "1",
-   "category_l2": "",
-   "publisher": "海南临游科技有限公司",
-   "first_seen": "2026-07-24",
-   "appearances": 31,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "俱乐大玩家",
-    "country": "cn",
-    "track_id": 6784163008,
-    "seller": "Hainan Dragon Egg Technology Co., Ltd.",
-    "genres": [
-     "游戏",
-     "休闲"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/9d/6c/8d9d6cb0-f739-73f5-b907-fc0ad3b9740e/AppIcon-1x_U007epad-0-11-0-85-220-0.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/05/70/9a057046-b1fe-4f35-2d75-f8567c3f061b/1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/e5/d7/d3e5d757-186d-744d-46f0-1954ee66a031/2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/47/b4/d647b49a-d1e1-6ef6-bee3-31cb9a3e3629/3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/b5/9b/c3b59be0-9fd5-beaa-3f13-352609c70f3f/4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/85/d7/1685d773-d75d-dfac-2f05-be6716394b80/5.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/de/ab/70deabd4-1e36-4b0a-c951-0311ff816e21/6.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/3e/b2/773eb2a9-1867-ce71-4e0b-78a0748443c1/01.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/3a/39/053a3984-819f-f841-025f-9c8a8da17e21/02.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/06/f9/ad06f9a8-eacc-2996-98c4-e7bfd6a9d24c/03.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/26/ec/3426ec71-e758-b506-cc05-9e576ac8628d/04.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/ed/9e/d6ed9e67-a7d1-4fe9-693e-7259ed66f557/05.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/92/e3/ba92e3fe-536b-1857-af98-746cc062deb6/06.jpg/626x1112bb.jpg"
-    ],
-    "description": "《俱乐大玩家》是一款超有趣的多人策略竞拍休闲手游！沉浸式拍卖玩法全新上线，多人同场实时暗标竞价，全程出价保密，考验你的眼力与心理博弈。\n挑选专属角色解锁特色技能，抢夺藏品线索、迷惑对手布局套路。盲盒仓库随机刷新珍稀藏品，价值高低全凭预判，精打细算低价捡漏，高价转手轻松逆袭。\n玩法轻松易上手，节奏紧凑不拖沓。收集海量珍稀藏品，解锁专属藏馆成就，玩转竞拍套路，争做全场最强竞拍之王！",
-    "release_notes": "【角色调整】\n1、安可\n-技能调整前：出价排名第一时，下一轮随机显示3件藏品信息。\n-技能调整后：首轮显示1件最高品质藏品的品质和轮廓，后续轮次若上轮出价第一，则本轮显示2件最高品质藏品的品质和轮廓。\n\n【全新内容】\n1、周玩法[盲拍模式]\n-更新后，排位赛[盲拍模式]将调整为每周限时玩法。本次新增独立入口展示与对局专属情报显示，选择带有盲拍模式标识的对局地图，即可概率触发该特殊竞拍玩法。出价信息全程隐藏，仅展示排行，上演高策略心理博弈！\n2、周玩法[迷雾模式]\n-排位赛新增每周限时玩法「迷雾模式」，该玩法将在[盲拍模式]结束后轮换上线。选取带有迷雾模式标识的地图，即可概率触发该特殊竞拍玩法。奖池中将出现被浓雾遮蔽的神秘区域，常规情报无法探查雾中藏品，仅可借助专属情报获取线索，逐步破除迷雾、揭晓藏品。\n3、臻品厅-[寻锦记]\n-更新后将开启[寻锦记]抽取活动，参与活动可获取：全新宠物[好运锦鲤]、匹配卡皮肤[祥鲤贺禧]、工牌皮肤[鲤跃鸿途]、头像[好运锦鲤]，聚福生财，竞拍万事顺遂~\n*活动开启条件：账号创角时长≥3天\n\n【优化与调整】\n1、优化了部分界面UI，提升操作交互体验；\n2、优化了俱乐部搜索功能，支持通过编号精准搜索目标俱乐部；\n3、优化了部分文本内容，使描述更准确；\n4、调整了折扣商店商品内容；\n5、优化了新角色登场活动任务规则，成功领取角色后，无需再完成剩余活动任务；\n6、下调了部分工具在交易行的兑换价格和兑换配方；\n7、优化了不同机型的画面显示适配；\n8、对局、排行榜点击玩家头像，新增功能弹窗选项。\n\n【问题修复】\n1、修复了战绩界面点击玩家头像偶现无反应的问题；\n2、修复了藏品快捷出售界面，显示的交易行税后价与预计收益数值不一致的问题；\n3、修复了排位赛进入地图阶段，快速点击会导致画面显示异常的问题；\n4、修复了私聊界面部分展示异常的问题；\n5、修复了装配键盘皮肤后，局内出价金额上方未显示数字单位的问题；\n6、修复了局内聊天、表情包图标点击无反应的问题；\n7、修复了排行榜前三名角色皮肤未正常显示的问题；\n8、修复了藏品收录藏品界面关联套装处显示异常的问题；\n9、修复了巡回模式藏品揭示处有异常遮罩的问题。",
-    "file_size_bytes": 325426176,
-    "min_os": "12.0",
-    "version": "1.0.4",
-    "release_date": "2026-07-24",
-    "rating": 3.98266,
-    "rating_count": 7959,
-    "price": "免费",
-    "advisory": "12+",
-    "url": "https://apps.apple.com/cn/app/%E4%BF%B1%E4%B9%90%E5%A4%A7%E7%8E%A9%E5%AE%B6/id6784163008?uo=4",
-    "fetched_at": "2026-09-14T23:50:57+08:00"
-   }
-  },
-  {
-   "name": "腾讯欢乐斗地主",
-   "boards": [
-    "ios/国区免费榜",
-    "wx/人气榜",
-    "wx/畅销榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 3,
-    "wx/畅销榜": 20,
-    "ios/国区免费榜": 12
-   },
-   "category_l1": "棋牌",
-   "category_l2": "牌类",
-   "publisher": "深圳市腾讯计算机系统有限公司",
-   "first_seen": "2026-06-29",
-   "appearances": 72,
-   "best_rank": 2,
-   "profile_value": "abandoned",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": "深圳市腾讯计算机系统有限公司"
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "腾讯欢乐斗地主",
-    "country": "cn",
-    "track_id": 446324234,
-    "seller": "Shenzhen Tencent Tianyou Technology Ltd",
-    "genres": [
-     "游戏",
-     "娱乐",
-     "桌面",
-     "卡牌"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/7b/e3/6e7be309-33bb-949f-ebdc-ef8966dde329/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8f/35/3c/8f353c54-ee2f-c646-f34d-8ccbc1831ecd/2688x1242.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/a8/74/ffa8741d-b8ad-befd-ade2-5efe7fc372d8/2688x1242.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/92/f2/5c92f2eb-340a-7bec-1f0e-cd80dadc5264/2688x1242.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/7a/4e/e87a4e4b-6e35-b563-abc6-89a6e68ac8c2/2688x1242.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/21/94/16/219416f3-d62f-5889-f6f6-5b8171822ffe/2688x1242.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/78/d6/c678d69e-8392-587f-5de7-041f5d1cbd2a/2688x1242.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/43/27/5e4327c7-ba6b-3a65-3f1c-5840e3f35d5b/2688x1242.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/79/2f/d2792f39-e378-bb39-5af4-c6c58eafe0c7/2688x1242.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/78/e2/e378e2d0-f4e9-509b-7da1-3b7897fe801e/2732x2048.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/5b/f3/5a5bf3a2-a34b-34f1-aa45-e26d41ef22ab/2732x2048.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/08/7f/ee087f65-fb86-c614-5b5f-f1613b5b264c/13-2732.2048.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/e8/f1/42e8f156-2ab9-8709-fab9-e81358bc0d84/20250620174952-f1faaecb-ef02-4cd9-9777-0247f14c9fc5-dd88bbe8779d5b852b9c8107cfe2028cf1e6c1ca-1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/73/c3/3473c379-fca7-8d98-3390-799686820162/20250620174946-f1faaecb-ef02-4cd9-9777-0247f14c9fc5-1c1702ceb12d585b4bd57e30ce64c82d0cf251ab-1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/6c/08/406c0894-c270-8221-0148-0376c1e530b1/2732x2048.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/fb/65/83fb65cd-aaa1-2681-8018-5c264364bf8a/20250620174958-f1faaecb-ef02-4cd9-9777-0247f14c9fc5-ba8677696298179d8170c77950e9fc66f07c331c-1.jpg/626x1112bb.jpg"
-    ],
-    "description": "一站式休闲游戏平台，想玩的都在这里！\n不论是经典棋牌、排位竞技还是好友开黑，这里都能满足你的竞技与社交愿望。对局之余，更有休闲小游戏与解压农场家园等你体验。一键开启多重乐趣，让欢乐随时随地。\n\n【游戏特色】\n1.  多样棋牌玩法，满足不同人群需求\n集结斗地主、510K、掼蛋等经典棋牌，还原纯粹竞技；推出八雀牌、三国牌等创新玩法，融入趣味机制，带来新鲜博弈体验；汇聚跑得快、升级、锄大地等地方特色棋牌，足不出户感受家乡竞技魅力。\n2.  赛季排位竞技，免豆对局畅享不停\n打造公平竞技体系，海量对局免豆畅玩。在这里，你可以感受英雄技能带来的深度策略博弈，凭借过人牌技在赛季中赢取至高荣誉，更有典藏英雄卡助你冲击巅峰。\n3.  好友联机开黑，社交氛围即刻点燃\n主打好友专属玩法，大话牌、胡闹牌等聚会热游一键解锁。支持实时语音互动，无论相隔多远都能快速组局，用对决增进情谊，是朋友聚会、异地互动的社交神器。\n4.趣味合集玩法，海量小游随心切换\n汇集飞机大战、谁是菜王等休闲玩法，海量休闲小游点开即玩。无需额外下载，让你在对局之余随时随地开启轻松一刻，尽享多样化的平台乐趣。\n5.  特色时装随心搭，对局质感再升级\n拒绝千篇一律！内置丰富时装系统，自由搭配专属形象。更有酷炫牌桌特效与精致牌面框，瞬间拉满对局氛围，为你带来沉浸式的娱乐新体验。\n6.专属农场家园，棋牌间隙轻松解压\n坐拥一方田园天地，告别竞技的紧张感。打牌间隙开垦土地、种植作物、好友互访偷菜，用慢节奏的田园生活舒缓压力，找回久违的惬意。\n\n【特别声明】\n本款《欢乐斗地主》完全独立,与PC端及其他任何平台的数据无法互通。本款游戏内的道具\"欢乐豆\"不能用于其他任何应用。同样的, 其他应用内的道具或收益也无法用于本款游戏。腾讯平台上的虚拟货币, 比如Q币,Q点都无法在游戏内使用，特此说明。",
-    "release_notes": "8.056版本更新：双新玩法燃情来袭，霓裳藏馆惊艳升级！\n一、【新玩法】\n1.经典麻将玩法「红中血流」即将上线，超爽番型，等你解锁！\n2.全新原创玩法「楚汉争霸」火热上线，刺激开杠，抢先称霸！\n二、【时装】\n1.霓裳藏馆华丽升级！7月27日首次上新至臻典藏时装「蛮荒游戏」。\n2.7月27日10点，「星辰咏叹」将会下架，请及时兑换。\n三、【英雄卡】\n1.8月10日，上线莲首个SR皮肤「荆棘玫瑰」，出牌得分加成，对局体验华丽升级。\n2.英雄卡升级操作优化，升级流程更清晰。\n四、【互动社交】\n语音包快捷语自由搭配功能即将上线，混搭不同语音包快捷语，自由组合专属对局语音，打造独一无二的对局表达。\n五、【优化与修复】\n1.发送付费互动表情增加二次确认。\n2.修复其他已知Bug，提升游戏体验。",
-    "file_size_bytes": 682620928,
-    "min_os": "13.0",
-    "version": "8.056.016",
-    "release_date": "2013-08-08",
-    "rating": 4.68572,
-    "rating_count": 2873390,
-    "price": "免费",
-    "advisory": "17+",
-    "url": "https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E6%AC%A2%E4%B9%90%E6%96%97%E5%9C%B0%E4%B8%BB/id446324234?uo=4",
-    "fetched_at": "2026-09-14T23:50:59+08:00"
-   }
-  },
-  {
-   "name": "向往的生活",
+   "name": "我的花园世界",
    "boards": [
     "douyin/热门榜",
     "douyin/畅销榜",
     "wx/畅销榜"
    ],
    "ranks": {
-    "wx/畅销榜": 11,
-    "douyin/热门榜": 17,
-    "douyin/畅销榜": 14
-   },
-   "category_l1": "1",
-   "category_l2": "模拟经营",
-   "publisher": "深圳市必凡娱乐科技有限公司",
-   "first_seen": "2026-06-29",
-   "appearances": 72,
-   "best_rank": 4,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 0.929,
-    "match_name": "向往的生活官方游戏",
-    "country": "cn",
-    "track_id": 6751826673,
-    "seller": "Shenzhen Bifan Entertainment Technology Ltd.",
-    "genres": [
-     "游戏",
-     "休闲"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/f8/b9/09f8b92a-7ba3-4cc4-5262-2d84f60445e2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/86/e1/d486e1be-b2b1-d586-ee7f-42d0ecbe8d01/1242_U00d72688-1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/cb/fd/44cbfd21-5012-a197-28c8-59cac131e62c/1242_U00d72688-2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/1a/b5/881ab510-9a8e-b5d4-b17e-24a9c64e4118/1242_U00d72688-3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/fd/ae/e6fdaef5-ce6c-1487-1c54-6ef7b0a5154b/1242_U00d72688-4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7f/27/cf/7f27cff1-d2eb-01fd-d096-99fe26646114/1242_U00d72688-5.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/75/d1/3175d1b5-09c5-b1f5-37d1-6ea7109ac3b2/2064_U00d72752-1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/2a/7b/042a7b14-9adc-3ab5-67c0-3c02d5b641d1/2064_U00d72752-2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/35/36/9c3536d8-2ad1-db74-4750-e32429fde192/2064_U00d72752-3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/9e/b9/f99eb9d0-d8e5-63fe-1d86-441fff7e997c/2064_U00d72752-4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/31/03/20310324-6c2e-00d8-d856-af87c1e73ab3/2064_U00d72752-5.jpg/626x1112bb.jpg"
-    ],
-    "description": "芒果TV官方正版授权的合成经营手游《向往的生活》已温暖上线！现邀你一同回归田园，开启向往的日常。\n\n【还原剧情，重温感动】\n高度还原综艺经典剧情与名场面！沉浸式体验节目中的欢笑与温暖。与熟悉的“家人”重逢——黄叔叔在灶台边忙碌，何哥哥逗弄着小H，每一个场景都充满烟火气与回忆。\n\n【打造专属家园】\n从零开始经营，解锁节目中所有经典场景：田野、小院、客厅、厨房…自由装饰布置，用精心挑选的家具还原你最喜欢的蘑菇屋面貌，打造独一无二的心灵栖息地。\n\n【遇见家人，沉浸互动】\nNPC不仅是角色，更是你的“老朋友”。他们会根据你的行为给出专属反馈——生日祝福、回归问候，甚至悄悄话私语，让你真切感受到家的温度与陪伴。\n\n【经典二合，轻松治愈】\n轻松简单的合并玩法，指尖轻触即可合成作物与物品，完成订单收获资源，逐步重建你梦想中的田园家。在悠闲节奏中感受最纯粹的治愈。\n\n【精致视听，沉浸田园】\n清新治愈的美术风格高度延续综艺调性，细腻还原田园四季光影。搭配温馨原声音乐，仿佛置身真实的蘑菇屋，每一次进入都是一次心灵放松。\n\n《向往的生活》不仅仅是一款游戏，更是一份可触碰的田园梦想，与蘑菇屋的家人们一起，慢慢生活，好好相遇，共同谱写属于你们的故事。",
-    "release_notes": "优化用户体验",
-    "file_size_bytes": 224278528,
-    "min_os": "15.0",
-    "version": "1.1.7",
-    "release_date": "2025-10-02",
-    "rating": 3.37872,
-    "rating_count": 874,
-    "price": "免费",
-    "advisory": "9+",
-    "url": "https://apps.apple.com/cn/app/%E5%90%91%E5%BE%80%E7%9A%84%E7%94%9F%E6%B4%BB%E5%AE%98%E6%96%B9%E6%B8%B8%E6%88%8F/id6751826673?uo=4",
-    "fetched_at": "2026-09-14T23:51:11+08:00"
-   }
-  },
-  {
-   "name": "向末日开炮",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅销榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 2,
-    "wx/畅销榜": 3
+    "wx/畅销榜": 14,
+    "douyin/热门榜": 18,
+    "douyin/畅销榜": 17
    },
    "category_l1": "休闲",
    "category_l2": "模拟经营",
-   "publisher": "海南易多量科技有限公司",
-   "first_seen": "2026-07-30",
-   "appearances": 41,
+   "publisher": "厦门麟贝互娱科技有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 72,
    "best_rank": 1,
-   "profile_value": "low",
+   "profile_value": "",
    "seed": {
-    "gameplay_desc": "数字门,SLG",
-    "tags": [
-     "数字门",
-     "SLG"
-    ],
+    "gameplay_desc": "",
+    "tags": [],
     "notes": "",
-    "developer": "海南易多量科技有限公司"
+    "developer": ""
    },
    "media": {
     "matched": true,
     "match_score": 1.0,
-    "match_name": "向末日开炮",
+    "match_name": "我的花园世界",
     "country": "cn",
-    "track_id": 6748045272,
-    "seller": "Dod Joy Co., Ltd.",
-    "genres": [
-     "游戏",
-     "策略"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/66/32/ab663220-0d2a-7e55-b95f-12a88477410f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/46/93/0946935d-753a-d0be-d1a6-267c1f90af38/1-_U9996_U56fe-1242x2688.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/91/e0/0091e004-1263-cc73-793e-f53e7d7e4646/2-_U672b_U65e5_U91cd_U5efa-1242x2688.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/e6/0d/9be60d43-7a0c-1c14-cf18-b9fba42c7535/3-_U9009_U5bf9_U8def_U7ebf-1242x2688.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/07/dc/1f07dcfe-f9f0-42a4-a6aa-a79777ad052b/4-_U4e89_U593a_U9886_U5730-1242x2688.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/75/20/ff75203e-1a81-4185-bfa6-497605d63ba5/5-_U8f66_U961f_U730e_U8352-1242x2688.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/29/ee/3729eeed-ad06-d352-cae6-c4e0cde15427/6-_U5730_U56fe_U63a2_U7d22-1242x2688.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/e0/bf/4ee0bffb-35f3-8570-4125-b9baa4118b79/1-_U9996_U56fe-2048x2732.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/34/a7/1734a73d-bce5-f399-68d1-73ffa5714f7d/2-_U672b_U65e5_U91cd_U5efa-2048x2732.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/13/80/9113806d-2cfa-c926-e334-15ea39553e44/3-_U9009_U5bf9_U8def_U7ebf-2048x2732.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/fe/26/d1fe26f0-faa3-b1b5-10ba-8e8fd7a77764/4-_U4e89_U593a_U9886_U5730-2048x2732.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/63/ad/fb63adaa-a452-f337-3b5c-ecc053ed92f0/5-_U8f66_U961f_U730e_U8352-2048x2732.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/73/7e/a3737e1a-ffae-a09b-0568-e23243b72c54/6-_U5730_U56fe_U63a2_U7d22-2048x2732.jpg/626x1112bb.jpg"
-    ],
-    "description": "“末日降临，英雄崛起”！在《向末日开炮》玩家们将化身“指挥官”，手持高爆武器，穿梭于末日废墟与移动迷宫，破解人类文明面临着崩溃边缘的难题，在最后一丝防线中，用艰苦卓绝的战斗击退了感染者，地球迎来了新的希望！\n游戏特色：\n1、家园建设：寻找新的根据地，重新建设人类文明据点\n2、兵营系统：建设和升级各类兵种兵营，强化战斗能力，保卫家园\n3、大世界SLG：广袤地图，招揽结盟，扩张领地，掠夺资源\n4、尸潮来袭：一波尸潮涌来，玩家需要指挥佣兵进行家园防御",
-    "release_notes": "【调整优化】\n1、优化调整「设计蓝图」掉落规则：下调大世界16-35级感染体的设计蓝图掉落奖励\n2、优化调整部分 S 级「幸存者」形象资源\n3、优化场景资源，提升游戏流畅度\n\n【问题修复】\n1、修复「寻宝」玩法无法正常领取奖励的异常问题\n2、修复「竞技场」战斗过程中，载具技能入口未正常显示的异常问题\n3、修复「军团语音」入口偶现消失的异常问题\n4、修复「海拉大冒险」抵达探险宝箱格时顶部播报显示异常的问题",
-    "file_size_bytes": 552223744,
-    "min_os": "13.0",
-    "version": "1.0.2",
-    "release_date": "2026-08-02",
-    "rating": 4.2874,
-    "rating_count": 508,
-    "price": "免费",
-    "advisory": "12+",
-    "url": "https://apps.apple.com/cn/app/%E5%90%91%E6%9C%AB%E6%97%A5%E5%BC%80%E7%82%AE/id6748045272?uo=4",
-    "fetched_at": "2026-09-15T00:34:45+08:00"
-   }
-  },
-  {
-   "name": "造化仙府",
-   "boards": [
-    "douyin/畅销榜",
-    "wx/畅销榜"
-   ],
-   "ranks": {
-    "wx/畅销榜": 8,
-    "douyin/畅销榜": 9
-   },
-   "category_l1": "1",
-   "category_l2": "模拟经营",
-   "publisher": "上海沛炫网络科技有限公司",
-   "first_seen": "2026-06-30",
-   "appearances": 71,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:34:52+08:00"
-   }
-  },
-  {
-   "name": "梦回甄嬛传",
-   "boards": [
-    "douyin/新游榜",
-    "douyin/热门榜"
-   ],
-   "ranks": {
-    "douyin/热门榜": 9,
-    "douyin/新游榜": 1
-   },
-   "category_l1": "1",
-   "category_l2": "",
-   "publisher": "广州擎迅网络科技有限公司",
-   "first_seen": "2026-09-05",
-   "appearances": 7,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 0.908,
-    "match_name": "甄嬛传",
-    "country": "cn",
-    "track_id": 6768190026,
-    "seller": "Shenzhen Leiting Information Technology Co., Ltd.",
+    "track_id": 6746321359,
+    "seller": "Xiamen Linbei Interactive Entertainment Technology Co.,LTD",
     "genres": [
      "游戏",
      "休闲",
      "模拟"
     ],
     "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/73/d4/a073d4b4-02c6-f9b4-9eed-af30fdd5bf28/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/8c/ec/078cec06-9946-9fff-6856-73b7935a41d1/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
     "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/a6/df/a5a6df64-96c6-fe5c-7692-a9b386bf3ed8/0-_U7ad6_U7248_U9996_U56fe1242x2688.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/07/69/7e0769d7-6939-db88-ef32-3183e55410c3/1-_U534e_U5983_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/ad/6c/12ad6ca6-4b96-41d5-ef52-d343340f4c05/2-_U7687_U540e_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/54/75/7b/54757b7c-cdaa-4a81-b060-8ff6f1f0828e/3-_U5b89_U9675_U5bb9_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/8a/cd/b28acdea-f25d-8f2c-9bb1-fac1d6f4151a/4-_U6c88_U7709_U5e84_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/0c/b8/df0cb80c-f24b-f1d7-105d-a30d97dfa236/5-_U66f9_U8d35_U4eba_U7ad6_U72481242_U00d72688.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/8c/17/0a8c1712-e4d6-7a00-105e-ee48ee27ad25/0-_U7ad6_U7248_U9996_U56fe-2048x2732.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/7b/2c/9a7b2c98-2dc3-2099-3919-0a4a6787fb40/1-_U6de1_U96c5_U56fd_U98ce_U7248-_U534e_U5983-2048_U00d72732.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/bc/56/98bc56cd-5c61-959e-d911-8f66e7ef0d29/2-_U6de1_U96c5_U56fd_U98ce_U7248-_U7687_U540e-2048_U00d72732.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/77/19/19771992-5661-6349-6bb1-3785830c1d77/3-_U6de1_U96c5_U56fd_U98ce_U7248-_U5b89_U9675_U5bb9-2048_U00d72732.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/14/1d/1c141df7-a3df-4ee0-caf5-59241ab4e6bd/4-_U6de1_U96c5_U56fd_U98ce_U7248-_U6c88_U7709_U5e84-2048_U00d72732.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/3a/c4/273ac413-cfb7-2e38-1c1f-d3816b9310cc/5-_U6de1_U96c5_U56fd_U98ce_U7248-_U66f9_U8d35_U4eba-2048_U00d72732.jpg/626x1112bb.jpg"
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/af/65/28af65fb-ccdc-d5f0-55e5-fac1b99c5785/1320x2868_U00281_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/8c/a4/c08ca476-1103-e2c4-2860-af0944d24f1e/BF7952E343A6B569CFF5ED17578D0239.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/a2/e8/6fa2e8f7-be10-6ba1-cee7-76d48d0aad0b/1320x2868__U00282_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/f5/98/20f59832-426e-0585-66eb-93802061a196/_U5320_U5fc3_U5de7_U7b511320x2868.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/cb/85/19cb8534-b796-08f4-7fa4-0f77b58d2808/_U840c_U5ba0_U76f8_U4f34.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/97/69/88976953-cafa-bccf-e926-003ab4f46417/_U82b1_U5f71_U4f5c_U88f3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/15/dd/5b15dd55-d74a-8fad-61aa-f617ecacb92f/_U4e07_U5343.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/a1/87/71a18714-0d81-6a65-10c1-009fc985c7d8/_U5999_U624b_U62c8_U82b122.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/f4/d0/caf4d01b-e5b0-ea21-c980-c2c4aa339015/_U77e5_U5df1_U65e0_U754c.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/52/7d/8e527d25-3738-3c39-fad6-aad00b3f0fa3/2064x2752.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/95/d7/f795d717-0ad0-bbed-ff79-b0ef5c68f4e6/A9C18EC817B771BA9099488905E2EC34.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/e4/73/02e473e4-90a3-25ca-b09e-493c32b34670/2064x2752__U00281_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/30/a5/9f30a50d-c490-7c9a-f088-5aa5550681e7/_U5320_U5fc3_U5de7_U7b512064x2752.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/81/65/758165a7-2139-f446-d585-a1b8e452aafe/_U840c_U5ba0.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/66/b9/f566b969-6da4-a573-edea-e89a8692bc87/_U82b1_U5f71_U4f5c_U88f3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/cc/1c/55cc1cbc-6a42-2d0c-7f51-4be9031e753a/_U4e07_U5343.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/ea/a6/88eaa6d5-c733-2f18-b9b7-11a1a2cde0a0/_U5999_U624b.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/44/0c/be440c35-ec93-10e5-4955-b5accdf943f6/_U77e5_U5df1.jpg/626x1112bb.jpg"
     ],
-    "description": "经典IP，正版还原，认准三字《甄嬛传》手游，执掌六宫模拟器，熹妃日常应有尽有！\n\n电视剧《甄嬛传》IP正版授权，高度还原剧版经典名场面，滴血认亲，你开口还是沉默？甘露寺，你走还是留？你的每个选择都通向不同结局，通过关键抉择书写新章。\n\n当当小主，正版甄嬛\n“那年杏花微雨，你说你是果郡王”——这次，杏花树下的人是你！电视剧《甄嬛传》IP正版授权，御前选秀、甘露寺回宫、滴血认亲……救不救、信不信、争不争，做出你的选择，亲手推动剧情，这一次换你来演！\n\n交交姐妹，无人敢欺\n“温太医，救救我！” “眉庄总是在这里陪我一起”——不仅温太医、眉姐姐、果郡王无条件帮你，连太后也会替你撑腰！在后宫，人脉是硬通货，结识并招揽剧中经典角色成为门客、挚友，培养门客提升宫斗力，增加与挚友的亲密度，组建你的\"\"后宫复仇者联盟\"\"。\n\n换换华裳，百变梳妆\n“粉色娇嫩，你如今几岁了？”——衣裳穿对了，想几岁就几岁！甄嬛经典穿搭，飒爽英装、异域服饰，万千风格各异的精致华服、装饰、妆容让你自由搭配，今日是清雅灵动小白兔，明日换霸气侧漏正红妆。记住，后宫穿搭拼的不只是好看，更是人心。\n\n做做御膳，执掌六宫\n“这御膳房啊，是皇上的胃，也是臣妾的心。”——御膳房提供各宫饮食，太医院可定人生死，内务府分配各宫资源份例……熟悉各宫各院的经营事务，笼络各方势力，才能在这深宫中如鱼得水！坐镇慎刑司，严厉治六宫；笼络御膳房，钻研宫廷食谱；深入太医院，调配秘制汤药......六宫事宜管累了？快来府邸喵居庭院，与各种可爱猫猫欢乐互动，纵享轻松经营的宫廷时光~\n\n斗斗心机，凤位可期\n“在这后宫中想要升，就必须猜得中皇上的心思”——初入宫闱的天真，甘露寺被人踩在脚底的狼狈，再到荣耀回宫化险为夷，在这深宫中步步为营才能活到大结局！不论是闲游拜访积攒好感，还是权贵之争笼络人心，日常的每一步安排都是位分晋升的关键。阅历、势力两手抓，才能在凤阙争锋中站上C位。\n\n选秀在即，各位小主，请即刻入宫，开启你的甄嬛重生剧本！",
-    "release_notes": "优化用户体验",
-    "file_size_bytes": 1474021376,
-    "min_os": "13.0",
-    "version": "1.2.51",
-    "release_date": "2026-12-30",
-    "rating": 0,
-    "rating_count": 0,
-    "price": "",
-    "advisory": "17+",
-    "url": "https://apps.apple.com/cn/app/%E7%94%84%E5%AC%9B%E4%BC%A0/id6768190026?uo=4",
-    "fetched_at": "2026-09-15T00:35:00+08:00"
-   }
-  },
-  {
-   "name": "Block Out! - Color Sort Puzzle",
-   "boards": [
-    "ios/日区免费榜",
-    "ios/美区免费榜"
-   ],
-   "ranks": {
-    "ios/美区免费榜": 2,
-    "ios/日区免费榜": 10
-   },
-   "category_l1": "Games",
-   "category_l2": "",
-   "publisher": "Grand Games A.Ş.",
-   "first_seen": "2026-08-21",
-   "appearances": 25,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "Block Out! - Color Sort Puzzle",
-    "country": "us",
-    "track_id": 6752672568,
-    "seller": "GRAND GAMES OYUN VE YAZILIM ANONIM SIRKETI",
-    "genres": [
-     "Games",
-     "Puzzle",
-     "Casual"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/b0/2d/1fb02d35-d751-2a0e-dd59-0e9b3580924d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/38/e5/7038e5dc-5fcf-26ab-6b29-69547f7a46aa/CLEARTHEBOARD.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/cd/b4/a1cdb409-726b-09db-fb67-e9131c9e5c46/CHALLENGEYOURSELF.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/fc/e7/acfce70d-5909-4a58-5f92-76493de32eb5/ACTIVATEBOOSTERS.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/0f/17/b10f173c-189c-6537-af3a-9c046b5e18d5/UNIQUEOBSTACLES.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/75/3f/ab753fb5-1f38-d272-47af-39ba16669e53/BEATTHECLOCK.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/bc/3d/2abc3d21-70eb-a742-db78-acbe5aa93b31/Splash_Store_03.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/3d/1b/8e3d1bbb-6f0e-1ec5-6d06-3e4277c9e1e2/CLEARTHEBOARD.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/4a/24/624a24a7-d4fa-c350-68ad-91a20afc54f9/CHALLENGEYOURSELF.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/45/4f/65454fc3-3ce2-97af-b0c7-64b387c86ab8/ACTIVATEBOOSTERS.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/0f/5c/d10f5c17-302f-9f24-a589-4b9924a5b504/UNIQUEOBSTACLES.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/14/95/f31495be-ff7f-cd2e-18b1-38f6aa3c6bf5/BEATTHECLOCK.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/4f/f2/164ff2b2-5dea-5d86-c24b-fa73d2fa8ef6/Splash_Store_02.png/626x1112bb.jpg"
-    ],
-    "description": "Get ready for Block Out!, a block puzzle game where every level feels alive. Slide colorful blocks, match them with their targets while experiencing the unique twist of moving elevators and block generators. Each puzzle feels fresh with ever-changing layouts. Plan your moves, think quickly, and enjoy the satisfaction of perfect clears as you progress through a colorful and evolving puzzle adventure. Block Out! offers a puzzle experience that keeps you coming back for more. Accept the challenge and start your journey! \n\nQuick Play Guide\n- Start Simple: Slide the blocks to the matching doors and create satisfying clears.\n- Plan Ahead: Position blocks carefully, manage space, and keep up with dynamic challenges. \n- Think Fast: Move faster to complete levels and unlock new challenges.\n\nCool Features\n- Offline Play: Enjoy anywhere, anytime—no wi-fi required.\n- Strategic Gameplay: Start simple, think twice. Plan your moves and experience the satisfaction of clearing each puzzle.\n- Dynamic Obstacles:  Block generators, moving elevators, and other elements bring variety and spice to every level.\n- Colorful Visuals: Bright and gorgeous design makes every puzzle a joy to solve.\n\nBlock Out! is designed for puzzle lovers who enjoy both strategy and action. Download Block Out! now and explore the dynamic world of colorful puzzles.",
-    "release_notes": "Are you ready for an update?\n\n- New Area: Jurassic Adventure! Join our friends as they uncover the amazing world of dinosaurs!\n- Brand-new levels are waiting for you!\n- Bug fixes for a smoother gameplay experience!\n- UX improvements to make your adventure even better!",
-    "file_size_bytes": 538812416,
-    "min_os": "13.0",
-    "version": "1004",
-    "release_date": "2025-10-31",
-    "rating": 4.72764,
-    "rating_count": 238581,
-    "price": "Free",
+    "description": "指尖耕耘，清香入怀。玩「我的花园世界」有机会收获真实花束！\n\n《我的花园世界》是一款模拟经营类的花坊营建治愈手游，在游戏里玩家可以种下玫瑰、雏菊、郁金香等数百种鲜花，摸清每一种花草习性，沉浸式体验花艺师的日常；收获鲜花后搭配花瓶花材，创作独属于你的插花作品；每天接各种订单赚金币攒经验，还能串门好友花园顺手“偷”几朵珍稀花朵，和公会伙伴携手参赛冲刺榜单，领取丰厚奖励。还有超多花园装扮任你搭配，打造梦中情园；参与公会任务，认领梭梭树，一边悠闲种花一边投身公益，温暖又有意义！",
+    "release_notes": "· 正式官宣《我的花园世界》品牌大使张新成！以笃定之心，种治愈之花，欢迎张新成与花园并肩同行；以潜心积淀，让美好生根，和花艺师们一起悉心莳花，静待满园花开！\n\n· 全新 iOS 专属“控制”功能【立即收花】【公会竞赛】上线（需系统版本至少为 iOS 18.0），进入设置-操作按钮-向左划至控制-选取控制-搜索我的花园世界；进入控制中心-长按空白区域-添加控制-搜索我的花园世界，即可将其添加至快捷操作按钮或下拉控制中心中。\n\n· 全新 iOS 专属桌面小组件【鲜花种植】【我的花园】上线（需系统版本至少为 iOS 16.1），长按桌面-左上角编辑-添加小组件-搜索我的花园世界，即可将其添加至桌面。别忘记种花哟！\n\n· 花漾相逢，共植美好。杨紫成为《我的花园世界》品牌代言人！期待与你一起，邂逅花园里的万般美好——种虚拟鲜花，收获真实鲜花。年度专属福利码【杨紫邀你共赏新花】敬请前往游戏内兑换领取！\n\n· 花园公益·阳关新绿 正式开启——花艺师们，以花园公会合力、积攒能量，抵漫天风沙；方寸花园里的点滴美好，将跨越山海，兑换真实梭梭树落地敦煌阳关。",
+    "file_size_bytes": 690323456,
+    "min_os": "12.0",
+    "version": "1.1.25",
+    "release_date": "2025-08-05",
+    "rating": 4.12923,
+    "rating_count": 48393,
+    "price": "免费",
     "advisory": "4+",
-    "url": "https://apps.apple.com/us/app/block-out-color-sort-puzzle/id6752672568?uo=4",
-    "fetched_at": "2026-09-15T00:35:05+08:00"
+    "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9B%AD%E4%B8%96%E7%95%8C/id6746321359?uo=4",
+    "fetched_at": "2026-09-15T21:47:58+08:00"
    }
   },
   {
-   "name": "Smash Fest!",
-   "boards": [
-    "ios/日区免费榜",
-    "ios/美区免费榜"
-   ],
-   "ranks": {
-    "ios/美区免费榜": 3,
-    "ios/日区免费榜": 7
-   },
-   "category_l1": "Games",
-   "category_l2": "",
-   "publisher": "Flow Games Bilisim Yazilim ve Pazarlama Anonim Sirketi",
-   "first_seen": "2026-08-21",
-   "appearances": 25,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "Smash Fest!",
-    "country": "us",
-    "track_id": 6748084174,
-    "seller": "Flow Games Bilisim Yazilim ve Pazarlama Anonim Sirketi",
-    "genres": [
-     "Games"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/3e/2e/933e2ed1-8b86-d507-1fc1-184f7255e81c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/4b/3a/0b4b3afb-a682-f192-5db8-c5e4b9724421/KnockemAll.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/63/ee/d363ee7b-c5cf-a350-d2f4-b847318cbc20/Smash.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/57/24/2d572428-149a-a0ae-8f1a-311b7bad870f/EnjoyNewLevels.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/28/18/98281811-5778-bc33-8a03-fbbe3c26bd24/ChallangeYourself.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/00/a6/db00a685-4bf9-939b-0dc7-8d90aa683099/ClearTheTable.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/d3/a3/52d3a34c-04ab-0aae-e471-3522510e89c9/KnockemAll.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/33/a8/4733a87b-6260-84e4-1428-bc80fcb6186c/Smash.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/22/a8/bc22a869-f565-9cb5-0832-68e3b4d966a0/EnjoyNewLevels.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/c7/77/efc777fd-ac9e-2f2d-7c38-f18d97b9a239/ChallangeYourself.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/85/07/48850789-fa6b-8c97-7288-b440e900e480/ClearTheTable.png/626x1112bb.jpg"
-    ],
-    "description": "Welcome to Smash Fest!\nGet ready for the most explosive festival in town! Step into a colorful arena where every shot counts — fire your cannon, smash through fragile jars, break apart heavy stones, and watch the chaos unfold in the most satisfying way.\nEach level is a brand-new challenge. Adjust your angle, power, and timing to create the perfect launch. One clean shot can trigger a chain of destruction that feels like pure magic. Easy to play from the first minute, but full of skill and precision for players who love mastering mechanics.\nFrom lively festival scenes to dynamic destruction effects, Smash Fest brings the ultimate aim – shoot – smash experience!\nKey Features\n- Stunning high-quality 3D visuals\n- Satisfying destruction: shattering jars & crumbling stones\n- Skill-based shot mechanics that reward perfect accuracy\n- Colorful festival environments with animated scenes\n- Simple controls, endlessly fun progression\nThe festival is ready!\nFire the cannon and let the show begin!",
-    "release_notes": "Bug fixes and improvements",
-    "file_size_bytes": 266422272,
-    "min_os": "15.0",
-    "version": "575",
-    "release_date": "2025-12-16",
-    "rating": 4.72006,
-    "rating_count": 444555,
-    "price": "Free",
-    "advisory": "4+",
-    "url": "https://apps.apple.com/us/app/smash-fest/id6748084174?uo=4",
-    "fetched_at": "2026-09-15T00:35:08+08:00"
-   }
-  },
-  {
-   "name": "时尚百货城",
+   "name": "空格之境",
    "boards": [
     "douyin/热门榜",
-    "douyin/畅销榜"
+    "douyin/畅销榜",
+    "wx/畅销榜"
    ],
    "ranks": {
-    "douyin/热门榜": 8,
-    "douyin/畅销榜": 10
+    "wx/畅销榜": 17,
+    "douyin/热门榜": 20,
+    "douyin/畅销榜": 16
    },
    "category_l1": "1",
+   "category_l2": "模拟经营",
+   "publisher": "江西启游互动科技有限公司",
+   "first_seen": "2026-06-30",
+   "appearances": 61,
+   "best_rank": 5,
+   "profile_value": "high",
+   "seed": {
+    "gameplay_desc": "二合",
+    "tags": [
+     "二合"
+    ],
+    "notes": "",
+    "developer": "全民互动"
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "空格之境",
+    "country": "cn",
+    "track_id": 6771265430,
+    "seller": "Jiangxi Mengrao Interactive Entertainment Technology Co., Ltd",
+    "genres": [
+     "游戏",
+     "休闲"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/14/3a/a5143a7a-02f7-faef-505e-ab91880ff777/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/9c/99/389c9921-467a-b8c5-a546-7ed8cf30c956/0.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/26/a9/e926a9df-050d-1ef7-48e0-915f87dcbda4/1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fa/49/a4/fa49a409-8886-e174-e00f-227801294fbc/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/2c/31/852c31ad-8605-b8b6-0218-605ca177436e/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/55/e0/a855e00a-7e5a-8239-f1c1-1e250d693279/5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/c8/e2/6ac8e2be-7222-017b-20b0-8485d12af53f/0.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/69/ad/6269add4-2f76-08b4-42c2-4f853dd24e34/1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/86/1e/33861e2a-9d0e-2172-5184-656c61448530/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/5d/3c/3c5d3cf5-f7f3-f675-86d8-b0864ed96537/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/3b/41/513b4147-e235-4c6d-a23a-7194f219d4d6/5.jpg/626x1112bb.jpg"
+    ],
+    "description": "在这里，你不再是普通的社畜，而是身负血海深仇的丝织世家嫡女；想要逃离这荒诞的命运重返现实，唯一的筹码便是揭开尘封已久的“元熙官锦贪墨案”真相，并在重重迷雾中寻回失踪的父亲沈朔。这不仅是一场关于生存的博弈，更是一次穿越时空的灵魂救赎……\n\n【达成契约 · 汇聚四方财源】\n核心订单交付玩法。 在任务界面查看各方势力的物资需求，通过合成与收集凑齐指定道具进行交付。完成契约不仅能获得金币和经验奖励，还能提升势力好感度，是游戏中积累财富、推动进度的主要途径。\n【卷轴轻展 · 沉浸主线篇章】\n丰富的剧情对话系统。 随着游戏进程解锁跌宕起伏的主线故事，通过与NPC的互动点击推进剧情发展。在探案过程中做出你的关键选择，逐步揭开“元熙官锦贪墨案”背后的秘密，享受视觉小说般的阅读体验。\n【积少成多 · 铺就繁华之路】\n剧情道具收纳与空间解放。 面对有限的合成空地，背包就是你的第二仓库！将合成好的大型建筑（剧情必备工具）存入背包，不仅不占用外面的操作格位，还能随取随用。合理规划库存，让你的合成场地不再拥挤，闯关效率翻倍。\n【四时流转 · 静观岁月枯荣】\n真实的动态四季变换系统。 游戏场景会随着时间推移呈现春、夏、秋、冬不同的视觉风貌。从春花到冬雪，地图背景和光影效果会实时更迭，让你在经营之余也能欣赏到生动细腻的环境变化。\n【指尖生花 · 重拾古镇旧梦】\n剧情驱动的古建修复。 采用精致的古风俯瞰视角，随着主线任务的推进，亲手将一座座特色建筑安置于古镇之中。看着原本荒芜的土地在你的努力下逐渐恢复生机，体验从零开始重建繁华市镇的成就感与归属感。",
+    "release_notes": "活动更新，快来玩吧！",
+    "file_size_bytes": 93415424,
+    "min_os": "15.0",
+    "version": "9.3",
+    "release_date": "2026-06-28",
+    "rating": 4.87488,
+    "rating_count": 1031,
+    "price": "免费",
+    "advisory": "17+",
+    "url": "https://apps.apple.com/cn/app/%E7%A9%BA%E6%A0%BC%E4%B9%8B%E5%A2%83/id6771265430?uo=4",
+    "fetched_at": "2026-09-15T21:47:59+08:00"
+   }
+  },
+  {
+   "name": "Mahjong Blast",
+   "boards": [
+    "android/美区免费榜",
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 16,
+    "android/美区免费榜": 14
+   },
+   "category_l1": "Games",
    "category_l2": "",
-   "publisher": "深圳市爱的番茄科技有限公司",
-   "first_seen": "2026-06-29",
-   "appearances": 72,
-   "best_rank": 2,
+   "publisher": "Nebula Studio",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 6,
    "profile_value": "",
    "seed": {
     "gameplay_desc": "",
@@ -517,59 +169,179 @@
    "media": {
     "matched": true,
     "match_score": 1.0,
-    "match_name": "时尚百货城",
+    "match_name": "Mahjong Blast",
+    "country": "us",
+    "track_id": 6747492600,
+    "seller": "HURELAX PTE. LTD.",
+    "genres": [
+     "Games",
+     "Entertainment",
+     "Board",
+     "Puzzle"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/0c/70/a20c7039-190b-ca71-2dcd-d65661149ed7/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/52/d1/2e52d1fa-c989-36c2-0747-167cb756f8e5/1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/d3/32/89d33264-aafd-c42d-6ba2-67aa9c1b7267/2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/1f/c7/d81fc72a-7138-3edd-21a6-f91d64983e05/3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/79/37/1a793734-2150-d771-b68f-31464171e68a/4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/0f/a3/b00fa378-87a0-60f7-2048-c8b971fccb7a/5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/8b/e8/868be823-5318-6f3b-c61e-8e988071f93d/6.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/2e/45/f52e45e1-ae9c-9f4e-cb70-3fbc5ee768bd/1.jpeg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/ae/07/fbae075c-1cf9-26ef-527d-c62cb98abe82/2.jpeg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/2f/4f/082f4fb5-df3f-d98d-d6af-33dc873fe786/3.jpeg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/42/ba/a942babd-66bf-7b48-f299-3eac6bb09627/4.jpeg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/c4/7e/70c47ed9-568e-13e3-1354-db8663ca2b79/5.jpeg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/5d/0c/da5d0c0b-fc06-a8dd-0e6b-a155f1a6ebb5/6.jpeg/626x1112bb.jpg"
+    ],
+    "description": "Mahjong Blast is the best free puzzle game for seniors and adults — a relaxing offline mahjong solitaire game designed for players who love matching games, tile games, brain games, casual games, and calming puzzle solving experiences. 100% ad free with no annoying pop-ups or interruptions, play anytime, anywhere — no WiFi or internet connection required.\n\nMatch identical tiles, clear satisfying boards, and enjoy smooth gameplay. Whether you enjoy classic mahjong solitaire, free matching games, relaxing brain training, or engaging mind puzzles, Mahjong Blast delivers large clear tiles, simple one-tap controls, and distraction-free fun.\n\nClassic Mahjong Solitaire & Tile Connect\nMahjong Blast combines traditional mahjong solitaire with modern board puzzle mechanics. Match identical tiles, unlock blocked pieces, and complete relaxing puzzle challenges. Fans of pair matching games, tile connect mechanics, and classic tile puzzles will enjoy the satisfying balance of relaxation and strategy. Every level provides fun brain-training gameplay and a rewarding puzzle journey.\n\nRelaxing Games for Stress Relief\nExperience a peaceful game with soft visuals, clean layouts, and smooth animations. Mahjong Blast is one of the top relaxing games created to help players unwind and reduce stress. If you enjoy calm games, stress relief games, satisfying games, casual games, or zen puzzles, we offer a soothing tile-matching experience with no pressure and no timers.\n\nBrain Games for Adults & Seniors\nA fun brain game for adults and seniors who enjoy memory games, logic puzzles, mind games, cognitive training challenges, and brain-training games. Matching tiles improves focus, observation, memory, and concentration. Designed for older adults, the game features large visible tiles and an easy interface. Whether you seek games for seniors, easy games, relaxing brain puzzles, or free tile games, enjoy a comfortable experience.\n\nOffline Games – No WiFi Needed\nA fully offline game that works without WiFi, mobile data, or internet access. Enjoy free offline games during travel or commutes. Unlike many online apps, Mahjong Blast supports true offline gameplay with uninterrupted tile matching. If you are looking for offline games, games without WiFi, internet-free games, offline puzzle games, or offline matching games, this is the perfect choice for any puzzle solver.\n\nDaily Puzzles & Endless Fun\nEnjoy daily puzzle challenges, relaxing matching gameplay, and satisfying tile-clearing fun. With thousands of handcrafted levels, Mahjong Blast offers endless entertainment for players who love casual games and relaxing logic puzzles.\n\nAmerican Mahjong Practice to Enjoy With Friends\nCan't get the group together for mahjong 4 friends? Relax with Mahjong Blast! While it’s not like american mahjong, our mahjong puzzles are the perfect way to unwind. Consider it a fun, stress-free mahjong practice to sharpen your eyes and clear your mind before your next real game night. \n\n100% Ad Free – No forced ads or pop-ups\nPlay Offline Anytime – Free games without WiFi or internet\nBrain Training Fun – Improve memory, focus, and cognitive skills\nRelaxing Gameplay – Calm visuals and stress-free puzzle mechanics\nDesigned for Seniors – Extra-large tiles and simple controls\nThousands of Levels – Daily puzzles and endless matching challenges\n\nMahjong Blast, formerly known as Mahjong Wonders, combines classic mahjong solitaire, relaxing matching gameplay, and reliable offline play. Whether you love matching games, tile games, brain games, relaxing games, casual games, free puzzle games, offline games, or free games for adults and seniors, play anytime, anywhere.\n\nDownload now and join millions of players in this ultimate puzzle classic!\n\nPrivacy policy: https://www.hurelax.com/privacy-policy \nTerms of Use: https://www.hurelax.com/term-service",
+    "release_notes": "Bug fixes & performance improvements\nEnjoy a smoother Mahjong experience designed to help you unwind and sleep better.",
+    "file_size_bytes": 486385664,
+    "min_os": "15.0",
+    "version": "2.0.6",
+    "release_date": "2025-06-24",
+    "rating": 4.86404,
+    "rating_count": 548567,
+    "price": "Free",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/us/app/mahjong-blast/id6747492600?uo=4",
+    "fetched_at": "2026-09-15T21:48:03+08:00"
+   }
+  },
+  {
+   "name": "星布谷地",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "ranks": {
+    "taptap/预约榜": 10
+   },
+   "category_l1": "模拟经营",
+   "category_l2": "3D、休闲、社交、种田、多人联机、角色扮演、建造、治愈、模拟",
+   "publisher": "miHoYo",
+   "first_seen": "2026-07-06",
+   "appearances": 57,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "星布谷地",
     "country": "cn",
-    "track_id": 6752632961,
-    "seller": "Shenzhen Tomato of Love Technology Co., Ltd",
+    "track_id": 6776623426,
+    "seller": "Shanghai miHoYo YingTie Technology Co., Ltd.",
     "genres": [
      "游戏",
      "模拟",
      "休闲"
     ],
     "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/3d/da/df3dda6a-0014-5405-b314-0e29d5bf39f4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/5b/0e/6b5b0e50-6f39-13b7-b73d-f64979f8e697/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
     "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/73/9f/07739ff1-59ba-06ab-c0da-d7129012f802/1.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/f0/ce/c1f0ce8d-767a-aa5b-0fd5-02ca869326db/2.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/b8/7c/4ab87ca0-3cf8-e011-42f5-8908e44a1273/3.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/3e/40/0b3e406e-4043-b958-a6fd-83d6db8dc918/4.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/44/4f/84444faf-34a3-28dc-abc2-9793d1335463/5.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/c0/d9/e7c0d90d-7302-c947-b9e8-96b9793e1979/1.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/ee/69/52ee698e-1c55-b06d-919b-5ba59e85b4dc/2.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/60/42/0560420c-07e7-f706-2f82-5be09dedd824/3.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/46/3d/5f463d30-535c-5e2f-e831-a3eee3efd8c8/4.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/7e/d9/237ed94f-8759-2833-4ef3-43ad2758c485/5.png/626x1112bb.jpg"
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/70/92/91709237-c8f5-da38-af2d-92c6f984e63a/2208x1242-CHS-CHT.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/b4/cc/26b4cca1-5329-a086-be26-ef26f53ab961/1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/68/ea/3768eabf-eff8-ba17-bcb0-a251fe99bcea/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/35/a3/2435a3d5-e7ca-010a-8a64-646e005e2972/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/48/05/e7/4805e750-cf7b-bc49-6b10-0eda7c2def87/6.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/89/b0/2289b0a4-d783-2420-fada-311944b9ae1c/4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/ae/d9/a1aed9d7-dc66-ffb0-e718-090bed219552/5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/08/e7/4b08e7e6-7ec1-794b-0982-90c04229c0ad/2732x2048-CHS-CHT.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/2d/dc/d82ddc07-cd16-8cf2-ae34-be95b68c8a07/1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/7a/ee/f27aee7b-22a6-5e36-0b0a-3e8c1f09099c/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b3/b8/45/b3b8459b-e87c-bd10-fb4f-ac7a87edb7da/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/37/6f/3c376f85-102e-bf35-36af-092cd4ce791d/6.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/35/b1/bd/35b1bd0c-8239-9db1-7bed-86838651aacf/4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ad/49/8e/ad498e41-36b0-fc5d-a6d8-48eff1ae7b27/5.jpg/626x1112bb.jpg"
     ],
-    "description": "《时尚百货城》是一款超休闲百货经营手游。每次逛街看到百货商场里琳琅满目的店铺，是不是也幻想过自己当老板的样子？是不是经常和闺蜜手挽手逛街，却发现每家店铺都大同小异，怎么也找不到让人眼前一亮的心动店铺？在这里，你将有机会成为老板，打造属于自己的时尚百货城！从一家小小的快餐店开始，用你独到的经营技巧，把商场里那些经营不善的店铺一个个爆改盘活——让冷清的服装店变身网红打卡地，把积灰的玩具店改造成潮玩集合地！游戏融合了店铺经营、伙伴养成、时尚换装、精美家装等丰富玩法，让你在轻松愉快的氛围中体验扩张经营的激情与成为富婆的乐趣！\n\n【自由经营，打造商业传奇】\n从一家小小的快餐店开始，你的每一点努力都将让你离成为富婆的梦想更近一步！开设连锁超市、高奢服装店、盲盒手办城……每种店铺都有独特的经营玩法，考验你的经营技巧！随着资金和经验的积累，你还能收购整座商场，将每一个店面都打造成爆款店铺，成为真正的商业大亨！\n【百变时尚，定义专属风格】\n在时尚之都，你的形象就是你的品牌！自由搭配超多套潮流时装，从休闲运动风到奢华晚礼服，从街头潮酷到甜美森系，随心切换你的风格！更有自定义家装玩法，装扮自己的同时还能打造属于自己的超绝豪宅！\n【伙伴助手，助力经营扩张】\n一个人的力量有限，但一支强大的团队能让你无往不利！招募并培养各行业精英——金牌销售、天才设计师、营销专家……他们将成为你有力的帮手！还有机会签约唱跳全能偶像成为明星代言人，让你的品牌影响力席卷全城！\n【休闲放松，享受富婆生活】\n在忙碌的商业经营之余，别忘了享受生活！可以自由逛街上货，或在你的私人豪宅里放松休憩。游戏采用轻松放置玩法，碎片时间也能轻松管理你的时尚百货城！\n看着顾客们在你改造的店铺前排起长队，收银台不断传来\"叮咚\"到账的声音，这种成就感简直让人上瘾！快来打造一座让所有女生都向往的时尚百货城，体验从零开始到百货女王的完美逆袭吧～",
-    "release_notes": "【伙伴&艺人上新】甄嬛传联动|凤仪将临,携甄嬛入局紫禁",
-    "file_size_bytes": 1537157120,
-    "min_os": "10.0",
-    "version": "1.2.7",
-    "release_date": "2026-01-28",
-    "rating": 4.60635,
-    "rating_count": 62654,
-    "price": "免费",
-    "advisory": "17+",
-    "url": "https://apps.apple.com/cn/app/%E6%97%B6%E5%B0%9A%E7%99%BE%E8%B4%A7%E5%9F%8E/id6752632961?uo=4",
-    "fetched_at": "2026-09-15T00:35:10+08:00"
+    "description": "《星布谷地》是米哈游自主研发的生活模拟游戏。\n在这里，你将拥有一颗属于自己的星球，遇见生活的无限可能。\n\n种植、钓鱼、赶海、烹饪，感受生活本身的意义；\n改变星球的景观，塑造不同风格的山川大地；\n设计家具、装修建造，尽情打造理想中的家园；\n探索广袤星海，与性格各异的毛茸茸友邻们缔结友谊；\n走进热闹的星空街市，漫步、休憩，感受欢声笑语……\n在共度的时光中，建立起与世间万物的「连接」。",
+    "release_notes": "小星球生活模拟游戏",
+    "file_size_bytes": 3471921152,
+    "min_os": "14.0",
+    "version": "0.9.1",
+    "release_date": "2026-12-31",
+    "rating": 0,
+    "rating_count": 0,
+    "price": "",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/cn/app/%E6%98%9F%E5%B8%83%E8%B0%B7%E5%9C%B0/id6776623426?uo=4",
+    "fetched_at": "2026-09-15T21:48:05+08:00"
    }
   },
   {
-   "name": "Bus Traffic Fever!",
+   "name": "MiniMuse",
    "boards": [
-    "ios/日区免费榜",
-    "ios/美区免费榜"
+    "android/美区免费榜"
    ],
    "ranks": {
-    "ios/美区免费榜": 8,
-    "ios/日区免费榜": 5
+    "android/美区免费榜": 1
    },
    "category_l1": "Games",
    "category_l2": "",
-   "publisher": "GOODROID,Inc.",
+   "publisher": "Studio Sirenia",
+   "first_seen": "2026-09-12",
+   "appearances": 3,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 0.96,
+    "match_name": "MiniMuses",
+    "country": "cn",
+    "track_id": 6798905825,
+    "seller": "STUDIO SIRENIA LTD",
+    "genres": [
+     "游戏"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/00/93/0c009394-ae9e-91c1-c4d7-86471def78a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/ce/a3/f1cea3c1-89e7-26ea-940b-6410ffef46f7/01art.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/d0/c3/b0d0c36b-f70d-afa7-7f05-273e43da112a/02_customise_2778x1284.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/f9/07/99f907e2-23c1-2220-aaa9-6d38ec03a2f1/01_studio_2778x1284.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/f7/7f/5af77fdc-89a8-03c3-684f-7b5e651d40bd/customise_ipad_2752x2064.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/10/37/d310374c-5bb0-bebd-450e-fe11271e87f2/studio_ipad_2752x2064.png/626x1112bb.jpg"
+    ],
+    "description": "Your Muse, Your Story.\n\nMiniMuse is a character creator where every detail is yours to design. Build your characters, style them from a wardrobe of over 1,500 assets, and bring them to life in Studio Mode.\n\nCREATE YOUR MUSE\n- Customise everything tied to your muse: hair, eyes, limbs, accessories and more\n- Colour every layer with custom palettes, patterns, and saved colours\n- Add as many assets as you'd like, and reorder layers to create looks unique to your tastes\n- Import your own assets to use in your designs\n\nDIRECT YOUR STORY\n- Set the scene with backgrounds and props, add chat bubbles and text\n- Save your scenes and build your stories\n\nNo account needed. Your characters are saved on your device.",
+    "release_notes": "Bug fixes, and unlocked export character sheets feature.",
+    "file_size_bytes": 419776512,
+    "min_os": "15.0",
+    "version": "1.0.1",
+    "release_date": "2026-09-07",
+    "rating": 4.625,
+    "rating_count": 24,
+    "price": "免费",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/cn/app/minimuses/id6798905825?uo=4",
+    "fetched_at": "2026-09-15T21:48:07+08:00"
+   }
+  },
+  {
+   "name": "Meowdoku: Brain Puzzle Games",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "ranks": {
+    "android/美区免费榜": 3
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Oakever Games",
    "first_seen": "2026-08-21",
    "appearances": 25,
-   "best_rank": 2,
+   "best_rank": 1,
    "profile_value": "",
    "seed": {
     "gameplay_desc": "",
@@ -579,288 +351,38 @@
    },
    "media": {
     "matched": true,
-    "match_score": 1.0,
-    "match_name": "Bus Traffic Fever!",
-    "country": "us",
-    "track_id": 6759763476,
-    "seller": "GOODROID,Inc.",
-    "genres": [
-     "Games",
-     "Casual",
-     "Puzzle"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/08/c3/1b08c380-77f7-cb9e-a7ab-c815348d09d8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/ef/df/1befdfa2-e1b9-e6a1-49bd-8115f93410f5/6.5inch__U00285_U0029.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/16/15/051615ff-ec40-97f6-b02b-8efbfa621673/6.5inch__U00284_U0029.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/ca/c8/d9cac849-ee4b-2f50-a932-23a75dda2aeb/6.5inch__U00282_U0029.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/66/5b/50665b5f-06c1-0cfd-62f8-6d58be1e7c43/6.5inch__U00286_U0029.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4a/69/72/4a697201-151c-6265-f38b-3fd3c707a9a4/6.5inch__U00287_U0029.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/db/4c/88db4c52-9c7d-9346-190a-12532d2f4d79/13inch__U00285_U0029.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/28/07/bb280782-536a-3fb8-33d4-d257655cdcb2/13inch__U00284_U0029.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/5b/f3/fc5bf3e1-d059-16a0-de80-9d223d52f765/13inch__U00283_U0029.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cd/1b/72/cd1b720a-1466-22b0-6c42-b95d71dd0517/13inch__U00287_U0029.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/96/cc/0f96ccc0-c61c-047d-f315-14671310d367/13inch__U00286_U0029.png/626x1112bb.jpg"
-    ],
-    "description": "Do you love solving challenging yet satisfying puzzles?\nStep into the world of Bus Traffic Fever!\n\nBus Traffic Fever! combines the excitement of parking games, the challenge of color-sorting games, and the satisfying people. Plan your moves to clear the parking lot congestion and make way for smooth traffic.\n\nMove, park, and collect—every decision matters in this parking jam puzzle.\n\nWhether you love car parking games, color-sorting games, or just brain teasers, this addictive puzzle game will keep you hooked.\n\nDownload “Bus Traffic Fever!” now and become a master!",
-    "release_notes": "Bug Fix",
-    "file_size_bytes": 379152384,
-    "min_os": "15.0",
-    "version": "1.7.0",
-    "release_date": "2026-03-13",
-    "rating": 4.68386,
-    "rating_count": 61722,
-    "price": "Free",
-    "advisory": "12+",
-    "url": "https://apps.apple.com/us/app/bus-traffic-fever/id6759763476?uo=4",
-    "fetched_at": "2026-09-15T00:35:13+08:00"
-   }
-  },
-  {
-   "name": "QQ经典农场",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅销榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 4,
-    "wx/畅销榜": 5
-   },
-   "category_l1": "休闲",
-   "category_l2": "模拟经营",
-   "publisher": "深圳市腾讯计算机系统有限公司",
-   "first_seen": "2026-06-29",
-   "appearances": 72,
-   "best_rank": 3,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 0.8,
-    "match_name": "QQ农场",
+    "match_score": 0.833,
+    "match_name": "Meow Sudoku: Cat Puzzle Games",
     "country": "cn",
-    "track_id": 506655146,
-    "seller": "Shenzhen Tencent Computer Systems Company Limited",
+    "track_id": 6781143433,
+    "seller": "MINA SONANI",
     "genres": [
      "游戏",
-     "家庭聚会",
-     "模拟"
+     "益智解谜",
+     "桌面"
     ],
     "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/c2/d2/c2c2d25b-b14c-bc5f-53ba-bcdf6bbe9f0b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/69/1d/4d691ded-2f9a-eac1-adf2-8ed9d6bfaa09/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
     "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/68/f6/6668f6a0-2532-b8ef-9b53-a84f6036138f/20250106103128-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690518-1.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/19/9b/6d199bd2-aeda-6f74-cb65-873badf94001/20250106103135-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690517-1.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/64/14/2064147d-1bd7-ed3b-9228-b22bf5bacf89/20250106103141-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690519-1.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b6/46/f6/b646f6c0-ef37-aea7-f281-8ca85656dfad/20250106103148-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690520-1.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/98/57/eb/9857eb85-fb51-084d-d451-4dac0eda219d/20250106103155-706a69b7-25c8-40fb-9d3c-82eb2f04940d-9690521-1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/6a/53/b06a5394-7d1d-93e5-423d-91e9d61b3f17/20250106103128-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690534-1.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/82/d1/3282d150-f63b-7465-d2c1-a46391c7da80/20250106103135-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690535-1.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/35/2d/77352db7-5ca0-1d5b-f381-fc4de26057b6/20250106103142-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690536-1.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/c1/d6/1ec1d6c9-10b6-8e70-2248-302613ca16f7/20250106103149-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690537-1.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/11/e2/7f11e2db-6633-f9cd-26e2-97e015bce5c2/20250106103156-2afc1b76-989a-47e9-b43a-e51d9f8ce32f-9690538-1.png/626x1112bb.jpg"
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/74/f7/2e74f7b4-10dc-9e5d-77e1-0add0901708c/1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/09/3b/6b/093b6bbc-1d34-4790-b94a-abe9edcce682/2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/d2/12/ccd212e8-43f5-30ba-5cdf-f376e5ecc633/4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/4d/b2/f64db270-6a91-3cdb-8429-6045856ccec1/5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/29/2e/86/292e8696-bc20-c267-bc6e-f11455e7983f/3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/d2/4a/efd24a62-335e-6545-73a6-a5e3f11527a0/6.png/626x1112bb.jpg"
     ],
-    "description": "官方微信：wx-qqfarm\n\n更多精彩访问官方下载页：nc.qq.com\n\n---特别说明---\n\n在游戏《QQ农场》中，用户使用QQ账号登录，能够同步游戏中部分数据，包括等级、好友等非通过购买累计的数值。用户在游戏中购买的游戏代币“星钻”仅限于在此应用中使用。腾讯平台上的虚拟货币, 比如Q币、Q点都无法在游戏内使用。\n\nThe game 《QQ farm》 is independent and separate from any other platform regarding acquisition of purchasable item/content. Users logged in with their Tencent's platform accounts QQ are able to sync non-purchasing related information/data in the game, such as friend list, score and level. Game currencies purchased/earned outside of the app. Similarly, any game currencies purchased/earned in 《QQ farm》 on any other platform cannot be used in this app either. The app doesn't use any QQ digital currency, such as QB.",
-    "release_notes": "修复部分bug\n切换账号时减少弹窗",
-    "file_size_bytes": 872921088,
-    "min_os": "12.0",
-    "version": "4.0.20",
-    "release_date": "2012-05-22",
-    "rating": 4.7444,
-    "rating_count": 27864,
+    "description": "Relax. Solve. Collect.\n\nWelcome to Meow Sudoku: Cat Puzzle Games, a cozy and addictive Classic Sudoku adventure that combines relaxing gameplay, brain-training puzzles, adorable cats, beautiful themed worlds, and rewarding postcard collections.\n\nInspired by the timeless Classic Sudoku experience, Meow Sudoku offers carefully crafted puzzles that are easy to learn yet satisfying to master. Solve puzzles using pure logic, travel through charming worlds, unlock collectible cat postcards, and enjoy a peaceful puzzle experience designed for every player.\n\nWhether you're looking to relax after a busy day or challenge your brain with thoughtful Classic Sudoku puzzles, Meow Sudoku is the perfect companion for puzzle lovers and cat enthusiasts alike.\n\nHow to Play:\n\nEvery puzzle follows three simple rules:\n\n• One Cat Per Color\n\n• One Cat Per Row and Column\n\n• Cats Cannot Be Adjacent\n\n- Study the board, eliminate possibilities, and use logical thinking to discover the correct placement for every cat.\n\n- Simple rules create surprisingly deep and satisfying puzzles.\n\nExplore Your Journey\n\n- Progress through beautifully designed worlds as you complete more puzzles and unlock new adventures.\n\n- Travel through charming destinations including:\n\n• Milk & Cookies\n• Flower Shop\n• Candy Shop\n• Sunset Picnic\n• Magic Garden\n• Cloud Kingdom\n\nEach world features its own relaxing atmosphere and keeps your puzzle journey fresh and rewarding.\n\nKey Features:\n\nClassic Sudoku Gameplay\n\nEnjoy the timeless Classic Sudoku experience with intuitive controls, relaxing gameplay, and carefully balanced difficulty levels.\n\nHundreds of Logic Puzzles\n\nSolve beginner-friendly puzzles before progressing to more challenging brain teasers that reward observation, strategy, and logical thinking.\n\nBeautiful Journey Progression\n\nAdvance through themed worlds as you unlock charming new destinations and continue your relaxing adventure.\n\nCollect Cute Cat Postcards\n\nComplete puzzles to earn postcard pieces and build your adorable collection of charming cat-themed artwork.\n\nHelpful Hints\n\nNeed a little assistance? Use hints to learn new solving techniques and continue your journey with confidence.\n\nTrack Your Progress\n\nMonitor your score, level progression, and journey as you improve your Classic Sudoku skills.\n\nClean & Relaxing Design\n\nEnjoy a beautiful, colorful interface designed to provide a comfortable and stress-free puzzle experience.\n\nTrain Your Brain\n\nEvery puzzle helps strengthen your:\n\n• Logical Thinking\n• Focus & Concentration\n• Pattern Recognition\n• Memory\n• Critical Thinking\n• Problem-Solving Skills\n\nThe more puzzles you solve, the stronger your deduction and reasoning abilities become.\n\nPerfect For Fans Of\n\nWhether you enjoy Classic Sudoku, Sudoku puzzles, number games, logic puzzles, brain training games, mind games, strategy games, relaxing games, or casual puzzle adventures, Meow Sudoku has something for everyone.\n\nCat lovers will adore collecting charming postcards and exploring cozy themed worlds, while puzzle enthusiasts will enjoy the satisfying combination of strategy, deduction, and steadily increasing challenges.\n\nWhether you play for a few minutes or settle in for a longer session, every completed puzzle brings you one step closer to mastering your journey.\n\nDownload Meow Sudoku: Cat Puzzle Games today and enjoy the perfect blend of Classic Sudoku, relaxing gameplay, adorable cats, beautiful worlds, collectible postcards, and brain-teasing puzzles.",
+    "release_notes": "- Classic Sudoku module added\n- New worlds added in meow levels\n- Improved levels & difficulty\n- Minor bug fixes & performance improvements",
+    "file_size_bytes": 85995520,
+    "min_os": "16.0",
+    "version": "1.1.0",
+    "release_date": "2026-06-18",
+    "rating": 4.42856,
+    "rating_count": 7,
     "price": "免费",
     "advisory": "4+",
-    "url": "https://apps.apple.com/cn/app/qq%E5%86%9C%E5%9C%BA/id506655146?uo=4",
-    "fetched_at": "2026-09-15T00:35:15+08:00"
-   }
-  },
-  {
-   "name": "一箭又一箭",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 14,
-    "wx/畅玩榜": 3
-   },
-   "category_l1": "休闲",
-   "category_l2": "益智",
-   "publisher": "海南掌趣网络科技有限公司",
-   "first_seen": "2026-06-29",
-   "appearances": 72,
-   "best_rank": 3,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:35:19+08:00"
-   }
-  },
-  {
-   "name": "蛋仔派对",
-   "boards": [
-    "douyin/热门榜",
-    "ios/国区免费榜"
-   ],
-   "ranks": {
-    "douyin/热门榜": 14,
-    "ios/国区免费榜": 6
-   },
-   "category_l1": "1",
-   "category_l2": "",
-   "publisher": "杭州网易雷火科技有限公司",
-   "first_seen": "2026-06-30",
-   "appearances": 66,
-   "best_rank": 3,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "蛋仔派对",
-    "country": "cn",
-    "track_id": 1544884479,
-    "seller": "Hangzhou NetEase Leihuo Technology Co., Ltd.",
-    "genres": [
-     "游戏",
-     "家庭聚会",
-     "动作"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/d8/30/07d8305e-0c78-756d-09a9-61735eebc648/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/7e/82/e87e822d-e78f-3221-fa8c-a4e48178974c/2208x1242.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/2a/0f/792a0fac-29fe-3f9e-33f3-cece41210d6f/01.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8c/16/a1/8c16a1c7-4ffc-790a-a27c-cd951b0c964d/02.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/25/ec/f725ecce-6a45-de52-2a94-2436f64e6ba1/03.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/a8/ba/9fa8babe-3317-f278-5736-d417b2212fd7/04.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/a9/05/25a905e9-d8c2-e6ac-a954-dd4176a5ff12/2732x2048.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/35/77/033577f3-5a63-970b-625f-751ebab2b048/01.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/b8/be/22b8be29-ab49-f8b9-bff0-b32285a80885/02.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/b4/82/76b48230-a2ae-82e9-c369-924441010506/03.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/85/75/a585751d-35eb-0770-89c7-13c9804e21d8/04.jpg/626x1112bb.jpg"
-    ],
-    "description": "欢迎光临蛋仔岛！《蛋仔派对》是一款拥有5亿玩家的国民原创乐园游戏。在这里，你将化身Q萌的蛋仔，在盲盒机背后的神秘世界——蛋仔岛，展开一段奇妙的闯关之旅。游戏内含上百张风格各异的地图关卡、数十种休闲娱乐玩法，不怕手残，趣味无穷~海量高萌盲盒外观，来邂逅你的心动款！自由度极高的乐园编辑器，助你打造独一无二的乐园地图！更有充满脑洞与想象的蛋仔乐园，集结上亿张玩家原创乐园地图，等你和蛋搭子一同游玩打卡！\n\n【神秘盲盒机背后，有个奇趣蛋仔岛】\n你有没有好奇过，盲盒机内部有着怎么样的故事呢？盲盒机背后的蛋仔岛上，生活着无数可爱的蛋仔。它们的梦想是从一场场派对中胜出，争夺象征胜利的金币，而胜出的蛋仔将被传送到人类世界！\n\n【萌蛋智勇大冲关，海量关卡任你玩】\n滚动、碰撞、火花四射！数十个新奇关卡，超百变陷阱机关，争先恐后往前冲！不但有竞速、团队、生存关卡，更有捉迷藏、一线牵等特殊玩法，保证派对新鲜有趣不无聊！\n\n【创意编辑器乐园，个性地图随心造】\n在蛋仔工坊发挥创意和脑洞，创作你的专属关卡吧！零门槛上手，上百种组件道具自由摆放，一键发布原创地图，让更多玩家体验你的杰作！叫上蛋搭子前往乐园打卡美妙的玩家自制地图，解锁新鲜有趣的经历！\n\n【圆滚滚百变外观，解锁你的心动款】\n进入巨型盲盒机，感受拆盲盒的快乐！我们准备了海量精致酷炫的盲盒，潮流、萌趣的可爱蛋仔，等你收入囊中！更有可供你DIY的服饰配件，穿搭出你独一无二的style！\n\n【超Q弹物理碰撞，duang到停不下来】\n闯关开趴，撞到开花！圆滚滚的蛋仔不但奔跑速度惊人，冲撞起来威力同样巨大，为闯关带来意想不到的效果！和队友撞个满怀，将对手怼出赛道，蛋仔法则就是duang~\n\n【联系我们】\n-  蛋仔派对官网：https://party.163.com\n-  官方公众号：蛋仔派对\n-  官方微博：蛋仔派对\n-  官方抖音：蛋仔派对\n-  官方快手：蛋仔派对",
-    "release_notes": "各位蛋仔大家好，这里是你们最好的朋友皮蛋！最近蛋仔岛张灯结彩，惊魂明星盛典马上开幕！海瑟、贝琳达和斯黛拉三位追捕者，也要第一次以全新蛋仔形象来到舞台，和大家一起狂欢！\n\n皮蛋我早早准备好礼物和应援牌：海瑟会不会找回她最珍贵的记忆？贝琳达会不会画出会动的星星？斯黛拉会不会跳上精心准备好的舞？结果倒计时结束，舞台上居然一个蛋影都没有……三位追捕者，竟然全失踪了！\n\n绿雾从舞台后翻涌而出，留下一句神秘低语：“想要以蛋仔之名赴约，必先弥补生前未完成的遗憾——否则，将永远迷失在绿雾之中！”\n\n原来，只有获得幸福的追捕者才能来到蛋仔岛。为了赶上盛典，海瑟、贝琳达和斯黛拉回到过去，想要改写人生；可故事书突然错页！斯黛拉被困海妖号、海瑟迷失温斯洛古堡、贝琳达站在即将驶来的马戏团花车前……等一下，这故事怎么串台啦？！\n\n7月31日《蛋仔派对》全新派对季“惊魂盛典季”正式开启，全新篇章、趣味闯关，等你来玩！\n\n【故事由你书写 改写追捕者故事IF线】\n全新派对季“惊魂盛典季”，谁在游乐园？谁去温斯洛古堡？谁能拿到威亚绳、残缺日记与关键照片？把人物、地点、道具放进故事书，每一次组合，都可能让故事走向新的结局！\n怎么拼都能讲通故事，怎么改都有新的可能。能否让她们逃离悲剧、弥补遗憾、重回盛典，就看你了！\n\n【全新关卡 解锁惊魂盛典的奇趣闯关】\n惊魂夜的故事舞台全面开启！在“惊魂连环”中逃出危机四伏的惊魂夜；跨越沉船与断裂码头，从“惊魂码头”冲向生路；走进“画中回忆”，在颜料与旧梦交织的画框里寻找爱人的身影……还有“惊魂夜舞会”——抢夺假面，化身追捕者，开启身份逆转的惊喜对决！快和蛋搭子一起挑战吧！\n\n【派对季盲盒全新来袭】\n追捕者和蛋仔都可佩戴的至臻品质背饰“天鹅之梦”登场！戴上这双闪耀翅膀，奔向惊魂盛典的舞台吧！\n找回关于海妖家人的记忆、终于不再独自追赶遗忘速度的丧心护士海瑟；拯救挚爱之人的画中女郎贝琳达；不再重复坠下花车命运的哑女斯黛拉......全新蛋仔形象的三位追捕者，将带着改写命运后的幸福新篇章来到蛋仔岛！\nEGGY PRETTY的化妆师也来为盛典妆造助阵啦！挥动刷毛、点亮舞台妆容的化妆刷染染；抹上缤纷色彩、闪耀指尖的指甲油闪闪；带来水润亮泽肌肤的面霜滑滑。各位准备好和它们一起惊艳亮相了吗？\n\n【全新派对季福利多多】\n1、参与全新派对季活跃任务，即可解锁闪耀舞台的“合唱团套装”外观；\n2、派对季段位重置，挑战段位任务获得“惊魂马戏套装”外观；\n3、完成本派对季派对手册任务，即可获得“兔子小姐”外观；\n\n播报完毕！皮蛋要赶紧去帮她们改写命运啦！蛋仔们，快来和皮蛋一起把遗憾改写成幸福，让三位追捕者顺利赶上惊魂明星盛典吧！",
-    "file_size_bytes": 2674198528,
-    "min_os": "13.0",
-    "version": "1.0.257",
-    "release_date": "2022-05-25",
-    "rating": 4.2939,
-    "rating_count": 2462008,
-    "price": "免费",
-    "advisory": "9+",
-    "url": "https://apps.apple.com/cn/app/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/id1544884479?uo=4",
-    "fetched_at": "2026-09-15T00:35:21+08:00"
-   }
-  },
-  {
-   "name": "开心消消乐",
-   "boards": [
-    "ios/国区免费榜",
-    "wx/人气榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 10,
-    "ios/国区免费榜": 8
-   },
-   "category_l1": "休闲",
-   "category_l2": "消除",
-   "publisher": "乐元素科技(北京)股份有限公司",
-   "first_seen": "2026-06-29",
-   "appearances": 70,
-   "best_rank": 4,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "开心消消乐",
-    "country": "cn",
-    "track_id": 791532221,
-    "seller": "Happy Elements Technology (Beijing) Limited",
-    "genres": [
-     "游戏",
-     "休闲",
-     "娱乐",
-     "益智解谜"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/62/e6/6e62e66b-6301-5f61-8ac0-64a10352a2f1/AppIcon-1x_U007epad-0-1-0-0-85-220-0.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/d4/60/96d4600e-12a1-e0c0-b391-5580d0b80f34/273cf32e-6191-4565-b98d-c88c2b1b0d26_1242x2208.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/46/7e/56467e3f-4f27-208e-13f7-c455c5e5b34e/5e803d05-4728-40a4-8763-f3b4cd905071_1242x2208.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/93/99/75939922-0a15-ad32-359c-79650d5e17a0/edbdc108-f965-4e69-b164-8b9632d57e29_1242x2208.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/08/3d/3e083dcd-ae4f-4e7c-9f1c-f45b3b726ed1/cb25ef1b-09d8-457d-b3de-624b9e70000c_1242x2208.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/b4/4f/0cb44f9d-b7d6-8308-c05f-e897ef930282/dd86ff12-1b3b-4cb0-a64a-c50adad4437c_1242x2208.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/90/8a/9f908aa4-1c8d-a532-c3b3-8b7d4b0da3a7/9cc6ea55-45d0-4227-863f-0ee0201c8874_2048x2732.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/6a/46/096a4651-da7c-91fb-4ad3-e15ccae40608/c0965e4a-ed45-49eb-a64c-3f89c5bfbcb5_2048x2732.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/11/dc/9011dc06-a833-215f-c971-8e2f926b3d59/2070a54b-4818-4c73-bb6e-940ca0033402_2048x2732.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/f6/07/61f60719-842e-2634-ef50-5807fa316b49/ba64a12b-929f-4ac1-96c7-b87938fbca0f_2048x2732.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/cb/67/9bcb6799-070c-055a-541c-d185a244b085/318e1210-d124-4a2c-acc9-10439adb866b_2048x2732.png/626x1112bb.jpg"
-    ],
-    "description": "《开心消消乐》，以三消游戏的方式，让国民连接在一起！2025年，8亿玩家的共同选择！\n\n【App Store下载量名列前茅，多次精选推荐】\n全民级三消游戏《开心消消乐》于2014年2月推出iOS版本，不仅是中国区App Store下载量名列前茅的游戏，还曾多次被 App Store精选推荐！8亿小伙伴都在玩哦~\n\n【玩法丰富，创意无限】\n12大关卡类型、100余种障碍设计、10000多个精心设计的关卡（持续更新中），每一关都竭力给您带来超爽的消除体验。乐在其中，其乐无穷！\n\n【随时随地都能玩】\n不用流量也能玩：开启手机，轻点图标，快乐一触即发！消除无聊、消除烦恼、消除距离，就在消消乐！  \n\n【上手简单，有趣休闲】\n休闲三消玩法，轻移指尖，即享畅快！消消乐的粉丝全年龄覆盖；玩家中还有超过一半的女性玩家，是一款超级受女性玩家欢迎的游戏。\n\n【场景清新，特效华丽】\n清新的藤蔓场景，明晰的面板设计，华丽爽快的特效效果，还有萌动有趣的小动物们，定会陪您度过欢乐休闲时光~\n\n【游戏玩法】\n滑动手指让三个及以上的同色小动物横竖相连即可消除，完成每关的指定消除目标即可过关！ \n\n【知识产权声明】\n消消乐®是乐元素的注册商标，未经许可不得擅自使用。\n开心消消乐的著作权由乐元素享有，未经许可不得擅自使用。",
-    "release_notes": "【原文】喵！喵喵！喵喵喵喵喵喵喵！喵喵喵喵喵喵喵（汪汪汪汪），喵喵喵喵喵喵喵喵喵喵喵！\n喵喵喵喵喵喵喵喵喵喵，喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵（汪汪汪汪汪汪汪汪汪）——\n（此处省略N个喵喵喵汪汪汪，上翻译！）\n【翻译】人！你好！咪是新来的小村民！咪和咪的小伙伴（还有本汪），终于能和你们一起闯关啦！\n为了成为开心村的一员，咪们可都经过了程序员的反复测试（本汪也是高分通过哦）——消除基本功要过关，搬运特效的体能也要够强！（你忘记说啦！还有最最最最最重要的一点，那就是我们全都经过了严格的外貌测试，只有长得可爱，才够格做小村民的伙伴~）\n哦哦对啦，程序员说了，我们的正式名字，就叫小小萌伴啦~快来开心消消乐1.161版本接我们回村吧，以后的闯关日子，我们一起相伴！（汪也等不及啦！）\n\n1.【农场丰收季】9月7日~10月17日，农场秋意正浓，丰收庆典正式开启！快来集齐限定卡片，一起体验热热闹闹的农场生活吧！\n2.【开心农家乐】9月7日~9月13日，开心农家乐正式上线！闯关就能获得入场券，动动手指解锁农场新挑战，看看你能闯到第几关！\n3.【拾光成歌】9月28日~10月7日，网易云音乐联动活动开启！一起在熟悉的旋律中，重拾美好时光吧~\n4.【美味合合】9月14日~10月5日，你最爱的“美味合合”来啦！恰逢中秋佳节，还有限定月饼棋子和中秋NPC惊喜登场哦~快来动动手指，一起合出大大大大大大大大大大大的开心来！\n5.【小小萌伴】村里又来新朋友啦！9月20日起，小小萌伴暖心上线，还会有新角色和新装扮哦~快带上TA一起闯关冒险，解锁你们的专属陪伴时光~\n6.【全新关卡】老板说：“这次关卡尤其要用心用心再用心，新关卡不仅要简单的同时不失巧妙，巧妙的同时又有惊喜，还要在惊喜之余还要有点那个，那个你懂吗？”我说：你放心，我一定会让你开心，我开心，大家都开心的。”经过我先这样再那样然后这样那样一顿操作，终于编出了现在这些令人看见就变开心的关卡!\n7.【发帖送好礼】打开微博、抖音或小红书，带话题#今天也开心消消乐了#晒本期更新文案截图并@开心消消乐（抖音官方账号为@开心消消乐官号），各平台随机抽10位天选之子送出无限精力大礼包！",
-    "file_size_bytes": 538324992,
-    "min_os": "12.0",
-    "version": "1.161.5",
-    "release_date": "2014-02-27",
-    "rating": 4.60796,
-    "rating_count": 1634150,
-    "price": "免费",
-    "advisory": "4+",
-    "url": "https://apps.apple.com/cn/app/%E5%BC%80%E5%BF%83%E6%B6%88%E6%B6%88%E4%B9%90/id791532221?uo=4",
-    "fetched_at": "2026-09-15T00:35:22+08:00"
-   }
-  },
-  {
-   "name": "极限跳高冠军",
-   "boards": [
-    "douyin/新游榜",
-    "wx/人气榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 11,
-    "douyin/新游榜": 9
-   },
-   "category_l1": "1",
-   "category_l2": "益智",
-   "publisher": "广州易游互玩科技有限公司",
-   "first_seen": "2026-09-05",
-   "appearances": 8,
-   "best_rank": 4,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:35:25+08:00"
+    "url": "https://apps.apple.com/cn/app/meow-sudoku-cat-puzzle-games/id6781143433?uo=4",
+    "fetched_at": "2026-09-15T21:48:09+08:00"
    }
   }
  ]

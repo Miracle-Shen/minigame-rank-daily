@@ -1,0 +1,234 @@
+{
+ "schema_version": 1,
+ "name": "Mahjong Blast",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Nebula Studio",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜",
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 16,
+   "android/美区免费榜": 14
+  },
+  "platform_app_ids": {
+   "ios": "6747492600"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 6,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "柔和扁平，大字号麻将牌，干净留白布局，多主题世界",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "486MB 包体，含数千手工关卡 + 多主题世界背景与麻将牌皮肤，素材量中等偏重",
+   "physics": "纯点击配对消除，无物理/刚体，1 分",
+   "server": "100% 离线单机，无联网/排行榜/云存档，1 分",
+   "logic": "关卡可解性校验与数千关梯度设计需要算法支撑，但规则本身简单"
+  },
+  "asset_notes": "2D 麻将牌贴图 + 主题背景，皮肤可程序化换色；无 3D，素材层轻",
+  "notes": "经典麻将接龙(mahjong solitaire) + 现代包装，机制零门槛；引擎未公开确认，依据同类麻将接龙手游常见技术栈推断为 Unity。开发商 HURELAX PTE. LTD.(新加坡，2024 成立)以 Nebula Studio 名义发布，前身 Mahjong Wonders",
+  "cost_score": 2.0,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "在立体麻将牌堆里点选两张相同且未被压住的牌配对消除，清空整盘即过关，一局 1-3 分钟，纯离线、无计时压力。",
+  "highlights": [
+   "大字号麻将牌 + 干净布局，消除瞬间顺滑动画，对成年/老年用户友好",
+   "100% 无广告干扰(官方主打)，靠内购去广告，体验纯净",
+   "数千手工关卡 + 每日谜题，提供持续可玩内容"
+  ],
+  "innovations": [
+   "无实质玩法创新，属经典 mahjong solitaire 的现代美术/体验优化(大牌面、离线、无广告)"
+  ],
+  "target_user": "成年/老年偏好的解压、脑训练、离线用户",
+  "monetization": "IAP 为主(去广告订阅/提示道具)，宣称无强制广告",
+  "lifecycle": "长线运营，靠关卡更新与每日谜题维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "经典麻将接龙机制零门槛、无版权与品牌壁垒；本作差异仅在美术风格、主题世界与离线纯净体验，直接换皮即成立。机制属公共领域玩法原型。",
+  "suggestions": [
+   "换主题到「国风园林 / 节日 / 动漫授权 IP」麻将牌皮肤，复用同一配对消除内核",
+   "在保留离线的基础上加入轻度广告变现(过关后激励视频)，提升 ROI",
+   "增加「每日挑战 + 全球排行榜」轻联网要素拉留存"
+  ],
+  "risks": [
+   "品类极老、同质化严重，差异化难做",
+   "买量 CPA 高，纯 IAP 回收慢",
+   "无品牌壁垒，易被快速复制导致价格战"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/0c/70/a20c7039-190b-ca71-2dcd-d65661149ed7/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/52/d1/2e52d1fa-c989-36c2-0747-167cb756f8e5/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/d3/32/89d33264-aafd-c42d-6ba2-67aa9c1b7267/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/1f/c7/d81fc72a-7138-3edd-21a6-f91d64983e05/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/79/37/1a793734-2150-d771-b68f-31464171e68a/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/0f/a3/b00fa378-87a0-60f7-2048-c8b971fccb7a/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/8b/e8/868be823-5318-6f3b-c61e-8e988071f93d/6.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/2e/45/f52e45e1-ae9c-9f4e-cb70-3fbc5ee768bd/1.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/ae/07/fbae075c-1cf9-26ef-527d-c62cb98abe82/2.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/2f/4f/082f4fb5-df3f-d98d-d6af-33dc873fe786/3.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/42/ba/a942babd-66bf-7b48-f299-3eac6bb09627/4.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/c4/7e/70c47ed9-568e-13e3-1354-db8663ca2b79/5.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/5d/0c/da5d0c0b-fc06-a8dd-0e6b-a155f1a6ebb5/6.jpeg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "开发商 HURELAX PTE. LTD.(新加坡)，品牌 Nebula Studio，前身为 Mahjong Wonders",
+   "level": "confirmed"
+  },
+  {
+   "claim": "100% 离线、无强制广告，包体约 462-486MB",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断为 Unity，未找到官方技术确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/mahjong-blast/id6747492600?uo=4",
+  "https://foxdata.com/en/app-marketing-analytics/6747492600/as/US/mahjong-blast/",
+  "https://iosapps.de/spiele/mahjong-blast/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Mahjong Blast",
+  "country": "us",
+  "track_id": 6747492600,
+  "seller": "HURELAX PTE. LTD.",
+  "genres": [
+   "Games",
+   "Entertainment",
+   "Board",
+   "Puzzle"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/0c/70/a20c7039-190b-ca71-2dcd-d65661149ed7/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/52/d1/2e52d1fa-c989-36c2-0747-167cb756f8e5/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/d3/32/89d33264-aafd-c42d-6ba2-67aa9c1b7267/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/1f/c7/d81fc72a-7138-3edd-21a6-f91d64983e05/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/79/37/1a793734-2150-d771-b68f-31464171e68a/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/0f/a3/b00fa378-87a0-60f7-2048-c8b971fccb7a/5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/8b/e8/868be823-5318-6f3b-c61e-8e988071f93d/6.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/2e/45/f52e45e1-ae9c-9f4e-cb70-3fbc5ee768bd/1.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/ae/07/fbae075c-1cf9-26ef-527d-c62cb98abe82/2.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/2f/4f/082f4fb5-df3f-d98d-d6af-33dc873fe786/3.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/42/ba/a942babd-66bf-7b48-f299-3eac6bb09627/4.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/c4/7e/70c47ed9-568e-13e3-1354-db8663ca2b79/5.jpeg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/5d/0c/da5d0c0b-fc06-a8dd-0e6b-a155f1a6ebb5/6.jpeg/626x1112bb.jpg"
+  ],
+  "description": "Mahjong Blast is the best free puzzle game for seniors and adults — a relaxing offline mahjong solitaire game designed for players who love matching games, tile games, brain games, casual games, and calming puzzle solving experiences. 100% ad free with no annoying pop-ups or interruptions, play anytime, anywhere — no WiFi or internet connection required.\n\nMatch identical tiles, clear satisfying boards, and enjoy smooth gameplay. Whether you enjoy classic mahjong solitaire, free matching games, relaxing brain training, or engaging mind puzzles, Mahjong Blast delivers large clear tiles, simple one-tap controls, and distraction-free fun.\n\nClassic Mahjong Solitaire & Tile Connect\nMahjong Blast combines traditional mahjong solitaire with modern board puzzle mechanics. Match identical tiles, unlock blocked pieces, and complete relaxing puzzle challenges. Fans of pair matching games, tile connect mechanics, and classic tile puzzles will enjoy the satisfying balance of relaxation and strategy. Every level provides fun brain-training gameplay and a rewarding puzzle journey.\n\nRelaxing Games for Stress Relief\nExperience a peaceful game with soft visuals, clean layouts, and smooth animations. Mahjong Blast is one of the top relaxing games created to help players unwind and reduce stress. If you enjoy calm games, stress relief games, satisfying games, casual games, or zen puzzles, we offer a soothing tile-matching experience with no pressure and no timers.\n\nBrain Games for Adults & Seniors\nA fun brain game for adults and seniors who enjoy memory games, logic puzzles, mind games, cognitive training challenges, and brain-training games. Matching tiles improves focus, observation, memory, and concentration. Designed for older adults, the game features large visible tiles and an easy interface. Whether you seek games for seniors, easy games, relaxing brain puzzles, or free tile games, enjoy a comfortable experience.\n\nOffline Games – No WiFi Needed\nA fully offline game that works without WiFi, mobile data, or internet access. Enjoy free offline games during travel or commutes. Unlike many online apps, Mahjong Blast supports true offline gameplay with uninterrupted tile matching. If you are looking for offline games, games without WiFi, internet-free games, offline puzzle games, or offline matching games, this is the perfect choice for any puzzle solver.\n\nDaily Puzzles & Endless Fun\nEnjoy daily puzzle challenges, relaxing matching gameplay, and satisfying tile-clearing fun. With thousands of handcrafted levels, Mahjong Blast offers endless entertainment for players who love casual games and relaxing logic puzzles.\n\nAmerican Mahjong Practice to Enjoy With Friends\nCan't get the group together for mahjong 4 friends? Relax with Mahjong Blast! While it’s not like american mahjong, our mahjong puzzles are the perfect way to unwind. Consider it a fun, stress-free mahjong practice to sharpen your eyes and clear your mind before your next real game night. \n\n100% Ad Free – No forced ads or pop-ups\nPlay Offline Anytime – Free games without WiFi or internet\nBrain Training Fun – Improve memory, focus, and cognitive skills\nRelaxing Gameplay – Calm visuals and stress-free puzzle mechanics\nDesigned for Seniors – Extra-large tiles and simple controls\nThousands of Levels – Daily puzzles and endless matching challenges\n\nMahjong Blast, formerly known as Mahjong Wonders, combines classic mahjong solitaire, relaxing matching gameplay, and reliable offline play. Whether you love matching games, tile games, brain games, relaxing games, casual games, free puzzle games, offline games, or free games for adults and seniors, play anytime, anywhere.\n\nDownload now and join millions of players in this ultimate puzzle classic!\n\nPrivacy policy: https://www.hurelax.com/privacy-policy \nTerms of Use: https://www.hurelax.com/term-service",
+  "release_notes": "Bug fixes & performance improvements\nEnjoy a smoother Mahjong experience designed to help you unwind and sleep better.",
+  "file_size_bytes": 486385664,
+  "min_os": "15.0",
+  "version": "2.0.6",
+  "release_date": "2025-06-24",
+  "rating": 4.86404,
+  "rating_count": 548567,
+  "price": "Free",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/us/app/mahjong-blast/id6747492600?uo=4",
+  "fetched_at": "2026-09-15T21:48:03+08:00"
+ },
+ "slug": "Mahjong_Blast_c873d0"
+}

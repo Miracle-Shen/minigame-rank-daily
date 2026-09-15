@@ -1,0 +1,177 @@
+{
+ "schema_version": 1,
+ "name": "MiniMuse",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Studio Sirenia",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 1
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-09-12",
+  "appearances": 3,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "法式少女风 + 日系动漫，分层换装贴图，清新柔和配色",
+  "dims": {
+   "engine": 2,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "420MB 含 1500+ 可换发型/五官/服装/配饰分层贴图，素材量大",
+   "physics": "纯 UI 换装与拖拽摆放，无物理/刚体，1 分",
+   "logic": "捏人参数系统 + 剧场编辑(背景/道具/对话气泡) + 高清导出，逻辑中等"
+  },
+  "asset_notes": "2D 分层换装贴图，换装类素材可批量生产；核心是美术风格辨识度而非技术难度",
+  "notes": "本质是 Gacha Club 类捏脸换装创作工具的差异化重制(中文圈称「迷你缪斯/加查」)，技术门槛低，关键在于美术风格与素材库。引擎未公开确认，依据 Gacha 类工具主流技术栈(多为 Unity)推断",
+  "cost_score": 2.38,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "从发型/五官/体型/配饰逐层捏人→在衣柜里搭配服装→进 Studio 模式摆背景道具、加对话气泡编排小剧场→一键导出高清图分享，核心乐趣是创作与表达而非过关。",
+  "highlights": [
+   "1500+ 可分层资产 + 自定义调色板，单人设自由度极高",
+   "Studio 模式把角色放进场景编剧情并导出，满足 OC 创作与社交分享欲",
+   "无抽卡无闯关压力，纯创意表达，零挫败"
+  ],
+  "innovations": [
+   "无实质玩法创新，属成熟 Gacha 捏脸框架的美术风格差异化重制(法式少女 + 日系)"
+  ],
+  "target_user": "喜欢人设设计/同人创作的青少年与年轻女性 OC 创作者",
+  "monetization": "IAP 内购(额外素材/资产包)，核心创建工具免费",
+  "lifecycle": "工具型长线，靠素材库更新与社区 UGC 维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "捏脸换装框架已被 Gacha Club 等验证成熟，技术零门槛；差异完全在美术风格与素材库丰富度，换皮即成立。需警惕与加查类同人 IP 的擦边风险。",
+  "suggestions": [
+   "换美术风格到「国风汉服 / 赛博朋克 / 像素风」，做出差异化 OC 工具",
+   "强化「剧场导出 + 社区分享」闭环，比单纯捏人更易形成留存",
+   "用 AI 生图补充素材库，降低美术产能压力"
+  ],
+  "risks": [
+   "加查类(Gacha)赛道已有大量竞品且用户忠诚度低",
+   "同人/擦边 IP 素材有侵权与下架风险",
+   "工具型产品变现弱，纯 IAP 回收有限"
+  ],
+  "effort": "20–35 人日（1 前端 + 1 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/00/93/0c009394-ae9e-91c1-c4d7-86471def78a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/ce/a3/f1cea3c1-89e7-26ea-940b-6410ffef46f7/01art.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/d0/c3/b0d0c36b-f70d-afa7-7f05-273e43da112a/02_customise_2778x1284.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/f9/07/99f907e2-23c1-2220-aaa9-6d38ec03a2f1/01_studio_2778x1284.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/f7/7f/5af77fdc-89a8-03c3-684f-7b5e651d40bd/customise_ipad_2752x2064.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/10/37/d310374c-5bb0-bebd-450e-fe11271e87f2/studio_ipad_2752x2064.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "开发者 Studio Sirenia，定位角色创建/换装创作工具，含 1500+ 资产与 Studio 模式",
+   "level": "confirmed"
+  },
+  {
+   "claim": "中文圈称「迷你缪斯/加查」，基于加查俱乐部世界观的同人换装创作定位",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断为 Unity，未找到官方技术确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/minimuses/id6798905825?uo=4",
+  "https://m.cr173.com/x/1701095",
+  "https://m.9k9k.com/game/380546.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 0.96,
+  "match_name": "MiniMuses",
+  "country": "cn",
+  "track_id": 6798905825,
+  "seller": "STUDIO SIRENIA LTD",
+  "genres": [
+   "游戏"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/00/93/0c009394-ae9e-91c1-c4d7-86471def78a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/ce/a3/f1cea3c1-89e7-26ea-940b-6410ffef46f7/01art.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/d0/c3/b0d0c36b-f70d-afa7-7f05-273e43da112a/02_customise_2778x1284.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/f9/07/99f907e2-23c1-2220-aaa9-6d38ec03a2f1/01_studio_2778x1284.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/f7/7f/5af77fdc-89a8-03c3-684f-7b5e651d40bd/customise_ipad_2752x2064.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/10/37/d310374c-5bb0-bebd-450e-fe11271e87f2/studio_ipad_2752x2064.png/626x1112bb.jpg"
+  ],
+  "description": "Your Muse, Your Story.\n\nMiniMuse is a character creator where every detail is yours to design. Build your characters, style them from a wardrobe of over 1,500 assets, and bring them to life in Studio Mode.\n\nCREATE YOUR MUSE\n- Customise everything tied to your muse: hair, eyes, limbs, accessories and more\n- Colour every layer with custom palettes, patterns, and saved colours\n- Add as many assets as you'd like, and reorder layers to create looks unique to your tastes\n- Import your own assets to use in your designs\n\nDIRECT YOUR STORY\n- Set the scene with backgrounds and props, add chat bubbles and text\n- Save your scenes and build your stories\n\nNo account needed. Your characters are saved on your device.",
+  "release_notes": "Bug fixes, and unlocked export character sheets feature.",
+  "file_size_bytes": 419776512,
+  "min_os": "15.0",
+  "version": "1.0.1",
+  "release_date": "2026-09-07",
+  "rating": 4.625,
+  "rating_count": 24,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/minimuses/id6798905825?uo=4",
+  "fetched_at": "2026-09-15T21:48:07+08:00"
+ },
+ "slug": "MiniMuse_87e1c5"
+}

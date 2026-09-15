@@ -1,0 +1,247 @@
+{
+ "schema_version": 1,
+ "name": "ArrowCube - 3DPuzzle",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "GOODROID,Inc.",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 15
+  },
+  "platform_app_ids": {
+   "ios": "6760325543"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 15,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断，移动 3D 解谜常见；同家族其他版本检测到 Unity/Defold）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "极简低多边形，立方体 + 箭头 + 纯色块，无贴图负担",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "physics": 2,
+   "anim": 2,
+   "logic": 4,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "3D 移动解谜，需熟练引擎框架；同家族移动版检测到 Unity，本 App Store 版（KUNHAR）未披露，推断 Unity，给 3",
+   "art": "包体 179MB 属‘中’，低多边形 + 纯色块，资产轻，给 3",
+   "logic": "核心是‘按正确顺序移除箭头’的空间逻辑，需关卡生成器 + 难度曲线 + 联赛/赛季，逻辑给 4",
+   "physics": "无刚体物理，仅箭头沿轨道滑出/旋转表现，给 2",
+   "data": "含赛季通行证、联赛排名与收集，轻养成，给 2",
+   "server": "联赛/排行榜弱联网，无需实时，给 2",
+   "anim": "箭头滑出/旋转/清屏反馈动画，轻量，给 2",
+   "audio": "舒缓音效 + BGM，给 2"
+  },
+  "asset_notes": "素材极简（低多边形立方体 + 箭头 + 纯色），美术层几乎无瓶颈；成本集中在关卡生成算法与 3D 交互手感。注意该机制已被多团队克隆（Arrow Cube Escape / Arrow Cube 3D Remove & Escape / Unbox 3D / 网页版等），本作为 KUNHAR GAMES LTD 版本。",
+  "notes": "‘在 3D 立方体六面按序移除箭头’的玩法已被多家发行商反复复刻（含 Defold 网页版与多个 Unity 移动版），属公开解谜机制、无强 IP。复刻价值在于换题材与手感打磨。",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "旋转 3D 立方体查看六面箭头指向→点击箭头，路径无阻挡即沿方向滑出→被挡则先清掉阻挡层；按正确顺序清空全部箭头即过关，单局 1-3 分钟。",
+  "highlights": [
+   "‘差一步就锁死’的空间悬念，逼玩家规划顺序，停不下来",
+   "清屏瞬间箭头飞出 + 轻音效反馈，解压感强",
+   "全 3D 视角旋转，点错即‘卡死’的即时负反馈带来真实脑洞挑战",
+   "无计时无失败，适合咖啡间隙的禅意解谜"
+  ],
+  "innovations": [
+   "把经典‘箭头移除/见缝插针’搬到可旋转 3D 立方体，视角与空间推理是新变量",
+   "Colorful Mode 在同源关卡上提供高饱和换肤，低成本延长内容"
+  ],
+  "target_user": "解谜/脑洞爱好者，偏好短局、无压力的休闲用户",
+  "monetization": "IAA（激励视频）+ IAP（去广告/提示/赛季通行证），混合变现",
+  "lifecycle": "长线运营，靠关卡生成 + 赛季通行证持续供给"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "核心机制是公开解谜套路且已被多团队验证/克隆，无版权与品牌壁垒；技术成本低，差异化主要靠题材换皮（如把箭头换成光束/水流）与手感打磨。",
+  "suggestions": [
+   "保留‘按序移除 + 旋转 3D’框架，把箭头/立方体换成更吸睛题材（如拆礼物/解绳/消磁）",
+   "加入关卡编辑器 + UGC 分享，复制治愈系传播",
+   "轻量做赛季通行证与提示内购，避免重广告伤体验"
+  ],
+  "risks": [
+   "机制高度同质化，多个近名克隆已存在，买量竞争激烈",
+   "3D 交互手感与关卡生成器是隐性技术门槛，需调好难度曲线",
+   "纯解谜留存靠内容量，需稳定关卡供给"
+  ],
+  "effort": "30–50 人日（1 前端 + 1 关卡/策划 + 0.5 美术）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/36/b5/a936b56a-c7d9-5038-594d-88cae4ca768a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/1c/44/951c44f6-9a92-11fe-0a4a-cadca65b082f/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/1a/f8/151af8d7-8883-ed6c-496d-d3e08f7fdb81/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/f1/99/a2f199d4-e20d-98ad-ea53-fd08670fb294/7.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/aa/8b/32aa8b64-9f9b-923a-e4d4-c91da9909337/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/17/36/c21736cb-fad8-6407-a654-af12eac2f2d7/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/cb/c7/aecbc7b4-e092-7808-df2c-3dd6ea8a97b2/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/04/b3/0c04b33a-e7af-e5bb-0bec-f04290b17784/6.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/58/91/595891a8-9fb1-622e-2164-e7b08efb80cf/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/85/60/2e8560c9-a993-45de-7d2c-544c9a6453b9/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/b3/0f/cbb30f55-7efa-4316-ec24-b39656952eea/7.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/a8/21/c1a821c0-70a0-c2e4-1968-424061d19ecf/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/16/50/a5165013-80d6-2b46-cb8a-244214c88dce/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/45/f8/a645f8d5-a2db-716b-29ee-8f5673983d71/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/5e/2c/f75e2c9a-3722-82b2-5080-f6902a1e6aa4/6.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 14"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "App Store 美区条目 Arrow Cube: 3D Puzzle，发行商 KUNHAR GAMES LTD，包体 179MB",
+   "level": "confirmed"
+  },
+  {
+   "claim": "同家族移动版（Arrow Cube Escape by GOODROID）检测含 Unity SDK；网页版（Green Train Studio）用 Defold——本 KUNHAR 版引擎未直接披露，推断 Unity",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/arrow-cube-3d-puzzle/id6797838134?uo=4",
+  "https://appgoblin.info/apps/6760325543",
+  "https://defold.com/feed.xml"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Arrow Cube: 3D Puzzle",
+  "country": "us",
+  "track_id": 6797838134,
+  "seller": "KUNHAR GAMES LTD",
+  "genres": [
+   "Games",
+   "Puzzle",
+   "Casual"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/36/b5/a936b56a-c7d9-5038-594d-88cae4ca768a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/1c/44/951c44f6-9a92-11fe-0a4a-cadca65b082f/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/1a/f8/151af8d7-8883-ed6c-496d-d3e08f7fdb81/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/f1/99/a2f199d4-e20d-98ad-ea53-fd08670fb294/7.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/aa/8b/32aa8b64-9f9b-923a-e4d4-c91da9909337/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/17/36/c21736cb-fad8-6407-a654-af12eac2f2d7/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/cb/c7/aecbc7b4-e092-7808-df2c-3dd6ea8a97b2/5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/04/b3/0c04b33a-e7af-e5bb-0bec-f04290b17784/6.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/58/91/595891a8-9fb1-622e-2164-e7b08efb80cf/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/85/60/2e8560c9-a993-45de-7d2c-544c9a6453b9/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/b3/0f/cbb30f55-7efa-4316-ec24-b39656952eea/7.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/a8/21/c1a821c0-70a0-c2e4-1968-424061d19ecf/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/16/50/a5165013-80d6-2b46-cb8a-244214c88dce/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/45/f8/a645f8d5-a2db-716b-29ee-8f5673983d71/5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/5e/2c/f75e2c9a-3722-82b2-5080-f6902a1e6aa4/6.png/626x1112bb.jpg"
+  ],
+  "description": "Arrow Cube: 3D Puzzle\nReady for a brain-teasing challenge? Arrow Cube: 3D Puzzle puts you in control of a cube filled with arrows, and every move matters.\nYour goal is simple: clear all the arrows and find a way out. The controls are easy to learn, but finding the right solution can be surprisingly tricky.\n \nHow to Play\nTap an arrow to release it. If an arrow is blocked, clear the arrows in its way first. Rotate the cube in order to see the layout of the puzzle from different perspectives and discover what is stopping you. Keep tapping until you remove all arrows from the puzzle.\n \nWhat Makes It Different?\nArrow Cube: 3D Puzzle puts a fresh spin on the traditional arrow puzzle with a fully 3D layout. Each level has its own arrow shapes and layout, giving you a new challenge to solve every time.  Some puzzles are easy to figure out, while others will really make you think. You can also switch to Colorful Mode to enjoy the same puzzles with a more vibrant look.\n \nOur Features\n- Satisfying 3D arrow puzzle gameplay\n- Simple tap controls that are easy to learn\n- Different arrow shapes and maze layouts\n- Puzzles that put your logic to the test\n- New challenges as you progress\n- Relaxing gameplay with satisfying clears\n \nThink, Tap & Escape\nThe further you go, the more challenging the puzzles become. New layouts and tighter spaces turn each level into a brain-teasing challenge, putting your logic to the test.\nTake your time, plan your moves, and work through each escape puzzle one arrow at a time. Can you clear the cube and make it through every level?",
+  "release_notes": "- New Levels Added\n- Gameplay Enhanced",
+  "file_size_bytes": 179041280,
+  "min_os": "15.0",
+  "version": "1.1.4",
+  "release_date": "2026-08-16",
+  "rating": 4.77778,
+  "rating_count": 9,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/arrow-cube-3d-puzzle/id6797838134?uo=4",
+  "fetched_at": "2026-09-15T21:49:30+08:00"
+ },
+ "slug": "ArrowCube_3DPuzzle_d0c16e"
+}

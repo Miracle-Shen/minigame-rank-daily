@@ -1,0 +1,106 @@
+{
+ "schema_version": 1,
+ "name": "完全没难度",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "成都木木互娱科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 19
+  },
+  "platform_app_ids": {
+   "douyin": "tt490b3fb6d76e6b9702"
+  },
+  "first_seen": "2026-09-15",
+  "appearances": 1,
+  "best_rank": 19,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "抖音小游戏（推测 Cocos Creator / LayaAir / H5 自研）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "极简 2D 卡通（推测）",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 1,
+   "physics": 1,
+   "logic": 1,
+   "data": 1,
+   "server": 1,
+   "audio": 1
+  },
+  "dim_notes": {
+   "logic": "定位‘完全没难度’的超休闲，单一极简机制，无复杂关卡或系统",
+   "anim": "几乎无动画，以静态 UI + 简单点击反馈为主",
+   "data": "无成长线或数值体系，单局即玩即走",
+   "physics": "无物理模拟"
+  },
+  "asset_notes": "推测素材极轻（几何/简单卡通），可用通用素材库或程序化生成；抖音小游戏分包与即时加载进一步压低体量",
+  "notes": "媒体未命中，公开信息极少；据玩法名与抖音新游榜定位推断为极低成本超休闲。如实标注，未编造引擎与细节。",
+  "cost_score": 1.25,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "（推测）以极简的单指点击/滑动完成几乎无门槛的小任务，每步即时给正反馈，单局数秒到数十秒，主打‘零挫败’解压。",
+  "highlights": [
+   "‘完全没难度’的零挫败定位本身即爽点，迎合想放松、怕失败的泛用户",
+   "单步即时奖励（音效/数字跳动）制造轻量多巴胺"
+  ],
+  "innovations": [
+   "无实质创新，靠‘无难度’情绪定位做差异化包装"
+  ],
+  "target_user": "碎片时间、低耐挫的泛休闲/下沉用户",
+  "monetization": "IAA 广告为主（激励视频/插屏），超休闲典型变现",
+  "lifecycle": "短平快爆款，依赖买量，生命周期取决于能否快速换皮复制"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "机制极简、无版权与品牌壁垒，瓶颈在题材与美术包装；复刻成本极低。但超休闲买量成本高、生命周期短，纯换皮难持续。",
+  "suggestions": [
+   "保留‘零挫败’内核，换题材为‘一键收拾房间’‘点点就变富’等情绪向",
+   "加入可分享的魔性结局动画，提升抖音自然传播"
+  ],
+  "risks": [
+   "超休闲赛道买量成本极高、生命周期短",
+   "缺乏留存钩子，易‘一波流’"
+  ],
+  "effort": "5–10 人日（1 前端 + 0.5 美术），属极轻量"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "媒体未命中，玩法与引擎均据名称与榜单定位推断",
+   "level": "inferred"
+  },
+  {
+   "claim": "抖音小游戏，引擎推测 Cocos/Laya/H5",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "http://www.mmhygame.com/company.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T21:49:48+08:00"
+ },
+ "slug": "完全没难度_c361b4"
+}

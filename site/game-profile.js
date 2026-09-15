@@ -5,6 +5,8 @@
   const FN_URL = "https://pjwwwxanhtvzkscumedm.supabase.co/functions/v1/save-profile";
   const ADMIN_KEY = (window.APP_CONFIG && window.APP_CONFIG.PROFILE_ADMIN_KEY) || "";
   const SB_URL = (window.APP_CONFIG && window.APP_CONFIG.SUPABASE_URL) || "";
+  const ASSET_VERSION = (window.APP_CONFIG && window.APP_CONFIG.ASSET_VERSION) || "1";
+  const assetUrl = (path) => path + "?v=" + encodeURIComponent(ASSET_VERSION);
 
   const state = {
     games: [],        // [{name}]
@@ -23,6 +25,7 @@
     platformFilter: "wx", // wx | douyin | ios | android | taptap
     boardFilter: "畅销榜", // specific board under platformFilter
     favOnly: false,       // 我的收藏模式
+    fullListLoaded: false,
   };
 
   const $ = (id) => document.getElementById(id);
@@ -68,18 +71,37 @@
     return base;
   }
 
-  async function loadAll() {
-    const [games, profiles, shots, base, latest, detail] = await Promise.all([
-      window.sb.select("games", { select: "name,first_seen_at,category,publisher_name", order: "first_seen_at.desc", limit: 5000 }),
-      window.sb.select("game_profiles", { limit: 5000 }),
-      window.sb.select("game_screenshots", { select: "id,game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 5000 }),
-      // ?t= 时间戳强制绕过浏览器/代理缓存（本地 http.server 与 Pages 都可能缓存 JSON）
-      fetch("data/base/games.json?t=" + Date.now()).then((r) => r.ok ? r.json() : null).catch(() => null),
-      fetch("data/latest.json?t=" + Date.now()).then((r) => r.ok ? r.json() : null).catch(() => null),
-      // 游戏详情页索引（技术实现/玩法爽点/截图/复刻建议），由 scripts/detail 生成
-      fetch("data/detail/index.json?t=" + Date.now()).then((r) => r.ok ? r.json() : null).catch(() => null),
-    ]);
+  async function loadScreenshots() {
+    const shots = await window.sb.select("game_screenshots", {
+      select: "id,game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 5000,
+    });
+    state.shots = {};
+    for (const s of shots || []) {
+      if (!state.shots[s.game_name]) state.shots[s.game_name] = [];
+      state.shots[s.game_name].push(s);
+    }
+    buildList();
+    state.fullListLoaded = true;
+  }
+
+  async function loadDetailIndex() {
+    const detail = await fetch(assetUrl("data/detail/index.json"), { cache: "force-cache" })
+      .then((r) => r.ok ? r.json() : null).catch(() => null);
     state.detailIndex = (detail && detail.games) || {};
+    buildList();
+  }
+
+  async function loadAll() {
+    const [games, profiles, base, latest] = await Promise.all([
+      // 排序键必须**唯一**：sb.select 用 Range 分页（每页 1000），而
+      // first_seen_at 精确到日、大量记录同值，仅按它排会得到不确定的顺序，
+      // 跨页可能重复返回同一行（列表里出现两条同名记录）。补 name 兜底成全序。
+      window.sb.select("games", { select: "name,first_seen_at,category,publisher_name", order: "first_seen_at.desc,name.asc", limit: 5000 }),
+      window.sb.select("game_profiles", { limit: 5000 }),
+      fetch(assetUrl("data/base/games.json"), { cache: "force-cache" }).then((r) => r.ok ? r.json() : null).catch(() => null),
+      fetch(assetUrl("data/latest.json"), { cache: "force-cache" }).then((r) => r.ok ? r.json() : null).catch(() => null),
+    ]);
+    state.detailIndex = {};
     if (base && base.games) {
       for (const [name, entry] of Object.entries(base.games)) {
         if (entry && entry.board_history) state.boardMap[name] = entry.board_history;
@@ -106,11 +128,31 @@
     state.profiles = {};
     for (const p of profiles || []) state.profiles[p.game_name] = p;
     state.shots = {};
-    for (const s of shots || []) {
-      if (!state.shots[s.game_name]) state.shots[s.game_name] = [];
-      state.shots[s.game_name].push(s);
-    }
     buildList();
+    // Thumbnails and detail badges are enhancements; don't hold first paint
+    // on either of these secondary requests.
+    Promise.allSettled([loadScreenshots(), loadDetailIndex()]);
+  }
+
+  async function loadFastGame(name) {
+    const encoded = encodeURIComponent(name);
+    const [games, profiles, shots] = await Promise.all([
+      window.sb.select("games", { raw: { name: `eq.${name}` }, select: "name,first_seen_at,category,publisher_name", limit: 1 }),
+      window.sb.select("game_profiles", { raw: { game_name: `eq.${name}` }, limit: 1 }),
+      window.sb.select("game_screenshots", { raw: { game_name: `eq.${name}` }, select: "id,game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 200 }),
+    ]);
+    state.games = games || [{ name }];
+    state.profiles = {};
+    for (const p of profiles || []) state.profiles[p.game_name] = p;
+    state.shots = { [name]: shots || [] };
+    state.detailIndex = {};
+    state.fullListLoaded = false;
+    buildList();
+    // Fetch the selected detail record only; the complete index can wait until
+    // the user returns to the list.
+    if (window.GameDetail) {
+      window.GameDetail.get(name).then(() => renderDetail(name));
+    }
   }
 
   function buildList() {
@@ -233,10 +275,15 @@
   }
 
   function renderList() {
-    const q = $("gp-search").value.trim().toLowerCase();
+    // 搜索前先做与详情索引同一套归一化（NFKC + 去不可见字符 + 合并空白）：
+    // 榜单名与底库名常只差一个全角冒号「：」/「:」或不换行空格，
+    // 用户按键盘敲的是半角，不归一就搜不到（例如「ゴシップハーバー」）。
+    const normFn = (window.GameDetail && window.GameDetail.normName) || ((s) => s);
+    const q = normFn($("gp-search").value.trim()).toLowerCase();
     let filtered = q
       ? state.list.filter((r) =>
-          r.name.toLowerCase().includes(q) || r.developer.toLowerCase().includes(q))
+          normFn(r.name).toLowerCase().includes(q) ||
+          normFn(r.developer).toLowerCase().includes(q))
       : state.list;
     // Platform + board filter: product must have appeared on this exact board.
     const boardKey = state.platformFilter + "/" + state.boardFilter;
@@ -903,7 +950,10 @@
 
   async function reloadList() {
     const [games, profiles, shots] = await Promise.all([
-      window.sb.select("games", { select: "name,first_seen_at,category,publisher_name", order: "first_seen_at.desc", limit: 5000 }),
+      // 排序键必须**唯一**：sb.select 用 Range 分页（每页 1000），而
+      // first_seen_at 精确到日、大量记录同值，仅按它排会得到不确定的顺序，
+      // 跨页可能重复返回同一行（列表里出现两条同名记录）。补 name 兜底成全序。
+      window.sb.select("games", { select: "name,first_seen_at,category,publisher_name", order: "first_seen_at.desc,name.asc", limit: 5000 }),
       window.sb.select("game_profiles", { limit: 5000 }),
       window.sb.select("game_screenshots", { select: "id,game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 5000 }),
     ]);
@@ -924,7 +974,11 @@
     $("gp-table-wrap").style.display = "";
     $("gp-form").style.display = "none";
     document.getElementById("gp-view").style.display = "none";
-    buildList();
+    if (state.fullListLoaded) buildList();
+    else {
+      $("gp-loading").style.display = "";
+      loadAll().finally(() => { $("gp-loading").style.display = "none"; });
+    }
   }
 
 
@@ -976,17 +1030,18 @@
 
   (async function () {
     init();
-    await restoreAuth();
     try {
-      await loadAll();
+      const queryName = new URLSearchParams(location.search).get("name");
+      // Direct links are common from the ranking table. Load just that record
+      // first so the profile becomes interactive without waiting for the
+      // complete archive payload.
+      await Promise.all([
+        restoreAuth(),
+        queryName ? loadFastGame(queryName) : loadAll(),
+      ]);
       $("gp-loading").style.display = "none";
       renderBoardFilter();  // initial board sub-filter for the default platform
-      const q = new URLSearchParams(location.search).get("name");
-      if (q && state.profiles[q] !== undefined) {
-        showEdit(q);
-      } else if (q) {
-        showEdit(q); // 未建档也允许直接编辑
-      }
+      if (queryName) showEdit(queryName);
     } catch (err) {
       $("gp-loading").textContent = "加载失败：" + err.message;
     }

@@ -1,0 +1,213 @@
+{
+ "schema_version": 1,
+ "name": "指尖幻影",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "海南异界科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/畅销榜"
+  ],
+  "ranks": {
+   "douyin/畅销榜": 3
+  },
+  "platform_app_ids": {
+   "douyin": "tt50b1260ccf86275602"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 64,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "Q萌末日僵尸画风，角色/武器/场景贴图",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 4,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "背包格子空间规划(占格形状取舍)+武器合成树+肉鸽随机+BOSS，机制组合复杂是成本主项",
+   "data": "多线养成：芯片6类/科技线/皮肤/角色等级/联盟/赛季，局外养成反哺局内",
+   "art": "Q萌角色+僵尸+多场景，包体约1.5GB，素材量中等偏上"
+  },
+  "asset_notes": "2D贴图为主(Q萌)，可用AI生图+人工修图；武器/角色Skin是主要素材开销",
+  "notes": "背包Like整理+靶心Like自动射击+肉鸽的融合体(类似《弹壳特攻队》+背包机制)，海南异界科技自研；引擎据体量(1.5GB、30+角色100+武器)推断Unity，未确认。",
+  "cost_score": 3.0,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "拖动武器进背包格→相同武器合成升阶→自动射击抵御尸潮→局外芯片/科技养成反哺，一局约2分钟割草。",
+  "highlights": [
+   "背包格空间规划即战力核心，‘占格形状取舍’带来策略爽感",
+   "同种武器合成进化+分支特效(寒冰/雷电/火焰)，构筑流派",
+   "尸潮割草+自动射击的密集反馈，解压直接"
+  ],
+  "innovations": [
+   "背包格空间规划×靶心自动射击×肉鸽的三重融合，区别于纯割草肉鸽"
+  ],
+  "target_user": "泛休闲+轻度肉鸽用户，末日/割草题材受众",
+  "monetization": "混合(IAA广告+IAP内购：芯片/能源核晶/皮肤/月卡/战令)",
+  "lifecycle": "长线运营，靠新武器/芯片/联盟活动维持"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "背包格空间规划+靶心射击的融合是有效结构创新，但整体仍在割草肉鸽成熟框架内，照抄会与榜上产品直接撞车；需改一处结构(如换核心循环的一环/数值模型)才成立。",
+  "suggestions": [
+   "把‘背包格武器’换成‘植物/塔防卡牌’占格，保留空间规划即战力核心",
+   "数值模型从‘合成升阶’改为‘元素反应’体系，拉开与《指尖幻影》差异",
+   "目标人群从末日僵尸换为修仙/西游，换皮即差异化"
+  ],
+  "risks": [
+   "割草肉鸽赛道已有《弹壳特攻队》等头部，买量成本高",
+   "背包Like机制若照搬可能构成玩法撞车与美术侵权"
+  ],
+  "effort": "50–80人日（1.5前端 + 1美术 + 0.5策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/e8/93/e6e893da-d3de-54d8-4880-247e691e5d30/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/05/41/5d05410f-21d1-16ef-356d-bbeb13b89843/1242-_U5272_U8349_U65e0_U53cc.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d0/85/08/d0850804-676a-a4d7-bfab-fe93fcaada0d/1242-_U82f1_U96c4_U767b_U573a.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/f6/da/50f6da58-b899-9373-2a39-7625168f68f0/_U8089_U9e3d_U5bf9_U51b3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/66/de/3466def7-9612-6d6a-3240-69e47e0ce574/1242-_U8d85_U5f3a_U88c5_U5907.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/e7/91/b6e791e6-6e28-6488-ac6b-dbba383daa39/1242-_U6b27_U7687_U4e0a_U7ebf.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a0/22/9a/a0229aaf-0b8b-bf90-598c-bb6c5b38fa10/2064-_U5272_U8349_U65e0_U53cc.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/a5/5a/aaa55a0c-beb0-090f-3083-4c1ad3ef0eb3/2064-_U82f1_U96c4_U767b_U573a.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/c2/cc/46c2cc4e-ad62-2d60-23e4-1a94c6055a7e/2064-_U8089_U9e3d_U5bf9_U51b3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/d5/2b/27d52b46-f7dd-3e2c-7bad-d34bf2a01d3a/2064-_U8d85_U5f3a_U88c5_U5907.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/eb/92/0aeb9249-0abe-1b73-6066-a66c310929eb/2064-_U6b27_U7687_U4e0a_U7ebf.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "玩法=背包管理+肉鸽+靶心射击，末日僵尸(百度百科/3DM/TapTap)",
+   "level": "confirmed"
+  },
+  {
+   "claim": "海南异界科技自研，版号ISBN 978-7-498-12847-8(百度百科)",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎据包体约1.5GB与角色/武器量级推断Unity，未确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%8C%87%E5%B0%96%E5%B9%BB%E5%BD%B1/id6748455249?uo=4",
+  "https://baike.baidu.com/item/%E6%8C%87%E5%B0%96%E5%B9%BB%E5%BD%B1/63802287"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "指尖幻影",
+  "country": "cn",
+  "track_id": 6748455249,
+  "seller": "Wuhan Full Blossom Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "策略"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/e8/93/e6e893da-d3de-54d8-4880-247e691e5d30/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/05/41/5d05410f-21d1-16ef-356d-bbeb13b89843/1242-_U5272_U8349_U65e0_U53cc.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d0/85/08/d0850804-676a-a4d7-bfab-fe93fcaada0d/1242-_U82f1_U96c4_U767b_U573a.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/f6/da/50f6da58-b899-9373-2a39-7625168f68f0/_U8089_U9e3d_U5bf9_U51b3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/66/de/3466def7-9612-6d6a-3240-69e47e0ce574/1242-_U8d85_U5f3a_U88c5_U5907.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/e7/91/b6e791e6-6e28-6488-ac6b-dbba383daa39/1242-_U6b27_U7687_U4e0a_U7ebf.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a0/22/9a/a0229aaf-0b8b-bf90-598c-bb6c5b38fa10/2064-_U5272_U8349_U65e0_U53cc.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/a5/5a/aaa55a0c-beb0-090f-3083-4c1ad3ef0eb3/2064-_U82f1_U96c4_U767b_U573a.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/c2/cc/46c2cc4e-ad62-2d60-23e4-1a94c6055a7e/2064-_U8089_U9e3d_U5bf9_U51b3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/d5/2b/27d52b46-f7dd-3e2c-7bad-d34bf2a01d3a/2064-_U8d85_U5f3a_U88c5_U5907.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/eb/92/0aeb9249-0abe-1b73-6066-a66c310929eb/2064-_U6b27_U7687_U4e0a_U7ebf.png/626x1112bb.jpg"
+  ],
+  "description": "游戏内有丰富的地图和各种各样极具特色的boss，以及完全随机武器与技能强化；战斗之余还可以前往武器库研发各种稀有武器，提高各项能力；在玩法上兼具养成趣味与Roguelike的爽感，血脉偾张爽感拉满\n\n\n爽快割草感「一棍倒一片」\n整理背包自定义武器\n科技与魔法是左膀右臂\n局内技能完全随机，自由搭配武器技能以弱胜强\n精美画面+诙谐风格，休闲解压\n作为先锋官的你将依靠背包里的武器组合，独守前线，横扫来袭的怪物和尸潮！",
+  "release_notes": "【优化与调整】\n1、荣耀联盟赛为提高公平性原则，防止个别联盟之间徇私舞弊，初赛第四场的防守雕像，强制采用第三场数据\n2、【时装】【载具】【宠物】【伙伴】界面中，提高/增加可解锁状态的排序\n3、体力扫荡界面增加当前体力信息展示\n【问题修复】\n1、修复联合作战入口红点异常问题\n2、修复武器强化界面消耗的道具数量过多导致数字显示不完全的问题",
+  "file_size_bytes": 1562663936,
+  "min_os": "15.6",
+  "version": "2.64.10",
+  "release_date": "2025-10-15",
+  "rating": 3.05556,
+  "rating_count": 54,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E6%8C%87%E5%B0%96%E5%B9%BB%E5%BD%B1/id6748455249?uo=4",
+  "fetched_at": "2026-09-15T21:48:20+08:00"
+ },
+ "slug": "指尖幻影_b067d7"
+}

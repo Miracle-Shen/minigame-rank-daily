@@ -1,0 +1,116 @@
+{
+ "schema_version": 1,
+ "name": "兵器王者",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "青岛蓝飞互娱科技股份有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/热门榜"
+  ],
+  "ranks": {
+   "douyin/热门榜": 19
+  },
+  "platform_app_ids": {
+   "douyin": "tt29c85f75b6f97a5207"
+  },
+  "first_seen": "2026-06-30",
+  "appearances": 64,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "二次元/Q版兵器与角色贴图，UI成体系",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 2,
+   "logic": 3,
+   "data": 4,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "data": "多线养成：兵器等级/淬炼/附魔/阵容/竞技场，资源经济循环偏重，是成本主项",
+   "art": "需成体系兵器图标+角色+场景美术，但素材量级中等（无公开包体，据品类推断）",
+   "physics": "放置自动战斗+手动走位，碰撞/吸附简单，无复杂物理"
+  },
+  "asset_notes": "2D贴图为主，可用AI生图+人工修图批量产出；兵器/角色 Skin 是主要素材开销",
+  "notes": "蓝飞互娱在抖音小游戏赛道的放置RPG模板产品，底层复用度高，引擎与框架风险低；部分聚合站称战斗为3D建模画面（未证实，inferred）",
+  "cost_score": 2.62,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "收集矿石与图纸→锻造/淬炼兵器→上阵阵容自动战斗+手动走位闯关→竞技对战与挂机收菜，一局数分钟到挂机数小时。",
+  "highlights": [
+   "锻刀/淬炼时的火花与升级反馈，强化‘打铁’爽感",
+   "兵器收集图鉴驱动长线，稀有传说兵器带来收集成就",
+   "自动战斗+手动走位，降低操作门槛同时保留策略空间"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟放置RPG+兵器锻造题材的执行优化"
+  ],
+  "target_user": "泛休闲+轻度RPG用户，抖音下沉流量为主",
+  "monetization": "IAP内购为主（兵器/资源/特权），辅以广告；RPG常见首充/月卡/活动礼包",
+  "lifecycle": "长线运营，靠新兵器/副本/活动维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "核心循环是标准放置RPG模板+兵器锻造题材，引擎与框架成熟、复用度高；差异化完全在题材与首关留存，照抄机制即可成立。",
+  "suggestions": [
+   "把兵器锻造换成‘仙器/神兵’或‘机甲组装’题材，保留淬炼/附魔数值结构",
+   "首关把难度与失败点后移，学习《羊了个羊》式难度曲线",
+   "加入‘兵器图鉴’收集线，把单局挂机接到长线目标"
+  ],
+  "risks": [
+   "蓝飞互娱同赛道已有《四季合合》《抓大鹅》等矩阵，买量竞争激烈",
+   "RPG放置赛道头部被《灵画师》等锁死，同质化严重"
+  ],
+  "effort": "40–60人日（1.5前端 + 1美术 + 0.5策划）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "抖音畅销榜RPG，蓝飞互娱发行，曾升至第2名（GameLook 2026-07榜单）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "玩法为兵器锻造收集+放置挂机+策略战斗（百度百科/多家聚合站）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为Cocos Creator（抖音RPG小游戏主流，未找到官方确认）",
+   "level": "inferred"
+  },
+  {
+   "claim": "部分聚合站称战斗为3D建模画面（未证实）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://baike.baidu.com/item/%E5%85%B5%E5%99%A8%20%E7%8E%8B%E8%80%85",
+  "https://m.18touch.com/game/202235.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T21:48:13+08:00"
+ },
+ "slug": "兵器王者_e64dc6"
+}

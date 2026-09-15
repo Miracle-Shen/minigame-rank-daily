@@ -1,0 +1,210 @@
+{
+ "schema_version": 1,
+ "name": "Block Crush!",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Wonderful  Studio",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 18
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-08-24",
+  "appearances": 21,
+  "best_rank": 30,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推测）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "木质极简风 + 温暖木纹方块",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "木质纹理 + 干净 UI，iOS 包体 426MB（Android 156MB）暗示含多皮肤/动画资产，素材量中等偏上",
+   "logic": "多形状方块落格 + 行列消除 + 连击 combo + 每日挑战，规则清晰但需调手感与每日关生成",
+   "physics": "纯网格放置与消除，无物理模拟",
+   "engine": "基于 Unity 成熟方块拼放模板，框架成本低"
+  },
+  "asset_notes": "2D 木纹方块 + 多主题皮肤，素材可程序化+模板批量产出；iOS 包体偏大主要因皮肤/动画冗余，非技术瓶颈",
+  "notes": "经典木方块/俄罗斯方块式 10x10 落子消除，技术风险低；‘No Ads Mode’与每日滑拼为差异化卖点。",
+  "cost_score": 2.12,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "把随机形状木块拖到 10x10 网格上，填满整行或整列即消除；棋盘越满越需规划，连击清行得 combo 高分，单局数分钟，可离线。",
+  "highlights": [
+   "填满整行瞬间清除的爽感 + 连击 combo 的递增反馈",
+   "无计时/无惩罚的纯策略减压，停下随时续上",
+   "每日滑拼（Slide Puzzle）附加关提供轻量日常钩子"
+  ],
+  "innovations": [
+   "无实质创新，属成熟木方块消除的执行优化（木质 ASMR 风 + 每日附加关）"
+  ],
+  "target_user": "全年龄解压/专注向休闲用户",
+  "monetization": "IAA 广告为主（插屏/激励），辅以去广告内购（No Ads Mode）",
+  "lifecycle": "长线运营，靠每日挑战维持复访"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "木方块消除机制通用、无壁垒，瓶颈在美术风格与手感；复刻成本低。但品类极度饱和（Block Blast 等头部锁死），需靠风格差异化。",
+  "suggestions": [
+   "换材质主题（玉石/水墨/像素）做国风换皮，避开木纹红海",
+   "加入‘合成升级方块’机制，给纯消除一点轻成长钩子",
+   "首关把网格降到 8x8 降低挫败，第 5 关后引入障碍格"
+  ],
+  "risks": [
+   "木方块/Tetris-like 品类被 Block Blast 等头部重度买量锁死",
+   "易被判‘换皮抄袭’影响商店推荐"
+  ],
+  "effort": "20–30 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/6f/2b/b36f2b4a-21eb-6371-7124-d4e2b707b2ee/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/a0/2e/15a02e64-b98b-ccec-ebd6-331fcf58f05d/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/8d/82/8a8d82db-c9f3-c159-e38f-be386b5d7469/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e1/e8/bb/e1e8bb7c-9d18-5e5b-8f43-598eb912e6be/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/30/01/a3300189-bb83-7e36-2c03-83faf56afc5d/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/af/24/16af2419-8898-7593-9211-fb724cde7a3a/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/05/ba/5f05ba20-caf4-b555-f440-1691a8833bb4/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/b5/4b/a5b54b86-a253-9d64-e90e-42789a2ec4e8/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/4b/d9/6a4bd9e2-41bb-8189-b35c-893618b8fd98/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/4d/8e/eb4d8ed4-8400-55ea-a03b-9eb5f2147396/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/6d/c5/506dc535-9710-9665-7176-a5f65000c627/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "iOS 包体 426MB（Android 156MB），素材量级中等偏上",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推测 Unity（重包体 + 多皮肤，未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/block-crush/id1638139403",
+  "https://developers.appbrain.com/app/block-crush/com.wood.block.sudoku.puzzle.bm"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Block Crush！",
+  "country": "us",
+  "track_id": 1638139403,
+  "seller": "WONDERFUL TYCOON LIMITED",
+  "genres": [
+   "Games",
+   "Puzzle",
+   "Entertainment",
+   "Casual"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/6f/2b/b36f2b4a-21eb-6371-7124-d4e2b707b2ee/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/a0/2e/15a02e64-b98b-ccec-ebd6-331fcf58f05d/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/8d/82/8a8d82db-c9f3-c159-e38f-be386b5d7469/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e1/e8/bb/e1e8bb7c-9d18-5e5b-8f43-598eb912e6be/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/30/01/a3300189-bb83-7e36-2c03-83faf56afc5d/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/af/24/16af2419-8898-7593-9211-fb724cde7a3a/5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/05/ba/5f05ba20-caf4-b555-f440-1691a8833bb4/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/b5/4b/a5b54b86-a253-9d64-e90e-42789a2ec4e8/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/4b/d9/6a4bd9e2-41bb-8189-b35c-893618b8fd98/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/4d/8e/eb4d8ed4-8400-55ea-a03b-9eb5f2147396/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/6d/c5/506dc535-9710-9665-7176-a5f65000c627/5.png/626x1112bb.jpg"
+  ],
+  "description": "Block Crush is a classic block puzzle game designed around clear boards, simple rules, and structured logic. It offers a focused block puzzle experience where gameplay is easy to understand from the first move and remains consistent throughout each session.\n\nIn this block puzzle game, players place blocks of different shapes onto the board to complete full rows or columns. Clearing lines creates space and allows the block puzzle to continue. Each move requires planning and spatial awareness to keep the board playable for as long as possible.\n\nClassic Block Puzzle Gameplay\nBlock Crush follows familiar classic block puzzle mechanics. Blocks appear in various shapes and must be placed carefully to avoid filling the board. Completing rows or columns clears space and keeps the block puzzle gameplay flowing without interruption.\n\nThe board layout remains clean and consistent, allowing players to focus entirely on block placement logic without time limits, pressure, or unnecessary visual distractions.\n\nHow to Play\n• Place blocks onto the board\n• Complete rows or columns to clear space\n• Plan moves to manage available areas\n• Continue playing as long as space remains\n• Try a new daily block puzzle challenge\n• Play offline anytime\n\nFeatures\n• Classic Block Puzzle Game — clear rules and simple logic\n• Clean Board Design — easy to read and visually structured\n• Daily Block Puzzle Mode — refreshed puzzle layouts each day\n• Smooth Controls — intuitive drag-and-drop placement\n• Offline Puzzle Play — no internet connection required\n• No Ads Mode — uninterrupted block puzzle sessions\n\nA Focused Block Puzzle Experience\nBlock Crush is a logic-based block puzzle built for players who enjoy structured gameplay and thoughtful decision-making. With consistent mechanics and readable boards, it delivers a reliable block puzzle experience suited for repeated play.\n\nDownload Block Crush and enjoy a classic block puzzle game with clean design, offline support, and straightforward gameplay—free to play and designed for focus.",
+  "release_notes": "This update brings performance improvements and a smoother gameplay experience.",
+  "file_size_bytes": 426544128,
+  "min_os": "15.0",
+  "version": "4.1.3",
+  "release_date": "2022-08-05",
+  "rating": 4.84837,
+  "rating_count": 144688,
+  "price": "Free",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/us/app/block-crush/id1638139403?uo=4",
+  "fetched_at": "2026-09-15T21:49:59+08:00"
+ },
+ "slug": "Block_Crush_4cb855"
+}

@@ -1,0 +1,226 @@
+{
+ "schema_version": 1,
+ "name": "空格之境",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "江西启游互动科技有限公司",
+  "category_l1": "1",
+  "category_l2": "模拟经营",
+  "boards": [
+   "douyin/热门榜",
+   "douyin/畅销榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 17,
+   "douyin/热门榜": 20,
+   "douyin/畅销榜": 16
+  },
+  "platform_app_ids": {
+   "wx": "wx0e0531466ba56547",
+   "douyin": "tt96a6e01b08c553f502"
+  },
+  "first_seen": "2026-06-30",
+  "appearances": 61,
+  "best_rank": 5,
+  "profile_value": "high",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "二合",
+   "tags": [
+    "二合"
+   ],
+   "notes": "",
+   "developer": "全民互动"
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "淡雅国风水墨江南，俯瞰视角古镇，立绘对话 + 棋盘二合",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "13 级合成链(原始织机→手摇缫车→…) + 订单交付 + 背包库存规划，合成树与关卡逻辑较复杂",
+   "data": "阅历等级/体力经济/建筑解锁/探案剧情进度多线养成，比重度 SLG 浅但比纯二合深",
+   "physics": "纯拖拽合成与点选交互，无物理/刚体模拟，1 分"
+  },
+  "asset_notes": "2D 国风贴图，93MB 轻量包体，素材量不大；美术风格(淡雅江南)辨识度高但生产可控",
+  "notes": "二合 + 经营 + 探案剧情的组合，机制成熟；引擎依据微信小游戏主流技术栈(微信小游戏以 Cocos Creator / LayaAir 为主)推断，未找到官方确认。注意：微信小游戏/应用宝开发者为「江西启游互动科技有限公司」，而 App Store 卖方字段为「Jiangxi Mengrao Interactive Entertainment(江西梦饶互娱)」，两者主体不完全一致，疑为同厂多主体或发行分工，已如实标注",
+  "cost_score": 2.38,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "拖两个同类素材合成升级产物→双击交付订单换铜钱/锤子→用资源修复织坊建筑、推进探案剧情，一个棋盘格上的二合循环串起短线与长线双留存。",
+  "highlights": [
+   "前期订单节奏极慢(完成 1-2 单才刷新)，无限时焦虑，纯碎片化解压",
+   "「轻订单 + 探案剧情」双循环：剧情推进提升阅历等级直接奖励体力，把看剧情变成资源的一环",
+   "建筑自由摆放触发「连携」效率加成，提供经营策略爽点"
+  ],
+  "innovations": [
+   "把欧美卡通/萌宠二合换皮到「淡雅江南织坊 + 穿越嫡女探案」国风题材，差异化辨识度高",
+   "剧情选择直接奖励体力，使叙事嵌入资源循环而非外部包装"
+  ],
+  "target_user": "女性占比超 70% 的国风休闲用户，偏好慢节奏经营",
+  "monetization": "IAA + IAP 混合：体力清零弹「免费补充」看广告，内购卖灵玉/礼包/加速",
+  "lifecycle": "长线运营，靠双端(微信/抖音)同频爬榜与赛季活动维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "二合核心机制在赛道内已高度成熟且饱和，照搬机制即成立，瓶颈完全在题材与美术包装(古风江南)。研发主体是原创 IP 而非同厂换皮矩阵，因此直接换题材复制即可，无需结构改动。",
+  "suggestions": [
+   "换题材到「修仙丹炉 / 西游取经 / 末世废土工坊」，保留棋盘二合 + 轻订单 + 剧情奖励体力的双循环",
+   "把「探案剧情」换成更易量产的文字互动模板，降低剧情生产成本",
+   "首关把合成链压到 5-8 级，把卡关点后移以保首留"
+  ],
+  "risks": [
+   "二合赛道极度饱和(柠檬微趣等头部占榜)，买量 CPA 高",
+   "国风题材已被本作占榜，正面撞车风险高",
+   "微信/抖音/Tap 多端码池隔离与版号主体分工复杂，发行合规需注意"
+  ],
+  "effort": "25–40 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/14/3a/a5143a7a-02f7-faef-505e-ab91880ff777/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/9c/99/389c9921-467a-b8c5-a546-7ed8cf30c956/0.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/26/a9/e926a9df-050d-1ef7-48e0-915f87dcbda4/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fa/49/a4/fa49a409-8886-e174-e00f-227801294fbc/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/2c/31/852c31ad-8605-b8b6-0218-605ca177436e/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/55/e0/a855e00a-7e5a-8239-f1c1-1e250d693279/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/c8/e2/6ac8e2be-7222-017b-20b0-8485d12af53f/0.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/69/ad/6269add4-2f76-08b4-42c2-4f853dd24e34/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/86/1e/33861e2a-9d0e-2172-5184-656c61448530/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/5d/3c/3c5d3cf5-f7f3-f675-86d8-b0864ed96537/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/3b/41/513b4147-e235-4c6d-a23a-7194f219d4d6/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "微信小游戏/应用宝开发者为「江西启游互动科技有限公司」(应用宝 ID wx0e0531466ba56547)",
+   "level": "confirmed"
+  },
+  {
+   "claim": "App Store 卖方字段为「Jiangxi Mengrao Interactive Entertainment(江西梦饶互娱科技有限公司)」，与微信端主体不一致",
+   "level": "confirmed"
+  },
+  {
+   "claim": "玩法为棋盘二合 + 订单经营 + 探案剧情，合成链达 13 级",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断为 Cocos Creator(微信小游戏主流引擎)，未找到官方技术确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E7%A9%BA%E6%A0%BC%E4%B9%8B%E5%A2%83/id6771265430",
+  "https://sj.qq.com/appdetail/wx0e0531466ba56547"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "空格之境",
+  "country": "cn",
+  "track_id": 6771265430,
+  "seller": "Jiangxi Mengrao Interactive Entertainment Technology Co., Ltd",
+  "genres": [
+   "游戏",
+   "休闲"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/14/3a/a5143a7a-02f7-faef-505e-ab91880ff777/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/9c/99/389c9921-467a-b8c5-a546-7ed8cf30c956/0.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/26/a9/e926a9df-050d-1ef7-48e0-915f87dcbda4/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fa/49/a4/fa49a409-8886-e174-e00f-227801294fbc/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/2c/31/852c31ad-8605-b8b6-0218-605ca177436e/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/55/e0/a855e00a-7e5a-8239-f1c1-1e250d693279/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/c8/e2/6ac8e2be-7222-017b-20b0-8485d12af53f/0.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/69/ad/6269add4-2f76-08b4-42c2-4f853dd24e34/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/86/1e/33861e2a-9d0e-2172-5184-656c61448530/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/5d/3c/3c5d3cf5-f7f3-f675-86d8-b0864ed96537/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/3b/41/513b4147-e235-4c6d-a23a-7194f219d4d6/5.jpg/626x1112bb.jpg"
+  ],
+  "description": "在这里，你不再是普通的社畜，而是身负血海深仇的丝织世家嫡女；想要逃离这荒诞的命运重返现实，唯一的筹码便是揭开尘封已久的“元熙官锦贪墨案”真相，并在重重迷雾中寻回失踪的父亲沈朔。这不仅是一场关于生存的博弈，更是一次穿越时空的灵魂救赎……\n\n【达成契约 · 汇聚四方财源】\n核心订单交付玩法。 在任务界面查看各方势力的物资需求，通过合成与收集凑齐指定道具进行交付。完成契约不仅能获得金币和经验奖励，还能提升势力好感度，是游戏中积累财富、推动进度的主要途径。\n【卷轴轻展 · 沉浸主线篇章】\n丰富的剧情对话系统。 随着游戏进程解锁跌宕起伏的主线故事，通过与NPC的互动点击推进剧情发展。在探案过程中做出你的关键选择，逐步揭开“元熙官锦贪墨案”背后的秘密，享受视觉小说般的阅读体验。\n【积少成多 · 铺就繁华之路】\n剧情道具收纳与空间解放。 面对有限的合成空地，背包就是你的第二仓库！将合成好的大型建筑（剧情必备工具）存入背包，不仅不占用外面的操作格位，还能随取随用。合理规划库存，让你的合成场地不再拥挤，闯关效率翻倍。\n【四时流转 · 静观岁月枯荣】\n真实的动态四季变换系统。 游戏场景会随着时间推移呈现春、夏、秋、冬不同的视觉风貌。从春花到冬雪，地图背景和光影效果会实时更迭，让你在经营之余也能欣赏到生动细腻的环境变化。\n【指尖生花 · 重拾古镇旧梦】\n剧情驱动的古建修复。 采用精致的古风俯瞰视角，随着主线任务的推进，亲手将一座座特色建筑安置于古镇之中。看着原本荒芜的土地在你的努力下逐渐恢复生机，体验从零开始重建繁华市镇的成就感与归属感。",
+  "release_notes": "活动更新，快来玩吧！",
+  "file_size_bytes": 93415424,
+  "min_os": "15.0",
+  "version": "9.3",
+  "release_date": "2026-06-28",
+  "rating": 4.87488,
+  "rating_count": 1031,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E7%A9%BA%E6%A0%BC%E4%B9%8B%E5%A2%83/id6771265430?uo=4",
+  "fetched_at": "2026-09-15T21:47:59+08:00"
+ },
+ "slug": "空格之境_777ebc"
+}

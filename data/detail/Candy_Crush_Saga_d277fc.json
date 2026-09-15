@@ -1,0 +1,273 @@
+{
+ "schema_version": 1,
+ "name": "Candy Crush Saga",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "King",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 20
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 9,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "King 自研引擎（Fiction）",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "扁平糖果卡通，Spine 骨骼动画",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 2,
+   "logic": 5,
+   "data": 5,
+   "server": 4,
+   "audio": 3
+  },
+  "dim_notes": {
+   "logic": "1.5 万+关卡、特殊糖果（striped/wrapped/color bomb）、booster 与连锁 combo 规则及难度曲线，需专门关卡编辑器与长期平衡",
+   "physics": "无刚体物理，仅网格重力下落与吸附，手感调校简单",
+   "art": "310MB 包体含大量 Spine 序列帧与音效，糖果世界美术需成体系但可外包/程序化",
+   "data": "Saga 地图、赛季活动、生命/金币经济、好友赠送，多线长线养成与内容资产",
+   "server": "Facebook/云存档同步、排行榜与锦标赛，强联网但非实时对战"
+  },
+  "asset_notes": "2D 卡通贴图 + Spine 动画，素材层非瓶颈；真正的资产壁垒是 1.5 万+关卡设计与平衡，而非美术",
+  "notes": "机制为成熟三消，技术风险低；真正壁垒是 IP、品牌认知与海量关卡内容资产",
+  "cost_score": 3.5,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "在棋盘上交换相邻糖果凑成三连消除，四连以上生成特殊糖果，用连锁与特殊糖果在限定步数内完成关卡目标；失败扣生命，靠好友赠送或内购续命。一局 1–3 分钟。",
+  "highlights": [
+   "消除与连锁的爽脆音效 + 屏幕反馈密度高",
+   "特殊糖果（彩色炸弹/条纹）一次清屏的爆发感",
+   "Saga 地图的下一关解锁悬念与每日奖励回访钩子",
+   "好友生命互赠的轻社交裂变"
+  ],
+  "innovations": [
+   "无实质创新，属成熟三消品类的长线执行优化（特殊糖果组合 + 限时模式如 Gummy Dragons/Bubblegum Pop）"
+  ],
+  "target_user": "25–45 岁泛休闲、通勤碎片用户",
+  "monetization": "IAP 内购（生命/步数/booster/金条）+ 去广告；广告占比极低（King 自述）",
+  "lifecycle": "超长线运营，周更关卡 + 赛季活动，2012 年至今"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "三消机制本身可自由复刻，但 Candy Crush 是 King/动视暴雪旗下全球顶级 IP，品牌与用户认知垄断；赛道已被 Candy Crush、Royal Match 等头部锁死，买量 CPA 极高，新入场者几乎无差异化空间。",
+  "suggestions": [
+   "若要入场，放弃正面竞争，改做细分题材（如「中药房三消」「考古挖掘消除」）",
+   "重点做首关留存与卡关难度曲线，而非堆关卡数",
+   "用 AI 辅助生成关卡而非手工设计 1.5 万关"
+  ],
+  "risks": [
+   "Candy Crush 商标与 IP 侵权风险",
+   "三消买量成本极高、ROI 难正",
+   "头部产品已占据用户心智"
+  ],
+  "effort": "40–60 人日（2 前端 + 1 美术 + 0.5 策划）仅做基础三消，不含海量关卡"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/de/33/8fde33a2-a5d3-ee30-cc04-36ec1ed1ef91/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/54/54/ed5454a8-609c-2299-3f70-71266afcd62c/e6a5aa2d-db24-4004-b409-d0ca33f961f0_v4-candies_478284_423160_CCS_Creative_Results_First_Screenshots_Nov_23_sta_ios-6.7_1290x2796_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/42/bd/1b42bd4f-d144-246a-3a4b-91e3316c51c0/26184b20-fd91-4296-8a58-d32d7134e1b4_563552_CCS_Taglines_Banner_Route_4_Resize_Screenshots_June_24_sta_ios-6.7_1290x2796_1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/7d/fe/c27dfe08-476f-d179-b763-3e82e9c174ae/97738c29-af03-4b0e-8790-db5b9fbdc62b_563552_CCS_Taglines_Banner_Route_4_Resize_Screenshots_June_24_sta_ios-6.7_1290x2796_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/9c/60/909c60c4-5c51-c7c7-f8b9-404ef0458d93/113c4621-26f9-4a3f-b46c-1af889bc5dce_563552_CCS_Taglines_Banner_Route_4_Resize_Screenshots_June_24_sta_ios-6.7_1290x2796_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a1/92/a4/a192a4cd-9619-8745-7b20-4d600dac32d7/09ced3e6-d696-417a-b598-99536cbccc6f_563552_CCS_Taglines_Banner_Route_4_Resize_Screenshots_June_24_sta_ios-6.7_1290x2796_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/c8/25/e5c8257e-10bb-9345-081b-bb98f6374ec0/8a8c72de-0a95-4858-a977-e6a5d42b4dba_Copy_of__sta_ios-6.7_1290x2796_6_EN.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/88/17/90881761-5132-bc63-cd05-bc872c63fce2/31c32041-00b0-4500-a550-99ce01c945ff_Copy_of__sta_ios-6.7_1290x2796_7_EN.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/fa/a9/3efaa9c7-c7ad-48a8-4e3a-ecbcc45e4d79/b981a09b-610e-4ed3-8930-9135c5bb1e06_Copy_of__sta_ios-6.7_1290x2796_8_EN.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/17/91/0d1791e0-2994-3976-63e2-637abe2059b5/e994b495-63cd-4c0b-bc72-d640bee44757_Copy_of__sta_ios-6.7_1290x2796_9_EN.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/16/7c/df167c9e-9f3f-1d64-8d35-78a431185478/89b1faee-9df2-4d83-bc7c-ee5a734344ef_v4-candies_478284_423160_CCS_Creative_Results_First_Screenshots_Nov_23_sta_ios-iPad_2048x2732_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/13/b2/4e13b2aa-60a0-6f2a-a98e-f77777dcaf90/77bc4e75-e791-4479-91cb-ca98312abc59_479855_CCS_Rewording_Taglines_Screenshots_Nov_23_route4_sta_ios-iPad_2048x2732_1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/3e/0e/ae3e0e9a-0f58-2821-1bdb-a255a7e5eb22/448fc95c-7091-443f-b359-40884cff34c9_479855_CCS_Rewording_Taglines_Screenshots_Nov_23_route4_sta_ios-iPad_2048x2732_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/2c/62/f72c6262-aebb-67df-a223-b0c9faf020d0/65eec630-c5f0-46f4-98fb-1ce029fb36d2_479855_CCS_Rewording_Taglines_Screenshots_Nov_23_route4_sta_ios-iPad_2048x2732_4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b4/ff/c1/b4ffc168-1df6-b637-6204-d76e1cf6efdc/10511ee6-b050-4f6f-9f5e-1644ff5d158a_479855_CCS_Rewording_Taglines_Screenshots_Nov_23_route4_sta_ios-iPad_2048x2732_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/fd/d8/94fdd8cb-4f7f-09e7-6172-1a9776f268b8/43dbc8a0-5f8c-4f42-ad4b-9de28521386a_285580_ccs_lt_aso-true-to-gameplay-ss_sta_ios-iPad_2048x2732_1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/e7/02/7ee702e6-4047-7d32-91f0-515b21c68710/96b029b6-7822-4ed5-8367-552646806b1b_285580_ccs_lt_aso-true-to-gameplay-ss_sta_ios-iPad_2048x2732_2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 16"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/89/12/0c891284-77e6-c5b6-23b6-72bd696bcbab/835e9d44-e4b3-4f74-b6f0-a01a8f1f0ec3_285580_ccs_lt_aso-true-to-gameplay-ss_sta_ios-iPad_2048x2732_3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 17"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/cc/6a/f9cc6a54-5910-0f5c-7a49-3888ea0e6370/d1c5f541-5d59-4cb6-abf7-b9d68d943277_364295_CCS_Saga-Map-Update_ss_2048x2732_en.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 18"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "King 使用自研引擎 Fiction（CTO Steve Collins 采访确认，称『为移动休闲游戏从零打造』）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体约 310MB，含 Spine 动画与音效资产",
+   "level": "confirmed"
+  },
+  {
+   "claim": "关卡数超 1.5 万（2023 年 VentureBeat 报道）",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://venturebeat.com/games/steven-collins-interview",
+  "https://apps.apple.com/us/app/candy-crush-saga/id553834731?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Candy Crush Saga",
+  "country": "us",
+  "track_id": 553834731,
+  "seller": "King.com Limited",
+  "genres": [
+   "Games",
+   "Entertainment",
+   "Puzzle",
+   "Casual"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/de/33/8fde33a2-a5d3-ee30-cc04-36ec1ed1ef91/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/54/54/ed5454a8-609c-2299-3f70-71266afcd62c/e6a5aa2d-db24-4004-b409-d0ca33f961f0_v4-candies_478284_423160_CCS_Creative_Results_First_Screenshots_Nov_23_sta_ios-6.7_1290x2796_4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/42/bd/1b42bd4f-d144-246a-3a4b-91e3316c51c0/26184b20-fd91-4296-8a58-d32d7134e1b4_563552_CCS_Taglines_Banner_Route_4_Resize_Screenshots_June_24_sta_ios-6.7_1290x2796_1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/7d/fe/c27dfe08-476f-d179-b763-3e82e9c174ae/97738c29-af03-4b0e-8790-db5b9fbdc62b_563552_CCS_Taglines_Banner_Route_4_Resize_Screenshots_June_24_sta_ios-6.7_1290x2796_2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/9c/60/909c60c4-5c51-c7c7-f8b9-404ef0458d93/113c4621-26f9-4a3f-b46c-1af889bc5dce_563552_CCS_Taglines_Banner_Route_4_Resize_Screenshots_June_24_sta_ios-6.7_1290x2796_4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a1/92/a4/a192a4cd-9619-8745-7b20-4d600dac32d7/09ced3e6-d696-417a-b598-99536cbccc6f_563552_CCS_Taglines_Banner_Route_4_Resize_Screenshots_June_24_sta_ios-6.7_1290x2796_3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/c8/25/e5c8257e-10bb-9345-081b-bb98f6374ec0/8a8c72de-0a95-4858-a977-e6a5d42b4dba_Copy_of__sta_ios-6.7_1290x2796_6_EN.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/88/17/90881761-5132-bc63-cd05-bc872c63fce2/31c32041-00b0-4500-a550-99ce01c945ff_Copy_of__sta_ios-6.7_1290x2796_7_EN.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/fa/a9/3efaa9c7-c7ad-48a8-4e3a-ecbcc45e4d79/b981a09b-610e-4ed3-8930-9135c5bb1e06_Copy_of__sta_ios-6.7_1290x2796_8_EN.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/17/91/0d1791e0-2994-3976-63e2-637abe2059b5/e994b495-63cd-4c0b-bc72-d640bee44757_Copy_of__sta_ios-6.7_1290x2796_9_EN.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/16/7c/df167c9e-9f3f-1d64-8d35-78a431185478/89b1faee-9df2-4d83-bc7c-ee5a734344ef_v4-candies_478284_423160_CCS_Creative_Results_First_Screenshots_Nov_23_sta_ios-iPad_2048x2732_4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/13/b2/4e13b2aa-60a0-6f2a-a98e-f77777dcaf90/77bc4e75-e791-4479-91cb-ca98312abc59_479855_CCS_Rewording_Taglines_Screenshots_Nov_23_route4_sta_ios-iPad_2048x2732_1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/3e/0e/ae3e0e9a-0f58-2821-1bdb-a255a7e5eb22/448fc95c-7091-443f-b359-40884cff34c9_479855_CCS_Rewording_Taglines_Screenshots_Nov_23_route4_sta_ios-iPad_2048x2732_2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/2c/62/f72c6262-aebb-67df-a223-b0c9faf020d0/65eec630-c5f0-46f4-98fb-1ce029fb36d2_479855_CCS_Rewording_Taglines_Screenshots_Nov_23_route4_sta_ios-iPad_2048x2732_4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b4/ff/c1/b4ffc168-1df6-b637-6204-d76e1cf6efdc/10511ee6-b050-4f6f-9f5e-1644ff5d158a_479855_CCS_Rewording_Taglines_Screenshots_Nov_23_route4_sta_ios-iPad_2048x2732_3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/fd/d8/94fdd8cb-4f7f-09e7-6172-1a9776f268b8/43dbc8a0-5f8c-4f42-ad4b-9de28521386a_285580_ccs_lt_aso-true-to-gameplay-ss_sta_ios-iPad_2048x2732_1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/e7/02/7ee702e6-4047-7d32-91f0-515b21c68710/96b029b6-7822-4ed5-8367-552646806b1b_285580_ccs_lt_aso-true-to-gameplay-ss_sta_ios-iPad_2048x2732_2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/89/12/0c891284-77e6-c5b6-23b6-72bd696bcbab/835e9d44-e4b3-4f74-b6f0-a01a8f1f0ec3_285580_ccs_lt_aso-true-to-gameplay-ss_sta_ios-iPad_2048x2732_3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/cc/6a/f9cc6a54-5910-0f5c-7a49-3888ea0e6370/d1c5f541-5d59-4cb6-abf7-b9d68d943277_364295_CCS_Saga-Map-Update_ss_2048x2732_en.jpg/626x1112bb.jpg"
+  ],
+  "description": "Explore a world full of delicious match-3 puzzles and endless fun! Blast through thousands of challenging levels in this timeless puzzle game from King. Match candies, conquer jelly, toffees, and jam, and uncover sweet surprises in every puzzle.\n\nClassic Match-3 Gameplay with Fresh Twists\n\n- Discover unique game modes like Gummy Dragons and Bubblegum Pop. \n- Match and blast your way through matching levels full of sugar-coated fun.\n- Master tricky puzzles and create explosive combos to clear the board!\n\nBrain-Boosting Challenges & Special Events\n\n- Daily Rewards: Log in every day to claim free boosters and extra lives.\n- Time-Limited Events: Compete in themed challenges and win exclusive prizes.\n- Tournaments & Leaderboards: Crush more candies than your friends and rise to the top to become the ultimate match-3 master!\n\nBonbon Blitz Your Way Through Extra Sticky Levels\n\n- Use powerful boosters like Bonbon Blitz, Lollipop Hammer, and Jelly Fish to solve puzzles and boost your score.\n- Stuck on a level? Boosters and extra moves will help you blast through any obstacle.\n\nPlay Offline or Online, Anytime and Anywhere\n\n- No internet, no problem: Enjoy offline gameplay and keep the fun going wherever you are.\n- Ad-free fun means uninterrupted candy-matching bliss!\n\nConnect with Friends & Join the Candy Kingdom\n\n- Share lives, compare scores, and see who’s the match-3 master in your friends circle.\n- Connect your game to Facebook to sync progress, compete with friends, and unlock exclusive rewards!\n\nDiscover more from King\n\nLooking for more brain-teasing fun? Try Candy Crush Soda Saga or Farm Heroes Saga for fresh twists on classic match-3 puzzles. Or dive into sweet solitaire action with the new Candy Crush Solitaire!\n\nCandy Crush Saga is free to play, but optional in-game items require payment. You can turn off the payment feature in your device’s settings.\n\nAll Stars 2026\n\nSelected level 5+. 18+. In-game event from 09:00 EST 5 March to 09:00 EDT 8 April, 2026. Participating countries only. Void where prohibited. Win the in-game event and receive an invite to the live contest 3-6 June in London for a chance to win a share of $1,000,000 USD. Requires travel to London. T&Cs: to.king.com/terms. Candy Crush Saga contains optional in-game purchases. © /TM / ® 2026 King.com Ltd. “King”, “Candy Crush All Stars\" and associated marks and logos are trademarks of King.com Ltd or related entities.",
+  "release_notes": "We hope you’re having fun playing Candy Crush Saga! \n\nWe update the game every week with sweet new features, exciting levels, and important bug fixes to keep everything running smoothly. \n\nDon't forget to download the latest version for the best experience!\n\nNew to the game? Don’t be shy, join the fun!",
+  "file_size_bytes": 325522432,
+  "min_os": "15.0",
+  "version": "1.336.2.1",
+  "release_date": "2012-11-14",
+  "rating": 4.70469,
+  "rating_count": 4004565,
+  "price": "Free",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/us/app/candy-crush-saga/id553834731?uo=4",
+  "fetched_at": "2026-09-15T21:49:08+08:00"
+ },
+ "slug": "Candy_Crush_Saga_d277fc"
+}

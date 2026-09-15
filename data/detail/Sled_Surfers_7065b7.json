@@ -1,0 +1,238 @@
+{
+ "schema_version": 1,
+ "name": "Sled Surfers",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "CrazyLabs LTD",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 17
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-08-21",
+  "appearances": 24,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "低多边形卡通 3D，雪地/森林/城市/地铁/洞穴多场景",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 2,
+   "logic": 3,
+   "data": 3,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "CrazyLabs 招聘 JD 明确 Sled Surfers 由 Unity3D 开发，3D 无限跑酷属成熟模板，无需自研引擎",
+   "art": "iOS 包体 331MB 属重量级，含雪山/森林/城市/地铁/洞穴等多套 3D 场景与大量可解锁雪橇、角色，美术资产量级偏重",
+   "logic": "无限跑酷程序化赛道 + 关卡挑战 + 道具系统，规则中等复杂度",
+   "server": "纯单机无限跑酷，无排行榜/联机/云存档等联网要素，服务端成本为零"
+  },
+  "asset_notes": "3D 低多边形资产可用通用素材库 + AI 辅助批量产出；多场景切换与角色/雪橇皮肤是主要美术增量",
+  "notes": "成熟 3D 无限跑酷框架 + 雪橇题材换皮，技术风险低，难点在赛道手感与内容供给",
+  "cost_score": 2.62,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "操控雪橇从雪坡高速俯冲，左右变道躲避树木、起跳越过冰面、拾取加速道具，一路滑向更远的里程；无限模式刷距离，关卡模式打挑战，一局 1-3 分钟。",
+  "highlights": [
+   "高速俯冲 + 变道闪避的流畅手感，配合雪雾/速度线营造爽快失控感",
+   "起跳越障与落地衔接的节奏点，操作正反馈强",
+   "大量可解锁雪橇与角色形成收集驱动，单机也有目标感"
+  ],
+  "innovations": [
+   "无实质创新，属 Subway Surfers/Ski Safari 式无限跑酷的雪地换皮执行，差异化仅在题材与美术"
+  ],
+  "target_user": "12+ 泛休闲与轻度竞速玩家，碎片时间",
+  "monetization": "IAA 为主（插屏/激励视频），辅以去广告与皮肤内购；无限跑酷天然适配广告点",
+  "lifecycle": "长线运营，靠角色/雪橇解锁与关卡更新维持复访"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "无限跑酷是极度成熟的模板，核心机制照搬即成立，瓶颈完全在题材与美术表现；原作无强版权壁垒，换皮即可差异化，但赛道竞争激烈、买量成本高。",
+  "suggestions": [
+   "把雪橇换成「水上冲浪/沙地摩托」，改场景与物理参数即可快速换皮",
+   "加入「赛季主题赛道」（如万圣节鬼屋坡）做限时内容拉复访",
+   "首关降低障碍密度、把失败点后移到第 3 关之后提升留存"
+  ],
+  "risks": [
+   "无限跑酷赛道买量 CPI 偏高、同质化严重",
+   "无强 IP，需在美术与题材上做出辨识度"
+  ],
+  "effort": "20–30 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/92/93/c192939e-b4d9-084e-4f1b-1ff813fcb34c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/7b/10/e27b10d7-532c-1379-10be-e182e86abbbb/iPhone14proMax_04_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9b/69/74/9b6974b1-e698-74c2-b635-ac1bb5422114/iPhone14proMax_05_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/06/38/ec063820-706c-97a9-57b0-77affa17ca82/iPhone14proMax_02_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/af/5d/e9af5d30-d621-d85e-5cad-66a3e4ddf308/iPhone14proMax_08_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/5f/64/395f6482-b6f2-330f-55c1-f376f27b2fa6/iPhone14proMax_07_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/72/42/787242c0-3398-68b2-aad4-84a64fd0fa25/iPhone14proMax_01_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/13/46/22134620-6f01-67a3-46a0-ddfb6d485b49/iPhone14proMax_06_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/71/28/89712892-f88a-3681-f41d-2dfd2d0cd600/iPadPro_04_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/15/7d/3f157dc3-77f0-265f-8c9a-6fb3a680ba3d/iPadPro_05_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/08/73/97087358-f24a-3be1-cb1f-72e95682aca5/iPadPro_02_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/3d/c8/803dc8db-b477-d90b-b90a-9b84a85e1057/iPadPro_08_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/e8/f0/1de8f03b-c6d8-b394-e60c-5d8e119ce553/iPadPro_07_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/3d/fc/cf3dfc82-c875-0918-db04-557f2c11aecb/iPadPro_01_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/4b/97/1c4b9753-8c51-ae7a-df88-bedbe268d8a1/iPadPro_06_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 14"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "CrazyLabs 招聘 JD 明确 Sled Surfers 由 Unity3D 开发",
+   "level": "confirmed"
+  },
+  {
+   "claim": "iOS 包体 331MB，属 250–600MB 重量级，含多套 3D 场景",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/sled-surfers/id6744975195",
+  "https://www.comeet.com/jobs/crazylabs/32.00E/game-level-designer---sled-surfers/F5.073"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Sled Surfers",
+  "country": "us",
+  "track_id": 6744975195,
+  "seller": "CRAZY LABS BY TABTALE , G.P.",
+  "genres": [
+   "Games",
+   "Simulation",
+   "Entertainment",
+   "Racing"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/92/93/c192939e-b4d9-084e-4f1b-1ff813fcb34c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/7b/10/e27b10d7-532c-1379-10be-e182e86abbbb/iPhone14proMax_04_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9b/69/74/9b6974b1-e698-74c2-b635-ac1bb5422114/iPhone14proMax_05_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/06/38/ec063820-706c-97a9-57b0-77affa17ca82/iPhone14proMax_02_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/af/5d/e9af5d30-d621-d85e-5cad-66a3e4ddf308/iPhone14proMax_08_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/5f/64/395f6482-b6f2-330f-55c1-f376f27b2fa6/iPhone14proMax_07_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/72/42/787242c0-3398-68b2-aad4-84a64fd0fa25/iPhone14proMax_01_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/13/46/22134620-6f01-67a3-46a0-ddfb6d485b49/iPhone14proMax_06_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/71/28/89712892-f88a-3681-f41d-2dfd2d0cd600/iPadPro_04_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/15/7d/3f157dc3-77f0-265f-8c9a-6fb3a680ba3d/iPadPro_05_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/08/73/97087358-f24a-3be1-cb1f-72e95682aca5/iPadPro_02_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/3d/c8/803dc8db-b477-d90b-b90a-9b84a85e1057/iPadPro_08_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/e8/f0/1de8f03b-c6d8-b394-e60c-5d8e119ce553/iPadPro_07_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/3d/fc/cf3dfc82-c875-0918-db04-557f2c11aecb/iPadPro_01_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/4b/97/1c4b9753-8c51-ae7a-df88-bedbe268d8a1/iPadPro_06_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg"
+  ],
+  "description": "SLIDE fast as you can!\nRace through snowy slopes in Sled Surfers, the ultimate winter SLEDDING GAME!\n\nDODGE trees, leap over ice, and grab power-ups as you speed downhill.\nSlide through snow into mountains, forests, cities, subways, caves, and beyond.\nHow far can you go?\n\nInspired by ENDLESS RUNNER hits, Sled Surfers delivers FAST action, SMOOTH controls, and endless FUN.\n\nFeatures:\n• High-speed sledding on icy tracks\n• Endless runs and exciting level-based challenges\n• Tons of surfers characters and sleds to unlock\n• Explore mountains, caves, and frozen forests\n\nSimple to play, hard to master.\nDownload now and ride the snow!\n\nTo opt out of CrazyLabs sales of personal information as a California resident, please visit the settings page within this app. For more information visit our privacy policy: https://crazylabs.com/app",
+  "release_notes": "Less bugs, more speed!\nWe’ve made behind-the-scenes improvements to keep Sled Surfers running smoothly.\nExpect better performance, fewer crashes, and a more responsive sled experience.\nUpdate now and glide through the snow with confidence!",
+  "file_size_bytes": 331132928,
+  "min_os": "15",
+  "version": "1.13.1",
+  "release_date": "2025-04-29",
+  "rating": 4.65186,
+  "rating_count": 68065,
+  "price": "Free",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/us/app/sled-surfers/id6744975195?uo=4",
+  "fetched_at": "2026-09-15T21:48:29+08:00"
+ },
+ "slug": "Sled_Surfers_7065b7"
+}

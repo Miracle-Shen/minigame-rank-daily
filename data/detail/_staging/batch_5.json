@@ -1,789 +1,361 @@
 [
   {
-    "name": "奇幻果园",
+    "name": "Candy Crush Saga",
     "updated_at": "2026-09-15",
     "generated_by": "agent",
     "tech": {
-      "engine": "Cocos Creator",
-      "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "古风庭院+水果卡通贴图，精致成品展示",
-      "dims": {"engine": 2, "art": 3, "anim": 2, "physics": 1, "logic": 4, "data": 4, "server": 3, "audio": 2},
-      "dim_notes": {
-        "logic": "种植→订单→果艺加工→装修解锁多系统串联，需关卡/任务编辑器与数十种水果数值",
-        "data": "单线种植养成＋公会/好友社交与赛季内容，多线成长循环",
-        "server": "含好友/公会社交功能，需联网存档与排行榜",
-        "art": "古风庭院+水果贴图为2D卡通，需成体系UI与关卡美术"
-      },
-      "asset_notes": "古风庭院+水果贴图为2D卡通，可用AI生图+人工修图批量产出；无3D资产，素材层不是瓶颈",
-      "notes": "与《我的花园世界》高度相似的换皮，技术风险低"
-    },
-    "play": {
-      "core_loop": "在庭院里拖动播种水果，收获后交居民订单或做成果艺出售，金币解锁土地/容器/装修，等级提升解锁公会好友。",
-      "highlights": [
-        "收获时水果数量与经验从地里冒出的即时反馈，动作与结果离得近",
-        "居民订单把收获物定向消耗，制造'还差几个'的目标牵引",
-        "容器/装修作解锁内容，首充与等级门槛自然引导付费"
-      ],
-      "innovations": [
-        "与《我的花园世界》几乎一致的'种花→插花'换成果树→果艺，属成熟品类的执行优化"
-      ],
-      "target_user": "25-45岁泛休闲女性用户，通勤碎片时间",
-      "monetization": "IAA+IAP混合（首充容器、等级解锁、看广告加速）",
-      "lifecycle": "长线运营，靠每日任务/公会/赛季维持复访"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "玩法与《我的花园世界》同构，机制照搬即成立，瓶颈在题材与首关留存；原题材已高度饱和，换题材是最优解。",
-      "suggestions": [
-        "把果园换成'中药铺'：播种药材→抓药订单→炮制加工，天然带知识感",
-        "把果艺容器改成'节气食补礼盒'，接传统文化节点做活动",
-        "首关把订单数量压到最低，把失败点后移降低前期流失"
-      ],
-      "risks": ["《我的花园世界》已有强品牌认知，同题材直接撞车", "种植经营买量CPI偏高且LTV依赖长线"],
-      "effort": "25–40人日（1前端+1美术+0.5策划）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "奇幻果园为《我的花园世界》式种植经营换皮，玩法同构", "level": "confirmed"},
-      {"claim": "引擎为 Cocos Creator（微信小游戏常见选择，未找到官方确认）", "level": "inferred"}
-    ],
-    "sources": [
-      "http://www.gamelook.com.cn/2026/09/601375",
-      "https://www.toutiao.com/a7684686087637238326"
-    ]
-  },
-  {
-    "name": "神器传说",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Cocos Creator",
-      "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "Q版仙侠卡通",
-      "dims": {"engine": 2, "art": 3, "anim": 2, "physics": 1, "logic": 4, "data": 4, "server": 3, "audio": 2},
-      "dim_notes": {
-        "logic": "放置挂机+开箱炼器+神器合成+斗法+宗门多系统，需数值与掉落体系",
-        "data": "神器/法相/灵兽/斗法多线养成+经济循环，长线内容重",
-        "server": "斗法跨服/宗门/联盟，强联网社交"
-      },
-      "asset_notes": "Q版仙侠2D卡通，神器/坐骑/怪物可程序化或批量采购；包体55MB量级轻",
-      "notes": "成熟放置修仙开箱框架，技术风险低"
-    },
-    "play": {
-      "core_loop": "角色自动挂机战斗获取经验与资源，开宝箱掉落神器碎片合成神器，离线也积累资源，回归一键领取，逐步解锁修仙地图。",
-      "highlights": [
-        "无限开箱的随机掉落实时反馈，'下一发必出'的赌性驱动留存",
-        "离线资源累积+一键领取，零操作也有成长，契合碎片时间",
-        "神器合成与地图解锁的分层目标，成长反馈清晰"
-      ],
-      "innovations": [
-        "无实质创新，属于成熟放置开箱修仙品类的执行优化"
-      ],
-      "target_user": "男性修仙爱好者，时间紧张想轻松挂机的用户",
-      "monetization": "IAP内购为主（神器/资源/去广告），含宗门等社交付费",
-      "lifecycle": "长线运营，靠地图/神器/赛季内容维持"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "放置开箱修仙框架极度成熟，机制照搬即成立，瓶颈在题材与数值平衡；同类产品众多，换题材+调数值是最优解。",
-      "suggestions": [
-        "把修仙换成'西游取经'：开箱得法宝→合成神通→挂机降妖",
-        "用'打工摸鱼'职场题材做放置开箱，降低年龄门槛",
-        "把斗法跨服做成轻量周赛，控制服务器成本"
-      ],
-      "risks": ["放置修仙赛道极度饱和，买量成本高", "开箱概率易触发合规与平台审核风险"],
-      "effort": "30–45人日（1前端+1美术+0.5数值）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "神器传说为放置挂机开箱修仙RPG微信小游戏", "level": "confirmed"},
-      {"claim": "引擎为 Cocos Creator（微信小游戏常见，未找到官方确认）", "level": "inferred"}
-    ],
-    "sources": [
-      "https://m.9k9k.com/game/334078.html",
-      "https://m.18183.com/zhxz/8807218.html"
-    ]
-  },
-  {
-    "name": "这关可真行",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Cocos Creator",
-      "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "水墨国风+汉字拟人+书法字体",
-      "dims": {"engine": 2, "art": 3, "anim": 2, "physics": 1, "logic": 4, "data": 3, "server": 3, "audio": 2},
-      "dim_notes": {
-        "logic": "6格部署槽排兵+相同汉字合成升阶+敌我3000血对战，需合成与战斗判定",
-        "art": "水墨山石背景+朱砂/黛黑汉字着色+武将拟人立绘，需定制化美术",
-        "data": "军衔晋升+实时排行榜养成，单线偏轻"
-      },
-      "asset_notes": "水墨国风为2D矢量/手绘贴图，汉字兵种可用字体+简单造型批量产出；武将立绘需定制但量可控",
-      "notes": "汉字合成塔防，与《汉字攻防战》等同脉，机制成熟"
-    },
-    "play": {
-      "core_loop": "在6格部署槽消耗资源招出'盾刃弓刺'等汉字兵种，相同汉字合成升阶，排兵布阵攻破敌方3000血大本营，一局数分钟。",
-      "highlights": [
-        "汉字即兵种，合成升阶的'合体'瞬间有字体跃动反馈",
-        "前抗后打阵型站位决定胜负，轻策略有思考量",
-        "军衔晋升+实时排行榜给单局外养成与攀比动力"
-      ],
-      "innovations": [
-        "把汉字拟人化为可合成兵种，赋予每个字战术定位，辨识度高",
-        "关羽/刘备/张飞等三国武将以汉字形象登场，文化梗降低理解成本"
-      ],
-      "target_user": "汉字/国风爱好者、轻策略塔防玩家",
-      "monetization": "IAA为主（复活/提示看广告）+IAP（去广告/资源）",
-      "lifecycle": "短平快爆款，靠排行榜与军衔维持复访"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "汉字合成塔防机制成熟（与汉字攻防战等同脉），换一套汉字主题/题材即差异化；瓶颈在美术与题材创意，技术成本低。",
-      "suggestions": [
-        "把汉字换成'成语/诗词'兵种：相同成语合成升阶，接语文教育场景",
-        "题材换'职场部门'：相同岗位合成升阶攻破KPI大本营",
-        "保留合成升阶，把敌我血量改为'舆论值'做社会梗"
-      ],
-      "risks": ["同类汉字塔防已有多款，买量竞争激烈", "水墨国风美术需定制，批量产出有门槛"],
-      "effort": "25–40人日（1前端+1美术+0.5策划）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "这关可真行为水墨国风汉字合成塔防微信小游戏", "level": "confirmed"},
-      {"claim": "引擎为 Cocos Creator（未找到官方确认）", "level": "inferred"}
-    ],
-    "sources": [
-      "http://www.gamelook.com.cn/2026/09/601375"
-    ]
-  },
-  {
-    "name": "一找一个准",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Cocos Creator",
-      "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "实景/插画找茬图，清新",
-      "dims": {"engine": 2, "art": 3, "anim": 1, "physics": 1, "logic": 3, "data": 2, "server": 2, "audio": 2},
-      "dim_notes": {
-        "art": "核心资产是海量成对找茬图与隐藏差异点，需持续产出图库",
-        "logic": "图片比对+点击命中判定轻，但海量关卡图库与差异点设计是工作量"
-      },
-      "asset_notes": "找茬图多为实景/插画，可用AI生图成对生成+人工标差异；图库是持续成本",
-      "notes": "经典找不同换皮，技术极轻"
-    },
-    "play": {
-      "core_loop": "两幅几乎一样的图找出所有不同处，点错累计5次重开，每关限时5分钟，后期加拖动交互（掀地毯/擦玻璃）。",
-      "highlights": [
-        "差异点从颜色/部件缺失到像素级，难度梯度制造'差一点'的执念",
-        "每过3关弹激励视频复活/提示，广告位天然嵌在卡点",
-        "拖动交互（擦玻璃/掀地毯）打破纯点点点，增加动脑"
-      ],
-      "innovations": [
-        "无实质创新，属于经典找不同的执行优化（加拖动交互）"
-      ],
-      "target_user": "全龄找茬/解压用户，通勤睡前碎片时间",
-      "monetization": "IAA为主（每3关激励视频复活/提示）",
-      "lifecycle": "短平快，靠图库更新维持"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "找不同机制零门槛、技术极轻，照搬即成立，瓶颈在图库产出与题材；换题材+AI生图是最优解。",
-      "suggestions": [
-        "题材换'故宫文物找茬'：两幅古画找不同，接文化传播",
-        "加UGC：用户上传照片生成找不同关卡",
-        "把差异点做成'大家来找茬'综艺联动"
-      ],
-      "risks": ["图库需持续产出，纯靠买量难长期", "找不同赛道已有头部（本作即头部之一）"],
-      "effort": "15–25人日（1前端+0.5美术）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "一找一个准为经典找不同微信小游戏，长沙指米开发", "level": "confirmed"},
-      {"claim": "引擎为 Cocos Creator/LayaAir（微信小游戏常见，未确认）", "level": "inferred"}
-    ],
-    "sources": [
-      "https://shouyou.3dmgame.com/zt/231053_gl",
-      "https://sj.qq.com/appdetail/wx3986ff94accd31a9"
-    ]
-  },
-  {
-    "name": "给你打个折",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Cocos Creator",
-      "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "未知（按轻量休闲卡通推断）",
-      "dims": {"engine": 2, "art": 2, "anim": 2, "physics": 1, "logic": 2, "data": 2, "server": 2, "audio": 2},
-      "dim_notes": {
-        "art": "玩法未检索到一手资料，美术量级按轻量休闲推断",
-        "logic": "玩法未确认，按休闲解压小游戏推断为单规则轻逻辑"
-      },
-      "asset_notes": "未能确认玩法与美术，素材量级无法判断，需实机测试",
-      "notes": "本次检索未获可靠一手资料，以下为基于名称与新游榜的推断，置信度低"
-    },
-    "play": {
-      "core_loop": "（推断）围绕'折扣/购物'主题的休闲解压小游戏，具体核心循环未能从公开资料确认，疑似一键操作+关卡推进。",
-      "highlights": [
-        "（推断）以'打折/省钱'为情绪钩子的休闲反馈",
-        "（推断）单局短、操作轻，适配碎片时间"
-      ],
-      "innovations": [
-        "（推断）玩法未确认，无法判断创新点"
-      ],
-      "target_user": "推断泛休闲用户",
-      "monetization": "推断 IAA（休闲小游戏常见）",
-      "lifecycle": "推断 短平快"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "玩法未从公开资料确认，但位列抖音新游榜说明有买量验证；按休闲解压换皮逻辑，确认机制后换题材即可成立。需先实测确认核心循环。",
-      "suggestions": [
-        "先实机试玩确认核心机制再立项",
-        "若为一键解压类，换'砍价/凑单'题材复用同一操作",
-        "若含模拟经营元素，参考同类做轻量合成"
-      ],
-      "risks": ["玩法与美术均未确认，复刻范围不明", "抖音新游榜产品常依赖买量，自然留存待验证"],
-      "effort": "待确认（预估 15–30 人日）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "给你打个折为广州天柚抖音小游戏，玩法未能从公开资料确认", "level": "inferred"}
-    ],
-    "sources": [
-      "https://baike.baidu.com/item/%E6%8A%96%E9%9F%B3%E5%B0%8F%E6%B8%B8%E6%88%8F/68584728"
-    ]
-  },
-  {
-    "name": "MiniMuses",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Unity",
-      "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "二次元卡通，分层部件（发型/五官/服装/翅膀/兽耳）+用户自绘",
-      "dims": {"engine": 2, "art": 5, "anim": 2, "physics": 1, "logic": 3, "data": 2, "server": 1, "audio": 2},
-      "dim_notes": {
-        "art": "1500+可独立调色/纹理/图层的部件+用户自绘导入+场景道具，素材量级极重（包体420MB）",
-        "server": "无账号，角色存本地设备，纯单机"
-      },
-      "asset_notes": "素材为分层2D部件，需成体系美术生产管线；420MB包体说明资产重，复刻最大瓶颈在美术产能",
-      "notes": "Gacha式同人OC创作工具，机制通用，美术是壁垒"
-    },
-    "play": {
-      "core_loop": "从零或模板捏出二次元角色，逐项调头身/五官/服装并独立调色加纹理，进工作室模式搭场景、摆姿势、加对话框编排小剧场，一键导出高清图。",
-      "highlights": [
-        "每个部件可独立调色+纹理+图层顺序，换装自由度极高",
-        "用户自绘图片可当配饰/背景，突破内置素材限制",
-        "工作室分镜编排+多角色同屏，直接产出同人漫画/短视频素材"
-      ],
-      "innovations": [
-        "无实质创新，属于 Gacha 式 OC 创作工具的成熟执行（相对原版加查增加自绘导入）"
-      ],
-      "target_user": "二次元/同人创作爱好者，OC人设党",
-      "monetization": "IAP内购（高级素材/去广告），免费下载",
-      "lifecycle": "长线工具型，靠素材更新与社区维持"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "OC捏人+工作室分镜的创作框架已成熟（Gacha类），机制照搬即成立，瓶颈完全在美术素材产能与风格；换一套美术/IP即可差异化。",
-      "suggestions": [
-        "用国漫IP授权做正版捏人工具，规避自绘版权灰区",
-        "把分层部件改成'非遗手作'主题（泥人/皮影），差异化美术",
-        "工作室模式接短视频模板，降低同人产出门槛"
-      ],
-      "risks": ["420MB素材量级，美术产能是核心成本", "加查类同人存在原IP版权灰区", "纯单机无留存钩子，需加社区/云存档"],
-      "effort": "60–100人日（1前端+2美术+0.5策划），美术占大头"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "MiniMuses为Gacha式同人换装OC创作工具，1500+部件，包体420MB", "level": "confirmed"},
-      {"claim": "引擎为 Unity（Gacha类常见，未找到官方确认）", "level": "inferred"}
-    ],
-    "sources": [
-      "https://www.32r.com/app/146481.html",
-      "https://apps.apple.com/cn/app/minimuses/id6798905825?uo=4"
-    ]
-  },
-  {
-    "name": "Vita Mahjong",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Unity",
+      "engine": "King 自研引擎（Fiction）",
       "engine_evidence": "confirmed",
       "dimension": "2D",
-      "art_style": "精美麻将牌面+大字号+多主题背景（适老）",
-      "dims": {"engine": 2, "art": 3, "anim": 2, "physics": 1, "logic": 3, "data": 2, "server": 1, "audio": 2},
+      "art_style": "扁平糖果卡通，Spine 骨骼动画",
+      "dims": {"engine": 3, "art": 3, "anim": 3, "physics": 2, "logic": 5, "data": 5, "server": 4, "audio": 3},
       "dim_notes": {
-        "art": "牌面贴图+20+主题背景+大字号UI，量级中等（包体215MB）",
-        "logic": "麻将接龙配对需保证每局可解，关卡生成/校验是主要逻辑"
+        "logic": "1.5 万+关卡、特殊糖果（striped/wrapped/color bomb）、booster 与连锁 combo 规则及难度曲线，需专门关卡编辑器与长期平衡",
+        "physics": "无刚体物理，仅网格重力下落与吸附，手感调校简单",
+        "art": "310MB 包体含大量 Spine 序列帧与音效，糖果世界美术需成体系但可外包/程序化",
+        "data": "Saga 地图、赛季活动、生命/金币经济、好友赠送，多线长线养成与内容资产",
+        "server": "Facebook/云存档同步、排行榜与锦标赛，强联网但非实时对战"
       },
-      "asset_notes": "2D牌面与背景贴图，素材体系化但非海量；牌面可程序化/采购",
-      "notes": "适老麻将接龙，Unity确认；输入名Vita Mahjong与本作Vigor Mahjong存在名称差异（media匹配度0.78）"
+      "asset_notes": "2D 卡通贴图 + Spine 动画，素材层非瓶颈；真正的资产壁垒是 1.5 万+关卡设计与平衡，而非美术",
+      "notes": "机制为成熟三消，技术风险低；真正壁垒是 IP、品牌认知与海量关卡内容资产"
     },
     "play": {
-      "core_loop": "在牌堆里点选两张相同且'自由未被压'的麻将牌配对消除，清空全盘即过关；连击解锁combo，提示/洗牌辅助，无计时无压力。",
+      "core_loop": "在棋盘上交换相邻糖果凑成三连消除，四连以上生成特殊糖果，用连锁与特殊糖果在限定步数内完成关卡目标；失败扣生命，靠好友赠送或内购续命。一局 1–3 分钟。",
       "highlights": [
-        "消除两张自由牌的'咔哒'配对反馈+连击combo加成",
-        "大字号+简洁界面，适老无障碍，降低认知负担",
-        "20000+关卡+每日挑战，长线不缺内容"
+        "消除与连锁的爽脆音效 + 屏幕反馈密度高",
+        "特殊糖果（彩色炸弹/条纹）一次清屏的爆发感",
+        "Saga 地图的下一关解锁悬念与每日奖励回访钩子",
+        "好友生命互赠的轻社交裂变"
       ],
       "innovations": [
-        "无实质创新，属于经典麻将接龙的适老化执行优化（大牌面/无计时）"
+        "无实质创新，属成熟三消品类的长线执行优化（特殊糖果组合 + 限时模式如 Gummy Dragons/Bubblegum Pop）"
       ],
-      "target_user": "45+中老年/休闲解压用户",
-      "monetization": "IAA为主（看广告复活/提示/加倍），无IAP",
-      "lifecycle": "长线，靠关卡量与每日挑战维持"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "麻将接龙机制零版权壁垒、极度成熟，换一套牌面主题（国风/动漫IP需授权）即成立；引擎已确认Unity，技术风险低。",
-      "suggestions": [
-        "牌面换'诗词/成语'主题，消除即学词，接教育场景",
-        "做'非遗剪纸'牌面，差异化美术+文化向",
-        "保留适老大字号，加轻度计时挑战扩展年轻用户"
-      ],
-      "risks": ["输入名Vita Mahjong与底层Vigor Mahjong名称不一致，关联需核对", "麻将牌面若用知名IP需授权", "适老赛道买量CPI低但LTV也低"],
-      "effort": "20–35人日（1前端+1美术）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "Vigor Mahjong 使用 Unity 引擎（AppGoblin SDK 检测确认）", "level": "confirmed"},
-      {"claim": "输入名 Vita Mahjong 与媒体匹配名 Vigor Mahjong 不一致（匹配分0.78）", "level": "confirmed"},
-      {"claim": "包体215MB，含20000+关卡与多主题背景", "level": "confirmed"}
-    ],
-    "sources": [
-      "https://appgoblin.info/apps/6478847787/",
-      "https://apps.apple.com/cn/app/vigor-mahjong/id6478847787?uo=4"
-    ]
-  },
-  {
-    "name": "ちいかわぽけっと",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Unity",
-      "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "ちいかわ原作Q版动物，柔和水彩",
-      "dims": {"engine": 2, "art": 5, "anim": 3, "physics": 1, "logic": 4, "data": 4, "server": 3, "audio": 3},
-      "dim_notes": {
-        "art": "包体约900MB，海量角色立绘/季节服装/家具/场景，素材量级极重",
-        "logic": "采集+烹饪+讨伐+家园装饰+抽卡多系统串联，需经济与养成循环",
-        "data": "角色/装备/家园多线养成+抽卡保底（如120抽天书）"
-      },
-      "asset_notes": "2D立绘+场景，素材极重（900MB）；原作美术风格强识别，复刻需等同产能",
-      "notes": "吉伊卡哇(Chiikawa)正版IP手游，IP壁垒极高"
-    },
-    "play": {
-      "core_loop": "在森林采集原料→按食谱烹饪→组队讨伐Abunaiyatsu→用金币/钻石升级厨房与角色，回家除草/装饰小天地触发角色互动演出，每日签到与活动循环。",
-      "highlights": [
-        "除草/讨伐的轻操作+角色反应演出（喂饭/洗澡）提供陪伴感",
-        "服装收集与家园装饰触发隐藏互动动画，养成正反馈强",
-        "抽卡保底（如120抽天书）降低付费焦虑"
-      ],
-      "innovations": [
-        "无实质创新，属于吉伊卡哇IP的休闲生活模拟+轻讨伐成熟执行"
-      ],
-      "target_user": "吉伊卡哇粉丝、二次元女性、治愈系用户",
-      "monetization": "IAP内购（钻石抽卡/服装/家具），含活动付费",
-      "lifecycle": "长线，靠季节服装/活动/剧情维持"
+      "target_user": "25–45 岁泛休闲、通勤碎片用户",
+      "monetization": "IAP 内购（生命/步数/booster/金条）+ 去广告；广告占比极低（King 自述）",
+      "lifecycle": "超长线运营，周更关卡 + 赛季活动，2012 年至今"
     },
     "clone": {
       "verdict": "不建议",
-      "rationale": "强IP（吉伊卡哇 by Nagano）授权壁垒，无授权复刻即侵权；900MB素材量级与多系统养成成本高，独立立项风险极大。",
+      "rationale": "三消机制本身可自由复刻，但 Candy Crush 是 King/动视暴雪旗下全球顶级 IP，品牌与用户认知垄断；赛道已被 Candy Crush、Royal Match 等头部锁死，买量 CPA 极高，新入场者几乎无差异化空间。",
       "suggestions": [
-        "如有正版IP授权可做国漫IP版生活模拟",
-        "无授权则仅参考'轻讨伐+家园装饰+角色互动'循环，自创IP",
-        "把除草/烹饪做成独立轻量小游戏试水"
+        "若要入场，放弃正面竞争，改做细分题材（如「中药房三消」「考古挖掘消除」）",
+        "重点做首关留存与卡关难度曲线，而非堆关卡数",
+        "用 AI 辅助生成关卡而非手工设计 1.5 万关"
       ],
-      "risks": ["Chiikawa 为日本角色大奖IP，版权风险极高", "900MB素材+多系统，复刻成本重", "粉丝向产品依赖IP热度，长线需持续内容"],
-      "effort": "不建议立项（若获授权另计 120–200人日）"
+      "risks": [
+        "Candy Crush 商标与 IP 侵权风险",
+        "三消买量成本极高、ROI 难正",
+        "头部产品已占据用户心智"
+      ],
+      "effort": "40–60 人日（2 前端 + 1 美术 + 0.5 策划）仅做基础三消，不含海量关卡"
     },
     "shots": [],
     "evidence": [
-      {"claim": "ちいかわぽけっと=Chiikawa Pocket，Applibot开发的吉伊卡哇正版IP手游", "level": "confirmed"},
-      {"claim": "包体约900MB（Android），素材量级很重", "level": "confirmed"},
-      {"claim": "引擎为 Unity（同类生活模拟常见，未找到官方确认）", "level": "inferred"}
+      {"claim": "King 使用自研引擎 Fiction（CTO Steve Collins 采访确认，称『为移动休闲游戏从零打造』）", "level": "confirmed"},
+      {"claim": "包体约 310MB，含 Spine 动画与音效资产", "level": "confirmed"},
+      {"claim": "关卡数超 1.5 万（2023 年 VentureBeat 报道）", "level": "confirmed"}
     ],
     "sources": [
-      "https://baike.baidu.com/item/%E5%8F%A3%E8%A2%8B%E5%90%89%E4%BC%8A%E5%8D%A1%E5%93%87/65490997",
-      "https://mi9.com/package/jp.co.applibot.chiikawapocketgl"
+      "https://venturebeat.com/games/steven-collins-interview",
+      "https://apps.apple.com/us/app/candy-crush-saga/id553834731?uo=4"
     ]
   },
   {
-    "name": "打个螺丝",
+    "name": "欢乐麻将",
     "updated_at": "2026-09-15",
     "generated_by": "agent",
     "tech": {
-      "engine": "Cocos Creator",
+      "engine": "Unity（推断，腾讯 3D 手游常见选择；官方未公开确认）",
       "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "卡通螺丝/木板/工具箱，颜色区分",
-      "dims": {"engine": 2, "art": 2, "anim": 3, "physics": 2, "logic": 4, "data": 1, "server": 1, "audio": 2},
+      "dimension": "3D",
+      "art_style": "3D 麻将牌/牌桌/场景 + 限定外观套装与雀境",
+      "dims": {"engine": 3, "art": 5, "anim": 4, "physics": 2, "logic": 5, "data": 5, "server": 5, "audio": 3},
       "dim_notes": {
-        "logic": "板子叠加遮挡(按螺丝粒度)+4工具箱配色+5格备选区自动回流+随机关卡生成，策略核心在此",
-        "physics": "遮挡判定与入场重力滑落，需手感精调",
-        "art": "螺丝/木板/工具箱为轻量卡通，包体仅19MB"
+        "art": "775MB 包体（>600MB 很重），含 136 张 3D 牌模、数十套场景与限定雀境套装、骨骼动画，美术资产量极大",
+        "logic": "需实现四川换三张/广东/武汉/长沙等十余种地方规则与番型判定，规则引擎复杂",
+        "physics": "3D 牌的摆放/翻牌为变换动画，无刚体物理，手感靠动画调校",
+        "server": "真人实时对战、组队 2v2、强联网社交，服务端与网络同步成本高"
       },
-      "asset_notes": "19MB包体，全程序化/轻量卡通素材，无3D无重资产；素材层不是瓶颈",
-      "notes": "拧螺丝消除，本作营销出圈（广告日耗高），同厂已有折螺丝/疯狂玩螺丝矩阵"
+      "asset_notes": "3D 牌模与场景资源量极大（775MB），美术是主要成本；规则可用配置数据驱动降低重复开发",
+      "notes": "技术框架可用 Unity 搭，真正壁垒是地方规则完备度、实时联网与腾讯社交关系链"
     },
     "play": {
-      "core_loop": "点选与顶部工具箱同色的螺丝，集满3颗同色消除；板子互相压住下层螺丝需先拆上层，备选区满5格再塞即失败，一局数十秒到数分钟。",
+      "core_loop": "进入一桌麻将，按地方规则摸牌/出牌/碰杠胡，与真人实时对战；段位赛/好友约战/组队 2v2，一局数分钟到数十分钟。",
       "highlights": [
-        "螺丝飞入工具箱孔洞+消除白光的即时反馈",
-        "板子叠加遮挡(按螺丝粒度判定)制造'先拆哪块'的空间规划",
-        "备选区自动回流链式触发，避免死局，手感顺滑"
+        "真人对战的不可预测性与心理博弈",
+        "组队 2v2 配合与好友约战的社交爽点",
+        "限定外观套装/雀境的收集与炫耀",
+        "段位赛季的上分目标驱动"
       ],
       "innovations": [
-        "无实质创新，属于拧螺丝消除成熟品类的执行优化（二代玩法）"
+        "无实质玩法创新，属成熟棋牌品类的执行与社交优化（百变斗牌/四龙麻将为微变体）"
       ],
-      "target_user": "全龄解压用户，通勤碎片时间",
-      "monetization": "IAA为主（道具/复活看广告）+IAP去广告",
-      "lifecycle": "短平快爆款，靠关卡量与换皮矩阵维持"
+      "target_user": "全年龄棋牌用户，三四线下沉市场占比高",
+      "monetization": "IAA（激励视频）+ IAP（钻石/外观套装/赛事），棋牌典型混合变现",
+      "lifecycle": "长线运营，依赖社交关系链与赛季内容"
     },
     "clone": {
-      "verdict": "换肤",
-      "rationale": "拧螺丝消除机制成熟、包体仅19MB、技术极轻，照搬即成立；瓶颈在题材与首关难度曲线，换题材即差异化。同厂已有矩阵说明可快速铺量。",
+      "verdict": "不建议",
+      "rationale": "麻将规则属公共领域可复刻，但欢乐麻将背靠腾讯 QQ/微信社交关系链与 5 亿用户资产，且棋牌类版号审核极严、涉赌合规风险高；实时联网与多地方规则实现成本高，新入场者无社交与合规优势。",
       "suggestions": [
-        "把螺丝换成'拔罐/印章'国风题材，拧下即解除",
-        "题材换'修车拧螺栓'，接男性向",
-        "首关把颜色数压到3、备选区放宽，降低前5关流失"
+        "若坚持，先做单一地方规则（如仅广东推倒胡）降低规则与合规面",
+        "用 AI 生成牌局复盘替代社交关系链缺口",
+        "规避现金/币商，纯娱乐计分降低涉赌风险"
       ],
-      "risks": ["拧螺丝赛道已饱和（同厂3款+大量竞品）", "广告素材依赖买量，自然量有限", "二代玩法已有进化版(3D旋转螺丝)抢先机"],
-      "effort": "15–25人日（1前端+0.5美术）"
+      "risks": [
+        "棋牌类版号极难获取、文化合规与涉赌审查风险",
+        "无社交关系链导致留存远低于腾讯系",
+        "腾讯 IP 与商标壁垒"
+      ],
+      "effort": "60–90 人日（2 前端 + 1 后端 + 1.5 美术）含实时联网，不含多规则与合规"
     },
     "shots": [],
     "evidence": [
-      {"claim": "打个螺丝为拧螺丝消除微信小游戏，广州尊悦，包体19MB", "level": "confirmed"},
-      {"claim": "核心机制：板子叠加遮挡+4工具箱配色+5格备选区回流", "level": "confirmed"},
-      {"claim": "引擎为 Cocos Creator（未找到官方确认）", "level": "inferred"}
+      {"claim": "官方称「腾讯首款经典 3D 免费麻将游戏」，包体 775MB", "level": "confirmed"},
+      {"claim": "引擎疑为 Unity（腾讯 3D 手游常用，无官方确认）", "level": "inferred"},
+      {"claim": "含十余种地方麻将规则与番型判定", "level": "confirmed"}
     ],
     "sources": [
-      "https://game.xiaomi.com/game/62424850",
-      "https://juejin.cn/post/7642137954122924072",
-      "https://m.bengku.com/yxgl/2912.html"
+      "https://apps.apple.com/cn/app/%E6%AC%A2%E4%B9%90%E9%BA%BB%E5%B0%86/id689180123?uo=4"
     ]
   },
   {
-    "name": "遗弃之地",
+    "name": "天天象棋",
     "updated_at": "2026-09-15",
     "generated_by": "agent",
     "tech": {
-      "engine": "Cocos Creator",
+      "engine": "Unity / Cocos（推断，腾讯休闲棋牌常用；官方未公开引擎）",
       "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "中式皮影/黑白剪影，提线傀儡",
-      "dims": {"engine": 2, "art": 4, "anim": 3, "physics": 1, "logic": 4, "data": 4, "server": 3, "audio": 2},
+      "dimension": "2D（含 3D 棋子/古谱博物馆可选）",
+      "art_style": "扁平木质棋盘 + 3D 棋子/古谱博物馆",
+      "dims": {"engine": 2, "art": 3, "anim": 2, "physics": 1, "logic": 5, "data": 5, "server": 4, "audio": 2},
       "dim_notes": {
-        "art": "黑白剪影+中式皮影为核心概念，提线傀儡主角与首领怪物需定制皮影美术",
-        "logic": "局外天书搭配+局内随机符咒管理+三合升阶+塔防波次，策略系统复杂",
-        "data": "修炼/鬼店/傀儡妆多线养成+卦纸抽卡(120保底天书)"
+        "logic": "中国象棋规则 + 绝悟/拟人 AI 引擎（亿级棋谱监督学习、响应 10ms）+ 残局题库 6 万+ + 揭棋/翻翻棋变体",
+        "physics": "无物理，纯棋盘逻辑与落子动画",
+        "data": "棋力评测、段位、6 万+残局题库、大师课程、棋谱库、会员订阅，多线长线",
+        "art": "282MB，2D 棋盘 + 部分 3D，美术量级中等"
       },
-      "asset_notes": "皮影剪影为2D定制美术，风格独特但非海量，100MB包体量级中等；核心在皮影美术产能",
-      "notes": "中式民俗恐怖皮影塔防，5人小团队(鼠玩工作室)，TD+卡牌roguelike成熟公式+差异化美术"
+      "asset_notes": "美术非瓶颈；核心壁垒是 AI 棋力引擎与百万级棋谱/古谱数据库",
+      "notes": "棋盘与规则易复刻，真正的护城河是腾讯 AI Lab 的绝悟级棋力与 5 亿用户棋艺社区"
     },
     "play": {
-      "core_loop": "在横版路径上拖动随机掉落的符咒到怪物区域释放，三张同符咒自动升阶积攒五行点释放天书，守护道法水晶撑过波次，通关铜钱在鬼店买天材地宝升级。",
+      "core_loop": "在棋盘上走子对弈，真人联网或人机（绝悟 AI）对战；通过棋力评测打段位、残局闯关、题库训练与大师课程提升棋力。一局数分钟到半小时。",
       "highlights": [
-        "皮影傀儡受击/符咒释放的剪影演出，恐怖美学辨识度强",
-        "随机符咒手牌管理+三合升阶，每局build不同有roguelike感",
-        "天书释放的五行点积累，把局内操作接到局外养成"
+        "绝悟拟人 AI 的「像人」思考节奏与棋风偏好，对弈不机械",
+        "智能复盘标注失误招法，从错误中提升的爽感",
+        "残局闯关与题库的渐进目标感",
+        "微信/QQ 好友约战与棋社社交"
       ],
       "innovations": [
-        "把中式皮影/黑白剪影美术与塔防+卡牌roguelike结合，民俗恐怖题材差异化明显"
+        "将无搜索监督学习拟人 AI 引入移动象棋（响应从 1.6s 压到 10ms）；明盲同服无障碍架构"
       ],
-      "target_user": "国风/恐怖爱好者、塔防策略玩家",
-      "monetization": "IAP内购（元宝/卦纸抽卡/属性）+广告",
-      "lifecycle": "长线运营，靠技能/怪物/多人塔防更新"
+      "target_user": "全龄象棋爱好者，含中老年与青少年学棋群体",
+      "monetization": "IAP 会员订阅（30 元/月特权）+ 去广告；广告占比低",
+      "lifecycle": "超长线，十年国民级，靠赛事/课程/社交维持"
     },
     "clone": {
-      "verdict": "换肤",
-      "rationale": "塔防+卡牌roguelike公式成熟，机制照搬即成立；真正的壁垒与差异化在皮影民俗美术，换一套强风格题材即可成立且避开饱和赛道。",
+      "verdict": "不建议",
+      "rationale": "象棋规则与棋盘可自由复刻，但天天象棋的核心壁垒是腾讯 AI Lab 的绝悟级棋力引擎（亿级棋谱训练）与 5 亿用户棋艺社区、古谱数据库；中小团队无法在棋力与内容资产上竞争，且棋牌品类同样面临版号与合规门槛。",
       "suggestions": [
-        "美术换'敦煌壁画/剪纸'非遗风，复用TD+符咒roguelike",
-        "题材换'聊斋'妖怪，符咒改'符箓道术'更贴国风",
-        "把皮影摆动做成骨骼动画，强化演出差异化"
+        "若做，避开通用象棋，做细分（如「少儿启蒙象棋」「古诗词主题棋」）",
+        "用开源象棋引擎（如 Elephant）替代自研 AI 降低成本",
+        "聚焦教学/残局闯关单一价值点而非全功能"
       ],
-      "risks": ["皮影定制美术产能是核心成本", "TD+卡牌赛道已有头部，需美术差异化破局", "随机符咒数值平衡需调优避免死局/无敌"],
-      "effort": "40–70人日（1前端+1.5美术+0.5数值）"
+      "risks": [
+        "自研棋力 AI 成本高且棋力难追头部",
+        "棋牌版号与合规风险",
+        "腾讯品牌与棋谱库版权"
+      ],
+      "effort": "50–80 人日（2 前端 + 1 后端 + 0.5 AI）含基础 AI，不含绝悟级棋力"
     },
     "shots": [],
     "evidence": [
-      {"claim": "遗弃之地为中式皮影横版策略塔防，北京智诚互娱/鼠玩工作室", "level": "confirmed"},
-      {"claim": "包体约100MB，含局外养成+局内随机符咒管理", "level": "confirmed"},
-      {"claim": "引擎为 Cocos Creator/Unity（未找到官方确认）", "level": "inferred"}
+      {"claim": "依托腾讯 AI Lab 绝悟引擎，亿级棋谱监督学习，响应 10ms（官方报道）", "level": "confirmed"},
+      {"claim": "包体 282MB，含 6 万+残局题库与大师课程", "level": "confirmed"},
+      {"claim": "移动端引擎疑 Unity/Cocos，官方未公开", "level": "inferred"}
     ],
     "sources": [
-      "https://www.3839.com/a/183018.htm",
-      "https://7xz.com/games/29732.html",
-      "https://apps.apple.com/cn/app/%E9%81%97%E5%BC%83%E4%B9%8B%E5%9C%B0/id6752552410?uo=4"
+      "https://xiangqi.qq.com/index.shtml",
+      "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E8%B1%A1%E6%A3%8B/id403941510?uo=4"
     ]
   },
   {
-    "name": "指尖欢乐坊",
+    "name": "Tasty Travels: Merge Game",
     "updated_at": "2026-09-15",
     "generated_by": "agent",
     "tech": {
-      "engine": "Cocos Creator",
+      "engine": "Unity（推断，点点互动 merge 类产品常用；官方未公开）",
       "engine_evidence": "inferred",
       "dimension": "2D",
-      "art_style": "未知（按轻量休闲卡通推断）",
-      "dims": {"engine": 2, "art": 2, "anim": 2, "physics": 1, "logic": 2, "data": 2, "server": 2, "audio": 2},
+      "art_style": "扁平插画风美食/旅行场景 + 角色立绘",
+      "dims": {"engine": 3, "art": 5, "anim": 4, "physics": 1, "logic": 5, "data": 5, "server": 3, "audio": 3},
       "dim_notes": {
-        "art": "玩法未确认，美术按轻量休闲推断",
-        "logic": "玩法未确认，按休闲轻逻辑推断"
+        "art": "681MB 包体（>600MB 很重），含 500+ 食材/菜肴/目的地插画、角色与场景，美术资产量极大",
+        "logic": "500+ 物品合成树、订单/任务、能量门控、目的地解锁与故事进度，系统复杂",
+        "physics": "纯拖拽合并，无物理",
+        "data": "能量/库存/卡牌收集/金币/装饰/赛季活动多线养成与经济循环"
       },
-      "asset_notes": "未能确认，需实机测试",
-      "notes": "检索未获一手资料，以下为推断，置信度低"
+      "asset_notes": "美术是最大成本（681MB 插画与角色），可用外包/AI 辅助批量产出但体量仍大；合成逻辑可模板化",
+      "notes": "merge-2 机制高度成熟可复刻，真正壁垒是 500+ 物品的内容体量、旅行叙事包装与出海买量能力"
     },
     "play": {
-      "core_loop": "（推断）指尖操作类休闲小游戏，具体核心循环未确认，疑似单局短、一键操作+关卡推进。",
+      "core_loop": "点击生成器产出基础食材（耗能量），拖拽两个相同食材合成更高阶物品，完成游客订单换金币与 XP，攒币解锁新旅行目的地并推进故事。能量耗尽需等待或看广告。",
       "highlights": [
-        "（推断）单局短、操作轻，适配碎片时间"
+        "拖拽合并的即时反馈与「合成出稀有物」的收集爽感",
+        "能量门控制造稀缺驱动看广告/IAP（核心变现钩子）",
+        "解锁巴黎/东京等目的地与 vlogger 故事线的目标感",
+        "卡牌收集与装饰系统的 owned 感"
       ],
       "innovations": [
-        "（推断）玩法未确认，无法判断创新点"
+        "无机制创新，属 merge-2 品类成熟框架 + 环球美食旅行叙事包装 + 卡牌收集系统"
       ],
-      "target_user": "推断泛休闲用户",
-      "monetization": "推断 IAA",
-      "lifecycle": "推断 短平快"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "玩法未确认但为新游榜产品，按休闲换皮逻辑换题材即可；需先实测核心机制。",
-      "suggestions": [
-        "先实机确认机制再立项",
-        "若为指尖操作类，参考同类做一键解压"
-      ],
-      "risks": ["玩法美术均未确认", "抖音新游榜依赖买量"],
-      "effort": "待确认（预估 15–30 人日）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "指尖欢乐坊为广州粤良抖音小游戏，玩法未确认", "level": "inferred"}
-    ],
-    "sources": [
-      "https://baike.baidu.com/item/%E6%8A%96%E9%9F%B3%E5%B0%8F%E6%B8%B8%E6%88%8F/68584728"
-    ]
-  },
-  {
-    "name": "Amaze GO!",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Unity",
-      "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "极简几何，箭头/网格，低饱和",
-      "dims": {"engine": 2, "art": 1, "anim": 2, "physics": 1, "logic": 4, "data": 1, "server": 1, "audio": 2},
-      "dim_notes": {
-        "art": "纯几何箭头与网格，可程序化生成，素材几乎零成本",
-        "logic": "箭头滑出顺序求解+关卡可解性校验+海量关卡生成是主要工作量（包体395MB主要来自关卡/动画资源）"
-      },
-      "asset_notes": "极简几何美术，零素材成本；包体395MB疑因大量关卡预置与动画资源，非美术重",
-      "notes": "极简箭头解谜，Oakever爆款，机制轻、美术零成本"
-    },
-    "play": {
-      "core_loop": "在网格里找一条通向边缘的空闲路径的箭头，点选滑出清出车道，规划顺序把全部箭头送出棋盘；点错扣一颗心，长按高亮引导，清盘过关。",
-      "highlights": [
-        "箭头'嗖'地飞出网格的ASMR式释放反馈，解压感强",
-        "错点扣心+提示引导，难度靠关卡布局而非操作",
-        "无计时无干扰，纯顺序规划，适配通勤放空"
-      ],
-      "innovations": [
-        "无实质创新，属于滑出/解锁类解谜（Unblock变体）的极简执行优化"
-      ],
-      "target_user": "解压/益智用户，通勤碎片时间",
-      "monetization": "IAA为主（提示/复活看广告），无IAP",
-      "lifecycle": "长线，靠关卡量维持"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "箭头滑出解谜机制成熟(Unblock变体)、美术零成本、技术极轻，照搬即成立；瓶颈在关卡可解性设计与题材，换视觉即可差异化。",
-      "suggestions": [
-        "把箭头换'车辆/小动物'滑出停车场，接挪车题材",
-        "视觉换'水墨笔触'滑出，差异化国风",
-        "加'最少步数'星级挑战扩展硬核用户"
-      ],
-      "risks": ["箭头/挪车解谜赛道已多款竞品(一箭又一箭/小小箭头等)", "关卡可解性生成需算法保障不出现死局"],
-      "effort": "15–25人日（1前端，美术可程序化）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "Amaze GO!为极简箭头滑出解谜，Oakever Games，包体395MB", "level": "confirmed"},
-      {"claim": "引擎为 Unity（Oakever常见，未找到官方确认）", "level": "inferred"}
-    ],
-    "sources": [
-      "https://apps.apple.com/us/app/amaze-go/id6758326278?uo=4",
-      "https://arrows-go.en.uptodown.com/android",
-      "https://foxdata.com/en/app-marketing-analytics/6758326278/as/US/arrows-go-arrow-puzzles"
-    ]
-  },
-  {
-    "name": "造个大英雄",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Cocos Creator",
-      "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "三国文字武将卡通/Q版",
-      "dims": {"engine": 2, "art": 3, "anim": 2, "physics": 1, "logic": 4, "data": 3, "server": 2, "audio": 2},
-      "dim_notes": {
-        "logic": "文字武将/武器招募+相同字样合成升阶+防御区生成小兵，合成塔防逻辑",
-        "art": "三国武将文字拟人+武器立绘需定制"
-      },
-      "asset_notes": "文字武将+武器为2D卡通，可批量产出；与这关可真行同源可复用框架",
-      "notes": "与这关可真行同属文字合成塔防，疑似同厂(凯斌)矩阵"
-    },
-    "play": {
-      "core_loop": "招募武将/武器名字摆入防御区生成对应小兵，相同字样合成升二级升战力，打退敌方救阿斗，过关得金币买道具。",
-      "highlights": [
-        "文字合成升阶的即时战力反馈",
-        "赵云/阿斗等三国梗降低理解成本",
-        "金币买道具+头像框，轻养成正反馈"
-      ],
-      "innovations": [
-        "无实质创新，与汉字合成塔防同脉的成熟执行"
-      ],
-      "target_user": "三国/国风轻度策略玩家",
-      "monetization": "IAA为主（复活/提示）+IAP",
-      "lifecycle": "短平快"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "文字合成塔防机制成熟，与这关可真行同源可复用框架；换题材/IP即差异化，技术成本低。",
-      "suggestions": [
-        "换'西游取经'文字武将合成塔防",
-        "把武将合成改'兵器谱'合成",
-        "共享这关可真行框架，做题材矩阵铺量"
-      ],
-      "risks": ["与这关可真行高度同质，内部需差异化", "文字塔防赛道已有多款"],
-      "effort": "20–35人日（1前端+1美术，可复用框架）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "造个大英雄为三国文字合成塔防微信小游戏，厦门凯斌", "level": "confirmed"},
-      {"claim": "引擎为 Cocos Creator（未找到官方确认）", "level": "inferred"}
-    ],
-    "sources": [
-      "https://www.7k7k.com/wxgame/21122.htm",
-      "https://m.7724.com/syzx/news/236224.html",
-      "https://sj.qq.com/appdetail/wxa8e139285af4e49a"
-    ]
-  },
-  {
-    "name": "开车我贼6",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Cocos Creator",
-      "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "卡通简约赛道/小车",
-      "dims": {"engine": 2, "art": 2, "anim": 3, "physics": 3, "logic": 2, "data": 2, "server": 1, "audio": 2},
-      "dim_notes": {
-        "physics": "车辆撞击障碍变形/散架/漂移，需简单刚体碰撞与手感精调",
-        "art": "卡通小车与赛道为轻量素材，包体轻"
-      },
-      "asset_notes": "卡通2D轻量素材，无3D；物理用轻量2D引擎即可",
-      "notes": "驾驶闯关障碍小游戏，同类名字变体多（我驾驶贼6等），疑似换皮矩阵"
-    },
-    "play": {
-      "core_loop": "操控小车在横版赛道穿越铁锤/鳄鱼等障碍，碰撞会变形散架但仍可冲，靠走位与时机通关赚金币解锁车型。",
-      "highlights": [
-        "车头撞烂仍要冲到终点的'越烂越冲'恶趣味反馈",
-        "铁锤/鳄鱼张合瞬间的踩点刺激，强悬念",
-        "车型解锁+皮肤收集的成长正反馈"
-      ],
-      "innovations": [
-        "无实质创新，属于驾驶闯关障碍成熟品类的执行优化"
-      ],
-      "target_user": "全龄驾驶/解压用户",
-      "monetization": "IAA为主（复活/车型看广告）+IAP",
-      "lifecycle": "短平快"
-    },
-    "clone": {
-      "verdict": "换肤",
-      "rationale": "驾驶闯关障碍机制成熟、美术轻量、技术低，照搬即成立；瓶颈在关卡设计与物理手感，换题材即差异化。",
-      "suggestions": [
-        "题材换'送货 trucks'接物流梗",
-        "把障碍换'红绿灯/收费站'城市题材",
-        "加简单漂移计分扩展操作深度"
-      ],
-      "risks": ["同名变体极多(我驾驶贼6等)，品牌混淆", "驾驶手感需调，否则无爽点"],
-      "effort": "20–30人日（1前端+0.5美术）"
-    },
-    "shots": [],
-    "evidence": [
-      {"claim": "开车我贼6为驾驶闯关障碍微信小游戏，含物理碰撞", "level": "confirmed"},
-      {"claim": "引擎为 Cocos Creator（未找到官方确认）", "level": "inferred"}
-    ],
-    "sources": [
-      "https://www.17yoo.cn/detail/58775",
-      "https://www.17yoo.cn/detail/37875"
-    ]
-  },
-  {
-    "name": "跟我玩桌球",
-    "updated_at": "2026-09-15",
-    "generated_by": "agent",
-    "tech": {
-      "engine": "Cocos Creator",
-      "engine_evidence": "inferred",
-      "dimension": "2D",
-      "art_style": "写实/简约台球桌与球杆，物理模拟",
-      "dims": {"engine": 2, "art": 3, "anim": 2, "physics": 4, "logic": 3, "data": 3, "server": 3, "audio": 2},
-      "dim_notes": {
-        "physics": "真实台球物理（库边反弹/摩擦衰减/旋转偏移/高杆低杆加塞）需物理引擎精调",
-        "data": "球杆养成+段位+赛事，多线成长",
-        "server": "真人实时匹配/好友私房，强联网"
-      },
-      "asset_notes": "球桌/球杆/球体为2D写实贴图，量中等；物理用成熟2D引擎复用",
-      "notes": "写实台球物理模拟，机制无版权壁垒，物理与联机是成本"
-    },
-    "play": {
-      "core_loop": "滑动调击球角度、拉力度条设出杆轻重，点击白球点位切换高杆低杆加塞，把目标球打进袋，单机闯关或真人对战清台。",
-      "highlights": [
-        "瞄准虚线+真实碰撞的'进袋'反馈，台球手感还原",
-        "高杆低杆加塞走位，硬核玩家有操作深度",
-        "球杆养成+段位赛，长线目标"
-      ],
-      "innovations": [
-        "无实质创新，属于写实台球物理模拟成熟执行"
-      ],
-      "target_user": "台球爱好者、体育竞技用户",
-      "monetization": "IAA+IAP混合（球杆/皮肤内购+广告）",
-      "lifecycle": "长线，靠赛事/段位维持"
+      "target_user": "欧美女性向休闲用户，偏好收集/叙事的轻度玩家",
+      "monetization": "IAA（看广告补能量）+ IAP（能量/钻石/装饰/通行证），能量门控为变现核心",
+      "lifecycle": "长线运营，周更目的地/赛季活动，2024 上线后收入破亿"
     },
     "clone": {
       "verdict": "微创新",
-      "rationale": "台球机制无版权壁垒、物理引擎可复用，但真实物理精调+实时联机成本高；建议做轻量单机闯关版先验证，再补联机。",
+      "rationale": "merge-2 机制与能量门控变现已被市场完全验证、可低成本复刻，但 Tasty Travels 凭 500+ 物品内容体量（681MB）与环球旅行叙事成为出海头部，品类已高度饱和；新入场者仅值得在题材与内容包装上做细节升级，不建议独立立项对撞。",
       "suggestions": [
-        "先做2D单机闯关版（无联机）快速验证",
-        "加'辅助线开关'兼顾新手与硬核",
-        "题材换'街头台球'差异化美术"
+        "换题材避开美食旅行，如「复古电子宠物合成」「中式药膳合成」",
+        "用 AI 程序化生成合成物品美术降低 681MB 资产成本",
+        "在能量门控外加入轻度社交/工会差异化"
       ],
-      "risks": ["真实物理精调耗时", "实时对战联机成本高且易被头部锁死", "体育竞技买量偏贵"],
-      "effort": "40–60人日（1前端+0.5美术+0.5后端，单机版可压到25人日）"
+      "risks": [
+        "merge 品类买量 CPA 高、ROI 难正",
+        "500+ 物品内容产能门槛高",
+        "头部（Gossip Harbor/Tasty Travels）已占用户心智"
+      ],
+      "effort": "45–70 人日（2 前端 + 1 美术 + 0.5 策划）含百级合成树，不含 500+ 全量内容"
     },
     "shots": [],
     "evidence": [
-      {"claim": "跟我玩桌球为台球物理模拟类抖音小游戏（基于同类检索推断，未获一手资料）", "level": "inferred"},
-      {"claim": "引擎为 Cocos Creator/Unity（物理模拟常见，未确认）", "level": "inferred"}
+      {"claim": "点点互动（世纪华通）出品，中文名《食光旅行》，2024 上线，收入破亿美元", "level": "confirmed"},
+      {"claim": "包体约 681MB，含 500+ 可合成食材（官方描述 + 商店页）", "level": "confirmed"},
+      {"claim": "引擎疑为 Unity，官方未公开", "level": "inferred"}
     ],
     "sources": [
-      "https://baike.baidu.com/item/%E6%8A%96%E9%9F%B3%E5%B0%8F%E6%B8%B8%E6%88%8F/68584728"
+      "https://baike.baidu.com/item/Tasty%20Travels%3A%20Merge%20Game/67478881",
+      "http://game.centurygame.com/baxcaovpjvj",
+      "https://apps.apple.com/us/app/tasty-travels-merge-game/id6471045672?uo=4"
+    ]
+  },
+  {
+    "name": "意味怖ストーリー:バッドエンドを回避せよ!",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity / 国产化 visual novel 框架（推断；官方未公开）",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "日式插画场景 + 角色立绘 + 文字选项 UI",
+      "dims": {"engine": 2, "art": 4, "anim": 2, "physics": 1, "logic": 3, "data": 2, "server": 2, "audio": 3},
+      "dim_notes": {
+        "art": "582MB 包体，含大量恐怖场景插画、角色立绘与音频，美术/音频资产量偏大",
+        "physics": "无物理，纯文字分支与点击选择",
+        "logic": "分支剧情树 + 选择→结局判定 + 「違和感」提示逻辑，复杂度中等",
+        "audio": "氛围 BGM 与语音/音效营造恐怖感，定制量中"
+      },
+      "asset_notes": "无 3D/物理；成本集中在插画与剧本撰写，可外包；技术层极轻",
+      "notes": "分支叙事技术门槛极低，壁垒在剧本质量与日式恐怖美术氛围"
+    },
+    "play": {
+      "core_loop": "阅读一段看似平常的对话，从对方回应/选项中察觉「违和感」，选择不刺激对方、回避危险的做法；选错即导向恐怖 BAD END，选对推进剧情。每章数分钟。",
+      "highlights": [
+        "「日常对话里藏着不对劲」的细思极恐悬念",
+        "选择决定生还/BAD END 的高张力",
+        "日式意味怖（城市怪谈）氛围与音效包裹",
+        "多结局收集驱动重玩"
+      ],
+      "innovations": [
+        "无机制创新，属「意味怖/tsugunohi」分支叙事品类的移动化执行"
+      ],
+      "target_user": "日本及亚洲年轻女性向恐怖/怪谈爱好者",
+      "monetization": "IAA（含广告）+ IAP（去广告/章节解锁）",
+      "lifecycle": "中短内容驱动，靠章节更新维持"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "分支对话 + 规避 BAD END 的玩法机制极轻、可模板化复刻，技术零壁垒；瓶颈完全在恐怖剧本质量与日式怪谈美术氛围，换题材/换文案即差异化。适合作为低成本填充位。",
+      "suggestions": [
+        "换成本土怪谈题材（如「中式民俗恐怖对话」「职场灵异」）",
+        "用 AI 辅助生成分支剧本与「违和感」提示词",
+        "加入多结局图鉴收集提升重玩"
+      ],
+      "risks": [
+        "恐怖文案若抄袭原作场景涉版权",
+        "日本怪谈题材本土化需谨慎避免文化雷区",
+        "广告变现 LTV 偏低"
+      ],
+      "effort": "15–25 人日（1 前端 + 0.5 文案 + 0.5 美术）含十数章剧本"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "CHICKEN SKIN LLC（日本）出品，包体 582MB，Android 100K+ 下载", "level": "confirmed"},
+      {"claim": "引擎疑为 Unity/visual novel 框架，官方未公开", "level": "inferred"}
+    ],
+    "sources": [
+      "https://www.memuplay.com/apkdownload.php?file_name=google-play&from=app_details_ko_tokyo.chickenskin.imikowa",
+      "https://apps.apple.com/us/app/%E6%84%8F%E5%91%B3%E6%80%96%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC-%E3%83%90%E3%83%83%E3%83%89%E3%82%A8%E3%83%B3%E3%83%89%E3%82%92%E5%9B%9E%E9%81%BF%E3%81%9B%E3%82%88/id6762239563?uo=4"
+    ]
+  },
+  {
+    "name": "全民单挑篮球",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity（推断，3D 实时竞技手游常用；官方未公开）",
+      "engine_evidence": "inferred",
+      "dimension": "3D",
+      "art_style": "3D 球员/球场/街头场景 + 球星时装",
+      "dims": {"engine": 4, "art": 4, "anim": 4, "physics": 4, "logic": 4, "data": 5, "server": 5, "audio": 3},
+      "dim_notes": {
+        "server": "实时 PVP 匹配与好友约战，网络同步与反作弊成本高",
+        "physics": "篮球投篮轨迹/碰撞/抢断盖帽手感需物理与手感精调",
+        "data": "球员养成（升级/技能/天赋/时装）、段位天梯、赛季多线",
+        "art": "3D 球员建模与多球场场景，资源量中上"
+      },
+      "asset_notes": "3D 球员与球场美术 + 动作捕捉动画为主要成本；实时物理与 netcode 是技术难点",
+      "notes": "1v1 篮球竞技 + 球员养成为成熟体育品类，技术门槛在 3D 实时联网与手感"
+    },
+    "play": {
+      "core_loop": "在单挑球场用方向/投篮/跳跃三键走位卡位，时机盖帽、后撤跳投完成 11 分制斗牛；含 3v3、三分竞速、路人王闯关等模式，单局 3–5 分钟。",
+      "highlights": [
+        "实时 1v1 斗牛的对抗博弈与「最后一球」悬念",
+        "球员专属招牌技能（投篮/突破/盖帽）的策略差异",
+        "扣篮/盖帽的动作爽感与音效",
+        "段位天梯与赛季奖章的目标驱动"
+      ],
+      "innovations": [
+        "无机制创新，属成熟篮球竞技 + 卡牌式球员养成的组合"
+      ],
+      "target_user": "篮球题材休闲竞技用户，偏好短时对抗",
+      "monetization": "IAA + IAP（球员抽卡/碎片/时装/周卡），混合变现",
+      "lifecycle": "长线运营，赛季更新球员与时装"
+    },
+    "clone": {
+      "verdict": "微创新",
+      "rationale": "篮球 1v1 + 球员养成为成熟体育竞技框架，但 3D 实时 PVP 的 netcode、物理手感与球员动画成本较高，且赛道已被腾讯 NBA 系等头部占据；新入场者仅值得在题材/操作细节做体验升级，不建议独立重投入立项。",
+      "suggestions": [
+        "换小众运动降低竞争（如「街头足球 1v1」「乒乓球」）",
+        "用确定性手感（非物理拟真）降低物理调校成本",
+        "先做 AI 对手单机版验证手感再上实时 PVP"
+      ],
+      "risks": [
+        "3D 实时联网与手感调校成本高、周期长",
+        "体育竞技品类头部（NBA 系）买量压制",
+        "球员肖像/联赛授权版权风险"
+      ],
+      "effort": "70–100 人日（2 前端 + 1 后端 + 1.5 美术 + 0.5 动画）含实时 PVP"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "武汉爆鸣互娱科技出品，1v1 休闲竞技篮球，含实时 PVP 与球员养成（公开攻略/商店页）", "level": "confirmed"},
+      {"claim": "引擎疑为 Unity（3D 实时竞技常用，无官方确认）", "level": "inferred"}
+    ],
+    "sources": [
+      "https://www.taptap.cn/app/186245/all-info",
+      "https://wap.gamersky.com/shouyou/1499842/"
     ]
   }
 ]

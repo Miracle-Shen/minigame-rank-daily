@@ -1,306 +1,23 @@
 {
  "batch": 3,
- "total_batches": 9,
+ "total_batches": 7,
  "spec": "scripts/detail/RESEARCH_SPEC.md",
  "output": "data/detail/_staging/batch_3.json",
  "games": [
   {
-   "name": "闪耀吧！噜咪",
+   "name": "Sled Surfers",
    "boards": [
-    "taptap/预约榜"
+    "android/美区免费榜"
    ],
    "ranks": {
-    "taptap/预约榜": 1
-   },
-   "category_l1": "抓宠",
-   "category_l2": "卡牌、放置、冒险、角色扮演、养成、模拟经营、休闲",
-   "publisher": "哔哩哔哩游戏",
-   "first_seen": "2026-07-06",
-   "appearances": 55,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "闪耀吧！噜咪",
-    "country": "cn",
-    "track_id": 6754912970,
-    "seller": "Shanghai Hode Information Technology Co.,Ltd.",
-    "genres": [
-     "游戏",
-     "角色扮演"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/1e/3a/711e3a2b-8b41-25fc-0f5d-686560ed1bb6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/eb/6a/d5eb6afd-881c-028d-444e-cedfa10032a2/1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/37/b2/8737b2a5-eed4-8fcc-8a97-d3ef1159b9b2/2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/f1/d8/0ef1d86c-8673-aab3-c48b-717c905662d3/3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/fe/48/75fe483c-4e80-1c2b-6a01-4cff210b6639/4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/e4/86/0be48624-e525-8f3c-c27c-43b8211d49ed/5.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/bc/26/b0bc2681-e6de-f300-b12b-7f6ce0e3d40d/6.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/94/18/1c941885-5f76-0808-287c-9b6ff892d6af/1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/68/d9/a468d97c-ee71-6ef0-19fb-1ee46c9b9e86/2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/34/ea/3034eafe-ebc0-5f64-2413-21198d1c1b28/3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/c6/cf/32c6cf34-074f-bf14-e636-c47e53f38400/4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/94/ce/4e94ce34-a783-2dbb-4e16-305e4e122f56/5.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d5/17/be/d517bef6-151e-6051-27eb-f0f16bb7d1b0/6.jpg/626x1112bb.jpg"
-    ],
-    "description": "--每日登录领取免费体力好礼！\n--领取彩色噜咪蛋，孵化超强噜咪，助力冒险启程！\n--立即预约，游戏上线后尊享海量体力！\n\n《闪耀吧！噜咪》是一款轻松异世界捉宠冒险RPG手游。在清新明亮的童话世界里，邂逅数百只不同形态的噜咪，开启一场没有压力的冒险之旅。\n\n【随心捕捉噜咪】\n指尖轻点，冒险启程！\n只需轻点屏幕，即可在森林、沙漠、火山间自由漫步，捕捉数百只形态各异的噜咪。简单的收集机制搭配丰富的图鉴系统，让每一次相遇都充满惊喜。\n\n【轻量策略对战】\n搭配阵容，策略取胜！\n没有复杂的连招，也没有数值碾压。深度挖掘属性克制与技能搭配的乐趣，组建你的最强战队，在轻松愉快的对局中体验用头脑获胜的纯粹快乐。\n\n【养成专属伙伴】\n噜咪陪伴，共同成长！\n每一只噜咪都能通过培养不断进化，解锁全新形态与能力。在陪伴与养成中，见证它们从可爱伙伴蜕变为独一无二的战斗搭档。\n\n【装扮专属家园】\n自由规划，随心布局！\n自由摆放建筑，规划布局都随心而定，打造一个真正属于自己的童话家园。\n\n【家园自动生产】\n噜咪打工，我收材料！\n噜咪们会成为你的得力助手，自动照料家园生产。离线也能稳步成长，收获满满的安心与满足。\n\n【好友互动同游】\n结交搭子，共享欢乐！\n前往好友的家园串门互动，欣赏彼此的装扮布局，感受更多温暖与陪伴。\n\n【关注我们】\n游戏官网：https://game.bilibili.com/lumi/ \n官方B站：闪耀吧噜咪\n官方微信公众号：闪耀吧噜咪\n官方抖音：闪耀吧！噜咪",
-    "release_notes": "捉宠全自动，轻松满图鉴！立即预约游戏，上线尊享海量体力与彩色噜咪蛋！",
-    "file_size_bytes": 269919232,
-    "min_os": "12",
-    "version": "1.3.0",
-    "release_date": "2026-09-17",
-    "rating": 0,
-    "rating_count": 0,
-    "price": "",
-    "advisory": "12+",
-    "url": "https://apps.apple.com/cn/app/%E9%97%AA%E8%80%80%E5%90%A7-%E5%99%9C%E5%92%AA/id6754912970?uo=4",
-    "fetched_at": "2026-09-15T00:36:07+08:00"
-   }
-  },
-  {
-   "name": "未眠野",
-   "boards": [
-    "taptap/预约榜"
-   ],
-   "ranks": {
-    "taptap/预约榜": 2
-   },
-   "category_l1": "开放世界",
-   "category_l2": "高自由度、角色扮演、冒险、动作、高画质",
-   "publisher": "悦然互动",
-   "first_seen": "2026-09-10",
-   "appearances": 5,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:36:10+08:00"
-   }
-  },
-  {
-   "name": "对峙：交锋时刻",
-   "boards": [
-    "taptap/预约榜"
-   ],
-   "ranks": {
-    "taptap/预约榜": 5
-   },
-   "category_l1": "射击",
-   "category_l2": "FPS、竞技、动作",
-   "publisher": "梧桐",
-   "first_seen": "2026-07-19",
-   "appearances": 30,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:36:13+08:00"
-   }
-  },
-  {
-   "name": "无限大",
-   "boards": [
-    "taptap/预约榜"
-   ],
-   "ranks": {
-    "taptap/预约榜": 6
-   },
-   "category_l1": "开放世界",
-   "category_l2": "角色扮演、高自由度、都市、二次元、动作、高画质、3D",
-   "publisher": "网易游戏",
-   "first_seen": "2026-07-06",
-   "appearances": 60,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "无限大",
-    "country": "cn",
-    "track_id": 6761252217,
-    "seller": "Hangzhou NetEase Leihuo Technology Co., Ltd.",
-    "genres": [
-     "游戏",
-     "动作",
-     "角色扮演"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/8e/6e/578e6e6a-fd7d-36a5-ed43-30fbfcc13d09/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/83/7c/7a837c3c-4cf2-badb-e71e-d443cc0c48a1/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/b8/a0/31b8a0e9-537e-2adb-36b6-e9975b331f79/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/7b/1e/667b1e15-74aa-e182-96cb-ebbb7ff93f28/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/e0/9c/a3e09c3d-4eeb-00a4-b7d4-3fad4f476373/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/42/c2/6742c2c4-9fa8-81d4-efd6-cbac57b19b18/iOS_U4e94_U56fe_U4e2d_U65872026-2778X1284-5.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/7e/13/d97e134c-e3a8-c2e6-a340-7dbbd3a447e7/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/ed/7c/e3ed7cd6-5fa5-f704-248f-9b1974fc7ea5/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/fe/2f/c6fe2fa7-055c-2339-4d05-6ab332e85c3c/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/4b/ae/4c4baee7-ad9c-0fe5-0e65-da30ed119412/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/92/a3/ea92a3f6-a0c0-8a42-cad2-9a5a848d4287/iOS_U4e94_U56fe_U4e2d_U65872026-2752X2064-5.jpg/626x1112bb.jpg"
-    ],
-    "description": "《无限大》是一款高自由度的都市题材开放世界RPG，在这里你将扮演身份各异的角色，在不同的城市间探索，结识各具魅力的伙伴，建立独属于你自己的团队。\n危机与日常总是交替到来，是携手对抗潜藏于城市阴影中的威胁，或是与伙伴们一起体验充满烟火气的都市生活，选择权永远在你手上。\n\n准备好踏入这个《无限大》的世界了吗？\n\n成为网红，拯救世界\n初来乍到，人生地不熟？\n没关系，从踏入新启的这一刻\n你的故事就已经开始口口相传\n积攒声望，顺便——拯救世界？\n\n两座城市，不一样的冒险\n出门久了，也别忘了常回家看看\n一张机票，就能回到你的主场——重霄\n不过即使在这个你再熟悉不过的地方\n也少不了意想不到的秘密\n\n功夫电影般的爽快战斗\n从你挥出第一拳的这一秒\n街头就是你的功夫片场\n飞檐走壁、闪转腾挪\n每一击都值得一个眼界热搜\n\n跃入7*24H的精彩日常\n无聊？在这里不存在\n啼笑皆非的闹剧、凌晨三点的飙车局\n你的日常永不重样\n24小时都有新鲜事，随时开播都是集锦\n\n体验各不相同的人生\n巡卫官，天才黑客还是街头领袖？\n扮演身份各异的角色\n体验这个世界的每一面\n说不定，还能和一些奇形怪状的家伙们交个朋友\n\n不受约束的自由探索\n选个喜欢的方式抵达你的目的地\n轰下油门，跨上机车，或是迎风破浪\n也可以翼装升空，伸手摆荡，穿梭楼宇之间\n下一站在哪？在目之所及的每一处。",
-    "release_notes": "",
-    "file_size_bytes": 1357754368,
-    "min_os": "12.0",
-    "version": "1.0.4125397",
-    "release_date": "2027-01-15",
-    "rating": 0,
-    "rating_count": 0,
-    "price": "",
-    "advisory": "12+",
-    "url": "https://apps.apple.com/cn/app/%E6%97%A0%E9%99%90%E5%A4%A7/id6761252217?uo=4",
-    "fetched_at": "2026-09-15T00:36:15+08:00"
-   }
-  },
-  {
-   "name": "白银之城",
-   "boards": [
-    "taptap/预约榜"
-   ],
-   "ranks": {
-    "taptap/预约榜": 8
-   },
-   "category_l1": "二次元",
-   "category_l2": "侦探、ARPG、开放世界、动作、角色扮演",
-   "publisher": "乐元素",
-   "first_seen": "2026-07-06",
-   "appearances": 68,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "白银之城",
-    "country": "cn",
-    "track_id": 6758292180,
-    "seller": "Shanghai Happy Element World Technology Co., Ltd.",
-    "genres": [
-     "游戏",
-     "角色扮演"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/73/1a/26731a47-fd13-c5e2-d10c-22bdd4fedc0d/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/b1/df/00b1df97-a16d-312c-aad1-b8623c4172d1/_U5f00_U573a_U573a_U666f2688_1242.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/3c/0a/823c0ab7-8064-bccb-f652-1b434c901387/_U5b9e_U673a_U622a_U56fe2688_1242.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9e/d4/cd/9ed4cd83-51e1-f910-33e0-639e01153feb/_U7ea2_U8537_U8587_U4e92_U52a8_U7279_U51992688_1242.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/07/c6/e707c605-4f7a-d152-dbd7-d4fe530fa4dc/_U5f00_U573a_U573a_U666f2752_2064.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/31/5b/7e315b71-f648-699d-8f16-ddde45cc1ee9/_U5b9e_U673a_U622a_U56fe2752_2064.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/42/29/aa42299e-b347-9a55-8f0b-ea5a7d0ffa81/_U7ea2_U8537_U8587_U4e92_U52a8_U7279_U51992752_2064.jpg/626x1112bb.jpg"
-    ],
-    "description": "作为曾经名噪一时的侦探，你将重回光辉的白银城，再启尘封已久的事务所。故友等待重逢，新知企盼初会，与他们携手，一同穿行于童话与寓言之间，探寻凶案与阴谋之下的隐秘真相。\n\n欢迎回来，侦探。",
-    "release_notes": "",
-    "file_size_bytes": 1454422016,
-    "min_os": "15.0",
-    "version": "1.0.0",
-    "release_date": "2027-01-31",
-    "rating": 0,
-    "rating_count": 0,
-    "price": "",
-    "advisory": "12+",
-    "url": "https://apps.apple.com/cn/app/%E7%99%BD%E9%93%B6%E4%B9%8B%E5%9F%8E/id6758292180?uo=4",
-    "fetched_at": "2026-09-15T00:36:17+08:00"
-   }
-  },
-  {
-   "name": "龙岛异兽起源",
-   "boards": [
-    "taptap/预约榜"
-   ],
-   "ranks": {
-    "taptap/预约榜": 9
-   },
-   "category_l1": "生存",
-   "category_l2": "开放世界、冒险、恐龙",
-   "publisher": "微乐游戏",
-   "first_seen": "2026-07-06",
-   "appearances": 61,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:36:21+08:00"
-   }
-  },
-  {
-   "name": "粒粒的小人国",
-   "boards": [
-    "taptap/预约榜"
-   ],
-   "ranks": {
-    "taptap/预约榜": 10
-   },
-   "category_l1": "模拟经营",
-   "category_l2": "建造、治愈、休闲、3D、社交、种田、换装、多人联机、角色扮演",
-   "publisher": "腾讯",
-   "first_seen": "2026-07-06",
-   "appearances": 55,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:36:24+08:00"
-   }
-  },
-  {
-   "name": "Roblox",
-   "boards": [
-    "ios/美区免费榜"
-   ],
-   "ranks": {
-    "ios/美区免费榜": 5
+    "android/美区免费榜": 17
    },
    "category_l1": "Games",
    "category_l2": "",
-   "publisher": "Roblox Corporation",
+   "publisher": "CrazyLabs LTD",
    "first_seen": "2026-08-21",
-   "appearances": 25,
-   "best_rank": 1,
+   "appearances": 24,
+   "best_rank": 4,
    "profile_value": "",
    "seed": {
     "gameplay_desc": "",
@@ -311,61 +28,62 @@
    "media": {
     "matched": true,
     "match_score": 1.0,
-    "match_name": "Roblox",
+    "match_name": "Sled Surfers",
     "country": "us",
-    "track_id": 431946152,
-    "seller": "Roblox Corporation",
+    "track_id": 6744975195,
+    "seller": "CRAZY LABS BY TABTALE , G.P.",
     "genres": [
      "Games",
+     "Simulation",
      "Entertainment",
-     "Action",
-     "Adventure"
+     "Racing"
     ],
     "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/f0/55/65f055cb-e179-ba96-2a74-c9251e1c99e7/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/92/93/c192939e-b4d9-084e-4f1b-1ff813fcb34c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
     "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/6e/a8/446ea852-2d09-c4c2-5cbf-cbeca590a42f/ASO_Q1_26_Default_EEAO_2602_Apple_iPhone_SC1-RIVALS.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e4/ef/be/e4efbe05-7a4c-fda1-2d4f-a5f891c0ce65/ASO_Q1_26_Default_EEAO_2602_Apple_iPhone_SC2-C.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/03/d6/5b03d6b4-c217-6495-2dc9-fb4116a4aacc/ASO_Q1_26_Default_EEAO_2602_Apple_iPhone_SC3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/cc/89/72cc89f5-debf-0c03-0377-268757c86491/ASO_Q1_26_Default_EEAO_2602_Apple_iPhone_SC4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/2f/b2/d22fb25c-cc4a-d34c-54af-db08242450ab/ASO_Q1_26_Default_EEAO_2602_Apple_iPhone_SC6.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0e/0f/d8/0e0fd8d6-1f89-50e6-2b89-0df5b6ca1549/ASO_Q1_26_Default_EEAO_2602_Apple_iPhone_SC7-A.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/9d/fd/669dfdb9-dbca-4b3a-3eae-bc17a2842693/ASO_Q1_26_Default_EEAO_2602_Apple_iPad_SC1-RIVALS.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/ca/72/abca72dd-ebd6-b04f-713d-7f50f55539da/ASO_Q1_26_Default_EEAO_2602_Apple_iPad_SC2-C.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/17/b3/3217b3a9-4e03-7644-c89f-7f76c19271d0/ASO_Q1_26_Default_EEAO_2602_Apple_iPad_SC3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/13/f1/5913f179-813a-e0f6-d247-0a3a485cbc9e/ASO_Q1_26_Default_EEAO_2602_Apple_iPad_SC4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ca/ee/79/caee79d8-5824-c504-3cb9-dfa0c4a16e0d/ASO_Q1_26_Default_EEAO_2602_Apple_iPad_SC5.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/6e/28/156e284d-b271-4a88-ce35-a79f3d201710/ASO_Q1_26_Default_EEAO_2602_Apple_iPad_SC6.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/c3/0f/51c30fd7-b2cb-2e9e-4c8f-42e47c0f7759/ASO_Q1_26_Default_EEAO_2602_Apple_iPad_SC7-A.jpg/626x1112bb.jpg"
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/7b/10/e27b10d7-532c-1379-10be-e182e86abbbb/iPhone14proMax_04_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9b/69/74/9b6974b1-e698-74c2-b635-ac1bb5422114/iPhone14proMax_05_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/06/38/ec063820-706c-97a9-57b0-77affa17ca82/iPhone14proMax_02_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/af/5d/e9af5d30-d621-d85e-5cad-66a3e4ddf308/iPhone14proMax_08_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/5f/64/395f6482-b6f2-330f-55c1-f376f27b2fa6/iPhone14proMax_07_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/72/42/787242c0-3398-68b2-aad4-84a64fd0fa25/iPhone14proMax_01_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/13/46/22134620-6f01-67a3-46a0-ddfb6d485b49/iPhone14proMax_06_SledSurfers_storescreenshot_D0_1290x2796_.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/71/28/89712892-f88a-3681-f41d-2dfd2d0cd600/iPadPro_04_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/15/7d/3f157dc3-77f0-265f-8c9a-6fb3a680ba3d/iPadPro_05_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/08/73/97087358-f24a-3be1-cb1f-72e95682aca5/iPadPro_02_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/3d/c8/803dc8db-b477-d90b-b90a-9b84a85e1057/iPadPro_08_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/e8/f0/1de8f03b-c6d8-b394-e60c-5d8e119ce553/iPadPro_07_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/3d/fc/cf3dfc82-c875-0918-db04-557f2c11aecb/iPadPro_01_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/4b/97/1c4b9753-8c51-ae7a-df88-bedbe268d8a1/iPadPro_06_SledSurfers_storescreenshot_D0_2048x2732_.jpg/626x1112bb.jpg"
     ],
-    "description": "ROBLOX – MILLIONS OF GAMES ACROSS EVERY GENRE. PLAY FREE.\n\nRoblox is home to every kind of game, for every kind of player. Compete in high-octane racing games, battle it out in hardcore tactical shooters, or put your survival skills to the test in unpredictable environments. Embark on an epic adventure in immersive RPGs, build massive empires in tycoons, or dive into horror, anime, and sports games with friends worldwide.\n\nRoblox is constantly evolving, with unique experiences and ambitious, high-fidelity games built by a global community including professional studios, indie teams, and solo creators. There’s always something new to discover every day.\n\nStart playing some of the most popular games on Roblox today, including Dress to Impress, RIVALS, Steal a Brainrot, Brookhaven RP, Adopt Me! and more.\n\nWHAT YOU CAN DO ON ROBLOX\n\nPLAY ONLINE MULTIPLAYER GAMES\n- Discover deep role-playing games, immersive simulators, action-packed adventures, and more\n- Explore trending experiences and new games daily\n- Compete in massive multiplayer battles, run your own digital business, or embark on epic quests\n- Games may contain optional in-game purchases, including lootboxes and other items\n\nCREATE YOUR OWN AVATAR\n- Customize your avatar with detailed clothing, accessories, and dynamic hairstyles\n- Discover thousands of user-created 3D avatar items in the Marketplace\n- Express yourself with unique emotes, and fashion\n\nCHAT, COMPETE, AND EXPLORE TOGETHER—ANYTIME, ANYWHERE\n- Hang out and play with friends in cross-platform multiplayer games on mobile, tablet, PC, console, and VR headsets\n- Join a Party and jump into competitive or social experiences together\n- Age-verified users can communicate in real-time via voice chat or text\n\nCREATE, PLAY, AND SHARE ON ROBLOX\n- Design high-fidelity games and virtual spaces using the Roblox Studio engine on Windows or Mac\n- Publish your experiences and empower yourself as a creator in a massive global community\n- Dive into immersive 3D multiplayer games and safe, inclusive environments designed for users of all ages\n- Enjoy endless new content added daily and share your creations with millions of players\n\nELEVATE YOUR EXPERIENCE WITH ROBLOX PLUS\n- Get up to 20% discounts on in-game items, enjoy fee-free Robux transfers, and receive a distinct profile badge\n- Host free, unlimited private servers for your friends \n- Publish, trade, and resell your own custom avatar creations on the Marketplace\n\nINDUSTRY-LEADING SAFETY, PRIVACY, AND CIVILITY\n- Advanced content filtering and age-appropriate moderation\n- Access age-verified spaces and manage your privacy with Roblox Kids and Select Accounts\n- Clear community guidelines promoting respectful interactions\n- Dedicated trust & safety teams working around the clock\n\nCREATE YOUR OWN GAMES: https://www.roblox.com/develop\nSUPPORT: https://en.help.roblox.com/hc/en-us\nCONTACT: https://corp.roblox.com/contact/\nPRIVACY POLICY: https://www.roblox.com/info/privacy\nPARENT’S GUIDE: https://corp.roblox.com/parents/\nTERMS OF USE: https://en.help.roblox.com/hc/en-us/articles/115004647846\n\nPLEASE NOTE: A network connection is required. Roblox works best over Wi-Fi.\n\n※ Information on App Permissions: Roblox requires the following permissions for your seamless use of the Roblox app.\n[Optional Permissions]\nNotification: For sending notifications (related to the services, experiences, etc.)\nMicrophone: For in-game voice chat features\nCamera: For animating your avatar with your movement\nContacts: For contact importer features (find other users you may know and make recommendations for friends)\n* You can use the app regardless of whether or not you consent to optional permissions\n* Certain app features may not work properly if you refuse optional permissions",
-    "release_notes": "To make Roblox work better for you, we deliver updates regularly. These updates include bug fixes and improvements for speed and reliability.",
-    "file_size_bytes": 232861696,
-    "min_os": "14.0",
-    "version": "2.738.1390",
-    "release_date": "2011-05-26",
-    "rating": 4.51088,
-    "rating_count": 20105202,
+    "description": "SLIDE fast as you can!\nRace through snowy slopes in Sled Surfers, the ultimate winter SLEDDING GAME!\n\nDODGE trees, leap over ice, and grab power-ups as you speed downhill.\nSlide through snow into mountains, forests, cities, subways, caves, and beyond.\nHow far can you go?\n\nInspired by ENDLESS RUNNER hits, Sled Surfers delivers FAST action, SMOOTH controls, and endless FUN.\n\nFeatures:\n• High-speed sledding on icy tracks\n• Endless runs and exciting level-based challenges\n• Tons of surfers characters and sleds to unlock\n• Explore mountains, caves, and frozen forests\n\nSimple to play, hard to master.\nDownload now and ride the snow!\n\nTo opt out of CrazyLabs sales of personal information as a California resident, please visit the settings page within this app. For more information visit our privacy policy: https://crazylabs.com/app",
+    "release_notes": "Less bugs, more speed!\nWe’ve made behind-the-scenes improvements to keep Sled Surfers running smoothly.\nExpect better performance, fewer crashes, and a more responsive sled experience.\nUpdate now and glide through the snow with confidence!",
+    "file_size_bytes": 331132928,
+    "min_os": "15",
+    "version": "1.13.1",
+    "release_date": "2025-04-29",
+    "rating": 4.65186,
+    "rating_count": 68065,
     "price": "Free",
     "advisory": "12+",
-    "url": "https://apps.apple.com/us/app/roblox/id431946152?uo=4",
-    "fetched_at": "2026-09-15T00:36:27+08:00"
+    "url": "https://apps.apple.com/us/app/sled-surfers/id6744975195?uo=4",
+    "fetched_at": "2026-09-15T21:48:29+08:00"
    }
   },
   {
-   "name": "Magic Sort!",
+   "name": "欢乐岛大冒险",
    "boards": [
-    "ios/美区免费榜"
+    "wx/人气榜"
    ],
    "ranks": {
-    "ios/美区免费榜": 6
+    "wx/人气榜": 5
    },
-   "category_l1": "Games",
-   "category_l2": "",
-   "publisher": "Grand Games A.Ş.",
-   "first_seen": "2026-08-21",
-   "appearances": 25,
-   "best_rank": 1,
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "广州格子游戏科技有限公司",
+   "first_seen": "2026-09-15",
+   "appearances": 1,
+   "best_rank": 5,
    "profile_value": "",
    "seed": {
     "gameplay_desc": "",
@@ -374,61 +92,24 @@
     "developer": ""
    },
    "media": {
-    "matched": true,
-    "match_score": 0.9,
-    "match_name": "Magical Sort",
-    "country": "cn",
-    "track_id": 6737153672,
-    "seller": "Yavuz OZSOY",
-    "genres": [
-     "游戏",
-     "益智解谜",
-     "休闲"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/40/1d/89401d6c-7d2d-4317-25a8-01fb7c0612bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/64/e3/c764e387-0285-e640-a34d-110bccde548a/iphone1.jpeg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/a6/ec/aba6ecc9-7f11-adab-3dc8-6fa4e825bb3a/iphone2.jpeg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/92/6c/ba926c5d-fa0c-364d-9cbb-c3dd8ed4b65d/iphone3.jpeg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/3b/de/9a3bdefa-0e49-f5fa-a0d3-5b619f050bfa/iphone4.jpeg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/90/0b/59900b1a-a738-3529-587b-233bf202de59/iphone5.jpeg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/99/c5/4699c5bd-356b-221a-929d-a7f988bec4e2/iphone6.jpeg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/ac/2f/afac2fb6-2984-e005-9689-9731143e88c3/ipad1.jpeg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/46/a6/1546a6bd-938a-ff41-5977-d7664aa470b4/ipad2.jpeg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/da/0b/66da0b33-35db-b0c8-7dfa-1f0841b07fe9/ipad3.jpeg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a9/13/eb/a913eba3-40a8-f529-9818-02e5f2a5c8d9/ipad4.jpeg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/d8/50/99d8507d-5619-c1ac-4a2a-75b719ad6dd6/ipad5.jpeg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/8f/fc/be8ffcb3-f0cb-6fae-88fc-c349d1668243/ipad6.jpeg/626x1112bb.jpg"
-    ],
-    "description": "Magical Sort takes you on an enchanting journey where you sort colorful flasks to create magical potions. Strategically place and organize flasks to clear challenging puzzles and unlock new levels. Use unique power-ups to overcome tricky stages and boost your potion-making skills!\n\nWith intuitive gameplay, vibrant visuals, and progressively challenging puzzles, Magical Sort offers hours of fun. Whether you’re a casual player or a puzzle master, this magical adventure will keep you coming back for more!\n\nAre you ready to sort, solve, and master the magic? Download Magical Sort now and dive into a world of sorting fun!",
-    "release_notes": "",
-    "file_size_bytes": 91179008,
-    "min_os": "13.0",
-    "version": "1.0",
-    "release_date": "2024-10-23",
-    "rating": 0,
-    "rating_count": 0,
-    "price": "免费",
-    "advisory": "4+",
-    "url": "https://apps.apple.com/cn/app/magical-sort/id6737153672?uo=4",
-    "fetched_at": "2026-09-15T00:36:29+08:00"
+    "matched": false,
+    "fetched_at": "2026-09-15T21:48:33+08:00"
    }
   },
   {
-   "name": "Royal Smash! - Physics Puzzle",
+   "name": "奔奔王国",
    "boards": [
-    "ios/美区免费榜"
+    "wx/畅销榜"
    ],
    "ranks": {
-    "ios/美区免费榜": 14
+    "wx/畅销榜": 19
    },
-   "category_l1": "Games",
-   "category_l2": "",
-   "publisher": "Cypher Games",
-   "first_seen": "2026-08-21",
-   "appearances": 25,
-   "best_rank": 1,
+   "category_l1": "竞技",
+   "category_l2": "对战",
+   "publisher": "福州点点松云网络有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 65,
+   "best_rank": 5,
    "profile_value": "",
    "seed": {
     "gameplay_desc": "",
@@ -439,248 +120,59 @@
    "media": {
     "matched": true,
     "match_score": 1.0,
-    "match_name": "Royal Smash! - Physics Puzzle",
-    "country": "us",
-    "track_id": 6780891673,
-    "seller": "CYPHER GAMES YAZILIM PAZARLAMA ANONIM SIRKETI",
-    "genres": [
-     "Games",
-     "Puzzle",
-     "Casual"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/7b/ba/cf7bba17-4270-55ab-7d08-96ec164921cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/4b/e0/994be0ec-6389-95e4-247f-4b65e463d0b2/AIM_FIRE.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/4d/8d/5f4d8d64-81c1-33b4-144d-ba44dbc284c4/ONE_SHOT.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/36/80/60368004-1185-fdb3-ca3c-a1a4876ac52b/TOO_HARD.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fa/47/aa/fa47aa67-20be-9a93-26d8-74c9656e4c24/RELIEVE.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/5f/4a/505f4a12-464a-c824-79de-5a1c323b77df/EASY_TO_PLAY.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/f0/66/a6f066c3-a840-6516-91bf-d3e80458240c/AIM_U002c_FIRE.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/29/83/652983a8-f772-a96a-33c8-490aff12333f/ONE_SHOT.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/2f/2d/a62f2d74-34e5-4de2-0128-92e2f601d2ff/TOO_HARD.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/45/fe/71/45fe7195-ff4b-8f8d-744b-f57a50f9bc9d/RELIEVE.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/75/e3/5275e353-7612-1a8a-a2ee-e8856c98d41a/EASY_TO_PLAY.jpg/626x1112bb.jpg"
-    ],
-    "description": "Aim. Fire. SMASH! Load the royal cannon, line up your shot, and watch entire towers explode into pieces. The most oddly satisfying physics puzzle you'll play all year.\n\nOne perfect shot brings the whole thing down — but can you actually clear the table?\n\nEASY TO PLAY, HARD TO PUT DOWN\nSet your angle, charge the power, fire. Simple one-tap aiming — instantly fun, endlessly addictive.\n\nREAL 3D DESTRUCTION\nSmash jars, topple stone towers, and trigger chain reactions that crumble everything in sight. Every hit is powered by realistic physics.\n\nHUNDREDS OF LEVELS\nEach level is a fresh puzzle. Find the one perfect angle, knock it all down, and last your way up through the kingdom.\n\nPURE STRESS RELIEF\nNo timers, no pressure — just you, a cannon, and a whole world to demolish.\nSatisfying to watch, impossible to stop.\n\nThink you've got the aim? Only 1% clear every table. Download Royal Smash! and start the chaos.",
-    "release_notes": "Trouble Trap and Power Play is here!\nWe just gave a whole stretch of levels some extra love and the game feels noticeably smoother for it.\n\nCleaner, fairer levels. A batch of stages got reworked and retuned, so smashing feels crisp and every shot lands the way you'd expect.\n\nSame Royal Smash, now with a fresh coat of polish. Jump in and feel the difference!",
-    "file_size_bytes": 414178304,
-    "min_os": "15.0",
-    "version": "1.12",
-    "release_date": "2026-06-30",
-    "rating": 4.71211,
-    "rating_count": 73338,
-    "price": "Free",
-    "advisory": "4+",
-    "url": "https://apps.apple.com/us/app/royal-smash-physics-puzzle/id6780891673?uo=4",
-    "fetched_at": "2026-09-15T00:36:32+08:00"
-   }
-  },
-  {
-   "name": "王者万象棋",
-   "boards": [
-    "ios/国区免费榜"
-   ],
-   "ranks": {
-    "ios/国区免费榜": 1
-   },
-   "category_l1": "游戏",
-   "category_l2": "",
-   "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
-   "first_seen": "2026-07-15",
-   "appearances": 50,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "王者万象棋",
+    "match_name": "奔奔王国",
     "country": "cn",
-    "track_id": 1614798032,
-    "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+    "track_id": 6748527570,
+    "seller": "Fuzhou Dian Dian Song He Technology Co., Ltd",
     "genres": [
      "游戏",
-     "策略",
-     "卡牌"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/5c/7a/025c7a40-b125-5ab9-1237-7283fcbf089a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/d4/a9/3bd4a9ac-f600-1e78-7c45-1af68ca5657d/1.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/cd/77/53cd77da-d966-dc6f-b248-0b3463686884/2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/dd/74/67dd74c5-9f4f-56a2-c860-6ba456ec918a/3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/0a/b5/4c0ab5b9-8b4d-fbf7-07a2-36620661cb0d/4.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/1e/c4/a21ec422-f3d4-d564-10a9-e69abe73c29f/5.png/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/09/47/e2094745-dcda-9bb4-31e8-e402b323cc24/1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/2b/d5/292bd582-c39c-c561-8a86-6d7394eea60a/4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/69/9b/a7699b45-2f29-ecfa-0353-3b3e273f4f56/2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/c4/c8/1bc4c8e0-cffc-43e8-2703-2f4948ae77be/3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/fc/00/19fc00c2-b4ef-fc55-4514-fac990af1eba/5.png/626x1112bb.jpg"
-    ],
-    "description": "《王者万象棋》由王者荣耀项目原班人马开发，是一款《王者荣耀》英雄策略对战新游。王者万象棋全面创新突破了“王者模拟战”的玩法体验，延续了玩家最熟悉的英雄阵容，节奏更爽快，上手更简单，是最适合王者玩家的新一代英雄对战游戏。每局对战，6名玩家选择棋手进入万象大赛，养成自己的王牌英雄炸翻全场！更有拍卖、天赋、效果牌等随机事件贯穿全局，每一手选择都可能逆转战局，越玩越上头。",
-    "release_notes": "【农味拉满！原班人马，王者荣耀自研农家牌】\n集结来自峡谷最熟悉的英雄们，农友就玩农家牌！玩家可以自由构筑多样阵容，利用英雄自带的登场、整备、牺牲等关键词，让不同英雄间产生“连锁反应”，越战越强！三分英雄所在的三分登场流、长城守卫军所在的河洛牺牲流……除了经典阵容外，还有更多玩家们的自创流派。你的阵容，就是版本答案！\n\n【好玩上头！王牌英雄，一刷！二养！三炸场！】\n王者万象棋的玩法口诀“刷”、“养”、“炸”：刷到适合的英雄，一路升级养成“王牌英雄”，百级后解锁超级大招，一把炸翻全场！吕布全屏击飞，永不空大硬控全场；安琪拉三叉激光扫荡，草丛姐妹暴走开团；杨玉环满屏敦煌壁画，绝美飞天视效拉满……战力越滚越快，节奏不拖沓，爽感不中断，好玩又上头！\n\n【超高颜值！全新风格，各怀绝技上大分】\n棋手机制丰富，是每局策略的重要变量。每位棋手颜值与实力并存：万象都市的全新造型，新皮肤穿出新感受！更有独特的技能、秘技和专属天赋，再搭配适合的英雄阵容，在关键时刻打出奇效，逆转战局！首发18位棋手各怀出牌绝技，白歌、香香、小妲己、弈星、瑶妹、庄小鱼……总有一个适合你！更多棋手，蓄势登场。\n\n【轻松上手！农友开黑，组排共享最高分】\n组队共享排位分，万象开黑欢乐多——队友Carry，全队上分；队友翻车，不掉分。告别看队友状态的红温时刻，找对搭子，“老六”也能上王者！万象棋直接继承王者好友亲密度，打通与王者荣耀的在线游戏状态！还有灵宝全程陪伴，教你轻松上手。峡谷之外，下一局万象棋相聚！\n\n【丰富玩法！多模式玩法，王者之外新选择】\n多样的玩法模式欢乐登场，玩家可以从丰富的玩法模式中体验到不同的乐趣：经典排位六人对战，胜者为王；钻石狂潮竞拍争锋，钻石争夺；残局挑战步步解密，巧思破局。更多娱乐玩法，敬请期待～",
-    "file_size_bytes": 3849134080,
-    "min_os": "11.0",
-    "version": "1.1.1",
-    "release_date": "2026-09-10",
-    "rating": 4.78083,
-    "rating_count": 67281,
-    "price": "免费",
-    "advisory": "12+",
-    "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E4%B8%87%E8%B1%A1%E6%A3%8B/id1614798032?uo=4",
-    "fetched_at": "2026-09-15T00:36:33+08:00"
-   }
-  },
-  {
-   "name": "三角洲行动",
-   "boards": [
-    "ios/国区免费榜"
-   ],
-   "ranks": {
-    "ios/国区免费榜": 2
-   },
-   "category_l1": "游戏",
-   "category_l2": "",
-   "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
-   "first_seen": "2026-08-21",
-   "appearances": 25,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "三角洲行动",
-    "country": "cn",
-    "track_id": 1642894547,
-    "seller": "Shenzhen Tencent Tianyou Technology Ltd",
-    "genres": [
-     "游戏",
-     "动作"
-    ],
-    "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/34/0e/10340e62-72a3-4a99-0b4a-3199680f248c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-    "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/29/91/bd/2991bdbb-0d18-771b-4a15-8e7102cfb25d/_U8d5b_U5b63kv-2688.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/f1/eb/39f1eb78-bfc4-1444-9b94-dd6347932dd2/_U5356_U70b92__U5168_U65b0_U5e72_U5458.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/a4/0a/04a40ac8-8faa-f13f-bf28-be13dd47ca0e/_U5356_U70b93-_U5730_U56fe_U5347_U7ea7.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/3c/6b/1c3c6b7e-e41c-3278-98ce-28b47ed1091e/_U5356_U70b94-_U5168_U65b0_U73a9_U6cd5.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/58/57/88585738-102d-1b6c-07e0-f5b99eff8064/_U5356_U70b95-_U5168_U65b0_U73a9_U6cd5.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/75/78/ec75785e-de3f-3c38-4d92-64528dfef211/_U5356_U70b96-_U5168_U65b0_U6a21_U5f0f.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/fb/cd/6efbcd90-f6ad-5c56-7250-f73aa22aa6cc/_U5356_U70b97-_U5168_U65b0_U5730_U56fe.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/d7/07/a2d707c1-35fd-e47d-8770-b2a0ecf6adb0/_U5356_U70b98-_U5168_U65b0_U8f7d_U5177.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/69/88/c76988b8-7b4d-26dd-9e4b-b0fc7ad16da4/_U5356_U70b99-_U5168_U65b0_U6b66_U5668.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/55/e5/7655e58b-ddfa-16d0-98a2-7c0f8f54c209/_U8d5b_U5b63kv-2732.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/cd/ec/6fcdecd8-ad36-4280-ff24-7542f32fb818/_U5356_U70b92__U5168_U65b0_U5e72_U5458.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/f1/78/fff17851-8715-711a-be6a-1c774738b019/_U5356_U70b93-_U5730_U56fe_U5347_U7ea7.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/fb/c8/a3fbc855-aa61-627e-da63-797a061a28b8/_U5356_U70b94-_U5168_U65b0_U73a9_U6cd5.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/f4/e7/edf4e77d-5341-8937-8333-cf6b17f8ab99/_U5356_U70b95-_U5168_U65b0_U73a9_U6cd5.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/bd/bf/4ebdbf3d-8cbb-0385-3511-42649e5d87cb/_U5356_U70b96-_U5168_U65b0_U6a21_U5f0f.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/41/21/4c/41214cb1-eb21-c7c8-a91d-0daba3f6a864/_U5356_U70b97-_U5168_U65b0_U5730_U56fe.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/64/a8/de64a8d3-40b3-f640-97b9-cbc663c36eb9/_U5356_U70b98-_U5168_U65b0_U8f7d_U5177.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/dc/77/17dc77eb-d2cf-2368-54c9-a8b04993fff2/_U5356_U70b99-_U5168_U65b0_U6b66_U5668.jpg/626x1112bb.jpg"
-    ],
-    "description": "《三角洲行动》是一款由琳琅天上团队研发运营的新一代战术射击品质标杆游戏。PC及移动端版本在9月正式上线！未来将继续登录主机平台。拥有25年历史的经典射击鼻祖再次回归，这一次行动难度升级。\n\n作为全球反恐特勤组G.T.I.的精英特战干员，你将前往神秘的阿萨拉大陆，调查哈夫克公司的非法活动。在这个充满危机的战场中，运用别具特色的战斗道具与装备，与队友紧密协作，灵活制定战术，完成各种看似不可能完成的极限行动。\n\n中远距离战术战斗、秘密潜入解决目标、驾驶重型载具火力输出、海量随机事件、几十人的大战场对决……在这里，你将获得丰富又刺激的作战体验。\n\n”无所畏惧，绝不言退。”\n\n游戏特色\n\n【鼻祖回归，全新兵种战术射击！】\n在这里你能体验到最经典的特战干员作战风格。\n作为全球精锐小队一员，在各系列的经典地图中，体验中远距离的观测与狙击、充满策略性的战斗方式，让你领略到为何三角洲得到全球如此多玩家的喜爱。\n\n【迎难而上，挑战不可能的任务！】\n延续三角洲历代作品强调的战术性，打造了一个震撼的无缝动态世界——阿萨拉。每片区域都蕴含了不同的危机。选择你自己的作战方式、行动任务，完成挑战。但请记住，随时保持警惕，灵活使用你的战术道具和战术技能，动用脑力战胜对手！\n\n【活用战术，成为全球最佳干员！】\n在这里，你可以自由选择干员，而每一个干员都是绝对的精英。\n精通各干员的特殊技能和战斗方式，你将成为精英中的精英。\n面对看似不可能的任务，拉上同样强大的队友，组建无所不能的小队，让不可能成为可能。\n\n【冷静应对，完成烽火地带撤离！】\n这里的一切危险都是未知。闻声而来的黑潮、随机空降的哈夫克雇佣兵、以及不知在哪里埋伏的真人小队……找到目标，击败对手，完成任务！\n只有最强的干员才能全身而退，看你的了。\n\n【改装搭配，打造顶级枪械作战！】\n在资深军事顾问的协助下，突击步枪、冲锋枪、狙击枪、霰弹枪、轻机枪，数十把枪械、每把武器超10种改装部位，都像真家伙一样呈现在你面前。\n在超千种组合搭配中，挑出你最喜欢的那一个，出发！\n\n【驾驶载具，驰骋拟真全面战场！】\n在广大的地图战场上来一场多人团战！你可以驾驶冲锋艇、主战坦克、武装直升机、装甲车、全地形车等近10款载具驰骋大战场，火力全开！\n是时候放下冷静，放肆一把了！",
-    "release_notes": "一. 新赛季玩法更新\n1.\t烽火地带长弓溪谷地图更新：\na.\t新增世外桃源、岩石洞穴、雷达站隧道等区域。\nb.\t地图河道整体优化。\nc.\t全新标杆行动，在烽火地带中带来全新的载具体验。\nd.\t新增了部分物资容器和物资刷新点。\ne.\t由于地图场景升级，优化调整了部分物资的分布位置。\n2.\t全面战场新增地图：摩格旧城区\n3.\t新支援干员：罗温·沃尔什，代号旅人\na.\t干员特长-求生专家（烽火地带）：被自身战术道具命中的敌人将更易被军犬追踪。干员的倒地持续时间延长；成功救援友方后，可清除其多层部位破坏效果。\nb.\t干员特长-紧急勤务（全面战场）：被自身战术道具命中的敌人将更易被军犬追踪。成功救援友方后，可为其补充弹药。\nc.\t战术装备-军犬协同：持续期间内，军犬将主动追击范围内最近的敌方目标，接近后造成伤害并施加标记；未发现敌人时，将跟随干员并保持警戒。\nd.\t战术道具-气雾针剂枪：装备随身针剂发射器，向准星方向发射针剂。针剂爆开后将释放持续生效的气雾，持续修复友方的部位破坏效果，降低范围内敌方的血量上限并造成持续伤害。\ne.\t战术道具-刺激性烟雾：投掷刺激性烟雾弹，烟雾区域内的敌人将咳嗽。\n4.\t烽火地带新玩法：钓鱼\n5.\t烽火地带新玩法：咱俩练练\n6.\t烽火地带新玩法：极星守望。完成前置任务同队友扮演德穆兰和首领卫队，获取专属限定奖励与首款可组装收藏品。\n7.\t新武器：汤姆逊冲锋枪，使用.45口径弹药；MDR突击步枪，使用7.62*51mm口径弹药\n8.\t新载具：LSV两栖全地形车\n\n二. 新赛季通行证\n1. 赛季通行证开启时间：9月4日更新完成后\n2. 主要奖励包含：新干员-旅人（免费线解锁）、骇爪-骇客少女；骇客少女-K416突击步枪；星座纵横-AKM突击步枪、M700狙击步枪、M249轻机枪；少女判客-SMG-45冲锋枪、Mini-14射手步枪、ASh-12战斗步枪；骇客少女-防空车；骇客-反坦克地雷；赛季安全箱(2*2/2*3)、图灵砖、大量三角券、物流凭证及海量战备物资、武器经验卡等\n3.奖励调整：【通行证】4级子弹自选包、【通行证】5级子弹自选包、【通行证】高级子弹自选包中将新增当前赛季可制造的赛季限定子弹；【通行证】医疗物资自选包、【通行证】物资自选包中新增“特别补给包”可供选择，“特别补给包”开启后有概率获得“扫拖一体机器人”\n\n三.新赛季活动更新 \n1. S10赛季任务线进度重置：将重置并清空所有S10赛季任务线进度；过往赛季获取的【顶级安全箱赛季权限】，以及【安全箱体验卡】（不论是否使用）将全部失效无法再使用。\n2.S11赛季任务线更新：S11赛季全新赛季任务线开启，等待干员们挑战。\n3.S11任务减负(短赛季限定)：\na. 第二阶段主线任务星数要求减少；\nb. 第二阶段战斗型任务减少；\nc. 第二阶段支线任务更早解锁，丰富可选任务；\nd. 第三阶段移除潮汐监狱任务，支线任务更早解锁；\ne. 收集者需提交次数降低：获取顶级安全箱需提交1次，获取顶级安全箱典藏外观需提交5次。\n\n四.曼德尔砖-疾光魅影\n1. 曼德尔砖-疾光魅影系列上线，对局即有机会获得曼德尔砖！\n2. 产物包含：疾光魅影-MK4冲锋枪、黑银先锋-AS VAL突击步枪、AUG突击步枪，P90冲锋枪；管弦乐队-CAR-15突击步枪、UZI冲锋枪、R93狙击步枪、AS VAL突击步枪；征服者-M16A4突击步枪、G18、S12K霰弹枪、M7战斗步枪；夜穹-M16A4突击步枪、FS-12霰弹枪、腾龙突击步枪、AS VAL突击步枪、SMG-45冲锋枪；龙焱-SKS射手步枪、R93狙击步枪、Vector冲锋枪、PKM通用机枪、S12K霰弹枪。\n3. 往期曼德尔砖不会下架，仍会以较低的概率在新赛季掉落；但超过5个赛季的曼德尔砖将以极低概率产出，进入稀有掉落，本赛季更新后棱镜攻势S2将进入稀有掉落。\n4. 不同系列曼德尔砖保底进度独立计算。\n5. 量子密钥可开启所有系列曼德尔砖。\n6. 市场仍然可以交易过往系列曼德尔砖及外观。\n7. 典藏外观重组可使用不同系列外观当做材料，但合成外观根据合成材料随机生成，同系列外观越多合成该系列外观概率更高。全部材料均为同系列外观，必定合成该系列更高品质外观。\n\n五. 局内战斗&关卡优化\n【全模式】\n1.角色视角&操控相关优化:\na.新增拖拽救援：救援队友时可拖拽移动被救援者。烽火地带模式中，仅德穆兰小队默认开放拖拽救援能力；在全面战场模式中，所有干员都可以使用拖拽救援，默认交互按键为H，并可自定义修改按键；\nb.移动端新增声纹支持透明度调整，可前往自定义操作界面设置；\nc.移动端新增“背包/地图界面维持移动状态”设置，开启后可在背包或地图界面时保持移动状态。\n【烽火地带】\n1.AZ3优化：优化了老科学院植被对交战的影响。\n2.航天基地优化：\na.黑室或浮力室随机新增拉闸点，与原蓝室，离心机室闸点合计共三个拉闸点，拉下其中两个闸点即可开启直升机撤离点；\nb.调整了蓝室拉闸点的位置；\nc.调整了浮力室注水后的水位；\nd.新增德穆兰小队专属撤离点。G.T.I.阵营击败玩家德穆兰后，可于其夹层获取其特殊权限卡，从而使用其专属撤离点。\n3.局内地图信号屏蔽区优化：\t\na.长弓溪谷雷达站屏蔽区开放；\nb.航天基地拉闸点与撤离点屏蔽范围缩减；德穆兰小队不受屏蔽区影响。\n【全面战场】\n1.自由修建：\na.新增可修建工事-火神炮；\nb.自由修建工事中岸防炮、防空炮、火神炮的底座现在可被破坏。\n2.固定武器调整：\na.修复了火神炮在特定情况下出现旋转卡顿的问题；\nb.修复了可全向旋转的岸防炮在特定情况下出现旋转卡顿的问题；\nc.优化了岸防炮的俯角，俯角调整为-15°；\nd.攀升攻防:区域B防守方新增火神炮。\n3.胜者为王模式新增王牌标记：对局内具有突出贡献的玩家可获得对应的局内标记。\n4.余震：降低了中小地震带来的镜头晃动效果。\n5.克劳狄斗兽场-攻防：\na.调整了据点A的占领范围；\nb.修复了防守方从A区域撤离至B区域时倒计时过短的问题；\nc.调整了区域B,C,D据点的重新部署位置；\nd.调整了区域C边界线；\ne.调整了区域D进攻方载具的部署位置。\n6.断轨-占领：优化了区域B，区域C的重新部署位置。\n7.烬区-攻防演练：修复了部署至队友身旁时提示空间不足的问题；\n8.攻防&胜者为王载具投放调整：\na.摩格旧城区：进攻方区域B和区域C投放低兵力值刷新的LSV两栖全地形车；\nb.暴风眼：移除区域A低兵力值刷新的战斗快艇，移除区域B低兵力值刷新的AAV两栖装甲车，移除区域E兵力值刷新的AAV两栖装甲车；新增区域A，区域B，区域E低兵力值时刷新的LSV两栖全地形车；\nc.断层：移除区域A刷新的ORV突击车和Losv越野车，新增LSV两栖全地形车；\nd.攀升：区域A的LAV-AA防空车的部署位置改为动态部署。\n\n六. 系统优化（烽火地带&全面战场）\n【烽火地带】\n1. 新增常驻收集品：\na.红色品质：阿尤尔咖啡机、鱼月徽权杖首；\nb.金色品质：起舞的女郎挂饰；\nc.蓝色品质：医用吻合器、无名氏诗集、证物光碟。\n2.新增高价值物品检视：印象派名画、浮力补偿设备。\n3.制式装备券更新：为丰富装备搭配策略，提升玩法多样性，我们将对游戏内各类装备券的可兑换方案进行调整更新。\n4.EDC工具包：行动等级到达17级，且获得至少一个【随身工具】类型道具，可解锁【EDC】工具包功能。可在局外将指定收藏品放入“EDC工具包”，并在对局中随身携带和使用。\n5.配装界面赛季子弹优化：当季限定弹药下架后，配装界面将隐藏未拥有弹药；如仓库仍存有该弹药则不会隐藏，并可以继续添加剩余子弹。\n6.钓鱼：行动等级到达17级，且完成钓鱼任务获得鱼竿后，可解锁【钓鱼】功能。\n【全面战场】\n1.全面战场对局内计分板增加“举报/加好友”按钮。\n2.胜者为王预选指挥官：可在胜者为王玩法大厅勾选竞选指挥官，勾选的玩家在指挥官竞选阶段会自动竞选；匹配时会优先保证攻守双方同时存在预选指挥官，可能会略微增加匹配时长。\n3.新玩法:自由战场：允许玩家在胜者为王规则下自由建立房间。\n4.胜者为王模式载具部署请求：部署载具时需要向指挥官审批，同意后方可部署。指挥官本人、历史赛季载具KPM全阵营前八、载具能力评级为金可以直接部署载具，不受此限制；若审批时间内指挥官未响应，则申请将自动批准。\n5.胜者为王模式解锁条件调整：晋升之路达到校官后即永久解锁胜者为王模式。\n6.【胜者集结】将在群星赛季上线：可创建或检索加入心仪的胜者为王队伍；预览或编辑队伍的基本信息与所属人员；查看基于【自由战场】的历史战绩；或向其他队伍发起约战邀请。\n\n\n\n其他更新内容详见游戏内公告",
-    "file_size_bytes": 3235106816,
-    "min_os": "11",
-    "version": "1.201.37117",
-    "release_date": "2024-09-25",
-    "rating": 4.57642,
-    "rating_count": 3600475,
-    "price": "免费",
-    "advisory": "17+",
-    "url": "https://apps.apple.com/cn/app/%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8/id1642894547?uo=4",
-    "fetched_at": "2026-09-15T00:36:35+08:00"
-   }
-  },
-  {
-   "name": "王者荣耀",
-   "boards": [
-    "ios/国区免费榜"
-   ],
-   "ranks": {
-    "ios/国区免费榜": 3
-   },
-   "category_l1": "游戏",
-   "category_l2": "",
-   "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
-   "first_seen": "2026-08-21",
-   "appearances": 25,
-   "best_rank": 1,
-   "profile_value": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   },
-   "media": {
-    "matched": true,
-    "match_score": 1.0,
-    "match_name": "王者荣耀",
-    "country": "cn",
-    "track_id": 989673964,
-    "seller": "Shenzhen Tencent Tianyou Technology Ltd",
-    "genres": [
-     "游戏",
-     "娱乐",
-     "动作",
+     "模拟",
      "策略"
     ],
     "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/cb/c3/f8cbc3ea-678d-e931-7020-59bd87625eb0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/b0/2c/98b02c56-4555-6eaa-4daf-e2248f5b1126/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
     "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/c1/23/44c12367-356a-41ec-b7e1-fbd162d5821a/1_U5fc3_U9b54_U516d_U8033.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/c3/d5/a2c3d5f0-5c79-4b36-3270-049fb1ac2c86/2__U8d75_U6000_U771f_-__U9022_U6625_U5e8f.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/e1/e8/39e1e8d7-804f-b018-123f-900c0c587014/3_U6241_U9e4a.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/fa/d6/f1fad63c-3278-d7b6-1d4e-c10af04c3595/4__U827e_U7433-_U7e41_U590f_U7b3a.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/39/c7/5539c71d-b513-63e9-5ba1-e7206eefc656/5__U91d1_U8749-_U6d4e_U4e16_U7985_U5fc3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/4a/e9/ec4ae9ce-79d2-a28e-dd9c-343a1219a308/1__U5b59_U609f_U7a7a_U547d_U683c__U00b7__U5fc3_U9b54_U516d_U8033.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b3/9c/fd/b39cfd6c-2791-b460-27aa-5d6b0a8439c6/2__U8d75_U6000_U771f_-__U9022_U6625_U5e8f.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/e2/ef/11e2ef9f-87b5-180c-00c4-e7260c9a74bf/3__U6241_U9e4a.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/94/fd/3b94fdde-df4e-1a57-3d0b-3ebdb7fc386d/4__U827e_U7433-_U7e41_U590f_U7b3a.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/2a/8c/442a8c6e-b1f1-6de2-c643-9b544f2d8126/5__U91d1_U8749-_U6d4e_U4e16_U7985_U5fc3.jpg/626x1112bb.jpg"
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/1f/75/1b1f7501-3029-f8a0-0d94-5a0186893a57/1_1242x2688.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/4d/83/4d4d8322-36be-5d60-8c69-396cd0ec7f43/2_1242x2688.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/35/10/57/35105758-399c-bf3e-7e50-01d9622f52da/3_1242x2688.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/92/41/26924138-3e25-9f0d-336f-d43e115e27d1/4_1242x2688.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/ed/f3/e2edf3d7-4505-a8cf-6d6b-0e9126df74f3/5_1242x2688.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/c7/be/65c7be64-3615-2fb9-4b6d-87dbbed7008c/6_1242x2688.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/0c/ae/190caec9-6645-5665-56fa-fcc79b7ad3c7/1_2048x2732.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/b1/a9/70b1a9b0-7d74-f21a-2acc-3643d10d7c2b/2_2048x2732.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/f6/b4/30f6b4cc-576d-3277-8b72-1695483f145b/3_2048x2732.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/23/29/c5232996-0ed5-eb61-e795-dfe78c70ebd6/4_2048x2732.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/08/da/4b08dae3-fbfe-d088-3877-8e541e72e578/5_2048x2732.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/fe/fb/e6fefbbd-548c-e2e8-c7ad-4b0f2ae8b3a5/6_2048x2732.jpg/626x1112bb.jpg"
     ],
-    "description": "王者荣耀：5v5团队公平竞技游戏\n【游戏介绍】\n《王者荣耀》是腾讯第一5V5团队公平竞技手游，国民MOBA手游大作！5V5王者峡谷、公平对战，还原MOBA经典体验；契约之战、五军对决、边境突围、王者模拟战等，带来花式作战乐趣！10秒实时跨区匹配，与好友开黑上分，向最强王者进击！多款英雄任凭选择，一血、五杀、超神，实力碾压，收割全场！敌军即将到达战场，王者召唤师快来集结好友，准备团战，就在《王者荣耀》！\n【游戏特色】\n1、5V5越塔强杀！开团\n5V5经典地图，三路推塔，呈现最原汁原味的对战体验。英雄策略搭配，组建最强阵容，默契配合极限666！\n2、随时开团！10分钟爽一把！\n适合手机的MOBA游戏，10分钟享受极致竞技体验。迂回作战，手脑配合，一战到底！人多，速来！\n3、团队公平竞技！好玩不坑拼实力！\n凭实力carry全场，与团队共赴荣耀。不做英雄养成，不设体力，还你最初的游戏乐趣！\n4、指尖五杀！风骚走位秀操作！\n微操改变战局！手速流？意识流？看我风骚走位，力压群雄，打出高端操作！收割，连杀超神！\n\n【特别说明】\n在游戏《王者荣耀》中，用户登录时可以选择“与QQ好友玩/与微信好友玩/游客登录”，三种登录方式在iOS设备上的游戏数据不互通（包括等级、钻石、金币等）。用户在游戏中购买的游戏代币“点券”仅限在本应用中使用。腾讯的虚拟货币，比如Q币、Q点无法在本应用中使用。\n游戏隐私政策详情，可查阅https://rule.tencent.com/rule/d277ee20-2709-4cd5-882b-cbd485753346\n【联系我们】\n如果您喜欢我们的游戏，欢迎随时给我们评价、留言。\n官方网站：http://pvp.qq.com\n官方微信：heromoba",
-    "release_notes": "【版本更新内容】\n1.新赛季-不拘命格：S44新赛季现已开启。命格初启，英雄具有更多可能性——同源可异路，殊途亦重逢。当大圣被分化的神魂化为心魔六耳，命运便不再只有一种写法。不拘命格，自定归途。\n2.孙悟空命格-心魔六耳：全新英雄命格企划开启，孙悟空命格【心魔六耳】上线。昔年佛祖忌惮孙悟空之力，取其半数神魂化为心魔六耳，欲借此驯化孙悟空。知晓真相的心魔六耳不愿沦为傀儡，挣脱束缚，与孙悟空重新合二为一。\n作为打野位的他以连环棍法压制敌人、以分身化形进退自如，能量越满锋芒越盛。不自由，毋宁死，向不公挥棒，命途由自己书写。\n孙悟空与心魔六耳支持单独禁用、选取，可共存于同一对局。心魔六耳独立累积荣誉与排行，拥有单独皮肤体系，与孙悟空分开收集展示。\n3.新改动-扁鹊玩法升级：英雄形象与玩法同步升级，被动新增【起死回生】技能，可复活身边阵亡队友，生死之间，妙手回春。二技能重做为全新毒球，造成伤害与眩晕，毒球穿过一技能毒液区域可获得强化，飞行速度、距离、伤害、眩晕时间与爆炸范围全面提升；三技能新增斩杀机制，目标生命低于斩杀线时触发提示，大招可直接残血收割，对战体验升级。\n4.新赛季装备-无象神器：所有英雄、职业的自适应装备。购买该装备后自动适配自身主职业属性，释放大招触发专属技能效果，出装选择更丰富。\n5.新战令-岁景四时：S44赛季全新战令来袭，艾琳·繁夏笺、赵怀真·逢春序即将上线。\n艾琳·繁夏笺：S44赛季战令进阶版30级可领取；\n赵怀真·逢春序：S44赛季战令免费版5级可领取，40级可免费提升至史诗品级。\n6.新升级-巅峰赛体验升级\n①巅峰赛身份体系强化，以分数与排名为依据，巅峰之路被划分为1500、1800、2100、总榜前10000、总榜前100五个阶段，每个分段搭配专属视觉标识，每次实力进阶，都清晰可见；\n②定级赛上线，巅峰积分1200分及以下的玩家可参与定级赛，定级赛期间更注重单局表现，失败扣分减少、胜利额外加分，助力新老玩家平稳开启巅峰之路；\n③万强赛禁选流程升级，新增擅长分路英雄预设，禁选阶段同步展示队友擅长英雄信息，沟通更高效、策略更清晰。\n7.新优化-农场体验优化：农场等级上限提升至100级，新增20种作物（含4种全新英雄作物）。新增加速道具【流光沙漏】，向作物灌注加速能量，自由掌控作物成熟节奏，从容把握收获时段。\n8.基础体验优化：\n①局内聊天体验优化：新增组队聊天频道，文字消息仅组队队友可见，局内交流更私密。聊天框视觉升级，频道以颜色标签区分，表情支持框内直接显示，信息辨识更清晰；\n②赛前交流升级：选将阶段支持展示英雄战力、巅峰评分、近期高光战绩等数据，可随心切换；新增限时套系接龙表情，同队玩家依次发送系列表情可触发专属彩蛋，互动趣味更丰富；选将定制系统升级，“我的搭配”新增灵宝槽位，支持为每个皮肤配置专属灵宝并自由切换；天幕支持同时穿戴并释放最多5个，搭配自由度更高；\n③对局环境优化：排位赛违规玩家被踢出时额外扣除排位积分，同局无违规队友均可领取积分补偿；\n④信号与小地图优化：新增拖动信号预表现，防御塔与野怪图标升级，新增暗影之径效果，信息传达更明确；\n⑤装备描述升级：装备描述整体刷新，新增合成路径展示，支持折叠，信息查阅更便捷；\n⑥局内自定义设置功能优化，对局操作更省心、战场信息获取更及时。\n9.新升级-娱乐模式升级：原娱乐模式升级为玩法大厅，无限乱斗等经典娱乐玩法与此前分散在活动中心中的各类休闲玩法统一归入，一站式体验多元内容；新增推荐模块与分类页签，玩法类型与亮点信息一目了然，查找与开局更便捷；",
-    "file_size_bytes": 3434271744,
-    "min_os": "11.0",
-    "version": "11.4.1.1",
-    "release_date": "2015-10-28",
-    "rating": 3.25593,
-    "rating_count": 15008362,
+    "description": "《奔奔王国》是一款塔防策略与模拟经营玩法结合的中世纪题材的游戏。\n\n游戏的故事发生在虚构的黑暗时代，曾辉煌的国王城堡已在叛乱战火中化为焦土。废墟之上，势力割据的纷争与荒野野兽的威胁交织，流离失所的民众在困境中挣扎，每一步都潜藏着未知的危险。玩家将以领主之名，在这片动荡的土地竖起旗帜，凭借智慧掌控资源命脉，以策略突破强敌防线，于势力纷争与生存危机中开辟生路，让衰败王国在引领下重焕生机，最终以谋略与决断书写属于自己的统治传奇。\n\n核心玩法\n- 抵御叛军入侵\n叛军的进攻从未停歇，战备状态必须时刻保持。城镇是幸存者最后的壁垒，承载着不容失守的希望。需以精准防御策略部署防线，让防御塔与路障成为抵御叛军的坚实屏障，用坚守换得一线生机。\n\n- 居民分配系统\n游戏设有严谨的居民管理体系，工人、厨师、医生等角色各司其职又相互关联。需实时关注居民的健康状况与情绪状态，稍有疏忽便会影响效率，唯有合理调控才能让城镇持续稳定运转。\n\n- 领主法令\n法律与秩序是乱世中的规范与依托，更是维系文明存续的重要根基。领主颁布的每一条法令都具有重要影响，或震慑不法，或凝聚人心，在规则之下推动社会稳步前行。\n\n- 资源争夺\n黑暗时代的资源尤为珍贵，木材凝聚着辛劳，粮食饱含着汗水。需与其他玩家展开激烈竞争，以谋略抢占资源点、用力量守护补给线，每一分资源都是生存的关键。\n\n- 科技研发\n散落的文明碎片蕴含着改变局势的力量，从武器的改良到城防的加固，每一次科技突破都意味着更强的战力或更稳固的防御。唯有积极挖掘这些碎片，才能让城镇在挑战中不断发展壮大。\n\n【关注我们】\n《奔奔王国》官网：https://benbenwangguo.cn/\n微信公众号：微信搜索“奔奔王国”",
+    "release_notes": "【新增内容】\n1、狩猎巨熊：新增个人伤害成就奖励，游戏更新后，参与狩猎巨熊的领主可获新增的个人历史总伤害成就奖励，收益更丰厚（上述优化将在更新后生效，更新前对【暴怒巨熊】造成的伤害不纳入统计，建议您合理安排游戏的时间）；增加陷阱开启自动预约功能，启用后将根据最近一次开启的时间，在冷却时间结束后自动开启狩猎巨熊。\n2、新增巨兽：全新8级巨兽登场——泰坦巨鸟现身王国！它拥有毁灭性攻击，不仅是领地的守护者，更是对领主实力的极大考验！（王国达到指定进度即可解锁）\n3、新增功能：活动日历提醒——神剑争夺和三盟争霸活动新增日历提醒按钮，您可选择在符合条件的设备将战场开启时间添加至您的设备日历，便于及时参与。\n\n【优化与调整】\n1、官职功能优化：新增取消官职申请功能，并且当领主就任官职的任职冷却时间结束后，可主动卸任当前官职，操作更灵活。\n2、迁城优化：【领地迁城】和【高级迁城】支持在进入迁城状态后手动点击空地选择落脚点，同时优化了拖动操作，迁城状态下选中非城镇区域拖动可移动野外地图，提升功能便捷。\n3、英雄转盘优化：新增英雄切换功能，更新后，领主可以在当前可抽取的英雄和前两代该活动中可抽取的英雄之间进行切换，为您提供更多选择空间。\n4、野外搜索优化：首次击败野兽后，搜索野兽的等级将默认至下一等级，提升操作体验；当城镇附近不存在符合条件的巨兽等级时，搜索等级范围将自动移除对应等级选项，筛选结果更精准。\n5、联盟争霸赛优化：战斗回放支持点击【我的战斗】后可快速切换至自身所在分路视角；部队详情新增战争增益与士兵总览展示，战场信息查看更全面。\n6、英雄招募优化：免费史诗招募的等待时间缩短30分钟，以提升您的招募体验。\n7、狩猎巨熊优化：预约功能优化，支持预约陷阱冷却结束时的准点时间，无需额外延后5分钟，预约时间更可控。\n8、王国移民优化：移民确认弹窗界面的确认按钮在冷却期增加倒计时显示，状态更清晰；王国信息界面移民条件实力一栏新增领主当前实力显示，提示更直观。\n9、维京人的战争优化：【成员】按钮提前开放，活动期间界面将持续显示该入口，支援更高效；增援盟友编队优化，最大可出兵数量不高于援助剩余容量，调度更清晰。\n10、神剑争夺优化：对战场内的建筑发起集结时，出征界面新增本地时间的显示按钮，便于规划集结时间。\n11、邮件优化：个人战争、集结战争的进攻、防守邮件中，新增胜利与失败状态的差异化图标展示，更清晰直观。\n12、三盟争霸优化：优化了活动开启通知邮件标题，并且点击【前往】按钮即可跳转到活动界面，参与路径更顺畅；军团报名成功后，主界面将直接显示军团参赛的具体时间，时间信息更清晰。\n13、增益优化：左上角增益新增官职增益持续时间显示，查看更方便；采集速度增益描述文本增加生效场景，信息更清晰；训练士兵、科技研究、治疗士兵及建筑升级界面的增益提升途径中，当英雄技能已满级时新增飘字提示，不再跳转至英雄界面，操作更流畅。\n14、活动积分进度展示优化：新增活动积分进度展示功能，当玩家完成相应活动操作时，游戏界面将展示各活动阶段奖励积分的获取进度，适用活动包含联盟总动员、最强领主、至高领主以及最强王国。\n15、英雄优化：补全了部分英雄信物的来源展示，【战斗的嘉奖】宝箱可以在英雄信物获取更多的途径中便捷使用；阿玛迪斯【天生领袖】与赫尔加【巨鹿之力】技能描述优化，技能效果保持不变，说明更加清晰易懂。\n16、失落的遗迹优化：报名后，活动界面新增战场开启时间展示，时间信息更直观。\n17、联盟优化：新增联盟每周激励宝箱可领取时的表现效果，领取提醒更明显；联盟成员权限详情界面新增【联盟标签】说明，信息查看更清晰。\n18、遗迹争夺优化：通知界面新增活动开启接收提醒设置，当领主所在联盟已报名时可自由选择是否接收通知，信息管理更灵活；报名界面新增要塞与遗迹奖励预览入口，奖励查看更直观。\n19、叛军突袭优化：普通战斗退出后支持选择快速挑战，助力更高效应对叛军突袭！\n20、活动奖励领取优化：最强王国、联盟对决、至高领主的阶段奖励支持一键领取，领取操作更便捷。\n21、特惠周卡及情报月卡优化：当特惠周卡及情报月卡可领取奖励超过一项时，支持一键领取，操作更高效。\n22、推送通知优化：优化了【集结野外巨兽】通知项描述文本，新增【叛军精锐】提示内容，信息展示更完整。\n23、排行榜优化：优化排行榜规则说明文本内容，增加更新时间与排序规则的说明，信息更完善。\n24、决战王城优化：优化了日历中决战王城活动的描述文本，活动说明更详实。",
+    "file_size_bytes": 1073278976,
+    "min_os": "12.0",
+    "version": "1.7.6",
+    "release_date": "2025-09-07",
+    "rating": 4.77216,
+    "rating_count": 51277,
     "price": "免费",
-    "advisory": "9+",
-    "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/id989673964?uo=4",
-    "fetched_at": "2026-09-15T00:36:36+08:00"
+    "advisory": "12+",
+    "url": "https://apps.apple.com/cn/app/%E5%A5%94%E5%A5%94%E7%8E%8B%E5%9B%BD/id6748527570?uo=4",
+    "fetched_at": "2026-09-15T21:48:35+08:00"
    }
   },
   {
-   "name": "塔塔冒险队",
+   "name": "手机反恐特别行动",
    "boards": [
-    "ios/国区免费榜"
+    "douyin/畅销榜"
    ],
    "ranks": {
-    "ios/国区免费榜": 7
+    "douyin/畅销榜": 19
    },
-   "category_l1": "游戏",
+   "category_l1": "1",
    "category_l2": "",
-   "publisher": "上海莉莉丝计算机",
-   "first_seen": "2026-07-16",
-   "appearances": 10,
-   "best_rank": 1,
+   "publisher": "成都疾风劲趣科技有限公司",
+   "first_seen": "2026-06-30",
+   "appearances": 56,
+   "best_rank": 5,
    "profile_value": "",
    "seed": {
     "gameplay_desc": "",
@@ -691,59 +183,63 @@
    "media": {
     "matched": true,
     "match_score": 1.0,
-    "match_name": "塔塔冒险队",
+    "match_name": "手机反恐特别行动",
     "country": "cn",
-    "track_id": 6759896881,
-    "seller": "Shanghai Lilith Computer Technology Company Limited",
+    "track_id": 6448353442,
+    "seller": "TenBillion Games Co,. Ltd",
     "genres": [
      "游戏",
-     "卡牌",
-     "角色扮演"
+     "冒险",
+     "动作"
     ],
     "genre": "Games",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/ce/74/bece7424-8b0c-4ff1-ff0c-8d4c3e114966/AppIcon-Mainland-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/5b/3f/ed5b3fc0-13ff-a9af-c730-3bd788e21d73/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
     "screenshots": [
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/a2/09/6da209de-dd2a-a72b-ddc6-459f9d89bcf0/1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/40/7f/fc407fe5-f776-eafd-9a04-8c7ced7044ce/6.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/98/dd/98/98dd9855-2b02-fc26-dc19-a3cb595dff24/2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/72/a8/11/72a81199-a63d-6114-1e4d-59267b70ae84/3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8b/b9/e9/8bb9e9e0-1141-b266-f5e0-10d38329cf2f/4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/97/cc/b697cccd-c8af-1629-ea9a-643b2cf8f843/5.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/ca/3e/12ca3eb0-151c-b3d0-7dff-40cef579b3c2/1.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/11/2d/07112d83-1668-6cee-fb45-1b5f524fceee/6.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/4e/f0/254ef073-ed8c-6b5f-8ddb-234fc7ed19aa/2.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/18/eb/7018ebc0-ed72-d6cd-0d34-5344a6de2738/3.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/04/19/fd041944-3ec2-09e7-92de-28f7e50ed1b9/4.jpg/626x1112bb.jpg",
-     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/a9/13/c6a9138e-5aef-92e6-aaef-96f3c7f30cf2/5.jpg/626x1112bb.jpg"
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/25/63/94/256394a1-12d4-caad-cb77-faa732082f5b/0b63a73d-0904-438b-b882-9281e90587c4__U5272_U8349.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/dd/ad/11/ddad11f8-e092-6c67-fb42-3614c007a94b/36d0836b-a6fa-4453-94cb-afaa57142313__U6b66_U5668.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/6f/62/c0/6f62c087-04ca-5798-8743-1bc6adab258b/55ba0f6e-69ac-405f-8134-75e5aa94549c__U73a9_U6cd5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/85/d4/b9/85d4b999-ef0d-e29c-173b-4fee0af8f2d5/8f5cdf6f-2357-4db8-9c17-63c58d3a92d2__U673a_U5668_U4eba_1242_U00d72208.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/76/3e/6c/763e6c53-d47e-bcaa-1e97-87833659a18b/eb23dfaf-d83b-49c3-a04c-384f3509696e__U9996_U9886.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/44/ea/21/44ea2184-0724-0a31-5329-69ad4961742d/88011bd1-53c0-4b4c-a10a-a2e1915a6627__U8bcd_U6761.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/c2/dd/fd/c2ddfd0e-dece-045f-575c-d8f03dc29bef/e894c362-a840-4932-b06e-54c977090799__U7279_U6548.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/cf/0d/b2/cf0db2a5-c16e-898d-3716-2d92a61f9d68/b9f889fe-633f-4aed-9dfc-fdd852d5b3d2__U82f1_U96c4_1242_U00d72208.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/9f/de/52/9fde52fd-4e45-505e-74c1-6690945eb6cf/3b046351-31d2-41ca-b9be-3986c8fbdc4c__U5272_U8349.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/22/4d/d7/224dd770-69bc-b7fa-8c72-6900081c8062/07abf8d2-8241-469b-a78b-19f8cd3f0d5f__U6b66_U5668.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/c4/66/11/c46611ca-0cad-80e2-a57b-1e474d5e4bd8/4dcd4677-dcc5-4814-bcdb-be92703f3494__U73a9_U6cd5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/1a/5e/cd/1a5ecd0b-f695-2037-bd05-23f1cb2e0ce6/93f9c2a9-552f-4777-91c5-494e20dcad26__U673a_U5668_U4eba_2048_U00d72732.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/ba/62/58/ba62581f-c602-f0e8-4657-62e8d72b6c48/8ab79dd7-af12-4d49-a081-371224d26b50__U7279_U6548.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/90/f3/4d/90f34d63-efab-3f35-3829-13825c801e6a/5e578da7-f49f-45fd-af6f-83f73422b711__U9996_U9886.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/50/25/04/5025048a-f465-08d8-1c1a-0299afe9f2b0/d4ac90e9-c8f8-452e-81af-7de34db93f6a__U8bcd_U6761.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/ec/4f/59/ec4f5962-1f5f-4511-5531-ce77ac49b3da/2af321df-0704-476e-ade3-25f836f46874__U82f1_U96c4_2048_U00d72732.jpg/626x1112bb.jpg"
     ],
-    "description": "【收集！100+塔塔轻松拿下！】\n拒绝千篇一律的设计——流口水的火果蛙、委屈脸的鸭梨……个个萌度爆表。新玩家首月就有机会收集所有塔塔！\n\n【进化！萌度爆表但实力超标！】\n喂食，进化，实力增强！一路到霸气四阶状态！还能随机触发闪光形态，看看你能解锁多少？\n\n【对战！部署阵营，和臭臭一较高下！】\n属性相克、阵型部署、流派组合任你玩转，碾压蜂拥而至的臭臭大军！\n\n【建造！为塔塔打造专属小家】\n一砖一瓦，帮塔塔们打造一座暖意融融的小家！对了，尝试下和它们互动，比如把猫冰放进泳池里看看？",
-    "release_notes": "新增内容\n1. 新增岩元素塔塔：干脆面，拥有专属臭潮来袭技能。\n2. 新增四阶进化：潋滟水蝶（水）、一塌糊驼（草）。\n3. 营地新增昼夜交替效果及\"青竹街巷\"建筑主题。\n4. 新增活动：狂欢盛典、长跑派对\"漂流大赛\"。\n5. 钓鱼大赛、海岛夺金新增循环奖励。\n6. 首领挑战饼干奖励提升，好友上限提升至80。\n另有卡片画册筛选优化、臭潮来袭特效升级等问题修复。",
-    "file_size_bytes": 406107136,
+    "description": "这个恐怖的世界充满了危机，小心些，恐怖的怪物在你踏入这个世界时就会开始攻击你。\n你身为一名英雄，在不断的探索并寻找真相的过程中，会有伙伴加入你的队伍。\n尝试在这个恐怖的世界存活下来吧，勇士！\n拿起你的武器，消灭阻挡你脚步的怪物，迈向远方的黎明！\n\n游戏特色：\n-单手操作，释放你的双手并消灭恐怖的怪物\n-上百种Roguelike技能搭配，并且拥有炫酷的终极技能\n-各种不同的场景，带来身临其境的体验\n-多种多样的强大BOSS，正妄想阻挡你前进的步伐",
+    "release_notes": "新内容&养成：\n1.赛季主线玩法\n2.基因系统\n3.异能重塑系统\n4.单兵装甲系统\n5.称号系统\n6.新武器-零度核心（S冰步枪）\n7.新副武器-钢铁风暴\n8.新增两名红色、两名橙色幸存者\n9.新增赛季收藏品、夏日收藏品（缤纷饮吧、冰爽货柜、惬意角落）\n10.新增红色战车技能",
+    "file_size_bytes": 1406353408,
     "min_os": "13.0",
-    "version": "0.47.1",
-    "release_date": "2026-09-04",
-    "rating": 4.86428,
-    "rating_count": 11509,
+    "version": "1.5.6",
+    "release_date": "2024-01-18",
+    "rating": 4.77836,
+    "rating_count": 59758,
     "price": "免费",
-    "advisory": "12+",
-    "url": "https://apps.apple.com/cn/app/%E5%A1%94%E5%A1%94%E5%86%92%E9%99%A9%E9%98%9F/id6759896881?uo=4",
-    "fetched_at": "2026-09-15T00:36:38+08:00"
+    "advisory": "9+",
+    "url": "https://apps.apple.com/cn/app/%E6%89%8B%E6%9C%BA%E5%8F%8D%E6%81%90%E7%89%B9%E5%88%AB%E8%A1%8C%E5%8A%A8/id6448353442?uo=4",
+    "fetched_at": "2026-09-15T21:48:37+08:00"
    }
   },
   {
-   "name": "トップロード",
+   "name": "Cube Land Puzzle Game",
    "boards": [
-    "ios/日区免费榜"
+    "android/美区免费榜"
    ],
    "ranks": {
-    "ios/日区免费榜": 1
+    "android/美区免费榜": 6
    },
-   "category_l1": "ゲーム",
+   "category_l1": "Games",
    "category_l2": "",
-   "publisher": "GAME SPARK PTE. LTD.",
+   "publisher": "Rotatelab Yazilim ve Bilisim A.S.",
    "first_seen": "2026-08-21",
    "appearances": 25,
-   "best_rank": 1,
+   "best_rank": 6,
    "profile_value": "",
    "seed": {
     "gameplay_desc": "",
@@ -752,8 +248,113 @@
     "developer": ""
    },
    "media": {
-    "matched": false,
-    "fetched_at": "2026-09-15T00:36:41+08:00"
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Cube Land Puzzle Game",
+    "country": "us",
+    "track_id": 6757154335,
+    "seller": "ROTATELAB YAZILIM VE BILISIM TEKNOLOJILERI SANAYI TICARET ANONIM SIRKETI",
+    "genres": [
+     "Games",
+     "Puzzle"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/47/f8/d847f8d8-9b32-27f1-54bd-2dca7100908f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5b/79/bf/5b79bf2e-e1ae-7ded-ab24-5cbe73c390ae/1320x2868_1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/bb/89/8bbb8944-6d24-c0fd-b461-d77655410406/1320x2868_2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/3f/69/a23f695a-6b93-ab1a-f9c6-805e696033ab/1320x2868_3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/64/48/326448dd-49d1-8ec8-106d-681e2f883cf0/1320x2868_4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/8c/72/3f8c7275-d5d3-703c-ff02-77ccd3d60701/1320x2868_5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/6c/71/9f6c710f-55e2-765e-c391-e07e844c167f/1320x2868_6.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/ed/64/0fed6492-8c01-a99e-5599-34da2a21a2c2/2048_x_2796_01.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/cb/84/4ccb8461-8925-c18b-fa93-7083d1d52dd3/2048_x_2796_02.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/71/2c/4d712c4c-b432-6f1e-8e50-bc3403da1c97/2048_x_2796_03.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/e8/fa/e0e8fa74-b5d8-b177-e7e2-f57777f3603e/2048_x_2796_04.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/df/ac/dddfacf3-61e8-6f3d-376e-5aeff1b86f68/2048_x_2796_05.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/40/7a/6d407a7e-bcab-6004-f643-652dd3cd3c85/2048_x_2796_06.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/83/88/f5838865-23df-0c20-e18b-efa590d6d164/2048_x_2796_07.png/626x1112bb.jpg"
+    ],
+    "description": "Blast your way through colorful cube worlds! Cube Land Puzzle Game is a satisfying 3D block puzzle where every shot counts.\n\nAim color matched blasters at cube structures and watch them crumble piece by piece. Plan ahead, pick the right blaster at the right moment, and clear each level with style.\n\nWHY YOU'LL LOVE CUBE LAND PUZZLE GAME\n• Satisfying destruction, every block blast feels great\n• Easy to pick up, genuinely clever to master\n• Hundreds of handcrafted 3D cube puzzles\n• Relaxing pace with no time pressure\n• Play anywhere, works offline\n\nThink smart. Aim true. Blast it all.\nDownload Cube Land Puzzle Game and start clearing your first cube world today!",
+    "release_notes": "Performance improvements and bug fixes.",
+    "file_size_bytes": 381954048,
+    "min_os": "15.0",
+    "version": "0.5.1",
+    "release_date": "2026-01-18",
+    "rating": 4.66246,
+    "rating_count": 25810,
+    "price": "Free",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/us/app/cube-land-puzzle-game/id6757154335?uo=4",
+    "fetched_at": "2026-09-15T21:48:40+08:00"
+   }
+  },
+  {
+   "name": "Block Craft 3D:Building Game",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "ranks": {
+    "android/美区免费榜": 10
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Wildlife Studios",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 6,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 0.973,
+    "match_name": "Block Craft 3D: Building Games",
+    "country": "us",
+    "track_id": 981633844,
+    "seller": "Wildlife Studios, Inc",
+    "genres": [
+     "Games",
+     "Simulation",
+     "Roleplaying",
+     "Entertainment"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/da/80/e6da80a1-ccf2-a7cc-e301-7049467d42bd/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/2b/18/c2/2b18c2f5-a8d3-42a7-c3f5-2046aad374e4/92aaa1e1-9321-4aa6-bb75-33ac02446776_iphone__01__20221010__BC__en__SS__IPHONE__different_enviroments__I2__03__JM.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/25/4a/0f/254a0f9b-bdcb-63e1-fd68-cd8372e20f63/b3c5c8f3-148d-4299-ba28-49c16acb921e_iphone__02__20220927__BC__en__SS__IPHONE__different_enviroments__I1__01__JM.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/76/1d/5a/761d5a54-35b2-fd6a-11c1-70295af3f1f0/2916c366-8b94-4635-aa03-251966e9daae_20220321__BC__EN__SS__IPHONE__tutorial__I1__01__JM.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/77/c0/2f/77c02fed-1199-b95f-e401-a2e9ff0dbe2c/ce5c8c3c-a3cf-4b23-b514-c16d1e2f9962_20220321__BC__en__SS__IPHONE__gameplays__I1__01__JM.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/06/10/f1/0610f10f-eea0-5c80-f8f4-1f717a1662ec/b8109b2f-d7a1-4af0-bfac-7e447327c773_20220321__BC__en__SS__IPHONE__gameplays__I1__02__JM.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/57/c9/e0/57c9e015-bda5-19fd-9270-6b71cd5a94c4/271bb366-0ce8-46e9-b152-b527021c7918_20220321__BC__en__SS__IPHONE__gameplays__I1__03__JM.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/83/25/e8/8325e83e-fa5d-5c06-af6e-2a3cbee45eb3/8adc0388-3b08-4067-aa59-98cfebe533b9_20220321__BC__en__SS__IPHONE__gameplays__I1__04__JM.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/d6/df/26/d6df2663-3821-5964-c3d8-84ba7e28d848/c8e6bff6-2557-4958-8796-c9707e3a5dbb_6_screenshot_6.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/36/65/b8/3665b8de-cfec-db8f-0961-ddabfa853cff/d35a70aa-99d6-426a-9843-accc092be508_ipad__01__20221010__BC__en__SS__IPAD__different_enviroments__I2__03__JM.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/c7/9c/80/c79c8023-774a-acbd-2001-e7d1771712d3/325753e9-552f-4859-b673-9928dddae09d_ipad__02__20220927__BC__en__SS__IPAD__different_enviroments__I1__01__JM.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/8d/eb/7b8deb70-2fe8-37ee-8e70-3d3591283ee0/ed5c80f2-a49c-4a47-8f70-15615bd8e5b7_20220321__BC__EN__SS__IPAD__tutorial__I1__01__JM.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/58/d6/78/58d6788a-1d0e-aacf-10b0-940086575e82/6426a804-0fd9-41af-8481-86b447cb8919_20220321__BC__en__SS__IPAD__gameplays__I1__01__JM.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/16/1b/bc/161bbc54-f44c-eb54-5098-82d9908069d1/79809c81-4170-48f7-8525-848b472b9305_20220321__BC__en__SS__IPAD__gameplays__I1__02__JM.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/b4/9c/75/b49c7596-8453-eacd-641c-b822d1644be2/4547539e-a421-435e-94d0-2079b96ae39b_20220321__BC__en__SS__IPAD__gameplays__I1__03__JM.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/72/50/06/725006c7-39c0-fe57-82e3-f13307f939c4/289f04fa-317c-4a13-9e7d-2ebcefba4d2f_20220321__BC__en__SS__IPAD__gameplays__I1__04__JM.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/83/4f/16/834f169c-db94-d49e-86f0-2599f610fadf/8553c689-53da-4c44-ae9f-2a73585eadff_20190517__BC__EN__SS__IPAD__gameplay__I1__01__TM.png/626x1112bb.jpg"
+    ],
+    "description": "Craft and grow your own village or build freely in an unlimited open world!\n\n+ Craft anything you like!\n+ Fill the world with your creations!\n+ Build your village!\n+ Help keeping your people happy!\n\nDownload now and don't miss amazing updates!\n\n\n● What our players are saying\n\n- This is a great game. Easy to play and an easy way to kill some time in between appointments. A must have. I spend hours playing this game. Simplistic but addicting! Love it\n\n- Very good game, but completely addicting. Finish whatever you have to before even starting.\n\n- The game is really fun. It's got all awesome graphics. It is definitely the best. I have never played such an awesome game. Whoever doesn't like this game has a problem.\n\n- That's right one of the best games I have ever played so if you are looking for a good time by just sitting around this is the app for you!\n\n- I just downloaded it and it's so fun and addictive I recommend this to people who like games on mobile devices.\n\nPrivacy Policy: https://www.fungames-forfree.com/games/blockcraft/legal/privacy",
+    "release_notes": "Bugfixes and Optimizations",
+    "file_size_bytes": 178615296,
+    "min_os": "13.0",
+    "version": "4.4.2",
+    "release_date": "2015-07-11",
+    "rating": 4.64534,
+    "rating_count": 860226,
+    "price": "Free",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/us/app/block-craft-3d-building-games/id981633844?uo=4",
+    "fetched_at": "2026-09-15T21:48:43+08:00"
    }
   }
  ]

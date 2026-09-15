@@ -1,0 +1,229 @@
+{
+ "schema_version": 1,
+ "name": "奔奔王国",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "福州点点松云网络有限公司",
+  "category_l1": "竞技",
+  "category_l2": "对战",
+  "boards": [
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 19
+  },
+  "platform_app_ids": {
+   "wx": "wxd5a7455f2d66f698"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 65,
+  "best_rank": 5,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2.5D / 3D",
+  "art_style": "2.5D 卡通中世纪，多英雄/建筑/地图（依据点点互动 SLG 技术栈推断 Unity）",
+  "dims": {
+   "engine": 4,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "physics": "战斗为数值自动结算（塔防布阵 + 自动战斗），无刚体/拖拽实时物理手感调校，物理成本最低",
+   "logic": "塔防策略 + 模拟经营 + 4X SLG 耦合：居民分配、领主法令、科技、英雄、联盟、巨兽、国战、赛季，系统极复杂",
+   "data": "多线养成 + 经济循环 + 赛季内容：工人/厨师/医生调配、科技树、英雄信物、官职、联盟、巨兽养成，长线内容资产极重",
+   "server": "强联网实时：联盟争霸、跨服国战、三盟争霸、资源争夺、赛季 LiveOps，服务端架构与运维成本极高"
+  },
+  "asset_notes": "1GB+ 包体意味着海量英雄立绘/建筑模型/地图与长线赛季美术，需成体系 3D/2.5D 资产管线；素材层是主要成本之一",
+  "notes": "整体为 Whiteout Survival 式 4X SLG + 塔防的国产重资本化产品；技术栈推断为 Unity（点点互动同厂牌 SLG 通用），服务型架构与长线运营能力是真正壁垒",
+  "cost_score": 3.75,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "作为领主在废墟上重建城镇、调配居民（工人/厨师/医生）、布防抵御叛军与野兽，同时参与联盟、科技研发与跨服国战；长线滚雪球，单局由无数小决策堆叠成王国成长。",
+  "highlights": [
+   "「居民分配」系统让每个角色各司其职，管理反馈直接映射到城镇运转效率",
+   "塔防布阵 + 自动战斗的低操作门槛，配合国战/联盟的大局博弈形成双循环",
+   "巨兽/泰坦等大型 Boss 与赛季活动提供周期性目标与付费锚点"
+  ],
+  "innovations": [
+   "无实质玩法原创，属「Whiteout Survival 式生存 SLG + 塔防」的国产本地化执行，差异在中世纪题材与塔防+经营耦合"
+  ],
+  "target_user": "25-45 岁 SLG 中重度付费用户，长线用户",
+  "monetization": "IAP 为主（英雄/加速/月卡/礼包），混合少量广告；联盟与国战驱动大额付费",
+  "lifecycle": "长线运营，强依赖赛季内容与买量续命"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "4X SLG 赛道已被 Whiteout Survival 等头部产品锁死，玩法框架与数值模型高度成熟且买量极贵；本作本身即重资本产品（1GB+ 包体、强联网架构、长线 LiveOps），独立复刻成本与风险都极高。",
+  "suggestions": [
+   "若要切入，放弃全盘复刻，只抽取「塔防 + 居民分配」单点做轻量小游戏验证",
+   "用「非中世纪」差异化题材（如末日/科幻）规避直接撞脸",
+   "先做单机竖屏轻 SLG demo 测留存，再决定是否上联网架构"
+  ],
+  "risks": [
+   "SLG 买量 CPI 极高、回收周期长",
+   "头部产品已占用户心智与买量份额",
+   "强联网架构与长线运营需要持续内容产能，小团队难支撑"
+  ],
+  "effort": "300+ 人日（5+ 人团队含后端/运维/策划/美术），重资本不建议小团队"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/b0/2c/98b02c56-4555-6eaa-4daf-e2248f5b1126/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/1f/75/1b1f7501-3029-f8a0-0d94-5a0186893a57/1_1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/4d/83/4d4d8322-36be-5d60-8c69-396cd0ec7f43/2_1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/35/10/57/35105758-399c-bf3e-7e50-01d9622f52da/3_1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/92/41/26924138-3e25-9f0d-336f-d43e115e27d1/4_1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/ed/f3/e2edf3d7-4505-a8cf-6d6b-0e9126df74f3/5_1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/c7/be/65c7be64-3615-2fb9-4b6d-87dbbed7008c/6_1242x2688.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/0c/ae/190caec9-6645-5665-56fa-fcc79b7ad3c7/1_2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/b1/a9/70b1a9b0-7d74-f21a-2acc-3643d10d7c2b/2_2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/f6/b4/30f6b4cc-576d-3277-8b72-1695483f145b/3_2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/23/29/c5232996-0ed5-eb61-e795-dfe78c70ebd6/4_2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/08/da/4b08dae3-fbfe-d088-3877-8e541e72e578/5_2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/fe/fb/e6fefbbd-548c-e2e8-c7ad-4b0f2ae8b3a5/6_2048x2732.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 1GB+（iOS 1073MB），属很重量级，含大量 3D/2.5D 资产",
+   "level": "confirmed"
+  },
+  {
+   "claim": "开发商为福州点点松云/点点互动（世纪华通），4X SLG 通用 Unity 技术栈，故引擎推断为 Unity",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E5%A5%94%E5%A5%94%E7%8E%8B%E5%9B%BD/id6748527570",
+  "https://www.3839.com/a/185101.htm",
+  "https://www.ufcn.cn/article/2072691.html"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2.5D / 3D"
+ ],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "奔奔王国",
+  "country": "cn",
+  "track_id": 6748527570,
+  "seller": "Fuzhou Dian Dian Song He Technology Co., Ltd",
+  "genres": [
+   "游戏",
+   "模拟",
+   "策略"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/b0/2c/98b02c56-4555-6eaa-4daf-e2248f5b1126/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/1f/75/1b1f7501-3029-f8a0-0d94-5a0186893a57/1_1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/4d/83/4d4d8322-36be-5d60-8c69-396cd0ec7f43/2_1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/35/10/57/35105758-399c-bf3e-7e50-01d9622f52da/3_1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/92/41/26924138-3e25-9f0d-336f-d43e115e27d1/4_1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/ed/f3/e2edf3d7-4505-a8cf-6d6b-0e9126df74f3/5_1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/c7/be/65c7be64-3615-2fb9-4b6d-87dbbed7008c/6_1242x2688.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/0c/ae/190caec9-6645-5665-56fa-fcc79b7ad3c7/1_2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/b1/a9/70b1a9b0-7d74-f21a-2acc-3643d10d7c2b/2_2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/f6/b4/30f6b4cc-576d-3277-8b72-1695483f145b/3_2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/23/29/c5232996-0ed5-eb61-e795-dfe78c70ebd6/4_2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/08/da/4b08dae3-fbfe-d088-3877-8e541e72e578/5_2048x2732.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/fe/fb/e6fefbbd-548c-e2e8-c7ad-4b0f2ae8b3a5/6_2048x2732.jpg/626x1112bb.jpg"
+  ],
+  "description": "《奔奔王国》是一款塔防策略与模拟经营玩法结合的中世纪题材的游戏。\n\n游戏的故事发生在虚构的黑暗时代，曾辉煌的国王城堡已在叛乱战火中化为焦土。废墟之上，势力割据的纷争与荒野野兽的威胁交织，流离失所的民众在困境中挣扎，每一步都潜藏着未知的危险。玩家将以领主之名，在这片动荡的土地竖起旗帜，凭借智慧掌控资源命脉，以策略突破强敌防线，于势力纷争与生存危机中开辟生路，让衰败王国在引领下重焕生机，最终以谋略与决断书写属于自己的统治传奇。\n\n核心玩法\n- 抵御叛军入侵\n叛军的进攻从未停歇，战备状态必须时刻保持。城镇是幸存者最后的壁垒，承载着不容失守的希望。需以精准防御策略部署防线，让防御塔与路障成为抵御叛军的坚实屏障，用坚守换得一线生机。\n\n- 居民分配系统\n游戏设有严谨的居民管理体系，工人、厨师、医生等角色各司其职又相互关联。需实时关注居民的健康状况与情绪状态，稍有疏忽便会影响效率，唯有合理调控才能让城镇持续稳定运转。\n\n- 领主法令\n法律与秩序是乱世中的规范与依托，更是维系文明存续的重要根基。领主颁布的每一条法令都具有重要影响，或震慑不法，或凝聚人心，在规则之下推动社会稳步前行。\n\n- 资源争夺\n黑暗时代的资源尤为珍贵，木材凝聚着辛劳，粮食饱含着汗水。需与其他玩家展开激烈竞争，以谋略抢占资源点、用力量守护补给线，每一分资源都是生存的关键。\n\n- 科技研发\n散落的文明碎片蕴含着改变局势的力量，从武器的改良到城防的加固，每一次科技突破都意味着更强的战力或更稳固的防御。唯有积极挖掘这些碎片，才能让城镇在挑战中不断发展壮大。\n\n【关注我们】\n《奔奔王国》官网：https://benbenwangguo.cn/\n微信公众号：微信搜索“奔奔王国”",
+  "release_notes": "【新增内容】\n1、狩猎巨熊：新增个人伤害成就奖励，游戏更新后，参与狩猎巨熊的领主可获新增的个人历史总伤害成就奖励，收益更丰厚（上述优化将在更新后生效，更新前对【暴怒巨熊】造成的伤害不纳入统计，建议您合理安排游戏的时间）；增加陷阱开启自动预约功能，启用后将根据最近一次开启的时间，在冷却时间结束后自动开启狩猎巨熊。\n2、新增巨兽：全新8级巨兽登场——泰坦巨鸟现身王国！它拥有毁灭性攻击，不仅是领地的守护者，更是对领主实力的极大考验！（王国达到指定进度即可解锁）\n3、新增功能：活动日历提醒——神剑争夺和三盟争霸活动新增日历提醒按钮，您可选择在符合条件的设备将战场开启时间添加至您的设备日历，便于及时参与。\n\n【优化与调整】\n1、官职功能优化：新增取消官职申请功能，并且当领主就任官职的任职冷却时间结束后，可主动卸任当前官职，操作更灵活。\n2、迁城优化：【领地迁城】和【高级迁城】支持在进入迁城状态后手动点击空地选择落脚点，同时优化了拖动操作，迁城状态下选中非城镇区域拖动可移动野外地图，提升功能便捷。\n3、英雄转盘优化：新增英雄切换功能，更新后，领主可以在当前可抽取的英雄和前两代该活动中可抽取的英雄之间进行切换，为您提供更多选择空间。\n4、野外搜索优化：首次击败野兽后，搜索野兽的等级将默认至下一等级，提升操作体验；当城镇附近不存在符合条件的巨兽等级时，搜索等级范围将自动移除对应等级选项，筛选结果更精准。\n5、联盟争霸赛优化：战斗回放支持点击【我的战斗】后可快速切换至自身所在分路视角；部队详情新增战争增益与士兵总览展示，战场信息查看更全面。\n6、英雄招募优化：免费史诗招募的等待时间缩短30分钟，以提升您的招募体验。\n7、狩猎巨熊优化：预约功能优化，支持预约陷阱冷却结束时的准点时间，无需额外延后5分钟，预约时间更可控。\n8、王国移民优化：移民确认弹窗界面的确认按钮在冷却期增加倒计时显示，状态更清晰；王国信息界面移民条件实力一栏新增领主当前实力显示，提示更直观。\n9、维京人的战争优化：【成员】按钮提前开放，活动期间界面将持续显示该入口，支援更高效；增援盟友编队优化，最大可出兵数量不高于援助剩余容量，调度更清晰。\n10、神剑争夺优化：对战场内的建筑发起集结时，出征界面新增本地时间的显示按钮，便于规划集结时间。\n11、邮件优化：个人战争、集结战争的进攻、防守邮件中，新增胜利与失败状态的差异化图标展示，更清晰直观。\n12、三盟争霸优化：优化了活动开启通知邮件标题，并且点击【前往】按钮即可跳转到活动界面，参与路径更顺畅；军团报名成功后，主界面将直接显示军团参赛的具体时间，时间信息更清晰。\n13、增益优化：左上角增益新增官职增益持续时间显示，查看更方便；采集速度增益描述文本增加生效场景，信息更清晰；训练士兵、科技研究、治疗士兵及建筑升级界面的增益提升途径中，当英雄技能已满级时新增飘字提示，不再跳转至英雄界面，操作更流畅。\n14、活动积分进度展示优化：新增活动积分进度展示功能，当玩家完成相应活动操作时，游戏界面将展示各活动阶段奖励积分的获取进度，适用活动包含联盟总动员、最强领主、至高领主以及最强王国。\n15、英雄优化：补全了部分英雄信物的来源展示，【战斗的嘉奖】宝箱可以在英雄信物获取更多的途径中便捷使用；阿玛迪斯【天生领袖】与赫尔加【巨鹿之力】技能描述优化，技能效果保持不变，说明更加清晰易懂。\n16、失落的遗迹优化：报名后，活动界面新增战场开启时间展示，时间信息更直观。\n17、联盟优化：新增联盟每周激励宝箱可领取时的表现效果，领取提醒更明显；联盟成员权限详情界面新增【联盟标签】说明，信息查看更清晰。\n18、遗迹争夺优化：通知界面新增活动开启接收提醒设置，当领主所在联盟已报名时可自由选择是否接收通知，信息管理更灵活；报名界面新增要塞与遗迹奖励预览入口，奖励查看更直观。\n19、叛军突袭优化：普通战斗退出后支持选择快速挑战，助力更高效应对叛军突袭！\n20、活动奖励领取优化：最强王国、联盟对决、至高领主的阶段奖励支持一键领取，领取操作更便捷。\n21、特惠周卡及情报月卡优化：当特惠周卡及情报月卡可领取奖励超过一项时，支持一键领取，操作更高效。\n22、推送通知优化：优化了【集结野外巨兽】通知项描述文本，新增【叛军精锐】提示内容，信息展示更完整。\n23、排行榜优化：优化排行榜规则说明文本内容，增加更新时间与排序规则的说明，信息更完善。\n24、决战王城优化：优化了日历中决战王城活动的描述文本，活动说明更详实。",
+  "file_size_bytes": 1073278976,
+  "min_os": "12.0",
+  "version": "1.7.6",
+  "release_date": "2025-09-07",
+  "rating": 4.77216,
+  "rating_count": 51277,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E5%A5%94%E5%A5%94%E7%8E%8B%E5%9B%BD/id6748527570?uo=4",
+  "fetched_at": "2026-09-15T21:48:35+08:00"
+ },
+ "slug": "奔奔王国_eada6b"
+}

@@ -1,0 +1,284 @@
+{
+ "schema_version": 1,
+ "name": "我的花园世界",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "厦门麟贝互娱科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "模拟经营",
+  "boards": [
+   "douyin/热门榜",
+   "douyin/畅销榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 14,
+   "douyin/热门榜": 18,
+   "douyin/畅销榜": 17
+  },
+  "platform_app_ids": {
+   "wx": "wx47e577dc5b3fde6f",
+   "douyin": "ttcc26ba9b532f1e8202"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 72,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "扁平卡通风，古风花坊场景 + 人物立绘 + 数百种鲜花/花瓶贴图",
+  "dims": {
+   "engine": 2,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 5,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "data": "五档品级(凡/普/珍/华/仙) + 每种花独立经验升级线 + 多货币体系(金币/元宝/花坊币/代钞/水滴) + 公会/订单/图鉴长线循环，数值体系极深",
+   "art": "690MB 包体含数百种鲜花与花瓶贴图、人物立绘、大量花坊/古镇场景，成体系美术资产量偏重",
+   "logic": "培育→种植→收获→订单交付→解锁新花种的核心循环外加背包/体力调度，系统编排较复杂",
+   "physics": "纯点击式模拟经营，无物理/碰撞/刚体需求，1 分"
+  },
+  "asset_notes": "2D 卡通贴图，可用 AI 生图 + 人工修图批量产出；无 3D 资产，素材层不是主要瓶颈，瓶颈在内容量",
+  "notes": "成熟模拟经营框架 + 自研花艺养成与多货币经济，技术风险低但内容生产量很大；引擎已由开发商 Cocos Creator 招聘 JD 证实",
+  "cost_score": 3.0,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "培育花种→种入花田浇水→等 CD 收获鲜花→完成顾客/居民/宫廷订单换资源→解锁新花种与地皮，一局即一次种植-收获-交付循环，靠体力与订单节奏驱动每日复访。",
+  "highlights": [
+   "花开花落的即时收获动画 + 概率掉落「鲜花贺卡」，把单局爽感接到「填地址收真实花束」的线下惊喜",
+   "每种花独立升级与品级(凡→仙)收集，提供清晰的长线目标与氪金锚点",
+   "好友「偷花」+ 公会竞赛，把单机种植变成轻度社交竞争，提升留存"
+  ],
+  "innovations": [
+   "「种虚拟花、寄真实花束」的线上线下联动营销，是区别于同类模拟经营的最大差异点（属运营创新而非玩法创新）",
+   "以女频短剧式逆袭剧情(出轨丈夫→独立养花)做前期吸量包装，剧情嵌而不重"
+  ],
+  "target_user": "25-45 岁女性向休闲用户，偏好治愈/种田/剧情",
+  "monetization": "IAP 内购为主(体力/资源礼包/限定花种)，辅以去广告；付费卡体力和稀缺资源",
+  "lifecycle": "长线运营，靠每日订单、公会活动、赛季与限定花种持续拉回收"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "核心种植-订单循环是成熟模拟经营框架，机制零门槛、技术风险低；真正的差异化在于「花艺题材 + 线下真花」包装与首关留存设计，同题材换皮即可成立。原产品已高度验证，但同类女性向经营赛道拥挤。",
+  "suggestions": [
+   "换题材到「茶艺工坊 / 汉服裁缝铺 / 宠物美容院」，用同类种植-订单循环替换花艺外壳",
+   "保留「线上玩、线下寄实物」的联动作为差异化钩子，但换成低成本的实体周边(贴纸/种子卡)",
+   "首关把堆叠层数/资源缺口后移，把失败点推到第 5 关之后以保首留"
+  ],
+  "risks": [
+   "女性向模拟经营品类已饱和，买量 CPA 偏高",
+   "「线下寄真花」成本高、难复制，照搬会拖垮毛利",
+   "厦门麟贝已凭此 IP 占榜，同题材正面撞车风险高"
+  ],
+  "effort": "40–60 人日（1 前端 + 1 美术 + 1 策划，基于成熟小游戏基建）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/8c/ec/078cec06-9946-9fff-6856-73b7935a41d1/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/af/65/28af65fb-ccdc-d5f0-55e5-fac1b99c5785/1320x2868_U00281_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/8c/a4/c08ca476-1103-e2c4-2860-af0944d24f1e/BF7952E343A6B569CFF5ED17578D0239.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/a2/e8/6fa2e8f7-be10-6ba1-cee7-76d48d0aad0b/1320x2868__U00282_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/f5/98/20f59832-426e-0585-66eb-93802061a196/_U5320_U5fc3_U5de7_U7b511320x2868.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/cb/85/19cb8534-b796-08f4-7fa4-0f77b58d2808/_U840c_U5ba0_U76f8_U4f34.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/97/69/88976953-cafa-bccf-e926-003ab4f46417/_U82b1_U5f71_U4f5c_U88f3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/15/dd/5b15dd55-d74a-8fad-61aa-f617ecacb92f/_U4e07_U5343.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/a1/87/71a18714-0d81-6a65-10c1-009fc985c7d8/_U5999_U624b_U62c8_U82b122.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/f4/d0/caf4d01b-e5b0-ea21-c980-c2c4aa339015/_U77e5_U5df1_U65e0_U754c.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/52/7d/8e527d25-3738-3c39-fad6-aad00b3f0fa3/2064x2752.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/95/d7/f795d717-0ad0-bbed-ff79-b0ef5c68f4e6/A9C18EC817B771BA9099488905E2EC34.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/e4/73/02e473e4-90a3-25ca-b09e-493c32b34670/2064x2752__U00281_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/30/a5/9f30a50d-c490-7c9a-f088-5aa5550681e7/_U5320_U5fc3_U5de7_U7b512064x2752.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/81/65/758165a7-2139-f446-d585-a1b8e452aafe/_U840c_U5ba0.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/66/b9/f566b969-6da4-a573-edea-e89a8692bc87/_U82b1_U5f71_U4f5c_U88f3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/cc/1c/55cc1cbc-6a42-2d0c-7f51-4be9031e753a/_U4e07_U5343.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 16"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/ea/a6/88eaa6d5-c733-2f18-b9b7-11a1a2cde0a0/_U5999_U624b.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 17"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/44/0c/be440c35-ec93-10e5-4955-b5accdf943f6/_U77e5_U5df1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 18"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "引擎为 Cocos Creator，依据厦门麟贝互娱「客户端(COCOS)」招聘 JD（要求 2 年以上 Cocos Creator 经验、项目含模拟经营）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体 690MB，含数百种鲜花/花瓶贴图与大量场景，美术资产量偏重",
+   "level": "confirmed"
+  },
+  {
+   "claim": "海外由厦门摩多科技(Modo Game)以 My Garden Life / My Garden Tale 发行，国内微信端由厦门麟贝互娱发行",
+   "level": "confirmed"
+  },
+  {
+   "claim": "核心循环为种植-收获-订单交付的模拟经营，无物理需求",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9B%AD%E4%B8%96%E7%95%8C/id6746321359?uo=4",
+  "https://www.quanzhi.com/job/69b05ec53e67084e25d9848e",
+  "https://www.baijing.cn/m/article/55006",
+  "https://zh.moegirl.tw/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9B%AD%E4%B8%96%E7%95%8C"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "我的花园世界",
+  "country": "cn",
+  "track_id": 6746321359,
+  "seller": "Xiamen Linbei Interactive Entertainment Technology Co.,LTD",
+  "genres": [
+   "游戏",
+   "休闲",
+   "模拟"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/8c/ec/078cec06-9946-9fff-6856-73b7935a41d1/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/af/65/28af65fb-ccdc-d5f0-55e5-fac1b99c5785/1320x2868_U00281_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/8c/a4/c08ca476-1103-e2c4-2860-af0944d24f1e/BF7952E343A6B569CFF5ED17578D0239.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/a2/e8/6fa2e8f7-be10-6ba1-cee7-76d48d0aad0b/1320x2868__U00282_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/f5/98/20f59832-426e-0585-66eb-93802061a196/_U5320_U5fc3_U5de7_U7b511320x2868.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/cb/85/19cb8534-b796-08f4-7fa4-0f77b58d2808/_U840c_U5ba0_U76f8_U4f34.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/97/69/88976953-cafa-bccf-e926-003ab4f46417/_U82b1_U5f71_U4f5c_U88f3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/15/dd/5b15dd55-d74a-8fad-61aa-f617ecacb92f/_U4e07_U5343.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/a1/87/71a18714-0d81-6a65-10c1-009fc985c7d8/_U5999_U624b_U62c8_U82b122.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/f4/d0/caf4d01b-e5b0-ea21-c980-c2c4aa339015/_U77e5_U5df1_U65e0_U754c.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/52/7d/8e527d25-3738-3c39-fad6-aad00b3f0fa3/2064x2752.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/95/d7/f795d717-0ad0-bbed-ff79-b0ef5c68f4e6/A9C18EC817B771BA9099488905E2EC34.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/e4/73/02e473e4-90a3-25ca-b09e-493c32b34670/2064x2752__U00281_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/30/a5/9f30a50d-c490-7c9a-f088-5aa5550681e7/_U5320_U5fc3_U5de7_U7b512064x2752.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/81/65/758165a7-2139-f446-d585-a1b8e452aafe/_U840c_U5ba0.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/66/b9/f566b969-6da4-a573-edea-e89a8692bc87/_U82b1_U5f71_U4f5c_U88f3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/cc/1c/55cc1cbc-6a42-2d0c-7f51-4be9031e753a/_U4e07_U5343.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/ea/a6/88eaa6d5-c733-2f18-b9b7-11a1a2cde0a0/_U5999_U624b.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/44/0c/be440c35-ec93-10e5-4955-b5accdf943f6/_U77e5_U5df1.jpg/626x1112bb.jpg"
+  ],
+  "description": "指尖耕耘，清香入怀。玩「我的花园世界」有机会收获真实花束！\n\n《我的花园世界》是一款模拟经营类的花坊营建治愈手游，在游戏里玩家可以种下玫瑰、雏菊、郁金香等数百种鲜花，摸清每一种花草习性，沉浸式体验花艺师的日常；收获鲜花后搭配花瓶花材，创作独属于你的插花作品；每天接各种订单赚金币攒经验，还能串门好友花园顺手“偷”几朵珍稀花朵，和公会伙伴携手参赛冲刺榜单，领取丰厚奖励。还有超多花园装扮任你搭配，打造梦中情园；参与公会任务，认领梭梭树，一边悠闲种花一边投身公益，温暖又有意义！",
+  "release_notes": "· 正式官宣《我的花园世界》品牌大使张新成！以笃定之心，种治愈之花，欢迎张新成与花园并肩同行；以潜心积淀，让美好生根，和花艺师们一起悉心莳花，静待满园花开！\n\n· 全新 iOS 专属“控制”功能【立即收花】【公会竞赛】上线（需系统版本至少为 iOS 18.0），进入设置-操作按钮-向左划至控制-选取控制-搜索我的花园世界；进入控制中心-长按空白区域-添加控制-搜索我的花园世界，即可将其添加至快捷操作按钮或下拉控制中心中。\n\n· 全新 iOS 专属桌面小组件【鲜花种植】【我的花园】上线（需系统版本至少为 iOS 16.1），长按桌面-左上角编辑-添加小组件-搜索我的花园世界，即可将其添加至桌面。别忘记种花哟！\n\n· 花漾相逢，共植美好。杨紫成为《我的花园世界》品牌代言人！期待与你一起，邂逅花园里的万般美好——种虚拟鲜花，收获真实鲜花。年度专属福利码【杨紫邀你共赏新花】敬请前往游戏内兑换领取！\n\n· 花园公益·阳关新绿 正式开启——花艺师们，以花园公会合力、积攒能量，抵漫天风沙；方寸花园里的点滴美好，将跨越山海，兑换真实梭梭树落地敦煌阳关。",
+  "file_size_bytes": 690323456,
+  "min_os": "12.0",
+  "version": "1.1.25",
+  "release_date": "2025-08-05",
+  "rating": 4.12923,
+  "rating_count": 48393,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9B%AD%E4%B8%96%E7%95%8C/id6746321359?uo=4",
+  "fetched_at": "2026-09-15T21:47:58+08:00"
+ },
+ "slug": "我的花园世界_aab914"
+}

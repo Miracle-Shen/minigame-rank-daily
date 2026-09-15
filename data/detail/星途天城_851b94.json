@@ -1,0 +1,213 @@
+{
+ "schema_version": 1,
+ "name": "星途天城",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州春芒网络科技有限公司",
+  "category_l1": "卡牌",
+  "category_l2": "养成、神话、美少女",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 9
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-08-29",
+  "appearances": 13,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "二次元卡牌+3D场景特效，蒸汽朋克/神话美术",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 5,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "data": "多线养成：角色三阶形象/星灵/装备/科技/赛季+放置资源，长线经济循环，成本主项",
+   "art": "二次元角色多套形象(三阶段美术)+3D场景+蒸汽朋克美术，包体约590MB，素材量偏高",
+   "logic": "回合制策略+星灵进阶+元素弱点+主角职业切换+阵容搭配，系统复杂",
+   "physics": "回合制无物理"
+  },
+  "asset_notes": "2D角色立绘+3D场景，角色多套形态Skin是主要素材开销；可用AI生图+人工修图",
+  "notes": "蒸汽神话策略RPG卡牌，广州春芒网络研发；二次元画风+3D场景，引擎据品类(卡牌RPG+3D)推断Unity，未确认。",
+  "cost_score": 3.25,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "抽取/培养星灵(角色三阶觉醒)→搭配主角职业与元素弱点组阵容→回合制策略战斗→放置挂机收资源，长线卡牌循环。",
+  "highlights": [
+   "角色三阶段美术形象，养成突破有清晰成长印记",
+   "主角职业无损切换+星灵/元素弱点，策略深度高于纯数值卡牌",
+   "放置挂机减负+新卡秒上战场，降低养成压力"
+  ],
+  "innovations": [
+   "轻探索(埃努玛浮空世界巡游)+放置卡牌的组合；‘人即神’三阶觉醒叙事包装"
+  ],
+  "target_user": "二次元卡牌用户，偏好轻松长线养成",
+  "monetization": "IAP内购(抽卡/月卡/战令/皮肤)为主，控制广告与红点",
+  "lifecycle": "长线运营，靠新卡/赛季/活动维持"
+ },
+ "clone": {
+  "verdict": "微创新",
+  "rationale": "核心仍是成熟放置卡牌RPG模板，轻探索与大世界包装属细节升级而非结构创新；赛道已极度饱和，不建议独立立项，仅适合在细节做体验升级或作为填充位。",
+  "suggestions": [
+   "把‘蒸汽神话’换成‘国风仙侠/克苏鲁’题材，保留三阶觉醒与元素弱点",
+   "强化‘轻探索’为大世界挂机玩法，与纯卡牌拉开差异",
+   "主角职业切换做成可DIY build系统，提升策略深度"
+  ],
+  "risks": [
+   "卡牌RPG赛道头部被同类及《明日方舟》等锁死，获量难",
+   "美术若贴近二次元旗舰存在侵权与买量成本风险"
+  ],
+  "effort": "80–120人日（2前端 + 1.5美术 + 1策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/f4/89/eef48920-2e16-e497-2638-4bf5039cd0d9/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/5d/1a/a25d1aaf-4ed2-9b5b-5b4e-42c13b07d753/_U9996_U9875-_U62f7_U8d1d.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/13/21/ae13212d-17f1-2e07-0907-548715e36753/_U6307_U5c16_U7b56_U7565-_U767e_U53d8_U642d_U914d.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/72/fa/f572fa44-9f56-a888-645e-5fb997886d22/_U65b0_U5361_U79d2_U4e0a.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/80/91/878091c0-22db-0d17-61c6-6f5414b84eec/_U795e_U683c_U89c9_U9192-_U5171_U62b5_U707e_U5384.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/70/62/c5706203-33f8-9fb8-0c10-894d85352de2/_U8f7b_U5ea6_U63a2_U7d22-_U5de1_U6e38_U5929_U57ce.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/60/6d/31606dc4-d4a9-eb54-0724-62aec1ad8b26/f_U003f_U0026MsgID_U003d3910050645186805125_U0026skey_U003d@crypt_59f012f4_d2823ad19f0653b6034d3cfc9b728086_U0026mmweb_appid_U003dwx_webfilehelper.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/fc/49/6afc499c-09f1-b2e1-4745-f02fa9d4b9dd/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/12/d4/8712d477-0283-601a-82a2-fe78d9271332/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/27/4d/6c274d03-8648-d7d6-3bea-32c1c6b593aa/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/43/a9/04/43a904f6-5bae-9b44-bbc2-d0fdf400e814/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "蒸汽神话策略RPG卡牌，广州春芒网络研发(好游快爆/TapTap/百度百科)",
+   "level": "confirmed"
+  },
+  {
+   "claim": "二次元画风+3D场景、回合制策略+放置挂机(百度百科/TapTap)",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎据卡牌RPG+3D场景推断Unity，未确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.taptap.cn/app/893924",
+  "https://baike.baidu.com/item/%E6%98%9F%E9%80%94%E5%A4%A9%E5%9F%8E/63251571"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "星途天城",
+  "country": "cn",
+  "track_id": 6503579813,
+  "seller": "Guangzhou Mengqu Information Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "策略",
+   "卡牌"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/f4/89/eef48920-2e16-e497-2638-4bf5039cd0d9/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/5d/1a/a25d1aaf-4ed2-9b5b-5b4e-42c13b07d753/_U9996_U9875-_U62f7_U8d1d.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/13/21/ae13212d-17f1-2e07-0907-548715e36753/_U6307_U5c16_U7b56_U7565-_U767e_U53d8_U642d_U914d.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/72/fa/f572fa44-9f56-a888-645e-5fb997886d22/_U65b0_U5361_U79d2_U4e0a.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/80/91/878091c0-22db-0d17-61c6-6f5414b84eec/_U795e_U683c_U89c9_U9192-_U5171_U62b5_U707e_U5384.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/70/62/c5706203-33f8-9fb8-0c10-894d85352de2/_U8f7b_U5ea6_U63a2_U7d22-_U5de1_U6e38_U5929_U57ce.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/60/6d/31606dc4-d4a9-eb54-0724-62aec1ad8b26/f_U003f_U0026MsgID_U003d3910050645186805125_U0026skey_U003d@crypt_59f012f4_d2823ad19f0653b6034d3cfc9b728086_U0026mmweb_appid_U003dwx_webfilehelper.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/fc/49/6afc499c-09f1-b2e1-4745-f02fa9d4b9dd/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/12/d4/8712d477-0283-601a-82a2-fe78d9271332/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/27/4d/6c274d03-8648-d7d6-3bea-32c1c6b593aa/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/43/a9/04/43a904f6-5bae-9b44-bbc2-d0fdf400e814/5.jpg/626x1112bb.jpg"
+  ],
+  "description": "【游戏简介】\t\n\t\t\t\t\n《星途天城》是一款轻探索策略卡牌革新之作。\t\t\t\t\t\n游戏以19世纪工业幻想为背景，结合蒸汽朋克、神秘学、神话等题材，构建了一个多文明的幻想大陆。\t\t\t\t\t\n无法根治的感染病与名为不洁者的怪物遍布世界，预言中未知的神明和灾厄即将再度降临。\t\t\t\t\t\n而你，作为异世界的“神明”即将展开一场全新、未知、怪诞的旅途。\t\n\n\n【游戏特色】\n\n【降神觉醒，共抵灾厄】\n“你”是来自异世界的原初之神，在这个众神混灭的时代，唯有你能再度引发神迹。帮助众多星灵重塑神格觉醒三阶形态，与他们一起抵抗灾厄，守护天城！\n\n【蒸汽幻想，巡游天城】\n驾驶飞艇单手畅游埃努玛浮空世界，探索复古蒸汽天城。七大地区奇遇不断，在星河与不同风格的城市中探索未知。\n\n【指尖策略，百变搭配】\n打破传统卡牌的数值压制，创造丰富耐玩的回合制战斗体验。主角职业无损切换，技能百种组合搭配，巧用星灵进阶、元素弱点等战斗机制，持续产生新流派变化，实现回合制策略逆袭。\n\n【新卡秒上，豪华开局】\n全面减负养成压力，放置挂机轻松获取资源；角色等级、进阶进度全局同步，零养成置换成本，抽到新卡无需养成直接上战场。",
+  "release_notes": "星途闪耀，共赴天城。策略手游《星途天城》预约正式开启！",
+  "file_size_bytes": 589846528,
+  "min_os": "12.0",
+  "version": "1.0.1",
+  "release_date": "2026-10-22",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E6%98%9F%E9%80%94%E5%A4%A9%E5%9F%8E/id6503579813?uo=4",
+  "fetched_at": "2026-09-15T21:48:26+08:00"
+ },
+ "slug": "星途天城_851b94"
+}

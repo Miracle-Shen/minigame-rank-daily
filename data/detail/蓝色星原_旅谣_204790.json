@@ -1,0 +1,219 @@
+{
+ "schema_version": 1,
+ "name": "蓝色星原:旅谣",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "蛮奈网络",
+  "category_l1": "角色扮演",
+  "category_l2": "二次元、开放世界、冒险、动作、养成、收集",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 3
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-07-06",
+  "appearances": 54,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "二次元3D建模，顶级材质/光影/面部表现",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 5,
+   "physics": 3,
+   "logic": 5,
+   "data": 5,
+   "server": 4,
+   "audio": 5
+  },
+  "dim_notes": {
+   "art": "包体约3.3GB、顶级二次元3D建模+材质+光影，海量角色/场景/奇波资产，成本最高项",
+   "anim": "骨骼动画+大量特效与剧情演出，面部微表情/服装/战斗姿态需高规格动捕与制作",
+   "logic": "开放世界探索+实时战斗+家园建造+奇波收集+剧情系统，系统极度复杂",
+   "data": "多线养成：角色/星宠(奇波)/装备/家园/赛季，长线经济循环",
+   "audio": "全定制配乐(川井宪次等)与角色语音"
+  },
+  "asset_notes": "3D资产为主，需专业建模/动画/动作捕捉团队，素材层是核心壁垒与成本中心",
+  "notes": "由积咪网络研发、蛮啾系（App Store卖方Shanghai ManNai/蛮奈）发行，星宠结伴×幻想大世界RPG；引擎Unity多来源确认。注意：输入publisher‘蛮奈网络’与外部资料‘蛮啾网络/积咪网络’存在差异，以App Store卖方为准标注inferred。",
+  "cost_score": 4.5,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "在普罗米利亚大世界自由探索→邂逅少女/收集奇波伙伴→实时动作战斗(格挡/闪避/连携)→家园种植建造与社交，长线RPG循环。",
+  "highlights": [
+   "开放世界自由探索+奇波生态观察，探索求知欲驱动长留",
+   "格挡/闪避/连携的爽快动作节奏与打击反馈",
+   "家园建造+奇波入驻的治愈养成，提供非战斗满足感",
+   "多人社交/组队/合影，社交留存强"
+  ],
+  "innovations": [
+   "星宠(奇波)结伴×开放世界RPG的题材组合；家园+战斗双循环；属二游旗舰品质定位"
+  ],
+  "target_user": "二次元核心玩家，追求画质与养成的重度用户",
+  "monetization": "IAP内购（角色/星宠抽取、皮肤、月卡/战令），二游标准变现",
+  "lifecycle": "长线运营，靠版本/活动/新角色维持"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "重资本二次元开放世界RPG，3.3GB包体、Unity+顶级3D资产+全定制音频，研发与买量成本极高；且‘蓝色星原’为蛮啾系自有IP，有版权与品牌壁垒，小团队无法复刻。",
+  "suggestions": [
+   "若仅借鉴：抽取‘星宠收集+家园建造’轻量子玩法做成2D卡牌，剥离开放世界",
+   "题材换成原创二次元但避开‘星宠’命名与美术风格，规避IP风险"
+  ],
+  "risks": [
+   "蛮啾系自有IP，美术/命名直接复制构成侵权",
+   "开放世界研发需千万级投入，远超小游戏复刻预算",
+   "二游旗舰赛道已被《原神》等锁死，后来者获量难"
+  ],
+  "effort": "不适用（重资本，建议放弃独立复刻；子玩法借鉴约200+人日）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/6f/71/8e6f710c-03f5-9a08-870d-ebb5f9ebc221/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/e5/57/1ce557d1-4879-3966-df8b-c2ef1f10950c/_U3010_U624b_U673a_U301101__U6211_U5168_U90fd_U8981_0802.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/05/87/72058778-33b8-6f3e-3581-02047ffb6d5c/_U3010_U624b_U673a_U301102_BOSS_0802.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/1c/4d/631c4d47-e878-e80b-b46f-2dcbfe1cfd5e/_U3010_U624b_U673a_U301103__U5750_U9a91_0802.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/bd/7b/b1bd7b16-ddfd-3ad7-dbc3-70ef7d335ddf/_U3010_U624b_U673a_U301104__U5947_U6ce2_0802.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/b5/25/bdb5256d-b937-bd14-e71f-e892312d6a47/_U3010_U624b_U673a_U301105__U5bb6_U56ed_0802.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/db/b2/c4dbb2bc-6418-633c-4fd9-f520c7c2affd/_U3010iPad_U301101__U6211_U5168_U90fd_U8981_0802.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/ad/5a/07ad5abc-7f38-e6e6-db71-dfba985c052c/_U3010iPad_U301102_BOSS_0802.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0d/c5/34/0dc5344e-c934-7932-9b51-be5d560bf3bb/_U3010iPad_U301103__U5750_U9a91_0802.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7d/55/97/7d559763-9475-572c-e8fd-c3c18e9c93ef/_U3010iPad_U301104__U5947_U6ce2_0802.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/27/3f/e7273fe3-0ed7-631f-fdf0-3e8aec4a0b1d/_U3010iPad_U301105__U5bb6_U56ed_0802.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "引擎Unity（萌娘百科/Bangumi/切游网多来源确认）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体约3.3GB、二次元3D开放世界RPG（App Store媒体材料）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "开发积咪网络、发行蛮啾网络（萌娘百科）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "输入publisher‘蛮奈网络’与卖方Shanghai ManNai对应，外部亦称蛮啾，关系标注inferred",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E8%93%9D%E8%89%B2%E6%98%9F%E5%8E%9F-%E6%97%85%E8%B0%A3/id6754017631?uo=4",
+  "https://zh.moegirl.org.cn/zh-tw/%E8%93%9D%E8%89%B2%E6%98%9F%E5%8E%9F%EF%BC%9A%E6%97%85%E8%B0%A3"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "蓝色星原：旅谣",
+  "country": "cn",
+  "track_id": 6754017631,
+  "seller": "Shanghai ManNai Network Technology Co., Ltd",
+  "genres": [
+   "游戏",
+   "角色扮演",
+   "冒险"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/6f/71/8e6f710c-03f5-9a08-870d-ebb5f9ebc221/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/e5/57/1ce557d1-4879-3966-df8b-c2ef1f10950c/_U3010_U624b_U673a_U301101__U6211_U5168_U90fd_U8981_0802.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/05/87/72058778-33b8-6f3e-3581-02047ffb6d5c/_U3010_U624b_U673a_U301102_BOSS_0802.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/1c/4d/631c4d47-e878-e80b-b46f-2dcbfe1cfd5e/_U3010_U624b_U673a_U301103__U5750_U9a91_0802.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/bd/7b/b1bd7b16-ddfd-3ad7-dbc3-70ef7d335ddf/_U3010_U624b_U673a_U301104__U5947_U6ce2_0802.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/b5/25/bdb5256d-b937-bd14-e71f-e892312d6a47/_U3010_U624b_U673a_U301105__U5bb6_U56ed_0802.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/db/b2/c4dbb2bc-6418-633c-4fd9-f520c7c2affd/_U3010iPad_U301101__U6211_U5168_U90fd_U8981_0802.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/ad/5a/07ad5abc-7f38-e6e6-db71-dfba985c052c/_U3010iPad_U301102_BOSS_0802.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0d/c5/34/0dc5344e-c934-7932-9b51-be5d560bf3bb/_U3010iPad_U301103__U5750_U9a91_0802.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7d/55/97/7d559763-9475-572c-e8fd-c3c18e9c93ef/_U3010iPad_U301104__U5947_U6ce2_0802.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/27/3f/e7273fe3-0ed7-631f-fdf0-3e8aec4a0b1d/_U3010iPad_U301105__U5bb6_U56ed_0802.jpg/626x1112bb.jpg"
+  ],
+  "description": "【顶级美术实力，多人社交幻想世界】\n老牌二游厂商的顶级审美和美术实力，追求卓越、比肩二游旗舰的品质。细腻的建模、材质与光影，让少女们的面部表现、服装设计和战斗姿态自然且鲜活；广阔的大陆、有趣的奇波生态，充满张力的剧情与演出，共同织就一幅可以自由探索的幻想画卷。你可以深入遗迹追寻古老传说，也可以在群星之下驻足远望，也可以叫上三五好友，在城市中合影聊天，一同分享美好时光。\n\n【与美少女邂逅，踏上心动冒险之旅】\n在这片名为普罗米利亚的大陆上，你会在不同的故事里邂逅众多性格各异的少女。她们拥有不同的身份性格与故事，也将在这段旅途中与你相识同行、并肩迎敌。你们会共同穿越森林、城邦与古老遗迹，最终在一次次冒险中逐渐了解彼此。每一次坚定同行、每一句珍贵约定，都将化作旅途中动人的回忆，谱写出只属于你的歌谣。\n \n【收集奇波伙伴，领略丰富星原生态】\n普罗米利亚各处都活跃着名为“奇波”的生物，它们拥有不同的成长阶段、独一无二的特点和习性，共同构成了这片大陆的生态。你可以观察到它们在原野、森林、水域甚至空中的生活，发现不同族群之间真实有趣的互动；也可以寻找可靠的伙伴，彼此认可进行星结。无论是探索未知还是与强敌交锋，奇波都会成为你不可或缺的伙伴，陪你领略这片大陆的奇幻旅程。\n \n【打造专属家园，置身其中享受治愈时光】\n在家园中，你可以亲手开垦土地、种植孵化和制作装备，也可以和少女们进行温馨互动。同时，奇波伙伴也可以入驻家园，它们可以帮助你进行种植、采集、制作与生产，陪你见证作物生长、资源积累和家园的日渐繁荣。暂别外界的喧嚣，在家园度过的悠闲时光里，感受每一次互动带来的满足，每一次耕耘带来的丰收吧。\n \n【超爽操作体验，行云流水的战斗节奏】\n与少女们和奇波伙伴们并肩作战，在快节奏的战斗中进行格挡、闪避、连携等爽快操作。不同职业定位、属性与奇波能力彼此呼应，让队伍搭配和临场决策都拥有更多可能。另外，还可以与朋友们组队挑战，获得不一样的战斗体验。相信所有反馈拉满的打击、富有张力的动作与爽快连贯的节奏，都能给你带来酣畅淋漓的战斗体验。\n\n\n【关注我们】\n《蓝色星原：旅谣》官方网站：https://azurpromilia.manjuu.com/\n《蓝色星原：旅谣》官方微信：蓝色星原旅谣\n《蓝色星原：旅谣》官方微博：@蓝色星原旅谣\n《蓝色星原：旅谣》B站动态：https://space.bilibili.com/3546569016085336/dynamic",
+  "release_notes": "美少女、奇波、大世界，我全都要！",
+  "file_size_bytes": 3330390016,
+  "min_os": "15.0",
+  "version": "0.0.2",
+  "release_date": "2026-12-31",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E8%93%9D%E8%89%B2%E6%98%9F%E5%8E%9F-%E6%97%85%E8%B0%A3/id6754017631?uo=4",
+  "fetched_at": "2026-09-15T21:48:18+08:00"
+ },
+ "slug": "蓝色星原_旅谣_204790"
+}

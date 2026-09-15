@@ -1,0 +1,262 @@
+{
+ "schema_version": 1,
+ "name": "天天象棋",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "深圳市腾讯天游科技有限公司",
+  "category_l1": "棋牌",
+  "category_l2": "棋类",
+  "boards": [
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/畅玩榜": 19
+  },
+  "platform_app_ids": {
+   "wx": "wx9e44d62c7ab75740"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 62,
+  "best_rank": 10,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / Cocos（推断，腾讯休闲棋牌常用；官方未公开引擎）",
+  "engine_evidence": "inferred",
+  "dimension": "2D（含 3D 棋子/古谱博物馆可选）",
+  "art_style": "扁平木质棋盘 + 3D 棋子/古谱博物馆",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 5,
+   "data": 5,
+   "server": 4,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "中国象棋规则 + 绝悟/拟人 AI 引擎（亿级棋谱监督学习、响应 10ms）+ 残局题库 6 万+ + 揭棋/翻翻棋变体",
+   "physics": "无物理，纯棋盘逻辑与落子动画",
+   "data": "棋力评测、段位、6 万+残局题库、大师课程、棋谱库、会员订阅，多线长线",
+   "art": "282MB，2D 棋盘 + 部分 3D，美术量级中等"
+  },
+  "asset_notes": "美术非瓶颈；核心壁垒是 AI 棋力引擎与百万级棋谱/古谱数据库",
+  "notes": "棋盘与规则易复刻，真正的护城河是腾讯 AI Lab 的绝悟级棋力与 5 亿用户棋艺社区",
+  "cost_score": 3.0,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "在棋盘上走子对弈，真人联网或人机（绝悟 AI）对战；通过棋力评测打段位、残局闯关、题库训练与大师课程提升棋力。一局数分钟到半小时。",
+  "highlights": [
+   "绝悟拟人 AI 的「像人」思考节奏与棋风偏好，对弈不机械",
+   "智能复盘标注失误招法，从错误中提升的爽感",
+   "残局闯关与题库的渐进目标感",
+   "微信/QQ 好友约战与棋社社交"
+  ],
+  "innovations": [
+   "将无搜索监督学习拟人 AI 引入移动象棋（响应从 1.6s 压到 10ms）；明盲同服无障碍架构"
+  ],
+  "target_user": "全龄象棋爱好者，含中老年与青少年学棋群体",
+  "monetization": "IAP 会员订阅（30 元/月特权）+ 去广告；广告占比低",
+  "lifecycle": "超长线，十年国民级，靠赛事/课程/社交维持"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "象棋规则与棋盘可自由复刻，但天天象棋的核心壁垒是腾讯 AI Lab 的绝悟级棋力引擎（亿级棋谱训练）与 5 亿用户棋艺社区、古谱数据库；中小团队无法在棋力与内容资产上竞争，且棋牌品类同样面临版号与合规门槛。",
+  "suggestions": [
+   "若做，避开通用象棋，做细分（如「少儿启蒙象棋」「古诗词主题棋」）",
+   "用开源象棋引擎（如 Elephant）替代自研 AI 降低成本",
+   "聚焦教学/残局闯关单一价值点而非全功能"
+  ],
+  "risks": [
+   "自研棋力 AI 成本高且棋力难追头部",
+   "棋牌版号与合规风险",
+   "腾讯品牌与棋谱库版权"
+  ],
+  "effort": "50–80 人日（2 前端 + 1 后端 + 0.5 AI）含基础 AI，不含绝悟级棋力"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/3b/8d/4f3b8d0f-55ed-2c1a-c684-7f370019cb3e/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/12/54/42125489-9b0b-9f1b-7cb6-58c1525d0670/1._U7ecf_U5178_U6728_U7eb9_U56de_U5f52_U4f20_U7edf.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/9b/86/d69b8678-da8d-e48c-ad8e-ad2af694a64e/2._U68cb_U529b_U8bc4_U6d4b_U65c1_U89c2_U5c40_U52bf.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/c6/e1/22c6e132-6db1-9944-b810-472bff3a0ec6/3._U667a_U80fd_U590d_U76d8_U5206_U6790_U4f18_U52a3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/32/46/193246e7-d0c4-41b7-7c24-913d2298bb3d/4._U9898_U5e93_U8bad_U7ec3_U63d0_U5347_U68cb_U529b.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/fa/db/e4fadbe1-4faa-89cf-4658-dfa4adc28aa6/5._U63ed_U68cb_U5bf9_U5f08_U4e09_U5206_U8fd0_U6c14.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/08/57/b5085724-242f-bc89-71df-a60ea81bee8b/6._U7ffb_U7ffb_U73a9_U6cd5_U4f11_U95f2_U5a31_U4e50.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/0f/95/b80f95d7-36e2-fafd-9951-3befb34faebd/8._U5728_U7ebf_U8bfe_U7a0b.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/94/34/30943402-c05c-3022-0109-62cc1c416d9e/9._U68cb_U793e_U4ea4_U6d41_U5207_U78cb_U68cb_U827a.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/d3/12/e2d312d6-af66-2153-a5c0-1cfad3782019/tns.xztobkrr.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/26/0c/91260c12-c005-a7f3-51bd-590cf13a35be/tns.nlkodixu.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/22/bf/ad22bfea-4a26-16a8-a5e3-ddd0872b8881/tns.rpfvbtxi.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/16/b1/fd16b1e2-b082-ae52-00ec-366fb1925fc8/tns.uqdpbwqw.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/6e/61/ea6e6117-ecd2-8010-cb29-f7da2998cda4/tns.laqnxbga.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/a8/de/7da8decc-945f-8b54-cb81-4006c643c290/tns.vgspxdpm.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/45/1c/25451cb2-1b73-5390-2575-d29f5186ce4a/tns.gkkpxiou.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bc/d2/03bcd242-dc2e-994b-f647-a8362fff97b3/tns.gvgqxpbb.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 16"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "依托腾讯 AI Lab 绝悟引擎，亿级棋谱监督学习，响应 10ms（官方报道）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体 282MB，含 6 万+残局题库与大师课程",
+   "level": "confirmed"
+  },
+  {
+   "claim": "移动端引擎疑 Unity/Cocos，官方未公开",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://xiangqi.qq.com/index.shtml",
+  "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E8%B1%A1%E6%A3%8B/id403941510?uo=4"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2D（含 3D 棋子/古谱博物馆可选）"
+ ],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "天天象棋",
+  "country": "cn",
+  "track_id": 403941510,
+  "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+  "genres": [
+   "游戏",
+   "策略",
+   "娱乐",
+   "桌面"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/3b/8d/4f3b8d0f-55ed-2c1a-c684-7f370019cb3e/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/12/54/42125489-9b0b-9f1b-7cb6-58c1525d0670/1._U7ecf_U5178_U6728_U7eb9_U56de_U5f52_U4f20_U7edf.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/9b/86/d69b8678-da8d-e48c-ad8e-ad2af694a64e/2._U68cb_U529b_U8bc4_U6d4b_U65c1_U89c2_U5c40_U52bf.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/c6/e1/22c6e132-6db1-9944-b810-472bff3a0ec6/3._U667a_U80fd_U590d_U76d8_U5206_U6790_U4f18_U52a3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/32/46/193246e7-d0c4-41b7-7c24-913d2298bb3d/4._U9898_U5e93_U8bad_U7ec3_U63d0_U5347_U68cb_U529b.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/fa/db/e4fadbe1-4faa-89cf-4658-dfa4adc28aa6/5._U63ed_U68cb_U5bf9_U5f08_U4e09_U5206_U8fd0_U6c14.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/08/57/b5085724-242f-bc89-71df-a60ea81bee8b/6._U7ffb_U7ffb_U73a9_U6cd5_U4f11_U95f2_U5a31_U4e50.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/0f/95/b80f95d7-36e2-fafd-9951-3befb34faebd/8._U5728_U7ebf_U8bfe_U7a0b.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/94/34/30943402-c05c-3022-0109-62cc1c416d9e/9._U68cb_U793e_U4ea4_U6d41_U5207_U78cb_U68cb_U827a.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/d3/12/e2d312d6-af66-2153-a5c0-1cfad3782019/tns.xztobkrr.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/26/0c/91260c12-c005-a7f3-51bd-590cf13a35be/tns.nlkodixu.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/22/bf/ad22bfea-4a26-16a8-a5e3-ddd0872b8881/tns.rpfvbtxi.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/16/b1/fd16b1e2-b082-ae52-00ec-366fb1925fc8/tns.uqdpbwqw.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/6e/61/ea6e6117-ecd2-8010-cb29-f7da2998cda4/tns.laqnxbga.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/a8/de/7da8decc-945f-8b54-cb81-4006c643c290/tns.vgspxdpm.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/45/1c/25451cb2-1b73-5390-2575-d29f5186ce4a/tns.gkkpxiou.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bc/d2/03bcd242-dc2e-994b-f647-a8362fff97b3/tns.gvgqxpbb.jpg/626x1112bb.jpg"
+  ],
+  "description": "《天天象棋》是腾讯出品的中国象棋，除了象棋、揭棋、翻棋三大玩法，还增加学棋模块，助力棋友棋力大涨。\n【棋力评测】棋友公认的棋力评测系统，新增局势分析。\n【智能复盘】智能复盘分析对局招法优劣，报告对局质量，从错误中温故知新。\n【题库训练】千年经典残局和真实对局6万多道习题，训练残局杀法和中局战术。\n【在线课程】从入门到基础杀法、开局布局、中局战术，初学者系统学棋的好帮手。\n【大师课程】30+签约大师直播及视频课程教学，让你深入了解顶尖棋手的思维模式。\n【棋社私人房】随时随地开展比赛切磋棋艺，收获友谊。\n【棋谱收藏】海量古谱，大师棋谱，赛事棋谱及时更新。\n【残局闯关】挑战难度逐渐上升的关卡。\n【翻翻棋】休闲娱乐，寻找儿时记忆的玩法。\n【揭棋】源于港澳台地区，无AI作弊的象棋新玩法。\n\n【自动订阅服务说明】\n--订阅周期：1个月。\n--订阅价格：单月订阅30元/月，自动订阅24元/月。\n--自动订阅的账号，会在每个月到期前24小时，自动在 iTunes账户扣费并延长1个月的特权有效期。\n--如需取消订阅，请手动打开苹果手机“设置”-->进入 “iTunes Store与App Store”-->点击“Apple ID”，选择“查看Apple ID”，进入“账户设置”页面，点击“订阅”，选择天天象棋特权，取消订阅即可。如未在订阅期结束的至少24小时前取消订阅，此特权将会自动续订。\n--隐私政策：https://rule.tencent.com/rule/preview/38a6f77a-753f-4919-858b-ca713e1c5260\n--会员服务协议：http://image.qqchess.qq.com/ok/html/vipservice.html\n--自动续费协议：http://image.qqchess.qq.com/ok/html/vipautopay.html",
+  "release_notes": "1.首届冠军联赛开启\n2.大师视频解说更新\n3.修复棋友反馈bug，提升游戏体验",
+  "file_size_bytes": 295690240,
+  "min_os": "14.0",
+  "version": "4.4.6.4",
+  "release_date": "2010-12-07",
+  "rating": 3.2416,
+  "rating_count": 20683,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E8%B1%A1%E6%A3%8B/id403941510?uo=4",
+  "fetched_at": "2026-09-15T21:49:12+08:00"
+ },
+ "slug": "天天象棋_c99892"
+}

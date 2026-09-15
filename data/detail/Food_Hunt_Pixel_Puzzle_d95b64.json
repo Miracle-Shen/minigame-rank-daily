@@ -1,0 +1,260 @@
+{
+ "schema_version": 1,
+ "name": "Food Hunt: Pixel Puzzle",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "FUNFINITY PTE. LTD",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 17
+  },
+  "platform_app_ids": {
+   "ios": "6769314786"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 24,
+  "best_rank": 17,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断，FUNFINITY/EVERFUN 休闲解谜常见引擎）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "像素风食物图 + 萌系蚂蚁，亮色块",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "physics": 1,
+   "anim": 3,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "2D 休闲解谜，成熟引擎框架即可，FUNFINITY 系多为 Unity，给 3（inferred）",
+   "art": "包体 300MB 属‘中’，含数百幅像素食物图 + 蚂蚁动画，给 3",
+   "physics": "无物理，纯点击/归位，给 1",
+   "anim": "蚂蚁行进‘吞噬’像素的 ASMR 级连击动画，表现量中上，给 3",
+   "logic": "颜色分类 + 有限暂存槽 + 顺序规划（槽满即卡死），轻逻辑，给 3",
+   "data": "200+ 关 + 进度/账户同步，轻养成，给 2",
+   "server": "账户绑定云存档/跨端同步，弱联网，给 2",
+   "audio": "轻音效 + BGM，给 2"
+  },
+  "asset_notes": "素材为像素食物图（2D 纯色块）+ 蚂蚁动画，可用批量生图产出；无 3D/物理，美术层成本在‘图库量’，与 Colorever 同源赛道。",
+  "notes": "FUNFINITY（EVERFUN）出品的‘色彩分类 + 像素拼图’，与 Colorever 同赛道但用‘蚂蚁吞噬食物像素画’包装：棋盘即画，选色放出蚁群吃掉同色像素，槽满卡死。机制成熟、无壁垒。",
+  "cost_score": 2.38,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "看像素食物图上各色块→点对应颜色放出蚁群，蚂蚁爬去吃掉所有同色像素→有限暂存槽调度顺序，避免卡死→清空整幅图即过关，单局 1-3 分钟。",
+  "highlights": [
+   "蚂蚁成群‘吞噬’像素的连锁动画 + ASMR 咀嚼音效，爽感强",
+   "暂存槽有限、顺序错了就卡死，逼玩家规划，停不下来",
+   "棋盘即画、清完即‘毁掉一幅画’，反转传统填色的新鲜感",
+   "2× 加速模式满足快节奏玩家"
+  ],
+  "innovations": [
+   "把 Color Sort 的‘填空’反转为‘吞噬清空’，视觉钩子不同",
+   "蚁群拟人动画 + 新机制（Gun Booster/ Super Cave）持续加料"
+  ],
+  "target_user": "全龄休闲/解压用户，偏好像素风与规划爽感",
+  "monetization": "IAA（激励视频/去广告）+ IAP（提示/加速/去广告），混合",
+  "lifecycle": "长线运营，靠 200+ 关与新机制/图库上新"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "与 Colorever 同属‘色彩分类 + 像素拼图’成熟赛道，机制无壁垒；差异在题材包装（蚂蚁/食物 vs 宝石）与动画风格，复制成本低，适合换主题试错。",
+  "suggestions": [
+   "换‘吞噬主体’题材：如小怪兽吃积木、水流冲色块，做视觉差异化",
+   "保留‘暂存槽卡死’这一强规划钩子，它是核心留存点",
+   "用 AI 批量生成像素图库压低内容成本"
+  ],
+  "risks": [
+   "与 Colorever 等高度同质，赛道拥挤、买量 CPI 高",
+   "图库版权（第三方 IP 像素画）需注意",
+   "机制浅、靠图库量维持，需稳定上新"
+  ],
+  "effort": "25–40 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/69/81/e3698133-d61d-b655-7ddf-f6fac07e0bf5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/92/56/8b92569c-792a-caa2-ec51-362d3e6a100d/01.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/06/e5/1606e5f9-7246-9d9d-9c16-3f8b3a642fee/02.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/25/80/b1258083-700b-2d8d-e40d-bd6a0166762d/04.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/90/8e/bf/908ebf57-b757-e377-2b73-56b0f7841b81/06.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/4c/7b/c54c7b8b-6cf9-a5de-657e-a95d4395ecad/05.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/6a/81/256a8163-a7e7-7de3-4193-84cbed524e75/08.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/a4/ea/47a4ea5e-97a5-0f50-50bc-35ffb38c79d9/07.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/30/e3/d230e33c-cc00-f8e6-c18a-e8c6ad2d6621/03.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/33/ce/4033cee7-600f-5846-61d2-6f777cfac759/01.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/a5/65/51a5653f-51ae-070b-ae45-e87d0416058e/02.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/75/85/777585a6-9105-1187-1119-77060473eda7/04.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/74/ed/a374ed8c-2b4a-e63e-7d9b-ab9f1a06fac1/06.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/5a/53/aa5a53a6-c85f-4eb9-827c-28f51410526b/05.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/04/70/8a047049-a2b4-5ee6-eedf-9c1efb97be46/07.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/3b/9d/383b9d64-713a-2ca3-372c-7d9621078fde/03.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/de/99/e9de9931-42cc-2a16-95f0-2213e955c67b/08.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 16"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "App Store 日区条目 Food Hunt: Pixel Puzzle，发行商 FUNFINITY PTE. LTD，包体 300MB，200+ 关",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎按 FUNFINITY/EVERFUN 休闲解谜惯例推断 Unity",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/food-hunt-pixel-puzzle/id6769314786?uo=4",
+  "https://gamedropdaily.com/mobile/food-hunt-pixel-puzzle/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Food Hunt: Pixel Puzzle",
+  "country": "us",
+  "track_id": 6769314786,
+  "seller": "FUNFINITY PTE. LTD",
+  "genres": [
+   "Games",
+   "Casual",
+   "Puzzle"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/69/81/e3698133-d61d-b655-7ddf-f6fac07e0bf5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/92/56/8b92569c-792a-caa2-ec51-362d3e6a100d/01.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/06/e5/1606e5f9-7246-9d9d-9c16-3f8b3a642fee/02.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/25/80/b1258083-700b-2d8d-e40d-bd6a0166762d/04.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/90/8e/bf/908ebf57-b757-e377-2b73-56b0f7841b81/06.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/4c/7b/c54c7b8b-6cf9-a5de-657e-a95d4395ecad/05.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/6a/81/256a8163-a7e7-7de3-4193-84cbed524e75/08.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/a4/ea/47a4ea5e-97a5-0f50-50bc-35ffb38c79d9/07.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/30/e3/d230e33c-cc00-f8e6-c18a-e8c6ad2d6621/03.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/33/ce/4033cee7-600f-5846-61d2-6f777cfac759/01.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/a5/65/51a5653f-51ae-070b-ae45-e87d0416058e/02.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/75/85/777585a6-9105-1187-1119-77060473eda7/04.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/74/ed/a374ed8c-2b4a-e63e-7d9b-ab9f1a06fac1/06.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/5a/53/aa5a53a6-c85f-4eb9-827c-28f51410526b/05.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/04/70/8a047049-a2b4-5ee6-eedf-9c1efb97be46/07.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/3b/9d/383b9d64-713a-2ca3-372c-7d9621078fde/03.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/de/99/e9de9931-42cc-2a16-95f0-2213e955c67b/08.jpg/626x1112bb.jpg"
+  ],
+  "description": "Every level is a pixel art masterpiece. Your ants will devour it - one color at a time.\n\nFood Hunt is a satisfying color sort puzzle where the puzzle board IS the art. Each level presents a hand-crafted pixel art image built entirely from colored blocks. Sort your ants by color, send them in, and watch them eat the picture clean - block by block, until the board is empty and the level is cleared.\n\nHOW TO PLAY\nThe board is filled with a pixel art image - built entirely from colored blocks. Below the board: your holding slots and block stacks waiting to be tapped.\n\nTap a block stack to load your ants. They march up and devour every matching colored block in the image. Clear all colors - wipe the board completely - and you win.\n\nBut choose your order carefully:\n\n- Holding slots are limited - wrong tap order fills them fast\n- Stuck slots = ants can't move = game over\n- Plan which color to clear first\n- Eat every last block - board empty - level clear!\n\nTHE PIXEL ART IS THE PUZZLE\nForget collecting rewards after you win. In Food Hunt, the pixel art image is the challenge itself.\n\nEvery level is a different image, built from hundreds of colored blocks. Watch your ants devour it layer by layer, color by color, until nothing remains.\n\nYou don't unlock the art. You clear it. And that's exactly what makes it satisfying.\n\nFEATURES\n-  200+ color sort puzzle levels -  new images, new challenges\n-  Cute ants with ASMR-quality chomping animations\n-  Simple one-tap controls - play with one hand\n-  No timer, no pressure - relax at your own pace\n- Levels designed to surprise - no two boards look the same\n- 2× speed mode for snappier ant action\n\nEASY TO LEARN. HARD TO STOP.\nEarly levels are breezy. Later levels pack in more colors, tighter slots, and bigger images that demand real planning.\n\nWhich color do you clear first? When do you free a slot before it jams? Every tap matters.\n\nA true logic brain teaser - wrapped in pixel art you'll actually enjoy destroying.\n\nWHY YOU CHOOSE FOOD HUNT?\nMost color sort games show you an empty grid and ask you to fill it. Food Hunt flips it - every board starts full, alive with pixel art, and your only goal is to wipe it clean.\nSame satisfying sort. A completely different feeling. \n\nDownload Food Hunt - the color sort puzzle where the art is the game.",
+  "release_notes": "- New levels added\n- Introducing the new Gun Booster.\n- Shop improvements for a smoother experience.\n- New Super Cave mechanic added.\n- Performance improvements and bug fixes.",
+  "file_size_bytes": 300217344,
+  "min_os": "15.0",
+  "version": "1.28",
+  "release_date": "2026-05-14",
+  "rating": 4.73023,
+  "rating_count": 33847,
+  "price": "Free",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/us/app/food-hunt-pixel-puzzle/id6769314786?uo=4",
+  "fetched_at": "2026-09-15T21:49:38+08:00"
+ },
+ "slug": "Food_Hunt_Pixel_Puzzle_d95b64"
+}

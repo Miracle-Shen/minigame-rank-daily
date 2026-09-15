@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "name": "欢乐岛大冒险",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州格子游戏科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "益智",
+  "boards": [
+   "wx/人气榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 5
+  },
+  "platform_app_ids": {
+   "wx": "wx9389a3b14f756683"
+  },
+  "first_seen": "2026-09-15",
+  "appearances": 1,
+  "best_rank": 5,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "2D 卡通，奇幻岛屿场景（推断，无官方素材）",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 3,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "微信小游戏休闲品类常见 Cocos Creator/LayaAir 技术栈，无官方材料故推断",
+   "physics": "玩法以点击/选择/拖拽的关卡解谜与探索为主，无刚体或拖拽物理模拟，物理成本最低",
+   "logic": "融合探索、宝藏收集、关卡挑战、每日任务、隐藏挑战与好友组队 Boss 等多系统耦合，逻辑复杂度偏高"
+  },
+  "asset_notes": "2D 卡通素材可由 AI 生图 + 人工修图批量产出，无 3D 资产，素材层不是瓶颈（推断）",
+  "notes": "无官方一手材料，以上基于榜单品类（休闲/益智）与第三方站点描述推断；引擎与包体均未证实，落地前需补采（推断）",
+  "cost_score": 2.38,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "在奇幻岛屿上探索场景、收集宝藏、完成关卡与每日任务，组队挑战 Boss；节奏轻快、操作直观，单局碎片时间即可推进（基于第三方描述推断）。",
+  "highlights": [
+   "探索 + 收集 + 挑战的任务链提供持续目标感",
+   "好友组队 Boss 的协作玩法增强社交粘性（推断）",
+   "角色技能差异化带来轻度策略选择"
+  ],
+  "innovations": [
+   "无实质创新，属成熟休闲探索/收集品类的执行优化（推断，缺乏官方材料佐证）"
+  ],
+  "target_user": "全年龄段休闲玩家，碎片时间（推断）",
+  "monetization": "IAA/IAP 混合（推断），具体广告位与内购设计未知",
+  "lifecycle": "新上榜头部产品，短平快爆款或长线运营未知，需观察次日留存（推断）"
+ },
+ "clone": {
+  "verdict": "微创新",
+  "rationale": "品类与玩法高度成熟（休闲探索/收集），公开技术信息极少且无官方材料，难以判断差异化壁垒；整体只值得在细节做体验升级，不建议独立大投入立项。",
+  "suggestions": [
+   "若做同类，把题材换成「海岛经营 + 轻解谜」，用真实地理打卡增加新鲜感",
+   "在组队 Boss 上做轻社交裂变（如邀请好友解锁关卡）降低买量依赖",
+   "首屏用强视觉钩子（如动画岛屿）提升点击转化"
+  ],
+  "risks": [
+   "无官方材料，玩法与美术细节均为推断，立项前需实测",
+   "休闲探索赛道新面孔多、生命周期不确定",
+   "微信小游戏同类换皮竞争激烈"
+  ],
+  "effort": "25–40 人日（1 前端 + 1 美术 + 0.5 策划）（推断，待素材确认后修正）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "无 iTunes/官方一手材料，引擎、包体、玩法均依据榜单品类与第三方站点推断",
+   "level": "inferred"
+  },
+  {
+   "claim": "第三方站点称其含探索、收集、关卡、每日任务与好友组队 Boss 等系统",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.17yoo.cn/detail/60871"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T21:48:33+08:00"
+ },
+ "slug": "欢乐岛大冒险_9621b6"
+}

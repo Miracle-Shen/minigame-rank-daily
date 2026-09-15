@@ -1,0 +1,252 @@
+{
+ "schema_version": 1,
+ "name": "Block Craft 3D:Building Game",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Wildlife Studios",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 10
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 6,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "confirmed",
+  "dimension": "3D",
+  "art_style": "体素（voxel）方块世界，低多边形明亮卡通",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 3,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "方块按网格放置/移除、角色自由移动，无刚体/重力/拖拽物理模拟，物理成本最低",
+   "logic": "开放世界体素建造需处理无限地图的块增删与渲染、蓝图引导建造、任务与村庄经营耦合，逻辑复杂度偏高",
+   "server": "支持访问好友村庄的轻社交/在线要素，但非实时对战，服务端成本中等偏低"
+  },
+  "asset_notes": "体素方块可程序化生成、素材极轻（178MB 包体），主要成本在建造系统逻辑与多环境/宠物内容",
+  "notes": "Fun Games For Free 出品、Wildlife Studios 发行的 Minecraft Like 建造沙盒，官方资料确认 Unity 引擎；无战斗、重创造，技术难点在无限世界的块管理与性能",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "在开放体素世界里放置/移除彩色方块，按蓝图引导一步步盖出房屋、城堡、地标，完成任务赚金币解锁新建筑与装饰，还能养宠物、拜访好友村庄；无固定目标，自由创造为主。",
+  "highlights": [
+   "「幽灵方块」预览引导建造，降低上手门槛、给即时正反馈",
+   "从无到有盖出地标（埃菲尔铁塔/城堡）的创造成就感强",
+   "养宠物 + 访好友村庄提供轻社交与长期回访理由"
+  ],
+  "innovations": [
+   "无实质创新，属 Minecraft 式体素建造的轻量化无战斗执行，差异在明亮卡通画风与移动端适配"
+  ],
+  "target_user": "全年龄创造向休闲玩家，低龄与女性偏多",
+  "monetization": "IAP 为主（去广告/特殊方块包/加速），广告为辅",
+  "lifecycle": "长线运营，靠新方块包/宠物/活动更新维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "体素建造是成熟模板，核心机制（放置/移除方块 + 蓝图）照搬即成立，瓶颈在方块品类与题材包装；但 Minecraft 已实现强心智，需规避 IP 近似与直接撞脸。",
+  "suggestions": [
+   "把方块主题换成「国风古建」或「赛博城市」，用差异化素材建立辨识度",
+   "加入「蓝图交易市场」让玩家上传/下载作品，做 UGC 裂变",
+   "首屏用一键盖房引导降低创造门槛，提升新手完成率"
+  ],
+  "risks": [
+   "与 Minecraft 视觉/玩法高度近似，存在 IP 与平台审核风险",
+   "体素建造赛道已有大量产品、买量竞争激烈",
+   "无限世界块管理在低端机需性能优化"
+  ],
+  "effort": "40–60 人日（1–2 前端 + 1 美术），建造系统与块管理占主要工时"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/da/80/e6da80a1-ccf2-a7cc-e301-7049467d42bd/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/2b/18/c2/2b18c2f5-a8d3-42a7-c3f5-2046aad374e4/92aaa1e1-9321-4aa6-bb75-33ac02446776_iphone__01__20221010__BC__en__SS__IPHONE__different_enviroments__I2__03__JM.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/25/4a/0f/254a0f9b-bdcb-63e1-fd68-cd8372e20f63/b3c5c8f3-148d-4299-ba28-49c16acb921e_iphone__02__20220927__BC__en__SS__IPHONE__different_enviroments__I1__01__JM.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/76/1d/5a/761d5a54-35b2-fd6a-11c1-70295af3f1f0/2916c366-8b94-4635-aa03-251966e9daae_20220321__BC__EN__SS__IPHONE__tutorial__I1__01__JM.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/77/c0/2f/77c02fed-1199-b95f-e401-a2e9ff0dbe2c/ce5c8c3c-a3cf-4b23-b514-c16d1e2f9962_20220321__BC__en__SS__IPHONE__gameplays__I1__01__JM.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/06/10/f1/0610f10f-eea0-5c80-f8f4-1f717a1662ec/b8109b2f-d7a1-4af0-bfac-7e447327c773_20220321__BC__en__SS__IPHONE__gameplays__I1__02__JM.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/57/c9/e0/57c9e015-bda5-19fd-9270-6b71cd5a94c4/271bb366-0ce8-46e9-b152-b527021c7918_20220321__BC__en__SS__IPHONE__gameplays__I1__03__JM.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/83/25/e8/8325e83e-fa5d-5c06-af6e-2a3cbee45eb3/8adc0388-3b08-4067-aa59-98cfebe533b9_20220321__BC__en__SS__IPHONE__gameplays__I1__04__JM.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/d6/df/26/d6df2663-3821-5964-c3d8-84ba7e28d848/c8e6bff6-2557-4958-8796-c9707e3a5dbb_6_screenshot_6.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/36/65/b8/3665b8de-cfec-db8f-0961-ddabfa853cff/d35a70aa-99d6-426a-9843-accc092be508_ipad__01__20221010__BC__en__SS__IPAD__different_enviroments__I2__03__JM.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/c7/9c/80/c79c8023-774a-acbd-2001-e7d1771712d3/325753e9-552f-4859-b673-9928dddae09d_ipad__02__20220927__BC__en__SS__IPAD__different_enviroments__I1__01__JM.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/8d/eb/7b8deb70-2fe8-37ee-8e70-3d3591283ee0/ed5c80f2-a49c-4a47-8f70-15615bd8e5b7_20220321__BC__EN__SS__IPAD__tutorial__I1__01__JM.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/58/d6/78/58d6788a-1d0e-aacf-10b0-940086575e82/6426a804-0fd9-41af-8481-86b447cb8919_20220321__BC__en__SS__IPAD__gameplays__I1__01__JM.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/16/1b/bc/161bbc54-f44c-eb54-5098-82d9908069d1/79809c81-4170-48f7-8525-848b472b9305_20220321__BC__en__SS__IPAD__gameplays__I1__02__JM.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/b4/9c/75/b49c7596-8453-eacd-641c-b822d1644be2/4547539e-a421-435e-94d0-2079b96ae39b_20220321__BC__en__SS__IPAD__gameplays__I1__03__JM.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/72/50/06/725006c7-39c0-fe57-82e3-f13307f939c4/289f04fa-317c-4a13-9e7d-2ebcefba4d2f_20220321__BC__en__SS__IPAD__gameplays__I1__04__JM.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/83/4f/16/834f169c-db94-d49e-86f0-2599f610fadf/8553c689-53da-4c44-ae9f-2a73585eadff_20190517__BC__EN__SS__IPAD__gameplay__I1__01__TM.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 16"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "第三方资料确认 Block Craft 3D 使用 Unity 引擎开发",
+   "level": "confirmed"
+  },
+  {
+   "claim": "iOS 包体 178MB，体素方块素材量级中等偏低",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/block-craft-3d-building-games/id981633844",
+  "https://bizofgames.com/game/block-craft-3d-2/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 0.973,
+  "match_name": "Block Craft 3D: Building Games",
+  "country": "us",
+  "track_id": 981633844,
+  "seller": "Wildlife Studios, Inc",
+  "genres": [
+   "Games",
+   "Simulation",
+   "Roleplaying",
+   "Entertainment"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/da/80/e6da80a1-ccf2-a7cc-e301-7049467d42bd/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/2b/18/c2/2b18c2f5-a8d3-42a7-c3f5-2046aad374e4/92aaa1e1-9321-4aa6-bb75-33ac02446776_iphone__01__20221010__BC__en__SS__IPHONE__different_enviroments__I2__03__JM.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/25/4a/0f/254a0f9b-bdcb-63e1-fd68-cd8372e20f63/b3c5c8f3-148d-4299-ba28-49c16acb921e_iphone__02__20220927__BC__en__SS__IPHONE__different_enviroments__I1__01__JM.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/76/1d/5a/761d5a54-35b2-fd6a-11c1-70295af3f1f0/2916c366-8b94-4635-aa03-251966e9daae_20220321__BC__EN__SS__IPHONE__tutorial__I1__01__JM.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/77/c0/2f/77c02fed-1199-b95f-e401-a2e9ff0dbe2c/ce5c8c3c-a3cf-4b23-b514-c16d1e2f9962_20220321__BC__en__SS__IPHONE__gameplays__I1__01__JM.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/06/10/f1/0610f10f-eea0-5c80-f8f4-1f717a1662ec/b8109b2f-d7a1-4af0-bfac-7e447327c773_20220321__BC__en__SS__IPHONE__gameplays__I1__02__JM.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/57/c9/e0/57c9e015-bda5-19fd-9270-6b71cd5a94c4/271bb366-0ce8-46e9-b152-b527021c7918_20220321__BC__en__SS__IPHONE__gameplays__I1__03__JM.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/83/25/e8/8325e83e-fa5d-5c06-af6e-2a3cbee45eb3/8adc0388-3b08-4067-aa59-98cfebe533b9_20220321__BC__en__SS__IPHONE__gameplays__I1__04__JM.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/d6/df/26/d6df2663-3821-5964-c3d8-84ba7e28d848/c8e6bff6-2557-4958-8796-c9707e3a5dbb_6_screenshot_6.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/36/65/b8/3665b8de-cfec-db8f-0961-ddabfa853cff/d35a70aa-99d6-426a-9843-accc092be508_ipad__01__20221010__BC__en__SS__IPAD__different_enviroments__I2__03__JM.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/c7/9c/80/c79c8023-774a-acbd-2001-e7d1771712d3/325753e9-552f-4859-b673-9928dddae09d_ipad__02__20220927__BC__en__SS__IPAD__different_enviroments__I1__01__JM.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/7b/8d/eb/7b8deb70-2fe8-37ee-8e70-3d3591283ee0/ed5c80f2-a49c-4a47-8f70-15615bd8e5b7_20220321__BC__EN__SS__IPAD__tutorial__I1__01__JM.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/58/d6/78/58d6788a-1d0e-aacf-10b0-940086575e82/6426a804-0fd9-41af-8481-86b447cb8919_20220321__BC__en__SS__IPAD__gameplays__I1__01__JM.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/16/1b/bc/161bbc54-f44c-eb54-5098-82d9908069d1/79809c81-4170-48f7-8525-848b472b9305_20220321__BC__en__SS__IPAD__gameplays__I1__02__JM.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/b4/9c/75/b49c7596-8453-eacd-641c-b822d1644be2/4547539e-a421-435e-94d0-2079b96ae39b_20220321__BC__en__SS__IPAD__gameplays__I1__03__JM.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/72/50/06/725006c7-39c0-fe57-82e3-f13307f939c4/289f04fa-317c-4a13-9e7d-2ebcefba4d2f_20220321__BC__en__SS__IPAD__gameplays__I1__04__JM.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/83/4f/16/834f169c-db94-d49e-86f0-2599f610fadf/8553c689-53da-4c44-ae9f-2a73585eadff_20190517__BC__EN__SS__IPAD__gameplay__I1__01__TM.png/626x1112bb.jpg"
+  ],
+  "description": "Craft and grow your own village or build freely in an unlimited open world!\n\n+ Craft anything you like!\n+ Fill the world with your creations!\n+ Build your village!\n+ Help keeping your people happy!\n\nDownload now and don't miss amazing updates!\n\n\n● What our players are saying\n\n- This is a great game. Easy to play and an easy way to kill some time in between appointments. A must have. I spend hours playing this game. Simplistic but addicting! Love it\n\n- Very good game, but completely addicting. Finish whatever you have to before even starting.\n\n- The game is really fun. It's got all awesome graphics. It is definitely the best. I have never played such an awesome game. Whoever doesn't like this game has a problem.\n\n- That's right one of the best games I have ever played so if you are looking for a good time by just sitting around this is the app for you!\n\n- I just downloaded it and it's so fun and addictive I recommend this to people who like games on mobile devices.\n\nPrivacy Policy: https://www.fungames-forfree.com/games/blockcraft/legal/privacy",
+  "release_notes": "Bugfixes and Optimizations",
+  "file_size_bytes": 178615296,
+  "min_os": "13.0",
+  "version": "4.4.2",
+  "release_date": "2015-07-11",
+  "rating": 4.64534,
+  "rating_count": 860226,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/block-craft-3d-building-games/id981633844?uo=4",
+  "fetched_at": "2026-09-15T21:48:43+08:00"
+ },
+ "slug": "Block_Craft_3D_Building_Game_fe5788"
+}

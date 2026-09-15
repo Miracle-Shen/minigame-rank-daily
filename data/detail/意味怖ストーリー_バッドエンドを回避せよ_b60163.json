@@ -1,0 +1,241 @@
+{
+ "schema_version": 1,
+ "name": "意味怖ストーリー:バッドエンドを回避せよ!",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "CHICKEN SKIN LLC",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 18
+  },
+  "platform_app_ids": {
+   "ios": "6762239563"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 11,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / 国产化 visual novel 框架（推断；官方未公开）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "日式插画场景 + 角色立绘 + 文字选项 UI",
+  "dims": {
+   "engine": 2,
+   "art": 4,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "582MB 包体，含大量恐怖场景插画、角色立绘与音频，美术/音频资产量偏大",
+   "physics": "无物理，纯文字分支与点击选择",
+   "logic": "分支剧情树 + 选择→结局判定 + 「違和感」提示逻辑，复杂度中等",
+   "audio": "氛围 BGM 与语音/音效营造恐怖感，定制量中"
+  },
+  "asset_notes": "无 3D/物理；成本集中在插画与剧本撰写，可外包；技术层极轻",
+  "notes": "分支叙事技术门槛极低，壁垒在剧本质量与日式恐怖美术氛围",
+  "cost_score": 2.38,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "阅读一段看似平常的对话，从对方回应/选项中察觉「违和感」，选择不刺激对方、回避危险的做法；选错即导向恐怖 BAD END，选对推进剧情。每章数分钟。",
+  "highlights": [
+   "「日常对话里藏着不对劲」的细思极恐悬念",
+   "选择决定生还/BAD END 的高张力",
+   "日式意味怖（城市怪谈）氛围与音效包裹",
+   "多结局收集驱动重玩"
+  ],
+  "innovations": [
+   "无机制创新，属「意味怖/tsugunohi」分支叙事品类的移动化执行"
+  ],
+  "target_user": "日本及亚洲年轻女性向恐怖/怪谈爱好者",
+  "monetization": "IAA（含广告）+ IAP（去广告/章节解锁）",
+  "lifecycle": "中短内容驱动，靠章节更新维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "分支对话 + 规避 BAD END 的玩法机制极轻、可模板化复刻，技术零壁垒；瓶颈完全在恐怖剧本质量与日式怪谈美术氛围，换题材/换文案即差异化。适合作为低成本填充位。",
+  "suggestions": [
+   "换成本土怪谈题材（如「中式民俗恐怖对话」「职场灵异」）",
+   "用 AI 辅助生成分支剧本与「违和感」提示词",
+   "加入多结局图鉴收集提升重玩"
+  ],
+  "risks": [
+   "恐怖文案若抄袭原作场景涉版权",
+   "日本怪谈题材本土化需谨慎避免文化雷区",
+   "广告变现 LTV 偏低"
+  ],
+  "effort": "15–25 人日（1 前端 + 0.5 文案 + 0.5 美术）含十数章剧本"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/5f/d4/bf5fd431-4758-2e79-cd5c-eaeb46cdcd0f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/c0/5b/6dc05b2e-6053-b35b-df4e-e0720895a6ac/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/62/43/6d62431a-e41f-50d0-dc8b-e8474b52df6e/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/c6/f6/a6c6f620-db85-a88c-8ca8-5ce58c6e0ee7/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1e/73/c1/1e73c1f6-d3e0-87c8-6314-e78e2d49858d/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/cc/0f/eccc0f3d-0e39-93f7-b326-d53445edf714/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/86/44/4b8644ae-94bb-e9ae-dcd3-020f3f584bbf/6.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5e/df/1d/5edf1dd6-9784-bd1f-dbc5-1d3d6eee7b70/7.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/2e/50/922e50ac-9c03-6cc2-81c9-70975c7e78ab/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/80/db/7980db3b-7b0c-8b29-9da7-b2b0dbd5504c/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/f2/0c/6af20cd1-e73f-8a46-27a8-893a053b06ab/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/91/b3/b191b3a1-6589-365a-28a0-d976f30fc501/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/c3/d9/57c3d9a3-a5dc-c384-676d-f401f0f2958c/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/92/b9/5f92b94c-a8ae-d3c1-f007-b552968c141d/6.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/53/d8/5c53d8fe-aed8-2bd1-5a7a-ad60131133d7/7.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 14"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "CHICKEN SKIN LLC（日本）出品，包体 582MB，Android 100K+ 下载",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Unity/visual novel 框架，官方未公开",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.memuplay.com/apkdownload.php?file_name=google-play&from=app_details_ko_tokyo.chickenskin.imikowa",
+  "https://apps.apple.com/us/app/%E6%84%8F%E5%91%B3%E6%80%96%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC-%E3%83%90%E3%83%83%E3%83%89%E3%82%A8%E3%83%B3%E3%83%89%E3%82%92%E5%9B%9E%E9%81%BF%E3%81%9B%E3%82%88/id6762239563?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "意味怖ストーリー：バッドエンドを回避せよ！",
+  "country": "us",
+  "track_id": 6762239563,
+  "seller": "CHICKEN SKIN LLC",
+  "genres": [
+   "Games",
+   "Simulation",
+   "Adventure"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/5f/d4/bf5fd431-4758-2e79-cd5c-eaeb46cdcd0f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/c0/5b/6dc05b2e-6053-b35b-df4e-e0720895a6ac/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/62/43/6d62431a-e41f-50d0-dc8b-e8474b52df6e/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/c6/f6/a6c6f620-db85-a88c-8ca8-5ce58c6e0ee7/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1e/73/c1/1e73c1f6-d3e0-87c8-6314-e78e2d49858d/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/cc/0f/eccc0f3d-0e39-93f7-b326-d53445edf714/5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/86/44/4b8644ae-94bb-e9ae-dcd3-020f3f584bbf/6.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5e/df/1d/5edf1dd6-9784-bd1f-dbc5-1d3d6eee7b70/7.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/2e/50/922e50ac-9c03-6cc2-81c9-70975c7e78ab/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/80/db/7980db3b-7b0c-8b29-9da7-b2b0dbd5504c/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/f2/0c/6af20cd1-e73f-8a46-27a8-893a053b06ab/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/91/b3/b191b3a1-6589-365a-28a0-d976f30fc501/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/c3/d9/57c3d9a3-a5dc-c384-676d-f401f0f2958c/5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/92/b9/5f92b94c-a8ae-d3c1-f007-b552968c141d/6.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/53/d8/5c53d8fe-aed8-2bd1-5a7a-ad60131133d7/7.png/626x1112bb.jpg"
+  ],
+  "description": "会話の違和感を見抜き、\nBAD ENDを回避する意味怖ストーリーゲームです。\n\n普通の会話をしているだけなのに、\nなんとなく怖い。\n\n相手の返答。\nちょっとした違和感。\n何気ない選択。\n\nその違和感を見逃すと、\n恐ろしい結末につながるかもしれません。\n\n空気を読みながら、\n相手を刺激しないように、\n危険を回避してください。",
+  "release_notes": "・新しいステージを追加しました\n・一部ステージの演出を調整しました",
+  "file_size_bytes": 610705408,
+  "min_os": "18.0",
+  "version": "1.0.6",
+  "release_date": "2026-06-14",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "Free",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/us/app/%E6%84%8F%E5%91%B3%E6%80%96%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC-%E3%83%90%E3%83%83%E3%83%89%E3%82%A8%E3%83%B3%E3%83%89%E3%82%92%E5%9B%9E%E9%81%BF%E3%81%9B%E3%82%88/id6762239563?uo=4",
+  "fetched_at": "2026-09-15T21:49:18+08:00"
+ },
+ "slug": "意味怖ストーリー_バッドエンドを回避せよ_b60163"
+}

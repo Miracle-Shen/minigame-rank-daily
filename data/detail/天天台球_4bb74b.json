@@ -1,0 +1,112 @@
+{
+ "schema_version": 1,
+ "name": "天天台球",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "北京喜云网络科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/热门榜"
+  ],
+  "ranks": {
+   "douyin/热门榜": 14
+  },
+  "platform_app_ids": {
+   "douyin": "tta3fdd5403cf7dc6f02"
+  },
+  "first_seen": "2026-06-29",
+  "appearances": 66,
+  "best_rank": 9,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "写实 3D 球桌/球杆/球，拟真光影",
+  "dims": {
+   "engine": 4,
+   "art": 3,
+   "anim": 2,
+   "physics": 5,
+   "logic": 3,
+   "data": 2,
+   "server": 3,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "台球核心是刚体碰撞 + 摩擦/旋转/袋口判定，球体轨迹与走位手感精调是技术天花板",
+   "art": "写实 3D 球桌/球杆/球 + 光影，素材中等（包体 163MB），非重资产",
+   "engine": "真 3D 渲染 + 台球物理 + AR 投射，需在 Unity 等引擎上搭专属物理与对战框架",
+   "server": "实时/异步匹配对战、排位赛与好友约局需联网服务端",
+   "data": "球杆收集、段位、签到等轻养成，无重数值线"
+  },
+  "asset_notes": "3D 写实球桌与球杆为主，素材量中等；瓶颈在物理手感与球路 AI，不在美术。",
+  "notes": "台球赛道标杆级产品，技术核心是物理与公平性，非美术量；AR 功能为差异化亮点。未见官方引擎声明，由真 3D + 物理推断为 Unity。",
+  "cost_score": 3.0,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "玩家拖动调整球杆角度与力度，松手击打母球撞击目标球入袋；8 球需清完本组再打黑 8、斯诺克按红彩计分，对战/闯关单局 5–15 分钟，靠走位与规则获胜。",
+  "highlights": [
+   "真实球路物理 + 辅助线预判，新手也能打出了一杆清的成就感",
+   "进球连锁特效 + 炫酷冠军球杆，连击反馈爽感强",
+   "血战/魔王挑战等限时模式压缩节奏，制造快决策紧张感"
+  ],
+  "innovations": [
+   "AR 技术把虚拟球桌投射到现实场景，增强沉浸（相对纯 2D 台球的微创新）",
+   "在经典规则外加入五行/日月属性克制的魔王挑战，给台球叠加 RPG 元素"
+  ],
+  "target_user": "台球爱好者 + 轻竞技休闲用户，偏男性，全年龄段",
+  "monetization": "IAA + IAP 混合：广告（复活/提示/体力）+ 球杆皮肤/去广告内购；竞技段位驱动内购",
+  "lifecycle": "长线运营，靠赛事/新球杆/模式更新维持，属竞技长线"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "台球物理机制成熟无壁垒，但赛道已有天天台球等标杆且高度饱和；纯换肤难突围，需在核心循环加一处结构变化（如目标化/剧情化/社交化）才能避免正面撞车。",
+  "suggestions": [
+   "把打进袋改成解谜目标：每关给定固定球位，要求用最少杆数达成指定图案，变消除式关卡",
+   "加入台球 + Roguelike：每过一关随机获得球杆特效（穿透/分裂/磁吸），构建 build",
+   "做双人异步对战 + 表情嘲讽强化社交传播，降低买量依赖"
+  ],
+  "risks": [
+   "台球物理手感调校门槛高，照搬易飘",
+   "赛道饱和、头部固化，买量 ROI 低",
+   "AR 功能需设备与权限支持，覆盖有限"
+  ],
+  "effort": "50–80 人日（1 客户端 3D + 1 物理 + 1 美术），瓶颈在台球物理与球路 AI"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "真 3D 台球、8 球/斯诺克/九球、物理弹射、AR 投射、163MB（来源 IT猫扑/今日头条多家描述）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Unity（真 3D + 物理组合，未见官方声明）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.itmop.com/downinfo/504029.html",
+  "https://www.toutiao.com/a7640048863721620002"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T21:48:55+08:00"
+ },
+ "slug": "天天台球_4bb74b"
+}

@@ -1,0 +1,233 @@
+{
+ "schema_version": 1,
+ "name": "Cube Land Puzzle Game",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Rotatelab Yazilim ve Bilisim A.S.",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 6
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 6,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "3D 体素（voxel）/像素风方块，明亮彩色",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 3,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "纯颜色匹配消除，方块为静态体素、消除即消失，无物理模拟，物理成本最低",
+   "logic": "3D 分层体素谜题：旋转模型暴露内层、暂存区/数字弹匣机制、冻结/锁定/问号块等限制，约 650 关且需处理死锁判定，逻辑复杂度高",
+   "server": "主打离线单机（官方描述 Play offline anytime），无实时联网，服务端成本为零"
+  },
+  "asset_notes": "3D 体素模型可用程序化生成 + 配色表批量产出，素材轻；核心资产是关卡数据与旋转/消除特效",
+  "notes": "属 Pixel Flow / This Is Blast 的 3D 体素化版本（Rotatelab 自研休闲矩阵产品），技术栈推断 Unity；核心是「3D 层级剥离」的爽感与低认知摩擦，难度在关卡设计与死锁平衡",
+  "cost_score": 2.38,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "屏幕下方数字弹匣对准由彩色体素堆成的 3D 模型，发射同色炮弹逐层爆破消除，模型自动缓慢旋转、无可消角度时手动旋转找缺口，清空全部色块即过关；暂存区占满且无法消除则失败，一局数十秒到数分钟。",
+  "highlights": [
+   "逐层「剥洋葱」式爆破 3D 体素，暴露内层的过程提供持续解压反馈",
+   "自动旋转 + 手动补旋的二段操作，制造「最后一块够不够得着」的悬念张力",
+   "无计时压力 + 高频过关，前期密集展示插屏广告转化顺畅"
+  ],
+  "innovations": [
+   "把 2D 方块爆破（Pixel Flow/This Is Blast）升级为「3D 可旋转体素」，用层级关系替代传送带结构，形成新解谜维度"
+  ],
+  "target_user": "全年龄解压向休闲玩家，通勤碎片时间",
+  "monetization": "IAA 为主（过关插屏/激励视频），辅以 Cube Pass 通行证等轻 IAP",
+  "lifecycle": "长线靠关卡供给（约 650 关）与 LiveOps 维持，外围系统较轻"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "3D 体素颜色消除的核心机制清晰可照搬，技术实现不重（推断 Unity + 体素程序化），瓶颈在题材包装与关卡设计；换熟悉模型（动物/人物/地标）即差异化，但需规避知名 IP。",
+  "suggestions": [
+   "把体素模型换成「中式建筑/节气物」等文化符号，降低 IP 风险又增辨识度",
+   "在旋转机制上加「重力翻转」维度，形成与原作的微差异",
+   "前 50 关降低色块种类、把首支插屏后移到第 8 关提升首日留存"
+  ],
+  "risks": [
+   "体素模型若过度贴近知名 IP（如迪士尼角色）有侵权风险",
+   "3D 消除赛道已出现模仿者，需快速起量占心智",
+   "广告分层配置不当易伤留存"
+  ],
+  "effort": "25–40 人日（1 前端 + 1 美术 + 0.5 策划），关卡设计占主要工时"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/47/f8/d847f8d8-9b32-27f1-54bd-2dca7100908f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5b/79/bf/5b79bf2e-e1ae-7ded-ab24-5cbe73c390ae/1320x2868_1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/bb/89/8bbb8944-6d24-c0fd-b461-d77655410406/1320x2868_2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/3f/69/a23f695a-6b93-ab1a-f9c6-805e696033ab/1320x2868_3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/64/48/326448dd-49d1-8ec8-106d-681e2f883cf0/1320x2868_4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/8c/72/3f8c7275-d5d3-703c-ff02-77ccd3d60701/1320x2868_5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/6c/71/9f6c710f-55e2-765e-c391-e07e844c167f/1320x2868_6.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/ed/64/0fed6492-8c01-a99e-5599-34da2a21a2c2/2048_x_2796_01.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/cb/84/4ccb8461-8925-c18b-fa93-7083d1d52dd3/2048_x_2796_02.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/71/2c/4d712c4c-b432-6f1e-8e50-bc3403da1c97/2048_x_2796_03.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/e8/fa/e0e8fa74-b5d8-b177-e7e2-f57777f3603e/2048_x_2796_04.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/df/ac/dddfacf3-61e8-6f3d-376e-5aeff1b86f68/2048_x_2796_05.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/40/7a/6d407a7e-bcab-6004-f643-652dd3cd3c85/2048_x_2796_06.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/83/88/f5838865-23df-0c20-e18b-efa590d6d164/2048_x_2796_07.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "iOS 包体 382MB / Android 约 158MB，属 3D 休闲中重包体",
+   "level": "confirmed"
+  },
+  {
+   "claim": "3D 体素休闲游戏，移动休闲厂商通用 Unity，故引擎推断 Unity",
+   "level": "inferred"
+  },
+  {
+   "claim": "玩法为 3D 分层体素爆破、约 650 关、主打离线，依据第三方拆解文章",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/cube-land-puzzle-game/id6757154335",
+  "http://developers.appbrain.com/app/cube-land-puzzle-game/com.rotatelab.cubeblast"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Cube Land Puzzle Game",
+  "country": "us",
+  "track_id": 6757154335,
+  "seller": "ROTATELAB YAZILIM VE BILISIM TEKNOLOJILERI SANAYI TICARET ANONIM SIRKETI",
+  "genres": [
+   "Games",
+   "Puzzle"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/47/f8/d847f8d8-9b32-27f1-54bd-2dca7100908f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5b/79/bf/5b79bf2e-e1ae-7ded-ab24-5cbe73c390ae/1320x2868_1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/bb/89/8bbb8944-6d24-c0fd-b461-d77655410406/1320x2868_2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/3f/69/a23f695a-6b93-ab1a-f9c6-805e696033ab/1320x2868_3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/64/48/326448dd-49d1-8ec8-106d-681e2f883cf0/1320x2868_4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/8c/72/3f8c7275-d5d3-703c-ff02-77ccd3d60701/1320x2868_5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/6c/71/9f6c710f-55e2-765e-c391-e07e844c167f/1320x2868_6.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/ed/64/0fed6492-8c01-a99e-5599-34da2a21a2c2/2048_x_2796_01.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/cb/84/4ccb8461-8925-c18b-fa93-7083d1d52dd3/2048_x_2796_02.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/71/2c/4d712c4c-b432-6f1e-8e50-bc3403da1c97/2048_x_2796_03.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/e8/fa/e0e8fa74-b5d8-b177-e7e2-f57777f3603e/2048_x_2796_04.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/df/ac/dddfacf3-61e8-6f3d-376e-5aeff1b86f68/2048_x_2796_05.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/40/7a/6d407a7e-bcab-6004-f643-652dd3cd3c85/2048_x_2796_06.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/83/88/f5838865-23df-0c20-e18b-efa590d6d164/2048_x_2796_07.png/626x1112bb.jpg"
+  ],
+  "description": "Blast your way through colorful cube worlds! Cube Land Puzzle Game is a satisfying 3D block puzzle where every shot counts.\n\nAim color matched blasters at cube structures and watch them crumble piece by piece. Plan ahead, pick the right blaster at the right moment, and clear each level with style.\n\nWHY YOU'LL LOVE CUBE LAND PUZZLE GAME\n• Satisfying destruction, every block blast feels great\n• Easy to pick up, genuinely clever to master\n• Hundreds of handcrafted 3D cube puzzles\n• Relaxing pace with no time pressure\n• Play anywhere, works offline\n\nThink smart. Aim true. Blast it all.\nDownload Cube Land Puzzle Game and start clearing your first cube world today!",
+  "release_notes": "Performance improvements and bug fixes.",
+  "file_size_bytes": 381954048,
+  "min_os": "15.0",
+  "version": "0.5.1",
+  "release_date": "2026-01-18",
+  "rating": 4.66246,
+  "rating_count": 25810,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/cube-land-puzzle-game/id6757154335?uo=4",
+  "fetched_at": "2026-09-15T21:48:40+08:00"
+ },
+ "slug": "Cube_Land_Puzzle_Game_5e0d11"
+}

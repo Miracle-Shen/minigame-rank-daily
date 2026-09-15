@@ -1,0 +1,112 @@
+{
+ "schema_version": 1,
+ "name": "飞行模拟大师",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州易游互玩科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 4
+  },
+  "platform_app_ids": {
+   "douyin": "tt3fb44909a0aea22407"
+  },
+  "first_seen": "2026-09-15",
+  "appearances": 1,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "3D卡通飞行场景，多主题地图",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 3,
+   "logic": 2,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "飞行手感/重力/多段跳跃/滑翔/碰撞与闪避，需轻度物理精调，是相对成本项",
+   "art": "3D场景+多种主题地图(未来都市/遗迹/云端)，素材量中等",
+   "logic": "关卡障碍+道具+轻度战斗，规则简单"
+  },
+  "asset_notes": "3D场景贴图与飞机模型为主，可用通用3D素材库；体量中等",
+  "notes": "抖音新游榜飞行跑酷休闲产品(亦存在‘真实飞行模拟驾驶’同名版本，本批按榜单名取跑酷版)，技术栈成熟，引擎据品类推断Cocos/Laya，未确认。",
+  "cost_score": 2.25,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "操控角色/飞机在立体赛道中多段跳跃滑翔，躲避旋转风车/移动平台等动态障碍，收集金币与道具抵达终点，一局数十秒到一两分钟。",
+  "highlights": [
+   "多段跳跃+滑翔的空中变向，操作有技巧深度",
+   "动态障碍组合(旋转风车/陷阱)带来即时反应爽感",
+   "金币收集+装备升级(喷射背包/磁力鞋)的正反馈"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟飞行跑酷品类的执行优化"
+  ],
+  "target_user": "泛休闲跑酷用户，抖音下沉流量",
+  "monetization": "IAA为主(复活/道具看广告)，可能辅以皮肤内购",
+  "lifecycle": "短平快爆款，靠关卡与皮肤更新维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "飞行跑酷机制成熟、代码量小、素材轻；瓶颈在题材与关卡设计，换题材即可差异化，最适合低成本换皮。",
+  "suggestions": [
+   "把飞机换成‘火箭/飞毯/神兽’，保留跳跃滑翔核心",
+   "加入国漫/IP联名皮肤，提升买量素材差异化",
+   "首关把障碍密度降到极低、失败点后移优化留存"
+  ],
+  "risks": [
+   "飞行跑酷赛道饱和，买量成本高",
+   "同名‘真实飞行模拟’版本可能造成搜索混淆"
+  ],
+  "effort": "15–25人日（1前端 + 0.5美术）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "抖音新游榜飞行跑酷休闲游戏，广州易游互玩科技(榜单输入+聚合站)",
+   "level": "confirmed"
+  },
+  {
+   "claim": "玩法含3D场景/多段跳跃/滑翔/动态障碍(聚合站描述)",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎疑为Cocos Creator或LayaAir(抖音跑酷小游戏主流，未确认)",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.picxiaobai.com/az/49834.html",
+  "https://www.niwanwan.com/down/224169.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T21:48:24+08:00"
+ },
+ "slug": "飞行模拟大师_6b0737"
+}

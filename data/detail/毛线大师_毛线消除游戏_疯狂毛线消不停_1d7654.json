@@ -1,0 +1,232 @@
+{
+ "schema_version": 1,
+ "name": "毛线大师 - 毛线消除游戏 疯狂毛线消不停",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Happy Bubble Information Technology Co., Ltd.",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 19
+  },
+  "platform_app_ids": {
+   "ios": "6748351662"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 21,
+  "best_rank": 17,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "小游戏引擎（推断 Cocos Creator / Unity，含轻度物理）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "萌趣卡通毛线球，色彩鲜艳 + 缠绕/拉伸表现",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "physics": 3,
+   "anim": 3,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "2D 但需毛线物理/动态表现，需成熟引擎+自调物理，给 3（inferred）",
+   "art": "包体 417MB 偏‘重’，含大量毛线球状态/角色/关卡贴图与音效，给 3",
+   "physics": "毛线缠绕/拉伸/弹跳与‘雨天变重、晴天弹更高’的天气物理，需简易弹簧/弹性模拟，给 3",
+   "anim": "毛线动态 + ASMR 级音效 + 角色技能动画，表现量中上，给 3",
+   "logic": "颜色分类 + 同色连接消除 + 多角色技能 + 顾客订单目标，给 3",
+   "data": "红包/角色/关卡进度，轻养成，给 2",
+   "server": "微信登录 + 云存档/排行，弱联网，给 2",
+   "audio": "ASMR 级缠绕/消除音效 + BGM，给 3"
+  },
+  "asset_notes": "素材为 2D 毛线卡通 + 大量动态状态（天气/弹性），无 3D 但包体偏大（417MB）主要来自 ASMR 音频与多状态贴图；毛线物理表现是核心资产，需专人调。",
+  "notes": "Happy Bubble 出品的‘毛线颜色分类/解线’解压游戏，主打毛线物理特性（缠绕、拉伸、弹跳）与天气联动 + ASMR 音效。属‘解绳/颜色分类’治愈赛道，国内已有多款同类（如解螺丝、解线系列）。",
+  "cost_score": 2.75,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "滑动连接相邻同色毛线团→按关卡目标把所有毛线分类归位/拼成图案→用角色技能加速消除；天气会改变毛线状态（雨天变重、晴天弹更高）影响策略，单局 1-3 分钟。",
+  "highlights": [
+   "毛线‘缠绕→理顺→弹跳归位’的触感反馈 + ASMR 音效，解压感强",
+   "天气系统改变毛线物理状态，给同一关多一层策略变量",
+   "多角色各有技能，提供‘抄近道’爽点",
+   "颜色分类 + 图案目标，肉眼可见进度，停不下来"
+  ],
+  "innovations": [
+   "把‘颜色分类’与毛线物理（缠绕/拉伸/弹性）+ 天气联动结合，区别于静态解绳",
+   "角色技能系统为纯消除加入轻度 build 元素"
+  ],
+  "target_user": "全龄解压/治愈用户，偏好无压力、可爱画风",
+  "monetization": "IAA（激励视频/体力/红包）+ IAP（去广告/角色），混合；含红包激励",
+  "lifecycle": "长线运营，靠关卡量与红包活动维持"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "‘解线/颜色分类’是成熟治愈赛道，机制无壁垒；核心差异在毛线物理手感与题材包装，复制成本低，适合换‘线材/题材’（如电线、藤蔓）做差异化。",
+  "suggestions": [
+   "把毛线换成其他‘可缠绕物’题材（如水管、藤蔓、数据线）做视觉焕新",
+   "保留天气物理变量作为记忆点，强化 ASMR 音效包装",
+   "红包机制可复用但需注意平台对‘赚钱’宣传的审核边界"
+  ],
+  "risks": [
+   "解线/颜色分类赛道拥挤，买量 CPI 高",
+   "毛线物理手感是隐性门槛，调不好易‘假解压’",
+   "红包玩法易触发小游戏平台合规审核"
+  ],
+  "effort": "30–50 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/34/be/bb34be6b-a846-ae18-997e-af647d1f581d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/ea/59/15ea59f2-6bc2-e0d0-9dc7-f0a47ddaa39f/6.9-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6c/eb/b3/6cebb3e8-06a6-fa1f-35c8-9b0f9a20ccc6/6.9-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/1a/77/531a7775-de6e-4094-0f07-cbf7b986a068/6.9-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/9b/b7/9c9bb7c8-559b-ef82-36b4-fda44d377cb6/6.9-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/96/df/f196dfc9-ebbe-74b1-2999-eee524009a5b/6.9-6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/cc/b5/7bccb50d-3a91-bcba-8613-f51111396cae/6.9-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/6d/f2/576df2b9-bf2d-f7bb-1100-a3a4df60be01/pad-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/e1/e6/cae1e6a4-3452-f3de-ad9b-797044a15768/pad-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/9a/fa/1f9afa27-1391-61ab-8de2-efbd7ee74f13/pad-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/89/df/0e89df22-851c-b716-210b-ad50455f3917/pad-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/40/b5/d440b5fd-6ef0-d59e-6daa-a072de264ef8/pad-6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/fc/c2/10fcc252-a82c-7286-e3ce-7f3ba043d4d2/pad-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "App Store 国区条目‘毛线大师’，发行商 Happy Bubble，包体 417MB，微信登录",
+   "level": "confirmed"
+  },
+  {
+   "claim": "玩法含毛线物理（缠绕/拉伸/弹跳）+ 天气联动 + ASMR，引擎按 2D 小游戏惯例推断",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%AF%9B%E7%BA%BF%E5%A4%A7%E5%B8%88-%E6%AF%9B%E7%BA%BF%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F-%E7%96%AF%E7%8B%82%E6%AF%9B%E7%BA%BF%E6%B6%88%E4%B8%8D%E5%81%9C/id6748351662?uo=4",
+  "https://www.7k7k.com/wxgame/19634.htm"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "毛线大师 - 毛线消除游戏 疯狂毛线消不停",
+  "country": "cn",
+  "track_id": 6748351662,
+  "seller": "Wuhan Happy Bubble Information Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "休闲",
+   "益智解谜"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/34/be/bb34be6b-a846-ae18-997e-af647d1f581d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/ea/59/15ea59f2-6bc2-e0d0-9dc7-f0a47ddaa39f/6.9-5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6c/eb/b3/6cebb3e8-06a6-fa1f-35c8-9b0f9a20ccc6/6.9-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/1a/77/531a7775-de6e-4094-0f07-cbf7b986a068/6.9-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/9b/b7/9c9bb7c8-559b-ef82-36b4-fda44d377cb6/6.9-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/96/df/f196dfc9-ebbe-74b1-2999-eee524009a5b/6.9-6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/cc/b5/7bccb50d-3a91-bcba-8613-f51111396cae/6.9-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/6d/f2/576df2b9-bf2d-f7bb-1100-a3a4df60be01/pad-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/e1/e6/cae1e6a4-3452-f3de-ad9b-797044a15768/pad-5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/9a/fa/1f9afa27-1391-61ab-8de2-efbd7ee74f13/pad-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/89/df/0e89df22-851c-b716-210b-ad50455f3917/pad-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/40/b5/d440b5fd-6ef0-d59e-6daa-a072de264ef8/pad-6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/fc/c2/10fcc252-a82c-7286-e3ce-7f3ba043d4d2/pad-4.jpg/626x1112bb.jpg"
+  ],
+  "description": "告别焦虑，拥抱指尖上的色彩疗愈！\n你是否感觉生活有点灰蒙蒙？压力山大，想要找点简单快乐的小确幸？别担心！这款色彩缤纷的指尖小玩意儿，就像一杯鲜榨果汁，瞬间点亮你的心情！\n\n面对一团团可爱又五颜六色的毛线球，你的任务很简单：动动手指，解开它们，让每种颜色都各归其位，整整齐齐！\n看似简单？错啦！这其中可是藏着无穷的乐趣和挑战！你需要仔细观察，开动脑筋，巧妙运用各种技巧，才能成功闯过一关又一关。\n\n为什么你会爱不释手？\n -超级简单，一玩就上瘾： 操作简单到飞起，瞬间沉浸在解线的乐趣中，根本停不下来！\n -色彩爆炸，心情Duang Duang Duang： 鲜艳的色彩搭配，萌萌哒的画面，让你的心情瞬间像坐火箭一样UP UP UP！\n -动脑筋，不无聊： 难度逐渐提升的关卡，挑战你的思维极限，让你在玩乐中锻炼大脑！\n -随时随地，轻松一下： 等公交、排队、睡不着？拿出它，随时随地享受解线的乐趣，告别压力！\n\n还等什么？快来释放你的色彩天赋，体验解开毛线团的惊喜快感吧！让你的指尖在色彩的海洋里自由舞动，开启一段充满乐趣的解线之旅！",
+  "release_notes": "新增关卡，快来挑战吧",
+  "file_size_bytes": 417969152,
+  "min_os": "13.0",
+  "version": "2.6",
+  "release_date": "2025-07-18",
+  "rating": 4.57469,
+  "rating_count": 11521,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/%E6%AF%9B%E7%BA%BF%E5%A4%A7%E5%B8%88-%E6%AF%9B%E7%BA%BF%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F-%E7%96%AF%E7%8B%82%E6%AF%9B%E7%BA%BF%E6%B6%88%E4%B8%8D%E5%81%9C/id6748351662?uo=4",
+  "fetched_at": "2026-09-15T21:49:35+08:00"
+ },
+ "slug": "毛线大师_毛线消除游戏_疯狂毛线消不停_1d7654"
+}

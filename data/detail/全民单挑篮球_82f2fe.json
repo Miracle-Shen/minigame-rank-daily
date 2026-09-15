@@ -1,0 +1,111 @@
+{
+ "schema_version": 1,
+ "name": "全民单挑篮球",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "武汉爆鸣互娱科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 12
+  },
+  "platform_app_ids": {
+   "douyin": "ttec129aaf7277e27107"
+  },
+  "first_seen": "2026-09-15",
+  "appearances": 1,
+  "best_rank": 12,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断，3D 实时竞技手游常用；官方未公开）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "3D 球员/球场/街头场景 + 球星时装",
+  "dims": {
+   "engine": 4,
+   "art": 4,
+   "anim": 4,
+   "physics": 4,
+   "logic": 4,
+   "data": 5,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "server": "实时 PVP 匹配与好友约战，网络同步与反作弊成本高",
+   "physics": "篮球投篮轨迹/碰撞/抢断盖帽手感需物理与手感精调",
+   "data": "球员养成（升级/技能/天赋/时装）、段位天梯、赛季多线",
+   "art": "3D 球员建模与多球场场景，资源量中上"
+  },
+  "asset_notes": "3D 球员与球场美术 + 动作捕捉动画为主要成本；实时物理与 netcode 是技术难点",
+  "notes": "1v1 篮球竞技 + 球员养成为成熟体育品类，技术门槛在 3D 实时联网与手感",
+  "cost_score": 4.12,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "在单挑球场用方向/投篮/跳跃三键走位卡位，时机盖帽、后撤跳投完成 11 分制斗牛；含 3v3、三分竞速、路人王闯关等模式，单局 3–5 分钟。",
+  "highlights": [
+   "实时 1v1 斗牛的对抗博弈与「最后一球」悬念",
+   "球员专属招牌技能（投篮/突破/盖帽）的策略差异",
+   "扣篮/盖帽的动作爽感与音效",
+   "段位天梯与赛季奖章的目标驱动"
+  ],
+  "innovations": [
+   "无机制创新，属成熟篮球竞技 + 卡牌式球员养成的组合"
+  ],
+  "target_user": "篮球题材休闲竞技用户，偏好短时对抗",
+  "monetization": "IAA + IAP（球员抽卡/碎片/时装/周卡），混合变现",
+  "lifecycle": "长线运营，赛季更新球员与时装"
+ },
+ "clone": {
+  "verdict": "微创新",
+  "rationale": "篮球 1v1 + 球员养成为成熟体育竞技框架，但 3D 实时 PVP 的 netcode、物理手感与球员动画成本较高，且赛道已被腾讯 NBA 系等头部占据；新入场者仅值得在题材/操作细节做体验升级，不建议独立重投入立项。",
+  "suggestions": [
+   "换小众运动降低竞争（如「街头足球 1v1」「乒乓球」）",
+   "用确定性手感（非物理拟真）降低物理调校成本",
+   "先做 AI 对手单机版验证手感再上实时 PVP"
+  ],
+  "risks": [
+   "3D 实时联网与手感调校成本高、周期长",
+   "体育竞技品类头部（NBA 系）买量压制",
+   "球员肖像/联赛授权版权风险"
+  ],
+  "effort": "70–100 人日（2 前端 + 1 后端 + 1.5 美术 + 0.5 动画）含实时 PVP"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "武汉爆鸣互娱科技出品，1v1 休闲竞技篮球，含实时 PVP 与球员养成（公开攻略/商店页）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Unity（3D 实时竞技常用，无官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.taptap.cn/app/186245/all-info",
+  "https://wap.gamersky.com/shouyou/1499842/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T21:49:21+08:00"
+ },
+ "slug": "全民单挑篮球_82f2fe"
+}

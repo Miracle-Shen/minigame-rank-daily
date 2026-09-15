@@ -14,6 +14,8 @@
 
   const INDEX_URL = "data/detail/index.json";
   const REC_DIR = "data/detail/";
+  const ASSET_VERSION = (window.APP_CONFIG && window.APP_CONFIG.ASSET_VERSION) || "1";
+  const assetUrl = (path) => path + "?v=" + encodeURIComponent(ASSET_VERSION);
 
   let indexPromise = null;
   let index = null;
@@ -102,7 +104,7 @@
   function loadIndex(force) {
     if (index && !force) return Promise.resolve(index);
     if (indexPromise && !force) return indexPromise;
-    indexPromise = fetch(INDEX_URL + "?t=" + Date.now())
+    indexPromise = fetch(assetUrl(INDEX_URL), { cache: "force-cache" })
       .then((r) => (r.ok ? r.json() : null))
       .then((d) => { index = d || { games: {} }; return index; })
       .catch(() => { index = { games: {} }; return index; });
@@ -117,7 +119,7 @@
     if (recCache[name]) return Promise.resolve(recCache[name]);
     return entryFor(name).then((e) => {
       if (!e || !e.slug || !e.collected) return null;
-      return fetch(REC_DIR + e.slug + ".json?t=" + Date.now())
+      return fetch(assetUrl(REC_DIR + e.slug + ".json"), { cache: "force-cache" })
         .then((r) => (r.ok ? r.json() : null))
         .then((rec) => { if (rec) recCache[name] = rec; return rec; })
         .catch(() => null);
@@ -195,7 +197,17 @@
     if (clone.verdict) chips.push('<span class="gd-chip"><span class="gd-k">建议</span><b>' + esc(clone.verdict) + "</b></span>");
     // effort 的取值本身已含单位（如「25–40人日（1前端+1美术+0.5策划）」），
     // 标签再写「人日」会变成「人日25–40人日」，故用「工作量」。
-    if (clone.effort) chips.push('<span class="gd-chip"><span class="gd-k">工作量</span><b>' + esc(clone.effort) + "</b></span>");
+    // 摘要条只取**前面的人日区间**，完整写法（含人力配置）留在第 4 分区，
+    // 否则同一个值会在页面上出现两遍、读起来像两个不同的结论。
+    if (clone.effort) {
+      const full = String(clone.effort);
+      const hit = full.match(/^\s*([\d０-９]+\s*[–—~～\-]\s*[\d０-９]+|\d+\+?)\s*人日/);
+      const brief = hit ? hit[0].trim() : "";
+      if (brief && brief !== full) {
+        chips.push('<span class="gd-chip" title="' + esc(full) + '"><span class="gd-k">工作量</span><b>' +
+          esc(brief) + "</b></span>");
+      }
+    }
     const sz = mb(m.file_size_bytes);
     if (sz) chips.push('<span class="gd-chip"><span class="gd-k">包体</span><b>' + esc(sz) + "</b></span>");
     if (!chips.length) return "";

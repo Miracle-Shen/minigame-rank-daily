@@ -1,0 +1,224 @@
+{
+ "schema_version": 1,
+ "name": "王者征途",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "上海巨人统平网络科技有限公司",
+  "category_l1": "角色",
+  "category_l2": "MMO",
+  "boards": [
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 15
+  },
+  "platform_app_ids": {
+   "wx": "wxbfc89b084ad52a75"
+  },
+  "first_seen": "2026-06-30",
+  "appearances": 56,
+  "best_rank": 14,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "H5 引擎（巨人自研小程序框架，多端互通）",
+  "engine_evidence": "confirmed",
+  "dimension": "2.5D（竖版 MMO）",
+  "art_style": "国风玄幻写实，角色/场景贴图 + 技能/时装特效",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 3,
+   "physics": 2,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "采用 H5 引擎开发并多端互通（上证报披露），需在 H5 框架上自研放置+MMO 能力，万人同屏与多端同步改造量大，给 4",
+   "art": "包体 386MB 属“重”区间，含大量 3D 角色、场景、职业技能特效、翅膀/坐骑/法宝等时装资产，给 5",
+   "logic": "放置养成 + 五大职业组合 + 战斗 + 国战/家族战/王城战 + 搬砖运镖经济系统，系统复杂度极高，给 5",
+   "data": "多线养成（装备/宠物/兽魂/法宝/职业）、赛季内容、自由交易经济循环、长线版本更新，养成深度给 5",
+   "server": "强联网：万人同屏、跨服国战、家族社交、云存档与实时 PK，服务端给 5",
+   "physics": "无刚体/布料/流体模拟，主要是位移与技能命中判定，给 2",
+   "anim": "技能特效、骨骼动画、坐骑翅膀等表现规模大但属常规 MMO 范畴，给 3",
+   "audio": "定制国风 BGM + 技能音效 + 语音，规模中等，给 3"
+  },
+  "asset_notes": "美术资产以 3D 角色建模、场景、技能特效与海量时装为主，且持续版本更新需要长期美术产能；素材层是主要成本瓶颈之一，不适合小团队。",
+  "notes": "征途 IP 下的竖版放置类 MMO 小程序，轻量化挂机切入但内核仍是重 MMO：强联网、重养成、长线运营。技术资产与买量门槛都极高，复刻性价比极低。",
+  "cost_score": 4.0,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "上线领离线挂机收益→推图/扫荡副本拿养成材料→培养五大职业与装备/兽魂/法宝→参与家族战、王城战、国战抢资源；一局推图数十秒到几分钟，长线靠 daily 任务与赛季维持。",
+  "highlights": [
+   "离线挂机自动成长，上线即领收益，碎片时间也能推进战力，降低养肝门槛",
+   "五大职业自由组合‘一人成军’，战斗策略与多角色联动带来搭配爽感",
+   "万人同屏国战/家族战提供强社交荣誉感与‘爱恨情仇’式资源争夺，留存钩子强",
+   "经典‘太庙搬砖/刺探运镖/家族篝火’等征途老玩法复刻，情怀玩家秒懂"
+  ],
+  "innovations": [
+   "把传统重肝征途改造成‘床上一躺战力疯涨’的竖版放置 MMO，是 IP 向小程序轻量化的最大改动",
+   "引入多角色养成体系（同时养 5 个角色）降低单角色投入并丰富搭配"
+  ],
+  "target_user": "30-50 岁征途情怀男用户与泛 MMO 挂机党，碎片时间为主",
+  "monetization": "IAP 内购为主（战力/养成道具、月卡、赛季通行证），配合征途系常规广告位；重度付费驱动",
+  "lifecycle": "长线运营，靠版本资料片、赛季与 IP 联动持续拉回流"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "征途是巨人网络核心 IP，存在明确版权/商标壁垒；且产品本质是重 MMO——强联网服务端、多线养成数值、长线美术产能与买量投放缺一不可，属重资本赛道，已被头部产品锁死，小团队无切入空间。",
+  "suggestions": [
+   "若只想要‘放置挂机+轻 MMO’框架，可独立原创题材（如西游/修仙）并自研，切勿碰征途 IP 与美术",
+   "把万人国战降级为异步公会战 + 排行榜，先把单机放置养成跑通再补联网",
+   "用 AI 生成美术与文案压缩产能，但数值与经济系统仍需专人长线调"
+  ],
+  "risks": [
+   "征途 IP/商标版权风险，直接换皮必触法",
+   "重 MMO 服务端 + 长线美术产能，小团队资金与技术都扛不住",
+   "MMO 赛道买量成本高、头部固化，新游获客与留存双重压力"
+  ],
+  "effort": "600–1000 人日（10+ 人团队：服务端/客户端/数值/关卡/美术，长线运营）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/94/92/e19492ef-848c-28b0-8432-92c7ccb5946d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/0e/6c/120e6cec-d4d9-4b30-e6eb-7998ac8dab5a/13202868_iPhone_U9996_U9875.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/62/55/31625591-a78c-5cdc-b9f3-7ecead426c5d/13202868_iPhone1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/cd/98/15cd9821-6358-7f9d-c577-8f5d5d801ea5/13202868_iPhone2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/17/cc/c317cc9b-1c78-241e-08f2-bdd50340d195/13202868_iPhone3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/12/77/f712773a-f134-cfcd-9358-66aa909b09c7/13202868_iPhone4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/87/f2/ac87f241-474d-0c4a-d7e7-22bba5407c42/20642752_iPad_U9996_U9875.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/c8/af/69c8af01-579e-3ee4-8e4a-662633a60507/20642752_iPad1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9b/51/2d/9b512d04-2d58-6333-9bd7-a4b68bcba382/20642752_iPad2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/70/4e/a1704e66-36a4-6635-1577-94da72312146/20642752_iPad3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/2d/49/8d2d49be-5a46-e765-7c88-3f43fa0df4fa/20642752_iPad4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "采用 H5 引擎开发，多端互通（巨人网络互动平台答复）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "《王者征途》为征途竖版放置类小程序 MMO，微信小游戏畅销榜曾至第四",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体 386MB，含大量 3D/特效资产",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://company.cnstock.com/company/scp_gsxw/202302/5015617.htm",
+  "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E5%BE%81%E9%80%94/id6446988505?uo=4"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2.5D（竖版 MMO）"
+ ],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "王者征途",
+  "country": "cn",
+  "track_id": 6446988505,
+  "seller": "Giant Network Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "角色扮演",
+   "策略"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/94/92/e19492ef-848c-28b0-8432-92c7ccb5946d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/0e/6c/120e6cec-d4d9-4b30-e6eb-7998ac8dab5a/13202868_iPhone_U9996_U9875.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/62/55/31625591-a78c-5cdc-b9f3-7ecead426c5d/13202868_iPhone1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/cd/98/15cd9821-6358-7f9d-c577-8f5d5d801ea5/13202868_iPhone2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/17/cc/c317cc9b-1c78-241e-08f2-bdd50340d195/13202868_iPhone3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/12/77/f712773a-f134-cfcd-9358-66aa909b09c7/13202868_iPhone4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/87/f2/ac87f241-474d-0c4a-d7e7-22bba5407c42/20642752_iPad_U9996_U9875.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/c8/af/69c8af01-579e-3ee4-8e4a-662633a60507/20642752_iPad1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9b/51/2d/9b512d04-2d58-6333-9bd7-a4b68bcba382/20642752_iPad2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/70/4e/a1704e66-36a4-6635-1577-94da72312146/20642752_iPad3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/2d/49/8d2d49be-5a46-e765-7c88-3f43fa0df4fa/20642752_iPad4.jpg/626x1112bb.jpg"
+  ],
+  "description": "巨人网络首款挂机放置类征途手游，轻松游戏，好玩不累！\n【轻松挂机 离线升级】简化繁琐任务流程，离线自动成长，上线领取收益，角色养成轻松无压力！\n【角色搭配 推图不累】五大特色职业随心组合，一人成军，组建不同的战斗策略！\n【海量副本 自给自足】日常任务简洁，支持一键扫荡，不肝不氪畅快征途！\n【经典玩法 一个不落】太庙搬砖、刺探运镖、家族篝火……还是熟悉的味道！\n【万人同屏 激情酣战】包含家族战、王城战、圣坛战等多种联机战斗模式，肆意热血激战！\n\n【联系我们】\n-官方网站：wzzt.ztgame.com\n-官方公众号：wangzhezt",
+  "release_notes": "更新内容：\n\n· 全新职业-魔化枪客上线，魔武双修，枪破万法！\n· 全新副本-补天塔开启，爽拿海量补天石；\n· 全新兽魂-龙魂来袭，各项属性全面暴涨；\n· 全新法宝-太乙拂尘、七宝玲珑塔登场，超强特效助力PK连胜！",
+  "file_size_bytes": 386405376,
+  "min_os": "9.0",
+  "version": "1.0.8",
+  "release_date": "2024-10-24",
+  "rating": 4.80403,
+  "rating_count": 7389,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E5%BE%81%E9%80%94/id6446988505?uo=4",
+  "fetched_at": "2026-09-15T21:49:23+08:00"
+ },
+ "slug": "王者征途_77346d"
+}

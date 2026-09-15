@@ -1,0 +1,113 @@
+{
+ "schema_version": 1,
+ "name": "Smash Land!",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Flow Games A.S.",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 16
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-08-21",
+  "appearances": 23,
+  "best_rank": 8,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "写实卡通 3D 场景与可破坏积木/建筑",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 5,
+   "logic": 3,
+   "data": 1,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "破坏玩法的核心是刚体物理（质量/动量/碰撞反弹），倒塌连锁与一发清场手感需要物理参数精细调校，是技术与成本最高处",
+   "data": "无角色养成或数值成长线，纯关卡解锁推进，数值与服务端成本极低",
+   "server": "纯单机关卡游戏，无排行榜或云存档，无需服务端",
+   "art": "3D 场景与可破坏积木/建筑模型，体量中等（无官方包体数据，按画面推断）",
+   "engine": "3D 渲染 + 物理破坏组合，需在 Unity 等成熟引擎上搭建弹射/倒塌框架，无需自研引擎"
+  },
+  "asset_notes": "3D 场景与可破坏物体为主，可用程序化/模块化建模；素材层不是瓶颈，瓶颈在物理手感调校。",
+  "notes": "经典弹射破坏玩法的 3D 升级版（类似愤怒的小鸟 + 物理沙盒），技术风险集中在物理反馈而非美术或系统；未见官方引擎声明，由 3D+物理组合推断为 Unity。",
+  "cost_score": 2.62,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "玩家拖动瞄准大炮，松手发射弹球击打场景中的积木塔/障碍；利用质量、动量与反弹让结构倒塌，一次性清掉目标即可过关，单局几十秒到两分钟。",
+  "highlights": [
+   "结构坍塌的连锁反应 + 飞溅碎块，物理因果感强，一炮清场极度解压",
+   "瞄准—发射—观看结果的三段式节奏短，重试成本低，天然适合碎片时间反复挑战",
+   "不同材质/机关（可破坏物、滚动终点）带来下一关会不会更爽的期待"
+  ],
+  "innovations": [
+   "无实质玩法创新，是对 2D 弹射破坏（愤怒的小鸟类）的 3D 化与物理精细度升级，核心循环已被市场反复验证"
+  ],
+  "target_user": "全球泛休闲手游用户，偏好解压、低门槛物理玩法",
+  "monetization": "混合变现：以 IAP（去广告/道具/体力）为主、广告为辅（AppGoblin 估算 IAP 占 79%），靠关卡进度卡点推内购",
+  "lifecycle": "中长线运营，靠持续新增机关与数百关卡维持，属关卡型长尾产品"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "核心机制（瞄准发射 + 刚体破坏）是成熟且无版权壁垒的物理玩法，照搬即成立；差异化完全落在题材与关卡机关设计上。但 3D 物理手感调校与破坏资产生产是主要成本门槛。",
+  "suggestions": [
+   "把炮击积木塔换成拆迁大队：用挖掘机/爆破拆除城中村，题材更本土化更解压",
+   "加入连锁爆破点数排行与好友挑战，把单机破坏接上社交传播",
+   "关卡用模块化机关（可破坏/滚动/反弹三类）组合生成，降低手工关卡成本"
+  ],
+  "risks": [
+   "3D 物理手感调校周期长，照搬易软绵绵不像原作爽",
+   "同类弹射破坏产品（含大厂）已多，买量竞争激烈",
+   "无官方包体数据，资产量级需上线后实测"
+  ],
+  "effort": "40–60 人日（1 客户端 3D + 1 物理/关卡 + 1 美术），瓶颈在物理参数与破坏资产"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法为 3D 物理弹射破坏、数百关卡、纯单机（来源 BlueStacks/AppGoblin 商店描述）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Unity（3D + 物理组合的常见选择，未见官方确认）",
+   "level": "inferred"
+  },
+  {
+   "claim": "包体体积未知（未命中 iTunes 媒体材料）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://appgoblin.info/apps/com.flow.smashparty",
+  "https://www.bluestacks.com/apps/puzzle/smash-land-on-pc.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T21:48:47+08:00"
+ },
+ "slug": "Smash_Land_965a85"
+}

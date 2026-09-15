@@ -1,0 +1,260 @@
+{
+ "schema_version": 1,
+ "name": "Tasty Travels: Merge Game",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Century Games Pte. Ltd.",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 15
+  },
+  "platform_app_ids": {
+   "ios": "6471045672"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 25,
+  "best_rank": 11,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断，点点互动 merge 类产品常用；官方未公开）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "扁平插画风美食/旅行场景 + 角色立绘",
+  "dims": {
+   "engine": 3,
+   "art": 5,
+   "anim": 4,
+   "physics": 1,
+   "logic": 5,
+   "data": 5,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "681MB 包体（>600MB 很重），含 500+ 食材/菜肴/目的地插画、角色与场景，美术资产量极大",
+   "logic": "500+ 物品合成树、订单/任务、能量门控、目的地解锁与故事进度，系统复杂",
+   "physics": "纯拖拽合并，无物理",
+   "data": "能量/库存/卡牌收集/金币/装饰/赛季活动多线养成与经济循环"
+  },
+  "asset_notes": "美术是最大成本（681MB 插画与角色），可用外包/AI 辅助批量产出但体量仍大；合成逻辑可模板化",
+  "notes": "merge-2 机制高度成熟可复刻，真正壁垒是 500+ 物品的内容体量、旅行叙事包装与出海买量能力",
+  "cost_score": 3.62,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "点击生成器产出基础食材（耗能量），拖拽两个相同食材合成更高阶物品，完成游客订单换金币与 XP，攒币解锁新旅行目的地并推进故事。能量耗尽需等待或看广告。",
+  "highlights": [
+   "拖拽合并的即时反馈与「合成出稀有物」的收集爽感",
+   "能量门控制造稀缺驱动看广告/IAP（核心变现钩子）",
+   "解锁巴黎/东京等目的地与 vlogger 故事线的目标感",
+   "卡牌收集与装饰系统的 owned 感"
+  ],
+  "innovations": [
+   "无机制创新，属 merge-2 品类成熟框架 + 环球美食旅行叙事包装 + 卡牌收集系统"
+  ],
+  "target_user": "欧美女性向休闲用户，偏好收集/叙事的轻度玩家",
+  "monetization": "IAA（看广告补能量）+ IAP（能量/钻石/装饰/通行证），能量门控为变现核心",
+  "lifecycle": "长线运营，周更目的地/赛季活动，2024 上线后收入破亿"
+ },
+ "clone": {
+  "verdict": "微创新",
+  "rationale": "merge-2 机制与能量门控变现已被市场完全验证、可低成本复刻，但 Tasty Travels 凭 500+ 物品内容体量（681MB）与环球旅行叙事成为出海头部，品类已高度饱和；新入场者仅值得在题材与内容包装上做细节升级，不建议独立立项对撞。",
+  "suggestions": [
+   "换题材避开美食旅行，如「复古电子宠物合成」「中式药膳合成」",
+   "用 AI 程序化生成合成物品美术降低 681MB 资产成本",
+   "在能量门控外加入轻度社交/工会差异化"
+  ],
+  "risks": [
+   "merge 品类买量 CPA 高、ROI 难正",
+   "500+ 物品内容产能门槛高",
+   "头部（Gossip Harbor/Tasty Travels）已占用户心智"
+  ],
+  "effort": "45–70 人日（2 前端 + 1 美术 + 0.5 策划）含百级合成树，不含 500+ 全量内容"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/45/bb/e045bb47-6e25-55e1-c687-8e64a7dea9d2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/2c/cb/fb2ccbfa-a1d9-a599-cc97-9dbfe4a96ff1/1290x2796-0_english.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/5d/bf/665dbf0a-25e4-abd8-8e1b-5d5222e44fb9/1290x2796-1a_english.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/df/30/0fdf3004-300a-6169-599a-d7a58713d760/1290x2796-2_english.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/82/ff/e4/82ffe412-e086-2481-4b57-8cb088914b89/1290x2796-3_english.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/9b/d6/af9bd61d-39d8-7649-5253-98a5e2871a3a/1290x2796-4_english.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/9e/13/0f9e1305-2274-311e-11fa-33b2cbdd7309/1290x2796-5_english.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/2a/e6/d82ae693-9601-9ffd-c8b7-5d04a24e545e/1290x2796-ios-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/17/e2/1e17e235-8ab3-009f-eac1-4d94bd3eb829/1290x2796-6_english.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/63/5e/5e635eca-ebea-78bf-49e5-dc9d58043ae8/2048x2732-0_english.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/95/b8/c995b8e2-ff95-0925-d4bb-a0235b8418ac/2048x2732-1a_english.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/04/7d/9a047d2b-9f92-10f9-26d2-7b891fc8ff76/2048x2732-2_english.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/22/9b/74229b8a-d1f5-2bfe-b842-d2a374ab703b/2048x2732-3_english.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/5b/0a/325b0aaa-a226-7e03-3b44-498709103c82/2048x2732-4_english.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/3f/31/7a3f3138-a570-a6e1-876d-00492e88af44/2048x2732-5_english.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/1b/02/891b028d-f073-9b58-c894-874ffea0ef17/2048x2732-ios-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/79/b1/c579b1a5-5d9b-cbd0-e7bc-75a3f35f5886/2048x2732-6_english.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 16"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "点点互动（世纪华通）出品，中文名《食光旅行》，2024 上线，收入破亿美元",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体约 681MB，含 500+ 可合成食材（官方描述 + 商店页）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎疑为 Unity，官方未公开",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://baike.baidu.com/item/Tasty%20Travels%3A%20Merge%20Game/67478881",
+  "http://game.centurygame.com/baxcaovpjvj",
+  "https://apps.apple.com/us/app/tasty-travels-merge-game/id6471045672?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Tasty Travels: Merge Game",
+  "country": "us",
+  "track_id": 6471045672,
+  "seller": "Century Games Pte. Ltd.",
+  "genres": [
+   "Games",
+   "Puzzle",
+   "Casual"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/45/bb/e045bb47-6e25-55e1-c687-8e64a7dea9d2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/2c/cb/fb2ccbfa-a1d9-a599-cc97-9dbfe4a96ff1/1290x2796-0_english.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/5d/bf/665dbf0a-25e4-abd8-8e1b-5d5222e44fb9/1290x2796-1a_english.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/df/30/0fdf3004-300a-6169-599a-d7a58713d760/1290x2796-2_english.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/82/ff/e4/82ffe412-e086-2481-4b57-8cb088914b89/1290x2796-3_english.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/9b/d6/af9bd61d-39d8-7649-5253-98a5e2871a3a/1290x2796-4_english.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/9e/13/0f9e1305-2274-311e-11fa-33b2cbdd7309/1290x2796-5_english.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/2a/e6/d82ae693-9601-9ffd-c8b7-5d04a24e545e/1290x2796-ios-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/17/e2/1e17e235-8ab3-009f-eac1-4d94bd3eb829/1290x2796-6_english.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/63/5e/5e635eca-ebea-78bf-49e5-dc9d58043ae8/2048x2732-0_english.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/95/b8/c995b8e2-ff95-0925-d4bb-a0235b8418ac/2048x2732-1a_english.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/04/7d/9a047d2b-9f92-10f9-26d2-7b891fc8ff76/2048x2732-2_english.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/22/9b/74229b8a-d1f5-2bfe-b842-d2a374ab703b/2048x2732-3_english.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/5b/0a/325b0aaa-a226-7e03-3b44-498709103c82/2048x2732-4_english.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/3f/31/7a3f3138-a570-a6e1-876d-00492e88af44/2048x2732-5_english.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/1b/02/891b028d-f073-9b58-c894-874ffea0ef17/2048x2732-ios-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/79/b1/c579b1a5-5d9b-cbd0-e7bc-75a3f35f5886/2048x2732-6_english.jpg/626x1112bb.jpg"
+  ],
+  "description": "Embark on a culinary journey in Tasty Travels: Merge Game, where your passion for cooking meets the excitement of exploration! Merge ingredients to create mouth-watering dishes as you travel the world!\n\nUnlock the secrets of world cuisine, master regional specialties, and share your gastronomic tales with friends everywhere!\n\nStay connected with Tasty Travels: Merge Game on Facebook for exclusive offers and updates!\nFacebook: https://www.facebook.com/profile.php?id=61551040873010\n\nMerge Ingredients \n • Discover and merge over 500 unique ingredients across different levels!\n • Drag and merge ingredients in your home kitchen to whip up fabulous new dishes!\n • Complete quests for tourists to unlock new recipes and destinations, from renowned culinary capitals to quaint town squares!\n\nSocial Interaction \n • Connect with friends worldwide, share your culinary adventures, and earn their admiration!\n • Share recipes to enhance your food adventures and host delightful virtual cooking parties!\n\nUnlock Travel Destinations \n • Collect coins to unlock exciting new travel destinations, from bustling town markets to serene garden parks!\n • Visit and savor the ambiance of the world's most celebrated culinary cities, each brimming with unique flavors and traditions!\n • Dive into the immersive challenges scattered across each new destination, solving culinary-themed puzzles to progress!\n • Unearth hidden gems in charming towns, where local chefs challenge you with their master recipes.\n\nEngaging Stories \n • Embark on a captivating story that takes you through various towns, each with its own mystery and unique recipes to uncover!\n • Help a young girl realize her dream of becoming a vlogger, exploring her family's secrets as she travels the world with her friends.",
+  "release_notes": "Minor bug fixes and improvements.",
+  "file_size_bytes": 714832896,
+  "min_os": "12.0",
+  "version": "63.0",
+  "release_date": "2024-04-11",
+  "rating": 4.618,
+  "rating_count": 50746,
+  "price": "Free",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/us/app/tasty-travels-merge-game/id6471045672?uo=4",
+  "fetched_at": "2026-09-15T21:49:15+08:00"
+ },
+ "slug": "Tasty_Travels_Merge_Game_b5ab5a"
+}

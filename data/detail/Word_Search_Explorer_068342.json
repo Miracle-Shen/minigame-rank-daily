@@ -1,0 +1,180 @@
+{
+ "schema_version": 1,
+ "name": "Word Search Explorer",
+ "updated_at": "2026-09-15",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "PlaySimple Games",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 19
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-08-21",
+  "appearances": 22,
+  "best_rank": 17,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Flutter (Dart)",
+  "engine_evidence": "confirmed",
+  "dimension": "2D",
+  "art_style": "扁平卡通 + 旅行主题插画背景",
+  "dims": {
+   "engine": 1,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 3,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "纯字母网格点击/滑动，无任何物理模拟，成本最低",
+   "engine": "基于 Flutter 休闲游戏模板，单词网格与滑动交互可快速配置，无需自研引擎",
+   "logic": "需内置词库 + 关卡生成 + 提示/coins 系统，数十主题、数百到数千关的内容编排是主要工作量",
+   "data": "coins 经济、每日挑战、旅行日志（邮票/明信片）收集线构成轻量成长体系"
+  },
+  "asset_notes": "2D 字母网格 + 主题插画，素材量轻（iOS 包体仅 33MB），AI 生图 + 程序化网格即可覆盖",
+  "notes": "PlaySimple 用 Flutter 模板化量产单词游戏，技术风险极低；与 Word Search Solitaire 等同厂产品共享框架",
+  "cost_score": 2.0,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "在字母网格里滑动手指连出隐藏的单词，每关一个主题词表；完成一关解锁新目的地，沿‘环球旅行’主线推进，单局 1–3 分钟，可离线游玩。",
+  "highlights": [
+   "滑动连词的顺滑手感 + 找到词的即时高亮反馈，满足‘找全’的强迫感",
+   "环球旅行/明信片收集线把单局爽感接到长线目标（收集邮票、解锁地标）",
+   "提示系统（揭示字母/单词）在卡关时给可控的‘喘息’，同时用 hints/coins 制造广告与内购触点"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟单词搜索品类的执行优化（旅行主题包装 + 收集线）"
+  ],
+  "target_user": "全年龄泛休闲/词汇爱好者，通勤碎片时间",
+  "monetization": "IAA 为主（关卡中/间插广告，高关卡广告频繁），辅以去广告内购（No-Ads pack）与 hint coins",
+  "lifecycle": "长线运营，靠每日挑战与持续关卡更新维持复访"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "单词搜索机制完全通用、无版权壁垒，瓶颈在题材包装与词库；复刻成本极低。但品类高度饱和、买量贵，且 PlaySimple 已用 Flutter 模板化量产，纯换皮难突围。",
+  "suggestions": [
+   "把‘环球旅行’换成‘古诗词寻踪’，词表换成唐诗宋词，天然带文化与教育感",
+   "加入‘成语接龙’连词模式，把单字搜索升级为短句，提升留存差异",
+   "用中文词库 + 方言主题（川渝/粤语）做本地化换皮，避开英语词搜红海"
+  ],
+  "risks": [
+   "单词搜索品类全球极度饱和，头部（PlaySimple/Wordscapes）买量成本极高",
+   "词库版权与本地化词表编辑是隐性工作量",
+   "缺乏独家机制，留存高度依赖题材美术"
+  ],
+  "effort": "10–18 人日（1 前端 Flutter + 0.5 美术 + 0.5 策划词库）"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/a9/f8/eea9f8be-b15a-b968-7eea-16a7b5dfea83/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/14/fc/2514fc72-fbd8-88a7-0f3b-7553e874ab38/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/62/42/d162426b-3027-c954-0512-ce1fcaedb08b/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/0d/f2/030df2cc-87e1-52d2-85d2-11701ff280b1/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/1a/73/491a73a1-bac5-8cc2-1af9-384a4368fb26/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/07/fc/f407fc0d-cbab-613c-59ff-189c46adb04b/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "引擎为 Flutter（SDK 检测含 Flutter/SwiftUI，且 PlaySimple 招聘 Flutter 工程师）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "iOS 包体 33MB，素材量级轻",
+   "level": "confirmed"
+  },
+  {
+   "claim": "全球版本 Android 包体约 143MB，含更多主题插画",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/word-search-explorer-puzzel/id6752920897",
+  "https://appwisp.com/app/ios/in.playsimple.wordsearch"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 0.935,
+  "match_name": "Word Search Explorer - Puzzel",
+  "country": "cn",
+  "track_id": 6752920897,
+  "seller": "Quang Thu Nguyen",
+  "genres": [
+   "游戏",
+   "娱乐",
+   "益智解谜",
+   "字谜"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/a9/f8/eea9f8be-b15a-b968-7eea-16a7b5dfea83/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/14/fc/2514fc72-fbd8-88a7-0f3b-7553e874ab38/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/62/42/d162426b-3027-c954-0512-ce1fcaedb08b/5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/0d/f2/030df2cc-87e1-52d2-85d2-11701ff280b1/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/1a/73/491a73a1-bac5-8cc2-1af9-384a4368fb26/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/07/fc/f407fc0d-cbab-613c-59ff-189c46adb04b/2.png/626x1112bb.jpg"
+  ],
+  "description": "Embark on a fun and relaxing word adventure with Word Search Explorer!\nDiscover hundreds of word search puzzles designed to challenge your mind, boost your vocabulary, and keep you entertained anytime, anywhere.\n\n◉ How to Play\nSwipe to connect letters and form hidden words. Each level brings new challenges and exciting themes to explore.\n\n◉ Features\n\nThousands of puzzles to enjoy\n\nDaily challenges and special rewards\n\nEasy to play, hard to master\n\nBeautiful designs and relaxing music\n\nPlay offline anytime, no Wi-Fi needed\n\nWhether you want to relax after a long day or train your brain with stimulating puzzles, Word Search Explorer is the perfect choice. Suitable for players of all ages!\n\nDownload now and start your word-finding journey today!",
+  "release_notes": "- Add New Future\n- Update UI\n- Update Performance",
+  "file_size_bytes": 33428480,
+  "min_os": "13.0",
+  "version": "1.1",
+  "release_date": "2025-09-25",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/word-search-explorer-puzzel/id6752920897?uo=4",
+  "fetched_at": "2026-09-15T21:49:40+08:00"
+ },
+ "slug": "Word_Search_Explorer_068342"
+}
