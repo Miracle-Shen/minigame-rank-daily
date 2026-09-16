@@ -1,0 +1,602 @@
+{
+  "date": "2026-09-16",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "天天象棋",
+          "category": "棋牌",
+          "category_rank": 2,
+          "subcategory": "棋类",
+          "slogan": "",
+          "publisher": "深圳市腾讯天游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx9e44d62c7ab75740",
+          "publisher_id": 20002394
+        },
+        {
+          "rank": 17,
+          "name": "解压打毛线",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州池骋网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxcdc333d63f70cf06",
+          "publisher_id": 20012361
+        },
+        {
+          "rank": 19,
+          "name": "浪漫餐厅",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "北京柠檬微趣科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx087d98a0884bbe3b",
+          "publisher_id": 20012364
+        },
+        {
+          "rank": 20,
+          "name": "跳一跳",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx7c8d593b2c3a7703",
+          "publisher_id": 20002309
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "天命行者",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "广州大蓝网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxbdf25cb34ce9bf6e",
+          "publisher_id": 20002317
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "密室出逃",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "广州三狼网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx8e2350201e31a0c8",
+          "publisher_id": 20152315
+        },
+        {
+          "rank": 20,
+          "name": "俄罗斯方块拼图",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "广州京游网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx45e02fc734c7b568",
+          "publisher_id": 20012421
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 20,
+          "name": "车速狂飙",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttbb01cdbc2566417507",
+          "publisher_id": 20262386
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 20,
+          "name": "车速狂飙",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttbb01cdbc2566417507",
+          "publisher_id": 20262386
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "四季合合",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt210457b9be35faff07",
+          "publisher_id": 20002380
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "炮台一发入魂",
+          "category": "1",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt11bd67008fda373e07",
+          "publisher_id": 20262386
+        },
+        {
+          "rank": 15,
+          "name": "眼力搜查",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "南京暗夜科技信息有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt40f2364fde97ebdf02",
+          "publisher_id": 20012381
+        },
+        {
+          "rank": 18,
+          "name": "清理大师模拟",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门市晨曦光年科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6eb1180cf0d4ed7b07",
+          "publisher_id": 20244613
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "小鱼生存探险",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海伊凯园网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt140c62b18a76bd6d02",
+          "publisher_id": 20302511
+        },
+        {
+          "rank": 14,
+          "name": "我真能通关",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州池骋网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta314d5a93d70133d07",
+          "publisher_id": 20012361
+        },
+        {
+          "rank": 17,
+          "name": "傲视神魔传",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门爆量互娱网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd19ca7214ff9cdac02",
+          "publisher_id": 20244520
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 15,
+          "name": "眼力搜查",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "南京暗夜科技信息有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt40f2364fde97ebdf02",
+          "publisher_id": 20012381
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "炮台一发入魂",
+          "category": "1",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt11bd67008fda373e07",
+          "publisher_id": 20262386
+        },
+        {
+          "rank": 15,
+          "name": "眼力搜查",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "南京暗夜科技信息有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt40f2364fde97ebdf02",
+          "publisher_id": 20012381
+        },
+        {
+          "rank": 18,
+          "name": "清理大师模拟",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门市晨曦光年科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6eb1180cf0d4ed7b07",
+          "publisher_id": 20244613
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "无限大",
+          "publisher": "网易游戏",
+          "category": "开放世界",
+          "subcategory": "角色扮演、高自由度、都市、二次元、动作、高画质、3D"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "Fish Sort Puzzle - Bubble Jam",
+          "publisher": "Shycheese",
+          "category": "Games",
+          "app_id": "6771681639",
+          "url": "https://apps.apple.com/us/app/fish-sort-puzzle-bubble-jam/id6771681639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/86/39/5986391c-4a07-7794-f2a0-016fbca50e38/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Dive into an underwater adventure!\nTap the fish and watch them swim into their n"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "英雄联盟手游",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1455054000",
+          "url": "https://apps.apple.com/cn/app/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E6%89%8B%E6%B8%B8/id1455054000?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/ad/42/68ad422e-6b7c-ca58-99d3-01609194c3de/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+          "slogan": "《英雄联盟手游》夏日狂欢开启！芸阿娜、科加斯陆续上线。阿狸ASU到来，视觉表现全面升级！S22 新赛季同步启幕，法师装备迎来改版，新增多款主动装备。全新排位上分"
+        },
+        {
+          "rank": 20,
+          "name": "QQ飞车",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1235504705",
+          "url": "https://apps.apple.com/cn/app/qq%E9%A3%9E%E8%BD%A6/id1235504705?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/82/f1/b082f16c-8956-fee3-d2fa-42e766865344/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "腾讯十年经典，唯一官方正版《QQ飞车手游》，全球累计注册用户突破2亿，全民竞速手游不可不玩！\n\n《QQ飞车手游》由端游原班人马倾情打造，采用最新的渲染方式，为玩"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "エバーナイト：リバース",
+          "publisher": "LONGSIN GAME",
+          "category": "ゲーム",
+          "app_id": "6780761128",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A8%E3%83%90%E3%83%BC%E3%83%8A%E3%82%A4%E3%83%88-%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9/id6780761128?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/f2/9d/62f29dd1-7ca4-69c1-09c0-0c947c12aa99/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "■ 戦略性に富むカードバトル\n守護者配置、スキル連携と属性相性を見極めて、最強編成を作り上げよう！\n状況に応じた戦術調整が、強敵を打ち破る鍵となる！\n\n■ 領地"
+        },
+        {
+          "rank": 5,
+          "name": "弱虫ペダル レゾナンス・ぺダイズム",
+          "publisher": "enish Inc.",
+          "category": "ゲーム",
+          "app_id": "6758927408",
+          "url": "https://apps.apple.com/jp/app/%E5%BC%B1%E8%99%AB%E3%83%9A%E3%83%80%E3%83%AB-%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%82%B9-%E3%81%BA%E3%83%80%E3%82%A4%E3%82%BA%E3%83%A0/id6758927408?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/a7/82/42a782f8-1185-9b59-ba12-03d6dc6ce700/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "ケイデンスを推し上げろ！\n\nあなたはトレーナーとなり、\"推し\"の選手を育成。\n自分だけのチームを編成し、ロードレースを勝ち抜こう！\n\nアニメ『弱虫ペダル』初の本"
+        },
+        {
+          "rank": 6,
+          "name": "コードギアス ナイトメア・サバイバー",
+          "publisher": "JORO,Inc.",
+          "category": "ゲーム",
+          "app_id": "6762118255",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6762118255?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/3a/5a/113a5aff-7b7f-9a09-818d-e4bf76f6b1f4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『コードギアス ナイトメア・サバイバー（ギアサバ）』\n\n◆◆ 「コードギアス」の世界を「サバイバーアクション」でプレイしよう！ ◆◆\nナイトメアフレーム（KMF"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 3,
+          "name": "エバーナイト：リバース",
+          "publisher": "LONGSIN GAME",
+          "category": "ゲーム",
+          "app_id": "6780761128",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A8%E3%83%90%E3%83%BC%E3%83%8A%E3%82%A4%E3%83%88-%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9/id6780761128?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/f2/9d/62f29dd1-7ca4-69c1-09c0-0c947c12aa99/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "■ 戦略性に富むカードバトル\n守護者配置、スキル連携と属性相性を見極めて、最強編成を作り上げよう！\n状況に応じた戦術調整が、強敵を打ち破る鍵となる！\n\n■ 領地"
+        },
+        {
+          "rank": 5,
+          "name": "弱虫ペダル レゾナンス・ぺダイズム",
+          "publisher": "enish Inc.",
+          "category": "ゲーム",
+          "app_id": "6758927408",
+          "url": "https://apps.apple.com/jp/app/%E5%BC%B1%E8%99%AB%E3%83%9A%E3%83%80%E3%83%AB-%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%82%B9-%E3%81%BA%E3%83%80%E3%82%A4%E3%82%BA%E3%83%A0/id6758927408?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/a7/82/42a782f8-1185-9b59-ba12-03d6dc6ce700/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "ケイデンスを推し上げろ！\n\nあなたはトレーナーとなり、\"推し\"の選手を育成。\n自分だけのチームを編成し、ロードレースを勝ち抜こう！\n\nアニメ『弱虫ペダル』初の本"
+        },
+        {
+          "rank": 6,
+          "name": "コードギアス ナイトメア・サバイバー",
+          "publisher": "JORO,Inc.",
+          "category": "ゲーム",
+          "app_id": "6762118255",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6762118255?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/3a/5a/113a5aff-7b7f-9a09-818d-e4bf76f6b1f4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『コードギアス ナイトメア・サバイバー（ギアサバ）』\n\n◆◆ 「コードギアス」の世界を「サバイバーアクション」でプレイしよう！ ◆◆\nナイトメアフレーム（KMF"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 0,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "エバーナイト：リバース",
+          "publisher": "LONGSIN GAME",
+          "category": "ゲーム",
+          "app_id": "6780761128",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A8%E3%83%90%E3%83%BC%E3%83%8A%E3%82%A4%E3%83%88-%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9/id6780761128?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/f2/9d/62f29dd1-7ca4-69c1-09c0-0c947c12aa99/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "■ 戦略性に富むカードバトル\n守護者配置、スキル連携と属性相性を見極めて、最強編成を作り上げよう！\n状況に応じた戦術調整が、強敵を打ち破る鍵となる！\n\n■ 領地"
+        },
+        {
+          "rank": 5,
+          "name": "弱虫ペダル レゾナンス・ぺダイズム",
+          "publisher": "enish Inc.",
+          "category": "ゲーム",
+          "app_id": "6758927408",
+          "url": "https://apps.apple.com/jp/app/%E5%BC%B1%E8%99%AB%E3%83%9A%E3%83%80%E3%83%AB-%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%82%B9-%E3%81%BA%E3%83%80%E3%82%A4%E3%82%BA%E3%83%A0/id6758927408?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/a7/82/42a782f8-1185-9b59-ba12-03d6dc6ce700/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "ケイデンスを推し上げろ！\n\nあなたはトレーナーとなり、\"推し\"の選手を育成。\n自分だけのチームを編成し、ロードレースを勝ち抜こう！\n\nアニメ『弱虫ペダル』初の本"
+        },
+        {
+          "rank": 6,
+          "name": "コードギアス ナイトメア・サバイバー",
+          "publisher": "JORO,Inc.",
+          "category": "ゲーム",
+          "app_id": "6762118255",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6762118255?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/3a/5a/113a5aff-7b7f-9a09-818d-e4bf76f6b1f4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『コードギアス ナイトメア・サバイバー（ギアサバ）』\n\n◆◆ 「コードギアス」の世界を「サバイバーアクション」でプレイしよう！ ◆◆\nナイトメアフレーム（KMF"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "Gugu Gaga: Keyboard Escape",
+          "publisher": "Goldoint",
+          "category": "Games",
+          "package": "com.metax.obby.escape.run"
+        },
+        {
+          "rank": 16,
+          "name": "Slow Mo Strike: Knives in Time",
+          "publisher": "KAYAC Inc.",
+          "category": "Games",
+          "package": "com.kayac.slow_mo_strike"
+        },
+        {
+          "rank": 18,
+          "name": "Magic Tiles 3™ - Piano Game",
+          "publisher": "AMANOTES PTE. LTD.",
+          "category": "Games",
+          "package": "com.youmusic.magictiles"
+        },
+        {
+          "rank": 20,
+          "name": "Brain Puzzle 3: Crazy Mind",
+          "publisher": "JoyGame Studio",
+          "category": "Games",
+          "package": "com.brain.crazy.joygame"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
