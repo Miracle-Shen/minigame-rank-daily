@@ -1,0 +1,614 @@
+{
+  "date": "2026-09-17",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "打下毛线",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州指望科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxf28cef521695cd2a",
+          "publisher_id": 20002383
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "武侠大明星",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "海南盛昌网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx9c4c2f5f1909e182",
+          "publisher_id": 20182323
+        },
+        {
+          "rank": 20,
+          "name": "青云诀之伏魔",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "海南元游信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxcdcbec6bf40d053a",
+          "publisher_id": 20002304
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "天天象棋",
+          "category": "棋牌",
+          "category_rank": 2,
+          "subcategory": "棋类",
+          "slogan": "",
+          "publisher": "深圳市腾讯天游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx9e44d62c7ab75740",
+          "publisher_id": 20002394
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "蛇突猛进",
+          "category": "1",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt005c76e19e3b0fe307",
+          "publisher_id": 20262386
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "蛇突猛进",
+          "category": "1",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt005c76e19e3b0fe307",
+          "publisher_id": 20262386
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "妖怪金手指",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "霍尔果斯天翔信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt59d32f6ec6dbc7ab02",
+          "publisher_id": 20192349
+        },
+        {
+          "rank": 17,
+          "name": "神器传说",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt19026fbf860bc6a102",
+          "publisher_id": 20002345
+        },
+        {
+          "rank": 20,
+          "name": "武侠大明星",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南临游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5b522defc462288807",
+          "publisher_id": 20002327
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "速度与极限",
+          "category": "1",
+          "category_rank": 8,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南简晨科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta5bcd3013bc7337e07",
+          "publisher_id": 20244669
+        },
+        {
+          "rank": 9,
+          "name": "无畏三国",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州凌图游戏科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt12e6645b8c9c076c02",
+          "publisher_id": 20302536
+        },
+        {
+          "rank": 11,
+          "name": "吃鸡小纵队",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉摸鱼岛科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt08ff7e42969ad25c07",
+          "publisher_id": 20302525
+        },
+        {
+          "rank": 15,
+          "name": "一起过这关",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南简晨科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt212f5792bf49aa2d07",
+          "publisher_id": 20244669
+        },
+        {
+          "rank": 20,
+          "name": "幻界传说",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州铸航网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte05196ec7e2befd302",
+          "publisher_id": 20192461
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "无畏三国",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州凌图游戏科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt12e6645b8c9c076c02",
+          "publisher_id": 20302536
+        },
+        {
+          "rank": 11,
+          "name": "吃鸡小纵队",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉摸鱼岛科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt08ff7e42969ad25c07",
+          "publisher_id": 20302525
+        },
+        {
+          "rank": 20,
+          "name": "幻界传说",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州铸航网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte05196ec7e2befd302",
+          "publisher_id": 20192461
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 0,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "速度与极限",
+          "category": "1",
+          "category_rank": 8,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南简晨科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta5bcd3013bc7337e07",
+          "publisher_id": 20244669
+        },
+        {
+          "rank": 9,
+          "name": "无畏三国",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州凌图游戏科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt12e6645b8c9c076c02",
+          "publisher_id": 20302536
+        },
+        {
+          "rank": 11,
+          "name": "吃鸡小纵队",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉摸鱼岛科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt08ff7e42969ad25c07",
+          "publisher_id": 20302525
+        },
+        {
+          "rank": 15,
+          "name": "一起过这关",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南简晨科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt212f5792bf49aa2d07",
+          "publisher_id": 20244669
+        },
+        {
+          "rank": 20,
+          "name": "幻界传说",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州铸航网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte05196ec7e2befd302",
+          "publisher_id": 20192461
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 3,
+          "name": "崩坏：因缘精灵",
+          "publisher": "miHoYo",
+          "category": "冒险",
+          "subcategory": "宠物、自走棋、崩坏、策略、3D"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "Royal Match",
+          "publisher": "Dream Games",
+          "category": "Games",
+          "app_id": "1482155847",
+          "url": "https://apps.apple.com/us/app/royal-match/id1482155847?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/9d/83/d99d834a-172e-0962-988c-5c95acc4ce97/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "King Robert needs your help to restore Royal Castle’s former glory. Break the ob"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 15,
+          "name": "云·伊莫",
+          "publisher": "上海趣乐糖网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6796757624",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E4%BC%8A%E8%8E%AB/id6796757624?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/02/3b/e8023b1f-35dc-709a-b814-7224a8a00cce/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《云·伊莫》是多人在线大世界捉宠RPG《伊莫》的云游戏版本，仅需安装超小包体，一键下载、秒速启动。无需担心设备性能与存储空间，联结者即可获得超高画质与流畅帧率，"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 2,
+          "name": "闪耀吧！噜咪",
+          "publisher": "Shanghai Hode Information Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6754912970",
+          "url": "https://apps.apple.com/cn/app/%E9%97%AA%E8%80%80%E5%90%A7-%E5%99%9C%E5%92%AA/id6754912970?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/68/29/f86829c9-16a5-c9ed-b1f1-c425e9a0e1de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "捉宠不用肝 冒险超简单\n立即下载游戏，上线尊享海量体力与彩色噜咪蛋！孵化超强噜咪，助力冒险启程！\n\n《闪耀吧！噜咪》是一款轻松异世界捉宠冒险RPG手游。在清新明"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "Dream Road: Online",
+          "publisher": "Bellum Games LLC",
+          "category": "游戏",
+          "app_id": "6741928115",
+          "url": "https://apps.apple.com/cn/app/dream-road-online/id6741928115?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/a4/56/e6a456f0-7cbc-cfbb-c9af-235cb097662c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "在《Dream Road：Online》游戏中，你将沉浸在一个超写实的世界中，体验真正的街头赛车手的感觉，尽享自由与肾上腺素飙升的快感。与好友一起在城市街道和高"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 2,
+          "name": "闪耀吧！噜咪",
+          "publisher": "Shanghai Hode Information Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6754912970",
+          "url": "https://apps.apple.com/cn/app/%E9%97%AA%E8%80%80%E5%90%A7-%E5%99%9C%E5%92%AA/id6754912970?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/68/29/f86829c9-16a5-c9ed-b1f1-c425e9a0e1de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "捉宠不用肝 冒险超简单\n立即下载游戏，上线尊享海量体力与彩色噜咪蛋！孵化超强噜咪，助力冒险启程！\n\n《闪耀吧！噜咪》是一款轻松异世界捉宠冒险RPG手游。在清新明"
+        },
+        {
+          "rank": 15,
+          "name": "云·伊莫",
+          "publisher": "上海趣乐糖网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6796757624",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E4%BC%8A%E8%8E%AB/id6796757624?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/02/3b/e8023b1f-35dc-709a-b814-7224a8a00cce/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《云·伊莫》是多人在线大世界捉宠RPG《伊莫》的云游戏版本，仅需安装超小包体，一键下载、秒速启动。无需担心设备性能与存储空间，联结者即可获得超高画质与流畅帧率，"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "闪耀吧！噜咪",
+          "publisher": "Shanghai Hode Information Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6754912970",
+          "url": "https://apps.apple.com/cn/app/%E9%97%AA%E8%80%80%E5%90%A7-%E5%99%9C%E5%92%AA/id6754912970?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/68/29/f86829c9-16a5-c9ed-b1f1-c425e9a0e1de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "捉宠不用肝 冒险超简单\n立即下载游戏，上线尊享海量体力与彩色噜咪蛋！孵化超强噜咪，助力冒险启程！\n\n《闪耀吧！噜咪》是一款轻松异世界捉宠冒险RPG手游。在清新明"
+        },
+        {
+          "rank": 15,
+          "name": "云·伊莫",
+          "publisher": "上海趣乐糖网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6796757624",
+          "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E4%BC%8A%E8%8E%AB/id6796757624?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/02/3b/e8023b1f-35dc-709a-b814-7224a8a00cce/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《云·伊莫》是多人在线大世界捉宠RPG《伊莫》的云游戏版本，仅需安装超小包体，一键下载、秒速启动。无需担心设备性能与存储空间，联结者即可获得超高画质与流畅帧率，"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 14,
+          "name": "デイヴ・ザ・ダイバー",
+          "publisher": "Mintrocket",
+          "category": "ゲーム",
+          "app_id": "6759962259",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%A4%E3%83%B4-%E3%82%B6-%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC/id6759962259?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/55/d5/ee55d59e-a983-3e69-2d93-5f3f39336687/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "13万件以上のレビューで96%という圧倒的好評を獲得したデイヴ・ザ・ダイバーが、モバイルに登場！\nモバイル版は、PC版『デイヴ・ザ・ダイバー』をベースにした完全"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 14,
+          "name": "デイヴ・ザ・ダイバー",
+          "publisher": "Mintrocket",
+          "category": "ゲーム",
+          "app_id": "6759962259",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%A4%E3%83%B4-%E3%82%B6-%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC/id6759962259?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/55/d5/ee55d59e-a983-3e69-2d93-5f3f39336687/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "13万件以上のレビューで96%という圧倒的好評を獲得したデイヴ・ザ・ダイバーが、モバイルに登場！\nモバイル版は、PC版『デイヴ・ザ・ダイバー』をベースにした完全"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 14,
+          "name": "デイヴ・ザ・ダイバー",
+          "publisher": "Mintrocket",
+          "category": "ゲーム",
+          "app_id": "6759962259",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%A4%E3%83%B4-%E3%82%B6-%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC/id6759962259?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/55/d5/ee55d59e-a983-3e69-2d93-5f3f39336687/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "13万件以上のレビューで96%という圧倒的好評を獲得したデイヴ・ザ・ダイバーが、モバイルに登場！\nモバイル版は、PC版『デイヴ・ザ・ダイバー』をベースにした完全"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "Pocket Sort: Coin Merge Puzzle",
+          "publisher": "SayGames Ltd",
+          "category": "Games",
+          "package": "com.pocket.sort.coin.puzzle.game"
+        },
+        {
+          "rank": 17,
+          "name": "Smash Land!",
+          "publisher": "Flow Games A.S.",
+          "category": "Games",
+          "package": "com.flow.smashparty"
+        },
+        {
+          "rank": 20,
+          "name": "Arrows – Puzzle Escape",
+          "publisher": "Lessmore GmbH",
+          "category": "Games",
+          "package": "com.ecffri.arrows"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
