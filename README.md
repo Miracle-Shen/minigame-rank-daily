@@ -1,71 +1,94 @@
-# minigame-rank-daily
+<p align="center">
+  <img src="docs/assets/homepage.png" alt="新游监控系统 · 首页（微信小游戏 · 畅销榜）" width="100%">
+</p>
 
-每日抓取 [引力引擎](https://rank.gravity-engine.com/) 的小游戏榜单（微信小游戏 + 抖音小游戏，共 6 个榜的日榜），叠加 TapTap 预约榜、**iOS App Store 美/国/日区游戏免费榜**（Apple 官方 iTunes RSS）与 **Android Google Play 美区免费游戏榜**（AppBrain），把数据 commit 进仓库，并通过 GitHub Pages 展示一个仪表盘，重点突出**每日新进游戏 / 新进发行商**。
+<p align="center">
+  <a href="https://miracle-shen.github.io/minigame-rank-daily/">[在线仪表盘]</a> •
+  <a href="#weekly">[周报]</a> •
+  <a href="#detail">[产品档案]</a> •
+  <a href="#quick-start">[快速开始]</a> •
+  <a href="#push">[推送通道]</a> •
+  <a href="https://github.com/Miracle-Shen/minigame-rank-daily">[源码]</a>
+</p>
 
-在此基础上，仓库每周还会基于历史数据生成一份 **微信小游戏周报**（品类结构 / 头部集中度 / 新晋者 / 上升态势 / 头部稳定性 / 腰部持续性），输出 Markdown + HTML + JSON，落在 `reports/`。详见下方[「周报」](#周报game-market-monitor)。
+**minigame-rank-daily** 每天北京时间 10:30 自动抓取微信小游戏 / 抖音小游戏的 6 个榜单，叠加 TapTap 预约榜、**iOS 美 / 国 / 日区**与 **Android 美区**免费榜，与累积 base 库比对算出每条榜单的「新进榜 / 回归 / 新发行商」，发布成一面纯静态仪表盘；每周一 09:00 再产出一份微信小游戏周报，自动推送到邮箱 / 企业微信群。
+
+<table>
+  <tr>
+    <th>微信小游戏</th>
+    <th>抖音小游戏</th>
+    <th>TapTap</th>
+    <th>iOS App Store</th>
+    <th>Android</th>
+  </tr>
+  <tr>
+    <td align="center">畅销榜<br>畅玩榜<br>人气榜</td>
+    <td align="center">畅销榜<br>热门榜<br>新游榜</td>
+    <td align="center">预约榜</td>
+    <td align="center">美区免费榜<br>国区免费榜<br>日区免费榜</td>
+    <td align="center">美区免费榜</td>
+  </tr>
+</table>
 
 > **抓取方式**：引力引擎两个平台的数据走的是站点公开接口（`scripts/scrape_gravity_http.py`，
 > 纯 HTTP，不需要浏览器和登录态）。此前用 Playwright 渲染页面，实测会因 SPA 加载失败
-> （`ERR_CONNECTION_CLOSED`）导致当天微信/抖音数据整块缺失，因此改为接口直连作为主路径，
+> （`ERR_CONNECTION_CLOSED`）导致当天微信 / 抖音数据整块缺失，因此改为接口直连作为主路径，
 > 浏览器渲染保留为兜底。
 
-- 抓取：GitHub Actions 每日北京时间 10:30 触发（榜单 10:00 更新，留 30 分钟让后端稳定）
-- 存储：每天一份 JSON 进 `data/daily/`，diff 进 `data/diff/`，cumulative base 进 `data/base/`，趋势进 `data/history.jsonl`
-- 展示：纯静态页（`site/`）通过 GitHub Pages 发布
+- **抓取**：GitHub Actions 每日北京时间 10:30 触发（榜单 10:00 更新，留 30 分钟让后端稳定）
+- **存储**：每天一份 JSON 进 `data/daily/`，diff 进 `data/diff/`，cumulative base 进 `data/base/`，趋势进 `data/history.jsonl`
+- **展示**：纯静态页（`site/`）通过 GitHub Pages 发布
+
+## 📢 更新记录
+
+- **2026.09.16** — 产品档案新增第 5 分区「结合业务的建议」：**424 法则**（为什么 / 怎么做 / 收益），其中「为什么」按**用户视角 2 条 + 业务视角 2 条**双视角写；184 款全量回填。
+- **2026.09.15** — 产品档案上线：当日各榜 TOP20 并集 **152/152** 全部建档（索引 184 条），含技术实现 / 核心玩法 / 官方截图 / 复刻建议四分区，并提供逐款详情页。
+- **2026.09.14** — 抓取主路径改为引力引擎公开接口（纯 HTTP，不再依赖浏览器渲染）；接入周报分析层与**邮件 / 企业微信群机器人双通道**推送，产出首份周报 `reports/weekly-2026-09-14.*`。
+
+## 🗂️ 仓库结构
 
 ```
-仓库结构
 .
 ├── scripts/
 │   ├── scrape_gravity_http.py 引力引擎公开接口抓取（纯 HTTP，主抓取路径）
-│   ├── scrape_rank.py   浏览器渲染抓取/解析（兜底路径，与桌面端共用）
-│   ├── scrape_taptap.py TapTap 预约榜（SSR JSON-LD，纯 stdlib）
-│   ├── scrape_ios.py    iOS 美/国/日区游戏免费榜（Apple iTunes RSS，纯 stdlib）
+│   ├── scrape_rank.py    浏览器渲染抓取 / 解析（兜底路径，与桌面端共用）
+│   ├── scrape_taptap.py  TapTap 预约榜（SSR JSON-LD，纯 stdlib）
+│   ├── scrape_ios.py     iOS 美 / 国 / 日区游戏免费榜（Apple iTunes RSS，纯 stdlib）
 │   ├── scrape_googleplay.py  Android 美区免费游戏榜（AppBrain SSR，纯 stdlib）
-│   ├── ci_scrape.py     CI 抓取入口，写 daily/<日期>.json 等
-│   ├── base.py          累积 base 库（历史所有游戏 / 发行商）
-│   ├── ci_diff.py       基于 base 分类今日新进
-│   └── monitor/         周报分析层（classify 品类归一化 / analyze 指标 / report 渲染）
+│   ├── ci_scrape.py      CI 抓取入口，写 daily/<日期>.json 等
+│   ├── base.py           累积 base 库（历史所有游戏 / 发行商）
+│   ├── ci_diff.py        基于 base 分类今日新进
+│   ├── ci_sync_supabase.py  快照同步到 Supabase（仪表盘的数据源）
+│   ├── detail/           产品档案管线（见「产品档案」一节）
+│   └── monitor/          周报分析层（classify 品类归一化 / analyze 指标 / report 渲染 / send_mail 推送）
 ├── data/
-│   ├── daily/           历史快照（每天一份）
-│   ├── diff/            每天的「新进」分类
-│   ├── base/            累积 base：games.json + publishers.json
-│   ├── latest.json      最新快照（前端默认加载）
-│   ├── history.jsonl    每日条数趋势
-│   └── index.json       由 Pages workflow 生成的可用日期列表
-├── reports/             周报产出：weekly-<日期>.md / .html / .json
-├── site/                Pages 站点
-│   ├── index.html
+│   ├── daily/            历史快照（每天一份）
+│   ├── diff/             每天的「新进」分类
+│   ├── base/             累积 base：games.json + publishers.json
+│   ├── detail/           产品档案：index.json + <slug>.json（中间产物不上线）
+│   ├── latest.json       最新快照（前端默认加载）
+│   ├── history.jsonl     每日条数趋势
+│   └── index.json        由 Pages workflow 生成的可用日期列表
+├── reports/              周报产出：weekly-<日期>.md / .html / .json
+├── site/                 Pages 站点
+│   ├── index.html        仪表盘（新进榜 / 当前榜单全貌）
+│   ├── publishers.html   新厂商冒泡
+│   ├── game.html         产品档案列表 + 详情页
 │   ├── style.css
-│   └── app.js
+│   └── app.js · publishers.js · game-detail.js · game-profile.js · sb.js · config.js
+├── docs/assets/          README 使用的截图
+├── supabase/             数据库迁移与 Edge Function（save-profile）
 ├── .github/workflows/
-│   ├── daily.yml        定时抓取 + 写数据
-│   ├── weekly.yml       每周一 09:00 出周报
-│   └── pages.yml        发布站点
+│   ├── daily.yml         定时抓取 + 写数据
+│   ├── weekly.yml        每周一 09:00 出周报
+│   ├── mail-test.yml     投递通道自检
+│   └── pages.yml         发布站点
 └── README.md
 ```
 
-## 「新进榜」是怎么算出来的
+<a name="quick-start"></a>
 
-这个项目维护一个**累积 base 库**（`data/base/games.json` + `publishers.json`），记录历史上所有抓到过的游戏 / 发行商，包括它们各自出现过的榜单和首次/末次出现的日期。
-
-每天抓取后，把当日榜单和 base 对比，每条数据按"对**这个榜**而言"分两类：
-
-| 类别 | 定义 |
-| --- | --- |
-| **新进榜** (new_to_board) | 这个游戏在**这个榜**的历史里从未出现过（不管它有没有出现在别的榜） |
-| **回归** (returning) | 这个榜以前出现过、消失过、又回来（gap ≥ 2 天） |
-
-发行商的"新进"独立计算：**首次出现在这个榜的发行商**。
-
-> base 库内部还会区分"全新（任何榜都没见过）"和"首次入此榜（其他榜见过）"，但前端按"新进榜"统一展示——做单榜监控时这两者意义相同。要做跨榜分析的话可以直接读 `data/base/`。
-
-base 库可以从 `data/daily/*.json` 完整重建（`base.py:rebuild_from_daily()`），所以即使 base 文件丢失也能恢复。每天 `ci_diff.py` 会先用历史 daily 重建一次 base 来保证准确性。
-
-
----
-
-## 一、第一次部署
+## 🚀 快速开始（第一次部署）
 
 ### 1. 把这个项目推到你自己的 GitHub
 
@@ -99,6 +122,7 @@ git push -u origin main
 ### 3. 启用 GitHub Pages
 
 仓库 → Settings → Pages：
+
 - Source 选 **GitHub Actions**
 
 第一次推送后，`pages.yml` 会自动构建并发布。访问：
@@ -109,21 +133,21 @@ https://<你的用户名>.github.io/minigame-rank-daily/
 
 ### 4. 第一次试跑
 
-仓库 → Actions → 「Daily Rank Snapshot」 → Run workflow（手动触发一次，不用等 03:33）。
+仓库 → Actions → 「Daily Rank Snapshot」 → Run workflow（手动触发一次，不用等 10:30）。
 
 跑完后：
+
 - `data/daily/<日期>.json` 会被 commit
 - `data/latest.json` 同步更新
 - 几分钟后 Pages 会重新部署，刷新页面就能看到数据
 
----
-
-## 二、每天发生什么
+## ⏰ 每天发生什么
 
 ```
-03:33 北京时间 (= UTC 19:33 前一日)
+10:30 北京时间 (= UTC 02:30)   ┐
+11:30 北京时间 (= UTC 03:30)   ┘ 双触发，防 GitHub schedule 偶发静默跳过
   ├─ daily.yml 触发
-  │   ├─ pip install playwright openpyxl
+  │   ├─ pip install playwright openpyxl pycryptodome
   │   ├─ playwright install chromium
   │   ├─ python scripts/ci_scrape.py
   │   │     输出 data/daily/YYYY-MM-DD.json
@@ -131,17 +155,96 @@ https://<你的用户名>.github.io/minigame-rank-daily/
   │   │     追加 data/history.jsonl
   │   ├─ python scripts/ci_diff.py
   │   │     输出 data/diff/YYYY-MM-DD.json
+  │   ├─ python scripts/ci_sync_supabase.py   （未配置 Supabase 时自动跳过）
   │   └─ git commit & push (作者: github-actions[bot])
   │
   └─ data/ 变化触发 pages.yml
       └─ 站点重新构建并发布
 ```
 
----
+> 双触发是刻意的：第一次成功后第二次抓到的数据一样，`git commit` 会直接跳过，无副作用。
 
----
+## 🧮 「新进榜」是怎么算出来的
 
-## 周报（game-market-monitor）
+这个项目维护一个**累积 base 库**（`data/base/games.json` + `publishers.json`），记录历史上所有抓到过的游戏 / 发行商，包括它们各自出现过的榜单和首次 / 末次出现的日期。
+
+每天抓取后，把当日榜单和 base 对比，每条数据按“对**这个榜**而言”分两类：
+
+| 类别 | 定义 |
+| --- | --- |
+| **新进榜** (new_to_board) | 这个游戏在**这个榜**的历史里从未出现过（不管它有没有出现在别的榜） |
+| **回归** (returning) | 这个榜以前出现过、消失过、又回来（gap ≥ 2 天） |
+
+发行商的“新进”独立计算：**首次出现在这个榜的发行商**。
+
+> base 库内部还会区分“全新（任何榜都没见过）”和“首次入此榜（其他榜见过）”，但前端按“新进榜”统一展示——做单榜监控时这两者意义相同。要做跨榜分析的话可以直接读 `data/base/`。
+
+base 库可以从 `data/daily/*.json` 完整重建（`base.py:rebuild_from_daily()`），所以即使 base 文件丢失也能恢复。每天 `ci_diff.py` 会先用历史 daily 重建一次 base 来保证准确性。
+
+<a name="detail"></a>
+
+## 🖼️ 产品档案（`scripts/detail/`）
+
+站点第二块内容是**产品档案**：给每款在榜游戏建一份详情页，回答“这款游戏技术上怎么做的、值不值得抄、能不能和我们手里的业务发生关系”。
+
+**覆盖口径**：**当日各榜 TOP20 的并集**（约 150 款/天），不是站点列表里的全部历史产品
+（Supabase `games` 有 3200+ 款，列表里大量行显示「未建档」是预期）。
+
+**五个分区**：
+
+1. 技术实现细节 · 2. 核心玩法 · 爽点 · 创新点 · 3. 游戏截图 · 4. 复刻建议 · 5. **结合业务的建议**
+
+第 5 分区与「复刻建议」是**并行**的两个决策视角：`clone` 答「要不要抄」，`biz` 答「不管抄不抄，能和我们手里的业务发生什么关系」。**一主两附**：
+
+| 键 | 权重 | 结构 | 结论枚举 |
+| --- | --- | --- | --- |
+| `biz.internal` | **主体** | `why` 4 条 · `how` 2 条 · `gain` 4 条（**424 法则**：为什么 / 怎么做 / 收益） | 可复用 / 需改造 / 不建议搬 |
+| `biz.opportunity` | 附属 | `points` ≤2 条一句式 | 推荐接触 / 可观望 / 不建议接触 |
+| `biz.extension` | 附属 | `scenes` 1–2 个 `{scene, how}` | 无枚举 |
+
+其中 `why` 的 4 条是**用户视角 2 条 + 业务视角 2 条**（写 `{"lens": "用户"|"业务", "text": "..."}`）——
+只写业务侧会变成“对我们顺手”的建议、不回答用户买不买单；只写用户侧又回答不了该不该投入。
+页面把视角渲染成小标签（用户 = 天蓝、业务 = 紫）。
+
+口径约束：**通用口径**，不绑定具体业务线，写具体产品时用「若自有产品线含 XX 品类」条件句。
+
+### 日常增量流程（幂等，已有档案自动跳过）
+
+```bash
+python scripts/detail/build_worklist.py      # 对齐当日榜单 -> _worklist.json
+python scripts/detail/enrich_media.py        # iTunes 图标 / 实机截图 / 包体（跨次合并缓存）
+python scripts/detail/make_batches.py --size 6
+# 派并行子智能体：各读 RESEARCH_SPEC.md + _batch_N_input.json，写 batch_N.json
+python scripts/detail/merge_details.py       # -> <slug>.json + index.json
+python scripts/detail/verify.py              # 终检：覆盖 / schema / 8 维 / 内容 / 分布
+python scripts/detail/preview_site.py        # 本地预览（增量复制到 _pages_preview）
+```
+
+### 只回填第 5 分区
+
+已有档案要补 `biz`、又不想重抄已定稿的四分区时，走补丁通道：
+
+```bash
+python scripts/detail/make_biz_batches.py --size 13   # 从已有档案抽事实摘要生成批次
+# 派子智能体：各读 RESEARCH_SPEC 第六节 + _biz_batch_N_input.json，写 _staging/biz_batch_N.json
+#             （只含 name + biz 两个键；带 biz 且无 tech/play/clone 即被识别为补丁）
+python scripts/detail/merge_details.py --biz-only     # 只打 biz 补丁，不动已定稿分区
+python scripts/detail/merge_details.py --polish-biz   # 标点排版统一（幂等）+ 重建索引
+python scripts/detail/verify.py --require-biz         # 硬门禁：要求全部档案都有 biz
+```
+
+### 管线里踩过的坑
+
+- **名称归一化必须两侧同一套**：`schema.norm_name`（NFKC + 去 NBSP / 全角空格 / 零宽 + 合并空白）。
+  榜单名与档案名常只差一个全角冒号「：」或 NBSP，不归一会产生「已建档」与「未建档」两条幽灵记录。
+- **`slug()` 不能用 `[^0-9A-Za-z\u4e00-\u9fff]`**：会把日文假名剥掉（`ワクワク電車ライフ` → `電車`）。
+- **索引的 `slug` 必须取磁盘真实文件名**，不能拿当前规则重算 —— 历史文件命名规则不同，重算会让站点 404。
+- **`_staging/` 里下划线开头的文件是中间产物**，必须跳过，否则会把 `_batch_N_input.json` 当调研成果合并进去。
+- 改了 `site/` 下的 js 必须 **bump `game.html` 里的 `?v=` 版本号**，否则浏览器吃缓存看到旧 JS。
+
+<a name="weekly"></a>
+
+## 📊 周报（game-market-monitor）
 
 每周一北京时间 09:00，`weekly.yml` 基于仓库里的历史快照生成一份微信小游戏周报。
 
@@ -190,71 +293,9 @@ python scripts/monitor/report.py --baseline 2026-09-01   # 指定基准日期
 python scripts/monitor/analyze.py                        # 只出指标摘要
 ```
 
----
+<a name="push"></a>
 
-## 三、本地开发
-
-```bash
-# 装依赖：pycryptodome 供 HTTP 抓取解密响应；playwright 仅在浏览器兜底时需要
-pip install pycryptodome
-pip install playwright openpyxl && python -m playwright install chromium
-
-# 跑一次抓取（匿名 Top 20，走公开接口）
-python scripts/ci_scrape.py
-
-# 计算 diff（需要至少两天数据）
-python scripts/ci_diff.py
-
-# 生成周报
-python scripts/monitor/report.py --format both
-
-# 起一个本地静态服务器看页面
-python -m http.server 8000 --directory _pages_preview
-```
-
-要在本地预览 Pages，需要把 `site/*` 和 `data/` 拼成 `_pages_preview/`。最简单做法是仿造 `pages.yml` 里的脚本片段：
-
-```bash
-mkdir -p _pages_preview/data
-cp -r site/* _pages_preview/
-cp -r data/daily _pages_preview/data/ 2>/dev/null
-cp -r data/diff _pages_preview/data/ 2>/dev/null
-cp data/latest.json _pages_preview/data/ 2>/dev/null
-cp data/history.jsonl _pages_preview/data/ 2>/dev/null
-python -m http.server 8000 --directory _pages_preview
-```
-
-打开 http://localhost:8000
-
----
-
-## 四、改抓取频率
-
-编辑 `.github/workflows/daily.yml` 里的 `cron`：
-
-```yaml
-schedule:
-  - cron: "30 2 * * *"   # 北京时间 10:30（默认）
-```
-
-cron 是 UTC，加 8 小时是北京时间。常用：
-- 每天早上 10:30 北京 = `30 2 * * *`（默认，榜单 10:00 更新后 30 分钟）
-- 每天早上 9:07 北京 = `7 1 * * *`
-- 每 6 小时 = `0 */6 * * *`
-
----
-
-## 五、用量与成本
-
-| 资源 | 免费额度 | 实际用量 | 余量 |
-| --- | --- | --- | --- |
-| Actions | 2000 分钟/月（公开仓库无限制） | ~3 分钟/天 ≈ 90 分钟/月 | 充裕 |
-| Pages | 公开仓库免费 | 无限制 | — |
-| 仓库大小 | 软上限 1 GB | 每天 ~50 KB JSON ≈ 18 MB/年 | 50 年用不完 |
-
----
-
-## 六、周报推送（邮件 / 企业微信群机器人）
+## 📬 周报推送（邮件 / 企业微信群机器人）
 
 周一 9:00 的 `weekly.yml` 生成报告后自动推送周报。**两个通道任配其一即可生效，也可以都开**：
 只配 `WECOM_WEBHOOK` 就只推群，只配 `MAIL_*` 就只发邮件，都没配则跳过（只打 warning，不报错）。
@@ -286,7 +327,7 @@ cron 是 UTC，加 8 小时是北京时间。常用：
 
 **取 Webhook 地址**
 
-1. 手机/桌面端企业微信，进入要收周报的**内部群**（群机器人不能发到外部群、微信用户群）；
+1. 手机 / 桌面端企业微信，进入要收周报的**内部群**（群机器人不能发到外部群、微信用户群）；
 2. 点右上角 `···` →【群机器人】→【添加机器人】→ 起个名字（如「榜单周报」）→ 添加；
 3. 复制形如 `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx` 的地址；
 4. 存到仓库 Secret `WECOM_WEBHOOK`。
@@ -301,12 +342,12 @@ cron 是 UTC，加 8 小时是北京时间。常用：
 | --- | --- |
 | 内容上限 | markdown 4096 字节（脚本已自动截断保护） |
 | 频率上限 | 每个机器人 **20 条/分钟**（周报每周 1 条，无压力） |
-| 不支持表格/列表/分割线 | 因此摘要改用空行分段 + 引用块 + `<font color>` 三色 |
+| 不支持表格 / 列表 / 分割线 | 因此摘要改用空行分段 + 引用块 + `<font color>` 三色 |
 | 不支持 @所有人 | markdown 类型只能 `@` 单个成员且需 userid；要 @全体得改用文本消息的 `mentioned_list` |
 | key 即凭据 | Webhook 泄露 = 任何人可往群里发消息，只放 GitHub Secret，别写进代码或日志 |
 | 换了 key 会 93000 | 机器人被移除或 key 重置时，返回 `errcode=93000`，需重取地址 |
 
-需要表格/分割线可以切到 `WECOM_MSG_TYPE=markdown_v2`，但它**不支持字体颜色**，且要求客户端
+需要表格 / 分割线可以切到 `WECOM_MSG_TYPE=markdown_v2`，但它**不支持字体颜色**，且要求客户端
 版本 ≥ 4.1.36（安卓 ≥ 4.1.38），低版本会整条退化成纯文本——面向多人时慎用。
 
 **配置 Secrets**（仓库 Settings → Secrets and variables → Actions）
@@ -346,9 +387,65 @@ python scripts/monitor/send_mail.py --latest --to a@x.com # 临时改收件人
 手机上直接可读），并附上 `.md` / `.html` 两个文件便于转发。两个通道都没配时
 `weekly.yml` 会跳过推送并给出 warning，不影响报告生成与提交。
 
----
+## 🖥️ 本地开发
 
-## 七、常见问题
+```bash
+# 装依赖：pycryptodome 供 HTTP 抓取解密响应；playwright 仅在浏览器兜底时需要
+pip install pycryptodome
+pip install playwright openpyxl && python -m playwright install chromium
+
+# 跑一次抓取（匿名 Top 20，走公开接口）
+python scripts/ci_scrape.py
+
+# 计算 diff（需要至少两天数据）
+python scripts/ci_diff.py
+
+# 生成周报
+python scripts/monitor/report.py --format both
+
+# 起一个本地静态服务器看页面
+python -m http.server 8000 --directory _pages_preview
+```
+
+要在本地预览 Pages，需要把 `site/*` 和 `data/` 拼成 `_pages_preview/`。最简单做法是仿造 `pages.yml` 里的脚本片段：
+
+```bash
+mkdir -p _pages_preview/data
+cp -r site/* _pages_preview/
+cp -r data/daily _pages_preview/data/ 2>/dev/null
+cp -r data/diff _pages_preview/data/ 2>/dev/null
+cp data/latest.json _pages_preview/data/ 2>/dev/null
+cp data/history.jsonl _pages_preview/data/ 2>/dev/null
+python -m http.server 8000 --directory _pages_preview
+```
+
+打开 http://localhost:8000
+
+## ⚙️ 改抓取频率
+
+编辑 `.github/workflows/daily.yml` 里的 `cron`：
+
+```yaml
+schedule:
+  - cron: "30 2 * * *"   # 北京时间 10:30（默认）
+  - cron: "30 3 * * *"   # 北京时间 11:30（兜底补跑）
+```
+
+cron 是 UTC，加 8 小时是北京时间。常用：
+
+- 每天早上 10:30 北京 = `30 2 * * *`（默认，榜单 10:00 更新后 30 分钟）
+- 每天早上 9:07 北京 = `7 1 * * *`
+- 每 6 小时 = `0 */6 * * *`
+
+## 💰 用量与成本
+
+| 资源 | 免费额度 | 实际用量 | 余量 |
+| --- | --- | --- | --- |
+| Actions | 2000 分钟/月（公开仓库无限制） | ~3 分钟/天 ≈ 90 分钟/月 | 充裕 |
+| Pages | 公开仓库免费 | 无限制 | — |
+| 仓库大小 | 软上限 1 GB | 每天 ~50 KB JSON ≈ 18 MB/年 | 50 年用不完 |
+
+## ❓ 常见问题
 
 **Q：Actions 跑失败说找不到登录态？**
 A：检查 Secret `GRAVITY_AUTH` 是否填了完整 JSON，注意复制时不要丢了首尾的 `{` `}`。失败也不阻塞 —— Action 会回落到匿名模式，只是 Top 数变少。
@@ -359,12 +456,15 @@ A：等第一次 `daily.yml` 跑完。或者手动触发一次。
 **Q：站点访问空白 / 中文乱码？**
 A：刷新一下（CDN 可能没即时刷新）。如果持续，看浏览器 Console 错误信息。
 
+**Q：产品档案里很多游戏显示「未建档」？**
+A：这是预期。详情档案按约定只覆盖**当日各榜 TOP20 的并集**（约 150 款/天），而列表由 Supabase 里的全部历史产品（3200+ 款）驱动。
+
 **Q：能不能多平台抓 Apple Store / TapTap？**
-A：已支持。TapTap 预约榜 + iOS 美/国/日区游戏免费榜 + Android 美区免费游戏榜每天随主快照一起抓取（`scrape_taptap.py` / `scrape_ios.py` / `scrape_googleplay.py`）。iOS 榜单来自 Apple 官方 iTunes RSS（`itunes.apple.com/{cc}/rss/topfreeapplications/genre=6014/limit=100/json`），免登录免密钥；Android 来自 AppBrain（`appbrain.com/stats/google-play-rankings/top_free/game/us`，SSR 免登录，注意免费限流）。两者都不含排名涨跌箭头、只提供当前榜单。扩展更多国家/榜单：改对应 `scrape_*.py` 的配置 + `site/app.js` 的 `BOARD_LABELS`。引力引擎微信/抖音的选择器逻辑见 `scrape_rank.py`。
+A：已支持。TapTap 预约榜 + iOS 美 / 国 / 日区游戏免费榜 + Android 美区免费游戏榜每天随主快照一起抓取（`scrape_taptap.py` / `scrape_ios.py` / `scrape_googleplay.py`）。iOS 榜单来自 Apple 官方 iTunes RSS（`itunes.apple.com/{cc}/rss/topfreeapplications/genre=6014/limit=100/json`），免登录免密钥；Android 来自 AppBrain（`appbrain.com/stats/google-play-rankings/top_free/game/us`，SSR 免登录，注意免费限流）。两者都不含排名涨跌箭头、只提供当前榜单。扩展更多国家 / 榜单：改对应 `scrape_*.py` 的配置 + `site/app.js` 的 `BOARD_LABELS`。引力引擎微信 / 抖音的选择器逻辑见 `scrape_rank.py`。
 
 **Q：周报没收到 / 群里没消息？**
 A：打开 Actions 里那次 run，看 `Send weekly report` 步骤日志。四种情况：① 日志出现
-`未配置任何投递通道` 的 warning —— Secrets 没填全；② `SMTP 登录失败` —— 回到第六节
+`未配置任何投递通道` 的 warning —— Secrets 没填全；② `SMTP 登录失败` —— 回到「周报推送」
 方式 A 的三步开通流程（专用密码 / IMAP-SMTP 开关 / 管理员客户端访问范围）；
 ③ `errcode=93000` —— 群机器人 Webhook 失效或 key 被重置，重取地址；
 ④ 日志显示已发送 —— 邮件查收件方垃圾箱或公司邮件网关。想单独验证通道，
