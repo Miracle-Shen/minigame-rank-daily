@@ -1,0 +1,695 @@
+{
+  "date": "2026-09-18",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "梦幻消除战",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "广州喜势网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxc721a6dc3366ec1f",
+          "publisher_id": 20192419
+        },
+        {
+          "rank": 20,
+          "name": "JJ象棋",
+          "category": "棋牌",
+          "category_rank": 5,
+          "subcategory": "棋类",
+          "slogan": "",
+          "publisher": "竞技世界(北京)网络技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0c852640e4324692",
+          "publisher_id": 20002411
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "跃动小子",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "波克科技集团有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx6cce8ac2ea74103e",
+          "publisher_id": 20052324
+        },
+        {
+          "rank": 20,
+          "name": "天命行者",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "广州大蓝网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxbdf25cb34ce9bf6e",
+          "publisher_id": 20002317
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "开局带把枪",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "邯郸小空科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx97389648b73dfeca",
+          "publisher_id": 20244511
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 17,
+          "name": "这也能合成",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市指点天下科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta3abd5163ca5388902",
+          "publisher_id": 20182304
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "三国杀",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州游卡网络技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt29365f8bb61c7481",
+          "publisher_id": 20002365
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 17,
+          "name": "这也能合成",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市指点天下科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta3abd5163ca5388902",
+          "publisher_id": 20182304
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "我的花园世界",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南途趣科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcc26ba9b532f1e8202",
+          "publisher_id": 20243982
+        },
+        {
+          "rank": 19,
+          "name": "次神光之觉醒",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京雪境科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf50b83b66a377fc402",
+          "publisher_id": 20242348
+        },
+        {
+          "rank": 20,
+          "name": "王者征途",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttbffec94320cdded502",
+          "publisher_id": 20002338
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "魔法之旅",
+          "category": "1",
+          "category_rank": 8,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "四川天天颖网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tteb439dfe7526ad8902",
+          "publisher_id": 20012411
+        },
+        {
+          "rank": 12,
+          "name": "智力解压馆",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆云威科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt637615cbfd12191302",
+          "publisher_id": 20152341
+        },
+        {
+          "rank": 13,
+          "name": "乐园闯关大计划",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州沐上网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt12af64128da2cb2107",
+          "publisher_id": 20202309
+        },
+        {
+          "rank": 17,
+          "name": "战国之道游戏软件V2.1.5",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "西安品文网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt732b0596ed51115e02",
+          "publisher_id": 20302537
+        },
+        {
+          "rank": 19,
+          "name": "快来开家店",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门奇趣星河科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt93b7e50a0dd32bae07",
+          "publisher_id": 20262372
+        },
+        {
+          "rank": 20,
+          "name": "迷你火炮射击",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市小创趣游网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt39224f9fa747be9202",
+          "publisher_id": 20244429
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "咕嘎咕嘎",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "合肥金蛋互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb76ac1d7290e508e02",
+          "publisher_id": 20302502
+        },
+        {
+          "rank": 18,
+          "name": "极限跳高冠军",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州易游互玩科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1c406afd822499cf07",
+          "publisher_id": 20192447
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 8,
+          "name": "魔法之旅",
+          "category": "1",
+          "category_rank": 8,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "四川天天颖网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tteb439dfe7526ad8902",
+          "publisher_id": 20012411
+        },
+        {
+          "rank": 13,
+          "name": "乐园闯关大计划",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州沐上网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt12af64128da2cb2107",
+          "publisher_id": 20202309
+        },
+        {
+          "rank": 17,
+          "name": "战国之道游戏软件V2.1.5",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "西安品文网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt732b0596ed51115e02",
+          "publisher_id": 20302537
+        },
+        {
+          "rank": 19,
+          "name": "快来开家店",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门奇趣星河科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt93b7e50a0dd32bae07",
+          "publisher_id": 20262372
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 2,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "魔法之旅",
+          "category": "1",
+          "category_rank": 8,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "四川天天颖网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tteb439dfe7526ad8902",
+          "publisher_id": 20012411
+        },
+        {
+          "rank": 12,
+          "name": "智力解压馆",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆云威科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt637615cbfd12191302",
+          "publisher_id": 20152341
+        },
+        {
+          "rank": 13,
+          "name": "乐园闯关大计划",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州沐上网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt12af64128da2cb2107",
+          "publisher_id": 20202309
+        },
+        {
+          "rank": 17,
+          "name": "战国之道游戏软件V2.1.5",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "西安品文网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt732b0596ed51115e02",
+          "publisher_id": 20302537
+        },
+        {
+          "rank": 19,
+          "name": "快来开家店",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门奇趣星河科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt93b7e50a0dd32bae07",
+          "publisher_id": 20262372
+        },
+        {
+          "rank": 20,
+          "name": "迷你火炮射击",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市小创趣游网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt39224f9fa747be9202",
+          "publisher_id": 20244429
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "循环勇士",
+          "publisher": "西木木",
+          "category": "Roguelike",
+          "subcategory": "逆塔防、策略、Steam移植"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "循环勇士",
+          "publisher": "西木木",
+          "category": "Roguelike",
+          "subcategory": "逆塔防、策略、Steam移植"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 18,
+          "name": "Lumi Master",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "Games",
+          "app_id": "6754979232",
+          "url": "https://apps.apple.com/us/app/lumi-master/id6754979232?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/fc/bf/6afcbf0e-20bb-512b-c705-df397c933127/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Download now to claim an Ultimate Rainbow Lumi Egg & bonus Energy at launch!\n\nLu"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 18,
+          "name": "Lumi Master",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "Games",
+          "app_id": "6754979232",
+          "url": "https://apps.apple.com/us/app/lumi-master/id6754979232?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/fc/bf/6afcbf0e-20bb-512b-c705-df397c933127/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Download now to claim an Ultimate Rainbow Lumi Egg & bonus Energy at launch!\n\nLu"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 18,
+          "name": "Lumi Master",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "Games",
+          "app_id": "6754979232",
+          "url": "https://apps.apple.com/us/app/lumi-master/id6754979232?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/fc/bf/6afcbf0e-20bb-512b-c705-df397c933127/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Download now to claim an Ultimate Rainbow Lumi Egg & bonus Energy at launch!\n\nLu"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 20,
+          "name": "乡村旧时光-阳光养鸡场",
+          "publisher": "烁 刘",
+          "category": "游戏",
+          "app_id": "6810655731",
+          "url": "https://apps.apple.com/cn/app/%E4%B9%A1%E6%9D%91%E6%97%A7%E6%97%B6%E5%85%89-%E9%98%B3%E5%85%89%E5%85%BB%E9%B8%A1%E5%9C%BA/id6810655731?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/41/c3/7e41c3a8-b780-8550-533c-98e8c3cdeb85/AppIcon-1x_U007ephone-0-1-P3-85-220-0.png/100x100bb.png",
+          "slogan": "放下忙碌，奔赴治愈田园！在乡村旧时光-阳光养鸡场，开启悠闲惬意的田园养鸡经营之旅，亲手打造属于你的治愈阳光农场。\n暖阳洒满鸡场，小鸡悠然嬉戏。自由在场内走动拾取"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "毛线大师 - 毛线消除游戏 疯狂毛线消不停",
+          "publisher": "Happy Bubble Information Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6748351662",
+          "url": "https://apps.apple.com/cn/app/%E6%AF%9B%E7%BA%BF%E5%A4%A7%E5%B8%88-%E6%AF%9B%E7%BA%BF%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F-%E7%96%AF%E7%8B%82%E6%AF%9B%E7%BA%BF%E6%B6%88%E4%B8%8D%E5%81%9C/id6748351662?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/34/be/bb34be6b-a846-ae18-997e-af647d1f581d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "告别焦虑，拥抱指尖上的色彩疗愈！\n你是否感觉生活有点灰蒙蒙？压力山大，想要找点简单快乐的小确幸？别担心！这款色彩缤纷的指尖小玩意儿，就像一杯鲜榨果汁，瞬间点亮你"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 20,
+          "name": "乡村旧时光-阳光养鸡场",
+          "publisher": "烁 刘",
+          "category": "游戏",
+          "app_id": "6810655731",
+          "url": "https://apps.apple.com/cn/app/%E4%B9%A1%E6%9D%91%E6%97%A7%E6%97%B6%E5%85%89-%E9%98%B3%E5%85%89%E5%85%BB%E9%B8%A1%E5%9C%BA/id6810655731?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/41/c3/7e41c3a8-b780-8550-533c-98e8c3cdeb85/AppIcon-1x_U007ephone-0-1-P3-85-220-0.png/100x100bb.png",
+          "slogan": "放下忙碌，奔赴治愈田园！在乡村旧时光-阳光养鸡场，开启悠闲惬意的田园养鸡经营之旅，亲手打造属于你的治愈阳光农场。\n暖阳洒满鸡场，小鸡悠然嬉戏。自由在场内走动拾取"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 20,
+          "name": "乡村旧时光-阳光养鸡场",
+          "publisher": "烁 刘",
+          "category": "游戏",
+          "app_id": "6810655731",
+          "url": "https://apps.apple.com/cn/app/%E4%B9%A1%E6%9D%91%E6%97%A7%E6%97%B6%E5%85%89-%E9%98%B3%E5%85%89%E5%85%BB%E9%B8%A1%E5%9C%BA/id6810655731?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/41/c3/7e41c3a8-b780-8550-533c-98e8c3cdeb85/AppIcon-1x_U007ephone-0-1-P3-85-220-0.png/100x100bb.png",
+          "slogan": "放下忙碌，奔赴治愈田园！在乡村旧时光-阳光养鸡场，开启悠闲惬意的田园养鸡经营之旅，亲手打造属于你的治愈阳光农场。\n暖阳洒满鸡场，小鸡悠然嬉戏。自由在场内走动拾取"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "Lumi Master（るぅみマスター）",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6754979232",
+          "url": "https://apps.apple.com/jp/app/lumi-master-%E3%82%8B%E3%81%85%E3%81%BF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/id6754979232?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/fc/bf/6afcbf0e-20bb-512b-c705-df397c933127/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "オートでるぅみをどんどんゲット！図鑑コンプリートもらくらく！\n今すぐダウンロード！スタミナ＆にじいろたまご大量ゲット！\n強力なるぅみを手に入れ、冒険へ出発しよう"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "ロイヤルマッチ（Royal Match)",
+          "publisher": "Dream Games",
+          "category": "ゲーム",
+          "app_id": "1482155847",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%83%9E%E3%83%83%E3%83%81-royal-match/id1482155847?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/9d/83/d99d834a-172e-0962-988c-5c95acc4ce97/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『簡単爽快マッチ3パズル＆王国リフォームゲーム』\nワクワクする仕掛け満載のステージが待っている！パズルをクリアして報酬を集め、あなたの力で王様の城を素敵にリフォ"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 3,
+          "name": "Lumi Master（るぅみマスター）",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6754979232",
+          "url": "https://apps.apple.com/jp/app/lumi-master-%E3%82%8B%E3%81%85%E3%81%BF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/id6754979232?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/fc/bf/6afcbf0e-20bb-512b-c705-df397c933127/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "オートでるぅみをどんどんゲット！図鑑コンプリートもらくらく！\n今すぐダウンロード！スタミナ＆にじいろたまご大量ゲット！\n強力なるぅみを手に入れ、冒険へ出発しよう"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "Lumi Master（るぅみマスター）",
+          "publisher": "BILIBILI HK LIMITED",
+          "category": "ゲーム",
+          "app_id": "6754979232",
+          "url": "https://apps.apple.com/jp/app/lumi-master-%E3%82%8B%E3%81%85%E3%81%BF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC/id6754979232?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/fc/bf/6afcbf0e-20bb-512b-c705-df397c933127/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "オートでるぅみをどんどんゲット！図鑑コンプリートもらくらく！\n今すぐダウンロード！スタミナ＆にじいろたまご大量ゲット！\n強力なるぅみを手に入れ、冒険へ出発しよう"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
