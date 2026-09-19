@@ -33,8 +33,10 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import smtplib
 import ssl
+import subprocess
 import sys
 from email.message import EmailMessage
 from email.utils import formataddr, formatdate
@@ -108,6 +110,29 @@ def latest_report() -> Path:
             f"{REPORT_DIR} 下没有 weekly-*.json，请先运行 scripts/monitor/report.py"
         )
     return files[-1]
+
+
+def github_blob_url(path: Path) -> str:
+    """把本地文件路径换成 GitHub 上的可点链接；拿不到 origin 就返回空串。
+
+    群里那条摘要末尾的「查看图文周报」靠它 —— 动态推导，所以每周都指向当期，
+    不需要（也不应该）把一个会过期的地址写进 WECOM_REPORT_URL。
+    """
+    try:
+        remote = subprocess.run(
+            ["git", "-C", str(ROOT), "remote", "get-url", "origin"],
+            capture_output=True, text=True, timeout=10,
+        ).stdout.strip()
+    except Exception:  # noqa: BLE001
+        return ""
+    m = re.search(r"(?:git@|https://)github\.com[:/](?P<slug>[^/]+/[^/.]+)", remote)
+    if not m:
+        return ""
+    try:
+        rel = Path(path).resolve().relative_to(ROOT)
+    except ValueError:
+        return ""
+    return f"https://github.com/{m.group('slug')}/blob/main/{rel.as_posix()}"
 
 
 def load_bundle(report: Path) -> tuple[dict, Path | None, Path | None]:
@@ -342,7 +367,8 @@ def _pct(v) -> str:
 
 
 def push_wecom(cfg: Config, data: dict | None = None,
-               content: str | None = None) -> bool:
+               content: str | None = None,
+               report_url: str | None = None) -> bool:
     """推一条 markdown 到企业微信群机器人。返回是否成功。"""
     if not cfg.webhook:
         return False
@@ -357,8 +383,10 @@ def push_wecom(cfg: Config, data: dict | None = None,
         print(f"  提示：Webhook 域名不是 {WECOM_HOST}，按测试地址处理")
 
     if content is None:
-        content = build_wecom_markdown(data or {}, cfg.prefix, cfg.report_url,
+        url = report_url or cfg.report_url
+        content = build_wecom_markdown(data or {}, cfg.prefix, url,
                                        v2=(msg_type == "markdown_v2"))
+        print(f"  附报告链接：{url}" if url else "  未取到报告链接（非 git 仓库或没有 origin）")
     size = len(content.encode("utf-8"))
     if size > WECOM_MAX_BYTES:
         print(f"  内容 {size} 字节超上限，已自动截断到 {WECOM_MAX_BYTES}")
@@ -462,7 +490,9 @@ def main() -> int:
             print("\n未配置 WECOM_WEBHOOK，无法只推群机器人。")
             return EXIT_BADCONFIG
         print("\n只推群机器人（跳过邮件）：")
-        return EXIT_OK if push_wecom(cfg, data) else EXIT_SENDFAIL
+        return (EXIT_OK if push_wecom(cfg, data, report_url=cfg.report_url
+                                      or github_blob_url(md_p or report))
+                else EXIT_SENDFAIL)
 
     if not html_p:
         print(f"缺少 HTML 正文：{report.with_suffix('.html')}，请先跑 report.py")
@@ -507,7 +537,7 @@ def main() -> int:
               + (f"（抄送 {', '.join(cfg.cc)}）" if cfg.cc else ""))
 
     if cfg.webhook:
-        push_wecom(cfg, data)
+        push_wecom(cfg, data, report_url=cfg.report_url or github_blob_url(md_p or report))
     return EXIT_OK
 
 

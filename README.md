@@ -334,8 +334,15 @@ python scripts/monitor/analyze.py                        # 只出指标摘要
 4. 存到仓库 Secret `WECOM_WEBHOOK`。
 
 **群消息长什么样**：标题 + 本周要点（引用块）+ 品类结构 + 头部格局 + 口径说明，
-末尾可附 `[查看图文周报](链接)`。**刻意不用表格和列表**——机器人的 markdown(v1) 不支持
+末尾自动附 `[查看图文周报](链接)`。**刻意不用表格和列表**——机器人的 markdown(v1) 不支持
 这两者，用了会原样吐出一堆竖线和短横线；正文按 **4096 字节**上限自动截断并保住尾注。
+
+末尾那个链接**不需要配置**：从 `git remote get-url origin` 现场推导，指向当期
+`reports/weekly-*.md`（GitHub 上直接可读）。只有想钉死成固定地址时才需要 `WECOM_REPORT_URL`。
+
+**不要给请求体加 `chatid`**：`key` 本身已经绑定了群，官方文档的请求体只有
+`msgtype` + 内容体两个字段，`chatid` 是 `appchat/send`（应用群聊）那套接口的字段，
+在消息推送这里不生效。
 
 **已知限制（来自官方文档）**
 
@@ -397,7 +404,7 @@ WECOM_GROUP_ID=<群会话ID> python scripts/monitor/send_group.py --latest
 | `MAIL_PORT` | A | — | 默认 `465` |
 | `MAIL_FROM_NAME` | A | — | 发件人显示名，默认「微信小游戏周报」 |
 | `WECOM_MSG_TYPE` | B | — | 默认 `markdown`，可改 `markdown_v2` |
-| `WECOM_REPORT_URL` | B | — | 群消息末尾附「查看图文周报」链接 |
+| `WECOM_REPORT_URL` | B | — | 仅用于覆盖末尾链接；不配则自动推导当期报告地址 |
 
 **先自检再等周一**：手动触发 `Mail Channel Test` 工作流（Actions → 左侧选它 → Run workflow），
 它会 `--check` 所有**已配置**的通道：SMTP 连接 + 登录，以及往群里发一条自检消息。

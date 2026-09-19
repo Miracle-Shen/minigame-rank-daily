@@ -29,7 +29,6 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import re
 import shutil
 import subprocess
 import sys
@@ -39,7 +38,9 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 sys.path.insert(0, str(HERE))
 
-from send_mail import REPORT_DIR, build_wecom_markdown, latest_report, load_bundle  # noqa: E402
+from send_mail import (  # noqa: E402
+    REPORT_DIR, build_wecom_markdown, github_blob_url, latest_report, load_bundle,
+)
 
 CLI = "wecom-cli"
 # 群消息里不放内部 ID；这两个是「给用户看」的兜底文案
@@ -103,25 +104,6 @@ def send_text(chat_id: str, content: str) -> tuple[bool, str]:
 # --------------------------------------------------------------------------
 # 内容
 # --------------------------------------------------------------------------
-def github_blob_url(report: Path) -> str:
-    """把本地报告路径换成 GitHub 上的可点链接；拿不到 origin 就返回空。"""
-    try:
-        remote = subprocess.run(
-            ["git", "-C", str(ROOT), "remote", "get-url", "origin"],
-            capture_output=True, text=True, timeout=10,
-        ).stdout.strip()
-    except Exception:  # noqa: BLE001
-        return ""
-    m = re.search(r"(?:git@|https://)github\.com[:/](?P<slug>[^/]+/[^/.]+)", remote)
-    if not m:
-        return ""
-    try:
-        rel = report.resolve().relative_to(ROOT)
-    except ValueError:
-        return ""
-    return f"https://github.com/{m.group('slug')}/blob/main/{rel.as_posix()}"
-
-
 def build_content(data: dict, prefix: str, report_url: str) -> str:
     """复用 send_mail 的群摘要（空行分段 + 引用块，不用表格/列表）。"""
     return build_wecom_markdown(data, prefix, report_url)
