@@ -331,6 +331,9 @@ python scripts/monitor/analyze.py                        # 只出指标摘要
 1. 手机 / 桌面端企业微信，进入要收周报的**内部群**（群机器人不能发到外部群、微信用户群）；
 2. 点右上角 `···` →【群机器人】→【添加机器人】→ 起个名字（如「榜单周报」）→ 添加；
 3. 复制形如 `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx` 的地址；
+   ⚠️ **域名必须是公网的 `qyapi.weixin.qq.com`**。若拿到的是 `in.qyapi.weixin.qq.com`，
+   那是内网专用地址——本机（公司网络 / VPN）能通，但 GitHub runner 会直接
+   `URLError: <urlopen error timed out>`。同一个 key 把 `in.` 前缀去掉即可用；
 4. 存到仓库 Secret `WECOM_WEBHOOK`。
 
 **群消息长什么样**：标题 + 本周要点（引用块）+ 品类结构 + 头部格局 + 口径说明，
@@ -353,6 +356,7 @@ python scripts/monitor/analyze.py                        # 只出指标摘要
 | 不支持表格 / 列表 / 分割线 | 因此摘要改用空行分段 + 引用块 + `<font color>` 三色 |
 | 不支持 @所有人 | markdown 类型只能 `@` 单个成员且需 userid；要 @全体得改用文本消息的 `mentioned_list` |
 | key 即凭据 | Webhook 泄露 = 任何人可往群里发消息，只放 GitHub Secret，别写进代码或日志 |
+| 域名要公网可达 | 只能用 `qyapi.weixin.qq.com`。`in.qyapi.weixin.qq.com` 只在公司内网 / VPN 下可达，CI 里必超时 |
 | 换了 key 会 93000 | 机器人被移除或 key 重置时，返回 `errcode=93000`，需重取地址 |
 
 需要表格 / 分割线可以切到 `WECOM_MSG_TYPE=markdown_v2`，但它**不支持字体颜色**，且要求客户端
