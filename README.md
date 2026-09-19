@@ -60,7 +60,7 @@
 │   ├── ci_diff.py        基于 base 分类今日新进
 │   ├── ci_sync_supabase.py  快照同步到 Supabase（仪表盘的数据源）
 │   ├── detail/           产品档案管线（见「产品档案」一节）
-│   └── monitor/          周报分析层（classify 品类归一化 / analyze 指标 / report 渲染 / send_mail 推送）
+│   └── monitor/          周报分析层（classify 品类归一化 / analyze 指标 / report 渲染 / send_mail 邮件与 Webhook / send_group 机器人直发群）
 ├── data/
 │   ├── daily/            历史快照（每天一份）
 │   ├── diff/             每天的「新进」分类
@@ -297,8 +297,9 @@ python scripts/monitor/analyze.py                        # 只出指标摘要
 
 ## 📬 周报推送（邮件 / 企业微信群机器人）
 
-周一 9:00 的 `weekly.yml` 生成报告后自动推送周报。**两个通道任配其一即可生效，也可以都开**：
+周一 9:00 的 `weekly.yml` 生成报告后自动推送周报。**A / B 两个通道任配其一即可生效，也可以都开**：
 只配 `WECOM_WEBHOOK` 就只推群，只配 `MAIL_*` 就只发邮件，都没配则跳过（只打 warning，不报错）。
+**方式 C 是另一条独立通道**，不走 CI、也不需要 Webhook，见下。
 
 ### 方式 A：邮箱（企业微信邮箱 / 腾讯企业邮）
 
@@ -349,6 +350,39 @@ python scripts/monitor/analyze.py                        # 只出指标摘要
 
 需要表格 / 分割线可以切到 `WECOM_MSG_TYPE=markdown_v2`，但它**不支持字体颜色**，且要求客户端
 版本 ≥ 4.1.36（安卓 ≥ 4.1.38），低版本会整条退化成纯文本——面向多人时慎用。
+
+### 方式 C：企业微信群（机器人直发，走本机 `wecom-cli`）
+
+不申请 Webhook，直接让已经在群里的机器人把消息发进群 —— 只需要**群会话 ID**。
+摘要内容与方式 B 完全同一套口径（复用 `build_wecom_markdown`），空行分段 + 引用块，不含表格 / 列表。
+
+```bash
+python scripts/monitor/send_group.py --list                  # 看当前能发消息的会话
+python scripts/monitor/send_group.py --latest --dry-run      # 只看摘要内容，不发送
+WECOM_GROUP_ID=<群会话ID> python scripts/monitor/send_group.py --latest
+```
+
+**前置条件（关键）**：目标群必须**和机器人有过对话** —— 群里任一成员 `@机器人` 发一条消息，
+该群才会进入机器人的「最近会话」，之后才能被推送。否则接口直接拒绝：
+
+```
+853008 当前会话不是机器人的最近会话，暂不支持发送消息。需要成员向机器人对话过，机器人即可发送。
+```
+
+**为什么这条通道不在 CI 里跑**：授权凭据在本机，GitHub runner 拿不到。
+所以它由 **WorkBuddy 定时任务**驱动 —— 每周一 10:00 同步仓库 → 取最新一期周报 → 推送。
+（`weekly.yml` 周一 09:00 / 09:30 出报告，10:00 留出落库与 Pages 部署的时间。）
+
+| | 方式 B（Webhook） | 方式 C（机器人直发） |
+| --- | --- | --- |
+| 凭据 | 群机器人 Webhook URL | 群会话 ID + 本机授权 |
+| 跑在哪 | GitHub Actions 里就行 | 只能本机（依赖 `wecom-cli` 授权） |
+| 触发 | `weekly.yml` 自动 | WorkBuddy 定时任务 |
+| 额外依赖 | 需在企业微信后台建群机器人 | 群需先和机器人对过话 |
+
+- 降级通道 `--text-only` 走管理端 `message.send`，需企业开通该工具；未开通会报
+  `853006 this tool is not available for your corporation`，此时用默认的 markdown 通道即可。
+- 群会话 ID 属于内部标识：不要写进仓库、issue 或日志，用 `WECOM_GROUP_ID` 环境变量传入。
 
 **配置 Secrets**（仓库 Settings → Secrets and variables → Actions）
 
@@ -463,9 +497,19 @@ A：这是预期。详情档案按约定只覆盖**当日各榜 TOP20 的并集*
 A：已支持。TapTap 预约榜 + iOS 美 / 国 / 日区游戏免费榜 + Android 美区免费游戏榜每天随主快照一起抓取（`scrape_taptap.py` / `scrape_ios.py` / `scrape_googleplay.py`）。iOS 榜单来自 Apple 官方 iTunes RSS（`itunes.apple.com/{cc}/rss/topfreeapplications/genre=6014/limit=100/json`），免登录免密钥；Android 来自 AppBrain（`appbrain.com/stats/google-play-rankings/top_free/game/us`，SSR 免登录，注意免费限流）。两者都不含排名涨跌箭头、只提供当前榜单。扩展更多国家 / 榜单：改对应 `scrape_*.py` 的配置 + `site/app.js` 的 `BOARD_LABELS`。引力引擎微信 / 抖音的选择器逻辑见 `scrape_rank.py`。
 
 **Q：周报没收到 / 群里没消息？**
-A：打开 Actions 里那次 run，看 `Send weekly report` 步骤日志。四种情况：① 日志出现
-`未配置任何投递通道` 的 warning —— Secrets 没填全；② `SMTP 登录失败` —— 回到「周报推送」
+A：先确认走的是哪条通道。**方式 A / B**：打开 Actions 里那次 run，看 `Send weekly report` 步骤日志。
+四种情况：① 日志出现`未配置任何投递通道` 的 warning —— Secrets 没填全；② `SMTP 登录失败` —— 回到「周报推送」
 方式 A 的三步开通流程（专用密码 / IMAP-SMTP 开关 / 管理员客户端访问范围）；
 ③ `errcode=93000` —— 群机器人 Webhook 失效或 key 被重置，重取地址；
 ④ 日志显示已发送 —— 邮件查收件方垃圾箱或公司邮件网关。想单独验证通道，
 手动跑 `Mail Channel Test` 工作流。
+
+**方式 C** 不看 Actions 日志（它根本不走 CI），在本机单独验：
+
+```bash
+python scripts/monitor/send_group.py --list        # 目标群在不在「可发送的会话」里
+python scripts/monitor/send_group.py --latest      # 直接推一条看看
+```
+
+常见两类：`853008` = 目标群还没和机器人对过话（让群里的人 `@机器人` 发一条）；
+`--list` 里看不到目标群，说明该群不在机器人的最近会话里，同上。
