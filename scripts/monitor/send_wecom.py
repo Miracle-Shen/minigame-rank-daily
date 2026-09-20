@@ -6,9 +6,12 @@
 
 需要配置的环境变量（GitHub Actions 里配成同名 Secrets）：
     WECOM_WEBHOOK        群机器人 Webhook 地址（必填）
-    WECOM_CHATID         可选，定向投递：只把消息发给这一个群。
+    WECOM_CHATID         定向投递：把消息发给指定的群（可多个，逗号/分号/空白分隔）。
                          同一个机器人被加进多个群时，不带它 = 每个群各收到一条；
                          带上它 = 只发指定群。群 ID 属于内部标识，不入库。
+    WECOM_CHATID_2 ...   同上，额外的目标群。一个 Secret 名只能存一个值，
+      WECOM_CHATID_5     所以多群时除了用逗号拼在 WECOM_CHATID 里，
+                         也可以另开 _2 / _3 这类独立 Secret，读到时自动合并去重。
     WECOM_MSG_TYPE       可选，markdown（默认）| markdown_v2
     WECOM_REPORT_URL     可选，覆盖群消息末尾的「查看图文周报」链接；
                          默认从 git origin 现场推导当期报告地址
@@ -21,6 +24,8 @@
     python scripts/monitor/send_wecom.py --dry-run             # 只打印摘要内容，不发送
     python scripts/monitor/send_wecom.py --latest              # 推送最新一期周报
     python scripts/monitor/send_wecom.py --latest --chatid wrkxxx   # 只推给指定群
+    python scripts/monitor/send_wecom.py --latest --chatid wrkA --chatid wrkB
+    python scripts/monitor/send_wecom.py --latest --chatid wrkA,wrkB  # 多群
     python scripts/monitor/send_wecom.py --report reports/weekly-2026-09-14.json
 """
 from __future__ import annotations
@@ -58,41 +63,82 @@ def mask_chatid(value: str) -> str:
     return f"{value[:6]}…{value[-4:]}"
 
 
+# 目标群可以写在 WECOM_CHATID 里（多个用分隔符连接），
+# 也可以另开独立 Secret —— 一个 Secret 名只能存一个值，多群时后者更清爽。
+EXTRA_CHATID_ENVS = ("WECOM_CHATID_2", "WECOM_CHATID_3",
+                     "WECOM_CHATID_4", "WECOM_CHATID_5")
+
+# 逗号 / 分号 / 顿号 / 任意空白，都当作分隔符
+CHATID_SPLIT_RE = re.compile(r"[,;、\s]+")
+
+
+def parse_chatids(raw: str) -> list[str]:
+    """把一串群 ID 拆成有序去重列表；空串返回空列表。"""
+    out: list[str] = []
+    for cid in CHATID_SPLIT_RE.split(raw or ""):
+        cid = cid.strip()
+        if cid and cid not in out:
+            out.append(cid)
+    return out
+
+
 class Config:
     def __init__(self) -> None:
         self.prefix = env("REPORT_PREFIX", "微信小游戏周报")
         self.webhook = env("WECOM_WEBHOOK")
-        self.chatid = env("WECOM_CHATID")
         self.msg_type = env("WECOM_MSG_TYPE", "markdown")
         self.report_url = env("WECOM_REPORT_URL")
+        # 投递目标：WECOM_CHATID 内的多个 ID + WECOM_CHATID_2..5，合并去重
+        self.chatids = self._collect_chatids()
         self.allow_broadcast = env("WECOM_ALLOW_BROADCAST").lower() in (
             "1", "true", "yes", "on")
 
+    @staticmethod
+    def _collect_chatids() -> list[str]:
+        out: list[str] = []
+        for name in ("WECOM_CHATID",) + EXTRA_CHATID_ENVS:
+            for cid in parse_chatids(env(name)):
+                if cid not in out:
+                    out.append(cid)
+        return out
+
+    @property
+    def chatid(self) -> str:
+        """单群写法下的首个目标群（保留给老调用方）。"""
+        return self.chatids[0] if self.chatids else ""
+
+    @property
+    def scope_text(self) -> str:
+        n = len(self.chatids)
+        if n == 1:
+            return f"仅 {mask_chatid(self.chatids[0])}（已锁定目标群）"
+        if n > 1:
+            return (f"{n} 个群　" +
+                    "、".join(mask_chatid(c) for c in self.chatids))
+        if self.allow_broadcast:
+            return "机器人所在的全部群（WECOM_ALLOW_BROADCAST 已放行）"
+        return "未指定目标群 —— 将拒绝发送"
+
     def describe(self) -> str:
-        if self.chatid:
-            scope = f"仅 {mask_chatid(self.chatid)}（已锁定目标群）"
-        elif self.allow_broadcast:
-            scope = "机器人所在的全部群（WECOM_ALLOW_BROADCAST 已放行）"
-        else:
-            scope = "未指定目标群 —— 将拒绝发送"
         return (
             f"  消息标题  {self.prefix}\n"
             f"  群机器人  {'已配置（%s）' % self.msg_type if self.webhook else '未配置'}\n"
-            f"  投递范围  {scope}"
+            f"  投递范围  {self.scope_text}"
         )
 
 
 BROADCAST_GUARD_HINT = (
     "未指定目标群：不带 chatid 时企业微信会把消息发给「添加过这个机器人的所有群」，"
     "为避免漏进无关群，本脚本默认拒绝发送。\n"
-    "  定向投递：设 WECOM_CHATID=<群 ID>（CI 里用同名 Secret），或加 --chatid <群 ID>。\n"
+    "  定向投递：设 WECOM_CHATID=<群 ID>（CI 里用同名 Secret；多个群用逗号连接，"
+    "或另开 WECOM_CHATID_2 / _3），或加 --chatid <群 ID>（可重复）。\n"
     "  确实要群发：设 WECOM_ALLOW_BROADCAST=1 显式放行。"
 )
 
 
 def check_scope(cfg: Config) -> bool:
     """目标群必须明确。放行返回 True。"""
-    if cfg.chatid or cfg.allow_broadcast:
+    if cfg.chatids or cfg.allow_broadcast:
         return True
     print("  已拒绝发送 —— " + BROADCAST_GUARD_HINT)
     return False
@@ -316,14 +362,51 @@ def _site_home(meta: dict) -> str:
         return ""
 
 
+def _post_one(cfg: Config, msg_type: str, content: str, chatid: str,
+              size: int, label: str) -> bool:
+    """把同一条内容发给单个群（chatid 为空 = 不带 chatid 的群发）。"""
+    import urllib.error  # noqa: F401
+    import urllib.request
+
+    body: dict = {"msgtype": msg_type, msg_type: {"content": content}}
+    if chatid:
+        # 定向投递：同一条消息只进这一个群。
+        # 不带 chatid 时，企业微信会把消息发给「添加过这个机器人的所有内部群」。
+        body["chatid"] = chatid
+    payload = json.dumps(body, ensure_ascii=False).encode("utf-8")
+    req = urllib.request.Request(
+        cfg.webhook, data=payload, headers={"Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=10) as r:
+            resp = r.read().decode("utf-8", errors="replace")
+    except Exception as e:  # noqa: BLE001
+        print(f"  {label} 推送失败：{type(e).__name__}: {e}")
+        print("  排查：① 域名是否为公网 qyapi.weixin.qq.com（内网地址 CI 连不上）；"
+              "② Webhook 是否失效或机器人已被移除。")
+        return False
+
+    try:
+        ret = json.loads(resp)
+    except ValueError:
+        print(f"  {label} 返回非 JSON：{resp[:200]}")
+        return False
+
+    if ret.get("errcode") == 0:
+        print(f"  {label} 推送成功（{size} 字节，{msg_type}）")
+        return True
+    code = ret.get("errcode")
+    hint = WECOM_ERRHINT.get(code, "")
+    print(f"  {label} 推送失败：errcode={code} errmsg={ret.get('errmsg')}"
+          + (f"　→ {hint}" if hint else ""))
+    return False
+
+
 def push_wecom(cfg: Config, data: dict | None = None,
                content: str | None = None,
                report_url: str | None = None) -> bool:
-    """推一条 markdown 到企业微信群机器人。返回是否成功。"""
+    """推一条 markdown 到企业微信群机器人。返回是否**每个**目标群都成功。"""
     if not cfg.webhook:
         return False
-    import urllib.error
-    import urllib.request
 
     msg_type = cfg.msg_type if cfg.msg_type in ("markdown", "markdown_v2") else "markdown"
     if msg_type != cfg.msg_type:
@@ -331,11 +414,6 @@ def push_wecom(cfg: Config, data: dict | None = None,
 
     if WECOM_HOST not in cfg.webhook:
         print(f"  提示：Webhook 域名不是 {WECOM_HOST}，按测试地址处理")
-
-    if cfg.chatid:
-        print(f"  定向投递  只发 {mask_chatid(cfg.chatid)}（已带 chatid）")
-    else:
-        print("  投递范围  机器人所在的全部群（已显式放行群发）")
 
     if content is None:
         url = report_url or cfg.report_url
@@ -347,38 +425,16 @@ def push_wecom(cfg: Config, data: dict | None = None,
         print(f"  内容 {size} 字节超上限，已自动截断到 {WECOM_MAX_BYTES}")
         content = content.encode("utf-8")[:WECOM_MAX_BYTES].decode("utf-8", "ignore")
 
-    body: dict = {"msgtype": msg_type, msg_type: {"content": content}}
-    if cfg.chatid:
-        # 定向投递：同一条消息只进这一个群。
-        # 不带 chatid 时，企业微信会把消息发给「添加过这个机器人的所有内部群」。
-        body["chatid"] = cfg.chatid
-    payload = json.dumps(body, ensure_ascii=False).encode("utf-8")
-    req = urllib.request.Request(
-        cfg.webhook, data=payload, headers={"Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(req, timeout=10) as r:
-            body = r.read().decode("utf-8", errors="replace")
-    except Exception as e:  # noqa: BLE001
-        print(f"  群机器人推送失败：{type(e).__name__}: {e}")
-        print("  排查：① 域名是否为公网 qyapi.weixin.qq.com（内网地址 CI 连不上）；"
-              "② Webhook 是否失效或机器人已被移除。")
-        return False
-
-    try:
-        ret = json.loads(body)
-    except ValueError:
-        print(f"  群机器人返回非 JSON：{body[:200]}")
-        return False
-
-    if ret.get("errcode") == 0:
-        where = f" → {mask_chatid(cfg.chatid)}" if cfg.chatid else "（全部群）"
-        print(f"  群机器人推送成功（{size} 字节，{msg_type}）{where}")
-        return True
-    code = ret.get("errcode")
-    hint = WECOM_ERRHINT.get(code, "")
-    print(f"  群机器人推送失败：errcode={code} errmsg={ret.get('errmsg')}"
-          + (f"　→ {hint}" if hint else ""))
-    return False
+    # 多个群 = 同一份内容按 chatid 逐条发；一个群失败不影响其它群，
+    # 但整体返回 False，好让 CI 上能看出「有群没收到」。
+    targets: list[str] = cfg.chatids or [""]
+    print(f"  投递范围  {cfg.scope_text}")
+    ok_all = True
+    for i, cid in enumerate(targets, 1):
+        label = (f"[{i}/{len(targets)}] {mask_chatid(cid)}" if cid
+                 else f"[{i}/{len(targets)}] 全部群")
+        ok_all &= _post_one(cfg, msg_type, content, cid, size, label)
+    return ok_all
 
 
 # --------------------------------------------------------------------------
@@ -392,15 +448,16 @@ def main() -> int:
                     help="发「游戏周热榜」卡片（微信/抖音前三 + 全平台 TOP1），"
                          "而非默认的周报摘要")
     ap.add_argument("--prefix", default=None, help="覆盖消息标题（默认 REPORT_PREFIX）")
-    ap.add_argument("--chatid", default=None,
-                    help="只投递给指定群（群 ID），覆盖 WECOM_CHATID")
+    ap.add_argument("--chatid", action="append", default=None,
+                    help="只投递给指定群（群 ID），覆盖 WECOM_CHATID；"
+                         "可重复写多个，或用逗号连接多个 ID")
     args = ap.parse_args()
 
     cfg = Config()
     if args.prefix:
         cfg.prefix = args.prefix
     if args.chatid:
-        cfg.chatid = args.chatid
+        cfg.chatids = parse_chatids(",".join(args.chatid))
 
     print("投递配置：")
     print(cfg.describe())
@@ -445,7 +502,7 @@ def main() -> int:
     print(f"  正文      {len(content.encode('utf-8'))} 字节"
           f"（上限 {WECOM_MAX_BYTES}，超了自动截断）")
     print(f"  报告链接  {url or '（未取到：非 git 仓库或没有 origin）'}")
-    print(f"  投递范围  {('只发 ' + mask_chatid(cfg.chatid)) if cfg.chatid else '未指定目标群'}")
+    print(f"  投递范围  {cfg.scope_text}")
 
     if args.dry_run:
         print("-" * 60)

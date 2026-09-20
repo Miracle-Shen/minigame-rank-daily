@@ -41,6 +41,7 @@
 
 ## 📢 更新记录
 
+- **2026.09.21** — 群机器人推送支持**多群投递**：`WECOM_CHATID` 内可用逗号拼多个 ID，或另开 `WECOM_CHATID_2` / `_3`（读到自动合并去重），同一份内容按 `chatid` 逐条发，某个群失败不影响其它群；`--chatid` 改为可重复。CI 侧 `weekly.yml` / `push-test.yml` 已透传 `_2` / `_3`，目标群从 1 个扩到 3 个。
 - **2026.09.20** — 新增**「游戏周热榜」群消息卡片**（`scripts/monitor/hotlist.py`）：群里只发一屏——微信前三 / 抖音前三（· 游戏名-品类-周环比趋势 + 一行复刻建议）/ 🔥全平台 TOP1 + 一句话本周趋势 + 数据主页；`--card` 切换，周报正文不受影响。
 - **2026.09.20** — 群机器人推送支持 **`chatid` 定向投递**：机器人被加进多个群时，不再一律群发，可用 `WECOM_CHATID` / `--chatid` 锁定单个群（该字段官方文档未写，实测有效且会校验群归属）。
 - **2026.09.20** — 移除邮件投递通道，周报推送收敛为**企业微信群**单一形态（方式 A：群机器人 Webhook 跑在 CI / 方式 B：机器人直发跑在本机），投递脚本由 `send_mail.py` 收缩为 `send_wecom.py`。
@@ -440,6 +441,25 @@ python scripts/monitor/send_wecom.py --latest --chatid wrk...     # 临时指定
 python scripts/monitor/send_wecom.py --check                      # 自检也会尊重它
 ```
 
+**推给多个群**（本项目当前状态）：
+
+一个 Secret 名只能存一个值，所以多群有两种写法，脚本都会合并去重：
+
+- 拼在一个变量里：`WECOM_CHATID=wrkAAA,wrkB BB`（逗号 / 分号 / 顿号 / 空白都当分隔符）
+- 或另开独立 Secret：`WECOM_CHATID_2`、`WECOM_CHATID_3`（`_4`、`_5` 也认）
+
+```bash
+export WECOM_CHATID=wrkAAA
+export WECOM_CHATID_2=wrkBBB
+python scripts/monitor/send_wecom.py --latest                      # 依次推到两个群
+python scripts/monitor/send_wecom.py --latest --chatid wrkA --chatid wrkB
+python scripts/monitor/send_wecom.py --latest --chatid wrkA,wrkB   # 等价写法
+```
+
+投递是**逐条按 `chatid` 发**（不是一次请求带多个群）：同一份内容发 N 次，日志按
+`[1/3] wrkAAA…1111` 逐行回报；**某个群失败不影响其它群**，但整体以非 0 退出，
+方便 CI 上看出「有群没收到」。周报每周一次、每群 1 条，远低于 20 条/分钟的限制。
+
 **没给目标群时脚本拒绝发送**（这是本项目的常规状态，不是可选项）：
 
 - 不带 `chatid` 就发，企业微信会把消息推给该机器人所在的**每一个**群。机器人一旦被同事
@@ -533,6 +553,7 @@ WECOM_GROUP_ID=<群会话ID> python scripts/monitor/send_group.py --latest   # �
 ```bash
 export WECOM_WEBHOOK=https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxx
 export WECOM_CHATID=wrk...                        # 可选：只推给这一个群
+export WECOM_CHATID_2=wrk...                      # 可选：再加一个群
 
 python scripts/monitor/send_wecom.py --check      # 发一条通道自检
 python scripts/monitor/send_wecom.py --dry-run    # 只打印摘要内容，不发送

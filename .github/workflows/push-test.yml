@@ -24,7 +24,10 @@ jobs:
       - name: Check delivery channel
         env:
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
-          # 目标群：不带它脚本会拒绝发送（默认不许群发）。自检也进同一个群。
+          # 目标群：不带它脚本会拒绝发送（默认不许群发）。自检也进这些群。
+          # 多群 = 多个独立 Secret，脚本合并去重后逐个投递（与 weekly.yml 同一套口径）。
           WECOM_CHATID: ${{ secrets.WECOM_CHATID }}
+          WECOM_CHATID_2: ${{ secrets.WECOM_CHATID_2 }}
+          WECOM_CHATID_3: ${{ secrets.WECOM_CHATID_3 }}
           WECOM_MSG_TYPE: ${{ secrets.WECOM_MSG_TYPE }}
         run: python scripts/monitor/send_wecom.py --check
