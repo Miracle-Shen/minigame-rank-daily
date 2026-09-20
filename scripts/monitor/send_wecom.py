@@ -277,6 +277,33 @@ def build_wecom_markdown(data: dict, prefix: str, report_url: str = "",
     return _fit_bytes(blocks, tail)
 
 
+def build_card_markdown(data: dict, prefix: str = "", report_url: str = "",
+                        v2: bool = False) -> str:
+    """群消息卡片：微信前三 / 抖音前三 / 全平台 TOP1（渲染逻辑见 hotlist.py）。
+
+    和 `build_wecom_markdown` 的分工：
+
+        build_wecom_markdown  周报摘要 —— 本周趋势 + 值得复刻分组，信息全、条目多
+        build_card_markdown   周热榜卡片 —— 谁在榜 + 涨跌 + 抄不抄，一屏扫完
+
+    两条通道并存，命令行 `--card` 切换。
+    """
+    import hotlist as H  # noqa: PLC0415
+
+    meta = data.get("meta") or {}
+    card = H.build_card(data, v2=v2, site_url=_site_home(meta),
+                        report_url=report_url)
+    text = card["text"]
+    if prefix:
+        head, _, rest = text.partition("\n")
+        text = f"# {prefix} · {head.lstrip('# ').strip()}\n{rest}"
+    size = len(text.encode("utf-8"))
+    if size > WECOM_MAX_BYTES:
+        print(f"  卡片 {size} 字节超上限，已截断到 {WECOM_MAX_BYTES}")
+        text = text.encode("utf-8")[:WECOM_MAX_BYTES].decode("utf-8", "ignore")
+    return text
+
+
 def _site_home(meta: dict) -> str:
     """站点主页地址。报告里带 `site_url` 就直接用，否则现场推导。"""
     site = str(meta.get("site_url") or "").strip()
@@ -362,6 +389,9 @@ def main() -> int:
     ap.add_argument("--latest", action="store_true", help="取 reports/ 下最新一期")
     ap.add_argument("--check", action="store_true", help="往群里发一条通道自检，不发正式内容")
     ap.add_argument("--dry-run", action="store_true", help="只打印摘要内容，不发送")
+    ap.add_argument("--card", action="store_true",
+                    help="发「游戏周热榜」卡片（微信/抖音前三 + 全平台 TOP1），"
+                         "而非默认的周报摘要")
     ap.add_argument("--prefix", default=None, help="覆盖消息标题（默认 REPORT_PREFIX）")
     ap.add_argument("--chatid", default=None,
                     help="只投递给指定群（群 ID），覆盖 WECOM_CHATID")
@@ -393,10 +423,26 @@ def main() -> int:
         report = (ROOT / report).resolve()
     data, md_p = load_bundle(report)
     url = cfg.report_url or github_blob_url(md_p or report)
-    content = build_wecom_markdown(data, cfg.prefix, url,
-                                   v2=(cfg.msg_type == "markdown_v2"))
+    style = "周热榜卡片" if args.card else "周报摘要"
+    if args.card:
+        try:
+            # 卡片自带「游戏周热榜」标题，默认不再叠加前缀
+            content = build_card_markdown(data, args.prefix or "", url,
+                                          v2=(cfg.msg_type == "markdown_v2"))
+        except Exception as e:  # noqa: BLE001
+            # 卡片渲染失败（hotlist.py 缺失 / 报告字段不全等）→ 退回摘要。
+            # 回落发生在「渲染阶段」、网络请求还没发出，所以不会重复投递；
+            # 宁可变一次样式，也不让群消息整条静默。
+            print(f"::warning::卡片渲染失败（{type(e).__name__}: {e}），"
+                  f"本次回落为周报摘要")
+            style = "周报摘要（卡片渲染失败，已回落）"
+            content = build_wecom_markdown(data, cfg.prefix, url,
+                                           v2=(cfg.msg_type == "markdown_v2"))
+    else:
+        content = build_wecom_markdown(data, cfg.prefix, url,
+                                       v2=(cfg.msg_type == "markdown_v2"))
 
-    print(f"\n推送周报：{report.name}")
+    print(f"\n推送周报：{report.name}　（样式：{style}）")
     print(f"  正文      {len(content.encode('utf-8'))} 字节"
           f"（上限 {WECOM_MAX_BYTES}，超了自动截断）")
     print(f"  报告链接  {url or '（未取到：非 git 仓库或没有 origin）'}")

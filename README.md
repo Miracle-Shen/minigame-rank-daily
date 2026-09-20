@@ -41,6 +41,7 @@
 
 ## 📢 更新记录
 
+- **2026.09.20** — 新增**「游戏周热榜」群消息卡片**（`scripts/monitor/hotlist.py`）：群里只发一屏——微信前三 / 抖音前三（· 游戏名-品类-周环比趋势 + 一行复刻建议）/ 🔥全平台 TOP1 + 一句话本周趋势 + 数据主页；`--card` 切换，周报正文不受影响。
 - **2026.09.20** — 群机器人推送支持 **`chatid` 定向投递**：机器人被加进多个群时，不再一律群发，可用 `WECOM_CHATID` / `--chatid` 锁定单个群（该字段官方文档未写，实测有效且会校验群归属）。
 - **2026.09.20** — 移除邮件投递通道，周报推送收敛为**企业微信群**单一形态（方式 A：群机器人 Webhook 跑在 CI / 方式 B：机器人直发跑在本机），投递脚本由 `send_mail.py` 收缩为 `send_wecom.py`。
 - **2026.09.16** — 产品档案新增第 5 分区「结合业务的建议」：**424 法则**（为什么 / 怎么做 / 收益），其中「为什么」按**用户视角 2 条 + 业务视角 2 条**双视角写；184 款全量回填。
@@ -336,6 +337,50 @@ python scripts/monitor/report.py --baseline 2026-09-01   # 指定基准日期
 python scripts/monitor/analyze.py                        # 只出指标摘要
 ```
 
+### 游戏周热榜卡片（群消息精简版）
+
+周报正文交给 `report.py`，群里刷的那条交给 `hotlist.py` —— 两者共用同一套数据和口径，
+只是版面不同。卡片只回答三问，一屏扫完：
+
+```
+# 游戏周热榜　09.12–09.19
+
+1. 微信小游戏（前三）        2. 抖音小游戏（前三）
+· 游戏名-品类-周环比趋势       · …
+　复刻建议：把题材换成『中药抓药台』
+
+3. 🔥全部小游戏（TOP1）
+· 羊了个羊：星球（休闲）-持平
+　覆盖 微信小游戏、抖音小游戏｜最好名次 #1；TapTap、iOS、安卓 榜内未见
+　本周变化：竞技 +10pp 接棒；休闲 -10pp 退坡；新晋 8 款（角色RPG 3 / 竞技 2 / 休闲 2）
+　保持不变：TOP10 中 5 席继续在榜
+```
+
+口径与周报严格一致，只有几个地方是卡片独有的约定：
+
+| 项 | 口径 |
+| --- | --- |
+| 各平台「前三」 | 该平台**全部榜并集**去重，同一款取最好名次（与「值得复刻」候选池同源） |
+| 「热度趋势」 | 本周快照 vs 基准快照（默认 7 天前）的**最好名次**变化：`↑N位` / `↓N位` / `新上榜` / `持平` |
+| 「复刻建议」 | **只给能照着做的确定动作**，取档案 `suggestions[0]`（如「保留 X 核心」「把题材换成 Y」）。档案里的「换皮即用 / 需改一处 / 练手填充」是档位标签，**不构成结论**，卡片里不出现 |
+| 「本周变化」 | 品类涨退 + **新晋产品的类型分布**（只给「新晋 8 款」这个数字没有信息量） |
+| 「保持不变」 | 占比没动的品类 + 头部续在榜席位数 —— 说清榜单里**没动的是哪部分** |
+| 「全部小游戏 TOP1」 | 拼 微信/抖音/TapTap/iOS/安卓 **全部平台**后，按「跨平台覆盖数 → 最好名次 → 上榜次数」排序 |
+
+最后一条**不能改成只按名次排**：每个榜都各有一个第一名，只比名次会挤出一堆并列第一，
+没有区分度；先看「被几个平台同时验证」才筛得出真正的全民款。
+
+涨用红、跌用绿（中文习惯）。企业微信 markdown(v1) 不支持表格与列表，所以编号写成
+`1.` 纯文本、条目符号用 `·`、缩进用全角空格 —— 这是硬约束，不要改回 `-` 或 `|`。
+
+```bash
+python scripts/monitor/hotlist.py --report reports/weekly-2026-09-19.json   # 预览
+python scripts/monitor/hotlist.py --latest --v2                            # 实时数据、去掉颜色标签
+python scripts/monitor/send_group.py --latest --card --dry-run             # 看推送内容
+```
+
+卡片约 1.1 KB，远低于机器人 4096 字节上限；`PICK_N`（每平台列几款）在 `hotlist.py` 顶部。
+
 <a name="push"></a>
 
 ## 📬 周报推送（企业微信群）
@@ -441,13 +486,15 @@ curl -s -X POST "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=<key>" \
 ### 方式 B：企业微信群（机器人直发，走本机 `wecom-cli`）
 
 不申请 Webhook，直接让已经在群里的机器人把消息发进群 —— 只需要**群会话 ID**。
-摘要内容与方式 A 完全同一套口径（同出 `send_wecom.py` 的 `build_wecom_markdown`），
-空行分段 + 引用块，不含表格 / 列表。
+内容与方式 A 完全同一套口径（同出 `send_wecom.py`），空行分段 + 引用块，不含表格 / 列表。
+
+两种版式二选一：默认发**「游戏周热榜」卡片**（`--card`，见上一节），去掉 `--card` 发长版周报摘要。
 
 ```bash
 python scripts/monitor/send_group.py --list                  # 看当前能发消息的会话
-python scripts/monitor/send_group.py --latest --dry-run      # 只看摘要内容，不发送
-WECOM_GROUP_ID=<群会话ID> python scripts/monitor/send_group.py --latest
+python scripts/monitor/send_group.py --latest --card --dry-run   # 只看卡片内容，不发送
+WECOM_GROUP_ID=<群会话ID> python scripts/monitor/send_group.py --latest --card
+WECOM_GROUP_ID=<群会话ID> python scripts/monitor/send_group.py --latest   # 改发周报摘要
 ```
 
 **前置条件（关键）**：目标群必须**和机器人有过对话** —— 群里任一成员 `@机器人` 发一条消息，

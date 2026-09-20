@@ -39,7 +39,8 @@ ROOT = HERE.parents[1]
 sys.path.insert(0, str(HERE))
 
 from send_wecom import (  # noqa: E402
-    build_wecom_markdown, github_blob_url, latest_report, load_bundle,
+    build_card_markdown, build_wecom_markdown, github_blob_url, latest_report,
+    load_bundle,
 )
 
 CLI = "wecom-cli"
@@ -104,8 +105,14 @@ def send_text(chat_id: str, content: str) -> tuple[bool, str]:
 # --------------------------------------------------------------------------
 # 内容
 # --------------------------------------------------------------------------
-def build_content(data: dict, prefix: str, report_url: str) -> str:
-    """复用 send_wecom 的群摘要（空行分段 + 引用块，不用表格/列表）。"""
+def build_content(data: dict, prefix: str, report_url: str,
+                  card: bool = False) -> str:
+    """复用 send_wecom 的两种版式（都只用空行分段，不用表格/列表）。
+
+    card=False → 周报摘要；card=True → 「游戏周热榜」卡片。
+    """
+    if card:
+        return build_card_markdown(data, prefix, report_url)
     return build_wecom_markdown(data, prefix, report_url)
 
 
@@ -120,7 +127,11 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true", help="只打印内容，不发送")
     ap.add_argument("--text-only", action="store_true",
                     help="用降级通道发纯文本（markdown 通道不可用时）")
-    ap.add_argument("--prefix", default=os.environ.get("REPORT_PREFIX", DEFAULT_PREFIX))
+    ap.add_argument("--card", action="store_true",
+                    help="发「游戏周热榜」卡片（微信/抖音前三 + 全平台 TOP1），"
+                         "而非默认的周报摘要")
+    ap.add_argument("--prefix", default=None,
+                    help=f"覆盖消息标题（默认 {DEFAULT_PREFIX}；卡片样式默认不加前缀）")
     a = ap.parse_args()
 
     if a.list:
@@ -138,11 +149,17 @@ def main() -> int:
     data, md_p = load_bundle(report)
     # 链接指向 .md —— GitHub 上会渲染成可读页面；.json 点开是一屏原始 JSON
     url = github_blob_url(md_p or report)
-    content = build_content(data, a.prefix, url)
+    # 卡片自带「游戏周热榜」标题，不给默认前缀；摘要样式沿用 REPORT_PREFIX
+    if a.card:
+        prefix = a.prefix or ""
+    else:
+        prefix = a.prefix or os.environ.get("REPORT_PREFIX", DEFAULT_PREFIX)
+    content = build_content(data, prefix, url, card=a.card)
 
     m = data.get("meta", {})
     title = f"{m.get('baseline_date')} ~ {m.get('week_end')}" if m.get("baseline_date") else report.stem
     print(f"报告：{report.name}（{title}）")
+    print(f"样式：{'周热榜卡片' if a.card else '周报摘要'}")
     print(f"正文：{len(content.encode('utf-8'))} 字节{'，附链接 ' + url if url else ''}")
 
     if a.dry_run:

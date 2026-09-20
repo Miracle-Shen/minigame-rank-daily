@@ -12,6 +12,10 @@ on:
         description: "基准日期 YYYY-MM-DD（留空自动取 7 天前）"
         required: false
         default: ""
+      style:
+        description: "群消息样式：card=游戏周热榜卡片 / digest=周报摘要"
+        required: false
+        default: "card"
 
 permissions:
   contents: write
@@ -74,6 +78,8 @@ jobs:
           WECOM_CHATID: ${{ secrets.WECOM_CHATID }}
           WECOM_MSG_TYPE: ${{ secrets.WECOM_MSG_TYPE }}
           WECOM_REPORT_URL: ${{ secrets.WECOM_REPORT_URL }}
+          # card（默认）= 游戏周热榜卡片；digest = 原来的周报摘要
+          WECOM_STYLE: ${{ github.event.inputs.style || 'card' }}
         run: |
           if [ -z "$WECOM_WEBHOOK" ]; then
             echo "::warning::未配置 WECOM_WEBHOOK，跳过推送（周报已生成并提交，不受影响）。"
@@ -83,4 +89,8 @@ jobs:
             echo "::warning::未配置 WECOM_CHATID（目标群），跳过推送以免群发到全部群。周报已生成并提交，不受影响。"
             exit 0
           fi
-          python scripts/monitor/send_wecom.py --latest
+          if [ "$WECOM_STYLE" = "digest" ]; then
+            python scripts/monitor/send_wecom.py --latest
+          else
+            python scripts/monitor/send_wecom.py --latest --card
+          fi
