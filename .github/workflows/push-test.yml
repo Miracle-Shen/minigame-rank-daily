@@ -1,0 +1,28 @@
+name: Push Channel Test
+
+# 只做一件事：验证 GitHub Actions → 企业微信群机器人（Webhook）的推送通道是否可用。
+# 配好 Secret 后手动跑一次，群里收到「通道自检」即表示链路通，再等周一的正式周报。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check delivery channel
+        env:
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+          WECOM_MSG_TYPE: ${{ secrets.WECOM_MSG_TYPE }}
+        run: python scripts/monitor/send_wecom.py --check

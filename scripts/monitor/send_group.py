@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 """周报投递 · 企业微信群（走本机 wecom-cli，由机器人在群里发消息）。
 
-和 `send_mail.py` 里「方式 B：群机器人 Webhook」的区别：
+和 `send_wecom.py` 里「方式 A：群机器人 Webhook」的区别：
 
     ┌──────────────┬─────────────────────────┬──────────────────────────┐
-    │              │ Webhook（方式 B）        │ 本脚本（机器人直发）      │
+    │              │ Webhook（方式 A）        │ 本脚本（机器人直发）      │
     ├──────────────┼─────────────────────────┼──────────────────────────┤
     │ 凭据         │ 群机器人 Webhook URL      │ 群会话 ID + 本机授权      │
     │ 跑在哪       │ GitHub Actions 里就行     │ 只能本机（CI 拿不到授权） │
@@ -38,8 +38,8 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 sys.path.insert(0, str(HERE))
 
-from send_mail import (  # noqa: E402
-    REPORT_DIR, build_wecom_markdown, github_blob_url, latest_report, load_bundle,
+from send_wecom import (  # noqa: E402
+    build_wecom_markdown, github_blob_url, latest_report, load_bundle,
 )
 
 CLI = "wecom-cli"
@@ -105,7 +105,7 @@ def send_text(chat_id: str, content: str) -> tuple[bool, str]:
 # 内容
 # --------------------------------------------------------------------------
 def build_content(data: dict, prefix: str, report_url: str) -> str:
-    """复用 send_mail 的群摘要（空行分段 + 引用块，不用表格/列表）。"""
+    """复用 send_wecom 的群摘要（空行分段 + 引用块，不用表格/列表）。"""
     return build_wecom_markdown(data, prefix, report_url)
 
 
@@ -135,7 +135,7 @@ def main() -> int:
         return EXIT_OK
 
     report = Path(a.report) if a.report else latest_report()
-    data, _, md_p = load_bundle(report)
+    data, md_p = load_bundle(report)
     # 链接指向 .md —— GitHub 上会渲染成可读页面；.json 点开是一屏原始 JSON
     url = github_blob_url(md_p or report)
     content = build_content(data, a.prefix, url)

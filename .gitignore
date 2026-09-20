@@ -11,7 +11,9 @@ _auth_runtime.json
 
 # Local previews
 _pages_preview/
-_mail_preview/
+
+# WorkBuddy 会话工作区（记忆等内部产物，不随仓库发布）
+.workbuddy/
 
 # Per-snapshot xlsx that core writes alongside JSON; we strip them in
 # ci_scrape.py too, but ignore here as a second line of defense.

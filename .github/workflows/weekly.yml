@@ -65,23 +65,17 @@ jobs:
           retention-days: 30
 
       - name: Send weekly report
-        # 两个通道任配其一即可：企业微信邮箱 SMTP（smtp.exmail.qq.com:465 SSL）
-        # 或 企业微信群机器人 Webhook（WECOM_WEBHOOK）。都没配则跳过。
+        # 推送通道 = 企业微信群机器人 Webhook（WECOM_WEBHOOK）。
+        # 没配则跳过（只打 warning，不报错）——报告照常生成并提交。
         env:
-          MAIL_USER: ${{ secrets.MAIL_USER }}
-          MAIL_PASS: ${{ secrets.MAIL_PASS }}
-          MAIL_TO: ${{ secrets.MAIL_TO }}
-          MAIL_CC: ${{ secrets.MAIL_CC }}
-          MAIL_HOST: ${{ secrets.MAIL_HOST }}
-          MAIL_PORT: ${{ secrets.MAIL_PORT }}
-          MAIL_FROM: ${{ secrets.MAIL_FROM }}
-          MAIL_FROM_NAME: ${{ secrets.MAIL_FROM_NAME }}
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+          # 机器人若被加进多个群，不带 chatid 会群发全部群；用 Secret 锁定目标群。
+          WECOM_CHATID: ${{ secrets.WECOM_CHATID }}
           WECOM_MSG_TYPE: ${{ secrets.WECOM_MSG_TYPE }}
           WECOM_REPORT_URL: ${{ secrets.WECOM_REPORT_URL }}
         run: |
-          if [ -z "$WECOM_WEBHOOK" ] && { [ -z "$MAIL_USER" ] || [ -z "$MAIL_PASS" ] || [ -z "$MAIL_TO" ]; }; then
-            echo "::warning::未配置任何投递通道（MAIL_* 或 WECOM_WEBHOOK），跳过发送。"
+          if [ -z "$WECOM_WEBHOOK" ]; then
+            echo "::warning::未配置 WECOM_WEBHOOK，跳过推送（周报已生成并提交，不受影响）。"
             exit 0
           fi
-          python scripts/monitor/send_mail.py --latest
+          python scripts/monitor/send_wecom.py --latest

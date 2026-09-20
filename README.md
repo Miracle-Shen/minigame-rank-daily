@@ -11,7 +11,7 @@
   <a href="https://github.com/Miracle-Shen/minigame-rank-daily">[源码]</a>
 </p>
 
-**minigame-rank-daily** 每天北京时间 10:30 自动抓取微信小游戏 / 抖音小游戏的 6 个榜单，叠加 TapTap 预约榜、**iOS 美 / 国 / 日区**与 **Android 美区**免费榜，与累积 base 库比对算出每条榜单的「新进榜 / 回归 / 新发行商」，发布成一面纯静态仪表盘；每周一 09:00 再产出一份微信小游戏周报，自动推送到邮箱 / 企业微信群。
+**minigame-rank-daily** 每天北京时间 10:30 自动抓取微信小游戏 / 抖音小游戏的 6 个榜单，叠加 TapTap 预约榜、**iOS 美 / 国 / 日区**与 **Android 美区**免费榜，与累积 base 库比对算出每条榜单的「新进榜 / 回归 / 新发行商」，发布成一面纯静态仪表盘；每周一 09:00 再产出一份微信小游戏周报，自动推送到企业微信群。
 
 <table>
   <tr>
@@ -41,9 +41,11 @@
 
 ## 📢 更新记录
 
+- **2026.09.20** — 群机器人推送支持 **`chatid` 定向投递**：机器人被加进多个群时，不再一律群发，可用 `WECOM_CHATID` / `--chatid` 锁定单个群（该字段官方文档未写，实测有效且会校验群归属）。
+- **2026.09.20** — 移除邮件投递通道，周报推送收敛为**企业微信群**单一形态（方式 A：群机器人 Webhook 跑在 CI / 方式 B：机器人直发跑在本机），投递脚本由 `send_mail.py` 收缩为 `send_wecom.py`。
 - **2026.09.16** — 产品档案新增第 5 分区「结合业务的建议」：**424 法则**（为什么 / 怎么做 / 收益），其中「为什么」按**用户视角 2 条 + 业务视角 2 条**双视角写；184 款全量回填。
 - **2026.09.15** — 产品档案上线：当日各榜 TOP20 并集 **152/152** 全部建档（索引 184 条），含技术实现 / 核心玩法 / 官方截图 / 复刻建议四分区，并提供逐款详情页。
-- **2026.09.14** — 抓取主路径改为引力引擎公开接口（纯 HTTP，不再依赖浏览器渲染）；接入周报分析层与**邮件 / 企业微信群机器人双通道**推送，产出首份周报 `reports/weekly-2026-09-14.*`。
+- **2026.09.14** — 抓取主路径改为引力引擎公开接口（纯 HTTP，不再依赖浏览器渲染）；接入周报分析层与**企业微信群机器人**推送，产出首份周报 `reports/weekly-2026-09-14.*`。
 
 ## 🗂️ 仓库结构
 
@@ -60,7 +62,7 @@
 │   ├── ci_diff.py        基于 base 分类今日新进
 │   ├── ci_sync_supabase.py  快照同步到 Supabase（仪表盘的数据源）
 │   ├── detail/           产品档案管线（见「产品档案」一节）
-│   └── monitor/          周报分析层（classify 品类归一化 / analyze 指标 / report 渲染 / send_mail 邮件与 Webhook / send_group 机器人直发群）
+│   └── monitor/          周报分析层（classify 品类归一化 / analyze 指标 / clone 值得复刻清单 / report 渲染 / send_wecom 群机器人 Webhook / send_group 机器人直发群）
 ├── data/
 │   ├── daily/            历史快照（每天一份）
 │   ├── diff/             每天的「新进」分类
@@ -81,7 +83,7 @@
 ├── .github/workflows/
 │   ├── daily.yml         定时抓取 + 写数据
 │   ├── weekly.yml        每周一 09:00 出周报
-│   ├── mail-test.yml     投递通道自检
+│   ├── push-test.yml     推送通道自检
 │   └── pages.yml         发布站点
 └── README.md
 ```
@@ -248,19 +250,60 @@ python scripts/detail/verify.py --require-biz         # 硬门禁：要求全部
 
 每周一北京时间 09:00，`weekly.yml` 基于仓库里的历史快照生成一份微信小游戏周报。
 
-**六个板块**，对应三类立项参考价值：
+**版式是领导视角**：把「大盘往哪走」和「抄哪个」放在最前面，明细全部后置为附录。
 
-| 板块 | 说明 | 立项价值 |
+| 位置 | 内容 | 回答的问题 |
 | --- | --- | --- |
-| 品类结构 | L1/L2 占比 + 代表产品 | 大盘在做什么品类 —— 立项方向 |
-| 头部集中度 | 发行商在榜产品数 / 占比 | 榜被谁占据，新进者有没有空间 |
-| 新晋者 | 本期在榜、基准期不在榜 | 新变量、正在冒头的产品 |
-| 上升态势 | 两周都在榜内、名次前进 ≥3 位 | 正在起量的题材 / 玩法 |
-| 头部稳定性 | TOP10 留存率 / 换血率 | 大盘是否固化，还挤不挤得进去 |
-| 腰部持续性 | 11-20 名连续在榜天数 | 区分长线产品与买量冲榜 |
+| 结论速览 | 3–4 条判断 | 一屏看完，不看下文也能决策 |
+| 一、本周趋势 | 头部格局 / 品类走向（近 4 周）/ 本周新变量 / 结构稳定性 | **大盘在往哪走** |
+| 二、值得复刻 | 按复刻结论档位分组的游戏清单 + 成本 + 一句话理由与改法 | **值得抄的有哪些** |
+| 附录 A–D | 大盘明细 / 异动明细 / 结构稳定性 / 三榜速览 | 留给执行同学查数 |
 
-产出落在 `reports/weekly-<日期>.{md,html,json}`。HTML 用全内联样式，可直接作为
-邮件正文粘贴发送。
+「值得复刻」不是模板文案，而是把榜单与**产品档案**（`data/detail/`）里的
+`clone.verdict` 关联起来的结果，判定口径沿用档案原文：
+
+| 档位 | 含义 | 进不进清单 |
+| --- | --- | --- |
+| 换肤 | 机制照搬就成立，瓶颈在题材/美术 —— **成本最低，换题材即差异化** | 一线 |
+| 变种创意 | 核心机制可取，但必须改一处结构，照抄会撞车 | 一线 |
+| 微创新 | 整体已成熟，只值得细节体验升级，不建议独立立项 | 二线 |
+| 原样复刻 | 无壁垒的玩法原型，适合练手或填充位 | 二线 |
+| 不建议 | 有 IP/版权风险、依赖独家资源、需重资本或已被头部锁死 | **剔除** |
+
+候选池是**三榜（畅销/人气/畅玩）TOP20 的并集**——只看畅销榜会漏掉只在人气榜、
+畅玩榜上跑的产品。清单由 `scripts/monitor/clone.py` 生成，名称归一化与产品档案
+管线共用一套规则（`NFKC` + 去空白），否则会整批漏匹配。
+
+产出落在 `reports/weekly-<日期>.{md,html,json}`。HTML 用全内联样式（表格布局、不依赖外部
+CSS/JS），单文件可直接在浏览器打开或转发。想单独看清单：
+
+```bash
+python scripts/monitor/clone.py     # 打印当期「值得复刻」清单
+python scripts/monitor/report.py --format both --no-clone   # 跳过清单（档案缺失时）
+```
+
+### 周报里的站内链接
+
+周报会被转发到群里、也会被转到别处，读者从群里点进来之后要能**一键回到仪表盘**看实时数据，
+因此每份周报都会带上站内**绝对地址**（相对路径在 GitHub blob 页和转发出去的链接里都会失效）：
+
+| 位置 | 内容 |
+| --- | --- |
+| 标题下方 | `**主页** <https://…/>` + 「站内直达」导航（数据主页 / 产品档案 / 新厂商冒泡） |
+| 二、值得复刻 | 每款游戏名可点，直达 `game.html?name=<游戏名>` 的档案页 |
+| 末尾「继续查看」 | 三条完整地址：主页 / 产品档案 / 新厂商冒泡 |
+
+主页地址优先取环境变量 `REPORT_SITE_URL`，否则从 `git origin` 现场推导 GitHub Pages 地址
+（`https://<owner>.github.io/<repo>/`，仓库改名不用动代码），最后回落到硬编码默认值。
+自建域名或换成别处托管时用环境变量覆盖：
+
+```bash
+REPORT_SITE_URL=https://rank.example.com/ python scripts/monitor/report.py --format both
+python scripts/monitor/report.py --format both --site-url https://rank.example.com/
+```
+
+群消息末尾同样会给两行链接：`[查看图文周报](…)` + `[数据主页](…)`，
+主页地址取自报告 `meta.site_url`，老报告没有该字段时现场推导。
 
 ### 品类口径为什么需要归一化
 
@@ -295,34 +338,20 @@ python scripts/monitor/analyze.py                        # 只出指标摘要
 
 <a name="push"></a>
 
-## 📬 周报推送（邮件 / 企业微信群机器人）
+## 📬 周报推送（企业微信群）
 
-周一 9:00 的 `weekly.yml` 生成报告后自动推送周报。**A / B 两个通道任配其一即可生效，也可以都开**：
-只配 `WECOM_WEBHOOK` 就只推群，只配 `MAIL_*` 就只发邮件，都没配则跳过（只打 warning，不报错）。
-**方式 C 是另一条独立通道**，不走 CI、也不需要 Webhook，见下。
+周一 9:00 的 `weekly.yml` 生成报告后自动推送周报。**两条通道任选，也可以都开**：
+方式 A 在 CI 里无人值守跑，方式 B 在本机跑。`WECOM_WEBHOOK` 没配时 `weekly.yml` 会跳过推送
+并打一条 warning（不报错），不影响报告生成与提交。
 
-### 方式 A：邮箱（企业微信邮箱 / 腾讯企业邮）
+| | 方式 A：群机器人 Webhook | 方式 B：机器人直发 |
+| --- | --- | --- |
+| 凭据 | 群机器人 Webhook URL | 群会话 ID + 本机授权 |
+| 跑在哪 | GitHub Actions 里就行 | 只能本机（依赖 `wecom-cli` 授权） |
+| 触发 | `weekly.yml` 自动 | WorkBuddy 定时任务 |
+| 额外依赖 | 需在企业微信后台建群机器人 | 群需先和机器人对过话 |
 
-**服务器参数**（企业微信邮箱 = 腾讯企业邮）
-
-| 项 | 值 |
-| --- | --- |
-| SMTP | `smtp.exmail.qq.com` · 端口 `465` · SSL（失败自动回落 `587` STARTTLS） |
-| 备用 SMTP | `hwsmtp.exmail.qq.com` |
-| 密码 | **16 位客户端专用密码**，不是邮箱登录密码 |
-
-**三步开通 SMTP（缺一不可）**
-
-1. **管理员**：企业微信管理后台 →【协作】→【安全管理】→【客户端访问限制】→
-   修改 Exchange/IMAP/SMTP 服务范围 → 勾选发信账号；
-2. **用户**：网页版邮箱 `exmail.qq.com/login`（扫码登录）→【设置】→【收发信设置】→
-   勾选「开启 IMAP/SMTP 服务」→ 保存；
-3. **用户**：【设置】→【邮箱绑定】→ 开启「安全登录」→【生成新密码】→ 复制 16 位专用密码。
-
-**注意**：GitHub 托管 runner 是动态公网 IP。若公司邮箱后台配了 IP 白名单，登录会失败——
-这种情况改用方式 B，或把 `MAIL_HOST` 换成内网可达的自建 SMTP。
-
-### 方式 B：企业微信群机器人（推荐先跑通这个）
+### 方式 A：企业微信群机器人（推荐先跑通这个）
 
 **不需要任何密码**，一个 Webhook URL 即可，5 分钟能验完。
 
@@ -336,16 +365,52 @@ python scripts/monitor/analyze.py                        # 只出指标摘要
    `URLError: <urlopen error timed out>`。同一个 key 把 `in.` 前缀去掉即可用；
 4. 存到仓库 Secret `WECOM_WEBHOOK`。
 
-**群消息长什么样**：标题 + 本周要点（引用块）+ 品类结构 + 头部格局 + 口径说明，
-末尾自动附 `[查看图文周报](链接)`。**刻意不用表格和列表**——机器人的 markdown(v1) 不支持
-这两者，用了会原样吐出一堆竖线和短横线；正文按 **4096 字节**上限自动截断并保住尾注。
+**群消息长什么样**：标题 + 本周趋势（引用块 3 条）+ 值得复刻（按档位一行一档，
+带成本与代表产品）+ 口径说明，末尾自动附 `[查看图文周报](链接)　|　[数据主页](链接)`。
+第二条是站点首页（榜单仪表盘），不点周报也能直接看数据。**刻意不用表格和
+列表**——机器人的 markdown(v1) 不支持这两者，用了会原样吐出一堆竖线和短横线；
+正文按 **4096 字节**上限自动截断并保住尾注（当期实测约 1.5 KB，余量充足）。
 
 末尾那个链接**不需要配置**：从 `git remote get-url origin` 现场推导，指向当期
 `reports/weekly-*.md`（GitHub 上直接可读）。只有想钉死成固定地址时才需要 `WECOM_REPORT_URL`。
 
-**不要给请求体加 `chatid`**：`key` 本身已经绑定了群，官方文档的请求体只有
-`msgtype` + 内容体两个字段，`chatid` 是 `appchat/send`（应用群聊）那套接口的字段，
-在消息推送这里不生效。
+**机器人被加进多个群时：用 `chatid` 定向投递**
+
+一个群机器人可以被添加到多个内部群，此时**不带 `chatid` 的推送会发给所有群** ——
+同一个 key 发一条，每个群各收到一条。要只发给其中一个群，在请求体里加 `chatid`：
+
+```bash
+curl 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=<key>' \
+  -H 'Content-Type: application/json' \
+  -d '{"chatid":"wrk...","msgtype":"markdown","markdown":{"content":"# 标题"}}'
+```
+
+脚本里对应 `WECOM_CHATID`（或命令行 `--chatid`），CI 里配成同名 Secret：
+
+```bash
+export WECOM_CHATID=wrk...
+python scripts/monitor/send_wecom.py --latest                    # 只推这个群
+python scripts/monitor/send_wecom.py --latest --chatid wrk...     # 临时指定
+python scripts/monitor/send_wecom.py --check                      # 自检也会尊重它
+```
+
+**怎么零误伤地确认一个群 ID 是对的**：把 `content` 留空发出去 —— 接口会**先校验 `chatid`、
+再校验内容**，所以合法 ID 报 `44004 empty content`、非法 ID 报 `93006 invalid chatid`，
+两种都**不会真的往群里发东西**：
+
+```bash
+curl -s -X POST "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=<key>" \
+  -H 'Content-Type: application/json' \
+  -d '{"chatid":"<群ID>","msgtype":"markdown","markdown":{"content":""}}'
+```
+
+两条实测结论：
+
+- 官方文档的请求体**只写了 `msgtype` + 内容体，没提 `chatid`**（`markdown_v2` 也没写），
+  但接口实际认它，而且校验的是「这个群真的在机器人的投递范围内」—— 把群 ID 改一个字符
+  就返回 `93006 不合法的群ID`，换成真实 ID 则正常通过。属于「有字段、没文档」。
+- 不指定时会**静默**推给该机器人所在的每一个群，很容易误伤（比如把周报发进不相干的群）。
+  **机器人被加进 2 个以上群时，建议一律显式带 `chatid`。**
 
 **已知限制（来自官方文档）**
 
@@ -356,16 +421,18 @@ python scripts/monitor/analyze.py                        # 只出指标摘要
 | 不支持表格 / 列表 / 分割线 | 因此摘要改用空行分段 + 引用块 + `<font color>` 三色 |
 | 不支持 @所有人 | markdown 类型只能 `@` 单个成员且需 userid；要 @全体得改用文本消息的 `mentioned_list` |
 | key 即凭据 | Webhook 泄露 = 任何人可往群里发消息，只放 GitHub Secret，别写进代码或日志 |
+| 一个机器人可挂多个群 | 不带 `chatid` 的推送会发给**所有**群；要只发一个群就带 `chatid`（见上） |
 | 域名要公网可达 | 只能用 `qyapi.weixin.qq.com`。`in.qyapi.weixin.qq.com` 只在公司内网 / VPN 下可达，CI 里必超时 |
 | 换了 key 会 93000 | 机器人被移除或 key 重置时，返回 `errcode=93000`，需重取地址 |
 
 需要表格 / 分割线可以切到 `WECOM_MSG_TYPE=markdown_v2`，但它**不支持字体颜色**，且要求客户端
 版本 ≥ 4.1.36（安卓 ≥ 4.1.38），低版本会整条退化成纯文本——面向多人时慎用。
 
-### 方式 C：企业微信群（机器人直发，走本机 `wecom-cli`）
+### 方式 B：企业微信群（机器人直发，走本机 `wecom-cli`）
 
 不申请 Webhook，直接让已经在群里的机器人把消息发进群 —— 只需要**群会话 ID**。
-摘要内容与方式 B 完全同一套口径（复用 `build_wecom_markdown`），空行分段 + 引用块，不含表格 / 列表。
+摘要内容与方式 A 完全同一套口径（同出 `send_wecom.py` 的 `build_wecom_markdown`），
+空行分段 + 引用块，不含表格 / 列表。
 
 ```bash
 python scripts/monitor/send_group.py --list                  # 看当前能发消息的会话
@@ -384,53 +451,40 @@ WECOM_GROUP_ID=<群会话ID> python scripts/monitor/send_group.py --latest
 所以它由 **WorkBuddy 定时任务**驱动 —— 每周一 10:00 同步仓库 → 取最新一期周报 → 推送。
 （`weekly.yml` 周一 09:00 / 09:30 出报告，10:00 留出落库与 Pages 部署的时间。）
 
-| | 方式 B（Webhook） | 方式 C（机器人直发） |
-| --- | --- | --- |
-| 凭据 | 群机器人 Webhook URL | 群会话 ID + 本机授权 |
-| 跑在哪 | GitHub Actions 里就行 | 只能本机（依赖 `wecom-cli` 授权） |
-| 触发 | `weekly.yml` 自动 | WorkBuddy 定时任务 |
-| 额外依赖 | 需在企业微信后台建群机器人 | 群需先和机器人对过话 |
-
 - 降级通道 `--text-only` 走管理端 `message.send`，需企业开通该工具；未开通会报
   `853006 this tool is not available for your corporation`，此时用默认的 markdown 通道即可。
 - 群会话 ID 属于内部标识：不要写进仓库、issue 或日志，用 `WECOM_GROUP_ID` 环境变量传入。
 
-**配置 Secrets**（仓库 Settings → Secrets and variables → Actions）
+**配置 Secret**（仓库 Settings → Secrets and variables → Actions，只有方式 A 需要）
 
-| Secret | 通道 | 必填 | 说明 |
-| --- | --- | --- | --- |
-| `WECOM_WEBHOOK` | B | 二选一 | 群机器人 Webhook 地址 |
-| `MAIL_USER` | A | 二选一 | 发件邮箱，如 `miracleshen@tencent.com` |
-| `MAIL_PASS` | A | 同上 | 16 位客户端专用密码 |
-| `MAIL_TO` | A | 同上 | 收件人，逗号分隔 |
-| `MAIL_CC` | A | — | 抄送，逗号分隔 |
-| `MAIL_HOST` | A | — | 默认 `smtp.exmail.qq.com` |
-| `MAIL_PORT` | A | — | 默认 `465` |
-| `MAIL_FROM_NAME` | A | — | 发件人显示名，默认「微信小游戏周报」 |
-| `WECOM_MSG_TYPE` | B | — | 默认 `markdown`，可改 `markdown_v2` |
-| `WECOM_REPORT_URL` | B | — | 仅用于覆盖末尾链接；不配则自动推导当期报告地址 |
+| Secret | 必填 | 说明 |
+| --- | --- | --- |
+| `WECOM_WEBHOOK` | 方式 A 必填 | 群机器人 Webhook 地址 |
+| `WECOM_CHATID` | — | 只投递给指定群；机器人只在 1 个群时可省。群 ID 属内部标识，只放进 Secret |
+| `WECOM_MSG_TYPE` | — | 默认 `markdown`，可改 `markdown_v2` |
+| `WECOM_REPORT_URL` | — | 仅用于覆盖末尾链接；不配则自动推导当期报告地址 |
 
-**先自检再等周一**：手动触发 `Mail Channel Test` 工作流（Actions → 左侧选它 → Run workflow），
-它会 `--check` 所有**已配置**的通道：SMTP 连接 + 登录，以及往群里发一条自检消息。
+方式 B **不需要任何 Secret**：群会话 ID 从本机用环境变量 `WECOM_GROUP_ID` 传入，不入库。
+
+**先自检再等周一**：手动触发 `Push Channel Test` 工作流（Actions → 左侧选它 → Run workflow），
+它会往群里发一条自检消息；绿勾即 CI 端到端通。
 
 **本地调试**
 
 ```bash
-# 邮箱通道
-export MAIL_USER=... MAIL_PASS=... MAIL_TO=...
-# 群机器人通道（不需要邮箱凭据）
 export WECOM_WEBHOOK=https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxx
+export WECOM_CHATID=wrk...                        # 可选：只推给这一个群
 
-python scripts/monitor/send_mail.py --check --send-test   # 自检所有已配置通道
-python scripts/monitor/send_mail.py --webhook-only        # 只推群，不发邮件
-python scripts/monitor/send_mail.py --dry-run             # 落 _mail_preview/mail-<日期>.eml，不发信
-python scripts/monitor/send_mail.py --latest              # 发最新一期
-python scripts/monitor/send_mail.py --latest --to a@x.com # 临时改收件人
+python scripts/monitor/send_wecom.py --check      # 发一条通道自检
+python scripts/monitor/send_wecom.py --dry-run    # 只打印摘要内容，不发送
+python scripts/monitor/send_wecom.py --latest     # 推最新一期
 ```
 
-邮件为 `multipart/mixed`：正文是 `text/plain`（周报 Markdown）+ `text/html`（全内联样式，
-手机上直接可读），并附上 `.md` / `.html` 两个文件便于转发。两个通道都没配时
-`weekly.yml` 会跳过推送并给出 warning，不影响报告生成与提交。
+`--dry-run` 和 `--check` 开头都会回显「投递范围」——写的是「机器人所在的全部群」还是
+「只发 wrk…xxxx」，一眼能确认有没有带上 `chatid`。
+
+消息正文按 **4096 字节**上限自动截断并保住尾注；渲染用空行分段 + 引用块 + `<font color>`
+三色，方式 A / B 同一套文案（同出 `build_wecom_markdown`）。
 
 ## 🖥️ 本地开发
 
@@ -507,15 +561,14 @@ A：这是预期。详情档案按约定只覆盖**当日各榜 TOP20 的并集*
 **Q：能不能多平台抓 Apple Store / TapTap？**
 A：已支持。TapTap 预约榜 + iOS 美 / 国 / 日区游戏免费榜 + Android 美区免费游戏榜每天随主快照一起抓取（`scrape_taptap.py` / `scrape_ios.py` / `scrape_googleplay.py`）。iOS 榜单来自 Apple 官方 iTunes RSS（`itunes.apple.com/{cc}/rss/topfreeapplications/genre=6014/limit=100/json`），免登录免密钥；Android 来自 AppBrain（`appbrain.com/stats/google-play-rankings/top_free/game/us`，SSR 免登录，注意免费限流）。两者都不含排名涨跌箭头、只提供当前榜单。扩展更多国家 / 榜单：改对应 `scrape_*.py` 的配置 + `site/app.js` 的 `BOARD_LABELS`。引力引擎微信 / 抖音的选择器逻辑见 `scrape_rank.py`。
 
-**Q：周报没收到 / 群里没消息？**
-A：先确认走的是哪条通道。**方式 A / B**：打开 Actions 里那次 run，看 `Send weekly report` 步骤日志。
-四种情况：① 日志出现`未配置任何投递通道` 的 warning —— Secrets 没填全；② `SMTP 登录失败` —— 回到「周报推送」
-方式 A 的三步开通流程（专用密码 / IMAP-SMTP 开关 / 管理员客户端访问范围）；
-③ `errcode=93000` —— 群机器人 Webhook 失效或 key 被重置，重取地址；
-④ 日志显示已发送 —— 邮件查收件方垃圾箱或公司邮件网关。想单独验证通道，
-手动跑 `Mail Channel Test` 工作流。
+**Q：群里没收到周报？**
+A：先确认走的是哪条通道。**方式 A（Webhook）** 打开 Actions 里那次 run，看 `Send weekly report`
+步骤日志，三种情况：① 日志出现 `未配置 WECOM_WEBHOOK` 的 warning —— Secret 没加；
+② `URLError: <urlopen error timed out>` —— 域名不是公网的 `qyapi.weixin.qq.com`
+（`in.` 开头的内网地址 CI 连不上）；③ `errcode=93000` —— Webhook 失效或 key 被重置，重取地址。
+想单独验证通道，手动跑 `Push Channel Test` 工作流。
 
-**方式 C** 不看 Actions 日志（它根本不走 CI），在本机单独验：
+**方式 B** 不看 Actions 日志（它根本不走 CI），在本机单独验：
 
 ```bash
 python scripts/monitor/send_group.py --list        # 目标群在不在「可发送的会话」里
