@@ -252,7 +252,7 @@ python scripts/detail/verify.py --require-biz         # 硬门禁：要求全部
 
 ## 📊 周报（game-market-monitor）
 
-每周一北京时间 09:00，`weekly.yml` 基于仓库里的历史快照生成一份微信小游戏周报。
+每周一北京时间 09:30，`weekly.yml` 基于仓库里的历史快照生成一份微信小游戏周报。
 
 **版式是领导视角**：把「大盘往哪走」和「抄哪个」放在最前面，明细全部后置为附录。
 

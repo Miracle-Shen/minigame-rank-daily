@@ -471,7 +471,7 @@ def main() -> int:
         ok = push_wecom(cfg, content=(
             f"# {cfg.prefix} · 通道自检\n"
             f"> 收到这条消息说明机器人 Webhook 可用，"
-            f"后续每周一 09:00 会推送周报摘要。"))
+            f"后续每周一 09:30 会推送周报。"))
         return EXIT_OK if ok else EXIT_SENDFAIL
 
     report = Path(args.report) if args.report else latest_report()
