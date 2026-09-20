@@ -293,10 +293,12 @@ def week_lines(result: dict) -> tuple[str, str]:
     if t:
         up = t[0]
         down = min(t, key=lambda i: i["delta"])
+        # 说「占比 +10 个百分点」而不是「+10pp」：pp = percentage point（百分点），
+        # 指占比本身挪了 10 个百分点（10% → 20%），不是「涨了 10%」。业务侧不看这个缩写。
         if up["delta"] > 0:
-            change.append(f"{up['name']} {up['delta']:+.0f}pp 接棒")
+            change.append(f"{up['name']} 占比 {up['delta']:+.0f} 个百分点，接棒")
         if down["delta"] < 0:
-            change.append(f"{down['name']} {down['delta']:+.0f}pp 退坡")
+            change.append(f"{down['name']} 占比 {down['delta']:+.0f} 个百分点，退坡")
     ne = p.get("new_entrants") or []
     if ne:
         c = Counter(x.get("l1") or "其他" for x in ne)
@@ -336,8 +338,7 @@ def _period(meta: dict) -> str:
 
 
 def build_card(result: dict, hist: list[tuple[str, dict]] | None = None,
-               v2: bool = False, site_url: str = "",
-               report_url: str = "") -> dict:
+               v2: bool = False, site_url: str = "") -> dict:
     """产出卡片文本 + 其结构化数据（便于自检与二次渲染）。"""
     meta = result.get("meta") or {}
     hist = hist if hist is not None else A.load_history()
@@ -383,7 +384,6 @@ def build_card(result: dict, hist: list[tuple[str, dict]] | None = None,
             "week_end": cur_date,
             "baseline_date": base_date,
             "site_url": site_url,
-            "report_url": report_url,
         },
         "sections": sections,
         "top1": top[0] if top else None,
@@ -439,13 +439,9 @@ def render_text(data: dict, v2: bool = False) -> str:
         L.append(f"{BOOKMARK}保持不变：{data['week_steady']}")
     L.append("")
 
-    links = []
+    # 页脚只留数据主页：图文周报入口已下线（群里一屏看结论就够了）。
     if m.get("site_url"):
-        links.append(f"[数据主页]({m['site_url']})")
-    if m.get("report_url"):
-        links.append(f"[查看图文周报]({m['report_url']})")
-    if links:
-        L.append("　|　".join(links))
+        L.append(f"[数据主页]({m['site_url']})")
     return "\n".join(L)
 
 
@@ -457,7 +453,6 @@ def main() -> int:
     ap.add_argument("--latest", action="store_true", help="用 data/latest.json 做一期")
     ap.add_argument("--v2", action="store_true", help="去掉 <font> 颜色标签")
     ap.add_argument("--site-url", default="", help="数据主页地址")
-    ap.add_argument("--report-url", default="", help="图文周报地址")
     ap.add_argument("--out", default=None, help="写出到文件")
     ap.add_argument("--json", action="store_true", help="附结构化数据")
     args = ap.parse_args()
@@ -470,8 +465,7 @@ def main() -> int:
         result = json.loads(path.read_text(encoding="utf-8"))
         print(f"# 取自 {path.name}", file=sys.stderr)
 
-    card = build_card(result, v2=args.v2, site_url=args.site_url,
-                      report_url=args.report_url)
+    card = build_card(result, v2=args.v2, site_url=args.site_url)
     print(card["text"])
     size = len(card["text"].encode("utf-8"))
     print(f"\n--- {size} 字节 / 上限 4096 ---", file=sys.stderr)

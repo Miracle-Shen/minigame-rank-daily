@@ -277,7 +277,7 @@ def build_wecom_markdown(data: dict, prefix: str, report_url: str = "",
     return _fit_bytes(blocks, tail)
 
 
-def build_card_markdown(data: dict, prefix: str = "", report_url: str = "",
+def build_card_markdown(data: dict, prefix: str = "",
                         v2: bool = False) -> str:
     """群消息卡片：微信前三 / 抖音前三 / 全平台 TOP1（渲染逻辑见 hotlist.py）。
 
@@ -286,13 +286,12 @@ def build_card_markdown(data: dict, prefix: str = "", report_url: str = "",
         build_wecom_markdown  周报摘要 —— 本周趋势 + 值得复刻分组，信息全、条目多
         build_card_markdown   周热榜卡片 —— 谁在榜 + 涨跌 + 抄不抄，一屏扫完
 
-    两条通道并存，命令行 `--card` 切换。
+    两条通道并存，命令行 `--card` 切换。卡片页脚只留数据主页 —— 图文周报入口已下线。
     """
     import hotlist as H  # noqa: PLC0415
 
     meta = data.get("meta") or {}
-    card = H.build_card(data, v2=v2, site_url=_site_home(meta),
-                        report_url=report_url)
+    card = H.build_card(data, v2=v2, site_url=_site_home(meta))
     text = card["text"]
     if prefix:
         head, _, rest = text.partition("\n")
@@ -427,7 +426,7 @@ def main() -> int:
     if args.card:
         try:
             # 卡片自带「游戏周热榜」标题，默认不再叠加前缀
-            content = build_card_markdown(data, args.prefix or "", url,
+            content = build_card_markdown(data, args.prefix or "",
                                           v2=(cfg.msg_type == "markdown_v2"))
         except Exception as e:  # noqa: BLE001
             # 卡片渲染失败（hotlist.py 缺失 / 报告字段不全等）→ 退回摘要。

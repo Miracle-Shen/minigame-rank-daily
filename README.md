@@ -303,7 +303,8 @@ REPORT_SITE_URL=https://rank.example.com/ python scripts/monitor/report.py --for
 python scripts/monitor/report.py --format both --site-url https://rank.example.com/
 ```
 
-群消息末尾同样会给两行链接：`[查看图文周报](…)` + `[数据主页](…)`，
+群消息末尾也会带链接：周报摘要是 `[查看图文周报](…)` + `[数据主页](…)`，
+**周热榜卡片只留 `[数据主页](…)`**（图文周报入口已在卡片上下线）。
 主页地址取自报告 `meta.site_url`，老报告没有该字段时现场推导。
 
 ### 品类口径为什么需要归一化

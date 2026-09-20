@@ -112,7 +112,7 @@ def build_content(data: dict, prefix: str, report_url: str,
     card=False → 周报摘要；card=True → 「游戏周热榜」卡片。
     """
     if card:
-        return build_card_markdown(data, prefix, report_url)
+        return build_card_markdown(data, prefix)
     return build_wecom_markdown(data, prefix, report_url)
 
 

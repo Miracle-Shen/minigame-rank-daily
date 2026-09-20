@@ -27,7 +27,7 @@
 · 羊了个羊：星球（休闲）-持平
 　覆盖 微信小游戏、抖音小游戏｜最好名次 #1；TapTap、iOS、安卓 榜内未见
 
-　本周变化：竞技 +10pp 接棒；休闲 -10pp 退坡；新晋 8 款（角色RPG 3 / 竞技 2 / 休闲 2）
+　本周变化：竞技 占比 +10 个百分点，接棒；休闲 占比 -10 个百分点，退坡；新晋 8 款（角色RPG 3 / 竞技 2 / 休闲 2）
 　保持不变：TOP10 中 5 席继续在榜
 
-[数据主页](https://miracle-shen.github.io/minigame-rank-daily/)　|　[查看图文周报](https://github.com/Miracle-Shen/minigame-rank-daily/blob/main/reports/weekly-2026-09-19.md)
+[数据主页](https://miracle-shen.github.io/minigame-rank-daily/)
