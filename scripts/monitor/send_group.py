@@ -22,7 +22,8 @@ WorkBuddy 侧的定时任务驱动，不能在 CI 里跑。
     python scripts/monitor/send_group.py --report reports/weekly-2026-09-14.json
     python scripts/monitor/send_group.py --latest --text-only   # 只发纯文本（降级通道）
 
-群会话 ID 的来源优先级：--group-id > 环境变量 WECOM_GROUP_ID。
+群会话 ID 的来源优先级：--group-id > 环境变量 WECOM_GROUP_ID / WECOM_GROUP_ID_2..5。
+多个群可重复给 --group-id，或把 ID 用逗号/分号/空白拼在一个值里，合并去重后逐条发送。
 """
 from __future__ import annotations
 
@@ -40,12 +41,34 @@ sys.path.insert(0, str(HERE))
 
 from send_wecom import (  # noqa: E402
     build_card_markdown, build_wecom_markdown, github_blob_url, latest_report,
-    load_bundle,
+    load_bundle, mask_chatid, parse_chatids,
 )
 
 CLI = "wecom-cli"
 # 群消息里不放内部 ID；这两个是「给用户看」的兜底文案
 DEFAULT_PREFIX = "微信小游戏周报"
+
+# 目标群：--group-id 可重复；环境变量 WECOM_GROUP_ID 内可用分隔符拼多个，
+# 也可另开 WECOM_GROUP_ID_2..5（与 send_wecom.py 的 WECOM_CHATID 命名保持一致）。
+EXTRA_GROUP_ENVS = ("WECOM_GROUP_ID_2", "WECOM_GROUP_ID_3",
+                    "WECOM_GROUP_ID_4", "WECOM_GROUP_ID_5")
+
+
+def collect_targets(cli_values: list[str] | None) -> list[str]:
+    """合并「命令行 + 环境变量」里的目标群，去重后保持出现顺序。"""
+    raw: list[str] = []
+    if cli_values:
+        raw.extend(cli_values)
+    for name in ("WECOM_GROUP_ID",) + EXTRA_GROUP_ENVS:
+        value = os.environ.get(name)
+        if value:
+            raw.append(value)
+    seen, out = set(), []
+    for cid in parse_chatids(",".join(raw)):
+        if cid and cid not in seen:
+            seen.add(cid)
+            out.append(cid)
+    return out
 
 EXIT_OK = 0
 EXIT_BADCONFIG = 2
@@ -121,8 +144,9 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="周报投递 · 企业微信群（机器人直发）")
     ap.add_argument("--report", default=None, help="指定 weekly-*.json（默认最新一期）")
     ap.add_argument("--latest", action="store_true", help="取 reports/ 下最新一期")
-    ap.add_argument("--group-id", default=None,
-                    help="目标群会话 ID（默认取环境变量 WECOM_GROUP_ID）")
+    ap.add_argument("--group-id", action="append", default=None,
+                    help="目标群会话 ID（可重复，或用逗号拼多个；默认取环境变量 "
+                         "WECOM_GROUP_ID / WECOM_GROUP_ID_2..5）")
     ap.add_argument("--list", action="store_true", help="列出当前可发送消息的会话")
     ap.add_argument("--dry-run", action="store_true", help="只打印内容，不发送")
     ap.add_argument("--text-only", action="store_true",
@@ -157,10 +181,13 @@ def main() -> int:
     content = build_content(data, prefix, url, card=a.card)
 
     m = data.get("meta", {})
-    title = f"{m.get('baseline_date')} ~ {m.get('week_end')}" if m.get("baseline_date") else report.stem
+    title = (f"{m.get('baseline_date')} ~ {m.get('week_end')}"
+             if m.get("baseline_date") else report.stem)
+    targets = collect_targets(a.group_id)
     print(f"报告：{report.name}（{title}）")
     print(f"样式：{'周热榜卡片' if a.card else '周报摘要'}")
     print(f"正文：{len(content.encode('utf-8'))} 字节{'，附链接 ' + url if url else ''}")
+    print(f"目标群：{len(targets)} 个{'　' + '、'.join(mask_chatid(c) for c in targets) if targets else '（未指定）'}")
 
     if a.dry_run:
         print("-" * 60)
@@ -169,20 +196,29 @@ def main() -> int:
         print("（dry-run，未发送）")
         return EXIT_OK
 
-    group_id = a.group_id or os.environ.get("WECOM_GROUP_ID", "")
-    if not group_id:
+    if not targets:
         print("没有指定目标群：用 --group-id 或环境变量 WECOM_GROUP_ID 给一个。")
         print("不知道群会话 ID 时，先跑 --list 看当前可发送的会话。")
         return EXIT_BADCONFIG
 
-    ok, detail = (send_text(group_id, content) if a.text_only
-                  else send_markdown(group_id, content))
-    if ok:
-        print(f"已推送到群（{'纯文本' if a.text_only else 'markdown'}）。")
+    # 逐条按群发送：同一份内容发 N 次，某个群失败不影响其它群，但整体返回非 0
+    failed: list[tuple[str, str]] = []
+    for i, cid in enumerate(targets, 1):
+        ok, detail = (send_text(cid, content) if a.text_only
+                      else send_markdown(cid, content))
+        tag = f"[{i}/{len(targets)}] {mask_chatid(cid)}"
+        if ok:
+            print(f"  {tag} 已推送（{'纯文本' if a.text_only else 'markdown'}"
+                  f"{'，' + str(len(content.encode('utf-8'))) + ' 字节' if not a.text_only else ''}）")
+        else:
+            print(f"  {tag} 推送失败：{detail[:300]}")
+            failed.append((cid, detail))
+
+    if not failed:
         return EXIT_OK
-    print(f"推送失败：{detail[:500]}")
     if not a.text_only:
         print("提示：markdown 通道失败时可用 --text-only 走纯文本降级通道。")
+    print(f"共 {len(failed)}/{len(targets)} 个群推送失败。")
     return EXIT_SENDFAIL
 
 

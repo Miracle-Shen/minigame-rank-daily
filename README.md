@@ -41,7 +41,9 @@
 
 ## 📢 更新记录
 
-- **2026.09.21** — 群机器人推送支持**多群投递**：`WECOM_CHATID` 内可用逗号拼多个 ID，或另开 `WECOM_CHATID_2` / `_3`（读到自动合并去重），同一份内容按 `chatid` 逐条发，某个群失败不影响其它群；`--chatid` 改为可重复。CI 侧 `weekly.yml` / `push-test.yml` 已透传 `_2` / `_3`，目标群从 1 个扩到 3 个。
+- **2026.09.21** — 「游戏周热榜」卡片三处调整：**「本周变化」改为与周报「1.3 本周新变量」同一写法**（点名新晋者 + 显著上升者，各列前 3 个、上升带位次增量）；尾注去掉「查看图文周报」，只留数据主页；品类涨退的 `+10pp` 写成「占比 +10 个百分点」（pp 是行话，业务侧会读成「涨了 10%」）。
+- **2026.09.21** — 目标群收敛为**固定 2 个**（「我和机器人们」+「web三组外网问题跟进群」）：CI 侧 Secret 为 `WECOM_CHATID` / `WECOM_CHATID_2`（多余的 `_3` 已删）；方式 B 直发同样支持多群（`WECOM_GROUP_ID` / `_2`，`--group-id` 可重复），两侧目标一致、合并去重后逐群发送。
+- **2026.09.21** — 群机器人推送支持**多群投递**：`WECOM_CHATID` 内可用逗号拼多个 ID，或另开 `WECOM_CHATID_2` / `_3`（读到自动合并去重），同一份内容按 `chatid` 逐条发，某个群失败不影响其它群；`--chatid` 改为可重复。CI 侧 `weekly.yml` / `push-test.yml` 已透传 `_2` / `_3`。
 - **2026.09.20** — 新增**「游戏周热榜」群消息卡片**（`scripts/monitor/hotlist.py`）：群里只发一屏——微信前三 / 抖音前三（· 游戏名-品类-周环比趋势 + 一行复刻建议）/ 🔥全平台 TOP1 + 一句话本周趋势 + 数据主页；`--card` 切换，周报正文不受影响。
 - **2026.09.20** — 群机器人推送支持 **`chatid` 定向投递**：机器人被加进多个群时，不再一律群发，可用 `WECOM_CHATID` / `--chatid` 锁定单个群（该字段官方文档未写，实测有效且会校验群归属）。
 - **2026.09.20** — 移除邮件投递通道，周报推送收敛为**企业微信群**单一形态（方式 A：群机器人 Webhook 跑在 CI / 方式 B：机器人直发跑在本机），投递脚本由 `send_mail.py` 收缩为 `send_wecom.py`。
@@ -354,8 +356,10 @@ python scripts/monitor/analyze.py                        # 只出指标摘要
 3. 🔥全部小游戏（TOP1）
 · 羊了个羊：星球（休闲）-持平
 　覆盖 微信小游戏、抖音小游戏｜最好名次 #1；TapTap、iOS、安卓 榜内未见
-　本周变化：竞技 +10pp 接棒；休闲 -10pp 退坡；新晋 8 款（角色RPG 3 / 竞技 2 / 休闲 2）
+　本周变化：新晋 8 款（王者舰队、腾讯欢乐斗地主、王者征途）、显著上升 5 款（向往的生活(+12)、梦幻消除战(+11)、无尽冬日(+8)）
 　保持不变：TOP10 中 5 席继续在榜
+
+[数据主页](https://miracle-shen.github.io/minigame-rank-daily/)
 ```
 
 口径与周报严格一致，只有几个地方是卡片独有的约定：
@@ -365,7 +369,7 @@ python scripts/monitor/analyze.py                        # 只出指标摘要
 | 各平台「前三」 | 该平台**全部榜并集**去重，同一款取最好名次（与「值得复刻」候选池同源） |
 | 「热度趋势」 | 本周快照 vs 基准快照（默认 7 天前）的**最好名次**变化：`↑N位` / `↓N位` / `新上榜` / `持平` |
 | 「复刻建议」 | **只给能照着做的确定动作**，取档案 `suggestions[0]`（如「保留 X 核心」「把题材换成 Y」）。档案里的「换皮即用 / 需改一处 / 练手填充」是档位标签，**不构成结论**，卡片里不出现 |
-| 「本周变化」 | 品类涨退 + **新晋产品的类型分布**（只给「新晋 8 款」这个数字没有信息量） |
+| 「本周变化」 | 与周报「1.3 本周新变量」**同一写法**：点名新晋者 + 名次上升者（各列前 3 个，`显著上升` 带位次增量）。只给「新晋 8 款」这个数字看不出是谁 |
 | 「保持不变」 | 占比没动的品类 + 头部续在榜席位数 —— 说清榜单里**没动的是哪部分** |
 | 「全部小游戏 TOP1」 | 拼 微信/抖音/TapTap/iOS/安卓 **全部平台**后，按「跨平台覆盖数 → 最好名次 → 上榜次数」排序 |
 
@@ -457,7 +461,7 @@ python scripts/monitor/send_wecom.py --latest --chatid wrkA,wrkB   # 等价写�
 ```
 
 投递是**逐条按 `chatid` 发**（不是一次请求带多个群）：同一份内容发 N 次，日志按
-`[1/3] wrkAAA…1111` 逐行回报；**某个群失败不影响其它群**，但整体以非 0 退出，
+`[1/2] wrkAAA…1111` 逐行回报；**某个群失败不影响其它群**，但整体以非 0 退出，
 方便 CI 上看出「有群没收到」。周报每周一次、每群 1 条，远低于 20 条/分钟的限制。
 
 **没给目标群时脚本拒绝发送**（这是本项目的常规状态，不是可选项）：
@@ -466,9 +470,9 @@ python scripts/monitor/send_wecom.py --latest --chatid wrkA,wrkB   # 等价写�
   加进别的群，周报就会静默漏出去，所以默认**拒绝**，而不是默认群发。
 - 输出会明确写「未指定目标群 —— 将拒绝发送」，并给出两条出路：设 `WECOM_CHATID`，
   或 `WECOM_ALLOW_BROADCAST=1` 显式放行群发（仅临时排查时用）。
-- CI 侧同一层保险：`weekly.yml` 里 `WECOM_CHATID` 为空时**跳过推送并打 warning**，
+- CI 侧同一层保险：`weekly.yml` 里 `WECOM_CHATID` / `_2` / `_3` 全为空时**跳过推送并打 warning**，
   周报照常生成提交 —— 宁可不发，也不群发。
-- 本项目当前锁定 **「我和机器人们」** 一个群（群 ID 只存在于 Secret 与本机环境，不入库）。
+- 本项目当前锁定 **2 个群**（「我和机器人们」+「web三组外网问题跟进群」，群 ID 只存在于 Secret 与本机环境，不入库）。
 
 **怎么零误伤地确认一个群 ID 是对的**：把 `content` 留空发出去 —— 接口会**先校验 `chatid`、
 再校验内容**，所以合法 ID 报 `44004 empty content`、非法 ID 报 `93006 invalid chatid`，
@@ -514,9 +518,13 @@ curl -s -X POST "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=<key>" \
 ```bash
 python scripts/monitor/send_group.py --list                  # 看当前能发消息的会话
 python scripts/monitor/send_group.py --latest --card --dry-run   # 只看卡片内容，不发送
-WECOM_GROUP_ID=<群会话ID> python scripts/monitor/send_group.py --latest --card
-WECOM_GROUP_ID=<群会话ID> python scripts/monitor/send_group.py --latest   # 改发周报摘要
+WECOM_GROUP_ID=<群1> WECOM_GROUP_ID_2=<群2> python scripts/monitor/send_group.py --latest --card
+WECOM_GROUP_ID=<群1> python scripts/monitor/send_group.py --latest   # 只发一个群 / 改发周报摘要
 ```
+
+**多群**：与方式 A 同一套规则 —— `WECOM_GROUP_ID` 内可用逗号/分号/顿号/空白拼多个 ID，
+也可另开 `WECOM_GROUP_ID_2..5`；`--group-id` 可重复给。合并去重后**逐群发送**，
+某个群失败不影响其它群，但整体以非 0 退出。本项目固定发 **2 个群**：我和机器人们 + web三组外网问题跟进群。
 
 **前置条件（关键）**：目标群必须**和机器人有过对话** —— 群里任一成员 `@机器人` 发一条消息，
 该群才会进入机器人的「最近会话」，之后才能被推送。否则接口直接拒绝：
@@ -538,12 +546,13 @@ WECOM_GROUP_ID=<群会话ID> python scripts/monitor/send_group.py --latest   # �
 | Secret | 必填 | 说明 |
 | --- | --- | --- |
 | `WECOM_WEBHOOK` | 方式 A 必填 | 群机器人 Webhook 地址 |
-| `WECOM_CHATID` | 方式 A **必填** | 目标群（本项目 = 「我和机器人们」）。缺了则跳过推送，绝不群发。群 ID 属内部标识，只放进 Secret |
+| `WECOM_CHATID` | 方式 A **必填** | 目标群 1（本项目 = 「我和机器人们」）。缺了则跳过推送，绝不群发。群 ID 属内部标识，只放进 Secret |
+| `WECOM_CHATID_2` | 方式 A **必填** | 目标群 2（本项目 = 「web三组外网问题跟进群」）。`_3`、`_4`、`_5` 也认，本项目不用 |
 | `WECOM_MSG_TYPE` | — | 默认 `markdown`，可改 `markdown_v2` |
 | `WECOM_REPORT_URL` | — | 仅用于覆盖末尾链接；不配则自动推导当期报告地址 |
 | `WECOM_ALLOW_BROADCAST` | — | 置 `1` 才允许群发全部群；默认关 |
 
-方式 B **不需要任何 Secret**：群会话 ID 从本机用环境变量 `WECOM_GROUP_ID` 传入，不入库。
+方式 B **不需要任何 Secret**：群会话 ID 从本机用环境变量 `WECOM_GROUP_ID` / `WECOM_GROUP_ID_2` 传入，不入库。
 
 **先自检再等周一**：手动触发 `Push Channel Test` 工作流（Actions → 左侧选它 → Run workflow），
 它会往群里发一条自检消息；绿勾即 CI 端到端通。
@@ -552,8 +561,8 @@ WECOM_GROUP_ID=<群会话ID> python scripts/monitor/send_group.py --latest   # �
 
 ```bash
 export WECOM_WEBHOOK=https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxx
-export WECOM_CHATID=wrk...                        # 可选：只推给这一个群
-export WECOM_CHATID_2=wrk...                      # 可选：再加一个群
+export WECOM_CHATID=wrk...                        # 目标群 1
+export WECOM_CHATID_2=wrk...                      # 目标群 2（多个群就多开一个变量）
 
 python scripts/monitor/send_wecom.py --check      # 发一条通道自检
 python scripts/monitor/send_wecom.py --dry-run    # 只打印摘要内容，不发送
