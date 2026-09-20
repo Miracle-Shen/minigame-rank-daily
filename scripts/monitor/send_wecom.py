@@ -65,13 +65,37 @@ class Config:
         self.chatid = env("WECOM_CHATID")
         self.msg_type = env("WECOM_MSG_TYPE", "markdown")
         self.report_url = env("WECOM_REPORT_URL")
+        self.allow_broadcast = env("WECOM_ALLOW_BROADCAST").lower() in (
+            "1", "true", "yes", "on")
 
     def describe(self) -> str:
+        if self.chatid:
+            scope = f"仅 {mask_chatid(self.chatid)}（已锁定目标群）"
+        elif self.allow_broadcast:
+            scope = "机器人所在的全部群（WECOM_ALLOW_BROADCAST 已放行）"
+        else:
+            scope = "未指定目标群 —— 将拒绝发送"
         return (
             f"  消息标题  {self.prefix}\n"
             f"  群机器人  {'已配置（%s）' % self.msg_type if self.webhook else '未配置'}\n"
-            f"  投递范围  {('仅 ' + mask_chatid(self.chatid)) if self.chatid else '机器人所在的全部群'}"
+            f"  投递范围  {scope}"
         )
+
+
+BROADCAST_GUARD_HINT = (
+    "未指定目标群：不带 chatid 时企业微信会把消息发给「添加过这个机器人的所有群」，"
+    "为避免漏进无关群，本脚本默认拒绝发送。\n"
+    "  定向投递：设 WECOM_CHATID=<群 ID>（CI 里用同名 Secret），或加 --chatid <群 ID>。\n"
+    "  确实要群发：设 WECOM_ALLOW_BROADCAST=1 显式放行。"
+)
+
+
+def check_scope(cfg: Config) -> bool:
+    """目标群必须明确。放行返回 True。"""
+    if cfg.chatid or cfg.allow_broadcast:
+        return True
+    print("  已拒绝发送 —— " + BROADCAST_GUARD_HINT)
+    return False
 
 
 # --------------------------------------------------------------------------
@@ -285,7 +309,7 @@ def push_wecom(cfg: Config, data: dict | None = None,
     if cfg.chatid:
         print(f"  定向投递  只发 {mask_chatid(cfg.chatid)}（已带 chatid）")
     else:
-        print("  投递范围  机器人所在的全部群（未指定 chatid）")
+        print("  投递范围  机器人所在的全部群（已显式放行群发）")
 
     if content is None:
         url = report_url or cfg.report_url
@@ -376,7 +400,7 @@ def main() -> int:
     print(f"  正文      {len(content.encode('utf-8'))} 字节"
           f"（上限 {WECOM_MAX_BYTES}，超了自动截断）")
     print(f"  报告链接  {url or '（未取到：非 git 仓库或没有 origin）'}")
-    print(f"  投递范围  {('只发 ' + mask_chatid(cfg.chatid)) if cfg.chatid else '机器人所在的全部群'}")
+    print(f"  投递范围  {('只发 ' + mask_chatid(cfg.chatid)) if cfg.chatid else '未指定目标群'}")
 
     if args.dry_run:
         print("-" * 60)
@@ -388,6 +412,9 @@ def main() -> int:
     if not cfg.webhook:
         print("\n未配置 WECOM_WEBHOOK —— 到仓库 Settings → Secrets and variables → "
               "Actions 里加一个（或本地 export 一下）。")
+        return EXIT_BADCONFIG
+
+    if not check_scope(cfg):
         return EXIT_BADCONFIG
 
     print("\n群机器人推送：")

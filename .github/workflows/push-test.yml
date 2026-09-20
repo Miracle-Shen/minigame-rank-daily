@@ -24,5 +24,7 @@ jobs:
       - name: Check delivery channel
         env:
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+          # 目标群：不带它脚本会拒绝发送（默认不许群发）。自检也进同一个群。
+          WECOM_CHATID: ${{ secrets.WECOM_CHATID }}
           WECOM_MSG_TYPE: ${{ secrets.WECOM_MSG_TYPE }}
         run: python scripts/monitor/send_wecom.py --check

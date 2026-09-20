@@ -10,6 +10,7 @@
 
     ┌ 大盘格局 ────────────────────────────────────────────┐
     │ category_structure  品类结构    在做什么品类 —— 立项方向      │
+    │ category_trend      品类走向    占比在涨还是退 —— 方向变化    │
     │ concentration       头部集中度  榜被谁占据 —— 挤不挤得进去    │
     └──────────────────────────────────────────────────┘
     ┌ 异动信号 ────────────────────────────────────────────┐
@@ -20,6 +21,9 @@
     │ head_stability      头部稳定性  TOP10 留存/换血 —— 是否固化   │
     │ waist_persistence   腰部持续性  11-20 名连续在榜 —— 长线 or 虚火│
     └──────────────────────────────────────────────────┘
+
+面向领导的两段结论（趋势 / 值得复刻）在 `report.py` 里组装，其中「值得复刻」
+的数据来自产品档案 `data/detail/` 的 `clone.verdict`，由 `clone.py` 负责关联。
 
 ## 口径与已知限制
 
@@ -63,6 +67,9 @@ WEEK_DAYS = 7      # 周环比基准
 TOP_N = 20         # 匿名数据源每榜行数上限；对比时两端都按此截断以保证口径一致
 HEAD_N = 10        # 头部 = 榜内前 N 名
 RISE_MIN = 3       # 名次上升 >= N 位才算「上升态势」
+TREND_WEEKS = 4    # 品类走向：与 N 周前对比，看占比是在涨还是在退
+TREND_MIN_SHARE = 5.0   # 趋势里至少保留占比 >= 该值的品类
+TREND_MIN_DELTA = 3.0   # 或占比变化 >= 该百分点（绝对值）
 
 
 # --------------------------------------------------------------------------
@@ -169,6 +176,64 @@ def concentration(rows: list[dict]) -> dict:
         "top_publishers": top,
         "top1_share": top[0]["share"] if top else 0.0,
         "top3_share": round(sum(t["share"] for t in top[:3]), 1),
+    }
+
+
+def snapshot_near(hist: list[tuple[str, dict]], target_date: str):
+    """取 <= target_date 的最近一份快照；历史不够早时退回最早一份。"""
+    cands = [(d, s) for d, s in hist if d <= target_date]
+    if cands:
+        return cands[-1]
+    return hist[0] if hist else (None, None)
+
+
+def category_trend(hist, plat: str, label: str, learned: dict,
+                   cur_rows: list[dict], cur_date: str,
+                   weeks: int = TREND_WEEKS) -> dict | None:
+    """品类走向：当前 L1 占比 vs 数周前同榜 L1 占比（单位：百分点）。
+
+    只给当期占比看不出趋势 —— 领导要的是「这个品类在涨还是在退」，
+    所以两端用同一套归一化词典、同样截断到 TOP_N，保证是可比的。
+    """
+    target = (datetime.strptime(cur_date, "%Y-%m-%d")
+              - timedelta(days=weeks * 7)).strftime("%Y-%m-%d")
+    base_date, base_snap = snapshot_near(hist, target)
+    if not base_date or base_date >= cur_date or not base_snap:
+        return None
+    base_rows = (get_board(base_snap, plat, label) or [])[:TOP_N]
+    if not base_rows:
+        return None
+
+    cur = category_structure(cur_rows, learned)
+    old_map = {x["name"]: x["share"]
+               for x in category_structure(base_rows, learned)["l1"]}
+
+    items, seen = [], set()
+    for x in cur["l1"]:
+        seen.add(x["name"])
+        prev = old_map.get(x["name"], 0.0)
+        items.append({
+            "name": x["name"], "count": x["count"], "share": x["share"],
+            "prev_share": prev, "delta": round(x["share"] - prev, 1),
+            "is_new": x["name"] not in old_map,
+        })
+    # 当期已消失、但此前有分量的品类（变化为负，代表赛道在退）
+    dropped = [{"name": k, "count": 0, "share": 0.0, "prev_share": v,
+                "delta": round(-v, 1), "is_new": False}
+               for k, v in old_map.items()
+               if k not in seen and v >= TREND_MIN_SHARE]
+
+    items = [i for i in items
+             if i["share"] >= TREND_MIN_SHARE
+             or abs(i["delta"]) >= TREND_MIN_DELTA]
+    items.sort(key=lambda i: (-i["delta"], -i["share"]))
+    return {
+        "baseline_date": base_date,
+        "weeks": weeks,
+        "actual_days": (datetime.strptime(cur_date, "%Y-%m-%d")
+                        - datetime.strptime(base_date, "%Y-%m-%d")).days,
+        "items": items,
+        "dropped": dropped,
     }
 
 
@@ -279,6 +344,8 @@ def board_analysis(hist, presence, plat: str, label: str, learned: dict,
         "waist_long": waist_long,
         "waist_short": waist_short,
         "category_structure": category_structure(cur_rows, learned),
+        "category_trend": category_trend(hist, plat, label, learned,
+                                         cur_rows, cur_date),
         "concentration": concentration(cur_rows),
     }
 
@@ -320,6 +387,9 @@ def analyze(daily_dir: Path = DAILY_DIR, boards=None,
             "snapshot_count": len(hist),
             "history_start": hist[0][0],
             "learned_size": len(learned),
+            "trend_weeks": TREND_WEEKS,
+            "trend_baseline_date": (primary.get("category_trend") or {}
+                                    ).get("baseline_date"),
             "primary_board": f"{PRIMARY_BOARD[1]}",
             "boards": [f"{p}/{l}" for p, l in boards],
             "data_limit_note": (

@@ -394,6 +394,16 @@ python scripts/monitor/send_wecom.py --latest --chatid wrk...     # 临时指定
 python scripts/monitor/send_wecom.py --check                      # 自检也会尊重它
 ```
 
+**没给目标群时脚本拒绝发送**（这是本项目的常规状态，不是可选项）：
+
+- 不带 `chatid` 就发，企业微信会把消息推给该机器人所在的**每一个**群。机器人一旦被同事
+  加进别的群，周报就会静默漏出去，所以默认**拒绝**，而不是默认群发。
+- 输出会明确写「未指定目标群 —— 将拒绝发送」，并给出两条出路：设 `WECOM_CHATID`，
+  或 `WECOM_ALLOW_BROADCAST=1` 显式放行群发（仅临时排查时用）。
+- CI 侧同一层保险：`weekly.yml` 里 `WECOM_CHATID` 为空时**跳过推送并打 warning**，
+  周报照常生成提交 —— 宁可不发，也不群发。
+- 本项目当前锁定 **「我和机器人们」** 一个群（群 ID 只存在于 Secret 与本机环境，不入库）。
+
 **怎么零误伤地确认一个群 ID 是对的**：把 `content` 留空发出去 —— 接口会**先校验 `chatid`、
 再校验内容**，所以合法 ID 报 `44004 empty content`、非法 ID 报 `93006 invalid chatid`，
 两种都**不会真的往群里发东西**：
@@ -410,7 +420,7 @@ curl -s -X POST "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=<key>" \
   但接口实际认它，而且校验的是「这个群真的在机器人的投递范围内」—— 把群 ID 改一个字符
   就返回 `93006 不合法的群ID`，换成真实 ID 则正常通过。属于「有字段、没文档」。
 - 不指定时会**静默**推给该机器人所在的每一个群，很容易误伤（比如把周报发进不相干的群）。
-  **机器人被加进 2 个以上群时，建议一律显式带 `chatid`。**
+  **本项目一律显式带 `chatid`**，脚本层面已默认拒绝「不带 chatid 的发送」（见上）。
 
 **已知限制（来自官方文档）**
 
@@ -460,9 +470,10 @@ WECOM_GROUP_ID=<群会话ID> python scripts/monitor/send_group.py --latest
 | Secret | 必填 | 说明 |
 | --- | --- | --- |
 | `WECOM_WEBHOOK` | 方式 A 必填 | 群机器人 Webhook 地址 |
-| `WECOM_CHATID` | — | 只投递给指定群；机器人只在 1 个群时可省。群 ID 属内部标识，只放进 Secret |
+| `WECOM_CHATID` | 方式 A **必填** | 目标群（本项目 = 「我和机器人们」）。缺了则跳过推送，绝不群发。群 ID 属内部标识，只放进 Secret |
 | `WECOM_MSG_TYPE` | — | 默认 `markdown`，可改 `markdown_v2` |
 | `WECOM_REPORT_URL` | — | 仅用于覆盖末尾链接；不配则自动推导当期报告地址 |
+| `WECOM_ALLOW_BROADCAST` | — | 置 `1` 才允许群发全部群；默认关 |
 
 方式 B **不需要任何 Secret**：群会话 ID 从本机用环境变量 `WECOM_GROUP_ID` 传入，不入库。
 
@@ -480,8 +491,8 @@ python scripts/monitor/send_wecom.py --dry-run    # 只打印摘要内容，不�
 python scripts/monitor/send_wecom.py --latest     # 推最新一期
 ```
 
-`--dry-run` 和 `--check` 开头都会回显「投递范围」——写的是「机器人所在的全部群」还是
-「只发 wrk…xxxx」，一眼能确认有没有带上 `chatid`。
+`--dry-run` 和 `--check` 开头都会回显「投递范围」——写的是「仅 wrk…xxxx（已锁定目标群）」
+还是「未指定目标群 —— 将拒绝发送」，一眼能确认目标群有没有生效。
 
 消息正文按 **4096 字节**上限自动截断并保住尾注；渲染用空行分段 + 引用块 + `<font color>`
 三色，方式 A / B 同一套文案（同出 `build_wecom_markdown`）。

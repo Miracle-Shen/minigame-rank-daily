@@ -69,13 +69,18 @@ jobs:
         # 没配则跳过（只打 warning，不报错）——报告照常生成并提交。
         env:
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
-          # 机器人若被加进多个群，不带 chatid 会群发全部群；用 Secret 锁定目标群。
+          # 目标群：本项目只发「我和机器人们」这一个群。
+          # 机器人若被同事加进别的群，不带 chatid 会群发全部群 —— 所以这里是必填。
           WECOM_CHATID: ${{ secrets.WECOM_CHATID }}
           WECOM_MSG_TYPE: ${{ secrets.WECOM_MSG_TYPE }}
           WECOM_REPORT_URL: ${{ secrets.WECOM_REPORT_URL }}
         run: |
           if [ -z "$WECOM_WEBHOOK" ]; then
             echo "::warning::未配置 WECOM_WEBHOOK，跳过推送（周报已生成并提交，不受影响）。"
+            exit 0
+          fi
+          if [ -z "$WECOM_CHATID" ]; then
+            echo "::warning::未配置 WECOM_CHATID（目标群），跳过推送以免群发到全部群。周报已生成并提交，不受影响。"
             exit 0
           fi
           python scripts/monitor/send_wecom.py --latest
