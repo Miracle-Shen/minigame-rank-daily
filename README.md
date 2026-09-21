@@ -214,7 +214,40 @@ base 库可以从 `data/daily/*.json` 完整重建（`base.py:rebuild_from_daily
 
 口径约束：**通用口径**，不绑定具体业务线，写具体产品时用「若自有产品线含 XX 品类」条件句。
 
-### 日常增量流程（幂等，已有档案自动跳过）
+### 一键补档（推荐入口）
+
+新上榜的游戏没有档案时，跑这一条就够：
+
+```bash
+python scripts/detail/refill.py              # 刷新工单 -> 抓素材 -> 切批（-> 就绪则合并+校验）
+```
+
+第 4 步「生成档案内容」要现读规范、现做调研，没有脚本可代替，所以是**两段式**：
+
+| 段 | 谁做 | 命令 | 退出码 |
+| --- | --- | --- | --- |
+| 1 | 脚本 | `python scripts/detail/refill.py` | **3** = 在等调研产物（预期，不是报错） |
+| 2 | 子智能体 | 按脚本打印的派单说明，各读 `RESEARCH_SPEC.md` + `_batch_N_input.json`，写 `batch_N.json` | — |
+| 3 | 脚本 | **再跑一次同一条命令**（或 `--finish`） | 0 = 完成 |
+
+第二段再跑同一条命令即可：脚本会先刷新工单（必经），然后发现上次的批次产物已齐，
+**直接接力到合并，不会重新切一批**（重切会因编号 +1 把刚写好的产物晾在一边）。
+
+```bash
+python scripts/detail/refill.py --status         # 只看缺口，不动任何文件
+python scripts/detail/refill.py --scope all      # 连抖音/iOS/安卓/TapTap 的缺口一起补
+python scripts/detail/refill.py --names "抓大鹅,躺平发育"
+python scripts/detail/refill.py --check-targets  # 上次备的目标落库了没
+```
+
+- **默认 `--scope wx`**：只补周报口径「微信三榜 TOP20 并集」的缺口，不多花调研成本。
+- **刷新工单是必经第一步**，没有开关可以跳过：`_worklist.json` 是快照，不刷新就会按
+  上一次的名单切批（曾因此在 09-21 对不上当天新上榜的 3 款）。
+- 批次编号会**续着已有 `batch_N.json` 的最大编号 + 1** 走（`make_batches.py --batch-start`），
+  所以增量补档不会盖掉上一轮的产物。
+- 本次备了谁记在 `data/detail/_refill_state.json`（本机中间产物，已 gitignore）。
+
+### 手动分步（等价，排错时用）
 
 ```bash
 python scripts/detail/build_worklist.py      # 对齐当日榜单 -> _worklist.json
@@ -246,6 +279,13 @@ python scripts/detail/verify.py --require-biz         # 硬门禁：要求全部
 - **`slug()` 不能用 `[^0-9A-Za-z\u4e00-\u9fff]`**：会把日文假名剥掉（`ワクワク電車ライフ` → `電車`）。
 - **索引的 `slug` 必须取磁盘真实文件名**，不能拿当前规则重算 —— 历史文件命名规则不同，重算会让站点 404。
 - **`_staging/` 里下划线开头的文件是中间产物**，必须跳过，否则会把 `_batch_N_input.json` 当调研成果合并进去。
+- **「索引里有键」不等于「已建档」**：`merge_details.py` 会给工单里待建档的游戏也建索引行
+  （`collected=false`、不写磁盘文件），用来在站点上显示「未建档」。判断某款有没有档案，
+  必须查 `data/detail/<slug>.json` **是否真在磁盘上** —— `refill.py` 的 `archived_keys()` 就是这个口径。
+- **`verify.py` 的「文件缺失」在分批补档时会等于「还没补的数量」**：同样那批待建档游戏，
+  既算文件缺失、又算覆盖缺失。所以按口径分批补时，这两个数只要不超过「还没补的数量」
+  就是预期内的，不能当故障；`refill.py` 的 `classify_verify()` 负责做这个判读。
+  schema / 8 维 / 内容为空的检查只跑已存在的文件，那几项非零才是真问题。
 - 改了 `site/` 下的 js 必须 **bump `game.html` 里的 `?v=` 版本号**，否则浏览器吃缓存看到旧 JS。
 
 <a name="weekly"></a>

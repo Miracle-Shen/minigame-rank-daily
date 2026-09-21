@@ -19,3 +19,7 @@ _pages_preview/
 # ci_scrape.py too, but ignore here as a second line of defense.
 data/daily/rank_*.xlsx
 data/daily/rank_*.json
+
+# refill.py（一键补档）的本地运行状态：记录上次备了哪几批、目标是谁。
+# 纯本机中间产物，不进仓库 —— daily.yml 会 `git add data/`，不 ignore 会把它带上去。
+data/detail/_refill_state.json

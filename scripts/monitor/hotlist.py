@@ -34,7 +34,6 @@ import argparse
 import json
 import re
 import sys
-from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -52,6 +51,8 @@ LATEST_PATH = ROOT / "data" / "latest.json"
 # 卡片里各取前三的平台（顺序即展示顺序）
 CARD_PLATFORMS = [("wx", "微信小游戏"), ("douyin", "抖音小游戏")]
 PICK_N = 3
+# 「本周变化」里点名几个：与周报「1.3 本周新变量」一致，只列前 3 个
+NAME_N = 3
 
 # 「全部平台最热」的候选范围：跨平台全覆盖，越多人抢越热
 ALL_PLATFORMS = ["wx", "douyin", "taptap", "ios", "android"]
@@ -278,34 +279,41 @@ def all_platform_top(snap: dict, learned: dict, mapdata: dict,
     return out
 
 
+def _name_list(items: list[dict], with_delta: bool = False) -> str:
+    """「王者舰队、奔奔王国、保卫向日葵」；上升的带名次增量「梦幻消除战(+9)」。
+
+    只列前 NAME_N 个（与周报「1.3 本周新变量」同一写法），款数由前面的
+    「新晋 4 款」交代，所以不额外写「等」—— 3 个名字 + 4 款这个差本身是信息。
+    """
+    out = []
+    for x in items[:NAME_N]:
+        if with_delta:
+            out.append(f"{x['name']}(+{int(x['delta'])})")
+        else:
+            out.append(x["name"])
+    return "、".join(out)
+
+
 def week_lines(result: dict) -> tuple[str, str]:
     """（本周变化, 保持不变）—— 两行都得说清「具体是什么」。
 
-    变化行 = 品类涨退 + **新晋游戏的类型分布**（领导要知道新冒出来的是哪类玩法，
-    只给「新晋 8 款」这个数字没有信息量）。
+    变化行 = 与周报「1.3 本周新变量」同一写法：**点名**新晋者 + 名次上升者
+    （早先写的是品类涨退 + 新晋的类型分布，用户要求改回点名 ——「新晋 4 款（竞技 2 /
+    休闲 2）」看不出是谁，点名才拿得走）。
     未变行 = 占比没动的品类 + 头部续在榜席位数（榜单里没动的到底是哪部分）。
     """
     p = result.get("primary") or {}
     t = (p.get("category_trend") or {}).get("items") or []
 
-    # ---- 变化 ----
-    change = []
-    if t:
-        up = t[0]
-        down = min(t, key=lambda i: i["delta"])
-        # 说「占比 +10 个百分点」而不是「+10pp」：pp = percentage point（百分点），
-        # 指占比本身挪了 10 个百分点（10% → 20%），不是「涨了 10%」。业务侧不看这个缩写。
-        if up["delta"] > 0:
-            change.append(f"{up['name']} 占比 {up['delta']:+.0f} 个百分点，接棒")
-        if down["delta"] < 0:
-            change.append(f"{down['name']} 占比 {down['delta']:+.0f} 个百分点，退坡")
+    # ---- 变化：新晋（点名）+ 显著上升（点名 + 位次） ----
     ne = p.get("new_entrants") or []
+    ri = p.get("risers") or []
+    segs = []
     if ne:
-        c = Counter(x.get("l1") or "其他" for x in ne)
-        top = " / ".join(f"{k} {v}" for k, v in c.most_common(3))
-        change.append(f"新晋 {len(ne)} 款（{top}）")
-    else:
-        change.append("无新晋产品")
+        segs.append(f"新晋 {len(ne)} 款（{_name_list(ne)}）")
+    if ri:
+        segs.append(f"显著上升 {len(ri)} 款（{_name_list(ri, with_delta=True)}）")
+    change = ["、".join(segs)] if segs else ["无新晋、无显著上升"]
 
     # ---- 未变 ----
     steady = []

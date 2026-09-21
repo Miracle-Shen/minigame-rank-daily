@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-15T21:50:28+08:00",
+ "updated_at": "2026-09-21T01:10:40+08:00",
  "games": {
   "赵云与阿斗": {
    "matched": true,
@@ -5028,6 +5028,651 @@
   "終焉の楔:アポカリプス・ノヴァ": {
    "matched": false,
    "fetched_at": "2026-09-15T21:50:27+08:00"
+  },
+  "万妖图录卷": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:09:07+08:00"
+  },
+  "崩坏:因缘精灵": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:09:10+08:00"
+  },
+  "无畏三国": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:09:13+08:00"
+  },
+  "弹壳战机!": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "弹壳战机！",
+   "country": "cn",
+   "track_id": 6789496517,
+   "seller": "Beijing Xingqiu Technology Co., Ltd.",
+   "genres": [
+    "游戏",
+    "休闲",
+    "冒险",
+    "娱乐"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/9e/2f/819e2fab-96e2-46ab-082e-6bafd9e1218e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/96/3d/3a963dc0-621d-cc03-db70-91c852e711e4/1242x2688_U5546_U5e97_U56fe1__U4e2d_U6587.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/36/be/6636be52-baba-99f9-f67a-a7748a80dd80/1242x2688_U5546_U5e97_U56fe4__U4e2d_U6587.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/31/3d/53313db7-f634-c661-777a-43700b355992/1242x2688_U5546_U5e97_U56fe3__U4e2d_U6587.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/c5/3c/b9c53cc6-82e9-bccd-0b61-ae382891fde3/1242x2688_U5546_U5e97_U56fe2__U4e2d_U6587.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/5d/fa/c35dfa20-019a-2076-a43c-eefd98a40d95/1242x2688_U5546_U5e97_U56fe6__U4e2d_U6587.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/93/a8/be/93a8be4e-24c4-9d7f-40d7-61d1b7b79dc0/1242x2688_U5546_U5e97_U56fe5__U4e2d_U6587.png/626x1112bb.jpg"
+   ],
+   "description": "【弹壳特攻队团队最新力作】\n由《弹壳特攻队》团队倾力打造，全新飞行射击冒险来袭！融合肉鸽闯关、随机技能与华丽弹幕，每一次起飞都将开启一段截然不同的空战旅程，带来轻松上手又充满惊喜的爽快体验。\n\n【肉鸽飞行 · 每局都是新冒险】\n随机关卡、随机技能、随机搭配，每一次起飞都能解锁不同流派，带来充满变化的空战闯关体验。\n\n【华丽弹幕 · 沉浸式空战冒险】\n穿梭浩瀚星域，穿行云海长空，在漫天华丽弹幕中极限闪避、精准出击，享受沉浸式空战冒险。\n\n【经典竖版射击 · 爽快空战强势回归】\n回归纯粹竖版射击手感，穿梭弹幕火海，重拾热血空战的畅快节奏。\n\n【轻松单手 · 碎片时间随时开局】\n极简操作一指上手，单手即可轻松掌控，随时随地都能来一局轻快畅玩的射击体验。\n\n【清新画风登场 · 王牌飞行员集结】\n清爽明快的美术风格，搭配全员王牌飞行员阵容，开启轻松又热血的天空冒险！",
+   "release_notes": "单手起飞，爽快割草！",
+   "file_size_bytes": 430125056,
+   "min_os": "15.0",
+   "version": "1.1.5",
+   "release_date": "2026-09-20",
+   "rating": 0,
+   "rating_count": 0,
+   "price": "免费",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/cn/app/%E5%BC%B9%E5%A3%B3%E6%88%98%E6%9C%BA/id6789496517?uo=4",
+   "fetched_at": "2026-09-21T01:09:15+08:00"
+  },
+  "Lumi Master(るぅみマスター)": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:09:18+08:00"
+  },
+  "Pocket Sort: Coin Merge Puzzle": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "Pocket Sort: Coin Merge Puzzle",
+   "country": "us",
+   "track_id": 6755425214,
+   "seller": "SayGames LTD",
+   "genres": [
+    "Games",
+    "Entertainment",
+    "Casual",
+    "Puzzle"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/6f/7b/fb6f7bf1-770c-1717-f125-64b47f57679d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/27/3d/2a273dbe-4dc2-1a3e-3999-e71970e2b1a4/PSR_1242x2688_AppStore_01.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/e1/4e/7ae14e43-6f97-7b20-b2d7-bad0de63eecb/PSR_1242x2688_AppStore_02.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/95/3e/cc953e57-23c2-2b72-c5df-37788266564f/PSR_1242x2688_AppStore_03.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/c6/b9/6fc6b973-df23-2935-ec3c-aea539223a01/PSR_1242x2688_AppStore_04.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/f3/ea/0ff3eae5-682d-64ee-90ac-e45bbe81545a/PSR_1242x2688_AppStore_05.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/53/6e/f5536ec4-fe1d-f92e-c34a-b49dfe22ac2c/PSR_1242x2688_AppStore_06.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/22/60/8122606e-ad95-126d-3bc3-91d144e40059/PSR_2048x2732_AppStore_01.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/5e/95/365e9596-e685-9791-283c-792387dd72e3/PSR_2048x2732_AppStore_02.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/8d/35/198d3539-5fab-59c2-66b9-a38209105cf6/PSR_2048x2732_AppStore_03.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/7f/7b/537f7bf1-ace9-7d21-b3f2-77cca238f807/PSR_2048x2732_AppStore_04.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/ff/75/c0ff7562-2937-d1e5-78c8-1bf5a4edeb55/PSR_2048x2732_AppStore_05.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/d1/16/bbd1167f-005f-dbc7-6eeb-6906f3bc63f8/PSR_2048x2732_AppStore_06.png/626x1112bb.jpg"
+   ],
+   "description": "► SORT YOUR WAY TO HAPPINESS\n\nMaster mergers, ready those fingers and get to matching in 3…2…1! This fun sorting puzzle features colorful coins that need to be matched up in their slots and then merged together to clear the playing field, making way for more. Bright colors, simple graphics, and lots of boosters ensure that your brain can focus on what it does best: noticing patterns and finding unique ways to shuffle everything around in order to win.\n \n► MASTER THE MATCH\n\nSimple in theory yet difficult in practice, players young and old will enjoy racking their brains for the best possible way to merge the different color coins and keep progressing. With no timer or pressure to trip you up, you’ll be able to sort, match, and merge the coins while also relaxing.\n\nFun features:\n\n● Tons of coin types – In addition to your standard rainbow of coins to match, as you progress there will be all manner or fun new coins to keep things fresh. Hidden coins, linked coins, ice coins, and more await, so keep your eyes peeled!\n\n● Easy on the eye – As colorful as this sorting puzzle is, the whole point is to help you chill so we’ve done away with any crazy graphics or flashing lights. This also means the game is great to play wherever you find yourself, solo or perhaps with a little helper.\n\n● Relaxing to play – No countdown clock here! Take as much time on each puzzle as you need, and move the coins around as much as you want without being penalized. We believe in having fun, not getting stressed.\n\n● Train your brain – Sorting and matching puzzles are a great way to train your brain to recognize patterns and colors, and to work on your logic and thinking skills as you test out different ways to group coins. And it doesn’t stop there, the skills you hone in the game can be applied to other stuff in real life.\n\n● Keep growing – As you progress through the puzzle levels, more colors and coin types will be added, and things will get steadily more difficult. But no fear, even as you’re pushed to get better we’ve added plenty of fun boosters to keep it chill.\n\n► GO ON A COLORFUL ADVENTURE\n\nReady to start your merge adventure? This relaxing game keeps your mind sharp while also providing a fun escape as you enjoy sorting and matching, so hop on in to become the master sorter and put all this stuff where it needs to be!\n\nDownload Pocket Sort: Coin Puzzle today to see how good you are at locating different colored coins and slotting them in together.\n\nPrivacy Policy: https://say.games/privacy-policy\nTerms of Use: https://say.games/terms-of-use",
+   "release_notes": "- Improved performance\n- Enjoy the game",
+   "file_size_bytes": 278021120,
+   "min_os": "15.0",
+   "version": "1.14.0",
+   "release_date": "2025-11-26",
+   "rating": 4.68989,
+   "rating_count": 31847,
+   "price": "Free",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/us/app/pocket-sort-coin-merge-puzzle/id6755425214?uo=4",
+   "fetched_at": "2026-09-21T01:09:22+08:00"
+  },
+  "爆笑梗物语": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:09:25+08:00"
+  },
+  "次神光之觉醒": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:09:28+08:00"
+  },
+  "怀旧年代拼图": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:09:32+08:00"
+  },
+  "速度与极限": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:09:35+08:00"
+  },
+  "模拟城市:我是市长": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "模拟城市：我是市长",
+   "country": "cn",
+   "track_id": 1174766830,
+   "seller": "Beijing Bewinner Communications Co., Ltd.",
+   "genres": [
+    "游戏",
+    "策略",
+    "模拟",
+    "社交"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/3f/6f/743f6fc0-4932-bd9c-ed03-dc71252f56da/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bb/2e/0d/bb2e0dcf-4eb6-61e1-1499-e394a4a6de7b/1.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/a8/af/f6a8af99-a529-4936-9748-f4d4ce16b7e8/2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/74/93/d57493a1-3ee3-c957-0cb0-c2053185cec6/3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/52/a5/9d52a5de-ae4a-0ef7-b204-3cb2cbc4a40f/4.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/37/2f/4b372f77-8ea3-94eb-602e-60d48a56a376/5.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/75/00/0e7500cd-e8de-dafc-3a28-994e0435cf4c/38f2f5a3-2a47-4411-bc3c-549ef3eedfd9_1.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/1d/ad/9d1dad32-340d-da7e-2962-464353d9810a/0d9ae2ac-899e-4a05-890b-62543f8e0d53_2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/dd/2f/1ddd2f79-efa8-53cd-9092-ad7d020535fc/3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/37/21/ea372164-ca9a-b0f6-8787-5ddfb15fad64/4aefe676-aa92-4394-a0b6-bc294071dd56_4.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/1a/ab/6a1aab6f-b0cc-040e-d2ca-c1b882da44a2/59f43113-a907-491e-aa51-5ea4f362314a_5.png/626x1112bb.jpg"
+   ],
+   "description": "享誉全球的经典3D模拟经营手游，倾情打造全新“开元古都”国风资料片！\n\n由EA开发、蜂巢游戏独家国内发行的《模拟城市：我是市长》，即将迎来市民入驻啦！一起建设高楼林立的繁华都市，为市民们提供舒适惬意的生活环境吧！ \n\n盛大推出全新国风资料片\n您可以在古色古香的“开元古都”区域，建设您专属的中国风城市，其中不仅有精致的国风住宅、工坊和商店，更有精心设计的古风道具和场景，带您领略人间烟火气，漫步于金碧辉煌的宫殿、古韵悠然的亭台楼阁、巧夺天工的中式园林，在繁华市井中，感受昼夜轮换间的古都风情。\n\n城市规划尽在掌握\n《模拟城市：我是市长》拥有众多形态各异的建筑，市长们尽可发挥想象，建设一座独一无二的梦想城市。除此之外，您还可以利用游戏中的树木、湖泊等打造美丽的花园景点，或是购买独特地标，吸引市民们竞相游览。在这座城市里，文化融合之美将全数呈现！ \n\n城市资源连绵不绝 \n建设一座梦幻城市的过程中，必将面临着前所未有的考验。当您的住宅升级停滞之时，别忘记环顾城市四周，寻找工厂、商店、港口、机场等建筑设施，通过生产、运输等途径获取建设城市的道具资源！\n\n城市中的精彩远不至此，市长们如在探索过程中有所疑问，就请尽快联系市长秘书答疑解惑吧。",
+   "release_notes": "全新精彩内容\n火车铁路大变革来临！车站系统全面迭代，多种全新车厢同步上线，打造前所未有的火车运营体验。\n墨韵居现加入限时豪华套餐礼包。\n建筑盲盒惊喜连连，翠茸草庐、古木栖屋等限时开放抽取。\n\n市长通行证\n星河探梦新赛季开启，冲天揽月、筑梦苍穹。\n参与活动可获得多种增益效果，加快城市发展。\n使用市长通行证解锁超高价值奖励，快来构建专属于您的星辰大海！\n\n全新丹凤密卷\n开元古都全新密卷震撼来袭，完成任务即可获得终极大奖！\n使用进阶密卷解锁超高价值奖励，领取密卷专属建筑！\n\n城市设计挑战\n搭建微型城市，实现关于城市的一切梦想。\n参与精彩主题、积极提交设计，获得超赞奖励！\n\n游戏钜惠\n参与绿钞基金、市长赏金、单笔充值、绿钞链动等活动，助力城市建设！\n多种累充累消回馈活动，解锁超多风格建筑。\n多种限时特惠礼包，包含高价值道具及珍稀建筑。\n限时绿钞活动额外返利，建设您的多彩城市。\n\n感谢您的支持，祝您游戏愉快！",
+   "file_size_bytes": 528102400,
+   "min_os": "13.0",
+   "version": "2.3",
+   "release_date": "2017-02-20",
+   "rating": 3.45997,
+   "rating_count": 127999,
+   "price": "免费",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/cn/app/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%82-%E6%88%91%E6%98%AF%E5%B8%82%E9%95%BF/id1174766830?uo=4",
+   "fetched_at": "2026-09-21T01:09:37+08:00"
+  },
+  "给我一把刀": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:09:40+08:00"
+  },
+  "炮台一发入魂": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:09:43+08:00"
+  },
+  "烽火望长安": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "烽火望长安",
+   "country": "cn",
+   "track_id": 6755034452,
+   "seller": "Yichun Ailetongtec Technology Co., Ltd.",
+   "genres": [
+    "游戏",
+    "策略",
+    "卡牌"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/a6/3a/69a63a95-15f7-ee25-8430-3b65abc6dccc/AppIcon-1x_U007epad-0-11-0-85-220-0.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/c9/7a/82c97a60-e8c9-f087-6fa2-310d24afb6f9/0.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/b7/1f/d4b71f18-fca0-41b6-d45e-37297c844298/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/fa/63/aefa639a-78d4-c6f2-d024-62c39d6b3988/2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/be/4a/18be4a82-8738-698b-956e-085fbd22ac23/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/3c/7e/6a3c7ee3-a04f-9acb-e32a-2fd6c8fcff99/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/98/ff/c6/98ffc68d-1641-48a0-a44c-c5a25030c29f/0.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/41/b9/d641b92e-5c1d-f382-fc3b-fad9d1e6e42e/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/02/8b/67028b61-2ae9-7bce-25cc-6b28211904cb/2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/f1/89/3ff189e8-bf8d-11c4-33f3-2a7ed74a3eb2/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/34/35/d83435c0-f2ef-5213-af95-572426deda48/4.jpg/626x1112bb.jpg"
+   ],
+   "description": "“华夏论英雄”，论的是胸怀天下的豪杰；“奇谋定天下”，定的是靠谋略赢得的万里江山。 \n在《烽火望长安》里，你不再是一个历史的旁观者，而是多朝代的亲历者、创造者，从运筹帷幄到决胜千里。\n摒弃了传统重度策略游戏的框架，游戏以 “轻策略” 为设计理念，降低了操作的门槛，让您能更快速地上手并沉浸于历史的洪流之中！即刻加入，加入这场跨越五千年的智谋对决，在华夏的星空下，以奇谋铸就你的英雄之名。\n\n【横跨历史】\n游戏彻底打破了单一朝代的局限，颠覆性的构建了一个动态演进的多朝代历史长卷。你将不再置身于某个固定的朝代，而是能自由穿梭于华夏五千年的壮阔史诗：亲历秦汉的崛起与统一，感受大帝国的风范、投身三国鼎立的智谋对决，游走于敌友之间的战略周旋；见证大唐的万国来朝，领略其无与伦比的繁华与开放。\n\n【名将现世】\n游戏汇聚了华夏五千年历史的名臣武将。您可以招募并指挥那些耳熟能详的传奇人物：从兵仙韩信到抗倭名将戚继光，从铁血霸王项羽到风尘三侠红拂女，还有沉鱼落雁的西施、王昭君，貂蝉、杨玉环，更有流芳百世的名医扁鹊、华佗、张仲景。游戏以名将真实的背景故事创造出了一套独特技能与战略定位的核心玩法，你可以根据自己的需求，自由搭配不同时代的英雄，组建独一无二的梦幻阵容。\n\n【奇谋妙计】\n游戏拥有兵刃、谋略、辅助和治疗四大战法。一个强大的队伍，需要合理搭配这四类战法，形成【输出+控制+治疗】的黄金组合。你只需要根据武将的特性、兵种克制和敌方阵容，灵活拆解与搭配战法，进而构建出适应不同战场环境的“奇谋妙计”。\n\n【霸业终成】\n游戏主打轻度休闲，卸下重肝枷锁！在降低了策略游戏上手门槛和操作负担的同时，游戏保留了核心的策略博弈乐趣。你可以在任何碎片化的时间里轻松体验运筹帷幄的快感！无需铺路打地、无强制攻城，更无建筑倒计时催命——指尖轻点，轻松探索新的区域，经营自己的领地，纵横天下攻打城池、成就千秋霸业！",
+   "release_notes": "1.修复关卡进度榜进度回退问题，榜单以历史最高进度为准；修复评星榜星级不显示的问题。\n2.调整S2剧情队伍强度：优化范增、刘邦技能效果及刘邦队战法配置。\n3.修复完成订单任务后未正确跳转至委托-订单界面的问题。",
+   "file_size_bytes": 432131072,
+   "min_os": "14.0",
+   "version": "2.5.11",
+   "release_date": "2026-09-20",
+   "rating": 0,
+   "rating_count": 0,
+   "price": "免费",
+   "advisory": "12+",
+   "url": "https://apps.apple.com/cn/app/%E7%83%BD%E7%81%AB%E6%9C%9B%E9%95%BF%E5%AE%89/id6755034452?uo=4",
+   "fetched_at": "2026-09-21T01:09:45+08:00"
+  },
+  "驾驶我最行": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:09:48+08:00"
+  },
+  "Fortnite": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "Fortnite",
+   "country": "us",
+   "track_id": 6483539426,
+   "seller": "Epic Games Sweden AB",
+   "genres": [
+    "Games",
+    "Adventure",
+    "Entertainment",
+    "Action"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/1d/74/a01d74d6-5975-c315-7db7-faa54a254b28/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/a7/e3/bda7e31a-7341-2cf8-d54f-880aec955620/EN_FNBR_42-00_C7S4_Shot_1_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/f2/a3/2af2a36b-16e8-6977-3391-9a30364932e7/EN_FNBR_42-00_C7S4_Shot_2_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/ea/e9/2deae962-f00f-5d8d-2bfe-e645dcc4616c/EN_FNBR_42-00_C7S4_Shot_3_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/27/16/c12716b1-67cd-f26b-2bfa-b96d652f528b/EN_FNBR_42-00_C7S4_Shot_5_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/fa/b9/cafab964-5d40-6afb-2c46-54da421a2d68/EN_FNBR_42-00_C7S4_Shot_4_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/af/4a/a3af4a93-cfbd-551e-4692-17dfba9c6f6a/EN_FNBR_42-00_C7S4_Shot_1_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/c4/fd/b1c4fdcc-f8ec-c6b8-3a2b-08a33db79da8/EN_FNBR_42-00_C7S4_Shot_2_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/95/96/c5959649-a0bd-0358-1399-5785b36c4d80/EN_FNBR_42-00_C7S4_Shot_3_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/11/dc/7d/11dc7d3d-2054-43f9-26a2-bb298c9be62d/EN_FNBR_42-00_C7S4_Shot_5_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/32/1d/eb321d2f-833f-0f2f-4f93-f543541268e7/EN_FNBR_42-00_C7S4_Shot_4_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg"
+   ],
+   "description": "Play and battle with friends in Fortnite. Be the last player standing in Battle Royale, Zero Build, Blitz and OG, carry your squad to victory in fast-paced Reload, build your own adventures in LEGO® Fortnite, or headline a concert in Fortnite Festival — it's all here.\n\nPlay thousands of free developer-made islands with your friends, including tycoons, deathruns, zombie survival, and more.\n\nDISCLAIMER:\nFortnite can be played on iPhone 11 and newer, iPhone XS and newer, iPhone 12 Mini and newer, iPhone SE 3 and newer, iPad Pro 10.5\" and newer, iPad Air 4th Gen and newer, iPad 10th Gen and newer, iPad Mini 6th Gen and newer.",
+   "release_notes": "The Worlds of KINGDOM HEARTS Come to Fortnite\nCall down new KINGDOM HEARTS Overrides, wield the new Kingdom Key melee weapon, and fight the darkness with new Sora, Riku, Kairi, and Roxas Outfits!",
+   "file_size_bytes": 2304700416,
+   "min_os": "17.0",
+   "version": "42.20",
+   "release_date": "2025-05-20",
+   "rating": 4.58465,
+   "rating_count": 342120,
+   "price": "Free",
+   "advisory": "12+",
+   "url": "https://apps.apple.com/us/app/fortnite/id6483539426?uo=4",
+   "fetched_at": "2026-09-21T01:09:51+08:00"
+  },
+  "渔力全开": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:09:54+08:00"
+  },
+  "我的伐木人生": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:09:57+08:00"
+  },
+  "Dream Road: Online": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "Dream Road: Online",
+   "country": "cn",
+   "track_id": 6741928115,
+   "seller": "Bellum Games LLC",
+   "genres": [
+    "游戏",
+    "模拟",
+    "竞速"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/a4/56/e6a456f0-7cbc-cfbb-c9af-235cb097662c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/30/b8/a130b8d2-8fc8-0bdd-b4e3-1a519f33718b/Gameplay_Zh.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/45/4e/5e/454e5e7b-6ced-b591-8982-b0a26a8e8bd0/Graphics_Zh.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/1a/1a/9d1a1a80-30ff-43d8-fff6-04b7bb8e2dd5/Friends_Zh.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/af/92/96/af92960f-2062-600f-3854-b561c3729417/Rain_Zh.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/03/34/550334bc-796a-044f-56be-a774fa660189/Freeroam_Zh.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/f9/bb/c9f9bb7f-ca6a-9c01-c9a2-b417737a257f/No_hesi_Zh.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/ae/93/50ae9333-d7bb-819d-f062-730eff345c27/Tune_Zh.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/33/75/2e3375fb-c71e-dae3-8768-47499e84d842/Rain_close_En.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/dc/74/2ddc7482-1f4e-8ce3-f924-1d0982bdd648/Gameplay_Zh.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/ca/ae/dacaae7d-191f-c96f-6e74-3a7c67fa77b4/Graphics_Zh.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/db/75/17db752e-1ab0-7f30-0af9-41adb796e092/Friends_Zh.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/2b/86/ed2b8632-24c2-0e60-6c41-b8b24d4c6a0e/Rain_Zh.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/37/45/363745cd-8a59-e305-b264-0ac88b6dfc05/Freeroam_Zh.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6b/55/09/6b550958-fba9-890f-b861-e6d19bc4b0a8/No_hesi_Zh.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/a5/95/d2a595d3-8dce-9a81-0c57-a29a471e3b40/Tune_Zh.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/04/c0/6604c012-2bea-a581-3494-fac266444285/Rain_close_En.png/626x1112bb.jpg"
+   ],
+   "description": "在《Dream Road：Online》游戏中，你将沉浸在一个超写实的世界中，体验真正的街头赛车手的感觉，尽享自由与肾上腺素飙升的快感。与好友一起在城市街道和高速公路上竞速，参加车友聚会，探索开放世界。购买你的梦想座驾，开启穿越城市的惊险冒险。\n\n现代化的画面和逼真的引擎声将让你完全沉浸在竞速氛围中，并体验精准的操控感。游戏中既有反映汽车工业最新发展的现代车型，也有能带你重温汽车制造黄金时代的经典车型。\n\n该游戏的一大亮点是其多人游戏模式，不仅支持单人竞技，还能与好友展开激动人心的竞速对决，增添了竞争与刺激的元素。\n\n《Dream Road：Online》是一款真实感十足的赛车模拟游戏，同时支持单人模式和实时多人模式。你可以对爱车进行全面定制，从外观改装到悬挂系统微调，打造出最适合竞速和漂移的完美座驾。",
+   "release_notes": "- 修复错误\n- 每日任务",
+   "file_size_bytes": 828173312,
+   "min_os": "15.0",
+   "version": "1.4.3",
+   "release_date": "2025-02-19",
+   "rating": 4.30464,
+   "rating_count": 1615,
+   "price": "免费",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/cn/app/dream-road-online/id6741928115?uo=4",
+   "fetched_at": "2026-09-21T01:09:59+08:00"
+  },
+  "CarLoop": {
+   "matched": true,
+   "match_score": 0.926,
+   "match_name": "Carloop360",
+   "country": "us",
+   "track_id": 6762803591,
+   "seller": "Jamar Brinkley",
+   "genres": [
+    "Business"
+   ],
+   "genre": "Business",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/85/2f/6e852fad-763e-eff7-f4eb-037fa4e96af9/AppIcon-1x_U007ephone-0-11-0-85-220-0.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/11/0b/fd110b51-4ad2-3895-e5e9-8bc6f8be2441/Frame_46.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/ba/78/fbba786e-3348-0f03-cf8d-ff45e951dcea/Frame_42.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/4d/29/e64d2998-cf52-4e37-9bd9-701659c4977f/Frame_45.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/78/7f/79/787f7997-ba21-00c2-9e01-49769bd16bff/Frame_41.png/626x1112bb.jpg"
+   ],
+   "description": "Carloop – The Complete Automotive Transaction Platform\nCarloop is a modern automotive platform that connects consumers, dealers, and service providers into one seamless experience. From discovering inventory to completing a purchase or booking a service, Carloop simplifies every step of the automotive journey.\n\nBuy Vehicles with Confidence\nBrowse available inventory, explore detailed vehicle information, and move from interest to purchase effortlessly. Carloop guides you through every step—from discovery to transaction.\n\nEnd-to-End Transaction Experience\nCarloop enables a complete digital workflow:\nTrade in your vehicle with smart valuation\nSelect financing options tailored to you\nChoose protection packages and warranties\nComplete payments securely\nSign documents digitally\nSchedule delivery, all in one place\n\nSeamless Web to App Experience\nStart your journey on the web and continue on mobile without losing progress. Carloop restores your intent instantly, ensuring a smooth and uninterrupted experience.\n\nService Booking and Vehicle Care\nBook services, manage appointments, and stay updated in real time. View recommendations, approve work, and track service progress directly from your device.\n\nReal-Time Updates and Communication\nStay informed with live updates on your transactions, vehicle status, and service progress. Communicate efficiently through built-in messaging features.\n\nSmart Automotive Ecosystem\nCarloop integrates advanced tools and services including trade validation, vehicle history insights, real-time dealer interactions, auction-based trade offers, and technician inspection reports.\n\nSecure and Reliable\nYour data, transactions, and communications are protected with modern security standards, ensuring a safe and trusted experience.\n\nFlexible Account Control\nYou can deactivate your account at any time. Reactivation is available within 90 days, after which your data will be permanently deleted.\n\nBuilt for Modern Automotive Needs\nWhether you're buying a car, managing a trade-in, or booking a service, Carloop delivers a fast, transparent, and fully digital experience.",
+   "release_notes": "What's new in this version?\n\nUpdated the trade-in flow.\nImproved the trade-in user interface.\nFixed minor issues and enhanced the overall user experience.",
+   "file_size_bytes": 59433984,
+   "min_os": "15.1",
+   "version": "1.0.5",
+   "release_date": "2026-05-07",
+   "rating": 0,
+   "rating_count": 0,
+   "price": "Free",
+   "advisory": "17+",
+   "url": "https://apps.apple.com/us/app/carloop360/id6762803591?uo=4",
+   "fetched_at": "2026-09-21T01:10:02+08:00"
+  },
+  "Arrows – Puzzle Escape": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "Arrows – Puzzle Escape",
+   "country": "us",
+   "track_id": 6748397500,
+   "seller": "Lessmore GmbH",
+   "genres": [
+    "Games",
+    "Puzzle",
+    "Casual"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/6f/47/076f471a-1ee5-13de-6e44-d22905b8ad1b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/d0/43/add043a3-b812-a31c-a6d2-59651185320d/1290x2796_Gameplay_Arrows_updated_5.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/67/d9/f967d994-f98f-82f1-1a71-6a080d51a656/1290x2796_Gameplay_Arrows_updated_3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/99/ad/bb99adb1-3e31-a3b5-b25b-4c5b52ed9063/1290x2796_Gameplay_Arrows_updated_1.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/33/39/8b/33398b9f-6c1c-30c6-c7c5-9bced7755a88/1290x2796_Gameplay_Arrows_updated_4.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/1f/7a/4b1f7aee-226d-17c6-e91d-d0c829f37710/1290x2796_Gameplay_Arrows_updated_2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/c3/2e/72c32ec3-2193-d581-2a80-d23239dc809d/2048x2732_Gameplay_Arrows_updated_5.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/98/49/7b984923-1f73-4246-4a0c-3535d9a180b4/2048x2732_Gameplay_Arrows_updated_3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/97/a9/5597a90e-4238-f6f4-b845-4c73fafecf72/2048x2732_Gameplay_Arrows_updated_1.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0c/c5/73/0cc57345-214e-55aa-0b5d-f04555b422cd/2048x2732_Gameplay_Arrows_updated_4.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/b3/b6/c5b3b6c0-c6d2-c0f7-9b6b-271079626a36/2048x2732_Gameplay_Arrows_updated_2.png/626x1112bb.jpg"
+   ],
+   "description": "Welcome to Arrows – Puzzle Escape, a minimalist puzzle game that challenges your logic, planning, and spatial thinking. Your goal is simple: extract each arrow without causing a collision. \n\nFeatures:\n\n* Challenging logic puzzles that test your planning skills\n* Thousands of handcrafted levels with increasing complexity\n* Clean, minimalist design that lets you focus on the puzzle\n* Relaxing, no-pressure gameplay – no timers, just your brain\n* Hint system to help when you're stuck\n\nWhether you have a few minutes or want a longer challenge, Arrows – Puzzle Escape is the perfect blend of strategy and calm.\n\nCan you clear the grid without losing a single heart?",
+   "release_notes": "- Bug fixes  \n\nThanks for playing!",
+   "file_size_bytes": 228740096,
+   "min_os": "15.0",
+   "version": "0.21.4",
+   "release_date": "2025-08-09",
+   "rating": 4.85301,
+   "rating_count": 448052,
+   "price": "Free",
+   "advisory": "9+",
+   "url": "https://apps.apple.com/us/app/arrows-puzzle-escape/id6748397500?uo=4",
+   "fetched_at": "2026-09-21T01:10:04+08:00"
+  },
+  "乐园闯关大计划": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:10:07+08:00"
+  },
+  "MONOPOLY GO!": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "MONOPOLY GO!",
+   "country": "us",
+   "track_id": 1621328561,
+   "seller": "Scopely, Inc.",
+   "genres": [
+    "Games",
+    "Family",
+    "Board",
+    "Entertainment"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/64/d6/3564d69f-fdf1-9bf5-ac10-a39c53929533/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/93/90/9a9390fc-1ddf-b710-16bd-bff0c8e6eac1/MPY-47883_Logo_Update_-_Design_resizes_1320x2868_rxpq0999dc.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/94/c4/5194c45c-73bb-de0a-96a6-f83ad241eb22/d308d14a-efa6-4b6e-b18d-6c6c7c2be160_MPY-36794_Screenshot_UI_Update_1290x2796_C1_v2_2xl04ljkwk.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/5b/1b/ab5b1b02-a1a0-5e5d-f1ff-bc084d1ddc07/beaf80b6-89b7-49b3-9139-fd04f8dcc039_MPY-20973_Monopoly_Gamefeatures_Screenshots_Update_EN_1290x2796_SS3_C3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/93/e7/9893e7c4-a472-ead1-fbdf-955b437e60bb/54e90a2e-da2a-4f1b-9182-73221db77745_MPY-20973_Monopoly_Gamefeatures_Screenshots_Update_EN_1290x2796_SS4_C3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/58/68/675868e9-659d-cf66-4c80-ed9920537d94/c6655bae-f6d3-41ab-8be4-dc1d73e1db31_MPY-20973_Monopoly_Gamefeatures_Screenshots_Update_EN_1290x2796_SS5_C3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/e7/6c/2ee76c35-9cef-69cc-381d-07236b70011d/4037b819-9131-4181-ad24-fa5e8ba1b500_MPY-20973_Monopoly_Gamefeatures_Screenshots_Update_EN_1290x2796_SS6_C3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/f9/7d/91f97dff-cde6-0b4e-007c-aace06739e46/d0c8788c-d776-4f87-b106-cb75d33fca01_MPY-20973_Monopoly_Gamefeatures_Screenshots_Update_EN_1290x2796_SS7_C3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/54/35/1e5435e7-6c88-bbc3-46fa-f17e62a24a5f/f46b9c62-b3f9-4043-9d1a-b9c4d0836194_MPY-20973_Monopoly_Gamefeatures_Screenshots_Update_EN_1290x2796_SS8_C3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/b0/63/88b0630b-14f6-2f36-385c-caf8f1dbc813/MPY-47883_Logo_Update_-_Design_resizes_2064x2752_2j2t1zdyhz.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/38/ca/ba38ca04-1a47-9c7b-6fad-7b5d55f45ad9/1e0dcd13-d982-49f4-a9ee-8adddb733135_MPY-17770_Monopoly_Gamefeature_Screenshots_Resizes_2048x2732_SS2_V2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/fb/7a/0ffb7ad2-df5b-c88a-7de4-21ff19bcc9b8/dddaeb7f-6cf6-4e22-86ac-f888dfa810ae_MPY-17770_Gamefeature_Monopoly_Screenshots_Resizes_2048x2732_SS3_V1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/96/66/369666cc-8572-b02b-7e23-c0b279390e40/54e89eb9-7825-48a8-bde9-287e8bea7d3f_MPY-17770_Gamefeature_Monopoly_Screenshots_Resizes_2048x2732_SS4_V1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/82/37/8682373d-8722-6bad-677f-80f3d841b370/a9ac4b40-3bce-4538-bf71-e6c8443820b9_MPY-17770_Gamefeature_Monopoly_Screenshots_Resizes_2048x2732_SS5_V1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/00/95/530095c7-9d23-8877-a17e-7637f460269e/5ac58bf7-36a8-4a40-b445-788d67baa62c_MPY-17770_Monopoly_Gamefeature_Screenshots_Resizes_2048x2732_SS6_V1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/ef/71/87ef71ef-4907-fca6-baa2-bd9837428181/88a330d3-6a22-4585-b21b-f2ef4495a965_MPY-17770_Gamefeature_Monopoly_Screenshots_Resizes_2048x2732_SS7_V1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fe/73/30/fe733022-8468-54c3-dd5c-d01a4421e047/d8fc42ef-1fb0-4ac8-b92e-abc681e3caad_MPY-17770_Gamefeature_Monopoly_Screenshots_Resizes_2048x2732_SS8_V1.jpg/626x1112bb.jpg"
+   ],
+   "description": "Hit GO! Roll the dice! Earn MONOPOLY money, interact with your friends, family members and fellow Tycoons from around the world as you explore the expanding universe of MONOPOLY GO! It’s the new way to play the classic board game - board flipping cleanup not required in these fun board games!\n\nTake a Break!\nEscape, enjoy, dream, scheme, gain rewards and stay in touch with this newly reimagined twist on MONOPOLY online games! Let everyone’s favorite zillionaire, Mr. MONOPOLY, guide you through new boards themed after world-famous cities, fantastical lands and imaginative locales. Each adventure begins with a roll of the dice - whether you're a board game beginner or one of the strategy masters, there's fun to be had for everyone!\n\nSo MONOPOLY GO!\n· Experience classic fun and visuals with gameplay fit for your phone! Collect Properties, build Houses and Hotels, pull Chance Cards, and of course, roll the dice to earn that MONOPOLY Money!\n· Play with your favorite game Tokens such as the Racecar, Top Hat, Battleship, and more. Earn more tokens as you go to keep the win going in these board games!\n· See classic MONOPOLY icons like Mr. M, Scottie and Ms. MONOPOLY come to life, and brand new characters too!\n\nYour Family Table!\n· Help or hinder! - Play dice & pick a card - You and friends can earn easy money with Community Chest and co-op events! Or heist their banks to help yourself get to the top. Don’t feel bad – that’s just how the dice roll!\n· Collect and trade story-filled Stickers with friends and family around the world and in our MONOPOLY GO game! Facebook Trading Groups! Complete gorgeous, sticker albums to win huge rewards! The more Stickers you collect, the closer you get to candy sweet exclusive bonuses and limited-edition collections!\n\nFeatures!\n\nBUY & BUILD YOUR WAY TO THE TOP\nCollect Property Tile Sets to build Houses and upgrade your Houses to Hotels to get even more rent from friends! All you have to do is hit GO and roll the dice! Build your empire and be lord of the board! Whether you're in it for casual fun or to prove you're one of the true masters of the game – the board awaits!\n\nENJOY THAT CLASSIC MONOPOLY ATMOSPHERE\nRoll the dice to enjoy the classic game of MONOPOLY. Featuring familiar faces such as MR. MONOPOLY, familiar spaces such as jail (womp womp!), Railroads, Properties, Tokens, and familiar elements like drawing the perfect lucky card and more!\n\nPLAY WITH FRIENDS AND FAMILY\nGet social! With a variety of fun games, you can play with friends around the world to take full advantage of new multiplayer mini-games such as Community Chest – where you and friends take a break from mischief and work together for fun and rewards!\n\nNEW OPPORTUNITIES EVERY DAY\nPlay Tournaments, the Prize Drop plinko mini-game, the Cash Grab mini-game and follow our Events for big rewards. New Events run every hour, there are new ways to play and win every day! Compete in every tournament to climb the ranks. Keep an eye out for our time-limited games, perfect to challenge even seasoned tournament champions and MONOPOLY masters alike. Every roll of the dice counts - will it land you bonus money, a valuable Sticker, or a big build upgrade in new lands from a candy factory to Martian land?!\n\nMONOPOLY GO! is free to play, though some in-game items can also be purchased for real money. Internet connection is required to play the game.\n\nThe MONOPOLY name and logo, the distinctive design of the game board, the four corner squares, the MR. MONOPOLY name and character, as well as each of the distinctive elements of board and playing pieces are trademarks of Hasbro, Inc. for its property trading game and game equipment. © 1935, 2023 Hasbro.\n\nPrivacy Policy: https://scopely.com/privacy/\n\nTerms of Service: http://scopely.com/tos/\n\nAdditional Information, Rights, and Choices Available to California Players: https:scopely.com/privacy/#additionalinfo-california\n\nBy installing this game you agree to the terms of the license agreements.",
+   "release_notes": "Get spooky with the Monster Mash Album, Tycoon! \n \nTrick or Treat and fill your candy bucket with sweet surprises \nCollect frightfully fun Halloween-themed rewards \nKeep an eye out for some familiar supernatural faces \nEnjoy fresh updates and smoother gameplay across the board \n \nUpdate now and join the Monster Mash!",
+   "file_size_bytes": 295884800,
+   "min_os": "15.0",
+   "version": "1.77.0",
+   "release_date": "2023-04-11",
+   "rating": 4.79783,
+   "rating_count": 3831131,
+   "price": "Free",
+   "advisory": "9+",
+   "url": "https://apps.apple.com/us/app/monopoly-go/id1621328561?uo=4",
+   "fetched_at": "2026-09-21T01:10:10+08:00"
+  },
+  "云·伊莫": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "云·伊莫",
+   "country": "cn",
+   "track_id": 6796757624,
+   "seller": "Shanghai Quletang Network Technology Co., Ltd.",
+   "genres": [
+    "游戏",
+    "冒险",
+    "角色扮演"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/27/48/ff2748bb-fc0c-c9f4-84ba-b6d63277aac3/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/58/ff/61/58ff6132-782f-37d3-8911-6059b19669b7/00-_U9996_U56fe.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/36/65/fd/3665fd72-743c-c2c0-8c20-abec1c420f92/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6b/71/1a/6b711a2c-859d-20f5-5462-e6e2d273c631/2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/65/d6/0b65d617-b20e-cc8e-cbf5-7e0b70d9418c/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/97/d4/21/97d4217b-ac88-52a9-437f-fcd14b9d9d65/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/da/b1/00dab1f6-7e51-0f86-aedf-97d45aa8cf9a/5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/2e/46/9a2e46ad-f299-ef97-5701-75de1be39309/6.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9f/2a/a1/9f2aa172-4cbb-3f01-687c-aaebd3c10c17/00-_U9996_U56fe__U00281_U0029.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/be/92/1c/be921c16-3153-62f7-1fb2-477f99dd21df/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/94/8c/cc/948ccc3e-ec56-55ca-c8ac-fe606e00d8a3/2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/58/de/1558de04-a635-a5c9-747f-79cc76f12781/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/3a/8a/143a8af6-ec0b-18ec-d625-b4573939c588/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/69/04/ca6904b4-bb9e-68aa-8fef-e2d5cce30cfa/5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9f/5d/95/9f5d95e3-f02e-1df9-ab57-2ccb2bf699db/6.jpg/626x1112bb.jpg"
+   ],
+   "description": "《云·伊莫》是多人在线大世界捉宠RPG《伊莫》的云游戏版本，仅需安装超小包体，一键下载、秒速启动。无需担心设备性能与存储空间，联结者即可获得超高画质与流畅帧率，畅享大世界探索与捉宠养成的乐趣。\n《伊莫》是一款多人在线大世界捉宠RPG。你将在广袤的艾德尔大陆上邂逅各种神奇生物——伊莫。和他们联结合体，还能以全新的视角和能力感受这个世界的美好。你也可以来到浮空天际的近未来都市，邂逅其他冒险家，交流旅途心得或是感受竞技的魅力。快带上你的伊莫，开启一场超越想象的大世界冒险之旅吧！\n\n这莫变！联结变身冒险，探索世界奇妙\n在冒险的旅途中，你将与伊莫联结合体，并利用伊莫的各种能力：完成世界上的谜题，赢得每场战斗的胜利，解决遇到的一切问题！不再局限于人类的速度、视野和能力，亲自体验理性与野性共存的蓬勃。你能清晰听见风掠过草叶时的细语，感受到褪去爆裂的火焰在血液里温柔流动。与伊莫“联结”合体，用全新的身份感受世界！\n\n这莫多！形态分支进化，填满你的图鉴\n小小伊莫，面孔多多！生活区域、天气状态、进化分支...都会有不同的伊莫！沙滩地区的花芽蟹会用椰子壳保护自己，滩涂形态的它们身上装饰着多彩的宝石，海湾形态的他们则沉迷于晒太阳，身体变成了熟红色...走调草长大后，到底会变成唱着扭曲音波的女巫草？还是巨型“家里蹲”的埋埋呢？邂逅、培养出不同形态的伊莫，一步步填充图鉴，成为行走的莫百科吧！这次又会有许多新的伊莫会与大家相见！\n\n这莫灵！材质表情动作，生动触手可及\n或是蓬松的绒毛，或是坚硬的铠甲......各种拟真的材质、丰富的动作表现，让你的视线穿透屏幕，抚摸生命的灵动。温顺的羞羞獭会拎着贝壳铲猛冲，拥有厚钳的花芽蟹实际上是胆小鬼，勇猛的焚火狼也会享受夜晚篝火的宁静。不经意间展现的小动作和反差感正是他们迷人又可爱的地方！当它们敲敲屏幕，那就是向你撒娇的信号！\n\n这莫妙！聆听族群故事，细数伊情冷暖\n各种神奇生物——伊莫，在艾德尔大陆上共生共舞，每一个种族都各自延续着独特的种族生态与群落故事。鲸落浅滩的羞羞獭最爱调皮捣蛋，从高处把同伴推到水里；口哨鸥家族爱凑热闹，中高低音合奏出偶尔搞怪的乐曲。海陆空多种生物交叠的生态系统，每一个角落，都是自然精妙的构思；每一道声音，都记录着生命的回响。更多新的故事会在挥爪一刻与大家相见！有人的地方就有冷暖，有伊莫的地方就有故事！\n\n这莫爽！即时战斗捕捉，抢蛋其乐无穷\n全新“抢蛋大作战”来袭。和朋友一起获得稀有宠物，与其他玩家争夺稀有伊莫蛋...谁能抢到最珍贵的那颗伊莫蛋？孤身前往或组队夺宝，一起参与这场关于运气、策略、博弈的冒险！体验真正的即时制自由捉宠战斗的爽快！背袭、连击、布下陷阱、出其不意...当捕捉的方式不再单一，每一次丢出谜立方的瞬间都充满了惊喜；当战斗无需等待，流畅移动、精准击打，或伺机而动，或游走周旋，每一刻都充满刺激！\n\n这莫暖！房车家园旅行，总有伊莫相伴\n每位冒险家在广阔的艾德尔大陆上都拥有一辆专属房车，停驻于大世界营地，与其他玩家相遇、交流、展示个性布置。它既是冒险者在大世界中的移动据点，也是通往私人家园的小天地入口。\n当你回到家园，你能与伊莫一起种植作物、建造装饰、自由布置空间，打造独属于你们的生活场景。更有趣的是可以将生产设施与游玩体验深度结合：旋转木马磨坊、微型摩天轮纺车等装置让你与伊莫边玩边生产；好友协力、伊莫助力，让整个家园成为一个温馨、有趣、互动满满的沉浸式乐园！",
+   "release_notes": "《云·伊莫》是多人在线大世界捉宠RPG《伊莫》的云游戏版本，仅需安装超小包体，一键下载、秒速启动。无需担心设备性能与存储空间，联结者即可获得超高画质与流畅帧率，畅享大世界探索与捉宠养成的乐趣。",
+   "file_size_bytes": 28864512,
+   "min_os": "15.6",
+   "version": "1.0.3",
+   "release_date": "2026-09-15",
+   "rating": 3.95679,
+   "rating_count": 162,
+   "price": "免费",
+   "advisory": "9+",
+   "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E4%BC%8A%E8%8E%AB/id6796757624?uo=4",
+   "fetched_at": "2026-09-21T01:10:12+08:00"
+  },
+  "ARES: THE IRON VANGUARD": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "ARES: THE IRON VANGUARD",
+   "country": "us",
+   "track_id": 6755576582,
+   "seller": "Com2uS Holdings Corporation",
+   "genres": [
+    "Games",
+    "Action",
+    "Entertainment",
+    "Roleplaying"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/64/8e/c9648ed6-68d3-38a7-a767-e178e57e06a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/f4/26/53f42610-47f8-a3a2-1c84-4320ed661a5e/260826_ares_market_screen_shot2_2688_en.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/54/2b/1b542b17-10d7-8414-6d06-f96d48472b5f/260901_ares__Uae00_Ub7f0-_Ub9c8_Ucf13_Uc2a4_Ud06c_Ub9b0_Uc0f7_2688_en.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/78/cc/2b/78cc2b04-4772-52f6-643f-7fd0bf89f1a4/260907_ares_market_screen_shot3_2688_en.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3a/a1/9b/3aa19b11-ed5f-f9c2-d358-e5d9b282cae7/3_IPHONE_65.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5c/b9/43/5cb94351-d579-1fab-83f4-87ba3c383396/260907_ares_market_screen_shot5_2688_en.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/57/b8/e957b898-90e2-8934-804b-85c8bca50493/260907_ares_market_screen_shot6_2688_en.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/74/96/e07496cd-02b6-c547-a1b9-401e27d73189/260907_ares_market_screen_shot7_2688_en.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/94/e6/d494e642-8306-bb4a-301c-967903cfdbc0/260826_ares_market_screen_shot2_2732_en.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fa/c0/c1/fac0c1d0-5b4b-7a3a-6427-be6d716c131a/260901_ares__Uae00_Ub7f0-_Ub9c8_Ucf13_Uc2a4_Ud06c_Ub9b0_Uc0f7_2732_en.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/ee/74/31ee7497-54fd-0c79-5872-1e78307b1685/260907_ares_market_screen_shot3_2732_es.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/ea/2b/c3ea2be4-d835-7eed-aa2f-11376b2126fa/3_IPAD_PRO_3GEN_129.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/d4/23/8ed42372-1a77-67b2-6a23-c895bac1fb46/260907_ares_market_screen_shot5_2732_en.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/fe/dd/66fedd4b-f816-f3b9-1451-7f2e16827680/260907_ares_market_screen_shot6_2732_en.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/8f/3d/db8f3d4f-ac7f-2683-2ebd-67f76ed69d20/260907_ares_market_screen_shot7_2732_en.jpg/626x1112bb.jpg"
+   ],
+   "description": "Official Discord link: https://discord.gg/yHUYPKRFU4\n\nGlobal Launch\nEnjoy special events celebrating our global launch and grab exclusive rewards!\n\nJoin before the gates to a new battlefield open.\nBe among the first to prepare for ARES : THE IRON VANGUARD’s first deployment.\n\nSuit Up & Change the Flow of Battle.\nTwo combat styles to seamlessly switch between in freeflowing combat. \nA next-level stylish action RPG.\n\n\n▣ Game Introduction ▣\n\n■ Suit-Switching: Change the Flow of Battle ■\nSwitch between two suits in real time. Combine weapons and skills to create your own combat style.\nSingle-handedly turn the tide of war, and dominate hordes of enemies in style. \n\n■ Wield Multiple Classes in Combat ■\nThe Engineer: fight with heavy gauntlets and deploy drone assaults.\nThe Warlock: unleash AoE magic powered by cosmic energy.\nThe Warlord: brave the front lines with a massive rocket-hammer and shield.\nThe Hunter: cut through the enemy with swift dual blades.\nMulti-class: Mix and match different suits for endless possibilities. \n\n■ Unmatched Firepower & Mobility ■\nGlide over the open battlefield on a hover board. \nCall down and pilot your Mech: the Goliath. \nReclaim the airspace with the Valkyrie! \n\n■ Multiplayer Co-op ■\nExperience the thrill of teamwork-driven combat through raids, strike missions, and more.\nFight end-game bosses with friends.\n\n■ Stylish Action On the Go■\nAn action RPG where timing and skill decide everything!\nExperience console-quality gameplay that combines parries, perfect-dodges, and combos. \n\n■ You’re the Solar System’s Last Hope ■\nA grand journey unfolds across vast battlefields.\nBecome a Guardian fighting against the threat of Nemesis and launch into the center of a new war to protect the solar system.\n\n※ This game is free to play.\n※ This game is available in 한국어, English, 日本語, 中文简体, 中文繁體, Français, Deutsch, Español, Português, Bahasa Indonesia, ไทย, Tiếng Việt, Türkçe\n\n■ [Required Permissions]\nPhotos/Media/File Storage: Required for saving game files and images, and uploading photos and videos.\n\n■ [How to Revoke Permissions]\nRevoke Individual Permissions:\nSettings > Applications > More (Settings & Control) > App Settings > Permissions > Select Permission > Allow or Deny\nRevoke Permissions by App:\nSettings > Applications > Select App > Permissions > Allow or Deny\nTerms of Service:\nhttps://terms.withhive.com/terms/policy/view/M425/T1#T5",
+   "release_notes": "Various bug fixes and improvements\nNew in-game event now available",
+   "file_size_bytes": 343237632,
+   "min_os": "15.0",
+   "version": "1.3.3",
+   "release_date": "2026-09-15",
+   "rating": 4.76166,
+   "rating_count": 193,
+   "price": "Free",
+   "advisory": "12+",
+   "url": "https://apps.apple.com/us/app/ares-the-iron-vanguard/id6755576582?uo=4",
+   "fetched_at": "2026-09-21T01:10:15+08:00"
+  },
+  "消消最轻松": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:10:18+08:00"
+  },
+  "Brain Puzzle 3: Crazy Mind": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "Brain Puzzle 3: Crazy Mind",
+   "country": "us",
+   "track_id": 6756482832,
+   "seller": "Guangzhou SmallStep Information Technology Co., Ltd",
+   "genres": [
+    "Games",
+    "Puzzle",
+    "Casual",
+    "Entertainment"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/f4/df/edf4df66-c8f5-e488-bc0d-7677aa8ea52d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/a7/99/63a79986-a85c-63a8-71eb-301b880d0663/level_114.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/af/ee/a3afee51-d738-3006-dd9f-e65a54288335/level_34.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/e3/9b/4be39b95-5f74-05ad-7cfe-71df2ab20934/level_148_U00281_U0029.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/2c/42/6d2c4267-bb16-18f2-a95e-89f39bcc0500/level_139.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/c7/d8/f4c7d8e6-517a-da9b-0bd0-7c99384ab251/level_67.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/94/5c/14945c02-0a15-7e7e-94fc-718f8d6a7a86/level_124.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/b9/63/21b96319-cc89-8419-46f3-b4452656d7ca/level_23.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/14/ad/8514ad72-bb1b-95c8-6a3b-8b352021bb85/_U5173_U53612.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8f/ae/37/8fae3767-0ebc-1ef7-e103-9460c5eaab21/level_114.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/f0/4f/d2f04fca-eaf4-3d02-0317-7db41e3a587d/_U5173_U536134.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/c5/c5/a7c5c54a-14f0-8446-096d-77d8f809ce93/level_148.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/ae/c0/92aec099-5782-d108-e78b-4d54c533a38a/level_139_U00281_U0029.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/a4/43/4fa4434f-caca-d951-59bf-de1f629dd465/level_67.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/da/fa/dedafac5-b4cb-e0a2-3b10-0285bb2d24d5/level_124.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/fb/ce/83fbce4a-1e7a-7d97-38a8-db57c1c3ca65/level_23.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/43/84/4c4384ec-8bc9-fcd6-8db8-70003a9f50e0/_U5173_U53612.png/626x1112bb.jpg"
+   ],
+   "description": "Warning: This game may cause intermittent frustration, sudden bursts of laughter, and a strong desire to show off to your friends!\n\nWelcome to Brain Puzzle 3: Crazy Mind, the newest adventure in the Brain Puzzle series!\n\nGet ready for an exciting Brain Puzzle game experience filled with creative challenges, tricky levels, and unexpected solutions. Brain Puzzle 3 brings you a collection of fun brain puzzle challenges, clever brain puzzle levels, and unique brain puzzle adventures designed to test your creativity, logic, and problem-solving skills.\n\nWhether you love brain puzzle games, logic games, visual puzzles, or brain teasers, Crazy Mind offers endless brain puzzle challenges that will keep your mind active and entertained.\n\nThink you're smart enough?\nTry Brain Puzzle 3 and discover how powerful your mind really is!\n\nGame Features:\n\nHundreds of Brain Puzzle Challenges:\nExplore a massive collection of brain puzzle levels, including logic puzzles, visual challenges, reaction tests, and creative thinking games. Every brain puzzle challenge is designed to surprise you and test your thinking skills.\n\nA New Generation of Brain Puzzle Games:\nBrain Puzzle 3 combines simple gameplay with clever designs, creating a relaxing yet challenging brain puzzle experience for players of all ages.\n\nCreative Brain Puzzle Adventure:\nEnjoy a variety of brain puzzle games featuring tricky questions, unexpected solutions, and imaginative puzzle designs. Each brain puzzle level brings a fresh challenge.\n\nTrain Your Brain Every Day:\nDevelop your observation, memory, logical thinking, and problem-solving abilities through fun brain puzzle games and exciting brain training challenges.\n\nPlay Anytime, Anywhere:\nEnjoy quick brain puzzle challenges whenever you want. A few minutes of Brain Puzzle 3 gameplay can give your mind an exciting workout.\n\nStop wasting time with endless scrolling!\nJoin millions of puzzle fans and start your Brain Puzzle 3 adventure today!\n\nDownload Brain Puzzle 3: Crazy Mind now and experience the ultimate brain puzzle game!\n\nContact Email: xiaobuinfo2019@gmail.com\nWebsite: https://www.smallstepinfo.com",
+   "release_notes": "• Fixed some bugs\n• Improved game stability",
+   "file_size_bytes": 337522688,
+   "min_os": "15.0",
+   "version": "1.1.2",
+   "release_date": "2025-12-20",
+   "rating": 4.67224,
+   "rating_count": 18108,
+   "price": "Free",
+   "advisory": "12+",
+   "url": "https://apps.apple.com/us/app/brain-puzzle-3-crazy-mind/id6756482832?uo=4",
+   "fetched_at": "2026-09-21T01:10:21+08:00"
+  },
+  "ロイヤルマッチ(Royal Match)": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "Royal Match",
+   "country": "us",
+   "track_id": 1482155847,
+   "seller": "Dream Games Dijital Teknolojiler A.S.",
+   "genres": [
+    "Games",
+    "Casual",
+    "Puzzle"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/9d/83/d99d834a-172e-0962-988c-5c95acc4ce97/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/18/10/8718109c-4eeb-a3b0-be97-62706c895025/edede7e9-6c2e-401d-804d-32d96e7b4641_iphone-8.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/8b/2a/068b2a83-9836-32fd-582c-be7b71e92c42/8a9faf28-7d4a-4fda-b041-58bb23805549_dining_room.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/3a/77/e13a77a8-7f4b-e90d-1462-2fb97781227f/7e33d9b3-9323-40f8-a631-60d44884338f_bird.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/79/0d/e0790d64-8463-d474-d695-ddb2dc252526/5d092e2d-bf50-423b-bb69-29df18b23542_garden.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/19/93/3b1993b7-92ce-5353-6269-15f942217586/f8ac570a-bb40-467b-8586-7846389a1901_1242x2208_07.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/a4/e5/06a4e5bd-15e2-67e9-2f22-bd14719ac749/628e28fd-2471-467e-a6d8-2b311cec0614_ipad.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/53/fb/2053fbd5-b1ed-6655-40fe-2489d94af24f/45369cdf-c9d9-4f1c-8fac-77a1e20a7f13_ipad_pro_dining_room_adjusted_PS_final.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/a8/e9/d0a8e9d0-856e-6062-a944-d1363c663cf5/aea9595f-ed2a-4381-949f-e45d7f3117b2_ipad_level_bird.jpeg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/9b/12/309b127c-76b1-5ec0-2cac-985033a46d1e/e8088e19-9bca-4975-bd5d-ee6bfb9828a2_ipad_area.jpeg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/aa/18/a9aa18f3-2eeb-bd2e-bedb-01616a3658b1/6ad22f78-2b2e-4eeb-a4c2-6aec2e8196f0_2048x2732_07.png/626x1112bb.jpg"
+   ],
+   "description": "King Robert needs your help to restore Royal Castle’s former glory. Break the obstacles and combine amazing power-ups to beat joyful and challenging levels! Keep unlocking wonderful areas by playing fun match-3 levels! Come along now and join the fun!\n\nOnce you play, you will come for Royal Match every day!\n\nRoyal Match features:\n• A new unique taste in match-3 levels with amusing obstacles and fun levels!\n• Collect loads of coins in bonus levels!\n• Lots of powerful boosters await for you to unlock them!\n• Open amazing chests to win magnificent rewards!\n• Restore the Royal Castle into an amazing and wonderful place!\n• Explore the new rooms, royal chambers, splendid gardens, and many more exciting areas!",
+   "release_notes": "Are you ready for a fun new update?\n\n• Get ready for amazing 100 NEW LEVELS! Make a splash and bubble up SOAPS with the ROYAL BATHTUB!\n\n• Explore the NEW AREA! Kick up some dust at the MOTOCROSS TRACK!\n\nNew levels are coming in every two weeks! Be sure to update your game to get the latest content!",
+   "file_size_bytes": 331468800,
+   "min_os": "15.0",
+   "version": "38174",
+   "release_date": "2021-02-25",
+   "rating": 4.69082,
+   "rating_count": 3824437,
+   "price": "Free",
+   "advisory": "12+",
+   "url": "https://apps.apple.com/us/app/royal-match/id1482155847?uo=4",
+   "fetched_at": "2026-09-21T01:10:23+08:00"
+  },
+  "Royal Match": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "Royal Match",
+   "country": "us",
+   "track_id": 1482155847,
+   "seller": "Dream Games Dijital Teknolojiler A.S.",
+   "genres": [
+    "Games",
+    "Casual",
+    "Puzzle"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/9d/83/d99d834a-172e-0962-988c-5c95acc4ce97/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/18/10/8718109c-4eeb-a3b0-be97-62706c895025/edede7e9-6c2e-401d-804d-32d96e7b4641_iphone-8.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/8b/2a/068b2a83-9836-32fd-582c-be7b71e92c42/8a9faf28-7d4a-4fda-b041-58bb23805549_dining_room.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/3a/77/e13a77a8-7f4b-e90d-1462-2fb97781227f/7e33d9b3-9323-40f8-a631-60d44884338f_bird.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/79/0d/e0790d64-8463-d474-d695-ddb2dc252526/5d092e2d-bf50-423b-bb69-29df18b23542_garden.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/19/93/3b1993b7-92ce-5353-6269-15f942217586/f8ac570a-bb40-467b-8586-7846389a1901_1242x2208_07.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/a4/e5/06a4e5bd-15e2-67e9-2f22-bd14719ac749/628e28fd-2471-467e-a6d8-2b311cec0614_ipad.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/53/fb/2053fbd5-b1ed-6655-40fe-2489d94af24f/45369cdf-c9d9-4f1c-8fac-77a1e20a7f13_ipad_pro_dining_room_adjusted_PS_final.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/a8/e9/d0a8e9d0-856e-6062-a944-d1363c663cf5/aea9595f-ed2a-4381-949f-e45d7f3117b2_ipad_level_bird.jpeg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/9b/12/309b127c-76b1-5ec0-2cac-985033a46d1e/e8088e19-9bca-4975-bd5d-ee6bfb9828a2_ipad_area.jpeg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/aa/18/a9aa18f3-2eeb-bd2e-bedb-01616a3658b1/6ad22f78-2b2e-4eeb-a4c2-6aec2e8196f0_2048x2732_07.png/626x1112bb.jpg"
+   ],
+   "description": "King Robert needs your help to restore Royal Castle’s former glory. Break the obstacles and combine amazing power-ups to beat joyful and challenging levels! Keep unlocking wonderful areas by playing fun match-3 levels! Come along now and join the fun!\n\nOnce you play, you will come for Royal Match every day!\n\nRoyal Match features:\n• A new unique taste in match-3 levels with amusing obstacles and fun levels!\n• Collect loads of coins in bonus levels!\n• Lots of powerful boosters await for you to unlock them!\n• Open amazing chests to win magnificent rewards!\n• Restore the Royal Castle into an amazing and wonderful place!\n• Explore the new rooms, royal chambers, splendid gardens, and many more exciting areas!",
+   "release_notes": "Are you ready for a fun new update?\n\n• Get ready for amazing 100 NEW LEVELS! Make a splash and bubble up SOAPS with the ROYAL BATHTUB!\n\n• Explore the NEW AREA! Kick up some dust at the MOTOCROSS TRACK!\n\nNew levels are coming in every two weeks! Be sure to update your game to get the latest content!",
+   "file_size_bytes": 331468800,
+   "min_os": "15.0",
+   "version": "38174",
+   "release_date": "2021-02-25",
+   "rating": 4.69082,
+   "rating_count": 3824437,
+   "price": "Free",
+   "advisory": "12+",
+   "url": "https://apps.apple.com/us/app/royal-match/id1482155847?uo=4",
+   "fetched_at": "2026-09-21T01:10:26+08:00"
+  },
+  "钢铁机甲的碰撞": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:10:29+08:00"
+  },
+  "切开一切3D": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:10:32+08:00"
+  },
+  "可爱吃播达人": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:10:35+08:00"
+  },
+  "全民像素射击": {
+   "matched": false,
+   "fetched_at": "2026-09-21T01:10:39+08:00"
   }
  }
 }

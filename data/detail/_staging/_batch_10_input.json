@@ -1,0 +1,124 @@
+{
+ "batch": 10,
+ "total_batches": 10,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_10.json",
+ "games": [
+  {
+   "name": "模拟城市:我是市长",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 6
+   },
+   "category_l1": "其他",
+   "category_l2": "其他",
+   "publisher": "北京北纬通信科技股份有限公司",
+   "first_seen": "2026-08-05",
+   "appearances": 6,
+   "best_rank": 6,
+   "profile_value": "mid",
+   "seed": {
+    "gameplay_desc": "城市模拟",
+    "tags": [
+     "城市模拟"
+    ],
+    "notes": "",
+    "developer": "北京北纬通信/EA"
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "模拟城市：我是市长",
+    "country": "cn",
+    "track_id": 1174766830,
+    "seller": "Beijing Bewinner Communications Co., Ltd.",
+    "genres": [
+     "游戏",
+     "策略",
+     "模拟",
+     "社交"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/3f/6f/743f6fc0-4932-bd9c-ed03-dc71252f56da/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bb/2e/0d/bb2e0dcf-4eb6-61e1-1499-e394a4a6de7b/1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/a8/af/f6a8af99-a529-4936-9748-f4d4ce16b7e8/2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/74/93/d57493a1-3ee3-c957-0cb0-c2053185cec6/3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/52/a5/9d52a5de-ae4a-0ef7-b204-3cb2cbc4a40f/4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/37/2f/4b372f77-8ea3-94eb-602e-60d48a56a376/5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/75/00/0e7500cd-e8de-dafc-3a28-994e0435cf4c/38f2f5a3-2a47-4411-bc3c-549ef3eedfd9_1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/1d/ad/9d1dad32-340d-da7e-2962-464353d9810a/0d9ae2ac-899e-4a05-890b-62543f8e0d53_2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/dd/2f/1ddd2f79-efa8-53cd-9092-ad7d020535fc/3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/37/21/ea372164-ca9a-b0f6-8787-5ddfb15fad64/4aefe676-aa92-4394-a0b6-bc294071dd56_4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/1a/ab/6a1aab6f-b0cc-040e-d2ca-c1b882da44a2/59f43113-a907-491e-aa51-5ea4f362314a_5.png/626x1112bb.jpg"
+    ],
+    "description": "享誉全球的经典3D模拟经营手游，倾情打造全新“开元古都”国风资料片！\n\n由EA开发、蜂巢游戏独家国内发行的《模拟城市：我是市长》，即将迎来市民入驻啦！一起建设高楼林立的繁华都市，为市民们提供舒适惬意的生活环境吧！ \n\n盛大推出全新国风资料片\n您可以在古色古香的“开元古都”区域，建设您专属的中国风城市，其中不仅有精致的国风住宅、工坊和商店，更有精心设计的古风道具和场景，带您领略人间烟火气，漫步于金碧辉煌的宫殿、古韵悠然的亭台楼阁、巧夺天工的中式园林，在繁华市井中，感受昼夜轮换间的古都风情。\n\n城市规划尽在掌握\n《模拟城市：我是市长》拥有众多形态各异的建筑，市长们尽可发挥想象，建设一座独一无二的梦想城市。除此之外，您还可以利用游戏中的树木、湖泊等打造美丽的花园景点，或是购买独特地标，吸引市民们竞相游览。在这座城市里，文化融合之美将全数呈现！ \n\n城市资源连绵不绝 \n建设一座梦幻城市的过程中，必将面临着前所未有的考验。当您的住宅升级停滞之时，别忘记环顾城市四周，寻找工厂、商店、港口、机场等建筑设施，通过生产、运输等途径获取建设城市的道具资源！\n\n城市中的精彩远不至此，市长们如在探索过程中有所疑问，就请尽快联系市长秘书答疑解惑吧。",
+    "release_notes": "全新精彩内容\n火车铁路大变革来临！车站系统全面迭代，多种全新车厢同步上线，打造前所未有的火车运营体验。\n墨韵居现加入限时豪华套餐礼包。\n建筑盲盒惊喜连连，翠茸草庐、古木栖屋等限时开放抽取。\n\n市长通行证\n星河探梦新赛季开启，冲天揽月、筑梦苍穹。\n参与活动可获得多种增益效果，加快城市发展。\n使用市长通行证解锁超高价值奖励，快来构建专属于您的星辰大海！\n\n全新丹凤密卷\n开元古都全新密卷震撼来袭，完成任务即可获得终极大奖！\n使用进阶密卷解锁超高价值奖励，领取密卷专属建筑！\n\n城市设计挑战\n搭建微型城市，实现关于城市的一切梦想。\n参与精彩主题、积极提交设计，获得超赞奖励！\n\n游戏钜惠\n参与绿钞基金、市长赏金、单笔充值、绿钞链动等活动，助力城市建设！\n多种累充累消回馈活动，解锁超多风格建筑。\n多种限时特惠礼包，包含高价值道具及珍稀建筑。\n限时绿钞活动额外返利，建设您的多彩城市。\n\n感谢您的支持，祝您游戏愉快！",
+    "file_size_bytes": 528102400,
+    "min_os": "13.0",
+    "version": "2.3",
+    "release_date": "2017-02-20",
+    "rating": 3.45997,
+    "rating_count": 127999,
+    "price": "免费",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/cn/app/%E6%A8%A1%E6%8B%9F%E5%9F%8E%E5%B8%82-%E6%88%91%E6%98%AF%E5%B8%82%E9%95%BF/id1174766830?uo=4",
+    "fetched_at": "2026-09-21T01:09:37+08:00"
+   }
+  },
+  {
+   "name": "渔力全开",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 9
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "厦门玖伍贰叁网络科技有限公司",
+   "first_seen": "2026-09-20",
+   "appearances": 1,
+   "best_rank": 9,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-21T01:09:54+08:00"
+   }
+  },
+  {
+   "name": "切开一切3D",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 19
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "个人开发者",
+   "first_seen": "2026-09-19",
+   "appearances": 2,
+   "best_rank": 19,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-21T01:10:32+08:00"
+   }
+  }
+ ]
+}
