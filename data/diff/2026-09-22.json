@@ -1,0 +1,609 @@
+{
+  "date": "2026-09-22",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "救救我鸭",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "北京起跃文化有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx244b1cb66c8ac4b4",
+          "publisher_id": 20244280
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "青云诀之伏魔",
+          "category": "角色",
+          "category_rank": 1,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "海南元游信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxcdcbec6bf40d053a",
+          "publisher_id": 20002304
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 18,
+          "name": "同学来改作业",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州奶糖互娱网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf11a87a76f7acfa102",
+          "publisher_id": 20242644
+        },
+        {
+          "rank": 19,
+          "name": "这就很上头",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta30ad5b73d6a5acc07",
+          "publisher_id": 20242355
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "兵器王者",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt29c85f75b6f97a5207",
+          "publisher_id": 20002380
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 18,
+          "name": "同学来改作业",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州奶糖互娱网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf11a87a76f7acfa102",
+          "publisher_id": 20242644
+        },
+        {
+          "rank": 19,
+          "name": "这就很上头",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta30ad5b73d6a5acc07",
+          "publisher_id": 20242355
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "空格之境",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt96a6e01b08c553f502",
+          "publisher_id": 20244673
+        },
+        {
+          "rank": 19,
+          "name": "俱乐大玩家",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南临游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5a362c8bc45262eb07",
+          "publisher_id": 20002327
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "零号档案：重启",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南顺福科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttef259998715fabbc02",
+          "publisher_id": 20262325
+        },
+        {
+          "rank": 11,
+          "name": "大西瓜进化传奇",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt85ecf3511b88d51602",
+          "publisher_id": 20002390
+        },
+        {
+          "rank": 20,
+          "name": "飞机模拟器3D",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门做一些好玩的游戏有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt101466a98e7004d807",
+          "publisher_id": 20302381
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "给我一把刀",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州绿之洲科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt0b917d2c95f4e65b02",
+          "publisher_id": 20062305
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "零号档案：重启",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南顺福科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttef259998715fabbc02",
+          "publisher_id": 20262325
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "零号档案：重启",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南顺福科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttef259998715fabbc02",
+          "publisher_id": 20262325
+        },
+        {
+          "rank": 11,
+          "name": "大西瓜进化传奇",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt85ecf3511b88d51602",
+          "publisher_id": 20002390
+        },
+        {
+          "rank": 20,
+          "name": "飞机模拟器3D",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门做一些好玩的游戏有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt101466a98e7004d807",
+          "publisher_id": 20302381
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "Roguelike",
+          "subcategory": "多人联机、动作、Steam移植、买断制、单机、独立游戏、冒险"
+        },
+        {
+          "rank": 9,
+          "name": "星途天城",
+          "publisher": "广州春芒网络科技有限公司",
+          "category": "卡牌",
+          "subcategory": "养成、神话、美少女、策略、角色扮演"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "Aniimo",
+          "publisher": "PAWPRINT INTERACTIVE ENTERTAINMENT PTE. LTD",
+          "category": "Games",
+          "app_id": "6759098797",
+          "url": "https://apps.apple.com/us/app/aniimo/id6759098797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/a8/2e/aba82e5b-5492-1e01-d677-634abedfa5e8/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Aniimo is a free-to-play, next-gen creature-catching open-world RPG. On the vast"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "Colorever: Gem Art Puzzle",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "app_id": "6761757565",
+          "url": "https://apps.apple.com/us/app/colorever-gem-art-puzzle/id6761757565?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b3/d7/17/b3d7172c-50e2-a616-c2e1-7e4158c06325/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "\"Colorever: relax with sparkling gems and beautiful coloring art.\n\nEvery gem bel"
+        },
+        {
+          "rank": 18,
+          "name": "Food Hunt: Pixel Puzzle",
+          "publisher": "FUNFINITY PTE. LTD",
+          "category": "Games",
+          "app_id": "6769314786",
+          "url": "https://apps.apple.com/us/app/food-hunt-pixel-puzzle/id6769314786?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/69/81/e3698133-d61d-b655-7ddf-f6fac07e0bf5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Every level is a pixel art masterpiece. Your ants will devour it - one color at "
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 2,
+          "name": "Aniimo",
+          "publisher": "PAWPRINT INTERACTIVE ENTERTAINMENT PTE. LTD",
+          "category": "Games",
+          "app_id": "6759098797",
+          "url": "https://apps.apple.com/us/app/aniimo/id6759098797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/a8/2e/aba82e5b-5492-1e01-d677-634abedfa5e8/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Aniimo is a free-to-play, next-gen creature-catching open-world RPG. On the vast"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "Aniimo",
+          "publisher": "PAWPRINT INTERACTIVE ENTERTAINMENT PTE. LTD",
+          "category": "Games",
+          "app_id": "6759098797",
+          "url": "https://apps.apple.com/us/app/aniimo/id6759098797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/a8/2e/aba82e5b-5492-1e01-d677-634abedfa5e8/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Aniimo is a free-to-play, next-gen creature-catching open-world RPG. On the vast"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 1,
+          "name": "伊莫",
+          "publisher": "上海趣乐糖网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6768584375",
+          "url": "https://apps.apple.com/cn/app/%E4%BC%8A%E8%8E%AB/id6768584375?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/2e/40/1a2e4029-3af9-45e2-61f5-594590d918e5/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《伊莫》是一款多人在线大世界捉宠RPG。你将在广袤的艾德尔大陆上邂逅各种神奇生物——伊莫。和他们联结合体，还能以全新的视角和能力感受这个世界的美好。你也可以来到"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "毛线大师 - 毛线消除游戏 疯狂毛线消不停",
+          "publisher": "Happy Bubble Information Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6748351662",
+          "url": "https://apps.apple.com/cn/app/%E6%AF%9B%E7%BA%BF%E5%A4%A7%E5%B8%88-%E6%AF%9B%E7%BA%BF%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F-%E7%96%AF%E7%8B%82%E6%AF%9B%E7%BA%BF%E6%B6%88%E4%B8%8D%E5%81%9C/id6748351662?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/3f/41/283f410a-fd0c-38e1-d621-308582649e60/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "告别焦虑，拥抱指尖上的色彩疗愈！\n你是否感觉生活有点灰蒙蒙？压力山大，想要找点简单快乐的小确幸？别担心！这款色彩缤纷的指尖小玩意儿，就像一杯鲜榨果汁，瞬间点亮你"
+        },
+        {
+          "rank": 20,
+          "name": "离线游戏 - 不用网络的游戏 不联网游戏",
+          "publisher": "Matchstick Castle Technology Co.,Ltd.",
+          "category": "游戏",
+          "app_id": "6478842010",
+          "url": "https://apps.apple.com/cn/app/%E7%A6%BB%E7%BA%BF%E6%B8%B8%E6%88%8F-%E4%B8%8D%E7%94%A8%E7%BD%91%E7%BB%9C%E7%9A%84%E6%B8%B8%E6%88%8F-%E4%B8%8D%E8%81%94%E7%BD%91%E6%B8%B8%E6%88%8F/id6478842010?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/04/a3/7004a38b-0937-3341-85ca-497fa914e978/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "告别流量焦虑！你的掌上迷你游乐园开张啦！ \n想随时随地来点小乐趣，又不想被网络信号绑架？ 这就是你的秘密武器！ 我们为你准备了一箩筐轻松有趣的小玩意，让你在任何"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "伊莫",
+          "publisher": "上海趣乐糖网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6768584375",
+          "url": "https://apps.apple.com/cn/app/%E4%BC%8A%E8%8E%AB/id6768584375?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/2e/40/1a2e4029-3af9-45e2-61f5-594590d918e5/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《伊莫》是一款多人在线大世界捉宠RPG。你将在广袤的艾德尔大陆上邂逅各种神奇生物——伊莫。和他们联结合体，还能以全新的视角和能力感受这个世界的美好。你也可以来到"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "バンドリ！アワーノーツ",
+          "publisher": "Bushiroad Inc.",
+          "category": "ゲーム",
+          "app_id": "6771716739",
+          "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/d9/0a/ead90a2d-8e3c-3356-edb5-c0d66e21afae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "BanG Dream!（バンドリ！）プロジェクトがおくる最新モバイルゲーム『バンドリ！アワーノーツ』が撃奏リズム×アドベンチャーとして登場！\n\n5つの新たなバン"
+        },
+        {
+          "rank": 2,
+          "name": "アニモ",
+          "publisher": "PAWPRINT INTERACTIVE ENTERTAINMENT PTE. LTD",
+          "category": "ゲーム",
+          "app_id": "6759098797",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%8B%E3%83%A2/id6759098797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/a8/2e/aba82e5b-5492-1e01-d677-634abedfa5e8/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『アニモ』は、基本プレイ無料の次世代オープンワールドモンスター収集RPG。\n広大なアイディル大陸を舞台に、個性豊かなアニモと出会い、リンクによって新たな能力を解"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "滅亡の未来：ラスト・スタンド",
+          "publisher": "Lolly Technology Limited",
+          "category": "ゲーム",
+          "app_id": "6799583064",
+          "url": "https://apps.apple.com/jp/app/%E6%BB%85%E4%BA%A1%E3%81%AE%E6%9C%AA%E6%9D%A5-%E3%83%A9%E3%82%B9%E3%83%88-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/id6799583064?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/62/95/4e6295d7-3c3e-394b-a273-05b69d0a19d1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "闇に覆われた幻想世界へ足を踏み入れ、狼の守護者たちの足跡を辿り、危険に満ちた城、荒野、古代遺跡を探索せよ。数々のステージに挑み、キャラクターを育成し、スキルを強"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "バンドリ！アワーノーツ",
+          "publisher": "Bushiroad Inc.",
+          "category": "ゲーム",
+          "app_id": "6771716739",
+          "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/d9/0a/ead90a2d-8e3c-3356-edb5-c0d66e21afae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "BanG Dream!（バンドリ！）プロジェクトがおくる最新モバイルゲーム『バンドリ！アワーノーツ』が撃奏リズム×アドベンチャーとして登場！\n\n5つの新たなバン"
+        },
+        {
+          "rank": 2,
+          "name": "アニモ",
+          "publisher": "PAWPRINT INTERACTIVE ENTERTAINMENT PTE. LTD",
+          "category": "ゲーム",
+          "app_id": "6759098797",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%8B%E3%83%A2/id6759098797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/a8/2e/aba82e5b-5492-1e01-d677-634abedfa5e8/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『アニモ』は、基本プレイ無料の次世代オープンワールドモンスター収集RPG。\n広大なアイディル大陸を舞台に、個性豊かなアニモと出会い、リンクによって新たな能力を解"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "バンドリ！アワーノーツ",
+          "publisher": "Bushiroad Inc.",
+          "category": "ゲーム",
+          "app_id": "6771716739",
+          "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/d9/0a/ead90a2d-8e3c-3356-edb5-c0d66e21afae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "BanG Dream!（バンドリ！）プロジェクトがおくる最新モバイルゲーム『バンドリ！アワーノーツ』が撃奏リズム×アドベンチャーとして登場！\n\n5つの新たなバン"
+        },
+        {
+          "rank": 2,
+          "name": "アニモ",
+          "publisher": "PAWPRINT INTERACTIVE ENTERTAINMENT PTE. LTD",
+          "category": "ゲーム",
+          "app_id": "6759098797",
+          "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%8B%E3%83%A2/id6759098797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/a8/2e/aba82e5b-5492-1e01-d677-634abedfa5e8/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『アニモ』は、基本プレイ無料の次世代オープンワールドモンスター収集RPG。\n広大なアイディル大陸を舞台に、個性豊かなアニモと出会い、リンクによって新たな能力を解"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "Brain Puzzle 3: Crazy Mind",
+          "publisher": "JoyGame Studio",
+          "category": "Games",
+          "package": "com.brain.crazy.joygame"
+        },
+        {
+          "rank": 18,
+          "name": "Brainy Escape Quest",
+          "publisher": "Metagame.Ltd",
+          "category": "Games",
+          "package": "com.metagame.annoying.trick.brainypuzzle"
+        },
+        {
+          "rank": 20,
+          "name": "Slow Mo Strike: Knives in Time",
+          "publisher": "KAYAC Inc.",
+          "category": "Games",
+          "package": "com.kayac.slow_mo_strike"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
