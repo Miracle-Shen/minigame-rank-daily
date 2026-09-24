@@ -1,0 +1,764 @@
+{
+  "date": "2026-09-24",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 13,
+          "name": "玩转脑洞呀",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxc25b89237af791cf",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "九霄仙府",
+          "category": "其他",
+          "category_rank": 1,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "点点互动（北京）科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx486d8e94a8beaf11",
+          "publisher_id": 20052313
+        },
+        {
+          "rank": 20,
+          "name": "梦幻消除战",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "广州喜势网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxc721a6dc3366ec1f",
+          "publisher_id": 20192419
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 13,
+          "name": "玩转脑洞呀",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxc25b89237af791cf",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 9,
+          "name": "使命召唤手游",
+          "category": "竞技",
+          "category_rank": 2,
+          "subcategory": "枪战",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxa09354dfc96147e3",
+          "publisher_id": 20002309
+        }
+      ],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "神器传说",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳全民互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxf6f9346dd7545588",
+          "publisher_id": 20012312
+        },
+        {
+          "rank": 17,
+          "name": "佣兵小镇",
+          "category": "角色",
+          "category_rank": 3,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "成都天象互动文化传播有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx59d849f9c3f1f710",
+          "publisher_id": 20192367
+        },
+        {
+          "rank": 18,
+          "name": "跃动小子",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "波克科技集团有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx6cce8ac2ea74103e",
+          "publisher_id": 20052324
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "使命召唤手游",
+          "category": "竞技",
+          "category_rank": 2,
+          "subcategory": "枪战",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxa09354dfc96147e3",
+          "publisher_id": 20002309
+        }
+      ]
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [
+        {
+          "rank": 19,
+          "name": "有种来闯关",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx3c3900a575307c9b",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "切开一切3D",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxb560805440cd6156",
+          "publisher_id": 20002390
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 19,
+          "name": "有种来闯关",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx3c3900a575307c9b",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "夸父追日",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海阳笙信息技术服务有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt453a3387da05c7be02",
+          "publisher_id": 20242611
+        },
+        {
+          "rank": 19,
+          "name": "王者赛车手",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门玩变体网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt7d4f0bf2e32bad1d07",
+          "publisher_id": 20262383
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "大家来闯关吧",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都布尔凯索科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt47283195d94ffea507",
+          "publisher_id": 20244255
+        },
+        {
+          "rank": 15,
+          "name": "超级节奏101",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门凯斌信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttfd468bfb624ddfb102",
+          "publisher_id": 20242342
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "夸父追日",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海阳笙信息技术服务有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt453a3387da05c7be02",
+          "publisher_id": 20242611
+        },
+        {
+          "rank": 19,
+          "name": "王者赛车手",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门玩变体网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt7d4f0bf2e32bad1d07",
+          "publisher_id": 20262383
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "四季合合",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt210457b9be35faff07",
+          "publisher_id": 20002380
+        },
+        {
+          "rank": 16,
+          "name": "勇者乱斗",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州电梦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt4ffa3947d0f477c207",
+          "publisher_id": 20244649
+        },
+        {
+          "rank": 18,
+          "name": "神器传说",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt19026fbf860bc6a102",
+          "publisher_id": 20002345
+        },
+        {
+          "rank": 20,
+          "name": "梦仙灵",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州信跃网络技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttfa9b8c2664f8f3e102",
+          "publisher_id": 20244729
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "我的厂长日常",
+          "category": "1",
+          "category_rank": 8,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门很稳网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt17d0616d88dfd90207",
+          "publisher_id": 20122306
+        },
+        {
+          "rank": 13,
+          "name": "我要烧烧脑",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海密幂科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt409f3622defe355907",
+          "publisher_id": 20262395
+        },
+        {
+          "rank": 19,
+          "name": "老铁转起来",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市石晟科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt61e0175dff87474002",
+          "publisher_id": 20292377
+        },
+        {
+          "rank": 20,
+          "name": "渡仙",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州市闪游文化有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc084b6395efe215f07",
+          "publisher_id": 20243894
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 10,
+          "name": "下方了",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳飞鱼星空科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5fb3290ec1d061c102",
+          "publisher_id": 20292340
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "下方了",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳飞鱼星空科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5fb3290ec1d061c102",
+          "publisher_id": 20292340
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "我的厂长日常",
+          "category": "1",
+          "category_rank": 8,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门很稳网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt17d0616d88dfd90207",
+          "publisher_id": 20122306
+        },
+        {
+          "rank": 10,
+          "name": "下方了",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳飞鱼星空科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5fb3290ec1d061c102",
+          "publisher_id": 20292340
+        },
+        {
+          "rank": 13,
+          "name": "我要烧烧脑",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海密幂科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt409f3622defe355907",
+          "publisher_id": 20262395
+        },
+        {
+          "rank": 19,
+          "name": "老铁转起来",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市石晟科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt61e0175dff87474002",
+          "publisher_id": 20292377
+        },
+        {
+          "rank": 20,
+          "name": "渡仙",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州市闪游文化有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc084b6395efe215f07",
+          "publisher_id": 20243894
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "BanG Dream! Our Notes",
+          "publisher": "新闻消息",
+          "category": "音乐"
+        },
+        {
+          "rank": 10,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "Roguelike",
+          "subcategory": "多人联机、动作、Steam移植、买断制、单机、独立游戏、冒险"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 12,
+          "name": "Minion Rush: Running game",
+          "publisher": "Gameloft",
+          "category": "Games",
+          "app_id": "596402997",
+          "url": "https://apps.apple.com/us/app/minion-rush-running-game/id596402997?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/0e/51/ff0e519a-2cbe-abf6-9ee6-5d1cc407538f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the New Generation of Minion Rush!\n\nGet ready to experience new advent"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 12,
+          "name": "Minion Rush: Running game",
+          "publisher": "Gameloft",
+          "category": "Games",
+          "app_id": "596402997",
+          "url": "https://apps.apple.com/us/app/minion-rush-running-game/id596402997?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/0e/51/ff0e519a-2cbe-abf6-9ee6-5d1cc407538f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the New Generation of Minion Rush!\n\nGet ready to experience new advent"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 12,
+          "name": "Minion Rush: Running game",
+          "publisher": "Gameloft",
+          "category": "Games",
+          "app_id": "596402997",
+          "url": "https://apps.apple.com/us/app/minion-rush-running-game/id596402997?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/0e/51/ff0e519a-2cbe-abf6-9ee6-5d1cc407538f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Step into the New Generation of Minion Rush!\n\nGet ready to experience new advent"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "潮汐守望者",
+          "publisher": "Moonton Games",
+          "category": "游戏",
+          "app_id": "6484164228",
+          "url": "https://apps.apple.com/cn/app/%E6%BD%AE%E6%B1%90%E5%AE%88%E6%9C%9B%E8%80%85/id6484164228?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/6c/52/dc6c5269-daea-49c8-7958-cff00f94fb1f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「策略不将就，谁玩谁上头」\n塔防策略革新者《潮汐守望者》——抛开简单呆板的合成消除，感受耐玩上头的塔防策略。\n你将扮演泰亚大陆的指挥官，在原汁原味的写实西幻世界"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 4,
+          "name": "潮汐守望者",
+          "publisher": "Moonton Games",
+          "category": "游戏",
+          "app_id": "6484164228",
+          "url": "https://apps.apple.com/cn/app/%E6%BD%AE%E6%B1%90%E5%AE%88%E6%9C%9B%E8%80%85/id6484164228?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/6c/52/dc6c5269-daea-49c8-7958-cff00f94fb1f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「策略不将就，谁玩谁上头」\n塔防策略革新者《潮汐守望者》——抛开简单呆板的合成消除，感受耐玩上头的塔防策略。\n你将扮演泰亚大陆的指挥官，在原汁原味的写实西幻世界"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "潮汐守望者",
+          "publisher": "Moonton Games",
+          "category": "游戏",
+          "app_id": "6484164228",
+          "url": "https://apps.apple.com/cn/app/%E6%BD%AE%E6%B1%90%E5%AE%88%E6%9C%9B%E8%80%85/id6484164228?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/6c/52/dc6c5269-daea-49c8-7958-cff00f94fb1f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「策略不将就，谁玩谁上头」\n塔防策略革新者《潮汐守望者》——抛开简单呆板的合成消除，感受耐玩上头的塔防策略。\n你将扮演泰亚大陆的指挥官，在原汁原味的写实西幻世界"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "刀剣乱舞ぱずぎり",
+          "publisher": "EXNOA LLC",
+          "category": "ゲーム",
+          "app_id": "6747331078",
+          "url": "https://apps.apple.com/jp/app/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E%E3%81%B1%E3%81%9A%E3%81%8E%E3%82%8A/id6747331078?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/dc/45/a1dc457f-592b-be80-24b6-08ce2b8075b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■なぞって、つなげて、簡単パズル！\n 同じ色の鬼をなぞってつなげると、刀剣男士が一刀両断！\n たくさんつなげるほど攻撃は強力になり、サクッと爽快感を楽しめるパズ"
+        },
+        {
+          "rank": 17,
+          "name": "ぼくのプロ野球",
+          "publisher": "Krafta",
+          "category": "ゲーム",
+          "app_id": "6802769622",
+          "url": "https://apps.apple.com/jp/app/%E3%81%BC%E3%81%8F%E3%81%AE%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83/id6802769622?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/0a/64/ae0a6453-7ed9-f7ac-05e7-a8248b25fc6b/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "あなたはプロ野球球団のGM（ゼネラルマネージャー）。\n監督ではなく、チームを作る側として優勝を目指すシミュレーションゲームです。\n\nドラフトで誰を獲るか。主力の"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "ゴシップハーバー：マージ & ストーリー",
+          "publisher": "Microfun Limited",
+          "category": "ゲーム",
+          "app_id": "1623318294",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B4%E3%82%B7%E3%83%83%E3%83%97%E3%83%8F%E3%83%BC%E3%83%90%E3%83%BC-%E3%83%9E%E3%83%BC%E3%82%B8-%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC/id1623318294?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fe/5f/a8/fe5fa8bd-23a0-8fc1-e7b6-af93cc405a9a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ゴシップハーバーへようこそ！\n離婚、裏切り、破壊——クインのブリムウェーブでの平穏な暮らしが少しずつ狂い始めている。クインとともにこの島の秘密を探り、事件の黒幕"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "刀剣乱舞ぱずぎり",
+          "publisher": "EXNOA LLC",
+          "category": "ゲーム",
+          "app_id": "6747331078",
+          "url": "https://apps.apple.com/jp/app/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E%E3%81%B1%E3%81%9A%E3%81%8E%E3%82%8A/id6747331078?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/dc/45/a1dc457f-592b-be80-24b6-08ce2b8075b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "■なぞって、つなげて、簡単パズル！\n 同じ色の鬼をなぞってつなげると、刀剣男士が一刀両断！\n たくさんつなげるほど攻撃は強力になり、サクッと爽快感を楽しめるパズ"
+        },
+        {
+          "rank": 17,
+          "name": "ぼくのプロ野球",
+          "publisher": "Krafta",
+          "category": "ゲーム",
+          "app_id": "6802769622",
+          "url": "https://apps.apple.com/jp/app/%E3%81%BC%E3%81%8F%E3%81%AE%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83/id6802769622?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/0a/64/ae0a6453-7ed9-f7ac-05e7-a8248b25fc6b/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "あなたはプロ野球球団のGM（ゼネラルマネージャー）。\n監督ではなく、チームを作る側として優勝を目指すシミュレーションゲームです。\n\nドラフトで誰を獲るか。主力の"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "Fish Sort Puzzle",
+          "publisher": "Shycheese",
+          "category": "Games",
+          "package": "triple.sorting.bubble.fish.match"
+        },
+        {
+          "rank": 19,
+          "name": "CarLoop",
+          "publisher": "UUTEAM Technology Limited",
+          "category": "Games",
+          "package": "com.blast.puzzlegame.bear"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
