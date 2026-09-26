@@ -1,0 +1,812 @@
+{
+  "date": "2026-09-26",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "赛场极限漂移",
+          "category": "休闲",
+          "category_rank": 7,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx2a1a415ead2c581f",
+          "publisher_id": 0
+        },
+        {
+          "rank": 14,
+          "name": "破坏布娃娃2",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx8cf0d8e2bdffb380",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "躺平发育",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊娱乐文化有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx8f54d0cf1faf013f",
+          "publisher_id": 20002386
+        },
+        {
+          "rank": 13,
+          "name": "开局带把枪",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "邯郸小空科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx97389648b73dfeca",
+          "publisher_id": 20244511
+        },
+        {
+          "rank": 15,
+          "name": "贪吃蛇大作战",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "武汉微派网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxf4ac0077b6ffb1e7",
+          "publisher_id": 20002385
+        },
+        {
+          "rank": 18,
+          "name": "打下毛线",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州指望科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxf28cef521695cd2a",
+          "publisher_id": 20002383
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "赛场极限漂移",
+          "category": "休闲",
+          "category_rank": 7,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx2a1a415ead2c581f",
+          "publisher_id": 0
+        },
+        {
+          "rank": 14,
+          "name": "破坏布娃娃2",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx8cf0d8e2bdffb380",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "次神：光之觉醒",
+          "category": "角色",
+          "category_rank": 2,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "在线途游（北京）科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx35ab0021daa3a9a0",
+          "publisher_id": 20002308
+        },
+        {
+          "rank": 11,
+          "name": "欢乐战三国",
+          "category": "角色",
+          "category_rank": 3,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "深圳市奥创互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxfea7e3014cf95068",
+          "publisher_id": 20142312
+        },
+        {
+          "rank": 19,
+          "name": "造化仙府",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "上海沛炫网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxc5c6c4e6b4b0075f",
+          "publisher_id": 20152376
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "躺平发育",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊娱乐文化有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx8f54d0cf1faf013f",
+          "publisher_id": 20002386
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 20,
+          "name": "消除就是6",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州指上文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt327544c8ad77810f07",
+          "publisher_id": 20192363
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 11,
+          "name": "贪吃蛇大作战",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉微派网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb491c22c2bbb015a",
+          "publisher_id": 20002385
+        },
+        {
+          "rank": 16,
+          "name": "猛鬼宿舍",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt00e576589fdceaa202",
+          "publisher_id": 20192384
+        },
+        {
+          "rank": 17,
+          "name": "黑洞入侵",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "邯郸太空船信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6d5b1be6f264c45707",
+          "publisher_id": 20052305
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 20,
+          "name": "消除就是6",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州指上文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt327544c8ad77810f07",
+          "publisher_id": 20192363
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 2,
+          "name": "次神光之觉醒",
+          "category": "1",
+          "category_rank": 2,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京雪境科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf50b83b66a377fc402",
+          "publisher_id": 20242348
+        },
+        {
+          "rank": 10,
+          "name": "手机反恐特别行动",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都疾风劲趣科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1d496bf48278820a07",
+          "publisher_id": 20052309
+        },
+        {
+          "rank": 12,
+          "name": "欢乐战三国",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南哎呦互娱网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttacb7da0a33bf499507",
+          "publisher_id": 20243428
+        },
+        {
+          "rank": 16,
+          "name": "零日指令",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州云山意象科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt79b90f04e7df5acb07",
+          "publisher_id": 20282300
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "谁来都能赢",
+          "category": "1",
+          "category_rank": 4,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙汉游网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc6ffb0425899498b07",
+          "publisher_id": 20242833
+        },
+        {
+          "rank": 6,
+          "name": "再砍一刀就行",
+          "category": "1",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市妙迹互娱有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttee1998a4707c92e407",
+          "publisher_id": 20302360
+        },
+        {
+          "rank": 7,
+          "name": "打完这关就睡",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "湖南中昱智云物联科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb08dc6302ee87ebd02",
+          "publisher_id": 20012404
+        },
+        {
+          "rank": 12,
+          "name": "地狱少女次元换装",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门喵帕鲁科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt75880335ebedebb202",
+          "publisher_id": 20192508
+        },
+        {
+          "rank": 14,
+          "name": "孤岛探险家",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门歆阳网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6f23199ef01cf35502",
+          "publisher_id": 20302444
+        },
+        {
+          "rank": 17,
+          "name": "这局有点秀",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州池骋网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt432a3597dd4ef30107",
+          "publisher_id": 20012361
+        },
+        {
+          "rank": 18,
+          "name": "这关有点妙",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都布尔凯索科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt4ee7385ad09dfdbe02",
+          "publisher_id": 20244255
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 7,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "谁来都能赢",
+          "category": "1",
+          "category_rank": 4,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙汉游网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc6ffb0425899498b07",
+          "publisher_id": 20242833
+        },
+        {
+          "rank": 6,
+          "name": "再砍一刀就行",
+          "category": "1",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市妙迹互娱有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttee1998a4707c92e407",
+          "publisher_id": 20302360
+        },
+        {
+          "rank": 7,
+          "name": "打完这关就睡",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "湖南中昱智云物联科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb08dc6302ee87ebd02",
+          "publisher_id": 20012404
+        },
+        {
+          "rank": 12,
+          "name": "地狱少女次元换装",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门喵帕鲁科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt75880335ebedebb202",
+          "publisher_id": 20192508
+        },
+        {
+          "rank": 14,
+          "name": "孤岛探险家",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门歆阳网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6f23199ef01cf35502",
+          "publisher_id": 20302444
+        },
+        {
+          "rank": 17,
+          "name": "这局有点秀",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州池骋网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt432a3597dd4ef30107",
+          "publisher_id": 20012361
+        },
+        {
+          "rank": 18,
+          "name": "这关有点妙",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都布尔凯索科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt4ee7385ad09dfdbe02",
+          "publisher_id": 20244255
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "小苔屋",
+          "publisher": "猫猫世纪工作室",
+          "category": "休闲"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "粒粒的小人国",
+          "publisher": "腾讯",
+          "category": "模拟经营",
+          "subcategory": "建造、治愈、休闲、3D、社交、种田、换装、多人联机、角色扮演"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "小苔屋",
+          "publisher": "猫猫世纪工作室",
+          "category": "休闲"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "小苔屋",
+          "publisher": "猫猫世纪工作室",
+          "category": "休闲"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 9,
+          "name": "Castlevania: 40th Anniversary",
+          "publisher": "KONAMI",
+          "category": "Games",
+          "app_id": "1498019884",
+          "url": "https://apps.apple.com/us/app/castlevania-40th-anniversary/id1498019884?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/27/af/ed27afe5-3d3a-2033-a2f0-2f5b42e15baa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "The Castlevania game that started it all finally comes to mobile for a limited t"
+        },
+        {
+          "rank": 20,
+          "name": "Rotate Rings",
+          "publisher": "Nebula Studio",
+          "category": "Games",
+          "app_id": "6793924927",
+          "url": "https://apps.apple.com/us/app/rotate-rings/id6793924927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/d2/28/a0d2287e-3406-6134-6080-0676f7e9608f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Spin, align, and unlock! Welcome to Rotate Rings — the ultimate spatial logic pu"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "Castlevania: 40th Anniversary",
+          "publisher": "KONAMI",
+          "category": "Games",
+          "app_id": "1498019884",
+          "url": "https://apps.apple.com/us/app/castlevania-40th-anniversary/id1498019884?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/27/af/ed27afe5-3d3a-2033-a2f0-2f5b42e15baa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "The Castlevania game that started it all finally comes to mobile for a limited t"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "Castlevania: 40th Anniversary",
+          "publisher": "KONAMI",
+          "category": "Games",
+          "app_id": "1498019884",
+          "url": "https://apps.apple.com/us/app/castlevania-40th-anniversary/id1498019884?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/27/af/ed27afe5-3d3a-2033-a2f0-2f5b42e15baa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "The Castlevania game that started it all finally comes to mobile for a limited t"
+        },
+        {
+          "rank": 20,
+          "name": "Rotate Rings",
+          "publisher": "Nebula Studio",
+          "category": "Games",
+          "app_id": "6793924927",
+          "url": "https://apps.apple.com/us/app/rotate-rings/id6793924927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/d2/28/a0d2287e-3406-6134-6080-0676f7e9608f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Spin, align, and unlock! Welcome to Rotate Rings — the ultimate spatial logic pu"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 14,
+          "name": "伯吉的温馨厨房",
+          "publisher": "易美(深圳)网络科技发展有限公司",
+          "category": "游戏",
+          "app_id": "6795387415",
+          "url": "https://apps.apple.com/cn/app/%E4%BC%AF%E5%90%89%E7%9A%84%E6%B8%A9%E9%A6%A8%E5%8E%A8%E6%88%BF/id6795387415?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/32/5f/cd325fd6-4009-06da-225e-878629d6061c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《伯吉的温馨厨房》是一款从Steam平台移植的治愈系模拟经营游戏，主打轻松真实'无压力'的烹饪体验与可爱又混乱的物理互动效果，让你随时随地都能打理属于自己的温馨"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "迷你世界",
+          "publisher": "Miniwan Tech",
+          "category": "游戏",
+          "app_id": "1170455562",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C/id1170455562?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/aa/cc/4eaacc8d-34af-4b92-b62e-d5c9bba30f2e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【游戏介绍】\r\n《迷你世界》是一款高自由的精美3D沙盒游戏。\r\n这里没有规则限制，也没有特定的玩法，只有破坏和创造、生存与冒险的乐趣。\r\n可以通过双手和智慧完成"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 14,
+          "name": "伯吉的温馨厨房",
+          "publisher": "易美(深圳)网络科技发展有限公司",
+          "category": "游戏",
+          "app_id": "6795387415",
+          "url": "https://apps.apple.com/cn/app/%E4%BC%AF%E5%90%89%E7%9A%84%E6%B8%A9%E9%A6%A8%E5%8E%A8%E6%88%BF/id6795387415?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/32/5f/cd325fd6-4009-06da-225e-878629d6061c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《伯吉的温馨厨房》是一款从Steam平台移植的治愈系模拟经营游戏，主打轻松真实'无压力'的烹饪体验与可爱又混乱的物理互动效果，让你随时随地都能打理属于自己的温馨"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 14,
+          "name": "伯吉的温馨厨房",
+          "publisher": "易美(深圳)网络科技发展有限公司",
+          "category": "游戏",
+          "app_id": "6795387415",
+          "url": "https://apps.apple.com/cn/app/%E4%BC%AF%E5%90%89%E7%9A%84%E6%B8%A9%E9%A6%A8%E5%8E%A8%E6%88%BF/id6795387415?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/32/5f/cd325fd6-4009-06da-225e-878629d6061c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《伯吉的温馨厨房》是一款从Steam平台移植的治愈系模拟经营游戏，主打轻松真实'无压力'的烹饪体验与可爱又混乱的物理互动效果，让你随时随地都能打理属于自己的温馨"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "悪魔城ドラキュラ",
+          "publisher": "KONAMI",
+          "category": "ゲーム",
+          "app_id": "1498019884",
+          "url": "https://apps.apple.com/jp/app/%E6%82%AA%E9%AD%94%E5%9F%8E%E3%83%89%E3%83%A9%E3%82%AD%E3%83%A5%E3%83%A9/id1498019884?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/27/af/ed27afe5-3d3a-2033-a2f0-2f5b42e15baa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "シリーズの原点「悪魔城ドラキュラ」が期間限定でスマートフォンに復活。\n\n□ストーリー\n\n中世ヨーロッパにある平和な小国トランシルバニア。この国にはドラキュラにま"
+        },
+        {
+          "rank": 14,
+          "name": "Rotate Rings",
+          "publisher": "Nebula Studio",
+          "category": "ゲーム",
+          "app_id": "6793924927",
+          "url": "https://apps.apple.com/jp/app/rotate-rings/id6793924927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/d2/28/a0d2287e-3406-6134-6080-0676f7e9608f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "回して、揃えて、ロック解除！『Rotate Rings』へようこそ——頭脳を研ぎ澄まし、心地よいリラックスをもたらす究極の3D空間パズルゲームです。\n複雑に組み"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "悪魔城ドラキュラ",
+          "publisher": "KONAMI",
+          "category": "ゲーム",
+          "app_id": "1498019884",
+          "url": "https://apps.apple.com/jp/app/%E6%82%AA%E9%AD%94%E5%9F%8E%E3%83%89%E3%83%A9%E3%82%AD%E3%83%A5%E3%83%A9/id1498019884?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/27/af/ed27afe5-3d3a-2033-a2f0-2f5b42e15baa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "シリーズの原点「悪魔城ドラキュラ」が期間限定でスマートフォンに復活。\n\n□ストーリー\n\n中世ヨーロッパにある平和な小国トランシルバニア。この国にはドラキュラにま"
+        },
+        {
+          "rank": 14,
+          "name": "Rotate Rings",
+          "publisher": "Nebula Studio",
+          "category": "ゲーム",
+          "app_id": "6793924927",
+          "url": "https://apps.apple.com/jp/app/rotate-rings/id6793924927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/d2/28/a0d2287e-3406-6134-6080-0676f7e9608f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "回して、揃えて、ロック解除！『Rotate Rings』へようこそ——頭脳を研ぎ澄まし、心地よいリラックスをもたらす究極の3D空間パズルゲームです。\n複雑に組み"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "Fish Sort Puzzle",
+          "publisher": "Shycheese",
+          "category": "Games",
+          "package": "triple.sorting.bubble.fish.match"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
