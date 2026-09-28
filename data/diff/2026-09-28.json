@@ -1,0 +1,609 @@
+{
+  "date": "2026-09-28",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 19,
+          "name": "开局一条枪",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxc21f10b950fb8017",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "解压闯一关",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州探游网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd168d04b737f0579",
+          "publisher_id": 20232331
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 19,
+          "name": "开局一条枪",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxc21f10b950fb8017",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "永夜起源",
+          "category": "角色",
+          "category_rank": 2,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "广州招崭信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx1ab0da97c26e5574",
+          "publisher_id": 20302428
+        },
+        {
+          "rank": 16,
+          "name": "大王请上阵",
+          "category": "角色",
+          "category_rank": 3,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "深圳市悦莱顺网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx10fdc3aa2ebc5279",
+          "publisher_id": 20302429
+        },
+        {
+          "rank": 17,
+          "name": "空格之境",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0e0531466ba56547",
+          "publisher_id": 20244673
+        },
+        {
+          "rank": 20,
+          "name": "王者舰队",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "北京赫德时代科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx16de056120be0839",
+          "publisher_id": 20172305
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 17,
+          "name": "打下毛线",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州指望科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxf28cef521695cd2a",
+          "publisher_id": 20002383
+        }
+      ],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "贪吃蛇大作战",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "武汉微派网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxf4ac0077b6ffb1e7",
+          "publisher_id": 20002385
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 17,
+          "name": "打下毛线",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州指望科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxf28cef521695cd2a",
+          "publisher_id": 20002383
+        }
+      ]
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "无尽冬日",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海青笛科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcb0dbdb0543b8b2007",
+          "publisher_id": 20242351
+        },
+        {
+          "rank": 18,
+          "name": "空格之境",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt96a6e01b08c553f502",
+          "publisher_id": 20244673
+        },
+        {
+          "rank": 19,
+          "name": "超能下蛋鸭",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "世熠网络科技（上海）有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt96fde04009f58bfe07",
+          "publisher_id": 20192366
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "数字迷局",
+          "category": "1",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京微小怪兽科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt819af7271fff707402",
+          "publisher_id": 20242564
+        },
+        {
+          "rank": 13,
+          "name": "飞机大战（豪华版）",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门做一些好玩的游戏有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8ad8fc6514bcb21007",
+          "publisher_id": 20302381
+        },
+        {
+          "rank": 19,
+          "name": "像素世界生成",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门市冰天信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc4ccb2715aa84aae07",
+          "publisher_id": 20244596
+        },
+        {
+          "rank": 20,
+          "name": "问鼎群雄",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州百悦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2b125dafb569cebb02",
+          "publisher_id": 20302545
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 6,
+          "name": "数字迷局",
+          "category": "1",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京微小怪兽科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt819af7271fff707402",
+          "publisher_id": 20242564
+        },
+        {
+          "rank": 20,
+          "name": "问鼎群雄",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州百悦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2b125dafb569cebb02",
+          "publisher_id": 20302545
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 0,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "数字迷局",
+          "category": "1",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京微小怪兽科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt819af7271fff707402",
+          "publisher_id": 20242564
+        },
+        {
+          "rank": 13,
+          "name": "飞机大战（豪华版）",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门做一些好玩的游戏有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8ad8fc6514bcb21007",
+          "publisher_id": 20302381
+        },
+        {
+          "rank": 19,
+          "name": "像素世界生成",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门市冰天信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc4ccb2715aa84aae07",
+          "publisher_id": 20244596
+        },
+        {
+          "rank": 20,
+          "name": "问鼎群雄",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州百悦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2b125dafb569cebb02",
+          "publisher_id": 20302545
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "绿梦：时空之声",
+          "publisher": "绿梦工作室",
+          "category": "二次元",
+          "subcategory": "冒险、3D、策略、美少女、横版、科幻、角色扮演、动作"
+        },
+        {
+          "rank": 10,
+          "name": "七界梦谭",
+          "publisher": "飞光阁工作室",
+          "category": "角色扮演",
+          "subcategory": "修仙、高画质、MMORPG、开放世界、国风、3D"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "Car Evolve",
+          "publisher": "Heseri Games Inc",
+          "category": "Games",
+          "app_id": "6754464806",
+          "url": "https://apps.apple.com/us/app/car-evolve/id6754464806?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/2b/4d/142b4d0a-ce43-f35f-b4fd-7eb6584d571d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Build a better car with every run. Earn cash, upgrade parts, and push your dista"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "蛋仔派对-小猪佩奇联动",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1544884479",
+          "url": "https://apps.apple.com/cn/app/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9-%E5%B0%8F%E7%8C%AA%E4%BD%A9%E5%A5%87%E8%81%94%E5%8A%A8/id1544884479?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/f1/dc/62f1dc5a-f247-648b-90f8-d885a9ed4167/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎光临蛋仔岛！《蛋仔派对》是一款拥有5亿玩家的国民原创乐园游戏。在这里，你将化身Q萌的蛋仔，在盲盒机背后的神秘世界——蛋仔岛，展开一段奇妙的闯关之旅。游戏内含"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "疯狂水世界",
+          "publisher": "益世界网络科技(上海)有限公司",
+          "category": "游戏",
+          "app_id": "6757172630",
+          "url": "https://apps.apple.com/cn/app/%E7%96%AF%E7%8B%82%E6%B0%B4%E4%B8%96%E7%95%8C/id6757172630?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/2d/e3/a82de390-4557-930a-a700-299ee3173429/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《疯狂水世界》是一款沉浸式海上末日模拟生存手游！在环境崩坏，陆地被淹没的未来，您将作为一位被命运选中的领袖，驾驶孤舟，探索海域，搜集残存物资，接纳四方的接纳者，"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "蛋仔派对-小猪佩奇联动",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "1544884479",
+          "url": "https://apps.apple.com/cn/app/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9-%E5%B0%8F%E7%8C%AA%E4%BD%A9%E5%A5%87%E8%81%94%E5%8A%A8/id1544884479?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/f1/dc/62f1dc5a-f247-648b-90f8-d885a9ed4167/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "欢迎光临蛋仔岛！《蛋仔派对》是一款拥有5亿玩家的国民原创乐园游戏。在这里，你将化身Q萌的蛋仔，在盲盒机背后的神秘世界——蛋仔岛，展开一段奇妙的闯关之旅。游戏内含"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "グルメ・ジャーニー",
+          "publisher": "Century Games Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6471045672",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%AB%E3%83%A1-%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%8B%E3%83%BC/id6471045672?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/68/03/316803f0-6e20-a426-9847-632369a5fd53/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "指先ひとつで世界旅行！新感覚『旅する』マージパズル登場！\n\n「グルメ・ジャーニー」のルールはとっても簡単！同じ食材を重ねて、新しい料理に進化させるだけ！サクサク"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 6,
+          "name": "Castlevania: 40th Anniversary",
+          "publisher": "KONAMI",
+          "category": "Games",
+          "package": "jp.konami.epjCastlevania1"
+        },
+        {
+          "rank": 20,
+          "name": "Rotate Rings",
+          "publisher": "Nebula  Studio",
+          "category": "Games",
+          "package": "com.nebula.rotaterings"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "Mobile Legends: Bang Bang.US",
+          "publisher": "Skystone Games Pte. Ltd.",
+          "category": "Games",
+          "package": "com.mobile.legends.usa"
+        },
+        {
+          "rank": 13,
+          "name": "Fish Sort Puzzle",
+          "publisher": "Shycheese",
+          "category": "Games",
+          "package": "triple.sorting.bubble.fish.match"
+        },
+        {
+          "rank": 17,
+          "name": "Paper.io 2",
+          "publisher": "VOODOO",
+          "category": "Games",
+          "package": "io.voodoo.paper2"
+        },
+        {
+          "rank": 19,
+          "name": "Melon Sandbox",
+          "publisher": "playducky.com",
+          "category": "Games",
+          "package": "com.studio27.MelonPlayground"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "Castlevania: 40th Anniversary",
+          "publisher": "KONAMI",
+          "category": "Games",
+          "package": "jp.konami.epjCastlevania1"
+        },
+        {
+          "rank": 20,
+          "name": "Rotate Rings",
+          "publisher": "Nebula  Studio",
+          "category": "Games",
+          "package": "com.nebula.rotaterings"
+        }
+      ]
+    }
+  }
+}
