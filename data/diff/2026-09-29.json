@@ -1,0 +1,669 @@
+{
+  "date": "2026-09-29",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "开心消消乐",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "乐元素科技(北京)股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0647ea28e8169ef5",
+          "publisher_id": 20002406
+        },
+        {
+          "rank": 13,
+          "name": "一箭又一箭",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "海南掌趣网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx69949b45b793b612",
+          "publisher_id": 20082303
+        },
+        {
+          "rank": 16,
+          "name": "奇幻果园",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "杭州锦泽文化创意有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxb4a3c67915ab4d15",
+          "publisher_id": 20302460
+        },
+        {
+          "rank": 20,
+          "name": "梦幻消除战",
+          "category": "休闲",
+          "category_rank": 19,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "广州喜势网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxc721a6dc3366ec1f",
+          "publisher_id": 20192419
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "王者征途",
+          "category": "角色",
+          "category_rank": 2,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxbfc89b084ad52a75",
+          "publisher_id": 20002338
+        },
+        {
+          "rank": 19,
+          "name": "原始征途",
+          "category": "角色",
+          "category_rank": 4,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "巨人网络集团股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxfd8da8f8efcda4a7",
+          "publisher_id": 20012407
+        },
+        {
+          "rank": 20,
+          "name": "次神：光之觉醒",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "在线途游（北京）科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx35ab0021daa3a9a0",
+          "publisher_id": 20002308
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "这就是谐音梗",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市时间坊贸易有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttbe03c8be20643d3a07",
+          "publisher_id": 20192362
+        },
+        {
+          "rank": 16,
+          "name": "脑子真灵光",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州沃乐趣科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt81adf7101ea4dde402",
+          "publisher_id": 20243178
+        },
+        {
+          "rank": 18,
+          "name": "黑洞入侵",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "邯郸太空船信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6d5b1be6f264c45707",
+          "publisher_id": 20052305
+        },
+        {
+          "rank": 20,
+          "name": "消除就是6",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州指上文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt327544c8ad77810f07",
+          "publisher_id": 20192363
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "王者征途",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttbffec94320cdded502",
+          "publisher_id": 20002338
+        },
+        {
+          "rank": 18,
+          "name": "指尖幻影",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南异界科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt50b1260ccf86275602",
+          "publisher_id": 20152338
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "开心大碰撞",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门御长风网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2ba95d14b4a3e7a007",
+          "publisher_id": 20302575
+        },
+        {
+          "rank": 12,
+          "name": "疯狂的拍打",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门市时熵创想科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt536925d4cd13007407",
+          "publisher_id": 20262419
+        },
+        {
+          "rank": 16,
+          "name": "爱莎心动城堡",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门喵帕鲁科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt55f2234fcb97cbca02",
+          "publisher_id": 20192508
+        },
+        {
+          "rank": 19,
+          "name": "突突就完了",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都弄石互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt528c2431cce840eb07",
+          "publisher_id": 20192341
+        },
+        {
+          "rank": 20,
+          "name": "越跑越快",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门龙果互娱网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt69951f28f7efcefb07",
+          "publisher_id": 20302571
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "再砍一刀就行",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市妙迹互娱有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttee1998a4707c92e407",
+          "publisher_id": 20302360
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 7,
+          "name": "开心大碰撞",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门御长风网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2ba95d14b4a3e7a007",
+          "publisher_id": 20302575
+        },
+        {
+          "rank": 12,
+          "name": "疯狂的拍打",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门市时熵创想科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt536925d4cd13007407",
+          "publisher_id": 20262419
+        },
+        {
+          "rank": 19,
+          "name": "突突就完了",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都弄石互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt528c2431cce840eb07",
+          "publisher_id": 20192341
+        },
+        {
+          "rank": 20,
+          "name": "越跑越快",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门龙果互娱网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt69951f28f7efcefb07",
+          "publisher_id": 20302571
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 1,
+        "new_publishers": 4
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "开心大碰撞",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门御长风网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2ba95d14b4a3e7a007",
+          "publisher_id": 20302575
+        },
+        {
+          "rank": 12,
+          "name": "疯狂的拍打",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门市时熵创想科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt536925d4cd13007407",
+          "publisher_id": 20262419
+        },
+        {
+          "rank": 16,
+          "name": "爱莎心动城堡",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门喵帕鲁科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt55f2234fcb97cbca02",
+          "publisher_id": 20192508
+        },
+        {
+          "rank": 19,
+          "name": "突突就完了",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都弄石互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt528c2431cce840eb07",
+          "publisher_id": 20192341
+        },
+        {
+          "rank": 20,
+          "name": "越跑越快",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门龙果互娱网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt69951f28f7efcefb07",
+          "publisher_id": 20302571
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "现代战线",
+          "publisher": "玄鑫工作室",
+          "category": "动作"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "Roguelike",
+          "subcategory": "多人联机、动作、Steam移植、买断制、单机、独立游戏、冒险"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "现代战线",
+          "publisher": "玄鑫工作室",
+          "category": "动作"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 18,
+          "name": "接小人上车-逃出孤岛",
+          "publisher": "天嘉 赵",
+          "category": "游戏",
+          "app_id": "6795026537",
+          "url": "https://apps.apple.com/cn/app/%E6%8E%A5%E5%B0%8F%E4%BA%BA%E4%B8%8A%E8%BD%A6-%E9%80%83%E5%87%BA%E5%AD%A4%E5%B2%9B/id6795026537?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/fd/25/e1fd2509-999a-dabc-ac5a-459f50f322d5/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "孤岛危机蔓延，无数受困者亟待营救，联盟正式征召你成为救援水手，奔赴孤岛开启救援行动。\n救援规则须知：依据难民衣着色彩划分转运组别，精准分流是救援关键。身穿黄色衣"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 18,
+          "name": "接小人上车-逃出孤岛",
+          "publisher": "天嘉 赵",
+          "category": "游戏",
+          "app_id": "6795026537",
+          "url": "https://apps.apple.com/cn/app/%E6%8E%A5%E5%B0%8F%E4%BA%BA%E4%B8%8A%E8%BD%A6-%E9%80%83%E5%87%BA%E5%AD%A4%E5%B2%9B/id6795026537?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/fd/25/e1fd2509-999a-dabc-ac5a-459f50f322d5/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "孤岛危机蔓延，无数受困者亟待营救，联盟正式征召你成为救援水手，奔赴孤岛开启救援行动。\n救援规则须知：依据难民衣着色彩划分转运组别，精准分流是救援关键。身穿黄色衣"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 18,
+          "name": "接小人上车-逃出孤岛",
+          "publisher": "天嘉 赵",
+          "category": "游戏",
+          "app_id": "6795026537",
+          "url": "https://apps.apple.com/cn/app/%E6%8E%A5%E5%B0%8F%E4%BA%BA%E4%B8%8A%E8%BD%A6-%E9%80%83%E5%87%BA%E5%AD%A4%E5%B2%9B/id6795026537?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/fd/25/e1fd2509-999a-dabc-ac5a-459f50f322d5/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "孤岛危机蔓延，无数受困者亟待营救，联盟正式征召你成为救援水手，奔赴孤岛开启救援行动。\n救援规则须知：依据难民衣着色彩划分转运组别，精准分流是救援关键。身穿黄色衣"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "リング回転 (Rotate Rings)",
+          "publisher": "Nebula Studio",
+          "category": "ゲーム",
+          "app_id": "6793924927",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AA%E3%83%B3%E3%82%B0%E5%9B%9E%E8%BB%A2-rotate-rings/id6793924927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/53/61/515361e3-0844-74cc-a6fe-8a5c822bf3bd/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "回して、揃えて、ロック解除！『Rotate Rings』へようこそ——頭脳を研ぎ澄まし、心地よいリラックスをもたらす究極の3D空間パズルゲームです。\n複雑に組み"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "ロイヤルキングダム (Royal Kingdom)",
+          "publisher": "Dream Games",
+          "category": "ゲーム",
+          "app_id": "1606549505",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0-royal-kingdom/id1606549505?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/72/ff/c972ff0c-deff-888a-5a06-c4279a2780dd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「Royal Match」のクリエイターが最新のマッチ3パズル・アドベンチャー、「Royal Kingdom」をリリース！ 王家の新たなメンバーが登場！\n \n "
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "リング回転 (Rotate Rings)",
+          "publisher": "Nebula Studio",
+          "category": "ゲーム",
+          "app_id": "6793924927",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AA%E3%83%B3%E3%82%B0%E5%9B%9E%E8%BB%A2-rotate-rings/id6793924927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/53/61/515361e3-0844-74cc-a6fe-8a5c822bf3bd/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "回して、揃えて、ロック解除！『Rotate Rings』へようこそ——頭脳を研ぎ澄まし、心地よいリラックスをもたらす究極の3D空間パズルゲームです。\n複雑に組み"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 20,
+          "name": "Minion Rush: Running Game",
+          "publisher": "Gameloft SE",
+          "category": "Games",
+          "package": "com.gameloft.android.ANMP.GloftDMHM"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "Township",
+          "publisher": "Playrix",
+          "category": "Games",
+          "package": "com.playrix.township"
+        },
+        {
+          "rank": 19,
+          "name": "Gossip Harbor: Merge & Story",
+          "publisher": "Microfun Limited",
+          "category": "Games",
+          "package": "com.mergegames.gossipharbor"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 20,
+          "name": "Minion Rush: Running Game",
+          "publisher": "Gameloft SE",
+          "category": "Games",
+          "package": "com.gameloft.android.ANMP.GloftDMHM"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 20,
+          "name": "Minion Rush: Running Game",
+          "publisher": "Gameloft SE",
+          "category": "Games",
+          "package": "com.gameloft.android.ANMP.GloftDMHM"
+        }
+      ]
+    }
+  }
+}
