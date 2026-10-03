@@ -1,0 +1,557 @@
+{
+  "date": "2026-10-03",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "拳击布娃娃游戏",
+          "category": "休闲",
+          "category_rank": 3,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxc6a36c609ad527cc",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "脑洞工坊",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州宝可梦科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx89a1aae6228731c9",
+          "publisher_id": 20152365
+        },
+        {
+          "rank": 19,
+          "name": "挪个不停",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "长沙指色网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxa016aac33fc609f4",
+          "publisher_id": 20002391
+        },
+        {
+          "rank": 20,
+          "name": "玩转脑洞呀",
+          "category": "休闲",
+          "category_rank": 19,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxc25b89237af791cf",
+          "publisher_id": 0
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "拳击布娃娃游戏",
+          "category": "休闲",
+          "category_rank": 3,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxc6a36c609ad527cc",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "保卫向日葵",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "深圳市一起梦游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx4557e6fdca0cc576",
+          "publisher_id": 20152334
+        },
+        {
+          "rank": 19,
+          "name": "向往的生活",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "深圳市必凡娱乐科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx961a01b2c8096028",
+          "publisher_id": 20002362
+        },
+        {
+          "rank": 20,
+          "name": "欢乐战三国",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "深圳市奥创互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxfea7e3014cf95068",
+          "publisher_id": 20142312
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [
+        {
+          "rank": 20,
+          "name": "挪了个啥",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0edbedb13ec6eb8d",
+          "publisher_id": 20002390
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "猛鬼宿舍",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊娱乐文化有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0c4a175295d64921",
+          "publisher_id": 20002386
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 20,
+          "name": "挪了个啥",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0edbedb13ec6eb8d",
+          "publisher_id": 20002390
+        }
+      ]
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "向僵尸开炮",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南盛昌网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt704406f9ef7450b207",
+          "publisher_id": 20182323
+        },
+        {
+          "rank": 20,
+          "name": "肥鹅美食街",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京豪腾创想科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttab7fddc2347af2a002",
+          "publisher_id": 20002337
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "肥鹅美食街",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京豪腾创想科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttab7fddc2347af2a002",
+          "publisher_id": 20002337
+        },
+        {
+          "rank": 17,
+          "name": "欢乐战三国",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南哎呦互娱网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttacb7da0a33bf499507",
+          "publisher_id": 20243428
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "怪物入侵",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉多趣信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt192b6f968751a64b07",
+          "publisher_id": 20012405
+        },
+        {
+          "rank": 16,
+          "name": "糖糖欢乐小镇",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门喵帕鲁科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt127264cf8c178b8e02",
+          "publisher_id": 20192508
+        },
+        {
+          "rank": 18,
+          "name": "像素战场",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门逸趣玩网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt934ce5f10d2fb47307",
+          "publisher_id": 20244661
+        },
+        {
+          "rank": 19,
+          "name": "封魔录",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北海鹏润网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttee23989e7058d8a107",
+          "publisher_id": 20244409
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "王牌战斗队",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州亿梦科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3a5a4ce7a421543002",
+          "publisher_id": 20244262
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "怪物入侵",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉多趣信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt192b6f968751a64b07",
+          "publisher_id": 20012405
+        },
+        {
+          "rank": 16,
+          "name": "糖糖欢乐小镇",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门喵帕鲁科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt127264cf8c178b8e02",
+          "publisher_id": 20192508
+        },
+        {
+          "rank": 18,
+          "name": "像素战场",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门逸趣玩网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt934ce5f10d2fb47307",
+          "publisher_id": 20244661
+        },
+        {
+          "rank": 19,
+          "name": "封魔录",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北海鹏润网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttee23989e7058d8a107",
+          "publisher_id": 20244409
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "Fortnite",
+          "publisher": "Epic Games Inc.",
+          "category": "Games",
+          "app_id": "6483539426",
+          "url": "https://apps.apple.com/us/app/fortnite/id6483539426?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/ac/a0/58aca06b-4dc5-d680-14c4-1f05fb3b9928/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Play and battle with friends in Fortnite. Be the last player standing in Battle "
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 12,
+          "name": "ドラゴンブラッド：スレイヤーズ学院（ドラガク）",
+          "publisher": "Archosaur Games",
+          "category": "ゲーム",
+          "app_id": "6751229187",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%96%E3%83%A9%E3%83%83%E3%83%89-%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%82%BA%E5%AD%A6%E9%99%A2-%E3%83%89%E3%83%A9%E3%82%AC%E3%82%AF/id6751229187?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/6a/36/f46a3616-c6da-da5a-b7be-f81b2ee9fa96/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "累計発行部数3000万部、全世界で爆発的な人気を誇るファンタジー小説「龍族」が群像劇RPGで登場！\nAIアシスタント搭載、魅力的なキャラで爽快バトル、新たなIF"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "ホワイトアウト・サバイバル",
+          "publisher": "Century Games Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6443575749",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%82%A2%E3%82%A6%E3%83%88-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id6443575749?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/5a/db/1f5adbc9-8ca2-966a-a708-a599b6910efa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "4億人が遊ぶ唯一無二の氷雪スマホゲーム！サクッと爽快！みんなで極寒サバイバル ！\n\n猛吹雪に襲われ、かつての世界は崩壊。人類の文明の灯火は、氷雪の中で今にも消え"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 12,
+          "name": "ドラゴンブラッド：スレイヤーズ学院（ドラガク）",
+          "publisher": "Archosaur Games",
+          "category": "ゲーム",
+          "app_id": "6751229187",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%96%E3%83%A9%E3%83%83%E3%83%89-%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%82%BA%E5%AD%A6%E9%99%A2-%E3%83%89%E3%83%A9%E3%82%AC%E3%82%AF/id6751229187?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/6a/36/f46a3616-c6da-da5a-b7be-f81b2ee9fa96/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "累計発行部数3000万部、全世界で爆発的な人気を誇るファンタジー小説「龍族」が群像劇RPGで登場！\nAIアシスタント搭載、魅力的なキャラで爽快バトル、新たなIF"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 12,
+          "name": "ドラゴンブラッド：スレイヤーズ学院（ドラガク）",
+          "publisher": "Archosaur Games",
+          "category": "ゲーム",
+          "app_id": "6751229187",
+          "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%96%E3%83%A9%E3%83%83%E3%83%89-%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%82%BA%E5%AD%A6%E9%99%A2-%E3%83%89%E3%83%A9%E3%82%AC%E3%82%AF/id6751229187?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/6a/36/f46a3616-c6da-da5a-b7be-f81b2ee9fa96/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "累計発行部数3000万部、全世界で爆発的な人気を誇るファンタジー小説「龍族」が群像劇RPGで登場！\nAIアシスタント搭載、魅力的なキャラで爽快バトル、新たなIF"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "Woodoku Blast",
+          "publisher": "Tripledot Studios Limited",
+          "category": "Games",
+          "package": "com.tripledot.blockbash"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
