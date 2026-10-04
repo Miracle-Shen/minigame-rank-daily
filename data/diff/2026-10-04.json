@@ -1,0 +1,553 @@
+{
+  "date": "2026-10-04",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "脑力我最强",
+          "category": "休闲",
+          "category_rank": 6,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx6d2ee605390a0abe",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "鱼吃鱼",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州德道科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd705de6e4f88cc89",
+          "publisher_id": 20002344
+        },
+        {
+          "rank": 19,
+          "name": "猛鬼宿舍",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊娱乐文化有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0c4a175295d64921",
+          "publisher_id": 20002386
+        },
+        {
+          "rank": 20,
+          "name": "狙击外星人",
+          "category": "休闲",
+          "category_rank": 19,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "厦门营火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxb26bc7ac85fce4ce",
+          "publisher_id": 20162324
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "脑力我最强",
+          "category": "休闲",
+          "category_rank": 6,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx6d2ee605390a0abe",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "天命行者",
+          "category": "角色",
+          "category_rank": 4,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "广州大蓝网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxbdf25cb34ce9bf6e",
+          "publisher_id": 20002317
+        },
+        {
+          "rank": 19,
+          "name": "灵画师",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "ARPG",
+          "slogan": "",
+          "publisher": "广州光游网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxcbc1fc07fb13d667",
+          "publisher_id": 20122310
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "贪吃蛇大作战",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "武汉微派网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxf4ac0077b6ffb1e7",
+          "publisher_id": 20002385
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "音悦节奏球",
+          "category": "1",
+          "category_rank": 8,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门真嘟假嘟网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf01f86a26f1520f507",
+          "publisher_id": 20192412
+        },
+        {
+          "rank": 19,
+          "name": "小人上车",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙指色科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttfe6688db616f983b07",
+          "publisher_id": 20192438
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "无尽冬日",
+          "category": "1",
+          "category_rank": 5,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海青笛科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcb0dbdb0543b8b2007",
+          "publisher_id": 20242351
+        },
+        {
+          "rank": 17,
+          "name": "手机反恐特别行动",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都疾风劲趣科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1d496bf48278820a07",
+          "publisher_id": 20052309
+        },
+        {
+          "rank": 20,
+          "name": "空格之境",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt96a6e01b08c553f502",
+          "publisher_id": 20244673
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "小人快上车",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆云威科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcf19b9a4517d5c3602",
+          "publisher_id": 20152341
+        },
+        {
+          "rank": 17,
+          "name": "我来操作",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州池骋网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3ec0487da0a5ce4907",
+          "publisher_id": 20012361
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 19,
+          "name": "我要当老祖",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南科翔网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8efbf846109bb83007",
+          "publisher_id": 20302585
+        },
+        {
+          "rank": 20,
+          "name": "小镇派对",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海趣滋滋网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8c90fa2d12eb676f07",
+          "publisher_id": 20012414
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 19,
+          "name": "我要当老祖",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南科翔网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8efbf846109bb83007",
+          "publisher_id": 20302585
+        },
+        {
+          "rank": 20,
+          "name": "小镇派对",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海趣滋滋网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8c90fa2d12eb676f07",
+          "publisher_id": 20012414
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 0,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "小人快上车",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆云威科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcf19b9a4517d5c3602",
+          "publisher_id": 20152341
+        },
+        {
+          "rank": 17,
+          "name": "我来操作",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州池骋网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3ec0487da0a5ce4907",
+          "publisher_id": 20012361
+        },
+        {
+          "rank": 19,
+          "name": "我要当老祖",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南科翔网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8efbf846109bb83007",
+          "publisher_id": 20302585
+        },
+        {
+          "rank": 20,
+          "name": "小镇派对",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海趣滋滋网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8c90fa2d12eb676f07",
+          "publisher_id": 20012414
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "粒粒的小人国",
+          "publisher": "腾讯",
+          "category": "模拟经营",
+          "subcategory": "建造、治愈、休闲、3D、社交、种田、换装、多人联机、角色扮演"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "Magic Tiles 3™: Piano Game",
+          "publisher": "Amanotes Pte. Ltd.",
+          "category": "Games",
+          "app_id": "1443446174",
+          "url": "https://apps.apple.com/us/app/magic-tiles-3-piano-game/id1443446174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/da/1f/ecda1f99-9109-02f8-7f0c-a99ac272f264/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "How fun is it to capture the most precious moments of the year with a wink of rh"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "超自然行动组-登录送高泰明",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6544797261",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E8%87%AA%E7%84%B6%E8%A1%8C%E5%8A%A8%E7%BB%84-%E7%99%BB%E5%BD%95%E9%80%81%E9%AB%98%E6%B3%B0%E6%98%8E/id6544797261?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/ca/bc/31cabcdb-51e5-8b55-5793-5853ad564791/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一个人玩是恐怖游戏，两个人玩是冒险游戏，三个人玩是寻宝游戏，四个人玩是搞笑游戏， 《超自然行动组》作为首款多人组队欢乐恐怖游戏，为你和你的朋友带来多种多样的游戏"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "魔法ピアノタイル9 : ピアノゲーム、おんがくげーむ、音ゲー",
+          "publisher": "Kim Nguyen",
+          "category": "ゲーム",
+          "app_id": "1446874445",
+          "url": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E3%83%94%E3%82%A2%E3%83%8E%E3%82%BF%E3%82%A4%E3%83%AB9-%E3%83%94%E3%82%A2%E3%83%8E%E3%82%B2%E3%83%BC%E3%83%A0-%E3%81%8A%E3%82%93%E3%81%8C%E3%81%8F%E3%81%92%E3%83%BC%E3%82%80-%E9%9F%B3%E3%82%B2%E3%83%BC/id1446874445?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/01/45/7e01450b-220d-cde3-da1b-098b66f0e6dc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "トレンドソングの世界に飛び込もう！魔法レベル 9 で音楽の魅力を体験しよう！\n\nこのピアノゲームでは、話題の楽曲を豊富に収録し、リラックスしながら楽しめる音楽体"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "MemeMix Challenge: Funny Party",
+          "publisher": "Amobear VN Game Global",
+          "category": "Games",
+          "package": "com.mimik.challenge.fun"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "Pocket Sort: Coin Merge Puzzle",
+          "publisher": "SayGames Ltd",
+          "category": "Games",
+          "package": "com.pocket.sort.coin.puzzle.game"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "MemeMix Challenge: Funny Party",
+          "publisher": "Amobear VN Game Global",
+          "category": "Games",
+          "package": "com.mimik.challenge.fun"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "MemeMix Challenge: Funny Party",
+          "publisher": "Amobear VN Game Global",
+          "category": "Games",
+          "package": "com.mimik.challenge.fun"
+        }
+      ]
+    }
+  }
+}
