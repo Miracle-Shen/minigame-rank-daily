@@ -1,0 +1,629 @@
+{
+  "date": "2026-10-05",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "割草乱斗王",
+          "category": "休闲",
+          "category_rank": 5,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx387463c90a055773",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 2,
+          "name": "拳击布娃娃游戏",
+          "category": "休闲",
+          "category_rank": 2,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxc6a36c609ad527cc",
+          "publisher_id": 0
+        },
+        {
+          "rank": 17,
+          "name": "肥鹅美食街",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "北京豪腾创想科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd2901d992defc4a9",
+          "publisher_id": 20002337
+        },
+        {
+          "rank": 19,
+          "name": "指尖炫舞",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳市图灵游戏科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx079ac9796fd28767",
+          "publisher_id": 20162326
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "割草乱斗王",
+          "category": "休闲",
+          "category_rank": 5,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx387463c90a055773",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [
+        {
+          "rank": 14,
+          "name": "精英军团",
+          "category": "竞技",
+          "category_rank": 3,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx2b9d67737d1607d7",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "武侠大明星",
+          "category": "休闲",
+          "category_rank": 6,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "海南盛昌网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx9c4c2f5f1909e182",
+          "publisher_id": 20182323
+        },
+        {
+          "rank": 18,
+          "name": "腾讯欢乐斗地主",
+          "category": "棋牌",
+          "category_rank": 1,
+          "subcategory": "牌类",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd0e404d795ea6f80",
+          "publisher_id": 20002309
+        },
+        {
+          "rank": 20,
+          "name": "空格之境",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0e0531466ba56547",
+          "publisher_id": 20244673
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 14,
+          "name": "精英军团",
+          "category": "竞技",
+          "category_rank": 3,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx2b9d67737d1607d7",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "极速赛车向前冲",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市引力乐园科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt122964948d19da2402",
+          "publisher_id": 20002409
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "指尖幻影",
+          "category": "1",
+          "category_rank": 8,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南异界科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt50b1260ccf86275602",
+          "publisher_id": 20152338
+        },
+        {
+          "rank": 9,
+          "name": "武侠大明星",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南临游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5b522defc462288807",
+          "publisher_id": 20002327
+        },
+        {
+          "rank": 18,
+          "name": "跃动小子",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "柏项网络科技（上海）有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt526924d4cd552d9602",
+          "publisher_id": 20012413
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 17,
+          "name": "逆袭大闯关",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛万化网络技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttdad3ac6e44b757a702",
+          "publisher_id": 20302466
+        },
+        {
+          "rank": 20,
+          "name": "子弹暴击僵尸",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市时间坊贸易有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc434b2895a518c0c02",
+          "publisher_id": 20192362
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 9,
+          "name": "大王请留步",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南娱创科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt932ee5930d49bc2207",
+          "publisher_id": 20152357
+        }
+      ],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "越跑越快",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门龙果互娱网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt69951f28f7efcefb07",
+          "publisher_id": 20302571
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "大王请留步",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南娱创科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt932ee5930d49bc2207",
+          "publisher_id": 20152357
+        },
+        {
+          "rank": 17,
+          "name": "逆袭大闯关",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛万化网络技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttdad3ac6e44b757a702",
+          "publisher_id": 20302466
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 1,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "大王请留步",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南娱创科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt932ee5930d49bc2207",
+          "publisher_id": 20152357
+        },
+        {
+          "rank": 17,
+          "name": "逆袭大闯关",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛万化网络技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttdad3ac6e44b757a702",
+          "publisher_id": 20302466
+        },
+        {
+          "rank": 20,
+          "name": "子弹暴击僵尸",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市时间坊贸易有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc434b2895a518c0c02",
+          "publisher_id": 20192362
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 9,
+          "name": "针影裁梦",
+          "category": "休闲",
+          "subcategory": "模拟、工艺、工具、治愈、经营、单人、可爱、支持Steam家庭共享"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "针影裁梦",
+          "category": "休闲",
+          "subcategory": "模拟、工艺、工具、治愈、经营、单人、可爱、支持Steam家庭共享"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "Whiteout Survival",
+          "publisher": "Century Games Pte. Ltd.",
+          "category": "Games",
+          "app_id": "6443575749",
+          "url": "https://apps.apple.com/us/app/whiteout-survival/id6443575749?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/5a/db/1f5adbc9-8ca2-966a-a708-a599b6910efa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "The world's original winter-themed mobile game! Over 400M players!\n\nThe blizzard"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 18,
+          "name": "植物大战僵尸2",
+          "publisher": "PopCap",
+          "category": "游戏",
+          "app_id": "639516529",
+          "url": "https://apps.apple.com/cn/app/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B82/id639516529?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/c0/b9/1ac0b9e6-53d8-d682-236a-766d655151ce/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+          "slogan": "《植物大战僵尸 2》经典塔防策略手游，奇妙时空之旅正式开启！植物与僵尸的史诗对决跨越多重时空维度，全新植物阵容、特色僵尸与创新玩法重磅登场。依托触屏操作革新传统"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "燕云十六声",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "6475668638",
+          "url": "https://apps.apple.com/cn/app/%E7%87%95%E4%BA%91%E5%8D%81%E5%85%AD%E5%A3%B0/id6475668638?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/d8/00/d9d80079-18bf-21f9-7459-ec1ef01d7c20/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《燕云十六声》首次实现了“中国特色武功”与开放世界品类的融合，玩家将在充满谜题的无缝地图中，众揽天下风光，探秘海量地宫，同时偷师百家武学，身兼十八般武器，学遍太"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 18,
+          "name": "植物大战僵尸2",
+          "publisher": "PopCap",
+          "category": "游戏",
+          "app_id": "639516529",
+          "url": "https://apps.apple.com/cn/app/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B82/id639516529?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/c0/b9/1ac0b9e6-53d8-d682-236a-766d655151ce/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+          "slogan": "《植物大战僵尸 2》经典塔防策略手游，奇妙时空之旅正式开启！植物与僵尸的史诗对决跨越多重时空维度，全新植物阵容、特色僵尸与创新玩法重磅登场。依托触屏操作革新传统"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "マーラッシュ",
+          "publisher": "kodai koga",
+          "category": "ゲーム",
+          "app_id": "6792188317",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%BC%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/id6792188317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/c8/b5/5fc8b559-bd51-9fe7-b0e5-ec1951070e9e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "【マーラッシュ】は、大人気の麻辣湯（マーラータン）屋さんを体験できるシミュレーションゲームです。\n\n棚にずらりと並んだ具材をトングでつかんで、ボウルにいれよう！"
+        },
+        {
+          "rank": 19,
+          "name": "麻辣湯ものがたり（マーラータン）",
+          "publisher": "Ryusei Okamoto",
+          "category": "ゲーム",
+          "app_id": "6816625266",
+          "url": "https://apps.apple.com/jp/app/%E9%BA%BB%E8%BE%A3%E6%B9%AF%E3%82%82%E3%81%AE%E3%81%8C%E3%81%9F%E3%82%8A-%E3%83%9E%E3%83%BC%E3%83%A9%E3%83%BC%E3%82%BF%E3%83%B3/id6816625266?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/bb/bd/33bbbd19-0ce1-000e-908c-7a684bcf5f6a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "小さな麻辣湯（マーラータン）屋さんの店長になって、街いちばんの人気店を目指そう！\n\n画面をなぞって店長を動かし、具材の補充やレジ、片付けをこなすだけ。売上がたま"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "Fish Sort Puzzle:フィッシュソート泡を消そう",
+          "publisher": "Shycheese",
+          "category": "ゲーム",
+          "app_id": "6771681639",
+          "url": "https://apps.apple.com/jp/app/fish-sort-puzzle-%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%82%BD%E3%83%BC%E3%83%88%E6%B3%A1%E3%82%92%E6%B6%88%E3%81%9D%E3%81%86/id6771681639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/76/59/dd7659d9-a4d0-c5f9-9858-afcafc663a48/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "海の世界へ冒険に飛び込もう！\n魚をタップして、水槽へ泳がせましょう。各水槽に必要な魚の数が表示されるので、規定数を集めてコレクションを完成させよう！\n下段の泡を"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "マーラッシュ",
+          "publisher": "kodai koga",
+          "category": "ゲーム",
+          "app_id": "6792188317",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%BC%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/id6792188317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/c8/b5/5fc8b559-bd51-9fe7-b0e5-ec1951070e9e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "【マーラッシュ】は、大人気の麻辣湯（マーラータン）屋さんを体験できるシミュレーションゲームです。\n\n棚にずらりと並んだ具材をトングでつかんで、ボウルにいれよう！"
+        },
+        {
+          "rank": 19,
+          "name": "麻辣湯ものがたり（マーラータン）",
+          "publisher": "Ryusei Okamoto",
+          "category": "ゲーム",
+          "app_id": "6816625266",
+          "url": "https://apps.apple.com/jp/app/%E9%BA%BB%E8%BE%A3%E6%B9%AF%E3%82%82%E3%81%AE%E3%81%8C%E3%81%9F%E3%82%8A-%E3%83%9E%E3%83%BC%E3%83%A9%E3%83%BC%E3%82%BF%E3%83%B3/id6816625266?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/bb/bd/33bbbd19-0ce1-000e-908c-7a684bcf5f6a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "小さな麻辣湯（マーラータン）屋さんの店長になって、街いちばんの人気店を目指そう！\n\n画面をなぞって店長を動かし、具材の補充やレジ、片付けをこなすだけ。売上がたま"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "マーラッシュ",
+          "publisher": "kodai koga",
+          "category": "ゲーム",
+          "app_id": "6792188317",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%BC%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/id6792188317?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/c8/b5/5fc8b559-bd51-9fe7-b0e5-ec1951070e9e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "【マーラッシュ】は、大人気の麻辣湯（マーラータン）屋さんを体験できるシミュレーションゲームです。\n\n棚にずらりと並んだ具材をトングでつかんで、ボウルにいれよう！"
+        },
+        {
+          "rank": 19,
+          "name": "麻辣湯ものがたり（マーラータン）",
+          "publisher": "Ryusei Okamoto",
+          "category": "ゲーム",
+          "app_id": "6816625266",
+          "url": "https://apps.apple.com/jp/app/%E9%BA%BB%E8%BE%A3%E6%B9%AF%E3%82%82%E3%81%AE%E3%81%8C%E3%81%9F%E3%82%8A-%E3%83%9E%E3%83%BC%E3%83%A9%E3%83%BC%E3%82%BF%E3%83%B3/id6816625266?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/bb/bd/33bbbd19-0ce1-000e-908c-7a684bcf5f6a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "小さな麻辣湯（マーラータン）屋さんの店長になって、街いちばんの人気店を目指そう！\n\n画面をなぞって店長を動かし、具材の補充やレジ、片付けをこなすだけ。売上がたま"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "Fortnite",
+          "publisher": "Epic Games, Inc",
+          "category": "Games",
+          "package": "com.epicgames.fortnite"
+        },
+        {
+          "rank": 20,
+          "name": "Magic Tiles 3™ - Piano Game",
+          "publisher": "AMANOTES PTE. LTD.",
+          "category": "Games",
+          "package": "com.youmusic.magictiles"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
