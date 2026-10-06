@@ -4,9 +4,9 @@
 
 群里只回答三个问题，其余一概不写：
 
-    1. 微信小游戏前三 —— 谁在涨、谁在跌、要不要抄
+    1. 微信小游戏前三 —— 谁在涨、谁在跌、什么类型、怎么玩
     2. 抖音小游戏前三 —— 同上
-    3. 全部平台最热的一款 —— 谁 + 什么品类 + 本周一句话趋势
+    3. 全部平台最热的一款 —— 谁 + 什么类型 + 本周一句话趋势
 
 周报正文（reports/weekly-*.md|html）不归本模块管，两者互不影响：
 本模块只产出一段可以贴进企业微信群的纯文本。
@@ -17,7 +17,10 @@
     只看畅销榜会漏掉只在人气榜 / 畅玩榜上跑的产品。
   * 「趋势」 = 本周快照 vs 基准快照（默认 7 天前）的**最好名次**变化。
   * 「品类」 = classify.py 归一化后的 L1（抖音榜缺品类字段，靠跨榜学习回填）。
-  * 「复刻建议」 = data/detail 产品档案的 clone 结论，压成一句话。
+  * 「具体类型」 = classify.py 归一化后的 L1·L2；L2 缺失时用产品档案 identity 的 L2 补。
+  * 「玩法」     = data/detail 产品档案的 play.core_loop，压成一句话。
+  * 卡片**不再给复刻建议**（2026-10-06 用户要求下线：每款都写一句「怎么改」没有意义，
+    要的是「这是什么类型、怎么玩」）。
   * 涨用红、跌用绿（中文习惯，与 report.py 一致）。
 
 企业微信 markdown(v1) 不支持表格 / 列表 / 有序列表，所以编号写成「1.」纯文本、
@@ -66,8 +69,11 @@ C_DOWN = "info"      # 绿   —— 跌
 C_FLAT = "comment"   # 灰
 
 BOOKMARK = "\u3000"  # 全角空格，v1 里当缩进用
-ADVICE_MAX = 26      # 复刻建议里「怎么做」的截断长度
-_CLAUSE = re.compile(r"[，,。；;]")
+PLAY_MAX = 46        # 玩法一句话的截断长度
+_SENT = re.compile(r"[。；;!！?？]")   # 句子边界
+_COMMA = re.compile(r"[，,]")         # 分句边界
+# 这些值等于「没归出来」，不能当类型用
+_BAD_TYPE = {"", "其他", "未知", "1", "0", "none", "null"}
 
 
 # --------------------------------------------------------------------------
@@ -164,51 +170,75 @@ def trend_of(name: str, cur_rank: int, base_ranks: dict | None) -> tuple[str, st
 
 
 # --------------------------------------------------------------------------
-# 复刻建议 / 品类
+# 具体类型 / 一句话玩法
 # --------------------------------------------------------------------------
-def brief_action(text: str, n: int = ADVICE_MAX) -> str:
-    """把档案里的差异化动作压成一句短话。
+def load_detail(slug: str, cache: dict) -> dict:
+    """按 slug 读整份产品档案（带缓存）；读不到就返回空字典。"""
+    key = ("detail", slug)
+    if key in cache:
+        return cache[key]
+    d: dict = {}
+    p = CL.DETAIL_DIR / f"{slug}.json"
+    if slug and p.exists():
+        try:
+            d = json.loads(p.read_text(encoding="utf-8"))
+        except Exception:  # noqa: BLE001
+            d = {}
+    cache[key] = d
+    return d
 
-    档案的 suggestions[0] 常写成「做什么，为什么，还能怎样」的长句，
-    群消息里只留最前面那个动作；第一个分句太短时再顺一句，但总长受限。
+
+def detail_of(name: str, index: dict, cache: dict) -> dict:
+    """游戏名 → 产品档案；没建档返回空字典。"""
+    entry = index.get(CL.norm_name(name)) or {}
+    return load_detail(entry.get("slug") or "", cache)
+
+
+def type_of(l1: str, l2: str, detail: dict) -> str:
+    """具体类型 —— 「休闲·消除」这种。
+
+    classify.py 是主要来源（榜单行自带的 category 经常是 `1` 这种脏值，不能直接用）；
+    它没归出来的层级，退回产品档案 identity 里的 category_l2 补一手。
     """
-    s = (text or "").strip()
-    if not s:
-        return ""
-    parts = [p for p in _CLAUSE.split(s) if p]
-    if not parts:
-        return ""
-    out = parts[0]
-    if len(out) < 10 and len(parts) > 1:
-        merged = f"{out}，{parts[1]}"
-        if len(merged) <= n + 6:
-            return merged          # 长度已验证，整句给完，不再截
-    if len(out) > n:
-        cut = out[:n]
-        idx = max((cut.rfind(c) for c in "，,。；;、"), default=-1)
-        out = cut[:idx] if idx >= n // 2 else cut[:n - 1] + "…"
-    return out
+    idt = detail.get("identity") or {}
+    one = (l1 or "").strip()
+    two = (l2 or "").strip()
+    if one.lower() in _BAD_TYPE:
+        a1 = (idt.get("category_l1") or "").strip()
+        one = a1 if a1.lower() not in _BAD_TYPE else "其他"
+    if two.lower() in _BAD_TYPE:
+        two = (idt.get("category_l2") or "").strip()
+    if two.lower() in _BAD_TYPE or two == one:
+        return one
+    return f"{one}·{two}"
 
 
-def advice_of(name: str, index: dict, cache: dict) -> str:
-    """复刻建议：直接给档案里的**确定动作**，不要档位占位词。
+def brief_play(text: str, n: int = PLAY_MAX) -> str:
+    """把档案的 core_loop 压成一句话。
 
-    档案里「换皮即用 / 需改一处 / 练手填充」这类档位标签本身不构成结论
-    （「需改一处」到底改哪里没说），所以这里只取 `suggestions[0]` 那条动作，
-    写成「保留 X 核心」「把题材换成 Y」这种能直接照着做的句子。
+    先取**第一个句子**（分号 / 句号切）；整句超长时，按逗号一段段收，
+    收不下就在最后一段后加省略号 —— 保证是完整的短语，不会把词切两半。
     """
-    entry = index.get(CL.norm_name(name))
-    if not entry:
-        return "暂无产品档案，需人工判断"
-    cl = CL.load_clone(entry.get("slug") or "", cache)
-    verdict = cl.get("verdict") or entry.get("verdict") or ""
-    if verdict == CL.EXCLUDED:
-        return "不建议抄：IP / 头部已锁死"
-    how = brief_action((cl.get("suggestions") or [""])[0] or "")
-    if how:
-        return how
-    meta = CL.VERDICT_META.get(verdict)
-    return meta["note"] if meta else "暂无复刻结论"
+    t = re.sub(r"\s+", "", str(text or ""))
+    if not t:
+        return ""
+    head = next((s for s in _SENT.split(t) if s), t)
+    if len(head) <= n:
+        return head
+    out = ""
+    for part in (p for p in _COMMA.split(head) if p):
+        cand = part if not out else f"{out}，{part}"
+        if len(cand) > n:
+            break
+        out = cand
+    return (out or head[:n - 1]) + "…"
+
+
+def play_of(name: str, index: dict, cache: dict) -> str:
+    """一句话玩法：产品档案的 play.core_loop；没档案就明说，不编。"""
+    loop = brief_play((detail_of(name, index, cache).get("play") or {})
+                      .get("core_loop") or "")
+    return loop or "暂无产品档案"
 
 
 # --------------------------------------------------------------------------
@@ -217,28 +247,31 @@ def advice_of(name: str, index: dict, cache: dict) -> str:
 def picks_for_platform(snap: dict, plat: str, learned: dict, mapdata: dict,
                        base_ranks: dict | None, index: dict,
                        cache: dict, n: int = PICK_N) -> list[dict]:
-    """该平台三榜并集 → 按最好名次取前 n，补品类 / 趋势 / 复刻建议。"""
+    """该平台三榜并集 → 按最好名次取前 n，补具体类型 / 趋势 / 一句话玩法。"""
     best = best_by_name(platform_rows(snap, plat))
     tops = sorted(best.values(), key=lambda x: x["rank"])[:n]
     out = []
     for t in tops:
         row = C.classify_row(t["row"], mapdata, learned)
         trend, color = trend_of(t["name"], t["rank"], base_ranks)
+        det = detail_of(t["name"], index, cache)
         out.append({
             "name": t["name"],
             "rank": t["rank"],
             "boards": t["boards"],
             "l1": row.get("l1") or "其他",
             "l2": row.get("l2") or "",
+            "type": type_of(row.get("l1") or "", row.get("l2") or "", det),
+            "play": play_of(t["name"], index, cache),
             "trend": trend,
             "trend_color": color,
-            "advice": advice_of(t["name"], index, cache),
         })
     return out
 
 
 def all_platform_top(snap: dict, learned: dict, mapdata: dict,
-                     base_ranks: dict | None, top: int = 1) -> list[dict]:
+                     base_ranks: dict | None, index: dict, cache: dict,
+                     top: int = 1) -> list[dict]:
     """全部平台合并排最热。
 
     排序键：**跨平台覆盖数** 优先（越多人抢越热）→ 最好名次 → 上榜次数。
@@ -266,10 +299,14 @@ def all_platform_top(snap: dict, learned: dict, mapdata: dict,
         trend, color = trend_of(t["name"], t["rank"], base_ranks)
         plats = t["plats"]
         note = "、".join(_plat_label(snap, p) for p in plats)
+        det = detail_of(t["name"], index, cache)
         out.append({
             "name": t["name"],
             "rank": t["rank"],
             "l1": row.get("l1") or "其他",
+            "l2": row.get("l2") or "",
+            "type": type_of(row.get("l1") or "", row.get("l2") or "", det),
+            "play": play_of(t["name"], index, cache),
             "plats": plats,
             "plats_note": note,
             "boards": t["boards"],
@@ -383,7 +420,8 @@ def build_card(result: dict, hist: list[tuple[str, dict]] | None = None,
                                    base_ranks_by_plat[pk], index, cache)
         sections.append({"platform": pk, "label": label, "picks": picks})
 
-    top = all_platform_top(cur_snap, learned, mapdata, base_all_ranks, top=1)
+    top = all_platform_top(cur_snap, learned, mapdata, base_all_ranks,
+                           index, cache, top=1)
     change, steady = week_lines(result)
 
     data = {
@@ -417,10 +455,10 @@ def render_text(data: dict, v2: bool = False) -> str:
         L.append(f"**{i}. {sec['label']}（前三）**")
         L.append("")
         for g in sec["picks"]:
-            head = (f"· {g['name']}-{g['l1']}-"
+            head = (f"· {g['name']}-{g['type']}-"
                     f"{_c(g['trend'], g['trend_color'], v2)}")
             L.append(head)
-            L.append(f"{BOOKMARK}复刻建议：{g['advice']}")
+            L.append(f"{BOOKMARK}玩法：{g['play']}")
             L.append("")
         if not sec["picks"]:
             L.append("· 本期无数据")
@@ -431,8 +469,9 @@ def render_text(data: dict, v2: bool = False) -> str:
     L.append(f"**{n}. 🔥全部小游戏（TOP1）**")
     L.append("")
     if t:
-        L.append(f"· {t['name']}（{t['l1']}）-"
+        L.append(f"· {t['name']}（{t['type']}）-"
                  f"{_c(t['trend'], t['trend_color'], v2)}")
+        L.append(f"{BOOKMARK}玩法：{t['play']}")
         line = (f"{BOOKMARK}覆盖 {t['plats_note']}｜最好名次 #{t['rank']}")
         missed = [p for p in ALL_PLATFORMS if p not in t["plats"]]
         if missed:
