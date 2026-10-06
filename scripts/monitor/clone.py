@@ -21,6 +21,11 @@
 
 一句话理由取档案的 `clone.rationale` 首句，不是模板文案 —— 同一档位的两款游戏
 理由是不同的，这正是领导要看的「为什么是它」。
+
+⚠️ 2026-10-06 起：**逐款的「复刻建议」（`clone.suggestions` / `rationale`）不再渲染**
+（用户反馈「这个建议没有意义」）。条目改为给 **`type`（具体类型，L1·L2）** 与
+**`play`（一句话玩法，取档案 `play.core_loop`）**；`reason` / `how` 仍保留在 JSON 里备查，
+但报告正文与群卡片都不再显示。档位分组（换肤 / 变种创意 / …）是清单的结论，保留。
 """
 from __future__ import annotations
 
@@ -63,6 +68,14 @@ COST_ORDER = {"极低": 0, "低": 1, "中": 2, "高": 3, "极高": 4}
 
 REASON_MAX = 44     # 一句话理由的截断长度
 HOW_MAX = 36        # 差异化动作的截断长度
+
+# 「具体类型 / 一句话玩法」——卡片（hotlist.py）与图文周报（report.py）共用这一套，
+# 不要各自再写一份。
+PLAY_MAX = 46       # 一句话玩法的截断长度
+_SENT = re.compile(r"[。；;!！?？]")   # 句子边界
+_COMMA = re.compile(r"[，,]")         # 分句边界
+# 这些值等于「没归出来」，不能当类型用（榜单行自带的 category 常见 `1` 这种脏值）
+_BAD_TYPE = {"", "其他", "未知", "1", "0", "none", "null"}
 
 
 def norm_name(s) -> str:
@@ -120,6 +133,76 @@ def load_clone(slug: str, cache: dict) -> dict:
     return clone
 
 
+def load_detail(slug: str, cache: dict) -> dict:
+    """按 slug 读整份产品档案（带缓存）；读不到就返回空字典。"""
+    key = ("detail", slug)
+    if key in cache:
+        return cache[key]
+    d: dict = {}
+    p = DETAIL_DIR / f"{slug}.json"
+    if slug and p.exists():
+        try:
+            d = json.loads(p.read_text(encoding="utf-8"))
+        except Exception:
+            d = {}
+    cache[key] = d
+    return d
+
+
+def detail_of(name: str, index: dict, cache: dict) -> dict:
+    """游戏名 → 产品档案；没建档返回空字典。"""
+    entry = index.get(norm_name(name)) or {}
+    return load_detail(entry.get("slug") or "", cache)
+
+
+def type_of(l1: str, l2: str, detail: dict) -> str:
+    """具体类型 —— 「休闲·消除」这种。
+
+    优先用榜单行已经归一化好的 L1 / L2（榜单自带的 category 常是 `1` 这种脏值）；
+    缺的那一层退回产品档案 identity 的 category_l1 / category_l2 补一手。
+    """
+    idt = detail.get("identity") or {}
+    one = (l1 or "").strip()
+    two = (l2 or "").strip()
+    if one.lower() in _BAD_TYPE:
+        a1 = (idt.get("category_l1") or "").strip()
+        one = a1 if a1.lower() not in _BAD_TYPE else "其他"
+    if two.lower() in _BAD_TYPE:
+        two = (idt.get("category_l2") or "").strip()
+    if two.lower() in _BAD_TYPE or two == one:
+        return one
+    if one == "其他":          # L1 归不出来时，只报得出的那层，别写成「其他·消除」
+        return two
+    return f"{one}·{two}"
+
+
+def brief_play(text: str, n: int = PLAY_MAX) -> str:
+    """把档案的 core_loop 压成一句话。
+
+    先取**第一个句子**（分号 / 句号切）；整句超长时按逗号一段段收，
+    收不下就在最后一段后加省略号 —— 保证是完整短语，不会把词切两半。
+    """
+    t = re.sub(r"\s+", "", str(text or ""))
+    if not t:
+        return ""
+    head = next((s for s in _SENT.split(t) if s), t)
+    if len(head) <= n:
+        return head
+    out = ""
+    for part in (p for p in _COMMA.split(head) if p):
+        cand = part if not out else f"{out}，{part}"
+        if len(cand) > n:
+            break
+        out = cand
+    return (out or head[:n - 1]) + "…"
+
+
+def play_of(detail: dict) -> str:
+    """一句话玩法：产品档案的 play.core_loop；没档案就明说，不编。"""
+    return brief_play((detail.get("play") or {}).get("core_loop") or "") \
+        or "暂无产品档案"
+
+
 def _status(name: str, new_names: set, riser_map: dict) -> str:
     if name in new_names:
         return "新晋"
@@ -161,6 +244,7 @@ def build_clone_list(rows: list[dict], board_label: str,
             missing.append(name)
             continue
         clone = load_clone(entry.get("slug") or "", cache)
+        detail = load_detail(entry.get("slug") or "", cache)
         verdict = clone.get("verdict") or entry.get("verdict") or ""
         meta = VERDICT_META.get(verdict)
         if not meta:
@@ -183,6 +267,11 @@ def build_clone_list(rows: list[dict], board_label: str,
             "cost_level": entry.get("cost_level") or "",
             "cost_score": entry.get("cost_score"),
             "effort": _clip(clone.get("effort") or "", 40),
+            # 类型 + 一句话玩法：报告正文/卡片展示用（复刻建议已下线，见下两行注释）
+            "type": type_of(r.get("category") or "", r.get("subcategory") or "",
+                            detail),
+            "play": play_of(detail),
+            # reason / how 不再渲染（用户明确「复刻建议没有意义」），保留原始数据备查
             "reason": _first_sentence(clone.get("rationale") or ""),
             "how": _clip((clone.get("suggestions") or [""])[0], HOW_MAX),
             "status": _status(name, new_names, riser_map),
@@ -244,6 +333,9 @@ def merge_pool(boards: list[dict], top_n: int = 20) -> list[dict]:
             if cur is None or rank < (cur.get("rank") or 999):
                 best[name] = {"name": name, "rank": rank,
                               "publisher": r.get("publisher") or "",
+                              # 榜单行里已归一化好的品类，后面出「具体类型」用
+                              "category": r.get("category") or "",
+                              "subcategory": r.get("subcategory") or "",
                               "_board": label}
     return sorted(best.values(), key=lambda x: x["rank"])
 

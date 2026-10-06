@@ -35,7 +35,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 import sys
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -69,11 +68,6 @@ C_DOWN = "info"      # 绿   —— 跌
 C_FLAT = "comment"   # 灰
 
 BOOKMARK = "\u3000"  # 全角空格，v1 里当缩进用
-PLAY_MAX = 46        # 玩法一句话的截断长度
-_SENT = re.compile(r"[。；;!！?？]")   # 句子边界
-_COMMA = re.compile(r"[，,]")         # 分句边界
-# 这些值等于「没归出来」，不能当类型用
-_BAD_TYPE = {"", "其他", "未知", "1", "0", "none", "null"}
 
 
 # --------------------------------------------------------------------------
@@ -170,75 +164,12 @@ def trend_of(name: str, cur_rank: int, base_ranks: dict | None) -> tuple[str, st
 
 
 # --------------------------------------------------------------------------
-# 具体类型 / 一句话玩法
+# 具体类型 / 一句话玩法 —— 实现放在 clone.py，这里只调用
+#   clone.detail_of()  游戏名 → 产品档案
+#   clone.type_of()    L1·L2 具体类型（脏值 / 缺层用档案 identity 补）
+#   clone.play_of()    一句话玩法（档案 play.core_loop，超长按逗号收口）
+# 卡片和图文周报必须同一套口径，别在本文件另写一份。
 # --------------------------------------------------------------------------
-def load_detail(slug: str, cache: dict) -> dict:
-    """按 slug 读整份产品档案（带缓存）；读不到就返回空字典。"""
-    key = ("detail", slug)
-    if key in cache:
-        return cache[key]
-    d: dict = {}
-    p = CL.DETAIL_DIR / f"{slug}.json"
-    if slug and p.exists():
-        try:
-            d = json.loads(p.read_text(encoding="utf-8"))
-        except Exception:  # noqa: BLE001
-            d = {}
-    cache[key] = d
-    return d
-
-
-def detail_of(name: str, index: dict, cache: dict) -> dict:
-    """游戏名 → 产品档案；没建档返回空字典。"""
-    entry = index.get(CL.norm_name(name)) or {}
-    return load_detail(entry.get("slug") or "", cache)
-
-
-def type_of(l1: str, l2: str, detail: dict) -> str:
-    """具体类型 —— 「休闲·消除」这种。
-
-    classify.py 是主要来源（榜单行自带的 category 经常是 `1` 这种脏值，不能直接用）；
-    它没归出来的层级，退回产品档案 identity 里的 category_l2 补一手。
-    """
-    idt = detail.get("identity") or {}
-    one = (l1 or "").strip()
-    two = (l2 or "").strip()
-    if one.lower() in _BAD_TYPE:
-        a1 = (idt.get("category_l1") or "").strip()
-        one = a1 if a1.lower() not in _BAD_TYPE else "其他"
-    if two.lower() in _BAD_TYPE:
-        two = (idt.get("category_l2") or "").strip()
-    if two.lower() in _BAD_TYPE or two == one:
-        return one
-    return f"{one}·{two}"
-
-
-def brief_play(text: str, n: int = PLAY_MAX) -> str:
-    """把档案的 core_loop 压成一句话。
-
-    先取**第一个句子**（分号 / 句号切）；整句超长时，按逗号一段段收，
-    收不下就在最后一段后加省略号 —— 保证是完整的短语，不会把词切两半。
-    """
-    t = re.sub(r"\s+", "", str(text or ""))
-    if not t:
-        return ""
-    head = next((s for s in _SENT.split(t) if s), t)
-    if len(head) <= n:
-        return head
-    out = ""
-    for part in (p for p in _COMMA.split(head) if p):
-        cand = part if not out else f"{out}，{part}"
-        if len(cand) > n:
-            break
-        out = cand
-    return (out or head[:n - 1]) + "…"
-
-
-def play_of(name: str, index: dict, cache: dict) -> str:
-    """一句话玩法：产品档案的 play.core_loop；没档案就明说，不编。"""
-    loop = brief_play((detail_of(name, index, cache).get("play") or {})
-                      .get("core_loop") or "")
-    return loop or "暂无产品档案"
 
 
 # --------------------------------------------------------------------------
@@ -254,15 +185,15 @@ def picks_for_platform(snap: dict, plat: str, learned: dict, mapdata: dict,
     for t in tops:
         row = C.classify_row(t["row"], mapdata, learned)
         trend, color = trend_of(t["name"], t["rank"], base_ranks)
-        det = detail_of(t["name"], index, cache)
+        det = CL.detail_of(t["name"], index, cache)
         out.append({
             "name": t["name"],
             "rank": t["rank"],
             "boards": t["boards"],
             "l1": row.get("l1") or "其他",
             "l2": row.get("l2") or "",
-            "type": type_of(row.get("l1") or "", row.get("l2") or "", det),
-            "play": play_of(t["name"], index, cache),
+            "type": CL.type_of(row.get("l1") or "", row.get("l2") or "", det),
+            "play": CL.play_of(det),
             "trend": trend,
             "trend_color": color,
         })
@@ -299,14 +230,14 @@ def all_platform_top(snap: dict, learned: dict, mapdata: dict,
         trend, color = trend_of(t["name"], t["rank"], base_ranks)
         plats = t["plats"]
         note = "、".join(_plat_label(snap, p) for p in plats)
-        det = detail_of(t["name"], index, cache)
+        det = CL.detail_of(t["name"], index, cache)
         out.append({
             "name": t["name"],
             "rank": t["rank"],
             "l1": row.get("l1") or "其他",
             "l2": row.get("l2") or "",
-            "type": type_of(row.get("l1") or "", row.get("l2") or "", det),
-            "play": play_of(t["name"], index, cache),
+            "type": CL.type_of(row.get("l1") or "", row.get("l2") or "", det),
+            "play": CL.play_of(det),
             "plats": plats,
             "plats_note": note,
             "boards": t["boards"],

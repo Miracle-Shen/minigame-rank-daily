@@ -289,10 +289,10 @@ def _clone_groups_html(result: dict) -> list[str]:
             f'{esc(g["note"])}{more}</div>')
         rows = []
         for x in g["items"]:
-            cell = esc(x["reason"] or "—")
-            if x.get("how"):
+            cell = f'<b>{esc(x.get("type") or "—")}</b>'
+            if x.get("play"):
                 cell += (f'<br><span style="color:{C_MUTED};font-size:12px;">'
-                         f'建议：{esc(x["how"])}</span>')
+                         f'玩法：{esc(x["play"])}</span>')
             rows.append([
                 f'<a href="{esc(game_url(base, x["name"]))}" '
                 f'style="color:{C_LINK};text-decoration:none;">'
@@ -303,7 +303,7 @@ def _clone_groups_html(result: dict) -> list[str]:
                 esc(x["status"]),
                 cell,
             ])
-        parts.append(_tbl(["游戏", "榜内", "榜", "成本", "状态", "为什么值得 / 怎么改"],
+        parts.append(_tbl(["游戏", "榜内", "榜", "成本", "状态", "类型 / 玩法"],
                           rows, ["left", "right", "left", "left", "left", "left"]))
         parts.append("")
 
@@ -607,12 +607,12 @@ def _clone_groups_md(result: dict) -> list[str]:
         L += [f"### {g['verdict']} —— {g['label']}"
               f"（{g['total']} 款，列 {len(g['items'])} 款）", "",
               f"> {g['note']}{more}", "",
-              "| 游戏 | 榜内 | 榜 | 成本 | 状态 | 为什么值得 / 怎么改 |",
+              "| 游戏 | 榜内 | 榜 | 成本 | 状态 | 类型 / 玩法 |",
               "|---|---:|---|---|---|---|"]
         for x in g["items"]:
-            cell = x["reason"] or "—"
-            if x.get("how"):
-                cell += f"<br>建议：{x['how']}"
+            cell = x.get("type") or "—"
+            if x.get("play"):
+                cell += f"<br>玩法：{x['play']}"
             L += [f"| [{x['name']}]({game_url(base, x['name'])}) | "
                   f"#{x['rank']} | {x['board']} | "
                   f"{x['cost_level']} | {x['status']} | {cell} |"]
