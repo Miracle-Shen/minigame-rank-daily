@@ -1,0 +1,552 @@
+{
+  "date": "2026-10-06",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "指尖闯关大挑战",
+          "category": "休闲",
+          "category_rank": 3,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx5a0ea060646fc29d",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "灵瑞集猫咪树屋",
+          "category": "休闲",
+          "category_rank": 9,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx1c40b34f35a37eae",
+          "publisher_id": 0
+        },
+        {
+          "rank": 15,
+          "name": "模拟城市：我是市长",
+          "category": "其他",
+          "category_rank": 1,
+          "subcategory": "其他",
+          "slogan": "",
+          "publisher": "北京北纬通信科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx52ba4aea10a479b4",
+          "publisher_id": 20302440
+        },
+        {
+          "rank": 18,
+          "name": "QQ经典农场",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx5306c5978fdb76e4",
+          "publisher_id": 20002309
+        },
+        {
+          "rank": 20,
+          "name": "狙击外星人",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "厦门营火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxb26bc7ac85fce4ce",
+          "publisher_id": 20162324
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "指尖闯关大挑战",
+          "category": "休闲",
+          "category_rank": 3,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx5a0ea060646fc29d",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "灵画师",
+          "category": "角色",
+          "category_rank": 4,
+          "subcategory": "ARPG",
+          "slogan": "",
+          "publisher": "广州光游网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxcbc1fc07fb13d667",
+          "publisher_id": 20122310
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "挪了个啥",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0edbedb13ec6eb8d",
+          "publisher_id": 20002390
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "蛇突猛进",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt005c76e19e3b0fe307",
+          "publisher_id": 20262386
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "无尽冬日",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海青笛科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcb0dbdb0543b8b2007",
+          "publisher_id": 20242351
+        },
+        {
+          "rank": 20,
+          "name": "梦回甄嬛传",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州擎迅网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2f6959d4b113069b02",
+          "publisher_id": 20302495
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 16,
+          "name": "捞菜高手",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南弘嘉科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5f1229afc176301502",
+          "publisher_id": 20002392
+        },
+        {
+          "rank": 17,
+          "name": "勇者进击",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州珑悦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc13ab7875f41bc7307",
+          "publisher_id": 20302586
+        },
+        {
+          "rank": 18,
+          "name": "硬币来解压",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州绿之洲科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt09f17f4c9796613a02",
+          "publisher_id": 20062305
+        },
+        {
+          "rank": 19,
+          "name": "挖呀挖呀哈",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南简晨科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt81d9f7641fb9794d07",
+          "publisher_id": 20244669
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 17,
+          "name": "勇者进击",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州珑悦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc13ab7875f41bc7307",
+          "publisher_id": 20302586
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 16,
+          "name": "捞菜高手",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南弘嘉科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5f1229afc176301502",
+          "publisher_id": 20002392
+        },
+        {
+          "rank": 17,
+          "name": "勇者进击",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州珑悦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc13ab7875f41bc7307",
+          "publisher_id": 20302586
+        },
+        {
+          "rank": 18,
+          "name": "硬币来解压",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州绿之洲科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt09f17f4c9796613a02",
+          "publisher_id": 20062305
+        },
+        {
+          "rank": 19,
+          "name": "挖呀挖呀哈",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南简晨科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt81d9f7641fb9794d07",
+          "publisher_id": 20244669
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 3,
+          "name": "小苔屋",
+          "publisher": "猫猫世纪工作室",
+          "category": "休闲"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "Tasty Travels: Merge Game",
+          "publisher": "Century Games Pte. Ltd.",
+          "category": "Games",
+          "app_id": "6471045672",
+          "url": "https://apps.apple.com/us/app/tasty-travels-merge-game/id6471045672?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/84/b5/a384b58b-569b-9e31-07a2-28816b966e74/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Embark on a culinary journey in Tasty Travels: Merge Game, where your passion fo"
+        },
+        {
+          "rank": 20,
+          "name": "Disney Solitaire",
+          "publisher": "SuperPlay",
+          "category": "Games",
+          "app_id": "6475757306",
+          "url": "https://apps.apple.com/us/app/disney-solitaire/id6475757306?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/13/4d/3c134dff-c40d-b4b5-dc23-42661a0762d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Disney Solitaire, the ultimate card game that transforms classic trip"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 19,
+          "name": "超自然行动组-送联动皮肤",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6544797261",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E8%87%AA%E7%84%B6%E8%A1%8C%E5%8A%A8%E7%BB%84-%E9%80%81%E8%81%94%E5%8A%A8%E7%9A%AE%E8%82%A4/id6544797261?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/c6/7d/69c67dd7-6cd3-d10d-0b07-af02aefe404e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一个人玩是恐怖游戏，两个人玩是冒险游戏，三个人玩是寻宝游戏，四个人玩是搞笑游戏， 《超自然行动组》作为首款多人组队欢乐恐怖游戏，为你和你的朋友带来多种多样的游戏"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 19,
+          "name": "超自然行动组-送联动皮肤",
+          "publisher": "巨人网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6544797261",
+          "url": "https://apps.apple.com/cn/app/%E8%B6%85%E8%87%AA%E7%84%B6%E8%A1%8C%E5%8A%A8%E7%BB%84-%E9%80%81%E8%81%94%E5%8A%A8%E7%9A%AE%E8%82%A4/id6544797261?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/c6/7d/69c67dd7-6cd3-d10d-0b07-af02aefe404e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "一个人玩是恐怖游戏，两个人玩是冒险游戏，三个人玩是寻宝游戏，四个人玩是搞笑游戏， 《超自然行动组》作为首款多人组队欢乐恐怖游戏，为你和你的朋友带来多种多样的游戏"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "マビノギモバイル",
+          "publisher": "NEXON Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6775403879",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%93%E3%83%8E%E3%82%AE%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB/id6775403879?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/1f/e4/5f1fe486-2d98-8633-ae4f-bd4cb4339b93/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ロマンと冒険の世界､マビノギモバイルへようこそ｡ \n幼い頃､お婆さんから聞いた古い伝説が､新たな物語に生まれ変わります｡\n\n■ ゲームの特徴 ■\n\n▶ 新たに始"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "マビノギモバイル",
+          "publisher": "NEXON Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6775403879",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%93%E3%83%8E%E3%82%AE%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB/id6775403879?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/1f/e4/5f1fe486-2d98-8633-ae4f-bd4cb4339b93/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ロマンと冒険の世界､マビノギモバイルへようこそ｡ \n幼い頃､お婆さんから聞いた古い伝説が､新たな物語に生まれ変わります｡\n\n■ ゲームの特徴 ■\n\n▶ 新たに始"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "マビノギモバイル",
+          "publisher": "NEXON Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6775403879",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%93%E3%83%8E%E3%82%AE%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB/id6775403879?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/1f/e4/5f1fe486-2d98-8633-ae4f-bd4cb4339b93/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ロマンと冒険の世界､マビノギモバイルへようこそ｡ \n幼い頃､お婆さんから聞いた古い伝説が､新たな物語に生まれ変わります｡\n\n■ ゲームの特徴 ■\n\n▶ 新たに始"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "Woodoku Blast",
+          "publisher": "Tripledot Studios Limited",
+          "category": "Games",
+          "package": "com.tripledot.blockbash"
+        },
+        {
+          "rank": 17,
+          "name": "Paper.io 2",
+          "publisher": "VOODOO",
+          "category": "Games",
+          "package": "io.voodoo.paper2"
+        },
+        {
+          "rank": 19,
+          "name": "Township",
+          "publisher": "Playrix",
+          "category": "Games",
+          "package": "com.playrix.township"
+        },
+        {
+          "rank": 20,
+          "name": "Color by Number：Coloring Games",
+          "publisher": "Wildlife Studios",
+          "category": "Games",
+          "package": "com.tfgco.apps.coloring.free.color.by.number"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
