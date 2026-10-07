@@ -1,0 +1,602 @@
+{
+  "date": "2026-10-07",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "肥鹅美食街",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "北京豪腾创想科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd2901d992defc4a9",
+          "publisher_id": 20002337
+        },
+        {
+          "rank": 17,
+          "name": "一找一个准",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "长沙指米网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx3986ff94accd31a9",
+          "publisher_id": 20002400
+        },
+        {
+          "rank": 18,
+          "name": "疯狂水世界",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "益世界网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx2ea52a972ea18e5e",
+          "publisher_id": 20002301
+        },
+        {
+          "rank": 19,
+          "name": "开心消消乐",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "乐元素科技(北京)股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0647ea28e8169ef5",
+          "publisher_id": 20002406
+        },
+        {
+          "rank": 20,
+          "name": "猛鬼宿舍",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊娱乐文化有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0c4a175295d64921",
+          "publisher_id": 20002386
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "下方了",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "深圳飞鱼星空科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx8310ec5d413eee82",
+          "publisher_id": 20292340
+        },
+        {
+          "rank": 20,
+          "name": "天命行者",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "广州大蓝网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxbdf25cb34ce9bf6e",
+          "publisher_id": 20002317
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 18,
+          "name": "向末日开炮",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南游椰科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt65f3134efafdee4b07",
+          "publisher_id": 20192468
+        }
+      ],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "全能大闯关",
+          "category": "1",
+          "category_rank": 5,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt13df65628dba8a9307",
+          "publisher_id": 20242355
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 18,
+          "name": "向末日开炮",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南游椰科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt65f3134efafdee4b07",
+          "publisher_id": 20192468
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 18,
+          "name": "向末日开炮",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南游椰科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt65f3134efafdee4b07",
+          "publisher_id": 20192468
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "武侠大明星",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南临游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5b522defc462288807",
+          "publisher_id": 20002327
+        },
+        {
+          "rank": 20,
+          "name": "超能下蛋鸭",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "世熠网络科技（上海）有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt96fde04009f58bfe07",
+          "publisher_id": 20192366
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 16,
+          "name": "黑洞我超强",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "天津奇柠网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1695602888f1a01502",
+          "publisher_id": 20302595
+        },
+        {
+          "rank": 17,
+          "name": "脑力极限",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆环游者网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3ccf4a72a3c445c507",
+          "publisher_id": 20242691
+        },
+        {
+          "rank": 18,
+          "name": "趣味破谜题",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "临沂传音传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1a1e6ca3847bb59d02",
+          "publisher_id": 20302596
+        },
+        {
+          "rank": 20,
+          "name": "有亿点点难",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市石晟科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tteea5981870c2c85d02",
+          "publisher_id": 20292377
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 11,
+          "name": "我来操作",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州池骋网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3ec0487da0a5ce4907",
+          "publisher_id": 20012361
+        },
+        {
+          "rank": 14,
+          "name": "地狱少女次元换装",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门喵帕鲁科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt75880335ebedebb202",
+          "publisher_id": 20192508
+        },
+        {
+          "rank": 19,
+          "name": "我要当老祖",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南科翔网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8efbf846109bb83007",
+          "publisher_id": 20302585
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 16,
+          "name": "黑洞我超强",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "天津奇柠网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1695602888f1a01502",
+          "publisher_id": 20302595
+        },
+        {
+          "rank": 17,
+          "name": "脑力极限",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆环游者网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3ccf4a72a3c445c507",
+          "publisher_id": 20242691
+        },
+        {
+          "rank": 18,
+          "name": "趣味破谜题",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "临沂传音传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1a1e6ca3847bb59d02",
+          "publisher_id": 20302596
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 3,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 16,
+          "name": "黑洞我超强",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "天津奇柠网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1695602888f1a01502",
+          "publisher_id": 20302595
+        },
+        {
+          "rank": 17,
+          "name": "脑力极限",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆环游者网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3ccf4a72a3c445c507",
+          "publisher_id": 20242691
+        },
+        {
+          "rank": 18,
+          "name": "趣味破谜题",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "临沂传音传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1a1e6ca3847bb59d02",
+          "publisher_id": 20302596
+        },
+        {
+          "rank": 20,
+          "name": "有亿点点难",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市石晟科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tteea5981870c2c85d02",
+          "publisher_id": 20292377
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 1,
+          "name": "三国杀·烽烟策",
+          "publisher": "上海游卡",
+          "category": "SLG",
+          "subcategory": "策略、战争、三国、三国杀、3D"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "Gossip Harbor®: Merge & Story",
+          "publisher": "Microfun Limited",
+          "category": "Games",
+          "app_id": "1623318294",
+          "url": "https://apps.apple.com/us/app/gossip-harbor-merge-story/id1623318294?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fe/5f/a8/fe5fa8bd-23a0-8fc1-e7b6-af93cc405a9a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Gossip Harbor \nFollow Quinn Castillo as her picture perfect life on B"
+        },
+        {
+          "rank": 20,
+          "name": "MONOPOLY GO!",
+          "publisher": "Scopely, Inc.",
+          "category": "Games",
+          "app_id": "1621328561",
+          "url": "https://apps.apple.com/us/app/monopoly-go/id1621328561?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/bd/94/b3bd942c-550c-def9-c927-b088a920363a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Hit GO! Roll the dice! Earn MONOPOLY money, interact with your friends, family m"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 9,
+          "name": "TOY BLOX トイブロックス-トリマ公式ブロックパズル",
+          "publisher": "GeoTechnologies, Inc.",
+          "category": "ゲーム",
+          "app_id": "6789060737",
+          "url": "https://apps.apple.com/jp/app/toy-blox-%E3%83%88%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%88%E3%83%AA%E3%83%9E%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB/id6789060737?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/7b/6a/a47b6aa1-1f73-3eff-9a63-849d282cbaf5/AppIcon-production-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【TOY BLOXとは】\n大人気ポイ活アプリ「トリマ」からブロックパズルゲーム「TOY BLOX（トイブロックス）」が誕生しました！\nトイブロックスは、初心者か"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "TOY BLOX トイブロックス-トリマ公式ブロックパズル",
+          "publisher": "GeoTechnologies, Inc.",
+          "category": "ゲーム",
+          "app_id": "6789060737",
+          "url": "https://apps.apple.com/jp/app/toy-blox-%E3%83%88%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%88%E3%83%AA%E3%83%9E%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB/id6789060737?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/7b/6a/a47b6aa1-1f73-3eff-9a63-849d282cbaf5/AppIcon-production-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【TOY BLOXとは】\n大人気ポイ活アプリ「トリマ」からブロックパズルゲーム「TOY BLOX（トイブロックス）」が誕生しました！\nトイブロックスは、初心者か"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "TOY BLOX トイブロックス-トリマ公式ブロックパズル",
+          "publisher": "GeoTechnologies, Inc.",
+          "category": "ゲーム",
+          "app_id": "6789060737",
+          "url": "https://apps.apple.com/jp/app/toy-blox-%E3%83%88%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%88%E3%83%AA%E3%83%9E%E5%85%AC%E5%BC%8F%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB/id6789060737?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/7b/6a/a47b6aa1-1f73-3eff-9a63-849d282cbaf5/AppIcon-production-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【TOY BLOXとは】\n大人気ポイ活アプリ「トリマ」からブロックパズルゲーム「TOY BLOX（トイブロックス）」が誕生しました！\nトイブロックスは、初心者か"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "Mahjong Blast",
+          "publisher": "Nebula  Studio",
+          "category": "Games",
+          "package": "com.nebula.mahjongtile"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
