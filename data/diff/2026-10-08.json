@@ -1,0 +1,586 @@
+{
+  "date": "2026-10-08",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "浪漫餐厅",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "北京柠檬微趣科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx087d98a0884bbe3b",
+          "publisher_id": 20012364
+        },
+        {
+          "rank": 19,
+          "name": "跳一跳",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx7c8d593b2c3a7703",
+          "publisher_id": 20002309
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "腾讯欢乐斗地主",
+          "category": "棋牌",
+          "category_rank": 1,
+          "subcategory": "牌类",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd0e404d795ea6f80",
+          "publisher_id": 20002309
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "野外跳水挑战",
+          "category": "1",
+          "category_rank": 5,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9d60ebdd0307281a07",
+          "publisher_id": 20262386
+        },
+        {
+          "rank": 19,
+          "name": "向往的生活",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市必凡娱乐科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd54ea3f34a46f34a02",
+          "publisher_id": 20002362
+        },
+        {
+          "rank": 20,
+          "name": "梦回甄嬛传",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州擎迅网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2f6959d4b113069b02",
+          "publisher_id": 20302495
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "四季合合",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt210457b9be35faff07",
+          "publisher_id": 20002380
+        },
+        {
+          "rank": 18,
+          "name": "神器传说",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt19026fbf860bc6a102",
+          "publisher_id": 20002345
+        },
+        {
+          "rank": 19,
+          "name": "次神光之觉醒",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京雪境科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf50b83b66a377fc402",
+          "publisher_id": 20242348
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 15,
+          "name": "双人涂鸦躲猫猫",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "石家庄清竹网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt401636abde73d0b002",
+          "publisher_id": 20244604
+        },
+        {
+          "rank": 16,
+          "name": "收纳柜纹理游戏",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte45f92e27a3ad1bb02",
+          "publisher_id": 20002390
+        },
+        {
+          "rank": 17,
+          "name": "节奏跟着走",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市青澜舟行网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3736418ba953c31f02",
+          "publisher_id": 20302540
+        },
+        {
+          "rank": 19,
+          "name": "我是猫-奇妙冒险",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门哥几个网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8a79fcc4157491b407",
+          "publisher_id": 20244326
+        },
+        {
+          "rank": 20,
+          "name": "一笔闯难关",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市青澜舟行网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt17d3616e89b6e3f402",
+          "publisher_id": 20302540
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "子弹暴击僵尸",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市时间坊贸易有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc434b2895a518c0c02",
+          "publisher_id": 20192362
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 17,
+          "name": "节奏跟着走",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市青澜舟行网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3736418ba953c31f02",
+          "publisher_id": 20302540
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 15,
+          "name": "双人涂鸦躲猫猫",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "石家庄清竹网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt401636abde73d0b002",
+          "publisher_id": 20244604
+        },
+        {
+          "rank": 16,
+          "name": "收纳柜纹理游戏",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte45f92e27a3ad1bb02",
+          "publisher_id": 20002390
+        },
+        {
+          "rank": 17,
+          "name": "节奏跟着走",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市青澜舟行网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3736418ba953c31f02",
+          "publisher_id": 20302540
+        },
+        {
+          "rank": 19,
+          "name": "我是猫-奇妙冒险",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门哥几个网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8a79fcc4157491b407",
+          "publisher_id": 20244326
+        },
+        {
+          "rank": 20,
+          "name": "一笔闯难关",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市青澜舟行网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt17d3616e89b6e3f402",
+          "publisher_id": 20302540
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 9,
+          "name": "英雄请出战",
+          "publisher": "北京集英舍软件科技有限公司",
+          "category": "冒险",
+          "subcategory": "像素、三国、角色扮演、竖屏、回合制、策略、养成"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "七界梦谭",
+          "publisher": "飞光阁工作室",
+          "category": "角色扮演",
+          "subcategory": "修仙、高画质、MMORPG、开放世界、国风、3D"
+        },
+        {
+          "rank": 8,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "Roguelike",
+          "subcategory": "多人联机、动作、Steam移植、买断制、单机、独立游戏、冒险"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "英雄请出战",
+          "publisher": "北京集英舍软件科技有限公司",
+          "category": "冒险",
+          "subcategory": "像素、三国、角色扮演、竖屏、回合制、策略、养成"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "英雄请出战",
+          "publisher": "北京集英舍软件科技有限公司",
+          "category": "冒险",
+          "subcategory": "像素、三国、角色扮演、竖屏、回合制、策略、养成"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 19,
+          "name": "Dice Dreams™",
+          "publisher": "SuperPlay",
+          "category": "Games",
+          "app_id": "1484468651",
+          "url": "https://apps.apple.com/us/app/dice-dreams/id1484468651?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/71/03/f171036e-5a26-9eb3-2d93-e9154db3e9b6/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Dice Dreams!\n\nATTACK, STEAL AND GET REVENGE!\nAttack your friends, ste"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 19,
+          "name": "Dice Dreams™",
+          "publisher": "SuperPlay",
+          "category": "Games",
+          "app_id": "1484468651",
+          "url": "https://apps.apple.com/us/app/dice-dreams/id1484468651?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/71/03/f171036e-5a26-9eb3-2d93-e9154db3e9b6/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Dice Dreams!\n\nATTACK, STEAL AND GET REVENGE!\nAttack your friends, ste"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "向末日开炮",
+          "publisher": "Dod Joy Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6748045272",
+          "url": "https://apps.apple.com/cn/app/%E5%90%91%E6%9C%AB%E6%97%A5%E5%BC%80%E7%82%AE/id6748045272?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/a1/67/a6a1674b-484e-f634-3837-93407342bd9d/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "“末日降临，英雄崛起”！在《向末日开炮》玩家们将化身“指挥官”，手持高爆武器，穿梭于末日废墟与移动迷宫，破解人类文明面临着崩溃边缘的难题，在最后一丝防线中，用艰"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "ピクセル放置RPG：俺の絵だけ解像度がおかしい",
+          "publisher": "ANTIC TECNOLOGY LIMITED",
+          "category": "ゲーム",
+          "app_id": "6769318336",
+          "url": "https://apps.apple.com/jp/app/%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E6%94%BE%E7%BD%AErpg-%E4%BF%BA%E3%81%AE%E7%B5%B5%E3%81%A0%E3%81%91%E8%A7%A3%E5%83%8F%E5%BA%A6%E3%81%8C%E3%81%8A%E3%81%8B%E3%81%97%E3%81%84/id6769318336?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/32/ae/0d32aea2-242b-684e-1f41-e5a8b8aad8c8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "放置ゲームに、もう物足りなさを感じていませんか？\nあなたが\"冒険者そのもの\"になる、正真正銘のRPGです。\nダンジョンに潜り、装備を掘り、スキルを磨き、ギルドの"
+        },
+        {
+          "rank": 17,
+          "name": "Disney Solitaire ディズニー ソリティア",
+          "publisher": "SuperPlay",
+          "category": "ゲーム",
+          "app_id": "6475757306",
+          "url": "https://apps.apple.com/jp/app/disney-solitaire-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2/id6475757306?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/13/4d/3c134dff-c40d-b4b5-dc23-42661a0762d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ディズニーソリティアへようこそ。クラシックなトライピークスソリティアが、魔法に満ちたエキサイティングな体験へと生まれ変わります！\n\nディズニーとピクサーの世界か"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 4,
+          "name": "ピクセル放置RPG：俺の絵だけ解像度がおかしい",
+          "publisher": "ANTIC TECNOLOGY LIMITED",
+          "category": "ゲーム",
+          "app_id": "6769318336",
+          "url": "https://apps.apple.com/jp/app/%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E6%94%BE%E7%BD%AErpg-%E4%BF%BA%E3%81%AE%E7%B5%B5%E3%81%A0%E3%81%91%E8%A7%A3%E5%83%8F%E5%BA%A6%E3%81%8C%E3%81%8A%E3%81%8B%E3%81%97%E3%81%84/id6769318336?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/32/ae/0d32aea2-242b-684e-1f41-e5a8b8aad8c8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "放置ゲームに、もう物足りなさを感じていませんか？\nあなたが\"冒険者そのもの\"になる、正真正銘のRPGです。\nダンジョンに潜り、装備を掘り、スキルを磨き、ギルドの"
+        },
+        {
+          "rank": 17,
+          "name": "Disney Solitaire ディズニー ソリティア",
+          "publisher": "SuperPlay",
+          "category": "ゲーム",
+          "app_id": "6475757306",
+          "url": "https://apps.apple.com/jp/app/disney-solitaire-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2/id6475757306?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/13/4d/3c134dff-c40d-b4b5-dc23-42661a0762d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ディズニーソリティアへようこそ。クラシックなトライピークスソリティアが、魔法に満ちたエキサイティングな体験へと生まれ変わります！\n\nディズニーとピクサーの世界か"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 0,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "ピクセル放置RPG：俺の絵だけ解像度がおかしい",
+          "publisher": "ANTIC TECNOLOGY LIMITED",
+          "category": "ゲーム",
+          "app_id": "6769318336",
+          "url": "https://apps.apple.com/jp/app/%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB%E6%94%BE%E7%BD%AErpg-%E4%BF%BA%E3%81%AE%E7%B5%B5%E3%81%A0%E3%81%91%E8%A7%A3%E5%83%8F%E5%BA%A6%E3%81%8C%E3%81%8A%E3%81%8B%E3%81%97%E3%81%84/id6769318336?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/32/ae/0d32aea2-242b-684e-1f41-e5a8b8aad8c8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "放置ゲームに、もう物足りなさを感じていませんか？\nあなたが\"冒険者そのもの\"になる、正真正銘のRPGです。\nダンジョンに潜り、装備を掘り、スキルを磨き、ギルドの"
+        },
+        {
+          "rank": 17,
+          "name": "Disney Solitaire ディズニー ソリティア",
+          "publisher": "SuperPlay",
+          "category": "ゲーム",
+          "app_id": "6475757306",
+          "url": "https://apps.apple.com/jp/app/disney-solitaire-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2/id6475757306?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/13/4d/3c134dff-c40d-b4b5-dc23-42661a0762d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ディズニーソリティアへようこそ。クラシックなトライピークスソリティアが、魔法に満ちたエキサイティングな体験へと生まれ変わります！\n\nディズニーとピクサーの世界か"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
