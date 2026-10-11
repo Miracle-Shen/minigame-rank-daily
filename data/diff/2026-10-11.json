@@ -1,0 +1,677 @@
+{
+  "date": "2026-10-11",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "掼蛋",
+          "category": "棋牌",
+          "category_rank": 5,
+          "subcategory": "牌类",
+          "slogan": "",
+          "publisher": "杭州边锋网络技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxb7d9498283885fb2",
+          "publisher_id": 20002420
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "精英军团",
+          "category": "竞技",
+          "category_rank": 1,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "杭州叙炽网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx2b9d67737d1607d7",
+          "publisher_id": 20182350
+        },
+        {
+          "rank": 14,
+          "name": "天命行者",
+          "category": "角色",
+          "category_rank": 3,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "广州大蓝网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxbdf25cb34ce9bf6e",
+          "publisher_id": 20002317
+        },
+        {
+          "rank": 18,
+          "name": "佣兵小镇",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "成都天象互动文化传播有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx59d849f9c3f1f710",
+          "publisher_id": 20192367
+        },
+        {
+          "rank": 20,
+          "name": "青云诀之伏魔",
+          "category": "角色",
+          "category_rank": 6,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "海南元游信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxcdcbec6bf40d053a",
+          "publisher_id": 20002304
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 7,
+          "name": "精英军团",
+          "category": "竞技",
+          "category_rank": 1,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "杭州叙炽网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx2b9d67737d1607d7",
+          "publisher_id": 20182350
+        }
+      ],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 1
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "天天象棋",
+          "category": "棋牌",
+          "category_rank": 2,
+          "subcategory": "棋类",
+          "slogan": "",
+          "publisher": "深圳市腾讯天游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx9e44d62c7ab75740",
+          "publisher_id": 20002394
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 12,
+          "name": "这梗太棒了",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市指天椒科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf04f86f26e2ea2a302",
+          "publisher_id": 20202307
+        }
+      ],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "蛋仔派对",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州网易雷火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttca44bcf9554d63f002",
+          "publisher_id": 20242769
+        },
+        {
+          "rank": 19,
+          "name": "猛鬼宿舍",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt00e576589fdceaa202",
+          "publisher_id": 20192384
+        },
+        {
+          "rank": 20,
+          "name": "掼蛋",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州边锋网络技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt123464898d05f9d402",
+          "publisher_id": 20002420
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 12,
+          "name": "这梗太棒了",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市指天椒科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf04f86f26e2ea2a302",
+          "publisher_id": 20202307
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "不服来通关",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙游品科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcaa6bc1b55adba2c02",
+          "publisher_id": 20092311
+        },
+        {
+          "rank": 16,
+          "name": "武侠大明星",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南临游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5b522defc462288807",
+          "publisher_id": 20002327
+        },
+        {
+          "rank": 17,
+          "name": "赵云与阿斗",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京蜜獾兄弟科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf3e1855c6ce3e43b02",
+          "publisher_id": 20292357
+        },
+        {
+          "rank": 18,
+          "name": "空格之境",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt96a6e01b08c553f502",
+          "publisher_id": 20244673
+        },
+        {
+          "rank": 19,
+          "name": "超能下蛋鸭",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "世熠网络科技（上海）有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt96fde04009f58bfe07",
+          "publisher_id": 20192366
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "我要闯个关",
+          "category": "1",
+          "category_rank": 5,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海密幂科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt021174ac9c71836007",
+          "publisher_id": 20262395
+        },
+        {
+          "rank": 9,
+          "name": "升级武器吧",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市时间坊贸易有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt64d2126ffab72ce002",
+          "publisher_id": 20192362
+        },
+        {
+          "rank": 10,
+          "name": "多乐消消",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳奇象互动网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttdd8eab3343f44f4002",
+          "publisher_id": 20302366
+        },
+        {
+          "rank": 15,
+          "name": "靓仔爬塔挑战",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市时间坊贸易有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt79d70f6ae7adc69902",
+          "publisher_id": 20192362
+        },
+        {
+          "rank": 16,
+          "name": "边缘空间",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "天津津版数融传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd12aa7974f5141d707",
+          "publisher_id": 20162323
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 19,
+          "name": "翡翠刮刮刮",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttafffd942319ac87d02",
+          "publisher_id": 20002390
+        }
+      ],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "我要闯个关",
+          "category": "1",
+          "category_rank": 5,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海密幂科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt021174ac9c71836007",
+          "publisher_id": 20262395
+        },
+        {
+          "rank": 9,
+          "name": "升级武器吧",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市时间坊贸易有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt64d2126ffab72ce002",
+          "publisher_id": 20192362
+        },
+        {
+          "rank": 10,
+          "name": "多乐消消",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳奇象互动网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttdd8eab3343f44f4002",
+          "publisher_id": 20302366
+        },
+        {
+          "rank": 15,
+          "name": "靓仔爬塔挑战",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市时间坊贸易有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt79d70f6ae7adc69902",
+          "publisher_id": 20192362
+        },
+        {
+          "rank": 16,
+          "name": "边缘空间",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "天津津版数融传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd12aa7974f5141d707",
+          "publisher_id": 20162323
+        },
+        {
+          "rank": 19,
+          "name": "翡翠刮刮刮",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttafffd942319ac87d02",
+          "publisher_id": 20002390
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "极境：垂钓者",
+          "publisher": "紫龙游戏",
+          "category": "钓鱼",
+          "subcategory": "模拟、休闲"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 1,
+          "name": "米塔",
+          "category": "模拟",
+          "subcategory": "角色扮演、第一人称视角、单机、剧情、冒险、恐怖、可爱、单人、3D、二次元、解谜、支持Steam家庭共享、2D"
+        },
+        {
+          "rank": 10,
+          "name": "小苔屋",
+          "publisher": "猫猫世纪工作室",
+          "category": "休闲"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "极境：垂钓者",
+          "publisher": "紫龙游戏",
+          "category": "钓鱼",
+          "subcategory": "模拟、休闲"
+        }
+      ]
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 12,
+          "name": "我叫MT：崛起",
+          "publisher": "Chengmai Wulin Interactive Entertainment Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6808532104",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E5%8F%ABmt-%E5%B4%9B%E8%B5%B7/id6808532104?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/bc/b7/debcb778-a945-9265-59e6-b1a2b0d03b48/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《我叫MT：崛起》是一款以魔幻世界为背景的卡牌放置类手游，在MT的世界里，你将作为一位异世大陆冒险者，与哀木涕以及菊爆大队的一众伙伴并肩同行，重温原汁原味的大陆"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "火影忍者",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "955396648",
+          "url": "https://apps.apple.com/cn/app/%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85/id955396648?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/48/e6/2848e651-522a-cef2-2fac-1bcb0752d0de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "火影忍者-疾风传登场，百忍集结，强力降临\n【游戏介绍】\n《火影忍者》手游100%正统还原原著剧情，全新疾风传篇章登场，十年百忍强力降临，玩家可以任意扮演鸣人、佐"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 12,
+          "name": "我叫MT：崛起",
+          "publisher": "Chengmai Wulin Interactive Entertainment Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6808532104",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E5%8F%ABmt-%E5%B4%9B%E8%B5%B7/id6808532104?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/bc/b7/debcb778-a945-9265-59e6-b1a2b0d03b48/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《我叫MT：崛起》是一款以魔幻世界为背景的卡牌放置类手游，在MT的世界里，你将作为一位异世大陆冒险者，与哀木涕以及菊爆大队的一众伙伴并肩同行，重温原汁原味的大陆"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 12,
+          "name": "我叫MT：崛起",
+          "publisher": "Chengmai Wulin Interactive Entertainment Co.,Ltd",
+          "category": "游戏",
+          "app_id": "6808532104",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E5%8F%ABmt-%E5%B4%9B%E8%B5%B7/id6808532104?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/bc/b7/debcb778-a945-9265-59e6-b1a2b0d03b48/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《我叫MT：崛起》是一款以魔幻世界为背景的卡牌放置类手游，在MT的世界里，你将作为一位异世大陆冒险者，与哀木涕以及菊爆大队的一众伙伴并肩同行，重温原汁原味的大陆"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "ArrowCube - 3DPuzzle",
+          "publisher": "GOODROID,Inc.",
+          "category": "ゲーム",
+          "app_id": "6760325543",
+          "url": "https://apps.apple.com/jp/app/arrowcube-3dpuzzle/id6760325543?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/99/d2/7e99d217-5a1c-489d-3af1-a53427fb4cb8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "CubeAway - 3DPuzzle へようこそ。\n\nシンプルで美しいデザインが特徴のこのロジックパズルゲームは、あなたの思考力、集中力、そして発想力を試しま"
+        },
+        {
+          "rank": 19,
+          "name": "ホワイトアウト・サバイバル",
+          "publisher": "Century Games Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6443575749",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%82%A2%E3%82%A6%E3%83%88-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id6443575749?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/5a/db/1f5adbc9-8ca2-966a-a708-a599b6910efa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "4億人が遊ぶ唯一無二の氷雪スマホゲーム！サクッと爽快！みんなで極寒サバイバル ！\n\n猛吹雪に襲われ、かつての世界は崩壊。人類の文明の灯火は、氷雪の中で今にも消え"
+        },
+        {
+          "rank": 20,
+          "name": "Roblox (ロブロックス)",
+          "publisher": "Roblox Corporation",
+          "category": "ゲーム",
+          "app_id": "431946152",
+          "url": "https://apps.apple.com/jp/app/roblox-%E3%83%AD%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%B9/id431946152?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/a9/a5/96a9a586-952f-c5b2-4898-085555d49d52/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "Roblox（ロブロックス） – さまざまなジャンルのゲーム数百万種を無料でプレイ。\n\nRobloxには、どんなプレイヤーにも対応できるあらゆるゲームが揃ってい"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 11,
+          "name": "Township",
+          "publisher": "Playrix",
+          "category": "Games",
+          "package": "com.playrix.township"
+        },
+        {
+          "rank": 14,
+          "name": "MONOPOLY GO!",
+          "publisher": "Scopely",
+          "category": "Games",
+          "package": "com.scopely.monopolygo"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
