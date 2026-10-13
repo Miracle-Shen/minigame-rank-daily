@@ -1,0 +1,728 @@
+{
+  "date": "2026-10-13",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "砖了个砖",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "北京简游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx1650bdeedb17dfea",
+          "publisher_id": 20002381
+        },
+        {
+          "rank": 17,
+          "name": "跳一跳",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx7c8d593b2c3a7703",
+          "publisher_id": 20002309
+        },
+        {
+          "rank": 18,
+          "name": "浪漫餐厅",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "北京柠檬微趣科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx087d98a0884bbe3b",
+          "publisher_id": 20012364
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "我的花园世界",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "厦门麟贝互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx47e577dc5b3fde6f",
+          "publisher_id": 20192478
+        },
+        {
+          "rank": 17,
+          "name": "奔奔王国",
+          "category": "竞技",
+          "category_rank": 2,
+          "subcategory": "对战",
+          "slogan": "",
+          "publisher": "福州点点松云网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd5a7455f2d66f698",
+          "publisher_id": 20192451
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "躺平发育",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊娱乐文化有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx8f54d0cf1faf013f",
+          "publisher_id": 20002386
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 15,
+          "name": "解救计划",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛星云无界网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt94f6e24b0bfbbbd202",
+          "publisher_id": 20302582
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "这梗太棒了",
+          "category": "1",
+          "category_rank": 8,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市指天椒科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf04f86f26e2ea2a302",
+          "publisher_id": 20202307
+        },
+        {
+          "rank": 13,
+          "name": "俱乐大玩家",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南临游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5a362c8bc45262eb07",
+          "publisher_id": 20002327
+        },
+        {
+          "rank": 19,
+          "name": "音悦节奏球",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门真嘟假嘟网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf01f86a26f1520f507",
+          "publisher_id": 20192412
+        },
+        {
+          "rank": 20,
+          "name": "梦回甄嬛传",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州擎迅网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2f6959d4b113069b02",
+          "publisher_id": 20302495
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 15,
+          "name": "解救计划",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛星云无界网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt94f6e24b0bfbbbd202",
+          "publisher_id": 20302582
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 4,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 15,
+          "name": "解救计划",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛星云无界网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt94f6e24b0bfbbbd202",
+          "publisher_id": 20302582
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "我的花园世界",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南途趣科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcc26ba9b532f1e8202",
+          "publisher_id": 20243982
+        },
+        {
+          "rank": 16,
+          "name": "俱乐大玩家",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南临游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5a362c8bc45262eb07",
+          "publisher_id": 20002327
+        },
+        {
+          "rank": 17,
+          "name": "次神光之觉醒",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京雪境科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf50b83b66a377fc402",
+          "publisher_id": 20242348
+        },
+        {
+          "rank": 18,
+          "name": "勇者乱斗",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州电梦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt4ffa3947d0f477c207",
+          "publisher_id": 20244649
+        },
+        {
+          "rank": 19,
+          "name": "梦回甄嬛传",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州擎迅网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2f6959d4b113069b02",
+          "publisher_id": 20302495
+        },
+        {
+          "rank": 20,
+          "name": "武侠大明星",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南临游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5b522defc462288807",
+          "publisher_id": 20002327
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 6,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "星际开荒模拟器",
+          "category": "1",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州闪可优网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcc93ba2e52f6ca7302",
+          "publisher_id": 20162340
+        },
+        {
+          "rank": 12,
+          "name": "消除有点菜",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门次元趣界网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt743b0286ea5c492b02",
+          "publisher_id": 20243259
+        },
+        {
+          "rank": 13,
+          "name": "指尖爱消除",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州三狼网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt4bbd3d00d5c5906102",
+          "publisher_id": 20152315
+        },
+        {
+          "rank": 17,
+          "name": "传奇至尊（移动版）",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "绍兴玩味科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2bff5d42b59a8c6c02",
+          "publisher_id": 20244232
+        },
+        {
+          "rank": 20,
+          "name": "冷枪猎手",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市时间坊贸易有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tted689bd5730d604c02",
+          "publisher_id": 20192362
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "缤纷爱消除",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州三狼网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttbbb8cd0525c0606302",
+          "publisher_id": 20152315
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 6,
+          "name": "星际开荒模拟器",
+          "category": "1",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州闪可优网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcc93ba2e52f6ca7302",
+          "publisher_id": 20162340
+        },
+        {
+          "rank": 12,
+          "name": "消除有点菜",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门次元趣界网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt743b0286ea5c492b02",
+          "publisher_id": 20243259
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 1,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "星际开荒模拟器",
+          "category": "1",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州闪可优网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcc93ba2e52f6ca7302",
+          "publisher_id": 20162340
+        },
+        {
+          "rank": 12,
+          "name": "消除有点菜",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门次元趣界网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt743b0286ea5c492b02",
+          "publisher_id": 20243259
+        },
+        {
+          "rank": 13,
+          "name": "指尖爱消除",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州三狼网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt4bbd3d00d5c5906102",
+          "publisher_id": 20152315
+        },
+        {
+          "rank": 17,
+          "name": "传奇至尊（移动版）",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "绍兴玩味科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2bff5d42b59a8c6c02",
+          "publisher_id": 20244232
+        },
+        {
+          "rank": 20,
+          "name": "冷枪猎手",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市时间坊贸易有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tted689bd5730d604c02",
+          "publisher_id": 20192362
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 4,
+          "name": "篮球少女：飞跃巅峰",
+          "publisher": "广州灵犀互动娱乐有限公司",
+          "category": "卡牌",
+          "subcategory": "二次元、养成、篮球、模拟、美少女、策略"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "地城狩猎-2026技能百搭地城刷宝爽游",
+          "publisher": "Miaoyi Games",
+          "category": "游戏",
+          "app_id": "6785441297",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E5%9F%8E%E7%8B%A9%E7%8C%8E-2026%E6%8A%80%E8%83%BD%E7%99%BE%E6%90%AD%E5%9C%B0%E5%9F%8E%E5%88%B7%E5%AE%9D%E7%88%BD%E6%B8%B8/id6785441297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/6d/a2/c06da251-7151-26b5-2483-aee665d4c887/AppIcon_1-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "2026最值得玩的暗黑Like刷宝手游。《地城狩猎》独创技能流派+铭文搭配+局内【天赐神选】三重策略体系，更有100%资源返还让你流派切换零成本！5分钟一局，无"
+        },
+        {
+          "rank": 20,
+          "name": "猫咪整理师 - 房间造景布置小屋 整理解压收纳达人",
+          "publisher": "Togother Many Information Technology Co, Ltd.",
+          "category": "游戏",
+          "app_id": "6752363458",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%AB%E5%92%AA%E6%95%B4%E7%90%86%E5%B8%88-%E6%88%BF%E9%97%B4%E9%80%A0%E6%99%AF%E5%B8%83%E7%BD%AE%E5%B0%8F%E5%B1%8B-%E6%95%B4%E7%90%86%E8%A7%A3%E5%8E%8B%E6%94%B6%E7%BA%B3%E8%BE%BE%E4%BA%BA/id6752363458?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/a8/33/5fa8339d-b003-a171-fb34-a1c9937982e8/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "欢迎来到你的专属解压小天地！在这里，动动手指，像玩贴纸一样，就能DIY出独一无二的可爱场景。\n\n拿起你的小镊子，把各种各样的家具和物品贴到它们该去的地方。看着乱"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 5,
+          "name": "地城狩猎-2026技能百搭地城刷宝爽游",
+          "publisher": "Miaoyi Games",
+          "category": "游戏",
+          "app_id": "6785441297",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E5%9F%8E%E7%8B%A9%E7%8C%8E-2026%E6%8A%80%E8%83%BD%E7%99%BE%E6%90%AD%E5%9C%B0%E5%9F%8E%E5%88%B7%E5%AE%9D%E7%88%BD%E6%B8%B8/id6785441297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/6d/a2/c06da251-7151-26b5-2483-aee665d4c887/AppIcon_1-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "2026最值得玩的暗黑Like刷宝手游。《地城狩猎》独创技能流派+铭文搭配+局内【天赐神选】三重策略体系，更有100%资源返还让你流派切换零成本！5分钟一局，无"
+        },
+        {
+          "rank": 20,
+          "name": "猫咪整理师 - 房间造景布置小屋 整理解压收纳达人",
+          "publisher": "Togother Many Information Technology Co, Ltd.",
+          "category": "游戏",
+          "app_id": "6752363458",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%AB%E5%92%AA%E6%95%B4%E7%90%86%E5%B8%88-%E6%88%BF%E9%97%B4%E9%80%A0%E6%99%AF%E5%B8%83%E7%BD%AE%E5%B0%8F%E5%B1%8B-%E6%95%B4%E7%90%86%E8%A7%A3%E5%8E%8B%E6%94%B6%E7%BA%B3%E8%BE%BE%E4%BA%BA/id6752363458?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/a8/33/5fa8339d-b003-a171-fb34-a1c9937982e8/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "欢迎来到你的专属解压小天地！在这里，动动手指，像玩贴纸一样，就能DIY出独一无二的可爱场景。\n\n拿起你的小镊子，把各种各样的家具和物品贴到它们该去的地方。看着乱"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 0,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "地城狩猎-2026技能百搭地城刷宝爽游",
+          "publisher": "Miaoyi Games",
+          "category": "游戏",
+          "app_id": "6785441297",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E5%9F%8E%E7%8B%A9%E7%8C%8E-2026%E6%8A%80%E8%83%BD%E7%99%BE%E6%90%AD%E5%9C%B0%E5%9F%8E%E5%88%B7%E5%AE%9D%E7%88%BD%E6%B8%B8/id6785441297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/6d/a2/c06da251-7151-26b5-2483-aee665d4c887/AppIcon_1-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "2026最值得玩的暗黑Like刷宝手游。《地城狩猎》独创技能流派+铭文搭配+局内【天赐神选】三重策略体系，更有100%资源返还让你流派切换零成本！5分钟一局，无"
+        },
+        {
+          "rank": 20,
+          "name": "猫咪整理师 - 房间造景布置小屋 整理解压收纳达人",
+          "publisher": "Togother Many Information Technology Co, Ltd.",
+          "category": "游戏",
+          "app_id": "6752363458",
+          "url": "https://apps.apple.com/cn/app/%E7%8C%AB%E5%92%AA%E6%95%B4%E7%90%86%E5%B8%88-%E6%88%BF%E9%97%B4%E9%80%A0%E6%99%AF%E5%B8%83%E7%BD%AE%E5%B0%8F%E5%B1%8B-%E6%95%B4%E7%90%86%E8%A7%A3%E5%8E%8B%E6%94%B6%E7%BA%B3%E8%BE%BE%E4%BA%BA/id6752363458?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/a8/33/5fa8339d-b003-a171-fb34-a1c9937982e8/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "欢迎来到你的专属解压小天地！在这里，动动手指，像玩贴纸一样，就能DIY出独一无二的可爱场景。\n\n拿起你的小镊子，把各种各样的家具和物品贴到它们该去的地方。看着乱"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 20,
+          "name": "Cutie Sort - かわいい色分けゲーム",
+          "publisher": "Ladaneta Games",
+          "category": "ゲーム",
+          "app_id": "6796547048",
+          "url": "https://apps.apple.com/jp/app/cutie-sort-%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E8%89%B2%E5%88%86%E3%81%91%E3%82%B2%E3%83%BC%E3%83%A0/id6796547048?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/57/39/cc5739ec-343e-0ee3-77ef-db9aa9d2ca09/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "ようこそ！『Cutie Sort』は、パズル好きのために作られた純粋なロジック脳トレゲームです。空間認識とリラックスできる脳トレが完璧に融合しています。焦らせる"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "Smash Fest!",
+          "publisher": "Flow Games Bilisim Yazilim ve Pazarlama Anonim Sirketi",
+          "category": "ゲーム",
+          "app_id": "6748084174",
+          "url": "https://apps.apple.com/jp/app/smash-fest/id6748084174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/f7/db/baf7db1f-9e85-ab76-255f-85490243c164/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Smash Fest!\nGet ready for the most explosive festival in town! Step i"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 20,
+          "name": "Cutie Sort - かわいい色分けゲーム",
+          "publisher": "Ladaneta Games",
+          "category": "ゲーム",
+          "app_id": "6796547048",
+          "url": "https://apps.apple.com/jp/app/cutie-sort-%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E8%89%B2%E5%88%86%E3%81%91%E3%82%B2%E3%83%BC%E3%83%A0/id6796547048?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/57/39/cc5739ec-343e-0ee3-77ef-db9aa9d2ca09/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "ようこそ！『Cutie Sort』は、パズル好きのために作られた純粋なロジック脳トレゲームです。空間認識とリラックスできる脳トレが完璧に融合しています。焦らせる"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 20,
+          "name": "Cutie Sort - かわいい色分けゲーム",
+          "publisher": "Ladaneta Games",
+          "category": "ゲーム",
+          "app_id": "6796547048",
+          "url": "https://apps.apple.com/jp/app/cutie-sort-%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E8%89%B2%E5%88%86%E3%81%91%E3%82%B2%E3%83%BC%E3%83%A0/id6796547048?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/57/39/cc5739ec-343e-0ee3-77ef-db9aa9d2ca09/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "ようこそ！『Cutie Sort』は、パズル好きのために作られた純粋なロジック脳トレゲームです。空間認識とリラックスできる脳トレが完璧に融合しています。焦らせる"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "Magic Tiles 3™ - Piano Game",
+          "publisher": "AMANOTES PTE. LTD.",
+          "category": "Games",
+          "package": "com.youmusic.magictiles"
+        },
+        {
+          "rank": 20,
+          "name": "Color by Number：Coloring Games",
+          "publisher": "Wildlife Studios",
+          "category": "Games",
+          "package": "com.tfgco.apps.coloring.free.color.by.number"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
