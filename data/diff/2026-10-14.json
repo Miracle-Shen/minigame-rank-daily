@@ -1,0 +1,716 @@
+{
+  "date": "2026-10-14",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "对子消消乐",
+          "category": "休闲",
+          "category_rank": 5,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "厦门市宙火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx08ca4a979a9dba6c",
+          "publisher_id": 20012399
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "五子棋",
+          "category": "棋牌",
+          "category_rank": 5,
+          "subcategory": "棋类",
+          "slogan": "",
+          "publisher": "武汉市多比特信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxebd1b3aee24e1407",
+          "publisher_id": 20062310
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 6,
+          "name": "对子消消乐",
+          "category": "休闲",
+          "category_rank": 5,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "厦门市宙火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx08ca4a979a9dba6c",
+          "publisher_id": 20012399
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "对子消消乐",
+          "category": "休闲",
+          "category_rank": 5,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "厦门市宙火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx08ca4a979a9dba6c",
+          "publisher_id": 20012399
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "空格之境",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0e0531466ba56547",
+          "publisher_id": 20244673
+        },
+        {
+          "rank": 20,
+          "name": "大王请上阵",
+          "category": "角色",
+          "category_rank": 4,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "深圳市悦莱顺网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx10fdc3aa2ebc5279",
+          "publisher_id": 20302429
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "俄罗斯方块拼图",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "广州京游网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx45e02fc734c7b568",
+          "publisher_id": 20012421
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "大神也破防",
+          "category": "1",
+          "category_rank": 1,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆虚屿科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttda5aace7443e7e2d07",
+          "publisher_id": 20282311
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 20,
+          "name": "我要闯个关",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海密幂科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt021174ac9c71836007",
+          "publisher_id": 20262395
+        }
+      ],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "救救我鸭",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京起跃文化有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttdb46adfb445c4cf702",
+          "publisher_id": 20244280
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "大神也破防",
+          "category": "1",
+          "category_rank": 1,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆虚屿科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttda5aace7443e7e2d07",
+          "publisher_id": 20282311
+        },
+        {
+          "rank": 20,
+          "name": "我要闯个关",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海密幂科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt021174ac9c71836007",
+          "publisher_id": 20262395
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "妖怪金手指",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "霍尔果斯天翔信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt59d32f6ec6dbc7ab02",
+          "publisher_id": 20192349
+        },
+        {
+          "rank": 17,
+          "name": "无尽冬日",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海青笛科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcb0dbdb0543b8b2007",
+          "publisher_id": 20242351
+        },
+        {
+          "rank": 19,
+          "name": "不服来通关",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙游品科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcaa6bc1b55adba2c02",
+          "publisher_id": 20092311
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "没钱修什么仙",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt62bb1406fcd8cace07",
+          "publisher_id": 20002390
+        },
+        {
+          "rank": 17,
+          "name": "超能极限冲锋",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州易游互玩科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt38274e9aa642975207",
+          "publisher_id": 20192447
+        },
+        {
+          "rank": 19,
+          "name": "五子连珠大挑战",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt39c94f74a7af597702",
+          "publisher_id": 20002390
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 15,
+          "name": "禁区突围",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州奇冀网络信息有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt34284295ab23589402",
+          "publisher_id": 20242528
+        }
+      ],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "勇者进击",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州珑悦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc13ab7875f41bc7307",
+          "publisher_id": 20302586
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 15,
+          "name": "禁区突围",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州奇冀网络信息有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt34284295ab23589402",
+          "publisher_id": 20242528
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "没钱修什么仙",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt62bb1406fcd8cace07",
+          "publisher_id": 20002390
+        },
+        {
+          "rank": 15,
+          "name": "禁区突围",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州奇冀网络信息有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt34284295ab23589402",
+          "publisher_id": 20242528
+        },
+        {
+          "rank": 17,
+          "name": "超能极限冲锋",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州易游互玩科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt38274e9aa642975207",
+          "publisher_id": 20192447
+        },
+        {
+          "rank": 19,
+          "name": "五子连珠大挑战",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt39c94f74a7af597702",
+          "publisher_id": 20002390
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "Roguelike",
+          "subcategory": "多人联机、动作、Steam移植、买断制、单机、独立游戏、冒险"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "Disney Solitaire",
+          "publisher": "SuperPlay",
+          "category": "Games",
+          "app_id": "6475757306",
+          "url": "https://apps.apple.com/us/app/disney-solitaire/id6475757306?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/13/4d/3c134dff-c40d-b4b5-dc23-42661a0762d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Disney Solitaire, the ultimate card game that transforms classic trip"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "剑侠世界4：无限",
+          "publisher": "西山居世游",
+          "category": "游戏",
+          "app_id": "6759635917",
+          "url": "https://apps.apple.com/cn/app/%E5%89%91%E4%BE%A0%E4%B8%96%E7%95%8C4-%E6%97%A0%E9%99%90/id6759635917?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/53/7c/bc537cc2-0d28-069e-31b5-136f7abcd055/AppIcon-1x_U007emarketing-0-8-85-220-0.jpeg/100x100bb.png",
+          "slogan": "《剑侠世界4：无限》是西山居打造的剑侠世界系列MMO收官之作。游戏延续剑侠系列家族群战、经典门派、自由交易、社交与江湖恩怨等经典体验，并设计无缝大江湖、轻负担养"
+        },
+        {
+          "rank": 18,
+          "name": "怡然时光-机器人大时代",
+          "publisher": "国展 苏",
+          "category": "游戏",
+          "app_id": "6772951007",
+          "url": "https://apps.apple.com/cn/app/%E6%80%A1%E7%84%B6%E6%97%B6%E5%85%89-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E6%97%B6%E4%BB%A3/id6772951007?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/30/75/573075ad-571d-152d-ad4f-297c29b13144/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "踏入科幻机甲新世界，畅享合成闯关乐趣！《怡然时光-机器人大时代》是一款轻解压趣味合成游戏，玩法简单流畅，兼顾休闲放松与竞技挑战，让你在碎片化时光里，沉浸式体验机"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 8,
+          "name": "绿梦：时空之声",
+          "publisher": "上海竹子绿梦网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6791432398",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%BF%E6%A2%A6-%E6%97%B6%E7%A9%BA%E4%B9%8B%E5%A3%B0/id6791432398?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/56/70/d05670bc-fde9-54d3-0fd6-7d340c04d4b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《绿梦：时空之声》是一款横版动作冒险类游戏，在这个虚构的近未来世界，您作为侵蚀管理局的现役蚀务官，在探寻历史真相的旅途中结识盟友，体验到层次丰富的横版关卡和风格"
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 7,
+          "name": "剑侠世界4：无限",
+          "publisher": "西山居世游",
+          "category": "游戏",
+          "app_id": "6759635917",
+          "url": "https://apps.apple.com/cn/app/%E5%89%91%E4%BE%A0%E4%B8%96%E7%95%8C4-%E6%97%A0%E9%99%90/id6759635917?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/53/7c/bc537cc2-0d28-069e-31b5-136f7abcd055/AppIcon-1x_U007emarketing-0-8-85-220-0.jpeg/100x100bb.png",
+          "slogan": "《剑侠世界4：无限》是西山居打造的剑侠世界系列MMO收官之作。游戏延续剑侠系列家族群战、经典门派、自由交易、社交与江湖恩怨等经典体验，并设计无缝大江湖、轻负担养"
+        },
+        {
+          "rank": 8,
+          "name": "绿梦：时空之声",
+          "publisher": "上海竹子绿梦网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6791432398",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%BF%E6%A2%A6-%E6%97%B6%E7%A9%BA%E4%B9%8B%E5%A3%B0/id6791432398?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/56/70/d05670bc-fde9-54d3-0fd6-7d340c04d4b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《绿梦：时空之声》是一款横版动作冒险类游戏，在这个虚构的近未来世界，您作为侵蚀管理局的现役蚀务官，在探寻历史真相的旅途中结识盟友，体验到层次丰富的横版关卡和风格"
+        },
+        {
+          "rank": 18,
+          "name": "怡然时光-机器人大时代",
+          "publisher": "国展 苏",
+          "category": "游戏",
+          "app_id": "6772951007",
+          "url": "https://apps.apple.com/cn/app/%E6%80%A1%E7%84%B6%E6%97%B6%E5%85%89-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E6%97%B6%E4%BB%A3/id6772951007?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/30/75/573075ad-571d-152d-ad4f-297c29b13144/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "踏入科幻机甲新世界，畅享合成闯关乐趣！《怡然时光-机器人大时代》是一款轻解压趣味合成游戏，玩法简单流畅，兼顾休闲放松与竞技挑战，让你在碎片化时光里，沉浸式体验机"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 0,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "剑侠世界4：无限",
+          "publisher": "西山居世游",
+          "category": "游戏",
+          "app_id": "6759635917",
+          "url": "https://apps.apple.com/cn/app/%E5%89%91%E4%BE%A0%E4%B8%96%E7%95%8C4-%E6%97%A0%E9%99%90/id6759635917?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/53/7c/bc537cc2-0d28-069e-31b5-136f7abcd055/AppIcon-1x_U007emarketing-0-8-85-220-0.jpeg/100x100bb.png",
+          "slogan": "《剑侠世界4：无限》是西山居打造的剑侠世界系列MMO收官之作。游戏延续剑侠系列家族群战、经典门派、自由交易、社交与江湖恩怨等经典体验，并设计无缝大江湖、轻负担养"
+        },
+        {
+          "rank": 8,
+          "name": "绿梦：时空之声",
+          "publisher": "上海竹子绿梦网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6791432398",
+          "url": "https://apps.apple.com/cn/app/%E7%BB%BF%E6%A2%A6-%E6%97%B6%E7%A9%BA%E4%B9%8B%E5%A3%B0/id6791432398?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/56/70/d05670bc-fde9-54d3-0fd6-7d340c04d4b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《绿梦：时空之声》是一款横版动作冒险类游戏，在这个虚构的近未来世界，您作为侵蚀管理局的现役蚀务官，在探寻历史真相的旅途中结识盟友，体验到层次丰富的横版关卡和风格"
+        },
+        {
+          "rank": 18,
+          "name": "怡然时光-机器人大时代",
+          "publisher": "国展 苏",
+          "category": "游戏",
+          "app_id": "6772951007",
+          "url": "https://apps.apple.com/cn/app/%E6%80%A1%E7%84%B6%E6%97%B6%E5%85%89-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E6%97%B6%E4%BB%A3/id6772951007?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/30/75/573075ad-571d-152d-ad4f-297c29b13144/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "踏入科幻机甲新世界，畅享合成闯关乐趣！《怡然时光-机器人大时代》是一款轻解压趣味合成游戏，玩法简单流畅，兼顾休闲放松与竞技挑战，让你在碎片化时光里，沉浸式体验机"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "[777Real]e 七つの大罪3",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6811791418",
+          "url": "https://apps.apple.com/jp/app/777real-e-%E4%B8%83%E3%81%A4%E3%81%AE%E5%A4%A7%E7%BD%AA3/id6811791418?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/92/5b/74925be5-bf9f-29a3-a155-4b52efd9fef1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\ne 七つの大罪3\n2026年/Sammy\n------------------"
+        },
+        {
+          "rank": 3,
+          "name": "Bus Fever Party: バスゲーム渋滞脱出パズル",
+          "publisher": "Lumi Games",
+          "category": "ゲーム",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/jp/app/bus-fever-party-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0%E6%B8%8B%E6%BB%9E%E8%84%B1%E5%87%BA%E3%83%91%E3%82%BA%E3%83%AB/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/f1/a2/7ef1a204-38d3-ab2c-c242-910f66c7e788/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bus Fever Party!へようこそ！究極の交通渋滞脱出チャレンジに挑戦しよう！\nBus Fever Party!の世界では、交通の混乱と戦略的なパズル解"
+        },
+        {
+          "rank": 5,
+          "name": "千年の旅ELF",
+          "publisher": "Kibi Play",
+          "category": "ゲーム",
+          "app_id": "6762710814",
+          "url": "https://apps.apple.com/jp/app/%E5%8D%83%E5%B9%B4%E3%81%AE%E6%97%85elf/id6762710814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/be/9d/2ebe9d1a-cec0-6a7b-c116-fcb1ab254b7a/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "魔女と契約し、ゴスペルの力を宿した仲間たちとともに、壮大な物語へ。\n\n■ 世界観\n神々が去った世界。\n残された人々は「魔女」と共に未来を切り開き、「ゴスペル」の"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "Disney Solitaire ディズニー ソリティア",
+          "publisher": "SuperPlay",
+          "category": "ゲーム",
+          "app_id": "6475757306",
+          "url": "https://apps.apple.com/jp/app/disney-solitaire-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2/id6475757306?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/13/4d/3c134dff-c40d-b4b5-dc23-42661a0762d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ディズニーソリティアへようこそ。クラシックなトライピークスソリティアが、魔法に満ちたエキサイティングな体験へと生まれ変わります！\n\nディズニーとピクサーの世界か"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 5,
+          "name": "千年の旅ELF",
+          "publisher": "Kibi Play",
+          "category": "ゲーム",
+          "app_id": "6762710814",
+          "url": "https://apps.apple.com/jp/app/%E5%8D%83%E5%B9%B4%E3%81%AE%E6%97%85elf/id6762710814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/be/9d/2ebe9d1a-cec0-6a7b-c116-fcb1ab254b7a/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "魔女と契約し、ゴスペルの力を宿した仲間たちとともに、壮大な物語へ。\n\n■ 世界観\n神々が去った世界。\n残された人々は「魔女」と共に未来を切り開き、「ゴスペル」の"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "[777Real]e 七つの大罪3",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6811791418",
+          "url": "https://apps.apple.com/jp/app/777real-e-%E4%B8%83%E3%81%A4%E3%81%AE%E5%A4%A7%E7%BD%AA3/id6811791418?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/92/5b/74925be5-bf9f-29a3-a155-4b52efd9fef1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\ne 七つの大罪3\n2026年/Sammy\n------------------"
+        },
+        {
+          "rank": 3,
+          "name": "Bus Fever Party: バスゲーム渋滞脱出パズル",
+          "publisher": "Lumi Games",
+          "category": "ゲーム",
+          "app_id": "6746743297",
+          "url": "https://apps.apple.com/jp/app/bus-fever-party-%E3%83%90%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0%E6%B8%8B%E6%BB%9E%E8%84%B1%E5%87%BA%E3%83%91%E3%82%BA%E3%83%AB/id6746743297?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/f1/a2/7ef1a204-38d3-ab2c-c242-910f66c7e788/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Bus Fever Party!へようこそ！究極の交通渋滞脱出チャレンジに挑戦しよう！\nBus Fever Party!の世界では、交通の混乱と戦略的なパズル解"
+        },
+        {
+          "rank": 5,
+          "name": "千年の旅ELF",
+          "publisher": "Kibi Play",
+          "category": "ゲーム",
+          "app_id": "6762710814",
+          "url": "https://apps.apple.com/jp/app/%E5%8D%83%E5%B9%B4%E3%81%AE%E6%97%85elf/id6762710814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/be/9d/2ebe9d1a-cec0-6a7b-c116-fcb1ab254b7a/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "魔女と契約し、ゴスペルの力を宿した仲間たちとともに、壮大な物語へ。\n\n■ 世界観\n神々が去った世界。\n残された人々は「魔女」と共に未来を切り開き、「ゴスペル」の"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "Royal Kingdom",
+          "publisher": "Dream Games, Ltd.",
+          "category": "Games",
+          "package": "com.dreamgames.royalkingdom"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
