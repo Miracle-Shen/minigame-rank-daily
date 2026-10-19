@@ -1,0 +1,567 @@
+{
+  "date": "2026-10-19",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "锻剑模拟器手游",
+          "category": "休闲",
+          "category_rank": 2,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx69b962656f326af8",
+          "publisher_id": 0
+        },
+        {
+          "rank": 4,
+          "name": "铸剑大师小游戏",
+          "category": "休闲",
+          "category_rank": 3,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx3bb5d19f9ff9efce",
+          "publisher_id": 0
+        },
+        {
+          "rank": 20,
+          "name": "超级粉末模拟器",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "河北不等式网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxcb94df5144148d11",
+          "publisher_id": 20262418
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "单车骑行挑战",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州落音科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd28ef4d0fe426d8a",
+          "publisher_id": 20302603
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 20,
+          "name": "超级粉末模拟器",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "河北不等式网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxcb94df5144148d11",
+          "publisher_id": 20262418
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "锻剑模拟器手游",
+          "category": "休闲",
+          "category_rank": 2,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx69b962656f326af8",
+          "publisher_id": 0
+        },
+        {
+          "rank": 4,
+          "name": "铸剑大师小游戏",
+          "category": "休闲",
+          "category_rank": 3,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx3bb5d19f9ff9efce",
+          "publisher_id": 0
+        },
+        {
+          "rank": 20,
+          "name": "超级粉末模拟器",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "河北不等式网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxcb94df5144148d11",
+          "publisher_id": 20262418
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "跃动小子",
+          "category": "休闲",
+          "category_rank": 9,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "波克科技集团有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx6cce8ac2ea74103e",
+          "publisher_id": 20052324
+        },
+        {
+          "rank": 19,
+          "name": "永远的蔚蓝星球",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "广州颂悦信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd704b6fcc8ba8e9e",
+          "publisher_id": 20192374
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "猛鬼宿舍",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊娱乐文化有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0c4a175295d64921",
+          "publisher_id": 20002386
+        },
+        {
+          "rank": 20,
+          "name": "天天象棋",
+          "category": "棋牌",
+          "category_rank": 2,
+          "subcategory": "棋类",
+          "slogan": "",
+          "publisher": "深圳市腾讯天游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx9e44d62c7ab75740",
+          "publisher_id": 20002394
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "指尖玩家",
+          "category": "1",
+          "category_rank": 5,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆虚屿科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc960bfdd5700e34a07",
+          "publisher_id": 20282311
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "象棋达人",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市一锋科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8ae7fc5a15ddafbd",
+          "publisher_id": 20242356
+        },
+        {
+          "rank": 19,
+          "name": "猛鬼宿舍",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt00e576589fdceaa202",
+          "publisher_id": 20192384
+        },
+        {
+          "rank": 20,
+          "name": "狱国争霸",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京智诚互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt67df1162f8d65ba402",
+          "publisher_id": 20192389
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "指尖玩家",
+          "category": "1",
+          "category_rank": 5,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆虚屿科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc960bfdd5700e34a07",
+          "publisher_id": 20282311
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "跃动小子",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "柏项网络科技（上海）有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt526924d4cd552d9602",
+          "publisher_id": 20012413
+        },
+        {
+          "rank": 20,
+          "name": "手机反恐特别行动",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都疾风劲趣科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1d496bf48278820a07",
+          "publisher_id": 20052309
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 13,
+          "name": "成为最强肌肉人",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京玩伴同乐科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf83f8e8266450d9207",
+          "publisher_id": 20302349
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "禁区突围",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州奇冀网络信息有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt34284295ab23589402",
+          "publisher_id": 20242528
+        },
+        {
+          "rank": 19,
+          "name": "再玩亿次",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "快点文化传播（上海）有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt60ef1652fe89f80302",
+          "publisher_id": 20242405
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 13,
+          "name": "成为最强肌肉人",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京玩伴同乐科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf83f8e8266450d9207",
+          "publisher_id": 20302349
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "变形金刚：新纪元",
+          "publisher": "Wanda Game",
+          "category": "策略",
+          "subcategory": "剧情、收集"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "Word Tiles - Relaxing Puzzle",
+          "publisher": "Agave Games",
+          "category": "Games",
+          "app_id": "6783815362",
+          "url": "https://apps.apple.com/us/app/word-tiles-relaxing-puzzle/id6783815362?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/88/8b/db888b0b-837e-eb0b-83b2-761289a77416/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Word Tiles is a relaxing word game designed for everyone!\n\nConnect the letter ti"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "植物大战僵尸2",
+          "publisher": "PopCap",
+          "category": "游戏",
+          "app_id": "639516529",
+          "url": "https://apps.apple.com/cn/app/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B82/id639516529?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/c0/b9/1ac0b9e6-53d8-d682-236a-766d655151ce/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+          "slogan": "《植物大战僵尸 2》经典塔防策略手游，奇妙时空之旅正式开启！植物与僵尸的史诗对决跨越多重时空维度，全新植物阵容、特色僵尸与创新玩法重磅登场。依托触屏操作革新传统"
+        },
+        {
+          "rank": 20,
+          "name": "王者万象棋",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1614798032",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E4%B8%87%E8%B1%A1%E6%A3%8B/id1614798032?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/5c/7a/025c7a40-b125-5ab9-1237-7283fcbf089a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《王者万象棋》由王者荣耀项目原班人马开发，是一款《王者荣耀》英雄策略对战新游。王者万象棋全面创新突破了“王者模拟战”的玩法体验，延续了玩家最熟悉的英雄阵容，节奏"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "ArrowCube - 3DPuzzle",
+          "publisher": "GOODROID,Inc.",
+          "category": "ゲーム",
+          "app_id": "6760325543",
+          "url": "https://apps.apple.com/jp/app/arrowcube-3dpuzzle/id6760325543?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/99/d2/7e99d217-5a1c-489d-3af1-a53427fb4cb8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "CubeAway - 3DPuzzle へようこそ。\n\nシンプルで美しいデザインが特徴のこのロジックパズルゲームは、あなたの思考力、集中力、そして発想力を試しま"
+        },
+        {
+          "rank": 17,
+          "name": "Bus Traffic Fever!",
+          "publisher": "GOODROID,Inc.",
+          "category": "ゲーム",
+          "app_id": "6759763476",
+          "url": "https://apps.apple.com/jp/app/bus-traffic-fever/id6759763476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/08/c3/1b08c380-77f7-cb9e-a7ab-c815348d09d8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "やりごたえがありながら爽快感も味わえるパズルゲームが好きですか？\n「Bus Traffic Fever!」の世界へようこそ！\n\nBus Traffic Feve"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 15,
+          "name": "Word Tiles - Relaxing Puzzle",
+          "publisher": "Agave Games",
+          "category": "Games",
+          "package": "com.agavegames.wordtiles"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "Paper.io 2",
+          "publisher": "VOODOO",
+          "category": "Games",
+          "package": "io.voodoo.paper2"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 15,
+          "name": "Word Tiles - Relaxing Puzzle",
+          "publisher": "Agave Games",
+          "category": "Games",
+          "package": "com.agavegames.wordtiles"
+        }
+      ]
+    }
+  }
+}
