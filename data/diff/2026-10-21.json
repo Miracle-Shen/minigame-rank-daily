@@ -1,0 +1,678 @@
+{
+  "date": "2026-10-21",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "砖了个砖",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "北京简游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx1650bdeedb17dfea",
+          "publisher_id": 20002381
+        },
+        {
+          "rank": 17,
+          "name": "掼蛋",
+          "category": "棋牌",
+          "category_rank": 5,
+          "subcategory": "牌类",
+          "slogan": "",
+          "publisher": "杭州边锋网络技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxb7d9498283885fb2",
+          "publisher_id": 20002420
+        },
+        {
+          "rank": 18,
+          "name": "解压打毛线",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州池骋网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxcdc333d63f70cf06",
+          "publisher_id": 20012361
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "永远的蔚蓝星球",
+          "category": "休闲",
+          "category_rank": 9,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "广州颂悦信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd704b6fcc8ba8e9e",
+          "publisher_id": 20192374
+        },
+        {
+          "rank": 20,
+          "name": "武侠大明星",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "海南盛昌网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx9c4c2f5f1909e182",
+          "publisher_id": 20182323
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "一次玩个够",
+          "category": "1",
+          "category_rank": 2,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆虚屿科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf2ed84506c8914fd07",
+          "publisher_id": 20282311
+        },
+        {
+          "rank": 10,
+          "name": "最牛大冒险",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt33d54568adb0aa9b07",
+          "publisher_id": 20242355
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "向往的生活",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市必凡娱乐科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd54ea3f34a46f34a02",
+          "publisher_id": 20002362
+        },
+        {
+          "rank": 19,
+          "name": "狙击外星人",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门营火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta638d085390d9a7302",
+          "publisher_id": 20162324
+        },
+        {
+          "rank": 20,
+          "name": "佛系消消消",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门行上网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt7bef0d52e58d024207",
+          "publisher_id": 20244678
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "一次玩个够",
+          "category": "1",
+          "category_rank": 2,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆虚屿科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf2ed84506c8914fd07",
+          "publisher_id": 20282311
+        },
+        {
+          "rank": 10,
+          "name": "最牛大冒险",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt33d54568adb0aa9b07",
+          "publisher_id": 20242355
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "无尽冬日",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海青笛科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcb0dbdb0543b8b2007",
+          "publisher_id": 20242351
+        },
+        {
+          "rank": 18,
+          "name": "空格之境",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt96a6e01b08c553f502",
+          "publisher_id": 20244673
+        },
+        {
+          "rank": 20,
+          "name": "赵云与阿斗",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京蜜獾兄弟科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf3e1855c6ce3e43b02",
+          "publisher_id": 20292357
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 9,
+          "name": "还好闪得快",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "霍尔果斯聚玩网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt608a1637feeedb3407",
+          "publisher_id": 20192319
+        },
+        {
+          "rank": 14,
+          "name": "天天爱收割",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门很棒网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd9b2af0f46bcaa7a07",
+          "publisher_id": 20232338
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "你来嘛英雄",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州浩量信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd677a0ca480f135102",
+          "publisher_id": 20244444
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "还好闪得快",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "霍尔果斯聚玩网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt608a1637feeedb3407",
+          "publisher_id": 20192319
+        },
+        {
+          "rank": 14,
+          "name": "天天爱收割",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门很棒网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd9b2af0f46bcaa7a07",
+          "publisher_id": 20232338
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "星布谷地",
+          "publisher": "miHoYo",
+          "category": "模拟经营",
+          "subcategory": "3D、休闲、社交、种田、多人联机、角色扮演、建造、治愈、模拟"
+        },
+        {
+          "rank": 9,
+          "name": "芙娅之魂",
+          "publisher": "方尖碑",
+          "category": "魂系",
+          "subcategory": "硬核、开放世界、角色扮演"
+        },
+        {
+          "rank": 10,
+          "name": "无限大",
+          "publisher": "网易游戏",
+          "category": "开放世界",
+          "subcategory": "角色扮演、高自由度、都市、二次元、动作、高画质、3D"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 17,
+          "name": "Amaze GO!™",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "app_id": "6758326278",
+          "url": "https://apps.apple.com/us/app/amaze-go/id6758326278?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/0f/fc/260ffc9b-c140-cea7-2f77-f788cc61afde/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Amaze GO! A clean arrow puzzle game built to calm a busy mind. Every "
+        }
+      ],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 17,
+          "name": "Amaze GO!™",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "app_id": "6758326278",
+          "url": "https://apps.apple.com/us/app/amaze-go/id6758326278?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/0f/fc/260ffc9b-c140-cea7-2f77-f788cc61afde/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Amaze GO! A clean arrow puzzle game built to calm a busy mind. Every "
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "拳皇·命运-福利版",
+          "publisher": "HOOLAI GAME LIMITED",
+          "category": "游戏",
+          "app_id": "6809345559",
+          "url": "https://apps.apple.com/cn/app/%E6%8B%B3%E7%9A%87-%E5%91%BD%E8%BF%90-%E7%A6%8F%E5%88%A9%E7%89%88/id6809345559?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/b8/e1/d0b8e13f-6d00-3d61-0734-205449de164d/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《拳皇·命运》是SNK经典IP“拳皇·命运”正版授权的3D横版格斗手游，游戏以KOF世界观为背景，精心还原了草薙京、八神庵、不知火舞、特瑞等超过40位经典格斗家"
+        },
+        {
+          "rank": 13,
+          "name": "美职篮奇迹梦之队-自由战术无界交易",
+          "publisher": "深圳市柚游信息技术有限公司",
+          "category": "游戏",
+          "app_id": "6796649230",
+          "url": "https://apps.apple.com/cn/app/%E7%BE%8E%E8%81%8C%E7%AF%AE%E5%A5%87%E8%BF%B9%E6%A2%A6%E4%B9%8B%E9%98%9F-%E8%87%AA%E7%94%B1%E6%88%98%E6%9C%AF%E6%97%A0%E7%95%8C%E4%BA%A4%E6%98%93/id6796649230?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/a0/47/90a0475b-030e-eafe-9048-035cca1baa91/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "“一款好玩的篮球游戏应该是什么样的？”\n“一千个人心中有一千个哈姆雷特。“\n“那我们的游戏应该怎么做才能让经理们喜欢呢？”\n“让他们自己去选不就好了。”\n神说要"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 2,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "游戏",
+          "app_id": "6762196436",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%B1%E8%90%BD%E5%9F%8E%E5%A0%A12/id6762196436?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/54/fb/8054fb24-50d7-5396-ef51-c13c9d383701/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "继承2000万用户的动作肉鸽开黑爽游来啦！欢迎各位宝藏猎人们回家！\n\n《失落城堡2》手游延续了前作深受大家认可的核心玩法——Roguelike横版动作冒险，同时"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "王者万象棋",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1614798032",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E4%B8%87%E8%B1%A1%E6%A3%8B/id1614798032?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/5c/7a/025c7a40-b125-5ab9-1237-7283fcbf089a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《王者万象棋》由王者荣耀项目原班人马开发，是一款《王者荣耀》英雄策略对战新游。王者万象棋全面创新突破了“王者模拟战”的玩法体验，延续了玩家最熟悉的英雄阵容，节奏"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "拳皇·命运-福利版",
+          "publisher": "HOOLAI GAME LIMITED",
+          "category": "游戏",
+          "app_id": "6809345559",
+          "url": "https://apps.apple.com/cn/app/%E6%8B%B3%E7%9A%87-%E5%91%BD%E8%BF%90-%E7%A6%8F%E5%88%A9%E7%89%88/id6809345559?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/b8/e1/d0b8e13f-6d00-3d61-0734-205449de164d/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《拳皇·命运》是SNK经典IP“拳皇·命运”正版授权的3D横版格斗手游，游戏以KOF世界观为背景，精心还原了草薙京、八神庵、不知火舞、特瑞等超过40位经典格斗家"
+        },
+        {
+          "rank": 2,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "游戏",
+          "app_id": "6762196436",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%B1%E8%90%BD%E5%9F%8E%E5%A0%A12/id6762196436?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/54/fb/8054fb24-50d7-5396-ef51-c13c9d383701/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "继承2000万用户的动作肉鸽开黑爽游来啦！欢迎各位宝藏猎人们回家！\n\n《失落城堡2》手游延续了前作深受大家认可的核心玩法——Roguelike横版动作冒险，同时"
+        },
+        {
+          "rank": 13,
+          "name": "美职篮奇迹梦之队-自由战术无界交易",
+          "publisher": "深圳市柚游信息技术有限公司",
+          "category": "游戏",
+          "app_id": "6796649230",
+          "url": "https://apps.apple.com/cn/app/%E7%BE%8E%E8%81%8C%E7%AF%AE%E5%A5%87%E8%BF%B9%E6%A2%A6%E4%B9%8B%E9%98%9F-%E8%87%AA%E7%94%B1%E6%88%98%E6%9C%AF%E6%97%A0%E7%95%8C%E4%BA%A4%E6%98%93/id6796649230?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/a0/47/90a0475b-030e-eafe-9048-035cca1baa91/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "“一款好玩的篮球游戏应该是什么样的？”\n“一千个人心中有一千个哈姆雷特。“\n“那我们的游戏应该怎么做才能让经理们喜欢呢？”\n“让他们自己去选不就好了。”\n神说要"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 1,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "拳皇·命运-福利版",
+          "publisher": "HOOLAI GAME LIMITED",
+          "category": "游戏",
+          "app_id": "6809345559",
+          "url": "https://apps.apple.com/cn/app/%E6%8B%B3%E7%9A%87-%E5%91%BD%E8%BF%90-%E7%A6%8F%E5%88%A9%E7%89%88/id6809345559?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/b8/e1/d0b8e13f-6d00-3d61-0734-205449de164d/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+          "slogan": "《拳皇·命运》是SNK经典IP“拳皇·命运”正版授权的3D横版格斗手游，游戏以KOF世界观为背景，精心还原了草薙京、八神庵、不知火舞、特瑞等超过40位经典格斗家"
+        },
+        {
+          "rank": 2,
+          "name": "失落城堡2",
+          "publisher": "雷霆游戏",
+          "category": "游戏",
+          "app_id": "6762196436",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%B1%E8%90%BD%E5%9F%8E%E5%A0%A12/id6762196436?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/54/fb/8054fb24-50d7-5396-ef51-c13c9d383701/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "继承2000万用户的动作肉鸽开黑爽游来啦！欢迎各位宝藏猎人们回家！\n\n《失落城堡2》手游延续了前作深受大家认可的核心玩法——Roguelike横版动作冒险，同时"
+        },
+        {
+          "rank": 13,
+          "name": "美职篮奇迹梦之队-自由战术无界交易",
+          "publisher": "深圳市柚游信息技术有限公司",
+          "category": "游戏",
+          "app_id": "6796649230",
+          "url": "https://apps.apple.com/cn/app/%E7%BE%8E%E8%81%8C%E7%AF%AE%E5%A5%87%E8%BF%B9%E6%A2%A6%E4%B9%8B%E9%98%9F-%E8%87%AA%E7%94%B1%E6%88%98%E6%9C%AF%E6%97%A0%E7%95%8C%E4%BA%A4%E6%98%93/id6796649230?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/a0/47/90a0475b-030e-eafe-9048-035cca1baa91/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "“一款好玩的篮球游戏应该是什么样的？”\n“一千个人心中有一千个哈姆雷特。“\n“那我们的游戏应该怎么做才能让经理们喜欢呢？”\n“让他们自己去选不就好了。”\n神说要"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "7RL少女歌劇 レヴュースタァライト -The SLOT-",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6816938728",
+          "url": "https://apps.apple.com/jp/app/7rl%E5%B0%91%E5%A5%B3%E6%AD%8C%E5%8A%87-%E3%83%AC%E3%83%B4%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%BF%E3%82%A1%E3%83%A9%E3%82%A4%E3%83%88-the-slot/id6816938728?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/d2/dc/bbd2dc33-1285-f2c0-b0f8-f69d310e29d6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\nL少女歌劇 レヴュースタァライト -The SLOT-\n2025年/オーイズミ"
+        },
+        {
+          "rank": 8,
+          "name": "[グリパチ]スマスロ 新鬼武者3",
+          "publisher": "CommSeed Corporation",
+          "category": "ゲーム",
+          "app_id": "6775338234",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%AA%E3%83%91%E3%83%81-%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E6%96%B0%E9%AC%BC%E6%AD%A6%E8%80%853/id6775338234?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/97/3f/cf973f02-949d-72eb-ab02-6a079380dcf4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "■シリーズ伝統のゲーム性！\n伝統の演出とゲーム性がスマスロで継承・進化した『スマスロ 新鬼武者３』がグリパチに登場！\n蒼剣RUSHとボーナス、上乗せコンボでロン"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "波乱水世界",
+          "publisher": "Hong Kong Just Game Technology Limited",
+          "category": "ゲーム",
+          "app_id": "6780387121",
+          "url": "https://apps.apple.com/jp/app/%E6%B3%A2%E4%B9%B1%E6%B0%B4%E4%B8%96%E7%95%8C/id6780387121?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/38/19/313819f2-862f-780f-363e-1e0d539647a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "イカダは最後のシェルター。終末の世界で資材を集め、探索し、そして生き延びろ！\n\n世界的な生態系が崩壊し、現代社会は果てしない大海原の底へと呑み込まれた。あなたと"
+        },
+        {
+          "rank": 17,
+          "name": "Disney Solitaire ディズニー ソリティア",
+          "publisher": "SuperPlay",
+          "category": "ゲーム",
+          "app_id": "6475757306",
+          "url": "https://apps.apple.com/jp/app/disney-solitaire-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2/id6475757306?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/9a/58/cc9a582e-48ac-9c68-0e85-9973a0dd1911/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ディズニーソリティアへようこそ。クラシックなトライピークスソリティアが、魔法に満ちたエキサイティングな体験へと生まれ変わります！\n\nディズニーとピクサーの世界か"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 8,
+          "name": "[グリパチ]スマスロ 新鬼武者3",
+          "publisher": "CommSeed Corporation",
+          "category": "ゲーム",
+          "app_id": "6775338234",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%AA%E3%83%91%E3%83%81-%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E6%96%B0%E9%AC%BC%E6%AD%A6%E8%80%853/id6775338234?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/97/3f/cf973f02-949d-72eb-ab02-6a079380dcf4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "■シリーズ伝統のゲーム性！\n伝統の演出とゲーム性がスマスロで継承・進化した『スマスロ 新鬼武者３』がグリパチに登場！\n蒼剣RUSHとボーナス、上乗せコンボでロン"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "7RL少女歌劇 レヴュースタァライト -The SLOT-",
+          "publisher": "Sammy Networks Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6816938728",
+          "url": "https://apps.apple.com/jp/app/7rl%E5%B0%91%E5%A5%B3%E6%AD%8C%E5%8A%87-%E3%83%AC%E3%83%B4%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%BF%E3%82%A1%E3%83%A9%E3%82%A4%E3%83%88-the-slot/id6816938728?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/d2/dc/bbd2dc33-1285-f2c0-b0f8-f69d310e29d6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "----------------------------------------\nL少女歌劇 レヴュースタァライト -The SLOT-\n2025年/オーイズミ"
+        },
+        {
+          "rank": 8,
+          "name": "[グリパチ]スマスロ 新鬼武者3",
+          "publisher": "CommSeed Corporation",
+          "category": "ゲーム",
+          "app_id": "6775338234",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%AA%E3%83%91%E3%83%81-%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E6%96%B0%E9%AC%BC%E6%AD%A6%E8%80%853/id6775338234?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/97/3f/cf973f02-949d-72eb-ab02-6a079380dcf4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "■シリーズ伝統のゲーム性！\n伝統の演出とゲーム性がスマスロで継承・進化した『スマスロ 新鬼武者３』がグリパチに登場！\n蒼剣RUSHとボーナス、上乗せコンボでロン"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 16,
+          "name": "Tank Busters: Cannon Battle",
+          "publisher": "SayGames Ltd",
+          "category": "Games",
+          "package": "com.tank.busters"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 16,
+          "name": "Tank Busters: Cannon Battle",
+          "publisher": "SayGames Ltd",
+          "category": "Games",
+          "package": "com.tank.busters"
+        }
+      ]
+    }
+  }
+}
