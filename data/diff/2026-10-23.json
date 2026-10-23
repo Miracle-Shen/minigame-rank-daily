@@ -1,0 +1,707 @@
+{
+  "date": "2026-10-23",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "不停找找找",
+          "category": "休闲",
+          "category_rank": 4,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd1a3a871ddc9ebd2",
+          "publisher_id": 0
+        },
+        {
+          "rank": 11,
+          "name": "偷上蛋快跑",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxf033b80bd26d2c0f",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "不停找找找",
+          "category": "休闲",
+          "category_rank": 4,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd1a3a871ddc9ebd2",
+          "publisher_id": 0
+        },
+        {
+          "rank": 11,
+          "name": "偷上蛋快跑",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxf033b80bd26d2c0f",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 11,
+          "name": "工位大作战",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉棱镜网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttea819c3c74e0299f07",
+          "publisher_id": 20172307
+        },
+        {
+          "rank": 13,
+          "name": "佛系数独",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州卿云网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt24ad5210bac837e607",
+          "publisher_id": 20242567
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "猛鬼宿舍",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt00e576589fdceaa202",
+          "publisher_id": 20192384
+        },
+        {
+          "rank": 20,
+          "name": "小人大作战",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆云威科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt03ca75779cf2650d02",
+          "publisher_id": 20152341
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 11,
+          "name": "工位大作战",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉棱镜网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttea819c3c74e0299f07",
+          "publisher_id": 20172307
+        },
+        {
+          "rank": 13,
+          "name": "佛系数独",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州卿云网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt24ad5210bac837e607",
+          "publisher_id": 20242567
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 2,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 11,
+          "name": "工位大作战",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉棱镜网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttea819c3c74e0299f07",
+          "publisher_id": 20172307
+        },
+        {
+          "rank": 13,
+          "name": "佛系数独",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州卿云网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt24ad5210bac837e607",
+          "publisher_id": 20242567
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "跃动小子",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "柏项网络科技（上海）有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt526924d4cd552d9602",
+          "publisher_id": 20012413
+        },
+        {
+          "rank": 17,
+          "name": "三国杀",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州游卡网络技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt29365f8bb61c7481",
+          "publisher_id": 20002365
+        },
+        {
+          "rank": 18,
+          "name": "指尖快消",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门营火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd206a4bb4d0d870102",
+          "publisher_id": 20162324
+        },
+        {
+          "rank": 19,
+          "name": "俱乐大玩家",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南临游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5a362c8bc45262eb07",
+          "publisher_id": 20002327
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "异窟冒险",
+          "category": "1",
+          "category_rank": 8,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海趣侬网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc3d1b56c5da91cf502",
+          "publisher_id": 20242364
+        },
+        {
+          "rank": 13,
+          "name": "老六来输出",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市高科齐电子有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt19bc6f0186b32c4002",
+          "publisher_id": 20242491
+        },
+        {
+          "rank": 14,
+          "name": "九州世界",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州浩量信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt0e6378de901b620502",
+          "publisher_id": 20244444
+        },
+        {
+          "rank": 15,
+          "name": "挪挪消消",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州灵桃网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttaf4bd9f63131573b02",
+          "publisher_id": 20262392
+        },
+        {
+          "rank": 17,
+          "name": "梗图大串烧",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市奇兔软件技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8a74fcc9140e2e4c02",
+          "publisher_id": 20192503
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 18,
+          "name": "工匠小能手",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市统掌科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt82c0f47d1cba4d8c07",
+          "publisher_id": 20192488
+        }
+      ],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "再玩亿次",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "快点文化传播（上海）有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt60ef1652fe89f80302",
+          "publisher_id": 20242405
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 17,
+          "name": "梗图大串烧",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市奇兔软件技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8a74fcc9140e2e4c02",
+          "publisher_id": 20192503
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "异窟冒险",
+          "category": "1",
+          "category_rank": 8,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海趣侬网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc3d1b56c5da91cf502",
+          "publisher_id": 20242364
+        },
+        {
+          "rank": 13,
+          "name": "老六来输出",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市高科齐电子有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt19bc6f0186b32c4002",
+          "publisher_id": 20242491
+        },
+        {
+          "rank": 14,
+          "name": "九州世界",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州浩量信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt0e6378de901b620502",
+          "publisher_id": 20244444
+        },
+        {
+          "rank": 15,
+          "name": "挪挪消消",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州灵桃网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttaf4bd9f63131573b02",
+          "publisher_id": 20262392
+        },
+        {
+          "rank": 17,
+          "name": "梗图大串烧",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市奇兔软件技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8a74fcc9140e2e4c02",
+          "publisher_id": 20192503
+        },
+        {
+          "rank": 18,
+          "name": "工匠小能手",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市统掌科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt82c0f47d1cba4d8c07",
+          "publisher_id": 20192488
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "无限大",
+          "publisher": "网易游戏",
+          "category": "开放世界",
+          "subcategory": "角色扮演、高自由度、都市、二次元、动作、高画质、3D"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "王者万象棋",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1614798032",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E4%B8%87%E8%B1%A1%E6%A3%8B/id1614798032?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/5c/7a/025c7a40-b125-5ab9-1237-7283fcbf089a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《王者万象棋》由王者荣耀项目原班人马开发，是一款《王者荣耀》英雄策略对战新游。王者万象棋全面创新突破了“王者模拟战”的玩法体验，延续了玩家最熟悉的英雄阵容，节奏"
+        },
+        {
+          "rank": 20,
+          "name": "地铁跑酷 - 光河引路灵魂赴约",
+          "publisher": "iDreamSky Technology Limited",
+          "category": "游戏",
+          "app_id": "995122577",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E9%93%81%E8%B7%91%E9%85%B7-%E5%85%89%E6%B2%B3%E5%BC%95%E8%B7%AF%E7%81%B5%E9%AD%82%E8%B5%B4%E7%BA%A6/id995122577?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/ee/5f/72ee5f04-1d04-ab52-5a21-03808f6c9900/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【游戏特色】\n《地铁跑酷》墨西哥版本开启！重返神秘墨西哥，穿行绚丽街巷、特色建筑与热闹节庆场景，在异域风情与幽深月夜交织的赛道中，开启一场充满惊喜与未知的暗夜冒"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "NBA Basketball World 2026",
+          "publisher": "Hong Kong Qushang Technology Co., Limited",
+          "category": "ゲーム",
+          "app_id": "6762259371",
+          "url": "https://apps.apple.com/jp/app/nba-basketball-world-2026/id6762259371?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/1e/30/561e30bc-8d99-d949-2f1f-4e96c8361694/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "NBAチャンピオン王朝の世界でチーム総裁を務め、独創的な自分だけのドリームチームを作ろう！\n每回の運用戦略で、戦略の勝利とチーム成長の極上の爽快感を味わい、マネ"
+        },
+        {
+          "rank": 6,
+          "name": "ダダエース",
+          "publisher": "Gorilla Games",
+          "category": "ゲーム",
+          "app_id": "6789467258",
+          "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%80%E3%82%A8%E3%83%BC%E3%82%B9/id6789467258?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/e7/52/4ce75255-7f22-b360-77d6-f602880eebcd/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "超爽快ポップ空戦アドベンチャーが、いま始まる！\n多彩なスキルを持つ戦闘機を操り、無数の敵と弾幕をかいくぐって進む、縦スクロール空戦シューティング。\n「回避」「射"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "フードスター（Foodstars）:マージ & クック",
+          "publisher": "Happibits",
+          "category": "ゲーム",
+          "app_id": "6753862216",
+          "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%BC%E3%83%89%E3%82%B9%E3%82%BF%E3%83%BC-foodstars-%E3%83%9E%E3%83%BC%E3%82%B8-%E3%82%AF%E3%83%83%E3%82%AF/id6753862216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/0a/3e/4d0a3ec2-d831-079f-2eea-03fabac58c33/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "スターシェフになる夢を持っている？今がチャンス！\nミシュランのスターシェフの下、パリのキッチンでマカロンを仕上げる秘密を学ぶことを想像したことがある？\nフードス"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 4,
+          "name": "NBA Basketball World 2026",
+          "publisher": "Hong Kong Qushang Technology Co., Limited",
+          "category": "ゲーム",
+          "app_id": "6762259371",
+          "url": "https://apps.apple.com/jp/app/nba-basketball-world-2026/id6762259371?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/1e/30/561e30bc-8d99-d949-2f1f-4e96c8361694/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "NBAチャンピオン王朝の世界でチーム総裁を務め、独創的な自分だけのドリームチームを作ろう！\n每回の運用戦略で、戦略の勝利とチーム成長の極上の爽快感を味わい、マネ"
+        },
+        {
+          "rank": 6,
+          "name": "ダダエース",
+          "publisher": "Gorilla Games",
+          "category": "ゲーム",
+          "app_id": "6789467258",
+          "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%80%E3%82%A8%E3%83%BC%E3%82%B9/id6789467258?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/e7/52/4ce75255-7f22-b360-77d6-f602880eebcd/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "超爽快ポップ空戦アドベンチャーが、いま始まる！\n多彩なスキルを持つ戦闘機を操り、無数の敵と弾幕をかいくぐって進む、縦スクロール空戦シューティング。\n「回避」「射"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "NBA Basketball World 2026",
+          "publisher": "Hong Kong Qushang Technology Co., Limited",
+          "category": "ゲーム",
+          "app_id": "6762259371",
+          "url": "https://apps.apple.com/jp/app/nba-basketball-world-2026/id6762259371?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/1e/30/561e30bc-8d99-d949-2f1f-4e96c8361694/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "NBAチャンピオン王朝の世界でチーム総裁を務め、独創的な自分だけのドリームチームを作ろう！\n每回の運用戦略で、戦略の勝利とチーム成長の極上の爽快感を味わい、マネ"
+        },
+        {
+          "rank": 6,
+          "name": "ダダエース",
+          "publisher": "Gorilla Games",
+          "category": "ゲーム",
+          "app_id": "6789467258",
+          "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%80%E3%82%A8%E3%83%BC%E3%82%B9/id6789467258?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/e7/52/4ce75255-7f22-b360-77d6-f602880eebcd/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+          "slogan": "超爽快ポップ空戦アドベンチャーが、いま始まる！\n多彩なスキルを持つ戦闘機を操り、無数の敵と弾幕をかいくぐって進む、縦スクロール空戦シューティング。\n「回避」「射"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 16,
+          "name": "Fidget Trading: Dumpling Party",
+          "publisher": "Novix Games",
+          "category": "Games",
+          "package": "com.fidget.dumplingparty"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "Yarn Loop",
+          "publisher": "Combo Game",
+          "category": "Games",
+          "package": "com.combo.yarnflow"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 16,
+          "name": "Fidget Trading: Dumpling Party",
+          "publisher": "Novix Games",
+          "category": "Games",
+          "package": "com.fidget.dumplingparty"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 16,
+          "name": "Fidget Trading: Dumpling Party",
+          "publisher": "Novix Games",
+          "category": "Games",
+          "package": "com.fidget.dumplingparty"
+        }
+      ]
+    }
+  }
+}
