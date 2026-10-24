@@ -1,0 +1,726 @@
+{
+  "date": "2026-10-24",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 4,
+          "name": "原始征途",
+          "category": "角色",
+          "category_rank": 1,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "巨人网络集团股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxfd8da8f8efcda4a7",
+          "publisher_id": 20012407
+        },
+        {
+          "rank": 12,
+          "name": "王者征途",
+          "category": "角色",
+          "category_rank": 3,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxbfc89b084ad52a75",
+          "publisher_id": 20002338
+        },
+        {
+          "rank": 17,
+          "name": "跃动小子",
+          "category": "休闲",
+          "category_rank": 9,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "波克科技集团有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx6cce8ac2ea74103e",
+          "publisher_id": 20052324
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 8,
+          "name": "不停找找找",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd1a3a871ddc9ebd2",
+          "publisher_id": 0
+        }
+      ],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "不停找找找",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd1a3a871ddc9ebd2",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 12,
+          "name": "颜色大冲突",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都狮子兔科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte8fc9e4177cb2f7307",
+          "publisher_id": 20192345
+        },
+        {
+          "rank": 20,
+          "name": "我比你快",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海石中网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt44283295db1f8dcd02",
+          "publisher_id": 20292336
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 12,
+          "name": "颜色大冲突",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都狮子兔科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte8fc9e4177cb2f7307",
+          "publisher_id": 20192345
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 12,
+          "name": "颜色大冲突",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都狮子兔科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte8fc9e4177cb2f7307",
+          "publisher_id": 20192345
+        },
+        {
+          "rank": 20,
+          "name": "我比你快",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海石中网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt44283295db1f8dcd02",
+          "publisher_id": 20292336
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 4,
+          "name": "次神光之觉醒",
+          "category": "1",
+          "category_rank": 4,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京雪境科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf50b83b66a377fc402",
+          "publisher_id": 20242348
+        },
+        {
+          "rank": 15,
+          "name": "王者征途",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttbffec94320cdded502",
+          "publisher_id": 20002338
+        },
+        {
+          "rank": 16,
+          "name": "欢乐战三国",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南哎呦互娱网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttacb7da0a33bf499507",
+          "publisher_id": 20243428
+        },
+        {
+          "rank": 18,
+          "name": "梦回甄嬛传",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州擎迅网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2f6959d4b113069b02",
+          "publisher_id": 20302495
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 9,
+          "name": "有空玩两把",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市石晟科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9644e0f9083eb46302",
+          "publisher_id": 20292377
+        },
+        {
+          "rank": 11,
+          "name": "孔明与刘备",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州祈欣网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2eb45809b0d174c002",
+          "publisher_id": 20262305
+        },
+        {
+          "rank": 13,
+          "name": "撞出个太阳",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京光屿星途网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcd26bb9b5343ccb602",
+          "publisher_id": 20302552
+        },
+        {
+          "rank": 19,
+          "name": "割完了",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "合肥金蛋互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6be91d54f58c7a1102",
+          "publisher_id": 20302502
+        },
+        {
+          "rank": 20,
+          "name": "报告农场主",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "衡阳掌酷网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5c772acac20eee1007",
+          "publisher_id": 20302651
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 18,
+          "name": "天命行者",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州大蓝网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt66a0101df8db0e5402",
+          "publisher_id": 20002317
+        }
+      ],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "年代碎片还原",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "阜阳豪帅网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte0aa96177ecd85ba07",
+          "publisher_id": 20302637
+        },
+        {
+          "rank": 17,
+          "name": "超能极限冲锋",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州易游互玩科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt38274e9aa642975207",
+          "publisher_id": 20192447
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 11,
+          "name": "孔明与刘备",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州祈欣网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2eb45809b0d174c002",
+          "publisher_id": 20262305
+        },
+        {
+          "rank": 18,
+          "name": "天命行者",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州大蓝网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt66a0101df8db0e5402",
+          "publisher_id": 20002317
+        },
+        {
+          "rank": 20,
+          "name": "报告农场主",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "衡阳掌酷网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5c772acac20eee1007",
+          "publisher_id": 20302651
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 2,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "有空玩两把",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市石晟科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9644e0f9083eb46302",
+          "publisher_id": 20292377
+        },
+        {
+          "rank": 11,
+          "name": "孔明与刘备",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州祈欣网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2eb45809b0d174c002",
+          "publisher_id": 20262305
+        },
+        {
+          "rank": 13,
+          "name": "撞出个太阳",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京光屿星途网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcd26bb9b5343ccb602",
+          "publisher_id": 20302552
+        },
+        {
+          "rank": 18,
+          "name": "天命行者",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州大蓝网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt66a0101df8db0e5402",
+          "publisher_id": 20002317
+        },
+        {
+          "rank": 19,
+          "name": "割完了",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "合肥金蛋互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6be91d54f58c7a1102",
+          "publisher_id": 20302502
+        },
+        {
+          "rank": 20,
+          "name": "报告农场主",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "衡阳掌酷网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5c772acac20eee1007",
+          "publisher_id": 20302651
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "甄嬛传",
+          "publisher": "雷霆游戏",
+          "category": "模拟",
+          "subcategory": "休闲、模拟经营、养成、换装、放置"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 17,
+          "name": "找茬我最强-慧眼探玄机",
+          "publisher": "俊杰 赵",
+          "category": "游戏",
+          "app_id": "6812693698",
+          "url": "https://apps.apple.com/cn/app/%E6%89%BE%E8%8C%AC%E6%88%91%E6%9C%80%E5%BC%BA-%E6%85%A7%E7%9C%BC%E6%8E%A2%E7%8E%84%E6%9C%BA/id6812693698?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/5a/f7/c65af7c8-647f-329b-7ab5-33090aae502c/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "眼力大考验，等你来挑战《找茬我最强》化身萌趣侦查能手，投身海量精美找茬关卡。双图对比玩法上线，两张相似画面藏满小玄机，紧盯画面细节，按照提示指引，在规定时限找出"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 3,
+          "name": "王者荣耀世界",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1612566389",
+          "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E4%B8%96%E7%95%8C/id1612566389?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/1f/d7/f01fd761-fb29-8e46-4a72-bfd9bf25ba54/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【产品介绍】\n《王者荣耀世界》是国民级MOBA手游《王者荣耀》IP旗下的「王者英雄多人战斗冒险游戏」。游戏高度还原王者荣耀世界观，英雄人设故事与技能设定，在3D"
+        },
+        {
+          "rank": 15,
+          "name": "我的世界：移动版",
+          "publisher": "网易移动游戏(MC)",
+          "category": "游戏",
+          "app_id": "1243986797",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C-%E7%A7%BB%E5%8A%A8%E7%89%88/id1243986797?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/8e/fc/678efcee-6542-9afc-6fed-a4b44ce75d27/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
+          "slogan": "《我的世界》– 铜器时代\n\n【游戏介绍】 \n《我的世界》（Minecraft）是一款风靡全球的3D沙盒游戏，由网易游戏代理运营的中国版手游，现在已开放官方正版的"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 17,
+          "name": "找茬我最强-慧眼探玄机",
+          "publisher": "俊杰 赵",
+          "category": "游戏",
+          "app_id": "6812693698",
+          "url": "https://apps.apple.com/cn/app/%E6%89%BE%E8%8C%AC%E6%88%91%E6%9C%80%E5%BC%BA-%E6%85%A7%E7%9C%BC%E6%8E%A2%E7%8E%84%E6%9C%BA/id6812693698?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/5a/f7/c65af7c8-647f-329b-7ab5-33090aae502c/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "眼力大考验，等你来挑战《找茬我最强》化身萌趣侦查能手，投身海量精美找茬关卡。双图对比玩法上线，两张相似画面藏满小玄机，紧盯画面细节，按照提示指引，在规定时限找出"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 17,
+          "name": "找茬我最强-慧眼探玄机",
+          "publisher": "俊杰 赵",
+          "category": "游戏",
+          "app_id": "6812693698",
+          "url": "https://apps.apple.com/cn/app/%E6%89%BE%E8%8C%AC%E6%88%91%E6%9C%80%E5%BC%BA-%E6%85%A7%E7%9C%BC%E6%8E%A2%E7%8E%84%E6%9C%BA/id6812693698?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/5a/f7/c65af7c8-647f-329b-7ab5-33090aae502c/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "眼力大考验，等你来挑战《找茬我最强》化身萌趣侦查能手，投身海量精美找茬关卡。双图对比玩法上线，两张相似画面藏满小玄机，紧盯画面细节，按照提示指引，在规定时限找出"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "ポリスチーフ",
+          "publisher": "VoyagerOne",
+          "category": "ゲーム",
+          "app_id": "6757350661",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%83%AA%E3%82%B9%E3%83%81%E3%83%BC%E3%83%95/id6757350661?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/66/6e/f6666e27-941a-f9fe-823e-177b0d34271f/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "ここは犯罪の影に覆われた世界。ギャングがのさばり、ドラッグが蔓延り、暗殺組織が猛威を振るう街で、市民は不安に怯えながら暮らしています。\n\n新任の警察署長となり、"
+        },
+        {
+          "rank": 10,
+          "name": "新・都道府県ゲーム",
+          "publisher": "masato nishikawa",
+          "category": "ゲーム",
+          "app_id": "6823042308",
+          "url": "https://apps.apple.com/jp/app/%E6%96%B0-%E9%83%BD%E9%81%93%E5%BA%9C%E7%9C%8C%E3%82%B2%E3%83%BC%E3%83%A0/id6823042308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/a7/7f/f8a77faa-9345-f178-afdc-933a2d819737/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "地図で隣り合う都道府県だけが、本物の地図どおりにくっつくパズルゲームです。\n\n東京都と神奈川県、大阪府と京都府……隣の県同士が箱の中で触れると、県境がぴったり合"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "漢字分解パズル",
+          "publisher": "SUNNY HK",
+          "category": "ゲーム",
+          "app_id": "6771681142",
+          "url": "https://apps.apple.com/jp/app/%E6%BC%A2%E5%AD%97%E5%88%86%E8%A7%A3%E3%83%91%E3%82%BA%E3%83%AB/id6771681142?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/0b/67/e00b6702-71f7-c491-b888-6975e767b0ae/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "漢字の美しさと奥深さを再発見！ 「漢字分解パズル」は、中国古典美学と文字分解の楽しさが融合したカジュアルパズルゲームです。文字の固定観念を捨て、鋭い観察力で筆画"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "新・都道府県ゲーム",
+          "publisher": "masato nishikawa",
+          "category": "ゲーム",
+          "app_id": "6823042308",
+          "url": "https://apps.apple.com/jp/app/%E6%96%B0-%E9%83%BD%E9%81%93%E5%BA%9C%E7%9C%8C%E3%82%B2%E3%83%BC%E3%83%A0/id6823042308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/a7/7f/f8a77faa-9345-f178-afdc-933a2d819737/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "地図で隣り合う都道府県だけが、本物の地図どおりにくっつくパズルゲームです。\n\n東京都と神奈川県、大阪府と京都府……隣の県同士が箱の中で触れると、県境がぴったり合"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "ポリスチーフ",
+          "publisher": "VoyagerOne",
+          "category": "ゲーム",
+          "app_id": "6757350661",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%83%AA%E3%82%B9%E3%83%81%E3%83%BC%E3%83%95/id6757350661?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/66/6e/f6666e27-941a-f9fe-823e-177b0d34271f/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+          "slogan": "ここは犯罪の影に覆われた世界。ギャングがのさばり、ドラッグが蔓延り、暗殺組織が猛威を振るう街で、市民は不安に怯えながら暮らしています。\n\n新任の警察署長となり、"
+        },
+        {
+          "rank": 10,
+          "name": "新・都道府県ゲーム",
+          "publisher": "masato nishikawa",
+          "category": "ゲーム",
+          "app_id": "6823042308",
+          "url": "https://apps.apple.com/jp/app/%E6%96%B0-%E9%83%BD%E9%81%93%E5%BA%9C%E7%9C%8C%E3%82%B2%E3%83%BC%E3%83%A0/id6823042308?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/a7/7f/f8a77faa-9345-f178-afdc-933a2d819737/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+          "slogan": "地図で隣り合う都道府県だけが、本物の地図どおりにくっつくパズルゲームです。\n\n東京都と神奈川県、大阪府と京都府……隣の県同士が箱の中で触れると、県境がぴったり合"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "Word Search Explorer",
+          "publisher": "PlaySimple Games",
+          "category": "Games",
+          "package": "in.playsimple.wordsearch"
+        },
+        {
+          "rank": 20,
+          "name": "Mahjong Blast",
+          "publisher": "Nebula  Studio",
+          "category": "Games",
+          "package": "com.nebula.mahjongtile"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
