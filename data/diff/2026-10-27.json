@@ -1,0 +1,676 @@
+{
+  "date": "2026-10-27",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 20,
+          "name": "武器铸造大师",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxb4e185f5b2af377e",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "砖了个砖",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "北京简游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx1650bdeedb17dfea",
+          "publisher_id": 20002381
+        },
+        {
+          "rank": 17,
+          "name": "天天斗地主真人版",
+          "category": "棋牌",
+          "category_rank": 2,
+          "subcategory": "牌类",
+          "slogan": "",
+          "publisher": "深圳市禅游科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxb52b11c4dd14b6fc",
+          "publisher_id": 20002368
+        },
+        {
+          "rank": 18,
+          "name": "欢乐麻将",
+          "category": "棋牌",
+          "category_rank": 3,
+          "subcategory": "牌类",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx375c80123d32f83f",
+          "publisher_id": 20002309
+        },
+        {
+          "rank": 19,
+          "name": "天天象棋",
+          "category": "棋牌",
+          "category_rank": 4,
+          "subcategory": "棋类",
+          "slogan": "",
+          "publisher": "深圳市腾讯天游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx9e44d62c7ab75740",
+          "publisher_id": 20002394
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 20,
+          "name": "武器铸造大师",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxb4e185f5b2af377e",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "王者征途",
+          "category": "角色",
+          "category_rank": 3,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxbfc89b084ad52a75",
+          "publisher_id": 20002338
+        },
+        {
+          "rank": 18,
+          "name": "永远的蔚蓝星球",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "广州颂悦信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd704b6fcc8ba8e9e",
+          "publisher_id": 20192374
+        },
+        {
+          "rank": 19,
+          "name": "空格之境",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0e0531466ba56547",
+          "publisher_id": 20244673
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 11,
+          "name": "这关超级消",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙指色网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc893be2e56f0c0e402",
+          "publisher_id": 20002391
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 9,
+          "name": "撞出个太阳",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京光屿星途网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcd26bb9b5343ccb602",
+          "publisher_id": 20302552
+        }
+      ],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "我强得可怕",
+          "category": "1",
+          "category_rank": 5,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆斐爵科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6d491bf4f32ca64a02",
+          "publisher_id": 20244662
+        },
+        {
+          "rank": 18,
+          "name": "天天台球",
+          "category": "体育竞技",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京喜云网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta3fdd5403cf7dc6f02",
+          "publisher_id": 20242352
+        },
+        {
+          "rank": 20,
+          "name": "俱乐大玩家",
+          "category": "派对游戏",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南临游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5a362c8bc45262eb07",
+          "publisher_id": 20002327
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "撞出个太阳",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京光屿星途网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcd26bb9b5343ccb602",
+          "publisher_id": 20302552
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "撞出个太阳",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京光屿星途网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcd26bb9b5343ccb602",
+          "publisher_id": 20302552
+        },
+        {
+          "rank": 11,
+          "name": "这关超级消",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙指色网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc893be2e56f0c0e402",
+          "publisher_id": 20002391
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "遗弃之地",
+          "category": "塔防",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京智诚互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt310e47b3ae06acc002",
+          "publisher_id": 20192389
+        },
+        {
+          "rank": 14,
+          "name": "我的花园世界",
+          "category": "模拟经营",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南途趣科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcc26ba9b532f1e8202",
+          "publisher_id": 20243982
+        },
+        {
+          "rank": 16,
+          "name": "次神光之觉醒",
+          "category": "放置挂机",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京雪境科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf50b83b66a377fc402",
+          "publisher_id": 20242348
+        },
+        {
+          "rank": 19,
+          "name": "空格之境",
+          "category": "合成",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt96a6e01b08c553f502",
+          "publisher_id": 20244673
+        },
+        {
+          "rank": 20,
+          "name": "王者征途",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttbffec94320cdded502",
+          "publisher_id": 20002338
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 17,
+          "name": "快乐开局",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州卿云网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt0497722a9af217de07",
+          "publisher_id": 20242567
+        },
+        {
+          "rank": 18,
+          "name": "守了个灯塔",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京光屿星途网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcac0bc7d54bad37e02",
+          "publisher_id": 20302552
+        },
+        {
+          "rank": 20,
+          "name": "闯关勇者",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门星汉天成网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf11187ac6f71e69702",
+          "publisher_id": 20262302
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 20,
+          "name": "闯关勇者",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门星汉天成网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf11187ac6f71e69702",
+          "publisher_id": 20262302
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 17,
+          "name": "快乐开局",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州卿云网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt0497722a9af217de07",
+          "publisher_id": 20242567
+        },
+        {
+          "rank": 18,
+          "name": "守了个灯塔",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京光屿星途网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcac0bc7d54bad37e02",
+          "publisher_id": 20302552
+        },
+        {
+          "rank": 20,
+          "name": "闯关勇者",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门星汉天成网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf11187ac6f71e69702",
+          "publisher_id": 20262302
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "饥困荒野",
+          "publisher": "腾讯",
+          "category": "沙盒",
+          "subcategory": "生存、多人联机、饥荒、冒险"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "Car Evolve",
+          "publisher": "Heseri Games Inc",
+          "category": "Games",
+          "app_id": "6754464806",
+          "url": "https://apps.apple.com/us/app/car-evolve/id6754464806?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/db/02/e0db02b3-49d6-e031-3233-1ce83f7e46ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Build a better car with every run. Earn cash, upgrade parts, and push your dista"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 17,
+          "name": "喵骑战域",
+          "publisher": "EasyGame Limited",
+          "category": "游戏",
+          "app_id": "6814706023",
+          "url": "https://apps.apple.com/cn/app/%E5%96%B5%E9%AA%91%E6%88%98%E5%9F%9F/id6814706023?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/48/43/1548436b-6fcd-9936-30a7-4b6927ef5a49/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "小爪子大枪?! 最可爱的放置射击RPG来啦!\n如果可爱毛茸茸的猫咪带着巨大的枪去冒险会怎样?\n可爱大爆发+刺激的火力+令人上瘾的射击游戏的结合!\n现在就来建立你"
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 17,
+          "name": "喵骑战域",
+          "publisher": "EasyGame Limited",
+          "category": "游戏",
+          "app_id": "6814706023",
+          "url": "https://apps.apple.com/cn/app/%E5%96%B5%E9%AA%91%E6%88%98%E5%9F%9F/id6814706023?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/48/43/1548436b-6fcd-9936-30a7-4b6927ef5a49/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "小爪子大枪?! 最可爱的放置射击RPG来啦!\n如果可爱毛茸茸的猫咪带着巨大的枪去冒险会怎样?\n可爱大爆发+刺激的火力+令人上瘾的射击游戏的结合!\n现在就来建立你"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 17,
+          "name": "喵骑战域",
+          "publisher": "EasyGame Limited",
+          "category": "游戏",
+          "app_id": "6814706023",
+          "url": "https://apps.apple.com/cn/app/%E5%96%B5%E9%AA%91%E6%88%98%E5%9F%9F/id6814706023?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/48/43/1548436b-6fcd-9936-30a7-4b6927ef5a49/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "小爪子大枪?! 最可爱的放置射击RPG来啦!\n如果可爱毛茸茸的猫咪带着巨大的枪去冒险会怎样?\n可爱大爆发+刺激的火力+令人上瘾的射击游戏的结合!\n现在就来建立你"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 15,
+          "name": "Top Force: Commander",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6761893238",
+          "url": "https://apps.apple.com/jp/app/top-force-commander/id6761893238?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/92/91/c6929180-f898-45c1-f4e6-0f3927f99ce0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Top Forceへようこそ！気軽に楽しめる、爽快な軍事ストラテジーゲームです！\n最前線に軍事基地を建設し、兵士を武装させ、支援を行いながら敵を撃破しましょう！"
+        },
+        {
+          "rank": 16,
+          "name": "ミカ：ダンジョンの旅人",
+          "publisher": "Tae won Go",
+          "category": "ゲーム",
+          "app_id": "6761421604",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9F%E3%82%AB-%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E6%97%85%E4%BA%BA/id6761421604?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/ae/c0/e5aec0b7-3f9d-a696-0915-8f08ef611938/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「奴は、100年もの時を待ち続けていた」\n\n大陸の各地が、次々とダンジョンへと呑み込まれていく世界――ストニア。\nダンジョンサポーター「ミカ」は、\n100年前に"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "Jewel Coloring",
+          "publisher": "Ta Ta Game Technology Limited",
+          "category": "ゲーム",
+          "app_id": "6759081967",
+          "url": "https://apps.apple.com/jp/app/jewel-coloring/id6759081967?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/5a/63/395a63fe-9c3f-5a76-a4e1-27dba77589da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ジュエルカラーリング：ピクセルアートパズルで輝きと創造を\n輝く宝石が織りなす鮮やかな世界へようこそ！ここでは、創造性とパズルを解く楽しさが完璧に調和しています。"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 16,
+          "name": "ミカ：ダンジョンの旅人",
+          "publisher": "Tae won Go",
+          "category": "ゲーム",
+          "app_id": "6761421604",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9F%E3%82%AB-%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E6%97%85%E4%BA%BA/id6761421604?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/ae/c0/e5aec0b7-3f9d-a696-0915-8f08ef611938/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「奴は、100年もの時を待ち続けていた」\n\n大陸の各地が、次々とダンジョンへと呑み込まれていく世界――ストニア。\nダンジョンサポーター「ミカ」は、\n100年前に"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 15,
+          "name": "Top Force: Commander",
+          "publisher": "Century Games Innovation Pte. Ltd.",
+          "category": "ゲーム",
+          "app_id": "6761893238",
+          "url": "https://apps.apple.com/jp/app/top-force-commander/id6761893238?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/92/91/c6929180-f898-45c1-f4e6-0f3927f99ce0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Top Forceへようこそ！気軽に楽しめる、爽快な軍事ストラテジーゲームです！\n最前線に軍事基地を建設し、兵士を武装させ、支援を行いながら敵を撃破しましょう！"
+        },
+        {
+          "rank": 16,
+          "name": "ミカ：ダンジョンの旅人",
+          "publisher": "Tae won Go",
+          "category": "ゲーム",
+          "app_id": "6761421604",
+          "url": "https://apps.apple.com/jp/app/%E3%83%9F%E3%82%AB-%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E6%97%85%E4%BA%BA/id6761421604?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/ae/c0/e5aec0b7-3f9d-a696-0915-8f08ef611938/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "「奴は、100年もの時を待ち続けていた」\n\n大陸の各地が、次々とダンジョンへと呑み込まれていく世界――ストニア。\nダンジョンサポーター「ミカ」は、\n100年前に"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
