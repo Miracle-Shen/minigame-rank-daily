@@ -1,0 +1,653 @@
+{
+  "date": "2026-10-28",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "跳一跳",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx7c8d593b2c3a7703",
+          "publisher_id": 20002309
+        },
+        {
+          "rank": 19,
+          "name": "解压打毛线",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州池骋网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxcdc333d63f70cf06",
+          "publisher_id": 20012361
+        },
+        {
+          "rank": 20,
+          "name": "梦幻消除战",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "广州喜势网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxc721a6dc3366ec1f",
+          "publisher_id": 20192419
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "佣兵小镇",
+          "category": "角色",
+          "category_rank": 1,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "成都天象互动文化传播有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx59d849f9c3f1f710",
+          "publisher_id": 20192367
+        },
+        {
+          "rank": 18,
+          "name": "青云诀之伏魔",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "海南元游信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxcdcbec6bf40d053a",
+          "publisher_id": 20002304
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 19,
+          "name": "对子消消乐",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "厦门市宙火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx08ca4a979a9dba6c",
+          "publisher_id": 20012399
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 19,
+          "name": "对子消消乐",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "厦门市宙火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx08ca4a979a9dba6c",
+          "publisher_id": 20012399
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 19,
+          "name": "对子消消乐",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "厦门市宙火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx08ca4a979a9dba6c",
+          "publisher_id": 20012399
+        }
+      ]
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "球球无限弹",
+          "category": "超休闲",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆希鲁鲁克科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt0dff7b4292d56f66",
+          "publisher_id": 20192350
+        },
+        {
+          "rank": 17,
+          "name": "小人大作战",
+          "category": "消除",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆云威科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt03ca75779cf2650d02",
+          "publisher_id": 20152341
+        },
+        {
+          "rank": 20,
+          "name": "掼蛋",
+          "category": "扑克牌",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州边锋网络技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt123464898d05f9d402",
+          "publisher_id": 20002420
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "无尽冬日",
+          "category": "模拟经营",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海青笛科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcb0dbdb0543b8b2007",
+          "publisher_id": 20242351
+        },
+        {
+          "rank": 14,
+          "name": "妖怪金手指",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "霍尔果斯天翔信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt59d32f6ec6dbc7ab02",
+          "publisher_id": 20192349
+        },
+        {
+          "rank": 19,
+          "name": "四季合合",
+          "category": "合成",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt210457b9be35faff07",
+          "publisher_id": 20002380
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 18,
+          "name": "顶尖消消",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州联曼信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3e82483fa0e7cfeb07",
+          "publisher_id": 20162334
+        },
+        {
+          "rank": 19,
+          "name": "武器进化+1",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门月影浮生文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8275f4c81c0f225207",
+          "publisher_id": 20302554
+        },
+        {
+          "rank": 20,
+          "name": "老亨会出手",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州粤良科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9399e5240dfd8ecc02",
+          "publisher_id": 20262317
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "快乐闯关路",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳奇象互动网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6d881b35f3f2ff5f02",
+          "publisher_id": 20302366
+        },
+        {
+          "rank": 14,
+          "name": "随手消消",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳奇象互动网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tted839b3e73f97f4c02",
+          "publisher_id": 20302366
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 18,
+          "name": "顶尖消消",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州联曼信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3e82483fa0e7cfeb07",
+          "publisher_id": 20162334
+        },
+        {
+          "rank": 19,
+          "name": "武器进化+1",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门月影浮生文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8275f4c81c0f225207",
+          "publisher_id": 20302554
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 2,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 18,
+          "name": "顶尖消消",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州联曼信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3e82483fa0e7cfeb07",
+          "publisher_id": 20162334
+        },
+        {
+          "rank": 19,
+          "name": "武器进化+1",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门月影浮生文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8275f4c81c0f225207",
+          "publisher_id": 20302554
+        },
+        {
+          "rank": 20,
+          "name": "老亨会出手",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州粤良科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9399e5240dfd8ecc02",
+          "publisher_id": 20262317
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "Monster Hunter Outlanders",
+          "publisher": "Level Infinite",
+          "category": "Games",
+          "app_id": "6444520814",
+          "url": "https://apps.apple.com/us/app/monster-hunter-outlanders/id6444520814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/73/e0/0073e0c8-a9e4-1956-8966-f83a136ee71e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Monster Hunter Outlanders is a Monster Hunter exploration hunting action game on"
+        },
+        {
+          "rank": 17,
+          "name": "BLEACH Mirrors High",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "category": "Games",
+          "app_id": "6758332966",
+          "url": "https://apps.apple.com/us/app/bleach-mirrors-high/id6758332966?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/8a/a6/ce8aa6e7-4330-966e-b816-a746fda2a5f9/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/100x100bb.png",
+          "slogan": "Dive into BLEACH Mirrors High, an officially licensed game created in close coll"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "Monster Hunter Outlanders",
+          "publisher": "Level Infinite",
+          "category": "Games",
+          "app_id": "6444520814",
+          "url": "https://apps.apple.com/us/app/monster-hunter-outlanders/id6444520814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/73/e0/0073e0c8-a9e4-1956-8966-f83a136ee71e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Monster Hunter Outlanders is a Monster Hunter exploration hunting action game on"
+        },
+        {
+          "rank": 17,
+          "name": "BLEACH Mirrors High",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "category": "Games",
+          "app_id": "6758332966",
+          "url": "https://apps.apple.com/us/app/bleach-mirrors-high/id6758332966?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/8a/a6/ce8aa6e7-4330-966e-b816-a746fda2a5f9/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/100x100bb.png",
+          "slogan": "Dive into BLEACH Mirrors High, an officially licensed game created in close coll"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 0,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "Monster Hunter Outlanders",
+          "publisher": "Level Infinite",
+          "category": "Games",
+          "app_id": "6444520814",
+          "url": "https://apps.apple.com/us/app/monster-hunter-outlanders/id6444520814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/73/e0/0073e0c8-a9e4-1956-8966-f83a136ee71e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Monster Hunter Outlanders is a Monster Hunter exploration hunting action game on"
+        },
+        {
+          "rank": 17,
+          "name": "BLEACH Mirrors High",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "category": "Games",
+          "app_id": "6758332966",
+          "url": "https://apps.apple.com/us/app/bleach-mirrors-high/id6758332966?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/8a/a6/ce8aa6e7-4330-966e-b816-a746fda2a5f9/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/100x100bb.png",
+          "slogan": "Dive into BLEACH Mirrors High, an officially licensed game created in close coll"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "魔神英雄传-正版授权",
+          "publisher": "Hangzhou Jiulan Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6812671122",
+          "url": "https://apps.apple.com/cn/app/%E9%AD%94%E7%A5%9E%E8%8B%B1%E9%9B%84%E4%BC%A0-%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83/id6812671122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/fb/24/4afb24c1-52db-7f81-0219-f5904b7216a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《魔神英雄传》 是由SUNRISE正版授权开发的冒险放置卡牌手游。你可以在游戏中召唤经典魔神，重温儿时回忆，和“救世主”小渡一起勇闯创界山，拯救神部界；还可以与"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "植物大战僵尸2",
+          "publisher": "PopCap",
+          "category": "游戏",
+          "app_id": "639516529",
+          "url": "https://apps.apple.com/cn/app/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B82/id639516529?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/c0/b9/1ac0b9e6-53d8-d682-236a-766d655151ce/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+          "slogan": "《植物大战僵尸 2》经典塔防策略手游，奇妙时空之旅正式开启！植物与僵尸的史诗对决跨越多重时空维度，全新植物阵容、特色僵尸与创新玩法重磅登场。依托触屏操作革新传统"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 5,
+          "name": "魔神英雄传-正版授权",
+          "publisher": "Hangzhou Jiulan Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6812671122",
+          "url": "https://apps.apple.com/cn/app/%E9%AD%94%E7%A5%9E%E8%8B%B1%E9%9B%84%E4%BC%A0-%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83/id6812671122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/fb/24/4afb24c1-52db-7f81-0219-f5904b7216a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《魔神英雄传》 是由SUNRISE正版授权开发的冒险放置卡牌手游。你可以在游戏中召唤经典魔神，重温儿时回忆，和“救世主”小渡一起勇闯创界山，拯救神部界；还可以与"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "魔神英雄传-正版授权",
+          "publisher": "Hangzhou Jiulan Network Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6812671122",
+          "url": "https://apps.apple.com/cn/app/%E9%AD%94%E7%A5%9E%E8%8B%B1%E9%9B%84%E4%BC%A0-%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83/id6812671122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/fb/24/4afb24c1-52db-7f81-0219-f5904b7216a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《魔神英雄传》 是由SUNRISE正版授权开发的冒险放置卡牌手游。你可以在游戏中召唤经典魔神，重温儿时回忆，和“救世主”小渡一起勇闯创界山，拯救神部界；还可以与"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "モンスターハンターアウトランダーズ",
+          "publisher": "Level Infinite",
+          "category": "ゲーム",
+          "app_id": "6444520814",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%83%80%E3%83%BC%E3%82%BA/id6444520814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/73/e0/0073e0c8-a9e4-1956-8966-f83a136ee71e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『モンスターハンターアウトランダーズ』は、CAPCOMの正式ライセンスを受け、TiMi Studio Groupが開発する「モンスターハンター」シリーズの最新作"
+        },
+        {
+          "rank": 2,
+          "name": "BLEACH Mirrors High【ミラハイ】",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "category": "ゲーム",
+          "app_id": "6747328897",
+          "url": "https://apps.apple.com/jp/app/bleach-mirrors-high-%E3%83%9F%E3%83%A9%E3%83%8F%E3%82%A4/id6747328897?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/f1/a2/c2f1a2f3-82e9-25fa-27ab-1a016496fe2b/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/100x100bb.png",
+          "slogan": "人気の漫画・アニメ『BLEACH（ブリーチ）』の世界に浸る3Dアクションバトルゲーム。\n『BLEACH（ブリーチ）』のアニメ『千年血戦篇』に続く、オリジナルスト"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "リング回転 (Rotate Rings)",
+          "publisher": "Nebula Studio",
+          "category": "ゲーム",
+          "app_id": "6793924927",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AA%E3%83%B3%E3%82%B0%E5%9B%9E%E8%BB%A2-rotate-rings/id6793924927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/82/4a/fd824a27-46ed-eb18-6716-dba2436000df/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "回して、揃えて、ロック解除！『Rotate Rings』へようこそ——頭脳を研ぎ澄まし、心地よいリラックスをもたらす究極の3D空間パズルゲームです。\n複雑に組み"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "モンスターハンターアウトランダーズ",
+          "publisher": "Level Infinite",
+          "category": "ゲーム",
+          "app_id": "6444520814",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%83%80%E3%83%BC%E3%82%BA/id6444520814?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/73/e0/0073e0c8-a9e4-1956-8966-f83a136ee71e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『モンスターハンターアウトランダーズ』は、CAPCOMの正式ライセンスを受け、TiMi Studio Groupが開発する「モンスターハンター」シリーズの最新作"
+        },
+        {
+          "rank": 2,
+          "name": "BLEACH Mirrors High【ミラハイ】",
+          "publisher": "Bandai Namco Entertainment Inc.",
+          "category": "ゲーム",
+          "app_id": "6747328897",
+          "url": "https://apps.apple.com/jp/app/bleach-mirrors-high-%E3%83%9F%E3%83%A9%E3%83%8F%E3%82%A4/id6747328897?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/f1/a2/c2f1a2f3-82e9-25fa-27ab-1a016496fe2b/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/100x100bb.png",
+          "slogan": "人気の漫画・アニメ『BLEACH（ブリーチ）』の世界に浸る3Dアクションバトルゲーム。\n『BLEACH（ブリーチ）』のアニメ『千年血戦篇』に続く、オリジナルスト"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
