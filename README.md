@@ -223,6 +223,16 @@ base 库可以从 `data/daily/*.json` 完整重建（`base.py:rebuild_from_daily
 python scripts/detail/refill.py              # 刷新工单 -> 抓素材 -> 切批（-> 就绪则合并+校验）
 ```
 
+**这件事已经自动化了**：WorkBuddy 定时任务「小游戏档案 · 每日自动补档」每天
+**12:10**（在 `daily.yml` 的 10:30 / 11:30 抓取之后）跑一次，命令是
+
+```bash
+python scripts/detail/refill.py --scope all --limit 3 --size 3
+```
+
+即每天最多补 3 款、按榜上最好名次优先，剩下的留给第二天——缺口会自己逐日清掉，
+不需要人盯。跑完由该任务自己合并、终检、`git push`，并汇报当天补了谁。
+
 第 4 步「生成档案内容」要现读规范、现做调研，没有脚本可代替，所以是**两段式**：
 
 | 段 | 谁做 | 命令 | 退出码 |
@@ -237,11 +247,15 @@ python scripts/detail/refill.py              # 刷新工单 -> 抓素材 -> 切�
 ```bash
 python scripts/detail/refill.py --status         # 只看缺口，不动任何文件
 python scripts/detail/refill.py --scope all      # 连抖音/iOS/安卓/TapTap 的缺口一起补
+python scripts/detail/refill.py --limit 3        # 每次最多补几款（0=不限，按名次优先）
 python scripts/detail/refill.py --names "抓大鹅,躺平发育"
 python scripts/detail/refill.py --check-targets  # 上次备的目标落库了没
 ```
 
 - **默认 `--scope wx`**：只补周报口径「微信三榜 TOP20 并集」的缺口，不多花调研成本。
+  定时任务用的是 `--scope all`，因为「上过榜」的都该有档案。
+- **`--limit` 是给定时任务用的**：一次缺口几十款时不限量会把单次任务拖太长、也容易
+  中途失败；限量后每天稳定推进几款，积压会自己清空。
 - **刷新工单是必经第一步**，没有开关可以跳过：`_worklist.json` 是快照，不刷新就会按
   上一次的名单切批（曾因此在 09-21 对不上当天新上榜的 3 款）。
 - 批次编号会**续着已有 `batch_N.json` 的最大编号 + 1** 走（`make_batches.py --batch-start`），

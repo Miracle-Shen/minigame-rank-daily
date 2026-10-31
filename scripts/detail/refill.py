@@ -46,11 +46,21 @@
                       刷新工单的取数范围，默认 today
     --no-icons        刷新工单时不抓图标（离线可用；图标仍可由 enrich_media 补）
     --force-media     忽略 _media.json 缓存重查（默认增量，只补没查过的）
+    --limit 6         本次最多补几款（0=不限）。按榜上最好名次优先，其余留给下次，
+                      定时任务靠它把「一次补不完的缺口」拆成每天几款
     --check-targets   只报告上次备料的目标是否已全部落库（读 _refill_state.json）
 
 退出码：0 = 完成 / 3 = 等调研产物 / 1 = 出错。
 
 > `--status` 与 `--check-targets` 是只读的，**不刷新工单**；其余入口一律先刷新。
+
+## 定时任务里怎么用
+
+每天在抓取任务之后跑一次（每次限量，缺口会自己逐日清掉）：
+
+    python scripts/detail/refill.py --scope all --limit 6
+
+退出码 3 时，按它打印的派单说明写完 `batch_N.json`，再跑 `--finish`。
 """
 from __future__ import annotations
 
@@ -188,6 +198,12 @@ def in_wx_scope(entry: dict, pool: set[str]) -> bool:
     return any(str(b).startswith("wx/") for b in (entry.get("boards") or []))
 
 
+def rank_key(entry: dict) -> tuple[int, str]:
+    """按榜上最好名次排序（没有名次的排最后），用于 --limit 的优先级。"""
+    r = entry.get("best_rank")
+    return (r if isinstance(r, int) else 9999, entry.get("name") or "")
+
+
 def pick_targets(entries: list[dict], scope: str, names: list[str],
                  pool: set[str]) -> tuple[list[dict], list[str]]:
     """从工单待建档条目里筛出本次目标，返回 (目标条目, 被点名但没找到的名字)。"""
@@ -315,6 +331,14 @@ def cut_batches(args) -> int:
               f"本次口径（{args.scope}）内一款都不缺。")
         return EXIT_OK
 
+    # --limit：定时任务每天只补几款，按榜上最好名次优先，剩下的留给下次。
+    # 不限量时如果一次撞上几十款缺口，单个子智能体（或一次定时任务）
+    # 会扛不住上下文与耗时。
+    if args.limit and len(targets) > args.limit:
+        targets = sorted(targets, key=rank_key)[:args.limit]
+        print(f"[limit] 本次只补 {args.limit} 款（按最好名次优先），"
+              f"工单里还有 {pending_all - len(targets)} 款留给下次")
+
     first = next_batch_start()
     from make_batches import write_batches  # noqa: E402  （HERE 已在模块顶部入 path）
     written = write_batches(targets, size=args.size, first=first)
@@ -328,10 +352,15 @@ def cut_batches(args) -> int:
     for i, chunk in enumerate(chunks, first):
         print(f"  batch_{i}  " + "、".join(e["name"] for e in chunk))
 
-    print(f"\n缺口总览：刷新后工单待建档 {pending_all} 款，"
-          f"本次口径（{args.scope}）{len(targets)} 款已切批，"
-          f"口径外还剩 {max(pending_all - len(targets), 0)} 款"
-          f"（想一起补用 --scope all）")
+    rest = max(pending_all - len(targets), 0)
+    if args.scope == "all":
+        print(f"\n缺口总览：刷新后工单待建档 {pending_all} 款，"
+              f"本次已切批 {len(targets)} 款，其余 {rest} 款留给下次"
+              + ("（--limit 控制每天补几款）" if args.limit else ""))
+    else:
+        print(f"\n缺口总览：刷新后工单待建档 {pending_all} 款，"
+              f"本次口径（{args.scope}）{len(targets)} 款已切批，"
+              f"口径外还剩 {rest} 款（想一起补用 --scope all）")
     return EXIT_NEED_RESEARCH
 
 
@@ -526,6 +555,8 @@ def main() -> int:
                     help="wx=周报口径（默认）；all=工单内全部待建档")
     ap.add_argument("--names", default="", help="点名只补这几款（逗号分隔）")
     ap.add_argument("--size", type=int, default=6, help="每批几款（默认 6）")
+    ap.add_argument("--limit", type=int, default=0,
+                    help="本次最多补几款（0=不限；按榜上最好名次优先，其余留给下次）")
     ap.add_argument("--source", choices=["today", "recent7", "all"], default="today",
                     help="刷新工单的取数范围，默认 today")
     ap.add_argument("--no-icons", action="store_true", help="刷新工单时不抓图标")
