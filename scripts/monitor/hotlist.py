@@ -1,42 +1,43 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""群消息卡片 · 游戏周热榜（极简版）。
+"""群消息 · 本周榜单里「值得单独说的 1–2 款」。
 
-群里只回答三个问题，其余一概不写：
+## 为什么换掉了原来的固定版式
 
-    1. 微信小游戏前三 —— 谁在涨、谁在跌、什么类型、怎么玩
-    2. 抖音小游戏前三 —— 同上
-    3. 全部平台最热的一款 —— 谁 + 什么类型 + 本周一句话趋势
+原版固定输出「微信前三 / 抖音前三 / 全平台 TOP1」。问题不在信息少，而在
+**没变化也占版面**：TOP3 与上周一模一样时仍要占 9 行，读者读完的结论是
+「本周没事」，却付出了扫 30 行的成本。TOP3 三个月不动，它就是噪音。
 
-周报正文（reports/weekly-*.md|html）不归本模块管，两者互不影响：
-本模块只产出一段可以贴进企业微信群的纯文本。
+现在的规则是：先由 story.py 找出**事件**（新进榜 / 首进 TOP10 / ±5 位 /
+连续两周同向 / 新增平台），再决定说多少：
 
-口径（与 analyze.py / clone.py 共用同一套，别在这里另起炉灶）：
+  * 最多展开 2 款：游戏是什么怎么玩 → 本周发生了什么 → 玩家具体在说什么；
+  * 其余只有名次数据的，合并成一句；
+  * 一款都没命中事件 → 只发一句话，不凑字数。
 
-  * 「前三」 = 该平台**全部榜并集**去重，同一款游戏取最好名次。
-    只看畅销榜会漏掉只在人气榜 / 畅玩榜上跑的产品。
-  * 「趋势」 = 本周快照 vs 基准快照（默认 7 天前）的**最好名次**变化。
-  * 「品类」 = classify.py 归一化后的 L1（抖音榜缺品类字段，靠跨榜学习回填）。
-  * 「具体类型」 = classify.py 归一化后的 L1·L2；L2 缺失时用产品档案 identity 的 L2 补。
-  * 「玩法」     = data/detail 产品档案的 play.core_loop，压成一句话。
-  * 卡片**不再给复刻建议**（2026-10-06 用户要求下线：每款都写一句「怎么改」没有意义，
-    要的是「这是什么类型、怎么玩」）。
-  * 涨用红、跌用绿（中文习惯，与 report.py 一致）。
+## 文案硬约束（audit() 逐条自检）
 
-企业微信 markdown(v1) 不支持表格 / 列表 / 有序列表，所以编号写成「1.」纯文本、
-条目符号用「·」、缩进用全角空格 —— 与 send_wecom.py 的既有约定一致。
+  * 不写「值得关注 / 后续可期 / 释放信号 / 建议持续观察」这类空话；
+  * 没有 ≥10 条近期评论，就不出现「玩家认为 / 口碑不错」；
+  * 结论只在数据支持时给：连续两周上涨才说「热度仍在上升」，
+    多平台同时前进才说「多个平台同时升温」，单次名次变化只描述事实；
+  * 正文控制在 350 个汉字内（企业微信手机端一屏）。
+
+口径与 analyze.py / clone.py / story.py 共用，不在这里另起炉灶。
 
 命令行：
-    python scripts/monitor/hotlist.py                  # 用 data/latest.json 预览
-    python scripts/monitor/hotlist.py --v2             # 去掉 <font> 标签
-    python scripts/monitor/hotlist.py --report reports/weekly-2026-09-19.json
+    python scripts/monitor/hotlist.py                        # 最新一期预览
+    python scripts/monitor/hotlist.py --log                  # 附带筛选诊断
+    python scripts/monitor/hotlist.py --strict               # 自检不过就退出 1
+    python scripts/monitor/hotlist.py --out reports/push-2026-10-04.md
 """
 from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -46,393 +47,451 @@ if str(HERE) not in sys.path:
 import analyze as A  # noqa: E402
 import classify as C  # noqa: E402
 import clone as CL  # noqa: E402
+import reviews as RV  # noqa: E402
+import story as S  # noqa: E402
 
 ROOT = HERE.parents[1]
 LATEST_PATH = ROOT / "data" / "latest.json"
 
-# 卡片里各取前三的平台（顺序即展示顺序）
-CARD_PLATFORMS = [("wx", "微信小游戏"), ("douyin", "抖音小游戏")]
-PICK_N = 3
-# 「本周变化」里点名几个：与周报「1.3 本周新变量」一致，只列前 3 个
-NAME_N = 3
+HAN_LIMIT = 350          # 正文字数预算（按汉字计，标点/数字不计）
+NO_CHANGE = "本周榜单变化不大，没有需要单独提醒的新情况。"
 
-# 「全部平台最热」的候选范围：跨平台全覆盖，越多人抢越热
-ALL_PLATFORMS = ["wx", "douyin", "taptap", "ios", "android"]
-# 快照没给 label 时的兜底（正常走 snap["platforms"][pk]["label"]）
-PLATFORM_LABEL = {"wx": "微信", "douyin": "抖音", "taptap": "TapTap",
-                  "ios": "iOS", "android": "安卓"}
+# 明令禁止的空泛表述：出现即判自检不通过
+BANNED = ("值得关注", "后续可期", "释放信号", "建议持续观察",
+          "口碑不错", "玩家认为", "值得期待")
+# 没有评论时，这些词一句都不许出现（否则就是在编玩家态度）
+ATTITUDE_WORDS = ("玩家", "评论", "口碑", "好评", "差评")
 
-# markdown(v1) 只认这三个颜色名；v2 通道直接去标签
-C_UP = "warning"     # 橙红 —— 涨
-C_DOWN = "info"      # 绿   —— 跌
-C_FLAT = "comment"   # 灰
+_HAN = re.compile(r"[\u4e00-\u9fff]")
+_SENT_END = re.compile(r"[。！？!?]")
 
-BOOKMARK = "\u3000"  # 全角空格，v1 里当缩进用
+
+def han_count(text: str) -> int:
+    return len(_HAN.findall(text or ""))
 
 
 # --------------------------------------------------------------------------
-# 快照读取
+# 平台 / 榜名
 # --------------------------------------------------------------------------
-def platform_rows(snap: dict, plat: str) -> list[dict]:
-    """该平台**全部榜**的行，附上它来自哪个榜。"""
-    p = (snap.get("platforms") or {}).get(plat) or {}
-    out = []
-    for b in p.get("boards") or []:
-        for r in b.get("rows") or []:
-            if not r.get("name"):
-                continue
-            rr = dict(r)
-            rr["_board"] = b.get("label") or ""
-            rr["_platform"] = plat
-            out.append(rr)
-    return out
+def _plat_label(ctx: S.WeeklyContext, pk: str) -> str:
+    p = (ctx.cur_snap.get("platforms") or {}).get(pk) or {}
+    return p.get("label") or S.PLATFORM_SHORT.get(pk, pk)
 
 
-def best_by_name(rows: list[dict]) -> dict:
-    """同一款游戏取最好名次，并记下它上过哪些榜。
-
-    返回 {游戏名: {"name","rank","boards","publisher","row"}}。
-    """
-    best: dict[str, dict] = {}
-    for r in rows:
-        n = r.get("name")
-        rank = r.get("rank") or 999
-        e = best.get(n)
-        if e is None:
-            best[n] = {"name": n, "rank": rank, "boards": [r.get("_board")],
-                       "publisher": r.get("publisher") or "", "row": r}
-        else:
-            e["boards"].append(r.get("_board"))
-            if rank < e["rank"]:
-                e["rank"] = rank
-                e["row"] = r
-    return best
+def _lead_plat(c: dict) -> str:
+    """名次最好的平台 —— 讲故事时以它为主语。"""
+    return min(c["plats"], key=lambda pk: c["plats_rank"].get(pk, 999))
 
 
-def snap_at_or_before(hist: list[tuple[str, dict]], target: str):
-    """取 <= target 的最近一份快照，找不到返回 None。"""
-    pick = None
-    for d, s in hist:
-        if d <= target:
-            pick = (d, s)
-        else:
-            break
-    return pick
-
-
-def _plat_label(snap: dict, plat: str) -> str:
-    """平台显示名：优先用快照里的 label，其次兜底表。"""
-    p = (snap.get("platforms") or {}).get(plat) or {}
-    return p.get("label") or PLATFORM_LABEL.get(plat, plat)
-
-
-def base_date_of(hist: list[tuple[str, dict]], cur_date: str,
-                 days: int = 7) -> str | None:
-    tgt = (datetime.strptime(cur_date, "%Y-%m-%d") - timedelta(days=days)
-           ).strftime("%Y-%m-%d")
-    got = snap_at_or_before(hist, tgt)
-    return got[0] if got else None
+def _where(ctx, c) -> str:
+    pk = _lead_plat(c)
+    boards = (c["boards"].get(pk) or [])
+    return f"{_plat_label(ctx, pk)}{boards[0] if boards else ''}"
 
 
 # --------------------------------------------------------------------------
-# 名次索引（算趋势用）
+# 文案片段
 # --------------------------------------------------------------------------
-def build_rank_index(hist: list[tuple[str, dict]], plats: list[str]) -> dict:
-    """{日期: {游戏名: 最好名次}} —— 在给定平台范围内算。"""
-    idx = {}
-    for d, snap in hist:
-        rows: list[dict] = []
-        for pk in plats:
-            rows += platform_rows(snap, pk)
-        idx[d] = {n: e["rank"] for n, e in best_by_name(rows).items()}
-    return idx
+def _short_event(ctx, c: dict) -> str:
+    """一句话的「发生了什么」，给首句用。"""
+    ev = c["events"]
+    if "new_top20" in ev:
+        return f"新进{_where(ctx, c)}第{c['cur_rank']}"
+    if c["delta"]:
+        head = "从第%d升到第%d" % (c["base_rank"], c["cur_rank"]) \
+            if c["delta"] > 0 else "从第%d降到第%d" % (c["base_rank"], c["cur_rank"])
+        if "streak2" in ev:
+            head += "，连续第二周" + ("上涨" if c["delta"] > 0 else "下跌")
+        return head
+    if "new_platform" in ev:
+        return "新增上榜平台"
+    if "first_top10" in ev:
+        return f"首次进入 TOP10（第{c['cur_rank']}）"
+    return "名次有变动"
 
 
-def trend_of(name: str, cur_rank: int, base_ranks: dict | None) -> tuple[str, str]:
-    """返回 (文案, 颜色名)。基准缺失或该游戏当时不在榜 → 新上榜。"""
-    if base_ranks is None:
-        return "—", C_FLAT
-    prev = base_ranks.get(name)
-    if prev is None:
-        return "新上榜", C_UP
-    d = prev - cur_rank          # 正数 = 名次前进
-    if d > 0:
-        return f"↑{d}位", C_UP
-    if d < 0:
-        return f"↓{-d}位", C_DOWN
-    return "持平", C_FLAT
-
-
-# --------------------------------------------------------------------------
-# 具体类型 / 一句话玩法 —— 实现放在 clone.py，这里只调用
-#   clone.detail_of()  游戏名 → 产品档案
-#   clone.type_of()    L1·L2 具体类型（脏值 / 缺层用档案 identity 补）
-#   clone.play_of()    一句话玩法（档案 play.core_loop，超长按逗号收口）
-# 卡片和图文周报必须同一套口径，别在本文件另写一份。
-# --------------------------------------------------------------------------
-
-
-# --------------------------------------------------------------------------
-# 各板块
-# --------------------------------------------------------------------------
-def picks_for_platform(snap: dict, plat: str, learned: dict, mapdata: dict,
-                       base_ranks: dict | None, index: dict,
-                       cache: dict, n: int = PICK_N) -> list[dict]:
-    """该平台三榜并集 → 按最好名次取前 n，补具体类型 / 趋势 / 一句话玩法。"""
-    best = best_by_name(platform_rows(snap, plat))
-    tops = sorted(best.values(), key=lambda x: x["rank"])[:n]
-    out = []
-    for t in tops:
-        row = C.classify_row(t["row"], mapdata, learned)
-        trend, color = trend_of(t["name"], t["rank"], base_ranks)
-        det = CL.detail_of(t["name"], index, cache)
-        out.append({
-            "name": t["name"],
-            "rank": t["rank"],
-            "boards": t["boards"],
-            "l1": row.get("l1") or "其他",
-            "l2": row.get("l2") or "",
-            "type": CL.type_of(row.get("l1") or "", row.get("l2") or "", det),
-            "play": CL.play_of(det),
-            "trend": trend,
-            "trend_color": color,
-        })
-    return out
-
-
-def all_platform_top(snap: dict, learned: dict, mapdata: dict,
-                     base_ranks: dict | None, index: dict, cache: dict,
-                     top: int = 1) -> list[dict]:
-    """全部平台合并排最热。
-
-    排序键：**跨平台覆盖数** 优先（越多人抢越热）→ 最好名次 → 上榜次数。
-    只按名次排会挤出一堆并列第一（每个榜都有个第一名），没有区分度。
-    """
-    agg: dict[str, dict] = {}
-    for pk in ALL_PLATFORMS:
-        for n, e in best_by_name(platform_rows(snap, pk)).items():
-            cur = agg.get(n)
-            if cur is None:
-                agg[n] = {"name": n, "rank": e["rank"], "plats": [pk],
-                          "boards": list(e["boards"]), "row": e["row"]}
-            else:
-                if pk not in cur["plats"]:
-                    cur["plats"].append(pk)
-                cur["boards"] += e["boards"]
-                if e["rank"] < cur["rank"]:
-                    cur["rank"] = e["rank"]
-                    cur["row"] = e["row"]
-    ranked = sorted(agg.values(),
-                    key=lambda x: (-len(x["plats"]), x["rank"], -len(x["boards"])))
-    out = []
-    for t in ranked[:top]:
-        row = C.classify_row(t["row"], mapdata, learned)
-        trend, color = trend_of(t["name"], t["rank"], base_ranks)
-        plats = t["plats"]
-        note = "、".join(_plat_label(snap, p) for p in plats)
-        det = CL.detail_of(t["name"], index, cache)
-        out.append({
-            "name": t["name"],
-            "rank": t["rank"],
-            "l1": row.get("l1") or "其他",
-            "l2": row.get("l2") or "",
-            "type": CL.type_of(row.get("l1") or "", row.get("l2") or "", det),
-            "play": CL.play_of(det),
-            "plats": plats,
-            "plats_note": note,
-            "boards": t["boards"],
-            "trend": trend,
-            "trend_color": color,
-        })
-    return out
-
-
-def _name_list(items: list[dict], with_delta: bool = False) -> str:
-    """「王者舰队、奔奔王国、保卫向日葵」；上升的带名次增量「梦幻消除战(+9)」。
-
-    只列前 NAME_N 个（与周报「1.3 本周新变量」同一写法），款数由前面的
-    「新晋 4 款」交代，所以不额外写「等」—— 3 个名字 + 4 款这个差本身是信息。
-    """
-    out = []
-    for x in items[:NAME_N]:
-        if with_delta:
-            out.append(f"{x['name']}(+{int(x['delta'])})")
-        else:
-            out.append(x["name"])
-    return "、".join(out)
-
-
-def week_lines(result: dict) -> tuple[str, str]:
-    """（本周变化, 保持不变）—— 两行都得说清「具体是什么」。
-
-    变化行 = 与周报「1.3 本周新变量」同一写法：**点名**新晋者 + 名次上升者
-    （早先写的是品类涨退 + 新晋的类型分布，用户要求改回点名 ——「新晋 4 款（竞技 2 /
-    休闲 2）」看不出是谁，点名才拿得走）。
-    未变行 = 占比没动的品类 + 头部续在榜席位数（榜单里没动的到底是哪部分）。
-    """
-    p = result.get("primary") or {}
-    t = (p.get("category_trend") or {}).get("items") or []
-
-    # ---- 变化：新晋（点名）+ 显著上升（点名 + 位次） ----
-    ne = p.get("new_entrants") or []
-    ri = p.get("risers") or []
+def _happened(ctx, c: dict) -> str:
+    """完整版「本周发生了什么」，给正文用。"""
     segs = []
-    if ne:
-        segs.append(f"新晋 {len(ne)} 款（{_name_list(ne)}）")
-    if ri:
-        segs.append(f"显著上升 {len(ri)} 款（{_name_list(ri, with_delta=True)}）")
-    change = ["、".join(segs)] if segs else ["无新晋、无显著上升"]
+    if "new_top20" in c["events"]:
+        segs.append(f"上周不在榜，本周新进{_where(ctx, c)}第{c['cur_rank']}")
+    elif "streak2" in c["events"]:
+        # 连续两周同向时不再重复「↑5 位」—— 三段名次链本身就是变化量
+        chain = "→".join(str(x) for x in (c["base2_rank"], c["base_rank"],
+                                          c["cur_rank"]) if x is not None)
+        segs.append(f"连续第二周{'上涨' if c['streak'] == 'up' else '下跌'}"
+                    f"（{chain}）")
+    elif c["delta"]:
+        segs.append(f"从第{c['base_rank']}{'升到' if c['delta'] > 0 else '降到'}"
+                    f"第{c['cur_rank']}（{'↑' if c['delta'] > 0 else '↓'}"
+                    f"{abs(c['delta'])} 位）")
+    if "first_top10" in c["events"] and "new_top20" not in c["events"]:
+        segs.append("首次进入 TOP10")
+    if c["new_plats"]:
+        names = "、".join(_plat_label(ctx, pk) for pk in c["new_plats"])
+        segs.append(f"本周新增出现在{names}")
+    if not segs:
+        segs.append("名次有变动")
 
-    # ---- 未变 ----
-    steady = []
-    flat = [i for i in t if abs(i["delta"]) < 0.5]
-    if flat:
-        steady.append("、".join(f"{i['name']} {i['share']:.0f}%" for i in flat[:3])
-                      + " 占比未变")
-    hs = p.get("head_stability") or {}
-    if hs:
-        steady.append(f"TOP{hs['head_n']} 中 {hs['retained']} 席继续在榜")
-    if not steady:
-        l1 = (p.get("category_structure") or {}).get("l1") or []
-        if l1:
-            steady.append(f"{l1[0]['name']} 仍为第一大品类（{l1[0]['share']:.0f}%）")
+    text = "；".join(segs)
 
-    return "；".join(change) if change else "本期样本不足，暂无法给出对比结论", \
-        "；".join(steady)
+    # 结论只在数据支持时给：连续两周上涨 → 热度仍在上升；多平台同向 → 同时升温
+    if c["streak"] == "up":
+        return text + "，热度仍在上升。"
+    if len(c["up_plats"]) >= 2:
+        return text + f"，{len(c['up_plats'])} 个平台同时升温。"
+    if len(c["down_plats"]) >= 2:
+        return text + f"，{len(c['down_plats'])} 个平台同时下滑。"
+    return text + "。"
+
+
+def _brief(ctx, compressed: list[dict]) -> str:
+    """其余只有名次数据的：一句话收口，不展开。"""
+    moved = [c for c in compressed if c["delta"]]
+    moved.sort(key=lambda c: -abs(c["delta"]))
+    segs = []
+    for c in moved[:2]:
+        segs.append(f"《{c['name']}》从第{c['base_rank']}"
+                    f"{'升到' if c['delta'] > 0 else '降到'}第{c['cur_rank']}")
+    rest = len(compressed) - len(segs)
+    if not segs:
+        news = [c for c in compressed if "new_top20" in c["events"]]
+        if news:
+            names = "、".join(f"《{c['name']}》" for c in news[:2])
+            more = f"等 {len(news)} 款" if len(news) > 2 else ""
+            return f"{names}{more}新进榜，榜单其余部分变化不大。"
+        if not compressed:
+            return ""
+        return f"{len(compressed)} 款只是小幅变动，没有需要单说的。"
+    text = "、".join(segs)
+    if rest > 0:
+        text += f"，另有 {rest} 款只是新进榜或小幅变动"
+    return text + "。"
+
+
+def _headline(ctx, stories: list[dict], new_count: int) -> str:
+    """消息第一句：本周最明显的那件事。"""
+    if not stories:
+        return ""      # 由 _brief / NO_CHANGE 兜底
+    top = stories[0]
+    short = _short_event(ctx, top)
+    tail = f"另有 {new_count} 款新进榜。" if new_count >= 2 else ""
+    if len(stories) > 1:
+        return (f"本周最明显的是《{top['name']}》：{short}；"
+                f"另一款值得单独说的是《{stories[1]['name']}》。{tail}")
+    return f"本周最明显的是《{top['name']}》：{short}。{tail}"
+
+
+# --------------------------------------------------------------------------
+# 组装
+# --------------------------------------------------------------------------
+def _type_and_play(name: str, row: dict, index: dict, cache: dict,
+                   mapdata, learned) -> tuple[str, str, bool]:
+    row = C.classify_row(row, mapdata, learned) if row else {}
+    det = CL.detail_of(name, index, cache)
+    typ = CL.type_of(row.get("l1") or "", row.get("l2") or "", det)
+    play = CL.play_of(det)
+    has_play = bool(play) and play != "暂无产品档案"
+    return typ, (play if has_play else ""), has_play
+
+
+def _collect(ctx: S.WeeklyContext, cands: list[dict], rv_blob: dict,
+             as_of: str, index: dict, cache: dict, mapdata, learned) -> list[dict]:
+    """给每个候选补上类型 / 玩法 / 评论摘要 / 优先级。"""
+    out = []
+    for c in cands:
+        typ, play, has_play = _type_and_play(
+            c["name"], c.get("row") or {}, index, cache, mapdata, learned)
+        entry = RV.game_entry(rv_blob, c["name"]) if rv_blob else None
+        summ = RV.summarize(entry, as_of) if entry else None
+        feedback = (summ or {}).get("sentence") or ""
+        n_valid = (summ or {}).get("n") or 0
+        has_reviews = bool((summ or {}).get("enough"))
+        ready, why = S.story_ready(c, has_reviews=has_reviews, has_play=has_play)
+        out.append({
+            **c,
+            "type": typ,
+            "play": play,
+            "has_play": has_play,
+            "feedback": feedback,
+            "feedback_n": n_valid,
+            "feedback_used": list((summ or {}).get("used") or []),
+            "has_reviews": has_reviews,
+            "ready": ready,
+            "why": why,
+            "score": S.priority(c, has_reviews=has_reviews, has_play=has_play),
+        })
+    out.sort(key=lambda x: (-x["score"], x["cur_rank"]))
+    return out
+
+
+def build_card(result: dict, hist: list[tuple[str, dict]] | None = None,
+               v2: bool = False, site_url: str = "",
+               review_blob: dict | None = None) -> dict:
+    """产出群消息文本 + 结构化数据 + 自检所需的诊断信息。
+
+    `v2` 只为兼容旧调用（send_wecom 会传）保留：新文案改用 ↑/↓ 表达涨跌，
+    不再输出 <font> 标签，所以这个开关现在不影响结果。
+    """
+    meta = result.get("meta") or {}
+    hist = hist if hist is not None else A.load_history()
+    if not hist:
+        raise SystemExit("data/daily 为空，无法生成群消息")
+
+    cur_date = meta.get("week_end") or hist[-1][0]
+    ctx = S.WeeklyContext(hist, cur_date, meta.get("baseline_date"))
+    as_of = ctx.cur_date
+    if not ctx.base_snap:
+        # 历史快照不足一轮：不假装「本周没变化」，明确说暂不判断
+        return _insufficient(meta, as_of, site_url)
+
+    # 品类归一化与产品档案：与图文周报同一套
+    learned = C.build_learned(A.collect_rows(hist, A.DEFAULT_BOARDS))
+    mapdata = C.load_map() if hasattr(C, "load_map") else None
+    index = CL.load_index()
+    cache: dict = {}
+
+    if review_blob is None:
+        review_blob = RV.load(as_of) or {}
+
+    cands = S.detect_candidates(ctx)
+    enriched = _collect(ctx, cands, review_blob, as_of, index, cache,
+                        mapdata, learned)
+
+    stories = [c for c in enriched if c["ready"]][:S.EXPAND_MAX]
+    expanded = {c["name"] for c in stories}
+    compressed = [c for c in enriched if c["name"] not in expanded]
+    new_count = sum(1 for c in enriched if "new_top20" in c["events"])
+
+    head = _headline(ctx, stories, new_count)
+    brief = _brief(ctx, compressed)
+
+    data = {
+        "meta": {
+            "period": _period(ctx.base_date or meta.get("baseline_date"), as_of),
+            "week_end": as_of,
+            "baseline_date": ctx.base_date,
+            "site_url": site_url,
+        },
+        "headline": head,
+        "stories": [{
+            "name": c["name"],
+            "type": c["type"],
+            "play": c["play"],
+            "happened": _happened(ctx, c),
+            "feedback": c["feedback"],
+            "feedback_n": c["feedback_n"],
+            "feedback_used": c["feedback_used"],
+            "events": c["events"],
+            "why": c["why"],
+            "cur_rank": c["cur_rank"],
+            "base_rank": c["base_rank"],
+            "delta": c["delta"],
+        } for c in stories],
+        "brief": brief,
+        "no_change": bool(not stories and not brief),
+        "diagnostics": {
+            "candidates": [{
+                "name": c["name"], "events": c["events"], "delta": c["delta"],
+                "cur_rank": c["cur_rank"], "score": c["score"],
+                "ready": c["ready"], "why": c["why"],
+                "reviews": c["feedback_n"],
+            } for c in enriched],
+            "expanded": [c["name"] for c in stories],
+            "compressed": [c["name"] for c in compressed],
+            "stable_top": S.stable_top(ctx, enriched),
+            "dropped_layout": ["微信前三", "抖音前三", "全平台 TOP1（固定版式已取消）"],
+        },
+    }
+
+    data["text"] = _render(data)
+    data["audit"] = audit(data)
+    return data
+
+
+def _insufficient(meta: dict, as_of: str, site_url: str) -> dict:
+    """没有可比基准时的最小产出：一句说明 + 自检，不发任何判断。"""
+    text = (f"# 游戏周热榜　{_period(meta.get('baseline_date'), as_of)}\n\n"
+            "本周缺少可比基准（基准日在历史快照里找不到），暂不判断变化。")
+    if site_url:
+        text += f"\n\n[数据主页]({site_url})"
+    data = {"meta": {"period": _period(meta.get("baseline_date"), as_of), "week_end": as_of,
+                     "baseline_date": None, "site_url": site_url},
+            "headline": "", "stories": [], "brief": "", "no_change": True,
+            "diagnostics": {"candidates": [], "expanded": [], "compressed": [],
+                            "stable_top": [], "dropped_layout": []},
+            "text": text}
+    data["audit"] = audit(data)
+    return data
+
+
+def _period(baseline: str | None, week_end: str) -> str:
+    b, e = baseline, week_end
+    fmt = "%m.%d"
+    try:
+        return (f"{datetime.strptime(b, '%Y-%m-%d').strftime(fmt)}"
+                f"–{datetime.strptime(e, '%Y-%m-%d').strftime(fmt)}")
+    except Exception:  # noqa: BLE001
+        return str(e or "")
 
 
 # --------------------------------------------------------------------------
 # 渲染
 # --------------------------------------------------------------------------
-def _period(meta: dict) -> str:
-    b, e = meta.get("baseline_date"), meta.get("week_end")
-    if not (b and e):
-        return str(e or "")
-    fmt = "%m.%d"
-    return (f"{datetime.strptime(b, '%Y-%m-%d').strftime(fmt)}"
-            f"–{datetime.strptime(e, '%Y-%m-%d').strftime(fmt)}")
+def _render(data: dict) -> str:
+    """按预算逐级收缩：先砍第二款的玩家段，再砍第二款，最后砍「其余」。"""
+    for level in range(5):
+        text = _render_once(data, level)
+        if han_count(text) <= HAN_LIMIT:
+            return text
+    return text
 
 
-def build_card(result: dict, hist: list[tuple[str, dict]] | None = None,
-               v2: bool = False, site_url: str = "") -> dict:
-    """产出卡片文本 + 其结构化数据（便于自检与二次渲染）。"""
-    meta = result.get("meta") or {}
-    hist = hist if hist is not None else A.load_history()
-    if not hist:
-        raise SystemExit("data/daily 为空，无法生成卡片")
+def _render_once(data: dict, level: int) -> str:
+    """两种版式：
 
-    cur_date = meta.get("week_end") or hist[-1][0]
-    # 用 week_end 当天那份快照（而不是目录里最后一份，两者可能不是同一天）
-    got = snap_at_or_before(hist, cur_date)
-    cur_snap = got[1] if got else hist[-1][1]
-    # 基准优先跟周报对齐；周报没给就自己往前推 7 天
-    base_date = meta.get("baseline_date") or base_date_of(hist, cur_date)
-
-    # 品类归一化：与周报同一套（全历史学习，抖音榜靠它回填）
-    learned = C.build_learned(A.collect_rows(hist, A.DEFAULT_BOARDS))
-    mapdata = C.load_map() if hasattr(C, "load_map") else None
-
-    index = CL.load_index()
-    cache: dict = {}
-
-    per_platform_ranks = {
-        pk: build_rank_index(hist, [pk]) for pk, _ in CARD_PLATFORMS
-    }
-    base_ranks_by_plat = {
-        pk: (per_platform_ranks[pk].get(base_date) if base_date else None)
-        for pk, _ in CARD_PLATFORMS
-    }
-    all_ranks = build_rank_index(hist, ALL_PLATFORMS)
-    base_all_ranks = all_ranks.get(base_date) if base_date else None
-
-    sections = []
-    for pk, label in CARD_PLATFORMS:
-        picks = picks_for_platform(cur_snap, pk, learned, mapdata,
-                                   base_ranks_by_plat[pk], index, cache)
-        sections.append({"platform": pk, "label": label, "picks": picks})
-
-    top = all_platform_top(cur_snap, learned, mapdata, base_all_ranks,
-                           index, cache, top=1)
-    change, steady = week_lines(result)
-
-    data = {
-        "meta": {
-            "period": _period(meta),
-            "week_end": cur_date,
-            "baseline_date": base_date,
-            "site_url": site_url,
-        },
-        "sections": sections,
-        "top1": top[0] if top else None,
-        "week_change": change,
-        "week_steady": steady,
-    }
-    data["text"] = render_text(data, v2=v2)
-    return data
-
-
-def _c(text: str, color: str, v2: bool) -> str:
-    if v2 or not text:
-        return text
-    return f'<font color="{color}">{text}</font>'
-
-
-def render_text(data: dict, v2: bool = False) -> str:
-    """渲染成企业微信群机器人可直接发的文本（markdown v1 安全）。"""
+    有可展开内容 → 首句 + 每款三行 + 「其余」一句
+    只有名次数据 → 正文就是那一句（不再加首句，避免为凑结构造一句空话）
+    """
     m = data["meta"]
     L = [f"# 游戏周热榜　{m['period']}", ""]
 
-    for i, sec in enumerate(data["sections"], 1):
-        L.append(f"**{i}. {sec['label']}（前三）**")
+    stories = data["stories"]
+    if level >= 2:
+        stories = stories[:1]
+    brief = data["brief"]
+
+    if not stories:
+        # 无展开：整条消息就一句，没有事件时用固定句式
+        L.append(brief or NO_CHANGE)
         L.append("")
-        for g in sec["picks"]:
-            head = (f"· {g['name']}-{g['type']}-"
-                    f"{_c(g['trend'], g['trend_color'], v2)}")
-            L.append(head)
-            L.append(f"{BOOKMARK}玩法：{g['play']}")
-            L.append("")
-        if not sec["picks"]:
-            L.append("· 本期无数据")
-            L.append("")
-
-    n = len(data["sections"]) + 1
-    t = data.get("top1")
-    L.append(f"**{n}. 🔥全部小游戏（TOP1）**")
-    L.append("")
-    if t:
-        L.append(f"· {t['name']}（{t['type']}）-"
-                 f"{_c(t['trend'], t['trend_color'], v2)}")
-        L.append(f"{BOOKMARK}玩法：{t['play']}")
-        line = (f"{BOOKMARK}覆盖 {t['plats_note']}｜最好名次 #{t['rank']}")
-        missed = [p for p in ALL_PLATFORMS if p not in t["plats"]]
-        if missed:
-            line += ("；" + "、".join(PLATFORM_LABEL.get(p, p) for p in missed)
-                     + " 榜内未见")
-        L.append(line)
     else:
-        L.append("· 本期无数据")
-    L.append("")
-    L.append(f"{BOOKMARK}本周变化：{data['week_change']}")
-    if data.get("week_steady"):
-        L.append(f"{BOOKMARK}保持不变：{data['week_steady']}")
-    L.append("")
+        L.append(data["headline"])
+        L.append("")
+        for i, s in enumerate(stories, 1):
+            L.append(f"**{i}. {s['name']}**（{s['type']}）")
+            if s["play"]:
+                L.append(f"　怎么玩：{s['play']}")
+            L.append(f"　本周：{s['happened']}")
+            if s["feedback"] and not (level >= 1 and i > 1):
+                L.append(f"　玩家：{s['feedback']}")
+            L.append("")
+        if brief and level < 4:
+            if level >= 3:
+                brief = "其余名次变动不再逐款列出。"
+            L.append(f"其余：{brief}")
+            L.append("")
 
-    # 页脚只留数据主页：图文周报入口已下线（群里一屏看结论就够了）。
     if m.get("site_url"):
         L.append(f"[数据主页]({m['site_url']})")
-    return "\n".join(L)
+    return "\n".join(L).strip()
 
 
 # --------------------------------------------------------------------------
+# 自检：把验收标准写成可执行的检查
+# --------------------------------------------------------------------------
+def audit(data: dict, limit: int = HAN_LIMIT) -> list[dict]:
+    text = data.get("text") or ""
+    stories = data.get("stories") or []
+    checks = []
+
+    def add(name: str, ok: bool, detail: str = "") -> None:
+        checks.append({"check": name, "ok": bool(ok), "detail": detail})
+
+    add("TOP3 未变化时不重复列出",
+        "前三" not in text and "TOP1）" not in text,
+        "固定版式已取消，正文无「前三」段落")
+    add(f"每期最多展开 {S.EXPAND_MAX} 款", len(stories) <= S.EXPAND_MAX,
+        f"实际展开 {len(stories)} 款")
+    add(f"正文 ≤ {limit} 汉字", han_count(text) <= limit,
+        f"实际 {han_count(text)} 汉字")
+
+    bad = [w for w in BANNED if w in text]
+    add("无空泛表述", not bad, "命中：" + "、".join(bad) if bad else "未命中禁用词")
+
+    for s in stories:
+        add(f"《{s['name']}》有实据可展开",
+            bool(s["play"] or s["feedback"] or s["events"]),
+            "、".join(s["why"]) or "无")
+
+    fed = [s for s in stories if s["feedback"]]
+    tracked = bool(fed) and all(s["feedback_used"] for s in fed)
+    add("玩家反馈可追溯到原始评论", tracked or not fed,
+        "每段反馈都带评论 ID" if fed and tracked
+        else ("存在没有来源的反馈" if fed else "本期无玩家反馈，无需追溯"))
+
+    if not any(s["feedback"] for s in stories):
+        hit = [w for w in ATTITUDE_WORDS if w in text]
+        add("无评论时不写玩家态度", not hit,
+            "命中：" + "、".join(hit) if hit else "全文未出现玩家态度表述")
+
+    brief = data.get("brief") or ""
+    add("只有名次数据的部分 ≤ 2 句", len(_SENT_END.findall(brief)) <= 2,
+        f"实际 {len(_SENT_END.findall(brief))} 句")
+
+    add("无需提醒时只发一句话",
+        (not data.get("no_change")) or text.count("。") == 1,
+        "本周无变化，正文仅一句" if data.get("no_change") else "本周有变化，正常展开")
+    return checks
+
+
+def audit_ok(checks: list[dict]) -> bool:
+    return all(c["ok"] for c in checks)
+
+
+# --------------------------------------------------------------------------
+def _log_line(card: dict) -> list[str]:
+    """Actions 日志四问：候选多少 / 谁有可靠评论 / 谁被压缩 / 删了哪些稳定内容。"""
+    d = card["diagnostics"]
+    cands = d["candidates"]
+    L = [f"候选游戏 {len(cands)} 款（命中事件即入池）"]
+
+    if d["expanded"]:
+        for c in cands:
+            if c["name"] in d["expanded"]:
+                L.append(f"  展开 · {c['name']}　事件 {','.join(c['events'])}"
+                         f"　名次 #{c['cur_rank']}　{('、'.join(c['why']))}")
+    else:
+        L.append("  展开 · 无（本期没有可展开的内容）")
+
+    reviewed = [c for c in cands if c["reviews"] >= RV.MIN_VALID]
+    L.append("获得可靠评论：" + (
+        "、".join(f"{c['name']}({c['reviews']}条)" for c in reviewed)
+        if reviewed else f"无（<{RV.MIN_VALID} 条，不写玩家反馈）"))
+
+    packed = [c["name"] for c in cands if c["name"] not in d["expanded"]]
+    shown = "、".join(packed[:10])
+    more = f" 等 {len(packed)} 款" if len(packed) > 10 else ""
+    L.append(f"只有名次数据被压缩：{shown + more if packed else '无'}")
+
+    stable = [f"{x['label']} {'、'.join(x['names'])}"
+              for x in d["stable_top"] if x["names"]]
+    L.append("未列出的稳定榜单内容：" + ("；".join(stable) if stable else "无"))
+    L.append("删除的固定版式：" + "、".join(d["dropped_layout"]))
+    return L
+
+
+def _pick_report() -> Path:
+    from report import REPORT_DIR  # noqa: PLC0415
+
+    files = sorted(REPORT_DIR.glob("weekly-*.json"))
+    if not files:
+        raise SystemExit("reports/ 下没有周报 JSON，请先跑 report.py")
+    return files[-1]
+
+
 def main() -> int:
-    ap = argparse.ArgumentParser(description="游戏周热榜 · 群消息卡片")
-    ap.add_argument("--report", default=None,
-                    help="周报 JSON（默认 reports/ 最新一期）")
-    ap.add_argument("--latest", action="store_true", help="用 data/latest.json 做一期")
+    ap = argparse.ArgumentParser(description="群消息 · 本周值得说的 1–2 款")
+    ap.add_argument("--report", default=None, help="周报 JSON（默认最新一期）")
+    ap.add_argument("--latest", action="store_true", help="用 data/latest.json 现算一期")
+    ap.add_argument("--reviews", default=None,
+                    help="指定评论文件 data/reviews/YYYY-MM-DD.json（默认按周期自动取）")
     ap.add_argument("--v2", action="store_true", help="去掉 <font> 颜色标签")
     ap.add_argument("--site-url", default="", help="数据主页地址")
-    ap.add_argument("--out", default=None, help="写出到文件")
+    ap.add_argument("--out", default=None, help="写出到文件（推送预览）")
     ap.add_argument("--json", action="store_true", help="附结构化数据")
+    ap.add_argument("--log", action="store_true", help="打印筛选诊断（Actions 日志用）")
+    ap.add_argument("--strict", action="store_true", help="自检不通过时退出码 1")
     args = ap.parse_args()
 
     if args.latest:
@@ -443,25 +502,41 @@ def main() -> int:
         result = json.loads(path.read_text(encoding="utf-8"))
         print(f"# 取自 {path.name}", file=sys.stderr)
 
-    card = build_card(result, v2=args.v2, site_url=args.site_url)
+    blob = None
+    if args.reviews:
+        blob = json.loads(Path(args.reviews).read_text(encoding="utf-8"))
+
+    site = args.site_url or (result.get("meta") or {}).get("site_url") or ""
+    card = build_card(result, v2=args.v2, site_url=site, review_blob=blob)
     print(card["text"])
-    size = len(card["text"].encode("utf-8"))
-    print(f"\n--- {size} 字节 / 上限 4096 ---", file=sys.stderr)
+    print(f"\n--- {han_count(card['text'])} 汉字 / {len(card['text'].encode('utf-8'))} "
+          f"字节（上限 {HAN_LIMIT} 汉字 / 4096 字节）---", file=sys.stderr)
+
+    if args.out:
+        Path(args.out).write_text(card["text"] + "\n", encoding="utf-8")
+        side = Path(args.out).with_suffix(".json")
+        side.write_text(json.dumps({k: v for k, v in card.items() if k != "text"},
+                                   ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"已写出 {args.out}（诊断见 {side.name}）", file=sys.stderr)
+
+    if args.log:
+        print("\n[内容筛选]", file=sys.stderr)
+        for line in _log_line(card):
+            print(line, file=sys.stderr)
+        print("\n[自检]", file=sys.stderr)
+        for c in card["audit"]:
+            print(f"  {'✓' if c['ok'] else '✗'} {c['check']}（{c['detail']}）",
+                  file=sys.stderr)
+            if not c["ok"]:
+                print(f"::warning::文案自检未通过：{c['check']}（{c['detail']}）")
+
     if args.json:
         print(json.dumps(card, ensure_ascii=False, indent=2))
-    if args.out:
-        Path(args.out).write_text(card["text"], encoding="utf-8")
-        print(f"已写出 {args.out}", file=sys.stderr)
+
+    if args.strict and not audit_ok(card["audit"]):
+        print("自检未通过", file=sys.stderr)
+        return 1
     return 0
-
-
-def _pick_report() -> Path:
-    from report import REPORT_DIR  # noqa: PLC0415
-
-    files = sorted(REPORT_DIR.glob("weekly-*.json"))
-    if not files:
-        raise SystemExit("reports/ 下没有周报 JSON，请先跑 report.py")
-    return files[-1]
 
 
 if __name__ == "__main__":

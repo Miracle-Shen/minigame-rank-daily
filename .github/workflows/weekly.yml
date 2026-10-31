@@ -1,10 +1,11 @@
 name: Weekly Report
 
 on:
-  # 每周一 09:30 北京时间 = UTC 周一 01:30（周报在周一晨会前送达）
+  # 每周一 07:30 北京时间 = UTC 周日 23:30
+  # （2026-10-31 由 09:30 提前两小时；注意 UTC 落在「周日」，day-of-week 必须跟着改成 0）
   # 只保留一条：原 09:00 + 09:30 双触发会让每个群收到两条相同卡片（推送步骤去不了重）。
   schedule:
-    - cron: "30 1 * * 1"
+    - cron: "30 23 * * 0"
   workflow_dispatch:
     inputs:
       baseline:
@@ -12,7 +13,7 @@ on:
         required: false
         default: ""
       style:
-        description: "群消息样式：card=游戏周热榜卡片 / digest=周报摘要"
+        description: "群消息样式：card=本周变化（默认）/ digest=周报摘要"
         required: false
         default: "card"
 
@@ -22,7 +23,7 @@ permissions:
 jobs:
   report:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -36,6 +37,7 @@ jobs:
         # 分析层本身只用标准库；pycryptodome 供抓取适配器解接口响应
         run: pip install pycryptodome
 
+      # ① 先出周报：它决定本期周期与候选池，后面的评论采集和群消息都读它
       - name: Generate weekly report
         # 读 data/daily/*.json + data/diff/*.json，产出 reports/weekly-<date>.{md,html,json}
         env:
@@ -47,11 +49,29 @@ jobs:
             python scripts/monitor/report.py --format both
           fi
 
+      # ② 评论采集：只采本期准备展开的 1–2 款。失败不阻断周报与推送 ——
+      #    采不到评论，群消息就不写「玩家」那一行，名次结论照发。
+      - name: Collect player reviews
+        continue-on-error: true
+        run: python scripts/monitor/collect_reviews.py
+
+      # ③ 生成群消息预览：先落成文件、打日志，再发。
+      #    这样 Actions 里能逐条核对「候选/评论/压缩/删除」，发送也直接读这份文件。
+      - name: Build group message preview
+        continue-on-error: true
+        run: |
+          REPORT=$(ls reports/weekly-*.json | tail -1)
+          DATE=$(python -c "import json,sys;print(json.load(open(sys.argv[1]))['meta']['week_end'])" "$REPORT")
+          echo "PREVIEW=reports/push-$DATE.md" >> "$GITHUB_ENV"
+          python scripts/monitor/hotlist.py --report "$REPORT" --log \
+            --out "reports/push-$DATE.md"
+
       - name: Commit & push report
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add reports/
+          [ -d data/reviews ] && git add data/reviews/ || true
           if git diff --cached --quiet; then
             echo "周报无变化，跳过提交。"
             exit 0
@@ -80,7 +100,7 @@ jobs:
           WECOM_CHATID_3: ${{ secrets.WECOM_CHATID_3 }}
           WECOM_MSG_TYPE: ${{ secrets.WECOM_MSG_TYPE }}
           WECOM_REPORT_URL: ${{ secrets.WECOM_REPORT_URL }}
-          # card（默认）= 游戏周热榜卡片；digest = 原来的周报摘要
+          # card（默认）= 本周变化；digest = 原来的周报摘要
           WECOM_STYLE: ${{ github.event.inputs.style || 'card' }}
         run: |
           if [ -z "$WECOM_WEBHOOK" ]; then
@@ -94,5 +114,11 @@ jobs:
           if [ "$WECOM_STYLE" = "digest" ]; then
             python scripts/monitor/send_wecom.py --latest
           else
-            python scripts/monitor/send_wecom.py --latest --card
+            # 有预览就直接发预览内容，保证「日志里看到的」= 「群里收到的」
+            if [ -n "$PREVIEW" ] && [ -f "$PREVIEW" ]; then
+              python scripts/monitor/send_wecom.py --latest --card --preview "$PREVIEW"
+            else
+              echo "::warning::没有生成群消息预览，按报告现场重算后发送。"
+              python scripts/monitor/send_wecom.py --latest --card
+            fi
           fi

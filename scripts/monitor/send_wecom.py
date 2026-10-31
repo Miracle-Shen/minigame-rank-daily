@@ -324,16 +324,26 @@ def build_wecom_markdown(data: dict, prefix: str, report_url: str = "",
 
 
 def build_card_markdown(data: dict, prefix: str = "",
-                        v2: bool = False) -> str:
-    """群消息卡片：微信前三 / 抖音前三 / 全平台 TOP1（渲染逻辑见 hotlist.py）。
+                        v2: bool = False, preview: str | Path | None = None) -> str:
+    """群消息：本周值得说的 1–2 款（渲染逻辑见 hotlist.py）。
 
     和 `build_wecom_markdown` 的分工：
 
         build_wecom_markdown  周报摘要 —— 本周趋势 + 值得复刻分组，信息全、条目多
-        build_card_markdown   周热榜卡片 —— 谁在榜 + 涨跌 + 抄不抄，一屏扫完
+        build_card_markdown   本周变化 —— 只展开有事件的 1–2 款，其余一句带过
 
     两条通道并存，命令行 `--card` 切换。卡片页脚只留数据主页 —— 图文周报入口已下线。
+
+    `preview` 指向 CI 先生成的 `reports/push-YYYY-MM-DD.md`：存在就直接发文件内容，
+    保证「日志里看到的预览」和「群里收到的」是同一份东西。
     """
+    if preview:
+        p = Path(preview)
+        if p.exists():
+            text = p.read_text(encoding="utf-8").strip()
+            print(f"  发送预览文件：{p.relative_to(ROOT) if p.is_relative_to(ROOT) else p}")
+            return text
+
     import hotlist as H  # noqa: PLC0415
 
     meta = data.get("meta") or {}
@@ -445,8 +455,11 @@ def main() -> int:
     ap.add_argument("--check", action="store_true", help="往群里发一条通道自检，不发正式内容")
     ap.add_argument("--dry-run", action="store_true", help="只打印摘要内容，不发送")
     ap.add_argument("--card", action="store_true",
-                    help="发「游戏周热榜」卡片（微信/抖音前三 + 全平台 TOP1），"
+                    help="发「本周值得说的 1–2 款」（有事件才展开），"
                          "而非默认的周报摘要")
+    ap.add_argument("--preview", default=None,
+                    help="直接发送这个预览文件的内容（weekly.yml 会先生成 "
+                         "reports/push-YYYY-MM-DD.md），保证发出内容与预览一致")
     ap.add_argument("--prefix", default=None, help="覆盖消息标题（默认 REPORT_PREFIX）")
     ap.add_argument("--chatid", action="append", default=None,
                     help="只投递给指定群（群 ID），覆盖 WECOM_CHATID；"
@@ -471,7 +484,7 @@ def main() -> int:
         ok = push_wecom(cfg, content=(
             f"# {cfg.prefix} · 通道自检\n"
             f"> 收到这条消息说明机器人 Webhook 可用，"
-            f"后续每周一 09:30 会推送周报。"))
+            f"后续每周一 07:30 会推送周报。"))
         return EXIT_OK if ok else EXIT_SENDFAIL
 
     report = Path(args.report) if args.report else latest_report()
@@ -479,12 +492,13 @@ def main() -> int:
         report = (ROOT / report).resolve()
     data, md_p = load_bundle(report)
     url = cfg.report_url or github_blob_url(md_p or report)
-    style = "周热榜卡片" if args.card else "周报摘要"
+    style = "本周变化（卡片）" if args.card else "周报摘要"
     if args.card:
         try:
             # 卡片自带「游戏周热榜」标题，默认不再叠加前缀
             content = build_card_markdown(data, args.prefix or "",
-                                          v2=(cfg.msg_type == "markdown_v2"))
+                                          v2=(cfg.msg_type == "markdown_v2"),
+                                          preview=args.preview)
         except Exception as e:  # noqa: BLE001
             # 卡片渲染失败（hotlist.py 缺失 / 报告字段不全等）→ 退回摘要。
             # 回落发生在「渲染阶段」、网络请求还没发出，所以不会重复投递；

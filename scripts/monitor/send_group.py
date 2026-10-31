@@ -129,13 +129,14 @@ def send_text(chat_id: str, content: str) -> tuple[bool, str]:
 # 内容
 # --------------------------------------------------------------------------
 def build_content(data: dict, prefix: str, report_url: str,
-                  card: bool = False) -> str:
+                  card: bool = False, preview: str | None = None) -> str:
     """复用 send_wecom 的两种版式（都只用空行分段，不用表格/列表）。
 
-    card=False → 周报摘要；card=True → 「游戏周热榜」卡片。
+    card=False → 周报摘要；card=True → 「本周值得说的 1–2 款」。
+    preview 给了就直接发文件内容，保证与 CI 预览是同一份。
     """
     if card:
-        return build_card_markdown(data, prefix)
+        return build_card_markdown(data, prefix, preview=preview)
     return build_wecom_markdown(data, prefix, report_url)
 
 
@@ -152,8 +153,10 @@ def main() -> int:
     ap.add_argument("--text-only", action="store_true",
                     help="用降级通道发纯文本（markdown 通道不可用时）")
     ap.add_argument("--card", action="store_true",
-                    help="发「游戏周热榜」卡片（微信/抖音前三 + 全平台 TOP1），"
+                    help="发「本周值得说的 1–2 款」（有事件才展开），"
                          "而非默认的周报摘要")
+    ap.add_argument("--preview", default=None,
+                    help="直接发送这个预览文件（reports/push-YYYY-MM-DD.md）")
     ap.add_argument("--prefix", default=None,
                     help=f"覆盖消息标题（默认 {DEFAULT_PREFIX}；卡片样式默认不加前缀）")
     a = ap.parse_args()
@@ -178,14 +181,14 @@ def main() -> int:
         prefix = a.prefix or ""
     else:
         prefix = a.prefix or os.environ.get("REPORT_PREFIX", DEFAULT_PREFIX)
-    content = build_content(data, prefix, url, card=a.card)
+    content = build_content(data, prefix, url, card=a.card, preview=a.preview)
 
     m = data.get("meta", {})
     title = (f"{m.get('baseline_date')} ~ {m.get('week_end')}"
              if m.get("baseline_date") else report.stem)
     targets = collect_targets(a.group_id)
     print(f"报告：{report.name}（{title}）")
-    print(f"样式：{'周热榜卡片' if a.card else '周报摘要'}")
+    print(f"样式：{'本周变化（卡片）' if a.card else '周报摘要'}")
     print(f"正文：{len(content.encode('utf-8'))} 字节{'，附链接 ' + url if url else ''}")
     print(f"目标群：{len(targets)} 个{'　' + '、'.join(mask_chatid(c) for c in targets) if targets else '（未指定）'}")
 
