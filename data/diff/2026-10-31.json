@@ -1,0 +1,681 @@
+{
+  "date": "2026-10-31",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 9,
+          "name": "疯狂收杂物",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx1644b5d3f47969f0",
+          "publisher_id": 0
+        },
+        {
+          "rank": 16,
+          "name": "毛线通关",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "成都木木互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx8fe12b24921acbef",
+          "publisher_id": 20002404
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "不停找找找",
+          "category": "休闲",
+          "category_rank": 7,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "长沙指色网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd1a3a871ddc9ebd2",
+          "publisher_id": 20002391
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "疯狂收杂物",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx1644b5d3f47969f0",
+          "publisher_id": 0
+        },
+        {
+          "rank": 16,
+          "name": "毛线通关",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "成都木木互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx8fe12b24921acbef",
+          "publisher_id": 20002404
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "跃动小子",
+          "category": "休闲",
+          "category_rank": 5,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "波克科技集团有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx6cce8ac2ea74103e",
+          "publisher_id": 20052324
+        },
+        {
+          "rank": 8,
+          "name": "青云诀之伏魔",
+          "category": "角色",
+          "category_rank": 1,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "海南元游信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxcdcbec6bf40d053a",
+          "publisher_id": 20002304
+        },
+        {
+          "rank": 12,
+          "name": "永夜起源",
+          "category": "角色",
+          "category_rank": 2,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "广州招崭信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx1ab0da97c26e5574",
+          "publisher_id": 20302428
+        },
+        {
+          "rank": 17,
+          "name": "腾讯欢乐斗地主",
+          "category": "棋牌",
+          "category_rank": 1,
+          "subcategory": "牌类",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd0e404d795ea6f80",
+          "publisher_id": 20002309
+        },
+        {
+          "rank": 20,
+          "name": "大王请上阵",
+          "category": "角色",
+          "category_rank": 6,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "深圳市悦莱顺网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx10fdc3aa2ebc5279",
+          "publisher_id": 20302429
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 19,
+          "name": "超超级解压",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门市玩转地球科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb4d6c26b2ab153e307",
+          "publisher_id": 20292383
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "音悦节奏球",
+          "category": "节奏",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门真嘟假嘟网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf01f86a26f1520f507",
+          "publisher_id": 20192412
+        },
+        {
+          "rank": 18,
+          "name": "猛鬼宿舍",
+          "category": "塔防",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt00e576589fdceaa202",
+          "publisher_id": 20192384
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 19,
+          "name": "超超级解压",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门市玩转地球科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb4d6c26b2ab153e307",
+          "publisher_id": 20292383
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "欢乐战三国",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南哎呦互娱网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttacb7da0a33bf499507",
+          "publisher_id": 20243428
+        },
+        {
+          "rank": 16,
+          "name": "梦回甄嬛传",
+          "category": "合成",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州擎迅网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2f6959d4b113069b02",
+          "publisher_id": 20302495
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "通关就这样简单",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州到道科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf032868f6e52d75e02",
+          "publisher_id": 20244325
+        },
+        {
+          "rank": 14,
+          "name": "荣耀防线",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海掌笑网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte0db96667ea1196702",
+          "publisher_id": 20302679
+        },
+        {
+          "rank": 15,
+          "name": "赚钱之路",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门格拇科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2c165aabb2762a6507",
+          "publisher_id": 20262389
+        },
+        {
+          "rank": 17,
+          "name": "解不开啊",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙翌游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9c52eaef02375c6f02",
+          "publisher_id": 20302334
+        },
+        {
+          "rank": 19,
+          "name": "勇闯水纪元",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州池骋网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcfaeb91351c9b3e307",
+          "publisher_id": 20012361
+        },
+        {
+          "rank": 20,
+          "name": "越玩越有戏",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市妙迹互娱有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt337d45c0ad0790df07",
+          "publisher_id": 20302360
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 14,
+          "name": "荣耀防线",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海掌笑网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte0db96667ea1196702",
+          "publisher_id": 20302679
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "通关就这样简单",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州到道科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf032868f6e52d75e02",
+          "publisher_id": 20244325
+        },
+        {
+          "rank": 14,
+          "name": "荣耀防线",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海掌笑网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte0db96667ea1196702",
+          "publisher_id": 20302679
+        },
+        {
+          "rank": 15,
+          "name": "赚钱之路",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门格拇科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2c165aabb2762a6507",
+          "publisher_id": 20262389
+        },
+        {
+          "rank": 17,
+          "name": "解不开啊",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙翌游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9c52eaef02375c6f02",
+          "publisher_id": 20302334
+        },
+        {
+          "rank": 19,
+          "name": "勇闯水纪元",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州池骋网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcfaeb91351c9b3e307",
+          "publisher_id": 20012361
+        },
+        {
+          "rank": 20,
+          "name": "越玩越有戏",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市妙迹互娱有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt337d45c0ad0790df07",
+          "publisher_id": 20302360
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "变形金刚：新纪元",
+          "publisher": "Wanda Game",
+          "category": "策略",
+          "subcategory": "剧情、收集"
+        },
+        {
+          "rank": 9,
+          "name": "无限大",
+          "publisher": "网易游戏",
+          "category": "开放世界",
+          "subcategory": "角色扮演、高自由度、都市、二次元、动作、高画质、3D"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "Brain Puzzle 3: Crazy Mind",
+          "publisher": "SmallStep Dev Team",
+          "category": "Games",
+          "app_id": "6756482832",
+          "url": "https://apps.apple.com/us/app/brain-puzzle-3-crazy-mind/id6756482832?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/10/47/d910471a-6dab-f930-9001-3d451d121904/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Warning: This game may cause intermittent frustration, sudden bursts of laughter"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "疯狂消方块：鸭鸭来解谜",
+          "publisher": "轩 殷",
+          "category": "游戏",
+          "app_id": "6825755236",
+          "url": "https://apps.apple.com/cn/app/%E7%96%AF%E7%8B%82%E6%B6%88%E6%96%B9%E5%9D%97-%E9%B8%AD%E9%B8%AD%E6%9D%A5%E8%A7%A3%E8%B0%9C/id6825755236?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/b4/26/b4b4261c-a6d4-815b-966f-3a5fda7bef38/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "你需要通过有限的线索，一步步揭开隐藏的正确数字密码。每次输入后，系统将反馈数字与位置的精准提示。优先找出正确数字，再巧妙调整排序。\n\n点击任意棋子，系统将自动高"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "火影忍者",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "955396648",
+          "url": "https://apps.apple.com/cn/app/%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85/id955396648?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/48/e6/2848e651-522a-cef2-2fac-1bcb0752d0de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "火影忍者-疾风传登场，百忍集结，强力降临\n【游戏介绍】\n《火影忍者》手游100%正统还原原著剧情，全新疾风传篇章登场，十年百忍强力降临，玩家可以任意扮演鸣人、佐"
+        },
+        {
+          "rank": 19,
+          "name": "迷你世界",
+          "publisher": "Miniwan Tech",
+          "category": "游戏",
+          "app_id": "1170455562",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C/id1170455562?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/73/1d/c2/731dc2a8-d2c0-5de1-526b-06a55380706c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【游戏介绍】\r\n《迷你世界》是一款高自由的精美3D沙盒游戏。\r\n这里没有规则限制，也没有特定的玩法，只有破坏和创造、生存与冒险的乐趣。\r\n可以通过双手和智慧完成"
+        },
+        {
+          "rank": 20,
+          "name": "向末日开炮",
+          "publisher": "Dod Joy Co., Ltd.",
+          "category": "游戏",
+          "app_id": "6748045272",
+          "url": "https://apps.apple.com/cn/app/%E5%90%91%E6%9C%AB%E6%97%A5%E5%BC%80%E7%82%AE/id6748045272?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/a1/67/a6a1674b-484e-f634-3837-93407342bd9d/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "“末日降临，英雄崛起”！在《向末日开炮》玩家们将化身“指挥官”，手持高爆武器，穿梭于末日废墟与移动迷宫，破解人类文明面临着崩溃边缘的难题，在最后一丝防线中，用艰"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 6,
+          "name": "疯狂消方块：鸭鸭来解谜",
+          "publisher": "轩 殷",
+          "category": "游戏",
+          "app_id": "6825755236",
+          "url": "https://apps.apple.com/cn/app/%E7%96%AF%E7%8B%82%E6%B6%88%E6%96%B9%E5%9D%97-%E9%B8%AD%E9%B8%AD%E6%9D%A5%E8%A7%A3%E8%B0%9C/id6825755236?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/b4/26/b4b4261c-a6d4-815b-966f-3a5fda7bef38/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "你需要通过有限的线索，一步步揭开隐藏的正确数字密码。每次输入后，系统将反馈数字与位置的精准提示。优先找出正确数字，再巧妙调整排序。\n\n点击任意棋子，系统将自动高"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "疯狂消方块：鸭鸭来解谜",
+          "publisher": "轩 殷",
+          "category": "游戏",
+          "app_id": "6825755236",
+          "url": "https://apps.apple.com/cn/app/%E7%96%AF%E7%8B%82%E6%B6%88%E6%96%B9%E5%9D%97-%E9%B8%AD%E9%B8%AD%E6%9D%A5%E8%A7%A3%E8%B0%9C/id6825755236?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/b4/26/b4b4261c-a6d4-815b-966f-3a5fda7bef38/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+          "slogan": "你需要通过有限的线索，一步步揭开隐藏的正确数字密码。每次输入后，系统将反馈数字与位置的精准提示。优先找出正确数字，再巧妙调整排序。\n\n点击任意棋子，系统将自动高"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 19,
+          "name": "パラノイズ - あの日から何かがちがう",
+          "publisher": "ZigZaGame Inc.",
+          "category": "ゲーム",
+          "app_id": "6639605332",
+          "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%83%A9%E3%83%8E%E3%82%A4%E3%82%BA-%E3%81%82%E3%81%AE%E6%97%A5%E3%81%8B%E3%82%89%E4%BD%95%E3%81%8B%E3%81%8C%E3%81%A1%E3%81%8C%E3%81%86/id6639605332?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/d5/67/7bd567ea-42f1-bc1f-86e8-b26904e15fdd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "何かがちがう、あれが山に落ちてから。\n異変を見つけ、謎を追い、生き残れ。\n第29回日本アカデミー賞・最優秀音楽賞受賞作曲家の佐藤直紀が音楽を担当。豪華キャスト陣"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "波乱水世界",
+          "publisher": "Hong Kong Just Game Technology Limited",
+          "category": "ゲーム",
+          "app_id": "6780387121",
+          "url": "https://apps.apple.com/jp/app/%E6%B3%A2%E4%B9%B1%E6%B0%B4%E4%B8%96%E7%95%8C/id6780387121?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/38/19/313819f2-862f-780f-363e-1e0d539647a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "イカダは最後のシェルター。終末の世界で資材を集め、探索し、そして生き延びろ！\n\n世界的な生態系が崩壊し、現代社会は果てしない大海原の底へと呑み込まれた。あなたと"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 19,
+          "name": "パラノイズ - あの日から何かがちがう",
+          "publisher": "ZigZaGame Inc.",
+          "category": "ゲーム",
+          "app_id": "6639605332",
+          "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%83%A9%E3%83%8E%E3%82%A4%E3%82%BA-%E3%81%82%E3%81%AE%E6%97%A5%E3%81%8B%E3%82%89%E4%BD%95%E3%81%8B%E3%81%8C%E3%81%A1%E3%81%8C%E3%81%86/id6639605332?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/d5/67/7bd567ea-42f1-bc1f-86e8-b26904e15fdd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "何かがちがう、あれが山に落ちてから。\n異変を見つけ、謎を追い、生き残れ。\n第29回日本アカデミー賞・最優秀音楽賞受賞作曲家の佐藤直紀が音楽を担当。豪華キャスト陣"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
