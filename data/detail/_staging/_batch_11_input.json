@@ -1,0 +1,184 @@
+{
+ "batch": 11,
+ "total_batches": 11,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_11.json",
+ "games": [
+  {
+   "name": "Monster Hunter Outlanders",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 10
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Level Infinite",
+   "first_seen": "2026-10-28",
+   "appearances": 4,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Monster Hunter Outlanders",
+    "country": "us",
+    "track_id": 6444520814,
+    "seller": "PROXIMA BETA PTE.LIMITED",
+    "genres": [
+     "Games",
+     "Action",
+     "Entertainment",
+     "Roleplaying"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/73/e0/0073e0c8-a9e4-1956-8966-f83a136ee71e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/21/e2/80/21e28030-9552-d59e-b2ed-f263a2f46af1/_U5356_U70b9_U56fe-_U4e3bKV-2778x1284-_U82f1_U6587.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/dd/c5/deddc500-16ef-941f-3587-b1822417afdb/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72481-1-2778x1284.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/02/af/9002af35-c290-6445-2e37-4616876a5902/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72482-2778x1284.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/03/4e/a5034e48-88ad-8347-e98d-ce90b2af2148/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72483-2778x1284.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/b9/43/a4b943ac-9b1b-8388-f415-1e77a808b9b9/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72484-2778x1284.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/14/ae/d814ae18-f11b-a6cc-1190-537b2cf00194/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72485-2778x1284.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/88/c8/c988c804-c113-0041-fc3b-9a69577cd9f8/_U5356_U70b9_U56fe-_U4e3bKV-2752x2064-_U82f1_U6587.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/69/e4/f769e4e0-1284-6c26-5297-60f4d8c882b8/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72481-1-2752x2064.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/24/70/a52470bf-1e6f-8b79-8b9e-94cdd3fb7edb/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72482-2752x2064.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/8c/41/f38c4172-d4d8-6bbe-92f5-a17b7556c3ae/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72483-2752x2064.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/09/21/4e0921ac-3bc2-525f-662c-08ebca8ee683/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72484-2752x2064_U00283_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/b4/df/5bb4dfe8-ae57-69bd-973b-4e4c5b27685c/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72485-2752x2064.jpg/626x1112bb.jpg"
+    ],
+    "description": "Monster Hunter Outlanders is a Monster Hunter exploration hunting action game on mobile, officially licensed by CAPCOM and developed by TiMi Studio Group. The game preserves the classic weapons and hunting experience the IP is known for, while introducing a brand-new world, original Adventurers, Buddies, and exclusive new Monsters.\n\n① Hunt & Explore in the Living Aesoland.\nA new adventure awaits on your phone! Built for mobile play, with portable controls that allow you to dive into the action instantly!\n\n② Epic Elder Dragons & Exclusive Radiant Species, Only in Monster Hunter Outlanders.\nWrapped in a dazzling radiance, the Elder Dragon Ruger Aidal descends like a blazing sun!\nShaped by the ever-changing environment, Radiant Monsters are here to bring new adventures and challenges!\n\n③ No Quest is Too Great, Team Up Anytime! \nExplore the vast field solo, or rally your friends with a single tap to form a 4-player hunting squad. No matter when or where, as long as you've got companions by your side, no monster is too fearsome to face!\n\n④ Original Adventurers & Classic Weapons,\nUnleash All-new Hunting Arts\nThere are eight classic weapon types—Great Sword, Long Sword, Dual Blades, Hammer, Lance, Charge Blade, Heavy Bowgun, and Bow. Each weapon forms a unique combination with Adventurers, preserving the core hunting experience while unlocking all-new Follow-up moves! More weapons will join the hunt in future updates.\n\n⑤ Meet New Buddies.\nPalico, Rutaco, and Trillan—three Buddies, each with their own unique personality—will join you on the hunt, adding color to your adventure through a wealth of events and happenings.\n\n⑥ Born For Mobile. \nFaithful recreations of the series' classic weapons and hunting gameplay, deeply optimized for mobile devices to deliver a smoother, more freeform experience—hunt wherever, whenever!\n\nHappy Hunting!",
+    "release_notes": "Welcome to Aesoland! Step into the boots of an intrepid Adventurer and set off with your Buddies on a journey to unravel the island's mysteries.\n\n① Hunt & Explore.\nA New Adventure Awaits on Your Phone! \n\n② Epic Elder Dragons & Exclusive Radiant Species.\nOnly in Monster Hunter Outlanders.\n\n③ No Quest is Too Great.\nTeam Up Anytime! \n\n④ Original Adventurers & Classic Weapons.\nUnleash All-New Hunting Arts! \n\n⑤ Meet New Buddies.\nHunt, Craft, and Explore Together in the Living Aesoland!\n\nHappy Hunting!",
+    "file_size_bytes": 3576903680,
+    "min_os": "15.0",
+    "version": "1.0.9",
+    "release_date": "2026-10-28",
+    "rating": 4.82111,
+    "rating_count": 2359,
+    "price": "Free",
+    "advisory": "17+",
+    "url": "https://apps.apple.com/us/app/monster-hunter-outlanders/id6444520814?uo=4",
+    "fetched_at": "2026-11-01T12:42:32+08:00"
+   }
+  },
+  {
+   "name": "Rotate Rings",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 7
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Nebula Studio",
+   "first_seen": "2026-09-26",
+   "appearances": 36,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Rotate Rings!",
+    "country": "cn",
+    "track_id": 6818593275,
+    "seller": "Lumi Software B.V.",
+    "genres": [
+     "游戏",
+     "益智解谜"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/db/77/27db77cb-7636-bf56-d3fb-38159302dd04/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ae/8c/07/ae8c07bc-3e73-10c8-4041-013822b07118/Frame_3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/ae/86/c0ae86c6-ad0b-f170-f367-89d8e7468e6d/Frame_4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a0/04/a5/a004a573-05f4-9078-9c87-967da92e0654/Frame_5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/3b/08/713b0893-97e9-2987-aab9-d2697f36c2ee/Frame_6.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/aa/7a/84aa7ad3-5827-9d93-0017-3bffb97082b7/Frame_7.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/dc/8f/19dc8f02-96b2-e60c-734c-04ceeb07c243/Frame_8.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/57/0a/e7570a7d-89b4-f95d-2261-2e9029d715d3/Frame_9.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/ca/58/b1ca5816-63cc-dce9-e01a-2b2b0a049dc0/Frame_10.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/c1/5e/a4c15e9c-0906-dd48-7093-a6b40ad3fe8f/Frame_11.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/a1/e2/fba1e255-0b33-52e5-a373-062ab86db2fc/Frame_12.png/626x1112bb.jpg"
+    ],
+    "description": "Turn the rings. Slide the bars. Clear the board.\n\nRotate Rings is a calm puzzle game about untangling. Every board is a knot of rings and bars holding on to each other. Turn a ring until its gap lines up with a clip and the piece lets go. Free them all and the level is done.\n\nIt starts simple and gets clever.\n\nHOW IT PLAYS\n• Drag a ring to turn it. Drag a bar to slide it out of its hub.\n• A piece leaves the board the moment nothing holds it.\n• Some rings are locked by a bar through their gap or by a neighbour's tail. Find what's holding what, and work your way in.\n\nWHAT'S INSIDE\n• 50 handcrafted-feeling levels, from a two-ring warm-up to boards with 30 pieces.\n• Very different kinds of puzzle: woven ring patterns, symmetric figures, bar mazes, caged rings and a few showpieces.\n• Easy and hard levels take turns, so there's always a breather after a tough one.\n• Two boosters for when you're stuck: lightning strikes a random piece, the laser removes the one you choose. They're rare, and you earn more as you progress.\n• Every level can be solved without a booster.\n\nNO PRESSURE\n• No timers, no lives, no move limits.\n• No ads.\n• Works offline.\n• Your progress is saved automatically.\n• Sound and haptics can be switched off.\n\nMore levels are on the way. If you have ideas or feedback, there's a button for that at the end of the game. We read everything.",
+    "release_notes": "100 new puzzles, for 200 levels in all, with brand-new boards: free-form tangles, rings inside a giant ring, and dense zoomed-out puzzles. Out of boosters? Watch a short video to get one more. Plus bug fixes.",
+    "file_size_bytes": 31059968,
+    "min_os": "17.0",
+    "version": "1.2.0",
+    "release_date": "2026-10-13",
+    "rating": 0,
+    "rating_count": 0,
+    "price": "免费",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/cn/app/rotate-rings/id6818593275?uo=4",
+    "fetched_at": "2026-11-01T12:42:29+08:00"
+   }
+  },
+  {
+   "name": "ダックサバイバー",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 4
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Joy Net Games",
+   "first_seen": "2026-10-16",
+   "appearances": 16,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-01T12:42:43+08:00"
+   }
+  },
+  {
+   "name": "モンスターハンターアウトランダーズ",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 1
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Level Infinite",
+   "first_seen": "2026-10-28",
+   "appearances": 4,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-01T12:42:38+08:00"
+   }
+  }
+ ]
+}

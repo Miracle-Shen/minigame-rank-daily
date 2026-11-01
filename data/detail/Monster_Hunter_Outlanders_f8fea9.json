@@ -1,0 +1,306 @@
+{
+ "schema_version": 1,
+ "name": "Monster Hunter Outlanders",
+ "updated_at": "2026-11-01",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Level Infinite",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 10
+  },
+  "platform_app_ids": {
+   "ios": "6444520814"
+  },
+  "first_seen": "2026-10-28",
+  "appearances": 4,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（未官方确认，按天美既往项目推断）",
+  "engine_evidence": "inferred",
+  "dimension": "3D 开放世界（第三人称动作，固定关卡式狩猎 + 无缝场景）",
+  "art_style": "写实偏卡通的日式怪猎风，骨骼动画怪物 + 大面积植被与体积光",
+  "dims": {
+   "engine": 5,
+   "art": 5,
+   "anim": 5,
+   "physics": 4,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 5
+  },
+  "dim_notes": {
+   "engine": "要在手机上跑开放世界 + 四人同步联机，画质降级、LOD、内存天花板全部要重做，等于自建一套移动端 3A 管线",
+   "art": "包体 3.58GB，怪物、场景、装备、角色四套资产并行，单只大型怪物的骨骼与材质就抵得上一个小游戏的全部素材",
+   "anim": "部位破坏、受击硬直、连段衔接都要逐帧对，天美自述手感调校是最花时间的部分，常规骨骼动画团队接不住",
+   "logic": "狩猎 + 剥取 + 锻造 + 冒险者养成 + 开放世界采集与滑翔，五套系统互相喂资源，缺一环循环就断",
+   "data": "冒险者等级、武器锻造、装备强化、宝石、战令、多档货币并行，是典型的多线养成 + 经济循环",
+   "server": "四人实时协同狩猎、账号存档、活动与排行共用一套长线服务端，还要按区域分服（Level Infinite / Garena 各一套）",
+   "audio": "配乐由 Tadayoshi Makino 定制，全曲目 + 怪物吼叫与武器音效均为一对一录制"
+  },
+  "asset_notes": "3.58GB 首包，3D 场景与怪物骨骼动画是成本主体，无法用 AI 生图替代；素材产能直接决定内容更新速度，这也是长线运营的最大瓶颈",
+  "notes": "天美 Studio Group 开发、卡普空授权并监修、Level Infinite 全球发行（东南亚与韩国由 Garena 代理），2022 年立项、三轮封测、2026-10-29 全球上线（国服 2027）。引擎官方从未公开，此处为推断。",
+  "cost_score": 4.88,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "在 Aesoland 开放世界里追踪一只怪物，用八种武器之一的连段与「后续技」打部位破坏，剥取素材回据点锻造装备，再接更硬的怪；一次狩猎 5–15 分钟，四人小队一键组队。",
+  "highlights": [
+   "砍断尾巴、破头之后怪物的动作与掉率同步变化，玩家的操作直接改写收益，而不只是血条变短",
+   "主机版的搓招被压成单键触发的「后续技」，触屏上仍保留连段节奏，第一次玩也能打出像样的输出",
+   "四人血条常驻屏幕右侧，队友被撞飞时能立刻判断该不该去拉，联机的默契感来自这块 UI",
+   "滑翔翼与滑索把「追怪」这段路做成可玩内容，而不是读条传送"
+  ],
+  "innovations": [
+   "把「自建猎人」换成可招募的冒险者名册，同一把武器在不同角色手里连段完全不同",
+   "新增「辉光种」生态分类，怪物因环境辐射变异出新的攻击方式，是本作独有的怪物设计语言"
+  ],
+  "target_user": "18–35 岁、有怪猎认知的男性为主，同时用「冒险模式」拉新到动作手游泛用户",
+  "monetization": "混合 IAP：冒险者招募（90 抽保底 / 50/50 / 单期限定 120 抽保底）+ 外观（官方声明无数值）+ 战令与省时道具，PvE 无直接 PvP",
+  "lifecycle": "长线服务型运营，官方承诺持续追加怪物、武器、区域，靠赛季与联机活动维持"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "卡普空把 IP 独家授权给天美并全程监修，怪物造型、武器命名、世界观全在版权保护范围内，照搬即侵权；3.58GB 包体对应的是四年研发与亿元级投入，不是小游戏团队能对齐的量级；开放世界 + 四人实时联机还要求自建服务端与持续的内容产能。",
+  "suggestions": [
+   "只取「单键后续技」这一层操作简化，用在自有动作或割草玩法的触屏适配上，不动玩法内核",
+   "借用「名册式角色 + 固定武器」的内容更新结构，先做 3 个角色验证付费意愿，再决定是否扩",
+   "若要做狩猎题材，绕开怪猎设定，走「远古巨兽 + 部落图腾」的原创世界观，避免任何造型与命名上的相似"
+  ],
+  "risks": [
+   "IP 侵权风险极高：怪物剪影、武器名称、装备造型都受商标与著作权保护，换皮也难规避",
+   "3.58GB 首包在低端机与国内渠道审核上都不友好，下载转化会明显吃亏",
+   "长线内容跟不上就掉留存，狩猎品类的用户对「没有新怪」的容忍度极低"
+  ],
+  "effort": "不建议自研；若只取操作简化与角色名册结构，约 60–90 人日（按已有 3D 动作框架估算）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "怪猎的爽点绑在「同一只怪砍上百次也不腻」的手感与部位反馈上，这套手感是二十年动作调校的积累，不是搬一套系统能得到的"
+    },
+    {
+     "lens": "用户",
+     "text": "主机怪猎玩家要的是完整狩猎与自建猎人，抽卡名册在封测期就被这批人质疑限定角色会让主角失效，我们的用户也没有这份 IP 认知可以承接"
+    },
+    {
+     "lens": "业务",
+     "text": "卡普空授权 + 天美四年研发是亿元级投入，任何自有产品线都不该在这个量级上对齐，投入产出比不成立"
+    },
+    {
+     "lens": "业务",
+     "text": "开放世界与四人实时联机需要自建服务端和长线内容管线，与常规休闲、活动型产品线的结构直接冲突，接进来会把团队带偏"
+    }
+   ],
+   "how": [
+    "先把「单键后续技」的操作压缩方式做成一份触屏适配方案，在自有动作类玩法里跑 A/B，看新手首局完成率与次局进入率",
+    "把「角色名册 = 固定武器 + 专属连段」当内容更新模板试跑一期，只做 3 个角色，验证付费点再决定是否扩"
+   ],
+   "gain": [
+    "明确不做开放世界狩猎，省掉亿元级投入与四年的内容追赶，这个判断本身比任何原型都值钱",
+    "拿到一套触屏动作简化范式（单键后续技 + 经典/冒险双操作模式），可直接复用到自有动作玩法的适配上",
+    "拿到「名册式角色」的内容更新模板，一期 3 个角色的成本可控，失败也不伤主线排期",
+    "提前避开两个硬坑：不碰怪猎的造型与命名，也不做 3GB 以上的首包，下载转化与审核风险都绕开了"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "研发在天美、全球发行在 Level Infinite、东南亚与韩国由 Garena 代理、IP 方卡普空监修，商务链条已经闭环，没有代理或联运的入口",
+    "唯一可谈的是 IP 联动的市场合作，但怪猎的授权门槛与保底分成不是常规业务能承的量级"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "自有动作玩法的触屏简化",
+     "how": "把连段压成单键触发「后续技」，同时保留经典与简化两套操作模式给不同熟练度的玩家"
+    },
+    {
+     "scene": "角色名册式内容更新",
+     "how": "把新角色做成「固定武器 + 专属连段」的独立单位，按赛季投放，一期 3 个"
+    }
+   ]
+  },
+  "summary": "IP 与投入量级都不可复制，只取触屏操作简化与角色名册"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/73/e0/0073e0c8-a9e4-1956-8966-f83a136ee71e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/21/e2/80/21e28030-9552-d59e-b2ed-f263a2f46af1/_U5356_U70b9_U56fe-_U4e3bKV-2778x1284-_U82f1_U6587.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/dd/c5/deddc500-16ef-941f-3587-b1822417afdb/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72481-1-2778x1284.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/02/af/9002af35-c290-6445-2e37-4616876a5902/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72482-2778x1284.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/03/4e/a5034e48-88ad-8347-e98d-ce90b2af2148/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72483-2778x1284.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/b9/43/a4b943ac-9b1b-8388-f415-1e77a808b9b9/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72484-2778x1284.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/14/ae/d814ae18-f11b-a6cc-1190-537b2cf00194/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72485-2778x1284.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/88/c8/c988c804-c113-0041-fc3b-9a69577cd9f8/_U5356_U70b9_U56fe-_U4e3bKV-2752x2064-_U82f1_U6587.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/69/e4/f769e4e0-1284-6c26-5297-60f4d8c882b8/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72481-1-2752x2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/24/70/a52470bf-1e6f-8b79-8b9e-94cdd3fb7edb/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72482-2752x2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/8c/41/f38c4172-d4d8-6bbe-92f5-a17b7556c3ae/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72483-2752x2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/09/21/4e0921ac-3bc2-525f-662c-08ebca8ee683/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72484-2752x2064_U00283_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/b4/df/5bb4dfe8-ae57-69bd-973b-4e4c5b27685c/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72485-2752x2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 3.58GB、iOS 15+、17+，iOS 美区免费榜第 10",
+   "level": "confirmed"
+  },
+  {
+   "claim": "天美 Studio Group 开发、卡普空授权监修、Level Infinite 全球发行",
+   "level": "confirmed"
+  },
+  {
+   "claim": "2026-10-29 全球上线（不含中国大陆，国服 2027），上线首日进入 19 个国家与地区免费榜首",
+   "level": "confirmed"
+  },
+  {
+   "claim": "冒险者招募为 90 抽 SSR 保底、50/50、单期限定 120 抽保底，每 10 抽保底 SR",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（天美未公开，按其既往项目推断）",
+   "level": "inferred"
+  },
+  {
+   "claim": "配乐由 Tadayoshi Makino 定制",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/monster-hunter-outlanders/id6444520814",
+  "https://www.monsterhunteroutlanders.com/",
+  "https://www.gamedeveloper.com/press-release/monster-hunter-outlanders-from-timi-studio-group-and-capcom-delivers-authentic-hunting-action-for-mobile",
+  "https://pockettactics.com/monster-hunter-outlanders/preview",
+  "https://technology.inquirer.net/149587/monster-hunter-outlanders-launches-globally-on-october-29"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：3D 开放世界（第三人称动作，固定关卡式狩猎 + 无缝场景）"
+ ],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Monster Hunter Outlanders",
+  "country": "us",
+  "track_id": 6444520814,
+  "seller": "PROXIMA BETA PTE.LIMITED",
+  "genres": [
+   "Games",
+   "Action",
+   "Entertainment",
+   "Roleplaying"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/73/e0/0073e0c8-a9e4-1956-8966-f83a136ee71e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/21/e2/80/21e28030-9552-d59e-b2ed-f263a2f46af1/_U5356_U70b9_U56fe-_U4e3bKV-2778x1284-_U82f1_U6587.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/dd/c5/deddc500-16ef-941f-3587-b1822417afdb/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72481-1-2778x1284.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/02/af/9002af35-c290-6445-2e37-4616876a5902/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72482-2778x1284.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/03/4e/a5034e48-88ad-8347-e98d-ce90b2af2148/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72483-2778x1284.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/b9/43/a4b943ac-9b1b-8388-f415-1e77a808b9b9/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72484-2778x1284.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/14/ae/d814ae18-f11b-a6cc-1190-537b2cf00194/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72485-2778x1284.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/88/c8/c988c804-c113-0041-fc3b-9a69577cd9f8/_U5356_U70b9_U56fe-_U4e3bKV-2752x2064-_U82f1_U6587.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/69/e4/f769e4e0-1284-6c26-5297-60f4d8c882b8/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72481-1-2752x2064.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/24/70/a52470bf-1e6f-8b79-8b9e-94cdd3fb7edb/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72482-2752x2064.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/8c/41/f38c4172-d4d8-6bbe-92f5-a17b7556c3ae/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72483-2752x2064.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/09/21/4e0921ac-3bc2-525f-662c-08ebca8ee683/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72484-2752x2064_U00283_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/b4/df/5bb4dfe8-ae57-69bd-973b-4e4c5b27685c/mh-_U5356_U70b9_U56fe-_U82f1_U6587_U72485-2752x2064.jpg/626x1112bb.jpg"
+  ],
+  "description": "Monster Hunter Outlanders is a Monster Hunter exploration hunting action game on mobile, officially licensed by CAPCOM and developed by TiMi Studio Group. The game preserves the classic weapons and hunting experience the IP is known for, while introducing a brand-new world, original Adventurers, Buddies, and exclusive new Monsters.\n\n① Hunt & Explore in the Living Aesoland.\nA new adventure awaits on your phone! Built for mobile play, with portable controls that allow you to dive into the action instantly!\n\n② Epic Elder Dragons & Exclusive Radiant Species, Only in Monster Hunter Outlanders.\nWrapped in a dazzling radiance, the Elder Dragon Ruger Aidal descends like a blazing sun!\nShaped by the ever-changing environment, Radiant Monsters are here to bring new adventures and challenges!\n\n③ No Quest is Too Great, Team Up Anytime! \nExplore the vast field solo, or rally your friends with a single tap to form a 4-player hunting squad. No matter when or where, as long as you've got companions by your side, no monster is too fearsome to face!\n\n④ Original Adventurers & Classic Weapons,\nUnleash All-new Hunting Arts\nThere are eight classic weapon types—Great Sword, Long Sword, Dual Blades, Hammer, Lance, Charge Blade, Heavy Bowgun, and Bow. Each weapon forms a unique combination with Adventurers, preserving the core hunting experience while unlocking all-new Follow-up moves! More weapons will join the hunt in future updates.\n\n⑤ Meet New Buddies.\nPalico, Rutaco, and Trillan—three Buddies, each with their own unique personality—will join you on the hunt, adding color to your adventure through a wealth of events and happenings.\n\n⑥ Born For Mobile. \nFaithful recreations of the series' classic weapons and hunting gameplay, deeply optimized for mobile devices to deliver a smoother, more freeform experience—hunt wherever, whenever!\n\nHappy Hunting!",
+  "release_notes": "Welcome to Aesoland! Step into the boots of an intrepid Adventurer and set off with your Buddies on a journey to unravel the island's mysteries.\n\n① Hunt & Explore.\nA New Adventure Awaits on Your Phone! \n\n② Epic Elder Dragons & Exclusive Radiant Species.\nOnly in Monster Hunter Outlanders.\n\n③ No Quest is Too Great.\nTeam Up Anytime! \n\n④ Original Adventurers & Classic Weapons.\nUnleash All-New Hunting Arts! \n\n⑤ Meet New Buddies.\nHunt, Craft, and Explore Together in the Living Aesoland!\n\nHappy Hunting!",
+  "file_size_bytes": 3576903680,
+  "min_os": "15.0",
+  "version": "1.0.9",
+  "release_date": "2026-10-28",
+  "rating": 4.82111,
+  "rating_count": 2359,
+  "price": "Free",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/us/app/monster-hunter-outlanders/id6444520814?uo=4",
+  "fetched_at": "2026-11-01T12:42:32+08:00"
+ },
+ "slug": "Monster_Hunter_Outlanders_f8fea9"
+}
