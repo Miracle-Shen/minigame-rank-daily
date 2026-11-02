@@ -1,0 +1,613 @@
+{
+  "date": "2026-11-02",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "调皮木偶人",
+          "category": "休闲",
+          "category_rank": 2,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxdc9b050bf8650f93",
+          "publisher_id": 0
+        },
+        {
+          "rank": 15,
+          "name": "包塘抓鱼模拟器",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx3566e992184da8ec",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "单车骑行挑战",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州落音科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd28ef4d0fe426d8a",
+          "publisher_id": 20302603
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 7,
+          "name": "疯狂收杂物",
+          "category": "休闲",
+          "category_rank": 6,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "武安市佳游文化发展有限公司",
+          "change": "1",
+          "change_direction": "down",
+          "app_id": "wx1644b5d3f47969f0",
+          "publisher_id": 20192428
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "调皮木偶人",
+          "category": "休闲",
+          "category_rank": 2,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxdc9b050bf8650f93",
+          "publisher_id": 0
+        },
+        {
+          "rank": 15,
+          "name": "包塘抓鱼模拟器",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx3566e992184da8ec",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "天命行者",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "广州大蓝网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxbdf25cb34ce9bf6e",
+          "publisher_id": 20002317
+        },
+        {
+          "rank": 19,
+          "name": "原始征途",
+          "category": "角色",
+          "category_rank": 6,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "巨人网络集团股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxfd8da8f8efcda4a7",
+          "publisher_id": 20012407
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 18,
+          "name": "益智闯一关",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州尊悦文化发展有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx954f18dfba43ffed",
+          "publisher_id": 20012336
+        }
+      ],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "躺平发育",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊娱乐文化有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx8f54d0cf1faf013f",
+          "publisher_id": 20002386
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 7,
+          "name": "疯狂收杂物",
+          "category": "休闲",
+          "category_rank": 7,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "武安市佳游文化发展有限公司",
+          "change": "1",
+          "change_direction": "up",
+          "app_id": "wx1644b5d3f47969f0",
+          "publisher_id": 20192428
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 18,
+          "name": "益智闯一关",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州尊悦文化发展有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx954f18dfba43ffed",
+          "publisher_id": 20012336
+        }
+      ]
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 4,
+          "name": "百变魔方益智",
+          "category": "1",
+          "category_rank": 4,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海阳笙信息技术服务有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt07d9716498e19fb3",
+          "publisher_id": 20242611
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "时尚百货城",
+          "category": "模拟经营",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市爱的番茄科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt165560e88957e0f502",
+          "publisher_id": 20012425
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "百变魔方益智",
+          "category": "1",
+          "category_rank": 4,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海阳笙信息技术服务有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt07d9716498e19fb3",
+          "publisher_id": 20242611
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "手机反恐特别行动",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都疾风劲趣科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1d496bf48278820a07",
+          "publisher_id": 20052309
+        },
+        {
+          "rank": 19,
+          "name": "指尖快消",
+          "category": "寻物",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门营火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd206a4bb4d0d870102",
+          "publisher_id": 20162324
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "动脑闯万关",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州宝莉科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1cc46a7982be96e902",
+          "publisher_id": 20232337
+        },
+        {
+          "rank": 13,
+          "name": "佩皮医院过家家",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门有橘子网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9e36e88b004ccbac02",
+          "publisher_id": 20302353
+        },
+        {
+          "rank": 19,
+          "name": "星轨之上",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州百放网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcda1bb1c53d9367907",
+          "publisher_id": 20192364
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 19,
+          "name": "星轨之上",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州百放网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcda1bb1c53d9367907",
+          "publisher_id": 20192364
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "动脑闯万关",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州宝莉科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1cc46a7982be96e902",
+          "publisher_id": 20232337
+        },
+        {
+          "rank": 13,
+          "name": "佩皮医院过家家",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门有橘子网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9e36e88b004ccbac02",
+          "publisher_id": 20302353
+        },
+        {
+          "rank": 19,
+          "name": "星轨之上",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州百放网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcda1bb1c53d9367907",
+          "publisher_id": 20192364
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "饥困荒野",
+          "publisher": "腾讯",
+          "category": "沙盒",
+          "subcategory": "生存、多人联机、饥荒、冒险"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "Fortnite",
+          "publisher": "Epic Games Inc.",
+          "category": "Games",
+          "app_id": "6483539426",
+          "url": "https://apps.apple.com/us/app/fortnite/id6483539426?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/44/f2/1744f285-1b8d-7e0b-30e1-66ab74e06c5b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Play and battle with friends in Fortnite. Be the last player standing in Battle "
+        },
+        {
+          "rank": 20,
+          "name": "Word Tiles - Relaxing Puzzle",
+          "publisher": "Agave Games",
+          "category": "Games",
+          "app_id": "6783815362",
+          "url": "https://apps.apple.com/us/app/word-tiles-relaxing-puzzle/id6783815362?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/72/b2/2672b2f4-f52c-8450-5430-13a1ac2997d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Word Tiles is a relaxing word game designed for everyone!\n\nConnect the letter ti"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "燕云十六声",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "6475668638",
+          "url": "https://apps.apple.com/cn/app/%E7%87%95%E4%BA%91%E5%8D%81%E5%85%AD%E5%A3%B0/id6475668638?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/2c/ea/b12cea64-a8d6-8650-6776-5a1fdb52fbf4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《燕云十六声》首次实现了“中国特色武功”与开放世界品类的融合，玩家将在充满谜题的无缝地图中，众揽天下风光，探秘海量地宫，同时偷师百家武学，身兼十八般武器，学遍太"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 9,
+          "name": "Warline: スナイパー・ストライク",
+          "publisher": "Powerfantasy",
+          "category": "ゲーム",
+          "app_id": "6742809194",
+          "url": "https://apps.apple.com/jp/app/warline-%E3%82%B9%E3%83%8A%E3%82%A4%E3%83%91%E3%83%BC-%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id6742809194?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/5b/d6/a75bd655-da6d-12ff-3d0d-02a1bfcbd5a4/AppIcon-Global-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "シューティングとリアルタイムストラテジーが融合！エリート狙撃手かつ陸・海・空軍の最高指揮官となり、戦場を支配せよ！\n\n一撃必殺の腕で戦況をひっくり返せ\n• 逆転"
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 16,
+          "name": "Parking Loop",
+          "publisher": "Loop Games Oyun Teknolojileri Anonim Sirketi",
+          "category": "ゲーム",
+          "app_id": "6802383216",
+          "url": "https://apps.apple.com/jp/app/parking-loop/id6802383216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/75/2e/8b752e04-b2ef-0813-552d-15a7f80dd5f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Parking Loop, a satisfying puzzle game where everything needs to find"
+        }
+      ],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "Bus Traffic Fever!",
+          "publisher": "GOODROID,Inc.",
+          "category": "ゲーム",
+          "app_id": "6759763476",
+          "url": "https://apps.apple.com/jp/app/bus-traffic-fever/id6759763476?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/66/13/a96613da-a816-17ef-b4d4-538a75165ae5/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "やりごたえがありながら爽快感も味わえるパズルゲームが好きですか？\n「Bus Traffic Fever!」の世界へようこそ！\n\nBus Traffic Feve"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "Warline: スナイパー・ストライク",
+          "publisher": "Powerfantasy",
+          "category": "ゲーム",
+          "app_id": "6742809194",
+          "url": "https://apps.apple.com/jp/app/warline-%E3%82%B9%E3%83%8A%E3%82%A4%E3%83%91%E3%83%BC-%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id6742809194?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/5b/d6/a75bd655-da6d-12ff-3d0d-02a1bfcbd5a4/AppIcon-Global-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "シューティングとリアルタイムストラテジーが融合！エリート狙撃手かつ陸・海・空軍の最高指揮官となり、戦場を支配せよ！\n\n一撃必殺の腕で戦況をひっくり返せ\n• 逆転"
+        },
+        {
+          "rank": 16,
+          "name": "Parking Loop",
+          "publisher": "Loop Games Oyun Teknolojileri Anonim Sirketi",
+          "category": "ゲーム",
+          "app_id": "6802383216",
+          "url": "https://apps.apple.com/jp/app/parking-loop/id6802383216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/75/2e/8b752e04-b2ef-0813-552d-15a7f80dd5f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Parking Loop, a satisfying puzzle game where everything needs to find"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "Warline: スナイパー・ストライク",
+          "publisher": "Powerfantasy",
+          "category": "ゲーム",
+          "app_id": "6742809194",
+          "url": "https://apps.apple.com/jp/app/warline-%E3%82%B9%E3%83%8A%E3%82%A4%E3%83%91%E3%83%BC-%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id6742809194?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/5b/d6/a75bd655-da6d-12ff-3d0d-02a1bfcbd5a4/AppIcon-Global-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "シューティングとリアルタイムストラテジーが融合！エリート狙撃手かつ陸・海・空軍の最高指揮官となり、戦場を支配せよ！\n\n一撃必殺の腕で戦況をひっくり返せ\n• 逆転"
+        },
+        {
+          "rank": 16,
+          "name": "Parking Loop",
+          "publisher": "Loop Games Oyun Teknolojileri Anonim Sirketi",
+          "category": "ゲーム",
+          "app_id": "6802383216",
+          "url": "https://apps.apple.com/jp/app/parking-loop/id6802383216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/75/2e/8b752e04-b2ef-0813-552d-15a7f80dd5f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Parking Loop, a satisfying puzzle game where everything needs to find"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
