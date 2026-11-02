@@ -1,0 +1,936 @@
+{
+  "meta": {
+    "period": "10.25–11.01",
+    "week_end": "2026-11-01",
+    "baseline_date": "2026-10-25",
+    "site_url": "https://miracle-shen.github.io/minigame-rank-daily/"
+  },
+  "headline": "本周最明显的是《无尽冬日》：从第4降到第6，连续第二周下跌；另一款值得单独说的是《跃动小子》。另有 37 款新进榜。",
+  "stories": [
+    {
+      "name": "无尽冬日",
+      "type": "竞技·SLG",
+      "play": "作为镇长升级熔炉对抗严寒，分配幸存者工作（工人/猎人/厨师），颁布法典…",
+      "happened": "连续第二周下跌（2→4→6）；本周新增出现在抖音小游戏。",
+      "feedback": "",
+      "feedback_n": 0,
+      "feedback_used": [],
+      "events": [
+        "streak2",
+        "new_platform"
+      ],
+      "why": [
+        "连续两周同向变化",
+        "本周新增上榜平台",
+        "有产品档案与具体玩法"
+      ],
+      "cur_rank": 6,
+      "base_rank": 4,
+      "delta": -2
+    },
+    {
+      "name": "跃动小子",
+      "type": "休闲·益智",
+      "play": "单指滑动操控骑士横版跳跃闯关，躲避尖刺/激光/移动平台等机关",
+      "happened": "从第19升到第10（↑9 位）；本周新增出现在微信小游戏，2 个平台同时升温。",
+      "feedback": "",
+      "feedback_n": 0,
+      "feedback_used": [],
+      "events": [
+        "move5",
+        "new_platform"
+      ],
+      "why": [
+        "本周新增上榜平台",
+        "有产品档案与具体玩法"
+      ],
+      "cur_rank": 10,
+      "base_rank": 19,
+      "delta": 9
+    }
+  ],
+  "brief": "《狱国争霸》从第16升到第1、《指尖闯关大挑战》从第12降到第20，另有 52 款只是新进榜或小幅变动。",
+  "no_change": false,
+  "diagnostics": {
+    "candidates": [
+      {
+        "name": "无尽冬日",
+        "events": [
+          "streak2",
+          "new_platform"
+        ],
+        "delta": -2,
+        "cur_rank": 6,
+        "score": 11,
+        "ready": true,
+        "why": [
+          "连续两周同向变化",
+          "本周新增上榜平台",
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "跃动小子",
+        "events": [
+          "move5",
+          "new_platform"
+        ],
+        "delta": 9,
+        "cur_rank": 10,
+        "score": 10,
+        "ready": true,
+        "why": [
+          "本周新增上榜平台",
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "狱国争霸",
+        "events": [
+          "move5"
+        ],
+        "delta": 15,
+        "cur_rank": 1,
+        "score": 9,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "开心消消乐",
+        "events": [
+          "move5",
+          "streak2"
+        ],
+        "delta": -7,
+        "cur_rank": 16,
+        "score": 9,
+        "ready": true,
+        "why": [
+          "连续两周同向变化",
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "QQ经典农场",
+        "events": [
+          "move5",
+          "streak2"
+        ],
+        "delta": -5,
+        "cur_rank": 13,
+        "score": 8,
+        "ready": true,
+        "why": [
+          "连续两周同向变化",
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "开车我贼6",
+        "events": [
+          "move5",
+          "streak2"
+        ],
+        "delta": -5,
+        "cur_rank": 17,
+        "score": 8,
+        "ready": true,
+        "why": [
+          "连续两周同向变化",
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "看谁先上车",
+        "events": [
+          "move5",
+          "streak2"
+        ],
+        "delta": -5,
+        "cur_rank": 19,
+        "score": 8,
+        "ready": true,
+        "why": [
+          "连续两周同向变化",
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "我的花园世界",
+        "events": [
+          "new_platform"
+        ],
+        "delta": 0,
+        "cur_rank": 3,
+        "score": 6,
+        "ready": true,
+        "why": [
+          "本周新增上榜平台",
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "灵画师",
+        "events": [
+          "move5"
+        ],
+        "delta": -7,
+        "cur_rank": 9,
+        "score": 6,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "肥鹅美食街",
+        "events": [
+          "move5"
+        ],
+        "delta": -7,
+        "cur_rank": 10,
+        "score": 5,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "永夜起源",
+        "events": [
+          "new_platform"
+        ],
+        "delta": 1,
+        "cur_rank": 13,
+        "score": 5,
+        "ready": true,
+        "why": [
+          "本周新增上榜平台",
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "上个了车",
+        "events": [
+          "streak2"
+        ],
+        "delta": -3,
+        "cur_rank": 13,
+        "score": 5,
+        "ready": true,
+        "why": [
+          "连续两周同向变化"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "星布谷地",
+        "events": [
+          "move5"
+        ],
+        "delta": 5,
+        "cur_rank": 3,
+        "score": 4,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "解压打毛线",
+        "events": [
+          "move5"
+        ],
+        "delta": -5,
+        "cur_rank": 12,
+        "score": 4,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "蛋仔派对",
+        "events": [
+          "move5"
+        ],
+        "delta": -5,
+        "cur_rank": 18,
+        "score": 4,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "指尖闯关大挑战",
+        "events": [
+          "move5"
+        ],
+        "delta": -8,
+        "cur_rank": 20,
+        "score": 4,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "毛线通关",
+        "events": [
+          "new_top20",
+          "first_top10"
+        ],
+        "delta": null,
+        "cur_rank": 5,
+        "score": 3,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "最牛王者",
+        "events": [
+          "new_top20",
+          "first_top10"
+        ],
+        "delta": null,
+        "cur_rank": 5,
+        "score": 3,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "报告农场主",
+        "events": [
+          "move5"
+        ],
+        "delta": 7,
+        "cur_rank": 8,
+        "score": 3,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "佩皮之家",
+        "events": [
+          "new_top20",
+          "first_top10"
+        ],
+        "delta": null,
+        "cur_rank": 9,
+        "score": 3,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "勇闯千关",
+        "events": [
+          "new_top20",
+          "first_top10"
+        ],
+        "delta": null,
+        "cur_rank": 10,
+        "score": 3,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "大王请上阵",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 15,
+        "score": 3,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "超能下蛋鸭",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 15,
+        "score": 3,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "保卫向日葵",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 17,
+        "score": 3,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "天天台球",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 19,
+        "score": 3,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "四季合合",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 20,
+        "score": 3,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "偷上蛋快跑",
+        "events": [
+          "move5"
+        ],
+        "delta": -5,
+        "cur_rank": 7,
+        "score": 2,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "三界降妖录",
+        "events": [
+          "move5"
+        ],
+        "delta": -5,
+        "cur_rank": 18,
+        "score": 2,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "大侠闯天下",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 2,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "对子消消乐",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 3,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "真能整活",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 3,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "喵星联盟",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 4,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "暗影格斗传奇战场",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 5,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "疯狂收杂物",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 6,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "你好大聪明",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 6,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "青云诀之伏魔",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 7,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "眼力不俗",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 7,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "益智闯一关",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 8,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "应征入伍",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 8,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "花开时见你",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 9,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "这关超级消",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 10,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "千次初见",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 10,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "解不开啊",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 11,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "抱个蛋就溜",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 12,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "音悦节奏球",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 13,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "沙盒乐土冒险",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 13,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "武器进化+1",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 14,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "迷你像素真实世界",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 15,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "别拆我台",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 16,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "荣耀防线",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 16,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "真实滑板模拟游戏",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 17,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "佣兵小镇",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 18,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "赚钱之路",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 18,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "妖怪金手指",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 19,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "越玩越有戏",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 19,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "萌萌祖玛2",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 20,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      }
+    ],
+    "expanded": [
+      "无尽冬日",
+      "跃动小子"
+    ],
+    "compressed": [
+      "狱国争霸",
+      "开心消消乐",
+      "QQ经典农场",
+      "开车我贼6",
+      "看谁先上车",
+      "我的花园世界",
+      "灵画师",
+      "肥鹅美食街",
+      "永夜起源",
+      "上个了车",
+      "星布谷地",
+      "解压打毛线",
+      "蛋仔派对",
+      "指尖闯关大挑战",
+      "毛线通关",
+      "最牛王者",
+      "报告农场主",
+      "佩皮之家",
+      "勇闯千关",
+      "大王请上阵",
+      "超能下蛋鸭",
+      "保卫向日葵",
+      "天天台球",
+      "四季合合",
+      "偷上蛋快跑",
+      "三界降妖录",
+      "大侠闯天下",
+      "对子消消乐",
+      "真能整活",
+      "喵星联盟",
+      "暗影格斗传奇战场",
+      "疯狂收杂物",
+      "你好大聪明",
+      "青云诀之伏魔",
+      "眼力不俗",
+      "益智闯一关",
+      "应征入伍",
+      "花开时见你",
+      "这关超级消",
+      "千次初见",
+      "解不开啊",
+      "抱个蛋就溜",
+      "音悦节奏球",
+      "沙盒乐土冒险",
+      "武器进化+1",
+      "迷你像素真实世界",
+      "别拆我台",
+      "荣耀防线",
+      "真实滑板模拟游戏",
+      "佣兵小镇",
+      "赚钱之路",
+      "妖怪金手指",
+      "越玩越有戏",
+      "萌萌祖玛2"
+    ],
+    "stable_top": [
+      {
+        "platform": "wx",
+        "label": "微信",
+        "names": [
+          "羊了个羊：星球"
+        ],
+        "stable": 1,
+        "total": 3
+      },
+      {
+        "platform": "douyin",
+        "label": "抖音",
+        "names": [
+          "羊了个羊：星球"
+        ],
+        "stable": 1,
+        "total": 3
+      },
+      {
+        "platform": "taptap",
+        "label": "TapTap",
+        "names": [
+          "异人之下",
+          "白银之城"
+        ],
+        "stable": 2,
+        "total": 3
+      }
+    ],
+    "dropped_layout": [
+      "微信前三",
+      "抖音前三",
+      "全平台 TOP1（固定版式已取消）"
+    ]
+  },
+  "audit": [
+    {
+      "check": "TOP3 未变化时不重复列出",
+      "ok": true,
+      "detail": "固定版式已取消，正文无「前三」段落"
+    },
+    {
+      "check": "每期最多展开 2 款",
+      "ok": true,
+      "detail": "实际展开 2 款"
+    },
+    {
+      "check": "正文 ≤ 350 汉字",
+      "ok": true,
+      "detail": "实际 212 汉字"
+    },
+    {
+      "check": "无空泛表述",
+      "ok": true,
+      "detail": "未命中禁用词"
+    },
+    {
+      "check": "《无尽冬日》有实据可展开",
+      "ok": true,
+      "detail": "连续两周同向变化、本周新增上榜平台、有产品档案与具体玩法"
+    },
+    {
+      "check": "《跃动小子》有实据可展开",
+      "ok": true,
+      "detail": "本周新增上榜平台、有产品档案与具体玩法"
+    },
+    {
+      "check": "玩家反馈可追溯到原始评论",
+      "ok": true,
+      "detail": "本期无玩家反馈，无需追溯"
+    },
+    {
+      "check": "无评论时不写玩家态度",
+      "ok": true,
+      "detail": "全文未出现玩家态度表述"
+    },
+    {
+      "check": "只有名次数据的部分 ≤ 2 句",
+      "ok": true,
+      "detail": "实际 1 句"
+    },
+    {
+      "check": "无需提醒时只发一句话",
+      "ok": true,
+      "detail": "本周有变化，正常展开"
+    }
+  ]
+}

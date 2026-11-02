@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-01",
+  "collected_at": "2026-11-02T10:40:58+08:00",
+  "period": {
+    "week_end": "2026-11-01",
+    "baseline_date": "2026-10-25"
+  },
+  "max_age_days": 30,
+  "min_valid": 10,
+  "sources": [
+    "appstore",
+    "taptap",
+    "googleplay"
+  ],
+  "games": [
+    {
+      "name": "无尽冬日",
+      "aliases": [],
+      "matched": true,
+      "platform_ids": {
+        "wx": "wxada4175c8b2a9864"
+      },
+      "sources": [
+        {
+          "source": "appstore",
+          "platform": "ios",
+          "ok": false,
+          "fetched": 0,
+          "kept": 0,
+          "error": "无该平台 ID"
+        },
+        {
+          "source": "taptap",
+          "platform": "taptap",
+          "ok": false,
+          "fetched": 0,
+          "kept": 0,
+          "error": "无该平台 ID"
+        },
+        {
+          "source": "googleplay",
+          "platform": "android",
+          "ok": false,
+          "fetched": 0,
+          "kept": 0,
+          "error": "无该平台 ID"
+        }
+      ],
+      "reviews": [],
+      "notes": [],
+      "summary": {
+        "n": 0,
+        "enough": false,
+        "sentence": "",
+        "positive": null,
+        "negative": null,
+        "used": [],
+        "sample": []
+      }
+    },
+    {
+      "name": "跃动小子",
+      "aliases": [],
+      "matched": true,
+      "platform_ids": {
+        "wx": "wx6cce8ac2ea74103e",
+        "douyin": "tt526924d4cd552d9602"
+      },
+      "sources": [
+        {
+          "source": "appstore",
+          "platform": "ios",
+          "ok": false,
+          "fetched": 0,
+          "kept": 0,
+          "error": "无该平台 ID"
+        },
+        {
+          "source": "taptap",
+          "platform": "taptap",
+          "ok": false,
+          "fetched": 0,
+          "kept": 0,
+          "error": "无该平台 ID"
+        },
+        {
+          "source": "googleplay",
+          "platform": "android",
+          "ok": false,
+          "fetched": 0,
+          "kept": 0,
+          "error": "无该平台 ID"
+        }
+      ],
+      "reviews": [],
+      "notes": [],
+      "summary": {
+        "n": 0,
+        "enough": false,
+        "sentence": "",
+        "positive": null,
+        "negative": null,
+        "used": [],
+        "sample": []
+      }
+    }
+  ],
+  "policy": "只采本期展开的 1–2 款；只保留最近 30 天；有效评论 < 10 条不生成玩家反馈；微信/抖音无公开可验证评论来源，留空。"
+}
