@@ -1,0 +1,643 @@
+{
+  "date": "2026-11-05",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "对子乐消消",
+          "category": "休闲",
+          "category_rank": 7,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "厦门市宙火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx08ca4a979a9dba6c",
+          "publisher_id": 20012399
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "天天象棋",
+          "category": "棋牌",
+          "category_rank": 4,
+          "subcategory": "棋类",
+          "slogan": "",
+          "publisher": "深圳市腾讯天游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx9e44d62c7ab75740",
+          "publisher_id": 20002394
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "对子乐消消",
+          "category": "休闲",
+          "category_rank": 7,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "厦门市宙火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx08ca4a979a9dba6c",
+          "publisher_id": 20012399
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "永远的蔚蓝星球",
+          "category": "休闲",
+          "category_rank": 3,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "广州颂悦信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd704b6fcc8ba8e9e",
+          "publisher_id": 20192374
+        },
+        {
+          "rank": 18,
+          "name": "空格之境",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0e0531466ba56547",
+          "publisher_id": 20244673
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "对子乐消消",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "厦门市宙火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx08ca4a979a9dba6c",
+          "publisher_id": 20012399
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "对子乐消消",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "厦门市宙火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx08ca4a979a9dba6c",
+          "publisher_id": 20012399
+        }
+      ]
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 11,
+          "name": "最后亿关",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆宸启互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt78630edee605852907",
+          "publisher_id": 20262413
+        },
+        {
+          "rank": 17,
+          "name": "挑战赛合辑",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都畅游宇宙科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9c04eab90263c01a07",
+          "publisher_id": 20244681
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "别拆我台",
+          "category": "超休闲",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛汇研互娱网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb43ac2872a5eece402",
+          "publisher_id": 20302621
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 17,
+          "name": "挑战赛合辑",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都畅游宇宙科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9c04eab90263c01a07",
+          "publisher_id": 20244681
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 11,
+          "name": "最后亿关",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆宸启互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt78630edee605852907",
+          "publisher_id": 20262413
+        },
+        {
+          "rank": 17,
+          "name": "挑战赛合辑",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都畅游宇宙科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9c04eab90263c01a07",
+          "publisher_id": 20244681
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 20,
+          "name": "下方了",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳飞鱼星空科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5fb3290ec1d061c102",
+          "publisher_id": 20292340
+        }
+      ],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "永远的蔚蓝星球",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州颂悦信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttda92ac2f459a5db307",
+          "publisher_id": 20192374
+        },
+        {
+          "rank": 14,
+          "name": "四季合合",
+          "category": "合成",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt210457b9be35faff07",
+          "publisher_id": 20002380
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 20,
+          "name": "下方了",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳飞鱼星空科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5fb3290ec1d061c102",
+          "publisher_id": 20292340
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 20,
+          "name": "下方了",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳飞鱼星空科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5fb3290ec1d061c102",
+          "publisher_id": 20292340
+        }
+      ]
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "斗剑仙",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门皮卡互娱信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt936ee5d30d15af1802",
+          "publisher_id": 20302695
+        },
+        {
+          "rank": 14,
+          "name": "先锋突击队",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州市一盯科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt74c40279eabeb89702",
+          "publisher_id": 20012382
+        },
+        {
+          "rank": 17,
+          "name": "跳到底",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门做一些好玩的游戏有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttebaf9d1275cbd38907",
+          "publisher_id": 20302381
+        },
+        {
+          "rank": 19,
+          "name": "羽毛球超级巨星",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门发条鱼科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt587c2ec1c619218802",
+          "publisher_id": 20302598
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "斗剑仙",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门皮卡互娱信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt936ee5d30d15af1802",
+          "publisher_id": 20302695
+        },
+        {
+          "rank": 14,
+          "name": "先锋突击队",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州市一盯科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt74c40279eabeb89702",
+          "publisher_id": 20012382
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 0,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "斗剑仙",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门皮卡互娱信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt936ee5d30d15af1802",
+          "publisher_id": 20302695
+        },
+        {
+          "rank": 14,
+          "name": "先锋突击队",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州市一盯科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt74c40279eabeb89702",
+          "publisher_id": 20012382
+        },
+        {
+          "rank": 17,
+          "name": "跳到底",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门做一些好玩的游戏有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttebaf9d1275cbd38907",
+          "publisher_id": 20302381
+        },
+        {
+          "rank": 19,
+          "name": "羽毛球超级巨星",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门发条鱼科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt587c2ec1c619218802",
+          "publisher_id": 20302598
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 2,
+          "name": "崩坏：因缘精灵",
+          "publisher": "miHoYo",
+          "category": "冒险",
+          "subcategory": "宠物、自走棋、崩坏、策略、3D"
+        },
+        {
+          "rank": 7,
+          "name": "纵横修仙界",
+          "publisher": "极致游戏",
+          "category": "修仙",
+          "subcategory": "放置、多人联机、角色扮演、国风"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "82-0.com",
+          "publisher": "Vaulty Studios Inc.",
+          "category": "Games",
+          "app_id": "6780195090",
+          "url": "https://apps.apple.com/us/app/82-0-com/id6780195090?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/ef/12/d7ef12de-f64d-d730-6769-042fa8cb2182/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "Can you build the perfect lineup and go 82-0?\n\n82-0 is the viral basketball rost"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "OverPeak",
+          "publisher": "R Rahul",
+          "category": "游戏",
+          "app_id": "6756866602",
+          "url": "https://apps.apple.com/cn/app/overpeak/id6756866602?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/bc/42/6cbc429c-b070-2f3d-699e-eda8d693e9f7/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "OVERPEAK - RISE. DESTROY. CHOOSE.\n\nOverPeak is a chaotic open-world action game "
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "OverPeak",
+          "publisher": "R Rahul",
+          "category": "游戏",
+          "app_id": "6756866602",
+          "url": "https://apps.apple.com/cn/app/overpeak/id6756866602?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/bc/42/6cbc429c-b070-2f3d-699e-eda8d693e9f7/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "OVERPEAK - RISE. DESTROY. CHOOSE.\n\nOverPeak is a chaotic open-world action game "
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "OverPeak",
+          "publisher": "R Rahul",
+          "category": "游戏",
+          "app_id": "6756866602",
+          "url": "https://apps.apple.com/cn/app/overpeak/id6756866602?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/bc/42/6cbc429c-b070-2f3d-699e-eda8d693e9f7/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "OVERPEAK - RISE. DESTROY. CHOOSE.\n\nOverPeak is a chaotic open-world action game "
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 16,
+          "name": "Foodie Pop!",
+          "publisher": "ABI GLOBAL LTD.",
+          "category": "ゲーム",
+          "app_id": "6811006356",
+          "url": "https://apps.apple.com/jp/app/foodie-pop/id6811006356?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/5e/d2/065ed2b1-9b5a-9674-692b-e48e0c4c621f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Foodie Pop!へようこそ！ — 居心地の良い料理シミュレーションと、食材をマッチさせて料理を提供する爽快なパズルゲームがひとつになった、楽しいゲーム体験"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "リング回転 (Rotate Rings)",
+          "publisher": "Nebula Studio",
+          "category": "ゲーム",
+          "app_id": "6793924927",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AA%E3%83%B3%E3%82%B0%E5%9B%9E%E8%BB%A2-rotate-rings/id6793924927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/73/77/c0/7377c091-3e7b-1461-6711-b3db14d13ed5/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "回して、揃えて、ロック解除！『Rotate Rings』へようこそ——頭脳を研ぎ澄まし、心地よいリラックスをもたらす究極の3D空間パズルゲームです。\n複雑に組み"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 16,
+          "name": "Foodie Pop!",
+          "publisher": "ABI GLOBAL LTD.",
+          "category": "ゲーム",
+          "app_id": "6811006356",
+          "url": "https://apps.apple.com/jp/app/foodie-pop/id6811006356?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/5e/d2/065ed2b1-9b5a-9674-692b-e48e0c4c621f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Foodie Pop!へようこそ！ — 居心地の良い料理シミュレーションと、食材をマッチさせて料理を提供する爽快なパズルゲームがひとつになった、楽しいゲーム体験"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
