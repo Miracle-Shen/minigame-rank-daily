@@ -1,0 +1,615 @@
+{
+  "date": "2026-11-07",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "无尽火线",
+          "category": "休闲",
+          "category_rank": 6,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "奇迹互动（北京）科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx3f6e8ef3de16eb24",
+          "publisher_id": 20012309
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 11,
+          "name": "原始征途",
+          "category": "角色",
+          "category_rank": 2,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "巨人网络集团股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxfd8da8f8efcda4a7",
+          "publisher_id": 20012407
+        },
+        {
+          "rank": 17,
+          "name": "肥鹅美食街",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "北京豪腾创想科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd2901d992defc4a9",
+          "publisher_id": 20002337
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "看谁先上车",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "长沙四五互娱网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx641f825d5dce9ea9",
+          "publisher_id": 20152307
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 13,
+          "name": "脑洞天才挑战",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市高科齐电子有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttee0f98b27101d6fd02",
+          "publisher_id": 20242491
+        },
+        {
+          "rank": 20,
+          "name": "打球我最强",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门泰酷文化科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6dd11b6cf2e6d30307",
+          "publisher_id": 20244364
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "猛鬼宿舍",
+          "category": "塔防",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt00e576589fdceaa202",
+          "publisher_id": 20192384
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 20,
+          "name": "打球我最强",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门泰酷文化科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6dd11b6cf2e6d30307",
+          "publisher_id": 20244364
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 13,
+          "name": "脑洞天才挑战",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市高科齐电子有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttee0f98b27101d6fd02",
+          "publisher_id": 20242491
+        },
+        {
+          "rank": 20,
+          "name": "打球我最强",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门泰酷文化科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6dd11b6cf2e6d30307",
+          "publisher_id": 20244364
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "次神光之觉醒",
+          "category": "放置挂机",
+          "category_rank": 5,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京雪境科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf50b83b66a377fc402",
+          "publisher_id": 20242348
+        },
+        {
+          "rank": 11,
+          "name": "我的花园世界",
+          "category": "模拟经营",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南途趣科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcc26ba9b532f1e8202",
+          "publisher_id": 20243982
+        },
+        {
+          "rank": 15,
+          "name": "梦回甄嬛传",
+          "category": "合成",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州擎迅网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2f6959d4b113069b02",
+          "publisher_id": 20302495
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 6,
+          "name": "囤了个兵",
+          "category": "1",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市石晟科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt98aeee1306d4a32902",
+          "publisher_id": 20292377
+        },
+        {
+          "rank": 7,
+          "name": "西虹士首富",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门真嘟假嘟网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt754603fbeb20179f07",
+          "publisher_id": 20192412
+        },
+        {
+          "rank": 10,
+          "name": "通关小队长",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海流彦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf9738fce6714917102",
+          "publisher_id": 20182333
+        },
+        {
+          "rank": 13,
+          "name": "拦住来犯",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳盟趣科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc4cfb2725ab542c007",
+          "publisher_id": 20192379
+        },
+        {
+          "rank": 19,
+          "name": "无敌来消消",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州灵桃网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt4cae3a13d2d4b72c02",
+          "publisher_id": 20262392
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 11,
+          "name": "毛线通关",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都木木互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta170d7cd3f0b8fa902",
+          "publisher_id": 20002404
+        },
+        {
+          "rank": 20,
+          "name": "女神国度",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海趣侬网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt18976e2a86f1235402",
+          "publisher_id": 20242364
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "通关小队长",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海流彦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf9738fce6714917102",
+          "publisher_id": 20182333
+        }
+      ],
+      "totals": {
+        "new_to_board": 7,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 6,
+          "name": "囤了个兵",
+          "category": "1",
+          "category_rank": 6,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市石晟科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt98aeee1306d4a32902",
+          "publisher_id": 20292377
+        },
+        {
+          "rank": 7,
+          "name": "西虹士首富",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门真嘟假嘟网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt754603fbeb20179f07",
+          "publisher_id": 20192412
+        },
+        {
+          "rank": 10,
+          "name": "通关小队长",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海流彦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf9738fce6714917102",
+          "publisher_id": 20182333
+        },
+        {
+          "rank": 11,
+          "name": "毛线通关",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都木木互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta170d7cd3f0b8fa902",
+          "publisher_id": 20002404
+        },
+        {
+          "rank": 13,
+          "name": "拦住来犯",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳盟趣科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc4cfb2725ab542c007",
+          "publisher_id": 20192379
+        },
+        {
+          "rank": 19,
+          "name": "无敌来消消",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州灵桃网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt4cae3a13d2d4b72c02",
+          "publisher_id": 20262392
+        },
+        {
+          "rank": 20,
+          "name": "女神国度",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海趣侬网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt18976e2a86f1235402",
+          "publisher_id": 20242364
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "未眠野",
+          "publisher": "悦然互动",
+          "category": "开放世界",
+          "subcategory": "高自由度、角色扮演、冒险、动作、高画质"
+        },
+        {
+          "rank": 9,
+          "name": "山海奇旅",
+          "publisher": "网易游戏",
+          "category": "模拟经营",
+          "subcategory": "治愈、多人联机、建造、模拟"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 11,
+          "name": "脱出ゲーム Past Floor",
+          "publisher": "Jammsworks Inc.",
+          "category": "ゲーム",
+          "app_id": "6804630049",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-past-floor/id6804630049?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/29/f9/4529f97c-2edc-74c2-d58a-87d2e905e26f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "扉の向こうに、次の謎。\nエレベーターでフロアを巡り、部屋に隠された手がかりを探そう。\n見つけたアイテムを使い、各フロアの手がかりをつなげて脱出を目指そう。\n\n【"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "トップロード",
+          "publisher": "GAME SPARK PTE. LTD.",
+          "category": "ゲーム",
+          "app_id": "6767834940",
+          "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89/id6767834940?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/43/0f/0f430fa7-ed3c-e28e-3af1-1c8ce8d31284/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ポチポチするだけで王様になれる！\n無料ダウンロード！開けばすぐに遊べる！\n\n極悪非道のキバ帝国が、\nこの地の人々を苦しめている！\nいざ！若き領主に大変身！\n敵を"
+        },
+        {
+          "rank": 18,
+          "name": "ダックサバイバー",
+          "publisher": "Joy Net Games",
+          "category": "ゲーム",
+          "app_id": "6799009278",
+          "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%83%E3%82%AF%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6799009278?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/a3/89/61a3898f-2517-e8c1-4e9b-c92e5ff0c304/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "簡単操作で楽しめるローグライク・シューティング！\n爽快感抜群のタワーディフェンス×サバイバル！\n\n未知のゾンビウイルスが世界を覆い、人類は最後の地下中枢へと追い"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 11,
+          "name": "脱出ゲーム Past Floor",
+          "publisher": "Jammsworks Inc.",
+          "category": "ゲーム",
+          "app_id": "6804630049",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-past-floor/id6804630049?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/29/f9/4529f97c-2edc-74c2-d58a-87d2e905e26f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "扉の向こうに、次の謎。\nエレベーターでフロアを巡り、部屋に隠された手がかりを探そう。\n見つけたアイテムを使い、各フロアの手がかりをつなげて脱出を目指そう。\n\n【"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 11,
+          "name": "脱出ゲーム Past Floor",
+          "publisher": "Jammsworks Inc.",
+          "category": "ゲーム",
+          "app_id": "6804630049",
+          "url": "https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-past-floor/id6804630049?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/29/f9/4529f97c-2edc-74c2-d58a-87d2e905e26f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "扉の向こうに、次の謎。\nエレベーターでフロアを巡り、部屋に隠された手がかりを探そう。\n見つけたアイテムを使い、各フロアの手がかりをつなげて脱出を目指そう。\n\n【"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
