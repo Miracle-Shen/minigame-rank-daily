@@ -1,0 +1,854 @@
+{
+  "meta": {
+    "period": "11.01–11.08",
+    "week_end": "2026-11-08",
+    "baseline_date": "2026-11-01",
+    "site_url": "https://miracle-shen.github.io/minigame-rank-daily/"
+  },
+  "headline": "本周最明显的是《肥鹅美食街》：从第10升到第3；另一款值得单独说的是《我的花园世界》。另有 30 款新进榜。",
+  "stories": [
+    {
+      "name": "肥鹅美食街",
+      "type": "休闲·模拟经营",
+      "play": "在棋盘点击闪电资源产出食材，拖拽两个相同物品二合升级…",
+      "happened": "从第10升到第3（↑7 位）；本周新增出现在微信小游戏，2 个平台同时升温。",
+      "feedback": "最近采集的 38 条评论里，主要不满是氪金压力（6 条），正面反馈不集中。",
+      "feedback_n": 38,
+      "feedback_used": [
+        "14762564808",
+        "14762467031",
+        "14762301607",
+        "14761899652",
+        "14761775788",
+        "14760349788",
+        "14760340754",
+        "14758440967",
+        "14758195568",
+        "14757146334",
+        "14756892175",
+        "14756731866",
+        "14755611149",
+        "14755023585",
+        "14753432081",
+        "14752025327",
+        "14748694405",
+        "14748305191",
+        "14747665020",
+        "14741215435",
+        "14741050348",
+        "14740622765",
+        "14740347524",
+        "14739691617",
+        "14738934934",
+        "14738401651",
+        "14738275836",
+        "14736398927",
+        "14736028268",
+        "14734043936",
+        "14733497512",
+        "14733450319",
+        "14733178326",
+        "14732815031",
+        "14732207170",
+        "14731893790",
+        "14731791071",
+        "14729635725"
+      ],
+      "events": [
+        "move5",
+        "new_platform"
+      ],
+      "why": [
+        "有可靠近期评论",
+        "本周新增上榜平台",
+        "有产品档案与具体玩法"
+      ],
+      "cur_rank": 3,
+      "base_rank": 10,
+      "delta": 7
+    },
+    {
+      "name": "我的花园世界",
+      "type": "休闲·模拟经营",
+      "play": "培育花种→种入花田浇水→等CD收获鲜花→完成顾客/居民/宫廷订单换资源→解锁新花种与地皮…",
+      "happened": "从第3降到第15（↓12 位）。",
+      "feedback": "",
+      "feedback_n": 0,
+      "feedback_used": [],
+      "events": [
+        "move5"
+      ],
+      "why": [
+        "有产品档案与具体玩法"
+      ],
+      "cur_rank": 15,
+      "base_rank": 3,
+      "delta": -12
+    }
+  ],
+  "brief": "《眼力不俗》从第7降到第20、《狱国争霸》从第1降到第10，另有 45 款只是新进榜或小幅变动。",
+  "no_change": false,
+  "diagnostics": {
+    "candidates": [
+      {
+        "name": "肥鹅美食街",
+        "events": [
+          "move5",
+          "new_platform"
+        ],
+        "delta": 7,
+        "cur_rank": 3,
+        "score": 15,
+        "ready": true,
+        "why": [
+          "有可靠近期评论",
+          "本周新增上榜平台",
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 38
+      },
+      {
+        "name": "我的花园世界",
+        "events": [
+          "move5"
+        ],
+        "delta": -12,
+        "cur_rank": 15,
+        "score": 8,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "无尽冬日",
+        "events": [
+          "streak2"
+        ],
+        "delta": -3,
+        "cur_rank": 9,
+        "score": 7,
+        "ready": true,
+        "why": [
+          "连续两周同向变化",
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "解压闯一关",
+        "events": [
+          "streak2"
+        ],
+        "delta": -2,
+        "cur_rank": 11,
+        "score": 7,
+        "ready": true,
+        "why": [
+          "连续两周同向变化",
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "佣兵小镇",
+        "events": [
+          "move5",
+          "new_platform"
+        ],
+        "delta": 6,
+        "cur_rank": 12,
+        "score": 7,
+        "ready": true,
+        "why": [
+          "本周新增上榜平台"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "解压打毛线",
+        "events": [
+          "streak2"
+        ],
+        "delta": -2,
+        "cur_rank": 14,
+        "score": 7,
+        "ready": true,
+        "why": [
+          "连续两周同向变化",
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "灵画师",
+        "events": [
+          "move5"
+        ],
+        "delta": 7,
+        "cur_rank": 2,
+        "score": 6,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "毛线通关",
+        "events": [
+          "new_platform"
+        ],
+        "delta": -4,
+        "cur_rank": 9,
+        "score": 6,
+        "ready": true,
+        "why": [
+          "本周新增上榜平台"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "狱国争霸",
+        "events": [
+          "move5"
+        ],
+        "delta": -9,
+        "cur_rank": 10,
+        "score": 6,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "造化仙府",
+        "events": [
+          "move5"
+        ],
+        "delta": -6,
+        "cur_rank": 11,
+        "score": 6,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "偷上蛋快跑",
+        "events": [
+          "move5",
+          "streak2"
+        ],
+        "delta": -5,
+        "cur_rank": 12,
+        "score": 6,
+        "ready": true,
+        "why": [
+          "连续两周同向变化"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "眼力不俗",
+        "events": [
+          "move5"
+        ],
+        "delta": -13,
+        "cur_rank": 20,
+        "score": 6,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "不停找找找",
+        "events": [
+          "streak2"
+        ],
+        "delta": 2,
+        "cur_rank": 2,
+        "score": 5,
+        "ready": true,
+        "why": [
+          "连续两周同向变化"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "QQ经典农场",
+        "events": [
+          "move5"
+        ],
+        "delta": 6,
+        "cur_rank": 7,
+        "score": 5,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "沙盒乐土冒险",
+        "events": [
+          "move5"
+        ],
+        "delta": 8,
+        "cur_rank": 5,
+        "score": 4,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "迷你像素真实世界",
+        "events": [
+          "first_top10",
+          "move5"
+        ],
+        "delta": 5,
+        "cur_rank": 10,
+        "score": 4,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "益智闯一关",
+        "events": [
+          "move5"
+        ],
+        "delta": -8,
+        "cur_rank": 16,
+        "score": 4,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "这把直接赢",
+        "events": [
+          "new_top20",
+          "first_top10"
+        ],
+        "delta": null,
+        "cur_rank": 7,
+        "score": 3,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "拦住来犯",
+        "events": [
+          "new_top20",
+          "first_top10"
+        ],
+        "delta": null,
+        "cur_rank": 9,
+        "score": 3,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "永远的蔚蓝星球",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 11,
+        "score": 3,
+        "ready": true,
+        "why": [
+          "有产品档案与具体玩法"
+        ],
+        "reviews": 0
+      },
+      {
+        "name": "极境：垂钓者",
+        "events": [
+          "move5"
+        ],
+        "delta": -5,
+        "cur_rank": 9,
+        "score": 2,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "极速赛车向前冲",
+        "events": [
+          "move5"
+        ],
+        "delta": 5,
+        "cur_rank": 15,
+        "score": 2,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "动脑闯万关",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 2,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "崩坏：因缘精灵",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 3,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "无尽火线",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 5,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "西虹士首富",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 6,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "精灵物语",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 7,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "山海奇旅",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 7,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "糕手大作战",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 8,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "对子乐消消",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 8,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "是男人就上一百层",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 8,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "纵横修仙界",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 8,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "小苔屋",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 10,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "加油小球球",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 12,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "科目二驾考",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 12,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "吃播大挑战",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 13,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "原始征途",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 14,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "谜局里藏巧思",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 14,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "囤了个兵",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 14,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "调皮木偶人",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 15,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "逃离球池",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 15,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "跳到底",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 16,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "次神光之觉醒",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 17,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "像素方块生存",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 17,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "脑洞天才挑战",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 18,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "这关超解压",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 18,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "消沙子",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 19,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "烈焰觉醒",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 19,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      },
+      {
+        "name": "造字英雄",
+        "events": [
+          "new_top20"
+        ],
+        "delta": null,
+        "cur_rank": 19,
+        "score": 1,
+        "ready": false,
+        "why": [],
+        "reviews": 0
+      }
+    ],
+    "expanded": [
+      "肥鹅美食街",
+      "我的花园世界"
+    ],
+    "compressed": [
+      "无尽冬日",
+      "解压闯一关",
+      "佣兵小镇",
+      "解压打毛线",
+      "灵画师",
+      "毛线通关",
+      "狱国争霸",
+      "造化仙府",
+      "偷上蛋快跑",
+      "眼力不俗",
+      "不停找找找",
+      "QQ经典农场",
+      "沙盒乐土冒险",
+      "迷你像素真实世界",
+      "益智闯一关",
+      "这把直接赢",
+      "拦住来犯",
+      "永远的蔚蓝星球",
+      "极境：垂钓者",
+      "极速赛车向前冲",
+      "动脑闯万关",
+      "崩坏：因缘精灵",
+      "无尽火线",
+      "西虹士首富",
+      "精灵物语",
+      "山海奇旅",
+      "糕手大作战",
+      "对子乐消消",
+      "是男人就上一百层",
+      "纵横修仙界",
+      "小苔屋",
+      "加油小球球",
+      "科目二驾考",
+      "吃播大挑战",
+      "原始征途",
+      "谜局里藏巧思",
+      "囤了个兵",
+      "调皮木偶人",
+      "逃离球池",
+      "跳到底",
+      "次神光之觉醒",
+      "像素方块生存",
+      "脑洞天才挑战",
+      "这关超解压",
+      "消沙子",
+      "烈焰觉醒",
+      "造字英雄"
+    ],
+    "stable_top": [
+      {
+        "platform": "wx",
+        "label": "微信",
+        "names": [
+          "羊了个羊：星球"
+        ],
+        "stable": 1,
+        "total": 3
+      },
+      {
+        "platform": "douyin",
+        "label": "抖音",
+        "names": [
+          "羊了个羊：星球"
+        ],
+        "stable": 1,
+        "total": 3
+      },
+      {
+        "platform": "taptap",
+        "label": "TapTap",
+        "names": [],
+        "stable": 0,
+        "total": 3
+      }
+    ],
+    "dropped_layout": [
+      "微信前三",
+      "抖音前三",
+      "全平台 TOP1（固定版式已取消）"
+    ]
+  },
+  "audit": [
+    {
+      "check": "TOP3 未变化时不重复列出",
+      "ok": true,
+      "detail": "固定版式已取消，正文无「前三」段落"
+    },
+    {
+      "check": "每期最多展开 2 款",
+      "ok": true,
+      "detail": "实际展开 2 款"
+    },
+    {
+      "check": "正文 ≤ 350 汉字",
+      "ok": true,
+      "detail": "实际 234 汉字"
+    },
+    {
+      "check": "无空泛表述",
+      "ok": true,
+      "detail": "未命中禁用词"
+    },
+    {
+      "check": "《肥鹅美食街》有实据可展开",
+      "ok": true,
+      "detail": "有可靠近期评论、本周新增上榜平台、有产品档案与具体玩法"
+    },
+    {
+      "check": "《我的花园世界》有实据可展开",
+      "ok": true,
+      "detail": "有产品档案与具体玩法"
+    },
+    {
+      "check": "玩家反馈可追溯到原始评论",
+      "ok": true,
+      "detail": "每段反馈都带评论 ID"
+    },
+    {
+      "check": "只有名次数据的部分 ≤ 2 句",
+      "ok": true,
+      "detail": "实际 1 句"
+    },
+    {
+      "check": "无需提醒时只发一句话",
+      "ok": true,
+      "detail": "本周有变化，正常展开"
+    }
+  ]
+}
