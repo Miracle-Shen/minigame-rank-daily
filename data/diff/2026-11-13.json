@@ -1,0 +1,745 @@
+{
+  "date": "2026-11-13",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 19,
+          "name": "整理师竞争",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "武汉昀路安洋信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxf286f92ac16ca6aa",
+          "publisher_id": 20152337
+        }
+      ],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "浪漫餐厅",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "北京柠檬微趣科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx087d98a0884bbe3b",
+          "publisher_id": 20012364
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 19,
+          "name": "整理师竞争",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "武汉昀路安洋信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxf286f92ac16ca6aa",
+          "publisher_id": 20152337
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "仙剑奇侠传：新的开始",
+          "category": "角色",
+          "category_rank": 4,
+          "subcategory": "回合",
+          "slogan": "",
+          "publisher": "恺英网络股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0cd893c62f356b3e",
+          "publisher_id": 20002306
+        },
+        {
+          "rank": 20,
+          "name": "空格之境",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0e0531466ba56547",
+          "publisher_id": 20244673
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "切开一切3D",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxb560805440cd6156",
+          "publisher_id": 20002390
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "我就是传说",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf0de86636ea53ef407",
+          "publisher_id": 20242355
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "难不倒你吧",
+          "category": "消除",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "一克科技（广州）有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9dd9eb6402d3792a02",
+          "publisher_id": 20012310
+        },
+        {
+          "rank": 19,
+          "name": "猛鬼宿舍",
+          "category": "塔防",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt00e576589fdceaa202",
+          "publisher_id": 20192384
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "我就是传说",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf0de86636ea53ef407",
+          "publisher_id": 20242355
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 11,
+          "name": "次神光之觉醒",
+          "category": "放置挂机",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京雪境科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf50b83b66a377fc402",
+          "publisher_id": 20242348
+        },
+        {
+          "rank": 18,
+          "name": "跃动小子",
+          "category": "回合战斗",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "柏项网络科技（上海）有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt526924d4cd552d9602",
+          "publisher_id": 20012413
+        },
+        {
+          "rank": 19,
+          "name": "空格之境",
+          "category": "合成",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt96a6e01b08c553f502",
+          "publisher_id": 20244673
+        },
+        {
+          "rank": 20,
+          "name": "我的花园世界",
+          "category": "模拟经营",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南途趣科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcc26ba9b532f1e8202",
+          "publisher_id": 20243982
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 3,
+          "name": "怪物合成进化",
+          "category": "1",
+          "category_rank": 3,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门冰柠科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd53ba3864b5ecf0407",
+          "publisher_id": 20232325
+        },
+        {
+          "rank": 9,
+          "name": "单挑排球",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉爱物极物科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc0aab6175ed19bce02",
+          "publisher_id": 20302718
+        },
+        {
+          "rank": 10,
+          "name": "来过一关吧",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉手盟网络科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt617f17c2ff05c3e207",
+          "publisher_id": 20192343
+        },
+        {
+          "rank": 11,
+          "name": "龙胆破军",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州游伦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt0b3c7d819545e6fa02",
+          "publisher_id": 20243567
+        },
+        {
+          "rank": 13,
+          "name": "一秒都别错过",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙趣玩时代网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8a65fcd81401a21f02",
+          "publisher_id": 20302489
+        },
+        {
+          "rank": 14,
+          "name": "大脑宕机中",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙趣玩时代网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttbc17caaa226c572502",
+          "publisher_id": 20302489
+        },
+        {
+          "rank": 16,
+          "name": "解压宝藏乐园",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市小橙网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tteda19b1c73da67c002",
+          "publisher_id": 20192506
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 4,
+          "name": "无尽火线",
+          "category": "1",
+          "category_rank": 4,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京星乐天空科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcd47bbfa5327dcd402",
+          "publisher_id": 20302717
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 4,
+          "name": "无尽火线",
+          "category": "1",
+          "category_rank": 4,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京星乐天空科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcd47bbfa5327dcd402",
+          "publisher_id": 20302717
+        },
+        {
+          "rank": 9,
+          "name": "单挑排球",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉爱物极物科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc0aab6175ed19bce02",
+          "publisher_id": 20302718
+        },
+        {
+          "rank": 10,
+          "name": "来过一关吧",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉手盟网络科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt617f17c2ff05c3e207",
+          "publisher_id": 20192343
+        }
+      ],
+      "totals": {
+        "new_to_board": 8,
+        "returning": 0,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "怪物合成进化",
+          "category": "1",
+          "category_rank": 3,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门冰柠科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd53ba3864b5ecf0407",
+          "publisher_id": 20232325
+        },
+        {
+          "rank": 4,
+          "name": "无尽火线",
+          "category": "1",
+          "category_rank": 4,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京星乐天空科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcd47bbfa5327dcd402",
+          "publisher_id": 20302717
+        },
+        {
+          "rank": 9,
+          "name": "单挑排球",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉爱物极物科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc0aab6175ed19bce02",
+          "publisher_id": 20302718
+        },
+        {
+          "rank": 10,
+          "name": "来过一关吧",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉手盟网络科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt617f17c2ff05c3e207",
+          "publisher_id": 20192343
+        },
+        {
+          "rank": 11,
+          "name": "龙胆破军",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州游伦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt0b3c7d819545e6fa02",
+          "publisher_id": 20243567
+        },
+        {
+          "rank": 13,
+          "name": "一秒都别错过",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙趣玩时代网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8a65fcd81401a21f02",
+          "publisher_id": 20302489
+        },
+        {
+          "rank": 14,
+          "name": "大脑宕机中",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙趣玩时代网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttbc17caaa226c572502",
+          "publisher_id": 20302489
+        },
+        {
+          "rank": 16,
+          "name": "解压宝藏乐园",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市小橙网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tteda19b1c73da67c002",
+          "publisher_id": 20192506
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "深渊之歌",
+          "publisher": "淘气泡游戏",
+          "category": "二次元",
+          "subcategory": "模拟经营、建造、生存、冒险、卡牌、角色扮演"
+        },
+        {
+          "rank": 9,
+          "name": "无限大",
+          "publisher": "网易游戏",
+          "category": "开放世界",
+          "subcategory": "角色扮演、高自由度、都市、二次元、动作、高画质、3D"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 8,
+          "name": "Transformers: Eternal War",
+          "publisher": "HOOLAI GAME LIMITED",
+          "category": "Games",
+          "app_id": "6772922295",
+          "url": "https://apps.apple.com/us/app/transformers-eternal-war/id6772922295?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/4f/c5/204fc5b5-682c-eba9-6fd1-617b8f7d581b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Autobots and Decepticons stand united against the Chaos Legion! Experience an al"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "Rotate Rings",
+          "publisher": "Nebula Studio",
+          "category": "Games",
+          "app_id": "6793924927",
+          "url": "https://apps.apple.com/us/app/rotate-rings/id6793924927?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/73/77/c0/7377c091-3e7b-1461-6711-b3db14d13ed5/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "Spin, align, and unlock! Welcome to Rotate Rings — the ultimate spatial logic pu"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 8,
+          "name": "Transformers: Eternal War",
+          "publisher": "HOOLAI GAME LIMITED",
+          "category": "Games",
+          "app_id": "6772922295",
+          "url": "https://apps.apple.com/us/app/transformers-eternal-war/id6772922295?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/4f/c5/204fc5b5-682c-eba9-6fd1-617b8f7d581b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Autobots and Decepticons stand united against the Chaos Legion! Experience an al"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 8,
+          "name": "Transformers: Eternal War",
+          "publisher": "HOOLAI GAME LIMITED",
+          "category": "Games",
+          "app_id": "6772922295",
+          "url": "https://apps.apple.com/us/app/transformers-eternal-war/id6772922295?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/4f/c5/204fc5b5-682c-eba9-6fd1-617b8f7d581b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Autobots and Decepticons stand united against the Chaos Legion! Experience an al"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "火影忍者",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "955396648",
+          "url": "https://apps.apple.com/cn/app/%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85/id955396648?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/da/84/f2da845c-6a58-a983-28fa-4b3501f58380/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "火影忍者-疾风传登场，百忍集结，强力降临\n【游戏介绍】\n《火影忍者》手游100%正统还原原著剧情，全新疾风传篇章登场，十年百忍强力降临，玩家可以任意扮演鸣人、佐"
+        },
+        {
+          "rank": 19,
+          "name": "贪吃蛇大作战®",
+          "publisher": "Wuhan Weipai Network Technology Co., Ltd.",
+          "category": "游戏",
+          "app_id": "1120536875",
+          "url": "https://apps.apple.com/cn/app/%E8%B4%AA%E5%90%83%E8%9B%87%E5%A4%A7%E4%BD%9C%E6%88%98/id1120536875?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/14/fa/0214fa4f-294e-f85f-7103-f251795bbd69/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "slogan": "这是一款超好玩的休闲竞技游戏，不仅比拼手速，更考验你的策略！在贪吃蛇大作战的世界中，每个人在初始都化身为一条小蛇，通过不断努力变得越来越长，最终制霸一方！\n\n游"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "Cutie Sort - ねこソート かわいい色分けゲーム",
+          "publisher": "Ladaneta Games",
+          "category": "ゲーム",
+          "app_id": "6796547048",
+          "url": "https://apps.apple.com/jp/app/cutie-sort-%E3%81%AD%E3%81%93%E3%82%BD%E3%83%BC%E3%83%88-%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E8%89%B2%E5%88%86%E3%81%91%E3%82%B2%E3%83%BC%E3%83%A0/id6796547048?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/24/e4/9c24e4c7-f45e-0b48-e902-79a48fcb2b31/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "ようこそ！『Cutie Sort』は、パズル好きのために作られた純粋なロジック脳トレゲームです。空間認識とリラックスできる脳トレが完璧に融合しています。焦らせる"
+        },
+        {
+          "rank": 10,
+          "name": "UnGodly アンゴッドリー",
+          "publisher": "Azra Games",
+          "category": "ゲーム",
+          "app_id": "6740617332",
+          "url": "https://apps.apple.com/jp/app/ungodly-%E3%82%A2%E3%83%B3%E3%82%B4%E3%83%83%E3%83%89%E3%83%AA%E3%83%BC/id6740617332?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/d2/16/ebd2164d-de1d-5190-e503-ef6b9dc41fb9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Nethermawが王国全土に腐敗を広げている。虚空を押し返せるのは、トラウマによって鍛えられ、元素の力と結びついた英雄、Primalsだけだ。\n\nUnGodl"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "UnGodly アンゴッドリー",
+          "publisher": "Azra Games",
+          "category": "ゲーム",
+          "app_id": "6740617332",
+          "url": "https://apps.apple.com/jp/app/ungodly-%E3%82%A2%E3%83%B3%E3%82%B4%E3%83%83%E3%83%89%E3%83%AA%E3%83%BC/id6740617332?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/d2/16/ebd2164d-de1d-5190-e503-ef6b9dc41fb9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Nethermawが王国全土に腐敗を広げている。虚空を押し返せるのは、トラウマによって鍛えられ、元素の力と結びついた英雄、Primalsだけだ。\n\nUnGodl"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "Cutie Sort - ねこソート かわいい色分けゲーム",
+          "publisher": "Ladaneta Games",
+          "category": "ゲーム",
+          "app_id": "6796547048",
+          "url": "https://apps.apple.com/jp/app/cutie-sort-%E3%81%AD%E3%81%93%E3%82%BD%E3%83%BC%E3%83%88-%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E8%89%B2%E5%88%86%E3%81%91%E3%82%B2%E3%83%BC%E3%83%A0/id6796547048?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/24/e4/9c24e4c7-f45e-0b48-e902-79a48fcb2b31/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "ようこそ！『Cutie Sort』は、パズル好きのために作られた純粋なロジック脳トレゲームです。空間認識とリラックスできる脳トレが完璧に融合しています。焦らせる"
+        },
+        {
+          "rank": 10,
+          "name": "UnGodly アンゴッドリー",
+          "publisher": "Azra Games",
+          "category": "ゲーム",
+          "app_id": "6740617332",
+          "url": "https://apps.apple.com/jp/app/ungodly-%E3%82%A2%E3%83%B3%E3%82%B4%E3%83%83%E3%83%89%E3%83%AA%E3%83%BC/id6740617332?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/d2/16/ebd2164d-de1d-5190-e503-ef6b9dc41fb9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Nethermawが王国全土に腐敗を広げている。虚空を押し返せるのは、トラウマによって鍛えられ、元素の力と結びついた英雄、Primalsだけだ。\n\nUnGodl"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
