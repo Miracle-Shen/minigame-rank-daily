@@ -1,0 +1,223 @@
+{
+ "batch": 17,
+ "total_batches": 17,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_17.json",
+ "games": [
+  {
+   "name": "BLEACH Mirrors High【ミラハイ】",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 2
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Bandai Namco Entertainment Inc.",
+   "first_seen": "2026-10-28",
+   "appearances": 5,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "BLEACH Mirrors High",
+    "country": "us",
+    "track_id": 6758332966,
+    "seller": "Bandai Namco Entertainment Inc.",
+    "genres": [
+     "Games",
+     "Roleplaying",
+     "Entertainment",
+     "Action"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/b1/15/c1b115d9-f48c-2ed2-24db-196de528bca6/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/81/ff/7a81ff53-7810-972b-8227-7e803fd2e941/01-_U30ea_U30ea_U30fc_U30b9_U66421_U679a_U76ee_1284x2778_00s_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/26/50/ef265028-6863-1366-97d4-d353ec235ce8/02-2604001_BMH_NAN_N_AA_Scr-LimitBreak-01_i00_1284x2778_00s_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/99/b1/cf99b1ed-247d-396a-c0bf-82d494a45fea/03-2604001_BMH_NAN_N_AA_Scr-LimitBreak-02_i00_1284x2778_00s_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/55/7f/ee557f18-dd82-b1fe-08cc-e614fbdd8c19/04-2604001_BMH_NAN_N_AA_Scr-LimitBreak-03_i01_1284x2778_00s_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/b6/d7/a5b6d773-17a4-4590-deac-786e150ecea9/05-2604001_BMH_NAN_N_AA_Scr-LimitBreak-04_i00_1284x2778_00s_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/b9/7e/e9b97e52-5872-b383-2a69-dce967ddf57f/06-2604001_BMH_NAN_N_AA_Scr-LimitBreak-05_i00_1284x2778_00s_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/ab/24/1bab24ad-7495-0e91-8b0e-31571503f710/01-_U30ea_U30ea_U30fc_U30b9_U66421_U679a_U76ee_2064x2752_00s_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/6a/bd/b86abdb7-6045-35a1-09e3-4d40054dd089/02-2604001_BMH_NAN_N_AA_Scr-LimitBreak-01_i00_2064x2752_00s_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/53/e4/c753e41b-6f61-550a-1cf9-4245acb77487/03-2604001_BMH_NAN_N_AA_Scr-LimitBreak-02_i00_2064x2752_00s_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2b/d3/a0/2bd3a012-8922-01cf-6459-05212a41e574/04-2604001_BMH_NAN_N_AA_Scr-LimitBreak-03_i01_2064x2752_00s_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/98/21/6d982171-79ff-bafd-8760-81265f4b7d25/05-2604001_BMH_NAN_N_AA_Scr-LimitBreak-04_i00_2064x2752_00s_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/61/06/61610645-705d-a120-0dee-65dc7c47b1c2/06-2604001_BMH_NAN_N_AA_Scr-LimitBreak-05_i00_2064x2752_00s_EN.png/626x1112bb.jpg"
+    ],
+    "description": "Dive into BLEACH Mirrors High, an officially licensed game created in close collaboration with BLEACH creator Tite Kubo. Experience a brand new storyline set after the Thousand-Year Blood War. Meet a fresh cast of characters exclusively designed by the legendary mangaka, and stand alongside favorites like Ichigo Kurosaki and Rukia Kuchiki, with in-game character voices from the original Japanese anime cast. \n\nTake your place as the protagonist, begin your journey as a Soul Reaper, and step into battle to experience the story as the Soul Reaper you've always wanted to be!\n\nFORGE YOUR UNIQUE SOUL REAPER\nThrough deep avatar customization, you have the power to create your own character:\n〉Choose your appearance and style.\n〉Shape your Zanpakutō.\n〉Make the character truly yours.\n\nSTYLISH & TACTICAL COMBAT\nDive into stylish battles unique to BLEACH, where lightning-fast action meets tactical strategy.\n\n► Command Your Team: Lead a squad of three characters into battle.\n► Combine Attack Cards: Mix and match cards to create a wide range of combat possibilities.\n► Activate SOUL DRIVE: Execute explosive combo attacks to completely change the course of battle.\n\nKey Features:\n- Official Collaboration: Fully licensed with close ties to Tite Kubo.\n- Original Story: A new chapter in the wake of the Thousand-Year Blood War.\n- Designed Characters by Tite Kubo: All new characters are designed by the original mangaka.\n- Deep Customization: Complete freedom over your avatar, Zanpakutō, and style.\n- 3-Character Card Combat: Tactical 3v3 team battles utilizing attack cards and \"SOUL DRIVE\" combos.\n\n■ About [Premium Pass]\nThe [Premium Pass] is a monthly subscription product available for \"5.99USD per month\" that allows you to unlock and enjoy additional features.\n\n■ Payment, Duration, and Renewal\nPayment for this service will be linked to your Apple ID and will occur immediately upon purchase.\nUnless you cancel this service at least 24 hours before the end of the effective period, the effective period will be automatically renewed.\nAutomatic renewal will take place within 24 hours prior to the end of the effective period, and usage fees will be incurred with each renewal.\n\n■ Cancellation\nCancellation of this service must be performed at least 24 hours before the end of the effective period.\nYou can cancel by following these steps:\nOn your iPhone, go to \"Settings\" ⇒ \"Apple ID, iCloud, Media & Purchases\" ⇒ Tap \"Subscriptions\".\nFrom the subscription management screen, select the plan you wish to cancel.\nExecute cancellation by tapping \"Cancel Subscription\".\nPlease note that deleting the app does not cancel this service.\nEven after cancellation, you can continue to enjoy this service until the end of its effective period.\n\n■ Other Important Notes\nProblems may occur with the processing required to use this service, so please do not interrupt the app while the purchase process (communication) for this service is underway.\n\nBandai Namco Entertainment Inc. Website:\nhttps://bandainamcoent.co.jp/english/\n\nBy downloading or installing this app, you agree to the Bandai Namco Entertainment Terms of Service.\n\nTerms of Service:\nhttps://legal.bandainamcoent.co.jp/terms/\nPrivacy Policy:\nhttps://legal.bandainamcoent.co.jp/privacy/\n\nNote:\nThis game contains some items available for in-app purchase that can enhance gameplay and speed up your progress. In-app purchases can be disabled in your device settings,  see https://support.apple.com/en-us/HT201304 for more details.\n\nThis application is distributed under the official rights from the license holder.",
+    "release_notes": "【Ver.1.0.2】\nBug fixes in-game.",
+    "file_size_bytes": 398887936,
+    "min_os": "17.0",
+    "version": "1.0.2",
+    "release_date": "2026-10-27",
+    "rating": 4.87864,
+    "rating_count": 7169,
+    "price": "Free",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/us/app/bleach-mirrors-high/id6758332966?uo=4",
+    "fetched_at": "2026-11-01T12:43:01+08:00"
+   }
+  },
+  {
+   "name": "Bus Fever Party: バスゲーム渋滞脱出パズル",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 8
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Lumi Games",
+   "first_seen": "2026-10-14",
+   "appearances": 19,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 0.938,
+    "match_name": "Bus Fever Party!",
+    "country": "us",
+    "track_id": 6746743297,
+    "seller": "Faith Mobile Limited",
+    "genres": [
+     "Games",
+     "Puzzle",
+     "Casual"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/01/88/210188d3-eb83-2adb-ce54-3d843c9f9f3a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c9/c2/3c/c9c23c3a-0bee-6e18-883a-0f22b655feb4/_U753b_U677f_1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/b3/94/efb394f3-01b4-6bb0-05dc-994044ef9298/_U753b_U677f_2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/a1/80/69a18048-f881-ff8b-7a4f-d2097350f246/_U753b_U677f_3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/db/a4/e6dba4b4-4b14-339d-0a03-271804db6abf/_U753b_U677f_4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/e4/c9/13e4c9dd-105e-100b-6a93-0c5b4df082ef/_U753b_U677f_5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5c/cd/63/5ccd6368-bf89-7aed-3489-96cb48abf068/_U753b_U677f_1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/b2/c1/f9b2c1e3-c76d-bcce-58d8-166c412d3824/_U753b_U677f_2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/dd/91/70dd91aa-e09c-bbbc-a45d-cde8d91c4bfc/_U753b_U677f_3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/70/4c/69704cb7-cd30-66f7-337e-df2d9b7dd80c/_U753b_U677f_4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/c1/be/cfc1be63-8eea-417b-c594-c9695dd28ee6/_U753b_U677f_5.png/626x1112bb.jpg"
+    ],
+    "description": "Get ready for a thrilling bus escape game adventure!\nTackle the challenging traffic jams, escape tricky parking spots, and master every level in this addictive bus escape traffic jam puzzle. Can you sort, match, and park every bus to clear the road and become the city's bus fever driving master?\n\nHow to Play\n• Tap and move buses to open up space in your bus fever adventure.\n• Match passengers to the right buses by colors.\n• Efficiently park each bus, avoid obstacles, and keep traffic flowing.\n\nUse your brainpower to solve unique bus escape puzzles that combine logic, strategy, and fun!\n\nGame Features:\n• Fun and engaging bus game with loads of traffic jam puzzles.\n• Hundreds of bus fever puzzles to challenge your mind.\n• Addictive parking, sorting and matching gameplay—easy to play, tough to master.\n• Exciting boosters help you clear traffic jam and escape faster.\n• Bright visuals and satisfying bus fever mechanics.\n• Play offline anytime, anywhere—your exciting bus fever traffic jam puzzle adventure goes with you!\n\nWhether you're a fan of classic bus games, love solving traffic jams, or seek special bus escape challenges, this puzzle has it all. Sharpen your skills sorting, matching, and parking to become the ultimate traffic jam master!\n\nDownload now and see if you can solve every bus jam, escape every parking trap, and match your way to bus fever success!\n\nCustomer Service Contact Tel: +86-17812725345\nEmail: lumigamesteam@outlook.com\nPrivacy Policy: https://sites.google.com/view/ios-pp-lumigame/\nEnd User License Agreement: https://sites.google.com/view/eula-of-faithmobilelimited/",
+    "release_notes": "1.Bug fixes \n2.performance improvements",
+    "file_size_bytes": 481611776,
+    "min_os": "15.0",
+    "version": "1.3.4",
+    "release_date": "2025-06-13",
+    "rating": 4.68213,
+    "rating_count": 22997,
+    "price": "Free",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/us/app/bus-fever-party/id6746743297?uo=4",
+    "fetched_at": "2026-11-01T12:43:04+08:00"
+   }
+  },
+  {
+   "name": "偷上蛋快跑",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 7
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "广州游点时光科技信息有限公司",
+   "first_seen": "2026-10-23",
+   "appearances": 10,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-01T12:42:46+08:00"
+   }
+  },
+  {
+   "name": "大侠闯天下",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 2
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "广州龙霆网络有限公司",
+   "first_seen": "2026-07-06",
+   "appearances": 47,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "大侠闯天下",
+    "country": "cn",
+    "track_id": 6767081763,
+    "seller": "Hainan Longqing Game Technology Co., Ltd.",
+    "genres": [
+     "游戏",
+     "角色扮演"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/88/68/5b886867-309e-d02b-a65b-0dfa2a725cac/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e1/f6/08/e1f6089a-2443-a276-424f-639bfd5fe2ce/_U4e3b_U56fe.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/fd/c3/52fdc3dd-f87b-d07a-51e6-d3c93e635a87/1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/2d/c9/522dc996-0b46-64d5-c68b-4f959bd80897/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/f8/8d/3af88d21-fc92-6fee-7c5a-aca5d249a977/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/20/d6/9120d659-d194-16a9-64eb-1b28291a731b/4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/48/0c/a8480cbd-f196-a440-5713-8917c872fa7c/5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/f6/63/23f66377-c3ec-f70e-a1eb-0a2eb9e5f7a6/6.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/fb/e3/3efbe305-f0c9-7af4-21fd-51faed61236c/_U4e3b_U56fe.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/35/16/2a3516e6-5e8c-b825-ba75-8973445fac88/1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/80/16/2180164d-d6c9-2502-cab6-6678ef58b9be/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/6f/79/146f795d-a680-e861-ec6c-bb6de7372803/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/af/9e/c4af9ec9-ce69-3bb6-18a2-319a872d5a54/4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/e3/33/e5e3333a-708a-4810-6247-d9d263dd8291/5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/76/58/b2765883-71f0-f9c8-6205-2f30ed93daca/6.jpg/626x1112bb.jpg"
+    ],
+    "description": "《大侠闯天下》是一款武侠题材 × 无限流副本的休闲策略养成手游。\n\n你将扮演一位被“万界系统”选中的武人，穿梭于中国历代经典事件与异界副本之中，完成系统下达的生死任务——保护不该死的人，改变不该输的仗，镇守不该破的关。\n任务失败？抹杀。任务成功？变强，然后进入下一个更疯狂的副本。\n\n这不是江湖恩怨，这是万界博弈。\n「永远在开盲盒般的副本，永远有新的活法」\n\n副本随机抽取，生死一局定：\n每次进入副本，你都不知道会抽到玄武门、蜀汉北伐、明末山海关，还是生化危机、蒸汽朋克、校园怪谈。系统会给出主任务、支线任务和隐藏结局——完成得越漂亮，奖励越离谱。\n\n抉择即命运，上瘾就在于“再开一局”：\n副本中你会不断面临三选一、随机事件、隐藏线索：\n救下这个NPC 可能触发额外任务，但也可能浪费主力输出；赌一手高阶秘籍，可能起飞，也可能暴毙。\n每一次不同选择，都会走向截然不同的结局——输了想复盘，赢了想挑战更高难度，这就是无限流的毒。\n\n◆武学养成，自由构筑◆\n- 九大武学流派（攻速、暴击、群攻、血牛、控制……）\n- 72种武功秘籍（可升星、可羁绊组合）\n- 47个可招募的侠客（每场至多上阵3人，流派搭配）\n- 超多装备、法宝（多元化养成提升你的战力）\n\n每次进入副本，你需要根据任务目标，肉鸽随机自选武功，搭配羁绊。\n想走“金刚不坏”的血牛刮痧流、“无限火力”的攻速流，还是“一刀99999”的暴击流，任你选择。\n\n◆跨服竞技 ，好友助战◆\n- 竞技系统：用你培养的武人与其他玩家对战，超多副本规则。\n- 帮派系统：加入门派，共享资源，挑战帮派专属副本。\n- 好友助战：借用好友的满星侠客通关高难副本。\n\n玩法多样化，多种PVP、PVE玩法，擂台斗法，华山论剑、排位赛、好友帮派等。",
+    "release_notes": "游戏稳定性更新优化",
+    "file_size_bytes": 170179584,
+    "min_os": "13.0",
+    "version": "1.1.2",
+    "release_date": "2026-08-24",
+    "rating": 4.66612,
+    "rating_count": 7332,
+    "price": "免费",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/cn/app/%E5%A4%A7%E4%BE%A0%E9%97%AF%E5%A4%A9%E4%B8%8B/id6767081763?uo=4",
+    "fetched_at": "2026-11-01T12:58:02+08:00"
+   }
+  }
+ ]
+}

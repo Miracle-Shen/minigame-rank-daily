@@ -1,0 +1,311 @@
+{
+ "schema_version": 1,
+ "name": "异人之下",
+ "updated_at": "2026-11-03",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "腾讯",
+  "category_l1": "高画质",
+  "category_l2": "格斗、动作",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 1
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-07-06",
+  "appearances": 60,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "赛璐璐（cel）渲染的动漫风，电影级分镜与光影",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 5,
+   "physics": 4,
+   "logic": 5,
+   "data": 4,
+   "server": 4,
+   "audio": 5
+  },
+  "dim_notes": {
+   "engine": "自研战斗框架 + 帧数据 + 网络同步，引擎原生的能力在这类项目里只占很小一块，其余都要自己搭",
+   "art": "包体 3.69GB：全角色 3D 模型、多套场景、电影级过场，属于典型的长线内容资产，5 分",
+   "anim": "骨骼动作、连段衔接、受击与击飞演出、过场动画全套，是这款产品最贵的一项，5 分",
+   "physics": "3D 空间位移、浮空与受身判定、防反与强制脱身的帧窗口，手感调优是专项投入",
+   "logic": "招式帧数据 + 猜拳克制 + 5 点体力资源 + 3V3 车轮出场策略 + PVE 独立技能模组，复杂度顶格",
+   "server": "实时 1v1 与 3v3 对战同步、中途换人、公平竞技无属性加成，对同步精度要求高",
+   "audio": "全定制配乐 + 动画原班声优配音，且已确认将重新加入杜比全景声模块，5 分",
+   "data": "PVP 无属性平衡，养成只服务 PVE 与外观，比常规卡牌轻，但独立技能模组仍需逐角色配数值"
+  },
+  "asset_notes": "3.69GB 的资源量级里绝大部分是 3D 角色、场景与过场动画；配音沿用动画原班声优，属于无法用小游戏预算覆盖的投入",
+  "notes": "腾讯魔方工作室群自研，改编自国漫《一人之下》，定档 2026 年 12 月全平台。TapTap 预约榜连续 60 天第 1，属预约期产品，非在运营的休闲小游戏",
+  "cost_score": 4.5,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "选三名异人进 3V3 车轮战，普攻、平招、险招对防御、闪避形成循环克制；靠读对手起手色光做判断，赢下的角色继续留场并回血，5 点体力决定能不能强制脱身。",
+  "highlights": [
+   "红、蓝、白三色起手提示把「读招」变成明确信号，新手也能靠看颜色做对判断",
+   "5 点体力才能发动强制脱身，进攻与留后路每次都要选，博弈从操作转到当下判断",
+   "完美闪避后接派生攻击，操作上限留给老手，下限不劝退新手",
+   "3V3 车轮战的出场顺序本身就是一层策略，类似田忌赛马",
+   "赛璐璐渲染配电影化运镜，过场即动画，原著名场面 1:1 重现"
+  ],
+  "innovations": [
+   "把传统格斗的搓招换成「一键技能 + 猜拳克制 + 体力资源」，胜负从操作精度转向当下判断",
+   "「身外身」作为独立战术技能，带类似霸体的反制效果，形成第二层博弈",
+   "PVP 与 PVE 各一套独立技能模组，剧情战与对战的招式互不将就"
+  ],
+  "target_user": "18-35 岁动作与格斗游戏用户，以及《一人之下》原著粉",
+  "monetization": "以外观付费为主，角色可通过任务与签到免费获取，PVP 无属性加成；预约期以礼包抽奖拉预约",
+  "lifecycle": "长线运营，2026 年 12 月公测，靠赛季、新异人与剧情章节续命"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "3.69GB 包体、四年研发、原版声优与电影级演出，是重资本加强 IP 的组合。格斗手感与实时同步是这类项目最难的部分，2-3 人小组在合理周期内做不出可比的手感。且 IP 与发行都在腾讯体系内，外部复刻没有合法路径。",
+  "suggestions": [
+   "只借「猜拳克制 + 体力资源」的对抗模型，做成一局 90 秒的轻竞技活动，不做 3D 与连段",
+   "把三色起手提示做成 UI 层的「读招」小游戏，用卡牌或图标替代 3D 角色",
+   "若做节奏类联动，复用其防反窗口的判定思路，改写为节拍判定"
+  ],
+  "risks": [
+   "IP 授权在腾讯体系内，外部复刻存在明确的版权风险",
+   "格斗手感与实时同步是高门槛工程，投入不足会做出「卡顿的假格斗」",
+   "3.7GB 量级的美术与配音成本无法用小游戏预算覆盖"
+  ],
+  "effort": "不建议立项；仅借对抗模型做最小验证约 30–45 人日（2 前端 + 1 策划）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "用户买单的是 IP 与演出：TapTap 预约榜连续 60 天第 1、预约量级 3000 万，支撑它的是原著角色与电影级过场，不是那套猜拳规则本身"
+    },
+    {
+     "lens": "用户",
+     "text": "用户被原作锁在角色与剧情上，把对抗模型搬到别处，玩家不会为一个没有冯宝宝的格斗买单"
+    },
+    {
+     "lens": "业务",
+     "text": "壁垒是重资本：3.69GB 资源、四年研发、原版声优加杜比全景声，任何一项都不是活动位预算能覆盖的量级"
+    },
+    {
+     "lens": "业务",
+     "text": "与常规产品线冲突：接入等于自建一条格斗品类，需要独立的战斗、同步与平衡团队，会把产品带偏"
+    }
+   ],
+   "how": [
+    "只取「三色起手提示 + 猜拳克制」这一层，做成 90 秒一局的轻对抗活动，用现有 2D 素材替代 3D 角色，两周内可验证",
+    "把「完美闪避后派生」的判定窗口当参数基准，接到自有节奏或点击类玩法做手感校准，A/B 看连击率"
+   ],
+   "gain": [
+    "规避数亿元级的 3D 与配音投入，以及一轮 IP 授权谈判",
+    "拿走一套「低操作门槛的博弈框架」设计方法，可复用到任何轻竞技活动，不必自研格斗",
+    "明确不碰 3D 格斗，省掉团队反复论证「要不要做重度品类」的时间",
+    "以它的演出标准作为内部剧情向物料的质量参照尺，用来定自家过场的下限"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "自研自发，IP 与发行都在腾讯体系内，2026 年 12 月全平台上线，不存在对外代理或联运空间",
+    "唯一能谈的是集团内跨工作室的素材与技术协作，需走内部流程，不是外部商务能推进的"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "音乐 App 粉丝应援战",
+     "how": "把 3V3 车轮战换成三首歌曲接力打榜，体力值改成每日应援次数，克制关系改成曲风互斥"
+    }
+   ]
+  },
+  "summary": "重资本 IP 格斗，只能借博弈框架，不值得搬"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/91/3f/03913fa3-d5a3-d173-20d4-d4c372a19e76/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/3a/81/423a81a5-b812-3e67-e038-17dafb95c675/20260126152426-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-83529b01bd64279af6e9f1978c1e7c57c9b1062a-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/c3/db/4bc3db46-a1fb-eccb-5497-ac2e3545ccec/20260126152433-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-3631c8b7536d76963019e8ae4ca8e489488852ec-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/7a/4c/cf7a4cf9-4dc9-0ad7-403e-91e545054036/20260126152440-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-3b5c79b53e71bae80a155eacdd2b1b12fe27e65e-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/29/3f/8d293fab-c334-9035-2901-8030328ba5e4/20260126152446-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-f4452c4da2d45b6c7cc3b41d92a0fe46ca0f3b3a-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/8d/3b/688d3bf5-55c1-0a4e-6b43-b012c3f24cb7/20260126152452-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-209e00a73de5464f7684881bdd8336f5099f5934-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0d/55/69/0d5569e5-9b15-30d6-5ddc-f02dace18e4e/20260126152501-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-c7465a9c26d3d6445b91514af90f20ab6f403245-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/04/f8/f704f8b0-53a8-071a-1561-713b7e6255bb/20260126152507-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-05faf0a6375ffb9b585914cd4c6f28583a0e2708-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/30/4e/13304e2b-e906-4d6e-0b2a-996ecacb0b36/_U5934_U56fe2732x2048.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7c/b9/f8/7cb9f842-4ce7-7a48-555e-46de80e011c3/_U5546_U5e97_U516d_U56fe__U00281_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/09/e2/4b09e2f6-9f23-ad76-316c-fcbed39a97d1/_U5546_U5e97_U516d_U56fe__U00282_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/3f/ea/2e3fea3a-c796-e2eb-9c2a-fbdb19b5ac9a/_U5546_U5e97_U516d_U56fe__U00283_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/09/e8/ce09e8ff-5e1d-775d-82c0-2edf9abd1829/_U5546_U5e97_U516d_U56fe__U00284_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/10/15/891015da-cb3e-da0f-7120-97155db4db49/_U5546_U5e97_U516d_U56fe__U00285_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/88/a5/ab88a55e-257e-8c8e-357b-ebfa3f2705d5/_U5546_U5e97_U516d_U56fe__U00286_U0029.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "App Store 官方素材命中：包体 3,689,498,624 字节、14 张实机截图、发行商 Shenzhen Tencent Tianyou Technology Ltd",
+   "level": "confirmed"
+  },
+  {
+   "claim": "腾讯魔方工作室群研发，改编自国漫《一人之下》，定档 2026 年 12 月全平台上线，预约量级 3000 万",
+   "level": "confirmed"
+  },
+  {
+   "claim": "战斗为「普攻/平招/险招」对「防御/闪避/强制脱身」的循环克制，角色 5 点体力可发动强制脱身，PVP 为 3V3 车轮战并支持中途换人",
+   "level": "confirmed"
+  },
+  {
+   "claim": "PVE 与 PVP 使用两套独立技能模组，PVP 无属性平衡，付费集中在外观",
+   "level": "confirmed"
+  },
+  {
+   "claim": "画面为赛璐璐渲染 + 电影化分镜，音频团队称后续将重新加入杜比全景声模块",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断为 Unity（3D 格斗 + 赛璐璐渲染的常见选择，未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E5%BC%82%E4%BA%BA%E4%B9%8B%E4%B8%8B/id6754126913?uo=4",
+  "http://yirenzhixia.qq.com/",
+  "https://news.qq.com/rain/a/20251203A08C4S00"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "异人之下",
+  "country": "cn",
+  "track_id": 6754126913,
+  "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+  "genres": [
+   "游戏",
+   "动作"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/91/3f/03913fa3-d5a3-d173-20d4-d4c372a19e76/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/3a/81/423a81a5-b812-3e67-e038-17dafb95c675/20260126152426-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-83529b01bd64279af6e9f1978c1e7c57c9b1062a-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/c3/db/4bc3db46-a1fb-eccb-5497-ac2e3545ccec/20260126152433-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-3631c8b7536d76963019e8ae4ca8e489488852ec-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/7a/4c/cf7a4cf9-4dc9-0ad7-403e-91e545054036/20260126152440-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-3b5c79b53e71bae80a155eacdd2b1b12fe27e65e-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/29/3f/8d293fab-c334-9035-2901-8030328ba5e4/20260126152446-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-f4452c4da2d45b6c7cc3b41d92a0fe46ca0f3b3a-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/8d/3b/688d3bf5-55c1-0a4e-6b43-b012c3f24cb7/20260126152452-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-209e00a73de5464f7684881bdd8336f5099f5934-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0d/55/69/0d5569e5-9b15-30d6-5ddc-f02dace18e4e/20260126152501-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-c7465a9c26d3d6445b91514af90f20ab6f403245-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/04/f8/f704f8b0-53a8-071a-1561-713b7e6255bb/20260126152507-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-05faf0a6375ffb9b585914cd4c6f28583a0e2708-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/30/4e/13304e2b-e906-4d6e-0b2a-996ecacb0b36/_U5934_U56fe2732x2048.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7c/b9/f8/7cb9f842-4ce7-7a48-555e-46de80e011c3/_U5546_U5e97_U516d_U56fe__U00281_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/09/e2/4b09e2f6-9f23-ad76-316c-fcbed39a97d1/_U5546_U5e97_U516d_U56fe__U00282_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/3f/ea/2e3fea3a-c796-e2eb-9c2a-fbdb19b5ac9a/_U5546_U5e97_U516d_U56fe__U00283_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/09/e8/ce09e8ff-5e1d-775d-82c0-2edf9abd1829/_U5546_U5e97_U516d_U56fe__U00284_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/10/15/891015da-cb3e-da0f-7120-97155db4db49/_U5546_U5e97_U516d_U56fe__U00285_U0029.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/88/a5/ab88a55e-257e-8c8e-357b-ebfa3f2705d5/_U5546_U5e97_U516d_U56fe__U00286_U0029.jpg/626x1112bb.jpg"
+  ],
+  "description": ">>纯粹极致的3D格斗竞技体验\n>>以武术道法与民间术数为根源的招式技能\n>>沉浸式的剧情体验、全网独家的角色故事\n\n异人之下游戏是由腾讯魔方工作室群研发的3D格斗竞技新游，改编自现象级国漫IP《一人之下》。游戏以原著国漫故事为背景，将中国传统武学中变幻无穷的“动”，和传统哲学思想中的“静”相结合，打造出一款传统武学与文化相映生辉的中式格斗竞技游戏。\n\n\n—— · 极致的3D格斗体验 · ——\n更灵活的博弈机制，更多样的连段策略，\n更高的容错空间，更立体的格斗乐趣。\n\n你可以操作异人与其他玩家一试高下，感受纯粹格斗竞技的魅力！\n你可以凭借高超的格斗技巧见招拆招，让对手毫无还手之力。\n也可以通过身外身技能的组合配置出其不意，以奇致胜。\n还可以调整作战小队的出战策略，来一场“田忌赛马”！\n从无数值的PVP对战，到PVE剧情挑战，每一场战斗都会为你带来截然不同的动作体验。\n\n\n—— · 传承道术拳法的技能体系 · ——\n从身若游龙的游身八卦掌、到崩山撼岳的八极拳，   \n从周旋自如的双头蛇镖、到腾空扫射的连发火器，\n从呼雷驭电的奇门道法、到阴诡神秘的民间术数，\n千年武脉文化孕育出的锋芒，化为异人的一招一式，\n于天下会武的擂台之上交锋，\n不为决生死，只为分高下。\n\n\n—— · 沉浸式的剧情体验，全网独家的角色故事 · ——\n八奇技重现江湖，异人界风起云涌，\n甲申真相扑朔迷离，而一切皆藏于街巷之中。\n但藏于市井凡尘中的，可远不止于此——\n\n王也的燕都秘闻，陆玲珑与挚友间的羁绊故事,\n张灵玉下山后的几番纠葛，张楚岚与冯宝宝的身世谜题……\n异人之下游戏将通过电影级的运镜和细腻的叙事手法，\n将异人们那些众所周知或不为人知的故事，一一呈现在你面前。\n\n\n\n\n—— · 更多资讯请关注我们 · ——\n异人之下游戏官方网站：https://yirenzhixia.qq.com/\n异人之下游戏官网微信：异人之下游戏\n异人之下游戏官方微博：异人之下游戏\n异人之下游戏官方社区：异人之下游戏微信小程序\n异人之游戏B站动态：https://space.bilibili.com/3546572434442975",
+  "release_notes": "",
+  "file_size_bytes": 3689498624,
+  "min_os": "15.0",
+  "version": "1.0.0",
+  "release_date": "2026-12-31",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E5%BC%82%E4%BA%BA%E4%B9%8B%E4%B8%8B/id6754126913?uo=4",
+  "fetched_at": "2026-11-01T12:42:27+08:00"
+ },
+ "slug": "异人之下_4529d9"
+}

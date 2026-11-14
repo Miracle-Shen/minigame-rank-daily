@@ -1,0 +1,285 @@
+{
+ "schema_version": 1,
+ "name": "Bus Fever Party: バスゲーム渋滞脱出パズル",
+ "updated_at": "2026-11-14",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Lumi Games",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 8
+  },
+  "platform_app_ids": {
+   "ios": "6746743297"
+  },
+  "first_seen": "2026-10-14",
+  "appearances": 19,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "低模 3D 卡通，糖果色车辆与圆头乘客，纯色地面 + 轻投影，正交俯视",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "玩法是网格 + 方向约束 + 颜色匹配，现成 3D 小游戏模板改配置就能跑，不需要自研能力",
+   "art": "一套车辆与乘客的低模 + 统一 UI 皮肤即可支撑 200 多关，包体 481MB（iOS）/ 237MB（Android）主要是模型与关卡资源，复用率极高",
+   "anim": "车辆按箭头驶出、乘客上车、车位开锁都是位移 + 缩放 Tween，无骨骼无复杂粒子",
+   "physics": "完全没有物理模拟，车能不能动只看箭头方向与前方格子是否空，是纯逻辑判定",
+   "logic": "难点全在关卡设计：200+ 关的临时车位数量、颜色分布、解锁顺序要逐关调，是这款产品真正的资产",
+   "data": "只有金币、道具、关卡进度三层，无养成无长线数值，是典型超休闲结构",
+   "server": "可完全离线游玩，服务端只承担活动配置与排行榜，成本极低",
+   "audio": "通用音效包 + 单条 BGM，无配音无定制配乐"
+  },
+  "asset_notes": "3D 低模资产量不大但关卡数多；同一套车辆/乘客模型撑起 220 关，美术是一次性投入。若自研，用程序化拼装的车辆与色块乘客即可，AI 生图只用在图标与商店素材上",
+  "notes": "与 iOS 版「Bus Fever Party!」（seller: Faith Mobile Limited，Android 包名 gridplus.busjam.carpuzzle，发行标 Lumi Games）为同一产品，日区以本名上架。玩法谱系来自 Rollic《Bus Jam》一系的车辆拥堵/排序品类",
+  "cost_score": 2.38,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "停车场里每辆车只能朝箭头方向开出去，玩家把挡路的车一辆辆挪开，让巴士驶到同色乘客队列前接人；接满即开走，清空所有乘客过关，临时车位不够或顺序错了就靠道具续命。",
+  "highlights": [
+   "「挪对一辆 → 一串跟着松动」的连锁释放，一个正确顺序能连开三四辆，是这款产品最直接的爽点",
+   "乘客颜色与车辆颜色一一对应，解法靠眼睛就能读出来，全程不需要文字教学",
+   "临时车位只有几个，用错顺序会把局面锁死，「再想一步」的紧张感天然驱动看广告加车位",
+   "车辆驶出时的加速与音效，把每个小决策都变成一次即时正反馈"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟「车辆拥堵 / 排序」品类的执行优化：把箭头方向约束和颜色配对叠在同一张网格里",
+   "用「有限临时车位」而不是步数做资源约束，让失败原因变得可复盘，比步数制更少挫败"
+  ],
+  "target_user": "25-55 岁泛休闲用户，通勤与睡前场景，日区中老年占比不低",
+  "monetization": "重度 IAA：道具、加车位、跳关全部挂激励视频，另有高频插屏；Google Play 评论里「15 关之后不看广告过不去」是最集中的抱怨，属于刻意把卡点前移的设计",
+  "lifecycle": "长线买量型，靠持续加关卡与限时活动（如 Maple Bus Escape Challenge）维持，单关卡内容消耗很快"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "玩法是已被反复验证的成熟模板，无 IP、无重资产，核心代码是网格寻路 + 方向约束 + 颜色匹配，一个前端两周能出可玩版。瓶颈不在技术，而在题材包装与前 20 关的难度曲线；原题材在买量市场已经很挤，换题材是唯一有效的差异化。",
+  "suggestions": [
+   "题材换成「机场行李转盘」：行李按颜色分到对应航班，转盘格位就是临时车位，天然有场景感",
+   "换成「火锅店传菜」：不同颜色餐盘送对应桌号，传菜通道单向通行，把箭头约束变成动线约束",
+   "把「必须看广告才能过」的卡点从第 15 关后移到第 30 关，先给一段顺滑体验再上难度，直接对冲它评分里最集中的差评原因"
+  ],
+  "risks": [
+   "车辆拥堵 / 排序品类已被 Bus Jam、Parking Jam 等头部占满，同类买量单价被抬高",
+   "重度 IAA 会同时压低评分与留存，本作 4.4 分里有大量一星在骂广告，抄它的节奏会连带抄到它的口碑问题",
+   "关卡设计才是核心资产，玩法能抄、难度曲线抄不了，前 20 关没调好会直接死在首日"
+  ],
+  "effort": "20–30 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "可复用",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "「挪开挡路的车」是零教学动作，规则一句话说得完；本作 Google Play 1000 万+ 下载、6.3 万条评价 4.4 分，说明这套约束在泛用户里确实成立"
+    },
+    {
+     "lens": "用户",
+     "text": "单关 30-60 秒、失败可立刻重来，碎片场景下决策成本极低；但原作的强插屏会打断这个节奏，我们该保留节奏、砍掉打断"
+    },
+    {
+     "lens": "业务",
+     "text": "「颜色配对 + 顺序解锁」全在逻辑层，不依赖任何 IP 与美术资产，可以整块挂进活动位做每日一关，改动面很小"
+    },
+    {
+     "lens": "业务",
+     "text": "关卡一旦生成器化，内容产能就是调参数，能把「每日新关」的运营成本压到接近零 —— 这正是现在最缺的低成本日活钩子"
+    }
+   ],
+   "how": [
+    "把「网格 + 箭头方向 + 颜色配对 + 有限临时位」抽成关卡引擎，先做 30 关放进现有产品活动页，一周内看参与率与次日回访",
+    "用它做一次广告位对照实验：只在「加车位 / 撤销一步」两处放激励视频、其余全砍，A/B 比完播率与 D3 留存"
+   ],
+   "gain": [
+    "拿到一套参数化关卡生成器，之后每个赛季换皮即出新内容，内容边际成本趋零",
+    "校准出「卡点该多晚出现」的经验值，可直接用在自有休闲线上，省掉一轮难度实验",
+    "用一次干净对照验证「低打断 IAA」是否比强插屏更赚，为整体广告位策略定调",
+    "补齐一个不占主玩法排期的每日回访钩子"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "研发发行都在 Lumi Games / Faith Mobile Limited 手里（包名 gridplus 系列，双商店自研自发），不做代理",
+    "唯一可谈的是关卡引擎授权，但这类模板没有壁垒，自己写更快"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "仓配分拣培训",
+     "how": "把「巴士接同色乘客」改成「货车接同色订单」，临时车位换成月台，做成分拣员的顺序训练小游戏"
+    },
+    {
+     "scene": "连锁咖啡早高峰",
+     "how": "箭头方向改成取餐动线，把「清空排队乘客」做成门店高峰动线优化的演示页"
+    }
+   ]
+  },
+  "summary": "成熟排序模板可整块搬，做活动位与关卡产能"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/01/88/210188d3-eb83-2adb-ce54-3d843c9f9f3a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c9/c2/3c/c9c23c3a-0bee-6e18-883a-0f22b655feb4/_U753b_U677f_1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/b3/94/efb394f3-01b4-6bb0-05dc-994044ef9298/_U753b_U677f_2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/a1/80/69a18048-f881-ff8b-7a4f-d2097350f246/_U753b_U677f_3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/db/a4/e6dba4b4-4b14-339d-0a03-271804db6abf/_U753b_U677f_4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/e4/c9/13e4c9dd-105e-100b-6a93-0c5b4df082ef/_U753b_U677f_5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5c/cd/63/5ccd6368-bf89-7aed-3489-96cb48abf068/_U753b_U677f_1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/b2/c1/f9b2c1e3-c76d-bcce-58d8-166c412d3824/_U753b_U677f_2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/dd/91/70dd91aa-e09c-bbbc-a45d-cde8d91c4bfc/_U753b_U677f_3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/70/4c/69704cb7-cd30-66f7-337e-df2d9b7dd80c/_U753b_U677f_4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/c1/be/cfc1be63-8eea-417b-c594-c9695dd28ee6/_U753b_U677f_5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "iOS 包体 481,611,776 字节，评分 4.68 / 22997 条，某第三方榜单站记录其为 App Store 免费游戏榜第 10",
+   "level": "confirmed"
+  },
+  {
+   "claim": "Google Play 1000 万+ 下载、4.4 分 / 6.3 万条评价，包名 gridplus.busjam.carpuzzle",
+   "level": "confirmed"
+  },
+  {
+   "claim": "日区榜名为「Bus Fever Party: バスゲーム渋滞脱出パズル」，与 iOS 版 Bus Fever Party! 为同一产品",
+   "level": "confirmed"
+  },
+  {
+   "claim": "玩家评论集中抱怨「15 关后不看广告过不去」，属重度 IAA 设计",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（无官方说明，按 3D 低模 + 跨端一致表现推断）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/bus-fever-party/id6746743297",
+  "https://play.google.com/store/apps/details?id=gridplus.busjam.carpuzzle",
+  "https://gamedropdaily.com/mobile/bus-fever-party/",
+  "https://www.malavida.com/en/soft/bus-fever-party/android"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 0.938,
+  "match_name": "Bus Fever Party!",
+  "country": "us",
+  "track_id": 6746743297,
+  "seller": "Faith Mobile Limited",
+  "genres": [
+   "Games",
+   "Puzzle",
+   "Casual"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/01/88/210188d3-eb83-2adb-ce54-3d843c9f9f3a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c9/c2/3c/c9c23c3a-0bee-6e18-883a-0f22b655feb4/_U753b_U677f_1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/b3/94/efb394f3-01b4-6bb0-05dc-994044ef9298/_U753b_U677f_2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/a1/80/69a18048-f881-ff8b-7a4f-d2097350f246/_U753b_U677f_3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/db/a4/e6dba4b4-4b14-339d-0a03-271804db6abf/_U753b_U677f_4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/e4/c9/13e4c9dd-105e-100b-6a93-0c5b4df082ef/_U753b_U677f_5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5c/cd/63/5ccd6368-bf89-7aed-3489-96cb48abf068/_U753b_U677f_1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/b2/c1/f9b2c1e3-c76d-bcce-58d8-166c412d3824/_U753b_U677f_2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/dd/91/70dd91aa-e09c-bbbc-a45d-cde8d91c4bfc/_U753b_U677f_3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/70/4c/69704cb7-cd30-66f7-337e-df2d9b7dd80c/_U753b_U677f_4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/c1/be/cfc1be63-8eea-417b-c594-c9695dd28ee6/_U753b_U677f_5.png/626x1112bb.jpg"
+  ],
+  "description": "Get ready for a thrilling bus escape game adventure!\nTackle the challenging traffic jams, escape tricky parking spots, and master every level in this addictive bus escape traffic jam puzzle. Can you sort, match, and park every bus to clear the road and become the city's bus fever driving master?\n\nHow to Play\n• Tap and move buses to open up space in your bus fever adventure.\n• Match passengers to the right buses by colors.\n• Efficiently park each bus, avoid obstacles, and keep traffic flowing.\n\nUse your brainpower to solve unique bus escape puzzles that combine logic, strategy, and fun!\n\nGame Features:\n• Fun and engaging bus game with loads of traffic jam puzzles.\n• Hundreds of bus fever puzzles to challenge your mind.\n• Addictive parking, sorting and matching gameplay—easy to play, tough to master.\n• Exciting boosters help you clear traffic jam and escape faster.\n• Bright visuals and satisfying bus fever mechanics.\n• Play offline anytime, anywhere—your exciting bus fever traffic jam puzzle adventure goes with you!\n\nWhether you're a fan of classic bus games, love solving traffic jams, or seek special bus escape challenges, this puzzle has it all. Sharpen your skills sorting, matching, and parking to become the ultimate traffic jam master!\n\nDownload now and see if you can solve every bus jam, escape every parking trap, and match your way to bus fever success!\n\nCustomer Service Contact Tel: +86-17812725345\nEmail: lumigamesteam@outlook.com\nPrivacy Policy: https://sites.google.com/view/ios-pp-lumigame/\nEnd User License Agreement: https://sites.google.com/view/eula-of-faithmobilelimited/",
+  "release_notes": "1.Bug fixes \n2.performance improvements",
+  "file_size_bytes": 481611776,
+  "min_os": "15.0",
+  "version": "1.3.4",
+  "release_date": "2025-06-13",
+  "rating": 4.68213,
+  "rating_count": 22997,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/bus-fever-party/id6746743297?uo=4",
+  "fetched_at": "2026-11-01T12:43:04+08:00"
+ },
+ "slug": "Bus_Fever_Party_バスゲーム渋滞脱出パズル_d9f111"
+}

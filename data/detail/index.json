@@ -1,13 +1,13 @@
 {
- "updated_at": "2026-11-01T13:04:08+08:00",
- "total": 254,
- "collected": 188,
- "with_biz": 188,
+ "updated_at": "2026-11-14T12:14:09+08:00",
+ "total": 252,
+ "collected": 196,
+ "with_biz": 196,
  "games": {
   "[777Real]緑ドン VIVA!情熱南米編": {
    "name": "[777Real]緑ドン VIVA!情熱南米編",
    "slug": "777Real_緑ドン_VIVA_情熱南米編_ecb9aa",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.25,
@@ -31,7 +31,7 @@
   "82-0.com": {
    "name": "82-0.com",
    "slug": "82_0_com_31cdb6",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/21/d3/5321d312-e22f-b6d6-dcfd-6ec69789b1db/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
    "cost_level": "极低",
    "cost_score": 1.75,
@@ -55,7 +55,7 @@
   "Amaze GO!": {
    "name": "Amaze GO!",
    "slug": "Amaze_GO_fa4c36",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/44/99/cd44999c-426a-8f72-c34d-5bba07cc3be5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "极低",
    "cost_score": 1.75,
@@ -79,7 +79,7 @@
   "ArrowCube - 3DPuzzle": {
    "name": "ArrowCube - 3DPuzzle",
    "slug": "ArrowCube_3DPuzzle_d0c16e",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/36/b5/a936b56a-c7d9-5038-594d-88cae4ca768a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.5,
@@ -100,10 +100,34 @@
    "has_biz": true,
    "collected": true
   },
+  "BLEACH Mirrors High【ミラハイ】": {
+   "name": "BLEACH Mirrors High【ミラハイ】",
+   "slug": "BLEACH_Mirrors_High_ミラハイ_95c645",
+   "updated_at": "2026-11-14",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/b1/15/c1b115d9-f48c-2ed2-24db-196de528bca6/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/512x512bb.jpg",
+   "cost_level": "极高",
+   "cost_score": 4.62,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "不建议",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "best_rank": 2,
+   "has_shots": true,
+   "shot_count": 13,
+   "play_brief": "组三人小队进关卡，战斗中按节奏打出攻击卡触发连招，攒满槽位放 SOUL DRIVE 扭转战局；一局 30 秒到 2 分钟，打赢推进千年血战后的原创剧情，用掉落与抽卡补角色、拉战力，再打更难的关。",
+   "biz_internal": "不建议搬",
+   "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
   "Block Blast!": {
    "name": "Block Blast!",
    "slug": "Block_Blast_df1a6e",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "极低",
    "cost_score": 1.62,
@@ -127,7 +151,7 @@
   "ブロックブラスト (Block Blast)": {
    "name": "ブロックブラスト (Block Blast)",
    "slug": "ブロックブラスト_Block_Blast_f5a0da",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/2e/54/1c2e54e4-d594-21f8-892b-7de4754a0949/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.12,
@@ -151,7 +175,7 @@
   "Block Craft 3D:Building Game": {
    "name": "Block Craft 3D:Building Game",
    "slug": "Block_Craft_3D_Building_Game_fe5788",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/da/80/e6da80a1-ccf2-a7cc-e301-7049467d42bd/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.5,
@@ -175,7 +199,7 @@
   "Block Crush!": {
    "name": "Block Crush!",
    "slug": "Block_Crush_4cb855",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/6f/2b/b36f2b4a-21eb-6371-7124-d4e2b707b2ee/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.12,
@@ -199,7 +223,7 @@
   "Block Out! - Color Sort Puzzle": {
    "name": "Block Out! - Color Sort Puzzle",
    "slug": "Block_Out_Color_Sort_Puzzle_1d84a4",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/b0/2d/1fb02d35-d751-2a0e-dd59-0e9b3580924d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.12,
@@ -224,7 +248,7 @@
   "Bus Fever Party!": {
    "name": "Bus Fever Party!",
    "slug": "Bus_Fever_Party_72e650",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/20/4a/88204a17-8942-3a71-df34-96dfc698e48d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 2.75,
@@ -246,10 +270,34 @@
    "has_biz": true,
    "collected": true
   },
+  "Bus Fever Party: バスゲーム渋滞脱出パズル": {
+   "name": "Bus Fever Party: バスゲーム渋滞脱出パズル",
+   "slug": "Bus_Fever_Party_バスゲーム渋滞脱出パズル_d9f111",
+   "updated_at": "2026-11-14",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/01/88/210188d3-eb83-2adb-ce54-3d843c9f9f3a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "换肤",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "best_rank": 2,
+   "has_shots": true,
+   "shot_count": 11,
+   "play_brief": "停车场里每辆车只能朝箭头方向开出去，玩家把挡路的车一辆辆挪开，让巴士驶到同色乘客队列前接人；接满即开走，清空所有乘客过关，临时车位不够或顺序错了就靠道具续命。",
+   "biz_internal": "可复用",
+   "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
   "Bus Traffic Fever!": {
    "name": "Bus Traffic Fever!",
    "slug": "Bus_Traffic_Fever_46f705",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/08/c3/1b08c380-77f7-cb9e-a7ab-c815348d09d8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.12,
@@ -274,7 +322,7 @@
   "Candy Crush Saga": {
    "name": "Candy Crush Saga",
    "slug": "Candy_Crush_Saga_d277fc",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/de/33/8fde33a2-a5d3-ee30-cc04-36ec1ed1ef91/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.5,
@@ -298,7 +346,7 @@
   "Car Evolve": {
    "name": "Car Evolve",
    "slug": "Car_Evolve_b5fefd",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/fd/2a/f1fd2a75-d77c-2e0a-18d5-f56f2d0633f8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.25,
@@ -322,7 +370,7 @@
   "Colony Flow!": {
    "name": "Colony Flow!",
    "slug": "Colony_Flow_0265b2",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/f3/b2/f5f3b2df-fe85-cd62-53da-9ca8546b56d6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 2.62,
@@ -347,7 +395,7 @@
   "Colorever: Gem Art Puzzle": {
    "name": "Colorever: Gem Art Puzzle",
    "slug": "Colorever_Gem_Art_Puzzle_c939ea",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/f1/e3/2bf1e381-80b3-121c-8fa4-bb535555b615/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.12,
@@ -371,7 +419,7 @@
   "CubeAway - 3DPuzzle": {
    "name": "CubeAway - 3DPuzzle",
    "slug": "CubeAway_3DPuzzle_58f094",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/99/d2/7e99d217-5a1c-489d-3af1-a53427fb4cb8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.38,
@@ -395,7 +443,7 @@
   "Cube Land Puzzle Game": {
    "name": "Cube Land Puzzle Game",
    "slug": "Cube_Land_Puzzle_Game_5e0d11",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/47/f8/d847f8d8-9b32-27f1-54bd-2dca7100908f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.38,
@@ -419,7 +467,7 @@
   "EA College Football Mobile 27": {
    "name": "EA College Football Mobile 27",
    "slug": "EA_College_Football_Mobile_27_0712f1",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/2e/a5/632ea5a5-33e3-d96b-49da-9b733c81a90b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
    "cost_level": "极高",
    "cost_score": 4.75,
@@ -443,7 +491,7 @@
   "Fish Sort Puzzle": {
    "name": "Fish Sort Puzzle",
    "slug": "Fish_Sort_Puzzle_20dc64",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/86/39/5986391c-4a07-7794-f2a0-016fbca50e38/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.38,
@@ -467,7 +515,7 @@
   "Fish Sort Puzzle - Bubble Jam": {
    "name": "Fish Sort Puzzle - Bubble Jam",
    "slug": "Fish_Sort_Puzzle_Bubble_Jam_aac399",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/86/39/5986391c-4a07-7794-f2a0-016fbca50e38/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.0,
@@ -491,7 +539,7 @@
   "Fish Sort Puzzle:フィッシュソート泡を消そう": {
    "name": "Fish Sort Puzzle:フィッシュソート泡を消そう",
    "slug": "Fish_Sort_Puzzle_フィッシュソート泡を消そう_caa61a",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.5,
@@ -515,7 +563,7 @@
   "Food Hunt: Pixel Puzzle": {
    "name": "Food Hunt: Pixel Puzzle",
    "slug": "Food_Hunt_Pixel_Puzzle_d95b64",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/69/81/e3698133-d61d-b655-7ddf-f6fac07e0bf5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.38,
@@ -539,7 +587,7 @@
   "Gossip Harbor: Merge & Story": {
    "name": "Gossip Harbor: Merge & Story",
    "slug": "Gossip_Harbor_Merge_Story_1e790e",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/c3/15/b7c31546-603c-f813-0af5-71978cd76570/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.25,
@@ -587,7 +635,7 @@
   "Magic Sort!": {
    "name": "Magic Sort!",
    "slug": "Magic_Sort_6151a3",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/40/1d/89401d6c-7d2d-4317-25a8-01fb7c0612bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "极低",
    "cost_score": 1.5,
@@ -611,7 +659,7 @@
   "Mahjong Blast": {
    "name": "Mahjong Blast",
    "slug": "Mahjong_Blast_c873d0",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/0c/70/a20c7039-190b-ca71-2dcd-d65661149ed7/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.0,
@@ -636,7 +684,7 @@
   "Meowdoku!": {
    "name": "Meowdoku!",
    "slug": "Meowdoku_2fff27",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/f9/34/97f9349a-5fe0-b5c2-7c73-168557cbdec6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 1.88,
@@ -661,7 +709,7 @@
   "Meowdoku: Brain Puzzle Games": {
    "name": "Meowdoku: Brain Puzzle Games",
    "slug": "Meowdoku_Brain_Puzzle_Games_17ee60",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/69/1d/4d691ded-2f9a-eac1-adf2-8ed9d6bfaa09/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.0,
@@ -685,7 +733,7 @@
   "MiniMuse": {
    "name": "MiniMuse",
    "slug": "MiniMuse_87e1c5",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/00/93/0c009394-ae9e-91c1-c4d7-86471def78a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.38,
@@ -709,7 +757,7 @@
   "MiniMuses": {
    "name": "MiniMuses",
    "slug": "MiniMuses_9caf08",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/00/93/0c009394-ae9e-91c1-c4d7-86471def78a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.25,
@@ -757,7 +805,7 @@
   "ワクワク電車ライフ": {
    "name": "ワクワク電車ライフ",
    "slug": "ワクワク電車ライフ_a10b05",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.38,
@@ -779,7 +827,7 @@
   "Pokémon Champions": {
    "name": "Pokémon Champions",
    "slug": "Pokémon_Champions_2b9f3f",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/bf/3c/3dbf3c07-2aa0-3c99-a870-e4f181f087f2/pokebasechampions-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 4.12,
@@ -803,7 +851,7 @@
   "Pokémon GO": {
    "name": "Pokémon GO",
    "slug": "Pokémon_GO_f94213",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/4a/21/de4a21a0-dfd8-1198-ae05-d7b8a85e6abc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.88,
@@ -827,7 +875,7 @@
   "QQ经典农场": {
    "name": "QQ经典农场",
    "slug": "QQ经典农场_115408",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/c2/d2/c2c2d25b-b14c-bc5f-53ba-bcdf6bbe9f0b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.0,
@@ -852,7 +900,7 @@
   "Roblox": {
    "name": "Roblox",
    "slug": "Roblox_0eadcb",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/f0/55/65f055cb-e179-ba96-2a74-c9251e1c99e7/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.62,
@@ -924,7 +972,7 @@
   "Royal Smash! - Physics Puzzle": {
    "name": "Royal Smash! - Physics Puzzle",
    "slug": "Royal_Smash_Physics_Puzzle_efda3f",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/7b/ba/cf7bba17-4270-55ab-7d08-96ec164921cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.5,
@@ -948,7 +996,7 @@
   "Sled Surfers": {
    "name": "Sled Surfers",
    "slug": "Sled_Surfers_7065b7",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/92/93/c192939e-b4d9-084e-4f1b-1ff813fcb34c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 2.62,
@@ -972,7 +1020,7 @@
   "Smash Fest!": {
    "name": "Smash Fest!",
    "slug": "Smash_Fest_adf4bd",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/3e/2e/933e2ed1-8b86-d507-1fc1-184f7255e81c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 2.75,
@@ -997,7 +1045,7 @@
   "Smash Land!": {
    "name": "Smash Land!",
    "slug": "Smash_Land_965a85",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "中",
    "cost_score": 2.62,
@@ -1021,7 +1069,7 @@
   "Tasty Travels: Merge Game": {
    "name": "Tasty Travels: Merge Game",
    "slug": "Tasty_Travels_Merge_Game_b5ab5a",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/45/bb/e045bb47-6e25-55e1-c687-8e64a7dea9d2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.62,
@@ -1045,7 +1093,7 @@
   "Township": {
    "name": "Township",
    "slug": "Township_2ac521",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/72/26/e572260a-112c-d034-e328-319ea515b152/AppIconChina-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.25,
@@ -1069,7 +1117,7 @@
   "Vita Mahjong": {
    "name": "Vita Mahjong",
    "slug": "Vita_Mahjong_265882",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/49/1d/ca491d05-f372-f902-d3d6-e2f98fccd379/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.0,
@@ -1093,7 +1141,7 @@
   "Word Search Explorer": {
    "name": "Word Search Explorer",
    "slug": "Word_Search_Explorer_068342",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/a9/f8/eea9f8be-b15a-b968-7eea-16a7b5dfea83/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.0,
@@ -1117,7 +1165,7 @@
   "トップロード": {
    "name": "トップロード",
    "slug": "トップロード_648aa6",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "高",
    "cost_score": 3.5,
@@ -1141,7 +1189,7 @@
   "ホワイトアウト・サバイバル": {
    "name": "ホワイトアウト・サバイバル",
    "slug": "ホワイトアウト_サバイバル_6a1272",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "高",
    "cost_score": 4.12,
@@ -1165,7 +1213,7 @@
   "グルメ・ジャーニー": {
    "name": "グルメ・ジャーニー",
    "slug": "グルメ_ジャーニー_89bd8a",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "中",
    "cost_score": 2.88,
@@ -1189,7 +1237,7 @@
   "ちいかわぽけっと": {
    "name": "ちいかわぽけっと",
    "slug": "ちいかわぽけっと_e13c33",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "中",
    "cost_score": 3.12,
@@ -1213,7 +1261,7 @@
   "ゴシップハーバー:マージ & ストーリー": {
    "name": "ゴシップハーバー:マージ & ストーリー",
    "slug": "ゴシップハーバー_マージ_ストーリー_b2005e",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "高",
    "cost_score": 3.5,
@@ -1285,7 +1333,7 @@
   "ワクワク電車ライフ - 街を発展!車掌ゲーム": {
    "name": "ワクワク電車ライフ - 街を発展!車掌ゲーム",
    "slug": "電車_街_発展_車掌_7e3444",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.38,
@@ -1309,7 +1357,7 @@
   "一找一个准": {
    "name": "一找一个准",
    "slug": "一找一个准_31ea54",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d6642889c973c97ef1dabb9b7959f20a",
    "cost_level": "低",
    "cost_score": 2.0,
@@ -1333,7 +1381,7 @@
   "一箭又一箭": {
    "name": "一箭又一箭",
    "slug": "一箭又一箭_0f018b",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2b80997e88fca1eed8b6a9147852d2e3",
    "cost_level": "极低",
    "cost_score": 1.38,
@@ -1358,7 +1406,7 @@
   "三国:冰河时代": {
    "name": "三国:冰河时代",
    "slug": "三国_冰河时代_fd3e1a",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/02/f6/0902f698-a8db-6a24-b696-971e185983f6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 4.12,
@@ -1383,7 +1431,7 @@
   "三国:天命再临": {
    "name": "三国:天命再临",
    "slug": "三国_天命再临_367380",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/96/69/08966993-2cd6-2ce4-f4fb-669217877574/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.38,
@@ -1407,7 +1455,7 @@
   "三国杀": {
    "name": "三国杀",
    "slug": "三国杀_03a3b3",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/6c/d6/de6cd653-25bb-3df0-bc6c-087ca468247f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.88,
@@ -1428,10 +1476,34 @@
    "has_biz": true,
    "collected": true
   },
+  "三界降妖录": {
+   "name": "三界降妖录",
+   "slug": "三界降妖录_baaf0a",
+   "updated_at": "2026-11-03",
+   "icon": "",
+   "cost_level": "中",
+   "cost_score": 3.38,
+   "engine": "Cocos Creator",
+   "engine_primary": "Cocos Creator",
+   "engine_inferred": true,
+   "dimension": "2D+3D混合",
+   "verdict": "不建议",
+   "boards": [
+    "douyin/畅销榜"
+   ],
+   "best_rank": 1,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "主线关卡自动回合战斗，打赢掉资源；资源用于升级、升星角色并凑齐阵营羁绊，战力上去后推更远的关卡；离线时巡山继续产出资源，回来先领一笔再抽卡补阵容。",
+   "biz_internal": "不建议搬",
+   "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
   "三角洲行动": {
    "name": "三角洲行动",
    "slug": "三角洲行动_64fa4b",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/34/0e/10340e62-72a3-4a99-0b4a-3199680f248c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "极高",
    "cost_score": 4.75,
@@ -1452,10 +1524,34 @@
    "has_biz": true,
    "collected": true
   },
+  "上个了车": {
+   "name": "上个了车",
+   "slug": "上个了车_f8f7f0",
+   "updated_at": "2026-11-03",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.25,
+   "engine": "Cocos Creator",
+   "engine_primary": "Cocos Creator",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "best_rank": 1,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "停车场里每辆车只能沿箭头方向直行，前方被挡就动不了；同色乘客才会上车，坐满即发车腾出位置，把所有乘客送走就过关。一局 30 秒到 2 分钟。",
+   "biz_internal": "可复用",
+   "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
   "伊莫": {
    "name": "伊莫",
    "slug": "伊莫_3b01c4",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/49/cf/1749cfdf-2346-4cb1-bed7-c6c437a9943d/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "极高",
    "cost_score": 4.62,
@@ -1479,7 +1575,7 @@
   "伯吉的温馨厨房": {
    "name": "伯吉的温馨厨房",
    "slug": "伯吉的温馨厨房_80742b",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/32/5f/cd325fd6-4009-06da-225e-878629d6061c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 2.62,
@@ -1503,7 +1599,7 @@
   "俄罗斯方块拼图": {
    "name": "俄罗斯方块拼图",
    "slug": "俄罗斯方块拼图_e82b51",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "极低",
    "cost_score": 1.75,
@@ -1527,7 +1623,7 @@
   "保卫向日葵": {
    "name": "保卫向日葵",
    "slug": "保卫向日葵_3fb55f",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/1d/f9/391df98a-70dd-96c2-76bc-52ae33b48904/AppIcon-1x_U007epad-0-11-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.62,
@@ -1551,7 +1647,7 @@
   "俱乐大玩家": {
    "name": "俱乐大玩家",
    "slug": "俱乐大玩家_6a07c3",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/9d/6c/8d9d6cb0-f739-73f5-b907-fc0ad3b9740e/AppIcon-1x_U007epad-0-11-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 2.75,
@@ -1574,10 +1670,34 @@
    "has_biz": true,
    "collected": true
   },
+  "偷上蛋快跑": {
+   "name": "偷上蛋快跑",
+   "slug": "偷上蛋快跑_34fcb1",
+   "updated_at": "2026-11-14",
+   "icon": "",
+   "cost_level": "中",
+   "cost_score": 2.88,
+   "engine": "Cocos Creator",
+   "engine_primary": "Cocos Creator",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "变种创意",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "best_rank": 2,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "潜进巢穴趁守卫背身抱走一颗蛋，被发现就一路狂奔回鸡舍，被追上则清零；蛋放上孵化位孵出宠物，宠物按稀有度每秒产金币，金币拿去升速度、开围栏、解锁更远的生物群系，然后回去偷更值钱的蛋。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
   "像素方块冒险世界": {
    "name": "像素方块冒险世界",
    "slug": "像素方块冒险世界_7d1519",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "中",
    "cost_score": 2.75,
@@ -1601,7 +1721,7 @@
   "全民单挑篮球": {
    "name": "全民单挑篮球",
    "slug": "全民单挑篮球_82f2fe",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "高",
    "cost_score": 4.12,
@@ -1625,7 +1745,7 @@
   "全能大闯关": {
    "name": "全能大闯关",
    "slug": "全能大闯关_b25830",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 1.88,
@@ -1649,7 +1769,7 @@
   "兵器王者": {
    "name": "兵器王者",
    "slug": "兵器王者_e64dc6",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "中",
    "cost_score": 2.62,
@@ -1673,7 +1793,7 @@
   "冲吧!帕克": {
    "name": "冲吧!帕克",
    "slug": "冲吧_帕克_c0c2ab",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/c7/b0/72c7b033-0911-15aa-287b-6939a73f9710/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.0,
@@ -1697,7 +1817,7 @@
   "卤蛋兄弟": {
    "name": "卤蛋兄弟",
    "slug": "卤蛋兄弟_b348d5",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.25,
@@ -1721,7 +1841,7 @@
   "吃鸡训练营3D": {
    "name": "吃鸡训练营3D",
    "slug": "吃鸡训练营3D_a6eec3",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.5,
@@ -1742,10 +1862,34 @@
    "has_biz": true,
    "collected": true
   },
+  "合一合": {
+   "name": "合一合",
+   "slug": "合一合_9602af",
+   "updated_at": "2026-11-03",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "Cocos Creator",
+   "engine_primary": "Cocos Creator",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "best_rank": 1,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "把两个相同物品拖到一起合成高一级，格子有限、越合越占位；高等级物品产出价值指数上升，玩家在「留空位」和「快点升」之间取舍，攒够产出再开新格子。",
+   "biz_internal": "可复用",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
   "向僵尸开炮": {
    "name": "向僵尸开炮",
    "slug": "向僵尸开炮_3c34cb",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/9a1954a09a6d510d044374a02726f412",
    "cost_level": "高",
    "cost_score": 3.75,
@@ -1770,7 +1914,7 @@
   "向往的生活": {
    "name": "向往的生活",
    "slug": "向往的生活_75ce2b",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/f8/b9/09f8b92a-7ba3-4cc4-5262-2d84f60445e2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.38,
@@ -1796,7 +1940,7 @@
   "向末日开炮": {
    "name": "向末日开炮",
    "slug": "向末日开炮_83f57c",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/66/32/ab663220-0d2a-7e55-b95f-12a88477410f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.88,
@@ -1821,7 +1965,7 @@
   "和平精英": {
    "name": "和平精英",
    "slug": "和平精英_11d6e5",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/36/e2/8936e24b-f6d7-990a-efd4-078a14a6fe8e/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "极高",
    "cost_score": 4.62,
@@ -1845,7 +1989,7 @@
   "咕嘎咕嘎": {
    "name": "咕嘎咕嘎",
    "slug": "咕嘎咕嘎_73045b",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.25,
@@ -1869,7 +2013,7 @@
   "喧嘩道-全國不良番付-": {
    "name": "喧嘩道-全國不良番付-",
    "slug": "喧嘩道_全國不良番付_9d9aeb",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/b5/5e/27b55ed7-12c7-e7dc-9acc-4f63f15d374d/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.12,
@@ -1893,7 +2037,7 @@
   "四季合合": {
    "name": "四季合合",
    "slug": "四季合合_9823ff",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/64/14/ae641476-cb91-5fc0-a4ac-b79c640e8531/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 2.88,
@@ -1917,7 +2061,7 @@
   "地铁跑酷 - 寻灵山海古都归来": {
    "name": "地铁跑酷 - 寻灵山海古都归来",
    "slug": "地铁跑酷_寻灵山海古都归来_21b1c4",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/56/2a/fc562ac2-2a7d-5d99-cb62-4136cc398a01/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.62,
@@ -1941,7 +2085,7 @@
   "塔塔冒险队": {
    "name": "塔塔冒险队",
    "slug": "塔塔冒险队_6902ee",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/ce/74/bece7424-8b0c-4ff1-ff0c-8d4c3e114966/AppIcon-Mainland-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.12,
@@ -1965,7 +2109,7 @@
   "多乐升级": {
    "name": "多乐升级",
    "slug": "多乐升级_f43140",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/64/a3/fc64a354-4942-2113-6a72-5e5e026f4038/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.12,
@@ -1986,10 +2130,34 @@
    "has_biz": true,
    "collected": true
   },
+  "大侠闯天下": {
+   "name": "大侠闯天下",
+   "slug": "大侠闯天下_16b5ca",
+   "updated_at": "2026-11-14",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/88/68/5b886867-309e-d02b-a65b-0dfa2a725cac/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+   "cost_level": "中",
+   "cost_score": 3.38,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "变种创意",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "best_rank": 2,
+   "has_shots": true,
+   "shot_count": 15,
+   "play_brief": "选流派进副本，战斗全程托管自动打，掉三本秘籍当场三选一叠羁绊；一局结束带走资源，回主城升侠客、洗装备、升秘籍，战力够了再进下一个更难的副本，卡关就下线等挂机收益。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
   "大王请上阵": {
    "name": "大王请上阵",
    "slug": "大王请上阵_c95f50",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/abe33f1a1897cd61bc515c5a9c654915",
    "cost_level": "中",
    "cost_score": 3.0,
@@ -2013,7 +2181,7 @@
   "天命行者": {
    "name": "天命行者",
    "slug": "天命行者_7f7473",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "高",
    "cost_score": 3.5,
@@ -2037,7 +2205,7 @@
   "天天台球": {
    "name": "天天台球",
    "slug": "天天台球_4bb74b",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "中",
    "cost_score": 3.0,
@@ -2061,7 +2229,7 @@
   "天天斗地主真人版": {
    "name": "天天斗地主真人版",
    "slug": "天天斗地主真人版_f48509",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/55/a9/4055a915-b06c-8c0a-e161-4ddc68fb7fd6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.5,
@@ -2085,7 +2253,7 @@
   "天天象棋": {
    "name": "天天象棋",
    "slug": "天天象棋_c99892",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/3b/8d/4f3b8d0f-55ed-2c1a-c684-7f370019cb3e/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.0,
@@ -2109,7 +2277,7 @@
   "奇幻果园": {
    "name": "奇幻果园",
    "slug": "奇幻果园_41d27c",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "中",
    "cost_score": 2.62,
@@ -2133,7 +2301,7 @@
   "奔奔王国": {
    "name": "奔奔王国",
    "slug": "奔奔王国_eada6b",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/b0/2c/98b02c56-4555-6eaa-4daf-e2248f5b1126/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.75,
@@ -2157,7 +2325,7 @@
   "完全没难度": {
    "name": "完全没难度",
    "slug": "完全没难度_c361b4",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "极低",
    "cost_score": 1.25,
@@ -2181,7 +2349,7 @@
   "对峙:交锋时刻": {
    "name": "对峙:交锋时刻",
    "slug": "对峙_交锋时刻_c41efd",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "中",
    "cost_score": 3.12,
@@ -2205,7 +2373,7 @@
   "开局带把枪": {
    "name": "开局带把枪",
    "slug": "开局带把枪_89b0df",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/12/45/0e124599-a2c9-fcfa-0cbb-f373f8830fb5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 4.0,
@@ -2230,7 +2398,7 @@
   "开心消消乐": {
    "name": "开心消消乐",
    "slug": "开心消消乐_6952b2",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/62/e6/6e62e66b-6301-5f61-8ac0-64a10352a2f1/AppIcon-1x_U007epad-0-1-0-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 2.75,
@@ -2255,7 +2423,7 @@
   "开车我贼6": {
    "name": "开车我贼6",
    "slug": "开车我贼6_f37c70",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c86e61b9b0cf047939964f9074bd27e6",
    "cost_level": "低",
    "cost_score": 2.12,
@@ -2276,10 +2444,34 @@
    "has_biz": true,
    "collected": true
   },
+  "异人之下": {
+   "name": "异人之下",
+   "slug": "异人之下_4529d9",
+   "updated_at": "2026-11-03",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/91/3f/03913fa3-d5a3-d173-20d4-d4c372a19e76/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "极高",
+   "cost_score": 4.5,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "不建议",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "best_rank": 1,
+   "has_shots": true,
+   "shot_count": 15,
+   "play_brief": "选三名异人进 3V3 车轮战，普攻、平招、险招对防御、闪避形成循环克制；靠读对手起手色光做判断，赢下的角色继续留场并回血，5 点体力决定能不能强制脱身。",
+   "biz_internal": "不建议搬",
+   "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
   "快逃离岩浆": {
    "name": "快逃离岩浆",
    "slug": "快逃离岩浆_7951f2",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "中",
    "cost_score": 3.0,
@@ -2303,7 +2495,7 @@
   "意味怖ストーリー:バッドエンドを回避せよ!": {
    "name": "意味怖ストーリー:バッドエンドを回避せよ!",
    "slug": "意味怖ストーリー_バッドエンドを回避せよ_b60163",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/5f/d4/bf5fd431-4758-2e79-cd5c-eaeb46cdcd0f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.38,
@@ -2327,7 +2519,7 @@
   "我的世界:移动版": {
    "name": "我的世界:移动版",
    "slug": "我的世界_移动版_bd25c7",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/8e/fc/678efcee-6542-9afc-6fed-a4b44ce75d27/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.75,
@@ -2351,7 +2543,7 @@
   "我的花园世界": {
    "name": "我的花园世界",
    "slug": "我的花园世界_aab914",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/8c/ec/078cec06-9946-9fff-6856-73b7935a41d1/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.0,
@@ -2377,7 +2569,7 @@
   "我真能通关": {
    "name": "我真能通关",
    "slug": "我真能通关_5ccaab",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "极低",
    "cost_score": 1.75,
@@ -2401,7 +2593,7 @@
   "我要消光光": {
    "name": "我要消光光",
    "slug": "我要消光光_953439",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "极低",
    "cost_score": 1.5,
@@ -2425,7 +2617,7 @@
   "手机反恐特别行动": {
    "name": "手机反恐特别行动",
    "slug": "手机反恐特别行动_81057c",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/5b/3f/ed5b3fc0-13ff-a9af-c730-3bd788e21d73/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.25,
@@ -2449,7 +2641,7 @@
   "打下毛线": {
    "name": "打下毛线",
    "slug": "打下毛线_8d8b95",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.0,
@@ -2473,7 +2665,7 @@
   "打个螺丝": {
    "name": "打个螺丝",
    "slug": "打个螺丝_cab89d",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/97ae2031d5d42970e0cf826293d0695c",
    "cost_level": "低",
    "cost_score": 2.12,
@@ -2497,7 +2689,7 @@
   "找个儿不同": {
    "name": "找个儿不同",
    "slug": "找个儿不同_79cdf1",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "极低",
    "cost_score": 1.38,
@@ -2522,7 +2714,7 @@
   "抓大鹅": {
    "name": "抓大鹅",
    "slug": "抓大鹅_a83b42",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/ba/38/92ba3810-7b0b-1ab7-2db5-c868cd74696c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.62,
@@ -2548,7 +2740,7 @@
   "拳皇·命运": {
    "name": "拳皇·命运",
    "slug": "拳皇_命运_c135f2",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "高",
    "cost_score": 3.88,
@@ -2572,7 +2764,7 @@
   "指尖幻影": {
    "name": "指尖幻影",
    "slug": "指尖幻影_b067d7",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/e8/93/e6e893da-d3de-54d8-4880-247e691e5d30/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.0,
@@ -2596,7 +2788,7 @@
   "指尖欢乐坊": {
    "name": "指尖欢乐坊",
    "slug": "指尖欢乐坊_2e74e0",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 1.88,
@@ -2620,7 +2812,7 @@
   "挪了下车": {
    "name": "挪了下车",
    "slug": "挪了下车_75d156",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/d7/a8/b7d7a802-c1cf-f68d-8636-006bf2b4ef40/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
    "cost_level": "极低",
    "cost_score": 1.75,
@@ -2644,7 +2836,7 @@
   "掼蛋": {
    "name": "掼蛋",
    "slug": "掼蛋_83b2c6",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7a7b7f31466e9000a9459d579611ac5e",
    "cost_level": "低",
    "cost_score": 2.25,
@@ -2668,7 +2860,7 @@
   "救救我鸭": {
    "name": "救救我鸭",
    "slug": "救救我鸭_f41331",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/03/d1/c903d137-7ab5-c612-20e3-31bd41e48b6c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.0,
@@ -2692,7 +2884,7 @@
   "无尽冬日": {
    "name": "无尽冬日",
    "slug": "无尽冬日_41b1c1",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/96/a5/9c96a5a5-a92a-9405-d252-b2aa7b9aa8ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "极高",
    "cost_score": 4.38,
@@ -2716,7 +2908,7 @@
   "无畏契约:源能行动": {
    "name": "无畏契约:源能行动",
    "slug": "无畏契约_源能行动_45ea67",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/71/1b/66711bd4-1a83-4a2b-17d0-9388cdc3e4ba/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "极高",
    "cost_score": 4.5,
@@ -2740,7 +2932,7 @@
   "无限大": {
    "name": "无限大",
    "slug": "无限大_7ca968",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/8e/6e/578e6e6a-fd7d-36a5-ed43-30fbfcc13d09/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 4.12,
@@ -2764,7 +2956,7 @@
   "时尚百货城": {
    "name": "时尚百货城",
    "slug": "时尚百货城_521669",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/3d/da/df3dda6a-0014-5405-b314-0e29d5bf39f4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.25,
@@ -2789,7 +2981,7 @@
   "星布谷地": {
    "name": "星布谷地",
    "slug": "星布谷地_cd65c5",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/5b/0e/6b5b0e50-6f39-13b7-b73d-f64979f8e697/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "极高",
    "cost_score": 4.5,
@@ -2813,7 +3005,7 @@
   "星途天城": {
    "name": "星途天城",
    "slug": "星途天城_851b94",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/f4/89/eef48920-2e16-e497-2638-4bf5039cd0d9/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.25,
@@ -2837,7 +3029,7 @@
   "暴走闯关者": {
    "name": "暴走闯关者",
    "slug": "暴走闯关者_cdfe61",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "极低",
    "cost_score": 1.62,
@@ -2861,7 +3053,7 @@
   "未眠野": {
    "name": "未眠野",
    "slug": "未眠野_0ad69d",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "高",
    "cost_score": 4.12,
@@ -2885,7 +3077,7 @@
   "极限破译": {
    "name": "极限破译",
    "slug": "极限破译_169227",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.25,
@@ -2909,7 +3101,7 @@
   "极限跳高冠军": {
    "name": "极限跳高冠军",
    "slug": "极限跳高冠军_937f09",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "极低",
    "cost_score": 1.38,
@@ -2934,7 +3126,7 @@
   "梦回甄嬛传": {
    "name": "梦回甄嬛传",
    "slug": "梦回甄嬛传_604816",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/73/d4/a073d4b4-02c6-f9b4-9eed-af30fdd5bf28/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.12,
@@ -2959,7 +3151,7 @@
   "梦幻消除战": {
    "name": "梦幻消除战",
    "slug": "梦幻消除战_79869b",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/7b/18/557b18b6-f0c3-537a-55cd-985a2e021a69/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.25,
@@ -2985,7 +3177,7 @@
   "植物大战僵尸2-13周年庆": {
    "name": "植物大战僵尸2-13周年庆",
    "slug": "植物大战僵尸2_13周年庆_c0c7bc",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/61/2d/39612dd4-06c7-230b-b2a2-eda054cab692/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 4.12,
@@ -3009,7 +3201,7 @@
   "欢乐少年酷跑": {
    "name": "欢乐少年酷跑",
    "slug": "欢乐少年酷跑_fc8ec6",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.5,
@@ -3033,7 +3225,7 @@
   "欢乐岛大冒险": {
    "name": "欢乐岛大冒险",
    "slug": "欢乐岛大冒险_9621b6",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.38,
@@ -3057,7 +3249,7 @@
   "欢乐麻将": {
    "name": "欢乐麻将",
    "slug": "欢乐麻将_70317d",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/e5/b4/17e5b478-5943-cdc8-78c7-a621af4c2fb8/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 4.0,
@@ -3081,7 +3273,7 @@
   "毛线大师 - 毛线消除游戏 疯狂毛线消不停": {
    "name": "毛线大师 - 毛线消除游戏 疯狂毛线消不停",
    "slug": "毛线大师_毛线消除游戏_疯狂毛线消不停_1d7654",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/34/be/bb34be6b-a846-ae18-997e-af647d1f581d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 2.75,
@@ -3105,7 +3297,7 @@
   "永夜起源": {
    "name": "永夜起源",
    "slug": "永夜起源_2dbe70",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/670ada94c6d276720e82ff55807be3a8",
    "cost_level": "中",
    "cost_score": 3.12,
@@ -3129,8 +3321,8 @@
   "永远的蔚蓝星球": {
    "name": "永远的蔚蓝星球",
    "slug": "永远的蔚蓝星球_f94380",
-   "updated_at": "2026-11-01",
-   "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c92ec68871fdf421697d62fddef79c4c",
+   "updated_at": "2026-11-14",
+   "icon": "",
    "cost_level": "高",
    "cost_score": 3.5,
    "engine": "Unity",
@@ -3154,7 +3346,7 @@
   "波乱水世界": {
    "name": "波乱水世界",
    "slug": "波乱水世界_df9d20",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "高",
    "cost_score": 3.5,
@@ -3178,7 +3370,7 @@
   "浪漫花都": {
    "name": "浪漫花都",
    "slug": "浪漫花都_b5c6d7",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.25,
@@ -3202,7 +3394,7 @@
   "浪漫餐厅": {
    "name": "浪漫餐厅",
    "slug": "浪漫餐厅_fcb514",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4e6117ad571bb3900200f3927f1b5592",
    "cost_level": "中",
    "cost_score": 3.0,
@@ -3228,7 +3420,7 @@
   "消个瓶子": {
    "name": "消个瓶子",
    "slug": "消个瓶子_f10a45",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 1.88,
@@ -3252,7 +3444,7 @@
   "漢字分解パズル": {
    "name": "漢字分解パズル",
    "slug": "漢字分解パズル_49428d",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "极低",
    "cost_score": 1.62,
@@ -3276,7 +3468,7 @@
   "火影忍者": {
    "name": "火影忍者",
    "slug": "火影忍者_7b79a7",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/48/e6/2848e651-522a-cef2-2fac-1bcb0752d0de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "极高",
    "cost_score": 4.25,
@@ -3300,7 +3492,7 @@
   "灵画师": {
    "name": "灵画师",
    "slug": "灵画师_9f3459",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c8299e32203947609384a444b7f101b6",
    "cost_level": "中",
    "cost_score": 2.62,
@@ -3325,7 +3517,7 @@
   "爽到飞起": {
    "name": "爽到飞起",
    "slug": "爽到飞起_dd3595",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "极低",
    "cost_score": 1.62,
@@ -3349,7 +3541,7 @@
   "狙击外星人": {
    "name": "狙击外星人",
    "slug": "狙击外星人_2b1445",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.25,
@@ -3373,7 +3565,7 @@
   "狱国争霸": {
    "name": "狱国争霸",
    "slug": "狱国争霸_ba0636",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f0daee657652604f784bc3b49bf48a4d",
    "cost_level": "中",
    "cost_score": 3.25,
@@ -3397,7 +3589,7 @@
   "猛鬼宿舍": {
    "name": "猛鬼宿舍",
    "slug": "猛鬼宿舍_e8f7e7",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/b6/cc/d2b6cc90-ab64-1605-8bb3-2d84064029e9/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 2.75,
@@ -3421,7 +3613,7 @@
   "猪了个猪": {
    "name": "猪了个猪",
    "slug": "猪了个猪_c45db2",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/2f/db/6a2fdb44-05ad-6a20-878d-3601dfab5a99/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.25,
@@ -3445,7 +3637,7 @@
   "王者万象棋": {
    "name": "王者万象棋",
    "slug": "王者万象棋_2016d4",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/5c/7a/025c7a40-b125-5ab9-1237-7283fcbf089a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 4.0,
@@ -3469,7 +3661,7 @@
   "王者征途": {
    "name": "王者征途",
    "slug": "王者征途_77346d",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/94/92/e19492ef-848c-28b0-8432-92c7ccb5946d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 4.0,
@@ -3493,7 +3685,7 @@
   "王者舰队": {
    "name": "王者舰队",
    "slug": "王者舰队_b52a6e",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "高",
    "cost_score": 3.75,
@@ -3517,7 +3709,7 @@
   "王者荣耀": {
    "name": "王者荣耀",
    "slug": "王者荣耀_ccb61d",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/cb/c3/f8cbc3ea-678d-e931-7020-59bd87625eb0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 4.0,
@@ -3541,7 +3733,7 @@
   "甄嬛传之浮生一梦": {
    "name": "甄嬛传之浮生一梦",
    "slug": "甄嬛传之浮生一梦_d1c6d3",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.5,
@@ -3565,7 +3757,7 @@
   "生肖挖挖乐": {
    "name": "生肖挖挖乐",
    "slug": "生肖挖挖乐_28add2",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "极低",
    "cost_score": 1.75,
@@ -3589,7 +3781,7 @@
   "疯狂水世界": {
    "name": "疯狂水世界",
    "slug": "疯狂水世界_124336",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/a2/2a/2ca22a78-9214-ae06-fd6e-e7933fcc57b6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.88,
@@ -3616,7 +3808,7 @@
   "白银之城": {
    "name": "白银之城",
    "slug": "白银之城_d3194c",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/73/1a/26731a47-fd13-c5e2-d10c-22bdd4fedc0d/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 4.0,
@@ -3640,7 +3832,7 @@
   "看谁先上车": {
    "name": "看谁先上车",
    "slug": "看谁先上车_7afca9",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/887a15ac0f50bfa3831353fd8c29d543",
    "cost_level": "低",
    "cost_score": 2.0,
@@ -3665,7 +3857,7 @@
   "砖了个砖": {
    "name": "砖了个砖",
    "slug": "砖了个砖_4c91f1",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c23699e145c0dc74d0a211136931b622",
    "cost_level": "低",
    "cost_score": 2.12,
@@ -3689,7 +3881,7 @@
   "神器传说": {
    "name": "神器传说",
    "slug": "神器传说_9f5640",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "中",
    "cost_score": 2.62,
@@ -3713,7 +3905,7 @@
   "空格之境": {
    "name": "空格之境",
    "slug": "空格之境_777ebc",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/14/3a/a5143a7a-02f7-faef-505e-ab91880ff777/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.38,
@@ -3739,7 +3931,7 @@
   "粒粒的小人国": {
    "name": "粒粒的小人国",
    "slug": "粒粒的小人国_1b1e75",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "中",
    "cost_score": 2.62,
@@ -3763,7 +3955,7 @@
   "終焉の楔:アポカリプス・ノヴァ": {
    "name": "終焉の楔:アポカリプス・ノヴァ",
    "slug": "終焉の楔_アポカリプス_ノヴァ_963d0e",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "中",
    "cost_score": 3.25,
@@ -3787,7 +3979,7 @@
   "给你打个折": {
    "name": "给你打个折",
    "slug": "给你打个折_ea004a",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 1.88,
@@ -3837,7 +4029,7 @@
   "肥鹅美食街": {
    "name": "肥鹅美食街",
    "slug": "肥鹅美食街_3e95be",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/c2/a5/e1c2a525-1446-2715-7c52-bf7675cb9e3e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 2.88,
@@ -3862,7 +4054,7 @@
   "腾讯欢乐斗地主": {
    "name": "腾讯欢乐斗地主",
    "slug": "腾讯欢乐斗地主_d8216e",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/7b/e3/6e7be309-33bb-949f-ebdc-ef8966dde329/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.25,
@@ -3888,7 +4080,7 @@
   "蓝色星原:旅谣": {
    "name": "蓝色星原:旅谣",
    "slug": "蓝色星原_旅谣_204790",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/6f/71/8e6f710c-03f5-9a08-870d-ebb5f9ebc221/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "极高",
    "cost_score": 4.5,
@@ -3912,7 +4104,7 @@
   "蛋仔派对": {
    "name": "蛋仔派对",
    "slug": "蛋仔派对_86c65c",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/d8/30/07d8305e-0c78-756d-09a9-61735eebc648/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "极高",
    "cost_score": 4.62,
@@ -3937,7 +4129,7 @@
   "蜘蛛纸牌合集": {
    "name": "蜘蛛纸牌合集",
    "slug": "蜘蛛纸牌合集_be157a",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "极低",
    "cost_score": 1.38,
@@ -3961,7 +4153,7 @@
   "解压打毛线": {
    "name": "解压打毛线",
    "slug": "解压打毛线_fc67ac",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/108ecdb9b855db5ab69177b2be7253a2",
    "cost_level": "低",
    "cost_score": 2.0,
@@ -3986,7 +4178,7 @@
   "解压闯一关": {
    "name": "解压闯一关",
    "slug": "解压闯一关_b767f9",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4093c5813c37f9c427965bbdc2ba8557",
    "cost_level": "低",
    "cost_score": 1.88,
@@ -4011,7 +4203,7 @@
   "象棋达人": {
    "name": "象棋达人",
    "slug": "象棋达人_9e535f",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/28/e3/b7/28e3b7eb-af90-aae2-848a-a8fd31f4eedf/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
    "cost_level": "极低",
    "cost_score": 1.62,
@@ -4035,7 +4227,7 @@
   "贪吃蛇大作战®": {
    "name": "贪吃蛇大作战®",
    "slug": "贪吃蛇大作战_6007b2",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/13/26/9c132636-f737-40dd-9c87-fef41d1888b2/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.62,
@@ -4059,7 +4251,7 @@
   "贪吃蛇大作战": {
    "name": "贪吃蛇大作战",
    "slug": "贪吃蛇大作战_7c1f7e",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/13/26/9c132636-f737-40dd-9c87-fef41d1888b2/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.88,
@@ -4084,7 +4276,7 @@
   "赘婿": {
    "name": "赘婿",
    "slug": "赘婿_8ae84a",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/05/36/9005365f-03a2-53a2-3bc8-84a89256bde1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 2.88,
@@ -4108,7 +4300,7 @@
   "赵云与阿斗": {
    "name": "赵云与阿斗",
    "slug": "赵云与阿斗_911d95",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/ae/4a/26ae4a85-1440-7ae3-9389-420710851180/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/512x512bb.jpg",
    "cost_level": "低",
    "cost_score": 2.5,
@@ -4135,7 +4327,7 @@
   "超能下蛋鸭": {
    "name": "超能下蛋鸭",
    "slug": "超能下蛋鸭_abd62a",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/9e941aca939ee1d7bc6a482185704cc1",
    "cost_level": "高",
    "cost_score": 3.62,
@@ -4159,7 +4351,7 @@
   "超自然行动组-登录送高泰明": {
    "name": "超自然行动组-登录送高泰明",
    "slug": "超自然行动组_登录送高泰明_45c535",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/06/3a/09063a57-d5b7-0d3b-0e84-0b51dea82f81/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "极高",
    "cost_score": 4.38,
@@ -4183,7 +4375,7 @@
   "跃动小子": {
    "name": "跃动小子",
    "slug": "跃动小子_3ce254",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4313ef6514b9c7eb2f6cb22be1628307",
    "cost_level": "中",
    "cost_score": 2.62,
@@ -4208,7 +4400,7 @@
   "跟我玩桌球": {
    "name": "跟我玩桌球",
    "slug": "跟我玩桌球_19c744",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "中",
    "cost_score": 2.75,
@@ -4232,7 +4424,7 @@
   "躺平发育": {
    "name": "躺平发育",
    "slug": "躺平发育_2cfdf7",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5fcd26c17fae8f98cc7324486dac864e",
    "cost_level": "低",
    "cost_score": 2.5,
@@ -4258,7 +4450,7 @@
   "这关可真行": {
    "name": "这关可真行",
    "slug": "这关可真行_bfd9a1",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/6a880555c3163e0b3f6330ccd63cb854",
    "cost_level": "低",
    "cost_score": 2.5,
@@ -4282,7 +4474,7 @@
   "迷你世界": {
    "name": "迷你世界",
    "slug": "迷你世界_baecf1",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/f4/6f/83f46f94-95f8-fc5d-b423-b785d1a2f6e0/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg",
    "cost_level": "高",
    "cost_score": 3.75,
@@ -4306,7 +4498,7 @@
   "迷雾大陆": {
    "name": "迷雾大陆",
    "slug": "迷雾大陆_2dec3c",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "中",
    "cost_score": 3.12,
@@ -4330,7 +4522,7 @@
   "造个大英雄": {
    "name": "造个大英雄",
    "slug": "造个大英雄_9b32e0",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.38,
@@ -4354,7 +4546,7 @@
   "造化仙府": {
    "name": "造化仙府",
    "slug": "造化仙府_d5903e",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0107234bc21f91b8d57cfb07f6489014",
    "cost_level": "高",
    "cost_score": 3.75,
@@ -4379,7 +4571,7 @@
   "遗弃之地": {
    "name": "遗弃之地",
    "slug": "遗弃之地_302878",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/38/85/0e3885c7-9f22-3c39-6c96-72386db53d1a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 2.88,
@@ -4403,7 +4595,7 @@
   "部落冲突(Clash of Clans)": {
    "name": "部落冲突(Clash of Clans)",
    "slug": "部落冲突_Clash_of_Clans_3fdd45",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/52/5c/0c525cde-c876-3371-ea4b-64ea438d6dec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "极高",
    "cost_score": 4.25,
@@ -4427,7 +4619,7 @@
   "金铲铲之战": {
    "name": "金铲铲之战",
    "slug": "金铲铲之战_b42264",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/21/c4/1121c48f-c261-da92-7c73-e0ac22fe3396/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
    "cost_level": "极高",
    "cost_score": 4.25,
@@ -4451,7 +4643,7 @@
   "镇邪人": {
    "name": "镇邪人",
    "slug": "镇邪人_4b40a3",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/25/65/6f25658c-fcc3-de71-f3a4-241dfa06e569/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.38,
@@ -4475,7 +4667,7 @@
   "闪耀吧!噜咪": {
    "name": "闪耀吧!噜咪",
    "slug": "闪耀吧_噜咪_d3822b",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/1e/3a/711e3a2b-8b41-25fc-0f5d-686560ed1bb6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
    "cost_level": "中",
    "cost_score": 3.12,
@@ -4499,7 +4691,7 @@
   "随手画个轮": {
    "name": "随手画个轮",
    "slug": "随手画个轮_8a00c3",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 1.88,
@@ -4523,7 +4715,7 @@
   "飞行模拟大师": {
    "name": "飞行模拟大师",
    "slug": "飞行模拟大师_6b0737",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "低",
    "cost_score": 2.25,
@@ -4547,7 +4739,7 @@
   "龙岛异兽起源": {
    "name": "龙岛异兽起源",
    "slug": "龙岛异兽起源_61955b",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-14",
    "icon": "",
    "cost_level": "高",
    "cost_score": 3.62,
@@ -4619,6 +4811,31 @@
    "biz_opportunity": "",
    "has_biz": false
   },
+  "不停找找找": {
+   "name": "不停找找找",
+   "slug": "不停找找找_4918ee",
+   "updated_at": "",
+   "collected": false,
+   "icon": "",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "best_rank": 4,
+   "engine": "",
+   "engine_primary": "",
+   "engine_inferred": false,
+   "dimension": "",
+   "verdict": "",
+   "cost_level": "",
+   "cost_score": 0,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "",
+   "biz_internal": "",
+   "biz_opportunity": "",
+   "has_biz": false
+  },
   "Sand Blocks: Drop Puzzle": {
    "name": "Sand Blocks: Drop Puzzle",
    "slug": "Sand_Blocks_Drop_Puzzle_b07cbf",
@@ -4644,9 +4861,9 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "不停找找找": {
-   "name": "不停找找找",
-   "slug": "不停找找找_4918ee",
+  "疯狂收杂物": {
+   "name": "疯狂收杂物",
+   "slug": "疯狂收杂物_2e23ca",
    "updated_at": "",
    "collected": false,
    "icon": "",
@@ -4654,175 +4871,7 @@
     "wx/人气榜",
     "wx/畅玩榜"
    ],
-   "best_rank": 5,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "上个了车": {
-   "name": "上个了车",
-   "slug": "上个了车_f8f7f0",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/畅玩榜"
-   ],
-   "best_rank": 1,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "三界降妖录": {
-   "name": "三界降妖录",
-   "slug": "三界降妖录_baaf0a",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "douyin/畅销榜"
-   ],
-   "best_rank": 1,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "合一合": {
-   "name": "合一合",
-   "slug": "合一合_9602af",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "douyin/新游榜"
-   ],
-   "best_rank": 1,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "异人之下": {
-   "name": "异人之下",
-   "slug": "异人之下_4529d9",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "taptap/预约榜"
-   ],
-   "best_rank": 1,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "喵骑战域": {
-   "name": "喵骑战域",
-   "slug": "喵骑战域_5bfbee",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "ios/国区免费榜"
-   ],
-   "best_rank": 1,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "偷上蛋快跑": {
-   "name": "偷上蛋快跑",
-   "slug": "偷上蛋快跑_34fcb1",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜"
-   ],
-   "best_rank": 2,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "次神光之觉醒": {
-   "name": "次神光之觉醒",
-   "slug": "次神光之觉醒_e8f8df",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "douyin/畅销榜"
-   ],
-   "best_rank": 2,
+   "best_rank": 6,
    "engine": "",
    "engine_primary": "",
    "engine_inferred": false,
@@ -4845,30 +4894,6 @@
    "icon": "",
    "boards": [
     "douyin/新游榜"
-   ],
-   "best_rank": 2,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "暗影格斗传奇战场": {
-   "name": "暗影格斗传奇战场",
-   "slug": "暗影格斗传奇战场_648055",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "taptap/预约榜"
    ],
    "best_rank": 2,
    "engine": "",
@@ -4909,38 +4934,14 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "BLEACH Mirrors High【ミラハイ】": {
-   "name": "BLEACH Mirrors High【ミラハイ】",
-   "slug": "BLEACH_Mirrors_High_ミラハイ_95c645",
+  "暗影格斗传奇战场": {
+   "name": "暗影格斗传奇战场",
+   "slug": "暗影格斗传奇战场_648055",
    "updated_at": "",
    "collected": false,
    "icon": "",
    "boards": [
-    "ios/日区免费榜"
-   ],
-   "best_rank": 2,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "Bus Fever Party: バスゲーム渋滞脱出パズル": {
-   "name": "Bus Fever Party: バスゲーム渋滞脱出パズル",
-   "slug": "Bus_Fever_Party_バスゲーム渋滞脱出パズル_d9f111",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "ios/日区免费榜"
+    "taptap/预约榜"
    ],
    "best_rank": 2,
    "engine": "",
@@ -4981,30 +4982,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "大侠闯天下": {
-   "name": "大侠闯天下",
-   "slug": "大侠闯天下_16b5ca",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "douyin/新游榜"
-   ],
-   "best_rank": 3,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "喵星联盟": {
    "name": "喵星联盟",
    "slug": "喵星联盟_a823cc",
@@ -5013,30 +4990,6 @@
    "icon": "",
    "boards": [
     "douyin/新游榜"
-   ],
-   "best_rank": 3,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "7RL少女歌劇 レヴュースタァライト -The SLOT-": {
-   "name": "7RL少女歌劇 レヴュースタァライト -The SLOT-",
-   "slug": "7RL少女歌劇_レヴュースタァライト_The_SLOT_70835f",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "ios/日区免费榜"
    ],
    "best_rank": 3,
    "engine": "",
@@ -5125,14 +5078,14 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "笨兔历险记": {
-   "name": "笨兔历险记",
-   "slug": "笨兔历险记_4b412e",
+  "妖怪金手指": {
+   "name": "妖怪金手指",
+   "slug": "妖怪金手指_c36229",
    "updated_at": "",
    "collected": false,
    "icon": "",
    "boards": [
-    "douyin/新游榜"
+    "douyin/畅销榜"
    ],
    "best_rank": 4,
    "engine": "",
@@ -5152,30 +5105,6 @@
   "应征入伍": {
    "name": "应征入伍",
    "slug": "应征入伍_250068",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "taptap/预约榜"
-   ],
-   "best_rank": 4,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "变形金刚:新纪元": {
-   "name": "变形金刚:新纪元",
-   "slug": "变形金刚_新纪元_c1184b",
    "updated_at": "",
    "collected": false,
    "icon": "",
@@ -5245,14 +5174,14 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "饼干人联盟": {
-   "name": "饼干人联盟",
-   "slug": "饼干人联盟_bbbc71",
+  "毛线通关": {
+   "name": "毛线通关",
+   "slug": "毛线通关_6c569f",
    "updated_at": "",
    "collected": false,
    "icon": "",
    "boards": [
-    "taptap/预约榜"
+    "wx/人气榜"
    ],
    "best_rank": 5,
    "engine": "",
@@ -5269,14 +5198,14 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "Word Tiles - Relaxing Puzzle": {
-   "name": "Word Tiles - Relaxing Puzzle",
-   "slug": "Word_Tiles_Relaxing_Puzzle_58d11a",
+  "最牛王者": {
+   "name": "最牛王者",
+   "slug": "最牛王者_b342bb",
    "updated_at": "",
    "collected": false,
    "icon": "",
    "boards": [
-    "ios/美区免费榜"
+    "douyin/热门榜"
    ],
    "best_rank": 5,
    "engine": "",
@@ -5293,14 +5222,14 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "Dream Road: Online": {
-   "name": "Dream Road: Online",
-   "slug": "Dream_Road_Online_39d810",
+  "工匠小能手": {
+   "name": "工匠小能手",
+   "slug": "工匠小能手_ab69f1",
    "updated_at": "",
    "collected": false,
    "icon": "",
    "boards": [
-    "ios/国区免费榜"
+    "douyin/新游榜"
    ],
    "best_rank": 5,
    "engine": "",
@@ -5341,9 +5270,9 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "工匠小能手": {
-   "name": "工匠小能手",
-   "slug": "工匠小能手_ab69f1",
+  "你好大聪明": {
+   "name": "你好大聪明",
+   "slug": "你好大聪明_6d299a",
    "updated_at": "",
    "collected": false,
    "icon": "",
@@ -5494,7 +5423,31 @@
    "boards": [
     "douyin/新游榜"
    ],
-   "best_rank": 8,
+   "best_rank": 7,
+   "engine": "",
+   "engine_primary": "",
+   "engine_inferred": false,
+   "dimension": "",
+   "verdict": "",
+   "cost_level": "",
+   "cost_score": 0,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "",
+   "biz_internal": "",
+   "biz_opportunity": "",
+   "has_biz": false
+  },
+  "Manhunt: Hide & Seek": {
+   "name": "Manhunt: Hide & Seek",
+   "slug": "Manhunt_Hide_Seek_0c1805",
+   "updated_at": "",
+   "collected": false,
+   "icon": "",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "best_rank": 7,
    "engine": "",
    "engine_primary": "",
    "engine_inferred": false,
@@ -5533,9 +5486,9 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "疯狂收杂物": {
-   "name": "疯狂收杂物",
-   "slug": "疯狂收杂物_2e23ca",
+  "抱个蛋就溜": {
+   "name": "抱个蛋就溜",
+   "slug": "抱个蛋就溜_f7e184",
    "updated_at": "",
    "collected": false,
    "icon": "",
@@ -5557,14 +5510,62 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "你好大聪明": {
-   "name": "你好大聪明",
-   "slug": "你好大聪明_6d299a",
+  "佩皮之家": {
+   "name": "佩皮之家",
+   "slug": "佩皮之家_a5d317",
    "updated_at": "",
    "collected": false,
    "icon": "",
    "boards": [
     "douyin/新游榜"
+   ],
+   "best_rank": 9,
+   "engine": "",
+   "engine_primary": "",
+   "engine_inferred": false,
+   "dimension": "",
+   "verdict": "",
+   "cost_level": "",
+   "cost_score": 0,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "",
+   "biz_internal": "",
+   "biz_opportunity": "",
+   "has_biz": false
+  },
+  "花开时见你": {
+   "name": "花开时见你",
+   "slug": "花开时见你_c6f500",
+   "updated_at": "",
+   "collected": false,
+   "icon": "",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "best_rank": 9,
+   "engine": "",
+   "engine_primary": "",
+   "engine_inferred": false,
+   "dimension": "",
+   "verdict": "",
+   "cost_level": "",
+   "cost_score": 0,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "",
+   "biz_internal": "",
+   "biz_opportunity": "",
+   "has_biz": false
+  },
+  "Parking Loop": {
+   "name": "Parking Loop",
+   "slug": "Parking_Loop_516d23",
+   "updated_at": "",
+   "collected": false,
+   "icon": "",
+   "boards": [
+    "ios/美区免费榜"
    ],
    "best_rank": 9,
    "engine": "",
@@ -5605,33 +5606,9 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "欢乐战三国": {
-   "name": "欢乐战三国",
-   "slug": "欢乐战三国_f2ce87",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "douyin/畅销榜"
-   ],
-   "best_rank": 10,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "通关就这样简单": {
-   "name": "通关就这样简单",
-   "slug": "通关就这样简单_c61e6f",
+  "勇闯千关": {
+   "name": "勇闯千关",
+   "slug": "勇闯千关_13626a",
    "updated_at": "",
    "collected": false,
    "icon": "",
@@ -5677,16 +5654,64 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "BLEACH Mirrors High": {
-   "name": "BLEACH Mirrors High",
-   "slug": "BLEACH_Mirrors_High_c1c3e0",
+  "千次初见": {
+   "name": "千次初见",
+   "slug": "千次初见_71304c",
    "updated_at": "",
    "collected": false,
    "icon": "",
    "boards": [
-    "ios/美区免费榜"
+    "taptap/预约榜"
    ],
    "best_rank": 10,
+   "engine": "",
+   "engine_primary": "",
+   "engine_inferred": false,
+   "dimension": "",
+   "verdict": "",
+   "cost_level": "",
+   "cost_score": 0,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "",
+   "biz_internal": "",
+   "biz_opportunity": "",
+   "has_biz": false
+  },
+  "解不开啊": {
+   "name": "解不开啊",
+   "slug": "解不开啊_3b7dec",
+   "updated_at": "",
+   "collected": false,
+   "icon": "",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "best_rank": 11,
+   "engine": "",
+   "engine_primary": "",
+   "engine_inferred": false,
+   "dimension": "",
+   "verdict": "",
+   "cost_level": "",
+   "cost_score": 0,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "",
+   "biz_internal": "",
+   "biz_opportunity": "",
+   "has_biz": false
+  },
+  "地铁跑酷 - 光河引路灵魂赴约": {
+   "name": "地铁跑酷 - 光河引路灵魂赴约",
+   "slug": "地铁跑酷_光河引路灵魂赴约_d6cf16",
+   "updated_at": "",
+   "collected": false,
+   "icon": "",
+   "boards": [
+    "ios/国区免费榜"
+   ],
+   "best_rank": 11,
    "engine": "",
    "engine_primary": "",
    "engine_inferred": false,
@@ -5749,33 +5774,9 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "小人大作战": {
-   "name": "小人大作战",
-   "slug": "小人大作战_0ccef2",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "douyin/热门榜"
-   ],
-   "best_rank": 13,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "佩皮之家": {
-   "name": "佩皮之家",
-   "slug": "佩皮之家_a5d317",
+  "沙盒乐土冒险": {
+   "name": "沙盒乐土冒险",
+   "slug": "沙盒乐土冒险_919f8e",
    "updated_at": "",
    "collected": false,
    "icon": "",
@@ -5797,62 +5798,14 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "地铁跑酷 - 光河引路灵魂赴约": {
-   "name": "地铁跑酷 - 光河引路灵魂赴约",
-   "slug": "地铁跑酷_光河引路灵魂赴约_d6cf16",
+  "武器进化+1": {
+   "name": "武器进化+1",
+   "slug": "武器进化_1_5c9237",
    "updated_at": "",
    "collected": false,
    "icon": "",
    "boards": [
-    "ios/国区免费榜"
-   ],
-   "best_rank": 13,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "Disney Solitaire ディズニー ソリティア": {
-   "name": "Disney Solitaire ディズニー ソリティア",
-   "slug": "Disney_Solitaire_ディズニー_ソリティア_d171eb",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "ios/日区免费榜"
-   ],
-   "best_rank": 13,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "烈焰觉醒": {
-   "name": "烈焰觉醒",
-   "slug": "烈焰觉醒_b7b6ba",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "douyin/畅销榜"
+    "douyin/新游榜"
    ],
    "best_rank": 14,
    "engine": "",
@@ -5917,6 +5870,30 @@
    "biz_opportunity": "",
    "has_biz": false
   },
+  "迷你像素真实世界": {
+   "name": "迷你像素真实世界",
+   "slug": "迷你像素真实世界_48a341",
+   "updated_at": "",
+   "collected": false,
+   "icon": "",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "best_rank": 15,
+   "engine": "",
+   "engine_primary": "",
+   "engine_inferred": false,
+   "dimension": "",
+   "verdict": "",
+   "cost_level": "",
+   "cost_score": 0,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "",
+   "biz_internal": "",
+   "biz_opportunity": "",
+   "has_biz": false
+  },
   "赚钱之路": {
    "name": "赚钱之路",
    "slug": "赚钱之路_df4c9e",
@@ -5941,38 +5918,14 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "毛线通关": {
-   "name": "毛线通关",
-   "slug": "毛线通关_6c569f",
+  "别拆我台": {
+   "name": "别拆我台",
+   "slug": "别拆我台_3a48d5",
    "updated_at": "",
    "collected": false,
    "icon": "",
    "boards": [
-    "wx/人气榜"
-   ],
-   "best_rank": 16,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "武器进化+1": {
-   "name": "武器进化+1",
-   "slug": "武器进化_1_5c9237",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "douyin/新游榜"
+    "douyin/热门榜"
    ],
    "best_rank": 16,
    "engine": "",
@@ -6013,9 +5966,9 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "解不开啊": {
-   "name": "解不开啊",
-   "slug": "解不开啊_3b7dec",
+  "真实滑板模拟游戏": {
+   "name": "真实滑板模拟游戏",
+   "slug": "真实滑板模拟游戏_ce8ad0",
    "updated_at": "",
    "collected": false,
    "icon": "",
@@ -6037,16 +5990,16 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "真实滑板模拟游戏": {
-   "name": "真实滑板模拟游戏",
-   "slug": "真实滑板模拟游戏_ce8ad0",
+  "光·遇": {
+   "name": "光·遇",
+   "slug": "光_遇_cfdd19",
    "updated_at": "",
    "collected": false,
    "icon": "",
    "boards": [
-    "douyin/新游榜"
+    "ios/国区免费榜"
    ],
-   "best_rank": 18,
+   "best_rank": 17,
    "engine": "",
    "engine_primary": "",
    "engine_inferred": false,
@@ -6061,40 +6014,16 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "超超级解压": {
-   "name": "超超级解压",
-   "slug": "超超级解压_5944f0",
+  "极速赛车向前冲": {
+   "name": "极速赛车向前冲",
+   "slug": "极速赛车向前冲_b413bc",
    "updated_at": "",
    "collected": false,
    "icon": "",
    "boards": [
     "douyin/热门榜"
    ],
-   "best_rank": 19,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "勇闯水纪元": {
-   "name": "勇闯水纪元",
-   "slug": "勇闯水纪元_6ca2ca",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "douyin/新游榜"
-   ],
-   "best_rank": 19,
+   "best_rank": 18,
    "engine": "",
    "engine_primary": "",
    "engine_inferred": false,
@@ -6118,7 +6047,7 @@
    "boards": [
     "ios/日区免费榜"
    ],
-   "best_rank": 19,
+   "best_rank": 18,
    "engine": "",
    "engine_primary": "",
    "engine_inferred": false,
@@ -6142,7 +6071,31 @@
    "boards": [
     "douyin/新游榜"
    ],
-   "best_rank": 20,
+   "best_rank": 19,
+   "engine": "",
+   "engine_primary": "",
+   "engine_inferred": false,
+   "dimension": "",
+   "verdict": "",
+   "cost_level": "",
+   "cost_score": 0,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "",
+   "biz_internal": "",
+   "biz_opportunity": "",
+   "has_biz": false
+  },
+  "超自然行动组-送联动皮肤": {
+   "name": "超自然行动组-送联动皮肤",
+   "slug": "超自然行动组_送联动皮肤_01830d",
+   "updated_at": "",
+   "collected": false,
+   "icon": "",
+   "boards": [
+    "ios/国区免费榜"
+   ],
+   "best_rank": 19,
    "engine": "",
    "engine_primary": "",
    "engine_inferred": false,

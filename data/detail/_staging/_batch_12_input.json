@@ -1,0 +1,150 @@
+{
+ "batch": 12,
+ "total_batches": 12,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_12.json",
+ "games": [
+  {
+   "name": "三界降妖录",
+   "boards": [
+    "douyin/畅销榜"
+   ],
+   "ranks": {
+    "douyin/畅销榜": 18
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "广州联动网络科技有限公司",
+   "first_seen": "2026-08-31",
+   "appearances": 37,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-01T12:27:05+08:00"
+   }
+  },
+  {
+   "name": "上个了车",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 13
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "广州指望科技有限公司",
+   "first_seen": "2026-09-21",
+   "appearances": 38,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-01T12:27:01+08:00"
+   }
+  },
+  {
+   "name": "合一合",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 1
+   },
+   "category_l1": "合成",
+   "category_l2": "",
+   "publisher": "厦门营火科技有限公司",
+   "first_seen": "2026-10-25",
+   "appearances": 8,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-01T12:42:25+08:00"
+   }
+  },
+  {
+   "name": "异人之下",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "ranks": {
+    "taptap/预约榜": 1
+   },
+   "category_l1": "高画质",
+   "category_l2": "格斗、动作",
+   "publisher": "腾讯",
+   "first_seen": "2026-07-06",
+   "appearances": 60,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "异人之下",
+    "country": "cn",
+    "track_id": 6754126913,
+    "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+    "genres": [
+     "游戏",
+     "动作"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/91/3f/03913fa3-d5a3-d173-20d4-d4c372a19e76/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/3a/81/423a81a5-b812-3e67-e038-17dafb95c675/20260126152426-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-83529b01bd64279af6e9f1978c1e7c57c9b1062a-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/c3/db/4bc3db46-a1fb-eccb-5497-ac2e3545ccec/20260126152433-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-3631c8b7536d76963019e8ae4ca8e489488852ec-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/7a/4c/cf7a4cf9-4dc9-0ad7-403e-91e545054036/20260126152440-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-3b5c79b53e71bae80a155eacdd2b1b12fe27e65e-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/29/3f/8d293fab-c334-9035-2901-8030328ba5e4/20260126152446-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-f4452c4da2d45b6c7cc3b41d92a0fe46ca0f3b3a-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/8d/3b/688d3bf5-55c1-0a4e-6b43-b012c3f24cb7/20260126152452-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-209e00a73de5464f7684881bdd8336f5099f5934-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0d/55/69/0d5569e5-9b15-30d6-5ddc-f02dace18e4e/20260126152501-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-c7465a9c26d3d6445b91514af90f20ab6f403245-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/04/f8/f704f8b0-53a8-071a-1561-713b7e6255bb/20260126152507-e7eba35c-d6a0-4e5b-982c-1f66d44bb2ba-05faf0a6375ffb9b585914cd4c6f28583a0e2708-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/30/4e/13304e2b-e906-4d6e-0b2a-996ecacb0b36/_U5934_U56fe2732x2048.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7c/b9/f8/7cb9f842-4ce7-7a48-555e-46de80e011c3/_U5546_U5e97_U516d_U56fe__U00281_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/09/e2/4b09e2f6-9f23-ad76-316c-fcbed39a97d1/_U5546_U5e97_U516d_U56fe__U00282_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/3f/ea/2e3fea3a-c796-e2eb-9c2a-fbdb19b5ac9a/_U5546_U5e97_U516d_U56fe__U00283_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/09/e8/ce09e8ff-5e1d-775d-82c0-2edf9abd1829/_U5546_U5e97_U516d_U56fe__U00284_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/10/15/891015da-cb3e-da0f-7120-97155db4db49/_U5546_U5e97_U516d_U56fe__U00285_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/88/a5/ab88a55e-257e-8c8e-357b-ebfa3f2705d5/_U5546_U5e97_U516d_U56fe__U00286_U0029.jpg/626x1112bb.jpg"
+    ],
+    "description": ">>纯粹极致的3D格斗竞技体验\n>>以武术道法与民间术数为根源的招式技能\n>>沉浸式的剧情体验、全网独家的角色故事\n\n异人之下游戏是由腾讯魔方工作室群研发的3D格斗竞技新游，改编自现象级国漫IP《一人之下》。游戏以原著国漫故事为背景，将中国传统武学中变幻无穷的“动”，和传统哲学思想中的“静”相结合，打造出一款传统武学与文化相映生辉的中式格斗竞技游戏。\n\n\n—— · 极致的3D格斗体验 · ——\n更灵活的博弈机制，更多样的连段策略，\n更高的容错空间，更立体的格斗乐趣。\n\n你可以操作异人与其他玩家一试高下，感受纯粹格斗竞技的魅力！\n你可以凭借高超的格斗技巧见招拆招，让对手毫无还手之力。\n也可以通过身外身技能的组合配置出其不意，以奇致胜。\n还可以调整作战小队的出战策略，来一场“田忌赛马”！\n从无数值的PVP对战，到PVE剧情挑战，每一场战斗都会为你带来截然不同的动作体验。\n\n\n—— · 传承道术拳法的技能体系 · ——\n从身若游龙的游身八卦掌、到崩山撼岳的八极拳，   \n从周旋自如的双头蛇镖、到腾空扫射的连发火器，\n从呼雷驭电的奇门道法、到阴诡神秘的民间术数，\n千年武脉文化孕育出的锋芒，化为异人的一招一式，\n于天下会武的擂台之上交锋，\n不为决生死，只为分高下。\n\n\n—— · 沉浸式的剧情体验，全网独家的角色故事 · ——\n八奇技重现江湖，异人界风起云涌，\n甲申真相扑朔迷离，而一切皆藏于街巷之中。\n但藏于市井凡尘中的，可远不止于此——\n\n王也的燕都秘闻，陆玲珑与挚友间的羁绊故事,\n张灵玉下山后的几番纠葛，张楚岚与冯宝宝的身世谜题……\n异人之下游戏将通过电影级的运镜和细腻的叙事手法，\n将异人们那些众所周知或不为人知的故事，一一呈现在你面前。\n\n\n\n\n—— · 更多资讯请关注我们 · ——\n异人之下游戏官方网站：https://yirenzhixia.qq.com/\n异人之下游戏官网微信：异人之下游戏\n异人之下游戏官方微博：异人之下游戏\n异人之下游戏官方社区：异人之下游戏微信小程序\n异人之游戏B站动态：https://space.bilibili.com/3546572434442975",
+    "release_notes": "",
+    "file_size_bytes": 3689498624,
+    "min_os": "15.0",
+    "version": "1.0.0",
+    "release_date": "2026-12-31",
+    "rating": 0,
+    "rating_count": 0,
+    "price": "",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/cn/app/%E5%BC%82%E4%BA%BA%E4%B9%8B%E4%B8%8B/id6754126913?uo=4",
+    "fetched_at": "2026-11-01T12:42:27+08:00"
+   }
+  }
+ ]
+}

@@ -1,0 +1,313 @@
+{
+ "schema_version": 1,
+ "name": "大侠闯天下",
+ "updated_at": "2026-11-14",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州龙霆网络有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 2
+  },
+  "platform_app_ids": {
+   "douyin": "ttee1d98a0707ab30602"
+  },
+  "first_seen": "2026-07-06",
+  "appearances": 47,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "暗黑国风剪影，红黑对比 + 水墨笔触立绘，战斗为 Q 版 2D 小人",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 5,
+   "server": 4,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "放置战斗、托管 AI、抽卡、装备洗练、全服剧本、跨服竞技各是一套子系统，引擎现成但要自己搭一层能承载这些的框架",
+   "art": "47 名侠客的立绘 + 72 本秘籍图标 + 全套暗黑国风 UI，iOS 包 170MB / 安卓 122MB，属于需要成体系量产的量级",
+   "anim": "2D 骨骼或序列帧的战斗演出，技能特效靠数量堆，技术难度不高",
+   "physics": "全自动战斗，无物理模拟，站位与出手顺序都是逻辑层的事",
+   "logic": "九大流派 × 72 秘籍 × 羁绊 × 三选一随机 + 全服剧本规则，逻辑复杂度主要来自组合爆炸与平衡",
+   "data": "侠客升星、秘籍升星、装备洗练、法宝协同、挂机收益加速五条养成线叠一套经济循环，是这类产品真正的成本所在",
+   "server": "全服剧本进度、跨服竞技、帮派、好友助战都要服务端，不是纯单机放置",
+   "audio": "国风配乐 + 技能音效，无明显全语音需求"
+  },
+  "asset_notes": "2D 立绘与图标可用 AI 生图批量产出再统一修型，是这类产品最容易被 AI 降本的一环；真正的量在 47 侠客 × 72 秘籍的组合配置与平衡上，那是人力不是素材",
+  "notes": "与 TapTap 同名产品为同一款（广州龙霆网络，2026-08-25 上线，7.9 分、13 万关注）；iOS 170MB 与安卓 122MB 的差异来自资源分包。引擎与 2D 管线均未找到官方说明，按包体与品类常规推断",
+  "cost_score": 3.38,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "选流派进副本，战斗全程托管自动打，掉三本秘籍当场三选一叠羁绊；一局结束带走资源，回主城升侠客、洗装备、升秘籍，战力够了再进下一个更难的副本，卡关就下线等挂机收益。",
+  "highlights": [
+   "三选一拿秘籍的即时构筑：每局都能换一套打法，血牛、攻速、暴击在局内立刻见效，决策密度集中在开局几分钟",
+   "全托管 AI 自动走位放技能，离线也在涨战力，官方制作人直接把「睡一觉再来」写成解法，把放置的松弛感做到极致",
+   "无限流副本的随机题材（玄武门、蜀汉北伐、明末山海关、生化危机、蒸汽朋克、校园怪谈），每次进本都像开盲盒",
+   "全服剧本进度条：所有玩家一起推同一个 BOSS，个人贡献换算成奖励，给单机挂机行为套了一层集体目标"
+  ],
+  "innovations": [
+   "用「无限流」题材把 roguelike 的死亡重来合理化：失败不是惩罚，只是换一个副本继续",
+   "把 roguelike 的手操负担整个去掉，只保留构筑决策，抢的是放置用户而不是肉鸽用户 —— 这是人群层面的差异，不是玩法层面的",
+   "全服剧本让单机挂机有了集体进度与倒计时，是放置品类里少见的重社交包装"
+  ],
+  "target_user": "20-40 岁男性，武侠与网文读者，接受挂机与小额付费，讨厌手操与重复死亡",
+  "monetization": "IAP 为主：侠客抽卡、秘籍、装备洗练、月卡与成长基金；IAA 为辅（扫荡、加速、复活挂激励视频）",
+  "lifecycle": "长线运营型，靠新副本剧本、新侠客与赛季榜续命；TapTap 7.9 分属中等口碑，需要持续买量与版本更新维持"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "骨架是成熟放置卡牌，但「无限流副本 + 全自动托管 + 全服剧本」这个组合换掉了目标人群：它把 roguelike 卖给不想操作的玩家。技术成本中等（2D 为主、无物理、无实时战斗），真正的门槛是 47 侠客 + 72 秘籍 + 九流派的数值与羁绊矩阵，以及长线运营能力。框架可抄，数值矩阵抄不了。",
+  "suggestions": [
+   "保留「三选一构筑 + 全托管」，把无限流题材换成「职场副本」或「历史名场面」，用轻喜剧替代暗黑武侠，切更年轻的用户",
+   "砍掉抽卡与侠客收集，改成「固定主角 + 流派自由切换」，用赛季重置替代长线养成，压成 14 天活动",
+   "把「全服剧本进度条」单独抽出来做活动：只挂一个全服血条 + 个人贡献榜，两周上线，验证集体目标对回访的拉动"
+  ],
+  "risks": [
+   "五条养成线（侠客、秘籍、装备、法宝、挂机加速）是吞团队的黑洞，2-3 人小组做不完，做一半就是四不像",
+   "武侠放置赛道拥挤，且国内需版号、内购受未成年人付费限制，小游戏端合规成本更高",
+   "全托管会让玩家觉得「没什么可玩」，留存完全押在数值曲线上，一旦卡关就是流失点"
+  ],
+  "effort": "120–180 人日（3 前端 + 3 美术 + 2 策划 + 1 后端，约 4-5 个月）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "它打中的是「想变强但不想操作」这根神经：制作人自述做这款是因为「玩肉鸽像上班、死了就得重来」，TapTap 13 万关注说明这个诉求真实存在"
+    },
+    {
+     "lens": "用户",
+     "text": "「睡一觉再来」是它明说的解法，不需要技巧也能推进；代价是爽点全在数值跳变上，抽掉挂机收益曲线就什么都不剩"
+    },
+    {
+     "lens": "业务",
+     "text": "「三选一构筑 + 自动战斗」这一层能搬进任何有战斗的产品当轻 roguelike 活动，但九流派 + 47 侠客的养成矩阵与现有结构不兼容，必须重做"
+    },
+    {
+     "lens": "业务",
+     "text": "全服剧本进度条是现成的活动框架：不改主玩法，只挂一个全服血条 + 个人贡献榜，就能把单机行为变成集体目标，改动量最小、上限最高"
+    }
+   ],
+   "how": [
+    "只搬「全服剧本」：把一个赛季的活动包装成全服推 BOSS，个人伤害换算积分，两周上线，看参与人数与付费转化",
+    "把「三选一秘籍 + 自动战斗」做成 7 日限时副本，奖励接现有收集线，A/B 看 D3 留存与单局时长"
+   ],
+   "gain": [
+    "拿到「全服进度 + 个人贡献」的活动框架，之后每赛季换皮即用，是可沉淀的组件",
+    "用一次轻量实验验证「托管型 roguelike」在我们用户里成不成立，避免直接立项踩坑",
+    "明确不复制五条养成的数值矩阵，省下至少两个月的调优与美术量产",
+    "得到「三选一构筑」的通用卡池模板，可接到任意战斗系统上做限时玩法"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "广州龙霆网络自研自发，TapTap 已官方入驻并做线下宠粉活动，短期没有放代理的动机",
+    "可谈的是「无限流副本」题材的联动或海外版发行，但取决于对方出海计划，目前无公开信息"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "企业内训闯关",
+     "how": "把「无限流副本」换成业务场景关卡，三选一变成三条处置方案，全服剧本改成部门进度榜"
+    },
+    {
+     "scene": "网文 IP 宣发",
+     "how": "保留全自动战斗与三选一，把副本换成小说名场面，玩家挂机推剧情当追更"
+    }
+   ]
+  },
+  "summary": "全服剧本框架可搬，五条养成线不碰"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/88/68/5b886867-309e-d02b-a65b-0dfa2a725cac/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e1/f6/08/e1f6089a-2443-a276-424f-639bfd5fe2ce/_U4e3b_U56fe.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/fd/c3/52fdc3dd-f87b-d07a-51e6-d3c93e635a87/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/2d/c9/522dc996-0b46-64d5-c68b-4f959bd80897/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/f8/8d/3af88d21-fc92-6fee-7c5a-aca5d249a977/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/20/d6/9120d659-d194-16a9-64eb-1b28291a731b/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/48/0c/a8480cbd-f196-a440-5713-8917c872fa7c/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/f6/63/23f66377-c3ec-f70e-a1eb-0a2eb9e5f7a6/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/fb/e3/3efbe305-f0c9-7af4-21fd-51faed61236c/_U4e3b_U56fe.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/35/16/2a3516e6-5e8c-b825-ba75-8973445fac88/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/80/16/2180164d-d6c9-2502-cab6-6678ef58b9be/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/6f/79/146f795d-a680-e861-ec6c-bb6de7372803/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/af/9e/c4af9ec9-ce69-3bb6-18a2-319a872d5a54/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/e3/33/e5e3333a-708a-4810-6247-d9d263dd8291/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/76/58/b2765883-71f0-f9c8-6205-2f30ed93daca/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "iOS 包体 170,179,584 字节，2026-08-24 上架，评分 4.67 / 7332 条；douyin 新游榜最高第 2",
+   "level": "confirmed"
+  },
+  {
+   "claim": "TapTap 官方入驻，7.9 分、13 万关注，2026-08-25 上线",
+   "level": "confirmed"
+  },
+  {
+   "claim": "九大武学流派、72 种秘籍、47 名可招募侠客、单局最多上阵 3 人",
+   "level": "confirmed"
+  },
+  {
+   "claim": "含全服剧本活动（全服 BOSS 进度 + 关闭倒计时 + 提交凭证），见商店截图",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（无官方说明，按 2D 挂机 RPG 品类常规与包体推断）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/id6767081763",
+  "https://m.taptap.cn/app/852992",
+  "https://www.liqucn.com/yx/9379960543729.shtml",
+  "https://app.3dmgame.com/android/562189.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "大侠闯天下",
+  "country": "cn",
+  "track_id": 6767081763,
+  "seller": "Hainan Longqing Game Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "角色扮演"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/88/68/5b886867-309e-d02b-a65b-0dfa2a725cac/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e1/f6/08/e1f6089a-2443-a276-424f-639bfd5fe2ce/_U4e3b_U56fe.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/fd/c3/52fdc3dd-f87b-d07a-51e6-d3c93e635a87/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/2d/c9/522dc996-0b46-64d5-c68b-4f959bd80897/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/f8/8d/3af88d21-fc92-6fee-7c5a-aca5d249a977/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/20/d6/9120d659-d194-16a9-64eb-1b28291a731b/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/48/0c/a8480cbd-f196-a440-5713-8917c872fa7c/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/f6/63/23f66377-c3ec-f70e-a1eb-0a2eb9e5f7a6/6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/fb/e3/3efbe305-f0c9-7af4-21fd-51faed61236c/_U4e3b_U56fe.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/35/16/2a3516e6-5e8c-b825-ba75-8973445fac88/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/80/16/2180164d-d6c9-2502-cab6-6678ef58b9be/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/6f/79/146f795d-a680-e861-ec6c-bb6de7372803/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/af/9e/c4af9ec9-ce69-3bb6-18a2-319a872d5a54/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/e3/33/e5e3333a-708a-4810-6247-d9d263dd8291/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/76/58/b2765883-71f0-f9c8-6205-2f30ed93daca/6.jpg/626x1112bb.jpg"
+  ],
+  "description": "《大侠闯天下》是一款武侠题材 × 无限流副本的休闲策略养成手游。\n\n你将扮演一位被“万界系统”选中的武人，穿梭于中国历代经典事件与异界副本之中，完成系统下达的生死任务——保护不该死的人，改变不该输的仗，镇守不该破的关。\n任务失败？抹杀。任务成功？变强，然后进入下一个更疯狂的副本。\n\n这不是江湖恩怨，这是万界博弈。\n「永远在开盲盒般的副本，永远有新的活法」\n\n副本随机抽取，生死一局定：\n每次进入副本，你都不知道会抽到玄武门、蜀汉北伐、明末山海关，还是生化危机、蒸汽朋克、校园怪谈。系统会给出主任务、支线任务和隐藏结局——完成得越漂亮，奖励越离谱。\n\n抉择即命运，上瘾就在于“再开一局”：\n副本中你会不断面临三选一、随机事件、隐藏线索：\n救下这个NPC 可能触发额外任务，但也可能浪费主力输出；赌一手高阶秘籍，可能起飞，也可能暴毙。\n每一次不同选择，都会走向截然不同的结局——输了想复盘，赢了想挑战更高难度，这就是无限流的毒。\n\n◆武学养成，自由构筑◆\n- 九大武学流派（攻速、暴击、群攻、血牛、控制……）\n- 72种武功秘籍（可升星、可羁绊组合）\n- 47个可招募的侠客（每场至多上阵3人，流派搭配）\n- 超多装备、法宝（多元化养成提升你的战力）\n\n每次进入副本，你需要根据任务目标，肉鸽随机自选武功，搭配羁绊。\n想走“金刚不坏”的血牛刮痧流、“无限火力”的攻速流，还是“一刀99999”的暴击流，任你选择。\n\n◆跨服竞技 ，好友助战◆\n- 竞技系统：用你培养的武人与其他玩家对战，超多副本规则。\n- 帮派系统：加入门派，共享资源，挑战帮派专属副本。\n- 好友助战：借用好友的满星侠客通关高难副本。\n\n玩法多样化，多种PVP、PVE玩法，擂台斗法，华山论剑、排位赛、好友帮派等。",
+  "release_notes": "游戏稳定性更新优化",
+  "file_size_bytes": 170179584,
+  "min_os": "13.0",
+  "version": "1.1.2",
+  "release_date": "2026-08-24",
+  "rating": 4.66612,
+  "rating_count": 7332,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E5%A4%A7%E4%BE%A0%E9%97%AF%E5%A4%A9%E4%B8%8B/id6767081763?uo=4",
+  "fetched_at": "2026-11-01T12:58:02+08:00"
+ },
+ "slug": "大侠闯天下_16b5ca"
+}

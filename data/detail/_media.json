@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T13:04:01+08:00",
+ "updated_at": "2026-11-14T12:11:34+08:00",
  "games": {
   "赵云与阿斗": {
    "matched": true,
@@ -6715,6 +6715,200 @@
   "越玩越有戏": {
    "matched": false,
    "fetched_at": "2026-11-01T13:01:20+08:00"
+  },
+  "妖怪金手指": {
+   "matched": false,
+   "fetched_at": "2026-11-03T12:31:20+08:00"
+  },
+  "最牛王者": {
+   "matched": false,
+   "fetched_at": "2026-11-03T12:31:25+08:00"
+  },
+  "Manhunt: Hide & Seek": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "Manhunt: Hide & Seek",
+   "country": "us",
+   "track_id": 6560107504,
+   "seller": "Integrated Reality Labs, Inc.",
+   "genres": [
+    "Games",
+    "Strategy",
+    "Adventure",
+    "Social Networking"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/df/e9/efdfe90b-4563-1b35-403d-b541ce30b734/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/4f/20/a84f20e9-ed7e-527e-c885-6ab096a30803/Frame_37.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/a8/a6/2aa8a6ed-e19e-0e8b-55dd-02abe2368535/Frame_41.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/08/c5/be08c58c-3618-c7a5-7390-4a90fd1e5c66/Frame_39.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/b4/22/f2b42206-4d1d-3e1b-6f80-eb8b703dc02b/Frame_40.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/43/ee/bc/43eebcf5-c998-13f2-f95e-1a2cf8565e5f/Frame_38.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/36/82/9236829c-0f38-2c7e-8df8-43c6cdaa388d/iPad_screenshot_01.jpg/626x1112bb.jpg"
+   ],
+   "description": "Play Manhunt and Hide & Seek anywhere in the world. With extensive location finding, elevation data for buildings, custom zones, and game timers, make your play unique to your needs. Manhunt has dozens of features, making it easy to set up and enjoy.\n\n- Location tracking\n- Elevation data\n- Custom zone creation\n- Easily navigate map\n- Satellite view\n- Set custom rules\n- Manage group members and permissions\n\nReminder: Do not break any laws and be aware of your and your community's safety\n\nVisit our website for upcoming features: https://manhuntgames.com\nPrivacy Policy: https://manhuntgames.com/privacy\nTerms of Service: https://manhuntgames.com/terms\n\nDisclaimer: Continued usage of location-sharing services while the app is in the background can excessively drain battery. But do not worry, we are working deliberately to reduce this battery consumption.",
+   "release_notes": "• New Capture tab: post photos and videos to your group, share stories and catch players on camera\n• New Messages and Profile tabs\n• Moving and shrinking zones now glide smoothly on the map\n• Fixes for the most common crashes",
+   "file_size_bytes": 140622848,
+   "min_os": "16.4",
+   "version": "2.0.8",
+   "release_date": "2024-07-30",
+   "rating": 4.60792,
+   "rating_count": 1237,
+   "price": "Free",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/us/app/manhunt-hide-seek/id6560107504?uo=4",
+   "fetched_at": "2026-11-03T12:31:28+08:00"
+  },
+  "抱个蛋就溜": {
+   "matched": false,
+   "fetched_at": "2026-11-03T12:31:56+08:00"
+  },
+  "花开时见你": {
+   "matched": false,
+   "fetched_at": "2026-11-03T12:32:00+08:00"
+  },
+  "Parking Loop": {
+   "matched": false,
+   "fetched_at": "2026-11-03T12:51:15+08:00"
+  },
+  "勇闯千关": {
+   "matched": false,
+   "fetched_at": "2026-11-03T12:51:19+08:00"
+  },
+  "千次初见": {
+   "matched": false,
+   "fetched_at": "2026-11-03T12:51:48+08:00"
+  },
+  "沙盒乐土冒险": {
+   "matched": false,
+   "fetched_at": "2026-11-03T12:51:52+08:00"
+  },
+  "迷你像素真实世界": {
+   "matched": false,
+   "fetched_at": "2026-11-03T12:52:20+08:00"
+  },
+  "别拆我台": {
+   "matched": false,
+   "fetched_at": "2026-11-03T12:52:24+08:00"
+  },
+  "光·遇": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "光·遇",
+   "country": "cn",
+   "track_id": 1344733855,
+   "seller": "Hangzhou NetEase Leihuo Technology Co., Ltd.",
+   "genres": [
+    "游戏",
+    "家庭聚会",
+    "冒险"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/82/cd/9082cd0f-3f03-0a69-dda1-630e4d57ae61/AppIcon_Netease-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/d4/31/acd431e1-2ae0-6724-8dbb-82cc2c0dc728/1_U73cd_U73e0_U5b63KV.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/03/11/c2031195-127e-5ecd-11b0-7e111ed3fe1f/2_U73cd_U73e0_U5b63_U738b_U56fd_U7279_U520a.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/c4/27/35c4277a-dcca-0fee-7d0a-f1a1e4111883/3_U73cd_U73e0_U5b63_U73a9_U6cd5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/bc/d7/fdbcd7df-4ccb-0916-ab40-bc39c3779748/4_U6076_U4f5c_U5267_U4e4b_U65e5KV.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/94/31/b99431ef-1734-98d8-0cc9-3ebe20b0d268/5_U6076_U4f5c_U5267_U4e4b_U738b_U56fd_U7279_U520a-2868x1320.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5c/f7/08/5cf70836-dfd0-3149-78a9-c9a96991ceb9/1_U73cd_U73e0_U5b63KV.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/c8/24/17c824ec-a7b5-dd56-330a-3395faf647fd/2_U73cd_U73e0_U5b63_U738b_U56fd_U7279_U520a-.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/8e/34/768e3492-ffed-7257-81dc-c8a3dc28b648/3_U73cd_U73e0_U5b63_U73a9_U6cd5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/07/ac/6507acf7-4444-9b45-b580-f0429ccfc20d/4_U6076_U4f5c_U5267_U4e4b_U65e5KV.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/ff/cf/efffcfd0-1a54-9b63-91d6-eba70c739aad/5_U6076_U4f5c_U5267_U4e4b_U738b_U56fd_U7279_U520a-2732x2048.jpg/626x1112bb.jpg"
+   ],
+   "description": "这是一场拥抱自由和温暖的云端之旅。与你心爱的人们携手，在这座旷世的天空王国中翱翔，爱的力量将支持你一路前行。\n\n\n【旷世云海 天地之大随心翱翔】\n见证一个宏大而不断变化的天空王国，在如梦似幻的云海之中，随心所欲地翱翔；与云同行，与爱共鸣，在广阔的天地之间自由地追寻“飞翔”的梦想，以心为涯。\n\n\n【不期而遇 陌路之人携手前行】\n在探索广阔世界的旅途中，与来自世界各地的人们相遇、相识、相知、相助；惊喜与感动不断的体验，与陌生人相互照亮、共同前行，开启独特的社交冒险。\n\n【逐光启程 奇幻世界探索奥秘】\n心怀光明，在远古的遗迹间、在失落的国度里，寻找被漫长的时光所隐藏的秘密；在旅途中与不同的人们和奇幻世界的生物相遇，将光明传播到广阔的王国之中。\n\n【温暖相遇 重拾勇气追梦之旅】\n与心爱的人们携手，拾起勇气和信念，一起踏上奇幻而令人惊喜的社交冒险之旅；在追逐光明和梦想的旅途中，陪伴让前行之路不再孤单。\n\n\n【联系我们】\n\n- 《光·遇》官方网站：https://sky.163.com\n\n- 《光·遇》官方QQ群①：225021875\n\n- 《光·遇》官方QQ群②：680537048\n\n- 《光·遇》官方QQ群③：833748313\n\n- 《光·遇》官方QQ群④：780221815",
+   "release_notes": "【奇妙之旅：珍珠季】\n1、10月22日维护后，珍珠季开启。赛季向导将出现在云巢和遇境，旅人们可通过向导前往赛季场景；\n2、活动期间，珍珠季将带来6个全新季节任务，10月22日将先行开放前3个任务；\n3、活动期间，先祖将带来全新的季节兑换物品。\n\n【恶作剧之日】\n1、10月24日00:00:00至11月13日23:59:59，活动开启，旅人可通过遇境或云巢的活动向导传送至活动场景，场景内新增区域「巫师小学堂」；\n2、新增兑换项：魔法杖、魔女裙、小魔女发型、魔法衣架、南瓜沙发；\n3、新增内购项：诡趣魔法帽礼包、小恶魔斗篷礼包、皮皮猫肩饰礼包。\n\n【致梵高季主题小屋】\n1、新增致梵高季主题小屋，满足条件的旅人可通过重温「致梵高季」第三个任务，或穿戴披星项链前往阿尔勒小镇进行兑换；\n2、兑换小屋后，旅人可通过蓝色水晶将此处设为出生点，云巢小屋大厅新增传送门入口；\n3、新增九件致梵高季主题家具，旅人可在致梵高季主题小屋内摆放。\n\n【双十一魔法商店活动】\n1. 活动时间：11月7日00:00:00至11月13日23:59:59；\n2. 活动期间，旅人可前往遇境魔法商船或云巢魔法商店，使用蜡烛兑换双倍数量的指定魔法。\n3. 活动期间，先祖每日带来不同主题的魔法好礼，旅人可在上述地点领取。\n【版本优化】\n1. 优化旅人首次获得光翼的流程，现在需要手动获取；\n2. 优化染料合成机制，减少合成染料所需的色彩辉光数量；\n3. 优化存在感知系统中旅人的移动表现；\n4. 修复旅人打开又关闭存在感知系统后，无法坐在聊天长椅上的问题。\n【全图大蜡烛】\n10月30日00:00:00至11月05日23:59:59，全图大蜡烛开启。\n\n【双倍心火活动】\n11月14日00:00:00至11月20日23:59:59，赠送心火双倍。\n\n【每日登录福利】\n12月03日00:00:00至12月09日23:59:59，每日登录获得随机福利*1，包含有蜡烛、体型重塑、浪漫烟花、绚丽彩虹、元气满满。\n\n【活动中心】\n10月22日至11月5日开启活动：扬帆夜海 寻珠起航；\n10月24日至11月13日开启活动：魔法派对大游行。",
+   "file_size_bytes": 3294416896,
+   "min_os": "15.0",
+   "version": "0.16.7",
+   "release_date": "2019-06-20",
+   "rating": 4.72021,
+   "rating_count": 3190495,
+   "price": "免费",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/cn/app/%E5%85%89-%E9%81%87/id1344733855?uo=4",
+   "fetched_at": "2026-11-03T12:52:51+08:00"
+  },
+  "极速赛车向前冲": {
+   "matched": true,
+   "match_score": 0.915,
+   "match_name": "极速赛车向前冲！-太空车3",
+   "country": "cn",
+   "track_id": 6476737962,
+   "seller": "Shenzhen Gravity Park Technology Co., Ltd",
+   "genres": [
+    "游戏",
+    "休闲",
+    "竞速"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/8a/40/5d8a4067-0a0b-83b2-2e76-55fe534393e8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/32/f4/4d32f4bb-c1b4-e51f-8f96-fe2ff7e3a9e0/cd12823c-a2ff-469c-adce-3d5a1abde04b_5.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/d1/57/0cd1578e-fcb6-3255-cc31-204104ed7ed9/3ccec92d-be01-4497-9fd5-f2baaf886a9d_2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/bd/f8/80bdf8a7-3d26-bde7-4761-7f0ffddb009c/de59ee75-abf8-4d38-94c3-ec152ceefa7f_3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c9/bf/1f/c9bf1fce-391b-9a6a-bd47-892c69bcba57/f38c1ec7-8b4f-4187-beb2-665bcdf6d502_4.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/97/b6/5897b69b-1240-5d56-2369-2a623b8012f3/326e5159-c84e-4868-93b8-054c1c772bfc_1.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/db/70/a8db7045-49cc-422b-68b3-5fbc14df7a2d/6aa6291f-1717-4e76-9675-1d866ac7cfca_4.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/16/b0/c416b03f-da10-3282-26e9-d34c70bc4957/5a49876e-fc0c-49bf-be69-498e6901758c_2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/24/fd/6524fd23-ed70-1a8f-6bb8-227eefb45990/e6802d37-b45c-4ca9-a221-2e1499222e20_3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/04/22/4e04223e-4a14-a356-6df4-5586d35c3606/2f706080-e2c6-41c3-a825-32a14ab48274_5.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/af/6c/0faf6cc2-bcec-60b0-8f1e-dd81cf9d680d/81c55fe2-ef10-4371-abac-cb802c6a78fe_1.png/626x1112bb.jpg"
+   ],
+   "description": "《极速赛车向前冲！-太空车3》震撼来袭！作为经典“太空车”系列第三部作品，本作全面升级车辆改装、地形挑战与竞速体验，带你开启更加刺激的越野赛车冒险！\n组装你的赛车，征服十二星座赛道！\n这不只是一场速度竞赛，更是一场关于组装策略、驾驶技术与临场判断的考验。\n\n游戏设有 12 张星座主题竞速地图，每张地图都有独特的地形、障碍与通关难点。面对陡峭山坡、松软沙地、湿滑泥路或连续飞跃，单纯追求最高速度并不一定能获胜。观察赛道特性、调整零件配置，打造真正适合当前挑战的赛车。\n\n自由组装，每个零件都会影响表现\n引擎：决定速度与爬坡能力\n引擎是赛车的动力核心，影响最高速度与爬坡表现。想要征服高低起伏的山地、沙漠及其他复杂地形，强劲动力不可或缺。\n\n轮胎：提升抓地力与操控性\n不同胎面适合不同环境。选择合适的轮胎，可以减少泥地、沙地与湿滑路面造成的打滑，让过弯与加速更加稳定。\n\n悬挂：保持平衡并吸收冲击\n高性能悬挂系统可以吸收崎岖路面与跳跃落地带来的冲击，降低翻车风险，并减少动能损失。\n\n武器／推进器：创造逆转机会\n在特定关卡中获得瞬间爆发力，或在 PVP 对战中干扰对手。抓准使用时机，就有机会改变赛局。\n\n购买、解锁并升级各种零件，根据十二星座赛道、PVP 对战与限时活动的需求，灵活调整你的配置。\n\n这里没有永远最强的赛车，只有最适合当前挑战的组合。\n掌握每个零件、读懂每一条赛道，打造你的终极战车并冲向终点！\n如果您在游戏过程中遇到任何问题，欢迎联系客服：\nQQ：3605292392\n邮箱：yangjielan@xplaymobile.com",
+   "release_notes": "1 部分bug修复\n2 更新sdk",
+   "file_size_bytes": 317814784,
+   "min_os": "17.6",
+   "version": "1.8.2",
+   "release_date": "2024-03-06",
+   "rating": 4.65607,
+   "rating_count": 25386,
+   "price": "免费",
+   "advisory": "17+",
+   "url": "https://apps.apple.com/cn/app/%E6%9E%81%E9%80%9F%E8%B5%9B%E8%BD%A6%E5%90%91%E5%89%8D%E5%86%B2-%E5%A4%AA%E7%A9%BA%E8%BD%A63/id6476737962?uo=4",
+   "fetched_at": "2026-11-03T12:52:53+08:00"
+  },
+  "超自然行动组-送联动皮肤": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "超自然行动组-送联动皮肤",
+   "country": "cn",
+   "track_id": 6544797261,
+   "seller": "Giant Network Technology Co., Ltd.",
+   "genres": [
+    "游戏",
+    "社交",
+    "冒险",
+    "家庭聚会"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/61/e9/3161e9d9-f940-b5ba-9613-001e83ed7748/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c9/d3/2c/c9d32c34-e16d-ccec-ff88-ade44ed78f66/2736-1260-01.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/07/f8/1a/07f81a8e-7b14-838a-56df-1f984d2fd270/2736-1260-02.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/bf/d5/aabfd588-6ffc-cbd7-74b0-cb1ef48ba4de/2736-1260-03.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/fc/01/40fc015c-5d4e-1d9b-96df-838333154fd9/2736-1260-04.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/bc/39/ccbc396a-ca94-479a-a3fe-4233645e69da/2736-1260-05.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/d4/a5/0dd4a566-47c2-3f71-1ca7-a1321b76e9d4/2752-2064-01.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/8d/e6/898de693-5aaa-948b-012c-92f3257745c0/2752-2064-02.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/30/83/463083db-2acb-688b-c6a3-eca4149d890e/2752-2064-03.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9f/0b/86/9f0b861d-adfe-20fe-b1c6-3d79418cd525/2752-2064-04.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/83/fc/1c83fc96-fe3a-e384-40a5-2de7c9967613/2752-2064-05.png/626x1112bb.jpg"
+   ],
+   "description": "一个人玩是恐怖游戏，两个人玩是冒险游戏，三个人玩是寻宝游戏，四个人玩是搞笑游戏， 《超自然行动组》作为首款多人组队欢乐恐怖游戏，为你和你的朋友带来多种多样的游戏体验，快叫上你的“损友们”开展一场惊险刺激但又欢乐的冒险之旅哦！\n\n【新员工入职培训手册】\n欢迎加入超自然公司，这里不能摸鱼，所以这本【超自然公司职场生存指南】请收好，祝你入职愉快。\n\n1.你的主要工作职责\n你可以选择独自踏上探险之旅，也能与其他三位工友组建冒险小队，前往未知的神秘古迹，收集奇珍异宝，把这些宝贝带回来，我们会根据你的宝贝价值给你升职加薪，当然，前提是你得活着回来。\n2.你的目标——活下去\n这不是一场轻松的旅途，而是一场生死较量的探险。途中你可能直面狰狞的怪物、险象环生的陷阱，甚至迷失在错综复杂的迷宫之中。每一步都可能是你冒险的终点，所以请利用好你的生存道具。\n与你的队友多多配合，共同克服难关。记住，带着宝物活着回来，这不是公费旅游，这是你入职超自然公司的必要试炼，升职加薪，指日可待。\n\n【游戏特色】\n1.寻宝小队集结，合作冒险寻宝\n神秘区域危机四伏，与其他员工四人成行，来一场紧张刺激的探险！在合作中破解重重机关，取回传说中的奇珍异宝，快速达成目标，向着更危险的遗迹进发！\n\n2.国风场景&沉浸音效，探秘华夏古迹\n一踏入遗迹，千年时光瞬间倒回，幽暗的烛火映出石壁上各种奇怪图腾，浓厚的民族风格建筑，和各种神秘景象令人震撼不已。对讲机传来断断续续的呼救，越来越近的脚步声和角落里若有若无的低语，让人感觉到阵阵寒意。\n\n3.恐怖怪物出没，刺激追逃体验\n在感叹古文明的同时，也要注意潜在的危险！鬼新娘、狐妖、精绝女王、木偶……超多中式恐怖怪物随机出没！拿到宝藏后请迅速撤离，古墓附近还有神秘人影，碰上了千万不要惊叫出声！\n\n4.海量道具傍身，应对未知风险\n利用探索、进攻、支援三类道具，武装自己，与队友紧密合作，共同应对未知的挑战！\n\n欢迎各位工友加入超自然行动组！\n如果大家对游戏有任何想法，欢迎来联系我们：\n官网：chaoziran.com\nQ群：833907948",
+   "release_notes": "1. 员工平衡性调整\n（1）爱丽丝\n- 新增主动技能【舍己救人】：医者仁心，宁愿自己负伤，也会向同伴伸出援手。消耗自身生命值治疗队友，队友生命值较低时治疗效果翻倍，溢出的治疗量将转化为护盾。\n- 主动技能【远程急救】缩短了复活时间与冷却时间，并提高了被复活队友的血量。\n- 增强了【远程急救】的复活能力：\n①现在爱丽丝能够复活任何原因倒地的队友，尸体被销毁的队友被复活后将会回到车上。\n②被复活的队友将能够更快地起身行动。\n- 增强了【熟能生巧】的能力，现在爱丽丝能够在奔跑与跳跃中使用急救包。\n- 优化了【专业医师】对爱丽丝的治疗加成：\n①现在爱丽丝使用急救包治疗自己时同样能享受双倍的治疗效果。\n②提升了爱丽丝从音响中获得的治疗效果。\n（2）米娅\n- 降低了米娅使用【厄运赦免】减少的【恩典】的冷却时间。\n\n2. 魔盒 S12 开启！爱丽丝时装「企鹅嘟嘟」登场\n- 魔盒 S12 将在 2026 年 10 月 16 日 0 点 0 分准时开启。\n- 购买豪华魔盒，立即解锁赛季限定典藏时装「爱丽丝-企鹅嘟嘟」。\n- 提升豪华魔盒等级，可获得伞皮肤「黑天鹅悖论」，并解锁专属检视动作。 \n- 购买稀世豪华魔盒，可额外获得稀世版专属奖励：  \n①眼睛亮晶晶的可爱纸娃娃背饰「福纸团团」（含丰富表情动画）。\n②企鹅主题头像框「黑白心情」。\n③额外提升 20 级魔盒等级，立即解锁魔性舞蹈「恐龙步」。\n\n3. 新增剧情回收物\n- 新增剧情相关回收物，等待员工探索。\n\n4. 自定义布局优化\n- 自定义布局拆分为【摸金撤离】、【无限梦境】两个页签，支持分别调整对应玩法的按键布局。\n- 现在两种玩法各有三个独立的云端布局方案。\n- 新增【同步键位】功能，可将【摸金撤离】当前使用的通用按键布局同步至【无限梦境】。\n\n5. 地图更新\n- 【云南虫谷】单队行动新增了多条路线。\n\n6. 调整优化\n- 现在布布可以随时自行开关使用夜视仪。\n- 自定义布局中，窗口小地图模式下的透明度设置恢复可使用。\n- 优化了【水晶之心】的表现效果。\n\n7. 问题修复\n- 修复了特殊情况下临云被动技能【同心御敌】的【龙印】无法被友方正常叠加的问题。\n- 修复了特殊情况下莉莉被动技能【好友记】异常生效的问题。\n- 修复了部分情况下，【秦陵龙宫】磁场异常区域显示异常的问题。\n- 修复了部分聚宝盆版回收物在梦居检视异常的问题。\n- 修复了局内拍照切换表情时，出现黑线表情的问题。\n- 修复了【多队对抗-古蜀遗迹】中，销毁区域异常的问题。\n- 修复了【心蕊宝杖】提交后，还能使用多段跳的问题。\n\n8. 【无限梦境】优化调整\n- 回调了【梨园】地图极限难度和炼狱难度的撤离点数量。\n- 修复了部分情况下脱离卡死无法传送的问题。脱离时请勿移动，且会打断抓取。\n- 新增加【无限梦境】局外新手引导的【抓取怪物】、【如意】的引导项。\n- 优化了抓起怪物并进行摔打时的表现反馈。\n- 现在怪物死亡后，尸体会在一段时间后被隐藏。\n- 现在抓取物品过程中，物品碰撞不会对非好友造成伤害。\n\n9. 【绷不住乐队】优化调整\n- 优化了弱网环境下音符条的表现效果。\n- 现在玩家在乐器选择界面选择乐器时，会展示对应乐器的吹奏效果了。",
+   "file_size_bytes": 896854016,
+   "min_os": "13.0",
+   "version": "1.34.19",
+   "release_date": "2024-07-16",
+   "rating": 4.61435,
+   "rating_count": 1310603,
+   "price": "免费",
+   "advisory": "17+",
+   "url": "https://apps.apple.com/cn/app/%E8%B6%85%E8%87%AA%E7%84%B6%E8%A1%8C%E5%8A%A8%E7%BB%84-%E9%80%81%E8%81%94%E5%8A%A8%E7%9A%AE%E8%82%A4/id6544797261?uo=4",
+   "fetched_at": "2026-11-03T12:52:54+08:00"
   }
  }
 }
