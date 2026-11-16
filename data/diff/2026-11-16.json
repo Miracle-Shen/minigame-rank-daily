@@ -1,0 +1,633 @@
+{
+  "date": "2026-11-16",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "上课偷吃模拟器",
+          "category": "休闲",
+          "category_rank": 2,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx4c6dcdd1b62f2897",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 16,
+          "name": "贪吃蛇大作战",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "武汉微派网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxf4ac0077b6ffb1e7",
+          "publisher_id": 20002385
+        },
+        {
+          "rank": 18,
+          "name": "一找一个准",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "长沙指米网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx3986ff94accd31a9",
+          "publisher_id": 20002400
+        },
+        {
+          "rank": 19,
+          "name": "天天斗地主真人版",
+          "category": "棋牌",
+          "category_rank": 2,
+          "subcategory": "牌类",
+          "slogan": "",
+          "publisher": "深圳市禅游科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxb52b11c4dd14b6fc",
+          "publisher_id": 20002368
+        },
+        {
+          "rank": 20,
+          "name": "浪漫餐厅",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "北京柠檬微趣科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx087d98a0884bbe3b",
+          "publisher_id": 20012364
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "上课偷吃模拟器",
+          "category": "休闲",
+          "category_rank": 2,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx4c6dcdd1b62f2897",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "我的花园世界",
+          "category": "休闲",
+          "category_rank": 9,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "厦门麟贝互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx47e577dc5b3fde6f",
+          "publisher_id": 20192478
+        },
+        {
+          "rank": 19,
+          "name": "工匠小能手",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳市飞鸟与鱼科技开发有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxefc691ce43c6df7b",
+          "publisher_id": 20052339
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 7,
+          "name": "怀旧生活馆",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都渊界科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc476b2cb5b7f7f7702",
+          "publisher_id": 20244263
+        },
+        {
+          "rank": 17,
+          "name": "汽车特技",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "合肥毛豆网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttfe0a88b7606c061b02",
+          "publisher_id": 20292376
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "神级手速",
+          "category": "1",
+          "category_rank": 8,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta3ebd5563d8e3aae07",
+          "publisher_id": 20242355
+        },
+        {
+          "rank": 20,
+          "name": "向往的生活",
+          "category": "合成",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市必凡娱乐科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd54ea3f34a46f34a02",
+          "publisher_id": 20002362
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 7,
+          "name": "怀旧生活馆",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都渊界科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc476b2cb5b7f7f7702",
+          "publisher_id": 20244263
+        },
+        {
+          "rank": 17,
+          "name": "汽车特技",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "合肥毛豆网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttfe0a88b7606c061b02",
+          "publisher_id": 20292376
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 2,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 7,
+          "name": "怀旧生活馆",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都渊界科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc476b2cb5b7f7f7702",
+          "publisher_id": 20244263
+        },
+        {
+          "rank": 17,
+          "name": "汽车特技",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "合肥毛豆网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttfe0a88b7606c061b02",
+          "publisher_id": 20292376
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "四季合合",
+          "category": "合成",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt210457b9be35faff07",
+          "publisher_id": 20002380
+        },
+        {
+          "rank": 19,
+          "name": "手机反恐特别行动",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都疾风劲趣科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1d496bf48278820a07",
+          "publisher_id": 20052309
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 9,
+          "name": "方舟之旅",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南梦境科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt203f5682be44ee7a02",
+          "publisher_id": 20302725
+        },
+        {
+          "rank": 14,
+          "name": "就要出奇迹",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都狮子兔科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt52c52478ccbffaf807",
+          "publisher_id": 20192345
+        },
+        {
+          "rank": 15,
+          "name": "勇者历险记",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州市火幻网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt431f35a2dd6156ee02",
+          "publisher_id": 20302388
+        },
+        {
+          "rank": 17,
+          "name": "战力爬塔",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州银辉通讯科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9ad2ec6f04a8fc2207",
+          "publisher_id": 20302652
+        },
+        {
+          "rank": 19,
+          "name": "萌宠之森",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "山东闪电顺游科技发展有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb370c5cd2d15f1ee02",
+          "publisher_id": 20302721
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "方舟之旅",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南梦境科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt203f5682be44ee7a02",
+          "publisher_id": 20302725
+        },
+        {
+          "rank": 19,
+          "name": "萌宠之森",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "山东闪电顺游科技发展有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb370c5cd2d15f1ee02",
+          "publisher_id": 20302721
+        }
+      ],
+      "totals": {
+        "new_to_board": 5,
+        "returning": 0,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "方舟之旅",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南梦境科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt203f5682be44ee7a02",
+          "publisher_id": 20302725
+        },
+        {
+          "rank": 14,
+          "name": "就要出奇迹",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都狮子兔科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt52c52478ccbffaf807",
+          "publisher_id": 20192345
+        },
+        {
+          "rank": 15,
+          "name": "勇者历险记",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州市火幻网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt431f35a2dd6156ee02",
+          "publisher_id": 20302388
+        },
+        {
+          "rank": 17,
+          "name": "战力爬塔",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州银辉通讯科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9ad2ec6f04a8fc2207",
+          "publisher_id": 20302652
+        },
+        {
+          "rank": 19,
+          "name": "萌宠之森",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "山东闪电顺游科技发展有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb370c5cd2d15f1ee02",
+          "publisher_id": 20302721
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "代号：新生（TapTap测试版）",
+          "publisher": "末班车工作室",
+          "category": "射击",
+          "subcategory": "俯视角、搜打撤、多人联机、3D、动作"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "CubeAway - 3DPuzzle",
+          "publisher": "GOODROID,Inc.",
+          "category": "Games",
+          "app_id": "6760325543",
+          "url": "https://apps.apple.com/us/app/cubeaway-3dpuzzle/id6760325543?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/c7/7b/51c77bcc-fa99-7bd6-aab0-9df976598ced/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "Welcome to *CubeAway - 3DPuzzle*.\nFeaturing a simple yet beautiful design, this "
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "燕云十六声",
+          "publisher": "网易移动游戏",
+          "category": "游戏",
+          "app_id": "6475668638",
+          "url": "https://apps.apple.com/cn/app/%E7%87%95%E4%BA%91%E5%8D%81%E5%85%AD%E5%A3%B0/id6475668638?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/f4/fe/aff4fe4b-a35e-df89-cf6e-ee66850b3579/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "《燕云十六声》首次实现了“中国特色武功”与开放世界品类的融合，玩家将在充满谜题的无缝地图中，众揽天下风光，探秘海量地宫，同时偷师百家武学，身兼十八般武器，学遍太"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "Food Hunt: Pixel Puzzle",
+          "publisher": "FUNFINITY PTE. LTD",
+          "category": "ゲーム",
+          "app_id": "6769314786",
+          "url": "https://apps.apple.com/jp/app/food-hunt-pixel-puzzle/id6769314786?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/f9/bd/62f9bd96-72a1-9250-4e90-b2999b75e74f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Every level is a pixel art masterpiece. Your ants will devour it - one color at "
+        },
+        {
+          "rank": 19,
+          "name": "Fish Sort Puzzle:フィッシュソート泡を消そう",
+          "publisher": "Shycheese",
+          "category": "ゲーム",
+          "app_id": "6771681639",
+          "url": "https://apps.apple.com/jp/app/fish-sort-puzzle-%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%82%BD%E3%83%BC%E3%83%88%E6%B3%A1%E3%82%92%E6%B6%88%E3%81%9D%E3%81%86/id6771681639?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/47/d2/2647d2d3-646c-6e19-7c1f-19e6ab625e3f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "海の世界へ冒険に飛び込もう！\n魚をタップして、水槽へ泳がせましょう。各水槽に必要な魚の数が表示されるので、規定数を集めてコレクションを完成させよう！\n下段の泡を"
+        },
+        {
+          "rank": 20,
+          "name": "スキュアジャム：フードゲーム (Skewer Jam)",
+          "publisher": "Zego Global Pte Ltd",
+          "category": "ゲーム",
+          "app_id": "6752386103",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%B8%E3%83%A3%E3%83%A0-%E3%83%95%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0-skewer-jam/id6752386103?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/5e/a6/545ea635-00cc-0dea-0e10-2988891ef05f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Skewer Jam: Food Games は、グルメ好きのための dynamic なフードパズルアドベンチャー！\n\nこの串焼きパズルゲームでは、ジュージュー"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
