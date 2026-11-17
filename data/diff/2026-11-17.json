@@ -1,0 +1,743 @@
+{
+  "date": "2026-11-17",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 9,
+          "name": "我带过的最差一届正版",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx7fc4e86bd69f664a",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 19,
+          "name": "甄嬛传：归来",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx643f638c904e3ab0",
+          "publisher_id": 20002345
+        }
+      ],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "益智闯一关",
+          "category": "休闲",
+          "category_rank": 18,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州尊悦文化发展有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx954f18dfba43ffed",
+          "publisher_id": 20012336
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 19,
+          "name": "甄嬛传：归来",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx643f638c904e3ab0",
+          "publisher_id": 20002345
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 9,
+          "name": "我带过的最差一届正版",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx7fc4e86bd69f664a",
+          "publisher_id": 0
+        },
+        {
+          "rank": 19,
+          "name": "甄嬛传：归来",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx643f638c904e3ab0",
+          "publisher_id": 20002345
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [
+        {
+          "rank": 16,
+          "name": "西游灵兽纪",
+          "category": "角色",
+          "category_rank": 4,
+          "subcategory": "ARPG",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx3dc9d41b5c76df73",
+          "publisher_id": 0
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 19,
+          "name": "空格之境",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx0e0531466ba56547",
+          "publisher_id": 20244673
+        },
+        {
+          "rank": 20,
+          "name": "道友来挖宝",
+          "category": "角色",
+          "category_rank": 5,
+          "subcategory": "回合",
+          "slogan": "",
+          "publisher": "深圳雷霆信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxdad61ef7ec3b5363",
+          "publisher_id": 20192327
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 16,
+          "name": "西游灵兽纪",
+          "category": "角色",
+          "category_rank": 4,
+          "subcategory": "ARPG",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx3dc9d41b5c76df73",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 12,
+          "name": "开店赚赚赚",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5b5a2de7c52078f607",
+          "publisher_id": 20002390
+        },
+        {
+          "rank": 16,
+          "name": "美味餐厅",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门焕游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt91afe7120fc8e4be07",
+          "publisher_id": 20262427
+        },
+        {
+          "rank": 17,
+          "name": "解谜新脑洞",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都芷云心上科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf7e4815969848f9602",
+          "publisher_id": 20242315
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 4,
+          "name": "啤酒饮料矿泉水嘞",
+          "category": "1",
+          "category_rank": 4,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京起跃文化有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta5acd3113bcdb7ab02",
+          "publisher_id": 20244280
+        },
+        {
+          "rank": 15,
+          "name": "象棋达人",
+          "category": "象棋",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市一锋科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt8ae7fc5a15ddafbd",
+          "publisher_id": 20242356
+        },
+        {
+          "rank": 18,
+          "name": "天天台球",
+          "category": "体育竞技",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京喜云网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta3fdd5403cf7dc6f02",
+          "publisher_id": 20242352
+        },
+        {
+          "rank": 19,
+          "name": "染色迷宫",
+          "category": "解谜",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "天津能量工坊科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb942cfff267c1a8b02",
+          "publisher_id": 20244540
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 16,
+          "name": "美味餐厅",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门焕游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt91afe7120fc8e4be07",
+          "publisher_id": 20262427
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 4,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 12,
+          "name": "开店赚赚赚",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5b5a2de7c52078f607",
+          "publisher_id": 20002390
+        },
+        {
+          "rank": 16,
+          "name": "美味餐厅",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门焕游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt91afe7120fc8e4be07",
+          "publisher_id": 20262427
+        },
+        {
+          "rank": 17,
+          "name": "解谜新脑洞",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都芷云心上科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf7e4815969848f9602",
+          "publisher_id": 20242315
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "次神光之觉醒",
+          "category": "放置挂机",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京雪境科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf50b83b66a377fc402",
+          "publisher_id": 20242348
+        },
+        {
+          "rank": 16,
+          "name": "勇者乱斗",
+          "category": "自走棋",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州电梦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt4ffa3947d0f477c207",
+          "publisher_id": 20244649
+        },
+        {
+          "rank": 18,
+          "name": "王者之弈",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南椰路信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt1bf36d4e84fee7c002",
+          "publisher_id": 20002326
+        },
+        {
+          "rank": 20,
+          "name": "空格之境",
+          "category": "合成",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "江西启游互动科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt96a6e01b08c553f502",
+          "publisher_id": 20244673
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 15,
+          "name": "盖瑞模组大冒险",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉浔游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt28715eccb60af2b207",
+          "publisher_id": 20302350
+        },
+        {
+          "rank": 16,
+          "name": "海狼",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州予音网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttfa758cc8640d4ed602",
+          "publisher_id": 20292379
+        },
+        {
+          "rank": 19,
+          "name": "蓝方战地模拟器",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门格拇科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt0b4e7df3952f4d4607",
+          "publisher_id": 20262389
+        },
+        {
+          "rank": 20,
+          "name": "点点超解压",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都敏亿敏网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt505226efce28ebb907",
+          "publisher_id": 20232335
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "千古宠界",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州观曜信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt757403c9eb0eeb1d02",
+          "publisher_id": 20302487
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 15,
+          "name": "盖瑞模组大冒险",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉浔游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt28715eccb60af2b207",
+          "publisher_id": 20302350
+        },
+        {
+          "rank": 16,
+          "name": "海狼",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州予音网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttfa758cc8640d4ed602",
+          "publisher_id": 20292379
+        },
+        {
+          "rank": 19,
+          "name": "蓝方战地模拟器",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门格拇科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt0b4e7df3952f4d4607",
+          "publisher_id": 20262389
+        },
+        {
+          "rank": 20,
+          "name": "点点超解压",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都敏亿敏网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt505226efce28ebb907",
+          "publisher_id": 20232335
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 8,
+          "name": "花开时见你",
+          "publisher": "广州春芒网络科技有限公司",
+          "category": "模拟经营",
+          "subcategory": "种田、收集、放置、治愈"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 16,
+          "name": "Sort Streak: Color Puzzle",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "app_id": "6812166638",
+          "url": "https://apps.apple.com/us/app/sort-streak-color-puzzle/id6812166638?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/bb/9b/3ebb9b5e-540e-81a9-7b51-49383883ae02/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "SORT STREAK: COLOR PUZZLE\n\nSort, match, and arrange colorful flowers in a satisf"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 16,
+          "name": "Sort Streak: Color Puzzle",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "app_id": "6812166638",
+          "url": "https://apps.apple.com/us/app/sort-streak-color-puzzle/id6812166638?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/bb/9b/3ebb9b5e-540e-81a9-7b51-49383883ae02/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "SORT STREAK: COLOR PUZZLE\n\nSort, match, and arrange colorful flowers in a satisf"
+        }
+      ]
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "我在古代有座城",
+          "publisher": "安徽盈趣网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6821266319",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E5%9C%A8%E5%8F%A4%E4%BB%A3%E6%9C%89%E5%BA%A7%E5%9F%8E/id6821266319?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/49/70/2849701e-6f29-fd32-a291-ef9690647473/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "乱世开局，别人忙着打仗，你却开起了医馆！\n\n《我在古代有座城》是一款休闲医馆经营游戏。你将从一间破败医馆起步，救治百姓、妙手回春，面对各种疑难杂症，想方设法救活"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "我在古代有座城",
+          "publisher": "安徽盈趣网络科技有限公司",
+          "category": "游戏",
+          "app_id": "6821266319",
+          "url": "https://apps.apple.com/cn/app/%E6%88%91%E5%9C%A8%E5%8F%A4%E4%BB%A3%E6%9C%89%E5%BA%A7%E5%9F%8E/id6821266319?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/49/70/2849701e-6f29-fd32-a291-ef9690647473/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "slogan": "乱世开局，别人忙着打仗，你却开起了医馆！\n\n《我在古代有座城》是一款休闲医馆经营游戏。你将从一间破败医馆起步，救治百姓、妙手回春，面对各种疑难杂症，想方设法救活"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 10,
+          "name": "スヌーピー ゲームズ ～サクッと脳トレパズル",
+          "publisher": "TV TOKYO Communications Corporation",
+          "category": "ゲーム",
+          "app_id": "6797800901",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%8C%E3%83%BC%E3%83%94%E3%83%BC-%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA-%E3%82%B5%E3%82%AF%E3%83%83%E3%81%A8%E8%84%B3%E3%83%88%E3%83%AC%E3%83%91%E3%82%BA%E3%83%AB/id6797800901?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/9b/65/069b65bc-57b8-6ee1-59d7-78eb3be5a0da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "かわいいキャラクターたちが彩る世界で、パズルゲームを楽しもう！\nPEANUTSの魅力がつまった、シンプルで遊びやすいパズルとアクションゲームが登場。\n\nちょっと"
+        },
+        {
+          "rank": 20,
+          "name": "Cube Smash - Puzzle Game",
+          "publisher": "Combo Games",
+          "category": "ゲーム",
+          "app_id": "6786206777",
+          "url": "https://apps.apple.com/jp/app/cube-smash-puzzle-game/id6786206777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/90/44/079044c5-7bff-7785-69ad-9660da3cf61c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cube Smash is a satisfying 3D puzzle game where every tap removes matching cubes"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 10,
+          "name": "スヌーピー ゲームズ ～サクッと脳トレパズル",
+          "publisher": "TV TOKYO Communications Corporation",
+          "category": "ゲーム",
+          "app_id": "6797800901",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%8C%E3%83%BC%E3%83%94%E3%83%BC-%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA-%E3%82%B5%E3%82%AF%E3%83%83%E3%81%A8%E8%84%B3%E3%83%88%E3%83%AC%E3%83%91%E3%82%BA%E3%83%AB/id6797800901?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/9b/65/069b65bc-57b8-6ee1-59d7-78eb3be5a0da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "かわいいキャラクターたちが彩る世界で、パズルゲームを楽しもう！\nPEANUTSの魅力がつまった、シンプルで遊びやすいパズルとアクションゲームが登場。\n\nちょっと"
+        },
+        {
+          "rank": 20,
+          "name": "Cube Smash - Puzzle Game",
+          "publisher": "Combo Games",
+          "category": "ゲーム",
+          "app_id": "6786206777",
+          "url": "https://apps.apple.com/jp/app/cube-smash-puzzle-game/id6786206777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/90/44/079044c5-7bff-7785-69ad-9660da3cf61c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cube Smash is a satisfying 3D puzzle game where every tap removes matching cubes"
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 0,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 10,
+          "name": "スヌーピー ゲームズ ～サクッと脳トレパズル",
+          "publisher": "TV TOKYO Communications Corporation",
+          "category": "ゲーム",
+          "app_id": "6797800901",
+          "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%8C%E3%83%BC%E3%83%94%E3%83%BC-%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA-%E3%82%B5%E3%82%AF%E3%83%83%E3%81%A8%E8%84%B3%E3%83%88%E3%83%AC%E3%83%91%E3%82%BA%E3%83%AB/id6797800901?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/9b/65/069b65bc-57b8-6ee1-59d7-78eb3be5a0da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "かわいいキャラクターたちが彩る世界で、パズルゲームを楽しもう！\nPEANUTSの魅力がつまった、シンプルで遊びやすいパズルとアクションゲームが登場。\n\nちょっと"
+        },
+        {
+          "rank": 20,
+          "name": "Cube Smash - Puzzle Game",
+          "publisher": "Combo Games",
+          "category": "ゲーム",
+          "app_id": "6786206777",
+          "url": "https://apps.apple.com/jp/app/cube-smash-puzzle-game/id6786206777?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/90/44/079044c5-7bff-7785-69ad-9660da3cf61c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Cube Smash is a satisfying 3D puzzle game where every tap removes matching cubes"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
