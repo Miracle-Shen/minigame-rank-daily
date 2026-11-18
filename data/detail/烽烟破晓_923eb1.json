@@ -1,0 +1,303 @@
+{
+ "schema_version": 1,
+ "name": "烽烟破晓",
+ "updated_at": "2026-11-18",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "杭州云欣谷网络科技有限公司",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 8
+  },
+  "platform_app_ids": {
+   "ios": "6756720174"
+  },
+  "first_seen": "2026-11-10",
+  "appearances": 4,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2.5D",
+  "art_style": "复古传奇风 3D 低模，斜 45 度视角，UI 厚重金属质感",
+  "dims": {
+   "engine": 4,
+   "art": 4,
+   "anim": 4,
+   "physics": 2,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "同一套场景要同时支持 2.5D 与 3D 两种相机与操作逻辑，需在引擎层做双视角适配",
+   "art": "3D 场景、怪物与装备外观量很大，但走工业化套用路线，单品精度不高",
+   "anim": "十余套职业技能特效加多人同屏战斗，特效数量大但单点不复杂",
+   "physics": "只有简单碰撞与走位判定，没有刚体模拟",
+   "logic": "三职业十三技能、副本、野外 BOSS、跨服打宝、攻城，系统堆叠是主要工作量",
+   "data": "单账号长线养成加自由交易经济，数值与产出投放需要长期调控",
+   "server": "交易行、跨服匹配、行会攻城、多人同屏，服务端是真正的重头",
+   "audio": "常规 BGM 与技能音效，无语音剧情"
+  },
+  "asset_notes": "3.79GB 主要是 3D 场景与特效资源，可外包量产，但量级需要美术团队常驻，不是 AI 能补的缺口",
+  "notes": "复古传奇框架的现代重制，技术不新但工程量极大；核心难点在经济系统与服务端",
+  "cost_score": 4.0,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "选战法道三职业之一进服，野外刷怪打宝、抢 BOSS 出装备，多余的丢交易行换资源，再拿资源升战力去打跨服与攻城。没有强制日常，收益靠在线时长与抢夺。",
+  "highlights": [
+   "装备全靠爆、商城不卖数值，打到好东西的瞬间有真实的「捡到钱」感",
+   "野外随时可能被人抢，红名紫名与防卫模式让冲突自然发生，紧张感来自其他玩家而不是 AI",
+   "2.5D 与 3D 视角可自由切换，怀旧党与现代画质党能在同一款游戏里各取所需",
+   "交易行让打到的每件装备都有价格，刷怪的经济反馈即时且可计算"
+  ],
+  "innovations": [
+   "把「不卖数值加自由交易」当成产品定位而非功能，用经济系统替代付费墙做留存",
+   "单账号长线养成，明确不做滚服重置，对抗传奇类「天天开新区」的行业惯例",
+   "同一套操作逻辑下支持 2.5D 与 3D 双视角切换"
+  ],
+  "target_user": "30–45 岁男性，传奇与复古 MMO 存量用户及打金搬砖人群",
+  "monetization": "IAP 为主但刻意不卖数值：靠外观、便利性道具与交易相关服务变现；无广告",
+  "lifecycle": "长线运营，官方明确不做滚服，按单账号五年十年的尺度规划"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "MMO 的复刻成本不在玩法而在工程与运营：3.79GB 的资源量、交易行与跨服的服务端、长期的经济调控，都需要团队常驻。再加上传奇类的版号与 IP 争议、买量红海，小游戏团队进场没有胜算。",
+  "suggestions": [
+   "只借「装备全靠产出加交易行定价」的经济思路，做成单机向的刷宝加摆摊玩法，去掉多人同屏",
+   "把「不卖数值」做成活动位的宣传点：限时副本只产出、不出售，用于拉回流",
+   "若要碰复古题材，优先做单机化的打宝加合成，规避版号与服务器成本"
+  ],
+  "risks": [
+   "传奇类玩法与美术风格的版权争议长期存在，题材本身带风险",
+   "MMO 需版号与长期服务器投入，回收周期以年计",
+   "3.79GB 包体与轻量场景完全不兼容"
+  ],
+  "effort": "不适用（完整 MMO 需百人级团队与以年计的周期）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "本作用户要的是「打到的装备能卖钱」的确定性收益，这套预期建立在长线经济与真实交易上，搬进轻量产品会立刻变成空承诺"
+    },
+    {
+     "lens": "用户",
+     "text": "复古三职业的吸引力来自二十年积累的操作记忆，新用户没有这层记忆，第一小时的引导成本极高"
+    },
+    {
+     "lens": "业务",
+     "text": "壁垒是服务端工程与长期经济调控，不是某个机制；交易行、跨服、攻城每一项都是重基建，与轻量产品线直接冲突"
+    },
+    {
+     "lens": "业务",
+     "text": "题材自带版权争议与买量红海，进场等于用最贵的流量打最卷的品类，收益与风险不匹配"
+    }
+   ],
+   "how": [
+    "只取「产出即价值」的心态设计：在自有玩法做一次「限时只产出、不出售」的副本活动，两周内看回流与复访",
+    "把交易行的物价指数思路做成运营看板：监控单一资源的产出与消耗比来发现经济失衡，一周内可上线"
+   ],
+   "gain": [
+    "规避 MMO 级投入：不建服务端集群、不做跨服，省掉以年计的基建成本",
+    "拿到一套经济监控口径（产出、消耗、存量），可直接用于自有活动的资源投放校准",
+    "明确不做复古 MMO 的判断，省掉后续反复评估同题材的时间",
+    "「不卖数值」可作为活动文案资产复用，用在限时副本的宣传上"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "研发与发行都在杭州云欣谷（无疆工作室）手上，自研自发，没有代理或联运入口",
+    "唯一可谈的是买量素材与投放经验交流，但不构成合作，且对方正处公测冲量期"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "电商的限时掉落促销",
+     "how": "野外 BOSS 改成整点刷新的优惠券，抢到即得，交易行改成用户之间的券置换"
+    },
+    {
+     "scene": "企业福利平台的积分消耗",
+     "how": "装备掉落改成积分宝箱，稀有度对应福利档位，跨服改成跨部门排行"
+    }
+   ]
+  },
+  "summary": "重工程重运营的 MMO，只可借经济设计思路"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/19/01/e419013d-2db4-10f8-1579-42ab2b56d288/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/1b/6a/d41b6a2e-847e-7924-6037-ebbc7b4ce917/_U82f9_U679ciphone.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/0a/69/e60a697c-d5ed-6967-362e-6647b2975156/iPhone-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/1b/de/b71bdeb2-7826-778b-29ef-b311cef92e91/iPhone-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/54/bb/f554bb9c-ece5-b713-818e-e9e55c8c26b0/iPhone-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/b7/f5/26b7f543-7ce4-e66c-4e5b-8abedde45e74/iPhone-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/33/e5/cc33e502-43f4-5dcc-6d19-b58085f7895a/iPhone-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/e2/aa/7ee2aa73-7b6a-7914-d714-c3fcedd6dcaa/_U82f9_U679cipad.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6c/24/f5/6c24f57e-5842-ca21-564e-86ab33ef9198/ipad-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/f7/31/fef73118-14ea-8345-642d-cc43100c6f0b/ipad-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7c/ac/e8/7cace845-93fb-ca08-5193-d3d8774eee4f/ipad-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/91/59/7b915979-0709-96a7-a2ec-6984833e9e0f/ipad-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/23/e8/4723e875-7b5c-19f3-1783-7fdcf021521e/ipad-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "iOS 包体 3.79GB，版本 1.2，2026-11-09 上架，评分 4.1（376 条评价）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "无疆工作室研发、杭州云欣谷运营，版号 ISBN 978-7-498-15411-8，2026-11-13 公测",
+   "level": "confirmed"
+  },
+  {
+   "claim": "商城不直接出售数值成长资源，装备材料靠野外打宝与自由交易获取",
+   "level": "confirmed"
+  },
+  {
+   "claim": "支持 2.5D 与 3D 视角自由切换，战法道三职业共十三个技能",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎未公开，按同类国产 MMO 与双视角实现方式推断为 Unity",
+   "level": "inferred"
+  },
+  {
+   "claim": "官方明确不做频繁开新区的滚服模式，主打单账号长线养成",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/id6756720174",
+  "https://baike.baidu.com/item/%E7%83%BD%E7%83%9F%E7%A0%B4%E6%99%93",
+  "https://m.3839.com/b/191812.htm",
+  "https://app.ali213.net/aznew/781625.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "烽烟破晓",
+  "country": "cn",
+  "track_id": 6756720174,
+  "seller": "Hangzhou Yunxingu Network Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "角色扮演"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/19/01/e419013d-2db4-10f8-1579-42ab2b56d288/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/1b/6a/d41b6a2e-847e-7924-6037-ebbc7b4ce917/_U82f9_U679ciphone.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/0a/69/e60a697c-d5ed-6967-362e-6647b2975156/iPhone-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/1b/de/b71bdeb2-7826-778b-29ef-b311cef92e91/iPhone-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/54/bb/f554bb9c-ece5-b713-818e-e9e55c8c26b0/iPhone-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/b7/f5/26b7f543-7ce4-e66c-4e5b-8abedde45e74/iPhone-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/33/e5/cc33e502-43f4-5dcc-6d19-b58085f7895a/iPhone-5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/e2/aa/7ee2aa73-7b6a-7914-d714-c3fcedd6dcaa/_U82f9_U679cipad.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6c/24/f5/6c24f57e-5842-ca21-564e-86ab33ef9198/ipad-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/f7/31/fef73118-14ea-8345-642d-cc43100c6f0b/ipad-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7c/ac/e8/7cace845-93fb-ca08-5193-d3d8774eee4f/ipad-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/91/59/7b915979-0709-96a7-a2ec-6984833e9e0f/ipad-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/23/e8/4723e875-7b5c-19f3-1783-7fdcf021521e/ipad-5.jpg/626x1112bb.jpg"
+  ],
+  "description": "《烽烟破晓》摒弃了传统MMORPG中各种多余的社交元素，将经典MMO游戏中物竞天择、胜者为王的生存法则重塑至极致。在这里，实力便是一切，赢者即可通吃！我们信奉绝对公平的战场法则：真正的王座，从来只由实力加冕。所有的资源都要靠你从游戏中获得！去抢！去争！去夺！去战！叫上你的兄弟，一起找回我们当年的激情！\n\n--游戏特色--\n【复古三职，旧瓶装新酒】\n在传统战法道三职业的基础上进行全新构筑，十三个技能适配不同的战场环境，让熟练的玩家可以轻松击败战力远高于己的敌人！在这里，操作没有上限，一切皆有可能！\n\n【散人狂喜，打金党福音】\n我们会参照各类游戏，努力打造一个公平的游戏交易环境！在这里，你的努力将不再会白费，辛苦收集的资源将不再会因为工作室的涌入变得一文不值。一分耕耘，一分收获，我们将尽全力为您保驾护航！\n\n【经典风味，体验全升级】\n对标大制作MMO的视听体验，精雕细琢的现代操作体验，复古的2.5D视角与现代的3D视角可以在游戏中自由切换！无论是画质党还是怀旧党，都可以在这款游戏中享受到最舒适的用户体验！\n\n【攻城拔地，沙场觅初心】\n没有繁琐复杂的任务流程，没有不堪其扰的互动社交。在这款游戏里，你要做的便是争夺资源，提升战力，用实力去决定一切的归属！海阔凭鱼跃，天高任鸟飞！在这里，您将随心所欲，自在而行！",
+  "release_notes": "相较于上一次炽焰测试，针对大家的反馈，游戏进行了大幅度的优化：\n一、系统与操作手感优化\n1、核心操作体验专项打磨，针对大家反馈集中的开箱操作手感、自动挂机范围问题完成专项优化，开箱交互更顺滑，挂机判定范围更合理，刷本、挂机的体验感全面升级。\n2、交易行&收集系统效率升级，交易行新增细分筛选功能，找货更高效；收集系统同步优化操作逻辑，告别重复点按的烦琐。\n3、新增二级密码安全防护，账号安全再加码！新增二级密码功能，重要操作需要二次验证，为你的角色与资产再加一道安全锁，江湖闯荡更安心。\n4、精灵装备支持堆叠存放，背包减负到位！精灵装备将改为可堆叠，零散装备不再占用大量背包格子，收纳更清爽，闯荡江湖更轻便。\n二、战斗与职业深度调优\n三职业技能定向优化结合炽焰测试的战斗数据与大家的实战反馈，我们对三职业的技能定位、数值平衡与操作手感进行了一轮深度调优，各职业特色更鲜明，战斗手感更流畅：\n战士：近战生存能力、场控能力与PVP 破局能力得到全面加强，近身缠斗压制力显著提升，突进切场、正面硬刚的作战体验大幅升级。\n法师：强化远程范围控制、状态联动效果与阵地爆发输出，远程拉扯与团战输出的职业定位更加突出，施法节奏与打击反馈同步优化。\n道士：对大规模治疗与群体中毒效果进行适度收紧，换取更强的召唤作战能力、单体削弱效果与小队支援能力，功能定位更清晰，团队配合更具策略性。\n三、全维度细节体验打磨\n除此之外，界面布局、战斗反馈、交互响应等各类细节也在同步打磨优化，一点点雕琢江湖的每一处体验。",
+  "file_size_bytes": 3789074432,
+  "min_os": "15.0",
+  "version": "1.2",
+  "release_date": "2026-11-09",
+  "rating": 4.10637,
+  "rating_count": 376,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E7%83%BD%E7%83%9F%E7%A0%B4%E6%99%93/id6756720174?uo=4",
+  "fetched_at": "2026-11-15T12:23:38+08:00"
+ },
+ "slug": "烽烟破晓_923eb1"
+}

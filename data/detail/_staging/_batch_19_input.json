@@ -1,0 +1,148 @@
+{
+ "batch": 19,
+ "total_batches": 19,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_19.json",
+ "games": [
+  {
+   "name": "[777Real]スマスロ リコリス・リコイル",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 1
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Sammy Networks Co., Ltd.",
+   "first_seen": "2026-11-11",
+   "appearances": 3,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-15T12:24:07+08:00"
+   }
+  },
+  {
+   "name": "ディズニー スパークリンク・スターズ",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 11
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "coly, Inc.",
+   "first_seen": "2026-11-04",
+   "appearances": 10,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-15T12:24:10+08:00"
+   }
+  },
+  {
+   "name": "崩坏:因缘精灵",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "ranks": {
+    "taptap/预约榜": 8
+   },
+   "category_l1": "冒险",
+   "category_l2": "宠物、自走棋、崩坏、策略、3D",
+   "publisher": "miHoYo",
+   "first_seen": "2026-07-06",
+   "appearances": 54,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-21T01:09:10+08:00"
+   }
+  },
+  {
+   "name": "烽烟破晓",
+   "boards": [
+    "ios/国区免费榜"
+   ],
+   "ranks": {
+    "ios/国区免费榜": 8
+   },
+   "category_l1": "游戏",
+   "category_l2": "",
+   "publisher": "杭州云欣谷网络科技有限公司",
+   "first_seen": "2026-11-10",
+   "appearances": 4,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "烽烟破晓",
+    "country": "cn",
+    "track_id": 6756720174,
+    "seller": "Hangzhou Yunxingu Network Technology Co., Ltd.",
+    "genres": [
+     "游戏",
+     "角色扮演"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/19/01/e419013d-2db4-10f8-1579-42ab2b56d288/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/1b/6a/d41b6a2e-847e-7924-6037-ebbc7b4ce917/_U82f9_U679ciphone.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/0a/69/e60a697c-d5ed-6967-362e-6647b2975156/iPhone-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/1b/de/b71bdeb2-7826-778b-29ef-b311cef92e91/iPhone-2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/54/bb/f554bb9c-ece5-b713-818e-e9e55c8c26b0/iPhone-3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/b7/f5/26b7f543-7ce4-e66c-4e5b-8abedde45e74/iPhone-4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/33/e5/cc33e502-43f4-5dcc-6d19-b58085f7895a/iPhone-5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/e2/aa/7ee2aa73-7b6a-7914-d714-c3fcedd6dcaa/_U82f9_U679cipad.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6c/24/f5/6c24f57e-5842-ca21-564e-86ab33ef9198/ipad-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/f7/31/fef73118-14ea-8345-642d-cc43100c6f0b/ipad-2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7c/ac/e8/7cace845-93fb-ca08-5193-d3d8774eee4f/ipad-3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/91/59/7b915979-0709-96a7-a2ec-6984833e9e0f/ipad-4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/23/e8/4723e875-7b5c-19f3-1783-7fdcf021521e/ipad-5.jpg/626x1112bb.jpg"
+    ],
+    "description": "《烽烟破晓》摒弃了传统MMORPG中各种多余的社交元素，将经典MMO游戏中物竞天择、胜者为王的生存法则重塑至极致。在这里，实力便是一切，赢者即可通吃！我们信奉绝对公平的战场法则：真正的王座，从来只由实力加冕。所有的资源都要靠你从游戏中获得！去抢！去争！去夺！去战！叫上你的兄弟，一起找回我们当年的激情！\n\n--游戏特色--\n【复古三职，旧瓶装新酒】\n在传统战法道三职业的基础上进行全新构筑，十三个技能适配不同的战场环境，让熟练的玩家可以轻松击败战力远高于己的敌人！在这里，操作没有上限，一切皆有可能！\n\n【散人狂喜，打金党福音】\n我们会参照各类游戏，努力打造一个公平的游戏交易环境！在这里，你的努力将不再会白费，辛苦收集的资源将不再会因为工作室的涌入变得一文不值。一分耕耘，一分收获，我们将尽全力为您保驾护航！\n\n【经典风味，体验全升级】\n对标大制作MMO的视听体验，精雕细琢的现代操作体验，复古的2.5D视角与现代的3D视角可以在游戏中自由切换！无论是画质党还是怀旧党，都可以在这款游戏中享受到最舒适的用户体验！\n\n【攻城拔地，沙场觅初心】\n没有繁琐复杂的任务流程，没有不堪其扰的互动社交。在这款游戏里，你要做的便是争夺资源，提升战力，用实力去决定一切的归属！海阔凭鱼跃，天高任鸟飞！在这里，您将随心所欲，自在而行！",
+    "release_notes": "相较于上一次炽焰测试，针对大家的反馈，游戏进行了大幅度的优化：\n一、系统与操作手感优化\n1、核心操作体验专项打磨，针对大家反馈集中的开箱操作手感、自动挂机范围问题完成专项优化，开箱交互更顺滑，挂机判定范围更合理，刷本、挂机的体验感全面升级。\n2、交易行&收集系统效率升级，交易行新增细分筛选功能，找货更高效；收集系统同步优化操作逻辑，告别重复点按的烦琐。\n3、新增二级密码安全防护，账号安全再加码！新增二级密码功能，重要操作需要二次验证，为你的角色与资产再加一道安全锁，江湖闯荡更安心。\n4、精灵装备支持堆叠存放，背包减负到位！精灵装备将改为可堆叠，零散装备不再占用大量背包格子，收纳更清爽，闯荡江湖更轻便。\n二、战斗与职业深度调优\n三职业技能定向优化结合炽焰测试的战斗数据与大家的实战反馈，我们对三职业的技能定位、数值平衡与操作手感进行了一轮深度调优，各职业特色更鲜明，战斗手感更流畅：\n战士：近战生存能力、场控能力与PVP 破局能力得到全面加强，近身缠斗压制力显著提升，突进切场、正面硬刚的作战体验大幅升级。\n法师：强化远程范围控制、状态联动效果与阵地爆发输出，远程拉扯与团战输出的职业定位更加突出，施法节奏与打击反馈同步优化。\n道士：对大规模治疗与群体中毒效果进行适度收紧，换取更强的召唤作战能力、单体削弱效果与小队支援能力，功能定位更清晰，团队配合更具策略性。\n三、全维度细节体验打磨\n除此之外，界面布局、战斗反馈、交互响应等各类细节也在同步打磨优化，一点点雕琢江湖的每一处体验。",
+    "file_size_bytes": 3789074432,
+    "min_os": "15.0",
+    "version": "1.2",
+    "release_date": "2026-11-09",
+    "rating": 4.10637,
+    "rating_count": 376,
+    "price": "免费",
+    "advisory": "17+",
+    "url": "https://apps.apple.com/cn/app/%E7%83%BD%E7%83%9F%E7%A0%B4%E6%99%93/id6756720174?uo=4",
+    "fetched_at": "2026-11-15T12:23:38+08:00"
+   }
+  }
+ ]
+}

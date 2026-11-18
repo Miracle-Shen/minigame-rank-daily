@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T12:11:34+08:00",
+ "updated_at": "2026-11-18T12:12:49+08:00",
  "games": {
   "赵云与阿斗": {
    "matched": true,
@@ -6909,6 +6909,560 @@
    "advisory": "17+",
    "url": "https://apps.apple.com/cn/app/%E8%B6%85%E8%87%AA%E7%84%B6%E8%A1%8C%E5%8A%A8%E7%BB%84-%E9%80%81%E8%81%94%E5%8A%A8%E7%9A%AE%E8%82%A4/id6544797261?uo=4",
    "fetched_at": "2026-11-03T12:52:54+08:00"
+  },
+  "整理师竞争": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:23:03+08:00"
+  },
+  "精灵物语": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:23:07+08:00"
+  },
+  "饥困荒野": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "饥困荒野",
+   "country": "cn",
+   "track_id": 6479747214,
+   "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+   "genres": [
+    "游戏",
+    "角色扮演",
+    "冒险"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/92/b5/0292b584-f4c5-6a6f-4c04-a395479babf8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/fe/6d/e6fe6d42-eea7-8b87-1156-8d0510da34f9/234f396c-85f3-46dd-8dee-ae96c35d2365_20240418110222-4fdfa73c-97c1-4df3-9374-db21c109e821-6384936-1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/54/8b/22548bb6-60c5-1a4b-e3a1-42c4dc909a8b/52a73a1f-bace-41d1-bb44-2205b3142064_20240418110228-4fdfa73c-97c1-4df3-9374-db21c109e821-6384934-1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/17/99/2617991e-3258-61dc-2d90-fed3acbc0384/885669f2-ad73-4a62-9247-9943d31c66dc_20240418110235-4fdfa73c-97c1-4df3-9374-db21c109e821-6384932-1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/36/e4/3736e470-e889-04cd-b4b6-7867452e1e22/3b882808-2195-4d26-81c1-5db74d9f37f9_20240418110241-4fdfa73c-97c1-4df3-9374-db21c109e821-6384933-1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/a7/01/65a701c7-5a0e-1628-998f-41eb1ed12de9/a70410a0-12fb-4742-93f4-7e4b90abaeef_20240418110247-4fdfa73c-97c1-4df3-9374-db21c109e821-6384935-1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/c1/0e/10c10ec1-6c55-119f-cdcf-8735411a1c5e/9bbefad8-e2f8-48d1-b63a-267cda1ddc6b_20240418110223-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384945-1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0e/9f/7f/0e9f7f50-d637-0808-bf11-98e351b4ca45/edc4f849-9e97-4aed-a10b-bc40c4197936_20240418110229-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384946-1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/dc/3c/d8dc3ced-fb99-6f67-af4b-477de3067e32/7ad14891-27a1-4fb1-997b-3c22946ec4ef_20240418110236-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384942-1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/3f/ed/843fede6-293d-d731-2ced-391be4719100/8c0542b9-7d68-4d97-a78d-e95fcbfac160_20240418110242-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384943-1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/87/ff/cf87ff01-9d0d-ca6d-6a58-d3e62f0fafa4/cb5fe420-0425-4c15-970b-20ed19127f87_20240418110248-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384944-1.jpg/626x1112bb.jpg"
+   ],
+   "description": "《饥困荒野》获得Klei正版授权，是以经典PC游戏“饥荒：联机版”为基础开发的全新沙盒生存类手游，冒险家们将从这里进入一个未经探索的奇幻世界，开启一段超高自由度的探索、挑战、生存与成长之旅。这里充满了奇怪的生物以及隐藏的危险，你将需要持续探索世界、收集资源、制作工具、击败怪物，解开古老而神秘的谜团，体验一次又一次刺激而欢乐的求生历程。你可以叫上伙伴们一起并肩作战，共同克服未来的难题，在这个自由沙盒的世界中一起战斗、收集、建设和探索吧！\n\n【经典焕新，端游玩法完美还原】\n手游复刻了原汁原味的“饥荒”联机版端游玩法，可以在手机上随时随地体验。\n\n【胡闹生存：明天和意外，谁知道哪个先来】\n奇怪的生物，旧神的秘密，饱腹的食物，所有你看得见的东西都有可能成为夺取你生命的陷阱，你可以精心筹划策略应对，也可以靠奇思妙想来化解，都是属于你的生存哲学，无论如何，请谨记一点：“在黑夜来临之前，你最好先吃点东西！”\n\n【自由探索：一千种死法，一万种活法】\n森林、沙漠、草原、雪地、沼泽、洞穴、海面…数不清的资源和未知的危险并存，随着四季的轮转，大自然会给你应有的回馈，可以选择战斗探索，也可以选择耕田采集烹饪，只要能守住三维的底线就是这里的法则。毕竟“生命带来痛苦，痛苦带来生命”。\n\n【欢乐联机：努力稳定朋友的精神状态】\n危机四伏？拉上你信赖的探险伙伴！在夜晚的篝火边轮流守夜，看用啥能驱散四周诡异的怪影。遇到打不过的怪物？那就跑呀！“我感到无尽的空虚。”不，你不会。\n\n【哥特微恐：荒诞世界的独特画风】\n由哥特风格装饰的暗黑超自然世界里，古老的神庙被藤蔓覆盖，满月升起制造着危机，各式各样的诡计防不胜防，还有不断复活的雕像，都在等你开始永恒的生存之旅，但“没有药膏可以缓解存在的痛苦”不是吗。\n\n【家园经营：精心布置，打造你的温馨小家】\n是卷上天的花园，还是无敌的堡垒，打造专属于自己的庇护所，“我可不允许我的午餐跑来跑去。抓住它们！”",
+   "release_notes": "修复部分已知问题",
+   "file_size_bytes": 3821768704,
+   "min_os": "14.0",
+   "version": "1.29.1",
+   "release_date": "2026-11-24",
+   "rating": 0,
+   "rating_count": 0,
+   "price": "",
+   "advisory": "12+",
+   "url": "https://apps.apple.com/cn/app/%E9%A5%A5%E5%9B%B0%E8%8D%92%E9%87%8E/id6479747214?uo=4",
+   "fetched_at": "2026-11-15T12:23:34+08:00"
+  },
+  "超级整理师 - 找一找隐藏的物品": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "超级整理师 - 找一找隐藏的物品",
+   "country": "cn",
+   "track_id": 6824357074,
+   "seller": "AkerSun  Technology Co.,Ltd.",
+   "genres": [
+    "游戏",
+    "休闲",
+    "益智解谜"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/d0/59/4bd0592d-9130-36b0-5b3d-fb6037bfc1e8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/ff/b1/09ffb1ec-1a42-6118-e433-309f1d46bd24/publicity-3767-589a04fad50ec7c7cfd7cbb84c898bd4b9bb0e8c31abb71e51473cee04045f2c.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/3e/ea/e33eea0f-ddb2-ddcd-853f-d2b22e45d6b8/publicity-3767-b623157c422c77c8c3187527d4622147d9f9b992c1dd535220e70a7a25580348.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/47/37/9a47372e-bf81-9476-bf9c-d2a6b7ff148a/publicity-3767-60d210c0acd923c4ad692521415ee37ff16eefb56aaa1e505acf7e19c2d67372.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/94/4b/06944b62-1db5-002a-acc4-4319223dff81/publicity-3767-649b2533c7a76e5115324a90705b5f2e0914d15d44574051d9002460ff99685b.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/58/87/9e5887e4-dde5-a5f0-5c9b-74f28b2b99b7/publicity-3767-01bc8deafa37e46562c88412b302e35a04660fcffd20db25b59f54a5e4283fe9.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/5c/51/445c51a2-c115-d85f-0b2b-2419510472a0/publicity-3767-a7e12abaecb3e80be643db5884510d29908edbbc0a92f8c48ae94fe8e0c37825.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/49/08/f349081c-4296-5735-1d31-62a1972a2030/publicity-3767-9bbffa3ed0655c874a6b03b05b62d0b251307e24dddf0c6c5720a8ff6f59db34.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/04/0e/e2040ed0-e74c-1e76-8cbb-30fd340c8699/publicity-3767-20dd700f316b734d2210b858d5cc46cffb0872ef12689837b8480b35bafa21a0.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/f0/49/f5f04926-879f-08e0-f69a-ac9e908d7680/publicity-3767-04c28537d8383f285f4f5f5f293cc619fb5f0094682597c3d5cce57812f803a2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/8c/1e/868c1e3a-9a60-625c-79c0-274d63c7e602/publicity-3767-aa8669a1f9872a02f29a57e274cbd8f8419e824352b7829a59bb968b66cdf3fe.png/626x1112bb.jpg"
+   ],
+   "description": "房间乱成小山？用指尖把散落的物品一件件收回上方的物品栏，体验那种从凌乱到有序的满足感。\n\n把注意力放回当下：用手指点选房间中的各类物品，将它们整理到上方的目标栏里。顶部会实时显示当前要收集的品类与数量，按要求收齐即完成本轮整理；若暂存区满了，就需要更谨慎地安排顺序。\n\n你会喜欢这些细节：简洁明了的目标提示让每一次点击都有方向感；暂存空间带来的压迫感，会让节奏更紧凑但不失趣味；\n\n清新可爱的场景插画（客厅、泳池、电影院、办公室、食堂等）让每一轮整理都像翻阅一个生活小画板。轻快的上手节奏适合碎片时间——无须复杂操作，直观的点选与即时反馈带来持续的成就感。\n\n每一关目标略有差异，既有放松的整理乐趣，也有需要思考的收集安排。如果想在空闲时刻找点成就感、放松情绪或单纯享受整理过程，这里是不错的指尖消遣。\n\n准备好开始整理了吗？来一次清爽的收纳体验吧。",
+   "release_notes": "- 关卡扩充，新关卡现已上线",
+   "file_size_bytes": 329512960,
+   "min_os": "15.0",
+   "version": "1.2",
+   "release_date": "2026-11-02",
+   "rating": 4.68111,
+   "rating_count": 2192,
+   "price": "免费",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E6%95%B4%E7%90%86%E5%B8%88-%E6%89%BE%E4%B8%80%E6%89%BE%E9%9A%90%E8%97%8F%E7%9A%84%E7%89%A9%E5%93%81/id6824357074?uo=4",
+   "fetched_at": "2026-11-15T12:23:36+08:00"
+  },
+  "烽烟破晓": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "烽烟破晓",
+   "country": "cn",
+   "track_id": 6756720174,
+   "seller": "Hangzhou Yunxingu Network Technology Co., Ltd.",
+   "genres": [
+    "游戏",
+    "角色扮演"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/19/01/e419013d-2db4-10f8-1579-42ab2b56d288/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/1b/6a/d41b6a2e-847e-7924-6037-ebbc7b4ce917/_U82f9_U679ciphone.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/0a/69/e60a697c-d5ed-6967-362e-6647b2975156/iPhone-1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/1b/de/b71bdeb2-7826-778b-29ef-b311cef92e91/iPhone-2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/54/bb/f554bb9c-ece5-b713-818e-e9e55c8c26b0/iPhone-3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/b7/f5/26b7f543-7ce4-e66c-4e5b-8abedde45e74/iPhone-4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/33/e5/cc33e502-43f4-5dcc-6d19-b58085f7895a/iPhone-5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/e2/aa/7ee2aa73-7b6a-7914-d714-c3fcedd6dcaa/_U82f9_U679cipad.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6c/24/f5/6c24f57e-5842-ca21-564e-86ab33ef9198/ipad-1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/f7/31/fef73118-14ea-8345-642d-cc43100c6f0b/ipad-2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7c/ac/e8/7cace845-93fb-ca08-5193-d3d8774eee4f/ipad-3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/91/59/7b915979-0709-96a7-a2ec-6984833e9e0f/ipad-4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/23/e8/4723e875-7b5c-19f3-1783-7fdcf021521e/ipad-5.jpg/626x1112bb.jpg"
+   ],
+   "description": "《烽烟破晓》摒弃了传统MMORPG中各种多余的社交元素，将经典MMO游戏中物竞天择、胜者为王的生存法则重塑至极致。在这里，实力便是一切，赢者即可通吃！我们信奉绝对公平的战场法则：真正的王座，从来只由实力加冕。所有的资源都要靠你从游戏中获得！去抢！去争！去夺！去战！叫上你的兄弟，一起找回我们当年的激情！\n\n--游戏特色--\n【复古三职，旧瓶装新酒】\n在传统战法道三职业的基础上进行全新构筑，十三个技能适配不同的战场环境，让熟练的玩家可以轻松击败战力远高于己的敌人！在这里，操作没有上限，一切皆有可能！\n\n【散人狂喜，打金党福音】\n我们会参照各类游戏，努力打造一个公平的游戏交易环境！在这里，你的努力将不再会白费，辛苦收集的资源将不再会因为工作室的涌入变得一文不值。一分耕耘，一分收获，我们将尽全力为您保驾护航！\n\n【经典风味，体验全升级】\n对标大制作MMO的视听体验，精雕细琢的现代操作体验，复古的2.5D视角与现代的3D视角可以在游戏中自由切换！无论是画质党还是怀旧党，都可以在这款游戏中享受到最舒适的用户体验！\n\n【攻城拔地，沙场觅初心】\n没有繁琐复杂的任务流程，没有不堪其扰的互动社交。在这款游戏里，你要做的便是争夺资源，提升战力，用实力去决定一切的归属！海阔凭鱼跃，天高任鸟飞！在这里，您将随心所欲，自在而行！",
+   "release_notes": "相较于上一次炽焰测试，针对大家的反馈，游戏进行了大幅度的优化：\n一、系统与操作手感优化\n1、核心操作体验专项打磨，针对大家反馈集中的开箱操作手感、自动挂机范围问题完成专项优化，开箱交互更顺滑，挂机判定范围更合理，刷本、挂机的体验感全面升级。\n2、交易行&收集系统效率升级，交易行新增细分筛选功能，找货更高效；收集系统同步优化操作逻辑，告别重复点按的烦琐。\n3、新增二级密码安全防护，账号安全再加码！新增二级密码功能，重要操作需要二次验证，为你的角色与资产再加一道安全锁，江湖闯荡更安心。\n4、精灵装备支持堆叠存放，背包减负到位！精灵装备将改为可堆叠，零散装备不再占用大量背包格子，收纳更清爽，闯荡江湖更轻便。\n二、战斗与职业深度调优\n三职业技能定向优化结合炽焰测试的战斗数据与大家的实战反馈，我们对三职业的技能定位、数值平衡与操作手感进行了一轮深度调优，各职业特色更鲜明，战斗手感更流畅：\n战士：近战生存能力、场控能力与PVP 破局能力得到全面加强，近身缠斗压制力显著提升，突进切场、正面硬刚的作战体验大幅升级。\n法师：强化远程范围控制、状态联动效果与阵地爆发输出，远程拉扯与团战输出的职业定位更加突出，施法节奏与打击反馈同步优化。\n道士：对大规模治疗与群体中毒效果进行适度收紧，换取更强的召唤作战能力、单体削弱效果与小队支援能力，功能定位更清晰，团队配合更具策略性。\n三、全维度细节体验打磨\n除此之外，界面布局、战斗反馈、交互响应等各类细节也在同步打磨优化，一点点雕琢江湖的每一处体验。",
+   "file_size_bytes": 3789074432,
+   "min_os": "15.0",
+   "version": "1.2",
+   "release_date": "2026-11-09",
+   "rating": 4.10637,
+   "rating_count": 376,
+   "price": "免费",
+   "advisory": "17+",
+   "url": "https://apps.apple.com/cn/app/%E7%83%BD%E7%83%9F%E7%A0%B4%E6%99%93/id6756720174?uo=4",
+   "fetched_at": "2026-11-15T12:23:38+08:00"
+  },
+  "[777Real]スマスロ リコリス・リコイル": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:24:07+08:00"
+  },
+  "ディズニー スパークリンク・スターズ": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:24:10+08:00"
+  },
+  "极限火柴人": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:24:14+08:00"
+  },
+  "拦住来犯": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:24:43+08:00"
+  },
+  "熊出没之熊大快跑 - 顶富玩家首选正版跑酷手游": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "熊出没之熊大快跑 - 顶富玩家首选正版跑酷手游",
+   "country": "cn",
+   "track_id": 897841116,
+   "seller": "Hefei Letangdongman Information Technology Co., Ltd",
+   "genres": [
+    "游戏",
+    "动作",
+    "冒险",
+    "体育"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/94/e6/ef94e6c4-991e-a4fd-f771-0f71c038130b/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/58/4d/41/584d41b7-2439-0933-eb4f-0f07ce891d52/1290-2796-1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/5d/b6/1f5db6d6-8db0-1cde-b7e3-c17601fdfbe3/1290-2796-2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/76/cf/6f76cf88-a972-b0cb-9f6e-c06b433b56c0/1290-2796-3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/01/7f/bd017f6b-0c50-b42e-6213-17d8b8f163b9/1290-2796-4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/e5/c8/66e5c8d2-0f65-e411-387f-11f1dd520f52/1290-2796-5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/7f/f5/507ff5e3-1b85-172e-c567-316bd9d7cd61/2048-2732-1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/09/1d/b1091d5d-18b3-cd72-b635-13c2609cdccb/2048-2732-2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/14/fb/dc14fb57-e027-77af-0f9c-d55a8976d697/2048-2732-3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/07/f9/bc07f981-9d60-348c-06da-6016a0138e0b/2048-2732-4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/0c/71/750c71db-b267-0777-6e06-6504e140db3a/2048-2732-5.jpg/626x1112bb.jpg"
+   ],
+   "description": "春日森林焕新，熊大熊二引领跑酷新纪元！全新版本重磅来袭，带来颠覆性全面升级。\n【视觉革新 沉浸体验】\nUI 界面全量重构，彻底告别旧版粗糙简陋。采用全新圆润森林风设计，色彩温润护眼。核心功能一站式集成底部导航，实现真・单手流畅操作，视觉与手感双重飞跃。\n【限定角色 惊喜登场】\n电玩熊大、恐龙熊二两大新纪元限定角色重磅上线！经典萌宠换装玩法全面焕新，海量造型任你挑选，打造专属熊大熊二。\n【全新玩法 热血来袭】\n1V1 实时分数赛开启，七大丛林段位等你冲榜；三档通行证解锁海量福利；金币盲盒 80 抽保底限定角色；可创建或加入工会，每日签到领专属奖励，组队开黑并肩作战。\n【贴心升级 福利不停】\n全新云端账号系统，存档自动同步服务器，换设备再也不丢进度。节日专属签到活动同步开启，连续 7 天登录解锁限定大奖！",
+   "release_notes": "1、修复已知版本的BUG\n2、优化用户体验和操作\n3、优化机型运行适配",
+   "file_size_bytes": 470437888,
+   "min_os": "12.0",
+   "version": "1.9.7",
+   "release_date": "2014-09-25",
+   "rating": 4.20162,
+   "rating_count": 24249,
+   "price": "免费",
+   "advisory": "9+",
+   "url": "https://apps.apple.com/cn/app/%E7%86%8A%E5%87%BA%E6%B2%A1%E4%B9%8B%E7%86%8A%E5%A4%A7%E5%BF%AB%E8%B7%91-%E9%A1%B6%E5%AF%8C%E7%8E%A9%E5%AE%B6%E9%A6%96%E9%80%89%E6%AD%A3%E7%89%88%E8%B7%91%E9%85%B7%E6%89%8B%E6%B8%B8/id897841116?uo=4",
+   "fetched_at": "2026-11-15T12:24:44+08:00"
+  },
+  "全民飞车王": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:24:48+08:00"
+  },
+  "怪物合成进化": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:24:52+08:00"
+  },
+  "Warline: スナイパー": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:24:56+08:00"
+  },
+  "百变魔方益智": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:25:00+08:00"
+  },
+  "占城大师": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:25:04+08:00"
+  },
+  "无尽火线": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:25:07+08:00"
+  },
+  "消除小火锅": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:42:05+08:00"
+  },
+  "我要考眼力": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:42:34+08:00"
+  },
+  "Bus Fever Party! バス渋滞脱出": {
+   "matched": true,
+   "match_score": 0.938,
+   "match_name": "Bus Fever Party!",
+   "country": "us",
+   "track_id": 6746743297,
+   "seller": "Faith Mobile Limited",
+   "genres": [
+    "Games",
+    "Puzzle",
+    "Casual"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/dd/6e/acdd6e9e-de12-21f1-716a-4aa68560f4b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c9/c2/3c/c9c23c3a-0bee-6e18-883a-0f22b655feb4/_U753b_U677f_1.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/b3/94/efb394f3-01b4-6bb0-05dc-994044ef9298/_U753b_U677f_2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/a1/80/69a18048-f881-ff8b-7a4f-d2097350f246/_U753b_U677f_3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/db/a4/e6dba4b4-4b14-339d-0a03-271804db6abf/_U753b_U677f_4.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/e4/c9/13e4c9dd-105e-100b-6a93-0c5b4df082ef/_U753b_U677f_5.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5c/cd/63/5ccd6368-bf89-7aed-3489-96cb48abf068/_U753b_U677f_1.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/b2/c1/f9b2c1e3-c76d-bcce-58d8-166c412d3824/_U753b_U677f_2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/dd/91/70dd91aa-e09c-bbbc-a45d-cde8d91c4bfc/_U753b_U677f_3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/70/4c/69704cb7-cd30-66f7-337e-df2d9b7dd80c/_U753b_U677f_4.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/c1/be/cfc1be63-8eea-417b-c594-c9695dd28ee6/_U753b_U677f_5.png/626x1112bb.jpg"
+   ],
+   "description": "Get ready for a thrilling bus escape game adventure!\nTackle the challenging traffic jams, escape tricky parking spots, and master every level in this addictive bus escape traffic jam puzzle. Can you sort, match, and park every bus to clear the road and become the city's bus fever driving master?\n\nHow to Play\n• Tap and move buses to open up space in your bus fever adventure.\n• Match passengers to the right buses by colors.\n• Efficiently park each bus, avoid obstacles, and keep traffic flowing.\n\nUse your brainpower to solve unique bus escape puzzles that combine logic, strategy, and fun!\n\nGame Features:\n• Fun and engaging bus game with loads of traffic jam puzzles.\n• Hundreds of bus fever puzzles to challenge your mind.\n• Addictive parking, sorting and matching gameplay—easy to play, tough to master.\n• Exciting boosters help you clear traffic jam and escape faster.\n• Bright visuals and satisfying bus fever mechanics.\n• Play offline anytime, anywhere—your exciting bus fever traffic jam puzzle adventure goes with you!\n\nWhether you're a fan of classic bus games, love solving traffic jams, or seek special bus escape challenges, this puzzle has it all. Sharpen your skills sorting, matching, and parking to become the ultimate traffic jam master!\n\nDownload now and see if you can solve every bus jam, escape every parking trap, and match your way to bus fever success!\n\nCustomer Service Contact Tel: +86-17812725345\nEmail: lumigamesteam@outlook.com\nPrivacy Policy: https://sites.google.com/view/ios-pp-lumigame/\nEnd User License Agreement: https://sites.google.com/view/eula-of-faithmobilelimited/",
+   "release_notes": "1.Bug fixes \n2.performance improvements",
+   "file_size_bytes": 495843328,
+   "min_os": "15.0",
+   "version": "1.3.6",
+   "release_date": "2025-06-13",
+   "rating": 4.67546,
+   "rating_count": 28317,
+   "price": "Free",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/us/app/bus-fever-party/id6746743297?uo=4",
+   "fetched_at": "2026-11-15T12:42:37+08:00"
+  },
+  "深渊之歌": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:42:40+08:00"
+  },
+  "Cutie Sort - ねこソート かわいい色分けゲーム": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:43:09+08:00"
+  },
+  "道友来挖宝": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:43:13+08:00"
+  },
+  "对子乐消消": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:43:42+08:00"
+  },
+  "镇魂街王者归来": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "镇魂街王者归来",
+   "country": "cn",
+   "track_id": 6805339748,
+   "seller": "Shanghai Aurora Technology Co., Ltd.",
+   "genres": [
+    "游戏",
+    "动作",
+    "角色扮演"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/84/72/f6847258-c837-6cdd-c494-71f597019284/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/48/b7/8e48b72c-5e02-ff05-fbae-c1fe8c2c50c2/_U9547_U9b42_U8857IOS_U4e94_U56fe_2622x1206__U9996_U56fe.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/d0/de/0fd0de47-2ddc-8fbb-91e6-1de115f9f66e/_U9547_U9b42_U8857IOS_U4e94_U56fe_2622x1206__U9ad8_U71c3_U6218_U6597.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/fa/24/d6fa247b-877c-05ff-ea4d-aa0546697de2/_U9547_U9b42_U8857IOS_U4e94_U56fe_2622x1206__U56de_U5fc6_U76f4_U51fb.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/ea/4e/86ea4efa-342f-b8d6-1f87-95bfe41ef885/_U9547_U9b42_U8857IOS_U4e94_U56fe_2622x1206__U7834_U754c_U7f8e_U5b66.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/19/3e/f5193ee4-173a-11b3-f676-9c5e3fd96004/_U9547_U9b42_U8857IOS_U4e94_U56fe_2622x1206__U7ec4_U961f_U96c6_U7ed3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/d2/6f/d2d26f5c-aac2-05d7-9214-50e0624d08e9/_U9547_U9b42_U8857IOS_U4e94_U56fe__U9996_U56fe_2752x2064.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/ee/92/19ee9258-fd4c-30d8-6da2-2f1d25f63c73/_U9547_U9b42_U8857IOS_U4e94_U56fe__U9ad8_U71c3_U6218_U6597_2732x2048.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/a0/cc/62a0cc3c-9964-4e41-b79c-7f420cd1001d/_U9547_U9b42_U8857IOS_U4e94_U56fe__U56de_U5fc6_U76f4_U51fb_2732x2048.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/6d/e7/c26de7ed-64f8-dc9b-12ff-16aa7064f7ef/_U9547_U9b42_U8857IOS_U4e94_U56fe__U7834_U754c_U7f8e_U5b66_2752x2064.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/01/85/0601858c-63de-ba60-5e6c-9f1cfa13ac78/_U9547_U9b42_U8857IOS_U4e94_U56fe__U7ec4_U961f_U96c6_U7ed3_2752x2064.jpg/626x1112bb.jpg"
+   ],
+   "description": "《镇魂街王者归来》是一款基于热门国漫IP授权的动作手游。游戏以国潮复古美术重塑灵域大世界，经典场景罗刹街焕新再现，视觉表现全面升级！在这里，玩家将沉浸式重温高光剧情，亲历守护灵觉醒的震撼瞬间，再续那段“赴汤蹈火”的热血羁绊！您可以化身曹焱兵、夏铃等寄灵人，携手许褚、李轩辕等守护灵并肩作战，体验“人灵共斗”的畅快连招与专属合击技。\n灵域战场已经开启，期待各位镇魂将在此重燃守护之魂，共同守护这条街！",
+   "release_notes": "预约现已开启，敬请期待。",
+   "file_size_bytes": 1487338496,
+   "min_os": "15.0",
+   "version": "1.1",
+   "release_date": "2026-12-11",
+   "rating": 0,
+   "rating_count": 0,
+   "price": "",
+   "advisory": "17+",
+   "url": "https://apps.apple.com/cn/app/%E9%95%87%E9%AD%82%E8%A1%97%E7%8E%8B%E8%80%85%E5%BD%92%E6%9D%A5/id6805339748?uo=4",
+   "fetched_at": "2026-11-15T12:43:43+08:00"
+  },
+  "Disney Solitaire": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "Disney Solitaire",
+   "country": "us",
+   "track_id": 6475757306,
+   "seller": "SuperPlay LTD",
+   "genres": [
+    "Games",
+    "Card",
+    "Board"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/d8/4d/94d84dec-869b-e5ad-2161-30d6057dd2b4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/57/be/fd57be2c-2c15-796b-a4f0-ecfa8604f85f/DS-SS-032-004_yellowblue_UI_EN_1242x2688_02.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/06/44/ef0644e9-7864-60f8-652a-631615583639/DS-SS-032-004_yellowblue_UI_EN_1242x2688_07.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/cc/09/2dcc091f-f595-a319-3878-678849783b0e/DS-SS-032-004_yellowblue_UI_EN_1242x2688_06.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/6b/94/f16b94c4-e6e6-457b-d4ea-f1dae3309dee/DS-SS-032-004_yellowblue_UI_EN_1242x2688_01.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3a/99/32/3a9932b9-a92a-b2b9-7317-e999e7bae3c5/DS-SS-032-004_yellowblue_UI_EN_1242x2688_03.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/51/df/9551df32-9bc0-0262-b154-29b03d4f6184/DS-SS-032-004_yellowblue_UI_EN_1242x2688_05.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/d2/42/8ad242ec-586d-e69a-0a7a-7f86ec49b5b6/DS-SS-032-004_yellowblue_UI_EN_1242x2688_04.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/34/99/833499db-8844-55dc-b0b7-b212638f4036/DS-SS-032-004_yellowblue_UI_EN_2048x2732_02.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/6c/09/ba6c09b7-ef49-6e75-087a-818932b2689a/DS-SS-032-004_yellowblue_UI_EN_2048x2732_07.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/bd/bd/5fbdbd2f-8224-c6cf-b1d2-5c14ba0f57da/DS-SS-032-004_yellowblue_UI_EN_2048x2732_06.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/70/bb/0870bb56-b05f-9acb-2474-ff845e408f27/DS-SS-032-004_yellowblue_UI_EN_2048x2732_01.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/87/16/52871630-a1c1-2d4e-4e24-023eef2233c8/DS-SS-032-004_yellowblue_UI_EN_2048x2732_03.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/63/9e/b9639e7b-ba1d-43ae-02a9-2282f8e38788/DS-SS-032-004_yellowblue_UI_EN_2048x2732_05.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/ac/eb/feacebc2-acce-4d66-e157-b76ed5e330ce/DS-SS-032-004_yellowblue_UI_EN_2048x2732_04.jpg/626x1112bb.jpg"
+   ],
+   "description": "Welcome to Disney Solitaire, the ultimate card game that transforms classic tripeaks solitaire into an exciting experience filled with magic!\n\nStep into the enchanting realm of Disney Solitaire, where every postcard recreates an iconic scene from the worlds of Disney and Pixar!\n\nFrom the moment you start playing, you’ll find yourself immersed in colorful scenes featuring some of your favorite characters like Aladdin, Elsa, Moana and Woody.\nThis isn’t just another solitaire game; it’s a vibrant experience packed with excitement, strategy, and whimsical charm.\n\nDisney Solitaire redefines the solitaire experience with innovative gameplay features. Collect unique power-ups and special cards that can change your strategy. \n\nPlay Disney Solitaire now and step into a world where every game leads to magic, and every victory brings you closer to unlocking an enchanting scene.\n\nWith stunning visuals, engaging gameplay, and heartwarming moments, Disney Solitaire is your ticket to a magical escape. \n\nDon’t miss out - your adventure awaits!\n\nDisney Solitaire is intended for those 13 and older. Disney Solitaire does not require payment to download and play, but it also allows you to purchase virtual items with real money inside the game, including random items. You can disable in-app purchases in your device's settings. Disney Solitaire may also contain advertising.\n\nYou may require an internet connection to play Disney Solitaire and access its social features. You can also find more information about the functionality,\ncompatibility and interoperability of Disney Solitaire in the above description and additional app store information.\nThis game may contain flashing effects that could trigger seizures in sensitive individuals.",
+   "release_notes": "Get ready for an amazing update!\n* Prepare for NEW levels!\n* Unlock NEW Disney characters!\n* Join the magic with NEW DISNEY FEATURES!\n* Enjoy performance improvements for a smoother gaming experience!\nPlay Disney Solitaire!",
+   "file_size_bytes": 428834816,
+   "min_os": "15.0",
+   "version": "1.28.1",
+   "release_date": "2025-04-17",
+   "rating": 4.89893,
+   "rating_count": 780441,
+   "price": "Free",
+   "advisory": "12+",
+   "url": "https://apps.apple.com/us/app/disney-solitaire/id6475757306?uo=4",
+   "fetched_at": "2026-11-15T12:43:46+08:00"
+  },
+  "武侠大明星": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:44:15+08:00"
+  },
+  "千古宠界": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:44:19+08:00"
+  },
+  "Transformers: Eternal War": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "Transformers: Eternal War",
+   "country": "us",
+   "track_id": 6772922295,
+   "seller": "HOOLAI GAME LIMITED",
+   "genres": [
+    "Games",
+    "Roleplaying",
+    "Strategy"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/4f/c5/204fc5b5-682c-eba9-6fd1-617b8f7d581b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bf/19/78/bf197847-2917-887d-02e4-542280ad02aa/_U82f9_U679c_U65b0_U589e_U5c3a_U5bf8-1179x2556-_U82f11.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/43/5b/c4/435bc4ba-ccef-819f-da88-f5f1c0850c2b/_U82f9_U679c_U65b0_U589e_U5c3a_U5bf8-1179x2556-_U82f12.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/6f/ca/ee6fcad3-3417-ef45-5aab-d1ee28f2a346/_U82f9_U679c_U65b0_U589e_U5c3a_U5bf8-1179x2556-_U82f13.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/75/d6/3875d62e-03c5-2c6d-3253-5a17d2f3f52b/_U82f9_U679c_U65b0_U589e_U5c3a_U5bf8-1179x2556-_U82f14.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/93/c9/d293c90b-46de-2bd2-3bf0-3cf2f6931b57/_U82f9_U679c_U65b0_U589e_U5c3a_U5bf8-1179x2556-_U82f15.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/1e/3e/f71e3e0e-ede6-d1ac-3f9e-8e23a46f1bc5/_U82f9_U679c_U65b0_U589e_U5c3a_U5bf8-1179x2556-_U82f16.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/b1/48/f8b1481d-8c21-6626-7eed-a150a123a28b/_U82f9_U679c_U65b0_U589e_U5c3a_U5bf8-1179x2556-_U82f17.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/16/2f/86162fab-ab38-a1e6-a5c5-9208beaf3347/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/1f/99/9b1f9904-f028-728d-b989-37efdefbe21d/2064_U00d72752__U82f1_07.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/33/f6/26/33f626fd-73ac-7653-b2ed-ba114a81ef36/2064_U00d72752__U82f1_03.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/65/28/8d652814-5501-9766-1e51-261747f45388/2064_U00d72752__U82f1_04.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b6/bc/8e/b6bc8e7f-cc7d-eaa7-2543-005bc6e87fec/2064_U00d72752__U82f1_05.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/c2/ad/0ac2add4-4345-b210-0488-46edfa930fd9/2064_U00d72752__U82f1_06.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/6d/ab/756dab76-21e3-47ae-8787-21a8a0666035/2064_U00d72752__U82f1_02.jpg/626x1112bb.jpg"
+   ],
+   "description": "Autobots and Decepticons stand united against the Chaos Legion! Experience an all-new Transformers Strategy Idle RPG featuring an original story by Simon Furman!\n\nThe Earth has been consumed by a mysterious force born from pure chaos energy—an unstoppable corruption now spreading toward humanity’s final line of defense.\nFor generations, Autobots and Decepticons have waged an unrelenting war. But in the face of the Chaos Legion—as heroes and villains fight against the chaos—old enmities must be set aside. \nThe fight for Earth is no longer about victory. It is about survival.\n\n◆ Forge an Original Transformers Epic with Simon Furman ◆ \nTransformers: Eternal War features an original story written by Simon Furman, the legendary writer who helped define the Transformers universe for generations of fans.\nIn this all-new chapter, players will uncover the rise of the Chaos Legion, an apocalyptic faction empowered by unstable chaos energy. As its influence spreads, iconic Autobots and Decepticons must unite against a corruption threatening Earth, Cybertron, and the future of the universe.\nFaced with a threat unlike anything they have ever encountered, Autobots and Decepticons must confront an impossible choice: continue their endless war—or stand together to protect Earth, Cybertron, and the future of all they fight for.\n\n◆ Lead the Combat Through Strategic Command ◆ \nTransformers: Eternal War evolves the character-collector experience with a streamlined system focused on tactical squad-building and strategic progression over constant micromanagement.\nWhether online or away from the battlefield, your forces continue fighting, gathering resources, and advancing the war effort around the clock. Recruit, upgrade, and command an ever-expanding roster of iconic Transformers while assembling powerful team synergies capable of turning the tide of battle.\nEvery squad composition matters. Every commander shapes the future of the conflict.\n\n◆ Build the Ark. Sustain the Battle. ◆\nBeyond the battlefield, players can expand and manage support facilities surrounding the Ark, creating a steady flow of resources that keeps their forces combat-ready at all times.\nBy upgrading automated production systems and optimizing resource operations, commanders can continuously strengthen their squads. Even while offline, your facilities remain active—gathering supplies, supporting troop growth, and preparing your forces for the next conflict.\nDesigned around a seamless hands-off experience, Transformers: Eternal War allows players to focus less on repetitive maintenance and more on assembling powerful teams, developing strategy, and pushing back against the growing Chaos Legion threat.\n\n◆ A New Era of Transformers Warfare Begins ◆\nCombining legendary characters, an original story crafted by one of the franchise’s most iconic writers, and a modern strategic gameplay experience built for mobile, Transformers: Eternal War delivers both a celebration of Transformers history and a bold new evolution for the franchise.\n\n——The universe is changing.\n——The signal has been broadcast.\n——Now the fate of Earth depends on who answers the call！\n\n ◆ Official channels：◆\nFaceBook：https://www.facebook.com/profile.php?id=61566948995743\nX：https://x.com/TFEternalWar\nINS: https://www.instagram.com/transformerseternalwar/\nTikTok：https://www.tiktok.com/@transformerseternalwar\nDiscord：https://discord.gg/aQSsSfURn\n\nTRANSFORMERS and HASBRO and all related trademarks and logos are trademarks of Hasbro, Inc. ©2026 Hasbro ©WANDA CINEMAS GAMES",
+   "release_notes": "Bug Fixes",
+   "file_size_bytes": 2814705664,
+   "min_os": "15.0",
+   "version": "1.2.1",
+   "release_date": "2026-11-11",
+   "rating": 4.6119,
+   "rating_count": 1126,
+   "price": "Free",
+   "advisory": "12+",
+   "url": "https://apps.apple.com/us/app/transformers-eternal-war/id6772922295?uo=4",
+   "fetched_at": "2026-11-15T12:44:47+08:00"
+  },
+  "Jewel Coloring": {
+   "matched": true,
+   "match_score": 0.867,
+   "match_name": "Jewel Sort Coloring",
+   "country": "cn",
+   "track_id": 6761989377,
+   "seller": "秀英 师",
+   "genres": [
+    "游戏",
+    "益智解谜",
+    "桌面"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/13/e3/f413e3f4-6ae0-9dcc-87d1-16e53b850a64/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/4f/d7/a74fd788-d889-fd1b-2da1-2fcf2409e9bd/Image_Sequence_001_0010.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/7a/aa/657aaa90-c192-16f7-035a-891f5fd90585/Image_Sequence_002_0007.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/ff/c8/57ffc84b-458e-ba2c-708d-8488a7bfbe68/Image_Sequence_003_0007.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/b6/f2/89b6f2ce-6721-1c79-071b-d2f0caf1bbf2/Image_Sequence_004_0007.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/95/08/ec95089a-3210-ccce-db2d-feec92d2a5f0/Image_Sequence_005_0008.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/6b/b4/446bb4ef-ca36-b081-34f2-13befd427e2b/Image_Sequence_006_0007.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/92/94/df929491-50e6-07ff-da37-579b99db3bcb/Image_Sequence_007_0006.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/cc/e9/02cce98c-3089-6bad-af58-f05abaf0901b/Image_Sequence_008_0005.jpg/626x1112bb.jpg"
+   ],
+   "description": "Gem Sort - Jewel Coloring is a relaxing brainteaser for those who enjoy peaceful yet captivating challenges. \nJust move sparkling gems, group matching colors, and place each piece in the perfect spot to uncover beautiful artwork. \nRelaxing visuals meet brain-teasing strategy.Easy to play, challenging to master. \nFeatures: \n• Relaxing diamond puzzle and jewel sorting gameplay \n• Beautiful pixel art pictures to complete \n• Special events and fun mini games \n• Helpful boosters for tricky puzzle boards \n﻿ \nDownload now and start uncover beautiful artwork!\n\nPrivacy policy:\nhttps://sites.google.com/view/funclassicpuzzlegames/home",
+   "release_notes": "",
+   "file_size_bytes": 102734848,
+   "min_os": "13.0",
+   "version": "1.0",
+   "release_date": "2026-04-13",
+   "rating": 3.57143,
+   "rating_count": 7,
+   "price": "免费",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/cn/app/jewel-sort-coloring/id6761989377?uo=4",
+   "fetched_at": "2026-11-15T12:44:49+08:00"
+  },
+  "突围冲冲冲": {
+   "matched": false,
+   "fetched_at": "2026-11-15T12:44:52+08:00"
+  },
+  "单挑排球": {
+   "matched": false,
+   "fetched_at": "2026-11-17T12:39:07+08:00"
+  },
+  "跳一跳": {
+   "matched": false,
+   "fetched_at": "2026-11-17T12:39:11+08:00"
+  },
+  "我就是传说": {
+   "matched": false,
+   "fetched_at": "2026-11-17T12:39:15+08:00"
+  },
+  "来过一关吧": {
+   "matched": false,
+   "fetched_at": "2026-11-17T12:39:18+08:00"
+  },
+  "UnGodly アンゴッドリー": {
+   "matched": false,
+   "fetched_at": "2026-11-17T12:54:47+08:00"
+  },
+  "挑战连连消": {
+   "matched": false,
+   "fetched_at": "2026-11-17T12:54:55+08:00"
+  },
+  "龙胆破军": {
+   "matched": false,
+   "fetched_at": "2026-11-17T12:54:59+08:00"
+  },
+  "天门阵": {
+   "matched": false,
+   "fetched_at": "2026-11-17T12:55:05+08:00"
+  },
+  "にゃんこ大戦争": {
+   "matched": false,
+   "fetched_at": "2026-11-17T12:55:09+08:00"
+  },
+  "难不倒你吧": {
+   "matched": false,
+   "fetched_at": "2026-11-17T12:55:23+08:00"
+  },
+  "战斗天使": {
+   "matched": false,
+   "fetched_at": "2026-11-17T12:55:27+08:00"
+  },
+  "一秒都别错过": {
+   "matched": false,
+   "fetched_at": "2026-11-17T12:55:31+08:00"
+  },
+  "大脑宕机中": {
+   "matched": false,
+   "fetched_at": "2026-11-17T13:07:18+08:00"
+  },
+  "スキュアジャム:フードゲーム (Skewer Jam)": {
+   "matched": false,
+   "fetched_at": "2026-11-17T13:07:22+08:00"
+  },
+  "疯狂解压消": {
+   "matched": false,
+   "fetched_at": "2026-11-17T13:07:26+08:00"
+  },
+  "解压宝藏乐园": {
+   "matched": false,
+   "fetched_at": "2026-11-17T13:07:29+08:00"
+  },
+  "空投大作战": {
+   "matched": false,
+   "fetched_at": "2026-11-17T13:07:33+08:00"
+  },
+  "蓝方战地兵人": {
+   "matched": false,
+   "fetched_at": "2026-11-17T13:07:36+08:00"
+  },
+  "仙剑奇侠传:新的开始": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "仙剑奇侠传：新的开始",
+   "country": "cn",
+   "track_id": 6448967608,
+   "seller": "Shangrao Jialan Network Technology Co., Ltd.",
+   "genres": [
+    "游戏",
+    "角色扮演",
+    "卡牌"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/2b/94/542b9480-b181-bd76-af03-3e1d50f66a4e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b4/a6/b6/b4a6b621-7d82-26a2-7b37-93c31af071ad/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7c/b2/4d/7cb24d8e-cf71-4c0b-f392-453950a4df74/2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/55/69/7255693f-040d-e567-92e8-952571535b81/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/75/e5/0775e588-8520-d945-9cab-79db5826e559/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3d/63/22/3d632252-cea6-29c5-3e0e-375ec9099cf2/5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dd/ee/db/ddeedbb2-910f-fc60-18a7-f656f379cb91/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7f/3e/b8/7f3eb87c-5052-215a-636f-7025adb94c20/2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/9d/02/849d02b7-22f2-4f10-8ad8-01c6a5471e18/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/49/63/1b4963d7-a03b-d959-4b1b-9103a0a96bbb/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/2c/34/bd2c347d-05ba-b603-7f16-cf05449b6f6e/5.jpg/626x1112bb.jpg"
+   ],
+   "description": "《仙剑奇侠传：新的开始》是一款正版授权的回合制RPG手游，您将在游戏内能够体验到仙剑1—仙剑6的原著剧情以及新的故事结局也将由你来选择！\n\n\n【游戏特色】\n\n——高度复刻剧情 完整体验仙剑系列——\n囊括系列单机完整剧情，从淳朴的盛渔村到巍峨的昆仑。\n回忆记忆中熟悉的场景，故人们与他们的故事正在那里等着你。\n\n——沉浸单机体验 繁多彩蛋趣味互动——\n水月宫空箱子里藏着的苗刀，迷宫里暗藏玄机的隐藏通道，一言不合就论剑的路人，犄角旮旯里点了几下结果蹦出个十连。\n高强度彩蛋散落各处等你发掘！\n\n——探索多种结局 回转时空逆转命运——\n[刘晋元怀疑彩依要害他。]\n[把他骂醒←]\n利用回梦之术回到过去，寻求多种可能。\n扭转故人们的悲惨命运，一切尽在你的掌握之中。\n\n——生动模拟经营 赚钱全靠开客栈——\n一切安稳后，就回到故乡，与钟情的人一同经营客栈吧。\n凭借一路闯荡留下的人脉，雇佣各路大能成为跑堂。\n迎接各式各样的客人，偶尔还会闯入颜色各异的五毒兽。\n尽你所能，成就仙剑第一客栈吧！\n\n——经典角色再聚 系列主角团大集结——\n\n巫后与灵儿携手作战，重楼与景天并肩对敌。\n组合各式各样的羁绊，培育你心中的理想仙剑阵型！\n毕竟谁不想看流光诛仙斩和万剑诀同台竞技呢？\n\n官网：https://xjqxz.xy.com\nTapTap：仙剑奇侠传：新的开始\n微博：仙剑奇侠传新的开始\n微信号： xjqxzxdksgf\n官方抖音号：Kyxj666666\n官方Q群：105714636\nB站：https://www.biligame.com/detail/?id=110784",
+   "release_notes": "1、修复一些问题",
+   "file_size_bytes": 284118016,
+   "min_os": "12.0",
+   "version": "1.2.2",
+   "release_date": "2024-01-25",
+   "rating": 4.71003,
+   "rating_count": 35879,
+   "price": "免费",
+   "advisory": "17+",
+   "url": "https://apps.apple.com/cn/app/%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0-%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/id6448967608?uo=4",
+   "fetched_at": "2026-11-17T13:07:38+08:00"
   }
  }
 }
