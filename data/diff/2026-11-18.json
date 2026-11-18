@@ -1,0 +1,741 @@
+{
+  "date": "2026-11-18",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [
+        {
+          "rank": 16,
+          "name": "消了个球",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州卓白科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx86c10c5629b04fc3",
+          "publisher_id": 20152304
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 16,
+          "name": "消了个球",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州卓白科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx86c10c5629b04fc3",
+          "publisher_id": 20152304
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 16,
+          "name": "消了个球",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "广州卓白科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx86c10c5629b04fc3",
+          "publisher_id": 20152304
+        }
+      ]
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "QQ经典农场",
+          "category": "休闲",
+          "category_rank": 6,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx5306c5978fdb76e4",
+          "publisher_id": 20002309
+        },
+        {
+          "rank": 16,
+          "name": "原始征途",
+          "category": "角色",
+          "category_rank": 4,
+          "subcategory": "MMO",
+          "slogan": "",
+          "publisher": "巨人网络集团股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxfd8da8f8efcda4a7",
+          "publisher_id": 20012407
+        },
+        {
+          "rank": 17,
+          "name": "精英军团",
+          "category": "竞技",
+          "category_rank": 3,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "杭州叙炽网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx2b9d67737d1607d7",
+          "publisher_id": 20182350
+        },
+        {
+          "rank": 19,
+          "name": "武侠大明星",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "塔防",
+          "slogan": "",
+          "publisher": "海南盛昌网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx9c4c2f5f1909e182",
+          "publisher_id": 20182323
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "脑子一团火",
+          "category": "1",
+          "category_rank": 2,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市烽镞互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6ab21c0ff4d6f8fb02",
+          "publisher_id": 20302435
+        },
+        {
+          "rank": 13,
+          "name": "再坚持亿点",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海阳笙信息技术服务有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3acc4c71a4b6af6102",
+          "publisher_id": 20242611
+        },
+        {
+          "rank": 14,
+          "name": "沉浸式解压清洁",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门有橘子网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb2b0c40d2cd79efe02",
+          "publisher_id": 20302353
+        },
+        {
+          "rank": 17,
+          "name": "指尖大玩家",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcb49bdf45533aaf207",
+          "publisher_id": 20002390
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 5,
+          "name": "彩蛋涂墙",
+          "category": "1",
+          "category_rank": 5,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9049e6f40e2e9ff107",
+          "publisher_id": 20262386
+        },
+        {
+          "rank": 20,
+          "name": "我就是传说",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf0de86636ea53ef407",
+          "publisher_id": 20242355
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 14,
+          "name": "沉浸式解压清洁",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门有橘子网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb2b0c40d2cd79efe02",
+          "publisher_id": 20302353
+        }
+      ],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "脑子一团火",
+          "category": "1",
+          "category_rank": 2,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市烽镞互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt6ab21c0ff4d6f8fb02",
+          "publisher_id": 20302435
+        },
+        {
+          "rank": 13,
+          "name": "再坚持亿点",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "上海阳笙信息技术服务有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt3acc4c71a4b6af6102",
+          "publisher_id": 20242611
+        },
+        {
+          "rank": 14,
+          "name": "沉浸式解压清洁",
+          "category": "1",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门有橘子网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb2b0c40d2cd79efe02",
+          "publisher_id": 20302353
+        },
+        {
+          "rank": 17,
+          "name": "指尖大玩家",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "个人开发者",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcb49bdf45533aaf207",
+          "publisher_id": 20002390
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 18,
+          "name": "甄嬛传：归来",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd2f0a44d4c8b63a102",
+          "publisher_id": 20002345
+        }
+      ],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "不服来通关",
+          "category": "塔防",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙游品科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcaa6bc1b55adba2c02",
+          "publisher_id": 20092311
+        },
+        {
+          "rank": 17,
+          "name": "烈焰觉醒",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州悦妙网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt0d317b8c92384c8302",
+          "publisher_id": 20243443
+        },
+        {
+          "rank": 20,
+          "name": "指尖快消",
+          "category": "寻物",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门营火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd206a4bb4d0d870102",
+          "publisher_id": 20162324
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 18,
+          "name": "甄嬛传：归来",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd2f0a44d4c8b63a102",
+          "publisher_id": 20002345
+        }
+      ]
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 11,
+          "name": "酷跑英雄",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州多游信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb6f0c04d28888d8602",
+          "publisher_id": 20002367
+        },
+        {
+          "rank": 13,
+          "name": "小怪往哪逃",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙游品科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc35cb5e15c5ee2c102",
+          "publisher_id": 20092311
+        },
+        {
+          "rank": 18,
+          "name": "魔龙争霸",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州百悦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt611817a5ff612cd702",
+          "publisher_id": 20302545
+        },
+        {
+          "rank": 19,
+          "name": "梦幻仙游",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州卓游网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttafd3d96e31aaf2ca07",
+          "publisher_id": 20192415
+        },
+        {
+          "rank": 20,
+          "name": "实在不简单",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都木木互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt16d4606988af896e02",
+          "publisher_id": 20002404
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 2,
+          "name": "暴走植物园",
+          "category": "1",
+          "category_rank": 2,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南椰路信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcda4bb1953df1d1007",
+          "publisher_id": 20002326
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 2,
+          "name": "暴走植物园",
+          "category": "1",
+          "category_rank": 2,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南椰路信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcda4bb1953df1d1007",
+          "publisher_id": 20002326
+        },
+        {
+          "rank": 11,
+          "name": "酷跑英雄",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州多游信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb6f0c04d28888d8602",
+          "publisher_id": 20002367
+        },
+        {
+          "rank": 19,
+          "name": "梦幻仙游",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州卓游网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttafd3d96e31aaf2ca07",
+          "publisher_id": 20192415
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 0,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "暴走植物园",
+          "category": "1",
+          "category_rank": 2,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南椰路信息科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcda4bb1953df1d1007",
+          "publisher_id": 20002326
+        },
+        {
+          "rank": 11,
+          "name": "酷跑英雄",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州多游信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb6f0c04d28888d8602",
+          "publisher_id": 20002367
+        },
+        {
+          "rank": 13,
+          "name": "小怪往哪逃",
+          "category": "1",
+          "category_rank": 13,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙游品科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttc35cb5e15c5ee2c102",
+          "publisher_id": 20092311
+        },
+        {
+          "rank": 18,
+          "name": "魔龙争霸",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州百悦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt611817a5ff612cd702",
+          "publisher_id": 20302545
+        },
+        {
+          "rank": 19,
+          "name": "梦幻仙游",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州卓游网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttafd3d96e31aaf2ca07",
+          "publisher_id": 20192415
+        },
+        {
+          "rank": 20,
+          "name": "实在不简单",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都木木互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt16d4606988af896e02",
+          "publisher_id": 20002404
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "变形金刚：新纪元",
+          "publisher": "Wanda Game",
+          "category": "策略",
+          "subcategory": "剧情、收集"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "Colorever: Gem Art Puzzle",
+          "publisher": "Oakever Games",
+          "category": "Games",
+          "app_id": "6761757565",
+          "url": "https://apps.apple.com/us/app/colorever-gem-art-puzzle/id6761757565?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/28/1d/b2281dd5-a500-714d-829b-c678746e2db4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Colorever: a relaxing gem sorting puzzle where every tap reveals sparkling pixel"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 15,
+          "name": "斗罗大陆：诛邪传说",
+          "publisher": "Guangzhou Zhongxu Shuke Information Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6748218382",
+          "url": "https://apps.apple.com/cn/app/%E6%96%97%E7%BD%97%E5%A4%A7%E9%99%86-%E8%AF%9B%E9%82%AA%E4%BC%A0%E8%AF%B4/id6748218382?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/81/50/c68150e5-2200-6743-93a0-58d12ba2a9bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《斗罗大陆：诛邪传说》是以东方奇幻小说《斗罗大陆》IP为故事背景的一款角色扮演大型多人在线手游，玩家可以在游戏中扮演一名魂师展开冒险，探索斗罗大陆享受奇幻之旅。"
+        }
+      ],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 15,
+          "name": "斗罗大陆：诛邪传说",
+          "publisher": "Guangzhou Zhongxu Shuke Information Technology Co., Ltd",
+          "category": "游戏",
+          "app_id": "6748218382",
+          "url": "https://apps.apple.com/cn/app/%E6%96%97%E7%BD%97%E5%A4%A7%E9%99%86-%E8%AF%9B%E9%82%AA%E4%BC%A0%E8%AF%B4/id6748218382?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/81/50/c68150e5-2200-6743-93a0-58d12ba2a9bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "《斗罗大陆：诛邪传说》是以东方奇幻小说《斗罗大陆》IP为故事背景的一款角色扮演大型多人在线手游，玩家可以在游戏中扮演一名魂师展开冒险，探索斗罗大陆享受奇幻之旅。"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 17,
+          "name": "パラノイズ",
+          "publisher": "ZigZaGame Inc.",
+          "category": "ゲーム",
+          "app_id": "6639605332",
+          "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%83%A9%E3%83%8E%E3%82%A4%E3%82%BA/id6639605332?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/2f/30/032f30b2-e8f1-28b5-916a-e31e9cb497a6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "巨大な何かが岐阜県山岳部に墜落してから11年。\n稽古場で木刀を振るう盲目の青年は、その声に導かれる。第29回日本アカデミー賞・最優秀音楽賞受賞作曲家の佐藤直紀が"
+        },
+        {
+          "rank": 20,
+          "name": "Disney Solitaire ディズニー ソリティア",
+          "publisher": "SuperPlay",
+          "category": "ゲーム",
+          "app_id": "6475757306",
+          "url": "https://apps.apple.com/jp/app/disney-solitaire-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2/id6475757306?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/d8/4d/94d84dec-869b-e5ad-2161-30d6057dd2b4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "ディズニーソリティアへようこそ。クラシックなトライピークスソリティアが、魔法に満ちたエキサイティングな体験へと生まれ変わります！\n\nディズニーとピクサーの世界か"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
