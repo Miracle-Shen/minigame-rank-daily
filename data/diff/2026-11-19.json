@@ -1,0 +1,598 @@
+{
+  "date": "2026-11-19",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 15,
+          "name": "九霄仙府",
+          "category": "其他",
+          "category_rank": 1,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "点点互动（北京）科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx486d8e94a8beaf11",
+          "publisher_id": 20052313
+        },
+        {
+          "rank": 20,
+          "name": "砖了个砖",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "北京简游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx1650bdeedb17dfea",
+          "publisher_id": 20002381
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 19,
+          "name": "甄嬛传：归来",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx643f638c904e3ab0",
+          "publisher_id": 20002345
+        }
+      ],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "西游灵兽纪",
+          "category": "角色",
+          "category_rank": 2,
+          "subcategory": "ARPG",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx3dc9d41b5c76df73",
+          "publisher_id": 0
+        },
+        {
+          "rank": 16,
+          "name": "跃动小子",
+          "category": "休闲",
+          "category_rank": 9,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "波克科技集团有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx6cce8ac2ea74103e",
+          "publisher_id": 20052324
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 19,
+          "name": "甄嬛传：归来",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx643f638c904e3ab0",
+          "publisher_id": 20002345
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 19,
+          "name": "甄嬛传：归来",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx643f638c904e3ab0",
+          "publisher_id": 20002345
+        }
+      ]
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 4,
+          "name": "独自向前冲",
+          "category": "1",
+          "category_rank": 4,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都畅游宇宙科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9a9dec2004fcb2c307",
+          "publisher_id": 20244681
+        }
+      ],
+      "returning": [
+        {
+          "rank": 12,
+          "name": "狙击外星人",
+          "category": "超休闲",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门营火科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta638d085390d9a7302",
+          "publisher_id": 20162324
+        },
+        {
+          "rank": 15,
+          "name": "加油小球球",
+          "category": "1",
+          "category_rank": 15,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆希鲁鲁克科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt19ce6f7387ad860d07",
+          "publisher_id": 20192350
+        },
+        {
+          "rank": 16,
+          "name": "音悦节奏球",
+          "category": "节奏",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门真嘟假嘟网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf01f86a26f1520f507",
+          "publisher_id": 20192412
+        },
+        {
+          "rank": 18,
+          "name": "别拆我台",
+          "category": "超休闲",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛汇研互娱网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttb43ac2872a5eece402",
+          "publisher_id": 20302621
+        },
+        {
+          "rank": 19,
+          "name": "向往的生活",
+          "category": "合成",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市必凡娱乐科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttd54ea3f34a46f34a02",
+          "publisher_id": 20002362
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 5,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 4,
+          "name": "独自向前冲",
+          "category": "1",
+          "category_rank": 4,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都畅游宇宙科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9a9dec2004fcb2c307",
+          "publisher_id": 20244681
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 14,
+          "name": "阿皮大冒险",
+          "category": "动作",
+          "category_rank": 14,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京豪腾创想科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt57b42109c9d04cbc02",
+          "publisher_id": 20002337
+        },
+        {
+          "rank": 19,
+          "name": "勇者乱斗",
+          "category": "自走棋",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州电梦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt4ffa3947d0f477c207",
+          "publisher_id": 20244649
+        },
+        {
+          "rank": 20,
+          "name": "四季合合",
+          "category": "合成",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt210457b9be35faff07",
+          "publisher_id": 20002380
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 18,
+          "name": "最强小队",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南祺曜互动娱乐有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt47f93144d981921207",
+          "publisher_id": 20302735
+        },
+        {
+          "rank": 19,
+          "name": "这把稳稳过",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳奇象互动网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte8199ea476620d3402",
+          "publisher_id": 20302366
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 4,
+          "name": "无尽火线",
+          "category": "1",
+          "category_rank": 4,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京星乐天空科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcd47bbfa5327dcd402",
+          "publisher_id": 20302717
+        },
+        {
+          "rank": 17,
+          "name": "来过一关吧",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "武汉手盟网络科技股份有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt617f17c2ff05c3e207",
+          "publisher_id": 20192343
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 18,
+          "name": "最强小队",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南祺曜互动娱乐有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt47f93144d981921207",
+          "publisher_id": 20302735
+        }
+      ],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 2,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 18,
+          "name": "最强小队",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南祺曜互动娱乐有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt47f93144d981921207",
+          "publisher_id": 20302735
+        },
+        {
+          "rank": 19,
+          "name": "这把稳稳过",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳奇象互动网络有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte8199ea476620d3402",
+          "publisher_id": 20302366
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 2,
+          "name": "伍六七：暗影交锋",
+          "publisher": "啊吉游",
+          "category": "角色扮演",
+          "subcategory": "国漫、像素、动作、冒险、模拟经营、横版、2D、多人联机、APRG、热血"
+        },
+        {
+          "rank": 10,
+          "name": "应征入伍",
+          "publisher": "玄鑫工作室",
+          "category": "射击",
+          "subcategory": "FPS、竞技"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "Colony Flow!",
+          "publisher": "ABI GLOBAL LTD.",
+          "category": "Games",
+          "app_id": "6779167923",
+          "url": "https://apps.apple.com/us/app/colony-flow/id6779167923?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/ce/e2/a6cee2ca-f896-3eeb-5c11-806a39e69d1f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Welcome to Colony Flow — a relaxing ant colony puzzle where every tiny ant has a"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 11,
+          "name": "地铁跑酷 - 时光十三载热爱一直在",
+          "publisher": "iDreamSky Technology Limited",
+          "category": "游戏",
+          "app_id": "995122577",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E9%93%81%E8%B7%91%E9%85%B7-%E6%97%B6%E5%85%89%E5%8D%81%E4%B8%89%E8%BD%BD%E7%83%AD%E7%88%B1%E4%B8%80%E7%9B%B4%E5%9C%A8/id995122577?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/ff/ad/38ffadff-fb43-2cdf-4080-04dab575cd31/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【游戏特色】\n《地铁跑酷》13周年庆典盛开启！踏入奇趣微境，开启充满想象力的微观冒险，艾蕾娜、薇奥拉、咔琪、阿胧等全新角色惊喜登场，带来梦幻与趣味交织的全新体验"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "火影忍者",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "955396648",
+          "url": "https://apps.apple.com/cn/app/%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85/id955396648?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/da/84/f2da845c-6a58-a983-28fa-4b3501f58380/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "火影忍者-疾风传登场，百忍集结，强力降临\n【游戏介绍】\n《火影忍者》手游100%正统还原原著剧情，全新疾风传篇章登场，十年百忍强力降临，玩家可以任意扮演鸣人、佐"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 11,
+          "name": "地铁跑酷 - 时光十三载热爱一直在",
+          "publisher": "iDreamSky Technology Limited",
+          "category": "游戏",
+          "app_id": "995122577",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%B0%E9%93%81%E8%B7%91%E9%85%B7-%E6%97%B6%E5%85%89%E5%8D%81%E4%B8%89%E8%BD%BD%E7%83%AD%E7%88%B1%E4%B8%80%E7%9B%B4%E5%9C%A8/id995122577?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/ff/ad/38ffadff-fb43-2cdf-4080-04dab575cd31/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "【游戏特色】\n《地铁跑酷》13周年庆典盛开启！踏入奇趣微境，开启充满想象力的微观冒险，艾蕾娜、薇奥拉、咔琪、阿胧等全新角色惊喜登场，带来梦幻与趣味交织的全新体验"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 1,
+          "name": "ルミナサーガ：夢と冒険のMMORPG",
+          "publisher": "HYPER HEAT",
+          "category": "ゲーム",
+          "app_id": "6808535967",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AB%E3%83%9F%E3%83%8A%E3%82%B5%E3%83%BC%E3%82%AC-%E5%A4%A2%E3%81%A8%E5%86%92%E9%99%BA%E3%81%AEmmorpg/id6808535967?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/32/d5/2b32d54b-73b5-b84c-acb2-43e955bf62cb/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "『ルミナサーガ』は、幻想世界を自由に旅しながら、仲間との出会いや冒険を楽しめるMMORPGです。\nジョブやスキルを自分らしく組み合わせて戦うもよし、仲間と力を合"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "フードスター（Foodstars）:マージ & クック",
+          "publisher": "Happibits",
+          "category": "ゲーム",
+          "app_id": "6753862216",
+          "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%BC%E3%83%89%E3%82%B9%E3%82%BF%E3%83%BC-foodstars-%E3%83%9E%E3%83%BC%E3%82%B8-%E3%82%AF%E3%83%83%E3%82%AF/id6753862216?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/05/bc/d405bc1a-fe82-9f37-9191-a0a6a4959d25/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "スターシェフになる夢を持っている？今がチャンス！\nミシュランのスターシェフの下、パリのキッチンでマカロンを仕上げる秘密を学ぶことを想像したことがある？\nフードス"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 1,
+          "name": "ルミナサーガ：夢と冒険のMMORPG",
+          "publisher": "HYPER HEAT",
+          "category": "ゲーム",
+          "app_id": "6808535967",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AB%E3%83%9F%E3%83%8A%E3%82%B5%E3%83%BC%E3%82%AC-%E5%A4%A2%E3%81%A8%E5%86%92%E9%99%BA%E3%81%AEmmorpg/id6808535967?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/32/d5/2b32d54b-73b5-b84c-acb2-43e955bf62cb/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "『ルミナサーガ』は、幻想世界を自由に旅しながら、仲間との出会いや冒険を楽しめるMMORPGです。\nジョブやスキルを自分らしく組み合わせて戦うもよし、仲間と力を合"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 1,
+          "name": "ルミナサーガ：夢と冒険のMMORPG",
+          "publisher": "HYPER HEAT",
+          "category": "ゲーム",
+          "app_id": "6808535967",
+          "url": "https://apps.apple.com/jp/app/%E3%83%AB%E3%83%9F%E3%83%8A%E3%82%B5%E3%83%BC%E3%82%AC-%E5%A4%A2%E3%81%A8%E5%86%92%E9%99%BA%E3%81%AEmmorpg/id6808535967?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/32/d5/2b32d54b-73b5-b84c-acb2-43e955bf62cb/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "『ルミナサーガ』は、幻想世界を自由に旅しながら、仲間との出会いや冒険を楽しめるMMORPGです。\nジョブやスキルを自分らしく組み合わせて戦うもよし、仲間と力を合"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
