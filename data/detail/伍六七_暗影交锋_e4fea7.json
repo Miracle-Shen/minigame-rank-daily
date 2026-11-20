@@ -1,0 +1,285 @@
+{
+ "schema_version": 1,
+ "name": "伍六七:暗影交锋",
+ "updated_at": "2026-11-20",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "啊吉游",
+  "category_l1": "角色扮演",
+  "category_l2": "国漫、像素、动作、冒险、模拟经营、横版、2D、多人联机、APRG、热血",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 2
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-07-06",
+  "appearances": 19,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D 像素（横版卷轴）",
+  "art_style": "像素风重绘小鸡岛与动画名场面，角色 16-bit 质感，过场用漫画分镜 + 原作配音",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 4,
+   "physics": 3,
+   "logic": 4,
+   "data": 4,
+   "server": 4,
+   "audio": 4
+  },
+  "dim_notes": {
+   "engine": "横版动作 + 三人实时切换 + 连招判定，要在成熟引擎上自建一套动作状态机与切换框架，不是套模板能出",
+   "art": "iOS 包体 2306MB，像素素材全手工绘制且每个角色要多套动作帧，量级远超普通小游戏",
+   "anim": "普攻/技能/支援技/大招各自成套动作帧，加上特效帧，是像素项目里最吃工时的部分",
+   "physics": "不是刚体物理，但受击硬直、击退、弹反判定窗口要一帧一帧调，手感成本全在这里",
+   "logic": "主线关卡 + 三人小队构筑 + 心法/装备/升阶 + 肉鸽闯关 + 爬塔 + 派对 PVP，系统数量接近中重度产品",
+   "data": "角色升星觉醒、心法、装备、商店经营收益反哺养成，多线并行且有抽卡",
+   "server": "有联机副本与派对竞技 PVP，需要房间、同步与反作弊，不是纯单机",
+   "audio": "原作配音 + 定制 BGM，音频本身就是粉丝体验的一部分，不能省"
+  },
+  "asset_notes": "像素素材可外包批量生产，但角色动作帧与特效帧的量级决定了这是重美术项目；AI 生图只能出静帧参考，动作与逐帧仍需手工。",
+  "notes": "IP 授权 + 2.3GB 包体的横版动作 RPG，技术门槛在动作手感与美术量，不在玩法设计本身。iOS 商店页标注 2026-12-09 上线，目前仍在预约期。",
+  "cost_score": 4.0,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "在横版关卡里操控阿七一路推进，敌人亮红光时按弹反进入子弹时间，再切队友接大招打连段；一关打完回小鸡岛接委托、打理发廊与牛杂摊，用经营收益反哺角色养成，再回去推下一关。",
+  "highlights": [
+   "弹反成功那一下的子弹时间 + 顿帧 + 屏幕白闪，把「防住」变成比「打中」更爽的事",
+   "三人小队可实时切换，连招能在换人瞬间接续，一套长连段打出来成就感很强，也让「配对阵容」有了操作意义",
+   "像素化还原动画名场面，老粉在场景里认出彩蛋的瞬间就是二次传播的钩子",
+   "战斗之外能开小店、做牛杂、设计发型，节奏一张一弛，不逼你一直打"
+  ],
+  "innovations": [
+   "把「闪避/招架/弹反」做成显式红框提示 + 子弹时间，让横版动作的攻防节奏第一次被普通玩家读得懂",
+   "在动作 RPG 里塞进轻度模拟经营，用经营收益解释养成资源的来源，比纯掉落更贴原作设定"
+  ],
+  "target_user": "《伍六七》动画粉丝为主（18-30 岁），次要是喜欢横版动作与像素风的二次元玩家",
+  "monetization": "IAP 为主（角色抽取、心法、时装），配合体力/次数限制与自动战斗；未见广告位",
+  "lifecycle": "长线运营，靠角色池、赛季挑战与剧情更新；当前仍在预约期，热度先于产品存在"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "版权在动画方，角色形象、配音、名场面全都受约束，改一个视觉符号就过不了审。即便不谈版权，2306MB 的像素动作素材加动作状态机也不是小游戏团队的成本结构。它真正值得借的只有「红光提示 → 弹反 → 顿帧」这一层手感设计。",
+  "suggestions": [
+   "不做横版动作，把「红光提示 → 弹反 → 子弹时间」压成单指点击的节奏判定，做成 30 秒一局的爽感小游戏",
+   "把「三人小队切换」降级成三张卡轮转，去掉走位只留技能衔接，成本能降到五分之一",
+   "题材换成就地取材的原创角色（夜市摊主、外卖骑手），彻底避开动画 IP 的视觉符号与名场面"
+  ],
+  "risks": [
+   "IP 授权是最高风险，角色、配音、剧情全部受版权方约束",
+   "像素动作素材是重手工，外包与返工成本高，工期不好压",
+   "横版动作在买量素材上不如数值玩法好讲故事，投放成本会更高"
+  ],
+  "effort": "不建议独立立项；若只做「弹反节奏」原型，约 10–15 人日（1 前端 + 0.5 美术）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "粉丝来玩是为了「玩到阿七」，TapTap 预约榜长期前十、最高排到第 1，热度来自 IP 而不是玩法，换掉角色这批人不会跟过来"
+    },
+    {
+     "lens": "用户",
+     "text": "把弹反与换人连招搬到自有产品，去掉像素美术和配音之后，用户感受到的只是一个节奏更快的点击游戏，原作的情绪价值全部丢失"
+    },
+    {
+     "lens": "业务",
+     "text": "壁垒在 IP 与美术产能：2.3GB 像素动作资产加原作配音，任何一项都不是我们能自建的，投入产出比不成立"
+    },
+    {
+     "lens": "业务",
+     "text": "与常规产品线冲突：横版动作 RPG 要长线剧情与角色池，会把团队拖进内容军备竞赛，而不是小步快跑验证玩法"
+    }
+   ],
+   "how": [
+    "只取手感：把「红光提示 → 弹反 → 顿帧 + 白闪」做成 30 秒判定练习小游戏挂活动位，两周内看单局完成率与分享率",
+    "只取结构：把「打本产出 → 小店经营消化 → 反哺养成」的三段循环套到自有 IP 的轻度玩法上，验证双线是否提升次留"
+   ],
+   "gain": [
+    "规避版权与产能双重投入：省下 IP 谈判费用与 2.3GB 级像素动作素材的制作成本",
+    "拿到一套可复用的判定手感参数：弹反窗口、顿帧时长、白闪强度，可直接套到任何点击类玩法上",
+    "明确不做的结论：不做横版动作、不做角色池，减少团队对「要不要做二次元动作」的反复讨论",
+    "双线结构的验证结论：如果「战斗 + 经营」不提升次留，就不用再在自有产品里试第二次"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "IP 在《伍六七》版权方手里，啊吉游是授权自研方且自行发行，没有代理或联运的空间",
+    "唯一可谈的是 IP 联动（皮肤或角色授权），但报价与审核周期都由版权方定，短期不具备可行性"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "夜市摊位养成",
+     "how": "把发廊与牛杂摊换成夜市摊位，用「今日流水」当进度条，卖完收摊结算"
+    },
+    {
+     "scene": "短视频挑战赛",
+     "how": "把弹反成功那一帧做成可分享的截图卡，接站内挑战话题"
+    }
+   ]
+  },
+  "summary": "IP 与美术双重壁垒，只可取弹反手感做小原型"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/ba/bd/5bbabda7-3e74-5119-46ae-619c7dce64a2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/eb/38/d4eb3868-c1d7-3847-24e7-0ac8ce16dcf8/_U9996_U56fe-2556x1179.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/62/bb/9d62bb37-53a6-20a4-8c50-3e0aaaeaddae/_U56fe01_2556x1179.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/4c/f2/3f4cf2e0-8d3c-3917-2848-bfcd3130bb67/_U56fe02_2556x1179.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/93/c0/0f/93c00f36-0737-eb41-e6da-564a718c79ef/_U56fe03_2556x1179.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/42/06/99420646-e12d-668c-8434-895b94b711bf/_U56fe04_2556x1179.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/df/d8/35dfd842-c921-6b2d-6cd0-212e3438305c/_U9996_U56fe-2752x2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/c3/cb/0ec3cbac-619a-99e7-ffab-9b98c8e5ad1a/_U56fe01_2752x2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/31/13/77311338-7354-bd4d-624b-f5c1ab143c60/_U56fe02_2752x2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/e5/6a/4be56a15-e92f-fefc-d258-4bc3b57e6e4e/_U56fe03_2752x2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/2a/ea/be2aeaa3-f56b-7052-d2b6-85bdc02d4be2/_U56fe04_2752x2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "引擎为 Unity（第三方游戏库有标注，未见官方确认）",
+   "level": "inferred"
+  },
+  {
+   "claim": "TapTap 标签含像素、横版、2D、多人联机；iOS 包体 2306MB",
+   "level": "confirmed"
+  },
+  {
+   "claim": "由啊吉游（上海）科技开发、上海文艺音像电子出版社出版，国新出审〔2025〕146 号",
+   "level": "confirmed"
+  },
+  {
+   "claim": "战斗为闪避/招架/弹反 + 三人小队实时切换，红光判定触发子弹时间",
+   "level": "confirmed"
+  },
+  {
+   "claim": "iOS 商店页标注 2026-12-09 上线，目前仍在预约期，TapTap 预约榜最高第 1、当前第 2",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/id6478156065",
+  "https://baike.baidu.com/item/%E4%BC%8D%E5%85%AD%E4%B8%83%EF%BC%9A%E6%9A%97%E5%BD%B1%E4%BA%A4%E9%94%8B/65191611",
+  "https://yume.ly/subject/524923",
+  "https://m.38down.com/soft/82894.htm"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2D 像素（横版卷轴）"
+ ],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "伍六七：暗影交锋",
+  "country": "cn",
+  "track_id": 6478156065,
+  "seller": "AJEEYOO Games",
+  "genres": [
+   "游戏",
+   "冒险",
+   "角色扮演"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/ba/bd/5bbabda7-3e74-5119-46ae-619c7dce64a2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/eb/38/d4eb3868-c1d7-3847-24e7-0ac8ce16dcf8/_U9996_U56fe-2556x1179.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/62/bb/9d62bb37-53a6-20a4-8c50-3e0aaaeaddae/_U56fe01_2556x1179.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/4c/f2/3f4cf2e0-8d3c-3917-2848-bfcd3130bb67/_U56fe02_2556x1179.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/93/c0/0f/93c00f36-0737-eb41-e6da-564a718c79ef/_U56fe03_2556x1179.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/42/06/99420646-e12d-668c-8434-895b94b711bf/_U56fe04_2556x1179.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/df/d8/35dfd842-c921-6b2d-6cd0-212e3438305c/_U9996_U56fe-2752x2064.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/c3/cb/0ec3cbac-619a-99e7-ffab-9b98c8e5ad1a/_U56fe01_2752x2064.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/31/13/77311338-7354-bd4d-624b-f5c1ab143c60/_U56fe02_2752x2064.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/e5/6a/4be56a15-e92f-fefc-d258-4bc3b57e6e4e/_U56fe03_2752x2064.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/2a/ea/be2aeaa3-f56b-7052-d2b6-85bdc02d4be2/_U56fe04_2752x2064.jpg/626x1112bb.jpg"
+  ],
+  "description": "《伍六七：暗影交锋》是由官方自研出品，融合动画原作和创意玩法的2D像素风格横版欢脱冒险RPG手游\n\n「 原创故事：熟悉的配方，加料的剧情 」\n主线剧情完全复刻？那多没意思。我们在用像素风精心还原一幕幕经典名场面的同时，还悄悄埋下了许多与动画交织、却又走向不同的命运线索——熟悉的场景里，藏着未曾见过的故事。经典角色的前传补充、原作中未曾展开的情节发展，还有大家最想看到的“小鸡岛日常”——统统安排上！\n\n「 拒绝坐牢：我们要革新，更要快乐 」\n在小鸡岛，没人逼你为了那点随机词条刷到头秃 。我们希望把重点放在更纯粹的乐趣体验上，剔除掉那些繁琐冗余的随机词条深坑，让变强之路更加清晰且目标明确 。把时间还给快乐，这是我们作为“跨界新人”的一点小倔强 。\n\n「 像素艺术：会心一笑的小惊喜 」\n我们用像素风重新搭建了小鸡岛的世界 。也在其中埋藏了大量彩蛋与小细节，等待每一位粉丝与玩家去挖掘 。无论你是资深老粉还是刚入坑的靓仔，在推图闯关之余，慢下心来挖掘这些隐藏的小心思，也是一种极具伍六七特色的收集乐趣 。\n\n「 花样整活：贯彻“伍六七式”幽默 」\n既然是伍六七，不正经才是正经 。从阿七的以气御剪到各路奇葩角色的技能，每一招都带着无厘头基因 。去“大保制造”搞点稀奇古怪的发明，或者修炼一套画风清奇的“心法” 。我们力求在每一处细节中，都灌注那种让你会心一笑的“伍六七式”幽默。\n\n小鸡岛欢迎每一位来访者，不问来历，这里有精彩的故事、爽快的战斗和多元的整活玩法等着你\n目前预约已正式开启，快来点击预约，和小伙伴们一起在小鸡岛“不讲武德”地开闹吧！",
+  "release_notes": "新增游戏实机演示视频",
+  "file_size_bytes": 2418080768,
+  "min_os": "15.0",
+  "version": "1.0.1.14",
+  "release_date": "2026-12-09",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E4%BC%8D%E5%85%AD%E4%B8%83-%E6%9A%97%E5%BD%B1%E4%BA%A4%E9%94%8B/id6478156065?uo=4",
+  "fetched_at": "2026-11-20T12:11:57+08:00"
+ },
+ "slug": "伍六七_暗影交锋_e4fea7"
+}

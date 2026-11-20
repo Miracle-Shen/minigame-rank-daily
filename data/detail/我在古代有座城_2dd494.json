@@ -1,0 +1,304 @@
+{
+ "schema_version": 1,
+ "name": "我在古代有座城",
+ "updated_at": "2026-11-20",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "安徽盈趣网络科技有限公司",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 1
+  },
+  "platform_app_ids": {
+   "ios": "6821266319"
+  },
+  "first_seen": "2026-11-17",
+  "appearances": 3,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "3D Q 版角色 + 2.5D 等距场景",
+  "art_style": "国风 Q 版 3D，古建与中医道具做了考据，主界面用手卷、匾额、印章做包装，暖黄做旧色调",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 5,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "3D 场景 + 等距视角 + 大量 UI 面板，要在成熟引擎上搭一套经营与城建共用的框架，难度中等",
+   "art": "571MB，3D Q 版人物 + 古建场景 + 全套中医道具与界面，美术是它最大的成本项",
+   "logic": "医馆设施按瓶颈逐个解锁 + 症候与手法必须对应 + 后段城建 SLG，系统耦合比第一眼看上去复杂",
+   "data": "多线养成（民心、武将升星觉醒、资源链）+ 同服竞争 + 赛季，经济模型是真正的重头",
+   "physics": "只有点击与走位，没有物理模拟，这部分几乎零成本",
+   "server": "单人经营为主，但有同盟、世界频道与同服排行，需要一套轻量联网"
+  },
+  "asset_notes": "3D Q 版角色与古建场景可复用素材库，但中医道具与界面需要定制；571MB 说明场景与角色资产已具规模，换题材等于换整套美术。",
+  "notes": "TapTap 有玩家直接点破它「本质是 Last Asylum、无尽冬日中古版，三冰换皮」，即前段医馆经营是新的，后段是成熟 SLG 骨架。第三方面站也有「把海外瘟疫避难所经营框架本土化」的说法，未见官方确认。",
+  "cost_score": 3.25,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "开局只有一间破医馆，屏幕顶上挂着「已治愈：0 人」；玩家滑动屏幕把郎中挪到病人身边，起药炉、熬药、端到病床施治，治够人数就升民心、解锁新房间；医馆转起来之后再派武将夺回被山匪占的伐木场与粮田，把资源喂回医馆继续扩床位。",
+  "highlights": [
+   "「已治愈：N 人」这一行数字当等级条，比经验条直观得多，救一个人就动一次，进度感贴着操作走",
+   "设施是按队伍堵在哪一环长出来的，玩家自己诊断「缺床位还是缺药童」，补对了效率立刻可见，掌控感强",
+   "症候要和手法对上，恶寒发热走煎药、神智不清走针灸，开错方药材照扣民心照掉，做出了一点真实的中医感",
+   "救回一个命悬一线的名将，他直接进武将列表，「治病」和「变强」是同一件事，比抽卡更有故事"
+  ],
+  "innovations": [
+   "把城建 SLG 的前 30 分钟换成医馆跑腿经营，用「救人」替代「盖房子」当开局动机",
+   "用治愈人数而非建筑等级当主进度条，把「仁心」做成了数值主线"
+  ],
+  "target_user": "25-45 岁古风与经营向用户，被短视频里「破医馆开局」的画面吸引进来，接受慢节奏",
+  "monetization": "混合变现：IAA（激励视频换加速与药材）+ IAP（元宝、招募、月卡），广告位密度偏高",
+  "lifecycle": "短平快买量型，TapTap 有玩家判断其没有长期运营计划；后段 SLG 骨架决定它能不能转长线"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "前 30 分钟的医馆跑腿是真有新意的：用治愈人数当等级条、设施按瓶颈解锁，这套结构不依赖古风题材也能成立。但玩几小时后 SLG 骨架浮上来，玩家自己就点破它是「无尽冬日中古版」。照整套抄会撞在成熟 SLG 的买量与长线运营上；只取医馆那一段，成本能压到一个小游戏团队可承受的范围。",
+  "suggestions": [
+   "只做医馆那 30 分钟：去掉城建 SLG，把「已治愈人数」当唯一进度，做成单机治愈向经营",
+   "把中医的症候—手法对应做成真正的解谜层（望闻问切四步，选错返工），这是原作没做透的差异点",
+   "题材可换：急诊科、社区诊所、兽医站，保留「跑腿补瓶颈」的结构但换掉古风包装",
+   "节奏压缩：原作靠建筑 CD 拉长线，小游戏版改成 5 分钟一个完整的「接诊—扩建」循环"
+  ],
+  "risks": [
+   "后段 SLG 与无尽冬日高度同构，整套搬会被直接指为换皮",
+   "中医题材有审核风险，病症与药方的表述需要谨慎处理",
+   "买量素材依赖「破医馆」这个开局画面，换题材后素材要整套重做"
+  ],
+  "effort": "30–40 人日（1 前端 + 1 美术 + 0.5 策划），只做医馆段可压到 20–25 人日"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "「已治愈：0 人」把抽象的等级条变成了具体的人命，本作靠这一行数字在上线首周拿到 iOS 国区免费榜第一、5600 条评价 4.8 分"
+    },
+    {
+     "lens": "用户",
+     "text": "规则一句话讲得清（救人 → 攒民心 → 开新房间），但跑腿操作在短视频用户手里容易变成「点得累」，必须减掉来回走的步数"
+    },
+    {
+     "lens": "业务",
+     "text": "「需求驱动解锁」与我们现有活动位兼容：不动主玩法，只加一条「接诊—扩建」支线就能跑起来"
+    },
+    {
+     "lens": "业务",
+     "text": "后段 SLG 与我们的结构不兼容，同盟、赛季、资源链会跟现有产品抢排期，硬接等于做第二个主玩法"
+    }
+   ],
+   "how": [
+    "只搬医馆段：把「已治愈人数 + 设施瓶颈解锁」做成 14 天限时活动挂一号位，看活动期次留与广告渗透率",
+    "把「症候 → 手法」做一次 A/B：一组一键治疗，一组必须选对方子，看完成率与广告触发哪个更高"
+   ],
+   "gain": [
+    "拿到一条可复用的活动主线：用「治愈/服务人数」替代等级条，任何服务型玩法都能套",
+    "省掉一轮玩法验证：原作已用榜单证明「救人类经营」在短视频渠道能起量，不用自己试错",
+    "明确边界：不做城建 SLG、不做同盟，避免团队按原作骨架去估一个不可能的工作量",
+    "组件沉淀：「瓶颈诊断 → 设施解锁」抽成组件后，可复用到诊所、食堂、维修站等任何经营题材"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "研发与发行都在安徽盈趣手上（App Store 卖家与开发方一致），自研自发，没有代理或联运入口",
+    "唯一可谈的是中医题材方法论与买量素材，但那不是可授权资产；产品本身按快买量短周期打法推进"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "连锁诊所会员运营",
+     "how": "把「已治愈人数」换成「累计服务人次」，达标解锁新科室，接进会员等级体系"
+    },
+    {
+     "scene": "新员工培训",
+     "how": "把症候—手法对应做成答题闯关，答错扣药材，用「治愈人数」当通关进度"
+    }
+   ]
+  },
+  "summary": "只取医馆跑腿那一段，后段 SLG 不碰"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/49/70/2849701e-6f29-fd32-a291-ef9690647473/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/2a/3c/562a3c86-7336-b948-8fa0-509c538e8862/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/03/b3/7903b3c4-3d7c-af00-68a5-f65126111198/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f8/0f/cf/f80fcf64-4fec-5017-c7ce-58a7ec75a9e2/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/dc/23/b5dc2396-cb02-5b6a-472d-d56f0888107d/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/24/57/0524574c-4fc8-254b-2f3a-51ec8ef2bd70/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0c/6b/b1/0c6bb171-729a-bc77-a95d-2d167f94bec3/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/78/28/29/78282940-8bec-c499-d4ef-969d3657548a/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/d3/95/6ad395a8-037e-50ef-2f5b-c3d1f5f49beb/2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/f7/9a/44f79a72-41d7-16de-1154-2287888c033d/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b3/2c/62/b32c6261-6d39-e674-56ea-e65a05fa78db/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3d/28/4e/3d284ede-b425-bc44-41a2-ab9d0cd918cc/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/a6/3c/c9a63cca-2093-49b8-c206-6a6636dd618b/6.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "引擎为 Unity（3D 等距场景 + 571MB 包体的常规选择，未见官方确认）",
+   "level": "inferred"
+  },
+  {
+   "claim": "iOS 国区包体 571MB，v1.2.1，2026-11-15 上线，5608 条评价 4.84 分，免费榜第 1",
+   "level": "confirmed"
+  },
+  {
+   "claim": "核心为「跑腿式医馆经营 + 已治愈人数当进度条 + 设施按瓶颈解锁」",
+   "level": "confirmed"
+  },
+  {
+   "claim": "后段为城建 SLG + 武将养成 + 县衙审案/军需押运/古城寻宝，界面底部有讨伐/武将/行囊/商城/同盟/世界",
+   "level": "confirmed"
+  },
+  {
+   "claim": "TapTap 有玩家评价称其「本质 Last Asylum、无尽冬日中古版，三冰换皮」",
+   "level": "confirmed"
+  },
+  {
+   "claim": "第三方面站称其将海外「瘟疫避难所经营」框架本土化为中医医馆，未见官方确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/id6821266319",
+  "https://www.taptap.cn/app/1009083",
+  "https://www.1912yx.com/yxk/3375.html",
+  "http://mp.weixin.qq.com/s?__biz=MzkwNTYzOTI2Mg==&mid=2247503834&idx=2&sn=feecb182ee59981211d10acec7a104c8"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：3D Q 版角色 + 2.5D 等距场景"
+ ],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "我在古代有座城",
+  "country": "cn",
+  "track_id": 6821266319,
+  "seller": "Anhui Yingqu Network Technology Co., Ltd.",
+  "genres": [
+   "游戏",
+   "休闲",
+   "模拟"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/49/70/2849701e-6f29-fd32-a291-ef9690647473/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/2a/3c/562a3c86-7336-b948-8fa0-509c538e8862/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/03/b3/7903b3c4-3d7c-af00-68a5-f65126111198/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f8/0f/cf/f80fcf64-4fec-5017-c7ce-58a7ec75a9e2/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/dc/23/b5dc2396-cb02-5b6a-472d-d56f0888107d/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/24/57/0524574c-4fc8-254b-2f3a-51ec8ef2bd70/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0c/6b/b1/0c6bb171-729a-bc77-a95d-2d167f94bec3/6.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/78/28/29/78282940-8bec-c499-d4ef-969d3657548a/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/d3/95/6ad395a8-037e-50ef-2f5b-c3d1f5f49beb/2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/f7/9a/44f79a72-41d7-16de-1154-2287888c033d/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b3/2c/62/b32c6261-6d39-e674-56ea-e65a05fa78db/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3d/28/4e/3d284ede-b425-bc44-41a2-ab9d0cd918cc/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/a6/3c/c9a63cca-2093-49b8-c206-6a6636dd618b/6.jpg/626x1112bb.jpg"
+  ],
+  "description": "乱世开局，别人忙着打仗，你却开起了医馆！\n\n《我在古代有座城》是一款休闲医馆经营游戏。你将从一间破败医馆起步，救治百姓、妙手回春，面对各种疑难杂症，想方设法救活每一位病人。医术够不够硬，药方够不够奇，全看你的本事！\n从悬壶济世到救治名将，从经营医馆到建设城池，你不仅能招贤纳士、壮大实力，还能抵御外敌，在乱世之中守护一方百姓，闯出属于自己的一片天地！\n\n1. 医馆经营：开局一间破医馆\n从零开始打理医馆，采药制药、接诊治病、升级诊室与药柜，一步步扩大经营规模。医馆越办越红火，乱世生存才更有底气。\n2. 奇葩诊疗：疑难杂症包在我身上\n乱世病人千奇百怪，治病可没那么简单！望闻问切、辨症开方、研制奇药，面对各种稀奇古怪的病症，看看你的医术究竟有多厉害。\n3. 名将救治：多救一个多份力\n上门的不只有平民百姓，还有命悬一线的名将！救下他们便多一位并肩的战友，让曾经叱咤沙场的英雄成为你的得力帮手。\n4. 安民养城：救人救出一座城\n医馆只是起点，建设城池才是更大的挑战！从救助一方百姓到建起自己的家园，逐步壮大实力、修筑城防，抵御外敌侵扰，守住这来之不易的太平日子！",
+  "release_notes": "1、医馆经营：从一间破败医馆起步，坐堂问诊、炮制良方，把小铺子经营成名满天下的神医圣手。\n2、武将治疗：为沙场名将疗伤续命，以仁心换忠心，广纳贤才，麾下将星云集，助你开疆拓土。\n3、县衙审案：升堂断案、明察秋毫，一桩桩奇案见人心，安抚一方百姓，稳坐一城之主。\n4、军需押运：押粮护草、力御贼寇，把每一车粮草变成城池的砖瓦，囤资备战，固若金汤。\n5、古城寻宝：深入古城、探穴寻龙，摸金问古觅奇珍，满载而归，宝物尽入囊中。",
+  "file_size_bytes": 599100416,
+  "min_os": "13.0",
+  "version": "1.2.1",
+  "release_date": "2026-11-15",
+  "rating": 4.84201,
+  "rating_count": 5608,
+  "price": "免费",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/cn/app/%E6%88%91%E5%9C%A8%E5%8F%A4%E4%BB%A3%E6%9C%89%E5%BA%A7%E5%9F%8E/id6821266319?uo=4",
+  "fetched_at": "2026-11-20T12:11:59+08:00"
+ },
+ "slug": "我在古代有座城_2dd494"
+}
