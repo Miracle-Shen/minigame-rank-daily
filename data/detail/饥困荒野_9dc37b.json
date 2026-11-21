@@ -1,0 +1,287 @@
+{
+ "schema_version": 1,
+ "name": "饥困荒野",
+ "updated_at": "2026-11-21",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "腾讯",
+  "category_l1": "沙盒",
+  "category_l2": "生存、多人联机、饥荒、冒险",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 5
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-07-06",
+  "appearances": 65,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "手绘哥特微恐：粗线条、低饱和、扭曲植物与不合常理的生物，等距俯视视角，整体是《饥荒》原版画风的延续",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 3,
+   "physics": 3,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 4
+  },
+  "dim_notes": {
+   "art": "包体 3.82GB，是全批最重的一款；手绘风格的每一只生物、每一件家具、四季与洞穴地貌都要单独出图，属长线内容资产",
+   "logic": "随机地图生成 + 饥饿/温度/潮湿/精神四维 + 制作树 + 四季 BOSS + 洞穴与海面分层，再加上专家模式可自定义世界规则，系统复杂度是 MMO 级",
+   "data": "家园之门逐层解锁（上千种家具图纸、宠物小屋、兽栏、气象仪）+ 赛季「绿洲之诗」+ 角色特质，多线养成叠赛季内容",
+   "server": "强联网：多人生存沙盒、家园、UGC 编辑器分享、语音房间、导师与亲密关系，服务端是这类产品最贵的部分",
+   "engine": "原作《饥荒》是自研 C++ 引擎 + Lua 脚本，手游是重写而非移植，等距渲染、随机世界与联机同步都要重搭",
+   "audio": "全定制氛围音与生物音效，另有 AI 助手维可的语音问答，音频不是通用音效库能覆盖的量级"
+  },
+  "asset_notes": "美术是全手绘 2D 资产且体量巨大（3.82GB），AI 生图只能做概念参考，实际要贴合哥特手绘统一风格，基本只能靠美术团队长期产出。",
+  "notes": "Klei 正版授权、盛趣游戏旗下猪人工作室（上海鸿利数码）研发、腾讯发行，2026-11-24 公测，全平台预约 2000 万。相对端游做了四处结构性改动：自定义角色（原作角色改为 NPC）、家园安全区与一键回家、世界重置但角色与背包保留、三档难度（轻松/标准/专家）。",
+  "cost_score": 4.25,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "从一根树枝起步：白天满地图捡树枝燧石与食物，天黑前必须点起火堆否则被黑暗吞掉；用材料造工具、造科学机器、解锁制作树，边活边把家园之门升级。四季轮转带来各自的 BOSS 与资源枯竭，死了重开一个随机世界，但角色与背包会保留回家园。",
+  "highlights": [
+   "「天黑前必须有一堆火」是全游戏最硬的节拍器，一局被切成一个个白天，玩家永远在算时间",
+   "饥饿、温度、精神三条线同时压着，任何一条见底都会连锁崩盘，这种多线紧绷是它区别于普通生存手游的地方",
+   "四季各自带一套资源与 BOSS，第一个冬天往往就是新玩家的坟场，也是老玩家最爱讲的故事",
+   "联机开荒的互相坑害：夜里轮流守火、被巨鹿追着跑、队友把最后一根木头烧了，笑点全在多人"
+  ],
+  "innovations": [
+   "把端游的「清零」改成「世界重置、角色与背包保留」，解决了移植到手机后反复重开的损耗问题",
+   "加家园安全区与一键传送回家：把原来一根直线的生存流程掰成「大世界搜集 → 回家园养成 → 带养成回大世界」的环",
+   "商业化上与数值解耦：取消武器与宠物抽卡、改成日常活跃换的兑换商店，付费只留外观与坐骑"
+  ],
+  "target_user": "18-30 岁沙盒生存爱好者与《饥荒》端游老玩家，愿意长时间在线、能接受失败重来，也吃联机社交",
+  "monetization": "混合变现但明确不卖数值：外观/坐骑/皮肤等非战力付费 + 活跃兑换商店；官方在定档前公开承诺取消武器与宠物抽卡",
+  "lifecycle": "长线运营，靠赛季（绿洲之诗）、联机版后续内容移植、单机 DLC 哈姆雷特移植与 UGC 编辑器续命"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "这是 Klei 授权 + 盛趣三年半研发 + 腾讯发行的三重叠加，3.82GB 包体与强联网服务端都不是小游戏团队能碰的量级。玩法本身也不是可复制的机制，而是十年积累的世界观与内容资产。唯一可借鉴的是它对移动端做的四处结构性折中，以及「不卖数值」的商业化判断。",
+  "suggestions": [
+   "只借「三条压力线同时压」的框架：把饥饿/温度/精神抽象成三条每日衰减条，做成一局 5 分钟的生存小活动",
+   "借它的容错设计：世界重置但保留角色进度，这条可以直接用在任何 roguelike 关卡上，降低重开挫败",
+   "抄它的商业化取舍：把抽卡改成活跃兑换商店，作为自有产品「不卖数值」的现成话术与结构参考",
+   "不要碰等距沙盒与随机地图生成——那是引擎级投入，不是玩法层能借的东西"
+  ],
+  "risks": [
+   "Klei 授权 + 腾讯独家发行，任何沙盒生存玩法靠近都会撞版权与认知",
+   "3.82GB 包体与强联网依赖，微信/抖音小游戏生态根本装不下",
+   "端游老玩家对「一键回家」「角色改 NPC」已有明确争议，说明这类折中本身就有口碑风险"
+  ],
+  "effort": "不建议立项（对标量级：百人年以上 + 三年半研发周期）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "用户买的是《饥荒》本身：黑夜、饥饿、被巨鹿追着跑的十年记忆，2000 万预约来自 IP 而不是玩法首创，换掉这层皮就什么都不剩"
+    },
+    {
+     "lens": "用户",
+     "text": "我们的用户大多是单人碎片场景，而它把「一键回家」「轻松模式」都做出来了还是偏硬核，搬过来只会被慢节奏与失败重来劝退"
+    },
+    {
+     "lens": "业务",
+     "text": "壁垒在服务端与长期内容产能：随机世界生成、多人同步、UGC 编辑器、上千件家具图纸，任何一项都不是常规产品线能接的基建"
+    },
+    {
+     "lens": "业务",
+     "text": "时机也不成立：Klei 已授权 Playdigious 出买断制海外手机版，国服由腾讯独家，没有可借的窗口，只剩方法论可参考"
+    }
+   ],
+   "how": [
+    "只取最薄的一层：把「饥饿/温度/精神三线同压」抽象成三条每日衰减条，接进一局 5 分钟的限时活动，两周可验证",
+    "把它的「世界重置但保留角色与背包」写成通用容错规则，套到自有 roguelike 关卡上，先从不惩罚重开做起"
+   ],
+   "gain": [
+    "规避一次量级误判：明确 3.8GB 级沙盒生存不在射程，省掉一轮「要不要做开放世界」的团队讨论",
+    "拿走「多线压力条」这个可复用框架：三条衰减条 + 一个恢复动作，能套进任何需要紧张感的轻玩法",
+    "拿到一条现成的商业化判断：取消数值抽卡、改活跃兑换商店，可直接作为自有产品去数值化的参照",
+    "沉淀一份移动端折中清单：自定义角色、安全区、保留进度、三档难度，这四条是移植硬核玩法时的通用答案"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "Klei 授权 + 盛趣研发 + 腾讯独家发行，三层都已锁死，不存在代理或联运入口",
+    "唯一可谈的是 UGC 编辑器能力，但它绑在腾讯自有生态里，对外没有授权通道"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "品牌会员生存挑战",
+     "how": "把三条压力条换成积分/活跃/连续签到，断一条就掉 buff，逼用户每天回来补一次"
+    },
+    {
+     "scene": "线下营地活动预热",
+     "how": "把「天黑前点火」做成 7 天倒计时任务，每天解锁一件装备图纸，最后一天开营地地图"
+    }
+   ]
+  },
+  "summary": "IP 与工程量双重壁垒，只借压力条与容错设计"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/92/b5/0292b584-f4c5-6a6f-4c04-a395479babf8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/fe/6d/e6fe6d42-eea7-8b87-1156-8d0510da34f9/234f396c-85f3-46dd-8dee-ae96c35d2365_20240418110222-4fdfa73c-97c1-4df3-9374-db21c109e821-6384936-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/54/8b/22548bb6-60c5-1a4b-e3a1-42c4dc909a8b/52a73a1f-bace-41d1-bb44-2205b3142064_20240418110228-4fdfa73c-97c1-4df3-9374-db21c109e821-6384934-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/17/99/2617991e-3258-61dc-2d90-fed3acbc0384/885669f2-ad73-4a62-9247-9943d31c66dc_20240418110235-4fdfa73c-97c1-4df3-9374-db21c109e821-6384932-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/36/e4/3736e470-e889-04cd-b4b6-7867452e1e22/3b882808-2195-4d26-81c1-5db74d9f37f9_20240418110241-4fdfa73c-97c1-4df3-9374-db21c109e821-6384933-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/a7/01/65a701c7-5a0e-1628-998f-41eb1ed12de9/a70410a0-12fb-4742-93f4-7e4b90abaeef_20240418110247-4fdfa73c-97c1-4df3-9374-db21c109e821-6384935-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/c1/0e/10c10ec1-6c55-119f-cdcf-8735411a1c5e/9bbefad8-e2f8-48d1-b63a-267cda1ddc6b_20240418110223-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384945-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0e/9f/7f/0e9f7f50-d637-0808-bf11-98e351b4ca45/edc4f849-9e97-4aed-a10b-bc40c4197936_20240418110229-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384946-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/dc/3c/d8dc3ced-fb99-6f67-af4b-477de3067e32/7ad14891-27a1-4fb1-997b-3c22946ec4ef_20240418110236-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384942-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/3f/ed/843fede6-293d-d731-2ced-391be4719100/8c0542b9-7d68-4d97-a78d-e95fcbfac160_20240418110242-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384943-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/87/ff/cf87ff01-9d0d-ca6d-6a58-d3e62f0fafa4/cb5fe420-0425-4c15-970b-20ed19127f87_20240418110248-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384944-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "Klei 正版授权，盛趣游戏旗下猪人工作室（上海鸿利数码）研发，腾讯发行，2026-11-24 公测",
+   "level": "confirmed"
+  },
+  {
+   "claim": "全平台预约 2000 万，iOS 页显示包体 3,821,768,704 字节（约 3.82GB）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "移动端四处结构性改动：自定义角色（原作角色改为 NPC）、家园安全区与一键回家、世界重置但保留角色与背包、轻松/标准/专家三档难度",
+   "level": "confirmed"
+  },
+  {
+   "claim": "官方取消武器与宠物抽卡，卡池改为日常活跃兑换商店，突破只吃沙盒材料，付费只留外观与坐骑",
+   "level": "confirmed"
+  },
+  {
+   "claim": "原作《饥荒》为自研 C++ 引擎 + Lua 脚本 + 自研动画格式 + FMOD 音频（Klei 官方论坛回复）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "手游引擎为 Unity（无官方确认，按国内大厂移动端重制项目的通行选型推断）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/id6479747214",
+  "https://baike.baidu.com/item/%E9%A5%A5%E5%9B%B0%E8%8D%92%E9%87%8E",
+  "https://www.163.com/dy/article/L9PQ5OSQ0511B8LM.html",
+  "https://kleiforums.com/forums/topic/80262-which-game-engine-build-dont-starve-unity3d-or-self-build-engine/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "饥困荒野",
+  "country": "cn",
+  "track_id": 6479747214,
+  "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+  "genres": [
+   "游戏",
+   "角色扮演",
+   "冒险"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/92/b5/0292b584-f4c5-6a6f-4c04-a395479babf8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/fe/6d/e6fe6d42-eea7-8b87-1156-8d0510da34f9/234f396c-85f3-46dd-8dee-ae96c35d2365_20240418110222-4fdfa73c-97c1-4df3-9374-db21c109e821-6384936-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/54/8b/22548bb6-60c5-1a4b-e3a1-42c4dc909a8b/52a73a1f-bace-41d1-bb44-2205b3142064_20240418110228-4fdfa73c-97c1-4df3-9374-db21c109e821-6384934-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/17/99/2617991e-3258-61dc-2d90-fed3acbc0384/885669f2-ad73-4a62-9247-9943d31c66dc_20240418110235-4fdfa73c-97c1-4df3-9374-db21c109e821-6384932-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/36/e4/3736e470-e889-04cd-b4b6-7867452e1e22/3b882808-2195-4d26-81c1-5db74d9f37f9_20240418110241-4fdfa73c-97c1-4df3-9374-db21c109e821-6384933-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/a7/01/65a701c7-5a0e-1628-998f-41eb1ed12de9/a70410a0-12fb-4742-93f4-7e4b90abaeef_20240418110247-4fdfa73c-97c1-4df3-9374-db21c109e821-6384935-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/c1/0e/10c10ec1-6c55-119f-cdcf-8735411a1c5e/9bbefad8-e2f8-48d1-b63a-267cda1ddc6b_20240418110223-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384945-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0e/9f/7f/0e9f7f50-d637-0808-bf11-98e351b4ca45/edc4f849-9e97-4aed-a10b-bc40c4197936_20240418110229-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384946-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/dc/3c/d8dc3ced-fb99-6f67-af4b-477de3067e32/7ad14891-27a1-4fb1-997b-3c22946ec4ef_20240418110236-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384942-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/3f/ed/843fede6-293d-d731-2ced-391be4719100/8c0542b9-7d68-4d97-a78d-e95fcbfac160_20240418110242-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384943-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/87/ff/cf87ff01-9d0d-ca6d-6a58-d3e62f0fafa4/cb5fe420-0425-4c15-970b-20ed19127f87_20240418110248-9f9d2c7e-f61b-421d-ad3b-b9c34aa17343-6384944-1.jpg/626x1112bb.jpg"
+  ],
+  "description": "《饥困荒野》获得Klei正版授权，是以经典PC游戏“饥荒：联机版”为基础开发的全新沙盒生存类手游，冒险家们将从这里进入一个未经探索的奇幻世界，开启一段超高自由度的探索、挑战、生存与成长之旅。这里充满了奇怪的生物以及隐藏的危险，你将需要持续探索世界、收集资源、制作工具、击败怪物，解开古老而神秘的谜团，体验一次又一次刺激而欢乐的求生历程。你可以叫上伙伴们一起并肩作战，共同克服未来的难题，在这个自由沙盒的世界中一起战斗、收集、建设和探索吧！\n\n【经典焕新，端游玩法完美还原】\n手游复刻了原汁原味的“饥荒”联机版端游玩法，可以在手机上随时随地体验。\n\n【胡闹生存：明天和意外，谁知道哪个先来】\n奇怪的生物，旧神的秘密，饱腹的食物，所有你看得见的东西都有可能成为夺取你生命的陷阱，你可以精心筹划策略应对，也可以靠奇思妙想来化解，都是属于你的生存哲学，无论如何，请谨记一点：“在黑夜来临之前，你最好先吃点东西！”\n\n【自由探索：一千种死法，一万种活法】\n森林、沙漠、草原、雪地、沼泽、洞穴、海面…数不清的资源和未知的危险并存，随着四季的轮转，大自然会给你应有的回馈，可以选择战斗探索，也可以选择耕田采集烹饪，只要能守住三维的底线就是这里的法则。毕竟“生命带来痛苦，痛苦带来生命”。\n\n【欢乐联机：努力稳定朋友的精神状态】\n危机四伏？拉上你信赖的探险伙伴！在夜晚的篝火边轮流守夜，看用啥能驱散四周诡异的怪影。遇到打不过的怪物？那就跑呀！“我感到无尽的空虚。”不，你不会。\n\n【哥特微恐：荒诞世界的独特画风】\n由哥特风格装饰的暗黑超自然世界里，古老的神庙被藤蔓覆盖，满月升起制造着危机，各式各样的诡计防不胜防，还有不断复活的雕像，都在等你开始永恒的生存之旅，但“没有药膏可以缓解存在的痛苦”不是吗。\n\n【家园经营：精心布置，打造你的温馨小家】\n是卷上天的花园，还是无敌的堡垒，打造专属于自己的庇护所，“我可不允许我的午餐跑来跑去。抓住它们！”",
+  "release_notes": "修复部分已知问题",
+  "file_size_bytes": 3821768704,
+  "min_os": "14.0",
+  "version": "1.29.1",
+  "release_date": "2026-11-24",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E9%A5%A5%E5%9B%B0%E8%8D%92%E9%87%8E/id6479747214?uo=4",
+  "fetched_at": "2026-11-15T12:23:34+08:00"
+ },
+ "slug": "饥困荒野_9dc37b"
+}

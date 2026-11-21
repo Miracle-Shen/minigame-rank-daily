@@ -1,0 +1,286 @@
+{
+ "schema_version": 1,
+ "name": "超级整理师 - 找一找隐藏的物品",
+ "updated_at": "2026-11-21",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "AkerSun Technology Co.,Ltd.",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 10
+  },
+  "platform_app_ids": {
+   "ios": "6824357074"
+  },
+  "first_seen": "2026-11-09",
+  "appearances": 12,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "清新手绘插画风，每关一整张高细节生活场景（客厅、泳池、电影院、办公室、学校食堂、顶楼阳台），物件与背景同色系叠放、局部刻意做视觉伪装",
+  "dims": {
+   "engine": 2,
+   "art": 4,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 1
+  },
+  "dim_notes": {
+   "art": "美术就是全部资产：每关一张手绘大场景，单张塞进几十件可点物件，且要保证「同色不混淆、压住能看出层次」，包体 314MB 基本全是这些插画",
+   "logic": "真难点是层叠遮挡关系与暂存区 7 格上限的组合：每挪一件上层物都花掉一格，关卡配置要保证「可解且不憋屈」，属于要专门做关卡编辑与验证的部分",
+   "data": "没有成长线：只有金币、提示次数、星级评价，货币只用来买提示与解锁场景",
+   "server": "纯单机，无账号、无云存档、无排行榜，断网可玩",
+   "anim": "只有拾取归位的基础位移与轻动效，物件本身是静态贴图"
+  },
+  "asset_notes": "一张场景插画 = 一个关卡，美术是唯一成本；可用 AI 生图打底，但物件层必须人工拆分并标注遮挡层级，这块工时不可压缩。",
+  "notes": "AkerSun Technology 出品，2026-11-02 中国区 App Store 上架（同日发 1.0/1.1），上架一周评分从 202 条涨到 431 条、4.7 分。副标题写「找茬」，实际没有两图对比与线索板，只有点选—归类。",
+  "cost_score": 2.0,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "每关给一张塞满杂物的手绘房间图和顶部清单（如泳圈 0/5、泳裙 0/4、发夹 0/6），玩家点选可见物件放进上方暂存栏，凑齐某一类配额就自动归集、腾出格位；被压住的物件要先挪走上层，而暂存栏只有 7 格，塞满就彻底动不了。",
+  "highlights": [
+   "「暂存栏只剩两格」的压迫感是这作最爽也最痛的地方——明明看见目标就在那，却因为刚才多点了一个果皮拿不出来",
+   "凑齐一组后自动归集、格子回血的瞬间有明确的秩序感，这也是它区别于纯眼力找茬的核心反馈",
+   "大件挪开后底层小件「露出来」的一刻很解压，遮挡关系本身就是奖励结构",
+   "难度是铺好的：前期卧室桌堆少，中期上带图标的分类框（厨具归厨具、果蔬归果蔬），后期压格位 + 加计时"
+  ],
+  "innovations": [
+   "给传统的「找物」加了一条容量约束：暂存区 7 格把无脑点击变成拾取顺序规划，这是本作与普通找茬最大的分水岭",
+   "目标按「品类 + 配额」下发（0/7 比 0/4 深得多），玩家要自己判断先拆哪一堆，而不是看见什么捡什么"
+  ],
+  "target_user": "25-45 岁女性为主的生活化解压用户与 iPad 用户，碎片时间、睡前、通勤，不需要反应速度",
+  "monetization": "IAA 为主：弹窗广告 + 看广告解锁提示/清理道具，商店页无去广告内购；差评集中骂的正是「时不时弹内部广告」与「想付费免广告都没入口」",
+  "lifecycle": "短平快偏长线：上架一周靠免费榜冲量，后续靠关卡扩充（1.2 版本加了新关卡）与每日任务维持，缺少长线目标"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "找物本身是零门槛的成熟玩法，代码量极小；真正有价值的是「暂存区容量」这一条结构约束，它把眼力游戏改成了顺序规划游戏，这条必须保留。但手绘场景是重美术投入（一关一张精修插画），且找物赛道产品极多，照抄只能拼美术，必须换一个结构点或换人群。",
+  "suggestions": [
+   "把「整理房间」换成「药房盘点」或「仓库盘点」：清单变成单据，暂存格变成手持托盘，同一套机制换到 B 端感更强的题材",
+   "把暂存 7 格改成「按品类分格的收纳盒」（每格只收一类），约束从数量变成分类，难度曲线更好控也更少挫败",
+   "加一条轻成长：每关满星解锁一个「新房间」，用房间收集替代纯关卡列表，给回访一个理由",
+   "广告位从弹窗改成「提示 / 清理道具」两个主动入口，它现在最大的差评就是弹窗打断"
+  ],
+  "risks": [
+   "一关一张精修插画，美术成本随关卡线性增长，做 50 关就是 50 张商业插画",
+   "找物/收纳赛道同类极多（同榜的《不停找找找》《疯狂收杂物》都在打同一批用户），买量价格被抬高",
+   "暂存区塞满即卡死的设计对新玩家偏硬，首关不做好引导会直接流失"
+  ],
+  "effort": "20–30 人日（1 前端 + 1 美术，美术按关卡外包另计）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "打中的是「把乱的东西归位」的秩序快感，不需要任何操作技巧，本作上架一周就拿到 431 条评价 4.7 分，说明门槛低到能覆盖最泛的休闲人群"
+    },
+    {
+     "lens": "用户",
+     "text": "搬进我们的产品里规则一句话讲得清（按清单点东西、别把格子塞满），但原作没有长线目标，用户通关几关就会走，必须补一层收集或赛季才留得住"
+    },
+    {
+     "lens": "业务",
+     "text": "「清单 + 有限暂存格 + 遮挡层」是一套与题材无关的通用约束，任何点击收集类玩法都能直接加，抽出来就是一个可复用组件"
+    },
+    {
+     "lens": "业务",
+     "text": "不做的话，活动位仍缺一种「零学习成本、可大量换皮」的轻玩法，而这正是拉新增最便宜的一档"
+    }
+   ],
+   "how": [
+    "先拿 10 张场景做活动位试水：只做主线关卡 + 星级，不接金币与提示道具，两周上线看人均通关数与广告触发率",
+    "把广告位改成「提示 / 清理遮挡」两个主动入口，与它现在的弹窗做 A/B，对照次留与投诉率"
+   ],
+   "gain": [
+    "拿到「容量约束 + 遮挡层」这套组件，之后换题材只换场景插画，关卡逻辑不用重写",
+    "一次可验证的结论：零门槛找物能不能撑起活动位的回访，省掉后续反复立项讨论",
+    "广告位经验：它用弹窗换收入、被差评打脸，我们直接走主动触发位，规避同一坑",
+    "美术产能参照：按「一关一张插画」估算外包成本，可提前算清这条产品线的边际成本"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "AkerSun 自研自发，App Store 上另有《守了个桥》，是小团队多产品线的打法，理论上存在代理或联运需求",
+    "可谈点只在场景插画与关卡产能，卡在它刚上架一周、长线数据还没验证，现在接触议价空间不对"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "连锁药店盘点",
+     "how": "把房间换成货架，清单换成盘点单，暂存 7 格换成手持托盘，收齐一类自动上架"
+    },
+    {
+     "scene": "会员日拆盲盒",
+     "how": "把「被压住的物件」换成礼盒堆叠，拆开上层才能看到下层权益，暂存格当今日可领额度"
+    }
+   ]
+  },
+  "summary": "容量约束是真新意，可抽成组件，需补长线"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/d0/59/4bd0592d-9130-36b0-5b3d-fb6037bfc1e8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/ff/b1/09ffb1ec-1a42-6118-e433-309f1d46bd24/publicity-3767-589a04fad50ec7c7cfd7cbb84c898bd4b9bb0e8c31abb71e51473cee04045f2c.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/3e/ea/e33eea0f-ddb2-ddcd-853f-d2b22e45d6b8/publicity-3767-b623157c422c77c8c3187527d4622147d9f9b992c1dd535220e70a7a25580348.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/47/37/9a47372e-bf81-9476-bf9c-d2a6b7ff148a/publicity-3767-60d210c0acd923c4ad692521415ee37ff16eefb56aaa1e505acf7e19c2d67372.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/94/4b/06944b62-1db5-002a-acc4-4319223dff81/publicity-3767-649b2533c7a76e5115324a90705b5f2e0914d15d44574051d9002460ff99685b.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/58/87/9e5887e4-dde5-a5f0-5c9b-74f28b2b99b7/publicity-3767-01bc8deafa37e46562c88412b302e35a04660fcffd20db25b59f54a5e4283fe9.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/5c/51/445c51a2-c115-d85f-0b2b-2419510472a0/publicity-3767-a7e12abaecb3e80be643db5884510d29908edbbc0a92f8c48ae94fe8e0c37825.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/49/08/f349081c-4296-5735-1d31-62a1972a2030/publicity-3767-9bbffa3ed0655c874a6b03b05b62d0b251307e24dddf0c6c5720a8ff6f59db34.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/04/0e/e2040ed0-e74c-1e76-8cbb-30fd340c8699/publicity-3767-20dd700f316b734d2210b858d5cc46cffb0872ef12689837b8480b35bafa21a0.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/f0/49/f5f04926-879f-08e0-f69a-ac9e908d7680/publicity-3767-04c28537d8383f285f4f5f5f293cc619fb5f0094682597c3d5cce57812f803a2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/8c/1e/868c1e3a-9a60-625c-79c0-274d63c7e602/publicity-3767-aa8669a1f9872a02f29a57e274cbd8f8419e824352b7829a59bb968b66cdf3fe.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "开发者 AkerSun Technology Co.,Ltd.，2026-11-02 中国区 App Store 上架，ID 6824357074",
+   "level": "confirmed"
+  },
+  {
+   "claim": "包体 329,512,960 字节（约 314MB），iOS 15.0 以上，4+，免费",
+   "level": "confirmed"
+  },
+  {
+   "claim": "评分 4.68、评分条数 2192（抓取时点），上架首周样本从 202 条涨到 431 条",
+   "level": "confirmed"
+  },
+  {
+   "claim": "暂存区上限 7 件非目标物品，被遮挡物件须先移开上层，同类凑齐配额自动归集释放格位",
+   "level": "confirmed"
+  },
+  {
+   "claim": "差评集中在弹窗广告与「想付费免广告没入口」，商店页无去广告内购项",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（无官方确认，按单机 2D 插画类 iOS 应用与同厂产品推断）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/id6824357074",
+  "http://mp.weixin.qq.com/s?__biz=MzkxMDYwMjc3OQ==&mid=2247497236&idx=4&sn=c08e18b3faa1ac74723f42df6460cc97",
+  "http://mp.weixin.qq.com/s?__biz=MzkyMTU5ODg4Ng==&mid=2247496211&idx=6&sn=2c00ee340ab5a44d4943668ff77a9d52"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "超级整理师 - 找一找隐藏的物品",
+  "country": "cn",
+  "track_id": 6824357074,
+  "seller": "AkerSun  Technology Co.,Ltd.",
+  "genres": [
+   "游戏",
+   "休闲",
+   "益智解谜"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/d0/59/4bd0592d-9130-36b0-5b3d-fb6037bfc1e8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/ff/b1/09ffb1ec-1a42-6118-e433-309f1d46bd24/publicity-3767-589a04fad50ec7c7cfd7cbb84c898bd4b9bb0e8c31abb71e51473cee04045f2c.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/3e/ea/e33eea0f-ddb2-ddcd-853f-d2b22e45d6b8/publicity-3767-b623157c422c77c8c3187527d4622147d9f9b992c1dd535220e70a7a25580348.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/47/37/9a47372e-bf81-9476-bf9c-d2a6b7ff148a/publicity-3767-60d210c0acd923c4ad692521415ee37ff16eefb56aaa1e505acf7e19c2d67372.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/94/4b/06944b62-1db5-002a-acc4-4319223dff81/publicity-3767-649b2533c7a76e5115324a90705b5f2e0914d15d44574051d9002460ff99685b.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/58/87/9e5887e4-dde5-a5f0-5c9b-74f28b2b99b7/publicity-3767-01bc8deafa37e46562c88412b302e35a04660fcffd20db25b59f54a5e4283fe9.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/5c/51/445c51a2-c115-d85f-0b2b-2419510472a0/publicity-3767-a7e12abaecb3e80be643db5884510d29908edbbc0a92f8c48ae94fe8e0c37825.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/49/08/f349081c-4296-5735-1d31-62a1972a2030/publicity-3767-9bbffa3ed0655c874a6b03b05b62d0b251307e24dddf0c6c5720a8ff6f59db34.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/04/0e/e2040ed0-e74c-1e76-8cbb-30fd340c8699/publicity-3767-20dd700f316b734d2210b858d5cc46cffb0872ef12689837b8480b35bafa21a0.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/f0/49/f5f04926-879f-08e0-f69a-ac9e908d7680/publicity-3767-04c28537d8383f285f4f5f5f293cc619fb5f0094682597c3d5cce57812f803a2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/8c/1e/868c1e3a-9a60-625c-79c0-274d63c7e602/publicity-3767-aa8669a1f9872a02f29a57e274cbd8f8419e824352b7829a59bb968b66cdf3fe.png/626x1112bb.jpg"
+  ],
+  "description": "房间乱成小山？用指尖把散落的物品一件件收回上方的物品栏，体验那种从凌乱到有序的满足感。\n\n把注意力放回当下：用手指点选房间中的各类物品，将它们整理到上方的目标栏里。顶部会实时显示当前要收集的品类与数量，按要求收齐即完成本轮整理；若暂存区满了，就需要更谨慎地安排顺序。\n\n你会喜欢这些细节：简洁明了的目标提示让每一次点击都有方向感；暂存空间带来的压迫感，会让节奏更紧凑但不失趣味；\n\n清新可爱的场景插画（客厅、泳池、电影院、办公室、食堂等）让每一轮整理都像翻阅一个生活小画板。轻快的上手节奏适合碎片时间——无须复杂操作，直观的点选与即时反馈带来持续的成就感。\n\n每一关目标略有差异，既有放松的整理乐趣，也有需要思考的收集安排。如果想在空闲时刻找点成就感、放松情绪或单纯享受整理过程，这里是不错的指尖消遣。\n\n准备好开始整理了吗？来一次清爽的收纳体验吧。",
+  "release_notes": "- 关卡扩充，新关卡现已上线",
+  "file_size_bytes": 329512960,
+  "min_os": "15.0",
+  "version": "1.2",
+  "release_date": "2026-11-02",
+  "rating": 4.68111,
+  "rating_count": 2192,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E6%95%B4%E7%90%86%E5%B8%88-%E6%89%BE%E4%B8%80%E6%89%BE%E9%9A%90%E8%97%8F%E7%9A%84%E7%89%A9%E5%93%81/id6824357074?uo=4",
+  "fetched_at": "2026-11-15T12:23:36+08:00"
+ },
+ "slug": "超级整理师_找一找隐藏的物品_05497d"
+}

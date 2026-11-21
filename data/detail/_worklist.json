@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-20T12:17:01+08:00",
+ "generated_at": "2026-11-21T12:41:54+08:00",
  "source": "today",
- "total": 148,
- "pending": 72,
- "done": 76,
- "with_icon": 37,
+ "total": 149,
+ "pending": 70,
+ "done": 79,
+ "with_icon": 36,
  "entries": [
   {
    "name": "甄嬛传:归来",
@@ -17,9 +17,9 @@
     "wx/畅销榜"
    ],
    "ranks": {
-    "wx/人气榜": 16,
+    "wx/人气榜": 18,
     "wx/畅销榜": 19,
-    "douyin/热门榜": 13
+    "douyin/热门榜": 11
    },
    "platform_app_ids": {
     "wx": "wx643f638c904e3ab0",
@@ -62,7 +62,7 @@
    "category_l1": "休闲",
    "category_l2": "益智",
    "first_seen": "2026-10-31",
-   "appearances": 20,
+   "appearances": 21,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -95,7 +95,7 @@
    "category_l1": "休闲",
    "category_l2": "益智",
    "first_seen": "2026-10-23",
-   "appearances": 27,
+   "appearances": 28,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -118,7 +118,7 @@
     "wx/畅玩榜"
    ],
    "ranks": {
-    "wx/人气榜": 13,
+    "wx/人气榜": 11,
     "wx/畅玩榜": 15
    },
    "platform_app_ids": {
@@ -128,7 +128,7 @@
    "category_l1": "休闲",
    "category_l2": "益智",
    "first_seen": "2026-10-29",
-   "appearances": 19,
+   "appearances": 20,
    "best_rank": 4,
    "seen_days": 1,
    "profile_value": "",
@@ -162,7 +162,7 @@
    "category_l1": "休闲",
    "category_l2": "消除",
    "first_seen": "2026-10-10",
-   "appearances": 41,
+   "appearances": 42,
    "best_rank": 5,
    "seen_days": 1,
    "profile_value": "",
@@ -185,7 +185,7 @@
     "wx/畅玩榜"
    ],
    "ranks": {
-    "wx/人气榜": 11,
+    "wx/人气榜": 12,
     "wx/畅玩榜": 8
    },
    "platform_app_ids": {
@@ -195,7 +195,7 @@
    "category_l1": "休闲",
    "category_l2": "益智",
    "first_seen": "2026-11-12",
-   "appearances": 8,
+   "appearances": 9,
    "best_rank": 6,
    "seen_days": 1,
    "profile_value": "",
@@ -240,66 +240,6 @@
    }
   },
   {
-   "name": "回家养猪吧",
-   "slug": "回家养猪吧_474d48",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "douyin/新游榜"
-   ],
-   "ranks": {
-    "douyin/新游榜": 3
-   },
-   "platform_app_ids": {
-    "douyin": "tt4e9e3823d0fabfed02"
-   },
-   "publisher": "北京豪腾创想科技有限公司",
-   "category_l1": "1",
-   "category_l2": "",
-   "first_seen": "2026-11-15",
-   "appearances": 5,
-   "best_rank": 1,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "伍六七:暗影交锋",
-   "slug": "伍六七_暗影交锋_e4fea7",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "taptap/预约榜"
-   ],
-   "ranks": {
-    "taptap/预约榜": 2
-   },
-   "platform_app_ids": {},
-   "publisher": "啊吉游",
-   "category_l1": "角色扮演",
-   "category_l2": "国漫、像素、动作、冒险、模拟经营、横版、2D、多人联机、APRG、热血",
-   "first_seen": "2026-07-06",
-   "appearances": 19,
-   "best_rank": 1,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
    "name": "饥困荒野",
    "slug": "饥困荒野_9dc37b",
    "status": "pending",
@@ -315,38 +255,7 @@
    "category_l1": "沙盒",
    "category_l2": "生存、多人联机、饥荒、冒险",
    "first_seen": "2026-07-06",
-   "appearances": 64,
-   "best_rank": 1,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "我在古代有座城",
-   "slug": "我在古代有座城_2dd494",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "ios/国区免费榜"
-   ],
-   "ranks": {
-    "ios/国区免费榜": 1
-   },
-   "platform_app_ids": {
-    "ios": "6821266319"
-   },
-   "publisher": "安徽盈趣网络科技有限公司",
-   "category_l1": "游戏",
-   "category_l2": "",
-   "first_seen": "2026-11-17",
-   "appearances": 3,
+   "appearances": 65,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -368,7 +277,7 @@
     "ios/国区免费榜"
    ],
    "ranks": {
-    "ios/国区免费榜": 7
+    "ios/国区免费榜": 10
    },
    "platform_app_ids": {
     "ios": "6824357074"
@@ -377,38 +286,7 @@
    "category_l1": "游戏",
    "category_l2": "",
    "first_seen": "2026-11-09",
-   "appearances": 11,
-   "best_rank": 1,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "ルミナサーガ:夢と冒険のMMORPG",
-   "slug": "ルミナサーガ_夢と冒険のMMORPG_fa386a",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "ios/日区免费榜"
-   ],
-   "ranks": {
-    "ios/日区免费榜": 1
-   },
-   "platform_app_ids": {
-    "ios": "6808535967"
-   },
-   "publisher": "HYPER HEAT",
-   "category_l1": "ゲーム",
-   "category_l2": "",
-   "first_seen": "2026-11-19",
-   "appearances": 1,
+   "appearances": 12,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -439,7 +317,7 @@
    "category_l1": "休闲",
    "category_l2": "益智",
    "first_seen": "2026-11-16",
-   "appearances": 4,
+   "appearances": 5,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -461,7 +339,7 @@
     "wx/人气榜"
    ],
    "ranks": {
-    "wx/人气榜": 10
+    "wx/人气榜": 16
    },
    "platform_app_ids": {
     "wx": "wx3660f44959587167"
@@ -470,38 +348,7 @@
    "category_l1": "休闲",
    "category_l2": "益智",
    "first_seen": "2026-11-14",
-   "appearances": 6,
-   "best_rank": 2,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "脑子一团火",
-   "slug": "脑子一团火_a059cc",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "douyin/热门榜"
-   ],
-   "ranks": {
-    "douyin/热门榜": 20
-   },
-   "platform_app_ids": {
-    "douyin": "tt6ab21c0ff4d6f8fb02"
-   },
-   "publisher": "深圳市烽镞互娱科技有限公司",
-   "category_l1": "1",
-   "category_l2": "",
-   "first_seen": "2026-11-18",
-   "appearances": 2,
+   "appearances": 7,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -523,7 +370,7 @@
     "douyin/畅销榜"
    ],
    "ranks": {
-    "douyin/畅销榜": 14
+    "douyin/畅销榜": 17
    },
    "platform_app_ids": {
     "douyin": "tt57b42109c9d04cbc02"
@@ -533,6 +380,37 @@
    "category_l2": "",
    "first_seen": "2026-07-18",
    "appearances": 13,
+   "best_rank": 2,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "下方了",
+   "slug": "下方了_962d74",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "douyin/畅销榜"
+   ],
+   "ranks": {
+    "douyin/畅销榜": 19
+   },
+   "platform_app_ids": {
+    "douyin": "tt5fb3290ec1d061c102"
+   },
+   "publisher": "深圳飞鱼星空科技有限公司",
+   "category_l1": "1",
+   "category_l2": "",
+   "first_seen": "2026-09-02",
+   "appearances": 18,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -563,8 +441,39 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-11-13",
-   "appearances": 7,
+   "appearances": 8,
    "best_rank": 2,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "悄然心动",
+   "slug": "悄然心动_3d6605",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 3
+   },
+   "platform_app_ids": {
+    "douyin": "tte84f9ef276364f6c07"
+   },
+   "publisher": "海南科翔网络科技有限公司",
+   "category_l1": "1",
+   "category_l2": "",
+   "first_seen": "2026-11-20",
+   "appearances": 1,
+   "best_rank": 3,
    "seen_days": 1,
    "profile_value": "",
    "profile_abandoned": false,
@@ -585,7 +494,7 @@
     "douyin/新游榜"
    ],
    "ranks": {
-    "douyin/新游榜": 5
+    "douyin/新游榜": 6
    },
    "platform_app_ids": {
     "douyin": "tt0b3c7d819545e6fa02"
@@ -594,7 +503,7 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-11-13",
-   "appearances": 7,
+   "appearances": 8,
    "best_rank": 3,
    "seen_days": 1,
    "profile_value": "",
@@ -616,7 +525,7 @@
     "ios/美区免费榜"
    ],
    "ranks": {
-    "ios/美区免费榜": 6
+    "ios/美区免费榜": 8
    },
    "platform_app_ids": {
     "ios": "6483539426"
@@ -625,7 +534,38 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 46,
+   "appearances": 47,
+   "best_rank": 3,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "斗罗大陆:诛邪传说",
+   "slug": "斗罗大陆_诛邪传说_d716cf",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "ios/国区免费榜"
+   ],
+   "ranks": {
+    "ios/国区免费榜": 3
+   },
+   "platform_app_ids": {
+    "ios": "6748218382"
+   },
+   "publisher": "Guangzhou Zhongxu Shuke Information Technology Co., Ltd",
+   "category_l1": "游戏",
+   "category_l2": "",
+   "first_seen": "2026-08-08",
+   "appearances": 9,
    "best_rank": 3,
    "seen_days": 1,
    "profile_value": "",
@@ -656,7 +596,7 @@
    "category_l1": "ゲーム",
    "category_l2": "",
    "first_seen": "2026-11-12",
-   "appearances": 8,
+   "appearances": 9,
    "best_rank": 3,
    "seen_days": 1,
    "profile_value": "",
@@ -678,7 +618,7 @@
     "ios/日区免费榜"
    ],
    "ranks": {
-    "ios/日区免费榜": 16
+    "ios/日区免费榜": 17
    },
    "platform_app_ids": {
     "ios": "6742809194"
@@ -687,7 +627,7 @@
    "category_l1": "ゲーム",
    "category_l2": "",
    "first_seen": "2026-11-06",
-   "appearances": 14,
+   "appearances": 15,
    "best_rank": 3,
    "seen_days": 1,
    "profile_value": "",
@@ -709,7 +649,7 @@
     "wx/畅销榜"
    ],
    "ranks": {
-    "wx/畅销榜": 17
+    "wx/畅销榜": 14
    },
    "platform_app_ids": {
     "wx": "wxfd8da8f8efcda4a7"
@@ -718,7 +658,7 @@
    "category_l1": "角色",
    "category_l2": "MMO",
    "first_seen": "2026-06-29",
-   "appearances": 79,
+   "appearances": 80,
    "best_rank": 4,
    "seen_days": 1,
    "profile_value": "abandoned",
@@ -732,39 +672,8 @@
    }
   },
   {
-   "name": "独自向前冲",
-   "slug": "独自向前冲_991808",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "douyin/热门榜"
-   ],
-   "ranks": {
-    "douyin/热门榜": 4
-   },
-   "platform_app_ids": {
-    "douyin": "tt9a9dec2004fcb2c307"
-   },
-   "publisher": "成都畅游宇宙科技有限公司",
-   "category_l1": "1",
-   "category_l2": "",
-   "first_seen": "2026-09-02",
-   "appearances": 2,
-   "best_rank": 4,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "无尽火线",
-   "slug": "无尽火线_cf0b00",
+   "name": "最强小队",
+   "slug": "最强小队_a9bb8f",
    "status": "pending",
    "icon_url": "",
    "boards": [
@@ -774,13 +683,13 @@
     "douyin/新游榜": 4
    },
    "platform_app_ids": {
-    "douyin": "ttcd47bbfa5327dcd402"
+    "douyin": "tt47f93144d981921207"
    },
-   "publisher": "北京星乐天空科技有限公司",
+   "publisher": "海南祺曜互动娱乐有限公司",
    "category_l1": "1",
    "category_l2": "",
-   "first_seen": "2026-07-26",
-   "appearances": 6,
+   "first_seen": "2026-11-19",
+   "appearances": 2,
    "best_rank": 4,
    "seen_days": 1,
    "profile_value": "",
@@ -802,7 +711,7 @@
     "douyin/新游榜"
    ],
    "ranks": {
-    "douyin/新游榜": 7
+    "douyin/新游榜": 5
    },
    "platform_app_ids": {
     "douyin": "tt55c7237acba62eb007"
@@ -811,7 +720,7 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-11-11",
-   "appearances": 9,
+   "appearances": 10,
    "best_rank": 4,
    "seen_days": 1,
    "profile_value": "",
@@ -842,96 +751,7 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-11-09",
-   "appearances": 11,
-   "best_rank": 4,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "毛线通关",
-   "slug": "毛线通关_6c569f",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "douyin/新游榜"
-   ],
-   "ranks": {
-    "douyin/新游榜": 10
-   },
-   "platform_app_ids": {
-    "douyin": "tta170d7cd3f0b8fa902"
-   },
-   "publisher": "成都木木互娱科技有限公司",
-   "category_l1": "1",
-   "category_l2": "",
-   "first_seen": "2026-10-31",
-   "appearances": 13,
-   "best_rank": 4,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "变形金刚:新纪元",
-   "slug": "变形金刚_新纪元_c1184b",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "taptap/预约榜"
-   ],
-   "ranks": {
-    "taptap/预约榜": 9
-   },
-   "platform_app_ids": {},
-   "publisher": "Wanda Game",
-   "category_l1": "策略",
-   "category_l2": "剧情、收集",
-   "first_seen": "2026-08-14",
-   "appearances": 31,
-   "best_rank": 4,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "应征入伍",
-   "slug": "应征入伍_250068",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "taptap/预约榜"
-   ],
-   "ranks": {
-    "taptap/预约榜": 10
-   },
-   "platform_app_ids": {},
-   "publisher": "玄鑫工作室",
-   "category_l1": "射击",
-   "category_l2": "FPS、竞技",
-   "first_seen": "2026-07-29",
-   "appearances": 36,
+   "appearances": 12,
    "best_rank": 4,
    "seen_days": 1,
    "profile_value": "",
@@ -962,7 +782,7 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 57,
+   "appearances": 58,
    "best_rank": 4,
    "seen_days": 1,
    "profile_value": "",
@@ -993,7 +813,7 @@
    "category_l1": "ゲーム",
    "category_l2": "",
    "first_seen": "2026-11-13",
-   "appearances": 7,
+   "appearances": 8,
    "best_rank": 4,
    "seen_days": 1,
    "profile_value": "",
@@ -1007,6 +827,37 @@
    }
   },
   {
+   "name": "工匠小能手",
+   "slug": "工匠小能手_ab69f1",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 20
+   },
+   "platform_app_ids": {
+    "wx": "wxefc691ce43c6df7b"
+   },
+   "publisher": "深圳市飞鸟与鱼科技开发有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-08-22",
+   "appearances": 21,
+   "best_rank": 5,
+   "seen_days": 1,
+   "profile_value": "mid",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "二合",
+    "tags": [],
+    "notes": "",
+    "developer": "动能无限"
+   }
+  },
+  {
    "name": "Word Tiles - Relaxing Puzzle",
    "slug": "Word_Tiles_Relaxing_Puzzle_58d11a",
    "status": "pending",
@@ -1015,7 +866,7 @@
     "ios/美区免费榜"
    ],
    "ranks": {
-    "ios/美区免费榜": 9
+    "ios/美区免费榜": 6
    },
    "platform_app_ids": {
     "ios": "6783815362"
@@ -1024,7 +875,7 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-08-30",
-   "appearances": 25,
+   "appearances": 26,
    "best_rank": 5,
    "seen_days": 1,
    "profile_value": "",
@@ -1038,55 +889,24 @@
    }
   },
   {
-   "name": "音悦节奏球",
-   "slug": "音悦节奏球_b6254d",
+   "name": "神级手速",
+   "slug": "神级手速_0b9dac",
    "status": "pending",
    "icon_url": "",
    "boards": [
     "douyin/热门榜"
    ],
    "ranks": {
-    "douyin/热门榜": 16
+    "douyin/热门榜": 14
    },
    "platform_app_ids": {
-    "douyin": "ttf01f86a26f1520f507"
+    "douyin": "tta3ebd5563d8e3aae07"
    },
-   "publisher": "厦门真嘟假嘟网络科技有限公司",
-   "category_l1": "节奏",
-   "category_l2": "",
-   "first_seen": "2026-07-04",
-   "appearances": 55,
-   "best_rank": 6,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "魔龙争霸",
-   "slug": "魔龙争霸_329d92",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "douyin/新游榜"
-   ],
-   "ranks": {
-    "douyin/新游榜": 6
-   },
-   "platform_app_ids": {
-    "douyin": "tt611817a5ff612cd702"
-   },
-   "publisher": "广州百悦网络科技有限公司",
+   "publisher": "重庆苍玄科技有限公司",
    "category_l1": "1",
    "category_l2": "",
-   "first_seen": "2026-11-18",
-   "appearances": 2,
+   "first_seen": "2026-11-10",
+   "appearances": 3,
    "best_rank": 6,
    "seen_days": 1,
    "profile_value": "",
@@ -1108,7 +928,7 @@
     "douyin/新游榜"
    ],
    "ranks": {
-    "douyin/新游榜": 8
+    "douyin/新游榜": 7
    },
    "platform_app_ids": {
     "douyin": "tt203f5682be44ee7a02"
@@ -1117,7 +937,38 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-11-16",
-   "appearances": 4,
+   "appearances": 5,
+   "best_rank": 6,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "魔龙争霸",
+   "slug": "魔龙争霸_329d92",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 8
+   },
+   "platform_app_ids": {
+    "douyin": "tt611817a5ff612cd702"
+   },
+   "publisher": "广州百悦网络科技有限公司",
+   "category_l1": "1",
+   "category_l2": "",
+   "first_seen": "2026-11-18",
+   "appearances": 3,
    "best_rank": 6,
    "seen_days": 1,
    "profile_value": "",
@@ -1139,14 +990,14 @@
     "taptap/预约榜"
    ],
    "ranks": {
-    "taptap/预约榜": 7
+    "taptap/预约榜": 8
    },
    "platform_app_ids": {},
    "publisher": "广州春芒网络科技有限公司",
    "category_l1": "模拟经营",
    "category_l2": "种田、收集、放置、治愈",
    "first_seen": "2026-10-29",
-   "appearances": 8,
+   "appearances": 9,
    "best_rank": 6,
    "seen_days": 1,
    "profile_value": "",
@@ -1177,7 +1028,7 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-10-18",
-   "appearances": 30,
+   "appearances": 31,
    "best_rank": 6,
    "seen_days": 1,
    "profile_value": "",
@@ -1191,8 +1042,8 @@
    }
   },
   {
-   "name": "斗罗大陆:诛邪传说",
-   "slug": "斗罗大陆_诛邪传说_d716cf",
+   "name": "无尽宝藏",
+   "slug": "无尽宝藏_71de59",
    "status": "pending",
    "icon_url": "",
    "boards": [
@@ -1202,45 +1053,14 @@
     "ios/国区免费榜": 6
    },
    "platform_app_ids": {
-    "ios": "6748218382"
+    "ios": "6804922021"
    },
-   "publisher": "Guangzhou Zhongxu Shuke Information Technology Co., Ltd",
+   "publisher": "Moli Games",
    "category_l1": "游戏",
    "category_l2": "",
-   "first_seen": "2026-08-08",
-   "appearances": 9,
+   "first_seen": "2026-11-20",
+   "appearances": 1,
    "best_rank": 6,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "精英军团",
-   "slug": "精英军团_fafde6",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "wx/畅销榜"
-   ],
-   "ranks": {
-    "wx/畅销榜": 14
-   },
-   "platform_app_ids": {
-    "wx": "wx2b9d67737d1607d7"
-   },
-   "publisher": "杭州叙炽网络科技有限公司",
-   "category_l1": "竞技",
-   "category_l2": "塔防",
-   "first_seen": "2026-10-05",
-   "appearances": 35,
-   "best_rank": 7,
    "seen_days": 1,
    "profile_value": "",
    "profile_abandoned": false,
@@ -1270,7 +1090,38 @@
    "category_l1": "休闲",
    "category_l2": "消除",
    "first_seen": "2026-11-05",
-   "appearances": 15,
+   "appearances": 16,
+   "best_rank": 7,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "峰哥来解压",
+   "slug": "峰哥来解压_6e14be",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "douyin/热门榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 7
+   },
+   "platform_app_ids": {
+    "douyin": "ttdb9fad2245f846fc02"
+   },
+   "publisher": "长沙市优序科技有限公司",
+   "category_l1": "1",
+   "category_l2": "",
+   "first_seen": "2026-07-09",
+   "appearances": 7,
    "best_rank": 7,
    "seen_days": 1,
    "profile_value": "",
@@ -1292,7 +1143,7 @@
     "douyin/新游榜"
    ],
    "ranks": {
-    "douyin/新游榜": 11
+    "douyin/新游榜": 12
    },
    "platform_app_ids": {
     "douyin": "tt4dcd3b70d3a8748607"
@@ -1301,7 +1152,36 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-08-10",
-   "appearances": 5,
+   "appearances": 6,
+   "best_rank": 7,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "千次初见",
+   "slug": "千次初见_71304c",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "ranks": {
+    "taptap/预约榜": 7
+   },
+   "platform_app_ids": {},
+   "publisher": "苏州沁游网络科技有限公司",
+   "category_l1": "换装",
+   "category_l2": "恋爱、古风、角色扮演、剧情、穿越",
+   "first_seen": "2026-10-30",
+   "appearances": 3,
    "best_rank": 7,
    "seen_days": 1,
    "profile_value": "",
@@ -1323,7 +1203,7 @@
     "douyin/新游榜"
    ],
    "ranks": {
-    "douyin/新游榜": 12
+    "douyin/新游榜": 14
    },
    "platform_app_ids": {
     "douyin": "tt31a2471fafd88aa307"
@@ -1332,7 +1212,7 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-11-15",
-   "appearances": 5,
+   "appearances": 6,
    "best_rank": 8,
    "seen_days": 1,
    "profile_value": "",
@@ -1354,7 +1234,7 @@
     "ios/美区免费榜"
    ],
    "ranks": {
-    "ios/美区免费榜": 17
+    "ios/美区免费榜": 20
    },
    "platform_app_ids": {
     "ios": "6756482832"
@@ -1363,7 +1243,7 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 84,
+   "appearances": 85,
    "best_rank": 8,
    "seen_days": 1,
    "profile_value": "",
@@ -1377,24 +1257,22 @@
    }
   },
   {
-   "name": "我带过的最差一届正版",
-   "slug": "我带过的最差一届正版_8dc760",
+   "name": "代号T3",
+   "slug": "代号T3_3821df",
    "status": "pending",
    "icon_url": "",
    "boards": [
-    "wx/人气榜"
+    "taptap/预约榜"
    ],
    "ranks": {
-    "wx/人气榜": 14
+    "taptap/预约榜": 9
    },
-   "platform_app_ids": {
-    "wx": "wx7fc4e86bd69f664a"
-   },
-   "publisher": "",
-   "category_l1": "休闲",
-   "category_l2": "益智",
-   "first_seen": "2026-11-17",
-   "appearances": 3,
+   "platform_app_ids": {},
+   "publisher": "江南工作室",
+   "category_l1": "角色扮演",
+   "category_l2": "射击、动作、刷宝、科幻、冒险、高画质、开放世界",
+   "first_seen": "2026-11-20",
+   "appearances": 1,
    "best_rank": 9,
    "seen_days": 1,
    "profile_value": "",
@@ -1408,25 +1286,56 @@
    }
   },
   {
-   "name": "九霄仙府",
-   "slug": "九霄仙府_7aa179",
+   "name": "麻雀ブラスト (Mahjong Blast)",
+   "slug": "麻雀ブラスト_Mahjong_Blast_06bd39",
    "status": "pending",
    "icon_url": "",
    "boards": [
-    "wx/人气榜"
+    "ios/日区免费榜"
    ],
    "ranks": {
-    "wx/人气榜": 15
+    "ios/日区免费榜": 9
    },
    "platform_app_ids": {
-    "wx": "wx486d8e94a8beaf11"
+    "ios": "6747492600"
    },
-   "publisher": "点点互动（北京）科技有限公司",
-   "category_l1": "其他",
-   "category_l2": "模拟经营",
-   "first_seen": "2026-09-05",
-   "appearances": 4,
+   "publisher": "Nebula Studio",
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "first_seen": "2026-08-22",
+   "appearances": 27,
    "best_rank": 9,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "仙临九界",
+   "slug": "仙临九界_dc7818",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 10
+   },
+   "platform_app_ids": {
+    "wx": "wxb81d1ca54ee06660"
+   },
+   "publisher": "深圳盟趣科技有限公司",
+   "category_l1": "角色",
+   "category_l2": "卡牌",
+   "first_seen": "2026-11-20",
+   "appearances": 1,
+   "best_rank": 10,
    "seen_days": 1,
    "profile_value": "",
    "profile_abandoned": false,
@@ -1447,7 +1356,7 @@
     "wx/畅销榜"
    ],
    "ranks": {
-    "wx/畅销榜": 10
+    "wx/畅销榜": 18
    },
    "platform_app_ids": {
     "wx": "wx3dc9d41b5c76df73"
@@ -1456,7 +1365,7 @@
    "category_l1": "角色",
    "category_l2": "ARPG",
    "first_seen": "2026-11-17",
-   "appearances": 2,
+   "appearances": 3,
    "best_rank": 10,
    "seen_days": 1,
    "profile_value": "",
@@ -1478,7 +1387,7 @@
     "douyin/新游榜"
    ],
    "ranks": {
-    "douyin/新游榜": 17
+    "douyin/新游榜": 16
    },
    "platform_app_ids": {
     "douyin": "tt617f17c2ff05c3e207"
@@ -1487,6 +1396,68 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-11-13",
+   "appearances": 5,
+   "best_rank": 10,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "Sort Streak: Color Puzzle",
+   "slug": "Sort_Streak_Color_Puzzle_dac872",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 10
+   },
+   "platform_app_ids": {
+    "ios": "6812166638"
+   },
+   "publisher": "Oakever Games",
+   "category_l1": "Games",
+   "category_l2": "",
+   "first_seen": "2026-11-17",
+   "appearances": 4,
+   "best_rank": 10,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "Cube Smash - Puzzle Game",
+   "slug": "Cube_Smash_Puzzle_Game_ca4b2d",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 10
+   },
+   "platform_app_ids": {
+    "ios": "6786206777"
+   },
+   "publisher": "Combo Games",
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "first_seen": "2026-11-17",
    "appearances": 4,
    "best_rank": 10,
    "seen_days": 1,
@@ -1509,7 +1480,7 @@
     "ios/日区免费榜"
    ],
    "ranks": {
-    "ios/日区免费榜": 10
+    "ios/日区免费榜": 13
    },
    "platform_app_ids": {
     "ios": "6752386103"
@@ -1518,7 +1489,7 @@
    "category_l1": "ゲーム",
    "category_l2": "",
    "first_seen": "2026-11-06",
-   "appearances": 13,
+   "appearances": 14,
    "best_rank": 10,
    "seen_days": 1,
    "profile_value": "",
@@ -1540,7 +1511,7 @@
     "ios/日区免费榜"
    ],
    "ranks": {
-    "ios/日区免费榜": 14
+    "ios/日区免费榜": 15
    },
    "platform_app_ids": {
     "ios": "547145938"
@@ -1549,39 +1520,8 @@
    "category_l1": "ゲーム",
    "category_l2": "",
    "first_seen": "2026-09-05",
-   "appearances": 14,
+   "appearances": 15,
    "best_rank": 10,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "别拆我台",
-   "slug": "别拆我台_3a48d5",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "douyin/热门榜"
-   ],
-   "ranks": {
-    "douyin/热门榜": 18
-   },
-   "platform_app_ids": {
-    "douyin": "ttb43ac2872a5eece402"
-   },
-   "publisher": "青岛汇研互娱网络科技有限公司",
-   "category_l1": "超休闲",
-   "category_l2": "",
-   "first_seen": "2026-11-01",
-   "appearances": 7,
-   "best_rank": 11,
    "seen_days": 1,
    "profile_value": "",
    "profile_abandoned": false,
@@ -1602,7 +1542,7 @@
     "douyin/畅销榜"
    ],
    "ranks": {
-    "douyin/畅销榜": 16
+    "douyin/畅销榜": 18
    },
    "platform_app_ids": {
     "douyin": "ttcaa6bc1b55adba2c02"
@@ -1611,7 +1551,7 @@
    "category_l1": "塔防",
    "category_l2": "",
    "first_seen": "2026-06-30",
-   "appearances": 65,
+   "appearances": 66,
    "best_rank": 11,
    "seen_days": 1,
    "profile_value": "",
@@ -1627,24 +1567,24 @@
    }
   },
   {
-   "name": "斗阵序列",
-   "slug": "斗阵序列_271b19",
+   "name": "三国志幻想大陆",
+   "slug": "三国志幻想大陆_e98c0c",
    "status": "pending",
    "icon_url": "",
    "boards": [
     "douyin/新游榜"
    ],
    "ranks": {
-    "douyin/新游榜": 16
+    "douyin/新游榜": 11
    },
    "platform_app_ids": {
-    "douyin": "tte1e2975f7ee82a1e02"
+    "douyin": "ttb6b8c00528c6521602"
    },
-   "publisher": "成都游徕科技有限公司",
+   "publisher": "广州龙畅网络科技有限公司",
    "category_l1": "1",
    "category_l2": "",
-   "first_seen": "2026-11-15",
-   "appearances": 5,
+   "first_seen": "2026-11-20",
+   "appearances": 1,
    "best_rank": 11,
    "seen_days": 1,
    "profile_value": "",
@@ -1658,24 +1598,24 @@
    }
   },
   {
-   "name": "Sort Streak: Color Puzzle",
-   "slug": "Sort_Streak_Color_Puzzle_dac872",
+   "name": "斗阵序列",
+   "slug": "斗阵序列_271b19",
    "status": "pending",
    "icon_url": "",
    "boards": [
-    "ios/美区免费榜"
+    "douyin/新游榜"
    ],
    "ranks": {
-    "ios/美区免费榜": 12
+    "douyin/新游榜": 15
    },
    "platform_app_ids": {
-    "ios": "6812166638"
+    "douyin": "tte1e2975f7ee82a1e02"
    },
-   "publisher": "Oakever Games",
-   "category_l1": "Games",
+   "publisher": "成都游徕科技有限公司",
+   "category_l1": "1",
    "category_l2": "",
-   "first_seen": "2026-11-17",
-   "appearances": 3,
+   "first_seen": "2026-11-15",
+   "appearances": 6,
    "best_rank": 11,
    "seen_days": 1,
    "profile_value": "",
@@ -1706,7 +1646,7 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-11-08",
-   "appearances": 6,
+   "appearances": 7,
    "best_rank": 11,
    "seen_days": 1,
    "profile_value": "",
@@ -1728,7 +1668,7 @@
     "ios/国区免费榜"
    ],
    "ranks": {
-    "ios/国区免费榜": 11
+    "ios/国区免费榜": 12
    },
    "platform_app_ids": {
     "ios": "995122577"
@@ -1737,38 +1677,7 @@
    "category_l1": "游戏",
    "category_l2": "",
    "first_seen": "2026-11-19",
-   "appearances": 1,
-   "best_rank": 11,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "Cube Smash - Puzzle Game",
-   "slug": "Cube_Smash_Puzzle_Game_ca4b2d",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "ios/日区免费榜"
-   ],
-   "ranks": {
-    "ios/日区免费榜": 11
-   },
-   "platform_app_ids": {
-    "ios": "6786206777"
-   },
-   "publisher": "Combo Games",
-   "category_l1": "ゲーム",
-   "category_l2": "",
-   "first_seen": "2026-11-17",
-   "appearances": 3,
+   "appearances": 2,
    "best_rank": 11,
    "seen_days": 1,
    "profile_value": "",
@@ -1790,7 +1699,7 @@
     "ios/日区免费榜"
    ],
    "ranks": {
-    "ios/日区免费榜": 15
+    "ios/日区免费榜": 14
    },
    "platform_app_ids": {
     "ios": "6499209744"
@@ -1799,7 +1708,7 @@
    "category_l1": "ゲーム",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 30,
+   "appearances": 31,
    "best_rank": 11,
    "seen_days": 1,
    "profile_value": "",
@@ -1813,25 +1722,56 @@
    }
   },
   {
-   "name": "加油小球球",
-   "slug": "加油小球球_0bc5df",
+   "name": "上课偷吃模拟器新版",
+   "slug": "上课偷吃模拟器新版_f55c59",
    "status": "pending",
    "icon_url": "",
    "boards": [
-    "douyin/热门榜"
+    "wx/人气榜"
    ],
    "ranks": {
-    "douyin/热门榜": 15
+    "wx/人气榜": 13
    },
    "platform_app_ids": {
-    "douyin": "tt19ce6f7387ad860d07"
+    "wx": "wx8a5256575a3ae14f"
    },
-   "publisher": "重庆希鲁鲁克科技有限公司",
+   "publisher": "",
+   "category_l1": "休闲",
+   "category_l2": "模拟经营",
+   "first_seen": "2026-11-20",
+   "appearances": 1,
+   "best_rank": 13,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "点点找茬",
+   "slug": "点点找茬_ed93b7",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 13
+   },
+   "platform_app_ids": {
+    "douyin": "tt200256bfbe789bd207"
+   },
+   "publisher": "成都敏亿敏网络科技有限公司",
    "category_l1": "1",
    "category_l2": "",
-   "first_seen": "2026-11-08",
-   "appearances": 2,
-   "best_rank": 12,
+   "first_seen": "2026-11-20",
+   "appearances": 1,
+   "best_rank": 13,
    "seen_days": 1,
    "profile_value": "",
    "profile_abandoned": false,
@@ -1852,7 +1792,7 @@
     "douyin/新游榜"
    ],
    "ranks": {
-    "douyin/新游榜": 13
+    "douyin/新游榜": 19
    },
    "platform_app_ids": {
     "douyin": "ttb370c5cd2d15f1ee02"
@@ -1861,38 +1801,7 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-11-16",
-   "appearances": 4,
-   "best_rank": 13,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "小怪往哪逃",
-   "slug": "小怪往哪逃_bfecc6",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "douyin/新游榜"
-   ],
-   "ranks": {
-    "douyin/新游榜": 14
-   },
-   "platform_app_ids": {
-    "douyin": "ttc35cb5e15c5ee2c102"
-   },
-   "publisher": "长沙游品科技有限公司",
-   "category_l1": "1",
-   "category_l2": "",
-   "first_seen": "2026-11-18",
-   "appearances": 2,
+   "appearances": 5,
    "best_rank": 13,
    "seen_days": 1,
    "profile_value": "",
@@ -1923,38 +1832,7 @@
    "category_l1": "游戏",
    "category_l2": "",
    "first_seen": "2026-10-05",
-   "appearances": 34,
-   "best_rank": 13,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "麻雀ブラスト (Mahjong Blast)",
-   "slug": "麻雀ブラスト_Mahjong_Blast_06bd39",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "ios/日区免费榜"
-   ],
-   "ranks": {
-    "ios/日区免费榜": 13
-   },
-   "platform_app_ids": {
-    "ios": "6747492600"
-   },
-   "publisher": "Nebula Studio",
-   "category_l1": "ゲーム",
-   "category_l2": "",
-   "first_seen": "2026-08-22",
-   "appearances": 26,
+   "appearances": 35,
    "best_rank": 13,
    "seen_days": 1,
    "profile_value": "",
@@ -1976,7 +1854,7 @@
     "ios/日区免费榜"
    ],
    "ranks": {
-    "ios/日区免费榜": 17
+    "ios/日区免费榜": 18
    },
    "platform_app_ids": {
     "ios": "6475757306"
@@ -1985,8 +1863,39 @@
    "category_l1": "ゲーム",
    "category_l2": "",
    "first_seen": "2026-10-08",
-   "appearances": 23,
+   "appearances": 24,
    "best_rank": 13,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "越狱模拟器小游戏",
+   "slug": "越狱模拟器小游戏_02b1e4",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 14
+   },
+   "platform_app_ids": {
+    "wx": "wx25a945c20e0cdb27"
+   },
+   "publisher": "",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-11-20",
+   "appearances": 1,
+   "best_rank": 14,
    "seen_days": 1,
    "profile_value": "",
    "profile_abandoned": false,
@@ -2007,7 +1916,7 @@
     "douyin/畅销榜"
    ],
    "ranks": {
-    "douyin/畅销榜": 17
+    "douyin/畅销榜": 16
    },
    "platform_app_ids": {
     "douyin": "tt0d317b8c92384c8302"
@@ -2016,7 +1925,7 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-06-30",
-   "appearances": 65,
+   "appearances": 66,
    "best_rank": 14,
    "seen_days": 1,
    "profile_value": "",
@@ -2038,7 +1947,7 @@
     "ios/国区免费榜"
    ],
    "ranks": {
-    "ios/国区免费榜": 16
+    "ios/国区免费榜": 17
    },
    "platform_app_ids": {
     "ios": "1455054000"
@@ -2047,8 +1956,39 @@
    "category_l1": "游戏",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 30,
+   "appearances": 31,
    "best_rank": 14,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "上课偷吃作弊模拟器",
+   "slug": "上课偷吃作弊模拟器_195f78",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 15
+   },
+   "platform_app_ids": {
+    "wx": "wx89f4af4f932af78f"
+   },
+   "publisher": "",
+   "category_l1": "休闲",
+   "category_l2": "消除",
+   "first_seen": "2026-11-20",
+   "appearances": 1,
+   "best_rank": 15,
    "seen_days": 1,
    "profile_value": "",
    "profile_abandoned": false,
@@ -2069,7 +2009,7 @@
     "douyin/新游榜"
    ],
    "ranks": {
-    "douyin/新游榜": 15
+    "douyin/新游榜": 17
    },
    "platform_app_ids": {
     "douyin": "ttafd3d96e31aaf2ca07"
@@ -2078,7 +2018,7 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-11-18",
-   "appearances": 2,
+   "appearances": 3,
    "best_rank": 15,
    "seen_days": 1,
    "profile_value": "",
@@ -2092,24 +2032,24 @@
    }
   },
   {
-   "name": "勇者乱斗",
-   "slug": "勇者乱斗_f9e92d",
+   "name": "AfterRoom",
+   "slug": "AfterRoom_e16479",
    "status": "pending",
    "icon_url": "",
    "boards": [
-    "douyin/畅销榜"
+    "ios/日区免费榜"
    ],
    "ranks": {
-    "douyin/畅销榜": 19
+    "ios/日区免费榜": 16
    },
    "platform_app_ids": {
-    "douyin": "tt4ffa3947d0f477c207"
+    "ios": "6832176911"
    },
-   "publisher": "杭州电梦网络科技有限公司",
-   "category_l1": "自走棋",
+   "publisher": "Kawamata Koichiro",
+   "category_l1": "ゲーム",
    "category_l2": "",
-   "first_seen": "2026-06-30",
-   "appearances": 58,
+   "first_seen": "2026-11-20",
+   "appearances": 1,
    "best_rank": 16,
    "seen_days": 1,
    "profile_value": "",
@@ -2123,25 +2063,25 @@
    }
   },
   {
-   "name": "海狼",
-   "slug": "海狼_493d0e",
+   "name": "越狱砸墙模拟器",
+   "slug": "越狱砸墙模拟器_d1f989",
    "status": "pending",
    "icon_url": "",
    "boards": [
-    "douyin/新游榜"
+    "wx/人气榜"
    ],
    "ranks": {
-    "douyin/新游榜": 20
+    "wx/人气榜": 17
    },
    "platform_app_ids": {
-    "douyin": "ttfa758cc8640d4ed602"
+    "wx": "wxf1cf0bd652584408"
    },
-   "publisher": "广州予音网络科技有限公司",
-   "category_l1": "1",
-   "category_l2": "",
-   "first_seen": "2026-11-17",
-   "appearances": 3,
-   "best_rank": 16,
+   "publisher": "厦门福茗御品茶业有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-11-20",
+   "appearances": 1,
+   "best_rank": 17,
    "seen_days": 1,
    "profile_value": "",
    "profile_abandoned": false,
@@ -2154,8 +2094,8 @@
    }
   },
   {
-   "name": "最强小队",
-   "slug": "最强小队_a9bb8f",
+   "name": "动物进化论",
+   "slug": "动物进化论_e10995",
    "status": "pending",
    "icon_url": "",
    "boards": [
@@ -2165,12 +2105,12 @@
     "douyin/新游榜": 18
    },
    "platform_app_ids": {
-    "douyin": "tt47f93144d981921207"
+    "douyin": "ttcd0cbbb1536906d502"
    },
-   "publisher": "海南祺曜互动娱乐有限公司",
+   "publisher": "厦门猫咪游网络科技有限公司",
    "category_l1": "1",
    "category_l2": "",
-   "first_seen": "2026-11-19",
+   "first_seen": "2026-11-20",
    "appearances": 1,
    "best_rank": 18,
    "seen_days": 1,
@@ -2193,7 +2133,7 @@
     "ios/日区免费榜"
    ],
    "ranks": {
-    "ios/日区免费榜": 18
+    "ios/日区免费榜": 19
    },
    "platform_app_ids": {
     "ios": "6753862216"
@@ -2202,7 +2142,7 @@
    "category_l1": "ゲーム",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 28,
+   "appearances": 29,
    "best_rank": 18,
    "seen_days": 1,
    "profile_value": "",
@@ -2216,25 +2156,25 @@
    }
   },
   {
-   "name": "这把稳稳过",
-   "slug": "这把稳稳过_7bb8f1",
+   "name": "过关天才",
+   "slug": "过关天才_5b2efe",
    "status": "pending",
    "icon_url": "",
    "boards": [
     "douyin/新游榜"
    ],
    "ranks": {
-    "douyin/新游榜": 19
+    "douyin/新游榜": 20
    },
    "platform_app_ids": {
-    "douyin": "tte8199ea476620d3402"
+    "douyin": "tte2b594087cd1425202"
    },
-   "publisher": "深圳奇象互动网络有限公司",
+   "publisher": "厦门畅爆游戏科技有限公司",
    "category_l1": "1",
    "category_l2": "",
-   "first_seen": "2026-11-19",
+   "first_seen": "2026-11-20",
    "appearances": 1,
-   "best_rank": 19,
+   "best_rank": 20,
    "seen_days": 1,
    "profile_value": "",
    "profile_abandoned": false,
@@ -2260,8 +2200,8 @@
    "ranks": {
     "wx/畅销榜": 6,
     "douyin/热门榜": 3,
-    "douyin/畅销榜": 3,
-    "ios/国区免费榜": 12
+    "douyin/畅销榜": 1,
+    "ios/国区免费榜": 15
    },
    "platform_app_ids": {
     "wx": "wx2ea52a972ea18e5e",
@@ -2272,7 +2212,7 @@
    "category_l1": "1",
    "category_l2": "模拟经营",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -2308,7 +2248,7 @@
    "category_l1": "休闲",
    "category_l2": "消除",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -2344,7 +2284,7 @@
    "category_l1": "1",
    "category_l2": "益智",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -2358,68 +2298,29 @@
    }
   },
   {
-   "name": "向末日开炮",
-   "slug": "向末日开炮_83f57c",
+   "name": "灵画师",
+   "slug": "灵画师_9f3459",
    "status": "done",
-   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/07f3346ce3cd03764e6cbbbf1a9d7b52",
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c8299e32203947609384a444b7f101b6",
    "boards": [
-    "ios/国区免费榜",
-    "wx/人气榜",
+    "douyin/热门榜",
+    "douyin/畅销榜",
     "wx/畅销榜"
    ],
    "ranks": {
-    "wx/人气榜": 9,
-    "wx/畅销榜": 4,
-    "ios/国区免费榜": 18
+    "wx/畅销榜": 3,
+    "douyin/热门榜": 20,
+    "douyin/畅销榜": 4
    },
    "platform_app_ids": {
-    "wx": "wx6d939b5e0a7dd630",
-    "ios": "6748045272"
+    "wx": "wxcbc1fc07fb13d667",
+    "douyin": "ttfcdb8a6663ec187f02"
    },
-   "publisher": "海南易多量科技有限公司",
-   "category_l1": "休闲",
-   "category_l2": "模拟经营",
-   "first_seen": "2026-07-30",
-   "appearances": 107,
-   "best_rank": 1,
-   "seen_days": 1,
-   "profile_value": "low",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "数字门,SLG",
-    "tags": [
-     "数字门",
-     "SLG"
-    ],
-    "notes": "",
-    "developer": "海南易多量科技有限公司"
-   }
-  },
-  {
-   "name": "赵云与阿斗",
-   "slug": "赵云与阿斗_911d95",
-   "status": "done",
-   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c6f1ac8898cfd2673180a9e2e4a3d826",
-   "boards": [
-    "douyin/热门榜",
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 19,
-    "wx/畅玩榜": 4,
-    "douyin/热门榜": 7
-   },
-   "platform_app_ids": {
-    "wx": "wxbef54be7c625286e",
-    "douyin": "ttf3e1855c6ce3e43b02"
-   },
-   "publisher": "北京蜜獾工坊科技有限公司",
+   "publisher": "广州光游网络科技有限公司",
    "category_l1": "1",
-   "category_l2": "塔防",
+   "category_l2": "ARPG",
    "first_seen": "2026-06-29",
-   "appearances": 137,
+   "appearances": 139,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -2455,7 +2356,7 @@
    "category_l1": "棋牌",
    "category_l2": "牌类",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "abandoned",
@@ -2479,9 +2380,9 @@
     "wx/畅销榜"
    ],
    "ranks": {
-    "wx/畅销榜": 8,
-    "douyin/热门榜": 9,
-    "douyin/畅销榜": 9
+    "wx/畅销榜": 4,
+    "douyin/热门榜": 10,
+    "douyin/畅销榜": 8
    },
    "platform_app_ids": {
     "wx": "wx087d98a0884bbe3b",
@@ -2491,7 +2392,7 @@
    "category_l1": "1",
    "category_l2": "益智",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -2515,9 +2416,9 @@
     "wx/畅销榜"
    ],
    "ranks": {
-    "wx/畅销榜": 11,
-    "douyin/热门榜": 10,
-    "douyin/畅销榜": 10
+    "wx/畅销榜": 9,
+    "douyin/热门榜": 9,
+    "douyin/畅销榜": 9
    },
    "platform_app_ids": {
     "wx": "wxc721a6dc3366ec1f",
@@ -2527,7 +2428,7 @@
    "category_l1": "1",
    "category_l2": "模拟经营",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -2551,9 +2452,9 @@
     "wx/畅销榜"
    ],
    "ranks": {
-    "wx/畅销榜": 5,
-    "douyin/热门榜": 19,
-    "douyin/畅销榜": 6
+    "wx/畅销榜": 7,
+    "douyin/热门榜": 13,
+    "douyin/畅销榜": 10
    },
    "platform_app_ids": {
     "wx": "wx961a01b2c8096028",
@@ -2563,7 +2464,7 @@
    "category_l1": "1",
    "category_l2": "模拟经营",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 4,
    "seen_days": 1,
    "profile_value": "",
@@ -2577,6 +2478,42 @@
    }
   },
   {
+   "name": "向末日开炮",
+   "slug": "向末日开炮_83f57c",
+   "status": "done",
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/07f3346ce3cd03764e6cbbbf1a9d7b52",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 9,
+    "wx/畅销榜": 5
+   },
+   "platform_app_ids": {
+    "wx": "wx6d939b5e0a7dd630"
+   },
+   "publisher": "海南易多量科技有限公司",
+   "category_l1": "休闲",
+   "category_l2": "模拟经营",
+   "first_seen": "2026-07-30",
+   "appearances": 108,
+   "best_rank": 1,
+   "seen_days": 1,
+   "profile_value": "low",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "数字门,SLG",
+    "tags": [
+     "数字门",
+     "SLG"
+    ],
+    "notes": "",
+    "developer": "海南易多量科技有限公司"
+   }
+  },
+  {
    "name": "向僵尸开炮",
    "slug": "向僵尸开炮_3c34cb",
    "status": "done",
@@ -2587,7 +2524,7 @@
    ],
    "ranks": {
     "wx/畅销榜": 1,
-    "douyin/畅销榜": 2
+    "douyin/畅销榜": 3
    },
    "platform_app_ids": {
     "wx": "wx31a9c726536cdacc",
@@ -2597,7 +2534,7 @@
    "category_l1": "1",
    "category_l2": "益智",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -2621,7 +2558,7 @@
    ],
    "ranks": {
     "wx/畅销榜": 2,
-    "douyin/畅销榜": 7
+    "douyin/畅销榜": 13
    },
    "platform_app_ids": {
     "wx": "wx209b8a6bc1c08b85",
@@ -2631,41 +2568,7 @@
    "category_l1": "其他",
    "category_l2": "其他",
    "first_seen": "2026-06-29",
-   "appearances": 138,
-   "best_rank": 1,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "灵画师",
-   "slug": "灵画师_9f3459",
-   "status": "done",
-   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c8299e32203947609384a444b7f101b6",
-   "boards": [
-    "douyin/畅销榜",
-    "wx/畅销榜"
-   ],
-   "ranks": {
-    "wx/畅销榜": 3,
-    "douyin/畅销榜": 1
-   },
-   "platform_app_ids": {
-    "wx": "wxcbc1fc07fb13d667",
-    "douyin": "ttfcdb8a6663ec187f02"
-   },
-   "publisher": "广州光游网络科技有限公司",
-   "category_l1": "1",
-   "category_l2": "ARPG",
-   "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -2688,8 +2591,8 @@
     "wx/畅销榜"
    ],
    "ranks": {
-    "wx/畅销榜": 9,
-    "douyin/畅销榜": 11
+    "wx/畅销榜": 11,
+    "douyin/畅销榜": 5
    },
    "platform_app_ids": {
     "wx": "wxc5c6c4e6b4b0075f",
@@ -2699,7 +2602,7 @@
    "category_l1": "1",
    "category_l2": "模拟经营",
    "first_seen": "2026-06-30",
-   "appearances": 137,
+   "appearances": 138,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -2722,8 +2625,8 @@
     "wx/畅销榜"
    ],
    "ranks": {
-    "wx/畅销榜": 16,
-    "douyin/畅销榜": 8
+    "wx/畅销榜": 12,
+    "douyin/畅销榜": 7
    },
    "platform_app_ids": {
     "wx": "wx6cce8ac2ea74103e",
@@ -2733,7 +2636,108 @@
    "category_l1": "1",
    "category_l2": "益智",
    "first_seen": "2026-06-29",
-   "appearances": 127,
+   "appearances": 128,
+   "best_rank": 1,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "我的花园世界",
+   "slug": "我的花园世界_aab914",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "douyin/畅销榜",
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 13,
+    "douyin/畅销榜": 12
+   },
+   "platform_app_ids": {
+    "wx": "wx47e577dc5b3fde6f",
+    "douyin": "ttcc26ba9b532f1e8202"
+   },
+   "publisher": "厦门麟贝互娱科技有限公司",
+   "category_l1": "休闲",
+   "category_l2": "模拟经营",
+   "first_seen": "2026-06-29",
+   "appearances": 129,
+   "best_rank": 1,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "赵云与阿斗",
+   "slug": "赵云与阿斗_911d95",
+   "status": "done",
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c6f1ac8898cfd2673180a9e2e4a3d826",
+   "boards": [
+    "douyin/热门榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 4,
+    "douyin/热门榜": 4
+   },
+   "platform_app_ids": {
+    "wx": "wxbef54be7c625286e",
+    "douyin": "ttf3e1855c6ce3e43b02"
+   },
+   "publisher": "北京蜜獾工坊科技有限公司",
+   "category_l1": "1",
+   "category_l2": "塔防",
+   "first_seen": "2026-06-29",
+   "appearances": 138,
+   "best_rank": 1,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "梦回甄嬛传",
+   "slug": "梦回甄嬛传_604816",
+   "status": "done",
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e1e8a78c7123f2ddd1d46cdddc245bfe",
+   "boards": [
+    "douyin/热门榜",
+    "douyin/畅销榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 17,
+    "douyin/畅销榜": 14
+   },
+   "platform_app_ids": {
+    "douyin": "tt2f6959d4b113069b02"
+   },
+   "publisher": "广州擎迅网络科技有限公司",
+   "category_l1": "1",
+   "category_l2": "",
+   "first_seen": "2026-09-05",
+   "appearances": 32,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -2757,7 +2761,7 @@
    ],
    "ranks": {
     "ios/美区免费榜": 1,
-    "ios/日区免费榜": 2
+    "ios/日区免费榜": 1
    },
    "platform_app_ids": {
     "ios": "6761760135"
@@ -2766,7 +2770,7 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 91,
+   "appearances": 92,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -2789,8 +2793,8 @@
     "ios/美区免费榜"
    ],
    "ranks": {
-    "ios/美区免费榜": 2,
-    "ios/日区免费榜": 6
+    "ios/美区免费榜": 4,
+    "ios/日区免费榜": 7
    },
    "platform_app_ids": {
     "ios": "6752672568"
@@ -2799,41 +2803,8 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 91,
+   "appearances": 92,
    "best_rank": 1,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "QQ经典农场",
-   "slug": "QQ经典农场_115408",
-   "status": "done",
-   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/45966eb06e92a14455ad134a095cebb7",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅销榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 2,
-    "wx/畅销榜": 13
-   },
-   "platform_app_ids": {
-    "wx": "wx5306c5978fdb76e4"
-   },
-   "publisher": "深圳市腾讯计算机系统有限公司",
-   "category_l1": "休闲",
-   "category_l2": "模拟经营",
-   "first_seen": "2026-06-29",
-   "appearances": 136,
-   "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
    "profile_abandoned": false,
@@ -2855,8 +2826,8 @@
     "wx/人气榜"
    ],
    "ranks": {
-    "wx/人气榜": 12,
-    "ios/国区免费榜": 5
+    "wx/人气榜": 10,
+    "ios/国区免费榜": 7
    },
    "platform_app_ids": {
     "wx": "wx0647ea28e8169ef5",
@@ -2866,7 +2837,7 @@
    "category_l1": "休闲",
    "category_l2": "消除",
    "first_seen": "2026-06-29",
-   "appearances": 131,
+   "appearances": 132,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -2890,7 +2861,7 @@
    ],
    "ranks": {
     "douyin/热门榜": 5,
-    "douyin/畅销榜": 5
+    "douyin/畅销榜": 6
    },
    "platform_app_ids": {
     "douyin": "ttab7fddc2347af2a002"
@@ -2899,7 +2870,7 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-06-30",
-   "appearances": 136,
+   "appearances": 137,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -2922,8 +2893,8 @@
     "ios/美区免费榜"
    ],
    "ranks": {
-    "ios/美区免费榜": 4,
-    "ios/日区免费榜": 7
+    "ios/美区免费榜": 2,
+    "ios/日区免费榜": 6
    },
    "platform_app_ids": {
     "ios": "6759763476"
@@ -2932,7 +2903,7 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 91,
+   "appearances": 92,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -2965,7 +2936,7 @@
    "category_l1": "休闲",
    "category_l2": "益智",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 3,
    "seen_days": 1,
    "profile_value": "",
@@ -2988,8 +2959,8 @@
     "wx/畅玩榜"
    ],
    "ranks": {
-    "wx/畅玩榜": 19,
-    "douyin/热门榜": 14
+    "wx/畅玩榜": 20,
+    "douyin/热门榜": 15
    },
    "platform_app_ids": {
     "wx": "wx8f54d0cf1faf013f",
@@ -2999,41 +2970,8 @@
    "category_l1": "1",
    "category_l2": "塔防",
    "first_seen": "2026-06-29",
-   "appearances": 137,
-   "best_rank": 3,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "一找一个准",
-   "slug": "一找一个准_31ea54",
-   "status": "done",
-   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d6642889c973c97ef1dabb9b7959f20a",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 18,
-    "wx/畅玩榜": 17
-   },
-   "platform_app_ids": {
-    "wx": "wx3986ff94accd31a9"
-   },
-   "publisher": "长沙指米网络科技有限公司",
-   "category_l1": "休闲",
-   "category_l2": "益智",
-   "first_seen": "2026-06-29",
    "appearances": 138,
-   "best_rank": 4,
+   "best_rank": 3,
    "seen_days": 1,
    "profile_value": "",
    "profile_abandoned": false,
@@ -3055,8 +2993,8 @@
     "wx/畅销榜"
    ],
    "ranks": {
-    "wx/畅销榜": 18,
-    "douyin/畅销榜": 18
+    "wx/畅销榜": 16,
+    "douyin/畅销榜": 20
    },
    "platform_app_ids": {
     "wx": "wx0e0531466ba56547",
@@ -3066,7 +3004,7 @@
    "category_l1": "1",
    "category_l2": "模拟经营",
    "first_seen": "2026-06-30",
-   "appearances": 96,
+   "appearances": 97,
    "best_rank": 5,
    "seen_days": 1,
    "profile_value": "high",
@@ -3091,8 +3029,8 @@
     "wx/畅玩榜"
    ],
    "ranks": {
-    "wx/人气榜": 20,
-    "wx/畅玩榜": 13
+    "wx/人气榜": 19,
+    "wx/畅玩榜": 14
    },
    "platform_app_ids": {
     "wx": "wx1650bdeedb17dfea"
@@ -3101,7 +3039,7 @@
    "category_l1": "休闲",
    "category_l2": "消除",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 8,
    "seen_days": 1,
    "profile_value": "",
@@ -3123,7 +3061,7 @@
     "wx/畅销榜"
    ],
    "ranks": {
-    "wx/畅销榜": 7
+    "wx/畅销榜": 8
    },
    "platform_app_ids": {
     "wx": "wxada4175c8b2a9864"
@@ -3132,38 +3070,7 @@
    "category_l1": "竞技",
    "category_l2": "对战",
    "first_seen": "2026-06-29",
-   "appearances": 138,
-   "best_rank": 1,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "永夜起源",
-   "slug": "永夜起源_2dbe70",
-   "status": "done",
-   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/670ada94c6d276720e82ff55807be3a8",
-   "boards": [
-    "wx/畅销榜"
-   ],
-   "ranks": {
-    "wx/畅销榜": 20
-   },
-   "platform_app_ids": {
-    "wx": "wx1ab0da97c26e5574"
-   },
-   "publisher": "广州招崭信息科技有限公司",
-   "category_l1": "角色",
-   "category_l2": "卡牌",
-   "first_seen": "2026-08-16",
-   "appearances": 70,
+   "appearances": 139,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3194,7 +3101,7 @@
    "category_l1": "休闲",
    "category_l2": "益智",
    "first_seen": "2026-09-21",
-   "appearances": 56,
+   "appearances": 57,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3216,7 +3123,7 @@
     "douyin/畅销榜"
    ],
    "ranks": {
-    "douyin/畅销榜": 4
+    "douyin/畅销榜": 2
    },
    "platform_app_ids": {
     "douyin": "tt076071dd9904ae7202",
@@ -3226,38 +3133,7 @@
    "category_l1": "1",
    "category_l2": "ARPG",
    "first_seen": "2026-07-08",
-   "appearances": 113,
-   "best_rank": 1,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "梦回甄嬛传",
-   "slug": "梦回甄嬛传_604816",
-   "status": "done",
-   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e1e8a78c7123f2ddd1d46cdddc245bfe",
-   "boards": [
-    "douyin/畅销榜"
-   ],
-   "ranks": {
-    "douyin/畅销榜": 12
-   },
-   "platform_app_ids": {
-    "douyin": "tt2f6959d4b113069b02"
-   },
-   "publisher": "广州擎迅网络科技有限公司",
-   "category_l1": "1",
-   "category_l2": "",
-   "first_seen": "2026-09-05",
-   "appearances": 31,
+   "appearances": 114,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3279,7 +3155,7 @@
     "douyin/畅销榜"
    ],
    "ranks": {
-    "douyin/畅销榜": 15
+    "douyin/畅销榜": 11
    },
    "platform_app_ids": {
     "douyin": "tt67df1162f8d65ba402"
@@ -3288,7 +3164,67 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-06-30",
-   "appearances": 135,
+   "appearances": 136,
+   "best_rank": 1,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "回家养猪吧",
+   "slug": "回家养猪吧_474d48",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 10
+   },
+   "platform_app_ids": {
+    "douyin": "tt4e9e3823d0fabfed02"
+   },
+   "publisher": "北京豪腾创想科技有限公司",
+   "category_l1": "1",
+   "category_l2": "",
+   "first_seen": "2026-11-15",
+   "appearances": 6,
+   "best_rank": 1,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "伍六七:暗影交锋",
+   "slug": "伍六七_暗影交锋_e4fea7",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "ranks": {
+    "taptap/预约榜": 1
+   },
+   "platform_app_ids": {},
+   "publisher": "啊吉游",
+   "category_l1": "角色扮演",
+   "category_l2": "国漫、像素、动作、冒险、模拟经营、横版、2D、多人联机、APRG、热血",
+   "first_seen": "2026-07-06",
+   "appearances": 20,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3310,14 +3246,14 @@
     "taptap/预约榜"
    ],
    "ranks": {
-    "taptap/预约榜": 1
+    "taptap/预约榜": 2
    },
    "platform_app_ids": {},
    "publisher": "乐元素",
    "category_l1": "二次元",
    "category_l2": "侦探、ARPG、开放世界、动作、角色扮演",
    "first_seen": "2026-07-06",
-   "appearances": 134,
+   "appearances": 135,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3346,7 +3282,7 @@
    "category_l1": "模拟经营",
    "category_l2": "3D、休闲、社交、种田、多人联机、角色扮演、建造、治愈、模拟",
    "first_seen": "2026-07-06",
-   "appearances": 114,
+   "appearances": 115,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3375,7 +3311,7 @@
    "category_l1": "角色扮演",
    "category_l2": "二次元、开放世界、冒险、动作、养成、收集",
    "first_seen": "2026-07-06",
-   "appearances": 115,
+   "appearances": 116,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3404,7 +3340,7 @@
    "category_l1": "高画质",
    "category_l2": "格斗、动作",
    "first_seen": "2026-07-06",
-   "appearances": 78,
+   "appearances": 79,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3426,14 +3362,14 @@
     "taptap/预约榜"
    ],
    "ranks": {
-    "taptap/预约榜": 8
+    "taptap/预约榜": 10
    },
    "platform_app_ids": {},
    "publisher": "网易游戏",
    "category_l1": "开放世界",
    "category_l2": "角色扮演、高自由度、都市、二次元、动作、高画质、3D",
    "first_seen": "2026-07-06",
-   "appearances": 103,
+   "appearances": 104,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3464,7 +3400,7 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 91,
+   "appearances": 92,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3486,7 +3422,7 @@
     "ios/美区免费榜"
    ],
    "ranks": {
-    "ios/美区免费榜": 8
+    "ios/美区免费榜": 9
    },
    "platform_app_ids": {
     "ios": "431946152"
@@ -3495,7 +3431,7 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 91,
+   "appearances": 92,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3517,7 +3453,7 @@
     "ios/美区免费榜"
    ],
    "ranks": {
-    "ios/美区免费榜": 11
+    "ios/美区免费榜": 13
    },
    "platform_app_ids": {
     "ios": "6793924927"
@@ -3526,7 +3462,38 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-09-26",
-   "appearances": 52,
+   "appearances": 53,
+   "best_rank": 1,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "我在古代有座城",
+   "slug": "我在古代有座城_2dd494",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "ios/国区免费榜"
+   ],
+   "ranks": {
+    "ios/国区免费榜": 1
+   },
+   "platform_app_ids": {
+    "ios": "6821266319"
+   },
+   "publisher": "安徽盈趣网络科技有限公司",
+   "category_l1": "游戏",
+   "category_l2": "",
+   "first_seen": "2026-11-17",
+   "appearances": 4,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3557,7 +3524,7 @@
    "category_l1": "游戏",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 91,
+   "appearances": 92,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3579,7 +3546,7 @@
     "ios/国区免费榜"
    ],
    "ranks": {
-    "ios/国区免费榜": 3
+    "ios/国区免费榜": 4
    },
    "platform_app_ids": {
     "ios": "1321803705"
@@ -3588,7 +3555,7 @@
    "category_l1": "游戏",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 91,
+   "appearances": 92,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3610,7 +3577,7 @@
     "ios/国区免费榜"
    ],
    "ranks": {
-    "ios/国区免费榜": 4
+    "ios/国区免费榜": 5
    },
    "platform_app_ids": {
     "ios": "1642894547"
@@ -3619,7 +3586,7 @@
    "category_l1": "游戏",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 91,
+   "appearances": 92,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3650,7 +3617,38 @@
    "category_l1": "游戏",
    "category_l2": "",
    "first_seen": "2026-07-15",
-   "appearances": 68,
+   "appearances": 69,
+   "best_rank": 1,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "ルミナサーガ:夢と冒険のMMORPG",
+   "slug": "ルミナサーガ_夢と冒険のMMORPG_fa386a",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 2
+   },
+   "platform_app_ids": {
+    "ios": "6808535967"
+   },
+   "publisher": "HYPER HEAT",
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "first_seen": "2026-11-19",
+   "appearances": 2,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3681,7 +3679,7 @@
    "category_l1": "ゲーム",
    "category_l2": "",
    "first_seen": "2026-10-28",
-   "appearances": 23,
+   "appearances": 24,
    "best_rank": 1,
    "seen_days": 1,
    "profile_value": "",
@@ -3703,7 +3701,7 @@
     "ios/日区免费榜"
    ],
    "ranks": {
-    "ios/日区免费榜": 9
+    "ios/日区免费榜": 12
    },
    "platform_app_ids": {
     "ios": "6823027426"
@@ -3712,8 +3710,39 @@
    "category_l1": "ゲーム",
    "category_l2": "",
    "first_seen": "2026-11-11",
-   "appearances": 9,
+   "appearances": 10,
    "best_rank": 1,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "QQ经典农场",
+   "slug": "QQ经典农场_115408",
+   "status": "done",
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/45966eb06e92a14455ad134a095cebb7",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 2
+   },
+   "platform_app_ids": {
+    "wx": "wx5306c5978fdb76e4"
+   },
+   "publisher": "深圳市腾讯计算机系统有限公司",
+   "category_l1": "休闲",
+   "category_l2": "模拟经营",
+   "first_seen": "2026-06-29",
+   "appearances": 137,
+   "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
    "profile_abandoned": false,
@@ -3743,7 +3772,7 @@
    "category_l1": "休闲",
    "category_l2": "益智",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -3765,7 +3794,7 @@
     "douyin/畅销榜"
    ],
    "ranks": {
-    "douyin/畅销榜": 13
+    "douyin/畅销榜": 15
    },
    "platform_app_ids": {
     "douyin": "tt165560e88957e0f502"
@@ -3774,7 +3803,7 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -3805,38 +3834,7 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-09-04",
-   "appearances": 73,
-   "best_rank": 2,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "Colony Flow!",
-   "slug": "Colony_Flow_0265b2",
-   "status": "done",
-   "icon_url": "",
-   "boards": [
-    "ios/美区免费榜"
-   ],
-   "ranks": {
-    "ios/美区免费榜": 20
-   },
-   "platform_app_ids": {
-    "ios": "6779167923"
-   },
-   "publisher": "ABI GLOBAL LTD.",
-   "category_l1": "Games",
-   "category_l2": "",
-   "first_seen": "2026-08-21",
-   "appearances": 81,
+   "appearances": 74,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -3867,7 +3865,7 @@
    "category_l1": "游戏",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 91,
+   "appearances": 92,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -3898,7 +3896,7 @@
    "category_l1": "ゲーム",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 88,
+   "appearances": 89,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -3920,7 +3918,7 @@
     "wx/畅玩榜"
    ],
    "ranks": {
-    "wx/畅玩榜": 20
+    "wx/畅玩榜": 19
    },
    "platform_app_ids": {
     "wx": "wx641f825d5dce9ea9"
@@ -3929,7 +3927,7 @@
    "category_l1": "休闲",
    "category_l2": "益智",
    "first_seen": "2026-08-22",
-   "appearances": 74,
+   "appearances": 75,
    "best_rank": 3,
    "seen_days": 1,
    "profile_value": "",
@@ -3951,7 +3949,7 @@
     "ios/美区免费榜"
    ],
    "ranks": {
-    "ios/美区免费榜": 10
+    "ios/美区免费榜": 12
    },
    "platform_app_ids": {
     "ios": "1617391485"
@@ -3991,7 +3989,7 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 90,
+   "appearances": 91,
    "best_rank": 3,
    "seen_days": 1,
    "profile_value": "",
@@ -4013,7 +4011,7 @@
     "ios/国区免费榜"
    ],
    "ranks": {
-    "ios/国区免费榜": 10
+    "ios/国区免费榜": 11
    },
    "platform_app_ids": {
     "ios": "1544884479",
@@ -4045,7 +4043,7 @@
     "wx/畅玩榜"
    ],
    "ranks": {
-    "wx/畅玩榜": 14
+    "wx/畅玩榜": 12
    },
    "platform_app_ids": {
     "wx": "wxd168d04b737f0579"
@@ -4054,7 +4052,38 @@
    "category_l1": "休闲",
    "category_l2": "益智",
    "first_seen": "2026-08-02",
-   "appearances": 103,
+   "appearances": 104,
+   "best_rank": 4,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "一找一个准",
+   "slug": "一找一个准_31ea54",
+   "status": "done",
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d6642889c973c97ef1dabb9b7959f20a",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 17
+   },
+   "platform_app_ids": {
+    "wx": "wx3986ff94accd31a9"
+   },
+   "publisher": "长沙指米网络科技有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-06-29",
+   "appearances": 139,
    "best_rank": 4,
    "seen_days": 1,
    "profile_value": "",
@@ -4076,7 +4105,7 @@
     "ios/美区免费榜"
    ],
    "ranks": {
-    "ios/美区免费榜": 13
+    "ios/美区免费榜": 11
    },
    "platform_app_ids": {
     "ios": "6468921495"
@@ -4085,7 +4114,7 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 91,
+   "appearances": 92,
    "best_rank": 4,
    "seen_days": 1,
    "profile_value": "",
@@ -4107,7 +4136,7 @@
     "wx/畅销榜"
    ],
    "ranks": {
-    "wx/畅销榜": 12
+    "wx/畅销榜": 17
    },
    "platform_app_ids": {
     "wx": "wxd5a7455f2d66f698"
@@ -4116,7 +4145,7 @@
    "category_l1": "竞技",
    "category_l2": "对战",
    "first_seen": "2026-06-29",
-   "appearances": 125,
+   "appearances": 126,
    "best_rank": 5,
    "seen_days": 1,
    "profile_value": "",
@@ -4147,7 +4176,7 @@
    "category_l1": "休闲",
    "category_l2": "益智",
    "first_seen": "2026-08-10",
-   "appearances": 93,
+   "appearances": 94,
    "best_rank": 5,
    "seen_days": 1,
    "profile_value": "",
@@ -4178,7 +4207,7 @@
    "category_l1": "ゲーム",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 86,
+   "appearances": 87,
    "best_rank": 5,
    "seen_days": 1,
    "profile_value": "",
@@ -4209,7 +4238,7 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 6,
    "seen_days": 1,
    "profile_value": "",
@@ -4223,24 +4252,24 @@
    }
   },
   {
-   "name": "Food Hunt: Pixel Puzzle",
-   "slug": "Food_Hunt_Pixel_Puzzle_d95b64",
+   "name": "Mahjong Blast",
+   "slug": "Mahjong_Blast_c873d0",
    "status": "done",
    "icon_url": "",
    "boards": [
-    "ios/日区免费榜"
+    "ios/美区免费榜"
    ],
    "ranks": {
-    "ios/日区免费榜": 19
+    "ios/美区免费榜": 17
    },
    "platform_app_ids": {
-    "ios": "6769314786"
+    "ios": "6747492600"
    },
-   "publisher": "FUNFINITY PTE. LTD",
-   "category_l1": "ゲーム",
+   "publisher": "Nebula Studio",
+   "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 82,
+   "appearances": 52,
    "best_rank": 6,
    "seen_days": 1,
    "profile_value": "",
@@ -4262,7 +4291,7 @@
     "douyin/热门榜"
    ],
    "ranks": {
-    "douyin/热门榜": 11
+    "douyin/热门榜": 12
    },
    "platform_app_ids": {
     "douyin": "tt8ae7fc5a15ddafbd"
@@ -4271,7 +4300,7 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-06-29",
-   "appearances": 124,
+   "appearances": 125,
    "best_rank": 7,
    "seen_days": 1,
    "profile_value": "",
@@ -4293,7 +4322,7 @@
     "douyin/热门榜"
    ],
    "ranks": {
-    "douyin/热门榜": 12
+    "douyin/热门榜": 16
    },
    "platform_app_ids": {
     "douyin": "tta638d085390d9a7302"
@@ -4302,7 +4331,7 @@
    "category_l1": "1",
    "category_l2": "",
    "first_seen": "2026-06-29",
-   "appearances": 101,
+   "appearances": 102,
    "best_rank": 7,
    "seen_days": 1,
    "profile_value": "",
@@ -4333,7 +4362,7 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 88,
+   "appearances": 89,
    "best_rank": 7,
    "seen_days": 1,
    "profile_value": "",
@@ -4364,7 +4393,7 @@
    "category_l1": "游戏",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 91,
+   "appearances": 92,
    "best_rank": 7,
    "seen_days": 1,
    "profile_value": "",
@@ -4386,7 +4415,7 @@
     "ios/国区免费榜"
    ],
    "ranks": {
-    "ios/国区免费榜": 15
+    "ios/国区免费榜": 16
    },
    "platform_app_ids": {
     "ios": "1243986797"
@@ -4395,7 +4424,7 @@
    "category_l1": "游戏",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 89,
+   "appearances": 90,
    "best_rank": 7,
    "seen_days": 1,
    "profile_value": "",
@@ -4417,7 +4446,7 @@
     "wx/人气榜"
    ],
    "ranks": {
-    "wx/人气榜": 17
+    "wx/人气榜": 20
    },
    "platform_app_ids": {
     "wx": "wxb52b11c4dd14b6fc"
@@ -4426,7 +4455,7 @@
    "category_l1": "棋牌",
    "category_l2": "牌类",
    "first_seen": "2026-06-29",
-   "appearances": 116,
+   "appearances": 117,
    "best_rank": 8,
    "seen_days": 1,
    "profile_value": "",
@@ -4448,7 +4477,7 @@
     "wx/畅玩榜"
    ],
    "ranks": {
-    "wx/畅玩榜": 12
+    "wx/畅玩榜": 13
    },
    "platform_app_ids": {
     "wx": "wx2bd39bc6b432744f"
@@ -4457,7 +4486,7 @@
    "category_l1": "动作",
    "category_l2": "益智",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 8,
    "seen_days": 1,
    "profile_value": "",
@@ -4488,7 +4517,7 @@
    "category_l1": "棋牌",
    "category_l2": "牌类",
    "first_seen": "2026-06-29",
-   "appearances": 138,
+   "appearances": 139,
    "best_rank": 9,
    "seen_days": 1,
    "profile_value": "abandoned",
@@ -4510,7 +4539,7 @@
     "douyin/热门榜"
    ],
    "ranks": {
-    "douyin/热门榜": 17
+    "douyin/热门榜": 18
    },
    "platform_app_ids": {
     "douyin": "tta3fdd5403cf7dc6f02"
@@ -4519,38 +4548,7 @@
    "category_l1": "体育竞技",
    "category_l2": "",
    "first_seen": "2026-06-29",
-   "appearances": 124,
-   "best_rank": 9,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "四季合合",
-   "slug": "四季合合_9823ff",
-   "status": "done",
-   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1de4248829d73a4cd9fbaf2858f28abc",
-   "boards": [
-    "douyin/畅销榜"
-   ],
-   "ranks": {
-    "douyin/畅销榜": 20
-   },
-   "platform_app_ids": {
-    "douyin": "tt210457b9be35faff07"
-   },
-   "publisher": "青岛蓝飞互娱科技股份有限公司",
-   "category_l1": "1",
-   "category_l2": "",
-   "first_seen": "2026-06-29",
-   "appearances": 104,
+   "appearances": 125,
    "best_rank": 9,
    "seen_days": 1,
    "profile_value": "",
@@ -4581,7 +4579,7 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-09-01",
-   "appearances": 35,
+   "appearances": 36,
    "best_rank": 9,
    "seen_days": 1,
    "profile_value": "",
@@ -4603,7 +4601,7 @@
     "ios/日区免费榜"
    ],
    "ranks": {
-    "ios/日区免费榜": 12
+    "ios/日区免费榜": 11
    },
    "platform_app_ids": {
     "ios": "6471045672"
@@ -4612,7 +4610,7 @@
    "category_l1": "ゲーム",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 86,
+   "appearances": 87,
    "best_rank": 9,
    "seen_days": 1,
    "profile_value": "",
@@ -4634,7 +4632,7 @@
     "ios/国区免费榜"
    ],
    "ranks": {
-    "ios/国区免费榜": 17
+    "ios/国区免费榜": 18
    },
    "platform_app_ids": {
     "ios": "1120536875"
@@ -4643,7 +4641,7 @@
    "category_l1": "游戏",
    "category_l2": "",
    "first_seen": "2026-08-21",
-   "appearances": 83,
+   "appearances": 84,
    "best_rank": 10,
    "seen_days": 1,
    "profile_value": "",
@@ -4657,8 +4655,8 @@
    }
   },
   {
-   "name": "火影忍者",
-   "slug": "火影忍者_7b79a7",
+   "name": "迷你世界",
+   "slug": "迷你世界_baecf1",
    "status": "done",
    "icon_url": "",
    "boards": [
@@ -4668,14 +4666,45 @@
     "ios/国区免费榜": 20
    },
    "platform_app_ids": {
-    "ios": "955396648"
+    "ios": "1170455562"
    },
-   "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+   "publisher": "Miniwan Tech",
    "category_l1": "游戏",
    "category_l2": "",
    "first_seen": "2026-08-21",
    "appearances": 60,
-   "best_rank": 13,
+   "best_rank": 10,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "猛鬼宿舍",
+   "slug": "猛鬼宿舍_e8f7e7",
+   "status": "done",
+   "icon_url": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1c106dccb51bc458e7a1abd109dcf875",
+   "boards": [
+    "douyin/热门榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 19
+   },
+   "platform_app_ids": {
+    "douyin": "tt00e576589fdceaa202"
+   },
+   "publisher": "北京蜜獾工坊科技有限公司",
+   "category_l1": "1",
+   "category_l2": "",
+   "first_seen": "2026-06-30",
+   "appearances": 97,
+   "best_rank": 11,
    "seen_days": 1,
    "profile_value": "",
    "profile_abandoned": false,

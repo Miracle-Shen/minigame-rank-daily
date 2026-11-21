@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20T12:13:49+08:00",
+ "updated_at": "2026-11-21T12:39:20+08:00",
  "games": {
   "赵云与阿斗": {
    "matched": true,
@@ -8129,6 +8129,212 @@
   "这把稳稳过": {
    "matched": false,
    "fetched_at": "2026-11-20T12:13:47+08:00"
+  },
+  "下方了": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "下方了",
+   "country": "cn",
+   "track_id": 6802200582,
+   "seller": "Shenzhen Feiyu Xingkong Technology Company Limited",
+   "genres": [
+    "游戏"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/f0/66/11f06611-56f2-afd9-7eb9-947d5d843011/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/35/cf/ea35cf2a-2ca6-69d6-a355-ab9d7c38340c/_U672a_U6807_U9898-1.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/c1/c8/89c1c81e-e7bf-52ad-612a-f6cf94fb02f1/_U672a_U6807_U9898-4.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9e/f3/9b/9ef39ba0-48a5-5a1d-e95e-8ee8405a1e12/_U672a_U6807_U9898-5.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/e0/f9/e6e0f976-2e57-e7d8-7ac9-86bf05c38d2b/_U672a_U6807_U9898-2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8b/80/6e/8b806e96-6395-f830-ba73-452bd61e0e8f/_U672a_U6807_U9898-3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/07/33/0807334f-6004-fc05-7dd9-7f6f36354ba4/1.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/1e/0b/0c1e0b01-ddf0-a3ff-87d1-49bdb2e0f736/5.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/0d/67/450d6735-c9ef-7e58-d7b7-ca3bf3312f7d/4.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/bb/dc/ccbbdc12-9b38-1de2-e1d6-eb806a1d8619/2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/43/a1/26/43a1260c-3f41-59e1-2582-3639b4fa546a/3.png/626x1112bb.jpg"
+   ],
+   "description": "《下方了》是以东方玄幻为背景，玩家将扮演一位拥有入梦扶乩之术的驭鬼师，通过降服、培养各类妖怪，不断解锁超凡能力，体验收妖炼器的修行之路。最终从默默无闻的普通人成长为守护城市的守护神。游戏玩法简单，无社交功能。游戏以塔防射击玩法为主，画面精美，能够带给玩家愉悦的游戏氛围。游戏中玩家通过技能的选择和躲避攻击，有策略地获得战斗的胜利，游戏可以充分发挥玩家的主动性，调动玩家的积极情绪。通过游戏，还能够锻炼玩家的思考力。",
+   "release_notes": "修复游戏内已知问题",
+   "file_size_bytes": 665350144,
+   "min_os": "15.0",
+   "version": "1.0.8",
+   "release_date": "2026-09-14",
+   "rating": 2.06452,
+   "rating_count": 31,
+   "price": "免费",
+   "advisory": "17+",
+   "url": "https://apps.apple.com/cn/app/%E4%B8%8B%E6%96%B9%E4%BA%86/id6802200582?uo=4",
+   "fetched_at": "2026-11-21T12:22:48+08:00"
+  },
+  "悄然心动": {
+   "matched": false,
+   "fetched_at": "2026-11-21T12:22:52+08:00"
+  },
+  "神级手速": {
+   "matched": false,
+   "fetched_at": "2026-11-21T12:22:56+08:00"
+  },
+  "无尽宝藏": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "无尽宝藏",
+   "country": "cn",
+   "track_id": 6804922021,
+   "seller": "Moli Games Co., Ltd.",
+   "genres": [
+    "游戏",
+    "角色扮演",
+    "冒险"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/6e/22/316e223c-2429-54ee-b9cc-7702fa722a60/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/f0/32/8af0324c-13b6-35ce-b68b-8cbd4072be18/wutu01.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/d3/4b/22d34b1d-d5f2-1c67-b0a3-640d1e95a9ff/wutu02.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/ea/d6/f7ead685-347a-3100-bf7e-c9a0549a7c8d/wutu03.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/fa/95/4cfa9596-02ea-c9df-bcdd-c61856799653/wutu05.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/6e/8e/f76e8e35-d6b9-db0b-952f-f2fbcc908391/wutu04.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/91/30/a3913011-2f80-fcad-8064-8e33b1f032fa/wutu06.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2d/23/18/2d2318d3-ad91-e6be-7dcc-4f5e60251db5/wutu01.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/db/7d/c3db7dd8-8f4f-7164-ddea-fa0ac011b736/wutu02.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/eb/43/9feb434c-4b36-1340-5da1-3a0a6682199d/wutu03.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/31/9a/11319ab1-724d-e57d-aa91-108601584bbc/wutu04.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/f3/c5/caf3c543-c1bc-bb2f-7437-02df78072dbb/wutu05.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/72/9c/6f729c83-40c6-d4d0-deec-90686b097080/wutu06.png/626x1112bb.jpg"
+   ],
+   "description": "> 横版竖屏暗黑刷宝 ARPG，摸鱼挂机也能爽刷爆装！\n\n《无尽宝藏》融合放置挂机与暗黑刷宝玩法，主打**轻松摸鱼 + 深度 BD 构筑**双重体验。\n无需繁琐操作，开启自动战斗享受畅快割草，炸裂特效满屏迸发！\n\n【四维策略 BD，千种流派自由玩】\n技能、铭文、套装、伙伴多维搭配，打造专属战斗流派！\n高频爆发暴击流、掌控全场控制流、持续输出痛割流血流…… 每一次配装优化，战力爽感直线提升。\n\n【竖屏横版卷轴，碎片化畅玩】\n竖屏适配单手操作，通勤、地铁、摸鱼随时上线刷宝，离线挂机持续积累收益，解放双手不用肝！\n\n【中世纪暗黑冒险，爆装停不下来】\n海量装备随机掉落，刷宝、配装、调整流派，体验 Build 迭代带来的割草快感！\n\n躺平挂机也能研究配装，一场暗黑风味爆装爽局，即刻开启！",
+   "release_notes": "优化版本体验",
+   "file_size_bytes": 314067968,
+   "min_os": "15.0",
+   "version": "1.0.2",
+   "release_date": "2026-11-20",
+   "rating": 3.76444,
+   "rating_count": 225,
+   "price": "免费",
+   "advisory": "17+",
+   "url": "https://apps.apple.com/cn/app/%E6%97%A0%E5%B0%BD%E5%AE%9D%E8%97%8F/id6804922021?uo=4",
+   "fetched_at": "2026-11-21T12:22:58+08:00"
+  },
+  "峰哥来解压": {
+   "matched": false,
+   "fetched_at": "2026-11-21T12:23:03+08:00"
+  },
+  "代号T3": {
+   "matched": false,
+   "fetched_at": "2026-11-21T12:23:06+08:00"
+  },
+  "仙临九界": {
+   "matched": false,
+   "fetched_at": "2026-11-21T12:23:11+08:00"
+  },
+  "三国志幻想大陆": {
+   "matched": true,
+   "match_score": 0.926,
+   "match_name": "三国志幻想大陆-六周年",
+   "country": "cn",
+   "track_id": 1458466767,
+   "seller": "Guangzhou Longchang Network Technology Co.,Ltd",
+   "genres": [
+    "游戏",
+    "娱乐",
+    "卡牌",
+    "策略"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/e2/1d/d4e21d33-0800-cc51-107a-a8e2fa5b4ec8/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/f4/c3/57f4c347-ab6d-ce03-42d9-b5f7b598dd77/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/10/b5/b7/10b5b756-a7a4-6ac1-3145-27a68bb5204a/2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/7b/14/3e7b14fa-ebdf-c9b7-be3d-2bdeab7448a2/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/1f/40/b21f4043-f166-8e8d-3a46-9f4a880f219d/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/e9/7b/e5e97b7f-3a71-c931-3169-5e94541e236e/5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/13/eb/f313eb41-d009-9647-cc91-7ce1a0472ba2/6.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/e9/3f/56e93fb9-0302-59ff-5335-de71bccf86ce/7.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/8c/e3/8a8ce329-7fbb-e56b-033a-8bd3ab13d153/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/0f/2a/220f2a7a-bbd3-ad0f-4571-ee90a38610bf/2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/cc/33/38cc3367-1d3e-5e60-a80b-00acd438f8d7/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/5c/d6/e95cd6dd-f579-c126-f616-87d2d597e121/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/24/71/79247191-6b8e-35af-fea2-8d55cb286927/5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/a7/46/d6a746b7-7cdd-d209-b92f-f97a0af7e491/6.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/3b/4f/ab3b4fc2-8cb2-e3fb-ab19-7db6fad94369/7.jpg/626x1112bb.jpg"
+   ],
+   "description": "纷纷扰扰三国一梦，再启波澜壮阔幻想之旅。\n高颜值国创卡牌《三国志幻想大陆》融汇幻想与历史，重构有温度的三国世界。多种革新玩法，一键零损换将，养成资源都能继承，新武将抽到就能上场。告别品阶碾压，全系武将都能觉醒至无双，你喜欢的都能成为C位！\n\n【幻想三国 清河烟火】\n三国武将齐聚清河郡，探索百将相伴的理想乡\n小酒馆，与桃园三杰不醉不归；舞台下，一赏江东芳心纵火团的歌喉；温泉里，遇见沉迷搓澡的曹氏一家；\n作为清河郡的小将军，你可以与心仪武将出游探险、温泉泡澡，更多惊喜与秘闻亟待你来发现\n\n【武将觉醒 人人无双】\n人人都能主宰战场，你喜欢的都能成为C位\n打破初始品阶限制，无论良将神将，都能焕发更强力量，提升至无双品阶\n乱世之中名留青史者，都是任你招募的豪杰\n\n【新将入阵 直接上场】\n新阵容新武将零负担尝试，养成继承不用重新培养\n创新“零损换将”机制，上阵武将的等级装备都能全员共享\n心仪武将即刻上阵与你并肩作战，尽情沉浸幻想冒险\n\n【跨国搭配 随心应敌】\n三国武将们联手出击，羁绊自由组合华丽共斗\n过往的相逢恨晚、一生之敌、君臣挚友，都能突破阵营桎梏，此刻化作更强战力。\n灵活运用计策，巧妙搭配阵容，解开笼罩三国的层层谜团。\n\n具体活动内容以游戏内为准",
+   "release_notes": "10月30日，最新魂将「凌朔霍去病」携「踏风幻想服」上线！\n\n1. 【全新魂将】星临异世，骠骑踏风。「凌朔霍去病」10月30日正式上线！\n「凌朔霍去病」以长驱叠层为核心——层叠格挡持续增幅，七层触发封狼居胥，伤害随回合成倍放大。龙魂技【饮马瀚海】群体破甲爆发，敌方护盾化为自身追伤，长驱尽释追加一击，长驱直入，封狼无御。\n\n2. 【全新幻想服】踏风幻想服「幻想·朔漠长驱」上线，开局任选3魂将+6神将。\n10月30日-11月12日，登录踏风幻想服，即可享受专属的阵容任选、魂将任选（不含凌朔霍去病）、免费领首月大小月卡等福利、免费领诸葛果限定皮肤，还有武将定向养成礼包、心愿单限时增加一个栏位、主线战斗一键跳过等多项特权和福利，助你超燃天胡开局。\n\n3. 【全新联动企划】邀请各位小将军，匣启千秋，云游茂陵。\n10月30日-11月10日，与凌朔霍去病一同开启宝匣，收集博古图鉴，筑匣中天地，免费获得联动限定主城皮肤。",
+   "file_size_bytes": 3730587648,
+   "min_os": "13.0",
+   "version": "7.2.50",
+   "release_date": "2020-06-23",
+   "rating": 4.77611,
+   "rating_count": 276866,
+   "price": "免费",
+   "advisory": "12+",
+   "url": "https://apps.apple.com/cn/app/%E4%B8%89%E5%9B%BD%E5%BF%97%E5%B9%BB%E6%83%B3%E5%A4%A7%E9%99%86-%E5%85%AD%E5%91%A8%E5%B9%B4/id1458466767?uo=4",
+   "fetched_at": "2026-11-21T12:23:13+08:00"
+  },
+  "上课偷吃模拟器新版": {
+   "matched": false,
+   "fetched_at": "2026-11-21T12:23:16+08:00"
+  },
+  "点点找茬": {
+   "matched": false,
+   "fetched_at": "2026-11-21T12:23:21+08:00"
+  },
+  "越狱模拟器小游戏": {
+   "matched": false,
+   "fetched_at": "2026-11-21T12:38:57+08:00"
+  },
+  "上课偷吃作弊模拟器": {
+   "matched": false,
+   "fetched_at": "2026-11-21T12:39:01+08:00"
+  },
+  "AfterRoom": {
+   "matched": true,
+   "match_score": 0.908,
+   "match_name": "AfterRoom: 室内设计 AI",
+   "country": "cn",
+   "track_id": 6761107785,
+   "seller": "Serhat Erfidan",
+   "genres": [
+    "生活",
+    "摄影与录像"
+   ],
+   "genre": "Lifestyle",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/bd/e9/62bde9cd-189e-c492-a9f7-554a2e853448/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c8/9f/3f/c89f3f68-6238-b9fd-a36e-5527172ae3f2/home.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/b7/93/7ab793f5-66f5-4bd5-0e61-9d5be1ddf5ab/decor.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/31/83/a3318372-9c3c-88bf-249c-cae945cec3d6/nearby.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/c2/67/a2c26753-de6b-a37d-f757-d37e80d0722e/profile.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/b8/12/2cb8129c-f6b0-cc6e-bd2a-5abfe86063fe/home.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/06/c4/d606c423-7b0d-1bef-481b-05cc059da3bb/decor.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/c0/4a/9dc04ab9-f984-57f4-013a-45ddd5d840d7/nearby.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/a0/26/c2a0267f-f383-fba6-c66b-cd3663d11065/profile.png/626x1112bb.jpg"
+   ],
+   "description": "AfterRoom是您的AI室内设计助手——在做出任何改变之前，先看看您的房间可能的样子。\n\n◆ AI房间改造\n上传任意房间照片，观看AI将其转变为精美设计的空间。几秒内重新想象您的卧室、客厅、厨房或浴室。\n\n◆ 数十种设计风格\n从多种室内设计风格中选择——现代、极简、北欧、工业、波西米亚、中世纪现代、日式、装饰艺术、田园等等。\n\n◆ 前后对比\n在原始房间和AI生成的设计之间滑动，看看令人惊叹的变化。\n\n◆ 保存与分享\n建立您最喜爱的改造收藏。与家人、朋友或室内设计师分享以获取灵感。\n\n高级功能：\n• 无限房间改造\n• 访问所有设计风格\n• 高分辨率导出\n• 无广告体验\n\n无论您是在计划装修还是梦想理想生活空间，AfterRoom帮助您在花费一分钱之前进行可视化和决策。\n\n立即下载，开始改造您的空间！",
+   "release_notes": "提升了 AI 生成的可靠性和连接安全性，并改进了生成中断后的恢复功能。",
+   "file_size_bytes": 70253568,
+   "min_os": "13.0",
+   "version": "1.3.11",
+   "release_date": "2026-03-25",
+   "rating": 0,
+   "rating_count": 0,
+   "price": "免费",
+   "advisory": "12+",
+   "url": "https://apps.apple.com/cn/app/afterroom-%E5%AE%A4%E5%86%85%E8%AE%BE%E8%AE%A1-ai/id6761107785?uo=4",
+   "fetched_at": "2026-11-21T12:39:03+08:00"
+  },
+  "越狱砸墙模拟器": {
+   "matched": false,
+   "fetched_at": "2026-11-21T12:39:07+08:00"
+  },
+  "动物进化论": {
+   "matched": false,
+   "fetched_at": "2026-11-21T12:39:11+08:00"
+  },
+  "过关天才": {
+   "matched": false,
+   "fetched_at": "2026-11-21T12:39:19+08:00"
   }
  }
 }
