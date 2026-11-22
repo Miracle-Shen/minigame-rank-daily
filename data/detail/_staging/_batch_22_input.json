@@ -1,0 +1,149 @@
+{
+ "batch": 22,
+ "total_batches": 22,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_22.json",
+ "games": [
+  {
+   "name": "Bus Fever Party! バス渋滞脱出",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 2
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Lumi Games",
+   "first_seen": "2026-11-12",
+   "appearances": 10,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 0.938,
+    "match_name": "Bus Fever Party!",
+    "country": "us",
+    "track_id": 6746743297,
+    "seller": "Faith Mobile Limited",
+    "genres": [
+     "Games",
+     "Puzzle",
+     "Casual"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/dd/6e/acdd6e9e-de12-21f1-716a-4aa68560f4b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c9/c2/3c/c9c23c3a-0bee-6e18-883a-0f22b655feb4/_U753b_U677f_1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/b3/94/efb394f3-01b4-6bb0-05dc-994044ef9298/_U753b_U677f_2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/a1/80/69a18048-f881-ff8b-7a4f-d2097350f246/_U753b_U677f_3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/db/a4/e6dba4b4-4b14-339d-0a03-271804db6abf/_U753b_U677f_4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/e4/c9/13e4c9dd-105e-100b-6a93-0c5b4df082ef/_U753b_U677f_5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5c/cd/63/5ccd6368-bf89-7aed-3489-96cb48abf068/_U753b_U677f_1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/b2/c1/f9b2c1e3-c76d-bcce-58d8-166c412d3824/_U753b_U677f_2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/dd/91/70dd91aa-e09c-bbbc-a45d-cde8d91c4bfc/_U753b_U677f_3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/70/4c/69704cb7-cd30-66f7-337e-df2d9b7dd80c/_U753b_U677f_4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/c1/be/cfc1be63-8eea-417b-c594-c9695dd28ee6/_U753b_U677f_5.png/626x1112bb.jpg"
+    ],
+    "description": "Get ready for a thrilling bus escape game adventure!\nTackle the challenging traffic jams, escape tricky parking spots, and master every level in this addictive bus escape traffic jam puzzle. Can you sort, match, and park every bus to clear the road and become the city's bus fever driving master?\n\nHow to Play\n• Tap and move buses to open up space in your bus fever adventure.\n• Match passengers to the right buses by colors.\n• Efficiently park each bus, avoid obstacles, and keep traffic flowing.\n\nUse your brainpower to solve unique bus escape puzzles that combine logic, strategy, and fun!\n\nGame Features:\n• Fun and engaging bus game with loads of traffic jam puzzles.\n• Hundreds of bus fever puzzles to challenge your mind.\n• Addictive parking, sorting and matching gameplay—easy to play, tough to master.\n• Exciting boosters help you clear traffic jam and escape faster.\n• Bright visuals and satisfying bus fever mechanics.\n• Play offline anytime, anywhere—your exciting bus fever traffic jam puzzle adventure goes with you!\n\nWhether you're a fan of classic bus games, love solving traffic jams, or seek special bus escape challenges, this puzzle has it all. Sharpen your skills sorting, matching, and parking to become the ultimate traffic jam master!\n\nDownload now and see if you can solve every bus jam, escape every parking trap, and match your way to bus fever success!\n\nCustomer Service Contact Tel: +86-17812725345\nEmail: lumigamesteam@outlook.com\nPrivacy Policy: https://sites.google.com/view/ios-pp-lumigame/\nEnd User License Agreement: https://sites.google.com/view/eula-of-faithmobilelimited/",
+    "release_notes": "1.Bug fixes \n2.performance improvements",
+    "file_size_bytes": 495843328,
+    "min_os": "15.0",
+    "version": "1.3.6",
+    "release_date": "2025-06-13",
+    "rating": 4.67546,
+    "rating_count": 28317,
+    "price": "Free",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/us/app/bus-fever-party/id6746743297?uo=4",
+    "fetched_at": "2026-11-15T12:42:37+08:00"
+   }
+  },
+  {
+   "name": "不停找找找",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 9,
+    "wx/畅玩榜": 3
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "长沙指色网络科技有限公司",
+   "first_seen": "2026-10-23",
+   "appearances": 29,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-01T12:26:57+08:00"
+   }
+  },
+  {
+   "name": "偷吃模拟器",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 17
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "",
+   "first_seen": "2026-11-14",
+   "appearances": 8,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-20T12:12:10+08:00"
+   }
+  },
+  {
+   "name": "单挑排球",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 2
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "武汉爱物极物科技有限公司",
+   "first_seen": "2026-11-13",
+   "appearances": 9,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-17T12:39:07+08:00"
+   }
+  }
+ ]
+}

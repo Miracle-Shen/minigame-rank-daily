@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T12:39:20+08:00",
+ "updated_at": "2026-11-22T13:18:38+08:00",
  "games": {
   "赵云与阿斗": {
    "matched": true,
@@ -8335,6 +8335,98 @@
   "过关天才": {
    "matched": false,
    "fetched_at": "2026-11-21T12:39:19+08:00"
+  },
+  "每天玩一关吧": {
+   "matched": false,
+   "fetched_at": "2026-11-22T13:17:43+08:00"
+  },
+  "野外跳水挑战": {
+   "matched": false,
+   "fetched_at": "2026-11-22T13:17:49+08:00"
+  },
+  "龙岛起源进化": {
+   "matched": false,
+   "fetched_at": "2026-11-22T13:17:54+08:00"
+  },
+  "群星漫卡": {
+   "matched": false,
+   "fetched_at": "2026-11-22T13:17:58+08:00"
+  },
+  "危险逃离": {
+   "matched": false,
+   "fetched_at": "2026-11-22T13:18:04+08:00"
+  },
+  "次神:光之觉醒": {
+   "matched": false,
+   "fetched_at": "2026-11-22T13:18:10+08:00"
+  },
+  "Cube Smash - キューブパズル": {
+   "matched": false,
+   "fetched_at": "2026-11-22T13:18:15+08:00"
+  },
+  "变速跑酷": {
+   "matched": false,
+   "fetched_at": "2026-11-22T13:18:19+08:00"
+  },
+  "拆墙越狱模拟器": {
+   "matched": false,
+   "fetched_at": "2026-11-22T13:18:23+08:00"
+  },
+  "Magic Tiles 3TM: Piano Game": {
+   "matched": true,
+   "match_score": 0.952,
+   "match_name": "Magic Tiles 3™: Piano Game",
+   "country": "us",
+   "track_id": 1443446174,
+   "seller": "Amanotes Pte Ltd",
+   "genres": [
+    "Games",
+    "Music",
+    "Casual",
+    "Music"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/09/85/2109855a-4b74-8685-6801-b0b2c3756364/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/7d/7c/c27d7c63-633b-3824-00e4-9ca435596e56/260527_PI_GL_S_NewUI0New0InGame0Theme_1290x2796_S1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/85/06/6e850683-cf1a-18de-81e9-3d50f5ea118e/260527_PI_GL_S_NewUI0New0InGame0Theme_1290x2796_S2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/e3/6e/a2e36ec3-8960-741e-cd90-e1e904263bf5/260527_PI_GL_S_NewUI0New0InGame0Theme_1290x2796_S3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bf/c6/03/bfc603aa-dc86-9e7e-9cb4-63f3682639bc/260527_PI_GL_S_NewUI0New0InGame0Theme_1290x2796_S4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/df/50/02df50d7-2c62-8b21-c251-b921a0fee6f6/260527_PI_GL_S_NewUI0New0InGame0Theme_1290x2796_S5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/e9/8c/4ce98c61-2e9c-70b7-2574-0549ab076063/260527_PI_GL_S_NewUI0New0InGame0Theme_1290x2796_S6.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/7e/ca/8b7eca37-9614-dbe7-2c7d-e15eb3839555/260527_PI_GL_S_NewUI0New0InGame0Theme_1290x2796_S7.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/8c/01/498c0119-d3d4-d4f7-493b-452a60cba40f/260527_PI_GL_S_NewUI0New0InGame0Theme_1290x2796_S8.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/35/18/e6/3518e6e1-0bf5-0afe-488d-408c422bb507/260527_PI_GL_S_NewUI0New0InGame0Theme_1290x2796_S9.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/73/e7/a5/73e7a59a-be82-8cc9-01a1-29a519d2695c/260527_PI_GL_S_NewUI0New0InGame0Theme_2048x2732_S1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/3d/ed/103ded91-5d3d-d950-e80c-70b64971513a/260527_PI_GL_S_NewUI0New0InGame0Theme_2048x2732_S2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/89/b9/0c89b935-eca1-8a67-ac8e-7748159d9560/260527_PI_GL_S_NewUI0New0InGame0Theme_2048x2732_S3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/4d/e8/a74de850-1547-9e1f-18c9-aa3c55fc3253/260527_PI_GL_S_NewUI0New0InGame0Theme_2048x2732_S4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/98/84/b29884b9-1ffe-8f8a-465f-322536c291f4/260527_PI_GL_S_NewUI0New0InGame0Theme_2048x2732_S5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/97/b8/9d97b838-3281-7a93-144e-dbc296e46a97/260527_PI_GL_S_NewUI0New0InGame0Theme_2048x2732_S6.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/39/3e/a4393e0a-5449-754d-d384-a837bb05e62c/260527_PI_GL_S_NewUI0New0InGame0Theme_2048x2732_S7.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/0d/ce/360dce9c-f9c8-aca5-58a0-5d33c2d68f1f/260527_PI_GL_S_NewUI0New0InGame0Theme_2048x2732_S8.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/e8/5c/99e85c73-f05d-fc36-5705-234144c3692e/260527_PI_GL_S_NewUI0New0InGame0Theme_2048x2732_S9.jpg/626x1112bb.jpg"
+   ],
+   "description": "How fun is it to capture the most precious moments of the year with a wink of rhythms? Let’s MUSIC your soul with the beat of hit songs. \n\n\nWith Magic Tiles 3, you can play various types of music: pop, rap, acappella, EDM, jazz, instrumental.\tA thousand of songs is waiting for you. Let's explore more to find the rainbow in your mind. \n\n\nMagic Tiles 3 key features:\n\n1.     Appealing, modern and diverse music genres to satisfy every music taste! We have over 1000 songs waiting for you to conquer.\n2.     Finely-built online mode – connect with countless players all around the world. You can also invite your friends/enemies into a room and battle each other.\n3.    Weekly tournament comes with irresistible rewards.\n4.    Band mode where you can play with additional instruments such as guitar, piano and so many more.\n\nGame’s rules:\n1.    Tap the black tiles\n2.    Avoid the white tiles\n3.    Expect to speed up with each song level\n\nLog in to your Facebook account and share data on multiple devices\n\nSo, get ready to try out the most challenging piano game for free! \n\nBesides, to improve the game’s performance and offer a customized user experience based on your location we do ask for permission to access to your storage and location.\n\nBecome a real pianist now!\n\nVIP SUBSCRIPTION\n\n- Access VIP Features now to get a lot exclusive benefits\n1. No Ads. No Disturb.\n2. Unlock 50000+ premium songs and upcoming songs\n3. Free Revives. Nonstop playing\n4. Create your playlist and play playlist non-stop\n5. Download songs to play offline. No wifi needed\n6. Create unlimited private battle room to play in Battle Mode\n\n- The subscriptions are $3.49 weekly, $9.99 monthly and $39.99 annually.\n\n- You'll be able to play all premium songs and enjoy all VIP benefits for the duration of your subscription*.\n\n- Payment will be charged to iTunes Account at confirmation of purchase.\n\n- Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period.\n\n- Account will be charged for renewal within 24-hours prior to the end of the current period at the cost of the chosen package.\n\n- Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase.\n\n- Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable.\n\n- No cancellation of the current subscription is allowed during the active subscription period.\n\nNote:\n* Albums and their related contents are not included subscription privilege and may need separate purchases to unlock.\n* Price is equal to the value that \"Apple's App Store Matrix\" determines is the equivalent of the subscription price in USD.\n\n\nTerms of use: https://www.amanotes.com/terms-and-conditions/\nPrivacy Policy: https://www.amanotes.com/privacy-policy/\n\n*Support:\nAre you having any problems? Send the email to magictiles3.support@amanotes.com or contact us in the game by going to Settings > FAQ and Support.\n\nMagic Tiles 3 is from Amanotes, the number one music games publisher in the world, with over one billion downloads. Music lovers can interact with thousand of songs through our different apps. Why just listen to music, if you can also play with it? At Amanotes, we believe that “everyone can music!\".",
+   "release_notes": "We regularly update the game to enhance your experience! Don’t forget to update and enjoy the latest improvements. Stay connected with us on TikTok, YouTube, Facebook, and Instagram @magictiles3.",
+   "file_size_bytes": 708492288,
+   "min_os": "15.6",
+   "version": "13.111.105",
+   "release_date": "2018-12-15",
+   "rating": 4.63496,
+   "rating_count": 859089,
+   "price": "Free",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/us/app/magic-tiles-3-piano-game/id1443446174?uo=4",
+   "fetched_at": "2026-11-22T13:18:27+08:00"
+  },
+  "拼图烧脑王": {
+   "matched": false,
+   "fetched_at": "2026-11-22T13:18:33+08:00"
+  },
+  "每秒强一点": {
+   "matched": false,
+   "fetched_at": "2026-11-22T13:18:37+08:00"
   }
  }
 }
