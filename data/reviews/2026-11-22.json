@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-22",
+  "collected_at": "2026-11-23T11:54:02+08:00",
+  "period": {
+    "week_end": "2026-11-22",
+    "baseline_date": "2026-11-15"
+  },
+  "max_age_days": 30,
+  "min_valid": 10,
+  "sources": [
+    "appstore",
+    "taptap",
+    "googleplay"
+  ],
+  "games": [
+    {
+      "name": "单挑排球",
+      "aliases": [],
+      "matched": true,
+      "platform_ids": {
+        "douyin": "ttc0aab6175ed19bce02"
+      },
+      "sources": [
+        {
+          "source": "appstore",
+          "platform": "ios",
+          "ok": false,
+          "fetched": 0,
+          "kept": 0,
+          "error": "无该平台 ID"
+        },
+        {
+          "source": "taptap",
+          "platform": "taptap",
+          "ok": false,
+          "fetched": 0,
+          "kept": 0,
+          "error": "无该平台 ID"
+        },
+        {
+          "source": "googleplay",
+          "platform": "android",
+          "ok": false,
+          "fetched": 0,
+          "kept": 0,
+          "error": "无该平台 ID"
+        }
+      ],
+      "reviews": [],
+      "notes": [],
+      "summary": {
+        "n": 0,
+        "enough": false,
+        "sentence": "",
+        "positive": null,
+        "negative": null,
+        "used": [],
+        "sample": []
+      }
+    },
+    {
+      "name": "梦幻消除战",
+      "aliases": [],
+      "matched": true,
+      "platform_ids": {
+        "wx": "wxc721a6dc3366ec1f",
+        "douyin": "tt8e13f8ae111a218b07"
+      },
+      "sources": [
+        {
+          "source": "appstore",
+          "platform": "ios",
+          "ok": false,
+          "fetched": 0,
+          "kept": 0,
+          "error": "无该平台 ID"
+        },
+        {
+          "source": "taptap",
+          "platform": "taptap",
+          "ok": false,
+          "fetched": 0,
+          "kept": 0,
+          "error": "无该平台 ID"
+        },
+        {
+          "source": "googleplay",
+          "platform": "android",
+          "ok": false,
+          "fetched": 0,
+          "kept": 0,
+          "error": "无该平台 ID"
+        }
+      ],
+      "reviews": [],
+      "notes": [],
+      "summary": {
+        "n": 0,
+        "enough": false,
+        "sentence": "",
+        "positive": null,
+        "negative": null,
+        "used": [],
+        "sample": []
+      }
+    }
+  ],
+  "policy": "只采本期展开的 1–2 款；只保留最近 30 天；有效评论 < 10 条不生成玩家反馈；微信/抖音无公开可验证评论来源，留空。"
+}
