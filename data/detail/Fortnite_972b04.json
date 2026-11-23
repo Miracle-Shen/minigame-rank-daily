@@ -1,0 +1,286 @@
+{
+ "schema_version": 1,
+ "name": "Fortnite",
+ "updated_at": "2026-11-23",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Epic Games Inc.",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 8
+  },
+  "platform_app_ids": {
+   "ios": "6483539426"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 49,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unreal Engine 5",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "美式卡通 3D，高饱和，赛季换装与大规模 IP 联动皮肤",
+  "dims": {
+   "engine": 5,
+   "art": 5,
+   "anim": 5,
+   "physics": 5,
+   "logic": 5,
+   "data": 4,
+   "server": 5,
+   "audio": 4
+  },
+  "dim_notes": {
+   "art": "每赛季整套地图、角色皮肤与联动 IP 资产；iOS 包体 **2.3GB**，这还是流式加载后的体积",
+   "anim": "角色骨骼、枪械与建造动作、演出级联动动画，全部要求跨端表现一致",
+   "physics": "射击命中判定、建造体素、载具与场景破坏，手感是多年积累",
+   "logic": "百人 BR、零建造、Reload、LEGO 生存、Festival 音游、UGC 岛屿编辑器六套规则共用一个客户端",
+   "server": "百人实时同步、跨平台联机、账号进度互通，还要跑 UGC 内容审核",
+   "data": "赛季通行证加皮肤经济，数值不做长线养成，付费由外观驱动",
+   "engine": "自研引擎加手机/主机/PC 跨端统一构建，还要把包体压进 2.3GB，属行业顶配工程"
+  },
+  "asset_notes": "全 3D 加大量联动 IP 资产，美术是最大成本项且受授权期限约束；素材层完全不可复刻",
+  "notes": "本条目来自 iOS 美区免费榜，是「Fortnite 2025-05 重返美国 App Store」后的榜单回归，属渠道事件；手游与 PC/主机同引擎族、同账号、同赛季",
+  "cost_score": 4.75,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "跳伞落到岛上捡枪与材料，边打边往安全区收，用建造或零建造模式与对手对枪，活到最后；一局约 20 分钟，结束后用通行证任务与赛季奖励把玩家推回下一局。",
+  "highlights": [
+   "落地 30 秒内就要决定打还是跑，空手期的紧张感是 BR 品类最强的开局",
+   "建造能在两秒内改变地形，一枪不中就垒墙绕后，操作上限极高",
+   "被击倒后队友还能拉起来，「差一点团灭」的翻盘局是最容易被分享的片段",
+   "每赛季地图与联动都在变，同一套操作每三个月有一次新鲜感"
+  ],
+  "innovations": [
+   "把 UGC 岛屿放进主客户端：官方定规则、社区做内容，用创作者生态替代自研产能",
+   "一个客户端承载 BR/零建造/Reload/LEGO/Festival/创意岛六套规则，用平台而非单款游戏承接不同人群",
+   "联动不止换皮而是接进玩法层（联名武器与角色覆写），IP 与机制绑定"
+  ],
+  "target_user": "12–24 岁为主，跨平台联机的社交型玩家",
+  "monetization": "F2P 加外观内购（V-Bucks 皮肤与通行证）；iOS 端可跳转 Epic 直付并返 20%，绕开平台分成",
+  "lifecycle": "长线平台化运营，按赛季更新，已运营八年以上"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "这不是玩法壁垒而是工程与资本壁垒：自研引擎、六套规则共客户端、百人实时同步、跨端一致，加上每季联动预算，任一项都不是小游戏团队能碰的。它出现在榜单上更该被读成渠道信号（Epic 与 Apple 和解后回归），而不是玩法机会。",
+  "suggestions": [
+   "若只借一层：把「赛季通行证 + 每季换地图」的节奏搬到自有活动，以三个月为周期做内容更新",
+   "把「被击倒可被队友救起」改成异步的「好友助力复活」，在轻度玩法里复用这种翻盘情绪",
+   "UGC 那层可轻量做：开放关卡编辑器让玩家投稿，用审核加精选位替代自研内容产能"
+  ],
+  "risks": [
+   "工程与资本量级完全不可比，任何正面模仿都是无效投入",
+   "IP 联动与平台政策强绑定，政策一变产品就受影响",
+   "国内无版号与合规路径，不具备可复制性"
+  ],
+  "effort": "不可估；只借「赛季节奏」这一层约 10–15 人日（1 前端 + 0.5 策划）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "原作用户被锁在「好友列表 + 赛季通行证 + 已购外观」三层里，走掉等于丢沉没成本；我们的用户没有这套资产，也就没有非来不可的理由"
+    },
+    {
+     "lens": "用户",
+     "text": "射击加建造要投入几十小时才不挨打，休闲用户第一局就会退出；我们的用户不缺这一口，缺的是三分钟能结束的东西"
+    },
+    {
+     "lens": "业务",
+     "text": "壁垒是自研引擎、百人同步、跨端一致与每季 IP 预算的叠加，任一项都与现有产品线的投入结构冲突"
+    },
+    {
+     "lens": "业务",
+     "text": "它出现在美区免费榜是渠道事件（重返 App Store），当竞品研究没有产出，当平台政策信号读才有价值"
+    }
+   ],
+   "how": [
+    "只取「赛季通行证 + 每季换内容」的排期模板：把自有活动改成三个月一个赛季、每季换主题与奖励，先跑一个赛季看留存曲线",
+    "把「好友助力复活」抽出来做成异步社交位：分享给好友点一下即可复活一次，验证社交裂变对回访的拉动"
+   ],
+   "gain": [
+    "省掉一次方向性误判：明确不做重度实时对战，把预算留给能闭环的轻量玩法",
+    "拿到「赛季化排期」模板，把零散活动收敛成有节奏的更新，减少临时排期",
+    "拿到「异步好友助力」这个低成本社交钩子，不必自建实时联机就有社交回访",
+    "规避平台政策风险：不押注单一渠道的分成规则，保留多端分发能力"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "Epic Games 自研自发并自营商店，体量远超我们，不存在代理或联运入口",
+    "唯一交集在引擎与工具链，而非产品合作"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "品牌电竞赛事",
+     "how": "把「赛季通行证」换成观赛任务，看直播或答题攒积分换限定外观"
+    },
+    {
+     "scene": "线下乐园打卡",
+     "how": "把「地图逐区开放」改成园区动线任务，每到一个点位解锁一段剧情"
+    }
+   ]
+  },
+  "summary": "工程与资本壁垒，只借赛季节奏，不做重度对战"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/1d/74/a01d74d6-5975-c315-7db7-faa54a254b28/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/a7/e3/bda7e31a-7341-2cf8-d54f-880aec955620/EN_FNBR_42-00_C7S4_Shot_1_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/f2/a3/2af2a36b-16e8-6977-3391-9a30364932e7/EN_FNBR_42-00_C7S4_Shot_2_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/ea/e9/2deae962-f00f-5d8d-2bfe-e645dcc4616c/EN_FNBR_42-00_C7S4_Shot_3_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/27/16/c12716b1-67cd-f26b-2bfa-b96d652f528b/EN_FNBR_42-00_C7S4_Shot_5_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/fa/b9/cafab964-5d40-6afb-2c46-54da421a2d68/EN_FNBR_42-00_C7S4_Shot_4_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/af/4a/a3af4a93-cfbd-551e-4692-17dfba9c6f6a/EN_FNBR_42-00_C7S4_Shot_1_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/c4/fd/b1c4fdcc-f8ec-c6b8-3a2b-08a33db79da8/EN_FNBR_42-00_C7S4_Shot_2_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/95/96/c5959649-a0bd-0358-1399-5785b36c4d80/EN_FNBR_42-00_C7S4_Shot_3_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/11/dc/7d/11dc7d3d-2054-43f9-26a2-bb298c9be62d/EN_FNBR_42-00_C7S4_Shot_5_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/32/1d/eb321d2f-833f-0f2f-4f93-f543541268e7/EN_FNBR_42-00_C7S4_Shot_4_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "iOS 包体 2.3GB、版本 42.20、评分 4.58（34.2 万条）、最低 iOS 17.0，发行方 Epic Games Sweden AB",
+   "level": "confirmed"
+  },
+  {
+   "claim": "手游与 PC/主机同用 Unreal Engine，跨平台联机且账号进度互通",
+   "level": "confirmed"
+  },
+  {
+   "claim": "2025-05 重返美国 App Store，2026-05 扩展至全球多数地区（澳大利亚除外）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "客户端同时承载 BR/零建造/Reload/LEGO Fortnite/Festival/创意岛，并有 KINGDOM HEARTS 联动",
+   "level": "confirmed"
+  },
+  {
+   "claim": "具体引擎版本记为 UE5 属公开已知信息，本次检索未取到一手确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/fortnite/id6483539426",
+  "https://www.gaming.net/zh-cn/ko/best-multiplayer-games-on-ios-android",
+  "https://gigazine.net/gsc_news/en/20250521-app-store-fortnite-back",
+  "https://gamerstogether.cz/en/how-to-download-fortnite/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Fortnite",
+  "country": "us",
+  "track_id": 6483539426,
+  "seller": "Epic Games Sweden AB",
+  "genres": [
+   "Games",
+   "Adventure",
+   "Entertainment",
+   "Action"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/1d/74/a01d74d6-5975-c315-7db7-faa54a254b28/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/a7/e3/bda7e31a-7341-2cf8-d54f-880aec955620/EN_FNBR_42-00_C7S4_Shot_1_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/f2/a3/2af2a36b-16e8-6977-3391-9a30364932e7/EN_FNBR_42-00_C7S4_Shot_2_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/ea/e9/2deae962-f00f-5d8d-2bfe-e645dcc4616c/EN_FNBR_42-00_C7S4_Shot_3_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/27/16/c12716b1-67cd-f26b-2bfa-b96d652f528b/EN_FNBR_42-00_C7S4_Shot_5_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/fa/b9/cafab964-5d40-6afb-2c46-54da421a2d68/EN_FNBR_42-00_C7S4_Shot_4_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/af/4a/a3af4a93-cfbd-551e-4692-17dfba9c6f6a/EN_FNBR_42-00_C7S4_Shot_1_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/c4/fd/b1c4fdcc-f8ec-c6b8-3a2b-08a33db79da8/EN_FNBR_42-00_C7S4_Shot_2_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/95/96/c5959649-a0bd-0358-1399-5785b36c4d80/EN_FNBR_42-00_C7S4_Shot_3_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/11/dc/7d/11dc7d3d-2054-43f9-26a2-bb298c9be62d/EN_FNBR_42-00_C7S4_Shot_5_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/32/1d/eb321d2f-833f-0f2f-4f93-f543541268e7/EN_FNBR_42-00_C7S4_Shot_4_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg"
+  ],
+  "description": "Play and battle with friends in Fortnite. Be the last player standing in Battle Royale, Zero Build, Blitz and OG, carry your squad to victory in fast-paced Reload, build your own adventures in LEGO® Fortnite, or headline a concert in Fortnite Festival — it's all here.\n\nPlay thousands of free developer-made islands with your friends, including tycoons, deathruns, zombie survival, and more.\n\nDISCLAIMER:\nFortnite can be played on iPhone 11 and newer, iPhone XS and newer, iPhone 12 Mini and newer, iPhone SE 3 and newer, iPad Pro 10.5\" and newer, iPad Air 4th Gen and newer, iPad 10th Gen and newer, iPad Mini 6th Gen and newer.",
+  "release_notes": "The Worlds of KINGDOM HEARTS Come to Fortnite\nCall down new KINGDOM HEARTS Overrides, wield the new Kingdom Key melee weapon, and fight the darkness with new Sora, Riku, Kairi, and Roxas Outfits!",
+  "file_size_bytes": 2304700416,
+  "min_os": "17.0",
+  "version": "42.20",
+  "release_date": "2025-05-20",
+  "rating": 4.58465,
+  "rating_count": 342120,
+  "price": "Free",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/us/app/fortnite/id6483539426?uo=4",
+  "fetched_at": "2026-09-21T01:09:51+08:00"
+ },
+ "slug": "Fortnite_972b04"
+}

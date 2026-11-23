@@ -1,0 +1,150 @@
+{
+ "batch": 23,
+ "total_batches": 23,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_23.json",
+ "games": [
+  {
+   "name": "次神光之觉醒",
+   "boards": [
+    "douyin/畅销榜"
+   ],
+   "ranks": {
+    "douyin/畅销榜": 17
+   },
+   "category_l1": "放置挂机",
+   "category_l2": "",
+   "publisher": "北京雪境科技有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 100,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-21T01:09:28+08:00"
+   }
+  },
+  {
+   "name": "甄嬛传:归来",
+   "boards": [
+    "douyin/热门榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 20
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "深圳市拾光筑梦文化传媒有限公司",
+   "first_seen": "2026-10-17",
+   "appearances": 11,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-20T12:11:47+08:00"
+   }
+  },
+  {
+   "name": "疯狂收杂物",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 2,
+    "wx/畅玩榜": 2
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "广州尊悦文化发展有限公司",
+   "first_seen": "2026-10-31",
+   "appearances": 23,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-01T12:59:33+08:00"
+   }
+  },
+  {
+   "name": "Fortnite",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 8
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Epic Games Inc.",
+   "first_seen": "2026-08-21",
+   "appearances": 49,
+   "best_rank": 3,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Fortnite",
+    "country": "us",
+    "track_id": 6483539426,
+    "seller": "Epic Games Sweden AB",
+    "genres": [
+     "Games",
+     "Adventure",
+     "Entertainment",
+     "Action"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/1d/74/a01d74d6-5975-c315-7db7-faa54a254b28/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/a7/e3/bda7e31a-7341-2cf8-d54f-880aec955620/EN_FNBR_42-00_C7S4_Shot_1_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/f2/a3/2af2a36b-16e8-6977-3391-9a30364932e7/EN_FNBR_42-00_C7S4_Shot_2_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/ea/e9/2deae962-f00f-5d8d-2bfe-e645dcc4616c/EN_FNBR_42-00_C7S4_Shot_3_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/27/16/c12716b1-67cd-f26b-2bfa-b96d652f528b/EN_FNBR_42-00_C7S4_Shot_5_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/fa/b9/cafab964-5d40-6afb-2c46-54da421a2d68/EN_FNBR_42-00_C7S4_Shot_4_iOS_AppStore_Screenshot_iPhone_2868x1320.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/af/4a/a3af4a93-cfbd-551e-4692-17dfba9c6f6a/EN_FNBR_42-00_C7S4_Shot_1_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/c4/fd/b1c4fdcc-f8ec-c6b8-3a2b-08a33db79da8/EN_FNBR_42-00_C7S4_Shot_2_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/95/96/c5959649-a0bd-0358-1399-5785b36c4d80/EN_FNBR_42-00_C7S4_Shot_3_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/11/dc/7d/11dc7d3d-2054-43f9-26a2-bb298c9be62d/EN_FNBR_42-00_C7S4_Shot_5_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/32/1d/eb321d2f-833f-0f2f-4f93-f543541268e7/EN_FNBR_42-00_C7S4_Shot_4_iOS_AppStore_Screenshot_iPad_2752x2064.jpg/626x1112bb.jpg"
+    ],
+    "description": "Play and battle with friends in Fortnite. Be the last player standing in Battle Royale, Zero Build, Blitz and OG, carry your squad to victory in fast-paced Reload, build your own adventures in LEGO® Fortnite, or headline a concert in Fortnite Festival — it's all here.\n\nPlay thousands of free developer-made islands with your friends, including tycoons, deathruns, zombie survival, and more.\n\nDISCLAIMER:\nFortnite can be played on iPhone 11 and newer, iPhone XS and newer, iPhone 12 Mini and newer, iPhone SE 3 and newer, iPad Pro 10.5\" and newer, iPad Air 4th Gen and newer, iPad 10th Gen and newer, iPad Mini 6th Gen and newer.",
+    "release_notes": "The Worlds of KINGDOM HEARTS Come to Fortnite\nCall down new KINGDOM HEARTS Overrides, wield the new Kingdom Key melee weapon, and fight the darkness with new Sora, Riku, Kairi, and Roxas Outfits!",
+    "file_size_bytes": 2304700416,
+    "min_os": "17.0",
+    "version": "42.20",
+    "release_date": "2025-05-20",
+    "rating": 4.58465,
+    "rating_count": 342120,
+    "price": "Free",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/us/app/fortnite/id6483539426?uo=4",
+    "fetched_at": "2026-09-21T01:09:51+08:00"
+   }
+  }
+ ]
+}
