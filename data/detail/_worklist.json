@@ -1,44 +1,11 @@
 {
- "generated_at": "2026-11-23T12:14:04+08:00",
+ "generated_at": "2026-11-24T12:16:23+08:00",
  "source": "today",
  "total": 156,
- "pending": 61,
- "done": 95,
+ "pending": 57,
+ "done": 99,
  "with_icon": 39,
  "entries": [
-  {
-   "name": "疯狂收杂物",
-   "slug": "疯狂收杂物_2e23ca",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 2,
-    "wx/畅玩榜": 2
-   },
-   "platform_app_ids": {
-    "wx": "wx1644b5d3f47969f0"
-   },
-   "publisher": "广州尊悦文化发展有限公司",
-   "category_l1": "休闲",
-   "category_l2": "益智",
-   "first_seen": "2026-10-31",
-   "appearances": 23,
-   "best_rank": 2,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
   {
    "name": "指尖快消",
    "slug": "指尖快消_20854f",
@@ -62,68 +29,6 @@
    "first_seen": "2026-10-10",
    "appearances": 44,
    "best_rank": 5,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "甄嬛传:归来",
-   "slug": "甄嬛传_归来_863ab9",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "douyin/热门榜"
-   ],
-   "ranks": {
-    "douyin/热门榜": 20
-   },
-   "platform_app_ids": {
-    "douyin": "ttd2f0a44d4c8b63a102"
-   },
-   "publisher": "深圳市拾光筑梦文化传媒有限公司",
-   "category_l1": "1",
-   "category_l2": "",
-   "first_seen": "2026-10-17",
-   "appearances": 11,
-   "best_rank": 2,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "次神光之觉醒",
-   "slug": "次神光之觉醒_e8f8df",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "douyin/畅销榜"
-   ],
-   "ranks": {
-    "douyin/畅销榜": 17
-   },
-   "platform_app_ids": {
-    "douyin": "ttf50b83b66a377fc402"
-   },
-   "publisher": "北京雪境科技有限公司",
-   "category_l1": "放置挂机",
-   "category_l2": "",
-   "first_seen": "2026-06-29",
-   "appearances": 100,
-   "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
    "profile_abandoned": false,
@@ -278,37 +183,6 @@
    "category_l2": "",
    "first_seen": "2026-11-13",
    "appearances": 10,
-   "best_rank": 3,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "Fortnite",
-   "slug": "Fortnite_972b04",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "ios/美区免费榜"
-   ],
-   "ranks": {
-    "ios/美区免费榜": 8
-   },
-   "platform_app_ids": {
-    "ios": "6483539426"
-   },
-   "publisher": "Epic Games Inc.",
-   "category_l1": "Games",
-   "category_l2": "",
-   "first_seen": "2026-08-21",
-   "appearances": 49,
    "best_rank": 3,
    "seen_days": 1,
    "profile_value": "",
@@ -2426,6 +2300,39 @@
    }
   },
   {
+   "name": "疯狂收杂物",
+   "slug": "疯狂收杂物_2e23ca",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 2,
+    "wx/畅玩榜": 2
+   },
+   "platform_app_ids": {
+    "wx": "wx1644b5d3f47969f0"
+   },
+   "publisher": "广州尊悦文化发展有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-10-31",
+   "appearances": 23,
+   "best_rank": 2,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
    "name": "不停找找找",
    "slug": "不停找找找_4918ee",
    "status": "done",
@@ -3738,6 +3645,37 @@
    }
   },
   {
+   "name": "甄嬛传:归来",
+   "slug": "甄嬛传_归来_863ab9",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "douyin/热门榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 20
+   },
+   "platform_app_ids": {
+    "douyin": "ttd2f0a44d4c8b63a102"
+   },
+   "publisher": "深圳市拾光筑梦文化传媒有限公司",
+   "category_l1": "1",
+   "category_l2": "",
+   "first_seen": "2026-10-17",
+   "appearances": 11,
+   "best_rank": 2,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
    "name": "时尚百货城",
    "slug": "时尚百货城_521669",
    "status": "done",
@@ -3756,6 +3694,37 @@
    "category_l2": "",
    "first_seen": "2026-06-29",
    "appearances": 141,
+   "best_rank": 2,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "次神光之觉醒",
+   "slug": "次神光之觉醒_e8f8df",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "douyin/畅销榜"
+   ],
+   "ranks": {
+    "douyin/畅销榜": 17
+   },
+   "platform_app_ids": {
+    "douyin": "ttf50b83b66a377fc402"
+   },
+   "publisher": "北京雪境科技有限公司",
+   "category_l1": "放置挂机",
+   "category_l2": "",
+   "first_seen": "2026-06-29",
+   "appearances": 100,
    "best_rank": 2,
    "seen_days": 1,
    "profile_value": "",
@@ -4004,6 +3973,37 @@
    "category_l2": "益智",
    "first_seen": "2026-08-22",
    "appearances": 77,
+   "best_rank": 3,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "Fortnite",
+   "slug": "Fortnite_972b04",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 8
+   },
+   "platform_app_ids": {
+    "ios": "6483539426"
+   },
+   "publisher": "Epic Games Inc.",
+   "category_l1": "Games",
+   "category_l2": "",
+   "first_seen": "2026-08-21",
+   "appearances": 49,
    "best_rank": 3,
    "seen_days": 1,
    "profile_value": "",

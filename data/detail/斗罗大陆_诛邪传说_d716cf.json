@@ -1,0 +1,298 @@
+{
+ "schema_version": 1,
+ "name": "斗罗大陆:诛邪传说",
+ "updated_at": "2026-11-24",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Guangzhou Zhongxu Shuke Information Technology Co., Ltd",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 12
+  },
+  "platform_app_ids": {
+   "ios": "6748218382"
+  },
+  "first_seen": "2026-08-08",
+  "appearances": 9,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "自研引擎 / 深度魔改商业引擎（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "国风二次元 + 写实材质：角色走动画版《斗罗大陆》的造型，场景是开阔地貌（星斗大森林）配实时天气，特效偏魂技光效与粒子",
+  "dims": {
+   "engine": 5,
+   "art": 5,
+   "anim": 4,
+   "physics": 3,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 4
+  },
+  "dim_notes": {
+   "engine": "6400 万㎡ 无缝大地图 + 实时天气 + 四端互通（PC/安卓/iOS/鸿蒙），引擎层与多端适配是纯重工程",
+   "art": "iOS 包体 3.58GB、PC 端预留 90GB，属长线内容资产量级；角色、坐骑、场景、特效全部定制",
+   "logic": "开放世界探索（无自动寻路）+ 武魂魂环魂印三层构筑 + 2v2/7v7/40 人大逃杀 + 宗门领地战，多套规则共存于一个客户端",
+   "data": "魂环年限、魂印 80 种 170 万种组合、魂骨、宗门科技、赛季内容，多层数值叠加，调平难度极高",
+   "server": "全平台同服 + 自由交易行（95% 资源可上架）+ 40 人实时大逃杀，服务端与经济调控是核心壁垒",
+   "audio": "原著角色沿用动画原配配音，属需要授权的定制语音资产"
+  },
+  "asset_notes": "素材是长线内容资产，必须按年投入、无法一次性买断；真正的成本在双 IP 授权费、四端适配与自由交易行的经济调控。",
+  "notes": "恺英网络（002517.SZ）旗下盛和蓝月工作室研发、贪玩游戏（中旭未来）发行，持阅文集团小说与腾讯视频动画双 IP 授权，2026-11-19 全平台公测（PC/安卓/iOS/鸿蒙四端互通）。iOS 国区包体 3.58GB，公测当日 TapTap 8.4 分/1678 条评价。",
+  "cost_score": 4.5,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "选一个武魂（决定出生地与剧情线）→ 在野外猎杀魂兽、吸魂环（年限越高属性与魂技越强）→ 配魂印改魂技形态 → 御空飞行/飞天神爪跑开放世界，做机关解谜、炼金、地宫 → 组队打斗魂场、魂师大赛、40 人大逃杀与宗门领地战 → 猎魂战利品上自由交易行换资源。",
+  "highlights": [
+   "吸魂环的赌感：年限越高越强，吸收有失败判定（带保底），野外看到高年限魂兽时那种「要不要现在上」的犹豫是核心张力",
+   "魂印改技能形态：给白虎烈光波装火环魂印就多一圈火，装冻结魂印就附带减速，同一个技能能被改出完全不同的手感",
+   "御空飞行的自由度：不同武魂飞行形态各异（御剑、蝶翼、凤羽），长按疾跑＋飞天神爪上高台，探索的移动本身就有爽感",
+   "自由交易行：95% 资源可上架自由定价，打宝能换真资源，散人玩家有「搬砖」这条路"
+  ],
+  "innovations": [
+   "魂印系统把「技能形态」做成可替换插槽，80 种魂印组合出 170 万种流派，比传统的技能升级树多一层构筑空间",
+   "取消战力排行榜、官方只做生态调控而把定价权交给玩家，是 MMO 商业化上少见的让步",
+   "在原著明线外铺「诛邪」暗线，让玩家以闯入者身份介入关键事件，绕开了改编作品只能复刻主线的通病"
+  ],
+  "target_user": "15-30 岁《斗罗大陆》小说/动画受众与开放世界 MMO 玩家，对养成深度与社交有需求",
+  "monetization": "IAP 为主：外观装扮、赛季与礼包；官方口径是付费重心向外观倾斜、商城不卖数值道具，但玩家评论中仍有「卖数值」的质疑",
+  "lifecycle": "长线运营，四端同服 + 赛季 + 宗门战，按年为单位做版本；首月靠 IP 与买量冲榜，之后看经济系统能否稳住"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "双 IP 授权（阅文小说 + 腾讯视频动画）不可复制，这是第一道墙；3.58GB 移动端 / 90GB PC 端的内容量是第二道墙；自由交易行加 40 人实时对战的经济与同步是第三道墙。三条任何一条都不是小团队能翻的。它能给的只有「魂印改技能形态」这一个构筑思路，可以拿去做轻量版本。",
+  "suggestions": [
+   "只借「魂印」这一层：把技能做成「基础形态 + 3 个可替换词条插槽」，用 10-20 个词条组合出明显不同的手感，别做 80 种",
+   "借「魂环吸收保底」的设计：连续失败 N 次后必成，这是对付费挫败感最有效的缓释手段，任何抽卡/强化系统都能直接用",
+   "如果要做 IP 改编，先算授权与版号周期，再算内容量——按 3.58GB 的移动端标准反推，需要的内容产能远超常规项目",
+   "开放世界不要碰：改成「一个主城 + 三条野外线」的箱庭结构，把探索的快感集中在移动与解谜上，成本降一个数量级"
+  ],
+  "risks": [
+   "双 IP 授权在阅文与腾讯视频手里，第三方拿不到，改编即侵权",
+   "开放世界 MMO 已被头部锁死，同档期还有多个 IP 改编产品在打，买量成本极高",
+   "自由交易行的经济调控是长期运营难题，做不好会出现工作室搬砖与通胀，这是最容易翻车的地方"
+  ],
+  "effort": "整款不建议；只借构筑与保底层约 15–25 人日"
+ },
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "用户是被「斗罗」这两个字拉进来的：选邪眸白虎从星罗帝国开局、原著角色由动画原配配音，这些体验全部锁在 IP 上，换成别的世界观同一套系统就没人认"
+    },
+    {
+     "lens": "用户",
+     "text": "我们的用户要的是一局几分钟的即时反馈，而它的爽点分散在数十小时的探索与养成里，搬过来只会留下一堆看不懂的魂环魂印名词"
+    },
+    {
+     "lens": "业务",
+     "text": "壁垒是双 IP 授权 + 6400 万㎡ 无缝地图 + 自由交易行的经济调控，三者都是重资本与长期运营能力，与轻量产品线的投入结构正面冲突"
+    },
+    {
+     "lens": "业务",
+     "text": "不做的代价很清楚：开放世界 MMO 这个坑一旦踩进去就是按年计的人力，而我们要的是可复用组件，方向本身就不对"
+    }
+   ],
+   "how": [
+    "只抽「魂印」做轻量词条镶嵌：一个技能配 3 个插槽、10 个词条，两周内做出可玩版本，看玩家是否能感知到流派差异",
+    "把「失败累积必成」的保底机制做成通用组件，接进现有的强化或抽卡系统，A/B 对照挫败感指标"
+   ],
+   "gain": [
+    "规避掉 3.58GB 量级的内容投入与四端适配，省下的是一整年的美术与工程预算",
+    "拿到「词条改技能形态」的构筑口径，可作为后续轻量玩法差异化的模板",
+    "拿到 IP 改编项目的成本参照：授权费 + 内容量 + 版号周期三项一起看，能直接否掉不切实际的立项提案",
+    "明确一条不做清单：开放世界、自由交易行、40 人实时对战，避免团队反复讨论同一件事"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "研发（恺英盛和蓝月）与发行（贪玩）是多年深度合作方，发行团队在产品早期就介入策划与商业化，没有第三方代理窗口",
+    "双 IP 授权在阅文集团与腾讯视频手里，IP 方不放权，任何改编或联运都要重新走授权，不具备可谈性"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "品牌会员等级体系",
+     "how": "把「魂环年限」换成会员等级年限，等级越高解锁的专属权益越多，吸收失败用累积保底兜住"
+    },
+    {
+     "scene": "教育机构技能树",
+     "how": "把「魂印改技能形态」换成「同一知识点配不同解法词条」，用插槽组合表达学习路径差异"
+    }
+   ]
+  },
+  "summary": "双 IP 加开放世界，只借魂印构筑"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/81/50/c68150e5-2200-6743-93a0-58d12ba2a9bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7c/de/fe/7cdefe6f-783c-36f4-7c69-bd9ea3c2de98/2796x1290.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/06/0f/51060f5d-27ff-6516-8236-9ef408471083/2796x1290-0.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/96/20/d896206f-48de-6207-bbfd-71b4d4fa38ce/2796x1290-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/3e/cb/b03ecbc5-52f6-f71a-93ff-605adc3bf54e/2796x1290-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/7a/40/e07a4097-552e-6867-98fa-70b27d45a864/2796x1290-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ad/8e/d1/ad8ed159-b77f-98f6-70fc-4fcdf5c0ca9b/2796x1290-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b3/c1/fd/b3c1fd61-01a3-9817-3004-68ea759a9a78/2732x2048.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/e0/1e/77e01e98-fc58-d05c-c33c-ffacaaaa26b9/2732x2048-0.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/c4/13/d9c413a0-2336-dfd7-eac8-3ce14e79f762/2732x2048-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/91/aa/3291aaac-6dee-ce56-69e8-ba9a1adf8d66/2732x2048-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/a3/f2/e7a3f2f9-6eb1-be15-c71e-9c873f92402f/2732x2048-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/f5/6c/c7f56cb7-e5be-4762-7c2c-400ca2fb1932/2732x2048-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "恺英网络旗下盛和蓝月工作室研发、贪玩游戏发行，持阅文小说与腾讯视频动画双 IP 授权，2026-11-19 全平台公测",
+   "level": "confirmed"
+  },
+  {
+   "claim": "iOS 国区包体 3.58GB，PC 端需预留 90GB，地图面积 6400 万㎡，支持 PC/安卓/iOS/鸿蒙四端互通",
+   "level": "confirmed"
+  },
+  {
+   "claim": "战斗与养成围绕武魂—魂环—魂印三层，魂印 80 种、组合超 170 万种；含 2v2、7v7、40 人大逃杀与宗门领地战",
+   "level": "confirmed"
+  },
+  {
+   "claim": "公测当日 TapTap 8.4 分/1678 条评价，玩家评论中出现「卖数值太严重」的质疑",
+   "level": "confirmed"
+  },
+  {
+   "claim": "App Store 国区评分为 4.65（308 条），上线一周内样本，不代表长期口碑",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/id6748218382",
+  "https://news.17173.com/content/11192026/133140477.shtml",
+  "https://cj.sina.cn/articles/view/1650111241/625ab30902001i8fo"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "斗罗大陆：诛邪传说",
+  "country": "cn",
+  "track_id": 6748218382,
+  "seller": "Guangzhou Zhongxu Shuke Information Technology Co., Ltd",
+  "genres": [
+   "游戏",
+   "动作",
+   "角色扮演"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/81/50/c68150e5-2200-6743-93a0-58d12ba2a9bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7c/de/fe/7cdefe6f-783c-36f4-7c69-bd9ea3c2de98/2796x1290.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/06/0f/51060f5d-27ff-6516-8236-9ef408471083/2796x1290-0.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/96/20/d896206f-48de-6207-bbfd-71b4d4fa38ce/2796x1290-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/3e/cb/b03ecbc5-52f6-f71a-93ff-605adc3bf54e/2796x1290-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/7a/40/e07a4097-552e-6867-98fa-70b27d45a864/2796x1290-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ad/8e/d1/ad8ed159-b77f-98f6-70fc-4fcdf5c0ca9b/2796x1290-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b3/c1/fd/b3c1fd61-01a3-9817-3004-68ea759a9a78/2732x2048.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/e0/1e/77e01e98-fc58-d05c-c33c-ffacaaaa26b9/2732x2048-0.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/c4/13/d9c413a0-2336-dfd7-eac8-3ce14e79f762/2732x2048-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/91/aa/3291aaac-6dee-ce56-69e8-ba9a1adf8d66/2732x2048-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/a3/f2/e7a3f2f9-6eb1-be15-c71e-9c873f92402f/2732x2048-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/f5/6c/c7f56cb7-e5be-4762-7c2c-400ca2fb1932/2732x2048-4.jpg/626x1112bb.jpg"
+  ],
+  "description": "《斗罗大陆：诛邪传说》是以东方奇幻小说《斗罗大陆》IP为故事背景的一款角色扮演大型多人在线手游，玩家可以在游戏中扮演一名魂师展开冒险，探索斗罗大陆享受奇幻之旅。游戏吸收了大量来自玩家的积极反馈与宝贵建议，每一条我们都认真阅读、仔细记录。正是有了广大玩家的理解与包容，才让我们有动力不断打磨、持续优化！世界聊天不断踊跃的为大家答疑解惑的热心魂师；高级魂师为低级玩家耐心蹲守第三魂环；队友们争先恐后地为濒死伙伴“包扎”；陌生人之间主动施以援手的“解谕之视”……这些画面让整个开发团队都为之动容。\n玩家们用行动诠释了我们理想中的斗罗世界 — 一个充满战友情谊、彼此扶持的魂师家园！",
+  "release_notes": "修复已知问题，优化游戏体验。",
+  "file_size_bytes": 3588671488,
+  "min_os": "15.0",
+  "version": "70000.0.28",
+  "release_date": "2026-11-17",
+  "rating": 4.64935,
+  "rating_count": 308,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E6%96%97%E7%BD%97%E5%A4%A7%E9%99%86-%E8%AF%9B%E9%82%AA%E4%BC%A0%E8%AF%B4/id6748218382?uo=4",
+  "fetched_at": "2026-11-20T12:12:34+08:00"
+ },
+ "slug": "斗罗大陆_诛邪传说_d716cf"
+}

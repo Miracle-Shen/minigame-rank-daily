@@ -1,0 +1,149 @@
+{
+ "batch": 24,
+ "total_batches": 24,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_24.json",
+ "games": [
+  {
+   "name": "Warline: スナイパー",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 10
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Powerfantasy",
+   "first_seen": "2026-11-06",
+   "appearances": 17,
+   "best_rank": 3,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-15T12:24:56+08:00"
+   }
+  },
+  {
+   "name": "上课偷吃作弊模拟器",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 3
+   },
+   "category_l1": "休闲",
+   "category_l2": "消除",
+   "publisher": "",
+   "first_seen": "2026-11-20",
+   "appearances": 3,
+   "best_rank": 3,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-21T12:39:01+08:00"
+   }
+  },
+  {
+   "name": "悄然心动",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 6
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "海南科翔网络科技有限公司",
+   "first_seen": "2026-11-20",
+   "appearances": 3,
+   "best_rank": 3,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-21T12:22:52+08:00"
+   }
+  },
+  {
+   "name": "斗罗大陆:诛邪传说",
+   "boards": [
+    "ios/国区免费榜"
+   ],
+   "ranks": {
+    "ios/国区免费榜": 12
+   },
+   "category_l1": "游戏",
+   "category_l2": "",
+   "publisher": "Guangzhou Zhongxu Shuke Information Technology Co., Ltd",
+   "first_seen": "2026-08-08",
+   "appearances": 9,
+   "best_rank": 3,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "斗罗大陆：诛邪传说",
+    "country": "cn",
+    "track_id": 6748218382,
+    "seller": "Guangzhou Zhongxu Shuke Information Technology Co., Ltd",
+    "genres": [
+     "游戏",
+     "动作",
+     "角色扮演"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/81/50/c68150e5-2200-6743-93a0-58d12ba2a9bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7c/de/fe/7cdefe6f-783c-36f4-7c69-bd9ea3c2de98/2796x1290.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/06/0f/51060f5d-27ff-6516-8236-9ef408471083/2796x1290-0.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/96/20/d896206f-48de-6207-bbfd-71b4d4fa38ce/2796x1290-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/3e/cb/b03ecbc5-52f6-f71a-93ff-605adc3bf54e/2796x1290-2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/7a/40/e07a4097-552e-6867-98fa-70b27d45a864/2796x1290-3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ad/8e/d1/ad8ed159-b77f-98f6-70fc-4fcdf5c0ca9b/2796x1290-4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b3/c1/fd/b3c1fd61-01a3-9817-3004-68ea759a9a78/2732x2048.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/e0/1e/77e01e98-fc58-d05c-c33c-ffacaaaa26b9/2732x2048-0.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/c4/13/d9c413a0-2336-dfd7-eac8-3ce14e79f762/2732x2048-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/91/aa/3291aaac-6dee-ce56-69e8-ba9a1adf8d66/2732x2048-2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/a3/f2/e7a3f2f9-6eb1-be15-c71e-9c873f92402f/2732x2048-3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/f5/6c/c7f56cb7-e5be-4762-7c2c-400ca2fb1932/2732x2048-4.jpg/626x1112bb.jpg"
+    ],
+    "description": "《斗罗大陆：诛邪传说》是以东方奇幻小说《斗罗大陆》IP为故事背景的一款角色扮演大型多人在线手游，玩家可以在游戏中扮演一名魂师展开冒险，探索斗罗大陆享受奇幻之旅。游戏吸收了大量来自玩家的积极反馈与宝贵建议，每一条我们都认真阅读、仔细记录。正是有了广大玩家的理解与包容，才让我们有动力不断打磨、持续优化！世界聊天不断踊跃的为大家答疑解惑的热心魂师；高级魂师为低级玩家耐心蹲守第三魂环；队友们争先恐后地为濒死伙伴“包扎”；陌生人之间主动施以援手的“解谕之视”……这些画面让整个开发团队都为之动容。\n玩家们用行动诠释了我们理想中的斗罗世界 — 一个充满战友情谊、彼此扶持的魂师家园！",
+    "release_notes": "修复已知问题，优化游戏体验。",
+    "file_size_bytes": 3588671488,
+    "min_os": "15.0",
+    "version": "70000.0.28",
+    "release_date": "2026-11-17",
+    "rating": 4.64935,
+    "rating_count": 308,
+    "price": "免费",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/cn/app/%E6%96%97%E7%BD%97%E5%A4%A7%E9%99%86-%E8%AF%9B%E9%82%AA%E4%BC%A0%E8%AF%B4/id6748218382?uo=4",
+    "fetched_at": "2026-11-20T12:12:34+08:00"
+   }
+  }
+ ]
+}
