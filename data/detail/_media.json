@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23T12:11:36+08:00",
+ "updated_at": "2026-11-25T12:14:28+08:00",
  "games": {
   "赵云与阿斗": {
    "matched": true,
@@ -8574,6 +8574,343 @@
   "佩皮的王国小镇": {
    "matched": false,
    "fetched_at": "2026-11-23T12:11:34+08:00"
+  },
+  "Tidy Room!": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "Tidy Room!",
+   "country": "us",
+   "track_id": 6831317859,
+   "seller": "Circle Games Teknoloji Anonim Sirketi",
+   "genres": [
+    "Games",
+    "Puzzle",
+    "Casual"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/7f/5e/6f7f5ec0-7bf8-cec6-f7f9-29642e63c0d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/a7/8b/ada78b82-06a2-9858-3df2-0afebfa849b4/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/1a/8d/cd1a8d6b-18ce-a355-0f9a-90e8dafb1584/2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/14/c0/1f14c03d-c70e-b328-aca4-4703af57d26b/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/eb/3c/f4/eb3cf48c-4d86-f523-5017-e0db5cdb20ca/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/5d/eb/da5deb05-0043-9d79-87c3-c13c32977dd7/SplashMarketing.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3a/8d/50/3a8d50bf-5bcd-cb05-2f45-537aa142390e/5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/a0/46/c1a04650-b744-5f17-5f22-98a0a0d04319/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/a2/e2/cfa2e2c9-299d-71fd-b033-ec66140939b3/2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/47/10/0c471001-75aa-871e-bd2c-52b0707a09c6/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/64/da/98/64da98b4-4439-561b-13cf-fddd8e844ff1/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/f9/a1/57f9a1ac-c76b-f890-bf7b-a34b66a7dbd5/SplashMarketing.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/4b/51/4b4b517b-fdb5-f634-b392-112fe89d4bdd/5.jpg/626x1112bb.jpg"
+   ],
+   "description": "A bedroom floor full of stray things. A kitchen counter lost under mugs. A study where nothing made it back to the shelf. Tidy Room! hands you the mess and a few baskets, and asks you to put it right.\n\nEach basket names what it wants. Hunt through the room, tap the right things, and watch the clutter disappear. Objects hide under other objects, so the fun is in the order: what do you pick up first?\n\nPlay at your own pace. There is no countdown, just a room that looks better every time you find the thing a basket asked for.\n\nWhat you will do\n• Explore illustrated rooms, from quiet studies to busy kitchens\n• Fill baskets by finding the items they ask for\n• Dig through piles to reach what is hidden underneath\n• Plan your taps so the tray does not overflow\n• Clear one level and start the next\n\nOne room at a time, until the house feels like home again.",
+   "release_notes": "- Bug Fixes & Improvements",
+   "file_size_bytes": 490254336,
+   "min_os": "15.0",
+   "version": "1.0.5",
+   "release_date": "2026-11-18",
+   "rating": 4.79586,
+   "rating_count": 1063,
+   "price": "Free",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/us/app/tidy-room/id6831317859?uo=4",
+   "fetched_at": "2026-11-25T12:13:05+08:00"
+  },
+  "[777Real]パチスロ かぐや様は告らせたい": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "[777Real]パチスロ かぐや様は告らせたい",
+   "country": "jp",
+   "track_id": 6832461356,
+   "seller": "Sammy Networks Co., Ltd.",
+   "genres": [
+    "ゲーム",
+    "エンターテインメント",
+    "カジノ",
+    "シミュレーション"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/d8/87/0ad88791-c787-76e9-6f35-24a5ab991adb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/aa/f5/74aaf52a-a4ad-ad55-a2bc-e94b9cdf55db/1179x2556_01.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/c7/bf/11c7bf07-ee8c-f924-d3be-2b0fb78aa343/1179x2556_02.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/93/a4/8793a4c4-adb8-e16c-63b4-b3932adc5e93/1179x2556_03.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/27/58/7d275808-d38b-e082-fd8a-541a5de59ebb/1179x2556_04.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/3b/9e/723b9e71-9758-dafa-7675-7892e75ab679/1179x2556_05.png/626x1112bb.jpg"
+   ],
+   "description": "----------------------------------------\nパチスロ かぐや様は告らせたい\n2024年/SANKYO\n---------------------------------------- \n\nー天才たちの恋愛頭脳戦ー\nパチスロ かぐや様は告らせたいが777Realに登場！\n\n■多彩な演出を搭載\n前兆ステージ「恋愛頭脳戦ステージ」ではかぐやと白銀の頭脳戦が！\nお可愛いこと演出発生で大チャンス！？\nBIG BONUSでは、白銀が生徒会選挙を戦う最終告知タイプの「舌戦バトル」\nかぐやたちの可愛いが詰まったチャンス告知タイプの「マジきゅん」\n千花がパトランプで告知してくれる一発告知タイプの「チカ千花」\nそれぞれ異なる3つのゲーム性から選択可能！\n\n■高純増×BONUS1Ｇ連タイプ\n高純増のBONUSがループするゲーム性！\nBONUS中の1Ｇ連ストックと、BONUS後の引き戻しチャンスを含めたBONUSループ率は最大約80％！\n\n高純増とBONUS1G連の奇跡的相性-マリアージュ- \n『パチスロ かぐや様は告らせたい』を【777Real】で楽しもう！\n\n----------------------------------------\n必要動作環境について\n----------------------------------------\n 必要動作環境につきましては、777Real公式サイトでご確認をお願いいたします。\n※公式サイト画面最下部\n\n----------------------------------------\n個人情報の扱いについて/プライバシーポリシー\n----------------------------------------\nアプリ内の[メニュー＞ヘルプ＞お問い合わせボタン＞お問い合わせフォーム下部＞利用規約]および[メニュー＞ヘルプ＞お問い合わせボタン＞お問い合わせフォーム下部＞個人情報の取り扱い]をご確認ください。\nお客様がダウンロードボタンをタップ、本アプリケーションをダウンロードされた場合には、アプリケーションプライバシーポリシーに同意したものとみなされます。\n\n----------------------------------------\nサポートセンター窓口\n----------------------------------------\nアプリ内の[お問い合わせ/FAQ]より、お問い合わせフォームをご利用ください。\n※営業時間：10時～19時\n※返信などの対応は原則翌営業時間になります。予めご了承ください。",
+   "release_notes": "",
+   "file_size_bytes": 122915840,
+   "min_os": "13.0",
+   "version": "1.0.0",
+   "release_date": "2026-11-23",
+   "rating": 0,
+   "rating_count": 0,
+   "price": "無料",
+   "advisory": "17+",
+   "url": "https://apps.apple.com/jp/app/777real-%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD-%E3%81%8B%E3%81%90%E3%82%84%E6%A7%98%E3%81%AF%E5%91%8A%E3%82%89%E3%81%9B%E3%81%9F%E3%81%84/id6832461356?uo=4",
+   "fetched_at": "2026-11-25T12:20:00+08:00"
+  },
+  "砸墙模拟器无限金币": {
+   "matched": false,
+   "fetched_at": "2026-11-25T12:13:14+08:00"
+  },
+  "盒子解谜": {
+   "matched": false,
+   "fetched_at": "2026-11-25T12:13:18+08:00"
+  },
+  "现代坦克": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "现代坦克",
+   "country": "cn",
+   "track_id": 6824435759,
+   "seller": "Beijing AirInbox Information Technologies",
+   "genres": [
+    "游戏",
+    "动作",
+    "策略"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/e2/4c/98e24c3c-2523-dcf6-666c-7078d95748c2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/b3/c4/e8b3c4b7-822b-6be1-1a7e-db9810b3b402/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/98/3a/0e/983a0e4a-9fea-acc2-32fc-d7c83dccc097/2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/86/21/85862190-ffbf-abef-387c-8621b698994f/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/35/1b/06351b24-05ef-4e88-d7c9-cd59a851bcdb/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4a/83/fd/4a83fd19-641a-a6e0-445b-d0499531f89c/5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/80/95/e48095a5-8463-afa0-5273-bc00246ad4bd/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/04/8b/fd048be3-2895-e2b4-66a9-3f4e158b1d3e/2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cd/99/9b/cd999bec-a87e-2301-278f-73a79d065d74/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/22/35/d1223556-61b9-cfa8-0930-a43b4810812b/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/f5/f8/13f5f80b-8583-2304-11c5-719c5facde72/5.jpg/626x1112bb.jpg"
+   ],
+   "description": "全球8000万玩家集结！由Gaijin旗下Artstorm工作室匠心研发，《现代战舰》正统续作《现代坦克》正式登录国服。​\n游戏延续系列硬核军武风格，凭借拟真载具、创新陆空联合作战玩法、超清画质与流畅操作，为玩家打造沉浸式现代装甲战争体验。\n​\n8000万玩家再次集结​\n作为现代战争三部曲IP续作、《现代战舰》姊妹新作，游戏承袭经典拟真对战体系，开拓全新陆空装甲战场，兼具经典底蕴与创新玩法，带来全新军武征战体验。​\n\n超300种载具上天入地​\n游戏拥有超300种陆空全域载具，涵盖主战坦克、火炮、防空炮、直升机、固定翼战机、无人机等全系军备，搭配多样弹药、防空装备与战术配件，支持自由改装，轻松打造专属强力装甲战队。\n\n5V5炮弹对决一较高下​\n主打硬核5V5实时竞技，还原真实炮火对决与空地联动战术。战局节奏紧凑、攻防博弈十足，凭借精准打击与战术拉扯，畅享现代装甲火力对战的极致酣畅感。​\n\n写实拟真复刻载具细节​\n全系载具高精度写实复刻，完美还原装甲结构、武器细节与涂装质感。搭配昼夜动态战场、真实物理碰撞与炸裂炮火特效，细节拉满，沉浸式体验硬核现代军备战争。​\n\n指挥官，《现代坦克》已整装待发，静待你的开战指令！",
+   "release_notes": "",
+   "file_size_bytes": 3795932160,
+   "min_os": "17.0",
+   "version": "1.0",
+   "release_date": "2027-04-30",
+   "rating": 0,
+   "rating_count": 0,
+   "price": "",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/cn/app/%E7%8E%B0%E4%BB%A3%E5%9D%A6%E5%85%8B/id6824435759?uo=4",
+   "fetched_at": "2026-11-25T12:13:21+08:00"
+  },
+  "Tank Busters: Cannon Battle": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "Tank Busters: Cannon Battle",
+   "country": "us",
+   "track_id": 6818465459,
+   "seller": "SayGames LTD",
+   "genres": [
+    "Games",
+    "Casual",
+    "Entertainment",
+    "Action"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/2a/6f/042a6fa1-9f6a-2640-bf3f-ce91b71f83ae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/6b/63/786b632d-5cf3-91ec-c79a-0da4488aa6a3/1242x2208_Screen_TNB_01.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/55/29/d8552976-08de-ede3-75b3-9e59e172a575/1242x2208_Screen_TNB_02.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c6/32/3b/c6323b49-b6ce-025b-4c9a-8a19ef1f2ef5/1242x2208_Screen_TNB_03.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c9/2e/17/c92e1708-6a1c-7376-5358-74a0a12d83b4/1242x2208_Screen_TNB_04.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/4d/9b/454d9b53-62db-94f8-42f8-77ba1a2c7ecb/1242x2208_Screen_TNB_05.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fa/18/b7/fa18b74f-c012-1c71-1105-6e5daed1a18b/1242x2208_Screen_TNB_06.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/11/0b/be110b87-a241-bc68-cb6c-110047dd6d68/iPad_13_07.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/3b/49/de3b490c-829c-936d-274c-503c6840e765/iPad_13_08.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/10/33/53103300-a70b-6fb0-5db9-7c782034b836/iPad_13_11.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/bd/58/2ebd5872-bf92-036d-ae43-de6bf45649e5/iPad_13_12.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/97/aa/6f/97aa6f0b-4bb2-51a8-284d-2c4e3496d728/iPad_13_13.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/ea/72/d9ea72f3-e344-0657-6090-776585e0fc4a/iPad_13_14.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/be/3a/92be3acf-48e9-278d-b0d9-de8ae0199617/iPad_13_30.png/626x1112bb.jpg"
+   ],
+   "description": "TANK BATTLES WHERE EVERYTHING BREAKS\n\nAim your cannon, choose the perfect angle, and fire! In Tank Busters, every shot can change the battlefield. Blast through walls, bring down towers, destroy bridges, and turn the environment against your opponent.\n\nJump into fast tank duels across colorful voxel arenas where there’s more than one way to win. Hit the enemy tank directly or use physics to create your own path to victory. Break their cover, open a new firing line, or collapse the structures around them.\n\nAIM, FIRE & OUTSMART YOUR RIVAL\n\nWinning takes more than firepower. Adjust your trajectory, watch the battlefield, and find the smartest shot. The arena changes with every blast, so a safe hiding place can disappear in seconds.\n\nUse destructible environments to your advantage, protect your tank from incoming shells, and look for unexpected ways to reach your opponent. Every duel becomes a mix of precision, physics, and satisfying destruction.\n\nTURN DESTRUCTION INTO STRATEGY\n\nWalls and buildings aren’t just scenery — they’re part of the battle. Punch through obstacles to open up a clear shot, destroy your rival’s cover, or bring entire structures crashing down at just the right moment.\n\nSometimes the best shot isn’t aimed directly at the enemy. Find the right angle, predict where your shell will land, and use the arena itself as a weapon. As structures fall and paths open up, you’ll need to adapt your strategy with every turn.\n\nMASTER EVERY SHOT\n\nLearn how your cannon behaves and put your aiming skills to the test. Adjust the angle, follow the trajectory, and land clean shots from across the arena.\n\nEach battle gives you a new tactical puzzle to solve. Go for a direct hit when you have a clear line of fire, or get creative when your opponent hides behind cover. One well-placed shell can completely change the fight.\n\n FAST TANK DUELS, BIG DESTRUCTION\n\nDrop into vibrant voxel arenas built for quick, action-packed battles. Maneuver your tank into position, dodge incoming shells, cross bridges, and tear through the environment as you hunt down your rival.\n\nSimple controls make it easy to start firing, while destructible battlefields and physics-based shots give you plenty of ways to refine your strategy. No two fights unfold exactly the same way when every blast can reshape the arena.\n\nAim carefully, use the environment, and find your own way to destroy the competition.\n\nDownload Tank Busters and let the destruction begin!\n\nPrivacy Policy: https://say.games/privacy-policy\nTerms of Use: https://say.games/terms-of-use",
+   "release_notes": "",
+   "file_size_bytes": 311919616,
+   "min_os": "15.0",
+   "version": "1.1.2",
+   "release_date": "2026-11-17",
+   "rating": 4.51783,
+   "rating_count": 1935,
+   "price": "Free",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/us/app/tank-busters-cannon-battle/id6818465459?uo=4",
+   "fetched_at": "2026-11-25T12:13:25+08:00"
+  },
+  "生存日记": {
+   "matched": true,
+   "match_score": 0.75,
+   "match_name": "生存记账",
+   "country": "cn",
+   "track_id": 6779962507,
+   "seller": "德培 卢",
+   "genres": [
+    "财务",
+    "效率"
+   ],
+   "genre": "Finance",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/bc/34/71bc34a1-3f03-461d-01b9-f73cbb3283b9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7d/ac/d7/7dacd7c8-9712-c24d-a807-8019b292f50d/1.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/93/24/6f932411-d2d5-bc03-4784-e9570fdb4856/2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/80/40/62804019-dcb5-e171-8ef3-0bd4fb33126c/3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/91/5b/a2915bcc-5ed6-60ec-c144-180c9c742286/4.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/da/30/1fda307c-802d-32d2-f250-61f2a3183bde/5.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/ca/96/a9ca962c-abbc-7e32-1849-e3d2ca747ec6/ipad_appstore_04_quick_record.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/2e/61/a72e6187-9725-4536-57f2-b874995ee830/SurvivalDiary_iPad_AppStore_Statistics_2048x2732.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/e3/b4/52e3b483-77be-a5c8-391c-0bfff69f28d5/SurvivalDiary_iPad_AppStore_AccountDetail_2048x2732.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/e6/0e/b1e60e81-7a11-f26b-2f59-159c755ca910/SurvivalDiary_iPad_AppStore_Home_2048x2732.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/06/3e/83063e06-2879-5b35-dbc4-94fb4dda297d/SurvivalDiary_iPad_AppStore_CategoryManagement_2048x2732.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bf/03/fd/bf03fd0f-95cf-594b-31d3-98899131cdfb/SurvivalDiary_iPad_AppStore_AddTransaction_2048x2732.png/626x1112bb.jpg"
+   ],
+   "description": "你有多少钱、欠多少钱，和你过的什么日子，本来是一件事。\n\n生存日记把它们记在同一页。\n写下的每一天，旁边就是那天花了多少、进了多少；翻日历时，哪天认真写过、哪天只是匆匆花了几笔，一眼看得出来。\n\n【写一天，账就在旁边】\n标题、正文、心情、几张照片——这一天发生了什么，你说。\n当天的每一笔收支自动列在这篇日记下面，进了多少、出了多少，不用再去翻账单。\n一天想写几篇就写几篇，也不用非得有事才写。\n\n【翻日历，看见自己的日子】\n日历上，写过日记的日子是一个深色的点，只花了钱没写字的是一个浅灰的点。\n一个月翻下来，你大概能看出自己哪几天是真的在生活，哪几天只是在过。\n这个月写了多少篇、花了多少、进了多少，日历页顶上就写着。\n\n【账要算清，才配叫记录】\n信用卡：本月应还、剩余应还、下期账单，一张卡一条线。\n账单日、还款日、分期期次、还款核销、退款冲减——这些容易算乱的地方，这里一条条对得上。\n所有卡加起来一共欠多少，也在同一屏。\n预算、每月必花、固定账单全部扣掉，告诉你这个月还能花多少。真实的那个数，不是让你安心的那个数。\n\n【往后几个月，提前看得见】\n按现在的收支和还款节奏，往后推演几个月的存款、总负债、净资产。\n哪个月会紧，现在就知道。\n\n【每一笔都看得懂】\n分类占比、账户排行、标签支出、每天的花销曲线、最大的一笔花在哪。\n钱是怎么一点一点流走的，图上一眼看清。\n\n【只存在你自己的手机里】\n不注册、不绑手机号、不用登录。\n没有我们的服务器，我们看不到你记的每一笔，也看不到你写的每一句话。\n\n\n记账不是为了省。\n\n是为了有一天回头看，能说出自己是怎么过来的。\n\n看清了，就不慌了。",
+   "release_notes": "这次更新：\n\n1. 每月必花更好用：可以记收入，列表里一眼看到会不会自动记账，还能看到备注、标签、账户和分类。\n2. 新增 / 修改每月必花的弹窗改成白色，不再是两层框。\n3. 设置里那栏「启动耗时」已经删掉。\n\n另外修了上一版的一些细节问题，打开更快。",
+   "file_size_bytes": 50142208,
+   "min_os": "15.0",
+   "version": "1.0.44",
+   "release_date": "2026-06-24",
+   "rating": 4.86667,
+   "rating_count": 30,
+   "price": "免费",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/cn/app/%E7%94%9F%E5%AD%98%E8%AE%B0%E8%B4%A6/id6779962507?uo=4",
+   "fetched_at": "2026-11-25T12:13:27+08:00"
+  },
+  "拉尼亚": {
+   "matched": false,
+   "fetched_at": "2026-11-25T12:13:31+08:00"
+  },
+  "黄油猫": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "黄油猫",
+   "country": "cn",
+   "track_id": 6749843060,
+   "seller": "Archer Interactive Technology (Nanjing) Ltd.",
+   "genres": [
+    "游戏",
+    "休闲",
+    "益智解谜"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/b3/a5/e7b3a55d-79b9-3306-41f0-89693641a1bc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/d7/f5/70d7f5a7-697b-b158-46fa-0e43782f4444/_U5546_U5e97_U56fe1__1242.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/f8/11/85f811f2-b3a4-ae7b-50bb-ac455017a87c/_U5546_U5e97_U56fe2__1242.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/00/c5/3900c5ad-9109-5e79-3ebd-05d9c6436fa4/0x0ss-3_merged.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/d6/1b/64d61b58-80c5-9fcc-1049-810a98ee162b/_U5546_U5e97_U56fe4__1242.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/08/e7/b208e793-0eb6-dc13-eb04-5b729e10fe50/_U5546_U5e97_U56fe5__1242.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/44/e2/be44e2c0-9a9a-38e6-7a4b-cb942a0e48eb/_U5546_U5e97_U56fe_2732x2048__U00281_U0029.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/b4/c2/87b4c2a2-0e13-de89-4463-d218f5c49f01/_U5546_U5e97_U56fe_2732x2048__U00282_U0029.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1d/13/77/1d137716-6e6a-5598-da4b-0067b3f650c0/0x0ss-2_merged.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/e8/47/47e84734-7c0a-238e-3234-e094783fc009/_U5546_U5e97_U56fe_2732x2048__U00284_U0029.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c4/6d/f9/c46df9a1-8002-8310-756e-22ce849a1931/_U5546_U5e97_U56fe_2732x2048__U00285_U0029.jpg/626x1112bb.jpg"
+   ],
+   "description": "荒诞又可爱、颠覆物理规则的解谜游戏——黄油猫正式登陆你的手机！\n《黄油猫》是一款像素风益智平台解谜游戏。你需要同时操控猫咪与吐司，在分离与组合之间破解机关，完成一场充满脑洞的冒险。\n一边控制猫咪左右奔跑、攀爬猫抓板，甚至变成“液体”钻进各种奇怪的管道。没错，猫咪当然是液体！\n另一边，则要控制吐司沿抛物线弹跳。按住蓄力，吐司会“嗖”地飞向更远的地方。\n而当猫咪与吐司合体时——神奇的“黄油猫永动机”便诞生了！旋转、弹射、突破物理法则，带着猫咪前往那些原本绝对到不了的地方。\n游戏包含 5 个风格各异的世界和超过 200 个精心设计的关卡，带来多样的机制与机关，并包含隐藏房间、BOSS 战、小游戏、趣味彩蛋与丰富皮肤收集内容。Steam 版本发售至今依然保持 98% 好评率，现已完整移植移动端，并针对移动设备进行了专门优化。\n\n【移动端特色】\n- 支持虚拟摇杆与按钮自定义\n- 移动版限时独占猫咪吐司皮肤及3个小游戏等新内容\n- 支持减速与跳关等辅助功能\n- 支持主流手柄，可双人游玩\n- 支持 Game Center 成就\n- iOS 版本与 Mac App Store 版本云存档可互通\n- 可免费试玩第一章，付费买断完整内容\n- 无体力、无抽卡、无强制广告\n\n圆滚滚、软乎乎，还会喵喵叫的黄油猫，正在等你带它开始新冒险！",
+   "release_notes": "新内容：\n- 新增6款皮肤：旺财、猫猫虫、拼好猫、哈姆、瓷杯、金币。\n- 请使用兑换码兑换：右跳跳右 跳左左右 跳左右跳\n\nBUG修复：\n- 修复部分猫咪皮肤在管道中的贴图错误。",
+   "file_size_bytes": 478444544,
+   "min_os": "15.0",
+   "version": "1.3.7",
+   "release_date": "2026-07-29",
+   "rating": 4.74803,
+   "rating_count": 893,
+   "price": "免费",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/cn/app/%E9%BB%84%E6%B2%B9%E7%8C%AB/id6749843060?uo=4",
+   "fetched_at": "2026-11-25T12:13:33+08:00"
+  },
+  "ヤンキーサバイバー": {
+   "matched": false,
+   "fetched_at": "2026-11-25T12:13:38+08:00"
+  },
+  "财富农场": {
+   "matched": false,
+   "fetched_at": "2026-11-25T12:13:43+08:00"
+  },
+  "最后亿关": {
+   "matched": false,
+   "fetched_at": "2026-11-25T12:13:47+08:00"
+  },
+  "吃碰大消除": {
+   "matched": false,
+   "fetched_at": "2026-11-25T12:13:52+08:00"
+  },
+  "上课偷吃别被抓游戏": {
+   "matched": false,
+   "fetched_at": "2026-11-25T12:13:56+08:00"
+  },
+  "生存冒险挑战": {
+   "matched": false,
+   "fetched_at": "2026-11-25T12:14:01+08:00"
+  },
+  "侏罗纪海底吞噬进化": {
+   "matched": false,
+   "fetched_at": "2026-11-25T12:14:06+08:00"
+  },
+  "萌物大冒险": {
+   "matched": false,
+   "fetched_at": "2026-11-25T12:14:10+08:00"
+  },
+  "砸墙模拟器手游": {
+   "matched": false,
+   "fetched_at": "2026-11-25T12:14:15+08:00"
+  },
+  "几何大作战": {
+   "matched": false,
+   "fetched_at": "2026-11-25T12:14:19+08:00"
+  },
+  "幻梦无年": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "幻梦无年",
+   "country": "cn",
+   "track_id": 6761517759,
+   "seller": "HONGKONG 707 INTERACTIVE TECHNOLOGY CO., LIMITED",
+   "genres": [
+    "游戏",
+    "动作",
+    "角色扮演"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/5a/98/535a984c-4181-4b79-2d20-b7a49bb8d335/AppIcon-0-0-1x_U007emarketing-0-8-85-220.jpeg/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/ff/0d/31ff0d0e-cb19-066e-7035-e528c38507d3/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/e1/85/82e1855d-3f9d-ea18-d268-9daa045d1ea5/2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/54/09/13/54091319-7b8a-6091-a916-c3a1dc7b68e4/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/72/ca/3172caba-02fb-617b-8f21-7c5029a06f34/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/34/89/0a34896e-afd4-4561-1d95-ab4589768f96/5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/9f/80/279f8065-1c4c-4206-42af-ccc88e77f161/6.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/2c/3a/7a2c3a6f-589f-112e-425f-17aa6cac1b44/7.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/0c/5c/240c5c53-480b-1526-73ed-e9a281e25469/8.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/f9/d6/f1f9d62a-637c-26ef-cdbe-35cdf9eb53a6/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/8d/2e/5a8d2ea3-e160-f3c4-25b3-fdd49d3a1af1/2.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a1/4d/ee/a14deec8-6203-fca9-ab2e-b6d023790d61/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/69/c3/8569c38a-324b-a589-a360-3047e7dcee68/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/ef/78/02ef783a-023c-29d1-7642-8aa2cf6eb9a2/5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/98/9d/15989d7f-55df-bdf7-35bb-516a75aab53c/6.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d0/df/45/d0df45a6-f2c6-9b79-4f71-a09314196a4b/7.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/a6/47/a2a64758-f805-8eb0-8700-c89be48811c4/8.jpg/626x1112bb.jpg"
+   ],
+   "description": "长歌入幻境，神都覆迷烟，\n焚香醉盛世，永夜枕长安。\n精魄凝生死，秘术锁幽魂，\n踏月寻旧誓，清笛隐踪残。\n呓语摇铃乱，迷途引幽潭，\n安神渡若水，清梦引归秦。\n众生烬浮梦，侠影掠千川，\n捕梦行山海，醒色守乾坤。\n\n欢迎大家与我们分享您对游戏的意见建议！\n官方QQ群：1048028419\n官方快手：wujinemeng\n官方抖音：37522107754",
+   "release_notes": "新游首发！\n\n* 优化游戏内场景和文本\n* 优化新手引导，给您更好的游戏体验\n\n欢迎大家与我们分享您对游戏的意见建议！\n官方QQ群：980236049\n官方快手：wujinemeng\n官方抖音：37522107754",
+   "file_size_bytes": 3829475328,
+   "min_os": "15.0",
+   "version": "1.1.0",
+   "release_date": "2026-11-24",
+   "rating": 0,
+   "rating_count": 0,
+   "price": "免费",
+   "advisory": "9+",
+   "url": "https://apps.apple.com/cn/app/%E5%B9%BB%E6%A2%A6%E6%97%A0%E5%B9%B4/id6761517759?uo=4",
+   "fetched_at": "2026-11-25T12:14:22+08:00"
+  },
+  "速通脑洞王": {
+   "matched": false,
+   "fetched_at": "2026-11-25T12:14:27+08:00"
   }
  }
 }

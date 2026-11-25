@@ -1,0 +1,244 @@
+{
+ "schema_version": 1,
+ "name": "[777Real]パチスロ かぐや様は告らせたい",
+ "updated_at": "2026-11-25",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Sammy Networks Co., Ltd.",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 2
+  },
+  "platform_app_ids": {
+   "ios": "6832461356"
+  },
+  "first_seen": "2026-11-24",
+  "appearances": 1,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "动画原作画面截取 + 实机框体复刻，液晶演出高饱和",
+  "dims": {
+   "engine": 3,
+   "art": 5,
+   "anim": 5,
+   "physics": 3,
+   "logic": 4,
+   "data": 3,
+   "server": 3,
+   "audio": 5
+  },
+  "dim_notes": {
+   "engine": "777Real 平台已提供统一的机种包外壳与下载器，单机种只需接演出与流程，但要按平台规格重写一套机种逻辑",
+   "art": "画面几乎全部来自 2024 年 SANKYO 实机的动画演出，需逐帧剪辑并过版权方监修，无法程序化生成或 AI 替换",
+   "anim": "前兆、告知、BIG BONUS 三层演出要跟框体灯效联动，动画量是单机种的主要工作量",
+   "physics": "转轮停手有押し順与滑りコマ数的精细控制，属手感级调参，不是刚体物理",
+   "logic": "30 秒区间的抽选、内部状态迁移与转轮控制要 1:1 复现，差一点整台机的手感就崩",
+   "data": "设定差与天井是唯一数值层，逻辑复杂但不涉及长线养成",
+   "server": "PG 货币账户、景品応募与机种包下发都要联网，但无实时对战",
+   "audio": "原作主题歌与角色语音全部需授权，是仅次于画面的授权项"
+  },
+  "asset_notes": "全部素材属授权资产：可自产的只有 UI 与框体装饰。素材不是成本项而是授权项，这也是这类产品无法被复刻的根本原因",
+  "notes": "本质是把 2024 年的 SANKYO 实机移植到手机，技术不难、授权极难；与「玩法复刻」不是一个赛道。与 [777Real]スマスロ リコリス・リコイル 同为 Sammy 平台的单机种包，包体 117MB 属该平台较轻的一档",
+  "cost_score": 3.88,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "点按或长按让三列转轮依次停下，命中役后进入液晶演出的抽选；玩家在「前兆—发展—告知」的固定节奏里等一次当否判定，一局几十秒，不中就继续追投，中奖后靠 BONUS 1G 连把一次投入摊成连打。",
+  "highlights": [
+   "BIG BONUS 的告知方式三选一（舌戦バトル／マジきゅん／チカ千花），同一台中奖体验被拆成三种情绪，玩家会为偏好反复试打",
+   "前兆ステージ「恋愛頭脳戦ステージ」把原作的头脑战做成前兆演出，「お可愛いこと」一出即大机会，粉丝能读懂暗示",
+   "高純増 BONUS 加 1G 连，BONUS 循环率最高约 80%，一次中奖能连打数十局，把单次投入摊平成长期期待",
+   "转轮停对位置时的音效加灯效正反馈即时，押し順的容错极小，手感成了留人的第一层"
+  ],
+  "innovations": [
+   "无实质玩法创新，是对 2024 年实机规格的忠实移植；差异点集中在「三种告知任选」这一层体验设计"
+  ],
+  "target_user": "30–50 岁日本男性为主的原作动画粉丝与パチスロ玩家，通勤与睡前碎片时间",
+  "monetization": "IAP 为主：充值换 PG 货币再応募景品，无广告；商业化挂在 777Real 平台层而非单个机种",
+  "lifecycle": "跟随实体机导入周期运营，机种下线即内容衰减，属平台化长尾而非独立长线产品"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "门槛全在授权与合规：角色版权在赤坂アカ／集英社与动画制作委员会手里，机种规格受日本游技法规约束，而本作只是 777Real 平台里的一个机种包，脱离平台没有独立产品形态。技术层反而是最容易的部分。复刻既没有法律空间，也没有商业意义。",
+  "suggestions": [
+   "不复刻机种：若要借「精准停手」的确定性反馈，可做去抽选、去景品的休闲向停格小游戏",
+   "把「三种告知任选」搬到抽卡或开箱的前摇上，让用户自选开奖表现形式，成本极低",
+   "参考其分发结构：主 App 加单机种包按需下载，包体可压到 117MB，适合做内容分包验证"
+  ],
+  "risks": [
+   "角色形象与机种规格是两套独立授权，缺一即侵权且无法绕开",
+   "景品応募涉及日本景品表示法与游技业合规，不是游戏团队能自行处理的范畴",
+   "国内平台上架无对应品类，题材与付费模型都不成立"
+  ],
+  "effort": "不建议投入；若只做停格小游戏原型，5–8 人日（1 前端）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "本作的用户动机是**原作演出的情绪回收**而非玩法：上线一天零评分、靠新机种包在日区免费榜冲到第 2，量来自 IP 粉与实体机玩家的一次性尝鲜"
+    },
+    {
+     "lens": "用户",
+     "text": "我们的用户不缺这套：没有实体机认知的用户理解不了押し順与天井，把抽选搬进来只会得到「为什么点不动」的负反馈，迁移接受度近乎为零"
+    },
+    {
+     "lens": "业务",
+     "text": "**壁垒是双重的**：角色与机种两套授权加上日本游技合规，投入量级与我们的产品线完全不匹配，不是钱能解决的问题"
+    },
+    {
+     "lens": "业务",
+     "text": "若强上，会把产品带向「模拟器械」这个没有国内分发通道的品类，占掉排期却拿不到可复用资产"
+    }
+   ],
+   "how": [
+    "只取**前摇信息分层**这一层：把「告知强度预示期待值」做成抽卡动画的三档强度，按档位配不同中奖概率区间，两周内用 A/B 看跳过率",
+    "把「BONUS 1G 连＋引き戻し」的短周期复投结构，改写成活动位的「连击返还」——连续 N 次未中即返一次免费次数，一周内看人均次数是否上升"
+   ],
+   "gain": [
+    "规避掉的投入：省下一整套机种逻辑重写与版权谈判，这两项在任何排期里都不是可选项",
+    "拿到可迁移方法：**演出强度即概率暗示**的三档设计，可直接用在抽卡、开箱、转盘的活动包装上",
+    "省掉一轮实验：跳过率与连击次数的对应关系已有现成参照，不用再从头试前摇时长",
+    "明确不做「实体机模拟」品类，避免团队每个季度重复讨论同一件事"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "Sammy Networks 自研自发、以 777Real 平台聚合上百个机种，机种本身来自 SANKYO 授权移植，没有对外代理或联运的入口",
+    "唯一可谈的只有演出素材授权，而版权在赤坂アカ／集英社与制作委员会手上，Sammy 也无权转授"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "抽卡前摇分层",
+     "how": "把「三种告知任选」改成「三档开奖动画任选」，用户自选表现、后台按档位配概率区间"
+    },
+    {
+     "scene": "活动连击返还",
+     "how": "把 BONUS 1G 连改成「连续未中 N 次返一次免费次数」，接进现有活动位的次数池"
+    }
+   ]
+  },
+  "summary": "IP 与游技法规双锁，只可取演出分级手法"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/d8/87/0ad88791-c787-76e9-6f35-24a5ab991adb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（jp）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/aa/f5/74aaf52a-a4ad-ad55-a2bc-e94b9cdf55db/1179x2556_01.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/c7/bf/11c7bf07-ee8c-f924-d3be-2b0fb78aa343/1179x2556_02.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/93/a4/8793a4c4-adb8-e16c-63b4-b3932adc5e93/1179x2556_03.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/27/58/7d275808-d38b-e082-fd8a-541a5de59ebb/1179x2556_04.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/3b/9e/723b9e71-9758-dafa-7675-7892e75ab679/1179x2556_05.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 5"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "2026-11-23 上线，v1.0.0，日区包体 122,915,840 字节（约 117MB），评分 0 条",
+   "level": "confirmed"
+  },
+  {
+   "claim": "机种源自 2024 年 SANKYO 实机『パチスロ かぐや様は告らせたい』，BIG BONUS 告知分舌戦バトル／マジきゅん／チカ千花三种，BONUS 循环率最高约 80%",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（777Real 平台机种包通用技术栈，未找到官方确认）",
+   "level": "inferred"
+  },
+  {
+   "claim": "与グリパチ（CommSeed 发行，net.commseed.gp.sa007001）及スロスピ（SPIRIDGE，com.spiridge.ss.snk0020）的同名 App 是**不同产品**，仅共用同一台实机授权；本档按 777Real 版写",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/jp/app/id6832461356",
+  "https://play.google.com/store/apps/details?id=jp.sammynet.next.ort.a0001"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "[777Real]パチスロ かぐや様は告らせたい",
+  "country": "jp",
+  "track_id": 6832461356,
+  "seller": "Sammy Networks Co., Ltd.",
+  "genres": [
+   "ゲーム",
+   "エンターテインメント",
+   "カジノ",
+   "シミュレーション"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/d8/87/0ad88791-c787-76e9-6f35-24a5ab991adb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/aa/f5/74aaf52a-a4ad-ad55-a2bc-e94b9cdf55db/1179x2556_01.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/c7/bf/11c7bf07-ee8c-f924-d3be-2b0fb78aa343/1179x2556_02.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/93/a4/8793a4c4-adb8-e16c-63b4-b3932adc5e93/1179x2556_03.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/27/58/7d275808-d38b-e082-fd8a-541a5de59ebb/1179x2556_04.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/3b/9e/723b9e71-9758-dafa-7675-7892e75ab679/1179x2556_05.png/626x1112bb.jpg"
+  ],
+  "description": "----------------------------------------\nパチスロ かぐや様は告らせたい\n2024年/SANKYO\n---------------------------------------- \n\nー天才たちの恋愛頭脳戦ー\nパチスロ かぐや様は告らせたいが777Realに登場！\n\n■多彩な演出を搭載\n前兆ステージ「恋愛頭脳戦ステージ」ではかぐやと白銀の頭脳戦が！\nお可愛いこと演出発生で大チャンス！？\nBIG BONUSでは、白銀が生徒会選挙を戦う最終告知タイプの「舌戦バトル」\nかぐやたちの可愛いが詰まったチャンス告知タイプの「マジきゅん」\n千花がパトランプで告知してくれる一発告知タイプの「チカ千花」\nそれぞれ異なる3つのゲーム性から選択可能！\n\n■高純増×BONUS1Ｇ連タイプ\n高純増のBONUSがループするゲーム性！\nBONUS中の1Ｇ連ストックと、BONUS後の引き戻しチャンスを含めたBONUSループ率は最大約80％！\n\n高純増とBONUS1G連の奇跡的相性-マリアージュ- \n『パチスロ かぐや様は告らせたい』を【777Real】で楽しもう！\n\n----------------------------------------\n必要動作環境について\n----------------------------------------\n 必要動作環境につきましては、777Real公式サイトでご確認をお願いいたします。\n※公式サイト画面最下部\n\n----------------------------------------\n個人情報の扱いについて/プライバシーポリシー\n----------------------------------------\nアプリ内の[メニュー＞ヘルプ＞お問い合わせボタン＞お問い合わせフォーム下部＞利用規約]および[メニュー＞ヘルプ＞お問い合わせボタン＞お問い合わせフォーム下部＞個人情報の取り扱い]をご確認ください。\nお客様がダウンロードボタンをタップ、本アプリケーションをダウンロードされた場合には、アプリケーションプライバシーポリシーに同意したものとみなされます。\n\n----------------------------------------\nサポートセンター窓口\n----------------------------------------\nアプリ内の[お問い合わせ/FAQ]より、お問い合わせフォームをご利用ください。\n※営業時間：10時～19時\n※返信などの対応は原則翌営業時間になります。予めご了承ください。",
+  "release_notes": "",
+  "file_size_bytes": 122915840,
+  "min_os": "13.0",
+  "version": "1.0.0",
+  "release_date": "2026-11-23",
+  "rating": 0,
+  "rating_count": 0,
+  "price": "無料",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/jp/app/777real-%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD-%E3%81%8B%E3%81%90%E3%82%84%E6%A7%98%E3%81%AF%E5%91%8A%E3%82%89%E3%81%9B%E3%81%9F%E3%81%84/id6832461356?uo=4",
+  "fetched_at": "2026-11-25T12:20:00+08:00"
+ },
+ "slug": "777Real_パチスロ_かぐや様は告らせたい_f1dadb"
+}

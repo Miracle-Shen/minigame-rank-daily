@@ -1,0 +1,112 @@
+{
+ "batch": 25,
+ "total_batches": 25,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_25.json",
+ "games": [
+  {
+   "name": "[777Real]パチスロ かぐや様は告らせたい",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 2
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Sammy Networks Co., Ltd.",
+   "first_seen": "2026-11-24",
+   "appearances": 1,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-25T12:13:09+08:00"
+   }
+  },
+  {
+   "name": "最强小队",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 3
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "海南祺曜互动娱乐有限公司",
+   "first_seen": "2026-11-19",
+   "appearances": 6,
+   "best_rank": 3,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-20T12:13:40+08:00"
+   }
+  },
+  {
+   "name": "盒子解谜",
+   "boards": [
+    "douyin/热门榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 3
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "上海阳笙信息技术服务有限公司",
+   "first_seen": "2026-11-24",
+   "appearances": 1,
+   "best_rank": 3,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-25T12:13:18+08:00"
+   }
+  },
+  {
+   "name": "砸墙模拟器无限金币",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 3
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "个人开发者",
+   "first_seen": "2026-11-24",
+   "appearances": 1,
+   "best_rank": 3,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-25T12:13:14+08:00"
+   }
+  }
+ ]
+}
