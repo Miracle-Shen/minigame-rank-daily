@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-25T12:16:55+08:00",
+ "generated_at": "2026-11-26T12:18:51+08:00",
  "source": "today",
  "total": 151,
- "pending": 62,
- "done": 89,
+ "pending": 58,
+ "done": 93,
  "with_icon": 35,
  "entries": [
   {
@@ -74,68 +74,6 @@
    }
   },
   {
-   "name": "[777Real]パチスロ かぐや様は告らせたい",
-   "slug": "777Real_パチスロ_かぐや様は告らせたい_f1dadb",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "ios/日区免费榜"
-   ],
-   "ranks": {
-    "ios/日区免费榜": 2
-   },
-   "platform_app_ids": {
-    "ios": "6832461356"
-   },
-   "publisher": "Sammy Networks Co., Ltd.",
-   "category_l1": "ゲーム",
-   "category_l2": "",
-   "first_seen": "2026-11-24",
-   "appearances": 1,
-   "best_rank": 2,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "砸墙模拟器无限金币",
-   "slug": "砸墙模拟器无限金币_bebdad",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "wx/人气榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 3
-   },
-   "platform_app_ids": {
-    "wx": "wx029cd339bbcb51bd"
-   },
-   "publisher": "个人开发者",
-   "category_l1": "休闲",
-   "category_l2": "益智",
-   "first_seen": "2026-11-24",
-   "appearances": 1,
-   "best_rank": 3,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
    "name": "青云诀之伏魔",
    "slug": "青云诀之伏魔_d00f58",
    "status": "pending",
@@ -154,68 +92,6 @@
    "category_l2": "MMO",
    "first_seen": "2026-06-30",
    "appearances": 101,
-   "best_rank": 3,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "盒子解谜",
-   "slug": "盒子解谜_962aa4",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "douyin/热门榜"
-   ],
-   "ranks": {
-    "douyin/热门榜": 3
-   },
-   "platform_app_ids": {
-    "douyin": "tt1d576bea8333b9a407"
-   },
-   "publisher": "上海阳笙信息技术服务有限公司",
-   "category_l1": "1",
-   "category_l2": "",
-   "first_seen": "2026-11-24",
-   "appearances": 1,
-   "best_rank": 3,
-   "seen_days": 1,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "最强小队",
-   "slug": "最强小队_a9bb8f",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "douyin/新游榜"
-   ],
-   "ranks": {
-    "douyin/新游榜": 3
-   },
-   "platform_app_ids": {
-    "douyin": "tt47f93144d981921207"
-   },
-   "publisher": "海南祺曜互动娱乐有限公司",
-   "category_l1": "1",
-   "category_l2": "",
-   "first_seen": "2026-11-19",
-   "appearances": 6,
    "best_rank": 3,
    "seen_days": 1,
    "profile_value": "",
@@ -3874,6 +3750,37 @@
    }
   },
   {
+   "name": "[777Real]パチスロ かぐや様は告らせたい",
+   "slug": "777Real_パチスロ_かぐや様は告らせたい_f1dadb",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 2
+   },
+   "platform_app_ids": {
+    "ios": "6832461356"
+   },
+   "publisher": "Sammy Networks Co., Ltd.",
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "first_seen": "2026-11-24",
+   "appearances": 1,
+   "best_rank": 2,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
    "name": "Bus Fever Party! バス渋滞脱出",
    "slug": "Bus_Fever_Party_バス渋滞脱出_33683a",
    "status": "done",
@@ -3936,6 +3843,37 @@
    }
   },
   {
+   "name": "砸墙模拟器无限金币",
+   "slug": "砸墙模拟器无限金币_bebdad",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 3
+   },
+   "platform_app_ids": {
+    "wx": "wx029cd339bbcb51bd"
+   },
+   "publisher": "个人开发者",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-11-24",
+   "appearances": 1,
+   "best_rank": 3,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
    "name": "看谁先上车",
    "slug": "看谁先上车_7afca9",
    "status": "done",
@@ -3954,6 +3892,68 @@
    "category_l2": "益智",
    "first_seen": "2026-08-22",
    "appearances": 79,
+   "best_rank": 3,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "盒子解谜",
+   "slug": "盒子解谜_962aa4",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "douyin/热门榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 3
+   },
+   "platform_app_ids": {
+    "douyin": "tt1d576bea8333b9a407"
+   },
+   "publisher": "上海阳笙信息技术服务有限公司",
+   "category_l1": "1",
+   "category_l2": "",
+   "first_seen": "2026-11-24",
+   "appearances": 1,
+   "best_rank": 3,
+   "seen_days": 1,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "最强小队",
+   "slug": "最强小队_a9bb8f",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 3
+   },
+   "platform_app_ids": {
+    "douyin": "tt47f93144d981921207"
+   },
+   "publisher": "海南祺曜互动娱乐有限公司",
+   "category_l1": "1",
+   "category_l2": "",
+   "first_seen": "2026-11-19",
+   "appearances": 6,
    "best_rank": 3,
    "seen_days": 1,
    "profile_value": "",

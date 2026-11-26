@@ -1,0 +1,327 @@
+{
+ "schema_version": 1,
+ "name": "Chess.com - Play and Learn",
+ "updated_at": "2026-11-26",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Chess.com",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 8
+  },
+  "platform_app_ids": {
+   "ios": "329218549"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 62,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "原生 iOS 客户端（自研，非通用游戏引擎）",
+  "engine_evidence": "inferred",
+  "dimension": "2D UI + 可切换 3D 棋盘",
+  "art_style": "极简拟物：木纹/大理石棋盘 + 3D 棋子模型，深色系 UI",
+  "dims": {
+   "engine": 5,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 5,
+   "data": 4,
+   "server": 5,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": 5,
+   "art": "全部资产就是一套棋盘与两套棋子模型，全产品复用；469MB 主要来自多语言资源、离线课程与题库，不是美术量",
+   "anim": "只有棋子移动与吃子的位移动画，无骨骼、无粒子，属最省的一档",
+   "logic": "完整国际象棋规则（含吃过路兵、王车易位、各类和棋判定）+ 50 万题库 + 教练逐手评估，规则与评估引擎是十几年的积累",
+   "data": "Elo 分段、课程进度、连胜与统计构成长期成长线，无传统养成，但有账号资产",
+   "server": "实时对局、2.65 亿玩家池匹配、反作弊（Fair Play）与赛事系统，服务端是这家公司的护城河",
+   "audio": "棋子落子音效与提示音，无配乐级投入",
+   "physics": "无物理，走子完全由规则约束"
+  },
+  "asset_notes": "素材层是最轻的一类：一套 3D 棋子 + 若干棋盘皮肤，可由美术一次性产出、长期复用；真正的资产是规则实现与对手池",
+  "notes": "技术栈是自研原生客户端 + 自研对局服务，不是通用游戏引擎；难点在规则完备性、反作弊与实时匹配，不在渲染",
+  "cost_score": 3.25,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "开一局限时对局（1 分钟闪电棋到 30 分钟慢棋），和真人或 100+ 难度档的 bot 下，每走一步立刻看到胜率条与评级变化，赢了 Elo 涨、输了掉。不想下整局就进 Puzzle Rush：3 分钟里连续解战术题，答错一次即结束，冲个人最高连对。",
+  "highlights": [
+   "每步棋后实时胜率条加引擎点评，把「我这步到底走得好不好」变成即时反馈，学习感与对局感叠在一起",
+   "Puzzle Rush 的三分钟倒计时加「错一题就结束」，制造极强的再来一把张力，是这款产品最上瘾的入口",
+   "赢棋后 Elo 数字跳动，涨分掉分挂在账号上，输赢有长期成本，一局的分量因此变重",
+   "100+ 档 bot 让新手永远遇到「刚好能赢」的对手，不会一上来就被真人打崩"
+  ],
+  "innovations": [
+   "把学习做成可量化的闯关：课程 → 谜题 → 教练复盘三段打通，学习进度与 Elo 直接挂钩",
+   "Puzzle Rush / Puzzle Battle 把战术题训练做成限时竞技，是棋类产品里少见的「训练即玩法」"
+  ],
+  "target_user": "全年龄国际象棋爱好者，从零基础到俱乐部选手；美区免费榜常客，全球 2.65 亿注册玩家",
+  "monetization": "混合：订阅制（Diamond 解锁无限谜题、课程与逐手复盘）为主，免费用户对局间插屏广告；不卖数值道具",
+  "lifecycle": "长线常青。2009 年上线、迭代 17 年，靠赛季、赛事直播与课程更新维持，属平台型而非产品型"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "这不是玩法竞争而是网络效应竞争：2.65 亿玩家池、Elo 体系与 Fair Play 反作弊构成的双边网络，「随时有人跟你下同水平的棋」这一侧任何新产品都补不上。棋规实现与引擎评估本身也要 5 人年级别投入。抄一个棋盘 UI 一周能做，抄一个对手池做不出来。",
+  "suggestions": [
+   "若做棋类，别做通用实时对局，改做「每日一题 + 好友异步对战」，用微信关系链替代实时匹配",
+   "把 Puzzle Rush 的「三分钟限时 + 错一次结束」单独抽成通用小玩法，配自有题库（找茬、算数、猜词都能套）",
+   "面向教学场景做纯单机版：只对 bot + 课程，绕开服务端、匹配与反作弊"
+  ],
+  "risks": [
+   "实时对局与反作弊是需要长期投入的基建，做轻了就是外挂横飞、口碑崩盘",
+   "国际象棋在国内属小众品类，用户盘子撑不起买量成本",
+   "Chess.com 品牌与 Fair Play 体系已成事实标准，正面竞争没有胜算"
+  ],
+  "effort": "200+ 人日（对局引擎 + 服务端 + 反作弊），不建议自建"
+ },
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "棋类的爽点是「评级数字变大」这种可积累的长期身份，本作 86 万条评分 4.8、2009 年至今仍在美区免费榜前列，留存来自账号资产而不是玩法新鲜感"
+    },
+    {
+     "lens": "用户",
+     "text": "我们的用户如果没有现成的棋类认知和对手池，搬过来只得到一个空棋盘——国际象棋在国内不是大众品类，首日就没人可下"
+    },
+    {
+     "lens": "业务",
+     "text": "双边网络加 Elo 加反作弊是十几年的基建，客户端层可复制、对手池不可复制，投入方向本身就是错的"
+    },
+    {
+     "lens": "业务",
+     "text": "做通用棋类平台没有切入点；但「限时解题冲分」这类纯单机玩法可以立刻接进现有活动位，不必碰对局"
+    }
+   ],
+   "how": [
+    "只搬 Puzzle Rush：3 分钟限时、错一题结束、本地最高分，做成日更题库活动位，两周可上线并灰度 10% 流量",
+    "把「Elo 分段」改成活动内的「段位 + 保级升段」规则，接到自有排行榜，用段位替代绝对分，看七日回访率"
+   ],
+   "gain": [
+    "省掉实时对局与反作弊基建（数百人月量级），本档明确不做",
+    "拿到一套可换皮的「限时解题冲分」活动模板：题库可换成找茬、算数、猜词，一周一换",
+    "段位保级/升段规则可直接复用到自有排行榜，替掉单调的积分榜",
+    "明确不碰通用棋类平台，避免团队误判「棋类好做」再投一轮预研"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "Chess.com, LLC 自研自发，是全球棋类的事实标准平台，体量远超可合作范围，没有代理或联运入口",
+    "唯一可谈点是 Puzzle Rush 题库的内容合作，但其核心资产是平台而非题库，动机很弱"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "教育机构每日一练",
+     "how": "把「Puzzle Rush 三分钟限时」改成「每日 10 题限时闯关」，答错即结算，接班级排行榜"
+    },
+    {
+     "scene": "企业内训知识竞赛",
+     "how": "把「Elo 分段」改成「部门段位」，答对涨段、连对加成，段位挂在员工主页"
+    }
+   ]
+  },
+  "summary": "双边网络不可复制，只借限时解题冲分"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/b8/e0/91b8e01b-bf34-8031-4c01-e38170ea7211/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/31/77/e831773f-11de-86dc-bcf4-bbb32b73b23c/app_screenshot_1320x2868_1_cover_ribbon.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/3c/7f/563c7fdb-304c-9558-0ce1-da3a8b421927/app_screenshot_1320x2868_2_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/51/b3/9a51b314-fde7-b1c2-0c12-62870ac70c95/app_screenshot_1320x2868_3_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/d4/31/8ad431cf-50b9-8abe-cf3e-1cf625847227/app_screenshot_1320x2868_4_lessons__U00281_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/a3/5c/17a35cb4-570d-d182-e80a-7ccc936c20db/app_screenshot_1320x2868_5_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/70/02/bd70028b-a0b1-df17-cc88-cc4c854ab567/app_screenshot_1320x2868_6_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/82/2b/81822b39-1e19-4765-ee88-f7bc03cbd105/app_screenshot_1320x2868_7_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/2b/50/d12b50f5-de1a-349a-59c8-893dca64f761/app_screenshot_1320x2868_8_EN__U00281_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/4b/85/744b8599-0b4c-7020-e232-689b8aef5e64/app_screenshot_2732x2048_1_cover_ribbon.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/ae/06/34ae06b4-2945-7789-632e-972b8232425d/app_screenshot_2732x2048_2_play.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/c5/3e/8bc53e78-0a21-aa30-f539-20d282fb57e5/app_screenshot_2732x2048_3_puzzles.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/b2/1f/e7b21f67-f3b2-46f2-c89f-28b695664bc7/app_screenshot_2732x2048_4_lessons.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/c9/9f/1fc99f7a-6b44-d226-6951-1fcbe1fe284c/app_screenshot_2732x2048_5_review.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/2c/d9/982cd912-1b07-3f7b-26cf-df3f9e4af445/app_screenshot_2732x2048_6_friends.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/26/ed/0f26edc9-6222-f73a-fa79-fe0cd402459f/app_screenshot_2732x2048_7_stats.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/8e/9e/328e9ef4-2215-50ce-0f19-1d334f2eab48/app_screenshot_2732x2048_8_bots.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 16"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 469,049,344 字节（约 447MB），864,424 条评分、4.81 分，2009-10-29 首发，当前版本 4.10.35，最低 iOS 17.0",
+   "level": "confirmed"
+  },
+  {
+   "claim": "官方描述含 500,000+ 谜题、100+ bot 难度档、1 分钟至 30 分钟多档时限、2.65 亿玩家",
+   "level": "confirmed"
+  },
+  {
+   "claim": "美区免费榜第 8（2026-08-21 首次进入监测口径，已 62 天在榜）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为原生 iOS 客户端而非通用游戏引擎——据产品形态与更新节奏推断，未找到官方技术披露",
+   "level": "inferred"
+  },
+  {
+   "claim": "约 447MB 主要来自多语言资源与离线课程/题库，而非 3D 资产数量",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/chess-com-play-and-learn/id329218549?uo=4"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2D UI + 可切换 3D 棋盘"
+ ],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Chess.com - Play and Learn",
+  "country": "us",
+  "track_id": 329218549,
+  "seller": "Chess.com, LLC",
+  "genres": [
+   "Games",
+   "Strategy",
+   "Board",
+   "Entertainment"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/b8/e0/91b8e01b-bf34-8031-4c01-e38170ea7211/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/31/77/e831773f-11de-86dc-bcf4-bbb32b73b23c/app_screenshot_1320x2868_1_cover_ribbon.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/3c/7f/563c7fdb-304c-9558-0ce1-da3a8b421927/app_screenshot_1320x2868_2_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/51/b3/9a51b314-fde7-b1c2-0c12-62870ac70c95/app_screenshot_1320x2868_3_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/d4/31/8ad431cf-50b9-8abe-cf3e-1cf625847227/app_screenshot_1320x2868_4_lessons__U00281_U0029.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/a3/5c/17a35cb4-570d-d182-e80a-7ccc936c20db/app_screenshot_1320x2868_5_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/70/02/bd70028b-a0b1-df17-cc88-cc4c854ab567/app_screenshot_1320x2868_6_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/82/2b/81822b39-1e19-4765-ee88-f7bc03cbd105/app_screenshot_1320x2868_7_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/2b/50/d12b50f5-de1a-349a-59c8-893dca64f761/app_screenshot_1320x2868_8_EN__U00281_U0029.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/4b/85/744b8599-0b4c-7020-e232-689b8aef5e64/app_screenshot_2732x2048_1_cover_ribbon.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/ae/06/34ae06b4-2945-7789-632e-972b8232425d/app_screenshot_2732x2048_2_play.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/c5/3e/8bc53e78-0a21-aa30-f539-20d282fb57e5/app_screenshot_2732x2048_3_puzzles.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/b2/1f/e7b21f67-f3b2-46f2-c89f-28b695664bc7/app_screenshot_2732x2048_4_lessons.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/c9/9f/1fc99f7a-6b44-d226-6951-1fcbe1fe284c/app_screenshot_2732x2048_5_review.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/2c/d9/982cd912-1b07-3f7b-26cf-df3f9e4af445/app_screenshot_2732x2048_6_friends.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/26/ed/0f26edc9-6222-f73a-fa79-fe0cd402459f/app_screenshot_2732x2048_7_stats.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/8e/9e/328e9ef4-2215-50ce-0f19-1d334f2eab48/app_screenshot_2732x2048_8_bots.png/626x1112bb.jpg"
+  ],
+  "description": "Play chess lessons online with over 265 million players from around the world!\n\nChess is known as the best strategy board game in the world!\n\nEnjoy unlimited 3D offline pocket chess games and improve your chess rating with 500,000+ puzzles, more than 20 million chess games a day, lessons, and over 100 powerful bot opponents. Unlock your inner chess master today!\n\nPLAY CHESS ONLINE:\n- 2 Player online chess mode is entirely free to enjoy with your friends.\n- Join tournaments with players online or friends and become a master.\n- Play games in real-time from one minute per game to 30 minutes or longer with friends.\n- Review your strategy and game lessons and lay out daily correspondence in online chess.\n- Play exciting chess variants in our app: chess960 (Fischer-Random), blitz chess, puzzle rush, bullet chess, puzzle battle, or blindfold.\n\nCHESS PUZZLES:\n- Enjoy 500,000 + unique puzzles.\n- Rated mode automatically adjusts to your skill level to help you improve.\n- Race the clock with a timer to beat your high score in Puzzle Rush.\n- Practice puzzles with specific themes in this strategy board game (checkmate in 1, in 2, in 3, blindfold, endgames, fork, skewer, sacrifice, timer, etc.)\n\nCHESS LESSONS:\n- Hundreds of quality chess lessons and online videos made by masters (Learn and practice your skills with chess problems)\n- Interactive puzzles tutorials with tips and game recommendations.\n- Learn all the chess rules and strategies in a step-by-step lesson plan (opening, endgame...)\n\nCHESS COACHING:\n- Learn from helpful and immersive visual chess coach lessons.\n- Review your games with the coach and learn the strategy of the board game for every move.\n- Play games with the coach, who will guide you through the fundamentals move by move and provide helpful hints as you play.\n\nPLAY CHESS ONLINE AGAINST THE COMPUTER:\n- Choose the level of computer opponent you want to play and set a timer.\n- Analyze your chess games offline and learn to see where you went wrong and how you can improve.\n\nCHESS COMMUNITY:\n- Join a community of more than 200M online chess players. Find friends! \n- More than 20M games played each day.\n- Compete to get your own rating and try to join the best player online chess leaderboards against other players.\n- Watch the most popular superstars: Hikaru, GothamChess, or Magnus!\n\n ... and MUCH MORE:\n- Play chess games offline against the computer and the clock with a timer.\n- Articles by the best coaches and masters.\n- Explore openings like Queen´s Gambit or Sicilian Defense.\n- Challenge and play with your friends in an online chess game.\n- Choose from 20+ board themes and 3D pieces.\n- Get in-depth performance stats about your games, puzzles, and lessons.\n\nPlaying pocket chess online has never been so easy!\nChess.com is the place to play chess games online with your friends and other players!\n\nShare your suggestions and comments. Our support team is happy to help you 24 hours a day, 365 days a year!\n\nABOUT CHESS.COM:\nChess.com was created by chess players and people who love chess! \nTeam: http://www.chess.com/about",
+  "release_notes": "Hi chess fans! Today's new version improves app quality, removing a couple of bugs that could cause the app to crash. We hope you enjoy it! Thank you.",
+  "file_size_bytes": 469049344,
+  "min_os": "17.0",
+  "version": "4.10.35",
+  "release_date": "2009-10-29",
+  "rating": 4.80942,
+  "rating_count": 864424,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/chess-com-play-and-learn/id329218549?uo=4",
+  "fetched_at": "2026-11-01T12:58:44+08:00"
+ },
+ "slug": "Chess_com_Play_and_Learn_bfbcac"
+}

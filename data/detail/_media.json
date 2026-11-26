@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25T12:14:28+08:00",
+ "updated_at": "2026-11-26T12:19:20+08:00",
  "games": {
   "赵云与阿斗": {
    "matched": true,
@@ -6348,8 +6348,40 @@
    "fetched_at": "2026-11-01T12:59:13+08:00"
   },
   "Cutie Sort - かわいい色分けゲーム": {
-   "matched": false,
-   "fetched_at": "2026-11-01T12:59:17+08:00"
+   "matched": true,
+   "match_name": "Cutie Sort - ねこソート かわいい色分けゲーム",
+   "match_score": 1.0,
+   "country": "jp",
+   "track_id": 6796547048,
+   "seller": "LADANETA PTE. LTD.",
+   "genres": [
+    "ゲーム",
+    "パズル",
+    "カジュアル"
+   ],
+   "genre": "ゲーム",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/56/83/54568382-f210-6e1d-15ec-43d81f844532/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/08/fb/6908fb1e-ba6f-834a-bdc0-725ee9bc5ae7/ab_18376_1793779237620.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/e1/80/dce1804a-9241-5c1f-8f54-6b9cbfd1cf46/ab_18377_1793779244201.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/42/6b/38426bcf-044c-6de6-7224-23588c708cc2/ab_18378_1793779250618.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/97/08/1997087d-6f51-1cbe-91b4-8434484f89fd/ab_18379_1793779256474.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/17/57/ca17571b-aaba-abd2-7843-adbbc23ac1e8/ab_18380_1793779264080.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/72/a6/e872a6fc-189f-16da-5f83-6f2acd9dcdb5/ab_18381_1793779271358.png/320x480bb.jpg"
+   ],
+   "description": "ようこそ！『Cutie Sort』は、パズル好きのために作られた純粋なロジック脳トレゲームです。空間認識とリラックスできる脳トレが完璧に融合しています。焦らせる制限時間も、運の要素もありません。可愛いキャラクターたちが止まり木で静かに待っている間、没入感のある落ち着いたパズル体験に集中できます。\n\n遊び方は直感的でありながら、非常に戦略的です。タップして移動させ、可愛いキャラクターたちを色ごとに異なる止まり木へきれいに分類するだけ。限られた空きスペースは、あなたの空間認識能力と先を読む計画性を真に試すでしょう。どんどん複雑になるボードに直面しても、「元に戻す」「入れ替え」「スペース拡張」といった便利なツールを賢く使えば、厄介な行き詰まりも突破できます。\n\nすべてのキャラクターが完璧に分類されたとき、純粋な論理的推論から生まれる最高の達成感を味わえるでしょう。熟考された一手一手が、勝利への道を切り開きます。このリラックスしつつも頭を使う分類チャレンジに今すぐ飛び込み、『Cutie Sort』をあなたの隙間時間の完璧なお供にしましょう！",
+   "release_notes": "- 実績システムを追加\n- 特殊要素を追加",
+   "file_size_bytes": 287725568,
+   "min_os": "13.0",
+   "version": "1.6",
+   "release_date": "2026-08-11",
+   "rating": 4.78381,
+   "rating_count": 6499,
+   "price": "Free",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/jp/app/cutie-sort-%E3%81%AD%E3%81%93%E3%82%BD%E3%83%BC%E3%83%88-%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E8%89%B2%E5%88%86%E3%81%91%E3%82%B2%E3%83%BC%E3%83%A0/id6796547048?uo=4",
+   "fetched_at": "2026-11-26T12:19:19+08:00",
+   "source": "manual-itunes-lookup"
   },
   "精英军团": {
    "matched": false,
@@ -7168,8 +7200,40 @@
    "fetched_at": "2026-11-15T12:42:40+08:00"
   },
   "Cutie Sort - ねこソート かわいい色分けゲーム": {
-   "matched": false,
-   "fetched_at": "2026-11-15T12:43:09+08:00"
+   "matched": true,
+   "match_name": "Cutie Sort - ねこソート かわいい色分けゲーム",
+   "match_score": 1.0,
+   "country": "jp",
+   "track_id": 6796547048,
+   "seller": "LADANETA PTE. LTD.",
+   "genres": [
+    "ゲーム",
+    "パズル",
+    "カジュアル"
+   ],
+   "genre": "ゲーム",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/56/83/54568382-f210-6e1d-15ec-43d81f844532/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/08/fb/6908fb1e-ba6f-834a-bdc0-725ee9bc5ae7/ab_18376_1793779237620.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/e1/80/dce1804a-9241-5c1f-8f54-6b9cbfd1cf46/ab_18377_1793779244201.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/42/6b/38426bcf-044c-6de6-7224-23588c708cc2/ab_18378_1793779250618.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/97/08/1997087d-6f51-1cbe-91b4-8434484f89fd/ab_18379_1793779256474.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/17/57/ca17571b-aaba-abd2-7843-adbbc23ac1e8/ab_18380_1793779264080.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/72/a6/e872a6fc-189f-16da-5f83-6f2acd9dcdb5/ab_18381_1793779271358.png/320x480bb.jpg"
+   ],
+   "description": "ようこそ！『Cutie Sort』は、パズル好きのために作られた純粋なロジック脳トレゲームです。空間認識とリラックスできる脳トレが完璧に融合しています。焦らせる制限時間も、運の要素もありません。可愛いキャラクターたちが止まり木で静かに待っている間、没入感のある落ち着いたパズル体験に集中できます。\n\n遊び方は直感的でありながら、非常に戦略的です。タップして移動させ、可愛いキャラクターたちを色ごとに異なる止まり木へきれいに分類するだけ。限られた空きスペースは、あなたの空間認識能力と先を読む計画性を真に試すでしょう。どんどん複雑になるボードに直面しても、「元に戻す」「入れ替え」「スペース拡張」といった便利なツールを賢く使えば、厄介な行き詰まりも突破できます。\n\nすべてのキャラクターが完璧に分類されたとき、純粋な論理的推論から生まれる最高の達成感を味わえるでしょう。熟考された一手一手が、勝利への道を切り開きます。このリラックスしつつも頭を使う分類チャレンジに今すぐ飛び込み、『Cutie Sort』をあなたの隙間時間の完璧なお供にしましょう！",
+   "release_notes": "- 実績システムを追加\n- 特殊要素を追加",
+   "file_size_bytes": 287725568,
+   "min_os": "13.0",
+   "version": "1.6",
+   "release_date": "2026-08-11",
+   "rating": 4.78381,
+   "rating_count": 6499,
+   "price": "Free",
+   "advisory": "4+",
+   "url": "https://apps.apple.com/jp/app/cutie-sort-%E3%81%AD%E3%81%93%E3%82%BD%E3%83%BC%E3%83%88-%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E8%89%B2%E5%88%86%E3%81%91%E3%82%B2%E3%83%BC%E3%83%A0/id6796547048?uo=4",
+   "fetched_at": "2026-11-26T12:19:19+08:00",
+   "source": "manual-itunes-lookup"
   },
   "道友来挖宝": {
    "matched": false,

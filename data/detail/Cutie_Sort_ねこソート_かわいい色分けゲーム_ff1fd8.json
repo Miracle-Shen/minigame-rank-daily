@@ -1,0 +1,258 @@
+{
+ "schema_version": 1,
+ "name": "Cutie Sort - ねこソート かわいい色分けゲーム",
+ "updated_at": "2026-11-26",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Ladaneta Games",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 5
+  },
+  "platform_app_ids": {
+   "ios": "6796547048"
+  },
+  "first_seen": "2026-11-13",
+  "appearances": 12,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（据第三方 SDK 扫描到 Unity 开发工具与 Unity Ads 中介推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D（Q 版立绘 + 纯 UI 层货架布局）",
+  "art_style": "扁平萌系：马卡龙色货架 + Q 版猫咪，无场景背景，白色留白为主",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "数十种猫咪花色 + 货架与道具 UI，是唯一需要美术投入的部分；287MB 里还有很大比例是广告 SDK 与多语言资源，不是纯美术",
+   "logic": "关卡要保证可解、且空格数刚好够走通，需要一套关卡生成与可解性校验；难度靠「花色数 × 空格数」两个轴控制",
+   "physics": "纯格子逻辑，猫只是贴图，没有物理与拖拽应力",
+   "data": "只有关卡进度与道具库存，无养成、无等级、无货币体系",
+   "server": "纯单机，无排行、无云存档依赖，离线也能玩",
+   "engine": "排序类玩法是 Unity 里的模板级实现，一个前端一周能搭出可玩核心"
+  },
+  "asset_notes": "素材是最轻的一类：猫咪立绘 + 货架贴图，AI 生图可批量产花色，人工只需统一风格；无 3D、无骨骼",
+  "notes": "典型「逻辑极轻、题材极重」的产品：技术风险接近零，成败全在题材第一眼与前 10 关的难度手感",
+  "cost_score": 2.0,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "点一只猫，把它移到有空位的货架上；同色猫凑满一个货架就算归位，所有猫都归位即通关，一关 1-2 分钟。空位永远比猫少，走错一步就把自己锁死，只能靠「撤销 / 换位 / 加一格」道具破局。",
+  "highlights": [
+   "每归位一组，整排猫一起伸懒腰冒爱心配一声软音效，密集的小确幸把节奏撑起来",
+   "「只剩一个空位」的空间压迫感，逼玩家在脑子里先跑完整条搬运动线，思考才有重量",
+   "没有倒计时、没有运气，失败完全归因于自己，重开的心理成本极低，天然抗流失",
+   "花色数量就是难度语言：颜色越多、货架越少，一眼看出这关难在哪"
+  ],
+  "innovations": [
+   "把 water sort 的「液体倒来倒去」换成「活物按颜色归位到货架」，题材与机制咬得比原版更紧——猫要回窝，动作有情绪落点",
+   "难度用「空位数量 + 花色数量」双轴同时控制，比单一看管数更细，关卡曲线更平滑"
+  ],
+  "target_user": "18-35 岁女性向休闲用户，日区与美区为主，睡前与通勤碎片时间",
+  "monetization": "混合，偏向 IAP：去广告、道具包与礼包（估算约八成收入），配激励视频换撤销/加位/提示",
+  "lifecycle": "短中期。2026-08 上线、11-13 首进日区前 5 并冲到第 4，美国区第 37；Google Play 周增约 40 万安装，属买量+ASO 驱动的上升期产品"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "机制是公开的排序模板（water sort 一脉），代码量小、无联网、无养成，2-3 人两周能出可玩版本；胜负手全在题材与美术第一眼，以及前 10 关的难度手感。它本身就是「换皮成功」的样本——同一套逻辑换成猫 + 货架，就在日区冲到前 5。",
+  "suggestions": [
+   "换题材：把猫换成「中药归柜」——同色药材归同一个抽屉，抽屉容量即空位，题材与机制同样咬得紧",
+   "换动作：把「点选移动」改成「拖拽投喂」，用喂食动作替代搬运，情绪更强、更像在照顾而不是在搬箱子",
+   "首 10 关把花色压到 3 种、空位给足 2 个，把第一次卡死推到第 12 关之后",
+   "加一条「图鉴」轻收集：每通关解锁一只新角色，把单局爽感接到长线目标上"
+  ],
+  "risks": [
+   "排序题材在日区/美区已高度饱和（同月就有 Meow Sort、Chirpy Sort 等竞品），买量 CPI 会被抬高",
+   "猫咪美术是唯一护城河，用通用素材会被一眼认出是换皮，评分立刻掉",
+   "原包 287MB 里大量是广告 SDK 与多语言资源，小游戏包体限制下必须裁资源"
+  ],
+  "effort": "15–25 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "可复用",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "无倒计时、无运气、「错了只能怪自己」的纯逻辑反馈，是睡前和通勤最安全的解压；本作日区 6,499 条评分 4.78、上线三个月冲到免费榜第 5，不是买量硬撑的量"
+    },
+    {
+     "lens": "用户",
+     "text": "规则一句话讲得完（同色猫放同一个架子），不需要教学；去掉猫咪这层只损失分享欲，不影响可玩性"
+    },
+    {
+     "lens": "业务",
+     "text": "排序玩法无联网、无养成、无后端，是活动位里最便宜的一类填充——一个前端两周出可玩版，能填任何节庆空档"
+    },
+    {
+     "lens": "业务",
+     "text": "自有产品线若含休闲或女性向品类，现在缺的正是「打开就能玩 2 分钟、不要求登录」的轻量入口，排序玩法天生适配小程序首屏"
+    }
+   ],
+   "how": [
+    "先做 30 关可玩版本（3 花色递进到 6 花色），挂一号位灰度 5% 流量，一周看次留与第 5 关到达率",
+    "把「撤销 / 换位 / 加一格」三个道具做成激励视频位，按它「走进死局才弹」的时机复刻，A/B 校准弹出位置与频次"
+   ],
+   "gain": [
+    "拿到可复用的排序关卡生成器：改花色数与货架数就能出新关，题库边际成本接近零",
+    "补齐「无需登录、2 分钟一局」的轻量入口，给日活一个不依赖推送的钩子",
+    "三个道具位提供广告定价标尺：一次撤销 ≙ 一次激励视频，可直接校准自有点位价值",
+    "零排期风险：不占主玩法与主美术资源，1-2 人可并行，验证失败也不影响主线"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "LADANETA PTE. LTD. 为新加坡主体、自研自发，iOS/Android 双端 14 种语言全球发行，短期没有代理需求",
+    "可谈点在其关卡生成与题材管线；但其核心资产是 ASO 与买量能力，授权合作价值有限，先放观察名单"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "电商品类收纳活动",
+     "how": "把「同色猫归同一货架」改成「同品类商品归同一货架」，空格数当购物车容量，凑满解锁券"
+    },
+    {
+     "scene": "品牌私域签到",
+     "how": "每日开放一关，通关得积分；花色数随会员等级增加，用难度变化做成长感"
+    }
+   ]
+  },
+  "summary": "纯逻辑排序模板，换题材即可复用进活动位"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/56/83/54568382-f210-6e1d-15ec-43d81f844532/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（jp）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/08/fb/6908fb1e-ba6f-834a-bdc0-725ee9bc5ae7/ab_18376_1793779237620.png/320x480bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/e1/80/dce1804a-9241-5c1f-8f54-6b9cbfd1cf46/ab_18377_1793779244201.png/320x480bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/42/6b/38426bcf-044c-6de6-7224-23588c708cc2/ab_18378_1793779250618.png/320x480bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/97/08/1997087d-6f51-1cbe-91b4-8434484f89fd/ab_18379_1793779256474.png/320x480bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/17/57/ca17571b-aaba-abd2-7843-adbbc23ac1e8/ab_18380_1793779264080.png/320x480bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/72/a6/e872a6fc-189f-16da-5f83-6f2acd9dcdb5/ab_18381_1793779271358.png/320x480bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 6"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "iOS 包体 287,725,568 字节（约 274MB），2026-08-11 首发，日区 6,499 条评分 4.784，当前版本 1.6（2026-11-26 更新）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "发行主体 LADANETA PTE. LTD.（新加坡），Android 端约 160 万安装、月流水估算 10 万美元级，IAP 约 79% / 广告约 21%",
+   "level": "confirmed"
+  },
+  {
+   "claim": "iOS 与 Android 为同一产品：安卓包名 sort.casual.color.cat.puzzle.match，App Store id 6796547048（别名 Cutie Sort - Cat Color Fever）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity——第三方 SDK 扫描到 Unity 开发工具与 Unity Ads 中介，未见官方披露",
+   "level": "inferred"
+  },
+  {
+   "claim": "日区免费榜第 5 / 最好第 4、美国区第 37，为本次榜单快照与第三方追踪一致口径",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/jp/app/id6796547048",
+  "https://www.taptap.io/tw/app/34080942",
+  "https://appgoblin.info/apps/sort.casual.color.cat.puzzle.match"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2D（Q 版立绘 + 纯 UI 层货架布局）"
+ ],
+ "media": {
+  "matched": true,
+  "match_name": "Cutie Sort - ねこソート かわいい色分けゲーム",
+  "match_score": 1.0,
+  "country": "jp",
+  "track_id": 6796547048,
+  "seller": "LADANETA PTE. LTD.",
+  "genres": [
+   "ゲーム",
+   "パズル",
+   "カジュアル"
+  ],
+  "genre": "ゲーム",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/56/83/54568382-f210-6e1d-15ec-43d81f844532/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/08/fb/6908fb1e-ba6f-834a-bdc0-725ee9bc5ae7/ab_18376_1793779237620.png/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dc/e1/80/dce1804a-9241-5c1f-8f54-6b9cbfd1cf46/ab_18377_1793779244201.png/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/42/6b/38426bcf-044c-6de6-7224-23588c708cc2/ab_18378_1793779250618.png/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/97/08/1997087d-6f51-1cbe-91b4-8434484f89fd/ab_18379_1793779256474.png/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/17/57/ca17571b-aaba-abd2-7843-adbbc23ac1e8/ab_18380_1793779264080.png/320x480bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/72/a6/e872a6fc-189f-16da-5f83-6f2acd9dcdb5/ab_18381_1793779271358.png/320x480bb.jpg"
+  ],
+  "description": "ようこそ！『Cutie Sort』は、パズル好きのために作られた純粋なロジック脳トレゲームです。空間認識とリラックスできる脳トレが完璧に融合しています。焦らせる制限時間も、運の要素もありません。可愛いキャラクターたちが止まり木で静かに待っている間、没入感のある落ち着いたパズル体験に集中できます。\n\n遊び方は直感的でありながら、非常に戦略的です。タップして移動させ、可愛いキャラクターたちを色ごとに異なる止まり木へきれいに分類するだけ。限られた空きスペースは、あなたの空間認識能力と先を読む計画性を真に試すでしょう。どんどん複雑になるボードに直面しても、「元に戻す」「入れ替え」「スペース拡張」といった便利なツールを賢く使えば、厄介な行き詰まりも突破できます。\n\nすべてのキャラクターが完璧に分類されたとき、純粋な論理的推論から生まれる最高の達成感を味わえるでしょう。熟考された一手一手が、勝利への道を切り開きます。このリラックスしつつも頭を使う分類チャレンジに今すぐ飛び込み、『Cutie Sort』をあなたの隙間時間の完璧なお供にしましょう！",
+  "release_notes": "- 実績システムを追加\n- 特殊要素を追加",
+  "file_size_bytes": 287725568,
+  "min_os": "13.0",
+  "version": "1.6",
+  "release_date": "2026-08-11",
+  "rating": 4.78381,
+  "rating_count": 6499,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/jp/app/cutie-sort-%E3%81%AD%E3%81%93%E3%82%BD%E3%83%BC%E3%83%88-%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E8%89%B2%E5%88%86%E3%81%91%E3%82%B2%E3%83%BC%E3%83%A0/id6796547048?uo=4",
+  "fetched_at": "2026-11-26T12:19:19+08:00",
+  "source": "manual-itunes-lookup"
+ },
+ "slug": "Cutie_Sort_ねこソート_かわいい色分けゲーム_ff1fd8"
+}

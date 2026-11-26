@@ -1,0 +1,154 @@
+{
+ "batch": 26,
+ "total_batches": 26,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_26.json",
+ "games": [
+  {
+   "name": "青云诀之伏魔",
+   "boards": [
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 20
+   },
+   "category_l1": "角色",
+   "category_l2": "MMO",
+   "publisher": "海南元游信息技术有限公司",
+   "first_seen": "2026-06-30",
+   "appearances": 101,
+   "best_rank": 3,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-01T12:58:20+08:00"
+   }
+  },
+  {
+   "name": "龙胆破军",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 6
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "广州游伦网络科技有限公司",
+   "first_seen": "2026-11-13",
+   "appearances": 12,
+   "best_rank": 3,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-17T12:54:59+08:00"
+   }
+  },
+  {
+   "name": "Chess.com - Play and Learn",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 8
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Chess.com",
+   "first_seen": "2026-08-21",
+   "appearances": 62,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Chess.com - Play and Learn",
+    "country": "us",
+    "track_id": 329218549,
+    "seller": "Chess.com, LLC",
+    "genres": [
+     "Games",
+     "Strategy",
+     "Board",
+     "Entertainment"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/b8/e0/91b8e01b-bf34-8031-4c01-e38170ea7211/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/31/77/e831773f-11de-86dc-bcf4-bbb32b73b23c/app_screenshot_1320x2868_1_cover_ribbon.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/3c/7f/563c7fdb-304c-9558-0ce1-da3a8b421927/app_screenshot_1320x2868_2_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/51/b3/9a51b314-fde7-b1c2-0c12-62870ac70c95/app_screenshot_1320x2868_3_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/d4/31/8ad431cf-50b9-8abe-cf3e-1cf625847227/app_screenshot_1320x2868_4_lessons__U00281_U0029.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/a3/5c/17a35cb4-570d-d182-e80a-7ccc936c20db/app_screenshot_1320x2868_5_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/70/02/bd70028b-a0b1-df17-cc88-cc4c854ab567/app_screenshot_1320x2868_6_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/82/2b/81822b39-1e19-4765-ee88-f7bc03cbd105/app_screenshot_1320x2868_7_EN.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/2b/50/d12b50f5-de1a-349a-59c8-893dca64f761/app_screenshot_1320x2868_8_EN__U00281_U0029.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/4b/85/744b8599-0b4c-7020-e232-689b8aef5e64/app_screenshot_2732x2048_1_cover_ribbon.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/ae/06/34ae06b4-2945-7789-632e-972b8232425d/app_screenshot_2732x2048_2_play.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/c5/3e/8bc53e78-0a21-aa30-f539-20d282fb57e5/app_screenshot_2732x2048_3_puzzles.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/b2/1f/e7b21f67-f3b2-46f2-c89f-28b695664bc7/app_screenshot_2732x2048_4_lessons.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/c9/9f/1fc99f7a-6b44-d226-6951-1fcbe1fe284c/app_screenshot_2732x2048_5_review.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/2c/d9/982cd912-1b07-3f7b-26cf-df3f9e4af445/app_screenshot_2732x2048_6_friends.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/26/ed/0f26edc9-6222-f73a-fa79-fe0cd402459f/app_screenshot_2732x2048_7_stats.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/8e/9e/328e9ef4-2215-50ce-0f19-1d334f2eab48/app_screenshot_2732x2048_8_bots.png/626x1112bb.jpg"
+    ],
+    "description": "Play chess lessons online with over 265 million players from around the world!\n\nChess is known as the best strategy board game in the world!\n\nEnjoy unlimited 3D offline pocket chess games and improve your chess rating with 500,000+ puzzles, more than 20 million chess games a day, lessons, and over 100 powerful bot opponents. Unlock your inner chess master today!\n\nPLAY CHESS ONLINE:\n- 2 Player online chess mode is entirely free to enjoy with your friends.\n- Join tournaments with players online or friends and become a master.\n- Play games in real-time from one minute per game to 30 minutes or longer with friends.\n- Review your strategy and game lessons and lay out daily correspondence in online chess.\n- Play exciting chess variants in our app: chess960 (Fischer-Random), blitz chess, puzzle rush, bullet chess, puzzle battle, or blindfold.\n\nCHESS PUZZLES:\n- Enjoy 500,000 + unique puzzles.\n- Rated mode automatically adjusts to your skill level to help you improve.\n- Race the clock with a timer to beat your high score in Puzzle Rush.\n- Practice puzzles with specific themes in this strategy board game (checkmate in 1, in 2, in 3, blindfold, endgames, fork, skewer, sacrifice, timer, etc.)\n\nCHESS LESSONS:\n- Hundreds of quality chess lessons and online videos made by masters (Learn and practice your skills with chess problems)\n- Interactive puzzles tutorials with tips and game recommendations.\n- Learn all the chess rules and strategies in a step-by-step lesson plan (opening, endgame...)\n\nCHESS COACHING:\n- Learn from helpful and immersive visual chess coach lessons.\n- Review your games with the coach and learn the strategy of the board game for every move.\n- Play games with the coach, who will guide you through the fundamentals move by move and provide helpful hints as you play.\n\nPLAY CHESS ONLINE AGAINST THE COMPUTER:\n- Choose the level of computer opponent you want to play and set a timer.\n- Analyze your chess games offline and learn to see where you went wrong and how you can improve.\n\nCHESS COMMUNITY:\n- Join a community of more than 200M online chess players. Find friends! \n- More than 20M games played each day.\n- Compete to get your own rating and try to join the best player online chess leaderboards against other players.\n- Watch the most popular superstars: Hikaru, GothamChess, or Magnus!\n\n ... and MUCH MORE:\n- Play chess games offline against the computer and the clock with a timer.\n- Articles by the best coaches and masters.\n- Explore openings like Queen´s Gambit or Sicilian Defense.\n- Challenge and play with your friends in an online chess game.\n- Choose from 20+ board themes and 3D pieces.\n- Get in-depth performance stats about your games, puzzles, and lessons.\n\nPlaying pocket chess online has never been so easy!\nChess.com is the place to play chess games online with your friends and other players!\n\nShare your suggestions and comments. Our support team is happy to help you 24 hours a day, 365 days a year!\n\nABOUT CHESS.COM:\nChess.com was created by chess players and people who love chess! \nTeam: http://www.chess.com/about",
+    "release_notes": "Hi chess fans! Today's new version improves app quality, removing a couple of bugs that could cause the app to crash. We hope you enjoy it! Thank you.",
+    "file_size_bytes": 469049344,
+    "min_os": "17.0",
+    "version": "4.10.35",
+    "release_date": "2009-10-29",
+    "rating": 4.80942,
+    "rating_count": 864424,
+    "price": "Free",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/us/app/chess-com-play-and-learn/id329218549?uo=4",
+    "fetched_at": "2026-11-01T12:58:44+08:00"
+   }
+  },
+  {
+   "name": "Cutie Sort - ねこソート かわいい色分けゲーム",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 5
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Ladaneta Games",
+   "first_seen": "2026-11-13",
+   "appearances": 12,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-15T12:43:09+08:00"
+   }
+  }
+ ]
+}
