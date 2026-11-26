@@ -1,0 +1,657 @@
+{
+  "date": "2026-11-26",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 13,
+          "name": "砸墙模拟器手游",
+          "category": "休闲",
+          "category_rank": 12,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxd5e2f3fd9758ec82",
+          "publisher_id": 0
+        },
+        {
+          "rank": 18,
+          "name": "跳一跳",
+          "category": "休闲",
+          "category_rank": 15,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "深圳市腾讯计算机系统有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx7c8d593b2c3a7703",
+          "publisher_id": 20002309
+        },
+        {
+          "rank": 19,
+          "name": "天天象棋",
+          "category": "棋牌",
+          "category_rank": 4,
+          "subcategory": "棋类",
+          "slogan": "",
+          "publisher": "深圳市腾讯天游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx9e44d62c7ab75740",
+          "publisher_id": 20002394
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 19,
+          "name": "几何大作战",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxa205e09e51b7543c",
+          "publisher_id": 0
+        }
+      ],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 19,
+          "name": "几何大作战",
+          "category": "休闲",
+          "category_rank": 17,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxa205e09e51b7543c",
+          "publisher_id": 0
+        }
+      ]
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 2,
+          "name": "最牛大冒险",
+          "category": "1",
+          "category_rank": 2,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆苍玄科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt33d54568adb0aa9b07",
+          "publisher_id": 20242355
+        },
+        {
+          "rank": 18,
+          "name": "速通脑洞王",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市烽镞互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt90b3e60e0ec809c102",
+          "publisher_id": 20302435
+        },
+        {
+          "rank": 20,
+          "name": "猛鬼宿舍",
+          "category": "塔防",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt00e576589fdceaa202",
+          "publisher_id": 20192384
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 9,
+          "name": "不服来通关",
+          "category": "塔防",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "长沙游品科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcaa6bc1b55adba2c02",
+          "publisher_id": 20092311
+        },
+        {
+          "rank": 19,
+          "name": "蔚蓝远征",
+          "category": "合成",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州游伦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt19a36f1e87c0863002",
+          "publisher_id": 20243567
+        },
+        {
+          "rank": 20,
+          "name": "勇者乱斗",
+          "category": "自走棋",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州电梦网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt4ffa3947d0f477c207",
+          "publisher_id": 20244649
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 9,
+          "name": "割草解压模拟",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门弦游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt704606fbee3d577b07",
+          "publisher_id": 20302425
+        },
+        {
+          "rank": 11,
+          "name": "是解压达人",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州灵桃网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt570c21b1c977d9d402",
+          "publisher_id": 20262392
+        },
+        {
+          "rank": 12,
+          "name": "太初仙劫",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州伍虎互娱信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt466930d4d817370507",
+          "publisher_id": 20262312
+        },
+        {
+          "rank": 16,
+          "name": "开心西游",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州予音网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta7cbd17639b3487b02",
+          "publisher_id": 20292379
+        },
+        {
+          "rank": 19,
+          "name": "疯狂开火",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京豪腾创想科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte6d1906c78a8400307",
+          "publisher_id": 20002337
+        }
+      ],
+      "first_on_board": [
+        {
+          "rank": 3,
+          "name": "我在古代有座城",
+          "category": "1",
+          "category_rank": 3,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "安徽盈趣网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2f5659ebb12dfe7407",
+          "publisher_id": 20162307
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 12,
+          "name": "太初仙劫",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州伍虎互娱信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt466930d4d817370507",
+          "publisher_id": 20262312
+        }
+      ],
+      "totals": {
+        "new_to_board": 6,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 3,
+          "name": "我在古代有座城",
+          "category": "1",
+          "category_rank": 3,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "安徽盈趣网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt2f5659ebb12dfe7407",
+          "publisher_id": 20162307
+        },
+        {
+          "rank": 9,
+          "name": "割草解压模拟",
+          "category": "1",
+          "category_rank": 9,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门弦游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt704606fbee3d577b07",
+          "publisher_id": 20302425
+        },
+        {
+          "rank": 11,
+          "name": "是解压达人",
+          "category": "1",
+          "category_rank": 11,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州灵桃网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt570c21b1c977d9d402",
+          "publisher_id": 20262392
+        },
+        {
+          "rank": 12,
+          "name": "太初仙劫",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州伍虎互娱信息技术有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt466930d4d817370507",
+          "publisher_id": 20262312
+        },
+        {
+          "rank": 16,
+          "name": "开心西游",
+          "category": "1",
+          "category_rank": 16,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州予音网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tta7cbd17639b3487b02",
+          "publisher_id": 20292379
+        },
+        {
+          "rank": 19,
+          "name": "疯狂开火",
+          "category": "1",
+          "category_rank": 19,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "北京豪腾创想科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tte6d1906c78a8400307",
+          "publisher_id": 20002337
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 10,
+          "name": "伍六七：暗影交锋",
+          "publisher": "啊吉游",
+          "category": "角色扮演",
+          "subcategory": "国漫、像素、动作、冒险、模拟经营、横版、2D、多人联机、APRG、热血"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "Jelly Busters: Puzzle Game",
+          "publisher": "Moon Active",
+          "category": "Games",
+          "app_id": "6756058501",
+          "url": "https://apps.apple.com/us/app/jelly-busters-puzzle-game/id6756058501?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ea/cd/76eacdf9-8974-c81a-5e71-379541f5c3fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Drop into the smoothest skatepark in town with the Jelly Busters crew, a squad o"
+        },
+        {
+          "rank": 18,
+          "name": "Magic Tiles 3™: Piano Game",
+          "publisher": "Amanotes Pte. Ltd.",
+          "category": "Games",
+          "app_id": "1443446174",
+          "url": "https://apps.apple.com/us/app/magic-tiles-3-piano-game/id1443446174?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2c/f6/7f/2cf67f47-6b51-2db0-ec78-af0f4150c60e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "How fun is it to capture the most precious moments of the year with a wink of rh"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 13,
+          "name": "Tool Toss: Spinning Target",
+          "publisher": "Zaira Jane Ceballos",
+          "category": "游戏",
+          "app_id": "6822054618",
+          "url": "https://apps.apple.com/cn/app/tool-toss-spinning-target/id6822054618?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/5f/f2/1f5ff2ce-619f-5d31-1abb-2e4c1a7f4746/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Time your tap, throw your tool and make it stick! Tool Toss is a quick, satisfyi"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "迷你世界",
+          "publisher": "Miniwan Tech",
+          "category": "游戏",
+          "app_id": "1170455562",
+          "url": "https://apps.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C/id1170455562?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/08/43/43084336-fffa-c7be-d6e5-b3cd8d0e769c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "【游戏介绍】\r\n《迷你世界》是一款高自由的精美3D沙盒游戏。\r\n这里没有规则限制，也没有特定的玩法，只有破坏和创造、生存与冒险的乐趣。\r\n可以通过双手和智慧完成"
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 13,
+          "name": "Tool Toss: Spinning Target",
+          "publisher": "Zaira Jane Ceballos",
+          "category": "游戏",
+          "app_id": "6822054618",
+          "url": "https://apps.apple.com/cn/app/tool-toss-spinning-target/id6822054618?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/5f/f2/1f5ff2ce-619f-5d31-1abb-2e4c1a7f4746/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Time your tap, throw your tool and make it stick! Tool Toss is a quick, satisfyi"
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 1,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 13,
+          "name": "Tool Toss: Spinning Target",
+          "publisher": "Zaira Jane Ceballos",
+          "category": "游戏",
+          "app_id": "6822054618",
+          "url": "https://apps.apple.com/cn/app/tool-toss-spinning-target/id6822054618?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/5f/f2/1f5ff2ce-619f-5d31-1abb-2e4c1a7f4746/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Time your tap, throw your tool and make it stick! Tool Toss is a quick, satisfyi"
+        }
+      ]
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [
+        {
+          "rank": 2,
+          "name": "デジモンアリシオン",
+          "publisher": "BANDAI Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6740988190",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%E3%82%A2%E3%83%AA%E3%82%B7%E3%82%AA%E3%83%B3/id6740988190?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/5d/f0/655df06f-481e-60c0-7319-8b791ea4dc8f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "『デジモンアリシオン』ついに始動！\n新たなデジモンの世界を「デジモンカードゲーム」とともに楽しもう！\n\n■オリジナルストーリー！\nオリジナルキャラクターが織りな"
+        },
+        {
+          "rank": 11,
+          "name": "Fresh Today: Cozy Supermarket",
+          "publisher": "Emre Beyoglu",
+          "category": "ゲーム",
+          "app_id": "6836499974",
+          "url": "https://apps.apple.com/jp/app/fresh-today-cozy-supermarket/id6836499974?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/6d/a9/286da9a5-b86c-4ee4-0db5-0cb7eedb7f5d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fresh Todayへようこそ！ここは町でいちばんかわいい小さなスーパーです。\n\n毎朝シャッターを開けて、自分のペースで街角のお店を切り盛りしましょう。問屋か"
+        },
+        {
+          "rank": 18,
+          "name": "モンモンマスターズ",
+          "publisher": "PLAYHARD",
+          "category": "ゲーム",
+          "app_id": "6760277702",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%83%A2%E3%83%B3%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6760277702?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/1b/61/2b1b611d-828f-195f-2847-4eeb4ad5876f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『モンモンマスターズ』は、テイマーとなって進化形態を含む600種以上の個性豊かなモンモンを集めて育成し、自分だけのチームを編成するモンスター収集RPGです！\nモ"
+        }
+      ],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 2,
+          "name": "デジモンアリシオン",
+          "publisher": "BANDAI Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6740988190",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%E3%82%A2%E3%83%AA%E3%82%B7%E3%82%AA%E3%83%B3/id6740988190?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/5d/f0/655df06f-481e-60c0-7319-8b791ea4dc8f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "『デジモンアリシオン』ついに始動！\n新たなデジモンの世界を「デジモンカードゲーム」とともに楽しもう！\n\n■オリジナルストーリー！\nオリジナルキャラクターが織りな"
+        },
+        {
+          "rank": 11,
+          "name": "Fresh Today: Cozy Supermarket",
+          "publisher": "Emre Beyoglu",
+          "category": "ゲーム",
+          "app_id": "6836499974",
+          "url": "https://apps.apple.com/jp/app/fresh-today-cozy-supermarket/id6836499974?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/6d/a9/286da9a5-b86c-4ee4-0db5-0cb7eedb7f5d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fresh Todayへようこそ！ここは町でいちばんかわいい小さなスーパーです。\n\n毎朝シャッターを開けて、自分のペースで街角のお店を切り盛りしましょう。問屋か"
+        },
+        {
+          "rank": 18,
+          "name": "モンモンマスターズ",
+          "publisher": "PLAYHARD",
+          "category": "ゲーム",
+          "app_id": "6760277702",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%83%A2%E3%83%B3%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6760277702?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/1b/61/2b1b611d-828f-195f-2847-4eeb4ad5876f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『モンモンマスターズ』は、テイマーとなって進化形態を含む600種以上の個性豊かなモンモンを集めて育成し、自分だけのチームを編成するモンスター収集RPGです！\nモ"
+        }
+      ],
+      "totals": {
+        "new_to_board": 3,
+        "returning": 0,
+        "new_publishers": 3
+      },
+      "new_to_board": [
+        {
+          "rank": 2,
+          "name": "デジモンアリシオン",
+          "publisher": "BANDAI Co., Ltd.",
+          "category": "ゲーム",
+          "app_id": "6740988190",
+          "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%E3%82%A2%E3%83%AA%E3%82%B7%E3%82%AA%E3%83%B3/id6740988190?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/5d/f0/655df06f-481e-60c0-7319-8b791ea4dc8f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "『デジモンアリシオン』ついに始動！\n新たなデジモンの世界を「デジモンカードゲーム」とともに楽しもう！\n\n■オリジナルストーリー！\nオリジナルキャラクターが織りな"
+        },
+        {
+          "rank": 11,
+          "name": "Fresh Today: Cozy Supermarket",
+          "publisher": "Emre Beyoglu",
+          "category": "ゲーム",
+          "app_id": "6836499974",
+          "url": "https://apps.apple.com/jp/app/fresh-today-cozy-supermarket/id6836499974?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/6d/a9/286da9a5-b86c-4ee4-0db5-0cb7eedb7f5d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Fresh Todayへようこそ！ここは町でいちばんかわいい小さなスーパーです。\n\n毎朝シャッターを開けて、自分のペースで街角のお店を切り盛りしましょう。問屋か"
+        },
+        {
+          "rank": 18,
+          "name": "モンモンマスターズ",
+          "publisher": "PLAYHARD",
+          "category": "ゲーム",
+          "app_id": "6760277702",
+          "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%83%A2%E3%83%B3%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6760277702?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/1b/61/2b1b611d-828f-195f-2847-4eeb4ad5876f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "『モンモンマスターズ』は、テイマーとなって進化形態を含む600種以上の個性豊かなモンモンを集めて育成し、自分だけのチームを編成するモンスター収集RPGです！\nモ"
+        }
+      ]
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
