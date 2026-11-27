@@ -1,0 +1,633 @@
+{
+  "date": "2026-11-27",
+  "boards": {
+    "wx/人气榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "人气榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 11,
+          "name": "龙岛起源进化",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "北京易趣互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx7c851857acf3335b",
+          "publisher_id": 20244640
+        },
+        {
+          "rank": 14,
+          "name": "几何大作战",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "厦门好鸟科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxa205e09e51b7543c",
+          "publisher_id": 20242446
+        }
+      ],
+      "new_publishers": [
+        {
+          "rank": 9,
+          "name": "动物搬搬砖",
+          "category": "休闲",
+          "category_rank": 8,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "广州摩摩达科技有限公司",
+          "change": "5",
+          "change_direction": "down",
+          "app_id": "wx12c960fd5d45dd89",
+          "publisher_id": 20302488
+        },
+        {
+          "rank": 11,
+          "name": "龙岛起源进化",
+          "category": "休闲",
+          "category_rank": 10,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "北京易趣互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx7c851857acf3335b",
+          "publisher_id": 20244640
+        },
+        {
+          "rank": 14,
+          "name": "几何大作战",
+          "category": "休闲",
+          "category_rank": 13,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "厦门好鸟科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxa205e09e51b7543c",
+          "publisher_id": 20242446
+        }
+      ],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 2,
+        "new_publishers": 3
+      },
+      "new_to_board": []
+    },
+    "wx/畅销榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 17,
+          "name": "我在古代有座城",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "安徽盈趣网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxaeb2dc12ad2bc1b0",
+          "publisher_id": 20162307
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 4,
+          "name": "我叫MT：崛起",
+          "category": "角色",
+          "category_rank": 1,
+          "subcategory": "卡牌",
+          "slogan": "",
+          "publisher": "海南祺曜互动娱乐有限公司",
+          "change": "3",
+          "change_direction": "up",
+          "app_id": "wx96d5cd65b58b13b2",
+          "publisher_id": 20302735
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 1
+      },
+      "new_to_board": [
+        {
+          "rank": 17,
+          "name": "我在古代有座城",
+          "category": "休闲",
+          "category_rank": 11,
+          "subcategory": "模拟经营",
+          "slogan": "",
+          "publisher": "安徽盈趣网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wxaeb2dc12ad2bc1b0",
+          "publisher_id": 20162307
+        }
+      ]
+    },
+    "wx/畅玩榜": {
+      "platform": "wx",
+      "platform_label": "微信小游戏",
+      "board_label": "畅玩榜",
+      "first_anywhere": [],
+      "first_on_board": [
+        {
+          "rank": 14,
+          "name": "动物搬搬砖",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "广州摩摩达科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx12c960fd5d45dd89",
+          "publisher_id": 20302488
+        }
+      ],
+      "returning": [],
+      "new_publishers": [
+        {
+          "rank": 14,
+          "name": "动物搬搬砖",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "广州摩摩达科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx12c960fd5d45dd89",
+          "publisher_id": 20302488
+        },
+        {
+          "rank": 17,
+          "name": "几何大作战",
+          "category": "休闲",
+          "category_rank": 16,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "厦门好鸟科技有限公司",
+          "change": "2",
+          "change_direction": "up",
+          "app_id": "wxa205e09e51b7543c",
+          "publisher_id": 20242446
+        }
+      ],
+      "totals": {
+        "new_to_board": 1,
+        "returning": 0,
+        "new_publishers": 2
+      },
+      "new_to_board": [
+        {
+          "rank": 14,
+          "name": "动物搬搬砖",
+          "category": "休闲",
+          "category_rank": 14,
+          "subcategory": "消除",
+          "slogan": "",
+          "publisher": "广州摩摩达科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "wx12c960fd5d45dd89",
+          "publisher_id": 20302488
+        }
+      ]
+    },
+    "douyin/热门榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "热门榜",
+      "first_anywhere": [
+        {
+          "rank": 12,
+          "name": "脑洞谜题等你来",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都之牧互动网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt4cf23a4fd28ae1d902",
+          "publisher_id": 20302722
+        },
+        {
+          "rank": 17,
+          "name": "消不到我呀",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都布尔凯索科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt0a5f7ce29551957607",
+          "publisher_id": 20244255
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "最后亿关",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "重庆宸启互娱科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt78630edee605852907",
+          "publisher_id": 20262413
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 2,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 12,
+          "name": "脑洞谜题等你来",
+          "category": "1",
+          "category_rank": 12,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都之牧互动网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt4cf23a4fd28ae1d902",
+          "publisher_id": 20302722
+        },
+        {
+          "rank": 17,
+          "name": "消不到我呀",
+          "category": "1",
+          "category_rank": 17,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "成都布尔凯索科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt0a5f7ce29551957607",
+          "publisher_id": 20244255
+        }
+      ]
+    },
+    "douyin/畅销榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "畅销榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 2,
+          "name": "我的花园世界",
+          "category": "模拟经营",
+          "category_rank": 2,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南途趣科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttcc26ba9b532f1e8202",
+          "publisher_id": 20243982
+        },
+        {
+          "rank": 4,
+          "name": "俱乐大玩家",
+          "category": "派对游戏",
+          "category_rank": 4,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南临游科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt5a362c8bc45262eb07",
+          "publisher_id": 20002327
+        },
+        {
+          "rank": 20,
+          "name": "烈焰觉醒",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "杭州悦妙网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt0d317b8c92384c8302",
+          "publisher_id": 20243443
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 3,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "douyin/新游榜": {
+      "platform": "douyin",
+      "platform_label": "抖音小游戏",
+      "board_label": "新游榜",
+      "first_anywhere": [
+        {
+          "rank": 5,
+          "name": "像素世界对决",
+          "category": "1",
+          "category_rank": 5,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门猫咪游网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9d4bebf6032eda9602",
+          "publisher_id": 20302397
+        },
+        {
+          "rank": 7,
+          "name": "怪奇传说",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南千初网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf08c86316ee8959c02",
+          "publisher_id": 20302383
+        },
+        {
+          "rank": 10,
+          "name": "小镇加油站",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市灵星网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt263c5081b8596f6a02",
+          "publisher_id": 20192359
+        },
+        {
+          "rank": 18,
+          "name": "无敌消消王",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州灵桃网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt171861a5896399c402",
+          "publisher_id": 20262392
+        }
+      ],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "勇者历险记",
+          "category": "1",
+          "category_rank": 20,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州市火幻网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt431f35a2dd6156ee02",
+          "publisher_id": 20302388
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 4,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": [
+        {
+          "rank": 5,
+          "name": "像素世界对决",
+          "category": "1",
+          "category_rank": 5,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "厦门猫咪游网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt9d4bebf6032eda9602",
+          "publisher_id": 20302397
+        },
+        {
+          "rank": 7,
+          "name": "怪奇传说",
+          "category": "1",
+          "category_rank": 7,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "海南千初网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "ttf08c86316ee8959c02",
+          "publisher_id": 20302383
+        },
+        {
+          "rank": 10,
+          "name": "小镇加油站",
+          "category": "1",
+          "category_rank": 10,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "深圳市灵星网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt263c5081b8596f6a02",
+          "publisher_id": 20192359
+        },
+        {
+          "rank": 18,
+          "name": "无敌消消王",
+          "category": "1",
+          "category_rank": 18,
+          "subcategory": "",
+          "slogan": "",
+          "publisher": "广州灵桃网络科技有限公司",
+          "change": "",
+          "change_direction": "new",
+          "app_id": "tt171861a5896399c402",
+          "publisher_id": 20262392
+        }
+      ]
+    },
+    "taptap/预约榜": {
+      "platform": "taptap",
+      "platform_label": "TapTap",
+      "board_label": "预约榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 7,
+          "name": "镇魂街王者归来",
+          "publisher": "上海游碧曜",
+          "category": "角色扮演",
+          "subcategory": "动作、二次元"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/美区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 6,
+          "name": "Imposter Game - Party Edition",
+          "publisher": "Sven Vucak",
+          "category": "Games",
+          "app_id": "6745120053",
+          "url": "https://apps.apple.com/us/app/imposter-game-party-edition/id6745120053?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/6e/13/da6e137d-1244-3a65-9245-c9d209602e6f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+          "slogan": "One of you is the imposter. Can the rest of you tell?\n\nImposter Game is a party "
+        },
+        {
+          "rank": 12,
+          "name": "Charades - Family & Party Game",
+          "publisher": "Dmytro Cheverda",
+          "category": "Games",
+          "app_id": "1453837845",
+          "url": "https://apps.apple.com/us/app/charades-family-party-game/id1453837845?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/27/04/ac270450-57e8-4093-517c-f2c5d7a4c8c8/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+          "slogan": "Fun and easy to play game will cheer up your party or family gathering.\n\nGuess t"
+        },
+        {
+          "rank": 15,
+          "name": "Charades Guess Game · Guessly",
+          "publisher": "smak apps",
+          "category": "Games",
+          "app_id": "6473058122",
+          "url": "https://apps.apple.com/us/app/charades-guess-game-guessly/id6473058122?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/70/4d/7c704daf-029f-d808-9300-dc4928fded70/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.jpeg/100x100bb.png",
+          "slogan": "Ready to turn ordinary hangouts into unforgettable moments? Meet Guessly — a cha"
+        },
+        {
+          "rank": 18,
+          "name": "Paper.io 2",
+          "publisher": "Voodoo",
+          "category": "Games",
+          "app_id": "1423046460",
+          "url": "https://apps.apple.com/us/app/paper-io-2/id1423046460?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/e7/bc/53e7bcd4-40b7-67da-be7d-41a51bfd29fa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "slogan": "Join millions of players in the world's most satisfying .io game! Move around th"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 4,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/国区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "国区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 20,
+          "name": "QQ飞车",
+          "publisher": "Shenzhen Tencent Tianyou Technology Ltd",
+          "category": "游戏",
+          "app_id": "1235504705",
+          "url": "https://apps.apple.com/cn/app/qq%E9%A3%9E%E8%BD%A6/id1235504705?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/e2/1b/9de21bed-b574-408f-8b0f-46f4471fd2d0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "腾讯十年经典，唯一官方正版《QQ飞车手游》，全球累计注册用户突破2亿，全民竞速手游不可不玩！\n\n《QQ飞车手游》由端游原班人马倾情打造，采用最新的渲染方式，为玩"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "ios/日区免费榜": {
+      "platform": "ios",
+      "platform_label": "iOS",
+      "board_label": "日区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [
+        {
+          "rank": 18,
+          "name": "Sled Surfers - ファーズ - 坂冒険",
+          "publisher": "Crazy Labs",
+          "category": "ゲーム",
+          "app_id": "6744975195",
+          "url": "https://apps.apple.com/jp/app/sled-surfers-%E3%83%95%E3%82%A1%E3%83%BC%E3%82%BA-%E5%9D%82%E5%86%92%E9%99%BA/id6744975195?uo=2",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/91/32/a7913239-5fc8-29d9-c1fd-c0716fe58eca/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "slogan": "『スレッドサーファーズ』は、雪に覆われた斜面を駆け下り、障害物を避け、フリップを決め、新しいソリやキャラクターをアンロックするスピード感あふれる冬のソリゲームで"
+        }
+      ],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 1,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    },
+    "android/美区免费榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "new_to_board": []
+    }
+  }
+}
