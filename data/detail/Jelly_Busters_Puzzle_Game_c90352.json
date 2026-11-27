@@ -1,0 +1,329 @@
+{
+ "schema_version": 1,
+ "name": "Jelly Busters: Puzzle Game",
+ "updated_at": "2026-11-27",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Moon Active",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 3
+  },
+  "platform_app_ids": {
+   "ios": "6756058501"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 26,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D+3D混合",
+  "art_style": "像素方块拼成的隐藏画 + 3D 渲染的果冻角色 + 高饱和光晕，滑板场主题",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 3,
+   "physics": 4,
+   "logic": 4,
+   "data": 2,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "纯 2D 网格加弹射，成熟框架直接套，不需要任何引擎改造",
+   "art": "主体是每关一张隐藏像素画，可用 AI 生图加像素化脚本批量产出；果冻角色与场景是少量 3D 资产，包体 306MB 主要来自 3D 与音效缓存",
+   "anim": "方块碎裂是逐块缩放淡出加粒子，果冻有弹跳与挤压，量不大但追求「软」的手感",
+   "physics": "**最吃工的一项**：弹射角度、方块间碰撞反弹、整片坍塌的连锁判定，三者要一起调才有「一炮打掉半屏」的爽感",
+   "logic": "关卡由色数 × 方块密度 × blocker 数三条轴共同决定难度，逐关手工设计，关卡产能就是内容供给上限",
+   "data": "只有金币、道具与 booster 单线，没有养成链，是全案最轻的一块",
+   "server": "排行榜、活动与云存档，无需对战，服务端压力小",
+   "audio": "ASMR 爆破音与轻音乐是核心卖点之一，属少量但精调的定制音效"
+  },
+  "asset_notes": "「隐藏画」是它素材成本低的根本原因：一关一张像素图，AI 生图加像素化加分块映射即可批量产出，这是可以整套搬走的生产管线",
+  "notes": "2026-01 在印度、菲律宾安卓软启动跑数据，11 月才全球上线；美区免费榜峰值 #17（8 月中）、当前 #99，属放量后回落的买量曲线，不是长期霸榜",
+  "cost_score": 3.0,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "果冻沿方块墙外围的回路绕行，点屏把它射向同色方块，消掉一层就露出底下的像素画；清完整张图过关，卡住时靠 booster 与广告续命。",
+  "highlights": [
+   "揭图：每消一层都离「画面里到底是什么」更近一步，清完那一下的完整图像是唯一大奖，天然驱动再来一关",
+   "ASMR 爆破音配方块整片坍塌加光晕扩散，反馈密度接近解压视频，是它买量素材能自己长出来的原因",
+   "连锁：一发打进同色密集区会连带引爆整片，一次点击打掉半屏的爽感远大于逐块点",
+   "果冻沿轨道绕行的视觉引导让落点可预判，降低了「射不准」的挫败，但保留了角度计算的空间感"
+  ],
+  "innovations": [
+   "把消除的目标从「清空棋盘」换成「揭出一张画」，每关自带收集品与完成度，是方块射击里少见的长期动机设计",
+   "轨道绕行加弹射的组合，把 Zuma 的路径管理与 Bust-a-Move 的瞄准合到同一套操作上"
+  ],
+  "target_user": "25-45 岁女性为主，通勤与睡前碎片时间，追求解压与「看图」的完成感",
+  "monetization": "混合：IAA（关卡结束插屏、复活与加步激励视频）加 IAP（1.99–19.99 美元金币包、7.99 美元去广告）；评论普遍反映金币经济偏紧、难度贴着付费点走",
+  "lifecycle": "短中期：靠关卡包与活动滚动更新；美区从 #17 回落到 #99 说明买量驱动明显，长线取决于关卡产能"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "机制极轻：一条轨道、一次瞄准、一片方块、一张底图，纯前端两周能出可玩版；没有刚体物理、没有联网对战、没有养成线。瓶颈完全在隐藏画的产能与题材，不在技术。原作题材（滑板场加果冻）对国内用户无认知，换题材就是差异化。",
+  "suggestions": [
+   "把底图从插画换成国风年画、老照片或城市地标，一关揭一张，天然带收集与分享动机",
+   "加「画册」收集线：清完的图进图鉴，集满一套解锁新弹射器外观，把单局爽感接到长线",
+   "难度按色数、方块密度、blocker 数三条轴分开调，别学原作把卡点直接做成付费墙",
+   "首 10 关去掉全部 blocker，把「60 秒揭一张」的节奏先立住，再谈难度"
+  ],
+  "risks": [
+   "方块射击赛道已饱和，买量 CPI 高，纯 IAA 的回本周期被拉长",
+   "隐藏画若用 AI 批量生成，像素化后容易出现「糊成一团、看不出是什么」，揭图爽感会直接崩掉",
+   "照搬它的变现节奏（难度贴着付费点）会拉低评分，玩法可以抄、付费墙不能抄"
+  ],
+  "effort": "15–25 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "可复用",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "「揭出一张画」给了消除一个终点：本作 4.77 分、1.3 万条评分，评论反复出现「看图」与「解压」，说明完成感比分数更能留住人"
+    },
+    {
+     "lens": "用户",
+     "text": "操作一句话讲得完（对准、点一下、方块炸开），没有教学成本，泛用户第一局就能上手，首日不会因看不懂流失"
+    },
+    {
+     "lens": "业务",
+     "text": "纯单机前端，无刚体物理、无联网对战，「轨道 + 瞄准 + 消色 + 揭图」一套组件两周能接进现成活动位"
+    },
+    {
+     "lens": "业务",
+     "text": "广告位结构天然（关卡结束插屏 + 复活与加步激励视频），正好用来校准自有广告点位的触发时机与频次"
+    }
+   ],
+   "how": [
+    "把「轨道 + 瞄准 + 消色 + 揭图」做成一版节日活动玩法（底图用当季主题），入口挂一号位，一周内看单局完成率与次日回访",
+    "按它的插屏与激励视频触发时机 1:1 复刻（关卡结束、失败复活、加步），跑 A/B 校准自有点位的广告渗透率"
+   ],
+   "gain": [
+    "两周开发量换一套可复用的揭图消除活动框架，之后每个节日只换底图即可复用",
+    "拿到广告位定价标尺：1 次复活等价 1 次激励视频等价约 30 秒时长，可直接校准自有点位价值",
+    "沉淀「像素图批量生产」管线：AI 生图加像素化加分块映射，一次搭建后边际成本递减",
+    "明确不做联网与养成线，规避排行榜反作弊与长线内容供给两类长期负担"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "Moon Active 自研自发（Coin Master 月流水约 4,700 万美元），同期还并行四条软启动产品线，不需要外部代理",
+    "唯一可谈的是买量素材创意参考，用其公开投放即可，无需接触"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "电商大促揭券",
+     "how": "把底图换成优惠券或爆款图，消完一层揭开一块折扣信息，清完整图解锁满减"
+    },
+    {
+     "scene": "品牌私域签到",
+     "how": "每日一关固定底图换成品牌月度主题画，集满当周进图鉴换积分"
+    }
+   ]
+  },
+  "summary": "机制两周可搬，换题材即成立"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ea/cd/76eacdf9-8974-c81a-5e71-379541f5c3fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/80/7e/87807e85-1eaf-64c2-71e7-0796e35bbd3e/08_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/97/ba/f3/97baf3a7-fd99-e615-9dbf-45c6d3c74c64/JLB00728_ZoomLibertyShocked.Screen.CTACOL_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/e4/a0/32e4a0e3-bd36-1bbe-51c7-f84c93978576/JLB00730_AngryStrawberry.Screen.CTACOLOR_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/b5/17/bcb51783-f8ce-1d60-57d0-fe2ee1daece2/09_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/9e/42/a69e42c3-fa16-c2f1-3b13-24e9c7022878/06_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/ea/1e/00ea1e48-7276-947f-13d3-1bb88f6afa00/05_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/9e/b0/859eb0eb-0e09-44d2-2303-cda2133ee9cb/07_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/2c/d0/162cd054-9a20-b2a8-ecce-3f9c204cb1c4/02_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/bb/b6/9dbbb62d-8e42-bc97-c476-108b85c6eacc/08_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/40/4a/03404a47-0d51-618c-eb26-c4b81003e816/JLB00728_ZoomLibertyShocked.Screen.CTACOL_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/a3/f6/fca3f63b-358f-bd35-b88f-3b9a49f970d1/JLB00730_AngryStrawberry.Screen.CTACOLOR_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/14/5b/67145b8c-2652-7e06-8372-3bbc2437254e/09_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/91/3b/89913b22-278e-f04a-a7aa-96f41282e4bc/06_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3a/ab/c7/3aabc7a3-b32f-8646-6972-c02e46e66ab5/05_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/26/c5/ed26c56e-d56b-d9c2-d807-94be72dc8f92/07_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/36/11/81/361181fd-b926-4e41-3e88-ae070e46c5e1/02_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 16"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "美区 App Store 包体 306,511,872 字节、v220000.1.225、4.77 分 / 13,170 条评分",
+   "level": "confirmed"
+  },
+  {
+   "claim": "2026-01 在印度、菲律宾安卓软启动，11 月全球上线；美区免费榜峰值 #17（8 月中）、当前 #99",
+   "level": "confirmed"
+  },
+  {
+   "claim": "玩法为果冻沿方块墙外围轨道绕行、弹射消同色、逐层揭出隐藏像素画，混合 Zuma 与 Bust-a-Move",
+   "level": "confirmed"
+  },
+  {
+   "claim": "变现为 IAA 加 IAP（1.99–19.99 美元，7.99 美元去广告），评论反映金币紧张、难度贴着付费点",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断为 Unity（未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/jelly-busters-puzzle-game/id6756058501",
+  "https://play.google.com/store/apps/details?id=com.moonactive.jellybusters",
+  "https://www.lightgame.cc/game/ios-ea6c3fdb4e.html",
+  "https://www.droidgamers.com/news/jelly-busters-puzzle-game",
+  "https://www.appstoretracker.com/app/jelly-busters-puzzle-game-6756058501"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Jelly Busters: Puzzle Game",
+  "country": "us",
+  "track_id": 6756058501,
+  "seller": "Moon Active LTD",
+  "genres": [
+   "Games",
+   "Casual",
+   "Puzzle"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ea/cd/76eacdf9-8974-c81a-5e71-379541f5c3fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/80/7e/87807e85-1eaf-64c2-71e7-0796e35bbd3e/08_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/97/ba/f3/97baf3a7-fd99-e615-9dbf-45c6d3c74c64/JLB00728_ZoomLibertyShocked.Screen.CTACOL_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/e4/a0/32e4a0e3-bd36-1bbe-51c7-f84c93978576/JLB00730_AngryStrawberry.Screen.CTACOLOR_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/b5/17/bcb51783-f8ce-1d60-57d0-fe2ee1daece2/09_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/9e/42/a69e42c3-fa16-c2f1-3b13-24e9c7022878/06_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/ea/1e/00ea1e48-7276-947f-13d3-1bb88f6afa00/05_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/9e/b0/859eb0eb-0e09-44d2-2303-cda2133ee9cb/07_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/2c/d0/162cd054-9a20-b2a8-ecce-3f9c204cb1c4/02_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/bb/b6/9dbbb62d-8e42-bc97-c476-108b85c6eacc/08_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/40/4a/03404a47-0d51-618c-eb26-c4b81003e816/JLB00728_ZoomLibertyShocked.Screen.CTACOL_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/a3/f6/fca3f63b-358f-bd35-b88f-3b9a49f970d1/JLB00730_AngryStrawberry.Screen.CTACOLOR_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/14/5b/67145b8c-2652-7e06-8372-3bbc2437254e/09_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/91/3b/89913b22-278e-f04a-a7aa-96f41282e4bc/06_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3a/ab/c7/3aabc7a3-b32f-8646-6972-c02e46e66ab5/05_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/26/c5/ed26c56e-d56b-d9c2-d807-94be72dc8f92/07_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/36/11/81/361181fd-b926-4e41-3e88-ae070e46c5e1/02_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg"
+  ],
+  "description": "Drop into the smoothest skatepark in town with the Jelly Busters crew, a squad of bouncy jellies who live to skate, color shoot, and bust their way through walls of cubes. Every run starts with a simple push on your board, a quick aim, and a clean shot as you send your jelly flying into a glowing, colorful puzzle blast of cubes hiding a secret picture and image below.\n\nJelly Busters adds a fun, skate-infused twist packed with ASMR pleasure and arcade-style thrills. With every tap, you shoot into stacks of colors, bust the cubes, and slowly keep busting the image underneath until the whole board is clear.\n\nThe sound and feel are tuned for maximum satisfying chill. Cubes crumble with soft pops, jellies bounce just right, and the whole game wraps you in a relaxing mood that still demands fast reaction and strategic thinking. It’s the perfect combination: a cube shooter that’s as soothing as it is intense, always very satisfying to clear the image at the end of a run.\n\nBut the park has tricks of its own. From the very first levels, you’ll see that this isn’t just mindless tapping. The game develops and gets more challenging and harder as you play, with clever layouts and sneaky blockers that force you to plan ahead. Each new level adds a fresh twist - more cubes, tougher patterns, and smarter obstacles that you’ll have to avoid if you want to keep your blast streak going.\n\nTo keep things interesting, you’ll unlock powerful level boosters that turn tight spots into epic comebacks. Trigger a massive blast, shatter whole sections at once, or set off chain reactions that leave nothing behind. As you progress, you’ll constantly win rewards and win prizes, giving your jelly crew more ways to dominate the skatepark and tackle the trickiest levels.\n\nGet ready to compete with players everywhere, pushing your skills to the limit as you advance in leaderboards. When you finally join the leaderboard of top busters, every clean run and every perfectly cleared board will feel even sweeter.\n\nJelly Busters is your new go-to for relaxing ASMR cube action: a wildly exciting and deeply satisfying skatepark adventure filled with jellies, cubes, vibrant colors, puzzle challenges, explosive blast moments, and endless chances to win rewards and prizes while riding along with the coolest jelly crew around.\n\nIn Jelly Busters, every shot is a chance to burst through, and every completed picture feels like a tiny victory. So grab your (skate) board, team up with the jellies, and start busting cubes to enjoy a relaxing yet satisfying yet totally exciting image puzzle blast. \n\nDownload Jelly Busters today and unleash the sweet, strategic chaos of this awesome jelly adventure.\n\nTerms of Service: https://static.moonactive.net/legal/terms.html?lang=en\nPrivacy Notice: https://static.moonactive.net/legal/privacy.html?lang=en",
+  "release_notes": "We are incredibly excited to announce the official launch of Jelly Busters! Drop into the coolest skatepark in town and experience a puzzle game that is as colorful and beautiful as it is satisfying. With soft ASMR pops, glowing hues, and hidden artistic masterpieces to destroy, every run is a relaxing yet thrilling ride...grab your board to join the crew and start busting!",
+  "file_size_bytes": 306511872,
+  "min_os": "13.0",
+  "version": "220000.1.225",
+  "release_date": "2026-01-26",
+  "rating": 4.76826,
+  "rating_count": 13170,
+  "price": "Free",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/us/app/jelly-busters-puzzle-game/id6756058501?uo=4",
+  "fetched_at": "2026-11-27T22:32:45+08:00"
+ },
+ "slug": "Jelly_Busters_Puzzle_Game_c90352"
+}

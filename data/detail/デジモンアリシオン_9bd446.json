@@ -1,0 +1,330 @@
+{
+ "schema_version": 1,
+ "name": "デジモンアリシオン",
+ "updated_at": "2026-11-27",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "BANDAI Co., Ltd.",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 3
+  },
+  "platform_app_ids": {
+   "ios": "6740988190"
+  },
+  "first_seen": "2026-11-26",
+  "appearances": 2,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D+3D混合",
+  "art_style": "2D 卡面（数码兽为 3D 渲染出图）+ 蓝白扁平 UI，关键攻击走 3D 过场与视觉小说式立绘对话",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 5,
+   "data": 4,
+   "server": 5,
+   "audio": 3
+  },
+  "dim_notes": {
+   "engine": "卡牌对战不需要改引擎，但要在同一套框架里撑住卡表版本管理与实时对战，属「成熟引擎 + 自建规则层」",
+   "art": "卡图直接沿用实体《数码宝贝卡牌游戏》既有素材（BD-01~04 加 ST-25/26 预组），量大但可复用，边际成本低于原创卡池",
+   "anim": "关键攻击是 3D 过场，日常对战只有卡牌位移与特效，量集中在新卡的高光演出上",
+   "physics": "纯卡牌摆放与判定，无物理模拟",
+   "logic": "**完整 TCG 规则引擎**：记忆条结算、Security 翻牌、进化与继承效果、上千张卡的效果文本与判例，是整个项目最难的部分",
+   "data": "卡池、图鉴、育成至完全体、赛制与赛季四条线，深度不如 RPG，但要长期跟实体卡池同步",
+   "server": "全球 183 国实时排位、好友对战、卡池按需下发与反作弊，是纯联网产品",
+   "audio": "日语为主的多语配音，部分语种配音被玩家批评；非全语音，定制程度中等"
+  },
+  "asset_notes": "卡图与卡表直接来自实体卡池，这是万代独有的复用优势；包体仅 162MB 说明卡图走服务端按需下发，不是本地全量，反过来说明素材层不是它的成本项",
+  "notes": "数字版是实体卡的「第二入口」而非替代品：每日免费卡包加实体预组内附兑换码，把人导回线下牌店。与实体版共用同一套卡表，规则改动要双端同步",
+  "cost_score": 3.5,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "用 50 张主卡组加 3–5 张数码蛋组牌，靠共享「记忆条」出牌：花得越多，回合越早交给对手。进化叠加继承效果，打穿对手 5 张 Security 就赢；每天领一包免费卡包，攒料补卡组。",
+  "highlights": [
+   "记忆条是共享的：一次大铺场等于把下回合的资源送给对手，「敢不敢多花 1 点」每回合都在拷问，这是本作最硬的决策点",
+   "Security 当血条：被打中翻开的牌可能是救命反击，也可能什么都没有，翻牌那一下天然带赌感",
+   "进化叠卡：往同色下层卡上进化会抽一张牌，并把下层效果堆成继承效果，构筑时能玩出层叠组合",
+   "每日免费卡包加异画、动态异画，卡面本身就是收藏品，开包动力不依赖战力"
+  ],
+  "innovations": [
+   "把实体卡的共享记忆条完整搬进数字端并做成双向可视刻度，让「资源即回合」的取舍在手机上看得见",
+   "数字端与实体预组打通（预组内附兑换码），做成线上练手到线下买卡的漏斗，而不是替代关系"
+  ],
+  "target_user": "12-30 岁数码宝贝粉丝与实体 TCG 玩家，日本与欧美为主力市场",
+  "monetization": "IAP 为主：卡包、预组套牌、活动通行证；每日免费卡包保底，无强制激励视频",
+  "lifecycle": "长线运营：按实体卡池节奏（BD 系列、ST 预组）同步更新，内容供给天然跟得上"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "万代自有 IP 加实体卡池，卡图与卡表都不对外；数字版真正的工程量不在客户端，而在「上千张卡的效果结算引擎 + 全球实时排位」，这是 TCG 里最难的一层。玩法上唯一值得单拎的是记忆条：资源消耗与回合权直接耦合，不依赖 IP，可以整块搬走。",
+  "suggestions": [
+   "只搬「记忆条」：把「花资源等于把回合让给对手」做成回合制的资源轴，替代传统的每回合固定行动点",
+   "若做卡牌收集，把「每日一包」当默认留存钩子而不是活动补位，这是成本最低的长期回访理由",
+   "不做 TCG 就做「单机制卡牌」：只留记忆条加一条胜负线，砍掉继承效果与卡池深度，两周能出原型",
+   "IP 向产品别硬做同款，改做「规则轻、演出重」的替代品，预算放在过场与语音上"
+  ],
+  "risks": [
+   "数码宝贝形象与卡图是万代独占，任何同款都直接侵权",
+   "TCG 规则引擎一旦有结算 bug，核心玩家会立刻发现并放大，修复成本极高",
+   "全球实时排位对匹配与网络要求高，首发期日区仅 3.76 分，说明体验仍有明显短板"
+  ],
+  "effort": "不建议立项；若只做「记忆条」单机制原型，10–15 人日（1 前端 + 0.5 策划）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "TCG 玩家要的是「规则站得住加卡面好看」，本作靠实体卡池直接继承这两点；换成原创卡池，第一道门槛就是卡表与规则的信任成本"
+    },
+    {
+     "lens": "用户",
+     "text": "记忆条把「多花一点」变成「把回合送人」，这种即时反噬的取舍比固定行动点更有张力，泛用户第二局就能理解"
+    },
+    {
+     "lens": "业务",
+     "text": "可迁移的是「资源消耗与回合权耦合」这一条轴，不依赖 IP 与卡池，接进自有回合制玩法约两周，其余两块都不碰"
+    },
+    {
+     "lens": "业务",
+     "text": "不做的话，自有回合制会一直停在每回合固定行动点的老结构上，很难做出真正的决策张力"
+    }
+   ],
+   "how": [
+    "在自有回合制玩法里加一条共享资源条：消耗推到对手一侧即提前交回合，先在一个小玩法灰度，看单局决策次数与次留",
+    "把「每日一包」做成默认登录钩子而不绑活动，A/B 看 7 日回访与开包到对局的转化"
+   ],
+   "gain": [
+    "拿到一条可复用的资源轴设计，替代固定行动点，一次改造多处玩法适用",
+    "省掉 TCG 效果结算引擎的投入（上千张卡的结算与判例是数人年量级），单机制原型即可验证价值",
+    "明确不做全球实时排位，规避匹配、反作弊与弱网三类长期运维负担",
+    "拿到一个卡牌产品的判断口径：卡池深度不是壁垒，规则引擎与卡表信任才是"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "万代卡牌游戏自研自发，IP 与卡池均不外放，没有代理或联运入口",
+    "唯一可谈的是实体卡在中国的发行合作，与数字版无关，也不在我们的能力范围"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "会员积分回合制",
+     "how": "把记忆条改成「本月积分池」，花积分换权益的同时把下月额度让给对方等级，做成等级博弈"
+    },
+    {
+     "scene": "教育机构闯关题库",
+     "how": "把 Security 翻牌换成「错题翻开即扣分」，记忆条改成团队共用答题时长，答得多则下轮让给对手"
+    }
+   ]
+  },
+  "summary": "只取记忆条这一条资源轴，IP 与卡池不碰"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/5d/f0/655df06f-481e-60c0-7319-8b791ea4dc8f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（jp）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/5a/a1/905aa17a-9552-4568-fc9c-865cfcfa8250/ja_JP_6.9inch_01.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/40/b5/0840b5e1-33f1-85e1-4dbc-9414915e2600/ja_JP_6.9inch_02.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/d4/40/2ed4407c-94c4-e52f-3eae-ad5b53e22ad6/ja_JP_6.9inch_03.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/7e/03/9e7e0387-d869-453c-fd2e-702c8cd72cb9/ja_JP_6.9inch_04.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/83/80/d9838013-ea48-0f1e-75c2-2c2c569d4667/ja_JP_6.9inch_05.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/05/94/f7059424-3e1b-75d6-7142-e27e06bcbd9a/ja_JP_6.9inch_06.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/3f/72/f23f72ba-3075-db75-1a7c-4fb4e3ef72e7/ja_JP_6.9inch_07.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/c2/dc/fbc2dc51-736c-9d16-9fc2-060716ee3b90/ja_JP_6.9inch_08.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/41/99/834199aa-1e0a-4e1f-11f6-cfabe81dd395/ja_JP_13inch_01.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/49/b6/bb/49b6bb8c-a271-a701-da08-ec7e80b212fe/ja_JP_13inch_02.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/2c/ed/992ced81-0500-da37-b7c0-3488d44230ed/ja_JP_13inch_03.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/8b/53/0b8b5376-e15f-e23a-87c6-f2ef766767ee/ja_JP_13inch_04.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/b2/c3/13b2c337-9601-19fe-5aba-7adb78663d22/ja_JP_13inch_05.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/5c/d4/155cd463-f435-944f-d51b-c9c7792aba0f/ja_JP_13inch_06.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/4c/f1/fc4cf159-884d-847e-287f-c78c4e881a74/ja_JP_13inch_07.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/99/7f/97997fd9-4d0d-bcdd-72e7-e5d0f7862280/ja_JP_13inch_08.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 16"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "日区 App Store 包体 170,210,304 字节、v1.0.0、2026-11-25 上线、3.76 分 / 58 条评分",
+   "level": "confirmed"
+  },
+  {
+   "claim": "全球 183 个国家和地区同步上线，预约 45 万，免费加内购，无 PC 与主机版",
+   "level": "confirmed"
+  },
+  {
+   "claim": "规则为实体《数码宝贝卡牌游戏》数字版：50 张主卡组 + 3–5 张数码蛋、共享记忆条、5 张 Security、育成至完全体",
+   "level": "confirmed"
+  },
+  {
+   "claim": "日区评分明显低于全球 App Store 的 4.5，差评集中在教程偏长、规则复杂与配音表现",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断为 Unity（2D 卡面 + 3D 过场，未找到官方确认）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/jp/app/id6740988190",
+  "https://togame.io/b/digimon-alysion",
+  "https://trenddigest.com/us/trends/games/digimon-alysion-launches-across-183-regions-with-story-and-card-battles--29344",
+  "https://www.163.com/dy/article/LCL9PK100526K1KN.html",
+  "https://play.google.com/store/apps/details?id=com.bandai.digimonalysionw"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "デジモンアリシオン",
+  "country": "jp",
+  "track_id": 6740988190,
+  "seller": "BANDAI Co., Ltd.",
+  "genres": [
+   "ゲーム",
+   "カード",
+   "アドベンチャー"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/5d/f0/655df06f-481e-60c0-7319-8b791ea4dc8f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/5a/a1/905aa17a-9552-4568-fc9c-865cfcfa8250/ja_JP_6.9inch_01.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/40/b5/0840b5e1-33f1-85e1-4dbc-9414915e2600/ja_JP_6.9inch_02.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/d4/40/2ed4407c-94c4-e52f-3eae-ad5b53e22ad6/ja_JP_6.9inch_03.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/7e/03/9e7e0387-d869-453c-fd2e-702c8cd72cb9/ja_JP_6.9inch_04.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/83/80/d9838013-ea48-0f1e-75c2-2c2c569d4667/ja_JP_6.9inch_05.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/05/94/f7059424-3e1b-75d6-7142-e27e06bcbd9a/ja_JP_6.9inch_06.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/3f/72/f23f72ba-3075-db75-1a7c-4fb4e3ef72e7/ja_JP_6.9inch_07.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/c2/dc/fbc2dc51-736c-9d16-9fc2-060716ee3b90/ja_JP_6.9inch_08.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/41/99/834199aa-1e0a-4e1f-11f6-cfabe81dd395/ja_JP_13inch_01.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/49/b6/bb/49b6bb8c-a271-a701-da08-ec7e80b212fe/ja_JP_13inch_02.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/2c/ed/992ced81-0500-da37-b7c0-3488d44230ed/ja_JP_13inch_03.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/8b/53/0b8b5376-e15f-e23a-87c6-f2ef766767ee/ja_JP_13inch_04.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/b2/c3/13b2c337-9601-19fe-5aba-7adb78663d22/ja_JP_13inch_05.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/5c/d4/155cd463-f435-944f-d51b-c9c7792aba0f/ja_JP_13inch_06.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/4c/f1/fc4cf159-884d-847e-287f-c78c4e881a74/ja_JP_13inch_07.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/99/7f/97997fd9-4d0d-bcdd-72e7-e5d0f7862280/ja_JP_13inch_08.png/626x1112bb.jpg"
+  ],
+  "description": "『デジモンアリシオン』ついに始動！\n新たなデジモンの世界を「デジモンカードゲーム」とともに楽しもう！\n\n■オリジナルストーリー！\nオリジナルキャラクターが織りなす未知のストーリー！\nまだ見ぬデジモンにも会えるかも!？キャラクターやデジモンたちとともに、新たな冒険を始めよう！\n\n■初めての方でも安心！\nカードの見方や使い方、戦い方までを丁寧に解説！\nトレーディングカードゲームを初めてプレイする方でも気軽に遊べる充実のチュートリアル！\nストーリーを体感しながらルールやカードの使い方を学んで\n「デジモンカードゲーム」の熱い駆け引きを体験しよう！\n\n■カードパックが毎日無料！\n毎日無料のパックを開封してカードを手に入れよう！\n戦略やプレイスタイルに合わせて、カードを自由に組み合わせて\n自分だけの最強のデッキを構築しよう！\n\n■自由に対戦を楽しもう！\n上位ランクを目指して、世界中の猛者と激戦の日々を過ごすもよし！\n友達やキャラクターたちと対戦を楽しみ、自分のペースで腕を磨くもよし！\n『デジモンアリシオン』の世界を遊び尽くそう！\n\n■魅力的なカードが満載！\n「デジモンカードゲーム」でこれまで登場してきたカードに加え\n『デジモンアリシオン』から新たに登場するカードも参戦！\nさらに、キラリと輝く「シャイン」、お馴染みの「パラレル」や\n豪華演出の「プレミアムパラレル」など、豊富なバリエーションを収録！\n多彩なカードをコレクションして、デジモンカードを味わい尽くそう！\n\n■デジモンを育成しよう！\n『デジモン』ならではの機能も搭載！デジモンを育成して究極体へ進化させよう！\n100体以上が収録されたデジモン図鑑のコンプリートを目指そう！\n\n他にも、「デジモンカードゲーム」を遊びやすく、楽しくプレイできる要素が盛沢山！\n遊んだことがある方も、これから始める方も\n『デジモンアリシオン』で、「デジモンカードゲーム」をプレイしてみよう！\n\n\n【動作環境、その他お問い合わせ】\n「Appサポート」をご確認ください\n\n※このアプリは、必ず「Appサポート」に記載の動作環境でご利用ください。動作環境でご利用の場合も、お客様のご利用状況やご利用機種特有の要因により、本サービスが正常に動作しないことがあります。\n\n\n本アプリケーションは、権利者の正式な許諾を得て配信しています。",
+  "release_notes": "・リリースに向けたアップデート",
+  "file_size_bytes": 170210304,
+  "min_os": "17.6",
+  "version": "1.0.0",
+  "release_date": "2026-11-25",
+  "rating": 3.75862,
+  "rating_count": 58,
+  "price": "無料",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%E3%82%A2%E3%83%AA%E3%82%B7%E3%82%AA%E3%83%B3/id6740988190?uo=4",
+  "source": "manual-itunes-search",
+  "fetched_at": "2026-11-27T22:35:59+08:00"
+ },
+ "slug": "デジモンアリシオン_9bd446"
+}

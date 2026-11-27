@@ -1,0 +1,283 @@
+{
+ "schema_version": 1,
+ "name": "ホロライブ麻雀 -ホロじゃん-",
+ "updated_at": "2026-11-27",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Aiming Inc.",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 1
+  },
+  "platform_app_ids": {
+   "ios": "6762111285"
+  },
+  "first_seen": "2026-11-25",
+  "appearances": 3,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "2D+3D混合",
+  "art_style": "日式扁平 UI + 37 位 VTuber 的 2D 立绘，牌桌走浅蓝灰冷色；听牌/和了时切 3D 角色动态特写",
+  "dims": {
+   "engine": 4,
+   "art": 4,
+   "anim": 4,
+   "physics": 1,
+   "logic": 5,
+   "data": 3,
+   "server": 5,
+   "audio": 5
+  },
+  "dim_notes": {
+   "engine": "要同时出 iOS/Android/Windows/浏览器四端且同服，一套牌桌渲染与输入层要在四种分辨率下都对，不是套模板能解决的",
+   "art": "37 位角色每人一套立绘、桌布、牌背、立直棒与名牌框，量在「人数 × 装饰件」上，可按角色外包",
+   "anim": "立直/和了是角色动态特写，属于骨架动画 + 粒子光效的合成，每条都要单独调，量级偏重",
+   "physics": "麻将牌是纯 2D 摆放与点击命中判定，无刚体模拟，手感问题只在牌面点击区",
+   "logic": "**立直麻将全套规则**：役种判定、振听、符计算、番计算、流局与连庄，任何一条算错都会被核心玩家逐条挂出来",
+   "data": "亲爱度、段位、卡池三条线都在，但都是轻量成长，没有数值养成深链",
+   "server": "四人实时对局 + 全国段位匹配 + 断线重连 + 观战，是这类产品最重的一块，纯单机做不出来",
+   "audio": "37 位成员全员新录对局语音（吃碰杠立直荣和自摸 + 战况互动），属全定制配音，量与成本都是顶格"
+  },
+  "asset_notes": "1.3GB 包体的大头是角色立绘、语音与装饰件；素材本身可按角色批量外包，但每条语音必须由 COVER 一侧新录，素材不是瓶颈，授权与排期才是",
+  "notes": "同日上线的 Google Play 版为同一产品（com.aiming.hololive.mahjong）；PC 与浏览器端走 now.gg，首发延期",
+  "cost_score": 3.88,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "四人日本立直麻将，选一位 hololive 成员出战，吃碰杠胡的同时攒亲爱度；一局结算段位分与亲爱度，回大厅解锁剧情、开卡池、换桌布，再开下一局。",
+  "highlights": [
+   "听牌那一下的立直特写：屏幕中央切到该角色的动态演出配专属语音，把「等一张牌」的紧张感做成粉丝向的仪式",
+   "新手辅助三件套常驻对局：役候补提示、推荐切牌、赛后牌谱复盘，把「无役不能胡」「振听」两道劝退关直接绕过去",
+   "亲爱度只在对局里涨：同一角色打够场次才解锁专属剧情与结算台词，粉丝有明确的「再打一局」理由",
+   "桌布、牌背、立直棒、名牌框逐项可换，等于把整张牌桌做成展示位，抽到的东西立刻看得见"
+  ],
+  "innovations": [
+   "把新手辅助做成对局内常驻（役候补 + 推荐切牌 + 复盘），而不是教程关的一次性教学",
+   "亲爱度与牌局强绑定：不靠送礼刷好感，而是打牌才涨，把「陪推打牌」的粉丝动机直接转成对局时长"
+  ],
+  "target_user": "日本 20-40 岁 hololive 观众为主，兼收轻度日麻玩家，两端用辅助功能拉平门槛",
+  "monetization": "IAP 为主：Jewels 抽角色与装饰、段位赛季 Special Pass；官方 web store 充值返利高于应用内，无强制激励视频",
+  "lifecycle": "长线运营的粉丝向平台产品：段位赛季 + 卡池轮换 + 月度剧情，不是一波流爆款"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "核心资产是 COVER 的 37 位 VTuber 与全员新录语音，属排他授权；技术上还要一套完整的立直麻将规则引擎（役种、振听、符番计算）加四端同服的实时对战，任一项都不是小游戏团队能短期补齐的。玩法层没有可抄的结构创新，壁垒全在 IP 与合规。",
+  "suggestions": [
+   "只借「新手辅助三件套」（役候补提示 / 推荐切牌 / 赛后复盘），套到自有棋牌或桌游玩法上，把新手的第一次成功提前",
+   "若要做粉丝向牌局，把 37 位角色换成自有 IP 或达人矩阵，胜负规则不改、只改演出与语音，成本能压到十分之一",
+   "把立直/和了的特写演出抽成通用「关键时刻放大」组件，复用到任何有「等结果」瞬间的玩法",
+   "不做日麻就做「轻规则 + 重演出」：规则压到一句话讲清（接龙、跑得快这类），预算全砸在演出上"
+  ],
+  "risks": [
+   "日麻规则实现错误（振听、符计算）会被核心玩家逐条挂出来，口碑修复成本极高",
+   "VTuber 肖像与语音是排他授权，任何「同款」都直接踩版权",
+   "四端同服加实时对战，弱网与断线重连是长期运维负担"
+  ],
+  "effort": "不建议立项；若只做「轻规则 + 强演出」的替代品，40–60 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "用户是被 37 位推锁在牌桌上的：上线两天就堆到 4.76 分、1.7 万条评分，说明「和推一起打牌」本身就是购买理由，换成无名角色这套动机立刻消失"
+    },
+    {
+     "lens": "用户",
+     "text": "日麻对泛用户仍是高门槛品类，原作靠常驻辅助把「不会打」兜住；只搬规则不搬辅助，第一批用户会在第二局就走"
+    },
+    {
+     "lens": "业务",
+     "text": "壁垒是 COVER 的角色与全员新录语音，属排他授权，不进入可谈范围，也没有替换空间"
+    },
+    {
+     "lens": "业务",
+     "text": "1.3GB 包体加四端同服再叠加全套立直规则引擎，投入量级远超一个活动位的预算，与现有产品线也无协同"
+    }
+   ],
+   "how": [
+    "只取「新手辅助三件套」做成一版通用引导层（提示 / 推荐 / 复盘），先接在自有棋牌或桌游玩法上，一周内看新手首局完成率",
+    "把「关键时刻放大演出」（听牌 / 和了 / 结算）抽成组件替换现有玩法的平淡结算，A/B 看单局完成率与分享率"
+   ],
+   "gain": [
+    "省掉整条日麻规则引擎的投入，役种判定与符番计算是数人月量级，预算可以全留在演出与题材上",
+    "拿到一套可复用的新手引导层：任何规则型玩法都能挂「提示 + 推荐 + 复盘」，边际成本近零",
+    "规避 IP 风险：37 位 VTuber 的肖像是排他授权，不做同款就不会踩线",
+    "看清一个判断：粉丝向产品的量来自角色而不是玩法，做同类之前先确认手里有没有能撑住日活的角色资产"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "COVER 与 Aiming 是协业自研自发，角色与语音不对外授权，没有代理或联运的入口",
+    "唯一可谈的是 Aiming 的跨端研发能力，但对我们是能力采购而不是产品合作，优先级排不进"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "品牌会员专属牌局",
+     "how": "把 37 位角色换成会员等级形象，段位赛改成月度积分榜，桌布与牌背当等级权益发放"
+    },
+    {
+     "scene": "直播间互动牌局",
+     "how": "把亲爱度换成主播好感度，观众打牌涨主播进度，结算时抽出可上墙的立直特写"
+    }
+   ]
+  },
+  "summary": "只拿新手辅助与关键时刻演出，规则和 IP 都不碰"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/59/6c/ab596ce5-b7f3-fb7f-1b9c-87528fe08207/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（jp）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/a1/3e/9fa13ec6-ed71-7433-de35-79eef34b5b33/hm_SS-01_2622-1206_v2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3a/a2/dc/3aa2dc7b-4f62-c1c9-d366-7700651aa06b/hm_SS-02_2622-1206_v3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/3f/45/d83f459d-5e64-dde1-9819-2fc965a50500/hm_SS-03_2622-1206_A_v4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/53/b3/4853b31f-fa44-da4f-bda7-11a51a8d6f6e/hm_SS-04_2622-1206-B_v3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/1f/0d/eb1f0de2-3b02-5711-75d2-e417bb8f851e/hm_SS-05_2622-1206_v4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/14/77/48147751-5817-3923-1df0-0edb90552856/hm_SS-01_2752-2064_v2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/97/1f/5c971f34-991c-0ba0-43e0-1a6f688d5392/hm_SS-02_2752-2064_v2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/29/e2/2a29e264-23a6-8181-a2b2-f7159bc6cdba/hm_SS-03_2752-2064_A_v3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/a2/86/26a28604-59ee-731e-37d9-eb375ed61ab6/hm_SS-04_2752-2064_B_v2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/84/56/61845696-618d-980b-4b21-02b2b2a9f3a1/hm_SS-05_2752-2064_v3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "日区 App Store 包体 1,363,124,224 字节、v1.0.0、2026-11-24 上线",
+   "level": "confirmed"
+  },
+  {
+   "claim": "日区 4.76 分 / 17,826 条评分，上线两天内形成",
+   "level": "confirmed"
+  },
+  {
+   "claim": "37 位 hololive 成员参战，四种模式（段位战 / 大会 / 单人 / 好友），含新手辅助与亲爱度系统",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断为 Unity：需 iOS/Android/Windows/浏览器四端同服，未找到官方确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/jp/app/id6762111285",
+  "https://holo-jong.com/",
+  "https://gachago.com/en/news/hololive-mahjong-launch-japan",
+  "https://rygames.store/en/holojan-beginner-assist-37-hololive-talents",
+  "https://play.google.com/store/apps/details?id=com.aiming.hololive.mahjong"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "ホロライブ麻雀 -ホロじゃん-",
+  "country": "jp",
+  "track_id": 6762111285,
+  "seller": "Aiming Inc.",
+  "genres": [
+   "ゲーム",
+   "ボード"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/59/6c/ab596ce5-b7f3-fb7f-1b9c-87528fe08207/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/a1/3e/9fa13ec6-ed71-7433-de35-79eef34b5b33/hm_SS-01_2622-1206_v2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3a/a2/dc/3aa2dc7b-4f62-c1c9-d366-7700651aa06b/hm_SS-02_2622-1206_v3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/3f/45/d83f459d-5e64-dde1-9819-2fc965a50500/hm_SS-03_2622-1206_A_v4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/53/b3/4853b31f-fa44-da4f-bda7-11a51a8d6f6e/hm_SS-04_2622-1206-B_v3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/1f/0d/eb1f0de2-3b02-5711-75d2-e417bb8f851e/hm_SS-05_2622-1206_v4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/14/77/48147751-5817-3923-1df0-0edb90552856/hm_SS-01_2752-2064_v2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/97/1f/5c971f34-991c-0ba0-43e0-1a6f688d5392/hm_SS-02_2752-2064_v2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/29/e2/2a29e264-23a6-8181-a2b2-f7159bc6cdba/hm_SS-03_2752-2064_A_v3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/a2/86/26a28604-59ee-731e-37d9-eb375ed61ab6/hm_SS-04_2752-2064_B_v2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/84/56/61845696-618d-980b-4b21-02b2b2a9f3a1/hm_SS-05_2752-2064_v3.png/626x1112bb.jpg"
+  ],
+  "description": "今度の推し活は、麻雀だ！\nホロライブ公式オンライン麻雀ゲームが登場！\n好きなスタンプや麻雀牌をカスタマイズして、いろんなモードで対局できる！\n推しタレントを選んで一緒に麻雀を楽しもう！\n\n\n▶最高の推し環境でプレイ！\n設定したホロライブタレントの装飾で麻雀プレイができる！\n打ち手、立直演出、立直棒、牌、雀卓、フレームなど1つずつ自由にカスタマイズ可能\n自分だけの最高の推し麻雀環境を整えよう！\n\n▷選べるモードは4種類\nホロじゃんは基本プレイ無料！\n全国のプレイヤーとオンラインで対戦できる「ランクマッチ」や「大会」はもちろん、\n自分のペースで対局できる「シングルモード」、友だちと遊べる「フレンドマッチ」から選べる！\n好きなモードを選んで対局しよう\n\n▶麻雀初心者でも安心\n役候補やオススメの捨て牌を教えてくれるアシスト機能で麻雀体験をサポート！\n対局終了後に牌譜機能を使って振り返ることもできる\n\n▷ホロじゃんオリジナルストーリー多数\n一緒に対局すると読めるシチュエーションシナリオや、好感度を上げると解放されるキャラクターストーリーが充実！\n対局やプレゼント、トーク機能を使って推しタレントと絆を深めよう！\n\n\n▶登場タレント一覧\nときのそら、ロボ子さん、AZKi、さくらみこ\nアキ・ローゼンタール、赤井はあと、夏色まつり、白上フブキ\n百鬼あやめ、癒月ちょこ、大空スバル、大神ミオ、猫又おかゆ\n兎田ぺこら、不知火フレア、白銀ノエル、宝鐘マリン\n角巻わため、常闇トワ、姫森ルーナ\n雪花ラミィ、桃鈴ねね、獅白ぼたん、尾丸ポルカ\nラプラス・ダークネス、鷹嶺ルイ、博衣こより、風真いろは\n音乃瀬奏、一条莉々華、儒烏風亭らでん、轟はじめ\n響咲リオナ、虎金妃笑虎、水宮枢、輪堂千速、綺々羅々ヴィヴィ\n\n\n【注意事項】\n・本アプリはリアルマネーギャンブルおよび、現金や実世界で価値のある賞品を獲得する機会を提供するものではありません。\n・本アプリには一部有料コンテンツが含まれます。\n\n© COVER　© Aiming Inc.",
+  "release_notes": "正式サービス開始",
+  "file_size_bytes": 1363124224,
+  "min_os": "15.6",
+  "version": "1.0.0",
+  "release_date": "2026-11-24",
+  "rating": 4.75535,
+  "rating_count": 17826,
+  "price": "無料",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96%E9%BA%BB%E9%9B%80-%E3%83%9B%E3%83%AD%E3%81%98%E3%82%83%E3%82%93/id6762111285?uo=4",
+  "source": "manual-itunes-search",
+  "fetched_at": "2026-11-27T22:35:59+08:00"
+ },
+ "slug": "ホロライブ麻雀_ホロじゃん_76b4ff"
+}

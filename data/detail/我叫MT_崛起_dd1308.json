@@ -1,0 +1,296 @@
+{
+ "schema_version": 1,
+ "name": "我叫MT:崛起",
+ "updated_at": "2026-11-27",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "海南祺曜互动娱乐有限公司",
+  "category_l1": "角色",
+  "category_l2": "卡牌",
+  "boards": [
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "wx/畅销榜": 4
+  },
+  "platform_app_ids": {
+   "wx": "wx96d5cd65b58b13b2"
+  },
+  "first_seen": "2026-09-02",
+  "appearances": 13,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "3D 渲染场景 + Q 版「贴脸」角色（2D 表情贴在 3D 模型上），竖版自动推进战斗",
+  "dims": {
+   "engine": 3,
+   "art": 5,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 5,
+   "server": 4,
+   "audio": 4
+  },
+  "dim_notes": {
+   "engine": "放置卡牌的战斗、养成、抽卡三大件都要自己搭框架，但每一件都是成熟套路，不需要改引擎",
+   "art": "iOS 包 747MB，主要是英雄 3D 模型、立绘、Q 版表情与像素过场；英雄数量直接决定美术成本上限，是本案最重的一项",
+   "anim": "自动战斗走帧动画与简单特效，无骨骼精调，量在「每个英雄一套必杀」上",
+   "physics": "竖版站桩对轰，无位移与碰撞判定，物理层几乎为零",
+   "logic": "战斗自动推进，复杂度不在操作而在关卡数值、羁绊组合、爬塔与副本轮换的设计量",
+   "data": "四条阵营羁绊、装备、技能、突破、共鸣继承、挂机收益、竞技场赛季叠在一起，是全案最重的一块",
+   "server": "竞技场、公会攻城战、世界频道成就播报都要服务端，属异步 PVP 不涉实时对战",
+   "audio": "经典台词、必杀语音与 Q 版配音，定制但非全语音，量级中偏上"
+  },
+  "asset_notes": "英雄模型与立绘是主要美术投入，可按角色批量外包；但哀木涕、傻馒、劣人、法丝、呆贼这一套形象与台词属授权范围，素材不是瓶颈，版权才是",
+  "notes": "与已建档《最强小队》为同一产品的抖音小游戏渠道版本：抖音版按 Cocos Creator 2D 重制（337MB），iOS 与微信端是 3D 包体（747MB）。原画版权在乐动卓越/椰子传奇一侧，研发为杭州椰子传奇与广州星嘉，发行海南祺曜互动",
+  "cost_score": 3.62,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "编好五人阵容（坦 / 输出 / 奶 / 控）后进关卡，战斗全自动推进、攒怒气放必杀；赢了拿经验金币装备，回城把资源投进升星、装备与羁绊，战力够了再推下一关，离线时挂机继续攒。",
+  "highlights": [
+   "无损重置加共鸣继承：练错角色材料全额退回，新角色直接继承主力进度，「换阵容」零成本，这是同类里最稀缺的爽点",
+   "离线挂机按队伍短板调整收益类型，上线一键收菜，收益自动补最缺的那一项，不用做资源算术",
+   "突破时播专属动画并重放原作名台词，老玩家的情怀被精准打中，比任何数值奖励都有效",
+   "一键上阵加三档战斗速度与跳过，操作负担压到接近零，决策全留在战前的阵容与站位"
+  ],
+  "innovations": [
+   "共鸣继承加无损回退把卡牌游戏最大的试错成本抹掉，本质是把「换阵容」从付费点变成免费功能",
+   "挂机收益按队伍短板动态分配资源类型，而不是固定产出，减少了玩家的资源规划负担"
+  ],
+  "target_user": "25-40 岁《我叫MT》动画老观众为主，兼收泛放置卡牌用户，碎片时间挂机",
+  "monetization": "混合：抽卡（钻石 / 招募契约）与成长基金、礼包为主，辅以激励视频（加速挂机、额外副本）；上线期主打「2000 抽」福利钩子",
+  "lifecycle": "长线运营加滚服：App 先行（10-10 公测），微信小游戏 11-25 接棒，靠活动节奏与开新区维持流水"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "机制是放置卡牌的标准解（自动战斗 + 五人阵容 + 多线养成 + 挂机 + 竞技场），没有需要抄的结构；真正的门槛是《我叫MT》正版授权与 700MB 级英雄资产。微信畅销第 4 来自 IP 情怀加首发福利加买量，不是玩法突围。唯一值得拿的是「无损重置 + 共鸣继承」这一层体验设计。",
+  "suggestions": [
+   "把「一键上阵 + 无损重置 + 共鸣继承」当默认配置做进自有小队养成，新用户不必先学会「该练谁」",
+   "只借战斗可读性三件套（头像灰化 / MVP 领奖台 / 挨打台词），套到自有自动战斗表现上，两周可完成",
+   "题材避开已有强 IP 的怀旧向（MT、魔兽梗），否则买量素材与用户预期都会撞车",
+   "若要做 IP 二次开发，先确认授权链（版权方 / 研发方 / 渠道方常是三家），别只看发行商署名"
+  ],
+  "risks": [
+   "《我叫MT》角色形象与台词属授权范围，无授权做同款直接侵权",
+   "放置卡牌赛道已被头部锁死，买量 CPI 高，福利拉来的用户在福利结束后会快速流失",
+   "多线养成加滚服结构对长线运营要求极高，小团队接手容易做成「开服即巅峰」"
+  ],
+  "effort": "不建议立项；若只做「无损重置 + 共鸣继承」这层体验，8–12 人日（1 前端 + 0.5 策划）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "「练错就废」是卡牌玩家最大的退出理由，本作用无损回退加共鸣继承把这条劝退点直接拆掉，TapTap 好评里「换阵方便」被反复提到"
+    },
+    {
+     "lens": "用户",
+     "text": "情怀只对看过动画的人成立：微信畅销第 4 靠的是哀木涕这张脸，换成原创角色，同一套玩法对泛用户的吸引力会掉一大截"
+    },
+    {
+     "lens": "业务",
+     "text": "可迁移的只有「无损重置 + 共鸣继承 + 一键上阵」这一层体验设计，不动战斗与经济，接进自有小队养成约两周"
+    },
+    {
+     "lens": "业务",
+     "text": "不做的话，自有卡牌或小队玩法会继续在「新用户不知道该练谁」上流失，而这恰好是最便宜能补的一环"
+    }
+   ],
+   "how": [
+    "在自有小队养成里加「共鸣位 + 一键回退」：先集中练 5 个核心，其余继承最低进度，灰度一周看新用户 7 日留存",
+    "把「一键上阵 + 推荐阵容」做成默认入口而不是辅助按钮，A/B 看首日组队完成率与首战胜率"
+   ],
+   "gain": [
+    "省掉一整轮「该练谁」的新手教育成本，把首日流失最集中的一段补上",
+    "沉淀一套可复用的养成容错组件（回退 / 继承 / 推荐阵容），后续每个新玩法都能挂",
+    "明确不做：700MB 级英雄资产与多线养成不做，避免把团队拖进长线运营与滚服节奏",
+    "拿到一个判断口径：IP 情怀型产品的榜位不等于玩法机会，评估时先看授权链再谈复刻"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "版权在乐动卓越/椰子传奇一侧，研发为杭州椰子传奇与广州星嘉、发行海南祺曜，三方分工已定，没有外部代理入口",
+    "唯一可谈的是「无损重置 + 共鸣」这套体验设计的授权，但它是通用做法，无需付费"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "会员成长容错",
+     "how": "把共鸣继承改成会员等级共享经验，高等级权益直接继承到新角色，降低升级决策压力"
+    },
+    {
+     "scene": "IP 联动活动位",
+     "how": "只借「开荒队」叙事外壳，把五人阵容换成活动角色，一次性活动用完即撤，不背长线养成"
+    }
+   ]
+  },
+  "summary": "只取无损重置与共鸣继承，IP 与养成线不碰"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/a2/c5/7aa2c5f1-8b57-39b7-336c-bc01f5c750bf/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/11/21/36/1121363f-e909-27b8-51ed-04556320b60d/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/24/50/fe2450e7-e27d-e7a0-85db-64e0ce3718bf/1790242882616.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/9f/4f/8a9f4ff6-95b3-8f4c-25c4-98aee1485c28/3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/fb/e3/d1fbe321-149c-76be-52e8-54f8c45017ac/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/98/e8/f998e812-d411-45ad-161d-b04fc153a1f5/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/c8/8d/bdc88d57-593a-a469-e580-d0ab888a857c/11.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/d0/82/0ad08265-c6c9-7798-387a-987c96686e47/1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/93/37/3a/93373a5b-76cb-16ca-3cf0-df681dca0650/1790242894708.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/62/af/1762af0a-ca73-42bb-e042-756cf5a82de6/1788516218064.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/8a/66/d28a6624-d940-82ad-0c1f-64ea66d30565/4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/bb/fc/b5bbfcbe-532c-33a7-5f96-3deeb659d28f/5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/43/a8/9843a895-885b-384e-4a4c-699bbc31b0ed/33.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "iOS 包 747,671,552 字节、v3.0、2026-10-10 上线、4.24 分 / 3,547 条评分",
+   "level": "confirmed"
+  },
+  {
+   "claim": "安卓包名 com.mtjq.aligames，与已建档《最强小队》为同一产品的抖音渠道版本",
+   "level": "confirmed"
+  },
+  {
+   "claim": "研发为杭州椰子传奇与广州星嘉，发行海南祺曜互动；微信小游戏 11-25 首发进畅销榜 TOP7，iOS 首月预估收入 8,676 万元",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎推断为 Unity（3D 场景 + 竖版自动战斗，未找到官方确认）；抖音版为 Cocos Creator 2D 重制",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/id6808532104",
+  "https://so.html5.qq.com/page/real/search_news?docid=70000021_2736b08ca0d08252",
+  "http://mp.weixin.qq.com/s?__biz=MzkwMzI3MDY2Ng==&mid=2247517576&idx=1&sn=71288e6dc12c582fd55de5465ee8c6de",
+  "https://m.86ps.com/game/91239116.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "我叫MT：崛起",
+  "country": "cn",
+  "track_id": 6808532104,
+  "seller": "Chengmai Wulin Interactive Entertainment Co.,Ltd",
+  "genres": [
+   "游戏",
+   "角色扮演",
+   "卡牌"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/a2/c5/7aa2c5f1-8b57-39b7-336c-bc01f5c750bf/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/11/21/36/1121363f-e909-27b8-51ed-04556320b60d/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/24/50/fe2450e7-e27d-e7a0-85db-64e0ce3718bf/1790242882616.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/9f/4f/8a9f4ff6-95b3-8f4c-25c4-98aee1485c28/3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/fb/e3/d1fbe321-149c-76be-52e8-54f8c45017ac/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/98/e8/f998e812-d411-45ad-161d-b04fc153a1f5/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/c8/8d/bdc88d57-593a-a469-e580-d0ab888a857c/11.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/d0/82/0ad08265-c6c9-7798-387a-987c96686e47/1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/93/37/3a/93373a5b-76cb-16ca-3cf0-df681dca0650/1790242894708.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/62/af/1762af0a-ca73-42bb-e042-756cf5a82de6/1788516218064.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/8a/66/d28a6624-d940-82ad-0c1f-64ea66d30565/4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/bb/fc/b5bbfcbe-532c-33a7-5f96-3deeb659d28f/5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/43/a8/9843a895-885b-384e-4a4c-699bbc31b0ed/33.jpg/626x1112bb.jpg"
+  ],
+  "description": "《我叫MT：崛起》是一款以魔幻世界为背景的卡牌放置类手游，在MT的世界里，你将作为一位异世大陆冒险者，与哀木涕以及菊爆大队的一众伙伴并肩同行，重温原汁原味的大陆开荒冒险，击败最终敌人，为世界带来和平与生机！\n【多元搭配｜自由组建专属阵容】\n故事始于莫高雷，贪财怕死的哀木涕在逃命时，一头撞上了手握大锤的耿直傻馒，两只萌牛就此开启了贫瘠之地的作死之旅。而你，就是那个倒霉的“会长”，负责带领这段冒险的展开。你将亲手将劣人、美屡、法丝等奇葩收入麾下，组建史上最不靠谱的“炮灰开荒队”！游戏内雷霆部落、暴风联盟、永恒领袖（光）、永恒领袖（暗）四大阵营集结，羁绊加成强到飞起。自由培养本命英雄，队伍随心搭配，针对关卡进行随时变阵。拒绝死板套路，只要不灭团，怎么玩你来说了算！\n\n【丰富历练｜多维刷本高效养成】\n- 全员开荒刷本时代开启！所有副本全由你一手调度，全四大日常副本随你按需挂机，经验、金币、英雄、装备薅个遍，再也不用卡级坐牢、拖慢全队开荒进度！\n- 卡拉赞之塔层层进阶、难度飙升，能不能带队伍冲上高层全看你的指挥！每层通关都能拿下特定奖励，进度达标还能解锁隐藏福利，狠狠拉高全队战力！\n- 罪魂之塔无尽连战接连开启，你亲自调配五人小队全力闯关！层数越高奖励越丰厚，尽情突破战力上限，带这支奇葩开荒队一闯到底吧！\n\n【战役闯关｜解锁海量挂机收益】\n不想熬夜爆肝、不想坐牢开荒？这套护肝挂机系统专为轻松开荒的你量身打造！全程自动刷本攒资源、默默涨战力，摸鱼间隙就能一键收满挂机福利、调整小队阵容、闯关刷材料。不管是佛系养老，还是硬核养成冲榜全都适配！轻轻松松带领菊爆大队做大做强！\n\n【竞技对决｜切磋比拼阵容实力】\n刷本刷腻了只想跟人比划比划？那就拉上你的开荒小队进军PVP竞技场！告别单机闯关，全服各路冒险者实时在线切磋PK！身为全队掌舵人，你随时可以主动发起挑战，尽情秀出你的阵容搭配与养成套路！无论对战输赢，都能稳稳拿下专属升级材料和经验道具，绝不白打一场！全力冲刺更高竞技排名，还能解锁独家竞技福利，和全服冒险者比拼战术、卷出实力，解锁不一样的热血开荒乐趣~\n\n这片魔幻大陆的冒险永不停歇，菊爆大队的开荒集结号已然吹响。无论是重温当年热血的老玩家，还是初入世界的新晋会长，都能在这里找到属于你的开荒乐趣。即刻预约游戏加入队伍，与哀木涕一众伙伴并肩，开启这场轻松又热血的奇幻冒险吧！",
+  "release_notes": "各位勇士，荣耀殿堂活动火热进行中！\n参与活动即可入驻荣耀殿堂，解锁荣誉身份，拥有向全服玩家发放钻石的专属特权，还能在荣耀殿堂商店兑换全新主角时装「邪焰女王」，欢迎各位勇士前往游玩兑换！与此同时，“北境攻城战” 正在紧张筹备中，公会全员集结，攻城鏖战，争夺豪华排名奖励与公会荣耀，敬请期待！\n本次版本还适配了 iPhone DUO~\n记得持续关注活动公告，各活动上线前会同步详细情报，更多精彩内容不容错过！",
+  "file_size_bytes": 747671552,
+  "min_os": "15.0",
+  "version": "3.0",
+  "release_date": "2026-10-10",
+  "rating": 4.23851,
+  "rating_count": 3547,
+  "price": "免费",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/cn/app/%E6%88%91%E5%8F%ABmt-%E5%B4%9B%E8%B5%B7/id6808532104?uo=4",
+  "fetched_at": "2026-11-27T22:32:32+08:00"
+ },
+ "slug": "我叫MT_崛起_dd1308"
+}

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T12:19:20+08:00",
+ "updated_at": "2026-11-27T22:34:45+08:00",
  "games": {
   "赵云与阿斗": {
    "matched": true,
@@ -8975,6 +8975,289 @@
   "速通脑洞王": {
    "matched": false,
    "fetched_at": "2026-11-25T12:14:27+08:00"
+  },
+  "动物搬搬砖": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:32:30+08:00"
+  },
+  "我叫MT:崛起": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "我叫MT：崛起",
+   "country": "cn",
+   "track_id": 6808532104,
+   "seller": "Chengmai Wulin Interactive Entertainment Co.,Ltd",
+   "genres": [
+    "游戏",
+    "角色扮演",
+    "卡牌"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/a2/c5/7aa2c5f1-8b57-39b7-336c-bc01f5c750bf/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/11/21/36/1121363f-e909-27b8-51ed-04556320b60d/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/24/50/fe2450e7-e27d-e7a0-85db-64e0ce3718bf/1790242882616.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/9f/4f/8a9f4ff6-95b3-8f4c-25c4-98aee1485c28/3.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/fb/e3/d1fbe321-149c-76be-52e8-54f8c45017ac/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/98/e8/f998e812-d411-45ad-161d-b04fc153a1f5/5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/c8/8d/bdc88d57-593a-a469-e580-d0ab888a857c/11.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/d0/82/0ad08265-c6c9-7798-387a-987c96686e47/1.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/93/37/3a/93373a5b-76cb-16ca-3cf0-df681dca0650/1790242894708.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/62/af/1762af0a-ca73-42bb-e042-756cf5a82de6/1788516218064.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/8a/66/d28a6624-d940-82ad-0c1f-64ea66d30565/4.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/bb/fc/b5bbfcbe-532c-33a7-5f96-3deeb659d28f/5.jpg/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/43/a8/9843a895-885b-384e-4a4c-699bbc31b0ed/33.jpg/626x1112bb.jpg"
+   ],
+   "description": "《我叫MT：崛起》是一款以魔幻世界为背景的卡牌放置类手游，在MT的世界里，你将作为一位异世大陆冒险者，与哀木涕以及菊爆大队的一众伙伴并肩同行，重温原汁原味的大陆开荒冒险，击败最终敌人，为世界带来和平与生机！\n【多元搭配｜自由组建专属阵容】\n故事始于莫高雷，贪财怕死的哀木涕在逃命时，一头撞上了手握大锤的耿直傻馒，两只萌牛就此开启了贫瘠之地的作死之旅。而你，就是那个倒霉的“会长”，负责带领这段冒险的展开。你将亲手将劣人、美屡、法丝等奇葩收入麾下，组建史上最不靠谱的“炮灰开荒队”！游戏内雷霆部落、暴风联盟、永恒领袖（光）、永恒领袖（暗）四大阵营集结，羁绊加成强到飞起。自由培养本命英雄，队伍随心搭配，针对关卡进行随时变阵。拒绝死板套路，只要不灭团，怎么玩你来说了算！\n\n【丰富历练｜多维刷本高效养成】\n- 全员开荒刷本时代开启！所有副本全由你一手调度，全四大日常副本随你按需挂机，经验、金币、英雄、装备薅个遍，再也不用卡级坐牢、拖慢全队开荒进度！\n- 卡拉赞之塔层层进阶、难度飙升，能不能带队伍冲上高层全看你的指挥！每层通关都能拿下特定奖励，进度达标还能解锁隐藏福利，狠狠拉高全队战力！\n- 罪魂之塔无尽连战接连开启，你亲自调配五人小队全力闯关！层数越高奖励越丰厚，尽情突破战力上限，带这支奇葩开荒队一闯到底吧！\n\n【战役闯关｜解锁海量挂机收益】\n不想熬夜爆肝、不想坐牢开荒？这套护肝挂机系统专为轻松开荒的你量身打造！全程自动刷本攒资源、默默涨战力，摸鱼间隙就能一键收满挂机福利、调整小队阵容、闯关刷材料。不管是佛系养老，还是硬核养成冲榜全都适配！轻轻松松带领菊爆大队做大做强！\n\n【竞技对决｜切磋比拼阵容实力】\n刷本刷腻了只想跟人比划比划？那就拉上你的开荒小队进军PVP竞技场！告别单机闯关，全服各路冒险者实时在线切磋PK！身为全队掌舵人，你随时可以主动发起挑战，尽情秀出你的阵容搭配与养成套路！无论对战输赢，都能稳稳拿下专属升级材料和经验道具，绝不白打一场！全力冲刺更高竞技排名，还能解锁独家竞技福利，和全服冒险者比拼战术、卷出实力，解锁不一样的热血开荒乐趣~\n\n这片魔幻大陆的冒险永不停歇，菊爆大队的开荒集结号已然吹响。无论是重温当年热血的老玩家，还是初入世界的新晋会长，都能在这里找到属于你的开荒乐趣。即刻预约游戏加入队伍，与哀木涕一众伙伴并肩，开启这场轻松又热血的奇幻冒险吧！",
+   "release_notes": "各位勇士，荣耀殿堂活动火热进行中！\n参与活动即可入驻荣耀殿堂，解锁荣誉身份，拥有向全服玩家发放钻石的专属特权，还能在荣耀殿堂商店兑换全新主角时装「邪焰女王」，欢迎各位勇士前往游玩兑换！与此同时，“北境攻城战” 正在紧张筹备中，公会全员集结，攻城鏖战，争夺豪华排名奖励与公会荣耀，敬请期待！\n本次版本还适配了 iPhone DUO~\n记得持续关注活动公告，各活动上线前会同步详细情报，更多精彩内容不容错过！",
+   "file_size_bytes": 747671552,
+   "min_os": "15.0",
+   "version": "3.0",
+   "release_date": "2026-10-10",
+   "rating": 4.23851,
+   "rating_count": 3547,
+   "price": "免费",
+   "advisory": "9+",
+   "url": "https://apps.apple.com/cn/app/%E6%88%91%E5%8F%ABmt-%E5%B4%9B%E8%B5%B7/id6808532104?uo=4",
+   "fetched_at": "2026-11-27T22:32:32+08:00"
+  },
+  "ホロライブ麻雀 -ホロじゃん-": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "ホロライブ麻雀 -ホロじゃん-",
+   "country": "jp",
+   "track_id": 6762111285,
+   "seller": "Aiming Inc.",
+   "genres": [
+    "ゲーム",
+    "ボード"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/59/6c/ab596ce5-b7f3-fb7f-1b9c-87528fe08207/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/a1/3e/9fa13ec6-ed71-7433-de35-79eef34b5b33/hm_SS-01_2622-1206_v2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3a/a2/dc/3aa2dc7b-4f62-c1c9-d366-7700651aa06b/hm_SS-02_2622-1206_v3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/3f/45/d83f459d-5e64-dde1-9819-2fc965a50500/hm_SS-03_2622-1206_A_v4.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/53/b3/4853b31f-fa44-da4f-bda7-11a51a8d6f6e/hm_SS-04_2622-1206-B_v3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/1f/0d/eb1f0de2-3b02-5711-75d2-e417bb8f851e/hm_SS-05_2622-1206_v4.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/14/77/48147751-5817-3923-1df0-0edb90552856/hm_SS-01_2752-2064_v2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/97/1f/5c971f34-991c-0ba0-43e0-1a6f688d5392/hm_SS-02_2752-2064_v2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/29/e2/2a29e264-23a6-8181-a2b2-f7159bc6cdba/hm_SS-03_2752-2064_A_v3.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/a2/86/26a28604-59ee-731e-37d9-eb375ed61ab6/hm_SS-04_2752-2064_B_v2.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/84/56/61845696-618d-980b-4b21-02b2b2a9f3a1/hm_SS-05_2752-2064_v3.png/626x1112bb.jpg"
+   ],
+   "description": "今度の推し活は、麻雀だ！\nホロライブ公式オンライン麻雀ゲームが登場！\n好きなスタンプや麻雀牌をカスタマイズして、いろんなモードで対局できる！\n推しタレントを選んで一緒に麻雀を楽しもう！\n\n\n▶最高の推し環境でプレイ！\n設定したホロライブタレントの装飾で麻雀プレイができる！\n打ち手、立直演出、立直棒、牌、雀卓、フレームなど1つずつ自由にカスタマイズ可能\n自分だけの最高の推し麻雀環境を整えよう！\n\n▷選べるモードは4種類\nホロじゃんは基本プレイ無料！\n全国のプレイヤーとオンラインで対戦できる「ランクマッチ」や「大会」はもちろん、\n自分のペースで対局できる「シングルモード」、友だちと遊べる「フレンドマッチ」から選べる！\n好きなモードを選んで対局しよう\n\n▶麻雀初心者でも安心\n役候補やオススメの捨て牌を教えてくれるアシスト機能で麻雀体験をサポート！\n対局終了後に牌譜機能を使って振り返ることもできる\n\n▷ホロじゃんオリジナルストーリー多数\n一緒に対局すると読めるシチュエーションシナリオや、好感度を上げると解放されるキャラクターストーリーが充実！\n対局やプレゼント、トーク機能を使って推しタレントと絆を深めよう！\n\n\n▶登場タレント一覧\nときのそら、ロボ子さん、AZKi、さくらみこ\nアキ・ローゼンタール、赤井はあと、夏色まつり、白上フブキ\n百鬼あやめ、癒月ちょこ、大空スバル、大神ミオ、猫又おかゆ\n兎田ぺこら、不知火フレア、白銀ノエル、宝鐘マリン\n角巻わため、常闇トワ、姫森ルーナ\n雪花ラミィ、桃鈴ねね、獅白ぼたん、尾丸ポルカ\nラプラス・ダークネス、鷹嶺ルイ、博衣こより、風真いろは\n音乃瀬奏、一条莉々華、儒烏風亭らでん、轟はじめ\n響咲リオナ、虎金妃笑虎、水宮枢、輪堂千速、綺々羅々ヴィヴィ\n\n\n【注意事項】\n・本アプリはリアルマネーギャンブルおよび、現金や実世界で価値のある賞品を獲得する機会を提供するものではありません。\n・本アプリには一部有料コンテンツが含まれます。\n\n© COVER　© Aiming Inc.",
+   "release_notes": "正式サービス開始",
+   "file_size_bytes": 1363124224,
+   "min_os": "15.6",
+   "version": "1.0.0",
+   "release_date": "2026-11-24",
+   "rating": 4.75535,
+   "rating_count": 17826,
+   "price": "無料",
+   "advisory": "12+",
+   "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96%E9%BA%BB%E9%9B%80-%E3%83%9B%E3%83%AD%E3%81%98%E3%82%83%E3%82%93/id6762111285?uo=4",
+   "source": "manual-itunes-search",
+   "fetched_at": "2026-11-27T22:35:59+08:00"
+  },
+  "デジモンアリシオン": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "デジモンアリシオン",
+   "country": "jp",
+   "track_id": 6740988190,
+   "seller": "BANDAI Co., Ltd.",
+   "genres": [
+    "ゲーム",
+    "カード",
+    "アドベンチャー"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/5d/f0/655df06f-481e-60c0-7319-8b791ea4dc8f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/5a/a1/905aa17a-9552-4568-fc9c-865cfcfa8250/ja_JP_6.9inch_01.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/40/b5/0840b5e1-33f1-85e1-4dbc-9414915e2600/ja_JP_6.9inch_02.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/d4/40/2ed4407c-94c4-e52f-3eae-ad5b53e22ad6/ja_JP_6.9inch_03.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/7e/03/9e7e0387-d869-453c-fd2e-702c8cd72cb9/ja_JP_6.9inch_04.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/83/80/d9838013-ea48-0f1e-75c2-2c2c569d4667/ja_JP_6.9inch_05.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/05/94/f7059424-3e1b-75d6-7142-e27e06bcbd9a/ja_JP_6.9inch_06.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/3f/72/f23f72ba-3075-db75-1a7c-4fb4e3ef72e7/ja_JP_6.9inch_07.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/c2/dc/fbc2dc51-736c-9d16-9fc2-060716ee3b90/ja_JP_6.9inch_08.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/41/99/834199aa-1e0a-4e1f-11f6-cfabe81dd395/ja_JP_13inch_01.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/49/b6/bb/49b6bb8c-a271-a701-da08-ec7e80b212fe/ja_JP_13inch_02.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/2c/ed/992ced81-0500-da37-b7c0-3488d44230ed/ja_JP_13inch_03.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/8b/53/0b8b5376-e15f-e23a-87c6-f2ef766767ee/ja_JP_13inch_04.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/b2/c3/13b2c337-9601-19fe-5aba-7adb78663d22/ja_JP_13inch_05.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/5c/d4/155cd463-f435-944f-d51b-c9c7792aba0f/ja_JP_13inch_06.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/4c/f1/fc4cf159-884d-847e-287f-c78c4e881a74/ja_JP_13inch_07.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/99/7f/97997fd9-4d0d-bcdd-72e7-e5d0f7862280/ja_JP_13inch_08.png/626x1112bb.jpg"
+   ],
+   "description": "『デジモンアリシオン』ついに始動！\n新たなデジモンの世界を「デジモンカードゲーム」とともに楽しもう！\n\n■オリジナルストーリー！\nオリジナルキャラクターが織りなす未知のストーリー！\nまだ見ぬデジモンにも会えるかも!？キャラクターやデジモンたちとともに、新たな冒険を始めよう！\n\n■初めての方でも安心！\nカードの見方や使い方、戦い方までを丁寧に解説！\nトレーディングカードゲームを初めてプレイする方でも気軽に遊べる充実のチュートリアル！\nストーリーを体感しながらルールやカードの使い方を学んで\n「デジモンカードゲーム」の熱い駆け引きを体験しよう！\n\n■カードパックが毎日無料！\n毎日無料のパックを開封してカードを手に入れよう！\n戦略やプレイスタイルに合わせて、カードを自由に組み合わせて\n自分だけの最強のデッキを構築しよう！\n\n■自由に対戦を楽しもう！\n上位ランクを目指して、世界中の猛者と激戦の日々を過ごすもよし！\n友達やキャラクターたちと対戦を楽しみ、自分のペースで腕を磨くもよし！\n『デジモンアリシオン』の世界を遊び尽くそう！\n\n■魅力的なカードが満載！\n「デジモンカードゲーム」でこれまで登場してきたカードに加え\n『デジモンアリシオン』から新たに登場するカードも参戦！\nさらに、キラリと輝く「シャイン」、お馴染みの「パラレル」や\n豪華演出の「プレミアムパラレル」など、豊富なバリエーションを収録！\n多彩なカードをコレクションして、デジモンカードを味わい尽くそう！\n\n■デジモンを育成しよう！\n『デジモン』ならではの機能も搭載！デジモンを育成して究極体へ進化させよう！\n100体以上が収録されたデジモン図鑑のコンプリートを目指そう！\n\n他にも、「デジモンカードゲーム」を遊びやすく、楽しくプレイできる要素が盛沢山！\n遊んだことがある方も、これから始める方も\n『デジモンアリシオン』で、「デジモンカードゲーム」をプレイしてみよう！\n\n\n【動作環境、その他お問い合わせ】\n「Appサポート」をご確認ください\n\n※このアプリは、必ず「Appサポート」に記載の動作環境でご利用ください。動作環境でご利用の場合も、お客様のご利用状況やご利用機種特有の要因により、本サービスが正常に動作しないことがあります。\n\n\n本アプリケーションは、権利者の正式な許諾を得て配信しています。",
+   "release_notes": "・リリースに向けたアップデート",
+   "file_size_bytes": 170210304,
+   "min_os": "17.6",
+   "version": "1.0.0",
+   "release_date": "2026-11-25",
+   "rating": 3.75862,
+   "rating_count": 58,
+   "price": "無料",
+   "advisory": "9+",
+   "url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%E3%82%A2%E3%83%AA%E3%82%B7%E3%82%AA%E3%83%B3/id6740988190?uo=4",
+   "source": "manual-itunes-search",
+   "fetched_at": "2026-11-27T22:35:59+08:00"
+  },
+  "Jelly Busters: Puzzle Game": {
+   "matched": true,
+   "match_score": 1.0,
+   "match_name": "Jelly Busters: Puzzle Game",
+   "country": "us",
+   "track_id": 6756058501,
+   "seller": "Moon Active LTD",
+   "genres": [
+    "Games",
+    "Casual",
+    "Puzzle"
+   ],
+   "genre": "Games",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ea/cd/76eacdf9-8974-c81a-5e71-379541f5c3fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/80/7e/87807e85-1eaf-64c2-71e7-0796e35bbd3e/08_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/97/ba/f3/97baf3a7-fd99-e615-9dbf-45c6d3c74c64/JLB00728_ZoomLibertyShocked.Screen.CTACOL_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/e4/a0/32e4a0e3-bd36-1bbe-51c7-f84c93978576/JLB00730_AngryStrawberry.Screen.CTACOLOR_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/b5/17/bcb51783-f8ce-1d60-57d0-fe2ee1daece2/09_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/9e/42/a69e42c3-fa16-c2f1-3b13-24e9c7022878/06_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/ea/1e/00ea1e48-7276-947f-13d3-1bb88f6afa00/05_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/9e/b0/859eb0eb-0e09-44d2-2303-cda2133ee9cb/07_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/2c/d0/162cd054-9a20-b2a8-ecce-3f9c204cb1c4/02_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_1242_2688_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/bb/b6/9dbbb62d-8e42-bc97-c476-108b85c6eacc/08_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/40/4a/03404a47-0d51-618c-eb26-c4b81003e816/JLB00728_ZoomLibertyShocked.Screen.CTACOL_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/a3/f6/fca3f63b-358f-bd35-b88f-3b9a49f970d1/JLB00730_AngryStrawberry.Screen.CTACOLOR_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/14/5b/67145b8c-2652-7e06-8372-3bbc2437254e/09_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/91/3b/89913b22-278e-f04a-a7aa-96f41282e4bc/06_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3a/ab/c7/3aabc7a3-b32f-8646-6972-c02e46e66ab5/05_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/26/c5/ed26c56e-d56b-d9c2-d807-94be72dc8f92/07_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/36/11/81/361181fd-b926-4e41-3e88-ae070e46c5e1/02_JLB00731_NewBAU.Set.CTA.Colorful_VER_v2_2048_2732_LNG_EN.png/626x1112bb.jpg"
+   ],
+   "description": "Drop into the smoothest skatepark in town with the Jelly Busters crew, a squad of bouncy jellies who live to skate, color shoot, and bust their way through walls of cubes. Every run starts with a simple push on your board, a quick aim, and a clean shot as you send your jelly flying into a glowing, colorful puzzle blast of cubes hiding a secret picture and image below.\n\nJelly Busters adds a fun, skate-infused twist packed with ASMR pleasure and arcade-style thrills. With every tap, you shoot into stacks of colors, bust the cubes, and slowly keep busting the image underneath until the whole board is clear.\n\nThe sound and feel are tuned for maximum satisfying chill. Cubes crumble with soft pops, jellies bounce just right, and the whole game wraps you in a relaxing mood that still demands fast reaction and strategic thinking. It’s the perfect combination: a cube shooter that’s as soothing as it is intense, always very satisfying to clear the image at the end of a run.\n\nBut the park has tricks of its own. From the very first levels, you’ll see that this isn’t just mindless tapping. The game develops and gets more challenging and harder as you play, with clever layouts and sneaky blockers that force you to plan ahead. Each new level adds a fresh twist - more cubes, tougher patterns, and smarter obstacles that you’ll have to avoid if you want to keep your blast streak going.\n\nTo keep things interesting, you’ll unlock powerful level boosters that turn tight spots into epic comebacks. Trigger a massive blast, shatter whole sections at once, or set off chain reactions that leave nothing behind. As you progress, you’ll constantly win rewards and win prizes, giving your jelly crew more ways to dominate the skatepark and tackle the trickiest levels.\n\nGet ready to compete with players everywhere, pushing your skills to the limit as you advance in leaderboards. When you finally join the leaderboard of top busters, every clean run and every perfectly cleared board will feel even sweeter.\n\nJelly Busters is your new go-to for relaxing ASMR cube action: a wildly exciting and deeply satisfying skatepark adventure filled with jellies, cubes, vibrant colors, puzzle challenges, explosive blast moments, and endless chances to win rewards and prizes while riding along with the coolest jelly crew around.\n\nIn Jelly Busters, every shot is a chance to burst through, and every completed picture feels like a tiny victory. So grab your (skate) board, team up with the jellies, and start busting cubes to enjoy a relaxing yet satisfying yet totally exciting image puzzle blast. \n\nDownload Jelly Busters today and unleash the sweet, strategic chaos of this awesome jelly adventure.\n\nTerms of Service: https://static.moonactive.net/legal/terms.html?lang=en\nPrivacy Notice: https://static.moonactive.net/legal/privacy.html?lang=en",
+   "release_notes": "We are incredibly excited to announce the official launch of Jelly Busters! Drop into the coolest skatepark in town and experience a puzzle game that is as colorful and beautiful as it is satisfying. With soft ASMR pops, glowing hues, and hidden artistic masterpieces to destroy, every run is a relaxing yet thrilling ride...grab your board to join the crew and start busting!",
+   "file_size_bytes": 306511872,
+   "min_os": "13.0",
+   "version": "220000.1.225",
+   "release_date": "2026-01-26",
+   "rating": 4.76826,
+   "rating_count": 13170,
+   "price": "Free",
+   "advisory": "17+",
+   "url": "https://apps.apple.com/us/app/jelly-busters-puzzle-game/id6756058501?uo=4",
+   "fetched_at": "2026-11-27T22:32:45+08:00"
+  },
+  "ケロロ軍曹 ぽちっと大出動であります!": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:32:50+08:00"
+  },
+  "涡轮螺旋桨飞行模拟": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:32:55+08:00"
+  },
+  "狩": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:33:02+08:00"
+  },
+  "アズールプロミリア": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:33:06+08:00"
+  },
+  "像素世界对决": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:33:11+08:00"
+  },
+  "捞火锅啊": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:33:15+08:00"
+  },
+  "Imposter Game - Party Edition": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:33:19+08:00"
+  },
+  "怪奇传说": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:33:23+08:00"
+  },
+  "Fresh Today: Cozy Supermarket": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:33:27+08:00"
+  },
+  "MONSTER HUNTER RISE NETFLIX": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:33:32+08:00"
+  },
+  "太初仙劫": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:33:36+08:00"
+  },
+  "割草解压模拟": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:33:40+08:00"
+  },
+  "小镇加油站": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:33:44+08:00"
+  },
+  "是解压达人": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:33:49+08:00"
+  },
+  "Tool Toss: Spinning Target": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:33:53+08:00"
+  },
+  "脑洞谜题等你来": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:33:57+08:00"
+  },
+  "Charades - Family & Party Game": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:34:01+08:00"
+  },
+  "菲菲奇旅记": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:34:05+08:00"
+  },
+  "Paper.io 2": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:34:10+08:00"
+  },
+  "疯狂开火": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:34:14+08:00"
+  },
+  "勇者历险记": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:34:18+08:00"
+  },
+  "聪慧大脑瓜": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:34:22+08:00"
+  },
+  "モンモンマスターズ": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:34:26+08:00"
+  },
+  "消不到我呀": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:34:31+08:00"
+  },
+  "无敌消消王": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:34:35+08:00"
+  },
+  "QQ飞车": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:34:39+08:00"
+  },
+  "Sled Surfers - ファーズ - 坂冒険": {
+   "matched": false,
+   "fetched_at": "2026-11-27T22:34:43+08:00"
   }
  }
 }
